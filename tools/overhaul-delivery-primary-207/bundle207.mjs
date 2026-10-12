@@ -1,0 +1,3 @@
+import {build} from 'esbuild';
+import {writeFile} from 'node:fs/promises';
+const result=await build({entryPoints:['tools/overhaul-delivery-primary-207/browser-entry207.ts'],bundle:true,format:'iife',platform:'browser',outfile:'tools/overhaul-delivery-primary-207/browser-bundle207.js',logLevel:'silent',metafile:true});await writeFile('tools/overhaul-delivery-primary-207/bundle-preflight207.json',JSON.stringify({status:'STATIC_BUNDLE_PASS_PRIMARY_UNRUN',inputs:Object.keys(result.metafile.inputs),outputs:result.metafile.outputs},null,2));console.log('207 actual-loader bundle prepared; browser UNRUN');

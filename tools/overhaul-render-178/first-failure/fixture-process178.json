@@ -1,0 +1,16 @@
+{
+  "writer": "CLOSED",
+  "job": "fixture",
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-render-178/check178.mts"
+  ],
+  "capSeconds": 45,
+  "startedUTC": "2026-10-11T17:17:32.816075+00:00",
+  "pid": 352520,
+  "exitCode": 1,
+  "status": "TERMINAL",
+  "elapsedSeconds": 0.625,
+  "closedUTC": "2026-10-11T17:17:33.440581+00:00"
+}

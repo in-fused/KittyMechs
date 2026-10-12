@@ -1,0 +1,32 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_COMPLETE_NOT_GAMEPLAY_ACCEPTED",
+  "repairCount": 0,
+  "jobs": [
+    {
+      "command": "node node_modules/tsx/dist/cli.mjs tools/overhaul-cycle-171/reproduce171.mts",
+      "exitCode": 0,
+      "receipt": "counterexample-receipt171.txt",
+      "scope": "original decoded OFF metadata illegal positive Walk clock confirmed before production edit"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-cycle171.test.ts",
+      "exitCode": 0,
+      "passed": 3,
+      "failed": 0,
+      "receipt": "test-receipt171.txt",
+      "durationMs": 2080
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "exitCode": 0,
+      "receipt": "typecheck171.txt",
+      "terminalSession": 89902
+    }
+  ],
+  "excluded": "No old writing fixture, browser/build/server/Blender jobs or delegation",
+  "artifactClosure": {
+    "initialWrite": "UnicodeEncodeError cp1252 on Unicode arrow",
+    "correction": "UTF-8 handoff write only, source/fixture untouched"
+  }
+}

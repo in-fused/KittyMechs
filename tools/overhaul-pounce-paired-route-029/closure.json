@@ -1,0 +1,794 @@
+{
+  "remaining": [
+    "full pair family/current claw-plus-pad contact",
+    "new death/down/uprightpair",
+    "native load/COM/support/legacy3.5pair compatibility",
+    "arbitrary movingRcancel/nativeclimb",
+    "runtime/art/ordinaryplay/Gate1"
+  ],
+  "resultSeal": "tools/overhaul-pounce-paired-route-029/full-result-seal.json",
+  "failure": {
+    "kind": "CROSS_BODY_NONCLAW_SURFACE_CANDIDATES",
+    "beat": "Impact",
+    "clock": 2.4,
+    "frame": 29,
+    "progress": 0.8737997256515775,
+    "count": 6,
+    "candidates": [
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14436,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14438,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14439,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14389,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14388,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14391,
+        "victimCombinedTriangle": 2038
+      }
+    ],
+    "classification": "UNKNOWN conservative BVH candidates; not newly exact-classified; no depth"
+  },
+  "actualClips": 49,
+  "actualStartUTC": "2026-10-10T20:38:32Z",
+  "nativeWorldsCreatedByThisPacket": 0,
+  "actualClipInterpretation": "43 retained actual004 capabilities (paired originals archived),4completePrepare/Approach,2partialImpact; no complete newpair",
+  "fullProcess": {
+    "startUTC": "2026-10-10T16:55:07.594252-04:00",
+    "endUTC": "2026-10-10T16:57:34.993384-04:00",
+    "exitCode": 1,
+    "elapsedSeconds": 147.4069999998901,
+    "failure": null,
+    "inclusiveBoundObserved": true
+  },
+  "cleanup": "Root diagnostic and Blender processes observed closed; no native-world disposal claim; no live authored service",
+  "closedUTC": "2026-10-10T21:03:24.7246745Z",
+  "attempts": {
+    "selfJobs": 0,
+    "fullAuthor": 1,
+    "savedTriangleDiagnostic": 1,
+    "retries": 0,
+    "repairs": 0
+  },
+  "nextAction": "No successor authorized. Any future task must classify six preserved pad/chassis candidate triangles and, if genuine, plan entire wrist/pad/digit/claw articulated surface approach/orientation with reachable fixed chains and support exchange; no isolated scalar marker/root-gap/tolerance/exemption attempts.",
+  "sourceSeal": "tools/overhaul-pounce-paired-route-029/full-seal.json",
+  "independentReview": {
+    "verdict": "Accept preserved partial source/owner evidence only; deny completedpair/contact/art/native/runtime/Gate1",
+    "files": [
+      {
+        "sha256": "32355608bbbc173ffc675297a60c85ab0f5cb9452984394e125a60d0c6048d8c",
+        "path": "docs/overhaul/critic/pounce-paired-route-029-full-result-review.md"
+      },
+      {
+        "sha256": "7d165f3236c491e841954ff2b174a51f9dcddd302ef5600fac192ef17020e732",
+        "path": "tools/overhaul-pounce-paired-route-029/critic-full-result-closure.json"
+      }
+    ],
+    "closedUTC": "2026-10-10T21:02:36.9139325Z"
+  },
+  "cleanupUTC": "2026-10-10T21:10:00Z",
+  "status": "CLOSED_FIRST_GENUINE_FULL_AUTHOR_FAILURE_STOP",
+  "schema": "paired-route029-author-closure",
+  "ownerChecks": {
+    "rest57Exact": true,
+    "bonesPerRow": 57,
+    "rawRows": 470,
+    "independentMaximumResidual": 7.541850209236145E-06
+  },
+  "finalVerification": {
+    "mismatches": [],
+    "resultRows": 30,
+    "checkedRows": 168,
+    "inputRows": 138
+  },
+  "hardUTC": "2026-10-10T21:13:00Z",
+  "checks": [
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/author.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/wholebody_choreography.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/single_pose_owner.py"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/actual004-capability-allowlist.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-preparation-verification.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/author-exact-diff.patch"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/choreography-exact-diff.patch"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-exact-diff.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-command.ps1"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-paired-route-029.md"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-diagnostic-process/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/stdout.txt"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/verified-inputs.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/stdout.txt"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/verified-inputs.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/stdout.txt"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/verified-inputs.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/blender-stdout.txt"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/verified-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/raw.ndjson"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle_diagnostic.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle-input.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/author.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/clocks.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/diagnostic.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-action-records.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-animation-inventory.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-author-ground.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-current-two-body-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-full-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/current-pair-request.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-actual-attributes.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-readback.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-source-offsets.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/first-source-failure.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/fixed-rest-verification.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/inherited-capability-identities.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/matching-clock-two-body-assembly.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-front.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-root-design.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-selected-actual-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-side.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pose-owner-raw.ndjson"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/Pounce_PoseOwner027.blend"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/Pounce_PoseOwner027.raw.glb"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/selected-source-detail.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/source-profile.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner_validation.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/raw-boundaries.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/raw-boundaries.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/wholebody_choreography.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/actual-action-records.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/author.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/first-source-failure.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/matching-clock-two-body-assembly.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/wholebody_choreography.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/author.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/first-source-failure.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/matching-clock-two-body-assembly.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/Pounce_Wholebody021.blend"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/wholebody_choreography.py"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-paired-route-029-diagnostic-code-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-paired-route-029-diagnostic-result-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-pose-owner-027-full-author-result-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-pose-owner-027-single-writer-result-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-wholebody-source-018-code-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/critic/pounce-wholebody-source-018-result-review.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-paired-route-029-diagnostic.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-pose-owner-027-full-author.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-pose-owner-027-RESULT.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-pose-owner-027-single-writer.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-pose-owner-027.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-wholebody-source-018-RESULT.md"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-wholebody-source-018.md"
+    },
+    {
+      "match": true,
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-command.ps1"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/actual004-capability-allowlist.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/closure-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/closure.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/command.ps1"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-analysis.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/final-verification.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-analysis.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-command.ps1"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-exact-diff.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-postrun-input-verification.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/full-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-analysis.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-command.ps1"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-pose-owner-027/protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/actual004-capability-allowlist.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/closure.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/command.ps1"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-code-closure.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-result-closure.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-result-seal-verification.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/postrun-input-verification.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.author.py"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.source_helpers.py"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/protected-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-018/source-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-021/closure.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-021/result-seal.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-wholebody-source-021/source-seal.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-action-records.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-animation-inventory.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-author-ground.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-current-two-body-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-full-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/current-pair-request.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-actual-attributes.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-readback.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-source-offsets.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/first-source-failure.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/fixed-rest-verification.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/inherited-capability-identities.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/matching-clock-two-body-assembly.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/median-tail-route-design.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-front.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-root-design.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-selected-actual-geometry.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-side.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pose-owner-raw.ndjson"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.blend"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.raw.glb"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/receipt.json"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/selected-source-detail.png"
+    },
+    {
+      "match": true,
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/source-profile.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/process-receipt.json"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/stdout.txt"
+    },
+    {
+      "match": true,
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/verified-inputs.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-analysis.json"
+    },
+    {
+      "match": true,
+      "path": "tools/overhaul-pounce-paired-route-029/full-postrun-input-verification.json"
+    },
+    {
+      "match": true,
+      "path": "docs/overhaul/pounce-paired-route-029-RESULT.md"
+    }
+  ],
+  "writersAfterClosure": 0,
+  "jobs": 0,
+  "partialSamples": 77,
+  "diagnostic": {
+    "unknown": 0,
+    "resultSeal": "tools/overhaul-pounce-paired-route-029/diagnostic-result-seal.json",
+    "admission": "surface intersection diagnosis only",
+    "classifications": 126,
+    "exactIntersections": 126
+  }
+}

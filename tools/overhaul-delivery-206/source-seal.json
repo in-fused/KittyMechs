@@ -1,0 +1,81 @@
+{
+  "writer": "CLOSED",
+  "scope": "STATIC_SOURCE_READY_CONVERSION_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-delivery-206/HANDOFF.md",
+      "bytes": 3957,
+      "sha256": "b6903d7ba609dd92f68dd49d2812027b2cf423e64630af9b0b371efb3d508881"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/close-source206.mjs",
+      "bytes": 1963,
+      "sha256": "681cafd3b4db67257ccca5e5cc32d829994e9a94b001d7205c36ca74ae3cb0c1"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/first-fixture-failure/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/first-fixture-failure/fixture206-receipt.json",
+      "bytes": 124497,
+      "sha256": "4d4bd657648164d7f94ef42958fa3789ca9b02f344ac277b7571078820d58e96"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/first-fixture-failure/fixture206.mjs",
+      "bytes": 5840,
+      "sha256": "11751caedcd2f8ce2d5f34558efc4e8709af61d3b035634d0682bd0ab0a2d848"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/fixture206-receipt.json",
+      "bytes": 788531,
+      "sha256": "47a0e64bb0b81b908fcd41a85608a72d3cf39f2b458ce8936eac87671989b101"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/fixture206.mjs",
+      "bytes": 6046,
+      "sha256": "83c248c2210f8a663360ea4c058ce5b46fdd51e995d56760ac38e5f3e602ba17"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/inventory206.json",
+      "bytes": 6132,
+      "sha256": "34cb700b37aa9fb8be74bf3047d3c49ac934c04f64c73ca2ba6c86576379f0d3"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/inventory206.mjs",
+      "bytes": 1491,
+      "sha256": "96f30a2bcba07e511e5ae12890d9b313b34b524e08a78027128abc8cdb7ad031"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "bytes": 9397620,
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "bytes": 17481360,
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "bytes": 30595,
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8"
+    }
+  ],
+  "fixture": {
+    "cases": 2191,
+    "maxResidual": 2.1948948325523077e-7
+  },
+  "conversionExecuted": false,
+  "primaryDecoderExecuted": false,
+  "productionChanges": [],
+  "contactQualified": false
+}

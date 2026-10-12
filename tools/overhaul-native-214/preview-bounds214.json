@@ -1,0 +1,5114 @@
+[
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -3.3435952604549124E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775878422479195,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005827057152215806,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.25039115152898467,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.1165387896943397E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593696771683,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.6823068521576445E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775921579366348,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -6.117529393624352E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277531320664337,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.08774387783210855,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3183698318348892,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -3.3361285435573595E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277602407733336,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -1.668046581214215E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277435761597878,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 7.130376058716442E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277672734688368,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 2.775119310618676E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776273690397655,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 6.867617874955004E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776600710347258,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.038567737406620055,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2947011387239935,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -3.589285619588767E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776052280346282,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": -2.3513157539067908E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277628764606783,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.235091791149337E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775926655858128,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.04567152021845982,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2767470776872427,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.0820695357883384,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3371856591951852,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 2.507245474778208E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776082768121653,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.6541204437301467E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775996123384196,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 3.121479151546591E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775988544226766,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.00917239934358799,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23990230684924704,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 1.5862456954660042E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277749767529629,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 8.683042730852492E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776816871583094,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 6.272428470437824E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277657528724832,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -2.3430587296757732E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776229152374153,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": -9.99536945195216E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277522255927063,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.10387010804033578,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3448031755481702,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -1.8635187858549382E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22774052773700634,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineWalk",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -3.3435952604549124E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775878422479195,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005827057152215806,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.25039115152898467,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.1165387896943397E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593696771683,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.6823068521576445E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775921579366348,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 5.069925690572713E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775955258721028,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005561666837696433,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23605986854561448,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.280032596098768E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775919744359616,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 3.3759088866568143E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775942533394947,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -1.0232937442811521E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775148871267828,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": -5.546384447899233E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776501968277346,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -2.4800094790278226E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776076412887047,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.001202550695785098,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2388354066219289,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.07221567633171269,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3281148474748546,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 4.498815264764033E-09,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22780363693633482,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -1.418052151397342E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776013477129556,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.09898541983284234,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3468519754752753,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.05924895495546568,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.29032003697786524,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": -1.7669576801715436E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777852706559132,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 5.4598631171742795E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277619732548222,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.023669809361031018,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2546788628602164,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 4.311743189572281E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277808643563208,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 5.1135621506256945E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777035601727344,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 6.958559423120292E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776662535299735,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -3.119526390676919E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277757670474936,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -1.545953892678753E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22780905294649242,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.012220220493839334,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2604668640589267,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.04321607153302664,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.29903637413945755,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -1.739181975518589E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776511679986344,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 5.4605413177255535E-09,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777012802005167,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.10355964826444322,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.339773194222535,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.08595037140235684,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3166482176567955,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 6.210727418465289E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775979217485764,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineTrot",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 5.069925690572713E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775955258721028,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005561666837696433,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23605986854561448,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.280032596098768E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775919744359616,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 3.3759088866568143E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775942533394947,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.18167232850763163,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.43069162544007344,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.137562568199509,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.39417585440638875,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.812256458250341E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277595536690903,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.007720031359069547,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23806559432822624,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.15795844581275384,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.38869345046444337,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.18981019779478994,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.4240339983750251,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 5.540595777314694E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777127905192557,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 7.718009079060728E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776359939744398,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.04027019238912988,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2712858905558049,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.09808545519266684,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3291720316778043,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.0004636930002071653,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2340271783653524,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -2.331818696466037E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277675170979154,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -3.9004800840569676E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277868749427405,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005419848507891414,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2355687421619909,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.06688498645351418,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.322793510675048,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.018914242171982953,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.26674258973176257,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 1.5142421011526963E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22781977625680094,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 1.930302445662946E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22780317729003888,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.1779245558999271,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.42816129509740203,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.1305085727094559,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3873649524008746,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.0010599885938990111,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23653876080402972,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": -2.426439895709953E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22785890791251842,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.16363416751705498,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.39418175934003064,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.19114261604627678,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.4273545250406615,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.07417472931402377,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.33066816911667385,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.023328997802627788,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2725246583012409,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.04645489539092851,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2775006176490402,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.10572896464132567,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3367979197813959,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineGallop",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.18167232850763163,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.43069162544007344,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.137562568199509,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.39417585440638875,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.812256458250341E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277595536690903,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.007720031359069547,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.23806559432822624,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517070506587,
+        "foreToHeadSkinVerticalClearance": 0.7671314675682257,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653132513455,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158094367473,
+        "foreToHeadSkinVerticalClearance": 1.1097266848034364,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700960161349,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.3532835109058015E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.227759311645861,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.737133561157845E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277592784626832,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967808195712
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8621987802649852,
+        "foreToHeadSkinVerticalClearance": 0.8377450065819534,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1159074808873923,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6371468310622791,
+        "foreToHeadSkinVerticalClearance": 1.0540430139710917,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.899609473498254,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -2.2129748381005676E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776046927270122,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 4.248479144840223E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.229116699664695,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9536524874693457
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.7017046553075875,
+        "foreToHeadSkinVerticalClearance": 0.9842559227896529,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9613215334202397,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.7748343763102028,
+        "foreToHeadSkinVerticalClearance": 0.9142226358697498,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0313548203401428,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.6734336099065725E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776136576777103,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.12172784402829404,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3733671370463064,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9455774562098926
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.5978013185490438,
+        "foreToHeadSkinVerticalClearance": 1.093505018002512,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8622366715278746,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.916769909325751,
+        "foreToHeadSkinVerticalClearance": 0.7870704560060775,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1686712335243092,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 5.273738164918162E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277647212389062,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.03501706623473866,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2660479040070689,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9557416895303867
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6085923697094204,
+        "foreToHeadSkinVerticalClearance": 1.095091422220499,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8730293568293966,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.9293267771010436,
+        "foreToHeadSkinVerticalClearance": 0.7868937379449399,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.181227041104956,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.8143724366830385E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22778289422886078,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.9002916948340776E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776504614667062,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9681207790498958
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6926086435239259,
+        "foreToHeadSkinVerticalClearance": 0.9902710091473602,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9522262177146302,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.7770443863547899,
+        "foreToHeadSkinVerticalClearance": 0.9089326582668449,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0335645685951456,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.038230999998352666,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.29253123615340093,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.1545130650103541E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776137367589488,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9424972268619904
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8573596296325088,
+        "foreToHeadSkinVerticalClearance": 0.8403832175010284,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.111070900425764,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6392745223394799,
+        "foreToHeadSkinVerticalClearance": 1.0497200596110416,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9017340583157506,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.11935658973352539,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.34981000723799316,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 6.829952506337555E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776104835383804,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9514541179267924
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineUprightWalkLong",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517070506587,
+        "foreToHeadSkinVerticalClearance": 0.7671314675682257,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653132513455,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158094367473,
+        "foreToHeadSkinVerticalClearance": 1.1097266848034364,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700960161349,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.3532835109058015E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.227759311645861,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.737133561157845E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277592784626832,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967808195712
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517070506587,
+        "foreToHeadSkinVerticalClearance": 0.7671314675682257,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653132513455,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158094367473,
+        "foreToHeadSkinVerticalClearance": 1.1097266848034364,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700960161349,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.5570953031693886E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775937017376263,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -2.1782682781829044E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775888127321123,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967808195712
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8622002656150148,
+        "foreToHeadSkinVerticalClearance": 0.8377448950115189,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1159089583568225,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6371481248111112,
+        "foreToHeadSkinVerticalClearance": 1.0540430942042496,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8996107591640918,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.6186145670310514E-09,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277612929057801,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 4.2484517190372745E-06,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.22911801385724864,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9536538533683414
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.7019613994483316,
+        "foreToHeadSkinVerticalClearance": 0.9842667998147151,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9615788724074058,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.7751350355459234,
+        "foreToHeadSkinVerticalClearance": 0.9141909303870077,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0316547418351132,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -1.784964051565474E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777112386979262,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.12172784192080877,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3731227517560286,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.945845672222121
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.5984847978400452,
+        "foreToHeadSkinVerticalClearance": 1.0930231723146897,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8628982412372118,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.9163212074992982,
+        "foreToHeadSkinVerticalClearance": 0.787678221133242,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1682431924186596,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.8676430540987E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277835857516194,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.03501706572035718,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.26601748738734643,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9559214135519016
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6090325137567902,
+        "foreToHeadSkinVerticalClearance": 1.0946532962922448,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8734487630279297,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.9287311801197777,
+        "foreToHeadSkinVerticalClearance": 0.7874508395723525,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.180651219747822,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -3.157257615071796E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22778644975643877,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -4.1669645858832816E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777983822355818,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9681020593201746
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6925017672599943,
+        "foreToHeadSkinVerticalClearance": 0.9902684165691348,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9521196682417584,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.7769576863953145,
+        "foreToHeadSkinVerticalClearance": 0.9089108940572193,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.033477190753674,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.038230999368383804,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.29231202105165166,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -4.4135687465862716E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776812947522754,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9423880848108932
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8564309422467823,
+        "foreToHeadSkinVerticalClearance": 0.8411081428092242,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.11016987403262,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6398026815415694,
+        "foreToHeadSkinVerticalClearance": 1.04904819104675,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9022298257950941,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.11935658813600913,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3497447488672088,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -3.321732125471932E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22778646866927416,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9512780168418442
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "FelineUprightStride",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517070506587,
+        "foreToHeadSkinVerticalClearance": 0.7671314675682257,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653132513455,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158094367473,
+        "foreToHeadSkinVerticalClearance": 1.1097266848034364,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700960161349,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.5570953031693886E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775937017376263,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -2.1782682781829044E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775888127321123,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967808195712
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "R-up",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -1.7800918858217052E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775892376411389,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005773962843582656,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2444885832827565,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.791069521335121E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593359885204,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.032593040702385E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775925490216933,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "R-up",
+    "stance": 0.14285714285714285,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.17892456318895783,
+        "foreToHeadSkinVerticalClearance": 0.8609043614321926,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.41299036245402265,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.2128213197680451,
+        "foreToHeadSkinVerticalClearance": 0.8304716117836327,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.44342311210258256,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -2.7387809034551402E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776003507986634,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.0002084878099274448,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.22990452135691833,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.2738947238862153
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "R-up",
+    "stance": 0.2857142857142857,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.3111452044273737,
+        "foreToHeadSkinVerticalClearance": 0.834485707207586,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5559429485624436,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.32180005827282815,
+        "foreToHeadSkinVerticalClearance": 0.8283311844545297,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5620974713154999,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.7017084670031295E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776062106019596,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.07092755968487313,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.32471934507813655,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.3904286557700296
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "R-up",
+    "stance": 0.42857142857142855,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.3896386537859198,
+        "foreToHeadSkinVerticalClearance": 0.8879760621116639,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.637090481920783,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5185477219606944,
+        "foreToHeadSkinVerticalClearance": 0.7639460722802888,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7611204717521581,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.811831766371455E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776594162607428,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.038599966329427415,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.26964705381777276,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.525066544032447
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "R-up",
+    "stance": 0.5714285714285714,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.502330962024397,
+        "foreToHeadSkinVerticalClearance": 0.9085485213971849,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7634084243456432,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6565680702926481,
+        "foreToHeadSkinVerticalClearance": 0.7700523641318314,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9019045816109966,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.8082702269459645E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776946710055587,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 5.859005572372844E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776470835958787,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.671956945742828
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "R-up",
+    "stance": 0.7142857142857143,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6006332824941332,
+        "foreToHeadSkinVerticalClearance": 0.9128278096008263,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8507147149771733,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6563572370916463,
+        "foreToHeadSkinVerticalClearance": 0.8556791648786825,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9078633596993172,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.02976839198563324,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2785722831047406,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.8994191636201307E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776237969338445,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.7635425245779996
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "R-up",
+    "stance": 0.8571428571428571,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.7900386166920027,
+        "foreToHeadSkinVerticalClearance": 0.8239222670927637,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0391476790379628,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6062381785816257,
+        "foreToHeadSkinVerticalClearance": 0.9996316133274681,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8634383328032584,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.11663409950265691,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.34683901918549537,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.1643705964681228E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22777164941744552,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.8630699461307265
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "R-up",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517085925791,
+        "foreToHeadSkinVerticalClearance": 0.7671314566811074,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653176182413,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158004320119,
+        "foreToHeadSkinVerticalClearance": 1.1097266845070832,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700897922653,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.204448974242907E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593520642933,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.1331744020497423E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775907247241314,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967742993486
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "R-down",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9463517085925791,
+        "foreToHeadSkinVerticalClearance": 0.7671314566811074,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.1975653176182413,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5898158004320119,
+        "foreToHeadSkinVerticalClearance": 1.1097266845070832,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8549700897922653,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 3.204448974242907E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593520642933,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.1331744020497423E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775907247241314,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9646967742993486
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "R-down",
+    "stance": 0.8571428571428572,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.794593922391558,
+        "foreToHeadSkinVerticalClearance": 0.8271960171767205,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0436881908990068,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6122666524250548,
+        "foreToHeadSkinVerticalClearance": 1.0023441733350613,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.868540034740666,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.2873331567408997E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277603377352244,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 3.336775820756907E-05,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.22924381676446537,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.8708842080757273
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "R-down",
+    "stance": 0.7142857142857143,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6056232282143565,
+        "foreToHeadSkinVerticalClearance": 0.9006465109296022,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8599058266272257,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6537947768106847,
+        "foreToHeadSkinVerticalClearance": 0.8561578869296018,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9043944506272261,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.5328716554695596E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776399535611966,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.10140772971028325,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.3538628430987071,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.760552337556828
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "R-down",
+    "stance": 0.5714285714285714,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.47276497793415484,
+        "foreToHeadSkinVerticalClearance": 0.926349714491558,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7252692541767112,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6494245259500456,
+        "foreToHeadSkinVerticalClearance": 0.7568572855529313,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8947616831153379,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 4.969246698155461E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277679898651062,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 0.037704241945665344,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.26874414044868455,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.6516189686682692
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "R-down",
+    "stance": 0.4285714285714286,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.42507452976366533,
+        "foreToHeadSkinVerticalClearance": 0.8636418047241534,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.6843551659941891,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5239110661889776,
+        "foreToHeadSkinVerticalClearance": 0.7815133247375509,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7664836459807917,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 7.521124695264447E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776742205508232,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 4.4420792738586456E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22776218383065647,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.5479969707183425
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "R-down",
+    "stance": 0.2857142857142857,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.3130187700745709,
+        "foreToHeadSkinVerticalClearance": 0.8576944202932576,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5467972326406106,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.3250435671469805,
+        "foreToHeadSkinVerticalClearance": 0.8367548236207514,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5677368293131169,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.017074478059078302,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.25717278800456644,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -8.663724598845235E-11,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.227759358728728,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.4044916529338682
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "R-down",
+    "stance": 0.1428571428571429,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.17811850584985833,
+        "foreToHeadSkinVerticalClearance": 0.822607865122493,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.4121854477232779,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.16437103925615437,
+        "foreToHeadSkinVerticalClearance": 0.8336919050745099,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.401101407771261,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 0.10302165040045408,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.33772688504415815,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.5525065394660373E-10,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277611229201776,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.2347933128457709
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "R-down",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": -1.7800918858217052E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775892376411389,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.005773962843582656,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": false,
+        "role": null,
+        "sourceNormalMaximum": 0.2444885832827565,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.791069521335121E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277593359885204,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.032593040702385E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775925490216933,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "Idle-R-up",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 4.844078081017722E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775955285978317,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 4.844078080740166E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775957670163952,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.982621065238499E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775941509184952,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.9826210651517628E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775941509184952,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "Idle-R-up",
+    "stance": 0.14285714285714285,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.1827099928369929,
+        "foreToHeadSkinVerticalClearance": 0.8521792908617212,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.4167762239238774,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.15630059149696535,
+        "foreToHeadSkinVerticalClearance": 0.8769589145091494,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.3919966002764492,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.1511102418655661E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775932490121795,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.1510386085239466E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775932489721484,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.2689555147855986
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "Idle-R-up",
+    "stance": 0.2857142857142857,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.3171730704415012,
+        "foreToHeadSkinVerticalClearance": 0.853139863787592,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5585731208022962,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.33581463822783086,
+        "foreToHeadSkinVerticalClearance": 0.8355979339364533,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5761150506534348,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.6724042617720656E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775923158758718,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.6681687744639637E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775923155463756,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.4117129845898881
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "Idle-R-up",
+    "stance": 0.42857142857142855,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.41304473001103387,
+        "foreToHeadSkinVerticalClearance": 0.8835290047676011,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.6621774387842995,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5275389008936857,
+        "foreToHeadSkinVerticalClearance": 0.7755986767387609,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7701077668131396,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -6.404864691215983E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775913629799105,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -6.41331281223817E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775913622315455,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.5457064435519006
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "Idle-R-up",
+    "stance": 0.5714285714285714,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.5090535118048509,
+        "foreToHeadSkinVerticalClearance": 0.9153556089058725,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7627971358759853,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6613852988597654,
+        "foreToHeadSkinVerticalClearance": 0.771436936196378,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9067158085854798,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -1.5764426835110368E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277590378069559,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -1.575573101986194E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775903788546376,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.6781527447818578
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "Idle-R-up",
+    "stance": 0.7142857142857143,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6422144338649537,
+        "foreToHeadSkinVerticalClearance": 0.8897541333400124,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.8952718179798252,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6885303740501949,
+        "foreToHeadSkinVerticalClearance": 0.845895895853569,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9391300554662687,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -2.5531393909455913E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277589349988301,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -2.550642106222828E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775893522463664,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.7850259513198377
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "Idle-R-up",
+    "stance": 0.8571428571428571,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8172352800399514,
+        "foreToHeadSkinVerticalClearance": 0.8223920276172987,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0663317684208715,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6606529143678292,
+        "foreToHeadSkinVerticalClearance": 0.9709900085131934,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9177337875249768,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -3.4924618869114354E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775883261097152,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -3.486997059466701E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775883310591027,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.8887237960381702
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "Idle-R-up",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9564984747939349,
+        "foreToHeadSkinVerticalClearance": 0.7602184755993029,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.207711915505447,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6610776456032063,
+        "foreToHeadSkinVerticalClearance": 1.041698735112412,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9262316559923379,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -4.382396871453059E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775873245094164,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -4.380783115327802E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775873259853002,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9679303911047499
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "Idle-R-down",
+    "stance": 1,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.9564984747939349,
+        "foreToHeadSkinVerticalClearance": 0.7602184755993029,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.207711915505447,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6610776456032063,
+        "foreToHeadSkinVerticalClearance": 1.041698735112412,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9262316559923379,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -4.382396871453059E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775873245094164,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -4.380783115327802E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775873259853002,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.9679303911047499
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.14285714285714285,
+    "name": "Idle-R-down",
+    "stance": 0.8571428571428572,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.8172757318560484,
+        "foreToHeadSkinVerticalClearance": 0.8196387825169833,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 1.0663698630829883,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6606095202257646,
+        "foreToHeadSkinVerticalClearance": 0.9683170128894001,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9176916327105715,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -3.483713555633289E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775883367800015,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -3.48715576560521E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277588333658804,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.8860086455999716
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.2857142857142857,
+    "name": "Idle-R-down",
+    "stance": 0.7142857142857143,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.6422206851369613,
+        "foreToHeadSkinVerticalClearance": 0.8931968452254402,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.895278210526776,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6885326801018173,
+        "foreToHeadSkinVerticalClearance": 0.8493421866795813,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9391328690726349,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -2.568549196790143E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775893490440305,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -2.571808512801671E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775893461149282,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.7884750557522162
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.42857142857142855,
+    "name": "Idle-R-down",
+    "stance": 0.5714285714285714,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.5090655281461358,
+        "foreToHeadSkinVerticalClearance": 0.908071865790313,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7628091278855612,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.6613851153713758,
+        "foreToHeadSkinVerticalClearance": 0.7641648297494571,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.9067161639264171,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -1.5885273558016721E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775903791702606,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -1.5901925289399377E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775903776758658,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.6708809936758742
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.5714285714285714,
+    "name": "Idle-R-down",
+    "stance": 0.4285714285714286,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.41303540449647036,
+        "foreToHeadSkinVerticalClearance": 0.8898337262555368,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.6621685762364374,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.5275390517676788,
+        "foreToHeadSkinVerticalClearance": 0.7818948065470335,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.7701074959449408,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": -6.321545526627448E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775913624275168,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": -6.317132862643238E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.2277591362820701,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.5520023024919742
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.7142857142857143,
+    "name": "Idle-R-down",
+    "stance": 0.2857142857142857,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.3171702796760823,
+        "foreToHeadSkinVerticalClearance": 0.8522274084998281,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5585706728201593,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.33581369557187324,
+        "foreToHeadSkinVerticalClearance": 0.8346841224510939,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.5761139588688935,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 2.7247065943758475E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775923162551842,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 2.7279631128682147E-08,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775923165085843,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.4107980813199874
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0.8571428571428571,
+    "name": "Idle-R-down",
+    "stance": 0.1428571428571429,
+    "feet": [
+      {
+        "sourceNormalMinimum": 0.18270319815679348,
+        "foreToHeadSkinVerticalClearance": 0.8514238328042439,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.4167698757129924,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 0.15630818327541077,
+        "foreToHeadSkinVerticalClearance": 0.8761901981372902,
+        "sourceLoaded": false,
+        "role": "fore-unloaded",
+        "sourceNormalMaximum": 0.3920035103799462,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.1505331395239571E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775932487288722,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.1506474436803749E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775932487929051,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": 1.2681937085172363
+  },
+  {
+    "sourceFrame": {
+      "matrix": [
+        -0.8,
+        0,
+        -9.797174393178826E-17,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        9.797174393178826E-17,
+        0,
+        -0.8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "planePoint": [
+        0,
+        0,
+        0
+      ],
+      "planeNormal": [
+        0,
+        1,
+        0
+      ],
+      "uniformScale": 0.8
+    },
+    "phase": 0,
+    "name": "Idle-R-down",
+    "stance": 0,
+    "feet": [
+      {
+        "sourceNormalMinimum": 4.844078081017722E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775955285978317,
+        "limb": "FL"
+      },
+      {
+        "sourceNormalMinimum": 4.844078080740166E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775957670163952,
+        "limb": "FR"
+      },
+      {
+        "sourceNormalMinimum": 1.982621065238499E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775941509184952,
+        "limb": "HL"
+      },
+      {
+        "sourceNormalMinimum": 1.9826210651517628E-07,
+        "foreToHeadSkinVerticalClearance": null,
+        "sourceLoaded": true,
+        "role": null,
+        "sourceNormalMaximum": 0.22775941509184952,
+        "limb": "HR"
+      }
+    ],
+    "actualHeadSkinMinimum": null
+  }
+]

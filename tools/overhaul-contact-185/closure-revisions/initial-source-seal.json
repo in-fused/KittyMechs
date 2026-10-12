@@ -1,0 +1,116 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_CONTACT_UNQUALIFIED_WITH_REJECTED_CONSTRAINT_CASES",
+  "productionAllowlist": [
+    "src/game/entities/Actors.tsx",
+    "src/game/entities/Identity57Runtime005.ts",
+    "src/game/entities/plantedSourceFeet185.ts"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-contact-185/check185-unqualified-first.mts",
+      "bytes": 5264,
+      "sha256": "d63f17139dd6445b44e2f22667b81b6580414c6210484b0af8d29502808d2611"
+    },
+    {
+      "path": "tools/overhaul-contact-185/check185.mts",
+      "bytes": 5404,
+      "sha256": "9bbbe49c7ec0462a6d4c3f81284a4ab258cb4279a7a36372e0a3f7085644d942"
+    },
+    {
+      "path": "tools/overhaul-contact-185/constraint-counterexamples185.json",
+      "bytes": 18075,
+      "sha256": "04f35eb0a44ca7fae8e9bb432ca09b43b883829915daad7adeccf671844d4670"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture-receipt185-unqualified-first.json",
+      "bytes": 245,
+      "sha256": "79589428ce8606bef4ebbc27c6e56950b4a6466cdcf0b3c0b3ff1994f58d1f78"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture-receipt185.json",
+      "bytes": 245,
+      "sha256": "3224f722fed2ce389c3914ac272b90d805c74dc35311e597072457e68dae2524"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture-stdout185-unqualified-first.txt",
+      "bytes": 437,
+      "sha256": "8967b46b7c205fe06cdf25dca8f75c3f9a5f044b15496b3112158d14711dabb1"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture-stdout185.txt",
+      "bytes": 445,
+      "sha256": "6214090e564d556bb72648b153ea602a94b971ceff853e02d49b4a7a2d34a32a"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture185-unqualified-first.json",
+      "bytes": 275091,
+      "sha256": "749209367746dfa8c811f08ef549430b5b398b0d81c4e0f2d7984cef3d28c711"
+    },
+    {
+      "path": "tools/overhaul-contact-185/fixture185.json",
+      "bytes": 367030,
+      "sha256": "6c587e9c14b4c32493bde5e2e1b55323bd556a60ccd8928d563b1afbeb4e4cd1"
+    },
+    {
+      "path": "tools/overhaul-contact-185/HANDOFF.md",
+      "bytes": 5829,
+      "sha256": "e2f169751e6f6e39462651d34a1b7706aa47d2b6518ba6bcd32c9b9a2f7792c2"
+    },
+    {
+      "path": "tools/overhaul-contact-185/preimages/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "tools/overhaul-contact-185/preimages/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "tools/overhaul-contact-185/protected-inputs185.json",
+      "bytes": 2924,
+      "sha256": "516a1bcb8aa8c442520cb4c4ddfeaf2f9e504d13423df05efff9350c82e94326"
+    },
+    {
+      "path": "tools/overhaul-contact-185/run185-corrected.py",
+      "bytes": 837,
+      "sha256": "d9a50f53bc39c24585cfc883f7926376abb6c1bf123363f41e785581f5b729c4"
+    },
+    {
+      "path": "tools/overhaul-contact-185/run185.py",
+      "bytes": 893,
+      "sha256": "5953f9f58acdb84899bdc6152024068894a69cc450096bcb6282b991d7f2be01"
+    },
+    {
+      "path": "tools/overhaul-contact-185/source-diff185.patch",
+      "bytes": 12262,
+      "sha256": "27d90fbd5fd5bb9a2fa33ddeed7339fa82979411884a299f1de1c4080b594f26"
+    },
+    {
+      "path": "tools/overhaul-contact-185/types-receipt185.json",
+      "bytes": 217,
+      "sha256": "33ed4dd867d6cde8e6c2d0a343055fb7d0618441838e287638b8a5674bf9e14d"
+    },
+    {
+      "path": "tools/overhaul-contact-185/types-stdout185.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 51021,
+      "sha256": "e7b9e55e4c375652f05a60533d27ebce9fb0c7bac19d021d19834130a6d3a092"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 21416,
+      "sha256": "dc4c27bdc35ef2d657dcf82c0b0042884b8ae9e95236547057ab8a01c3a2f0a6"
+    },
+    {
+      "path": "src/game/entities/plantedSourceFeet185.ts",
+      "bytes": 7190,
+      "sha256": "e613bc7000ccff37835d85bccbae184338dffebfbd06200163e90f325f3823dd"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+import {strict as assert} from 'node:assert';
+import {readinessTransition211 as next,deploymentBlocks211 as blocked} from './deploymentReadiness211';
+const initial=next(null,'local',7,false);assert(blocked(initial,'local',7));
+const ready=next(initial,'local',7,true);assert(!blocked(ready,'local',7));
+assert.equal(next(ready,'local',7,true),ready,'Stable completed frames must not cause repeated React state updates');
+assert(blocked(ready,'peer',7),'Peer visual cannot qualify local input');
+assert(blocked(ready,'local',8),'Old generation cannot qualify retry');
+const retry=next(ready,'local',8,false);assert(blocked(retry,'local',8));
+const completedRetry=next(retry,'local',8,true);assert(!blocked(completedRetry,'local',8));
+assert(blocked(next(null,'',0,true),'',0),'Unassigned local identity cannot deploy');
+assert(blocked(next(null,'local',NaN,true),'local',NaN));
+console.log(JSON.stringify({status:'CONTRACT_PASS_NOT_GAMEPLAY_ACCEPTANCE',cases:9,globalManager:'Not an input to local blocking; ongoing NPC streaming cannot revoke current local completion'}));

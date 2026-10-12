@@ -1,0 +1,87 @@
+{
+  "round": "049",
+  "status": "CLOSED_FIRST_POSTPROCESS_FAILURE_NO_SHIPPING_CHANGE",
+  "frozenUTC": "2026-10-11T00:56:24.2180927Z",
+  "ownedPaths": [
+    "tools/overhaul-moving-recoil-049/prepare-clip.py",
+    "tools/overhaul-moving-recoil-049/processor-handoff.json",
+    "tools/overhaul-moving-recoil-049/processor-seal.json",
+    "tools/overhaul-moving-recoil-049/runtime-helper-draft.txt",
+    "tools/overhaul-moving-recoil-049/rejected-unbound-moving-recoil-049.test.ts.txt",
+    "tools/overhaul-moving-recoil-049/raw-timing-failure.json",
+    "assets/source/overhaul-moving-recoil-049/process-receipt.json",
+    "docs/overhaul/moving-recoil-049.md"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-moving-recoil-049/prepare-clip.py",
+      "bytes": 8466,
+      "sha256": "ec383e790e7d8fed799d3a7997d80437b9de9aad127b0fe63cd750b2f4bfb9d9"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/processor-handoff.json",
+      "bytes": 1166,
+      "sha256": "df038abf39f9d3a3f80386bce9be2aa779041f81d0894c66e9a5b8128e82de0a"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/processor-seal.json",
+      "bytes": 441,
+      "sha256": "839f0b9203074be391627c33460c64ca8b8c81e7ce05b3b3a61d8905d031c90f"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/runtime-helper-draft.txt",
+      "bytes": 2314,
+      "sha256": "b7499d388cdf8b97be7b9f554d3a2a3dadf1bcab835c42ec787fdd668a9a3e9a"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/rejected-unbound-moving-recoil-049.test.ts.txt",
+      "bytes": 8902,
+      "sha256": "6a70530c30ba1d22bd879d6e840f6ea4639bb39e1c68deaa7c46958dc08c2e6f"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/raw-timing-failure.json",
+      "bytes": 1414,
+      "sha256": "3114f4864869b0078c940ddc6931e8583f7e878e49183e1ccda8458150180ea4"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-049/process-receipt.json",
+      "bytes": 1084,
+      "sha256": "a72b8078f619a1e499d2b3e6fa58be2eb8727268f8602649fea68e81717d67ff"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-049.md",
+      "bytes": 2183,
+      "sha256": "fed347e1ec8faa3e6f7c171b302617b48709bf0f6e4a455ef725ed1f127c1fa8"
+    }
+  ],
+  "productionRestoration": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "exact036Preimage": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "exact036Preimage": true
+    }
+  ],
+  "rootProcessorAttempts": 1,
+  "rootProcessorCapSeconds": 30,
+  "rootProcessorExitCode": 1,
+  "automaticRetry": false,
+  "failure": "ACTUAL60HZ_MONOTONIC_TIMING: sourcefirst1/60s/Pulse last.35s/Missile last.48333332s rather than declared eventrelative0 origin. Samples/spacing correct; timestamps/BIN cannot change under exact-preservation scope.",
+  "unreachedGates": [
+    "finiteunitquaternion",
+    "actual034Idleendpoints",
+    "readablenonidentity",
+    "finalzero renderassets/skins",
+    "headfilter+values/BINfinalreadback"
+  ],
+  "shippingChanges": [],
+  "authorJobsExecuted": [],
+  "rootTestCommand": [],
+  "rootCaptureCommand": [],
+  "writersClosed": true,
+  "immutable": "Original036 shipping/sourcepreimages and original048failedraw/blend/script/receipt/seals remain unchanged"
+}

@@ -1,0 +1,81 @@
+{
+  "utc": "2026-10-11T05:23:30.812305+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-inventory.json",
+      "bytes": 319,
+      "sha256": "b5b29f93f1824fa16f5f56a405e45fe242946eb4cc7bd645b20ae112647b060f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-process/process-receipt.json",
+      "bytes": 64112,
+      "sha256": "42bbac284b9a22cbc0dd0dba393a26f0049b2c41ebbb3cad4651d9c1a1325c1e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-process/stdout.txt",
+      "bytes": 212,
+      "sha256": "7f3836e9c9789b5cced106de067df3916c50d06106160deb59970ea5c960dc69"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-public/evidence.json",
+      "bytes": 169698,
+      "sha256": "37a8a772e8ae11d2246c2f30593806f4cb7dc1859087ada569cfbce4a4d059b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-public/far-rest.png",
+      "bytes": 979233,
+      "sha256": "011ea3725968d0b2a855c6c518d3ab3258f1d5fbac11c481f21d6ae84b5057aa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-public/initial.png",
+      "bytes": 1057138,
+      "sha256": "a98091032bae789563ac1651fc3a1bf938a2c6610d0f3b530fd72eee6de83f7b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-public/near-rest.png",
+      "bytes": 974141,
+      "sha256": "53982579f371be0916aaef0c44d4bba50adfc31ea98f20e6f2ec1f0b59971815"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-public/page@02b5c16af4dd5991a1fca6534202d71a.webm",
+      "bytes": 2458386,
+      "sha256": "0f7c3c49dd4fe0756eb044fc848803dea8f1552405e28ac7315777886c201fc6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-syntax/process-receipt.json",
+      "bytes": 64111,
+      "sha256": "189419d3e7722e286c5dea231a134624be63a9866bba27b4bc070d5bca617071"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop076-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live045-before076-http-verification.json",
+      "bytes": 849,
+      "sha256": "791b22b8d65d429ad6596100deb9db3d6e50f80a80cffda0c71f6aece75caf36"
+    },
+    {
+      "path": "docs/overhaul/critic/coop076-play-review.md",
+      "bytes": 2892,
+      "sha256": "f415149c29e0d9fd48835b91345ab116560da4240a135b029a99f6938ae86e04"
+    },
+    {
+      "path": "docs/overhaul/critic/coop076-source-review.md",
+      "bytes": 3846,
+      "sha256": "d37629f28d56686c6172202dbfe080b5b1696de381c6f8ba99a92b783fb0f25c"
+    },
+    {
+      "path": "tools/overhaul-coop-play-076/source-handoff.json",
+      "bytes": 4914,
+      "sha256": "cabecdb998ca2fbea6e7a061c15006fdd60f2a9ba73d99404ef1e97ba76a47b8"
+    },
+    {
+      "path": "tools/overhaul-coop-play-076/source-seal.json",
+      "bytes": 2292,
+      "sha256": "82a3f665f3150b8085e647ee0101d6b57e5b1b678dde615e23321a496e13e952"
+    }
+  ],
+  "scope": "076 CLOSED one26.859s public waypoint observation. Critic accepts ONLY observed far/near rested distances within1.1m;33 pulses. No production change/fullmission/animation/performance/userlag approval. Full goal ACTIVE/INCOMPLETE."
+}

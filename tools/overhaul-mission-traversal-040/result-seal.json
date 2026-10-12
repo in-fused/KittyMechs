@@ -1,0 +1,91 @@
+{
+  "frozenUTC": "2026-10-10T23:12:35.401290+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-checkpoint.json",
+      "bytes": 558,
+      "sha256": "a3a0a9f31411aee49cfc81f9b9d706b880623d491289cae6d6fcb27807cdfa0f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/receipt.json",
+      "bytes": 70825,
+      "sha256": "457c1f10ff23bdeae812c0ab19d9e7df1c383e733a6b3a72b0f559e95b9350f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-motion/receipt.json",
+      "bytes": 1045,
+      "sha256": "144e058300c8cb787c9d5fbc3132a2e07facb9e72eb2f4bd9d65b9b569d89422"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-motion/stdout.txt",
+      "bytes": 2901,
+      "sha256": "9825eaeae2622c449901eded0254394898a913e9dc55b2910c7bd7375fbe5d34"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-motion/video-01.png",
+      "bytes": 8794065,
+      "sha256": "17494031932bf034ffcd3b3e39dae20889f121ad39d7c2508f2925877d54ffb1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-native/evidence.json",
+      "bytes": 1129521,
+      "sha256": "c2ae04afd23328f66b4f2b868596ea2e0ad4b3d0bc49d78567ce1f6d349e3553"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-native/progress.json",
+      "bytes": 1129420,
+      "sha256": "6609d7ab4dda37f8d36760892ded569dd5b81eabd67120c58a911c3dcd73ba8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/evidence.json",
+      "bytes": 271029,
+      "sha256": "92917809894bc6147b6b9d0072ac88ab53012007113e185666beb45abab2248c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/failure.png",
+      "bytes": 1454842,
+      "sha256": "51223cb13edbaab5a6bb8e0061eb51b329c01ffa66a32c7cabb1b9541cbd3403"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/native-keyframes.json",
+      "bytes": 1177110,
+      "sha256": "32f2514762c7e52a4ac12dfefff04845cc76015081e157b27ca9c005db57c841"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/page@305bd1e49118c3690be7f22b00c37778.webm",
+      "bytes": 3199624,
+      "sha256": "789365e16bc414ee2f86e3792046f0d357bbf094a789cb7efbdc42a9511e50f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/progress.json",
+      "bytes": 262372,
+      "sha256": "ff3afbd9b5a2971837fd51eccac268279e08bb0edc1c39dd45840180d478e086"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission040-native-process/process-receipt.json",
+      "bytes": 2138,
+      "sha256": "b1b9bf7802ac698eafb206081a79262aea8062f2e88df9fcd3c8f5e951a8d325"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission040-native-process/stdout.txt",
+      "bytes": 2778,
+      "sha256": "e9e97f4f0d64f8e9617a8110c6599f9b95be4e9f107501941da54c3cf7380920"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission040-public-process/process-receipt.json",
+      "bytes": 2137,
+      "sha256": "c303e72aefae840e2b769e7afa19065532df4d573cbf97aff4ee21d2b16724e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission040-public-process/stdout.txt",
+      "bytes": 740,
+      "sha256": "6617db20e4258020429a65cff132a5a2f545a230660fc82c3fc30efb3657faa1"
+    },
+    {
+      "path": "tools/overhaul-mission-traversal-040/source-handoff.json",
+      "bytes": 5402,
+      "sha256": "71138c4d3fc29419851adec7707a2873aaba327dc3aa5f0c588295a55f95a3cb"
+    }
+  ],
+  "scope": "040 twelve native diagnostic comparisons completed; public mission stopped staging same-tick mismatch, no mission completion or promotion, no retry. Actual raw receipts/videos/native evidence preserved."
+}

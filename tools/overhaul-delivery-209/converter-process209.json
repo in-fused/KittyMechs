@@ -1,0 +1,149 @@
+{
+  "command": [
+    "node",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-delivery-209\\convert209.mjs"
+  ],
+  "capSeconds": 15,
+  "startedUTC": "2026-10-11T21:17:19.758813+00:00",
+  "protectedBefore": [
+    {
+      "path": "tools/overhaul-delivery-209/convert209.mjs",
+      "bytes": 6898,
+      "sha256": "ea6258aad8a381fe1174ce96b3340f8cdda82b47821405b30ddd8cbde3466486",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209-receipt.json",
+      "bytes": 2450837,
+      "sha256": "97f68d7068099057deb585e9ef22763a1818b4b3a4ffa78c90bcd4891779ab3b",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209.mjs",
+      "bytes": 5571,
+      "sha256": "57f4c3fbd7b1d07cb94860fd08e0073aa187a84ed5403eb064e170c385c14cc0",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/HANDOFF.md",
+      "bytes": 3799,
+      "sha256": "8e3e24f42b03062a8af2c4d4d923756f632cefff1c9bcc891b301a0adc0b8554",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/run-converter209.py",
+      "bytes": 1743,
+      "sha256": "40d333cbfe8ab67a74b156214dff2e33676a06055030e8892b003fbdaffd5d7e",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/sampler-inventory209.json",
+      "bytes": 9028187,
+      "sha256": "b2c67e64d28e3cb51450f3fee5e6a6db2deeeba8c7bea12387ac141d5514dcef",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/final-source-seal207.json",
+      "bytes": 8084,
+      "sha256": "df127bd3f2f19be75d8e02877653c5e935527938ebcb656f86b0d099cc6165dc",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/output/Pounce_Anatomy206.glb",
+      "bytes": 18104360,
+      "sha256": "c276854828a906bccda5f94bfb999e7208022fd34a1142b370a87d689a08cac2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "bytes": 30595,
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "bytes": 17481360,
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "bytes": 9397620,
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762",
+      "match": true
+    }
+  ],
+  "pid": 373592,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 0.75,
+  "closedUTC": "2026-10-11T21:17:20.504133+00:00",
+  "protectedAfter": [
+    {
+      "path": "tools/overhaul-delivery-209/convert209.mjs",
+      "bytes": 6898,
+      "sha256": "ea6258aad8a381fe1174ce96b3340f8cdda82b47821405b30ddd8cbde3466486",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209-receipt.json",
+      "bytes": 2450837,
+      "sha256": "97f68d7068099057deb585e9ef22763a1818b4b3a4ffa78c90bcd4891779ab3b",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209.mjs",
+      "bytes": 5571,
+      "sha256": "57f4c3fbd7b1d07cb94860fd08e0073aa187a84ed5403eb064e170c385c14cc0",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/HANDOFF.md",
+      "bytes": 3799,
+      "sha256": "8e3e24f42b03062a8af2c4d4d923756f632cefff1c9bcc891b301a0adc0b8554",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/run-converter209.py",
+      "bytes": 1743,
+      "sha256": "40d333cbfe8ab67a74b156214dff2e33676a06055030e8892b003fbdaffd5d7e",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/sampler-inventory209.json",
+      "bytes": 9028187,
+      "sha256": "b2c67e64d28e3cb51450f3fee5e6a6db2deeeba8c7bea12387ac141d5514dcef",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/final-source-seal207.json",
+      "bytes": 8084,
+      "sha256": "df127bd3f2f19be75d8e02877653c5e935527938ebcb656f86b0d099cc6165dc",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/output/Pounce_Anatomy206.glb",
+      "bytes": 18104360,
+      "sha256": "c276854828a906bccda5f94bfb999e7208022fd34a1142b370a87d689a08cac2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "bytes": 30595,
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "bytes": 17481360,
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "bytes": 9397620,
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762",
+      "match": true
+    }
+  ]
+}

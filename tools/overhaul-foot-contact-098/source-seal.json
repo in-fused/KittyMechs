@@ -1,0 +1,66 @@
+{
+  "writer": "CLOSED",
+  "scope": "ISOLATED_SOURCE_CANDIDATE_ONLY_NO_EXECUTED_JOBS",
+  "files": [
+    {
+      "path": "tools/overhaul-foot-contact-098/candidate-movingRFfeet067.ts",
+      "bytes": 19890,
+      "sha256": "282973c14b956985e72f2714c62079a3651f440eb15f8347288c2ead5dda5ccd"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/candidate-test-contact-skin098.test.ts",
+      "bytes": 4485,
+      "sha256": "780857aee12fa11de1ea9b0ba86b5a062c99114f0858f77d20c609779730662b"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/handoff.md",
+      "bytes": 7402,
+      "sha256": "a70afc8963af3457616661da6bb397e36d630be21485be52f25144fe3c0a4494"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/preimages/movingRFfeet067-047.ts",
+      "bytes": 15768,
+      "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/rejected-candidate-movingRFfeet067-093.ts",
+      "bytes": 19274,
+      "sha256": "f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/player-recovery-097-handoff.md",
+      "bytes": 7916,
+      "sha256": "3adf869c97e0830b7d6b88761d2908c775bc019a0ee58acc579042eb49a76e9b"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/client094-source-review.md",
+      "bytes": 4614,
+      "sha256": "41cb834434405b463c67f5b68497d1f96eba25bc9fdd4d2ab2bc681d73563dc9"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/rejected-candidate-movingRFfeet067.ts",
+      "bytes": 19274,
+      "sha256": "f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "bytes": 8670,
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc"
+    },
+    {
+      "path": "node_modules/three/src/core/Object3D.js",
+      "bytes": 38829,
+      "sha256": "cfed8e6018386737493550ffc71df046538d687843c0ff5a3206eaa5994b07f1"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    }
+  ]
+}

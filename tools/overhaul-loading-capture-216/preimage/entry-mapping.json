@@ -1,0 +1,41 @@
+{
+  "writer": "CLOSED",
+  "parser": "Python HTMLParser, actual module/stylesheet attributes; no filename guessing",
+  "retainedIndex": {
+    "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/index.html",
+    "bytes": 700,
+    "sha256": "df633f509ada4562a9c41110acee2cc52a6507bbb4cf00cbd518d2901b8e25f7"
+  },
+  "candidateIndex": {
+    "path": ".sites-runtime/overhaul-20261011/readiness211-private/dist/index.html",
+    "bytes": 700,
+    "sha256": "e2d7d842e5c38488791b81d4d274890e5d0ca63b9227be018783df1e76ae45f8"
+  },
+  "mappings": [
+    {
+      "kind": "module",
+      "retainedRequest": "/assets/index-jFb_gY9P.js",
+      "candidateRequest": "/assets/index-DpxkElY8.js",
+      "candidateRow": {
+        "path": ".sites-runtime/overhaul-20261011/readiness211-private/dist/assets/index-DpxkElY8.js",
+        "bytes": 1640007,
+        "sha256": "1400752245105229a545457ae7e739fee8e9444548a2f4af6536d2ddf1fff7cd"
+      }
+    },
+    {
+      "kind": "stylesheet",
+      "retainedRequest": "/assets/index-BPDA3YLm.css",
+      "candidateRequest": "/assets/index-BPDA3YLm.css",
+      "candidateRow": {
+        "path": ".sites-runtime/overhaul-20261011/readiness211-private/dist/assets/index-BPDA3YLm.css",
+        "bytes": 27491,
+        "sha256": "db22b472773318fdffc05ad5a26599406d6f21988604a9a321ad485e734b7ef2"
+      }
+    }
+  ],
+  "modulePreloadsUnchanged": [
+    "/assets/three-Bjr22og3.js",
+    "/assets/physics-DsFk-bdi.js"
+  ],
+  "document": "Real existing network response; no fulfillment/rewrite/security-policy changes"
+}

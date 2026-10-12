@@ -1,0 +1,146 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "scope": "Static classification only; saved217 failure remains exact, future POST case is hypothetical source fixture",
+  "result": [
+    {
+      "name": "retained217MissingMethod",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "futureExactPOST",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": true,
+      "observed": true
+    },
+    {
+      "name": "otherOrigin",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://127.0.0.1:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "lookalikePath",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report-extra",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "query",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report?x=1",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "GET",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "GET"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "GLB",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/assets/models/Sentinel_Scout.glb",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "differentNetworkFailure",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_CONNECTION_RESET"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "HTTPError",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "http-error",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "POST"
+      },
+      "expected": false,
+      "observed": false
+    },
+    {
+      "name": "caseChangedMethod",
+      "row": {
+        "pilot": "Loading217Host",
+        "type": "requestfailed",
+        "url": "http://localhost:8799/client-report",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        },
+        "method": "post"
+      },
+      "expected": false,
+      "observed": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# 277 CLOSED source — mission-only actual capture UNRUN
+
+New bounded mission-only adaptation of denied273. CLOSED273 remains unchanged and UNRUN. The unsafe W/moving-R prelude import and call are entirely removed; no replacement test, watchdog or corridor proof was introduced. MovingR and gesture quality are explicitly UNTESTED.
+
+Retains the real177 ordinary two-client CO-OP orchestration through explicit original controller/lifecycle/planner/scheduler/occupancy/exposure imports: west relay, organic down/public revive, organic squad failure/native checkpoint retry, east relay, core and two-live extraction. No injected HP, damage, actor, warp or objective state. Existing public inputs and read-only diagnostics only. Original177 mandatory lifecycle/completion/parity assertions remain; first genuine failure stops.
+
+Actual sealed272 build and immutable26447-clip asset remain bound through exact new268 loader/retirement evidence. All64hex identities were preserved during mechanical273→277 naming adaptation. Scoped277 guards retain47/current native source/visible winning provider admission after mission reads; original242 remains unchanged. Native complete-action/ordinary-return mode and life/frame observations, critical down/revive/checkpoint both-page PNGs and continuous videos remain. These show broad ordinary mission travel and lifecycle/action/performance pixels only; temporal motion quality, native contact and performance still require independent review.
+
+At most420s work, shortened from the480s supervisor epoch as necessary, plus30s independent cleanup and5s retirement reserve.259-derived native supervisor owns exact child creation identities with kill-on-close job scope. It verifies protected public062 service8799 PID370280 birth134362153569448006 and never changes or kills it. Same-origin private asset routes preserve the retained real document/websocket authority. Fresh D-backed output is public277, supervisor277 and storage277 under the existing shader-startup-238 junction. No new server/port or process was launched here.
+
+Actual execution requires KITTYMECH_277_ACTUAL_APPROVED=1 and exact docs/overhaul/critic/feline277-play-review.md SHA. Lead owns approval/storage/execution. Invocation, once admitted: python tools/overhaul-feline-play-277/supervise277.py. Source and binding are CLOSED; actual gameplay/resource/temporal results are UNRUN. Only syntax/source-binding preparation ran.
+
+Roof, climb, paired combat, destruction and late join remain explicitly untested unless actual native mission history independently exercises them. MovingR/gesture are untested even if incidental stance changes appear. No four-mech/three-map/full-art/contact/performance/public promotion or convincing feline motion approval is claimed.

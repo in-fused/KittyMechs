@@ -1,0 +1,133 @@
+{
+  "writer": "CLOSED",
+  "closed267Rows": [
+    {
+      "path": "tools/overhaul-feline-runtime-267/close267.py",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/closure-first-failure267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/composed267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/composed267.test.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/HANDOFF.md",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/NativeActor267.tsx",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/NativeActor267.typecheck.tsx",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/nativeOwner267.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/NativeActor256.tsx",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/nativeOwner256.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/sourceTask256.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preparation267.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/prepare267.py",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/protected-inputs267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/run267.py",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/sourceTask267.ts",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/suite267.stderr",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/suite267.stdout",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/summary267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/terminal267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/tsconfig267.json",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/type267.stderr",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/type267.stdout",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/visualRegistry267.typecheck.ts",
+      "matches": true
+    }
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-feline-runtime-267/source-seal.json",
+      "bytes": 4731,
+      "sha256": "62e158bdfa140cce03ba7544256f89a1ad8a27616b3025ce47f1496e3fa196f1"
+    },
+    {
+      "path": "tools/overhaul-feline-admission-268/decoded-contract268.json",
+      "bytes": 1953914,
+      "sha256": "96e52703791d3bbd46f13b71797bba0c1036f7f28ff5c6f8a4a70998431bdeb7"
+    },
+    {
+      "path": "tools/overhaul-feline-admission-268/source-seal268.json",
+      "bytes": 40637,
+      "sha256": "dd3539c92d5ef26362433ec95cc82ac1ada337ed76d2d687c050c50d9d75366a"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/Pounce_Feline264.glb",
+      "bytes": 6733164,
+      "sha256": "a1aa8bab5601a12448a169602827146b226b126e6012bf7a94cf44d0c13fa9d6"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/source-seal.json",
+      "bytes": 5807,
+      "sha256": "90cc38619cccc32f67e42b01bcd2538f9e273b8708a8997469386568e893864e"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-253/load-rig250.ts",
+      "bytes": 5133,
+      "sha256": "eaa89d7688a75cd00f17ea41189e7c3193cf5a7d620d1a2b2ebd557485ebd35d"
+    }
+  ]
+}

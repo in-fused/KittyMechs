@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE_READONLY_BLANK_WEBGL2_CAPABILITY_NO_GAMEPLAY_OR_PROGRAMS",
+  "files": [
+    {
+      "path": "tools/overhaul-shader-capability-233/prepare233.py",
+      "bytes": 1170,
+      "sha256": "a8cf1ce8ac28cd758249da5f798dd6f9351962952228347223048aa7d5ae514f"
+    },
+    {
+      "path": "tools/overhaul-shader-capability-233/probe233.mjs",
+      "bytes": 2196,
+      "sha256": "7217c9c3ea2489f41b302afa600046aa3ed7b32a0b67b3957c3790e3acad65f4"
+    },
+    {
+      "path": "tools/overhaul-shader-capability-233/supervise228-preimage.py",
+      "bytes": 5226,
+      "sha256": "980e3078def32130aa30217a22dff479cdb447a32869d9fed977500c8e80a39b"
+    },
+    {
+      "path": "tools/overhaul-shader-capability-233/supervise233.py",
+      "bytes": 5281,
+      "sha256": "3564743647a21fdf0fe2ed6226e06eb087a7a705dedce545b7dc21aa17bbe8a8"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "FIRST_FAILURE_STOP saved-B preservation precondition; comparison records no actual differing component. Zero saved-key replays/exportGLB/graft/publication. Frozen040 LIMITED live.",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-gait-058c/export-receipt.json",
+      "bytes": 5794,
+      "sha256": "77f6ca84c0cff8d9510d8f8482f642163a80cd9087935c0b19e749558d7f3868"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058c/export_saved.py",
+      "bytes": 7213,
+      "sha256": "e62a576947f9daef216398faa897cea1cb6fa99536305c10946daebee474242b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/gait058c-export/process-receipt.json",
+      "bytes": 3901,
+      "sha256": "a0b4d5b25e1367c2db5cc88ded15447d9a6c0c6eb724f0a3d9541b4846cb45d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/gait058c-export/stdout.txt",
+      "bytes": 683,
+      "sha256": "a128822abbe3a7a4d1a940ede2d4163675b01959466beb41a29ae579fee7c47f"
+    },
+    {
+      "path": "tools/overhaul-gait-058c/close-c.py",
+      "bytes": 909,
+      "sha256": "64e3f8e2c18486de61823076a5ab4c36c97f86f42ce7fb91d7c6186b8882fc62"
+    }
+  ]
+}

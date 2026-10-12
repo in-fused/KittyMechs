@@ -1,0 +1,13 @@
+# Source004 closed unadmitted
+
+One frozen Blender command, session5309/PID347352. Launcher14:12:55UTC; recorded OS creation14:12:57.7464UTC. Script14:13:00.501278→14:13:36.305730UTC (35.804452seconds); exit0 observed by14:13:43. Full captured stdout and process identity are preserved. No forced cleanup, second source job or retry.
+
+Semantic result SOURCE_FAILURE_STOP at tick0/time0/plant, ACTUAL_GEOMETRY_INTERFERENCE. The new manifold disk construction produced25 closed connected positive-volume plates; full source skin is closed/connected with15407vertices/30810triangles. Materials reached their declared FelinePBR_ finish. Actual57bones,20pads (24 underside vertices each),16claws,25plates, full source/rest/current geometry, editable master/rawGLB, actual GLTF node readback and the three same-state views exist. These are source measurements, not an art, physical load or motion pass.
+
+First planted clock recorded97 rejection rows:44 filtered new-part surface crossings,47 containment records, one changed-skin/retained-rigid crossing record with341triangle pairs, one changed-skin→retained multirigid parity record (union semantics UNKNOWN), and four retained vertices inside actual newly carved distal regions. FL retained vertex9431 lies at source[-.7479322553,-.9011318684,.5964965224] in the new FL region. FL digit0claw has58 skin crossing pairs; its vertex12 is recorded inside skin at[-.8730000257,-1.2547314167,.1203639582]. All raw pair and containment witnesses remain preserved; counts do not certify every parity result as a material-volume overlap.
+
+The floor, loaded sole and fixed-link checks did not fail at this initial clock. Lowest native Y=-5.2154064e-7, within the existing numerical readback bound; requested/achieved FL chain agrees without clamp. No leg-lift/claw cycle, R/upright/full gait, native world/contact/load/forces, paired combat or ordinary two-client qualification ran. One valid static floor sample cannot approve any later state.
+
+The pictures show readable five-pad anatomy and less glossy material separation, but jagged wrist/toe transitions, irregular plate edges and broad body surfaces remain visible. Appearance is independently reviewed. The source catalog and export mapping are real but attached to a failed, unadmitted candidate; no live GLB switch or stale binder fallback is authorized. Export readback records actual nodes/skin accessor references, not an asserted source-rest/GLTF-bind equivalence.
+
+Protected original master/raw and all four input hashes remain unchanged. Frozen author/contract/helper/owner files remain unchanged. Prior003 and recovery013 remain immutable. All writers/jobs are closed and heavy slot released. No automatic source005, tolerance exception or geometry repair follows.

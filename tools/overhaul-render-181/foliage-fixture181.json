@@ -1,0 +1,3047 @@
+{
+  "writer": "CLOSED",
+  "status": "EXACT_SOURCE_CAMERA_FOLIAGE_SELECTION_PASSED_UNADMITTED",
+  "checks": [
+    "negative-and-cell-boundary-single-owner",
+    "empty-props-no-stale-batch",
+    "every-tree-exactly-one-cell:off-quad",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD1:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:0,0",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD1:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:0,0",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD1:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:0,0",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD2:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Bark:1,3",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD2:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Trunk:1,3",
+    "saved-fir-index-count-instance-ownership:off-quad:LOD2:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:off-quad:PH_Fir_Needles:1,3",
+    "saved-camera-reduces-fir-triangles:off-quad",
+    "every-tree-exactly-one-cell:on-quad",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD1:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:0,0",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD1:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:0,0",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD1:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:0,0",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD2:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Bark:1,3",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD2:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Trunk:1,3",
+    "saved-fir-index-count-instance-ownership:on-quad:LOD2:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-quad:PH_Fir_Needles:1,3",
+    "saved-camera-reduces-fir-triangles:on-quad",
+    "every-tree-exactly-one-cell:on-upright",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD1:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:0,0",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD1:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:0,0",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD1:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:0,0",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD2:PH_Fir_Bark",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Bark:1,3",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD2:PH_Fir_Trunk",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Trunk:1,3",
+    "saved-fir-index-count-instance-ownership:on-upright:LOD2:PH_Fir_Needles",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-1,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-2,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-1,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-3,-1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-3,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,-2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-3,1",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-3,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,0",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-4,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:-3,3",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:0,2",
+    "current-bounds-never-cull-in-frustum-source-vertex:on-upright:PH_Fir_Needles:1,3",
+    "saved-camera-reduces-fir-triangles:on-upright"
+  ],
+  "scope": "actual decoded Fir geometry, compiled props, saved camera pose and retained LOD law; no GPU/worker/FPS/human claim",
+  "phases": [
+    {
+      "label": "off-quad",
+      "treeProps": 49,
+      "unchangedLodCounts": [
+        0,
+        1,
+        48
+      ],
+      "cells": 17,
+      "oldTriangles": 226716,
+      "newTriangles": 10044,
+      "savedTriangles": 216672,
+      "oldCalls": 6,
+      "newCalls": 3,
+      "camera": {
+        "position": [
+          -7.999996323338238,
+          3.375932586910089,
+          32.262501158319544
+        ],
+        "quaternion": [
+          -0.07492970727274231,
+          0,
+          0,
+          0.9971888181122076
+        ],
+        "fov": 62,
+        "aspect": 1.6
+      },
+      "rows": [
+        {
+          "lod": 1,
+          "material": "PH_Fir_Bark",
+          "indices": 3900,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.893793142807437,
+                  8.804435879404094,
+                  3.9640859848219585
+                ],
+                "radius": 6.664769277411405
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Trunk",
+          "indices": 717,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.630645234225657,
+                  7.173578229091513,
+                  4.088868154929934
+                ],
+                "radius": 7.266435308608823
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Needles",
+          "indices": 25515,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.815589904785156,
+                  10.393990246483494,
+                  3.9634885787963867
+                ],
+                "radius": 6.021916133879519
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Bark",
+          "indices": 327,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.854382557124634,
+                  3.3038487226940814,
+                  82.00536951601941
+                ],
+                "radius": 9.802944041544563
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.63725025206832,
+                  5.626440092628665,
+                  115.17933863966266
+                ],
+                "radius": 15.832316000202564
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.71095041900258,
+                  4.785379738343062,
+                  113.58912688416461
+                ],
+                "radius": 13.941962522682163
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.54844877339845,
+                  2.2224275321837044,
+                  -12.863146502312354
+                ],
+                "radius": 2.2926264515309533
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.48171766645794,
+                  3.7170925339447165,
+                  -13.238386802253597
+                ],
+                "radius": 8.244641506271819
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.5543991076585,
+                  4.124909559895363,
+                  -39.72168643120884
+                ],
+                "radius": 2.1269309285822096
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -112.47808655881677,
+                  3.2198240433858425,
+                  -46.27155436352059
+                ],
+                "radius": 12.69784603992504
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.10322420525142,
+                  2.6079621135632705,
+                  57.19404131524673
+                ],
+                "radius": 4.4938074083589905
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.86053060637246,
+                  4.350813836315721,
+                  43.97042548128014
+                ],
+                "radius": 11.568199330902349
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.20812248307244,
+                  3.9526820158268925,
+                  17.323628408007455
+                ],
+                "radius": 12.10023056721667
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.52819949045978,
+                  2.900775520060902,
+                  2.684096859522064
+                ],
+                "radius": 1.648188377019186
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.11790544184598,
+                  4.436342361916283,
+                  109.27587828145703
+                ],
+                "radius": 17.10709165154991
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18153164046551,
+                  5.299566122552179,
+                  86.4754120778572
+                ],
+                "radius": 10.426718722655611
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58765954875075,
+                  6.614145609549356,
+                  114.45381073578638
+                ],
+                "radius": 23.539404960189486
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  19.055257767459025,
+                  3.8758861153075284,
+                  90.19859292620028
+                ],
+                "radius": 13.953552864674899
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.54841435972661,
+                  3.5903535783878375,
+                  110.83735700992106
+                ],
+                "radius": 18.757405878648804
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Trunk",
+          "indices": 417,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.980844799190272,
+                  5.1720572854443665,
+                  81.32162692656479
+                ],
+                "radius": 12.840562803674437
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.55952657977897,
+                  7.398340640494053,
+                  114.88429869861224
+                ],
+                "radius": 19.77785204154756
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.975273293273249,
+                  6.730780280878523,
+                  114.67549328345487
+                ],
+                "radius": 17.879376707544104
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.47430284582023,
+                  4.124120221705688,
+                  -12.69109954368891
+                ],
+                "radius": 6.445120593570388
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -82.10325324234829,
+                  5.553887297495488,
+                  -13.143424112909535
+                ],
+                "radius": 11.64207820057194
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.55729303906573,
+                  5.889160748851177,
+                  -39.89546638912185
+                ],
+                "radius": 5.9793108989704535
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.6418538209322,
+                  5.269176084799793,
+                  -46.743182848224194
+                ],
+                "radius": 16.18579839413438
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.16775025892096,
+                  4.694641087390781,
+                  56.693798881605005
+                ],
+                "radius": 8.903428745062602
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.76980166354409,
+                  6.19975023439077,
+                  43.76054824253459
+                ],
+                "radius": 15.65186015639467
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.02917812269814,
+                  5.675532083936844,
+                  17.024736166411365
+                ],
+                "radius": 15.808576517545019
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.6249900710562,
+                  4.267918338045688,
+                  2.7777512338733596
+                ],
+                "radius": 4.633451229578248
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.48476663231513,
+                  6.1973520529787365,
+                  110.00502230183334
+                ],
+                "radius": 21.21881134901914
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.13664888881478,
+                  7.077606038826203,
+                  86.62026474976578
+                ],
+                "radius": 14.383752093233976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.69779213707731,
+                  8.623496238030494,
+                  113.83304701628865
+                ],
+                "radius": 27.07759063298145
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.707282432747398,
+                  5.570843869962681,
+                  90.40061895935914
+                ],
+                "radius": 17.52121829624624
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.99513203689366,
+                  5.280909339918431,
+                  110.79917443335702
+                ],
+                "radius": 22.44503686187397
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Needles",
+          "indices": 12798,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -13.139412675293487,
+                  7.278793099282387,
+                  81.41735649871354
+                ],
+                "radius": 12.242737778149293
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.4922086577048,
+                  10.095342878807264,
+                  115.01311442195377
+                ],
+                "radius": 18.606886133207915
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.787046748002322,
+                  9.37531303937077,
+                  114.33147432791431
+                ],
+                "radius": 16.8819748244679
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.3893814086914,
+                  6.980521345122542,
+                  -12.880369186401367
+                ],
+                "radius": 5.338902921311954
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.85835892950415,
+                  7.9424966750967965,
+                  -13.028055777355522
+                ],
+                "radius": 10.977981774025446
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.69695281982422,
+                  8.539120495706824,
+                  -39.7630500793457
+                ],
+                "radius": 4.953043152953865
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.96618278075246,
+                  7.882939317308074,
+                  -46.66480021399608
+                ],
+                "radius": 15.602924349954762
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.23774284145408,
+                  7.667430801050916,
+                  56.802178327362604
+                ],
+                "radius": 7.861273518510831
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.93638797887284,
+                  8.975689320038896,
+                  43.81117910699938
+                ],
+                "radius": 14.46784546514117
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.11187301255367,
+                  8.219820024035975,
+                  16.961714554011415
+                ],
+                "radius": 14.856415254908647
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.47611999511719,
+                  6.321409053280352,
+                  2.786654472351074
+                ],
+                "radius": 3.8381820706395775
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.39978979067696,
+                  8.777121439936744,
+                  109.87147849234998
+                ],
+                "radius": 20.221396690548094
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18880932839947,
+                  9.723885500385242,
+                  86.57076952112484
+                ],
+                "radius": 13.185414256698976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58992950561799,
+                  11.39215106716798,
+                  113.93700613661962
+                ],
+                "radius": 26.19620014663818
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.72539364292743,
+                  8.065416239585476,
+                  90.26377729095242
+                ],
+                "radius": 16.71091151276133
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.93767326169136,
+                  7.778003419326914,
+                  110.90029705171453
+                ],
+                "radius": 21.44445791554402
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "on-quad",
+      "treeProps": 49,
+      "unchangedLodCounts": [
+        0,
+        1,
+        48
+      ],
+      "cells": 17,
+      "oldTriangles": 226716,
+      "newTriangles": 10044,
+      "savedTriangles": 216672,
+      "oldCalls": 6,
+      "newCalls": 3,
+      "camera": {
+        "position": [
+          -7.999996465226836,
+          2.243316065952578,
+          31.887707682636794
+        ],
+        "quaternion": [
+          -0.07492970727274234,
+          0,
+          0,
+          0.9971888181122076
+        ],
+        "fov": 62,
+        "aspect": 1.6
+      },
+      "rows": [
+        {
+          "lod": 1,
+          "material": "PH_Fir_Bark",
+          "indices": 3900,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.893793142807437,
+                  8.804435879404094,
+                  3.9640859848219585
+                ],
+                "radius": 6.664769277411405
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Trunk",
+          "indices": 717,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.630645234225657,
+                  7.173578229091513,
+                  4.088868154929934
+                ],
+                "radius": 7.266435308608823
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Needles",
+          "indices": 25515,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.815589904785156,
+                  10.393990246483494,
+                  3.9634885787963867
+                ],
+                "radius": 6.021916133879519
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Bark",
+          "indices": 327,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.854382557124634,
+                  3.3038487226940814,
+                  82.00536951601941
+                ],
+                "radius": 9.802944041544563
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.63725025206832,
+                  5.626440092628665,
+                  115.17933863966266
+                ],
+                "radius": 15.832316000202564
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.71095041900258,
+                  4.785379738343062,
+                  113.58912688416461
+                ],
+                "radius": 13.941962522682163
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.54844877339845,
+                  2.2224275321837044,
+                  -12.863146502312354
+                ],
+                "radius": 2.2926264515309533
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.48171766645794,
+                  3.7170925339447165,
+                  -13.238386802253597
+                ],
+                "radius": 8.244641506271819
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.5543991076585,
+                  4.124909559895363,
+                  -39.72168643120884
+                ],
+                "radius": 2.1269309285822096
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -112.47808655881677,
+                  3.2198240433858425,
+                  -46.27155436352059
+                ],
+                "radius": 12.69784603992504
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.10322420525142,
+                  2.6079621135632705,
+                  57.19404131524673
+                ],
+                "radius": 4.4938074083589905
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.86053060637246,
+                  4.350813836315721,
+                  43.97042548128014
+                ],
+                "radius": 11.568199330902349
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.20812248307244,
+                  3.9526820158268925,
+                  17.323628408007455
+                ],
+                "radius": 12.10023056721667
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.52819949045978,
+                  2.900775520060902,
+                  2.684096859522064
+                ],
+                "radius": 1.648188377019186
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.11790544184598,
+                  4.436342361916283,
+                  109.27587828145703
+                ],
+                "radius": 17.10709165154991
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18153164046551,
+                  5.299566122552179,
+                  86.4754120778572
+                ],
+                "radius": 10.426718722655611
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58765954875075,
+                  6.614145609549356,
+                  114.45381073578638
+                ],
+                "radius": 23.539404960189486
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  19.055257767459025,
+                  3.8758861153075284,
+                  90.19859292620028
+                ],
+                "radius": 13.953552864674899
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.54841435972661,
+                  3.5903535783878375,
+                  110.83735700992106
+                ],
+                "radius": 18.757405878648804
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Trunk",
+          "indices": 417,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.980844799190272,
+                  5.1720572854443665,
+                  81.32162692656479
+                ],
+                "radius": 12.840562803674437
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.55952657977897,
+                  7.398340640494053,
+                  114.88429869861224
+                ],
+                "radius": 19.77785204154756
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.975273293273249,
+                  6.730780280878523,
+                  114.67549328345487
+                ],
+                "radius": 17.879376707544104
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.47430284582023,
+                  4.124120221705688,
+                  -12.69109954368891
+                ],
+                "radius": 6.445120593570388
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -82.10325324234829,
+                  5.553887297495488,
+                  -13.143424112909535
+                ],
+                "radius": 11.64207820057194
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.55729303906573,
+                  5.889160748851177,
+                  -39.89546638912185
+                ],
+                "radius": 5.9793108989704535
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.6418538209322,
+                  5.269176084799793,
+                  -46.743182848224194
+                ],
+                "radius": 16.18579839413438
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.16775025892096,
+                  4.694641087390781,
+                  56.693798881605005
+                ],
+                "radius": 8.903428745062602
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.76980166354409,
+                  6.19975023439077,
+                  43.76054824253459
+                ],
+                "radius": 15.65186015639467
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.02917812269814,
+                  5.675532083936844,
+                  17.024736166411365
+                ],
+                "radius": 15.808576517545019
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.6249900710562,
+                  4.267918338045688,
+                  2.7777512338733596
+                ],
+                "radius": 4.633451229578248
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.48476663231513,
+                  6.1973520529787365,
+                  110.00502230183334
+                ],
+                "radius": 21.21881134901914
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.13664888881478,
+                  7.077606038826203,
+                  86.62026474976578
+                ],
+                "radius": 14.383752093233976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.69779213707731,
+                  8.623496238030494,
+                  113.83304701628865
+                ],
+                "radius": 27.07759063298145
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.707282432747398,
+                  5.570843869962681,
+                  90.40061895935914
+                ],
+                "radius": 17.52121829624624
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.99513203689366,
+                  5.280909339918431,
+                  110.79917443335702
+                ],
+                "radius": 22.44503686187397
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Needles",
+          "indices": 12798,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -13.139412675293487,
+                  7.278793099282387,
+                  81.41735649871354
+                ],
+                "radius": 12.242737778149293
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.4922086577048,
+                  10.095342878807264,
+                  115.01311442195377
+                ],
+                "radius": 18.606886133207915
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.787046748002322,
+                  9.37531303937077,
+                  114.33147432791431
+                ],
+                "radius": 16.8819748244679
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.3893814086914,
+                  6.980521345122542,
+                  -12.880369186401367
+                ],
+                "radius": 5.338902921311954
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.85835892950415,
+                  7.9424966750967965,
+                  -13.028055777355522
+                ],
+                "radius": 10.977981774025446
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.69695281982422,
+                  8.539120495706824,
+                  -39.7630500793457
+                ],
+                "radius": 4.953043152953865
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.96618278075246,
+                  7.882939317308074,
+                  -46.66480021399608
+                ],
+                "radius": 15.602924349954762
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.23774284145408,
+                  7.667430801050916,
+                  56.802178327362604
+                ],
+                "radius": 7.861273518510831
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.93638797887284,
+                  8.975689320038896,
+                  43.81117910699938
+                ],
+                "radius": 14.46784546514117
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.11187301255367,
+                  8.219820024035975,
+                  16.961714554011415
+                ],
+                "radius": 14.856415254908647
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.47611999511719,
+                  6.321409053280352,
+                  2.786654472351074
+                ],
+                "radius": 3.8381820706395775
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.39978979067696,
+                  8.777121439936744,
+                  109.87147849234998
+                ],
+                "radius": 20.221396690548094
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18880932839947,
+                  9.723885500385242,
+                  86.57076952112484
+                ],
+                "radius": 13.185414256698976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58992950561799,
+                  11.39215106716798,
+                  113.93700613661962
+                ],
+                "radius": 26.19620014663818
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.72539364292743,
+                  8.065416239585476,
+                  90.26377729095242
+                ],
+                "radius": 16.71091151276133
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.93767326169136,
+                  7.778003419326914,
+                  110.90029705171453
+                ],
+                "radius": 21.44445791554402
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "on-upright",
+      "treeProps": 49,
+      "unchangedLodCounts": [
+        0,
+        1,
+        48
+      ],
+      "cells": 17,
+      "oldTriangles": 226716,
+      "newTriangles": 10044,
+      "savedTriangles": 216672,
+      "oldCalls": 6,
+      "newCalls": 3,
+      "camera": {
+        "position": [
+          -7.999996460393799,
+          2.6878552404976883,
+          31.88770769498575
+        ],
+        "quaternion": [
+          -0.07492970727274234,
+          0,
+          0,
+          0.9971888181122076
+        ],
+        "fov": 62,
+        "aspect": 1.6
+      },
+      "rows": [
+        {
+          "lod": 1,
+          "material": "PH_Fir_Bark",
+          "indices": 3900,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.893793142807437,
+                  8.804435879404094,
+                  3.9640859848219585
+                ],
+                "radius": 6.664769277411405
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Trunk",
+          "indices": 717,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.630645234225657,
+                  7.173578229091513,
+                  4.088868154929934
+                ],
+                "radius": 7.266435308608823
+              }
+            }
+          ]
+        },
+        {
+          "lod": 1,
+          "material": "PH_Fir_Needles",
+          "indices": 25515,
+          "legacyInstances": 1,
+          "spatialSubmittedInstances": 1,
+          "visibleCells": 1,
+          "cellRows": [
+            {
+              "key": "0,0",
+              "indices": [
+                39
+              ],
+              "visible": true,
+              "boundingSphere": {
+                "center": [
+                  12.815589904785156,
+                  10.393990246483494,
+                  3.9634885787963867
+                ],
+                "radius": 6.021916133879519
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Bark",
+          "indices": 327,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.854382557124634,
+                  3.3038487226940814,
+                  82.00536951601941
+                ],
+                "radius": 9.802944041544563
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.63725025206832,
+                  5.626440092628665,
+                  115.17933863966266
+                ],
+                "radius": 15.832316000202564
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.71095041900258,
+                  4.785379738343062,
+                  113.58912688416461
+                ],
+                "radius": 13.941962522682163
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.54844877339845,
+                  2.2224275321837044,
+                  -12.863146502312354
+                ],
+                "radius": 2.2926264515309533
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.48171766645794,
+                  3.7170925339447165,
+                  -13.238386802253597
+                ],
+                "radius": 8.244641506271819
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.5543991076585,
+                  4.124909559895363,
+                  -39.72168643120884
+                ],
+                "radius": 2.1269309285822096
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -112.47808655881677,
+                  3.2198240433858425,
+                  -46.27155436352059
+                ],
+                "radius": 12.69784603992504
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.10322420525142,
+                  2.6079621135632705,
+                  57.19404131524673
+                ],
+                "radius": 4.4938074083589905
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.86053060637246,
+                  4.350813836315721,
+                  43.97042548128014
+                ],
+                "radius": 11.568199330902349
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.20812248307244,
+                  3.9526820158268925,
+                  17.323628408007455
+                ],
+                "radius": 12.10023056721667
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.52819949045978,
+                  2.900775520060902,
+                  2.684096859522064
+                ],
+                "radius": 1.648188377019186
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.11790544184598,
+                  4.436342361916283,
+                  109.27587828145703
+                ],
+                "radius": 17.10709165154991
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18153164046551,
+                  5.299566122552179,
+                  86.4754120778572
+                ],
+                "radius": 10.426718722655611
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58765954875075,
+                  6.614145609549356,
+                  114.45381073578638
+                ],
+                "radius": 23.539404960189486
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  19.055257767459025,
+                  3.8758861153075284,
+                  90.19859292620028
+                ],
+                "radius": 13.953552864674899
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.54841435972661,
+                  3.5903535783878375,
+                  110.83735700992106
+                ],
+                "radius": 18.757405878648804
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Trunk",
+          "indices": 417,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -12.980844799190272,
+                  5.1720572854443665,
+                  81.32162692656479
+                ],
+                "radius": 12.840562803674437
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.55952657977897,
+                  7.398340640494053,
+                  114.88429869861224
+                ],
+                "radius": 19.77785204154756
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.975273293273249,
+                  6.730780280878523,
+                  114.67549328345487
+                ],
+                "radius": 17.879376707544104
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.47430284582023,
+                  4.124120221705688,
+                  -12.69109954368891
+                ],
+                "radius": 6.445120593570388
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -82.10325324234829,
+                  5.553887297495488,
+                  -13.143424112909535
+                ],
+                "radius": 11.64207820057194
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.55729303906573,
+                  5.889160748851177,
+                  -39.89546638912185
+                ],
+                "radius": 5.9793108989704535
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.6418538209322,
+                  5.269176084799793,
+                  -46.743182848224194
+                ],
+                "radius": 16.18579839413438
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.16775025892096,
+                  4.694641087390781,
+                  56.693798881605005
+                ],
+                "radius": 8.903428745062602
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.76980166354409,
+                  6.19975023439077,
+                  43.76054824253459
+                ],
+                "radius": 15.65186015639467
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.02917812269814,
+                  5.675532083936844,
+                  17.024736166411365
+                ],
+                "radius": 15.808576517545019
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.6249900710562,
+                  4.267918338045688,
+                  2.7777512338733596
+                ],
+                "radius": 4.633451229578248
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.48476663231513,
+                  6.1973520529787365,
+                  110.00502230183334
+                ],
+                "radius": 21.21881134901914
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.13664888881478,
+                  7.077606038826203,
+                  86.62026474976578
+                ],
+                "radius": 14.383752093233976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.69779213707731,
+                  8.623496238030494,
+                  113.83304701628865
+                ],
+                "radius": 27.07759063298145
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.707282432747398,
+                  5.570843869962681,
+                  90.40061895935914
+                ],
+                "radius": 17.52121829624624
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.99513203689366,
+                  5.280909339918431,
+                  110.79917443335702
+                ],
+                "radius": 22.44503686187397
+              }
+            }
+          ]
+        },
+        {
+          "lod": 2,
+          "material": "PH_Fir_Needles",
+          "indices": 12798,
+          "legacyInstances": 48,
+          "spatialSubmittedInstances": 0,
+          "visibleCells": 0,
+          "cellRows": [
+            {
+              "key": "-1,2",
+              "indices": [
+                0,
+                1,
+                3,
+                6
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -13.139412675293487,
+                  7.278793099282387,
+                  81.41735649871354
+                ],
+                "radius": 12.242737778149293
+              }
+            },
+            {
+              "key": "-2,3",
+              "indices": [
+                2,
+                4,
+                8
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -44.4922086577048,
+                  10.095342878807264,
+                  115.01311442195377
+                ],
+                "radius": 18.606886133207915
+              }
+            },
+            {
+              "key": "-1,3",
+              "indices": [
+                5,
+                7
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -15.787046748002322,
+                  9.37531303937077,
+                  114.33147432791431
+                ],
+                "radius": 16.8819748244679
+              }
+            },
+            {
+              "key": "-4,-1",
+              "indices": [
+                9
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -118.3893814086914,
+                  6.980521345122542,
+                  -12.880369186401367
+                ],
+                "radius": 5.338902921311954
+              }
+            },
+            {
+              "key": "-3,-1",
+              "indices": [
+                10,
+                14,
+                15,
+                16
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -81.85835892950415,
+                  7.9424966750967965,
+                  -13.028055777355522
+                ],
+                "radius": 10.977981774025446
+              }
+            },
+            {
+              "key": "-3,-2",
+              "indices": [
+                11
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.69695281982422,
+                  8.539120495706824,
+                  -39.7630500793457
+                ],
+                "radius": 4.953043152953865
+              }
+            },
+            {
+              "key": "-4,-2",
+              "indices": [
+                12,
+                13,
+                17,
+                18
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -111.96618278075246,
+                  7.882939317308074,
+                  -46.66480021399608
+                ],
+                "radius": 15.602924349954762
+              }
+            },
+            {
+              "key": "-4,1",
+              "indices": [
+                19,
+                23
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -121.23774284145408,
+                  7.667430801050916,
+                  56.802178327362604
+                ],
+                "radius": 7.861273518510831
+              }
+            },
+            {
+              "key": "-3,1",
+              "indices": [
+                20,
+                22
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -87.93638797887284,
+                  8.975689320038896,
+                  43.81117910699938
+                ],
+                "radius": 14.46784546514117
+              }
+            },
+            {
+              "key": "-3,0",
+              "indices": [
+                21,
+                24,
+                25
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -88.11187301255367,
+                  8.219820024035975,
+                  16.961714554011415
+                ],
+                "radius": 14.856415254908647
+              }
+            },
+            {
+              "key": "-4,0",
+              "indices": [
+                26
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -108.47611999511719,
+                  6.321409053280352,
+                  2.786654472351074
+                ],
+                "radius": 3.8381820706395775
+              }
+            },
+            {
+              "key": "-4,3",
+              "indices": [
+                27,
+                30,
+                34,
+                38
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.39978979067696,
+                  8.777121439936744,
+                  109.87147849234998
+                ],
+                "radius": 20.221396690548094
+              }
+            },
+            {
+              "key": "-4,2",
+              "indices": [
+                28,
+                32
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -113.18880932839947,
+                  9.723885500385242,
+                  86.57076952112484
+                ],
+                "radius": 13.185414256698976
+              }
+            },
+            {
+              "key": "-3,3",
+              "indices": [
+                29,
+                31,
+                33,
+                35,
+                36,
+                37
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  -75.58992950561799,
+                  11.39215106716798,
+                  113.93700613661962
+                ],
+                "radius": 26.19620014663818
+              }
+            },
+            {
+              "key": "0,2",
+              "indices": [
+                40,
+                43,
+                45,
+                46
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  18.72539364292743,
+                  8.065416239585476,
+                  90.26377729095242
+                ],
+                "radius": 16.71091151276133
+              }
+            },
+            {
+              "key": "1,3",
+              "indices": [
+                41,
+                42,
+                44,
+                47,
+                48
+              ],
+              "visible": false,
+              "boundingSphere": {
+                "center": [
+                  45.93767326169136,
+                  7.778003419326914,
+                  110.90029705171453
+                ],
+                "radius": 21.44445791554402
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

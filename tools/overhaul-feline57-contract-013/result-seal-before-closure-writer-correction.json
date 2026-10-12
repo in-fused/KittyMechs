@@ -1,0 +1,27 @@
+{
+  "schema": "feline57-contract013-result-seal",
+  "frozenSealSHA": null,
+  "rows": [
+    {
+      "path": "tools/overhaul-feline57-contract-013/result.md",
+      "bytes": 1961,
+      "sha256": "6334cde1bfb35846cda25800c03733c0d34e0e5c01867208fd0c394b9bca6c9e"
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/closure.json",
+      "bytes": 6,
+      "sha256": "abdfbffecbe18ed94df9829819e596ee285b52a94aa108514452a9121721c789"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-013/qualification-process.json",
+      "bytes": 662,
+      "sha256": "19ee932ccec59721281443e271422bd0eeb984d2b4b81ea980269558505a2abc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-013/compile-process.json",
+      "bytes": 446,
+      "sha256": "f0fcbbcc9c2b9326dde2dd0a58f833fad5174d3e14ea4c8fc40a28f0d6d9df82"
+    }
+  ],
+  "sealedUTC": "2026-10-10T19:02:01.9852702Z"
+}

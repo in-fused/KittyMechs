@@ -1,0 +1,61 @@
+{
+  "sealedUTC": "2026-10-10T19:42:05.596508+00:00",
+  "scope": "First actual020 failedcapture originalPNG/video/audio/evidence; no rerun or completeplay qualification. Derivedboardsseparate.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/actual-game-output.webm",
+      "bytes": 15633,
+      "sha256": "a30d00c8bc04e6c785c42aae9cccacfda3207a6278bad53a805e4b5971fd4198"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/evidence.json",
+      "bytes": 1904374,
+      "sha256": "ffe4e38359d9ef627c2d375ffd5ca5461da05118ce776e2a8f9e47ae70ca58a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/failure-guest.png",
+      "bytes": 1468272,
+      "sha256": "4f1630a88629904b2cc49a3c852902d905c3f64fd86dfe91a4176962311c9bd7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/failure-host.png",
+      "bytes": 1816697,
+      "sha256": "d45689ff4e0d4b9fe8e42ecd96d5ff197a8f849c35ee95c45dd71d36751fd43f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/idle-guest.png",
+      "bytes": 1463933,
+      "sha256": "e253aa67560aa3d5e582e30b232184c0f7dbee8d62f0e6ec02a7904909953c7b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/idle-host.png",
+      "bytes": 1524610,
+      "sha256": "e15f2803f0f15531f90a1fcba731687e45b7e125fd263fe68960dc03e773f259"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/page@0dbd6e429aea674197d31ec4869ccce7.webm",
+      "bytes": 4142847,
+      "sha256": "771600cb8b6cc4b2cfe24633dccb6f6bcf76432a8c53d2fc451180c86ad7707d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/page@f4e1f51e0102224ce0254a52d616d6ef.webm",
+      "bytes": 5167018,
+      "sha256": "5a46f62369387b3ca512434dfab4b73f302f49a3637b58404a2d0bb37abe764f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/pin-guest.png",
+      "bytes": 1480933,
+      "sha256": "a2c8586ca99d9a6b6bb2761cb1e10b2b08bcf10d4623989c7de3ebdde9dbd449"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/pin-host.png",
+      "bytes": 1828010,
+      "sha256": "2327c005392f5176925f197715fb5450b36eb48d4d578f4016e7f7c976fb495f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/progress.json",
+      "bytes": 1903614,
+      "sha256": "2505b0b13d1ee0c25364643926c6a58f41683320748ceb969d502e3752aafafb"
+    }
+  ]
+}

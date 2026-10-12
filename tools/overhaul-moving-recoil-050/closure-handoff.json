@@ -1,0 +1,57 @@
+{
+  "closedUTC": "2026-10-11T01:08:48.442575+00:00",
+  "status": "FIRST_TEST_FAILURE_STOP_UNSHIPPED_RESTORED",
+  "candidateFiles": [
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/src/game/entities/identity57Runtime005.ts",
+      "bytes": 12289,
+      "sha256": "3652822b130c7dac526d20182fb8db1222032f7b497e6f8cc8291bf8f82c3c43"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4605,
+      "sha256": "d2f9caaeb5784b540ebaaf3431f87d0c8bf0c487c67adb4604f830fc6f57a091"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/src/game/entities/movingRecoil050.ts",
+      "bytes": 2935,
+      "sha256": "19d0fff12fa2538d720b6e16a08e23214e22059ea92e3106b6e11e48eb5217b1"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/src/game/entities/movingRecoil050Manifest.json",
+      "bytes": 3163,
+      "sha256": "9b55e9537441cfaf5b6833b95213d4e54d8a408c7f988f5589dc077acc0cd113"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/public/assets/models/Pounce_MovingRecoil050.glb",
+      "bytes": 38480,
+      "sha256": "d363e8d71a19f214181e8eba137eb6ebe9a95a7c32587e49f81eff450949dae5"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/unshipped-candidate/tests/moving-recoil-050.test.ts",
+      "bytes": 10555,
+      "sha256": "d3f4e0f024233beeb34e4d5ebc84d3e90e69b1815e51ddf244f907574863b024"
+    }
+  ],
+  "restored": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2"
+    }
+  ],
+  "absentShippingPaths": [
+    "src/game/entities/movingRecoil050.ts",
+    "src/game/entities/movingRecoil050Manifest.json",
+    "public/assets/models/Pounce_MovingRecoil050.glb",
+    "tests/moving-recoil-050.test.ts"
+  ],
+  "protectedOriginalsUnchanged": true,
+  "jobsAfterFailure": [],
+  "scope": "Exact frozen050 candidate preserved separately. Frozen source-handoff names pre-restoration paths; verify candidate relocated paths through this receipt. No repair/build/candidate/asset deletion. Live036 unchanged."
+}

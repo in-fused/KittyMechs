@@ -1,0 +1,161 @@
+{
+  "writer": "CLOSED",
+  "status": "REJECTED_NATIVE_MOVEMENT_CHANGED",
+  "files": [
+    {
+      "path": "docs/overhaul/locomotion141-design.md",
+      "bytes": 10196,
+      "sha256": "72672030b94e57b777e8d5c8195484706f74285157212a22be8dea0e4030116c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/baseline.ts",
+      "bytes": 12595,
+      "sha256": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/design-first-closure.md",
+      "bytes": 7049,
+      "sha256": "6b4e74d6d7b34b919cd789206bae7582f991d026d6aab0f6000a86b0526d6244"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/nonmutating-candidate.ts",
+      "bytes": 12464,
+      "sha256": "d383e20c94b7f55a5a857cc0863348d258b71daf2438c60e980dc13236e91170"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/probe-final.mts",
+      "bytes": 6407,
+      "sha256": "43682d4eb07f6e5c858b9eef665f4e8800df7eaba92c260e32963b643dac5fef"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/probe-first-failure.mts",
+      "bytes": 5149,
+      "sha256": "b3bb01bbda0a5528df3553a7bd9771c0d76ca7266872141747c8080d9b826293"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/probe.mts",
+      "bytes": 5153,
+      "sha256": "868f5a10c1983042adfd79b988d48d7a6f93ae7f3505599af6e9bfbe4994f2e2"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/process-final-receipt.json",
+      "bytes": 56,
+      "sha256": "876e512b3c960465c13ce37d3e935ea0075b89fd76b2531a5e12702c039d6fb0"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/process-first-failure.json",
+      "bytes": 43,
+      "sha256": "5335e4eae08b02661c9886b1dff05a477a9af6fe8c7277eed1e48e54dcb1471e"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/process-receipt.json",
+      "bytes": 57,
+      "sha256": "0ce8ca8af3eeed7823548258bbeb7eac8d059c7f2fe38d711eceaae7a2f5d2ef"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/process-second-failure.json",
+      "bytes": 57,
+      "sha256": "0ce8ca8af3eeed7823548258bbeb7eac8d059c7f2fe38d711eceaae7a2f5d2ef"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/protected-inputs.json",
+      "bytes": 1722,
+      "sha256": "03bea70d89335e0d6a272d5e29cfd54784e269a563f133920a1932213c80c98a"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/rapier-character-controller-official.ts",
+      "bytes": 13580,
+      "sha256": "585cabe4856d1e230bb5835263489c53f95e754a870a8a2eb03c50bbbd4fe453"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/receipt-final.json",
+      "bytes": 6973,
+      "sha256": "06b94b1f47c1b27a1bc861551475137e58000c16867735af4ef97590b05ea5d8"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/receipt-second-failure.json",
+      "bytes": 1731,
+      "sha256": "3d937a618900fbb0a861bb9de632ff9d590c578d2ed7bcf8cfff4d7ec105d278"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/receipt.json",
+      "bytes": 1731,
+      "sha256": "3d937a618900fbb0a861bb9de632ff9d590c578d2ed7bcf8cfff4d7ec105d278"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/simulation-baseline.ts",
+      "bytes": 177431,
+      "sha256": "791ef9e684704f52121ea2c8f50512e061fd674722a1b76c6c31f8a55e5dc1c4"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/simulation-nonmutating-candidate.ts",
+      "bytes": 177444,
+      "sha256": "65d093219a84dde35bda9a3f11b23f2b4458abb2d1d7aff12c2be97a1c63702c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/source-seal.json",
+      "bytes": 3131,
+      "sha256": "40255d7230a4a2b404af86d6439961aa5b7216573641f885ad0f8fdd98ea6699"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stderr-final.txt",
+      "bytes": 91,
+      "sha256": "34d6e48011dd4350a265093391fece4789b7c951da1a266619b65c1a071f9ed5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stderr-first-failure.txt",
+      "bytes": 1162,
+      "sha256": "6c54dedf605e3e5fa7651af627a6f07dc305de08d85fd7e7c68d00947d9a9585"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stderr-second-failure.txt",
+      "bytes": 91,
+      "sha256": "34d6e48011dd4350a265093391fece4789b7c951da1a266619b65c1a071f9ed5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stderr.txt",
+      "bytes": 91,
+      "sha256": "34d6e48011dd4350a265093391fece4789b7c951da1a266619b65c1a071f9ed5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stdout-final.txt",
+      "bytes": 2450,
+      "sha256": "1048fb79f0587bfd0debb45f41d17d2990d7d84430b1c0092a9709469fb4cd74"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stdout-first-failure.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stdout-second-failure.txt",
+      "bytes": 946,
+      "sha256": "a08339f2d96a25d5f5fa64b5f6b23902ab679178e507d1a65909620405fa3761"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/stdout.txt",
+      "bytes": 946,
+      "sha256": "a08339f2d96a25d5f5fa64b5f6b23902ab679178e507d1a65909620405fa3761"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/trace-final-baseline-0.json",
+      "bytes": 1236385,
+      "sha256": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/trace-final-baseline-3.json",
+      "bytes": 1236385,
+      "sha256": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/trace-final-nonmutating-candidate-1.json",
+      "bytes": 1236385,
+      "sha256": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "path": "tools/overhaul-locomotion-141/trace-final-nonmutating-candidate-2.json",
+      "bytes": 1236385,
+      "sha256": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    }
+  ]
+}

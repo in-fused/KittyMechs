@@ -1,0 +1,192 @@
+[
+  {
+    "rig": "ON57",
+    "name": "FelineWalk",
+    "limb": "HL",
+    "sourceDuty": 0.72,
+    "offset": 0.75,
+    "phases": [
+      0.32199999999999995,
+      0.754
+    ],
+    "sourceLoadedSoleY": [
+      -0.000030258446283579557,
+      -0.00002299011857715208
+    ],
+    "nativeDistanceContract": 0.7777777187880921,
+    "actualPawMarkerStride": 0.7777626762945424,
+    "residual": -0.000015042493549666247,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "ON57",
+    "name": "FelineTrot",
+    "limb": "HL",
+    "sourceDuty": 0.62,
+    "offset": 0.54,
+    "phases": [
+      0.522,
+      0.8939999999999999
+    ],
+    "sourceLoadedSoleY": [
+      -0.00011813507668247819,
+      -0.0004909327894974894
+    ],
+    "nativeDistanceContract": 1.3548383374834434,
+    "actualPawMarkerStride": 1.3541381649735302,
+    "residual": -0.0007001725099131662,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "ON57",
+    "name": "FelineGallop",
+    "limb": "HL",
+    "sourceDuty": 0.26,
+    "offset": 0.94,
+    "phases": [
+      0.08600000000000008,
+      0.242
+    ],
+    "sourceLoadedSoleY": [
+      -0.0005168470366445146,
+      -0.0010954997631112025
+    ],
+    "nativeDistanceContract": 2.4358982851473603,
+    "actualPawMarkerStride": 2.4324363735517958,
+    "residual": -0.0034619115955645263,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "ON57",
+    "name": "FelineUprightWalkLong",
+    "limb": "HL",
+    "sourceDuty": 0.64,
+    "offset": 0,
+    "phases": [
+      0.06400000000000006,
+      0.44799999999999995
+    ],
+    "sourceLoadedSoleY": [
+      -0.00010664823760983891,
+      -0.00009513724217351596
+    ],
+    "nativeDistanceContract": 1.0624996068891175,
+    "actualPawMarkerStride": 1.0623017680064735,
+    "residual": -0.00019783888264401917,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "ON57",
+    "name": "FelineUprightStride",
+    "limb": "HL",
+    "sourceDuty": 0.64,
+    "offset": 0,
+    "phases": [
+      0.06400000000000006,
+      0.44799999999999995
+    ],
+    "sourceLoadedSoleY": [
+      -0.001277962745136722,
+      -0.001343121808168455
+    ],
+    "nativeDistanceContract": 2.1533341443921303,
+    "actualPawMarkerStride": 2.151569791275121,
+    "residual": -0.0017643531170095095,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "OFF25",
+    "name": "FelineWalk",
+    "limb": "HL",
+    "sourceDuty": 0.7,
+    "offset": 0.25,
+    "phases": [
+      0.8200000000000001,
+      0.24
+    ],
+    "sourceLoadedSoleY": [
+      0.027645887785679335,
+      0.02764564640930689
+    ],
+    "nativeDistanceContract": 0.8228571428571428,
+    "actualPawMarkerStride": 0.8228472738332666,
+    "residual": -0.00000986902387623001,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "OFF25",
+    "name": "FelineTrot",
+    "limb": "HL",
+    "sourceDuty": 0.55,
+    "offset": 0.5,
+    "phases": [
+      0.5549999999999999,
+      0.885
+    ],
+    "sourceLoadedSoleY": [
+      0.02751853590402542,
+      0.02750993266474555
+    ],
+    "nativeDistanceContract": 1.6,
+    "actualPawMarkerStride": 1.5998554604488322,
+    "residual": -0.0001445395511678882,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "OFF25",
+    "name": "FelineGallop",
+    "limb": "HL",
+    "sourceDuty": 0.44,
+    "offset": 0.54,
+    "phases": [
+      0.504,
+      0.768
+    ],
+    "sourceLoadedSoleY": [
+      0.02701581532541475,
+      0.027442542212140597
+    ],
+    "nativeDistanceContract": 3.0181818181818185,
+    "actualPawMarkerStride": 3.0178778734074108,
+    "residual": -0.0003039447744077606,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "OFF25",
+    "name": "FelineUprightWalkLong",
+    "limb": "HL",
+    "sourceDuty": 0.7,
+    "offset": 0,
+    "phases": [
+      0.07000000000000006,
+      0.49
+    ],
+    "sourceLoadedSoleY": [
+      0.027653467002264565,
+      0.02763180490660022
+    ],
+    "nativeDistanceContract": 1.3142857142857143,
+    "actualPawMarkerStride": 1.3142700295430305,
+    "residual": -0.00001568474268376363,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  },
+  {
+    "rig": "OFF25",
+    "name": "FelineUprightStride",
+    "limb": "HL",
+    "sourceDuty": 0.57,
+    "offset": 0,
+    "phases": [
+      0.05699999999999994,
+      0.399
+    ],
+    "sourceLoadedSoleY": [
+      0.027586262034082543,
+      0.02747473333333683
+    ],
+    "nativeDistanceContract": 2.0771929824561406,
+    "actualPawMarkerStride": 2.0770387207838614,
+    "residual": -0.00015426167227916565,
+    "provenance": "PURE_ACTUAL_EXPORTED_LOADED_HIND_FK_SLOPE_NOT_SKIN_SLIP_OR_NATIVE_CONTACT"
+  }
+]

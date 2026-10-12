@@ -1,0 +1,96 @@
+{
+  "writer": "CLOSED",
+  "scope": "PRIVATE_SOURCE_ONLY_UNADMITTED",
+  "files": [
+    {
+      "path": "tools/overhaul-shader-startup-232/dependencies.json",
+      "bytes": 4214,
+      "sha256": "b8d8123d4ac31d4b02653f3160bc63d9055b8c553026702caf86d61546232c3c"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/final-fixture-receipt.json",
+      "bytes": 5186,
+      "sha256": "49c5e727f64c3ada871fde0675465254a94da5a4c3852a57db8f36e0f0b4a0d9"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/first-fixture-setup-failure.json",
+      "bytes": 483,
+      "sha256": "6e986b0e75ea656471e7c92098d192e51c64db9fb8322b950b9ce067f805bd59"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/first-static-failure.txt",
+      "bytes": 773,
+      "sha256": "12bd2d2e31bd46b55b249822ae01340e44584368fef043b2ac3439865c9892b7"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/fixture-receipt.json",
+      "bytes": 5185,
+      "sha256": "de1d62210d7efd5a45841234aa346a0de6eaa88ffa7eb886cf8800c901a17733"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/fixture232.test.ts",
+      "bytes": 7828,
+      "sha256": "91d0b1d8c7a9b02492c61e96f7ab2dfb002c111cb07e0f809f2b9fad5df21342"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/GameCanvas232.tsx",
+      "bytes": 12300,
+      "sha256": "e18ac137b02cc3b076cb819799ac506d308f3352afefe3436ef6bd76501282d7"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/HANDOFF.md",
+      "bytes": 5231,
+      "sha256": "009700fcd2473f86188d148f1b6c3f094cc9f6ff19c171d8cffa82ab7e101290"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/preimage/GameCanvas220.tsx",
+      "bytes": 11379,
+      "sha256": "451230681f32e70bc32de7356c7d232b406b955d3908322f9e4363fd86d5a561"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/registry-types232.d.ts",
+      "bytes": 287,
+      "sha256": "78f8efabe142692ff732a5e4fbd22a725fabcc949476f1a2d868f2503bbf2dc6"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/rendering/deploymentReadiness211.ts",
+      "bytes": 158,
+      "sha256": "a9ccc1eaec7f78d7392bc6fa9873f94856848e3912576e354c919ba5289e83ec"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/repaired-fixture-receipt.json",
+      "bytes": 6119,
+      "sha256": "b4b62a28f7b9ff78260545e8f54b11fdae4757ec06a2fa6c207fda010f90fb24"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/shaderStartup232.tsx",
+      "bytes": 15226,
+      "sha256": "1f3f4a02f0cd8553bc1d413b3f32e7d00d87ec69e86111b08873add2dd890c8b"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/static-receipt.json",
+      "bytes": 1569,
+      "sha256": "7db66ff8effd17d03b45cad58f04be06b3d29df70583d6429ef362b74517c311"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/tsconfig232.json",
+      "bytes": 306,
+      "sha256": "d7ee4815d173c7f940b81f32428d2a1a4f2411e2585b6a344eb58c15ffba43c8"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/typecheck/game/GameCanvas232.tsx",
+      "bytes": 12284,
+      "sha256": "dc77993e0c570f288473ebab1b67d52ed0f8cd6d721044edc561c29d5364d34a"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/typecheck/game/rendering/deploymentReadiness211.ts",
+      "bytes": 76,
+      "sha256": "b8f65bac989f2ee362b23ddfc395c6d265aa6a9114b2b4b281ca1c4bab2db5f5"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/vitest.config.mjs",
+      "bytes": 197,
+      "sha256": "c1a0350205742aceaad3e89efdaf6ba89277d32cc312979a8b5f8b86cda5364c"
+    }
+  ]
+}

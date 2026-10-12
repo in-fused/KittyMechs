@@ -1,0 +1,15 @@
+{
+  "closedUTC": "2026-10-10T19:53:39.7153987Z",
+  "review": "docs/overhaul/critic/pounce-wholebody-source-021-result-review.md",
+  "reviewSHA256": "75EEEA23E7460BDEAC97AD49314C1B0C837E1DF3232751AF379E399438D4CBDC",
+  "verdict": "ACCEPT_PRESERVATION_PARTIAL_ROWS_DENY_CONTACT_TRAJECTORY_ART_RUNTIME_GATE1",
+  "sourceRows": 81,
+  "failingClockSource": 2.533333333333333,
+  "failingFrame": 37,
+  "frozenProtectedMatch": 46,
+  "resultSealPending": false,
+  "noRetry": true,
+  "resultSealSHA256": "B0DC0847374CAB5F919FEE727FBA3680AA99247B4C47F5261309997BFBC26D8F",
+  "verifiedResultRows": 27,
+  "resultVerificationUTC": "2026-10-10T19:54:09.1131980Z"
+}

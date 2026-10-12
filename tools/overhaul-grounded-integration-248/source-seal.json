@@ -1,0 +1,41 @@
+{
+  "writer": "CLOSED",
+  "scope": "One248 private diagnostic integration: behavior unchanged, current actualmainrender paw/support observations, source plane not native contact; original221 resource caveat retained",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-integration-248/binding.json",
+      "bytes": 244066,
+      "sha256": "3b56e40dcfd108e0dfe86d33e8355ac542c0f2af03ef09b23f07760e8e56b88d"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/build248.mjs",
+      "bytes": 2047,
+      "sha256": "65abc5efb8e08f2c84bb0679ed5bf0d4afc94ccf8ac4129a4460e0f1917fad43"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/plugin248.mjs",
+      "bytes": 2427,
+      "sha256": "fd8e1306c720e0589a68129a44c8566a3829948bf65f38179fbd65edc2c60a5c"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/prepare248.py",
+      "bytes": 2265,
+      "sha256": "cf2d5771cab01083b8c966c83ea20eabfd0205a62e752afd432de543cdbbb543"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/prior-performance.json",
+      "bytes": 2040,
+      "sha256": "c18c7b300d07a5a11d4811847afe2ed6c99f793776e2e8d91fff488c73bf4d38"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/prior-performance.py",
+      "bytes": 1393,
+      "sha256": "3124fc1ac43dfc0d734af822f14eec41ac6b36ea28d9872d4970404670ac66a3"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/supervise248.py",
+      "bytes": 7232,
+      "sha256": "e35c886c95d9b17e47708411c6663ac2e5fd32fb3dc2e5449bc440bc86ec0cbb"
+    }
+  ]
+}

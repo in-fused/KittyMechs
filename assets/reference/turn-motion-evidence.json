@@ -1,0 +1,84 @@
+{
+  "baseline": ".sites-runtime/live-240baeb92722823938e87f6e0ee4166ee63d7b7a/dist/assets/models",
+  "at": "2026-10-04T06:39:43.657Z",
+  "passed": true,
+  "rows": [
+    {
+      "name": "Pounce_Quadruped",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 552427,
+      "retainedClips": 26,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Bastion_Quadruped",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 574725,
+      "retainedClips": 26,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Lynx_Quadruped",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 529353,
+      "retainedClips": 26,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Caracal_Quadruped",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 549261,
+      "retainedClips": 26,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Sentinel_Scout",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 463259,
+      "retainedClips": 15,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Sentinel_Mortar",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 469909,
+      "retainedClips": 15,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    },
+    {
+      "name": "Sentinel_Anchor",
+      "geometryError": 0,
+      "clipError": 0,
+      "comparedValues": 499151,
+      "retainedClips": 15,
+      "added": [
+        "FelineTurnLeft",
+        "FelineTurnRight"
+      ]
+    }
+  ]
+}

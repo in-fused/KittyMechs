@@ -1,0 +1,31 @@
+{
+  "closedUTC": "2026-10-11T02:00:41.1136200Z",
+  "status": "RETAIN_038_LIMITED_SINGLE_STARTUP_CHECKPOINT",
+  "reviewPath": "docs/overhaul/critic/startup-rig-055-result-review.md",
+  "reviewSHA256": "04d0d3eb464cdd2a05617ea8821e7e5b4f9ea2f70219f7694ec37948f90e5863",
+  "resultSealSHA256": "34b09d24f2238e862a306c3f3af3659a601b949fa78af8cb0f3c39f32aa7c836",
+  "verifiedResultRows": 12,
+  "processExit": 0,
+  "processSeconds": 34.719,
+  "inputsAfter": 414,
+  "inputMismatches": 0,
+  "hostReadyMs": 8339,
+  "guestReadyMs": 14090,
+  "unchangedReadyBoundMs": 20000,
+  "publicationComparisons": 115,
+  "publicationMismatches": 0,
+  "actualServerPID": 351268,
+  "actualServerSession": 62009,
+  "heavyJobsByReviewer": 0,
+  "writersClosed": true,
+  "fullGoal": "INCOMPLETE",
+  "denied": [
+    "repeatable dependable startup",
+    "full mission",
+    "general lag resolution",
+    "finished art/contact",
+    "full Gate1"
+  ],
+  "cleanupEvidenceSHA256": "fab57fde35f0267452d36d147ddc6d020b58bdff2732a01bd587a82915847c09",
+  "cleanupScope": "current inventory only; separate from result seal"
+}

@@ -1,0 +1,1301 @@
+{
+  "status": "PASS_SCOPED_EXACT_ART_COST_AND_RESOURCE_LIFETIME",
+  "reviewer": "/root/critic",
+  "recordedAt": "2026-10-04T22:38:34.882Z",
+  "baselineSource": "4be35aec937362f37e777c20b13a1d93ccca3ce6",
+  "sourceFingerprint": "54550058bd6d9ca802f660ebba24bc6bd050a0ecbabcd853437c5aa4495e9dcd",
+  "runtimeFingerprint": "aa7d670bf1b0dd7601dd3608eeef2c1452ff778eba7ca57bb5da5fb1e63c525c",
+  "profiles": [
+    {
+      "chassis": "lynx",
+      "baseline": {
+        "label": "baseline",
+        "capturedAt": "2026-10-04T21:53:23.501Z",
+        "path": ".sites-runtime/recon-medic-art/profile-lynx-baseline-001/baseline-report.json",
+        "sha256": "6ef507008b9f14fce8eb1986163c9d903260cc8d41beb8226d9da6105b704082",
+        "originalRunnerReviewerLabel": "/root/critic",
+        "captureOwner": "/root",
+        "independentReviewer": "/root/critic",
+        "previewSha256": null,
+        "overrides": [],
+        "samples": [
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 56,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1091716,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          }
+        ],
+        "average": {
+          "fps": 56.9,
+          "calls": 132,
+          "triangles": 1091716,
+          "geometries": 104,
+          "textures": 50
+        },
+        "settledRAF": {
+          "durationMs": 10080.900000095367,
+          "samples": 571,
+          "p50": 17.59999990463257,
+          "p95": 18.799999952316284,
+          "p99": 19.59999990463257,
+          "maximum": 20.5,
+          "over50": 0,
+          "over100": 0
+        },
+        "movingRAF": {
+          "durationMs": 13858.5,
+          "samples": 782,
+          "p50": 17.5,
+          "p95": 18.5,
+          "p99": 19.799999952316284,
+          "maximum": 171.5,
+          "over50": 1,
+          "over100": 1
+        },
+        "movingRows": [
+          {
+            "cycle": 0,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999976780587701,
+              "y": 0.9401000117036165,
+              "z": 22.000016020685734
+            },
+            "position": {
+              "x": -7.999707080489822,
+              "y": 0.9400999123231304,
+              "z": 51.86792555086345
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 139,
+              "triangles": 1142520,
+              "geometries": 106,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999740036900171,
+                "y": 5.240496631187881,
+                "z": 61.357592234727015
+              },
+              "focus": {
+                "x": -7.999731409176193,
+                "y": 1.840163606591771,
+                "z": 51.63074586521029
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 0,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999707080489822,
+              "y": 0.9400999123231304,
+              "z": 51.86792555086345
+            },
+            "position": {
+              "x": -8.000475679787725,
+              "y": 0.9400369261188462,
+              "z": 22.040119696483316
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 132,
+              "triangles": 949061,
+              "geometries": 108,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -8.00047623665769,
+                "y": 5.240492454530895,
+                "z": 32.70162554785292
+              },
+              "focus": {
+                "x": -8.000476158790066,
+                "y": 1.8401254742626718,
+                "z": 22.370951653610838
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyS",
+            "before": {
+              "x": -8.000475679787725,
+              "y": 0.9400369261188462,
+              "z": 22.040119696483316
+            },
+            "position": {
+              "x": -8.000381505346404,
+              "y": 0.9400998511632497,
+              "z": 52.17620809197456
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 139,
+              "triangles": 1138858,
+              "geometries": 108,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -8.000387878972543,
+                "y": 5.240452999631687,
+                "z": 61.49323022123063
+              },
+              "focus": {
+                "x": -8.00038360353523,
+                "y": 1.8401132210654216,
+                "z": 51.82826483639544
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyW",
+            "before": {
+              "x": -8.000381505346404,
+              "y": 0.9400998511632497,
+              "z": 52.17620809197456
+            },
+            "position": {
+              "x": -8.000033169426526,
+              "y": 0.940280825591326,
+              "z": 22.332079273257705
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 130,
+              "triangles": 944809,
+              "geometries": 108,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -8.000036809275281,
+                "y": 5.240707937949015,
+                "z": 32.897910402869485
+              },
+              "focus": {
+                "x": -8.00003225290931,
+                "y": 1.8402101934851076,
+                "z": 22.609447826893778
+              },
+              "clear": true,
+              "violations": 0
+            }
+          }
+        ],
+        "errors": [],
+        "environment": {
+          "browser": "Headless Microsoft Edge",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "settings": {
+            "quality": "medium",
+            "volume": 0,
+            "sensitivity": 1,
+            "cameraDistance": 10,
+            "reducedFlashes": false,
+            "invertY": false
+          },
+          "renderer": {
+            "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+            "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "vendor": "Google Inc. (NVIDIA)"
+          },
+          "scenario": "Fresh one-pilot selected chassis Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+          "port": 8792,
+          "source": "Frozen v14 4be35aec937362f37e777c20b13a1d93ccca3ce6; candidate run substitutes exact private art response only, all production source/simulation unchanged"
+        }
+      },
+      "candidate": {
+        "label": "candidate",
+        "capturedAt": "2026-10-04T21:54:05.456Z",
+        "path": ".sites-runtime/recon-medic-art/profile-lynx-candidate-001/candidate-report.json",
+        "sha256": "3082f945ac8ace8c6c078d0f0f2a1532c22ed5d762d9f3425f49b06531743085",
+        "originalRunnerReviewerLabel": "/root/critic",
+        "captureOwner": "/root",
+        "independentReviewer": "/root/critic",
+        "previewSha256": "1f3a69c7f814fa28728cced3d15ad148546f0de92fd1466b6b40c913e9fbcb76",
+        "overrides": [
+          {
+            "url": "http://127.0.0.1:8792/assets/models/Lynx_Quadruped.glb?rev=feline-upright-11",
+            "sha256": "1f3a69c7f814fa28728cced3d15ad148546f0de92fd1466b6b40c913e9fbcb76"
+          }
+        ],
+        "samples": [
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 128,
+            "triangles": 1095052,
+            "geometries": 102,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          }
+        ],
+        "average": {
+          "fps": 57,
+          "calls": 128,
+          "triangles": 1095052,
+          "geometries": 102,
+          "textures": 53
+        },
+        "settledRAF": {
+          "durationMs": 10081.299999952316,
+          "samples": 573,
+          "p50": 17.59999990463257,
+          "p95": 18.5,
+          "p99": 19.299999952316284,
+          "maximum": 20.600000143051147,
+          "over50": 0,
+          "over100": 0
+        },
+        "movingRAF": {
+          "durationMs": 13887.700000047684,
+          "samples": 782,
+          "p50": 17.5,
+          "p95": 18.700000047683716,
+          "p99": 19.799999952316284,
+          "maximum": 167,
+          "over50": 1,
+          "over100": 1
+        },
+        "movingRows": [
+          {
+            "cycle": 0,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999976780587701,
+              "y": 0.9400999495087308,
+              "z": 22.000016020685734
+            },
+            "position": {
+              "x": -7.999699433840988,
+              "y": 0.9400999754256918,
+              "z": 52.19259860234365
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 135,
+              "triangles": 1145856,
+              "geometries": 104,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.99970166465891,
+                "y": 5.240434910397895,
+                "z": 61.57321440706197
+              },
+              "focus": {
+                "x": -7.999700652360479,
+                "y": 1.8400674577188196,
+                "z": 51.88316581732625
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 0,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999699433840988,
+              "y": 0.9400999754256918,
+              "z": 52.19259860234365
+            },
+            "position": {
+              "x": -7.999679818896773,
+              "y": 0.940105592790569,
+              "z": 22.198412436601075
+            },
+            "performance": {
+              "fps": 56,
+              "calls": 131,
+              "triangles": 1063438,
+              "geometries": 106,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.9996798679578065,
+                "y": 5.240569442175293,
+                "z": 32.81891326370156
+              },
+              "focus": {
+                "x": -7.999680104272195,
+                "y": 1.8403493371154194,
+                "z": 22.50352910376773
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999679818896773,
+              "y": 0.940105592790569,
+              "z": 22.198412436601075
+            },
+            "position": {
+              "x": -7.999738976247406,
+              "y": 0.9400999865942867,
+              "z": 52.02637532360882
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 135,
+              "triangles": 1142194,
+              "geometries": 106,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999713729273172,
+                "y": 5.240465522141803,
+                "z": 61.43846451216796
+              },
+              "focus": {
+                "x": -7.9997128424315695,
+                "y": 1.8401018799696436,
+                "z": 51.74111542807171
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999738976247406,
+              "y": 0.9400999865942867,
+              "z": 52.02637532360882
+            },
+            "position": {
+              "x": -7.999183113431684,
+              "y": 0.9400000028622162,
+              "z": 22.34782586021379
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 128,
+              "triangles": 957927,
+              "geometries": 106,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.9991974353424125,
+                "y": 5.240553465139059,
+                "z": 32.88438375776092
+              },
+              "focus": {
+                "x": -7.999189262705976,
+                "y": 1.840112228280851,
+                "z": 22.59990948032496
+              },
+              "clear": true,
+              "violations": 0
+            }
+          }
+        ],
+        "errors": []
+      },
+      "delta": {
+        "fps": 0.10000000000000142,
+        "calls": -4,
+        "triangles": 3336,
+        "geometries": -2,
+        "textures": 3
+      },
+      "shippingSha256": "1f3a69c7f814fa28728cced3d15ad148546f0de92fd1466b6b40c913e9fbcb76",
+      "geometryBoundBy": "Private preview to staged shipping BIN and all JSON except three image URI prefixes are byte/structurally exact; frozen build and actual HTTP checks bind staged bytes. Cache URL is the only runtime source change."
+    },
+    {
+      "chassis": "caracal",
+      "baseline": {
+        "label": "baseline",
+        "capturedAt": "2026-10-04T21:54:42.865Z",
+        "path": ".sites-runtime/recon-medic-art/profile-caracal-baseline-001/baseline-report.json",
+        "sha256": "a5e39aeabe62473571cdb377f59c75a9e9d8c7596e59ddbac9aae010bc94a040",
+        "originalRunnerReviewerLabel": "/root/critic",
+        "captureOwner": "/root",
+        "independentReviewer": "/root/critic",
+        "previewSha256": null,
+        "overrides": [],
+        "samples": [
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 132,
+            "triangles": 1093364,
+            "geometries": 104,
+            "textures": 50,
+            "chunks": 9,
+            "bodies": 0
+          }
+        ],
+        "average": {
+          "fps": 57,
+          "calls": 132,
+          "triangles": 1093364,
+          "geometries": 104,
+          "textures": 50
+        },
+        "settledRAF": {
+          "durationMs": 10085.5,
+          "samples": 575,
+          "p50": 17.5,
+          "p95": 18.5,
+          "p99": 19,
+          "maximum": 21.899999856948853,
+          "over50": 0,
+          "over100": 0
+        },
+        "movingRAF": {
+          "durationMs": 13880.799999952316,
+          "samples": 780,
+          "p50": 17.600000143051147,
+          "p95": 18.700000047683716,
+          "p99": 19.299999952316284,
+          "maximum": 165.20000004768372,
+          "over50": 1,
+          "over100": 1
+        },
+        "movingRows": [
+          {
+            "cycle": 0,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999990423201831,
+              "y": 0.9400999536196468,
+              "z": 21.999997891528235
+            },
+            "position": {
+              "x": -7.999991847321857,
+              "y": 0.9399999169186048,
+              "z": 43.28906147651904
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 141,
+              "triangles": 1081066,
+              "geometries": 106,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999995744589315,
+                "y": 5.240420599433453,
+                "z": 52.919606928511435
+              },
+              "focus": {
+                "x": -7.999993363737004,
+                "y": 1.840051352412261,
+                "z": 43.11628672216889
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 0,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999991847321857,
+              "y": 0.9399999169186048,
+              "z": 43.28906147651904
+            },
+            "position": {
+              "x": -7.999297626134622,
+              "y": 0.9401000165021105,
+              "z": 22.029793257052717
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 134,
+              "triangles": 1061748,
+              "geometries": 106,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999300177412438,
+                "y": 5.2404788920722885,
+                "z": 32.503196688800216
+              },
+              "focus": {
+                "x": -7.999298844069565,
+                "y": 1.8401094149603683,
+                "z": 22.265131105073834
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999297626134622,
+              "y": 0.9401000165021105,
+              "z": 22.029793257052717
+            },
+            "position": {
+              "x": -7.999301845280296,
+              "y": 0.9400650517240865,
+              "z": 43.39910782982659
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 141,
+              "triangles": 1070006,
+              "geometries": 106,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999299065043791,
+                "y": 5.2404801225847795,
+                "z": 53.02170589710283
+              },
+              "focus": {
+                "x": -7.999299935268371,
+                "y": 1.840153682300358,
+                "z": 43.21962748970231
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999301845280296,
+              "y": 0.9400650517240865,
+              "z": 43.39910782982659
+            },
+            "position": {
+              "x": -7.999226150112685,
+              "y": 0.9400967571350338,
+              "z": 22.23534623712365
+            },
+            "performance": {
+              "fps": 56,
+              "calls": 131,
+              "triangles": 950707,
+              "geometries": 106,
+              "textures": 50,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999223633137414,
+                "y": 5.240415551978935,
+                "z": 32.60817242458531
+              },
+              "focus": {
+                "x": -7.999221584355963,
+                "y": 1.8400572065588998,
+                "z": 22.4147909392431
+              },
+              "clear": true,
+              "violations": 0
+            }
+          }
+        ],
+        "errors": [],
+        "environment": {
+          "browser": "Headless Microsoft Edge",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "settings": {
+            "quality": "medium",
+            "volume": 0,
+            "sensitivity": 1,
+            "cameraDistance": 10,
+            "reducedFlashes": false,
+            "invertY": false
+          },
+          "renderer": {
+            "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+            "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "vendor": "Google Inc. (NVIDIA)"
+          },
+          "scenario": "Fresh one-pilot selected chassis Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+          "port": 8792,
+          "source": "Frozen v14 4be35aec937362f37e777c20b13a1d93ccca3ce6; candidate run substitutes exact private art response only, all production source/simulation unchanged"
+        }
+      },
+      "candidate": {
+        "label": "candidate",
+        "capturedAt": "2026-10-04T21:55:20.232Z",
+        "path": ".sites-runtime/recon-medic-art/profile-caracal-candidate-001/candidate-report.json",
+        "sha256": "10b71ace741b076a5f7f398fd4bf71e03b41f982ea1d27f4fb0a02fb2641b4b1",
+        "originalRunnerReviewerLabel": "/root/critic",
+        "captureOwner": "/root",
+        "independentReviewer": "/root/critic",
+        "previewSha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4",
+        "overrides": [
+          {
+            "url": "http://127.0.0.1:8792/assets/models/Caracal_Quadruped.glb?rev=feline-upright-11",
+            "sha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4"
+          }
+        ],
+        "samples": [
+          {
+            "fps": 58,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          },
+          {
+            "fps": 57,
+            "calls": 126,
+            "triangles": 1102068,
+            "geometries": 101,
+            "textures": 53,
+            "chunks": 9,
+            "bodies": 0
+          }
+        ],
+        "average": {
+          "fps": 57.1,
+          "calls": 126,
+          "triangles": 1102068,
+          "geometries": 101,
+          "textures": 53
+        },
+        "settledRAF": {
+          "durationMs": 10087.799999952316,
+          "samples": 574,
+          "p50": 17.5,
+          "p95": 18.5,
+          "p99": 19.100000143051147,
+          "maximum": 19.700000047683716,
+          "over50": 0,
+          "over100": 0
+        },
+        "movingRAF": {
+          "durationMs": 13889,
+          "samples": 783,
+          "p50": 17.5,
+          "p95": 18.600000143051147,
+          "p99": 19.700000047683716,
+          "maximum": 171.89999985694885,
+          "over50": 1,
+          "over100": 1
+        },
+        "movingRows": [
+          {
+            "cycle": 0,
+            "key": "KeyS",
+            "before": {
+              "x": -7.999990423201831,
+              "y": 0.9400999297836097,
+              "z": 21.999997891528235
+            },
+            "position": {
+              "x": -7.999964585793388,
+              "y": 0.9400999124586451,
+              "z": 43.5071564089001
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 136,
+              "triangles": 1156760,
+              "geometries": 103,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999964471535952,
+                "y": 5.240470976290381,
+                "z": 53.04310349727558
+              },
+              "focus": {
+                "x": -7.9999645075676495,
+                "y": 1.8401099344298666,
+                "z": 43.276026468657996
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 0,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999964585793388,
+              "y": 0.9400999124586451,
+              "z": 43.5071564089001
+            },
+            "position": {
+              "x": -8.000027563160634,
+              "y": 0.9401058356665817,
+              "z": 22.244575995063116
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 128,
+              "triangles": 1070452,
+              "geometries": 103,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -8.00000388993848,
+                "y": 5.240497289761131,
+                "z": 32.618319595915
+              },
+              "focus": {
+                "x": -8.00000641676739,
+                "y": 1.8401142628532179,
+                "z": 22.422048359218508
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyS",
+            "before": {
+              "x": -8.000027563160634,
+              "y": 0.9401058356665817,
+              "z": 22.244575995063116
+            },
+            "position": {
+              "x": -7.999160622500888,
+              "y": 0.9400123495465595,
+              "z": 43.61998379909963
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 135,
+              "triangles": 1078710,
+              "geometries": 103,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999178412215682,
+                "y": 5.240494556109856,
+                "z": 53.184897793408325
+              },
+              "focus": {
+                "x": -7.999169624887501,
+                "y": 1.8401415412990996,
+                "z": 43.40853640975641
+              },
+              "clear": true,
+              "violations": 0
+            }
+          },
+          {
+            "cycle": 1,
+            "key": "KeyW",
+            "before": {
+              "x": -7.999160622500888,
+              "y": 0.9400123495465595,
+              "z": 43.61998379909963
+            },
+            "position": {
+              "x": -7.999579586291395,
+              "y": 0.9400604981233118,
+              "z": 22.465954445577864
+            },
+            "performance": {
+              "fps": 57,
+              "calls": 128,
+              "triangles": 1070452,
+              "geometries": 103,
+              "textures": 53,
+              "chunks": 9,
+              "bodies": 0
+            },
+            "camera": {
+              "position": {
+                "x": -7.999581545529106,
+                "y": 5.240456465761335,
+                "z": 32.83180964358041
+              },
+              "focus": {
+                "x": -7.999585124076272,
+                "y": 1.8401015271553063,
+                "z": 22.639613527181464
+              },
+              "clear": true,
+              "violations": 0
+            }
+          }
+        ],
+        "errors": []
+      },
+      "delta": {
+        "fps": 0.10000000000000142,
+        "calls": -6,
+        "triangles": 8704,
+        "geometries": -3,
+        "textures": 3
+      },
+      "shippingSha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4",
+      "geometryBoundBy": "Private preview to staged shipping BIN and all JSON except three image URI prefixes are byte/structurally exact; frozen build and actual HTTP checks bind staged bytes. Cache URL is the only runtime source change."
+    }
+  ],
+  "resourcePlateau": {
+    "captureOwner": "/root",
+    "independentReviewer": "/root/critic",
+    "scenario": "One rendered Pounce plus three validated idle WebSocket guests, four Actor/contact rigs loaded; camera14; three exact join/retire cycles. This is allocation lifetime evidence, not four rendered-client or crowd timing.",
+    "reports": [
+      {
+        "label": "baseline",
+        "path": ".sites-runtime/recon-medic-art/roster-baseline-001/report.json",
+        "sha256": "106f7069db6bac5fcad54a6dec3f08174cd3e1cca9aac0cfe516d7b7a5d2d8f9",
+        "captureOwner": "/root",
+        "active": {
+          "calls": 175,
+          "triangles": 1173404,
+          "geometries": 126,
+          "textures": 59
+        },
+        "retired": {
+          "calls": 133,
+          "triangles": 1068476,
+          "geometries": 123,
+          "textures": 56
+        },
+        "identicalCycles": 3
+      },
+      {
+        "label": "candidate",
+        "path": ".sites-runtime/recon-medic-art/roster-candidate-001/report.json",
+        "sha256": "b1739cab603b29fb8a5df5078ad06ae3dadaff5f0c458f18c3dffa73087c2bbd",
+        "captureOwner": "/root",
+        "active": {
+          "calls": 165,
+          "triangles": 1185444,
+          "geometries": 121,
+          "textures": 65
+        },
+        "retired": {
+          "calls": 133,
+          "triangles": 1068476,
+          "geometries": 118,
+          "textures": 62
+        },
+        "identicalCycles": 3
+      }
+    ],
+    "delta": {
+      "active": {
+        "calls": -10,
+        "triangles": 12040,
+        "geometries": -5,
+        "textures": 6
+      },
+      "retired": {
+        "calls": 0,
+        "triangles": 0,
+        "geometries": -5,
+        "textures": 6
+      }
+    }
+  },
+  "download": {
+    "Lynx": {
+      "baselineBytes": 949168,
+      "shippingBytes": 1085704,
+      "increaseBytes": 136536
+    },
+    "Caracal": {
+      "baselineBytes": 967500,
+      "shippingBytes": 1123064,
+      "increaseBytes": 155564
+    },
+    "totalShippingIncreaseBytes": 292100
+  },
+  "limits": [
+    "The quiet comparison was captured by root serially on the v14 runtime with exact private preview response substitution, not on the later compiled v15 URL. Independent BIN/JSON preservation and frozen payload checks bind the art cost; final compiled ordinary browser proof remains a separate gate.",
+    "One-pilot medium1440x900 GTX1070Ti camera10 normal flashes, ten retained settled HUD samples and a short ordinary S/W route; no video, artificial stall, combat, NPC or per-frame contact audit during the profile.",
+    "Every baseline/candidate moving window retains exactly one >100ms RAF gap; settled windows have zero >50ms. A0.1FPS difference does not establish a general performance improvement.",
+    "The same atlas URLs/files allocate three extra GPU texture objects per role, six for the mixed roster, including cached objects after actor retirement. VRAM byte usage was not measured.",
+    "v14 browser-performance baseline remains an exact historical document copy; these fresh role-specific measurements are not restamped historical samples."
+  ],
+  "localCompiledGate": {
+    "decision": "APPROVE",
+    "sourceFingerprint": "54550058bd6d9ca802f660ebba24bc6bd050a0ecbabcd853437c5aa4495e9dcd",
+    "runtimeFingerprint": "aa7d670bf1b0dd7601dd3608eeef2c1452ff778eba7ca57bb5da5fb1e63c525c",
+    "receipt": "docs/critical-review.json",
+    "actualCompiledEvidence": ".sites-runtime/critic/recon-medic-art/final-compiled-audit.json"
+  },
+  "publicVerificationPending": true
+}

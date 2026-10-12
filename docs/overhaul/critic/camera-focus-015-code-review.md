@@ -1,0 +1,11 @@
+# Camera focus015 independent code review
+
+DENY the frozen compile/build/capture sequence. CameraRig.tsx has a concrete compile blocker: `const otherVisual` is declared twice in the same useFrame callback, at lines47 and54. The new focus-height code adds the first declaration but leaves the original second declaration. No job should be used to rediscover this known lexical error.
+
+Actual review start2026-10-10 18:55:47 UTC. Root source freeze is18:55:23.625553, not the earlier briefing estimate. Inspected the entire8491-byte frozen CameraRig, direct7502-byte preimage diff, three-row seal and literal player-script namespace/origin/scope inverse. All three file hashes match seal8498fbd0e12c9a3edd745ace8957882aa52fa8fcb16066570a77b20a6c671964. Current sourcecb0eed659f0a736c9741192bd27eca7b0d9b48391a6427eaffbbd72f4fc2ba62; preimagee5d0370d83f42bbeb4435c54a8c30762cfb975a98da442b6ce0f33011a94cc57.
+
+The intended camera change is narrow and sensible for an observation: only a selected public/private prototype with current nonempty visual bounds uses its world vertical-envelope midpoint for local/paired focus; fallback/unselected actors keep the old height. XZ/root/yaw, clearance, fitting and crosshair algorithms remain unchanged. Changing focus necessarily changes camera-derived aim geometry indirectly, so unchanged algorithm does not imply identical shots. Envelope-centering is presentation, not physical center-of-mass/support proof. Beam occlusion, framing, transition/fallback discontinuity and performance remain actual-capture questions.
+
+The new player script is exactly the approved prep2 public008 script after inverse output folder/origin8800/scope027 substitutions. It is unrun. Its current hash2b965793785cc386e2c388f42a433f3dcc909fce7ec992623ec6c2297a99c8b2 does not qualify camera or gameplay. Source013/014 are not enabled or approved by this camera review.
+
+A distinct root-authorized literal duplicate-declaration correction may be assessed separately after this frozen input is preserved; no edit, correction grant or retry is issued here. No critic job ran. Optional026 functional checkpoint remains accepted; finished art/contact/fullscope/Gate1 remain denied/incomplete.

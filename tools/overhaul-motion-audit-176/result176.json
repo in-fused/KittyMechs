@@ -1,0 +1,36 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_ACTUAL_CRITERION_FAILURE_STOP",
+  "legacyStride": {
+    "epsilon": 0.00002,
+    "residual": -0.0007005447038892498,
+    "passed": false
+  },
+  "perLimbFloorAgreement": [
+    {
+      "limb": "FL",
+      "maxAbsSkinFloorError": 0.000630143911808774,
+      "epsilon": 0.00002,
+      "passed": false
+    },
+    {
+      "limb": "FR",
+      "maxAbsSkinFloorError": 0.0006368316835114029,
+      "epsilon": 0.00002,
+      "passed": false
+    },
+    {
+      "limb": "HL",
+      "maxAbsSkinFloorError": 0.0006227381092847577,
+      "epsilon": 0.00002,
+      "passed": false
+    },
+    {
+      "limb": "HR",
+      "maxAbsSkinFloorError": 0.0006029989357598502,
+      "epsilon": 0.00002,
+      "passed": false
+    }
+  ],
+  "remainingChecksAfterFirstFailure": "NOT_ADMISSION_CHECKED; floor values reported as measurements only"
+}

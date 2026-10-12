@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: ON57: actual pad argmin switches across finite plane tilt
+    at check (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-pad-witness-188\check188.mts:9:59)
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-pad-witness-188\check188.mts:16:213) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.13.0

@@ -1,0 +1,23 @@
+{
+  "baseline": "source027 full author (closed)",
+  "singlePoseOwnerByteIdentical": true,
+  "sourceHelpersNamespaceNormalizedExact": true,
+  "newChoreography": [
+    "tail_median rotates only tail0 around current pivot/source X with atan2(actual rest direction Y,Z); descendants inherit",
+    "victim preparation/held/recovery tail uses tail_median instead of lateral tail_yaw",
+    "paired claw target ankle X follows corresponding actual current victim upper-bone world X, replacing nominal +/-0.30 marker",
+    "record actual tail axis, purpose/path and per-sample complete tail/hand bounds"
+  ],
+  "unchanged": [
+    "geometry/master/rest57 hierarchy/lengths/fore2/hind3/weights/pads",
+    "source floor/pivot/export basis/.8 and separate actor pi",
+    "single solver/key/evaluation owner and raw evidence",
+    "all prior numerical guards/tolerances/height/extension/bob/withdrawal/sampling",
+    "actual full-body root-envelope derivation and four diagonal support exchanges",
+    "all whole-body BVH guards including tails",
+    "immutable43 actual004 identity allowlist with archived paired originals"
+  ],
+  "otherChanges": "fresh namespace/output/protected-ledger only",
+  "proof": "exact author/choreography patches; helper namespace and owner byte identity verified; 122 prior source/diagnostic rows match",
+  "admission": "UNRUN source candidate; native/runtime/art/play unqualified"
+}

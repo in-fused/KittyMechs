@@ -1,0 +1,41 @@
+{
+  "name": "Pounce",
+  "scale": 0.8,
+  "samples": 648,
+  "coreRadius": 1.4795872017968135,
+  "coreHeight": 3.1839420795440674,
+  "coreFloor": 0.5397377014160156,
+  "floor": -0.07439273595809937,
+  "limbLengthError": 1.1292648470551116e-06,
+  "maxHindReach": 0.9368213004830181,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; idle-longwalk, longwalk-stride, gait-turn and mirrored turn mixtures, including Lynx double release phases; local TRS blend plus full-weight inverse(reference)*reaction additive; procedural aim/contact/carrier handled by independent production composition",
+  "radiusCase": [
+    0.72,
+    "TurnLeft",
+    "TurnRight",
+    0,
+    "Missile",
+    0.2
+  ],
+  "heightCase": [
+    0.96,
+    "Idle",
+    "WalkLong",
+    0.15,
+    "CombatBase",
+    0
+  ],
+  "floorCase": [
+    0.48,
+    "Stride",
+    "TurnLeft",
+    0.5,
+    "Ability",
+    0.6
+  ],
+  "floorBone": [
+    "HR_paw"
+  ]
+}

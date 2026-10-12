@@ -1,0 +1,76 @@
+{
+  "writer": "CLOSED",
+  "status": "TWO_PRESERVED_DATA_ATTEMPTS_STOPPED_NO_RUNTIME_OR_PUBLIC_INTEGRATION",
+  "files": [
+    {
+      "path": "tools/overhaul-motion-106/graft106.py",
+      "bytes": 12574,
+      "sha256": "105a37778a40a371a0eb83422c3398a7e5d8085dddb59baac1e47a768741258b"
+    },
+    {
+      "path": "tools/overhaul-motion-106/graft106-first-schema-source.py",
+      "bytes": 12556,
+      "sha256": "710869af4bdef5ac0ad72aba8641b5c5c3f7ddb2168e28d8e8d5cde12b8d3c0d"
+    },
+    {
+      "path": "tools/overhaul-motion-106/audit-saved-master.py",
+      "bytes": 3380,
+      "sha256": "e56456c3681b623b919bcea743be618e9e5ad5bae08ca3de7ead53286f649ff9"
+    },
+    {
+      "path": "tools/overhaul-motion-106/INTEGRATION-HANDOFF.md",
+      "bytes": 3912,
+      "sha256": "8d4e7c0b3005699e7abf89f9287e393e6fa2d47515b687cc7ef16f217e211ff9"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/graft106-first-schema-failure.json",
+      "bytes": 692,
+      "sha256": "f3bf6a803fa586beea656b891735b4fe34fbb8a3cac69a51cc24d2c02e6488a7"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/graft106-receipt.json",
+      "bytes": 547,
+      "sha256": "bc670ffefef4910e7bf0b768202645f387af3460be5ad6bc845cbea1eb110ab6"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/export-inventory.json",
+      "bytes": 38103,
+      "sha256": "49890e933fe303184a30d02b0cf166dd030c96f48266d89341d392589226742b"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/author-receipt.json",
+      "bytes": 3905,
+      "sha256": "d2a417adc641425b1020cbf153cc483d0d86d08fd59990d6fe35cff0d00a130f"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/Pounce_Motion106.blend",
+      "bytes": 81470460,
+      "sha256": "6cb7ab21acdca61aaa59e7511d990841aa17f372670670a8e01994051671df29"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/Pounce_Motion106.temporary.glb",
+      "bytes": 5416844,
+      "sha256": "3124f2c5457945681a812dbcd2a1074b8add07b5cea75563effd5d62bdb2a5ec"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/pose-readback.jsonl",
+      "bytes": 24440017,
+      "sha256": "073a81d783a53d026388a1a536bbedcd2185bd171d0c35783bd0420b5048fcab"
+    },
+    {
+      "path": "public/assets/models/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime058EManifest.json",
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13855,
+      "sha256": "ac76f154f8b1745183b95c44ac723168e3827efebf86cf53b5b1e1f4bc449dce"
+    }
+  ]
+}

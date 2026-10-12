@@ -1,0 +1,24 @@
+{
+  "packet": "motion-performance-042",
+  "correction": "b",
+  "sealedUTC": "2026-10-10T23:41:33.5777397Z",
+  "status": "SOURCE_ONLY_WRITERS_CLOSED",
+  "files": [
+    {
+      "sha256": "9e70b6be0a2dc3522331fb746681c0b9cc828fb8aaea4511f2c3d1df4da95508",
+      "path": "tests/feline-runtime-042.test.ts",
+      "bytes": 8396
+    }
+  ],
+  "originalSealSHA256": "c78f58c98c3d76795ec7aa02959ec1c6d2c86e82d8d78e3c27fd2cdc602d28ba",
+  "handoff": {
+    "sha256": "dbc29cc07c707ce9764777ddfaf81b226fa9dfe2ee76621aeb6a45f9c9c2c997",
+    "path": "tools/overhaul-motion-performance-042/correction-b-handoff.json"
+  },
+  "originalTest": {
+    "sha256": "64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339",
+    "path": "tools/overhaul-motion-performance-042/correction-b-test-preimage.ts"
+  },
+  "technicalRepairsUsed": 1,
+  "jobsExecuted": []
+}

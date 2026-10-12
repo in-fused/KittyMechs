@@ -1,0 +1,81 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_CANDIDATE_ISOLATED_EXACT143_BASELINE_RESTORED",
+  "files": [
+    {
+      "path": "tools/overhaul-locomotion-152/candidate-contactTasks152.ts",
+      "bytes": 1260,
+      "sha256": "96b7add92849601251bf26cb7eee5eb78d4d4eb4098192336636c0586d7913e3"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/candidate-locomotionTasks143.ts",
+      "bytes": 25777,
+      "sha256": "16da97197f75726aee157f0601601e331c4f6e1426b3faaa77da69721d2aac7c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/candidate-native-heading152.json",
+      "bytes": 3284177,
+      "sha256": "9d48e5edf47b4b6841526a9f598bca8ad6c27e1dbe0d72c9b5f0a51cc0ebc6bd"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/candidate-production-locomotionTasks143.ts",
+      "bytes": 25684,
+      "sha256": "ee3abbd085ef930b032919a82bb0a49843d6cc44e13621d55a27f0441f624b8f"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/diagnose152.ts",
+      "bytes": 5618,
+      "sha256": "a5170ae52ae6bd41664d23e08f6238af09d701cf416985670515b7ed5c154514"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/first-candidate-failure152.json",
+      "bytes": 976424,
+      "sha256": "12ebf7a1eae85966e72b10def0ffdc7e2a67a1037319039567357d8acc85b39a"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/first-candidate-receipt152.txt",
+      "bytes": 8137,
+      "sha256": "68add9fb1b7aabc7a224db04a77c9677fc18d9c3f7533b27427a47be296a80ee"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/HANDOFF.md",
+      "bytes": 4845,
+      "sha256": "81fa195b97cf447a1a00b00ed62fd96f814a6c6f62a9cc34b2f0e2df44912e6b"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/preimages/Actors.tsx",
+      "bytes": 48242,
+      "sha256": "8a08dbef29a9ae619e816eee1d1133ebae8a6548fe0aa8330d3207ffa97b852c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/preimages/Identity57Runtime005.ts",
+      "bytes": 19400,
+      "sha256": "d6935561e0eb9afa1eda22a422c951f2ba54a042d9b2c4d12b3a79edd4b9cf73"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/preimages/identity57Runtime007Actor.tsx",
+      "bytes": 3644,
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4465,
+      "sha256": "d3575eeaef01112ed2a2561599fcaebeb46e5aaa6519b5eeb2f2c7f229cd6aa5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/preimages/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/protected-inputs152.json",
+      "bytes": 3672,
+      "sha256": "7d77a052a59f35287ba4559bb3aca0df893d9e7c75e75f548d3881efcc47fe23"
+    },
+    {
+      "path": "tools/overhaul-locomotion-152/repaired-candidate-receipt152.txt",
+      "bytes": 4635,
+      "sha256": "e3fcf7e484c4b2573c64c95e9032ce13c02fad25450ec5bf4215475df7293a82"
+    }
+  ]
+}

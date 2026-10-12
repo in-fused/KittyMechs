@@ -1,0 +1,12 @@
+{
+  "closedUTC": "2026-10-10T21:30:51.129176+00:00",
+  "scope": "035 build passed but browser failed at opening pin; no runtime quality approval or retry",
+  "checks": 33,
+  "mismatches": 0,
+  "heavyJobs": 0,
+  "rootWriters": 0,
+  "review": "docs\\overhaul\\critic\\pounce-art-player-035-result-review.md",
+  "reviewSHA256": "34023f23ef3e3e37761101cb710b427e0d422150961d6d01a447ff11bfe74382",
+  "recommended": "build028 port8801",
+  "unapprovedCandidate": "build029 port8802"
+}

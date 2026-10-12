@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-04T03:34:26.840Z",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 60,
+      "calls": 231,
+      "triangles": 964412,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 338
+    },
+    {
+      "fps": 60,
+      "calls": 231,
+      "triangles": 964412,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 231,
+      "triangles": 964412,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 231,
+      "triangles": 964412,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 231,
+      "triangles": 964412,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 232,
+      "triangles": 964492,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 232,
+      "triangles": 964432,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 232,
+      "triangles": 964432,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 232,
+      "triangles": 964532,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 232,
+      "triangles": 964472,
+      "geometries": 139,
+      "textures": 33,
+      "chunks": 9,
+      "bodies": 284
+    }
+  ],
+  "errors": [],
+  "baseline": "docs/browser-performance-traversal-baseline.json",
+  "baselineAverage": {
+    "fps": 59.8,
+    "calls": 183.5,
+    "triangles": 670296,
+    "geometries": 122,
+    "textures": 28
+  },
+  "candidateAverage": {
+    "fps": 60,
+    "calls": 231.5,
+    "triangles": 964442,
+    "geometries": 139,
+    "textures": 33
+  },
+  "note": "Independent critic; one fresh solo Pounce Rainline page, other browser probes closed. Ten settled 1s samples. FPS throughput is not frame-time or long-session/hardware qualification."
+}

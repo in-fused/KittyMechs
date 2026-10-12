@@ -1,0 +1,92 @@
+{
+  "provider": "Higgsfield",
+  "generatedAt": "2026-10-04T01:19:54Z",
+  "requestedModel": "gpt_image_2_5",
+  "quotedCreditsPerImage": 0.25,
+  "quotedBatchCredits": 0.75,
+  "balanceAfter": 949.25,
+  "subscriptionPlan": "plus",
+  "assets": [
+    {
+      "kind": "repair",
+      "job_id": "410f3ffc-a91b-43a1-a9eb-30811bce86fc",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261004_011954_410f3ffc-a91b-43a1-a9eb-30811bce86fc.png",
+      "prompt": "A production game material texture, straight-on orthographic face of a single square military field nanorepair module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, pale jade green illuminated cross emblem combined with one small four-toed feline paw at its center. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+      "reportedParameters": {
+        "prompt": "A production game material texture, straight-on orthographic face of a single square military field nanorepair module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, pale jade green illuminated cross emblem combined with one small four-toed feline paw at its center. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+        "aspect_ratio": "1:1",
+        "medias": [],
+        "width": 1024,
+        "height": 1024,
+        "quality": "low",
+        "resolution": "1k",
+        "model": "flare",
+        "remove_bg": false,
+        "reference_elements": []
+      },
+      "original": "assets/inbox/supply-repair.png",
+      "runtime": "public/assets/textures/supply-repair.webp",
+      "sourceDimensions": [
+        1024,
+        1024
+      ],
+      "sourceSha256": "034ff52120f092d80de43261a783bc7addb56ae44b2ddfeaa9c0543ff575697e",
+      "runtimeSha256": "9ba94f40bfa619406bc287c0a52e9d7fb794d8499c78571be90b83cc4c2ac0e1",
+      "runtimeBytes": 9272
+    },
+    {
+      "kind": "energy",
+      "job_id": "c2b7dd03-3c1e-4876-beeb-9d5d32c4dd58",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261004_011954_c2b7dd03-3c1e-4876-beeb-9d5d32c4dd58.png",
+      "prompt": "A production game material texture, straight-on orthographic face of a single square military power-cell module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, electric cyan illuminated angular lightning bolt nested in a three-part charge ring. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+      "reportedParameters": {
+        "prompt": "A production game material texture, straight-on orthographic face of a single square military power-cell module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, electric cyan illuminated angular lightning bolt nested in a three-part charge ring. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+        "aspect_ratio": "1:1",
+        "medias": [],
+        "width": 1024,
+        "height": 1024,
+        "quality": "low",
+        "resolution": "1k",
+        "model": "flare",
+        "remove_bg": false,
+        "reference_elements": []
+      },
+      "original": "assets/inbox/supply-energy.png",
+      "runtime": "public/assets/textures/supply-energy.webp",
+      "sourceDimensions": [
+        1024,
+        1024
+      ],
+      "sourceSha256": "c767e15a8f8c8e9ded9ee907761b6596901860db688c12d0d8fbac8b62336b09",
+      "runtimeSha256": "07ec5902855d26538c57419da0aae4c97930fccfae467c3d32c9217735c5a5a9",
+      "runtimeBytes": 12832
+    },
+    {
+      "kind": "coolant",
+      "job_id": "c50f732a-4768-4d9d-8ff4-c6337ebc988d",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261004_011954_c50f732a-4768-4d9d-8ff4-c6337ebc988d.png",
+      "prompt": "A production game material texture, straight-on orthographic face of a single square military coolant module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, amber orange illuminated snowflake inside an angular cooling coil emblem, three small amber chevrons beneath. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+      "reportedParameters": {
+        "prompt": "A production game material texture, straight-on orthographic face of a single square military coolant module badge. Entire image is one flat dark charcoal powder-coated metal faceplate, subtle chipped edges and realistic tiny scratches, amber orange illuminated snowflake inside an angular cooling coil emblem, three small amber chevrons beneath. Exact straight-on square surface, uniformly dark unlit border 12% margin on all sides, high readability at 128 pixels. Physically plausible emissive glass inset with restrained bloom. No perspective, no object background scene, no lettering, no words, no numbers, no logo, no border outside faceplate. Original grounded feline-mech industrial science fiction art.",
+        "aspect_ratio": "1:1",
+        "medias": [],
+        "width": 1024,
+        "height": 1024,
+        "quality": "low",
+        "resolution": "1k",
+        "model": "flare",
+        "remove_bg": false,
+        "reference_elements": []
+      },
+      "original": "assets/inbox/supply-coolant.png",
+      "runtime": "public/assets/textures/supply-coolant.webp",
+      "sourceDimensions": [
+        1024,
+        1024
+      ],
+      "sourceSha256": "c7b6a5e51d0edffda12cb09d5a228b55dad3df8c65ac91eaaef86ec9f07678a1",
+      "runtimeSha256": "b65042f08e3ac87c65073f2816fb1d1c4836396e8a249cb186d27608396b2a5a",
+      "runtimeBytes": 13144
+    }
+  ]
+}

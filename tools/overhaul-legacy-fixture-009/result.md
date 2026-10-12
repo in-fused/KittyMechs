@@ -1,0 +1,11 @@
+# Causal009 closure — denied before execution
+
+The independent code review denied the frozen probe at18:06:18.7349221UTC, reviewSHA65f604708854ddbf35dd7904fcfec595950414abcabb62adb6c46371bf42a387. All155 source/input rows matched; zero compiler/native/browser/build jobs ran. No baseline/current observations or comparison result exist. No production files, original test assertions, inputs, geometry or physics were changed.
+
+Actual missing observer-control boundary: Vitest can turn an exception from an observational wrapper into a failed test and still run afterEach/write observation.json. run.mjs would accept that as an expected assertion failure and proceed into the second tree. A separately authorized future probe needs an explicit first-fatal observer error registry independent of the Vitest assertion report, raw failure preservation and a stop before any second tree; JSON report classification must reject unexpected native/runtime/API failures. This is a harness defect, not a production/native failure.
+
+actor() also retained nested position/climb/pair references for a pre-call state, copied only by log() after the original call. Future before-witnesses must copy at capture time. Scalars were captured independently. Bounded logs remain partial evidence. Timeout process ownership is not an audited Job Object guarantee.
+
+Parent briefly authorized preparation2 at18:09, then superseded it at18:09:48 because review/execution/closure could not fit the original hard18:12. No prep2 edit, fresh seal, correction or run occurred. All original code/contract/seal and copied shared/test bytes remain preserved. This writer is closed; no automatic next packet.
+
+008 whole tscPASS/new6testsPASS/legacy6PASS6FAIL remains the exact current outcome. Its emptyInput factory/legacy omitted-request branch static equality remains evidence against the proposed seq0 explanation, but actual cause of the six legacy failures is UNKNOWN. No body-profile, headroom, cover, damage, guest admission or source-art waiver is justified. The smallest next useful step is the separately authorized corrected causal probe, then a gameplay fix only if actual native ownership/input/obstruction evidence supports it. Public ordinary observation is still unrun; full gameplay/Gate1 remains incomplete.

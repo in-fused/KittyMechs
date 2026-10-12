@@ -1,0 +1,101 @@
+{
+  "status": "RETAIN_DISTRICT_DIRECTION",
+  "simulationSourceSHA256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328",
+  "rows": [
+    {
+      "label": "baseline",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 6.813746666666664,
+      "locomotionMsPerTick": 4.88116000000001,
+      "stagesMs": {
+        "bot-input": 2.3021999999989475,
+        "locomotion": 439.3044000000009,
+        "world-step": 34.952999999999065
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    },
+    {
+      "label": "candidate",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 5.940792222222222,
+      "locomotionMsPerTick": 4.220786666666577,
+      "stagesMs": {
+        "bot-input": 1.6819999999984248,
+        "locomotion": 379.87079999999196,
+        "world-step": 31.002399999998033
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    },
+    {
+      "label": "candidate",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 5.378783333333336,
+      "locomotionMsPerTick": 3.949406666666689,
+      "stagesMs": {
+        "bot-input": 1.4499000000005253,
+        "locomotion": 355.44660000000204,
+        "world-step": 28.17070000000149
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    },
+    {
+      "label": "baseline",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 5.640320000000004,
+      "locomotionMsPerTick": 4.241332222222183,
+      "stagesMs": {
+        "bot-input": 1.456900000001042,
+        "locomotion": 381.7198999999964,
+        "world-step": 28.19079999999849
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    },
+    {
+      "label": "baseline",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 5.654876666666667,
+      "locomotionMsPerTick": 4.233157777778019,
+      "stagesMs": {
+        "bot-input": 1.7184999999844877,
+        "locomotion": 380.9842000000217,
+        "world-step": 27.64629999999852
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    },
+    {
+      "label": "candidate",
+      "ticks": 90,
+      "actorCount": 14,
+      "totalMsPerTick": 5.3567855555555575,
+      "locomotionMsPerTick": 3.918248888889037,
+      "stagesMs": {
+        "bot-input": 1.4949999999917054,
+        "locomotion": 352.64240000001337,
+        "world-step": 28.846499999993284
+      },
+      "movementSHA256": "bc64d6080befde95ca1652a4cbf79062c2aa8b8129f8b5791f60f6cc378029d3",
+      "physicsFailed": false
+    }
+  ],
+  "medianTotalMsPerTick": {
+    "baseline": 5.654876666666667,
+    "candidate": 5.378783333333336
+  },
+  "medianLocomotionMsPerTick": {
+    "baseline": 4.241332222222183,
+    "candidate": 3.949406666666689
+  },
+  "equivalent": true,
+  "elapsedMs": 5978.3341,
+  "limits": "Fixed alternating native district7734 Co-Op fixture, original roster/chunks/collisions/bot input/native pose capture, controlled input packets. Not public play, network/render cost or affected-human lag qualification."
+}

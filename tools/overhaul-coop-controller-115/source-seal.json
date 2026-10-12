@@ -1,0 +1,41 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_ONLY_UNRUN_INDEPENDENT_REVIEW_REQUIRED",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/HANDOFF.md",
+      "bytes": 4366,
+      "sha256": "733a3f835b205d429c377864c1069730cd4203581571c3764fd3b9c4e3008a89"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/controller.mjs",
+      "bytes": 7882,
+      "sha256": "ef57d9bf969cd06cfe4de2f288721709dbd0ec7a021371858914d1e157c67506"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/source-seal.json",
+      "bytes": 14572,
+      "sha256": "9bc629e25a04328bb508affdd47b15f0e35616506da910140cac85885d66c288"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    }
+  ]
+}

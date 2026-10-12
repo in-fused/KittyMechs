@@ -1,0 +1,138 @@
+[
+  {
+    "label": "quad",
+    "sourceWorldMin": [
+      -0.7415870428085327,
+      -1.8481968641281128,
+      -2.0302832126617432E-07
+    ],
+    "sourceWorldMax": [
+      0.7447787523269653,
+      2.5121548175811768,
+      2.0526185035705566
+    ],
+    "sourceDimensions": [
+      1.486365795135498,
+      4.3603516817092896,
+      2.052618706598878
+    ],
+    "nativeModelMin": [
+      -0.5932696342468262,
+      -1.6242265701293946E-07,
+      -2.0097238540649416
+    ],
+    "nativeModelMax": [
+      0.5958230018615723,
+      1.6420948028564455,
+      1.4785574913024904
+    ],
+    "nativeModelWidthHeightLength": [
+      1.1890926361083984,
+      1.6420949652791024,
+      3.4882813453674317
+    ],
+    "scope": "Derived from recorded evaluated whole geometry, including ears/tail/claws; no native hull or support proof, no actor pi mount"
+  },
+  {
+    "label": "movingR",
+    "sourceWorldMin": [
+      -0.7390109300613403,
+      -1.7001150846481323,
+      4.3213367462158203E-07
+    ],
+    "sourceWorldMax": [
+      0.7386446595191956,
+      2.5191686153411865,
+      2.5316429138183594
+    ],
+    "sourceDimensions": [
+      1.4776555895805359,
+      4.219283699989319,
+      2.5316424816846848
+    ],
+    "nativeModelMin": [
+      -0.5912087440490723,
+      3.4570693969726567E-07,
+      -2.0153348922729495
+    ],
+    "nativeModelMax": [
+      0.5909157276153565,
+      2.0253143310546875,
+      1.360092067718506
+    ],
+    "nativeModelWidthHeightLength": [
+      1.1821244716644288,
+      2.025313985347748,
+      3.3754269599914553
+    ],
+    "scope": "Derived from recorded evaluated whole geometry, including ears/tail/claws; no native hull or support proof, no actor pi mount"
+  },
+  {
+    "label": "upright",
+    "sourceWorldMin": [
+      -0.7393238544464111,
+      -1.0905592441558838,
+      -2.0675361156463623E-07
+    ],
+    "sourceWorldMax": [
+      0.7421787977218628,
+      2.5013551712036133,
+      3.1628787517547607
+    ],
+    "sourceDimensions": [
+      1.481502652168274,
+      3.591914415359497,
+      3.1628789585083723
+    ],
+    "nativeModelMin": [
+      -0.591459083557129,
+      -1.65402889251709E-07,
+      -2.001084136962891
+    ],
+    "nativeModelMax": [
+      0.5937430381774903,
+      2.5303030014038086,
+      0.872447395324707
+    ],
+    "nativeModelWidthHeightLength": [
+      1.1852021217346191,
+      2.530303166806698,
+      2.873531532287598
+    ],
+    "scope": "Derived from recorded evaluated whole geometry, including ears/tail/claws; no native hull or support proof, no actor pi mount"
+  },
+  {
+    "label": "pounce",
+    "sourceWorldMin": [
+      -0.7397547960281372,
+      -1.8481968641281128,
+      -5.587935447692871E-09
+    ],
+    "sourceWorldMax": [
+      0.7397547960281372,
+      2.500910520553589,
+      1.9968281984329224
+    ],
+    "sourceDimensions": [
+      1.4795095920562744,
+      4.349107384681702,
+      1.9968282040208578
+    ],
+    "nativeModelMin": [
+      -0.5918038368225098,
+      -4.4703483581542975E-09,
+      -2.0007284164428714
+    ],
+    "nativeModelMax": [
+      0.5918038368225098,
+      1.597462558746338,
+      1.4785574913024904
+    ],
+    "nativeModelWidthHeightLength": [
+      1.1836076736450196,
+      1.5974625632166863,
+      3.4792859077453615
+    ],
+    "scope": "Derived from recorded evaluated whole geometry, including ears/tail/claws; no native hull or support proof, no actor pi mount"
+  }
+]

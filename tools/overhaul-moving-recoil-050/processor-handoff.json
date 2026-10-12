@@ -1,0 +1,25 @@
+{
+  "round": "050",
+  "stage": "SOURCE_CLOCK_PROCESSOR_FROZEN",
+  "frozenUTC": "2026-10-11T00:58:09.1257943Z",
+  "files": [
+    {
+      "path": "tools/overhaul-moving-recoil-050/prepare-clip.py",
+      "bytes": 8813,
+      "sha256": "e6e024ef258354ef1311d39742a8ce40a48a3e61c7b0334e59a1e048dce98cb2"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/4.5/python/bin/python.exe",
+    "tools/overhaul-moving-recoil-050/prepare-clip.py"
+  ],
+  "inclusiveCapSeconds": 30,
+  "attempts": 1,
+  "automaticRetry": false,
+  "scope": "Distinctsourceclock→eventclock representation: rawtimestamps/BIN untouched; manifestsourceTimeOrigin=actual1/60,span=last-first; consumerclone.shift(-origin)ONCE",
+  "gates": "exact4names,21/29frames,actualfinite1/60origin/60Hzspacing/spans,unitfinite,actual034Idleendpoints1e−5,nonidentity>.035,orphan57skin/no nodebinding,zero finalrenderassets/skins,headonly,rawBIN/accessorvaluebyteexact",
+  "sourceRawSHA256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010",
+  "immutable": "048/049failures unchanged; no Blender/no authorrepair/no timestampshift inasset",
+  "processorWriterClosed": true,
+  "runtimeStage": "OnlyrootPASS authorizes source integration; anynewgatefailure STOPpacket/no moreloops"
+}

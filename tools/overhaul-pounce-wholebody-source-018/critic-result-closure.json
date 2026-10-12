@@ -1,0 +1,37 @@
+{
+  "startedUtc": "2026-10-10T19:38:07Z",
+  "closedUtc": "2026-10-10T19:39:04.1700869Z",
+  "verdict": "ACCEPT_FAILURE_PRESERVATION_ONLY",
+  "review": "docs/overhaul/critic/pounce-wholebody-source-018-result-review.md",
+  "reviewSha256": "2D6EDA3AEF5836F6E1FF8A0FE921401C5DE8AEEF8645607C099DCA36EAA6D96B",
+  "matchedInputRows": 18,
+  "allMatch": true,
+  "outputs": [
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/actual-action-records.json",
+      "bytes": 2,
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/first-source-failure.json",
+      "bytes": 599,
+      "sha256": "57278DE4B9F12E367C13AC581085BF4A7D2F4B383C47698166C9A33F274CEB58"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/matching-clock-two-body-assembly.json",
+      "bytes": 2,
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/receipt.json",
+      "bytes": 2802,
+      "sha256": "6E336CDAC41D471014A30BAE1B5E3686B34B903479956CD3BFE37731E5E44DA3"
+    }
+  ],
+  "newGeometryQualified": false,
+  "newMotionQualified": false,
+  "images": 0,
+  "nativeAdmission": false,
+  "runtimeAdmission": false,
+  "gate1": "INCOMPLETE"
+}

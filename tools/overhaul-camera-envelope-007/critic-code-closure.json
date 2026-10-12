@@ -1,0 +1,15 @@
+{
+  "schema": "critic-camera-envelope007-code-v1",
+  "startUtc": "2026-10-10T17:21:06Z",
+  "deadlineUtc": "2026-10-10T17:26:00Z",
+  "closedUtc": "2026-10-10T17:22:42.9701027Z",
+  "verdict": "APPROVE_ONE_FIXTURE_THEN_CONDITIONAL_ONE_PRIVATE_OBSERVATION",
+  "reviewPath": "docs/overhaul/critic/camera-envelope-007-code-review.md",
+  "reviewSha256": "7EBAA7D569B93F2B128F6EB24B473168042697C8F190FB243EACFD6D6CB985E7",
+  "sourceSealSha256": "EE921461E21DA01D65DE4DA637E41129829EF2A944BC1F9D194670BD9DA69EBC",
+  "sourceRows": 21,
+  "historicalMappedRows": 14,
+  "mismatches": 0,
+  "jobs": 0,
+  "gate1": "INCOMPLETE"
+}

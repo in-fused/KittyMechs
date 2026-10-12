@@ -1,0 +1,119 @@
+{
+  "jobsExecuted": [],
+  "rootBuildCommand": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "terminalGuard": "After native movement/projectile/field damage and advanceCoop, before endExtractedStrikes",
+  "packet": "052",
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/coop-extraction-052.test.ts",
+    "tests/overhaul-coop-native.test.ts",
+    "tests/overhaul-coop.test.ts"
+  ],
+  "owned": [
+    "shared/coopExtraction.ts",
+    "shared/simulation.ts",
+    "src/ui/Hud.tsx",
+    "tests/coop-extraction-052.test.ts",
+    "docs/overhaul/squad-extraction-052.md"
+  ],
+  "writersClosed": true,
+  "limits": [
+    "Tests unrun author",
+    "Full ordinary multiplayer mission incomplete",
+    "No public route qualification"
+  ],
+  "dependencies": [
+    {
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f",
+      "path": "shared/config.ts"
+    },
+    {
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c",
+      "path": "shared/math.ts"
+    },
+    {
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2",
+      "path": "shared/types.ts"
+    },
+    {
+      "bytes": 8668,
+      "sha256": "1296eb4fe963fda33482175f244a9e57f8436b4fbfe905005a69315a95f58790",
+      "path": "tests/overhaul-coop-native.test.ts"
+    },
+    {
+      "bytes": 6999,
+      "sha256": "3083e34b6f5b82785bf2e4bd7f1e0fa6979967e4078cf88a286bbc1415beb021",
+      "path": "tests/overhaul-coop.test.ts"
+    }
+  ],
+  "protected": [
+    {
+      "bytes": 175845,
+      "sha256": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92",
+      "path": "tools/overhaul-coop-extraction-052/preimages/simulation.ts"
+    },
+    {
+      "bytes": 18529,
+      "sha256": "b9d8ba0060b7bdd28555d2ff3556432df536a83a897f772e183e751206b54a02",
+      "path": "tools/overhaul-coop-extraction-052/preimages/Hud.tsx"
+    },
+    {
+      "bytes": 302,
+      "sha256": "d42697a078359ca3c74fc226b8fc2f8c7b446b434a8ac86296b16b93c4c675f3",
+      "path": "tools/overhaul-coop-extraction-052/preimages.json"
+    },
+    {
+      "bytes": 3497,
+      "sha256": "50bf22ccd9fa6b302a9f7399c58701282b5b876b8ea086cc88de6ddc80bce1c8",
+      "path": "docs/overhaul/mission-audit-051.md"
+    },
+    {
+      "bytes": 2181,
+      "sha256": "f8509ec42e52279f9275dd2b95b3bd024f061bd39b81b142bd3416ff53cdf4a3",
+      "path": "tools/overhaul-mission-audit-051/source-handoff.json"
+    },
+    {
+      "bytes": 436,
+      "sha256": "a9301a0d6c0f89cf021db87afb30d8dc2020e9656355ceffa9e96b9230e65f9f",
+      "path": "tools/overhaul-mission-audit-051/source-seal.json"
+    }
+  ],
+  "resetSemantics": "Ineligible squad resets incomplete extraction progress; ordinary E-release semantics unchanged",
+  "files": [
+    {
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8",
+      "path": "shared/coopExtraction.ts"
+    },
+    {
+      "bytes": 176991,
+      "sha256": "75db2735d0f0e71a462a3bd10d3496166dafcd7333b8ee90413fc5f7a42a591c",
+      "path": "shared/simulation.ts"
+    },
+    {
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff",
+      "path": "src/ui/Hud.tsx"
+    },
+    {
+      "bytes": 5932,
+      "sha256": "e12d539103ca71535320b3cca04d08606457f1b29a6ebfbb728a24be951a4de7",
+      "path": "tests/coop-extraction-052.test.ts"
+    },
+    {
+      "bytes": 2545,
+      "sha256": "6ba18223c352069ca6eaf9e05eeff35d451c3775ce0a763c52443e55b5d1ecc3",
+      "path": "docs/overhaul/squad-extraction-052.md"
+    }
+  ],
+  "status": "SOURCE_FROZEN_UNRUN"
+}

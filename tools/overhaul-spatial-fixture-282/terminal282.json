@@ -1,0 +1,17 @@
+{
+  "writer": "CLOSED",
+  "exitCode": 1,
+  "elapsedSeconds": 0.4059999999590218,
+  "capSeconds": 30,
+  "stdout": "",
+  "stderr": "node:internal/modules/run_main:107\r\n    triggerUncaughtException(\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\r\n\r\n  assert(!a.sparse&&!v.extensions)\r\n\r\n    at <anonymous> (C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-spatial-fixture-282\\test282.ts:10:163)\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: false,\r\n  expected: true,\r\n  operator: '==',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v24.13.0\r\n",
+  "storage": {
+    "Applied": true,
+    "DeletedCount": 0,
+    "CandidateCount": 0,
+    "ArtifactGiB": 34.94,
+    "HistoryGiB": 0.15,
+    "CFreeGiB": 39.97,
+    "DFreeGiB": 688.35
+  }
+}

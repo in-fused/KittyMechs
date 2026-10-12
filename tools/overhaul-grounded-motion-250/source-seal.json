@@ -1,0 +1,146 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_FIRST_REMAINING_MOTION_FAILURE",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-motion-250/actual-cases-first250.json",
+      "bytes": 477,
+      "sha256": "4ce88f75816b6ca800afc160682e51be7769b80c9b42d53ea0b01f4e8562afdd"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/actual-cases250.json",
+      "bytes": 571163,
+      "sha256": "de574c71a9830c69608aefa4139fc544f0cda8f7dd4173064855f606f41a96c6"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/contactObservation250.ts",
+      "bytes": 5464,
+      "sha256": "cbdd949ca12384f0c0cb0c537513b7f16f44247a5d3d5789de32e9e0724689fc"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/failure-summary250.json",
+      "bytes": 10264,
+      "sha256": "a304d8893e833ab93c1dc54b6f805d610c1ff350b7640cb4c829681d8dd6026d"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/groundedFeet250.ts",
+      "bytes": 12697,
+      "sha256": "2be7578f2f5a80aa1de06da982359de8ddd5a245ce39bc3c1d2f610df489da61"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/HANDOFF.md",
+      "bytes": 6019,
+      "sha256": "99f53fa19d58f0478ebe62bf7c04ba3f3dc87f9a4ee62a72a3bfd728ec1f6c03"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/load-rig250.ts",
+      "bytes": 5133,
+      "sha256": "eaa89d7688a75cd00f17ea41189e7c3193cf5a7d620d1a2b2ebd557485ebd35d"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/motion250.test.ts",
+      "bytes": 6943,
+      "sha256": "a8a3061709572d972643dd654628f03c7cc74d0d81a04101683b98662cc2790f"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/NativeActor250.tsx",
+      "bytes": 6250,
+      "sha256": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/NativeActor250.typecheck.tsx",
+      "bytes": 6255,
+      "sha256": "d5005ad6324eae806cb1f9e403db495a784682015822c4fe41512f869e3eebe7"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/nativeOwner250.ts",
+      "bytes": 14904,
+      "sha256": "d5d19ec5700d98494e2f64f0148cfc70448b904bc7a8e3c7bef3ef93909e0364"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/preimages/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/preimages/NativeActor246.tsx",
+      "bytes": 6250,
+      "sha256": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/preimages/nativeOwner246.ts",
+      "bytes": 14425,
+      "sha256": "6a3b3000ea0b60d1b454d0fa4bc37158bef34b47e87985ecaf4e5a678f0bc009"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/preimages/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/preimages/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/protected-inputs250.json",
+      "bytes": 2015,
+      "sha256": "b444ae8e7a254057d807f35260d2c065483cbe338ed9df16bc2857ee00ffed33"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/skinSole250.ts",
+      "bytes": 10367,
+      "sha256": "51ae8889364b93c0e2370fd2d1c88e7f41e036b1de996c611e02bf2f0e2571b2"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/sourceTask250.ts",
+      "bytes": 13011,
+      "sha256": "739a9a169e74d23d2b559986217df52245c31a83c3a5249abfd5827c9d35e3e4"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/test-corrected-exit250.txt",
+      "bytes": 3,
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/test-corrected250.txt",
+      "bytes": 394,
+      "sha256": "aacb24526db063c662df3c769e4fbf94238beb9cf3fc9a7ef95db973f797fb24"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/test-first-exit250.txt",
+      "bytes": 3,
+      "sha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/test-first250.txt",
+      "bytes": 316,
+      "sha256": "09d9a5c42685376a5fffc296a6cf02a34abe7826a3cda52125200bf6e4aec97a"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/tsconfig250.json",
+      "bytes": 173,
+      "sha256": "63953008079c3f1e52a01c146178c3acd6e188831961ef8f4c8efe5396dc81cd"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/type-final-exit250.txt",
+      "bytes": 3,
+      "sha256": "df4e26a04a444901b95afef44e4a96cfae34690fff2ad2c66389c70079cdff2b"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/type-final250.txt",
+      "bytes": 171,
+      "sha256": "5391fa78446ca272db0e5f699cfe5659ec515d7d4c6b787b45fb905416f67d38"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/type-first-exit250.txt",
+      "bytes": 3,
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-250/visualRegistry250.typecheck.ts",
+      "bytes": 4604,
+      "sha256": "4415b7515ac129dc4fe29a67a063b7e0a8c519bdbfe72d68bc0e0b8b42795e25"
+    }
+  ]
+}

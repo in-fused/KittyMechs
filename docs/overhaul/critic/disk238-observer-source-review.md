@@ -1,0 +1,17 @@
+# Disk238 restricted observer source review
+
+Writer: CLOSED. Decision: ACCEPT_ONE_RESTRICTED_ACTUAL_PROBE.
+
+This permits one private browser observation of unchanged234 compiled bytes through the output-only238 adapter. It does not waive235's pre-browser rejection,236's earlier storage failure, any20-second readiness deadline or subsequent actual-quality review.237 remained unrun. No reviewer job, rebuild or production edit occurred.
+
+The CLOSED238 seal `7e643680d986e64d0f1ea5237bea1dbb2fb7162d1e4465208b8c9b44f988c89d` contains12 own files, all matching. Actual capture, supervisor, guards and classifier have no normalized delta from their237 preimages beyond packet/environment/callsign/review names and output paths. All prior237 bound rows are unchanged; binding1115 retains the same dist, build seal, delivery, outputs, real062 HTML, entry identity and exact package boundary. This narrow comparison did not rehash the complete protected set.
+
+Current AGENTS.md SHA `2d9ad04944e9ad14af8806fcdd2313b723c0a672431058fda960a900bc964ab4` sets48 GiB scratch,2 GiB history and C:/D: free minima30/100 GiB, with new bulky runs created by tools/new-artifact-run.ps1. The root reports a new authoritative storage:clean4344 terminal0:34.24 GiB scratch,0.15 GiB history,C:40.27 GiB and D:689.27 GiB. These current values pass the current policy; they do not retroactively change236's failed result. No deleted historical chain is to be reconstructed.
+
+Before launch, root must use the owner helper for the single shader-startup-238 run, require its fresh budget PASS and verify the C: junction resolves to `D:/CodexStorage/KittyMech-Web/.sites-runtime/shader-startup-238`, with an empty run and fresh public/supervisor children. The helper invokes storage-retention.ps1 without an explicit LASTEXITCODE assertion; helper completion alone is therefore insufficient budget evidence. Any failed fresh budget or incorrect/existing output target stops admission. The existing idle owned062 process/creation/HTTP identity and all238 protected checks remain required. Do not traverse the junction into a snapshot.
+
+The unchanged source gate remains20-second composite local/input/native/winning-provider/overlay readiness plus completed public canvas click;140-second work,30-second cleanup,170-second child,180-second inclusive supervisor and first genuine failure stop. Shader diagnostics and canvas start/end witnesses must be interpreted separately. A late completion does not establish timely readiness. Public send/neutral/native ACK/rest and realized displacement/yaw remain necessary; R/air/pair labels are not completed-state or temporal-quality proof. Known conservative unsupported-action guard classification, old vendor preload overhead and native identity observation limitations remain disclosed.
+
+After this single probe, independent actual pixel/lifecycle review is mandatory. No public promotion, GPU/startup improvement, convincing motion/contact, full cooperative mission or affected-human Lowest lag claim follows from this source admission.
+
+Reviewed hashes: capture `ccc8da5a38b16d058df3ea174ffb37448b62fd4e5cfe9fcd34207d06802eb531`; supervisor `f02c6d4ee280578513dfa0284756eaf57d9f62bd0813ad0f5a94ec35e1a60cca`; binding `46d54b1ad2af4a3aa718a650a4763677792cf2e622cb56e45c6e4cefdde1465b`; preparation `83d6313089b4c7ccd887576dd95166010edd1e0951fdcf584fe193f71732e611`; owner helper `cf609dd5ecf1074440cb3f3d046ba75511f9f7a2a3ffda923133ecf6dbc43266`.

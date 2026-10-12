@@ -1,0 +1,13 @@
+# 082 independent partial comparison result review
+
+**DENY performance/culling promotion. Keep045 LIMITED.** Accept the081 CPU containment result within its sampled scope and preserve the failed082 browser baseline. No candidate comparison exists; build/freeze046 and candidate capture did not run.
+
+The directed081 fixture passed: root9.094s, inner6.950s, three real Sentinel models,142 poses each including fail-open checks,10,740,111 checked vertices. Its geometry/bind/parent and stale-attribute assertions passed. This supports the actual loaded assets and sampled source clips/carrier/head transforms against Three and Float32 containment; it does not prove every live composition, net benefit or visible gameplay quality. Both earlier parser/cache failures remain preserved.
+
+The single baseline stopped after prototype idle/sweep/backpedal, before standard-model phases, at the public `Pause game` click. Root31.188s and retained capture29.528s remain within bounds. The failed click reports canvas interception rather than a60s work timeout. Partial CPU profile, own video, phase PNGs and failure PNG are retained; do not compare their incomplete profile to an unrun candidate or infer improvement from screenshot counters. No runtime errors or candidate culling results establish a production defect here.
+
+I viewed prototype-idle.png, prototype-backpedal.png and failure.png. Own body and district are visible in the first two; the failure image is dominated by a close, cropped mech body. That is a real poor captured view, but occurs during the unsuccessful UI transition on unchanged045. It cannot be attributed to081 bounds or certify a specific camera cause. Stiff feet/unfinished finish and actual user Lowest/IAB lag remain unresolved; no presentation approval follows.
+
+One distinct083 observer-only correction is permissible for source review: replace the intercepted pause-button click with an ordinary public Escape key event, then require the actual paused UI/SETTINGS state before proceeding. Existing `src/game/input.ts` handles Escape by exiting pointer lock, transitioning playing/paused and resetting controls. Do not force-click through canvas, invoke store/debug mutations, increase readiness/work caps or change the movement/profile sequence. Preserve082 exactly and gate the newly frozen observer before its ONE baseline and conditional candidate comparison. This proposal is not execution permission or a retry of the closed082 packet.
+
+No reviewer jobs or game edits. Actual net cost, visible models, native progression and full quality still require the complete independent comparison; full goal remains INCOMPLETE. Review writer CLOSED.

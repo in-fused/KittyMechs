@@ -1,0 +1,87 @@
+{
+  "startAndFreezeUTC": "2026-10-10T19:02:59.065358+00:00",
+  "scope": "Literal explicit callable-never annotation after CLOSED013; runtime behavior unchanged. Only fresh process/output namespace. Same8 math tests and actual004 loader export first attempt.",
+  "cleanupUTC": "2026-10-10T19:15:00Z",
+  "hardStopUTC": "2026-10-10T19:18:00Z",
+  "command": "node tools/overhaul-feline57-contract-017/run.mjs",
+  "rows": [
+    {
+      "path": "shared/feline57Contract013.ts",
+      "bytes": 2717,
+      "sha256": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "shared/feline57Evaluator013.ts",
+      "bytes": 6465,
+      "sha256": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "shared/feline57Profile013.ts",
+      "bytes": 4476,
+      "sha256": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f",
+      "role": "type-corrected"
+    },
+    {
+      "path": "shared/feline57Occupancy013.ts",
+      "bytes": 5633,
+      "sha256": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "tests/feline57-contract-013.test.ts",
+      "bytes": 4618,
+      "sha256": "5b3725fd5ac7880d0e8a135dc662f5d256cc4d5ed6c1e9f5c1980a5a765757fc",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/export.ts",
+      "bytes": 16448,
+      "sha256": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "docs/overhaul/feline57-contract-013.md",
+      "bytes": 6791,
+      "sha256": "df24b8a9474424198509e2e4df4ec07258ff35004e92536d64c137f33c956e7e",
+      "role": "owned-frozen"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "role": "protected-input"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source-profile.json",
+      "bytes": 310556,
+      "sha256": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "role": "protected-input"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/export-readback.json",
+      "bytes": 387004,
+      "sha256": "71d757b1a187f99b84f8ce1fbb7c0e831d3b14871175d1df7cc492866db7c616",
+      "role": "protected-input"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/export-source-offsets.json",
+      "bytes": 6419,
+      "sha256": "a7ecdb2f1a0186e3487f71ec482ffef8d13766e8aef2b30606cb888916ce34a5",
+      "role": "protected-input"
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-017/run.mjs",
+      "bytes": 2045,
+      "sha256": "fef6ed0bed0ba95d1a062d947caa112273ec0e6a4e9461463bb52a7ba9ae292a",
+      "role": "successor-runner"
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-017/feline57Profile013.ts.preimage",
+      "bytes": 4466,
+      "sha256": "da22478a4e1d619b36884c456587b8991c1156b3165b400a81d1bc0a94bfcc70",
+      "role": "preserved013"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "writer": "CLOSED",
+  "testCommand": "npx vitest run tests/locomotion-tasks143.test.ts",
+  "test": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "e58b91",
+      "wall_time_seconds": 4.2334652,
+      "exit_code": 0,
+      "original_token_count": 58,
+      "output": "\n RUN  v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web\n\n\n Test Files  1 passed (1)\n      Tests  4 passed (4)\n   Start at  08:20:23\n   Duration  1.45s (transform 162ms, setup 0ms, import 276ms, tests 880ms, environment 0ms)\n\n"
+    }
+  },
+  "typecheck": {
+    "command": "npx tsc --noEmit",
+    "exitCode": 1,
+    "errors": [
+      "src/game/training.worker.ts(16,81): TS2367 number/string comparison",
+      "src/game/trainingWorkerClient145.ts(14,76): TS2322 string not assignable to number"
+    ],
+    "task143Errors": 0,
+    "sharedFinalPending145Closure": true
+  }
+}

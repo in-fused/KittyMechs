@@ -1,0 +1,63 @@
+{
+  "rootTestCommand": [],
+  "status": "SOURCE_AUDIT_NO_RUNTIME_EDIT",
+  "finding": "One-pilot extraction can freeze a connected downed teammate; conditional source proof against declared both-pilot acceptance, public occurrence unobserved",
+  "files": [
+    {
+      "path": "docs/overhaul/mission-audit-051.md",
+      "bytes": 3497,
+      "sha256": "50bf22ccd9fa6b302a9f7399c58701282b5b876b8ea086cc88de6ddc80bce1c8"
+    }
+  ],
+  "limitations": [
+    "No actual extraction reproduction",
+    "Prior 041/045 incomplete mission evidence",
+    "IAB user performance unavailable kernel-assets os3"
+  ],
+  "jobsExecuted": [],
+  "nextObservation": "Same committed publication actor lifecycle/position before and after ordinary squad extraction, after explicit production rule decision",
+  "packet": "051",
+  "auditedFiles": [
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 175845,
+      "sha256": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92"
+    },
+    {
+      "path": "shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18529,
+      "sha256": "b9d8ba0060b7bdd28555d2ff3556432df536a83a897f772e183e751206b54a02"
+    },
+    {
+      "path": "tests/overhaul-coop-native.test.ts",
+      "bytes": 8668,
+      "sha256": "1296eb4fe963fda33482175f244a9e57f8436b4fbfe905005a69315a95f58790"
+    },
+    {
+      "path": "tests/overhaul-coop.test.ts",
+      "bytes": 6999,
+      "sha256": "3083e34b6f5b82785bf2e4bd7f1e0fa6979967e4078cf88a286bbc1415beb021"
+    },
+    {
+      "path": "tools/overhaul-coop-play-045/README.md",
+      "bytes": 3809,
+      "sha256": "ad1a5c20329bcb12fb19babcb3d689a6c2c40428dd21c6498f47563aaa1ce3d5"
+    }
+  ],
+  "writersClosed": true
+}

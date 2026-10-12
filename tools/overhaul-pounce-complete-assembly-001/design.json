@@ -1,0 +1,15 @@
+{
+  "candidate": "complete-pounce-assembly001",
+  "startUtc": "2026-10-10T14:32:07Z",
+  "hardDeadlineUtc": "2026-10-10T15:22:07Z",
+  "oldSourceDisposition": "all protected masters unchanged; all old render geometry retired together in new in-memory assembly",
+  "rig": "original25 measured rest bones plus32 new digit/claw children; one pose owner;57maximum",
+  "newRender": ["continuous weighted dark chassis", "six genuinely hollow tapered armor segments", "scapular shields/shafts/fasteners", "tapered links/actuators/service insets", "short protected neck/wedge feline face/triangular ears", "five articulated tail segments", "compact wrists/metacarpals/four hollow arched toes per paw", "twenty physical pads and sixteen recessed curved claws"],
+  "materials": 4,
+  "triangleBudget": [30000,50000],
+  "sourceEvidence": "one neutral source construction clock, actual geometry/weights/rig/export/three views",
+  "movementClips": "NONE; explicitly unqualified, no oldclip fallback",
+  "sourceNativeArtRuntimeGate1": "UNQUALIFIED",
+  "maxJobs": 1,
+  "rerunOrVariant": false
+}

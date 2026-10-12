@@ -1,0 +1,28 @@
+{
+  "scope": "one scoped type preflight + one finite actual-decoded numerical composition suite; no browser/native game",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-runtime-267\\tsconfig267.json"
+      ],
+      "cap": 20,
+      "exit": 0,
+      "seconds": 5.75
+    },
+    {
+      "name": "suite",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-runtime-267\\composed267.test.ts"
+      ],
+      "cap": 45,
+      "exit": 0,
+      "seconds": 3.030999999959022
+    }
+  ]
+}

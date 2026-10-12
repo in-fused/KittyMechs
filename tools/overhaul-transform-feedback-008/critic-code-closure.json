@@ -1,0 +1,18 @@
+{
+  "schema": "critic-feedback008-code-and-observation-v1",
+  "startUtc": "2026-10-10T17:48:48Z",
+  "reportCutoffUtc": "2026-10-10T17:53:00Z",
+  "closedUtc": "2026-10-10T17:52:52.5768405Z",
+  "verdict": "APPROVE_ONE_CONDITIONAL_NATIVE_CHECK_THEN_PREP2_OBSERVATION",
+  "originalObservation": "DENY_UNRUN_GUARD_REENTRY",
+  "reviewPath": "docs/overhaul/critic/transform-feedback-008-code-review.md",
+  "reviewSha256": "D7CB36C819F7DB1A86B7004C11127F75C532A385CED22D3B48D3EEAE1DE07B29",
+  "feedbackSealSha256": "BC991A9864F2F842CC2455A70387D9A8C1B6DD6723E806FC5F8BE93778A7AE3B",
+  "observationPrep2SealSha256": "111FD5A842BB70B249278B266AD0D25BA7F1538742BE556EA5A46BD11F894E05",
+  "sourceRows": 10,
+  "preimages": 6,
+  "prep2Rows": 3,
+  "mismatches": 0,
+  "criticJobs": 0,
+  "gate1": "INCOMPLETE"
+}

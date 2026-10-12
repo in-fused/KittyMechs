@@ -1,0 +1,61 @@
+{
+  "closedUTC": "2026-10-10T20:55:07.451758+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/evidence.json",
+      "bytes": 5641374,
+      "sha256": "079f00ae2468c87cdeb254e8d6cfb0391bd1f939fba018bba8e979017770ca0b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/page@a19bf5a6a39a049bc2f4101b717210fc.webm",
+      "bytes": 9051424,
+      "sha256": "f85dc89982e5647835ecc6edb2254fb51b89edf59081294f9902b238dd0a2535"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/progress.json",
+      "bytes": 5629767,
+      "sha256": "398bf8ba725e9a2073ab4898f267dbb6a0e2777bbd9b35111d791e7115d75d56"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/receipt.json",
+      "bytes": 1115,
+      "sha256": "78fd72ab5837a53f89efbc5c23a02d9dbb0d412117c8ae8e851a8cad995eb44a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/route.png",
+      "bytes": 7382809,
+      "sha256": "f9f0386160e5ea405a6b3eab0282075d1edeb93ee9a4099bc6e8acf32d363539"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/stdout.txt",
+      "bytes": 3264,
+      "sha256": "30a8ae490a0002d0a98f22bbc1e20c7e16d13dba7814fbf7b0c49b58b9b51f8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-build-process/process-receipt.json",
+      "bytes": 1842,
+      "sha256": "4d449ce95c50399c028498fddce855e4884a53f8b4df04f84e4899d32ffeb9f8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-build-process/stdout.txt",
+      "bytes": 2261,
+      "sha256": "9625dbd6ff5fa98520706a158a623f088a0053cc38fadba7cccf6032c4933d62"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-capture-process/process-receipt.json",
+      "bytes": 1836,
+      "sha256": "dd52f15b70b2edd18f83473f27648959f9de3ca92eeb72651d09575915677f2a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-capture-process/stdout.txt",
+      "bytes": 986,
+      "sha256": "3b888dc8d53b1a3d10062a45cac2a335372dbaa5996b1c42d714127642ac4167"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-028/receipt.json",
+      "bytes": 69138,
+      "sha256": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7"
+    }
+  ],
+  "scope": "Frozen actual artifacts awaiting independent gameplay/art result"
+}

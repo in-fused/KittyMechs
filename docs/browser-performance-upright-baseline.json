@@ -1,0 +1,594 @@
+{
+  "date": "2026-10-04T10:27:48.030Z",
+  "port": 8790,
+  "label": "candidate",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "cameraDistance": 10,
+  "reducedFlashes": false,
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1298632,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1298632,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1298552,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1298532,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1298632,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    }
+  ],
+  "errors": [],
+  "source": "51ff7b7fbdadb621e40e4f488c79291b2c1aa31a222d2876010ebe26e39f2331",
+  "candidateAverage": {
+    "fps": 57,
+    "calls": 243.5,
+    "triangles": 1298554,
+    "geometries": 146,
+    "textures": 57
+  },
+  "baselineAverage": {
+    "fps": 56.8,
+    "calls": 243.5,
+    "triangles": 1262368,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaselineAverage": {
+    "fps": 56.9,
+    "calls": 243.4,
+    "triangles": 1262352,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaseline": "docs/browser-performance-coastal-baseline.json",
+  "settledRAF": {
+    "durationMs": 10129,
+    "samples": 577,
+    "p50": 17.5,
+    "p95": 19.100000143051147,
+    "p99": 21.59999990463257,
+    "maximum": 32.39999985694885,
+    "over50": 0,
+    "over100": 0
+  },
+  "note": "Independent critic, one fresh Pounce Rainline solo page, all other browser probes closed. Medium selected through normal settings. Ten settled 1-second samples with RAF-only observation; screenshot follows sampling. Same-session frozen v9/candidate comparison, not a general hardware or long-session qualification. Candidate sustained rendered triangle count is 2.87% higher; exact LOD/culling cause is unassigned. Draw calls and measured resource counts match. No identical-cost or causal FPS-gain claim.",
+  "reviewedAt": "2026-10-04T11:05:51.722Z",
+  "coveredFiles": 255,
+  "sampledRuntimeFingerprint": "a98ea1839f9308258719b4df40de0a5460879bd8d1dd31c01cebb3b4b0dcacc0",
+  "sourceQualifier": "Final covered source differs from the sampled runtime only in three browser test/helper files. Eight compiled runtime bundle SHA-256 values were independently rechecked unchanged.",
+  "sameSessionBaseline": {
+    "date": "2026-10-04T10:27:13.506Z",
+    "port": 8788,
+    "label": "same-session-v9-baseline",
+    "browser": "Headless Microsoft Edge",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "preset": "medium",
+    "cameraDistance": 10,
+    "reducedFlashes": false,
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "samples": [
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 58,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262354,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 53,
+        "calls": 244,
+        "triangles": 1262454,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262394,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 58,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262354,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262454,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      }
+    ],
+    "errors": [],
+    "source": "f4a18f34d95d6a8ed532b29354aa5084ab20f51d",
+    "candidateAverage": {
+      "fps": 56.8,
+      "calls": 243.5,
+      "triangles": 1262368,
+      "geometries": 146,
+      "textures": 57
+    },
+    "baselineAverage": {
+      "fps": 56.9,
+      "calls": 243.4,
+      "triangles": 1262352,
+      "geometries": 146,
+      "textures": 57
+    },
+    "historicalBaselineAverage": {
+      "fps": 56.9,
+      "calls": 243.4,
+      "triangles": 1262352,
+      "geometries": 146,
+      "textures": 57
+    },
+    "historicalBaseline": "docs/browser-performance-coastal-baseline.json",
+    "settledRAF": {
+      "durationMs": 10118.099999904633,
+      "samples": 577,
+      "p50": 17.40000009536743,
+      "p95": 20,
+      "p99": 22.200000047683716,
+      "maximum": 80.90000009536743,
+      "over50": 1,
+      "over100": 0
+    },
+    "note": "Independent critic, one fresh Pounce Rainline solo page, all other browser probes closed. Medium selected through normal settings. Ten settled 1-second samples with RAF-only observation; screenshot follows sampling. Same-session frozen v9/candidate comparison, not a general hardware or long-session qualification."
+  },
+  "renderCost": {
+    "trianglesDeltaPct": 2.866517528961454,
+    "callsDeltaPct": 0,
+    "resourcesUnchanged": true,
+    "cause": "Unassigned. Stable 9 chunk/284 authority-body readings, same camera/renderer/preset and unchanged shipping asset geometry. No causal FPS or culling/LOD claim."
+  },
+  "movingRoute": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "chassis": "Bastion",
+    "theater": "Rainline",
+    "cameraDistance": 6,
+    "reducedFlashes": true,
+    "method": "Ordinary keyboard/mouse, one actual browser authority and one rendered dedicated-server guest in serial. Recorded video, per-frame snapshot/camera, approximately 10 Hz async contact copying. Moving windows exclude screenshots/settings/stops; low/high seam rows remain separate. Additional candidate streaming metadata is copied only in screenshot/cleanup stages.",
+    "rows": [
+      {
+        "label": "v9-baseline-corrected",
+        "mode": "authority",
+        "mixedPresetMoving": {
+          "samples": 5592,
+          "p50": 17.90000009536743,
+          "p95": 19.399999856948853,
+          "p99": 21.299999952316284,
+          "maximum": 42.299999952316284,
+          "over50": 0,
+          "over100": 0,
+          "preset": "medium except explicitly labeled low/high seam stages",
+          "durationMs": 100222.70000052452,
+          "observer": "10Hz async contact copy; per-frame snapshot/camera and periodic performance. This is diagnostic route pacing, not observer-free profiling."
+        },
+        "perPresetMoving": {
+          "medium": {
+            "samples": 4859,
+            "p50": 17.90000009536743,
+            "p95": 19.299999952316284,
+            "p99": 21.09999990463257,
+            "maximum": 42.299999952316284,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 87141.30000042915
+          },
+          "low": {
+            "samples": 358,
+            "p50": 17.899999856948853,
+            "p95": 20,
+            "p99": 22.700000047683716,
+            "maximum": 27.09999990463257,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 6394.700000047684
+          },
+          "high": {
+            "samples": 375,
+            "p50": 17.800000190734863,
+            "p95": 19.799999952316284,
+            "p99": 24.09999990463257,
+            "maximum": 32.60000014305115,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 6686.700000047684
+          }
+        },
+        "escapeMeters": 8.39498288829732,
+        "workers": {
+          "created": 1,
+          "terminated": 0,
+          "maxPending": 11,
+          "pendingAfterReturn": 0
+        },
+        "workerCompletionLatency": {
+          "samples": 30,
+          "p50": 84.40000009536743,
+          "p95": 3895.899999856949,
+          "p99": 3895.9000000953674,
+          "maximum": 3895.9000000953674,
+          "over50": 18,
+          "over100": 14
+        },
+        "cameraViolations": 0,
+        "disallowedAnchors": 0,
+        "casts": 20,
+        "maxStrongSupportSlip": 0.02264027687131444,
+        "maxStrongSupportSoleError": 0.01051828425807999,
+        "errors": []
+      },
+      {
+        "label": "v9-baseline-corrected",
+        "mode": "dedicated-guest",
+        "mixedPresetMoving": {
+          "samples": 5862,
+          "p50": 17.90000009536743,
+          "p95": 19.5,
+          "p99": 22.399999856948853,
+          "maximum": 83.59999990463257,
+          "over50": 3,
+          "over100": 0,
+          "preset": "medium except explicitly labeled low/high seam stages",
+          "durationMs": 105156.49999976158,
+          "observer": "10Hz async contact copy; per-frame snapshot/camera and periodic performance. This is diagnostic route pacing, not observer-free profiling."
+        },
+        "perPresetMoving": {
+          "medium": {
+            "samples": 5147,
+            "p50": 17.90000009536743,
+            "p95": 19.59999990463257,
+            "p99": 22.399999856948853,
+            "maximum": 83.59999990463257,
+            "over50": 3,
+            "over100": 0,
+            "durationMs": 92388.09999990463
+          },
+          "low": {
+            "samples": 371,
+            "p50": 17.800000190734863,
+            "p95": 19,
+            "p99": 20.09999990463257,
+            "maximum": 37,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 6617.399999856949
+          },
+          "high": {
+            "samples": 344,
+            "p50": 17.800000190734863,
+            "p95": 19.5,
+            "p99": 26.200000047683716,
+            "maximum": 44.40000009536743,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 6151
+          }
+        },
+        "escapeMeters": 8.488832021114616,
+        "workers": {
+          "created": 1,
+          "terminated": 0,
+          "maxPending": 11,
+          "pendingAfterReturn": 0
+        },
+        "workerCompletionLatency": {
+          "samples": 30,
+          "p50": 87.90000009536743,
+          "p95": 554.2000000476837,
+          "p99": 573.1999998092651,
+          "maximum": 573.1999998092651,
+          "over50": 17,
+          "over100": 14
+        },
+        "cameraViolations": 0,
+        "disallowedAnchors": 0,
+        "casts": 20,
+        "maxStrongSupportSlip": 0.02790890647110031,
+        "maxStrongSupportSoleError": 0.0041601725153279645,
+        "errors": []
+      },
+      {
+        "label": "candidate-corrected",
+        "mode": "authority",
+        "mixedPresetMoving": {
+          "samples": 5628,
+          "p50": 17.90000009536743,
+          "p95": 19.5,
+          "p99": 21.299999952316284,
+          "maximum": 36.5,
+          "over50": 0,
+          "over100": 0,
+          "preset": "medium except explicitly labeled low/high seam stages",
+          "durationMs": 100895.10000014305,
+          "observer": "10Hz async contact copy; per-frame snapshot/camera and periodic performance. This is diagnostic route pacing, not observer-free profiling."
+        },
+        "perPresetMoving": {
+          "medium": {
+            "samples": 4990,
+            "p50": 18,
+            "p95": 19.5,
+            "p99": 21.09999990463257,
+            "maximum": 36.5,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 89494.79999995232
+          },
+          "low": {
+            "samples": 330,
+            "p50": 17.899999856948853,
+            "p95": 19.40000009536743,
+            "p99": 20.59999990463257,
+            "maximum": 26.5,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 5888.300000190735
+          },
+          "high": {
+            "samples": 308,
+            "p50": 17.90000009536743,
+            "p95": 20.699999809265137,
+            "p99": 26.59999990463257,
+            "maximum": 36.5,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 5512
+          }
+        },
+        "escapeMeters": 8.395587195935493,
+        "workers": {
+          "created": 1,
+          "terminated": 1,
+          "maxPending": 1,
+          "pendingAfterReturn": 0
+        },
+        "workerCompletionLatency": {
+          "samples": 30,
+          "p50": 18.5,
+          "p95": 174.19999980926514,
+          "p99": 3583.2000000476837,
+          "maximum": 3583.2000000476837,
+          "over50": 2,
+          "over100": 2
+        },
+        "cameraViolations": 0,
+        "disallowedAnchors": 0,
+        "casts": 20,
+        "maxStrongSupportSlip": 0.021653309469155113,
+        "maxStrongSupportSoleError": 0.004867160285615513,
+        "errors": []
+      },
+      {
+        "label": "candidate-corrected",
+        "mode": "dedicated-guest",
+        "mixedPresetMoving": {
+          "samples": 5772,
+          "p50": 17.90000009536743,
+          "p95": 19.5,
+          "p99": 21.09999990463257,
+          "maximum": 42.89999985694885,
+          "over50": 0,
+          "over100": 0,
+          "preset": "medium except explicitly labeled low/high seam stages",
+          "durationMs": 103442.60000014305,
+          "observer": "10Hz async contact copy; per-frame snapshot/camera and periodic performance. This is diagnostic route pacing, not observer-free profiling."
+        },
+        "perPresetMoving": {
+          "medium": {
+            "samples": 5109,
+            "p50": 17.90000009536743,
+            "p95": 19.5,
+            "p99": 21,
+            "maximum": 42.89999985694885,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 91615.30000019073
+          },
+          "low": {
+            "samples": 347,
+            "p50": 17.799999952316284,
+            "p95": 19.59999990463257,
+            "p99": 20.600000143051147,
+            "maximum": 26.59999990463257,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 6188.799999952316
+          },
+          "high": {
+            "samples": 316,
+            "p50": 17.799999952316284,
+            "p95": 19.300000190734863,
+            "p99": 21.299999952316284,
+            "maximum": 33.5,
+            "over50": 0,
+            "over100": 0,
+            "durationMs": 5638.5
+          }
+        },
+        "escapeMeters": 8.301929885004409,
+        "workers": {
+          "created": 1,
+          "terminated": 1,
+          "maxPending": 1,
+          "pendingAfterReturn": 0
+        },
+        "workerCompletionLatency": {
+          "samples": 30,
+          "p50": 17.09999990463257,
+          "p95": 49.200000047683716,
+          "p99": 500.89999985694885,
+          "maximum": 500.89999985694885,
+          "over50": 1,
+          "over100": 1
+        },
+        "cameraViolations": 0,
+        "disallowedAnchors": 0,
+        "casts": 20,
+        "maxStrongSupportSlip": 0.014474157199866965,
+        "maxStrongSupportSoleError": 0.009521039795242103,
+        "errors": []
+      }
+    ],
+    "limitations": "Diagnostic route pacing, not observer-free profiling. Short paired windows do not prove a causal FPS gain, universal hitch removal, weaker hardware or long sessions. No new tree trap was reproduced; precise rock targets require ordinary jump or detour."
+  }
+}

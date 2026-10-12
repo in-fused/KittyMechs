@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "sha256": "6f72fd63e6fc41199c6b34b6ee6de3ce1ef51181ba72d571476c4297649ee1c8",
+      "path": "assets/source/overhaul-pounce-hand-contact-032/diagnostic/raw.ndjson",
+      "bytes": 10275
+    },
+    {
+      "sha256": "d86b20e317996dbac0202fe0ee9b8355e062262db7a65258a9b2cd905e52d68c",
+      "path": "assets/source/overhaul-pounce-hand-contact-032/diagnostic/receipt.json",
+      "bytes": 400
+    },
+    {
+      "sha256": "0bef2437f5cd32b96c56e1db44e376a9679b234163fac412ead9267eee680f18",
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-diagnostic-process/process-receipt.json",
+      "bytes": 22604
+    }
+  ],
+  "status": "SIX_EXACT_SURFACE_INTERSECTIONS_DIAGNOSTIC_ONLY",
+  "sealedUTC": "2026-10-10T21:11:14.9198208Z"
+}

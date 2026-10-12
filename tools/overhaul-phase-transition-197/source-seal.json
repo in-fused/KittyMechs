@@ -1,0 +1,1046 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_PROPOSAL_UNADMITTED_PENDING_INDEPENDENT_ART_AND_GAMEPLAY",
+  "files": [
+    {
+      "path": "tools/overhaul-phase-transition-197/author-process197.json",
+      "bytes": 549,
+      "sha256": "2b5e02d6967309a8c72f0422db1fa4034df98507f0304a71941e6b7baf8a0da1"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/author-stdout197.txt",
+      "bytes": 25770,
+      "sha256": "850d794dfd8a25885ec7aed44ba401c14e0a7064e2328333dba649ccf796e6cb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/author197.py",
+      "bytes": 13411,
+      "sha256": "bbc608875a765681b193b7e5e34e9ff165071d8d2be494daab655ba1aa3adf97"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineGallop-temporal.png",
+      "bytes": 1212779,
+      "sha256": "8783ac4004b1d7059555e3889ccb18af4b0657f03a62bbfadac34adc7dff0be0"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineGallop.gif",
+      "bytes": 1064649,
+      "sha256": "6e153335ae23636a1dff490fbecc6afe10808c87c6a28a837fe4ba8b7c57f8fb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineTrot-temporal.png",
+      "bytes": 1221464,
+      "sha256": "acf4045d58e941a025358d035a398d25f373637b11aad08634869a06e9e98fc5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineTrot.gif",
+      "bytes": 1021528,
+      "sha256": "7bdd4a68a63c864c6d878e5da6c9246a76f9e30f33ac1e65c7b9fa97f784cd29"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineUprightStride-temporal.png",
+      "bytes": 1308722,
+      "sha256": "1d868aeaf9723b8d06515805a8a6cfb92e0dc6831957db59343689f3b0928d82"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineUprightStride.gif",
+      "bytes": 1129260,
+      "sha256": "f0da2eb002a9a2065b32dcb9407eef46827d1b7e4562981f6436319868d690f0"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineUprightWalkLong-temporal.png",
+      "bytes": 1291464,
+      "sha256": "54978399ce8cb00076671ef806c41a504fb28b2826061b7a93e08af54aa368ee"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineUprightWalkLong.gif",
+      "bytes": 1124060,
+      "sha256": "eb0a368f48e70860f0f23919b0b78f457cafd24df619470cd1aab436f9d59b43"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineWalk-temporal.png",
+      "bytes": 1209693,
+      "sha256": "931fab11bd7956fcb685866bb00bc2f990cda7a34a8c80b1266799aa72819f32"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/FelineWalk.gif",
+      "bytes": 1071083,
+      "sha256": "751c6fc18efe780671ed97c7f692bda3e027ace02064ffd31205381a19a5710f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/Idle-R-down-temporal.png",
+      "bytes": 934811,
+      "sha256": "55733fee591dfe607daea78bf2aac62e82a8274512b1dd90e79ea6b1b33b565b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/Idle-R-down.gif",
+      "bytes": 895087,
+      "sha256": "1338a83275289bc18c98aac26f06d8203daf1bfd26d2362e091e1d684ba5d8bf"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/Idle-R-up-temporal.png",
+      "bytes": 929267,
+      "sha256": "4dc96804fc79263da30c5cdca423d364c6a2bf7587262d059226ba6b1926b4a4"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/Idle-R-up.gif",
+      "bytes": 1064433,
+      "sha256": "fc5748a9005fff9733cf7a7ad86d6404b27ba01e25ba068d92e6362cb3d9d6bd"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/R-down-temporal.png",
+      "bytes": 1273139,
+      "sha256": "a9e4a722461e5a722c6cad2b9cbb7fb0f100c5fe799a435fe1b73dde380b1d2a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/R-down.gif",
+      "bytes": 1093930,
+      "sha256": "8d5ba05955cb00b78a5814448b4e3e8637a4e1247d34c7fd5dd7531f7351159c"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/R-up-temporal.png",
+      "bytes": 1262096,
+      "sha256": "03c074ba3746d053559586011e1dfb194c5cc03c3e627ea7991bc517e39370d4"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/boards/R-up.gif",
+      "bytes": 1092620,
+      "sha256": "9d335712125952a83fd8b52998c70bc52bdb973b6eebc28f5a7b7b4568dc0719"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/browser-bundle197.js",
+      "bytes": 1104839,
+      "sha256": "94560e678dd86bb4abf52a457af291cab18e86e964f85445b6e0984ebd2369f6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/browser-decode197-evidence.json",
+      "bytes": 23815528,
+      "sha256": "6b710adf235e40276d003c9ac36e241cb14860c5727e1326f5385325132789b6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/browser-decode197.mjs",
+      "bytes": 2716,
+      "sha256": "5cda6f33909a1f82c489e44fd4cfe828c7c7586ea4f9dad7667a579a725cfc83"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/browser-entry197.ts",
+      "bytes": 9046,
+      "sha256": "8860782e139995c716588bfef43f832885c2447d6f86af99d7691753633fc896"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/decode-process197.json",
+      "bytes": 373,
+      "sha256": "74e3144cda4f0a1060bc3b2a8741a326c420db115c47255121e0ec5964a47eed"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/decode-stdout197.txt",
+      "bytes": 122,
+      "sha256": "676d2aeb34b6828b642e8f8685861c665a29fa41b3501efb953529fe7d617692"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/DESIGN.md",
+      "bytes": 7131,
+      "sha256": "5547bf7af202fd2c81d53cb60cf7cece3868de9bf3eb3a4b0982c2a4fca5d254"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/browser-bundle197.js",
+      "bytes": 1098757,
+      "sha256": "5d208529b222b84c0e6cd3d3fa5cedeedc1f0aa20de5fd533134c21a7ebe709d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/browser-decode197-evidence.json",
+      "bytes": 18502621,
+      "sha256": "f75f946974a5fbfe22432a83e0814a678f659dce764d329678577ee44f2eae0a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/browser-entry197.ts",
+      "bytes": 5609,
+      "sha256": "d68fdad419ec5e6135a983353f5ad3835ad55143b768e9b2fee5161d9f8f77e8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/decode-process197.json",
+      "bytes": 385,
+      "sha256": "1fdf13a2041deebdc7f35bdf96c5a41d495e59b1e867828eb43c8a011ae186d8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/decode-stdout197.txt",
+      "bytes": 122,
+      "sha256": "e2dd4049f2e57d249d6306777987aca0af14221c3d866e96863cf9f50c4f5718"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/REASON.md",
+      "bytes": 200,
+      "sha256": "f8ddd858769e221d381fd2fc3e30e3d69cc1bcfd726ec046af6dc33523f061c2"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/first-idle-coverage/sourceTask197.ts",
+      "bytes": 8951,
+      "sha256": "91ec8c35d8a11ce435eb3c94f5e57ccf0fa09cce9590321ffc8b36cb457065ac"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/HANDOFF.md",
+      "bytes": 6105,
+      "sha256": "4215f82df7ca2e8914b48a11d3fe3a8a1d4a0b684db9722aa8f4b7bba20c1e5b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/merge-receipt197.json",
+      "bytes": 753,
+      "sha256": "1d9bf4b88e0a0fbba147dae89cf32fb6c949d5f2a408777120c924f185581cee"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/merge197.py",
+      "bytes": 3990,
+      "sha256": "17c188dba161fc2195da77a4f9828efcafd22e8bb709b4afd0edbfe377193b45"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "bytes": 9397620,
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.raw.glb",
+      "bytes": 17071876,
+      "sha256": "2619075cc779cef764bcecd6b8fbd701b849bbdcd3e7a4603b50273eef0c41c5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/phaseTask197.json",
+      "bytes": 279098,
+      "sha256": "ee0168fb9927f29e04740a1f85d26045df578c529e4613515f4f55a8b433ed4b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-00.png",
+      "bytes": 164016,
+      "sha256": "8e9fb4daea58afca3a4ad147466e83f91b21fa79e892d6f03bf3526da387bbca"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-01.png",
+      "bytes": 163037,
+      "sha256": "76fa2d0265cb945fcb6fd4055670e5d65090cc47717312bdf946715ec9a99c9d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-02.png",
+      "bytes": 163968,
+      "sha256": "51ce230906535aee1b712245fb8125dd900dc1ad1e9f89afe29a5d837dc8d3ce"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-03.png",
+      "bytes": 164724,
+      "sha256": "d1b9a71e57fa66dfa262b16d3bd7244805ecba2afd8379b5f4ed4e588c218dd2"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-04.png",
+      "bytes": 164876,
+      "sha256": "756a6757b2561061a48e2d1e204c2247822834c209108bd08f069c113e8a32fd"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-05.png",
+      "bytes": 166215,
+      "sha256": "3efe9d4a2e8aae66271860c08f350990717c12ed9f42eea6a2aac4773999a697"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-06.png",
+      "bytes": 166471,
+      "sha256": "74e43df0fa104c720c691bd3659856f41bf0b260ece67405bfe8165e1c466231"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-front-07.png",
+      "bytes": 166186,
+      "sha256": "8263e2e68a857f4dd4919cd88acc3aaec84fe964c604684c3cb65c20601aaab5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-00.png",
+      "bytes": 171432,
+      "sha256": "f4878185428f0647e8905192a276a7ae3a78a4298550f0f005e544e178fed2fa"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-01.png",
+      "bytes": 172636,
+      "sha256": "a78fb6cd735ee39877dfd35f18403a12658fd0f9fa5b28bee1e2c53776b7f5c9"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-02.png",
+      "bytes": 173289,
+      "sha256": "c89adc51dc54b8eab8b6a03613721e3c2bd47d20acf956ac897ca6dfc6a7369f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-03.png",
+      "bytes": 171941,
+      "sha256": "4a97302b7f3766e0dae306a298ffae2f5f9a58b806019db3946715bd7e76bff2"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-04.png",
+      "bytes": 171781,
+      "sha256": "13413f76eeb00e20a9d1ad8fcaa5c5588b16ea668235a9eb229ad49440f754a8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-05.png",
+      "bytes": 170691,
+      "sha256": "5b8f608194f395be1c3690b6b8f8d471c6020f14a9716b440151e7b3d55d5d9b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-06.png",
+      "bytes": 168728,
+      "sha256": "ee529d892bf2f6c06a4da75fa5161024bf92a6fe1bf108df2902e95f897b693a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineGallop-side-07.png",
+      "bytes": 171433,
+      "sha256": "241a8aa76e75a5795dfc1b8ef7a8d20d46ebb34d9c97a120fe6830ab93ae5cbd"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-00.png",
+      "bytes": 163836,
+      "sha256": "a345fe59430974ff8b6714e34a9e863d6b29b6d2e571aa752ae9c2995f219643"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-01.png",
+      "bytes": 163486,
+      "sha256": "8255ad2fa36422e178cd3557652016e6f2d97f70caeaa721d3c120031321fb2f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-02.png",
+      "bytes": 163049,
+      "sha256": "cbe06074e2994ea52f8214819b7ecf355bf20b8e8c19f7e8c6f31aca17e5c107"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-03.png",
+      "bytes": 164028,
+      "sha256": "91c5ce395233ee89bfb2614024e80e8a49e9f251d64a665cd485cfded8499c7d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-04.png",
+      "bytes": 164560,
+      "sha256": "8cb651baea16938ced50e53e0123245083d819595e27e47446cdd15a13063397"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-05.png",
+      "bytes": 163551,
+      "sha256": "d04eeb0c02eeecac04f6af7d92a9ae89d09455bcb65756dc506f9c58427e75e9"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-06.png",
+      "bytes": 163954,
+      "sha256": "03c46438fe591790f48e7fb43646472fe33fcf8d18f2c26e8c0f46f57b0c6d55"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-front-07.png",
+      "bytes": 164208,
+      "sha256": "50702bb6f9762c4b33ae2639d0cb89f723ea766b5b87474234ea0d82f4845828"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-00.png",
+      "bytes": 175463,
+      "sha256": "ca6b298ed1773b8c761e2de957c91dce074ef50416fec9f6bd72611263b7bf28"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-01.png",
+      "bytes": 174307,
+      "sha256": "ac9520a55b0a0f6a1856ccaf370463befe072e065c3275da25961cb096a41842"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-02.png",
+      "bytes": 171804,
+      "sha256": "da7855991575d8b6ca3f8602df18c314cfca5a453990876e4ea8fd9132889dec"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-03.png",
+      "bytes": 174713,
+      "sha256": "89488c02a41d1b2ccefb398b9088676576f7bcb0b8032235d91fee3617de6cf1"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-04.png",
+      "bytes": 175169,
+      "sha256": "6bf86bd34e23650eddccd842dc3116bb71558475f3af8cd1b97522b3836ac53c"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-05.png",
+      "bytes": 174863,
+      "sha256": "bb606c9fe03f043795bbbb4d1a048cd2b78fc253305dc68310f0112dec3e433e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-06.png",
+      "bytes": 171702,
+      "sha256": "c4de3819c59afe3e5c3664766234792c187887060408d020e512d7ccc6e85f36"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineTrot-side-07.png",
+      "bytes": 175650,
+      "sha256": "1102891e60a1dc6fc9e8437bfc2095bbc5125206f9f4ceb731a6b295a452c961"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-00.png",
+      "bytes": 172877,
+      "sha256": "e7d9c5b2e1374cad81e6fac032c20e050e22f4a2fee3c4094de5ddd55086c04e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-01.png",
+      "bytes": 172730,
+      "sha256": "f20dca5c4fc68f2bc324cdffbaa9a1a9c8129491531142d73e6962931b304a8b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-02.png",
+      "bytes": 172581,
+      "sha256": "e8abe5cef9cd03e8a26722d8b627cfb9f27395dde1983f79599f40f11839895b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-03.png",
+      "bytes": 173099,
+      "sha256": "0e0b2c31cf264193f4ed545d733614d2cbdb3203d23643467207b800d56a6134"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-04.png",
+      "bytes": 174251,
+      "sha256": "6d88785c6f7f636d1892707a3aa8b0484b850d5a15aad53987df4a535f954dbb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-05.png",
+      "bytes": 174471,
+      "sha256": "0e5b7163ec22ea3dabb98de1687593d4c7469ab23ee75e2cb1413470171e40fc"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-06.png",
+      "bytes": 174185,
+      "sha256": "4e78f636e6a289ea46a850a0783023be022ffa7ba1e3bb28473729a2ff227b59"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-front-07.png",
+      "bytes": 174072,
+      "sha256": "5875b72d6ae13ef36a948222afc23df3540a6b20e33a308c1d546b5c1f8563fb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-00.png",
+      "bytes": 174351,
+      "sha256": "d4272c174e4fa2aca1cf20061a5133e75ebd73c8c7cdabda2748537b3cef16bb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-01.png",
+      "bytes": 176548,
+      "sha256": "a2f242e21d41b64153aaadfef2f0c16f52e799b3d65b5e9b6df2700bb8360311"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-02.png",
+      "bytes": 174222,
+      "sha256": "518b2ce7ce4cc00ea83685626288a0199851459a99f78a8205694a97e6983280"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-03.png",
+      "bytes": 174740,
+      "sha256": "15d390bec63942cc614f825449183eeaf024f476d6ee977f1f1f0ee99928b46a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-04.png",
+      "bytes": 174952,
+      "sha256": "5375eaa2d65a9349ebf2b50e77cd7493a2c34b3db7283bb41fec366b8ea3049a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-05.png",
+      "bytes": 175718,
+      "sha256": "f4fd82d9026aa1ec04f5eb07a3d81d75fdca10000464c11e6b7db54146a53847"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-06.png",
+      "bytes": 175252,
+      "sha256": "b79f1e853fddf00d4e38f8b2981f0997209e409758a8df4d41e50b9427ef75aa"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightStride-side-07.png",
+      "bytes": 174150,
+      "sha256": "d29b665ce0868845f3bf59308edcabf515b0337fbdf3696ac676123547d49a58"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-00.png",
+      "bytes": 172295,
+      "sha256": "ce67faf848d5fba4e7429ca82532bf7c8b0ce1e5b8e81ee02f9680def99a53c9"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-01.png",
+      "bytes": 172769,
+      "sha256": "e757f69ae00a98fd8fa20d754ce9a0e21dafdbb4a0f6f6ab4155740411f5caaf"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-02.png",
+      "bytes": 172809,
+      "sha256": "44ad0d3fb25f7262c4e2f41e220b1c8959ad396c5a0690c3e704cb4e90e941e5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-03.png",
+      "bytes": 172660,
+      "sha256": "f30d66023787de692cf1cee2e6a289f24862e89c8c7314e8d12720454d69a826"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-04.png",
+      "bytes": 172827,
+      "sha256": "1aa8569442e5f4f47ee26c554ff68ea14c7cd8bcff5974ff09d6f4e936d96c7e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-05.png",
+      "bytes": 173897,
+      "sha256": "1e8417868cb351f4b6d671cfc0e6d2361c50f1fa9fbe16629defe559fe0e0304"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-06.png",
+      "bytes": 173852,
+      "sha256": "b4289db122eebf03790e060d7e4b379501bbc735adfd3e6b36993cfb0444060d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-front-07.png",
+      "bytes": 172748,
+      "sha256": "a662b6b2cf88c658651325b6a7bb7852f0ebb2669346095ee6879c6cebc82d75"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-00.png",
+      "bytes": 174646,
+      "sha256": "00ebaadb7e9d2c9b9a7454f85f435c4fa5019a09a16eaaa9d08bde9e39d8a785"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-01.png",
+      "bytes": 175101,
+      "sha256": "d3a83da4260d39e990a17fee139667477c56df76085e1e27396fe4d059fe8c69"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-02.png",
+      "bytes": 174226,
+      "sha256": "e121399cb39e5ce238e9287d355d7446098b107748a16d84729d1c1fd15675b4"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-03.png",
+      "bytes": 174988,
+      "sha256": "1c8eb8d43b90ecf6412a27b051ebad92d053a2040956e3ea067d1a162a6a5024"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-04.png",
+      "bytes": 174206,
+      "sha256": "0059f921d2e6b60f7a29b2990c1c731a865bdec3de1f3d499fbf70f59ed5577a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-05.png",
+      "bytes": 175263,
+      "sha256": "bbeeb1c03102ae35043c4d576a82fc65a4634df693a4bedbfcb04c0ff053e99d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-06.png",
+      "bytes": 173751,
+      "sha256": "f5588bce9b0aabb8f0e608358e20e15734284b745052cae849018a49da679d92"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineUprightWalkLong-side-07.png",
+      "bytes": 174649,
+      "sha256": "27544f128851c56eb28d3871c734ce08bc417dfbb93c38b0407dcf539407482e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-00.png",
+      "bytes": 163228,
+      "sha256": "4b92c4041483710a960f04f4c3d79853f0394ad8eccedb43842b3e9387a4acfb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-01.png",
+      "bytes": 163507,
+      "sha256": "9389dedec5dbbc022bbac436354c7bd52a14bee0c5aaed9e5b7d4e6c9d26eba1"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-02.png",
+      "bytes": 164206,
+      "sha256": "7c1adbbd143b46f1f08b2fb98929b43049d4eac3f82fefd6f04cf0d1cafa31cc"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-03.png",
+      "bytes": 164001,
+      "sha256": "9d1906c3f6e438b021719f73d9cd2893034c1e4cde1012c66ef936f621d0ec0a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-04.png",
+      "bytes": 163866,
+      "sha256": "03ef86f5a5b055bc8bb1f85043fa206647caf79f8e257e9543e4b1f99f3294d5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-05.png",
+      "bytes": 163401,
+      "sha256": "bdf2ff510fa05bf43f5b026c5ffd0201f48a7d6c530c3e8ade2a4ec844f039b0"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-06.png",
+      "bytes": 163280,
+      "sha256": "f0f0c6c2c196bdce0e6a335f9d973f5f08b9bf702fba18f3741d6f611df76b70"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-front-07.png",
+      "bytes": 163698,
+      "sha256": "2b5465c8d019519947ea13d46b21ec1a22e35c2d5c2e6481e55d926abf7a4461"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-00.png",
+      "bytes": 174589,
+      "sha256": "e755d5184c84c4481dfb926e4ac6c7dffcdb8f33de4f3bf50fb2341572fac83f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-01.png",
+      "bytes": 173099,
+      "sha256": "4d8b5a4ba1b082ec6e5793553fba1553242eac51686e64b68f1b442d2b61679d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-02.png",
+      "bytes": 173588,
+      "sha256": "1b061a443f59f0bf0d0e27f822150f87e4956e345d8c2f9a2c0414e94294ffeb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-03.png",
+      "bytes": 172933,
+      "sha256": "8f2f9822646d405feff816843ce4c48bd4b585df08cff1d4095bb916018b9b87"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-04.png",
+      "bytes": 172787,
+      "sha256": "09dfa9b0ecc2e862518969ecd022f5a9d8d60e2a716db565480a46f074039d31"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-05.png",
+      "bytes": 174354,
+      "sha256": "29b162990a2b2bdc17425dfe3d0abd7495f544b37040246536fce7e311f30630"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-06.png",
+      "bytes": 173196,
+      "sha256": "1ae94504eda2c70acc7a6761a1f184e31e3de061170d8ac7021082a5e736d365"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/FelineWalk-side-07.png",
+      "bytes": 174781,
+      "sha256": "fc949df04c23020c6bf059722db5e8583c0cd67cb0e85460ce8f7c7ce1fcc7fc"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-00.png",
+      "bytes": 172609,
+      "sha256": "8cd3f7f249540b27d2297533b31c0bf8499557cc88d37fd69bad56ebc34f7d44"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-01.png",
+      "bytes": 170839,
+      "sha256": "812dc7b07d9a9a1639eeddf4c0ca6f9504a8139dad396ba78340050905c6e094"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-02.png",
+      "bytes": 168666,
+      "sha256": "5d4c6e439a958229b4958df9eaa3b2f507e09cae9872e74cbe4eb464e91dc11f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-03.png",
+      "bytes": 167641,
+      "sha256": "d6c84bf4260e33db3d87a31d9c55b859d07a71557ecd2b3082158e709ef1e690"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-04.png",
+      "bytes": 167003,
+      "sha256": "194522684c8a70e94e857d9a0e22bd30fbc26b22b4f14ccf95328480e4af6ae8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-05.png",
+      "bytes": 165544,
+      "sha256": "ffe4370e388a07469f7f06f3463ebcac10648e94dfff774f7b96de273867600b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-06.png",
+      "bytes": 162832,
+      "sha256": "8fe986a03e73f47bae7df06247536704609f14dca38078168a6d99e0287048d8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-front-07.png",
+      "bytes": 162536,
+      "sha256": "d908ce36ba2718a95ca074e85a7802415fea33a51a6f12696eb5a130c44a1782"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-00.png",
+      "bytes": 172912,
+      "sha256": "5b4d480f1d9457a38d13979f769288e7fb86643670375673648b32ffd715096c"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-01.png",
+      "bytes": 173373,
+      "sha256": "6729923d41055f5b4ebe03f6e2a902ed8abcadac349586d67527b5e9f863417b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-02.png",
+      "bytes": 172780,
+      "sha256": "b4e521090b81cbb3896c3b8c1305cada6ef26cc24df6fa7e9c41041dbb4a2dda"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-03.png",
+      "bytes": 172379,
+      "sha256": "f52dfe2359c9bbf7187e5f38497fc7d32d8bc304c4a751a6a81b09839fe75f41"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-04.png",
+      "bytes": 172181,
+      "sha256": "6a3a891ad5ba904c8a4fb4941290215aa75432629caad73a0723f505ea599eec"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-05.png",
+      "bytes": 172555,
+      "sha256": "a346320284b851cf4674bdd7a33464a388dad76510fcff29b6bff3737ffc648f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-06.png",
+      "bytes": 172375,
+      "sha256": "52ea9f6690cdfaba4a34509e986c1d47aed764dd51478917884457d5f79fada2"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-down-side-07.png",
+      "bytes": 171138,
+      "sha256": "e9a86cd6aa9a09b801e18a1bcf6dda96e384605b3171a60e00c34e31b91a787a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-00.png",
+      "bytes": 162536,
+      "sha256": "053e6faecb7fafb52e6f48990839eb1f0573628adcf132f4d8bfb5cf0e69dd23"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-01.png",
+      "bytes": 162704,
+      "sha256": "c2b22fda339020f7acc8846dcf293948580595ba5105320998d10fcba5aae11e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-02.png",
+      "bytes": 165388,
+      "sha256": "ad1434d1266c2573e65476652f5d3b88bef1306f4ff19d9f9970e342162b5396"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-03.png",
+      "bytes": 166356,
+      "sha256": "b367992aa3e65c0e050fd112156dd82534a473bb2029e05d78c70ee65fedbb79"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-04.png",
+      "bytes": 166837,
+      "sha256": "1fb812dec5a925a361f6da67fd02baf5b190b0e1359de495c7fd78c5f6a16e08"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-05.png",
+      "bytes": 168903,
+      "sha256": "038e34569841241f4c60e93efaa6aa595d6b1b92d2806fba0df3218f962475d3"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-06.png",
+      "bytes": 170275,
+      "sha256": "ab8ce2ed943a82f3f18d97963b03074b05998a7516b3d8703e8a5fe2a47287fe"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-front-07.png",
+      "bytes": 172609,
+      "sha256": "755adf5f1101225ca4a4be1657cb5e2186c6efe9577ca13dce2b6a43926264a6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-00.png",
+      "bytes": 171138,
+      "sha256": "295959b1e6ec5faff6c743cfcbfedce70cd8d4f0452d1a46bbfb4f64277068a6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-01.png",
+      "bytes": 172694,
+      "sha256": "98257254b4078fd89ae83b2957b3b7acc0c64a90b66b8b718231c1e53bc37608"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-02.png",
+      "bytes": 173455,
+      "sha256": "b6dc34324db7a139a4c79d6cd4e6284d09284816b2b2797c12354e13ec3cbcb6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-03.png",
+      "bytes": 172389,
+      "sha256": "578d19880aa45f9fed59cdd3d235b13a21a7c0ed97a436401cb14a4412d63004"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-04.png",
+      "bytes": 171932,
+      "sha256": "46dc40243275e1f8230aa79aba1d1b7f3b361808e0c9bbf5003baebd48976a7b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-05.png",
+      "bytes": 172561,
+      "sha256": "b68107ab5996fbfb0a2b041ba7cec4e0db86894b2fcc33dacf1f91055474d3ec"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-06.png",
+      "bytes": 172463,
+      "sha256": "4c6f8e12727aa4cbddd59f4d7cf8e4c7a18f723f4a165ba5a8035779f3723e23"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/Idle-R-up-side-07.png",
+      "bytes": 172912,
+      "sha256": "2c1d230ef60184b32ce8afe57d63cebbbd66fb660908dac5d3c1bf745989e112"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-00.png",
+      "bytes": 172928,
+      "sha256": "c667c87647a373baa45b60158c9c61bddc4ab5729ae35e244af2cbddf5c61e52"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-01.png",
+      "bytes": 171692,
+      "sha256": "9fb553e30d45895d8523ee352bc5a02b52043360d0baff22157a80a48c775430"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-02.png",
+      "bytes": 169843,
+      "sha256": "ab937e51ebb7a4b658cf44de2b4be30bb9bc679a94997f66b4ab651a0654da7e"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-03.png",
+      "bytes": 169617,
+      "sha256": "e2eb1c5c2d423578390d74a83dc1521ab81de544c5176ccf2e0e552db0c1cb28"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-04.png",
+      "bytes": 168494,
+      "sha256": "3450c0d18cdf26b68f4d495a80b627ba72507942d5dc24c4a235df3849b3b8b7"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-05.png",
+      "bytes": 166181,
+      "sha256": "d96d734e9c11d2a22c55d103304a634d8f50d6f029261eff1f3f6735d725ad98"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-06.png",
+      "bytes": 163704,
+      "sha256": "c3b59958bc3e5cb1b56b65d4828a8b0316ab3fa626073d7910ec580c9eda5af3"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-front-07.png",
+      "bytes": 163373,
+      "sha256": "9e38ffdf2bf1b5b02cba3371eb4cd9fb6220cb34e1380299b466138ecb09e9d4"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-00.png",
+      "bytes": 174745,
+      "sha256": "5c753b5ec3b4d074364ff29bf6edc12c060c6889c5f4d5127d471c7d0f1b61e6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-01.png",
+      "bytes": 175864,
+      "sha256": "9dd8cc37404e019941f6f81ef7b0fc484ea6f5b34a59ff41b478ae384d4ff28f"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-02.png",
+      "bytes": 173079,
+      "sha256": "2d8f1bb90ec253fd714316cd162eb9eb224f2c1f05caf832e2bf263a3ad18cfa"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-03.png",
+      "bytes": 173114,
+      "sha256": "94ddee0b04a63f684ab0d654c67faef5b8478f1ddbdcce2355a12e7aa2464aa5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-04.png",
+      "bytes": 173899,
+      "sha256": "576033adde063cb18f74ccfd3995c0cb429234d2767c5777703a87da0a789106"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-05.png",
+      "bytes": 175092,
+      "sha256": "1272d6bf324a3413b2f6f2b067ebc095c98ebfe98385f1b67ad5cf0c1d1c487b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-06.png",
+      "bytes": 174428,
+      "sha256": "b9067b203b935eaa029e81204ccc0b4ff91e33a8a822d439ac2e026a2a92a151"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-down-side-07.png",
+      "bytes": 174233,
+      "sha256": "d72f4cf3586dcf7cd691d4e40566207d90574c48f0d4f5a3e894e487a6ddf668"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-00.png",
+      "bytes": 163359,
+      "sha256": "d130b1cae974f23ef08b7dd2ca9176b861a642a34c58faa92aac4422ba5fd7c6"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-01.png",
+      "bytes": 164012,
+      "sha256": "d2d9a54577a556a08b1e43797c13e4ceb0c3197728b26a1ad677c02c6db2cd59"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-02.png",
+      "bytes": 165396,
+      "sha256": "716481913c740c7e0d4d7b477b7009ec888c578d64d7d727ab0633ac5a612c36"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-03.png",
+      "bytes": 167844,
+      "sha256": "8fbd933efa93f7f8f455c7c3eadf3ca91103e96584152962414f9e66a356a666"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-04.png",
+      "bytes": 169353,
+      "sha256": "02071221317c14cb666b02fa413d89203ebfcf6e8072135a5d34d619a08f0f9d"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-05.png",
+      "bytes": 171772,
+      "sha256": "bb4783444d79a83d8ed3eea0d4e8d921c5b72e778749fc3f7aecb706aee489d1"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-06.png",
+      "bytes": 172215,
+      "sha256": "8a6e93b23aa2e0f682d85a3396fbe744c94c8794189db43aef5e44f759e95d18"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-front-07.png",
+      "bytes": 173890,
+      "sha256": "105d4d3151ce5cea7c407296f82f1538d0537929fddfdcce109e619bddd39554"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-00.png",
+      "bytes": 174419,
+      "sha256": "680013380a22be4f94f6c35d9c91cf88149b072ff50152f48de59fc21f3789d9"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-01.png",
+      "bytes": 173407,
+      "sha256": "5d74bcb1d8a14daf4f6c237a9c3d5d8c7dcb945a5e34f9bf802fcd4a9cf59c97"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-02.png",
+      "bytes": 172283,
+      "sha256": "b069a88491986ca8f2a5431779d4777637510410a2ca84082a09b29b59decaf8"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-03.png",
+      "bytes": 173619,
+      "sha256": "0fbdc30ace1bf6a974eaa50b877ac222add7d416d94aea2a04dce0c656a525bb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-04.png",
+      "bytes": 173597,
+      "sha256": "967587b08473100b65afda130d2b982563adcc3fc0219d84515f726a5dd3a48c"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-05.png",
+      "bytes": 175396,
+      "sha256": "c9835ecce7e3111d135664c44f6027f182a6bb4fe3f379eaddda41503a3aa99a"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-06.png",
+      "bytes": 174451,
+      "sha256": "3c6fbe083ccf2a1fd23897560ebb16ffd14cf091ee1cbd17c3e13891bafe112b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview/R-up-side-07.png",
+      "bytes": 174708,
+      "sha256": "f45039fae4cdc4c0423224af1adb616e52de4efe4b71fa70ec7cf07b024e01ae"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview-process197.json",
+      "bytes": 553,
+      "sha256": "197c2040a42209a69fc930cef02f55cac899ffbfbe0b689f7cb1f33ba1878850"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview-receipt197.json",
+      "bytes": 2738301,
+      "sha256": "4abc5051d0c0551222832a6b4194cd28310e4e8f06e44e5e3f0fdaee681e0630"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview-stdout197.txt",
+      "bytes": 23223,
+      "sha256": "8a0568d3631f3135c9b0474e246daa24b6e80781b90fa77f86c4967db345bb48"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/preview197.py",
+      "bytes": 8367,
+      "sha256": "7c82840d1f44429f2153e68ac73292a9c20dee2899122a0b344703de597015f0"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/protected-after197.json",
+      "bytes": 5180,
+      "sha256": "402df5070c9e3e0d92a59fe40c83545f17c5b26ed80748068ce3e7fa8e0ec7eb"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/protected-inputs197.json",
+      "bytes": 3327,
+      "sha256": "7f0ca8d51e897ac99d6165ff9e3b560eadc937df74ec829be8ac19c7b1dcd5ed"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/run-decode197.py",
+      "bytes": 1146,
+      "sha256": "ef47bb18b9edd732408a9bff6f4f725981fbfbe8e46cb44238f9a3836be28440"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/run197.py",
+      "bytes": 1312,
+      "sha256": "7179e9c325e4a8c7c3e2293465e0f1597e49a5ed2a9d9f9f17a1f5576be695f5"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/browser-bundle197.js",
+      "bytes": 1101795,
+      "sha256": "9585fac3ee3fb4959bd19824119f50848dc1c39ec0a52401cf9f2df47eea1b8b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/browser-decode197-evidence.json",
+      "bytes": 22620745,
+      "sha256": "fd18fbcc45763cd6747a5040cc70966187f5a2244cd617e1f7ab742c1ece739b"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/browser-decode197.mjs",
+      "bytes": 2716,
+      "sha256": "5cda6f33909a1f82c489e44fd4cfe828c7c7586ea4f9dad7667a579a725cfc83"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/browser-entry197.ts",
+      "bytes": 6959,
+      "sha256": "13b47482ca870c4d7f39d68dc8ed0c4f8f2fc5310229e066da01008bd2d428f1"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/decode-process197.json",
+      "bytes": 385,
+      "sha256": "c07d585133c4d5b34e8657052a15358c3fd6cf41c541fc4937ac2489d3d869aa"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/decode-stdout197.txt",
+      "bytes": 122,
+      "sha256": "86f52a701b23b5c77cca45d2f06689587482ec742e1654f61a772d722fc7ba36"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/run-decode197.py",
+      "bytes": 1146,
+      "sha256": "ef47bb18b9edd732408a9bff6f4f725981fbfbe8e46cb44238f9a3836be28440"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/second-flat-coverage/sourceTask197.ts",
+      "bytes": 10161,
+      "sha256": "e5811231e65bcf2e2d3f75439c32c04ea86eb469bbdc811669791c1b5feedf06"
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/sourceTask197.ts",
+      "bytes": 10937,
+      "sha256": "2f1cba4147c8672a5e03b0942eecaa63534cb5aac7f04aa7e1b1a80d41a72b73"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/author-receipt197.json",
+      "bytes": 1994,
+      "sha256": "067267276455ed9fcc4ae45737e7121dd458db1f5be4b8a51f2b4eda01c6a81d"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/authored-motion-records197.json",
+      "bytes": 258484,
+      "sha256": "5307898d452ff565efa61492e0de7ac401d7957c331d12de49c5b65f5281f476"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/choreography197.py",
+      "bytes": 10352,
+      "sha256": "feab6f834f2f4f18996856ea14476e42a8680cfb997e7a0336c9501bba237cd5"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/key-clock-operands197.json",
+      "bytes": 17212775,
+      "sha256": "4c2bc1db38a25398c229ab53f237fd4e8949ad0617f2bf34dd48b0a7e3dc9a38"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/Pounce_Motion197.blend",
+      "bytes": 83156108,
+      "sha256": "02e36882a4112678369c2cb4330401ce54113426b4b078657a1b2a2e73bcd176"
+    },
+    {
+      "path": "assets/source/overhaul-phase-transition-197/preservation197.json",
+      "bytes": 4182,
+      "sha256": "a1364523403b2f93bf266f0ed8c06c02c566a77dc6eeeba4d48967942cffb379"
+    }
+  ]
+}

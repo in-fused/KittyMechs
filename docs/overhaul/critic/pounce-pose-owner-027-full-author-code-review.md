@@ -1,0 +1,11 @@
+# Pose-owner027 full-author preflight
+
+Independent HIGH focused code review, 2026-10-10, after the three-clock owner result and visual028 review closed. Critic hard stop remains20:45 UTC; source cleanup20:39/hard20:42.
+
+APPROVE one unchanged root-serial full-author attempt, inclusive external cap no greater than300 seconds and shortened to the remaining cleanup window. The reviewed root launcher begins its timer before hashing, reserves bounded taskkill/parent wait, and labels descendant cleanup unknown on timeout. No retry. Nine sealed files and71 protected files matched size/SHA256. Full seal: `4AEFEBC517C13D9A8372441E966FBCB0AAC96F1DF27D2D75B187BA1B576130BC`; author: `EB3D07922A05C72F1D77B3C1B04F2D339250CE02BC8E03FC5F5F14D8DDF79799`.
+
+Independent namespace normalization reproduced exact helper and choreography bytes from immutable021. The changed owner boundary detaches the action before the existing fixed-chain solver, validates desired/evaluated57 matrices before declaring limb requests committed, then keys and verifies current evaluation/replay through the three-clock-tested module. Append-only evaluated receipts flush/fsync before finite checks. The new output directory is027/full-author. Old failures, source geometry/rest,198 samples, trajectories/targets, support exchanges, explicit43 identity allowlist and numeric/contact guards remain protected. Exported action identity is not capability qualification.
+
+This is the necessary finite full-path test of a measured ownership fix, not permission to tune roots, support heights, target points, chain lengths or tolerances. Earlier historical foretargets are not automatic current-contact witnesses; the unchanged author must measure actual current two-body geometry and preserve any first failure. A successful requested-bone receipt cannot override a failing full-body/claw/support guard. Selected renders must identify their actual retained clock if different from the failure clock.
+
+Three-clock success did not establish the entire source family. Full source contact, continuous between-sample clearance, paw loads/native body alignment, cancellation, wall/climb, gameplay, useful responsive motion and finished art remain unqualified until actual evidence. This grant does not mount the source into frozen playable027 or admit Gate1.

@@ -1,0 +1,238 @@
+{
+  "writer": "CLOSED",
+  "inputSHA256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+  "provenance": "Actual decoded OFF paw pivots and unchanged current metadata; linear least-squares diagnostic, not a contact certificate",
+  "clips": [
+    {
+      "name": "FelineWalk",
+      "gait": {
+        "duty": 0.7,
+        "offsets": {
+          "FL": 0,
+          "FR": 0.5,
+          "HL": 0.75,
+          "HR": 0.25
+        },
+        "distance": 0.8228571428571428
+      },
+      "limbs": {
+        "FL": {
+          "samples": 84,
+          "firstPhase": 0,
+          "lastPhase": 0.6916666666666667,
+          "nativeDistance": 0.8228431164536311,
+          "expectedNativeDistance": 0.8228571428571428,
+          "maxStanceResidualMeters": 0.0005763158907615918,
+          "maxSourceReachRatio": 0.9125350191437774,
+          "heightRange": 0.0008935534944844115
+        },
+        "FR": {
+          "samples": 60,
+          "firstPhase": 0.5,
+          "lastPhase": 0.9916666666666667,
+          "nativeDistance": 0.8221906976312536,
+          "expectedNativeDistance": 0.8228571428571428,
+          "maxStanceResidualMeters": 0.0032133705014244286,
+          "maxSourceReachRatio": 0.9120132063156899,
+          "heightRange": 0.006013564047116216
+        },
+        "HL": {
+          "samples": 54,
+          "firstPhase": 0,
+          "lastPhase": 0.44166666666666665,
+          "nativeDistance": 0.822844815817288,
+          "expectedNativeDistance": 0.8228571428571428,
+          "maxStanceResidualMeters": 0.000024479656659259775,
+          "maxSourceReachRatio": 0.8669755021801985,
+          "heightRange": 0.00002324240080691098
+        },
+        "HR": {
+          "samples": 84,
+          "firstPhase": 0.25,
+          "lastPhase": 0.9416666666666667,
+          "nativeDistance": 0.8225514902933124,
+          "expectedNativeDistance": 0.8228571428571428,
+          "maxStanceResidualMeters": 0.0022726230285095464,
+          "maxSourceReachRatio": 0.8669640880128398,
+          "heightRange": 0.00458215307738854
+        }
+      }
+    },
+    {
+      "name": "FelineTrot",
+      "gait": {
+        "duty": 0.55,
+        "offsets": {
+          "FL": 0,
+          "FR": 0.5,
+          "HL": 0.5,
+          "HR": 0
+        },
+        "distance": 1.6
+      },
+      "limbs": {
+        "FL": {
+          "samples": 66,
+          "firstPhase": 0,
+          "lastPhase": 0.5416666666666666,
+          "nativeDistance": 1.599355378448227,
+          "expectedNativeDistance": 1.6,
+          "maxStanceResidualMeters": 0.003662063601607901,
+          "maxSourceReachRatio": 0.9512084224383585,
+          "heightRange": 0.004230569437945686
+        },
+        "FR": {
+          "samples": 60,
+          "firstPhase": 0.5,
+          "lastPhase": 0.9916666666666667,
+          "nativeDistance": 1.5973011366796617,
+          "expectedNativeDistance": 1.6,
+          "maxStanceResidualMeters": 0.009743137801557823,
+          "maxSourceReachRatio": 0.9434237008235105,
+          "heightRange": 0.010502043230057457
+        },
+        "HL": {
+          "samples": 60,
+          "firstPhase": 0.5,
+          "lastPhase": 0.9916666666666667,
+          "nativeDistance": 1.5971781709813793,
+          "expectedNativeDistance": 1.6,
+          "maxStanceResidualMeters": 0.009679628276207719,
+          "maxSourceReachRatio": 0.8822753728968931,
+          "heightRange": 0.010317916541981553
+        },
+        "HR": {
+          "samples": 66,
+          "firstPhase": 0,
+          "lastPhase": 0.5416666666666666,
+          "nativeDistance": 1.5992762958578395,
+          "expectedNativeDistance": 1.6,
+          "maxStanceResidualMeters": 0.0036655168193831856,
+          "maxSourceReachRatio": 0.9000969940763796,
+          "heightRange": 0.004028241572042468
+        }
+      }
+    },
+    {
+      "name": "FelineGallop",
+      "gait": {
+        "duty": 0.44,
+        "offsets": {
+          "FL": 0,
+          "FR": 0.08,
+          "HL": 0.46,
+          "HR": 0.54
+        },
+        "distance": 3.0181818181818185
+      },
+      "limbs": {
+        "FL": {
+          "samples": 53,
+          "firstPhase": 0,
+          "lastPhase": 0.43333333333333335,
+          "nativeDistance": 3.007144222427005,
+          "expectedNativeDistance": 3.0181818181818185,
+          "maxStanceResidualMeters": 0.01753770468961413,
+          "maxSourceReachRatio": 0.9988560783457155,
+          "heightRange": 0.03778050550243988
+        },
+        "FR": {
+          "samples": 53,
+          "firstPhase": 0.08333333333333333,
+          "lastPhase": 0.5166666666666667,
+          "nativeDistance": 3.0023926891921913,
+          "expectedNativeDistance": 3.0181818181818185,
+          "maxStanceResidualMeters": 0.017656568501146053,
+          "maxSourceReachRatio": 0.9706056741439348,
+          "heightRange": 0.015922928834291916
+        },
+        "HL": {
+          "samples": 53,
+          "firstPhase": 0.4666666666666667,
+          "lastPhase": 0.9,
+          "nativeDistance": 3.018876859986049,
+          "expectedNativeDistance": 3.0181818181818185,
+          "maxStanceResidualMeters": 0.0013711400140559605,
+          "maxSourceReachRatio": 0.9856308820670955,
+          "heightRange": 0.004482581128617369
+        },
+        "HR": {
+          "samples": 53,
+          "firstPhase": 0.5416666666666666,
+          "lastPhase": 0.975,
+          "nativeDistance": 3.0066396146743672,
+          "expectedNativeDistance": 3.0181818181818185,
+          "maxStanceResidualMeters": 0.013869303364618446,
+          "maxSourceReachRatio": 0.9700606909307153,
+          "heightRange": 0.012504958192370986
+        }
+      }
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "gait": {
+        "duty": 0.7,
+        "offsets": {
+          "HL": 0,
+          "HR": 0.5
+        },
+        "distance": 1.3142857142857143
+      },
+      "limbs": {
+        "HL": {
+          "samples": 84,
+          "firstPhase": 0,
+          "lastPhase": 0.6916666666666667,
+          "nativeDistance": 1.314264376901641,
+          "expectedNativeDistance": 1.3142857142857143,
+          "maxStanceResidualMeters": 0.00015513156636783878,
+          "maxSourceReachRatio": 0.9011456303631854,
+          "heightRange": 0.000057313639859568614
+        },
+        "HR": {
+          "samples": 60,
+          "firstPhase": 0.5,
+          "lastPhase": 0.9916666666666667,
+          "nativeDistance": 1.3142361291174685,
+          "expectedNativeDistance": 1.3142857142857143,
+          "maxStanceResidualMeters": 0.0001520046967169897,
+          "maxSourceReachRatio": 0.9011456483530662,
+          "heightRange": 0.0000573060928610758
+        }
+      }
+    },
+    {
+      "name": "FelineUprightStride",
+      "gait": {
+        "duty": 0.57,
+        "offsets": {
+          "HL": 0,
+          "HR": 0.5
+        },
+        "distance": 2.0771929824561406
+      },
+      "limbs": {
+        "HL": {
+          "samples": 69,
+          "firstPhase": 0,
+          "lastPhase": 0.5666666666666667,
+          "nativeDistance": 2.077060210819195,
+          "expectedNativeDistance": 2.0771929824561406,
+          "maxStanceResidualMeters": 0.000268601804180868,
+          "maxSourceReachRatio": 0.9294381920972808,
+          "heightRange": 0.00032659043260894197
+        },
+        "HR": {
+          "samples": 60,
+          "firstPhase": 0.5,
+          "lastPhase": 0.9916666666666667,
+          "nativeDistance": 2.0770792235061797,
+          "expectedNativeDistance": 2.0771929824561406,
+          "maxStanceResidualMeters": 0.00010365328699588617,
+          "maxSourceReachRatio": 0.9294382903340129,
+          "heightRange": 0.0003265369301930221
+        }
+      }
+    }
+  ]
+}

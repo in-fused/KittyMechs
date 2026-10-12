@@ -1,0 +1,291 @@
+{
+  "utc": "2026-10-11T07:05:01.611568+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-047/receipt.json",
+      "bytes": 73530,
+      "sha256": "35823bc5812a27e49b629abf272a6631d6e0710e5be7efa7f821035fcb37b9e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-048/playable-checkpoint.json",
+      "bytes": 349,
+      "sha256": "78f02f2bcdd646c51146a539892aabddf75beed7b0258f4fe8b4cd18fac38f8b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-048/receipt.json",
+      "bytes": 74079,
+      "sha256": "909eb6c3c553cd2279b7321c9c1cd28d718bf6ef918445d98f4b0c212bcce265"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/048-retention096.json",
+      "bytes": 497,
+      "sha256": "bcf34f0faffba389a520558d758eff994247745128c2e4fcf32bcd660f5b4157"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-build/process-receipt.json",
+      "bytes": 84665,
+      "sha256": "0b1b6786458de005214f9bc872d8e52cff9a7bf86fb4df424183edb4a2392534"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "0f50baa7d648cc0bef9150d3e7d9fa3dbbced91e7366f127c2ae58aacd880a10"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate/evidence.json",
+      "bytes": 8309,
+      "sha256": "87063d9b096596e767a13a46f598b73d3aae8761357e3a48dd9236eed958e843"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate/page@737a161ba246e677b5b2c6f3d7889d58.webm",
+      "bytes": 2971121,
+      "sha256": "3a4f6a1149f62a6a5f3c0bbfc5a6caf5c71e0c9f75ffd05f00c25bd64b886d13"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate/prototype-report.png",
+      "bytes": 1014704,
+      "sha256": "5384333fa8d4032c7783f2660811ea9f4da1975f9051dfc95d65d62334ac8a44"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate/standard-report.png",
+      "bytes": 941547,
+      "sha256": "3e3e972c6f1eaa5473b43c1af60ecbbd821d5b86ab0eaabeab31369e33085ab9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate-process/process-receipt.json",
+      "bytes": 64923,
+      "sha256": "1ea62373620f57d6443cda8320ffc678ab6cb4f9a8efafd7ceab7652305c2bee"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-candidate-process/stdout.txt",
+      "bytes": 68,
+      "sha256": "08e9b9ae81b99902214ffddd049aecfbb366c5d90f8c7e24b34b6df15b582a66"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-cleanup.json",
+      "bytes": 73,
+      "sha256": "ab689551a4b8df38cec6824ed1842b1a4907234e8802e1c3b987b2c7bf5e59c5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-final-inventory.json",
+      "bytes": 2244,
+      "sha256": "7499eb95cc485b6d8043a9383669cf7396ded727832fd12b9ca654c2ac496ded"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-freeze/process-receipt.json",
+      "bytes": 75864,
+      "sha256": "14ee168f85dcc5fb12c2615a5537661f87505216aff8a0edf5dd0081e48dc7dc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-freeze/stdout.txt",
+      "bytes": 324,
+      "sha256": "a95d39056694432fd6fee7e7c015b152a96fe565a0fd3115cff4e79153e1f1ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-fresh-provenance.json",
+      "bytes": 35825,
+      "sha256": "c785a43409c9580e2af93fc495191f9018fbfe6ff2d2fe9dd7293467ee42c8b6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-iab-failure.json",
+      "bytes": 358,
+      "sha256": "c6aa5e9f38e30d0d46c05932064180e6046b0661a1dedc3937d094089764cebc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-server-swap.json",
+      "bytes": 470,
+      "sha256": "846ff4410d09735414f848a8dbe22a4ab6a130868fd1a503f89ef943d99fc7c4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-syntax/process-receipt.json",
+      "bytes": 64515,
+      "sha256": "af10817eb1c49751fd81273df3aca2462b20ee62d66891bf9054f9afd6058edc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/client096-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live048-http-verification.json",
+      "bytes": 889,
+      "sha256": "906fe1d173be8f66c616977ff40d05c289b44fbbe1566462d4d954bf9a589965"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player095-tests/process-receipt.json",
+      "bytes": 64757,
+      "sha256": "4d90e254d69aa42c63e336f6a88b8ee91f29a6e2f391c594d69a319dc0dbcab5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player095-tests/stdout.txt",
+      "bytes": 229,
+      "sha256": "bc58c5078749c320ca26dd674f42089cff33a7cd5e2a3f4d413105a498996212"
+    },
+    {
+      "path": "docs/overhaul/critic/client094-source-review.md",
+      "bytes": 4614,
+      "sha256": "41cb834434405b463c67f5b68497d1f96eba25bc9fdd4d2ab2bc681d73563dc9"
+    },
+    {
+      "path": "docs/overhaul/critic/client096-play-review.md",
+      "bytes": 4497,
+      "sha256": "771962181a6a5ded28e2e3ac17ad096cb04f33d54e25b7ce782563a002ff1aba"
+    },
+    {
+      "path": "docs/overhaul/critic/client096-source-review.md",
+      "bytes": 4555,
+      "sha256": "076d577e3ff96b8fdcfc02eb58940f923ab2bf4a33d8dd365a1df60e27a35937"
+    },
+    {
+      "path": "docs/overhaul/player-recovery-097-handoff.md",
+      "bytes": 7916,
+      "sha256": "3adf869c97e0830b7d6b88761d2908c775bc019a0ee58acc579042eb49a76e9b"
+    },
+    {
+      "path": "docs/overhaul/resource-limit-handoff-20261010.md",
+      "bytes": 21013,
+      "sha256": "423a00f61900f9e88c08e87e933584fc63affa7ae115d7bae884b3d813e32b09"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/build-seal.json",
+      "bytes": 141713,
+      "sha256": "16dc73ccaac925312e59acb24af475b031dda7d175b10cedcd15bda8de7f9037"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/candidate-seal.json",
+      "bytes": 102563,
+      "sha256": "ff71d68ed9b11c7be0dabb6c3c3ea59cbe6e6303c5c39ea19793f62022371c07"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/close-result.py",
+      "bytes": 2257,
+      "sha256": "13a03ca4b5a62d4bea17ea5567f93283e330cb96ad92ed27de76cbd9264d8796"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/freeze-seal.json",
+      "bytes": 123369,
+      "sha256": "b5d3a1da9070d747c4500980f32a10a15c5af23082a26d0c4b704684f7f19d88"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/freeze048.py",
+      "bytes": 2479,
+      "sha256": "20dcfb29e35846f3f2236e7c06a562ba0b3f8f70725e157e780ab7676663af37"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/launch.py",
+      "bytes": 431,
+      "sha256": "ca690122c53ee17dd505e873a9dcb46ce940b6a1c964c24691125e43cc78a819"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/prepare.py",
+      "bytes": 2602,
+      "sha256": "295ab6d335f8ffd6e4389680626a21ceae0a6d49087c9c91c3e6bac70c2c55b0"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/recovery047.py",
+      "bytes": 2768,
+      "sha256": "f3124adaab01761477fe88f1abf199e4f6c57b19b95cea9cb50a5189f78d688c"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/syntax-seal.json",
+      "bytes": 101887,
+      "sha256": "c5a9a9b81f8a3731abe61d6c8d65d2923287708f686a4830e8010899dfd3be99"
+    },
+    {
+      "path": "tools/overhaul-client-integration-096/verify-http048.py",
+      "bytes": 1258,
+      "sha256": "c763f68e63a60c531e6cf29708bfe1c186f4c013b92455f1547d5916f2eba188"
+    },
+    {
+      "path": "tools/overhaul-client-play-097/capture.mjs",
+      "bytes": 4799,
+      "sha256": "72312e2fadb22f6568249812edbd532643b685f253c7d4cca61c6f127a14cb46"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/handoff.md",
+      "bytes": 2919,
+      "sha256": "5c136a15967e3914136b3f2bf75f4b39b03a095475c85d8e21e784cea105a78e"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/preimages/GameCanvas.tsx",
+      "bytes": 9641,
+      "sha256": "6dfa3bab7ba1046a7697bb4420699951696003bc57dd7681880a014e03ec1ba2"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/preimages/server-index.ts",
+      "bytes": 8519,
+      "sha256": "82dd81dc310005ad8932a10a378c790f19d95ff3afb264344779b30021f89cdd"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/prior-source-seal-afterfix-unrun.json",
+      "bytes": 1800,
+      "sha256": "1ad85ea7d508c53da71929c2af1149f593aa389db6a0e472884667d9cb68cad2"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/prior-source-seal-unrun.json",
+      "bytes": 1587,
+      "sha256": "668599db2a13fd7ee7a5fac8acb53a8aea598392574030c45b1848cde2f78f7f"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/source-seal.json",
+      "bytes": 1800,
+      "sha256": "5ff72a963846c7ec74b9c23d31e27a20529043603208e9f1965d5e520d3980d4"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-091/diagnosis.md",
+      "bytes": 10088,
+      "sha256": "56081d5b46497fce0420a2d619714fc0168a0bc8cbc23705094e39b661ff341b"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-091/read-seal.json",
+      "bytes": 2731,
+      "sha256": "c34d1b6902c2b219c5ec36b933830b1b02f25a92e4403c85ff902eaf11b33776"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/handoff.md",
+      "bytes": 7258,
+      "sha256": "9d7f2709c1edeecae75e92d39932f7fa9b2e7a20c539ec88156b5edacb4e5619"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/preimages/movingRFfeet067.ts",
+      "bytes": 15768,
+      "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/rejected-candidate-movingRFfeet067.ts",
+      "bytes": 19274,
+      "sha256": "f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/rejection-restoration.json",
+      "bytes": 400,
+      "sha256": "c6a864be71cfe8da9cfc7f68d7d189fa959f98c3492f872e16016a2d0d033a44"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/source-seal.json",
+      "bytes": 1492,
+      "sha256": "49caf9bf52ba258877d5b8dac204bc5d4ee212bf52c871d65daf409845653d2b"
+    },
+    {
+      "path": "tools/overhaul-player-integration-095/freeze048.py",
+      "bytes": 2506,
+      "sha256": "dac3feab273576abd7534b4c566d1c369b3e46268be3c394eef410a9cc6b66da"
+    },
+    {
+      "path": "tools/overhaul-player-integration-095/launch.py",
+      "bytes": 431,
+      "sha256": "74e8fa04cb7fc005cc7a98f036c9780852a1c0fc816a123a336a7714f80f4d16"
+    },
+    {
+      "path": "tools/overhaul-player-integration-095/prepare.py",
+      "bytes": 3035,
+      "sha256": "63188ac33e31c4e6b89553bbf5b8c18552ee42ae21c03630e0c6e32bc31ccfb7"
+    },
+    {
+      "path": "tools/overhaul-player-integration-095/tests-seal.json",
+      "bytes": 102316,
+      "sha256": "672648f52e060f42314c9c2fd4e7df55aa2ae5118eb7e79b4515a2a35771c8f7"
+    }
+  ],
+  "scope": "091-097 CLOSED LIMITED diagnostics checkpoint048. Rejected093 restored047 before build. Same8799; actual IAB lag, gait/contact/art/fullgoal incomplete. Source overlay047 verified separately; preserve original failures/video."
+}

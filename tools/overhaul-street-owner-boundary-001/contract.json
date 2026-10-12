@@ -1,0 +1,108 @@
+{
+  "schema": "street-owner-boundary-001",
+  "actualStartUtc": "2026-10-10T13:04:58Z",
+  "hardDeadlineUtc": "2026-10-10T13:24:58Z",
+  "status": "FROZEN_COMPILED_PENDING_CODE_GATE",
+  "approvedDesign": "docs/overhaul/street-native-qualification-design-001.md",
+  "designReview": "docs/overhaul/critic/street-native-qualification-design-001-review.md",
+  "props": 10,
+  "hostSteps": 480,
+  "guestSteps": 120,
+  "totalIncludingInitialization": 600,
+  "initializationExtraSteps": 0,
+  "dt": 0.016666666666666666,
+  "fireTicks": [
+    20,
+    32,
+    44,
+    56,
+    68
+  ],
+  "publicFireRequests": 50,
+  "placementGeometryMassFrictionChanges": 0,
+  "spawnXZ": [
+    [
+      -50.8,
+      33
+    ],
+    [
+      -53,
+      33
+    ],
+    [
+      -67,
+      24.3
+    ],
+    [
+      -66,
+      26.2
+    ],
+    [
+      -58.8,
+      33
+    ],
+    [
+      -56.6,
+      17
+    ],
+    [
+      -54.7,
+      17
+    ],
+    [
+      -62,
+      17
+    ],
+    [
+      -44,
+      25
+    ],
+    [
+      -55,
+      35
+    ]
+  ],
+  "birthDeadline": 100,
+  "settleDeadline": 400,
+  "awayTick": 433,
+  "returnTick": 449,
+  "finalTick": 480,
+  "navTicks": [
+    16,
+    100,
+    240,
+    400,
+    432,
+    449,
+    480
+  ],
+  "terminationAtSeconds": 178,
+  "cleanupReserveSeconds": 2,
+  "artifactCapBytes": 134217728,
+  "failureReserveBytes": 33554432,
+  "compileCommand": "node node_modules/typescript/bin/tsc -p tools/overhaul-street-owner-boundary-001/tsconfig.json",
+  "nativeCommand": "& 'C:/Users/Taylor/AppData/Local/Programs/Python/Python312/python.exe' -I -B tools/overhaul-street-owner-boundary-001/owned_runner.py",
+  "launcher": "Python stdlib independent deadline thread before child/file/hash startup; atomic PROC_THREAD_ATTRIBUTE_JOB_LIST creation; restricted stdio inheritance; hidden suspended child; exclusive nonbreakaway kill-on-close job; terminate job at178s, owner at180s",
+  "launcherVerified": false,
+  "compiler": "PREPARATION_COMPILE_1_PASS",
+  "native": "UNRUN",
+  "firstGenuineFailure": "STOP_PRESERVE_NO_REPAIR_NO_RERUN",
+  "admission": "DENIED_PENDING_ALL_ACTUAL_GATES_AND_INDEPENDENT_RESULT_REVIEW",
+  "wallSecondsIncludingOwnedHashesWorkerStartupCleanup": 180,
+  "bootstrapLimit": "Clock begins initial time import; watchdog starts after stdlib/WinAPI/job bootstrap; no child exists before independent watchdog; bootstrap hard real time unverified",
+  "nativeRepresentation": {
+    "impactMassInertia": "actual before/after float32 bit identity",
+    "positiveMassMaxUlps": 4,
+    "friction": "exact Math.fround(factory)"
+  },
+  "unchangedDesignSha256": "854BBAB230335FAAD17FA63612F99DE81BE64B08D2C02FBF2DDB569A4C244732",
+  "productionSeparation": {
+    "nativeClassText": "IDENTICAL",
+    "browserFunctionText": "IDENTICAL",
+    "windowMocks": 0,
+    "preparationCompiles": 1,
+    "pureModule": "src/game/world/overhaulRuinCollisionOwner.ts",
+    "physicsChanges": 0,
+    "wrapper": "src/game/world/overhaulRuinCollision.tsx"
+  }
+}

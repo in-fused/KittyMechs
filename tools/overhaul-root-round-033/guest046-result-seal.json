@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/guest-readiness-046-process/process-receipt.json",
+      "bytes": 61228,
+      "sha256": "02f3c44e36161c4bdb9be2d85ea3df39ce86edfcd97aaa06a832282121c9a525"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/guest-readiness-046-process/stdout.txt",
+      "bytes": 186,
+      "sha256": "823e7e37c7d17aef06b71bdd4062fb29c825aeccdd0f7bc5d26758639b99228c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/guest-readiness-046-public/evidence.json",
+      "bytes": 313410,
+      "sha256": "923e9b274de0f802a21f3a7b5c437a487142239edfd0234a4ac794d78c2051e5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/guest-readiness-046-public/guest-initial.png",
+      "bytes": 1406725,
+      "sha256": "ebc3c1840a766af581ec08a8e5a1cd5a1714f7ad28df34ebac9ae7621b2fc14e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/guest-readiness-046-public/host-initial.png",
+      "bytes": 1456507,
+      "sha256": "cc3abda4b4b922cd2d8686bf778b2a5c42ba9af017d017992ec4c02cdf37ba30"
+    },
+    {
+      "path": "tools/overhaul-root-round-033/guest046-public-seal.json",
+      "bytes": 96329,
+      "sha256": "02e5837708df784fe53043e875a1e098825936288731e84817d7fff56d51f792"
+    },
+    {
+      "path": "docs/overhaul/critic/guest-readiness-046-source-review.md",
+      "bytes": 2179,
+      "sha256": "bb73909619029bdb6a115e267861cfa0d755801d888433e0541b5f344c2e55be"
+    },
+    {
+      "path": "tools/overhaul-root-round-033/seal046.py",
+      "bytes": 1337,
+      "sha256": "aef5f7458731b3075b325dd65a08b44e7a67b1ce2668621bc1edae3fd8ea768b"
+    }
+  ],
+  "scope": "ONE unchanged036 diagnosis: actual guest readiness without probe in this run;045 failure remains unchanged, no cause/fix/full mission approval."
+}

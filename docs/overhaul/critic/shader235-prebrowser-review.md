@@ -1,0 +1,9 @@
+# Shader235 pre-browser rejection
+
+Writer: CLOSED. Verdict: PRE_BROWSER_REJECTED. No actual shader, loading, input, motion or gameplay qualification resulted.
+
+The saved supervisor receipt records Node369124 (creation134362378170815198), exit1 in7.422 seconds within180 seconds, no supervisor timeout, and both observed original identities retired. Receipt SHA `fd3c2aadac18067f88c0c03cff878075e0bef95a4c6203611562438a6d04049c`; stdout SHA `8df8ae8c36c2b1f61e7e636e37b56df86ff1ec5738e1e0de5c9d5c877d37c89b`.
+
+Stdout stops at capture.mjs line12, initial protected-input verification, before mkdir or browser construction. The shader235-public directory remains absent. The root's narrow audit reports package.json as the sole mismatch: sealed2002 bytes/SHA `0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4`, current2287 bytes/SHA `a951b2b35d6a86bbf07ffb08eff3ce30f227dbaecce67e4b1d39c4fa445184f3`. I independently checked that bound package row, current bytes/hash and Git delta; the changed top-level field is scripts, adding storage:check, storage:clean and prebuild. Dependencies and devDependencies match HEAD. This does not establish full installed-module equivalence or independently repeat the root's complete protected-row scan.
+
+The source guard correctly rejected drift. Preserve the failed235 command, immutable source/binding and receipt; do not relabel it a shader failure or successful observation. No restore, storage cleanup, rebuild or unchanged235 retry is admitted here. A distinct narrowly reviewed package-boundary proposal may reuse the exact compiled234 bytes only if it preserves this failure, proves the scripts-only difference and all other bound inputs, and executes no new build lifecycle hooks. It requires a fresh CLOSED source gate before any browser job. Public062 remains unchanged; human Lowest lag and all player-quality claims remain incomplete.

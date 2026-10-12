@@ -1,0 +1,1666 @@
+[
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 6.34939999985695,
+    "ownerTime": 0.5420443337350122,
+    "nativeTick": 36,
+    "renderedRootY": -0.08295884602636283,
+    "ownerPivot": {
+      "offsetY": -1.0000000009228827,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.0829585510299085
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.0829585510299085
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.08295875082819938
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.08295875082819938
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 6.61339999985695,
+    "ownerTime": 0.7955628935618764,
+    "nativeTick": 54,
+    "renderedRootY": -0.06166462804598649,
+    "ownerPivot": {
+      "offsetY": -0.9999999931885397,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.09554261720661678
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.00002188207508162926
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.10811363547113736
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06403615598596477
+      }
+    ],
+    "rawNativeWitnessY": -0.08000065386295319,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 6.855399999856951,
+    "ownerTime": 1.0515566545147768,
+    "nativeTick": 69,
+    "renderedRootY": -0.05989997537592884,
+    "ownerPivot": {
+      "offsetY": -0.9999999627241052,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.12015692155521107
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.09141388200816883
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06077133697300252
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06043592233345825
+      }
+    ],
+    "rawNativeWitnessY": -0.08000083267688751,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 7.115200000047686,
+    "ownerTime": 1.299188411280739,
+    "nativeTick": 81,
+    "renderedRootY": -0.05989995903816081,
+    "ownerPivot": {
+      "offsetY": -0.9999999431299513,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.07791145058537285
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.07411900115194751
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.038577682420675344
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.049656030119394345
+      }
+    ],
+    "rawNativeWitnessY": -0.08000139892101288,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 7.348399999856952,
+    "ownerTime": 1.5410231492594058,
+    "nativeTick": 102,
+    "renderedRootY": -0.05998066071958397,
+    "ownerPivot": {
+      "offsetY": -1.0000000480347082,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.060681773789313484
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.06084085795495644
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.08424548797625861
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.026913432947399396
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-beacon-departure",
+    "ownerFrame": 7.6042999999523175,
+    "ownerTime": 1.8287226585332144,
+    "nativeTick": 117,
+    "renderedRootY": -0.059929882588732,
+    "ownerPivot": {
+      "offsetY": -1.000000034132904,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05992968300714383
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05992968300714383
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05992979102661581
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05992979102661581
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-idle",
+    "ownerFrame": 8.528500000000001,
+    "ownerTime": 2.5354112956035633,
+    "nativeTick": 171,
+    "renderedRootY": -0.059994378995100295,
+    "ownerPivot": {
+      "offsetY": -0.9999999463737956,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05999393505950351
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05999393505950351
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05999427400796566
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05999427400796566
+      }
+    ],
+    "rawNativeWitnessY": -0.08000002801418304,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-idle",
+    "ownerFrame": 8.767200000047684,
+    "ownerTime": 2.8218512956607835,
+    "nativeTick": 186,
+    "renderedRootY": -0.05994417840308608,
+    "ownerPivot": {
+      "offsetY": -1.0000000619355567,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05994394769241486
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05994394769241486
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05994405802483517
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05994405802483517
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 9.40959999990463,
+    "ownerTime": 3.585651295660784,
+    "nativeTick": 225,
+    "renderedRootY": -0.05989999311207583,
+    "ownerPivot": {
+      "offsetY": -0.9999999408017763,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.059899716348939785
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.059899716348939785
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989988649353328
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989988649353328
+      }
+    ],
+    "rawNativeWitnessY": -0.08000001311302185,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 9.662799999952313,
+    "ownerTime": 3.878716418117606,
+    "nativeTick": 240,
+    "renderedRootY": -0.05976810085667372,
+    "ownerPivot": {
+      "offsetY": -0.9999999751624862,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.03516809920985149
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.022494808437259282
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.12952037876526318
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.0639382900191027
+      }
+    ],
+    "rawNativeWitnessY": -0.08000000566244125,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 9.909799999952313,
+    "ownerTime": 4.1437882570629245,
+    "nativeTick": 255,
+    "renderedRootY": -0.05988924181572686,
+    "ownerPivot": {
+      "offsetY": -1.0000000551470882,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.06816166099362009
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.06482823842881973
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.06788798091827628
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.11203855440964808
+      }
+    ],
+    "rawNativeWitnessY": -0.08000001311302185,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 10.170700000047681,
+    "ownerTime": 4.410340267445325,
+    "nativeTick": 270,
+    "renderedRootY": -0.059914644862930855,
+    "ownerPivot": {
+      "offsetY": -0.9999999967720803,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.06138395785489043
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.061835425106467654
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.09437956068099287
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.043560470401216494
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 10.423299999952315,
+    "ownerTime": 4.669189206551629,
+    "nativeTick": 285,
+    "renderedRootY": -0.0598891629202305,
+    "ownerPivot": {
+      "offsetY": -1.0000000552089339,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.06001891415206901
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.04064574900347746
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.050260781734744145
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.07009402762631183
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 10.655499999999996,
+    "ownerTime": 4.899674761777906,
+    "nativeTick": 300,
+    "renderedRootY": 0.19899415594168657,
+    "ownerPivot": {
+      "offsetY": -1.000000062728636,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.3752231258921336
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.375116129682851
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.1987489528973172
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.19868733534069255
+      }
+    ],
+    "rawNativeWitnessY": 0.20782966911792755,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-forward",
+    "ownerFrame": 10.905399999856948,
+    "ownerTime": 5.153824346144422,
+    "nativeTick": 315,
+    "renderedRootY": 0.22782968447092156,
+    "ownerPivot": {
+      "offsetY": -0.9999999584731446,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.22782843286712098
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.2278283396215064
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.2278278904770096
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.28660007888343253
+      }
+    ],
+    "rawNativeWitnessY": 1.8447061777114868,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-stop",
+    "ownerFrame": 11.513099999904641,
+    "ownerTime": 5.768091064129596,
+    "nativeTick": 351,
+    "renderedRootY": 0.22783390471527887,
+    "ownerPivot": {
+      "offsetY": -0.9999999861115304,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.22783416490910977
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.22783416490910977
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.22783400555194316
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.22783400555194316
+      }
+    ],
+    "rawNativeWitnessY": 0.20782972872257233,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-stop",
+    "ownerFrame": 11.764299999952323,
+    "ownerTime": 6.016757166489659,
+    "nativeTick": 366,
+    "renderedRootY": 0.22793766977233076,
+    "ownerPivot": {
+      "offsetY": -0.9999999224921486,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.2279379789569789
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.2279379789569789
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.22793777985236915
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.22793777985236915
+      }
+    ],
+    "rawNativeWitnessY": 0.20782922208309174,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 12.429399999856956,
+    "ownerTime": 6.686452205643508,
+    "nativeTick": 405,
+    "renderedRootY": 0.22786383334233862,
+    "ownerPivot": {
+      "offsetY": -0.9999999850362803,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.22786411779974056
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.22786411779974056
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.22786392889135326
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.22786392889135326
+      }
+    ],
+    "rawNativeWitnessY": 0.20782865583896637,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 12.687700000047691,
+    "ownerTime": 6.940766591469456,
+    "nativeTick": 420,
+    "renderedRootY": -0.009247437519592006,
+    "ownerPivot": {
+      "offsetY": -1.000000009981901,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.029417915285934872
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.018251555330979843
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.0833524751031326
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.07029905129925029
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 12.94709999990464,
+    "ownerTime": 7.199554109812673,
+    "nativeTick": 438,
+    "renderedRootY": -0.059899835819044345,
+    "ownerPivot": {
+      "offsetY": -1.0000000117426828,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.059597824127078605
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.036857672692947305
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.053319683327253196
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.0701100168464467
+      }
+    ],
+    "rawNativeWitnessY": -0.07999994605779648,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 13.195200000047688,
+    "ownerTime": 7.449081290682086,
+    "nativeTick": 453,
+    "renderedRootY": -0.059934646804288505,
+    "ownerPivot": {
+      "offsetY": -1.0000000663814865,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.08342748103572636
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.11999688627839358
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06114414765926648
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06146150179812741
+      }
+    ],
+    "rawNativeWitnessY": -0.08000001311302185,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 13.42809999990464,
+    "ownerTime": 7.679711735929215,
+    "nativeTick": 465,
+    "renderedRootY": -0.05991143443291835,
+    "ownerPivot": {
+      "offsetY": -0.999999971859521,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.002568288878743892
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05177365709879724
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.02775796476466138
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.025864204563083165
+      }
+    ],
+    "rawNativeWitnessY": -0.08000434935092926,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 13.690000000000007,
+    "ownerTime": 7.940880163824031,
+    "nativeTick": 480,
+    "renderedRootY": -0.05999237165169502,
+    "ownerPivot": {
+      "offsetY": -1.000000063977692,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.06140986730305114
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.061610576042910134
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.11470573753249408
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.08277552713603295
+      }
+    ],
+    "rawNativeWitnessY": -0.07999981939792633,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-reverse",
+    "ownerFrame": 13.938000000000006,
+    "ownerTime": 8.184048629364952,
+    "nativeTick": 495,
+    "renderedRootY": -0.059907857266218834,
+    "ownerPivot": {
+      "offsetY": -0.9999999808853749,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.11186518193764847
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.02463412958291062
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.20211184943260832
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.069698254484617
+      }
+    ],
+    "rawNativeWitnessY": -0.08000005036592484,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-strafe",
+    "ownerFrame": 14.610799999952327,
+    "ownerTime": 8.866268464161605,
+    "nativeTick": 537,
+    "renderedRootY": -0.05983085830854007,
+    "ownerPivot": {
+      "offsetY": -0.9999999073881986,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.009787854600870324
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05985027100508067
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.059858868526429174
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.0598670810414349
+      }
+    ],
+    "rawNativeWitnessY": -0.08000089228153229,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-strafe",
+    "ownerFrame": 14.878200000047693,
+    "ownerTime": 9.131625236992656,
+    "nativeTick": 552,
+    "renderedRootY": -0.059999965386535514,
+    "ownerPivot": {
+      "offsetY": -0.9999999168323915,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.0008426565635332589
+      },
+      {
+        "limb": "FR",
+        "worldY": 0.0581837083589246
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.054062343445069154
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06159372072813834
+      }
+    ],
+    "rawNativeWitnessY": -0.07999998331069946,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-strafe",
+    "ownerFrame": 15.107399999856955,
+    "ownerTime": 9.360586836285632,
+    "nativeTick": 567,
+    "renderedRootY": -0.059874099080873044,
+    "ownerPivot": {
+      "offsetY": -1.0000000759430328,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 0.0034232614333182393
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.04814365141998937
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.03198094569255308
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.020002757433420573
+      }
+    ],
+    "rawNativeWitnessY": -0.07999994605779648,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-strafe",
+    "ownerFrame": 15.355599999904637,
+    "ownerTime": 9.60582758753988,
+    "nativeTick": 582,
+    "renderedRootY": -0.05987897233995343,
+    "ownerPivot": {
+      "offsetY": -0.999999964468086,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.060424091802586656
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.06049846574170613
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.12072111002855557
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.09350548225062924
+      }
+    ],
+    "rawNativeWitnessY": -0.08000019192695618,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-strafe",
+    "ownerFrame": 15.590099999904638,
+    "ownerTime": 9.840327935458777,
+    "nativeTick": 597,
+    "renderedRootY": -0.05984644933888217,
+    "ownerPivot": {
+      "offsetY": -1.000000028696602,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05877048864068203
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.032718042018238
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.0564534644033031
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06959513820826291
+      }
+    ],
+    "rawNativeWitnessY": -0.0800023227930069,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-moving-R-up",
+    "ownerFrame": 16.428399999856964,
+    "ownerTime": 10.650000000000109,
+    "nativeTick": 642,
+    "renderedRootY": -0.05990009307861355,
+    "ownerPivot": {
+      "offsetY": -1.00000001597459,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989974885599296
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989974885599296
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05990001438408972
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05990001438408972
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-moving-R-up",
+    "ownerFrame": 17.46359999990465,
+    "ownerTime": 11.684714801700716,
+    "nativeTick": 705,
+    "renderedRootY": -0.0598546153089472,
+    "ownerPivot": {
+      "offsetY": -0.9999999559384806,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.3435582102216987
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.2667895132065785
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06139866822219887
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.03643896433791188
+      }
+    ],
+    "rawNativeWitnessY": -0.08000966906547546,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-forward",
+    "ownerFrame": 18.123899999856956,
+    "ownerTime": 12.376864209734627,
+    "nativeTick": 747,
+    "renderedRootY": -0.05989367019615677,
+    "ownerPivot": {
+      "offsetY": -0.9999999444642954,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.2904607984620307
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3394705122403963
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.011998118441641135
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06021072468607374
+      }
+    ],
+    "rawNativeWitnessY": -0.08000217378139496,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-forward",
+    "ownerFrame": 18.3725,
+    "ownerTime": 12.622145585501857,
+    "nativeTick": 762,
+    "renderedRootY": -0.06000001187807813,
+    "ownerPivot": {
+      "offsetY": -1.0000000321541367,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.344544056869695
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.2602808197692414
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.060604261045375696
+      },
+      {
+        "limb": "HR",
+        "worldY": 0.05496381886822335
+      }
+    ],
+    "rawNativeWitnessY": -0.07999995350837708,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-forward",
+    "ownerFrame": 18.61820000004769,
+    "ownerTime": 12.869932636063949,
+    "nativeTick": 777,
+    "renderedRootY": -0.05986691663491217,
+    "ownerPivot": {
+      "offsetY": -1.0000000015041652,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.2675949890064637
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3434244521395422
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.03381515548055454
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06144460237545159
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-forward",
+    "ownerFrame": 18.867700000047687,
+    "ownerTime": 13.11657655603074,
+    "nativeTick": 792,
+    "renderedRootY": -0.059899943073074446,
+    "ownerPivot": {
+      "offsetY": -0.9999999518894102,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.339728438019552
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.287773024279912
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06095547461476139
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.009003645815801563
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-forward",
+    "ownerFrame": 19.096700000047683,
+    "ownerTime": 13.337040000152829,
+    "nativeTick": 801,
+    "renderedRootY": -0.059974077687938054,
+    "ownerPivot": {
+      "offsetY": -1.0000000162598073,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.2867517383157998
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3397703780790582
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.007559359958749873
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.061227368961412364
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-reverse",
+    "ownerFrame": 19.79979999995232,
+    "ownerTime": 14.053230988468654,
+    "nativeTick": 846,
+    "renderedRootY": -0.0598999563742999,
+    "ownerPivot": {
+      "offsetY": -1.0000000233247621,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.3564786753003517
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3564786753003517
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05990054376426034
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05990054376426034
+      }
+    ],
+    "rawNativeWitnessY": -0.08000302314758301,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-reverse",
+    "ownerFrame": 20.04589999985695,
+    "ownerTime": 14.292487473624524,
+    "nativeTick": 864,
+    "renderedRootY": -0.05972838403172087,
+    "ownerPivot": {
+      "offsetY": -0.9999999784684833,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.3070349471994582
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.334355078669921
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.04830224385418952
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.060403292518424294
+      }
+    ],
+    "rawNativeWitnessY": -0.08001639693975449,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-reverse",
+    "ownerFrame": 20.306200000047685,
+    "ownerTime": 14.549784927354658,
+    "nativeTick": 879,
+    "renderedRootY": -0.05986273534402842,
+    "ownerPivot": {
+      "offsetY": -1.0000000221969887,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.3283394326663096
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3168506971165779
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.061735064477491795
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.056897920601773885
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-reverse",
+    "ownerFrame": 20.559599999904638,
+    "ownerTime": 14.803763978968668,
+    "nativeTick": 894,
+    "renderedRootY": -0.05998746617569295,
+    "ownerPivot": {
+      "offsetY": -1.0000000221205911,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.3401192941463942
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3097215070869508
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06090992094114173
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06151196178595725
+      }
+    ],
+    "rawNativeWitnessY": -0.08000008016824722,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-upright-reverse",
+    "ownerFrame": 20.806899999856956,
+    "ownerTime": 15.053140395631196,
+    "nativeTick": 909,
+    "renderedRootY": -0.05998105304307444,
+    "ownerPivot": {
+      "offsetY": -0.9999999813825043,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.286499630002699
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.3495987634101962
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.06180407650691579
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.060960783485767646
+      }
+    ],
+    "rawNativeWitnessY": -0.08000366389751434,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-moving-R-down",
+    "ownerFrame": 21.479700000047686,
+    "ownerTime": 15.73649281695279,
+    "nativeTick": 948,
+    "renderedRootY": -0.05997306405581471,
+    "ownerPivot": {
+      "offsetY": -1.0000000330381655,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": 1.344210120710172
+      },
+      {
+        "limb": "FR",
+        "worldY": 1.344210120710172
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.059973527113720816
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.01862715751441419
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-moving-R-down",
+    "ownerFrame": 22.47399999999999,
+    "ownerTime": 16.721508544882283,
+    "nativeTick": 1008,
+    "renderedRootY": -0.059856947549855155,
+    "ownerPivot": {
+      "offsetY": -1.0000000414222519,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05211519130749546
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.01403755887450979
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.0667140071277545
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.06640719536807983
+      }
+    ],
+    "rawNativeWitnessY": -0.08000023663043976,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-settle",
+    "ownerFrame": 23.156700000047675,
+    "ownerTime": 17.40906017841191,
+    "nativeTick": 1050,
+    "renderedRootY": -0.05998188126871562,
+    "ownerPivot": {
+      "offsetY": -0.9999999831381933,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.061901838753014936
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.062189090680644266
+      },
+      {
+        "limb": "HL",
+        "worldY": 0.02792021397247356
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.029095900733171264
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-settle",
+    "ownerFrame": 23.401899999856944,
+    "ownerTime": 17.649597594049464,
+    "nativeTick": 1065,
+    "renderedRootY": -0.05995937211579516,
+    "ownerPivot": {
+      "offsetY": -1.0000000595612142,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.06000741971001125
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.06074578356312822
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.041788414217697065
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.0606889758309704
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-settle",
+    "ownerFrame": 23.662999999999997,
+    "ownerTime": 17.909577549823645,
+    "nativeTick": 1080,
+    "renderedRootY": -0.059890886218920025,
+    "ownerPivot": {
+      "offsetY": -0.9999999118156188,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989060654811118
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989060654811118
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989077302908321
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989077302908321
+      }
+    ],
+    "rawNativeWitnessY": -0.08000124990940094,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-probe",
+    "ownerFrame": 24.319599999904636,
+    "ownerTime": 18.574892548957422,
+    "nativeTick": 1119,
+    "renderedRootY": -0.0599501866535781,
+    "ownerPivot": {
+      "offsetY": -0.9999999291796916,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05994987930216537
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05994987930216537
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.059950065245577895
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.059950065245577895
+      }
+    ],
+    "rawNativeWitnessY": -0.07999999821186066,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-probe",
+    "ownerFrame": 24.549700000047686,
+    "ownerTime": 18.7970719430395,
+    "nativeTick": 1134,
+    "renderedRootY": -0.05990008248085088,
+    "ownerPivot": {
+      "offsetY": -0.9999999898684541,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989986720464231
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989986720464231
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.059899977559285
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.059899977559285
+      }
+    ],
+    "rawNativeWitnessY": -0.08000040054321289,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-probe",
+    "ownerFrame": 24.808599999904636,
+    "ownerTime": 19.05969033484498,
+    "nativeTick": 1149,
+    "renderedRootY": -0.059899969801100905,
+    "ownerPivot": {
+      "offsetY": -0.9999999692556661,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989976989885134
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989976989885134
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989979482110594
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989979482110594
+      }
+    ],
+    "rawNativeWitnessY": -0.0800003930926323,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-return",
+    "ownerFrame": 25.527500000000003,
+    "ownerTime": 19.78073392485298,
+    "nativeTick": 1191,
+    "renderedRootY": -0.0599000801758125,
+    "ownerPivot": {
+      "offsetY": -1.0000000059701484,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.0598998279941316
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.0598998279941316
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989989655805882
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989989655805882
+      }
+    ],
+    "rawNativeWitnessY": -0.08001144230365753,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-return",
+    "ownerFrame": 25.773099999904634,
+    "ownerTime": 20.018580607477826,
+    "nativeTick": 1206,
+    "renderedRootY": -0.05990001036838266,
+    "ownerPivot": {
+      "offsetY": -0.9999999917165473,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989982798466634
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989982798466634
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989989411930201
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989989411930201
+      }
+    ],
+    "rawNativeWitnessY": -0.08001144230365753,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  },
+  {
+    "phase": "on-action-return",
+    "ownerFrame": 26.024700000047684,
+    "ownerTime": 20.24692037091304,
+    "nativeTick": 1218,
+    "renderedRootY": -0.059900073380374286,
+    "ownerPivot": {
+      "offsetY": -1.0000000756810983,
+      "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+    },
+    "soleSubset": [
+      {
+        "limb": "FL",
+        "worldY": -0.05989989240359797
+      },
+      {
+        "limb": "FR",
+        "worldY": -0.05989989240359797
+      },
+      {
+        "limb": "HL",
+        "worldY": -0.05989998587974526
+      },
+      {
+        "limb": "HR",
+        "worldY": -0.05989998587974526
+      }
+    ],
+    "rawNativeWitnessY": -0.08001144230365753,
+    "rawFrameStatus": "UNKNOWN",
+    "provenance": "RECONSTRUCTED_ACTUAL_SOURCE_FK_ROOT_Y_AND_CURRENT_ATTACHED_SKIN_SUBSET_RAW_NATIVE_SAMPLE_NOT_CLOCK_ALIGNED_OR_CONTACT_CERTIFICATE"
+  }
+]

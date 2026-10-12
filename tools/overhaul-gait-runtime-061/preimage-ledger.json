@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "bytes": 10988,
+      "preimage": "tools/overhaul-gait-runtime-061/preimages/src__game__entities__identity57Runtime005.ts"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "69dfb7b1727cc7c8edb4829ad2c5975d91c301f46489334890f3834d6c99871c",
+      "bytes": 4192,
+      "preimage": "tools/overhaul-gait-runtime-061/preimages/src__game__entities__identity57Runtime034Actor.tsx"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "sha256": "e42833195e6332debb221cb44825a7cd1147e8c4d833c6d861241f37d10330c6",
+      "bytes": 9498,
+      "preimage": "tools/overhaul-gait-runtime-061/preimages/src__game__GameCanvas.tsx"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48",
+      "bytes": 239804,
+      "preimage": "tools/overhaul-gait-runtime-061/preimages/src__game__entities__identity57Runtime034Manifest.json"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Asset.ts",
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b",
+      "bytes": 235,
+      "preimage": "tools/overhaul-gait-runtime-061/preimages/src__game__entities__identity57Runtime034Asset.ts"
+    }
+  ],
+  "newPaths": [
+    "public/assets/models/Pounce_Gait058E.glb",
+    "src/game/entities/identity57Runtime058EManifest.json",
+    "src/game/entities/identity57Runtime058EAsset.ts"
+  ],
+  "runtimeWritesHeld": true
+}

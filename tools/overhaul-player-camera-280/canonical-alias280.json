@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "scope": "Private candidate aliases only, no current/global route changed",
+  "aliases": [
+    {
+      "canonical": "src/game/camera/CameraRig.tsx",
+      "path": "tools/overhaul-player-camera-280/CameraRig280.tsx",
+      "bytes": 11126,
+      "sha256": "3cfb99fc53c00913c34f0b5df605ea710753b5ee324ea77c9bafa89fbd076cf9"
+    },
+    {
+      "canonical": "src/game/camera/playerOrbit087.ts",
+      "path": "tools/overhaul-player-camera-280/playerOrbit280.ts",
+      "bytes": 7438,
+      "sha256": "193320aebf1edf31fa0a187731db9f507dd1f2bf7fac46dd6487fbdd5da9bf44"
+    }
+  ],
+  "leafHelper": {
+    "path": "tools/overhaul-player-camera-280/usablePlayfield280.ts",
+    "bytes": 6861,
+    "sha256": "291e6a793bc65542424bfafd08cb72831dedbec7cbc0d36b16664d2a8ae96a7f"
+  },
+  "qualityApproved": false,
+  "contactQualified": false,
+  "publicApproved": false
+}

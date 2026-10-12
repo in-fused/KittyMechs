@@ -1,0 +1,86 @@
+{
+  "writer": "CLOSED",
+  "nodePID": 361448,
+  "exitCode": 0,
+  "failure": null,
+  "elapsedSeconds": 4.6399999998975545,
+  "capInclusiveSeconds": 60,
+  "owned": {
+    "361448": 134362545989588537,
+    "371616": 134362545989691222,
+    "375572": 134362545994559526,
+    "357608": 134362545999386931,
+    "377276": 134362545998928482,
+    "372504": 134362546000883628,
+    "379812": 134362546001392738,
+    "372208": 134362546001037143,
+    "376416": 134362546003676272,
+    "379528": 134362546003820770,
+    "373872": 134362546004409455,
+    "379264": 134362546022332865
+  },
+  "ownedAfter": {
+    "361448": {
+      "creationBefore": 134362545989588537,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "371616": {
+      "creationBefore": 134362545989691222,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "375572": {
+      "creationBefore": 134362545994559526,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "357608": {
+      "creationBefore": 134362545999386931,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "377276": {
+      "creationBefore": 134362545998928482,
+      "creationAfter": 134362545998928482,
+      "originalIdentityAbsent": false
+    },
+    "372504": {
+      "creationBefore": 134362546000883628,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "379812": {
+      "creationBefore": 134362546001392738,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "372208": {
+      "creationBefore": 134362546001037143,
+      "creationAfter": 134362546001037143,
+      "originalIdentityAbsent": false
+    },
+    "376416": {
+      "creationBefore": 134362546003676272,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "379528": {
+      "creationBefore": 134362546003820770,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "373872": {
+      "creationBefore": 134362546004409455,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "379264": {
+      "creationBefore": 134362546022332865,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    }
+  },
+  "allOriginalIdentitiesAbsent": false,
+  "inclusiveBoundObserved": true
+}

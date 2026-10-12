@@ -1,0 +1,56 @@
+{
+  "writer": "CLOSED",
+  "scope": "Shared camera distance fixes preview wheel mismatch. Source/store check only, actual camera and human lag unqualified.",
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10674,
+      "sha256": "ef5037c5968a467e5bd0ea3b3c70cd829967ec8fa288c53a65543ddbb63e41fc"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3779,
+      "sha256": "58747a7f9a582f4730dd20c05d176a19dff2f6de721b8b497cd2a63f8a8eb180"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 4307,
+      "sha256": "a115099ef9f24d720e19b2b3f0fc6b792f43e0f7421c1695ca06131c15e06272"
+    },
+    {
+      "path": "tools/overhaul-camera-167/check-settings.mts",
+      "bytes": 1625,
+      "sha256": "afb22d325f93f4bcd82fdda48fb41fcf47541b83d76b525adffb8ebde4ad5099"
+    },
+    {
+      "path": "tools/overhaul-camera-167/HANDOFF.md",
+      "bytes": 1448,
+      "sha256": "a594c4197099e51842c4924591c8472a49d2dceb76ec137b0e1addd5b3db06c2"
+    },
+    {
+      "path": "tools/overhaul-camera-167/preimages/CameraRig.tsx",
+      "bytes": 10721,
+      "sha256": "51a81b52a844655565f386eabaae2817323210eb3b1d61c04533e538032f12f5"
+    },
+    {
+      "path": "tools/overhaul-camera-167/preimages/Settings.tsx",
+      "bytes": 4559,
+      "sha256": "42f577cf52d51e240d80e0b04a1402f8821835500124f45fc29b587fd7ae71b7"
+    },
+    {
+      "path": "tools/overhaul-camera-167/preimages/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "tools/overhaul-camera-167/seal.py",
+      "bytes": 731,
+      "sha256": "f70df853d7259cd0178b2ab2253adc6af2d4309a5eea7813c8ff97d513c1ede8"
+    },
+    {
+      "path": "tools/overhaul-camera-167/settings-receipt.json",
+      "bytes": 317,
+      "sha256": "87b6592e3c7af0fed7116127f6b85658f96a29fb8cf8ef9d3596f9fa33daa4f3"
+    }
+  ]
+}

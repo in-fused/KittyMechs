@@ -1,0 +1,13 @@
+# Gait058C export-only independent source review
+
+Verdict: **APPROVE one root-owned export-only attempt and conditional graft, total≤180s, with first failure STOP and no retry.** Fresh destination guard and serial cleanup belong to root. No reviewer heavy job or implementation change.
+
+All25 protected rows match. Export source `e62a576947f9daef216398faa897cea1cb6fa99536305c10946daebee474242b`, graft `028b3ab733e7b33a02d2fbec9c9872657b862b3e3fa261fa97d117c2e8ed769e`, ledger `56b3e2e8f984d8f7b085d0fc3fd5789cd2c2fb9e73af93b9965e74a204e18de8`. Failed B and its immutable saved master remain inputs, not overwritten or relabeled successful.
+
+C correctly replaces the unjustified transient merged-object assumption with the durable019 catalog: exactly255 retained authored mesh names/owners, parent rig and armature-modifier ownership are checked. It verifies the saved B whole-scene geometry/rest/UV/weights fingerprint and material record, replays the153 existing keyed clocks against the prior requested57 matrices at the unchanged2e−5 bound, and saves actual matrices before a replay rejection. There is no solver call, key insertion, merged mesh construction or master save. Selecting the real assembly/unhiding only for temporary export does not alter source geometry or bind data. The final candidate still uses original034 render resources; temporary mesh geometry is not grafted.
+
+The graft remains the B contract with new paths and clearer core-failure reporting:57 joint parents/inverse binds, selected track/clock/interpolation identity, strict core/tail2e−5, original resource/binary/accessor prefixes and38 nonselected animations. Its LINEAR-only analytical prerequisite is explicit. Any existing exporter STEP channels, core mismatch, bind mismatch or source residual is a genuine first failure, not permission to broaden this packet. Root may run graft only after export exit0 **and** `SAVED058B_EXPORT_ONLY`; missing/failed receipt stops.
+
+Required preservation: root exact command/provenance, before/after protected hashes, actual duration/process closure, saved-key readback, temporary export and first receipt/error. A partly written candidate GLB cannot be admitted without successful final graft verification/receipt. This permission is first export of already authored B curves, not a reauthoring retry.
+
+Limits from B remain. End-point ankle cancellation is source kinematics only, not continuous pad clearance/contact/native support; consumer cycleStart/end is still separate. Both-stance ordinary motion, acceleration/turn/reversal/R, finished art, multiplayer/full mission and Gate1 remain incomplete. No public integration is authorized by this source gate. Reviewer writer closed; jobs zero.

@@ -1,0 +1,4121 @@
+{
+  "schema": 2,
+  "provenance": "Actual GLB JSON inventories; semantic assignments are new candidate choreography, not source acceptance",
+  "profiles": [
+    {
+      "path": "public/assets/models/Pounce_Quadruped.glb",
+      "sha256": "511B7AA14CE7EBF5B4A384250B4C0112C5EAAD66565F029F15FAF358BE8F21E7",
+      "kind": "legacy-pounce",
+      "base": [
+        "FelineIdle",
+        "FelineWalk",
+        "FelineTrot",
+        "FelineGallop",
+        "FelineAir",
+        "FelineUprightIdle",
+        null,
+        "FelineUprightAir",
+        "FelineTransformUp",
+        "FelineTransformDown",
+        "FelineGrab",
+        "FelineCling",
+        "FelineClimb",
+        "FelineMantle",
+        "FelineTurnLeft",
+        "FelineTurnRight",
+        "FelineUprightWalkLong",
+        "FelineUprightStride",
+        "FelineUprightTurnLeft",
+        "FelineUprightTurnRight"
+      ],
+      "reactions": [
+        [
+          "FelinePulse",
+          "FelineMissile",
+          "FelineAbility",
+          "FelineHit",
+          "FelineDeath"
+        ],
+        [
+          "FelineUprightPulse",
+          "FelineUprightMissile",
+          "FelineUprightAbility",
+          "FelineUprightHit",
+          "FelineUprightDeath"
+        ]
+      ],
+      "references": [
+        "FelineCombatBase",
+        "FelineUprightCombatBase"
+      ],
+      "grab": "authored-grab",
+      "grabDuration": 0.3,
+      "ability": "authored-combat-overlay",
+      "pairSource": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "pairCapability": "authority-pounce-only",
+      "rig": [
+        {
+          "name": "root",
+          "parent": "FelineWeb_Rig",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "translation": [
+            0,
+            1.5499999523162842,
+            -0.7799999713897705
+          ],
+          "rotation": [
+            0.6684935092926025,
+            0,
+            0,
+            0.7437180280685425
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "translation": [
+            0,
+            0.6774864196777344,
+            0.022096488624811172
+          ],
+          "rotation": [
+            -0.01503672543913126,
+            0,
+            0,
+            0.9998869895935059
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.7348361611366272,
+            -7.450580596923828e-09
+          ],
+          "rotation": [
+            -0.036992061883211136,
+            0,
+            0,
+            0.9993155598640442
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "chest",
+          "translation": [
+            0,
+            0.529416561126709,
+            0.010865971446037292
+          ],
+          "rotation": [
+            0.057293664664030075,
+            0,
+            0,
+            0.998357355594635
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_L",
+          "parent": "chest",
+          "translation": [
+            -0.5600000023841858,
+            0.4940239489078522,
+            -0.22166267037391663
+          ],
+          "rotation": [
+            4.592336733111324e-09,
+            -0.9944658279418945,
+            -0.10506043583154678,
+            4.3469476906921045e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_R",
+          "parent": "chest",
+          "translation": [
+            0.5600000023841858,
+            0.4940239489078522,
+            -0.22166267037391663
+          ],
+          "rotation": [
+            4.592336733111324e-09,
+            -0.9944658279418945,
+            -0.10506043583154678,
+            4.3469476906921045e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_upper",
+          "parent": "chest",
+          "translation": [
+            -0.7300000190734863,
+            0.284771591424942,
+            0.060848623514175415
+          ],
+          "rotation": [
+            0.894152820110321,
+            0,
+            0,
+            0.4477618932723999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_lower",
+          "parent": "FL_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.8698253631591797,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            -0.4889575242996216,
+            0,
+            0,
+            0.8723075985908508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_paw",
+          "parent": "FL_lower",
+          "translation": [
+            5.960464477539063e-08,
+            0.878535807132721,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.0586627513807798e-08,
+            -0.8821507692337036,
+            0.4709670841693878,
+            3.856004227031917e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_upper",
+          "parent": "chest",
+          "translation": [
+            0.7300000190734863,
+            0.284771591424942,
+            0.060848623514175415
+          ],
+          "rotation": [
+            0.894152820110321,
+            0,
+            0,
+            0.4477618932723999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_lower",
+          "parent": "FR_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.8698253631591797,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            -0.4889575242996216,
+            0,
+            0,
+            0.8723075985908508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_paw",
+          "parent": "FR_lower",
+          "translation": [
+            -5.960464477539063e-08,
+            0.878535807132721,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.0586627513807798e-08,
+            -0.8821507692337036,
+            0.4709670841693878,
+            3.856004227031917e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "launcher",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.04393712431192398,
+            -0.5491293668746948
+          ],
+          "rotation": [
+            2.9811708657234703e-09,
+            -0.9976716041564941,
+            -0.06820125132799149,
+            4.360961369798133e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_0",
+          "parent": "spine",
+          "translation": [
+            0,
+            -1.0167165994644165,
+            -0.24059796333312988
+          ],
+          "rotation": [
+            0.9974648952484131,
+            0,
+            0,
+            0.07115979492664337
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_1",
+          "parent": "tail_0",
+          "translation": [
+            0,
+            0.5084539651870728,
+            -5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_2",
+          "parent": "tail_1",
+          "translation": [
+            0,
+            0.5084537267684937,
+            -1.7881393432617188e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_3",
+          "parent": "tail_2",
+          "translation": [
+            0,
+            0.5084540843963623,
+            -2.384185791015625e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_4",
+          "parent": "tail_3",
+          "translation": [
+            0,
+            0.5084538459777832,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_upper",
+          "parent": "pelvis",
+          "translation": [
+            -0.7300000190734863,
+            -0.14980560541152954,
+            -0.06628933548927307
+          ],
+          "rotation": [
+            0.5281614065170288,
+            0,
+            0,
+            0.8491440415382385
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_lower",
+          "parent": "HL_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.8166360855102539,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            0.5577375888824463,
+            0,
+            0,
+            0.8300173878669739
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_paw",
+          "parent": "HL_lower",
+          "translation": [
+            0,
+            0.896270215511322,
+            1.4901161193847656e-08
+          ],
+          "rotation": [
+            -3.885376997914136e-08,
+            0.45815810561180115,
+            -0.8888707160949707,
+            2.0026730496169876e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_upper",
+          "parent": "pelvis",
+          "translation": [
+            0.7300000190734863,
+            -0.14980560541152954,
+            -0.06628933548927307
+          ],
+          "rotation": [
+            0.5281614065170288,
+            0,
+            0,
+            0.8491440415382385
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_lower",
+          "parent": "HR_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.8166360855102539,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            0.5577375888824463,
+            0,
+            0,
+            0.8300173878669739
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_paw",
+          "parent": "HR_lower",
+          "translation": [
+            0,
+            0.896270215511322,
+            1.4901161193847656e-08
+          ],
+          "rotation": [
+            -3.885376997914136e-08,
+            0.45815810561180115,
+            -0.8888707160949707,
+            2.0026730496169876e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "trackLayout": [
+        "FL_lower.position",
+        "FL_lower.quaternion",
+        "FL_lower.scale",
+        "FL_paw.position",
+        "FL_paw.quaternion",
+        "FL_paw.scale",
+        "FL_upper.position",
+        "FL_upper.quaternion",
+        "FL_upper.scale",
+        "FR_lower.position",
+        "FR_lower.quaternion",
+        "FR_lower.scale",
+        "FR_paw.position",
+        "FR_paw.quaternion",
+        "FR_paw.scale",
+        "FR_upper.position",
+        "FR_upper.quaternion",
+        "FR_upper.scale",
+        "HL_lower.position",
+        "HL_lower.quaternion",
+        "HL_lower.scale",
+        "HL_paw.position",
+        "HL_paw.quaternion",
+        "HL_paw.scale",
+        "HL_upper.position",
+        "HL_upper.quaternion",
+        "HL_upper.scale",
+        "HR_lower.position",
+        "HR_lower.quaternion",
+        "HR_lower.scale",
+        "HR_paw.position",
+        "HR_paw.quaternion",
+        "HR_paw.scale",
+        "HR_upper.position",
+        "HR_upper.quaternion",
+        "HR_upper.scale",
+        "chest.position",
+        "chest.quaternion",
+        "chest.scale",
+        "head.position",
+        "head.quaternion",
+        "head.scale",
+        "launcher.position",
+        "launcher.quaternion",
+        "launcher.scale",
+        "pelvis.position",
+        "pelvis.quaternion",
+        "pelvis.scale",
+        "root.position",
+        "root.quaternion",
+        "root.scale",
+        "spine.position",
+        "spine.quaternion",
+        "spine.scale",
+        "tail_0.position",
+        "tail_0.quaternion",
+        "tail_0.scale",
+        "tail_1.position",
+        "tail_1.quaternion",
+        "tail_1.scale",
+        "tail_2.position",
+        "tail_2.quaternion",
+        "tail_2.scale",
+        "tail_3.position",
+        "tail_3.quaternion",
+        "tail_3.scale",
+        "tail_4.position",
+        "tail_4.quaternion",
+        "tail_4.scale",
+        "weapon_L.position",
+        "weapon_L.quaternion",
+        "weapon_L.scale",
+        "weapon_R.position",
+        "weapon_R.quaternion",
+        "weapon_R.scale"
+      ],
+      "clips": {
+        "FelineAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineAir": {
+          "duration": 1.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineClimb": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCling": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGallop": {
+          "duration": 0.5166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGrab": {
+          "duration": 0.30000001192092896,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineIdle": {
+          "duration": 2.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMantle": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformDown": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformUp": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTrot": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnLeft": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnRight": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAir": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightIdle": {
+          "duration": 2,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightStride": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalk": {
+          "duration": 0.949999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalkLong": {
+          "duration": 1.2000000476837158,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineWalk": {
+          "duration": 1.1666666269302368,
+          "trackCount": 75,
+          "trackLayout": null
+        }
+      }
+    },
+    {
+      "path": "public/assets/models/Bastion_Quadruped.glb",
+      "sha256": "A5F72F08571D22FD0EA891E1769387D22BBF54D26AC2932F37462977359D3DA9",
+      "kind": "legacy-bastion",
+      "base": [
+        "FelineIdle",
+        "FelineWalk",
+        "FelineTrot",
+        "FelineGallop",
+        "FelineAir",
+        "FelineUprightIdle",
+        null,
+        "FelineUprightAir",
+        "FelineTransformUp",
+        "FelineTransformDown",
+        "FelineGrab",
+        "FelineCling",
+        "FelineClimb",
+        "FelineMantle",
+        "FelineTurnLeft",
+        "FelineTurnRight",
+        "FelineUprightWalkLong",
+        "FelineUprightStride",
+        "FelineUprightTurnLeft",
+        "FelineUprightTurnRight"
+      ],
+      "reactions": [
+        [
+          "FelinePulse",
+          "FelineMissile",
+          "FelineAbility",
+          "FelineHit",
+          "FelineDeath"
+        ],
+        [
+          "FelineUprightPulse",
+          "FelineUprightMissile",
+          "FelineUprightAbility",
+          "FelineUprightHit",
+          "FelineUprightDeath"
+        ]
+      ],
+      "references": [
+        "FelineCombatBase",
+        "FelineUprightCombatBase"
+      ],
+      "grab": "authored-grab",
+      "grabDuration": 0.3,
+      "ability": "authored-combat-overlay",
+      "pairSource": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "pairCapability": "authority-pounce-only",
+      "rig": [
+        {
+          "name": "root",
+          "parent": "FelineWeb_Rig",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "translation": [
+            0,
+            1.4725000858306885,
+            -0.6974999904632568
+          ],
+          "rotation": [
+            0.666041910648346,
+            0,
+            0,
+            0.7459143400192261
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "translation": [
+            0,
+            0.6060004234313965,
+            0.02097650244832039
+          ],
+          "rotation": [
+            -0.01594424992799759,
+            0,
+            0,
+            0.9998729228973389
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.6578952074050903,
+            -5.21540641784668e-08
+          ],
+          "rotation": [
+            -0.0391458235681057,
+            0,
+            0,
+            0.9992334842681885
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "chest",
+          "translation": [
+            0,
+            0.47449347376823425,
+            0.010293662548065186
+          ],
+          "rotation": [
+            0.060672976076602936,
+            0,
+            0,
+            0.9981577396392822
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_L",
+          "parent": "chest",
+          "translation": [
+            -0.6272000074386597,
+            0.4482055902481079,
+            -0.20999106764793396
+          ],
+          "rotation": [
+            4.868465186547155e-09,
+            -0.9937781691551208,
+            -0.1113775447010994,
+            4.343942094919839e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_R",
+          "parent": "chest",
+          "translation": [
+            0.6272000074386597,
+            0.4482055902481079,
+            -0.20999106764793396
+          ],
+          "rotation": [
+            4.868465186547155e-09,
+            -0.9937781691551208,
+            -0.1113775447010994,
+            4.343942094919839e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_upper",
+          "parent": "chest",
+          "translation": [
+            -0.8176000118255615,
+            0.25393956899642944,
+            0.0576445609331131
+          ],
+          "rotation": [
+            0.8919411301612854,
+            0,
+            0,
+            0.4521515965461731
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_lower",
+          "parent": "FL_upper",
+          "translation": [
+            0,
+            0.8180468678474426,
+            3.725290298461914e-08
+          ],
+          "rotation": [
+            -0.46692201495170593,
+            0,
+            0,
+            0.8842985033988953
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_paw",
+          "parent": "FL_lower",
+          "translation": [
+            0,
+            0.8197553753852844,
+            -7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.111744556998474e-08,
+            -0.8755592107772827,
+            0.48311081528663635,
+            3.8271906532827416e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_upper",
+          "parent": "chest",
+          "translation": [
+            0.8176000118255615,
+            0.25393956899642944,
+            0.0576445609331131
+          ],
+          "rotation": [
+            0.8919411301612854,
+            0,
+            0,
+            0.4521515965461731
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_lower",
+          "parent": "FR_upper",
+          "translation": [
+            0,
+            0.8180468678474426,
+            3.725290298461914e-08
+          ],
+          "rotation": [
+            -0.46692201495170593,
+            0,
+            0,
+            0.8842985033988953
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_paw",
+          "parent": "FR_lower",
+          "translation": [
+            0,
+            0.8197553753852844,
+            -7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.111744556998474e-08,
+            -0.8755592107772827,
+            0.48311081528663635,
+            3.8271906532827416e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "launcher",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.047841377556324005,
+            -0.5210528373718262
+          ],
+          "rotation": [
+            3.1642648501417625e-09,
+            -0.9973763823509216,
+            -0.07238994538784027,
+            4.359670313647257e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_0",
+          "parent": "spine",
+          "translation": [
+            0,
+            -0.9065353274345398,
+            -0.2282964289188385
+          ],
+          "rotation": [
+            0.9971711039543152,
+            0,
+            0,
+            0.07516483962535858
+          ],
+          "scale": [
+            1,
+            0.9999999403953552,
+            0.9999873638153076
+          ]
+        },
+        {
+          "name": "tail_1",
+          "parent": "tail_0",
+          "translation": [
+            0,
+            0.45688676834106445,
+            1.1920928955078125e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_2",
+          "parent": "tail_1",
+          "translation": [
+            0,
+            0.4568866193294525,
+            5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_3",
+          "parent": "tail_2",
+          "translation": [
+            0,
+            0.45688682794570923,
+            -5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_4",
+          "parent": "tail_3",
+          "translation": [
+            0,
+            0.4568869471549988,
+            5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_upper",
+          "parent": "pelvis",
+          "translation": [
+            -0.8176000118255615,
+            -0.13325323164463043,
+            -0.06292904168367386
+          ],
+          "rotation": [
+            0.542335033416748,
+            0,
+            0,
+            0.8401623368263245
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_lower",
+          "parent": "HL_upper",
+          "translation": [
+            1.1920928955078125e-07,
+            0.7630521059036255,
+            -2.2351741790771484e-08
+          ],
+          "rotation": [
+            0.5345901250839233,
+            0,
+            0,
+            0.8451114892959595
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_paw",
+          "parent": "HL_lower",
+          "translation": [
+            0,
+            0.8349656462669373,
+            0
+          ],
+          "rotation": [
+            -3.856660057977024e-08,
+            -0.47068607807159424,
+            0.8823007345199585,
+            2.0574342229906506e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_upper",
+          "parent": "pelvis",
+          "translation": [
+            0.8176000118255615,
+            -0.13325323164463043,
+            -0.06292904168367386
+          ],
+          "rotation": [
+            0.542335033416748,
+            0,
+            0,
+            0.8401623368263245
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_lower",
+          "parent": "HR_upper",
+          "translation": [
+            -1.1920928955078125e-07,
+            0.7630521059036255,
+            -2.2351741790771484e-08
+          ],
+          "rotation": [
+            0.5345901250839233,
+            0,
+            0,
+            0.8451114892959595
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_paw",
+          "parent": "HR_lower",
+          "translation": [
+            0,
+            0.8349656462669373,
+            0
+          ],
+          "rotation": [
+            -3.856660057977024e-08,
+            -0.47068607807159424,
+            0.8823007345199585,
+            2.0574342229906506e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "trackLayout": [
+        "FL_lower.position",
+        "FL_lower.quaternion",
+        "FL_lower.scale",
+        "FL_paw.position",
+        "FL_paw.quaternion",
+        "FL_paw.scale",
+        "FL_upper.position",
+        "FL_upper.quaternion",
+        "FL_upper.scale",
+        "FR_lower.position",
+        "FR_lower.quaternion",
+        "FR_lower.scale",
+        "FR_paw.position",
+        "FR_paw.quaternion",
+        "FR_paw.scale",
+        "FR_upper.position",
+        "FR_upper.quaternion",
+        "FR_upper.scale",
+        "HL_lower.position",
+        "HL_lower.quaternion",
+        "HL_lower.scale",
+        "HL_paw.position",
+        "HL_paw.quaternion",
+        "HL_paw.scale",
+        "HL_upper.position",
+        "HL_upper.quaternion",
+        "HL_upper.scale",
+        "HR_lower.position",
+        "HR_lower.quaternion",
+        "HR_lower.scale",
+        "HR_paw.position",
+        "HR_paw.quaternion",
+        "HR_paw.scale",
+        "HR_upper.position",
+        "HR_upper.quaternion",
+        "HR_upper.scale",
+        "chest.position",
+        "chest.quaternion",
+        "chest.scale",
+        "head.position",
+        "head.quaternion",
+        "head.scale",
+        "launcher.position",
+        "launcher.quaternion",
+        "launcher.scale",
+        "pelvis.position",
+        "pelvis.quaternion",
+        "pelvis.scale",
+        "root.position",
+        "root.quaternion",
+        "root.scale",
+        "spine.position",
+        "spine.quaternion",
+        "spine.scale",
+        "tail_0.position",
+        "tail_0.quaternion",
+        "tail_0.scale",
+        "tail_1.position",
+        "tail_1.quaternion",
+        "tail_1.scale",
+        "tail_2.position",
+        "tail_2.quaternion",
+        "tail_2.scale",
+        "tail_3.position",
+        "tail_3.quaternion",
+        "tail_3.scale",
+        "tail_4.position",
+        "tail_4.quaternion",
+        "tail_4.scale",
+        "weapon_L.position",
+        "weapon_L.quaternion",
+        "weapon_L.scale",
+        "weapon_R.position",
+        "weapon_R.quaternion",
+        "weapon_R.scale"
+      ],
+      "clips": {
+        "FelineAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineAir": {
+          "duration": 1.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineClimb": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCling": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGallop": {
+          "duration": 0.5166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGrab": {
+          "duration": 0.30000001192092896,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineIdle": {
+          "duration": 2.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMantle": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformDown": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformUp": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTrot": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnLeft": {
+          "duration": 1.2999999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnRight": {
+          "duration": 1.2999999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAir": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightIdle": {
+          "duration": 2,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightStride": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalk": {
+          "duration": 0.949999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalkLong": {
+          "duration": 1.2000000476837158,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineWalk": {
+          "duration": 1.1666666269302368,
+          "trackCount": 75,
+          "trackLayout": null
+        }
+      }
+    },
+    {
+      "path": "public/assets/models/Lynx_Quadruped.glb",
+      "sha256": "1F3A69C7F814FA28728CCED3D15AD148546F0DE92FD1466B6B40C913E9FBCB76",
+      "kind": "legacy-lynx",
+      "base": [
+        "FelineIdle",
+        "FelineWalk",
+        "FelineTrot",
+        "FelineGallop",
+        "FelineAir",
+        "FelineUprightIdle",
+        null,
+        "FelineUprightAir",
+        "FelineTransformUp",
+        "FelineTransformDown",
+        "FelineGrab",
+        "FelineCling",
+        "FelineClimb",
+        "FelineMantle",
+        "FelineTurnLeft",
+        "FelineTurnRight",
+        "FelineUprightWalkLong",
+        "FelineUprightStride",
+        "FelineUprightTurnLeft",
+        "FelineUprightTurnRight"
+      ],
+      "reactions": [
+        [
+          "FelinePulse",
+          "FelineMissile",
+          "FelineAbility",
+          "FelineHit",
+          "FelineDeath"
+        ],
+        [
+          "FelineUprightPulse",
+          "FelineUprightMissile",
+          "FelineUprightAbility",
+          "FelineUprightHit",
+          "FelineUprightDeath"
+        ]
+      ],
+      "references": [
+        "FelineCombatBase",
+        "FelineUprightCombatBase"
+      ],
+      "grab": "authored-grab",
+      "grabDuration": 0.3,
+      "ability": "authored-combat-overlay",
+      "pairSource": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "pairCapability": "authority-pounce-only",
+      "rig": [
+        {
+          "name": "root",
+          "parent": "FelineWeb_Rig",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "translation": [
+            0,
+            1.7979999780654907,
+            -0.8100000023841858
+          ],
+          "rotation": [
+            0.6638897657394409,
+            0,
+            0,
+            0.7478304505348206
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "translation": [
+            0,
+            0.703926682472229,
+            0.02559623494744301
+          ],
+          "rotation": [
+            -0.016735050827264786,
+            0,
+            0,
+            0.9998599886894226
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.7648478150367737,
+            5.960464477539063e-08
+          ],
+          "rotation": [
+            -0.041012465953826904,
+            0,
+            0,
+            0.9991586208343506
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "chest",
+          "translation": [
+            0,
+            0.5521765947341919,
+            0.012536764144897461
+          ],
+          "rotation": [
+            0.06360835582017899,
+            0,
+            0,
+            0.9979749917984009
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_L",
+          "parent": "chest",
+          "translation": [
+            -0.4368000030517578,
+            0.5273846387863159,
+            -0.2557491958141327
+          ],
+          "rotation": [
+            5.109074940889968e-09,
+            0.9931458234786987,
+            0.11688201129436493,
+            4.3411780836777325e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_R",
+          "parent": "chest",
+          "translation": [
+            0.4368000030517578,
+            0.5273846387863159,
+            -0.2557491958141327
+          ],
+          "rotation": [
+            5.109074940889968e-09,
+            0.9931458234786987,
+            0.11688201129436493,
+            4.3411780836777325e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_upper",
+          "parent": "chest",
+          "translation": [
+            -0.5694000124931335,
+            0.2941375970840454,
+            0.07020573318004608
+          ],
+          "rotation": [
+            0.8903706669807434,
+            0,
+            0,
+            0.4552362561225891
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_lower",
+          "parent": "FL_upper",
+          "translation": [
+            0,
+            0.991298496723175,
+            4.470348358154297e-08
+          ],
+          "rotation": [
+            -0.44896993041038513,
+            0,
+            0,
+            0.8935468792915344
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_paw",
+          "parent": "FL_lower",
+          "translation": [
+            0,
+            0.9872833490371704,
+            -7.450580596923828e-08
+          ],
+          "rotation": [
+            -2.1544472872392362e-08,
+            0.870097279548645,
+            -0.49288007616996765,
+            3.8033153515470985e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_upper",
+          "parent": "chest",
+          "translation": [
+            0.5694000124931335,
+            0.2941375970840454,
+            0.07020573318004608
+          ],
+          "rotation": [
+            0.8903706669807434,
+            0,
+            0,
+            0.4552362561225891
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_lower",
+          "parent": "FR_upper",
+          "translation": [
+            0,
+            0.991298496723175,
+            4.470348358154297e-08
+          ],
+          "rotation": [
+            -0.44896993041038513,
+            0,
+            0,
+            0.8935468792915344
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_paw",
+          "parent": "FR_lower",
+          "translation": [
+            0,
+            0.9872833490371704,
+            -7.450580596923828e-08
+          ],
+          "rotation": [
+            -2.1544472872392362e-08,
+            0.870097279548645,
+            -0.49288007616996765,
+            3.8033153515470985e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "launcher",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.0647365152835846,
+            -0.6355339288711548
+          ],
+          "rotation": [
+            3.324353903266797e-09,
+            0.9971038699150085,
+            0.07605235278606415,
+            4.358479088750755e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_0",
+          "parent": "spine",
+          "translation": [
+            0,
+            -1.0499138832092285,
+            -0.27845513820648193
+          ],
+          "rotation": [
+            0.9969050288200378,
+            0,
+            0,
+            0.07861551642417908
+          ],
+          "scale": [
+            1,
+            1,
+            1.000011920928955
+          ]
+        },
+        {
+          "name": "tail_1",
+          "parent": "tail_0",
+          "translation": [
+            0,
+            0.5329461097717285,
+            -1.1920928955078125e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_2",
+          "parent": "tail_1",
+          "translation": [
+            0,
+            0.5329458713531494,
+            5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_3",
+          "parent": "tail_2",
+          "translation": [
+            0,
+            0.5329460501670837,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_4",
+          "parent": "tail_3",
+          "translation": [
+            0,
+            0.5329462289810181,
+            1.7881393432617188e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_upper",
+          "parent": "pelvis",
+          "translation": [
+            -0.5694000124931335,
+            -0.15398551523685455,
+            -0.07678849995136261
+          ],
+          "rotation": [
+            0.5538613200187683,
+            0,
+            0,
+            0.8326089382171631
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_lower",
+          "parent": "HL_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.9199960231781006,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            0.5155346989631653,
+            0,
+            0,
+            0.8568686842918396
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_paw",
+          "parent": "HL_lower",
+          "translation": [
+            0,
+            1.0043257474899292,
+            2.2351741790771484e-08
+          ],
+          "rotation": [
+            -3.832761308331101e-08,
+            -0.4807940721511841,
+            0.8768335580825806,
+            2.101617546657053e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_upper",
+          "parent": "pelvis",
+          "translation": [
+            0.5694000124931335,
+            -0.15398551523685455,
+            -0.07678849995136261
+          ],
+          "rotation": [
+            0.5538613200187683,
+            0,
+            0,
+            0.8326089382171631
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_lower",
+          "parent": "HR_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.9199960231781006,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            0.5155346989631653,
+            0,
+            0,
+            0.8568686842918396
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_paw",
+          "parent": "HR_lower",
+          "translation": [
+            0,
+            1.0043257474899292,
+            2.2351741790771484e-08
+          ],
+          "rotation": [
+            -3.832761308331101e-08,
+            -0.4807940721511841,
+            0.8768335580825806,
+            2.101617546657053e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "trackLayout": [
+        "FL_lower.position",
+        "FL_lower.quaternion",
+        "FL_lower.scale",
+        "FL_paw.position",
+        "FL_paw.quaternion",
+        "FL_paw.scale",
+        "FL_upper.position",
+        "FL_upper.quaternion",
+        "FL_upper.scale",
+        "FR_lower.position",
+        "FR_lower.quaternion",
+        "FR_lower.scale",
+        "FR_paw.position",
+        "FR_paw.quaternion",
+        "FR_paw.scale",
+        "FR_upper.position",
+        "FR_upper.quaternion",
+        "FR_upper.scale",
+        "HL_lower.position",
+        "HL_lower.quaternion",
+        "HL_lower.scale",
+        "HL_paw.position",
+        "HL_paw.quaternion",
+        "HL_paw.scale",
+        "HL_upper.position",
+        "HL_upper.quaternion",
+        "HL_upper.scale",
+        "HR_lower.position",
+        "HR_lower.quaternion",
+        "HR_lower.scale",
+        "HR_paw.position",
+        "HR_paw.quaternion",
+        "HR_paw.scale",
+        "HR_upper.position",
+        "HR_upper.quaternion",
+        "HR_upper.scale",
+        "chest.position",
+        "chest.quaternion",
+        "chest.scale",
+        "head.position",
+        "head.quaternion",
+        "head.scale",
+        "launcher.position",
+        "launcher.quaternion",
+        "launcher.scale",
+        "pelvis.position",
+        "pelvis.quaternion",
+        "pelvis.scale",
+        "root.position",
+        "root.quaternion",
+        "root.scale",
+        "spine.position",
+        "spine.quaternion",
+        "spine.scale",
+        "tail_0.position",
+        "tail_0.quaternion",
+        "tail_0.scale",
+        "tail_1.position",
+        "tail_1.quaternion",
+        "tail_1.scale",
+        "tail_2.position",
+        "tail_2.quaternion",
+        "tail_2.scale",
+        "tail_3.position",
+        "tail_3.quaternion",
+        "tail_3.scale",
+        "tail_4.position",
+        "tail_4.quaternion",
+        "tail_4.scale",
+        "weapon_L.position",
+        "weapon_L.quaternion",
+        "weapon_L.scale",
+        "weapon_R.position",
+        "weapon_R.quaternion",
+        "weapon_R.scale"
+      ],
+      "clips": {
+        "FelineAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineAir": {
+          "duration": 1.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineClimb": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCling": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGallop": {
+          "duration": 0.5166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGrab": {
+          "duration": 0.30000001192092896,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineIdle": {
+          "duration": 2.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMantle": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformDown": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformUp": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTrot": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnLeft": {
+          "duration": 0.8500000238418579,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnRight": {
+          "duration": 0.8500000238418579,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAir": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightIdle": {
+          "duration": 2,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightStride": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalk": {
+          "duration": 0.949999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalkLong": {
+          "duration": 1.2000000476837158,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineWalk": {
+          "duration": 1.1666666269302368,
+          "trackCount": 75,
+          "trackLayout": null
+        }
+      }
+    },
+    {
+      "path": "public/assets/models/Caracal_Quadruped.glb",
+      "sha256": "221F492060365B9D73390A34D10581058097C2C7FCCBE1E59D8E5F3A17E68DD4",
+      "kind": "legacy-caracal",
+      "base": [
+        "FelineIdle",
+        "FelineWalk",
+        "FelineTrot",
+        "FelineGallop",
+        "FelineAir",
+        "FelineUprightIdle",
+        null,
+        "FelineUprightAir",
+        "FelineTransformUp",
+        "FelineTransformDown",
+        "FelineGrab",
+        "FelineCling",
+        "FelineClimb",
+        "FelineMantle",
+        "FelineTurnLeft",
+        "FelineTurnRight",
+        "FelineUprightWalkLong",
+        "FelineUprightStride",
+        "FelineUprightTurnLeft",
+        "FelineUprightTurnRight"
+      ],
+      "reactions": [
+        [
+          "FelinePulse",
+          "FelineMissile",
+          "FelineAbility",
+          "FelineHit",
+          "FelineDeath"
+        ],
+        [
+          "FelineUprightPulse",
+          "FelineUprightMissile",
+          "FelineUprightAbility",
+          "FelineUprightHit",
+          "FelineUprightDeath"
+        ]
+      ],
+      "references": [
+        "FelineCombatBase",
+        "FelineUprightCombatBase"
+      ],
+      "grab": "authored-grab",
+      "grabDuration": 0.3,
+      "ability": "authored-combat-overlay",
+      "pairSource": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "pairCapability": "authority-pounce-only",
+      "rig": [
+        {
+          "name": "root",
+          "parent": "FelineWeb_Rig",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "translation": [
+            0,
+            1.627500057220459,
+            -0.7049999833106995
+          ],
+          "rotation": [
+            0.6621297597885132,
+            0,
+            0,
+            0.7493892312049866
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "translation": [
+            0,
+            0.6128140091896057,
+            0.023155810311436653
+          ],
+          "rotation": [
+            -0.017378276214003563,
+            0,
+            0,
+            0.9998490214347839
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.6663250923156738,
+            3.725290298461914e-08
+          ],
+          "rotation": [
+            -0.04252152144908905,
+            0,
+            0,
+            0.9990955591201782
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "chest",
+          "translation": [
+            0,
+            0.4814528226852417,
+            0.011323124170303345
+          ],
+          "rotation": [
+            0.06598605215549469,
+            0,
+            0,
+            0.9978205561637878
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_L",
+          "parent": "chest",
+          "translation": [
+            -0.548799991607666,
+            0.46411919593811035,
+            -0.23098993301391602
+          ],
+          "rotation": [
+            5.30458121872357e-09,
+            -0.9926092028617859,
+            -0.12135466933250427,
+            4.338832937378356e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_R",
+          "parent": "chest",
+          "translation": [
+            0.548799991607666,
+            0.46411919593811035,
+            -0.23098993301391602
+          ],
+          "rotation": [
+            5.30458121872357e-09,
+            -0.9926092028617859,
+            -0.12135466933250427,
+            4.338832937378356e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_upper",
+          "parent": "chest",
+          "translation": [
+            -0.7154000401496887,
+            0.2554476857185364,
+            0.06340901553630829
+          ],
+          "rotation": [
+            0.8893169164657593,
+            0,
+            0,
+            0.4572913944721222
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_lower",
+          "parent": "FL_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.8923628926277161,
+            -5.21540641784668e-08
+          ],
+          "rotation": [
+            -0.43517643213272095,
+            0,
+            0,
+            0.9003452062606812
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_paw",
+          "parent": "FL_lower",
+          "translation": [
+            0,
+            0.8847087025642395,
+            2.2351741790771484e-08
+          ],
+          "rotation": [
+            -2.186938630188706e-08,
+            -0.8658444285392761,
+            0.5003133416175842,
+            3.784726132494143e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_upper",
+          "parent": "chest",
+          "translation": [
+            0.7154000401496887,
+            0.2554476857185364,
+            0.06340901553630829
+          ],
+          "rotation": [
+            0.8893169164657593,
+            0,
+            0,
+            0.4572913944721222
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_lower",
+          "parent": "FR_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.8923628926277161,
+            -5.21540641784668e-08
+          ],
+          "rotation": [
+            -0.43517643213272095,
+            0,
+            0,
+            0.9003452062606812
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_paw",
+          "parent": "FR_lower",
+          "translation": [
+            0,
+            0.8847087025642395,
+            2.2351741790771484e-08
+          ],
+          "rotation": [
+            -2.186938630188706e-08,
+            -0.8658444285392761,
+            0.5003133416175842,
+            3.784726132494143e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "launcher",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.06315528601408005,
+            -0.5747286081314087
+          ],
+          "rotation": [
+            3.454848407358213e-09,
+            0.9968716502189636,
+            0.07903772592544556,
+            4.35746443372409e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_0",
+          "parent": "spine",
+          "translation": [
+            0,
+            -0.9117098450660706,
+            -0.251814067363739
+          ],
+          "rotation": [
+            0.9966820478439331,
+            0,
+            0,
+            0.08139362186193466
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_1",
+          "parent": "tail_0",
+          "translation": [
+            0,
+            0.46561411023139954,
+            1.4901161193847656e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_2",
+          "parent": "tail_1",
+          "translation": [
+            0,
+            0.46561381220817566,
+            5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_3",
+          "parent": "tail_2",
+          "translation": [
+            0,
+            0.4656141996383667,
+            1.1920928955078125e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_4",
+          "parent": "tail_3",
+          "translation": [
+            0,
+            0.46561381220817566,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_upper",
+          "parent": "pelvis",
+          "translation": [
+            -0.7154000401496887,
+            -0.13346005976200104,
+            -0.06946688145399094
+          ],
+          "rotation": [
+            0.5627171397209167,
+            0,
+            0,
+            0.82664954662323
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_lower",
+          "parent": "HL_upper",
+          "translation": [
+            0,
+            0.8250864148139954,
+            -2.2351741790771484e-08
+          ],
+          "rotation": [
+            0.5007770657539368,
+            0,
+            0,
+            0.8655763268470764
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_paw",
+          "parent": "HL_lower",
+          "translation": [
+            0,
+            0.8991231322288513,
+            0
+          ],
+          "rotation": [
+            -3.8140932190344756e-08,
+            0.48850202560424805,
+            -0.8725627660751343,
+            2.1353100621013255e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_upper",
+          "parent": "pelvis",
+          "translation": [
+            0.7154000401496887,
+            -0.13346005976200104,
+            -0.06946688145399094
+          ],
+          "rotation": [
+            0.5627171397209167,
+            0,
+            0,
+            0.82664954662323
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_lower",
+          "parent": "HR_upper",
+          "translation": [
+            0,
+            0.8250864148139954,
+            -2.2351741790771484e-08
+          ],
+          "rotation": [
+            0.5007770657539368,
+            0,
+            0,
+            0.8655763268470764
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_paw",
+          "parent": "HR_lower",
+          "translation": [
+            0,
+            0.8991231322288513,
+            0
+          ],
+          "rotation": [
+            -3.8140932190344756e-08,
+            0.48850202560424805,
+            -0.8725627660751343,
+            2.1353100621013255e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "trackLayout": [
+        "FL_lower.position",
+        "FL_lower.quaternion",
+        "FL_lower.scale",
+        "FL_paw.position",
+        "FL_paw.quaternion",
+        "FL_paw.scale",
+        "FL_upper.position",
+        "FL_upper.quaternion",
+        "FL_upper.scale",
+        "FR_lower.position",
+        "FR_lower.quaternion",
+        "FR_lower.scale",
+        "FR_paw.position",
+        "FR_paw.quaternion",
+        "FR_paw.scale",
+        "FR_upper.position",
+        "FR_upper.quaternion",
+        "FR_upper.scale",
+        "HL_lower.position",
+        "HL_lower.quaternion",
+        "HL_lower.scale",
+        "HL_paw.position",
+        "HL_paw.quaternion",
+        "HL_paw.scale",
+        "HL_upper.position",
+        "HL_upper.quaternion",
+        "HL_upper.scale",
+        "HR_lower.position",
+        "HR_lower.quaternion",
+        "HR_lower.scale",
+        "HR_paw.position",
+        "HR_paw.quaternion",
+        "HR_paw.scale",
+        "HR_upper.position",
+        "HR_upper.quaternion",
+        "HR_upper.scale",
+        "chest.position",
+        "chest.quaternion",
+        "chest.scale",
+        "head.position",
+        "head.quaternion",
+        "head.scale",
+        "launcher.position",
+        "launcher.quaternion",
+        "launcher.scale",
+        "pelvis.position",
+        "pelvis.quaternion",
+        "pelvis.scale",
+        "root.position",
+        "root.quaternion",
+        "root.scale",
+        "spine.position",
+        "spine.quaternion",
+        "spine.scale",
+        "tail_0.position",
+        "tail_0.quaternion",
+        "tail_0.scale",
+        "tail_1.position",
+        "tail_1.quaternion",
+        "tail_1.scale",
+        "tail_2.position",
+        "tail_2.quaternion",
+        "tail_2.scale",
+        "tail_3.position",
+        "tail_3.quaternion",
+        "tail_3.scale",
+        "tail_4.position",
+        "tail_4.quaternion",
+        "tail_4.scale",
+        "weapon_L.position",
+        "weapon_L.quaternion",
+        "weapon_L.scale",
+        "weapon_R.position",
+        "weapon_R.quaternion",
+        "weapon_R.scale"
+      ],
+      "clips": {
+        "FelineAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineAir": {
+          "duration": 1.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineClimb": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCling": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGallop": {
+          "duration": 0.5166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGrab": {
+          "duration": 0.30000001192092896,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineIdle": {
+          "duration": 2.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMantle": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformDown": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformUp": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTrot": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAbility": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAir": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightIdle": {
+          "duration": 2,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightStride": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalk": {
+          "duration": 0.949999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalkLong": {
+          "duration": 1.2000000476837158,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineWalk": {
+          "duration": 1.1666666269302368,
+          "trackCount": 75,
+          "trackLayout": null
+        }
+      }
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "sha256": "DEE43000CFAA77CDA9801DB7916344B8B3CC5EB7D71589DD8D54CCA1A0D6758B",
+      "kind": "overhaul-pounce-v3",
+      "base": [
+        "FelineIdle",
+        "FelineWalk",
+        "FelineTrot",
+        "FelineGallop",
+        "FelineAir",
+        "FelineUprightIdle",
+        null,
+        "FelineUprightAir",
+        "FelineTransformUp",
+        "FelineTransformDown",
+        null,
+        "FelineCling",
+        "FelineClimb",
+        "FelineMantle",
+        "FelineTurnLeft",
+        "FelineTurnRight",
+        "FelineUprightWalkLong",
+        "FelineUprightStride",
+        "FelineUprightTurnLeft",
+        "FelineUprightTurnRight"
+      ],
+      "reactions": [
+        [
+          "FelinePulse",
+          "FelineMissile",
+          null,
+          "FelineHit",
+          "FelineDeath"
+        ],
+        [
+          "FelineUprightPulse",
+          "FelineUprightMissile",
+          null,
+          "FelineUprightHit",
+          "FelineUprightDeath"
+        ]
+      ],
+      "references": [
+        "FelineCombatBase",
+        "FelineUprightCombatBase"
+      ],
+      "grab": "bounded-air-to-cling",
+      "grabDuration": 0.3,
+      "ability": "authority-strike-pair-world-effect",
+      "pairSource": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "pairCapability": "authority-pounce-only",
+      "rig": [
+        {
+          "name": "root",
+          "parent": "Pounce_Overhaul_Rig",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pelvis",
+          "parent": "root",
+          "translation": [
+            0,
+            1.5499999523162842,
+            -0.7799999713897705
+          ],
+          "rotation": [
+            0.6684935092926025,
+            0,
+            0,
+            0.7437180280685425
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "spine",
+          "parent": "pelvis",
+          "translation": [
+            0,
+            0.6774864196777344,
+            0.022096488624811172
+          ],
+          "rotation": [
+            -0.01503672543913126,
+            0,
+            0,
+            0.9998869895935059
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "chest",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.7348361611366272,
+            -7.450580596923828e-09
+          ],
+          "rotation": [
+            -0.036992061883211136,
+            0,
+            0,
+            0.9993155598640442
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "chest",
+          "translation": [
+            0,
+            0.529416561126709,
+            0.010865971446037292
+          ],
+          "rotation": [
+            0.057293664664030075,
+            0,
+            0,
+            0.998357355594635
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_L",
+          "parent": "chest",
+          "translation": [
+            -0.5600000023841858,
+            0.4940239489078522,
+            -0.22166267037391663
+          ],
+          "rotation": [
+            4.592336733111324e-09,
+            -0.9944658279418945,
+            -0.10506043583154678,
+            4.3469476906921045e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "weapon_R",
+          "parent": "chest",
+          "translation": [
+            0.5600000023841858,
+            0.4940239489078522,
+            -0.22166267037391663
+          ],
+          "rotation": [
+            4.592336733111324e-09,
+            -0.9944658279418945,
+            -0.10506043583154678,
+            4.3469476906921045e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_upper",
+          "parent": "chest",
+          "translation": [
+            -0.7300000190734863,
+            0.284771591424942,
+            0.060848623514175415
+          ],
+          "rotation": [
+            0.894152820110321,
+            0,
+            0,
+            0.4477618932723999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_lower",
+          "parent": "FL_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.8698253631591797,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            -0.4889575242996216,
+            0,
+            0,
+            0.8723075985908508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FL_paw",
+          "parent": "FL_lower",
+          "translation": [
+            5.960464477539063e-08,
+            0.878535807132721,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.0586627513807798e-08,
+            -0.8821507692337036,
+            0.4709670841693878,
+            3.856004227031917e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_upper",
+          "parent": "chest",
+          "translation": [
+            0.7300000190734863,
+            0.284771591424942,
+            0.060848623514175415
+          ],
+          "rotation": [
+            0.894152820110321,
+            0,
+            0,
+            0.4477618932723999
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_lower",
+          "parent": "FR_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.8698253631591797,
+            2.9802322387695312e-08
+          ],
+          "rotation": [
+            -0.4889575242996216,
+            0,
+            0,
+            0.8723075985908508
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "FR_paw",
+          "parent": "FR_lower",
+          "translation": [
+            -5.960464477539063e-08,
+            0.878535807132721,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            -2.0586627513807798e-08,
+            -0.8821507692337036,
+            0.4709670841693878,
+            3.856004227031917e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "launcher",
+          "parent": "spine",
+          "translation": [
+            0,
+            0.04393712431192398,
+            -0.5491293668746948
+          ],
+          "rotation": [
+            2.9811708657234703e-09,
+            -0.9976716041564941,
+            -0.06820125132799149,
+            4.360961369798133e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_0",
+          "parent": "spine",
+          "translation": [
+            0,
+            -1.0167165994644165,
+            -0.24059796333312988
+          ],
+          "rotation": [
+            0.9974648952484131,
+            0,
+            0,
+            0.07115979492664337
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_1",
+          "parent": "tail_0",
+          "translation": [
+            0,
+            0.5084539651870728,
+            -5.960464477539063e-08
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_2",
+          "parent": "tail_1",
+          "translation": [
+            0,
+            0.5084537267684937,
+            -1.7881393432617188e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_3",
+          "parent": "tail_2",
+          "translation": [
+            0,
+            0.5084540843963623,
+            -2.384185791015625e-07
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "tail_4",
+          "parent": "tail_3",
+          "translation": [
+            0,
+            0.5084538459777832,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_upper",
+          "parent": "pelvis",
+          "translation": [
+            -0.7300000190734863,
+            -0.14980560541152954,
+            -0.06628933548927307
+          ],
+          "rotation": [
+            0.5281614065170288,
+            0,
+            0,
+            0.8491440415382385
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_lower",
+          "parent": "HL_upper",
+          "translation": [
+            5.960464477539063e-08,
+            0.8166360855102539,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            0.5577375888824463,
+            0,
+            0,
+            0.8300173878669739
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HL_paw",
+          "parent": "HL_lower",
+          "translation": [
+            0,
+            0.896270215511322,
+            1.4901161193847656e-08
+          ],
+          "rotation": [
+            -3.885376997914136e-08,
+            0.45815810561180115,
+            -0.8888707160949707,
+            2.0026730496169876e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_upper",
+          "parent": "pelvis",
+          "translation": [
+            0.7300000190734863,
+            -0.14980560541152954,
+            -0.06628933548927307
+          ],
+          "rotation": [
+            0.5281614065170288,
+            0,
+            0,
+            0.8491440415382385
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_lower",
+          "parent": "HR_upper",
+          "translation": [
+            -5.960464477539063e-08,
+            0.8166360855102539,
+            7.450580596923828e-09
+          ],
+          "rotation": [
+            0.5577375888824463,
+            0,
+            0,
+            0.8300173878669739
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "HR_paw",
+          "parent": "HR_lower",
+          "translation": [
+            0,
+            0.896270215511322,
+            1.4901161193847656e-08
+          ],
+          "rotation": [
+            -3.885376997914136e-08,
+            0.45815810561180115,
+            -0.8888707160949707,
+            2.0026730496169876e-08
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "trackLayout": [
+        "FL_lower.position",
+        "FL_lower.quaternion",
+        "FL_lower.scale",
+        "FL_paw.position",
+        "FL_paw.quaternion",
+        "FL_paw.scale",
+        "FL_upper.position",
+        "FL_upper.quaternion",
+        "FL_upper.scale",
+        "FR_lower.position",
+        "FR_lower.quaternion",
+        "FR_lower.scale",
+        "FR_paw.position",
+        "FR_paw.quaternion",
+        "FR_paw.scale",
+        "FR_upper.position",
+        "FR_upper.quaternion",
+        "FR_upper.scale",
+        "HL_lower.position",
+        "HL_lower.quaternion",
+        "HL_lower.scale",
+        "HL_paw.position",
+        "HL_paw.quaternion",
+        "HL_paw.scale",
+        "HL_upper.position",
+        "HL_upper.quaternion",
+        "HL_upper.scale",
+        "HR_lower.position",
+        "HR_lower.quaternion",
+        "HR_lower.scale",
+        "HR_paw.position",
+        "HR_paw.quaternion",
+        "HR_paw.scale",
+        "HR_upper.position",
+        "HR_upper.quaternion",
+        "HR_upper.scale",
+        "chest.position",
+        "chest.quaternion",
+        "chest.scale",
+        "head.position",
+        "head.quaternion",
+        "head.scale",
+        "launcher.position",
+        "launcher.quaternion",
+        "launcher.scale",
+        "pelvis.position",
+        "pelvis.quaternion",
+        "pelvis.scale",
+        "root.position",
+        "root.quaternion",
+        "root.scale",
+        "spine.position",
+        "spine.quaternion",
+        "spine.scale",
+        "tail_0.position",
+        "tail_0.quaternion",
+        "tail_0.scale",
+        "tail_1.position",
+        "tail_1.quaternion",
+        "tail_1.scale",
+        "tail_2.position",
+        "tail_2.quaternion",
+        "tail_2.scale",
+        "tail_3.position",
+        "tail_3.quaternion",
+        "tail_3.scale",
+        "tail_4.position",
+        "tail_4.quaternion",
+        "tail_4.scale",
+        "weapon_L.position",
+        "weapon_L.quaternion",
+        "weapon_L.scale",
+        "weapon_R.position",
+        "weapon_R.quaternion",
+        "weapon_R.scale"
+      ],
+      "clips": {
+        "FelineAir": {
+          "duration": 1.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineClimb": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCling": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineGallop": {
+          "duration": 0.5166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineIdle": {
+          "duration": 2.0166666507720947,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineLandingRecovery": {
+          "duration": 0.6000000238418579,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMantle": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairClawAttacker": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairClawAttackerScout": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairClawVictim": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairClawVictimScout": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairEscapeAttacker": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairEscapeAttackerScout": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairEscapeVictim": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairEscapeVictimScout": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairImpactAttacker": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairImpactAttackerScout": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairImpactVictim": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairImpactVictimScout": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairPinAttacker": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairPinAttackerScout": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairPinVictim": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairPinVictimScout": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairReleaseAttacker": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairReleaseAttackerScout": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairReleaseVictim": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePairReleaseVictimScout": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelinePulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineRearLaunch": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTrot": {
+          "duration": 0.699999988079071,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnLeft": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTurnRight": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightAir": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightCombatBase": {
+          "duration": 0.10000000149011612,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightDeath": {
+          "duration": 1.0499999523162842,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightHit": {
+          "duration": 0.3333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightIdle": {
+          "duration": 2,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightMissile": {
+          "duration": 0.4333333373069763,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairClawAttacker": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairClawVictim": {
+          "duration": 0.23333333432674408,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairEscapeAttacker": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairEscapeVictim": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairImpactAttacker": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairImpactVictim": {
+          "duration": 0.2800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairPinAttacker": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairPinVictim": {
+          "duration": 0.800000011920929,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairReleaseAttacker": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPairReleaseVictim": {
+          "duration": 0.3499999940395355,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightPulse": {
+          "duration": 0.21666666865348816,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightStride": {
+          "duration": 0.8999999761581421,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnLeft": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightTurnRight": {
+          "duration": 1.100000023841858,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineUprightWalkLong": {
+          "duration": 1.2000000476837158,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineWalk": {
+          "duration": 1.1666666269302368,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "PounceTackleAttacker": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "PounceTackleVictim": {
+          "duration": 1.5,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformDown": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        },
+        "FelineTransformUp": {
+          "duration": 1,
+          "trackCount": 75,
+          "trackLayout": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "DESIGN_DIAGNOSIS_ONLY_NO_GAME_EDITS_OR_JOBS",
+  "writer": "CLOSED",
+  "inputs": [
+    {
+      "path": "docs/overhaul/critic/player090-play-review.md",
+      "sha256": "90de98a8151b4a00e324c9a80b86e0fb7a0d0d3b5e3549e13d2f6164eb0c7430",
+      "bytes": 5131
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61",
+      "bytes": 15768
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd",
+      "bytes": 6909
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "ac76f154f8b1745183b95c44ac723168e3827efebf86cf53b5b1e1f4bc449dce",
+      "bytes": 13855
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/evidence.json",
+      "sha256": "538dfaaeac58eeb46fa4266c37b7cb48c89f29b6c3ff0b368761c4b6edbb27e8",
+      "bytes": 4357105
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/prototype-quad-reverse.png",
+      "sha256": "7000ff42d24e5dd33ae680618c162d1415b9b0f4cbc9ee1cf62e244860bab360",
+      "bytes": 1022158
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/prototype-moving-R-up.png",
+      "sha256": "69a04edc82fa8b375ca958b3dd3295990ed006c734a5011b9c41291c93a89ce3",
+      "bytes": 987371
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/prototype-moving-R-down.png",
+      "sha256": "69aa585100772d1eea5811242f4a48c642d8c5bd919d03ef9cab22729e3f04ae",
+      "bytes": 956504
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/review-frames/board-02.jpg",
+      "sha256": "12c539449f27eb48c1f0931560a7673484343fe32b9da903909737aec328fe30",
+      "bytes": 763384
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player090-candidate/review-frames/receipt.json",
+      "sha256": "2f559be07ef56cd9825a00515e99fa327e1422f1dd49b11d94cc6c97a848fd3f",
+      "bytes": 1456
+    },
+    {
+      "path": "tools/overhaul-player-integration-090/candidate-seal.json",
+      "sha256": "ce4142e538562cbeb36dca8e5999a1080b7fba3e7c45aef17340c1c05e1d238a",
+      "bytes": 100320
+    },
+    {
+      "path": "tools/overhaul-player-integration-090/syntax-seal.json",
+      "sha256": "3014454209169553585e560678575284da1d6d3797c9d958078aa9edb16985d3",
+      "bytes": 99699
+    },
+    {
+      "path": "tools/overhaul-player-integration-090/result-seal.json",
+      "sha256": "7b3eb7f7abcf9896a1dcac31a03d72098bd9da3d71bb97575aeaa62f85e94629",
+      "bytes": 119404
+    }
+  ]
+}

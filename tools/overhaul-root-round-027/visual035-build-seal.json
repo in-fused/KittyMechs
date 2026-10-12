@@ -1,0 +1,123 @@
+{
+  "frozenUTC": "2026-10-10T21:19:01.675963+00:00",
+  "files": [
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3087,
+      "sha256": "e6f8c17fe7b3f54c0e46c1cff9f1dbbbd9f4fbba4608bd183427977c2bef2a94"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 3133,
+      "sha256": "dc980bf404bd7cdb980104fa03fbdb04ae16a749c3e0d2bf0a35d361678489f1"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 8785,
+      "sha256": "eb221d5c49373453c7438559c90742f6ab840ec7847cfd5f60ce985e9a23b740"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 3670,
+      "sha256": "d76aab8c8e0d917a2f18487795f7a508ce4fc4da46a61d7779094c0fa153629d"
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4142,
+      "sha256": "7ff3f26cacb709b02f7ea0bbf63071bb165a1303f7157d364f033b40210e46b7"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Actor.tsx",
+      "bytes": 4111,
+      "sha256": "7e42fa2e64518d62b0458db1232591bd3b854a33a130efa26dace178a7dcf23f"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": "tools/overhaul-art-player-035.mjs",
+      "bytes": 12885,
+      "sha256": "751063f670cbab2cbc23ea1f1498a7b4553cbc312744a26dd16c0274d7fdc254"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    },
+    {
+      "path": "docs/overhaul/pounce-art-player-035-contract.md",
+      "bytes": 2086,
+      "sha256": "b3b79b001884a16aa1a4eaaac1b6e25376b6d5f65b000e7ff6083d59fa05a06d"
+    },
+    {
+      "path": "tools/overhaul-pounce-art-detail-034/result-seal.json",
+      "bytes": 2730,
+      "sha256": "8518c675fef927cc7995b07e6af0be50053cc7f24af4f24bc5e106230dedb7bb"
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-art-detail-034-material-result-review.md",
+      "bytes": 2236,
+      "sha256": "05fd5acfb7aaf3d99c3c346632cc77f43fc9d79e67369afe7178533c508e80ff"
+    }
+  ],
+  "command": [
+    "cmd.exe",
+    "/d",
+    "/c",
+    "npm.cmd run build"
+  ],
+  "inclusiveCapSeconds": 180,
+  "scope": "One conditional frozen material/camera integration observation; independent acceptance required"
+}

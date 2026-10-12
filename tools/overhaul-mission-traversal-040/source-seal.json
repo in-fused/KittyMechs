@@ -1,0 +1,28 @@
+{
+  "packet": "mission-traversal-040",
+  "sealedUTC": "2026-10-10T23:08:40.5029705Z",
+  "status": "SOURCE_ONLY",
+  "ownedPaths": [
+    {
+      "path": "tools/overhaul-mission-traversal-040/native-diagnostic.mjs",
+      "bytes": 10632,
+      "sha256": "149c69c8fee6a10c968e5361870e4e5649ee71b2ad27d822d5eca0df1926257c"
+    },
+    {
+      "path": "tools/overhaul-mission-traversal-040/mission-capture.mjs",
+      "bytes": 27751,
+      "sha256": "2cb3ab33185f218a2b77b2db22e15a96f9a0b7adf2be1f06e4f9898590546842"
+    },
+    {
+      "path": "docs/overhaul/mission-traversal-040.md",
+      "bytes": 9652,
+      "sha256": "4122ce1557cf4cff6f7d40d7a0f44f9d5e80d308a18088875fa6447987a04983"
+    }
+  ],
+  "handoff": {
+    "path": "tools/overhaul-mission-traversal-040/source-handoff.json",
+    "sha256": "71138c4d3fc29419851adec7707a2873aaba327dc3aa5f0c588295a55f95a3cb"
+  },
+  "immutable032ReceiptSHA256": "457c1f10ff23bdeae812c0ab19d9e7df1c383e733a6b3a72b0f559e95b9350f2",
+  "syntaxChecks": "Both source .mjs files passed node --check. No execution/tests/browser/heavy jobs."
+}

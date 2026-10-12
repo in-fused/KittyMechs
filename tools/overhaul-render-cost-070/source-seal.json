@@ -1,0 +1,86 @@
+{
+  "status": "SOURCE_FROZEN_UNRUN",
+  "writer": "CLOSED",
+  "ownedSourcePaths": [
+    "src/game/world/overhaulIdentityArt.tsx",
+    "src/game/world/rainlineExtractionArt.tsx"
+  ],
+  "commandsForRoot": [
+    "npm run typecheck",
+    "npm run build"
+  ],
+  "validation": "Combine with next finite camera candidate into ONE root build/play review. Include intact view and actual removal/ruin birth. No child tests or heavy jobs. Reject missing or delayed visible art. No achieved performance or actual IAB claim.",
+  "measuredUpperBoundMsPerRecordedInterval": 0.5315373913043479,
+  "files": [
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10614,
+      "sha256": "af4f563ec92f11d483878613a445324653bb0002e6f593f1c52557cc1aef33ff"
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9883,
+      "sha256": "1f5ffb85f21b14cbd113a429ebb55f38fa3a568eec96c4ee0e8a77ed6441a149"
+    },
+    {
+      "path": "tools/overhaul-render-cost-070/preimages/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": "tools/overhaul-render-cost-070/preimages/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900"
+    },
+    {
+      "path": "tools/overhaul-render-cost-070/diagnosis.json",
+      "bytes": 1388,
+      "sha256": "678f884b738be173c8548a41eba008172842e751989cbe92081f8a3d37a3bdc5"
+    },
+    {
+      "path": "docs/overhaul/render-cost-070-direction.md",
+      "bytes": 3889,
+      "sha256": "9cf34c5043065e3683acc3373efec56de57e5da8e27a2556a70c298546c95805"
+    },
+    {
+      "path": "tools/overhaul-profile-069/summary.json",
+      "bytes": 12160,
+      "sha256": "ce65d4a079a79add066ed218fa38f81bc245e87430c26abf7b79a5c1ae8b0ea1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/cpu-profile.json",
+      "bytes": 744236,
+      "sha256": "a52b0dd7d27b490fcbe9f9781dedd960858ea512a3fc89989f98ef884c785378"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-043/playable-root/dist/assets/three-BJhnfouV.js",
+      "bytes": 1248437,
+      "sha256": "ca3b113de4e31bf527a24811b36fff0c7f980426e1f3835454783e7a516f2384"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-043/playable-root/dist/assets/GameCanvas-B0vX_Pba.js",
+      "bytes": 3805034,
+      "sha256": "013d1a8b8c9784c5f2b6b9d49b45a5be75d9ee56ed03bbb8a1904e214d3dbea0"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    }
+  ]
+}

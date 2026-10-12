@@ -1,0 +1,105 @@
+{
+  "packet": "059",
+  "writersClosed": true,
+  "handoff": {
+    "path": "tools/overhaul-low-pixels-059/source-handoff.json",
+    "bytes": 4115,
+    "sha256": "f4d6b92f263b9f06c72e33de8f521a5ed176d6c6c0cc5c4e9c765179fd2feaca"
+  },
+  "files": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 9498,
+      "sha256": "e42833195e6332debb221cb44825a7cd1147e8c4d833c6d861241f37d10330c6"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 4519,
+      "sha256": "daab34ad05f8cb1971e591a7387f3f167f4323c821e3e444697d9b4a57cefc66"
+    },
+    {
+      "path": "src/game/rendering/renderPixelBudget059.ts",
+      "bytes": 693,
+      "sha256": "a0eff4cddbeb7c6ca8d1c03fefff70c6d8233e229a5135bf9771adba77e3ad58"
+    },
+    {
+      "path": "tests/render-pixel-budget-059.test.ts",
+      "bytes": 1771,
+      "sha256": "b9f380a3d2ba0bce9b36c48488bcfc63bd70302f45a38927a16cebc376028f86"
+    },
+    {
+      "path": "tools/overhaul-low-pixels-059/README.md",
+      "bytes": 1946,
+      "sha256": "acfb189dc1356a15572d91a3c40f3da0072e51dfa4d2db1658950951bf4ada5f"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "src/game/rendering/rendererReport.ts",
+      "bytes": 1566,
+      "sha256": "73d4f2c91133532dde213c0dd6bb80f56f27a76d480907122a983bb91f7221ab"
+    },
+    {
+      "path": "tests/renderer-report.test.ts",
+      "bytes": 1993,
+      "sha256": "a42543db50cf9cd23cbcbf12591aa5663d9f7569f232dfefdcf0dbd49aa8e106"
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-low-pixels-059/preimages.json",
+      "bytes": 473,
+      "sha256": "db981f9daecbb0f7c77ed23d381b650b553805e200c18dd4481f03f64be71c8d"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/source-handoff.json",
+      "bytes": 3912,
+      "sha256": "c232e19f6cdd7b1636ef28a68e303cd334fbb815ea53ff3b37cf86c68c12be73"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/source-seal.json",
+      "bytes": 3322,
+      "sha256": "4e62e7f576d69b149b47b0c4b10a01e81b46eff519abd1c45820e3566f818eef"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/world/Objectives.tsx",
+      "bytes": 4271,
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Asset.ts",
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b"
+    },
+    {
+      "path": "tools/overhaul-low-pixels-059/preimages/src__game__GameCanvas.tsx",
+      "bytes": 8760,
+      "sha256": "e50f5dff67246df171a63626d66c6ea128c72dbe9e83b2f2869269a3975c3875"
+    },
+    {
+      "path": "tools/overhaul-low-pixels-059/preimages/src__ui__Settings.tsx",
+      "bytes": 4349,
+      "sha256": "ec83534c1a5912d224d3c46ed6cb85e0639d78ad370f4eb758626023b185ed08"
+    }
+  ]
+}

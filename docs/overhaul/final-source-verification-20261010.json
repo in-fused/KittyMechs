@@ -1,0 +1,25 @@
+{
+  "createdUTC": "2026-10-10T05:36:21.799679+00:00",
+  "scope": "Working source after closed unadmitted bonded-material and source-only motion v6 integrations; does not replace frozen build011 or approve gameplay.",
+  "checks": [
+    {
+      "command": "npm run lint",
+      "session": 83576,
+      "exitCode": 0
+    },
+    {
+      "command": "npm run typecheck",
+      "session": 86454,
+      "exitCode": 0
+    },
+    {
+      "command": "npx vitest run tests/navigation-spatial-index.test.ts tests/overhaul-coop.test.ts tests/overhaul-ruin-surfaces.test.ts tests/overhaul-ruin-impacts.test.ts tests/overhaul-arena-clock.test.ts tests/overhaul-coop-native.test.ts tests/overhaul-coop-defeat.test.ts",
+      "session": 10506,
+      "exitCode": 0,
+      "filesPassed": 7,
+      "testsPassed": 41
+    }
+  ],
+  "build": "Frozen build011 matching source/client/assets retained; final unadmitted working-source experiments were not built into a new playable release.",
+  "review": "Independent mission017 and full Rainline Gate1 pending; agent service thread limit."
+}

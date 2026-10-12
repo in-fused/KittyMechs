@@ -1,0 +1,1168 @@
+{
+  "schema": 2,
+  "status": "APPROVED_BOUNDED_LOCAL_ART_SOURCE_INTEGRATION_PUBLIC_UNAPPROVED",
+  "baselineCommit": null,
+  "provenance": "Original fitted paired shoulder/bearing/tab derivative of retained Bastion scene; exact unchanged rig/action/paw/atlas contracts. No new provider generation. Only attempt006 is current; rejected005 and original ENOSPC climb remain retained.",
+  "deployment": {
+    "publicApproved": false,
+    "publicProcessesUnchanged": true,
+    "globalFourAreas": {
+      "mechs": "PENDING",
+      "maps": "PENDING",
+      "enemyTactics": "PENDING",
+      "integration": "PENDING"
+    },
+    "scope": "Canonical local project asset staging only if root authorizes after exact art/source seal. No published/frozen build replacement, deployment or full-game approval."
+  },
+  "shipping": {
+    "status": "EXACT_CANONICAL_PROJECT_COPIES_NOT_PUBLIC_DEPLOYMENT",
+    "sourceCandidate": "assets/source/bastion-art-v2/attempt-006/Bastion_Quadruped.shipping-candidate.glb",
+    "shippingSha256": "a5f72f08571d22fd0ea891e1769387d22bbf54d26ac2932f37462977359d3da9",
+    "bytes": 1122604,
+    "model": "public/assets/models/Bastion_Quadruped.glb",
+    "destinations": [
+      "public/assets/models/Bastion_Quadruped.glb",
+      "assets/runtime/models/Bastion_Quadruped.glb"
+    ],
+    "cacheRevision": "feline-bastion-art-14",
+    "triangles": 19304,
+    "exportedVertices": 34029,
+    "actualPrimitives": 4,
+    "materials": 4,
+    "uriContract": [
+      "../textures/feline-albedo-v1.webp",
+      "../textures/feline-normal-v1.webp",
+      "../textures/feline-orm-v1.webp"
+    ],
+    "sharedMaps": [
+      {
+        "uri": "../textures/feline-albedo-v1.webp",
+        "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-albedo-v1.webp",
+        "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21",
+        "bytes": 8726,
+        "unchangedFrozenV1": true
+      },
+      {
+        "uri": "../textures/feline-normal-v1.webp",
+        "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-normal-v1.webp",
+        "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22",
+        "bytes": 5614,
+        "unchangedFrozenV1": true
+      },
+      {
+        "uri": "../textures/feline-orm-v1.webp",
+        "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-orm-v1.webp",
+        "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c",
+        "bytes": 3992,
+        "unchangedFrozenV1": true
+      }
+    ],
+    "atlasUnchanged": true,
+    "allUnrelatedPublicAndRuntimeRosterHashesUnchanged": true
+  },
+  "editableSource": {
+    "path": "assets/source/bastion-art-v2/attempt-006/Bastion_Quadruped.art-v2.blend",
+    "sha256": "d860610c2f558aebba5aee745e6fcb413cf5c6e0197ed4ae1b31a3a0442540c5",
+    "sourceParts": 30,
+    "rigidBindGroup": "chest",
+    "scope": "Exact read-only reopened source; no source regeneration/save required for admission."
+  },
+  "preservation": {
+    "status": "EXACT_PRIVATE006_DECODE_AND_CANONICAL_COPY_IDENTITY",
+    "retainedJoints": 25,
+    "retainedAnimations": 32,
+    "retainedAnimationChannels": 2400,
+    "exactRawRigValues": 179233,
+    "unchangedTriangles": 17784,
+    "requiredExactUnchangedTargets": 17784,
+    "rigMapsPawsExact": true,
+    "profile": {
+      "path": ".sites-runtime/bastion-refinement-003/grip-provenance-006/candidate/profiles.json",
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5",
+      "bytes": 1679642,
+      "onlySemanticDelta": "/rigs/1/sha256",
+      "destination": "shared/building-grip-profiles.json",
+      "adoptedCanonicalSha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    "evidence": {
+      "path": ".sites-runtime/bastion-refinement-003/audit-result-006/report.json",
+      "sha256": "8e5bede83dd400c9809a954b14cc408c83fe95aeba3fac21856e7e7fea33f5ad",
+      "bytes": 7184
+    }
+  },
+  "mechanicalAssembly": {
+    "sourceDefinedParts": 30,
+    "ownNonadjacentIntersections": 0,
+    "allExplicitPairs": 435,
+    "observedInterfacePairs": 20,
+    "interfaces": [
+      {
+        "a": {
+          "id": "new-part-0",
+          "name": "L recessed shoulder load bearing",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-1",
+          "name": "L curved segmented shoulder shell 1",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 52,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-0",
+          "name": "L recessed shoulder load bearing",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-2",
+          "name": "L curved segmented shoulder shell 2",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 54,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-0",
+          "name": "L recessed shoulder load bearing",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-3",
+          "name": "L curved segmented shoulder shell 3",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 50,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-0",
+          "name": "L recessed shoulder load bearing",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-4",
+          "name": "L machined nested bearing flange",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 216,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-0",
+          "name": "L recessed shoulder load bearing",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-5",
+          "name": "L recessed bearing center",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 92,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-1",
+          "name": "L curved segmented shoulder shell 1",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-4",
+          "name": "L machined nested bearing flange",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 22,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-1",
+          "name": "L curved segmented shoulder shell 1",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-11",
+          "name": "L recessed collar fastener 0",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 16,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-2",
+          "name": "L curved segmented shoulder shell 2",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-12",
+          "name": "L recessed collar fastener 1",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 16,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-3",
+          "name": "L curved segmented shoulder shell 3",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-13",
+          "name": "L recessed collar fastener 2",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 11,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-5",
+          "name": "L recessed bearing center",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-6",
+          "name": "L protected machined hub face",
+          "sourceHull": 57,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 44,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-14",
+          "name": "R recessed shoulder load bearing",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-15",
+          "name": "R curved segmented shoulder shell 1",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 52,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-14",
+          "name": "R recessed shoulder load bearing",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-16",
+          "name": "R curved segmented shoulder shell 2",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 50,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-14",
+          "name": "R recessed shoulder load bearing",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-17",
+          "name": "R curved segmented shoulder shell 3",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 48,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-14",
+          "name": "R recessed shoulder load bearing",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-18",
+          "name": "R machined nested bearing flange",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 216,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-14",
+          "name": "R recessed shoulder load bearing",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-19",
+          "name": "R recessed bearing center",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 92,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-15",
+          "name": "R curved segmented shoulder shell 1",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-18",
+          "name": "R machined nested bearing flange",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 22,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-15",
+          "name": "R curved segmented shoulder shell 1",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-25",
+          "name": "R recessed collar fastener 0",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 16,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-16",
+          "name": "R curved segmented shoulder shell 2",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-26",
+          "name": "R recessed collar fastener 1",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 16,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-17",
+          "name": "R curved segmented shoulder shell 3",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-27",
+          "name": "R recessed collar fastener 2",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 11,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      },
+      {
+        "a": {
+          "id": "new-part-19",
+          "name": "R recessed bearing center",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "b": {
+          "id": "new-part-20",
+          "name": "R protected machined hub face",
+          "sourceHull": 60,
+          "bone": "chest"
+        },
+        "observedCrossingTrianglePairs": 44,
+        "declaredRole": "EXPLICIT_CHEST_FIXED_MECHANICAL_INTERFACE_SUBJECT_TO_EXACT_FINAL_CRITIC_SCOPE",
+        "scope": "Observed source-defined discrete intersection; not a code waiver, compound union proof or global collision exemption."
+      }
+    ],
+    "finalInterfaceAcceptance": {
+      "receipt": ".sites-runtime/critic/bastion-refinement-002/attempt006-final-art-source-admission-review-001/review.json",
+      "sha256": "a0434aee59f099d886953e077e08f8cc5865100b18b9521964461f60e47d98c4",
+      "scope": "Twenty named chest-fixed mechanical interfaces only; no compound-solid waiver."
+    },
+    "compoundSolidValidity": "UNQUALIFIED"
+  },
+  "actualBodyAndContact": {
+    "completedActual006SurfaceRecords": 43,
+    "modeCounts": {
+      "climb": 12,
+      "fractional": 3,
+      "airstrike": 5,
+      "poses": 23
+    },
+    "unchangedTargetsPerRecord": 17784,
+    "reportedGuardVsUnchangedTargetCrossings": 0,
+    "scope": "Actual006 completed-frame surface/attached-inverse/source-bound observations plus separately sealed contact/profile comparison. No continuous full-volume sweep, arbitrary contact guarantee or equality of unmatched old/new pose timings."
+  },
+  "evidence": {
+    "decodedPreservation": {
+      "path": ".sites-runtime/bastion-refinement-003/audit-result-006/report.json",
+      "sha256": "8e5bede83dd400c9809a954b14cc408c83fe95aeba3fac21856e7e7fea33f5ad",
+      "bytes": 7184
+    },
+    "sourceAuthor": {
+      "path": "assets/source/bastion-art-v2/attempt-006/source-shoulder-receipt.json",
+      "sha256": "f21330c5b6fe272b426a953af9eea17bc0aecc5bdcc1481c7df022568c58db74",
+      "bytes": 252258
+    },
+    "reopenedSource": {
+      "path": ".sites-runtime/bastion-refinement-003/source-parts-006-001/source-parts.json",
+      "sha256": "615508d6e90a3c3686e9b4ace0050a2052b8e4494f23b11e5ecb2815ed2fe637",
+      "bytes": 1517941
+    },
+    "unchanged28PartsComparison": {
+      "path": ".sites-runtime/bastion-refinement-003/source-comparison-005-006-001/source-comparison.json",
+      "sha256": "cf47ae46122dcd1f7076a060314d742a2e8feda38dd1d9028bd4affe06a434d6",
+      "bytes": 1591328
+    },
+    "ownSelfSummary": {
+      "path": ".sites-runtime/bastion-refinement-003/decoded-part-self-006-001/summary.json",
+      "sha256": "2620fb7e2b5eb7a810d1c5d7cadd15ac76247b73a754dd9720a96ff8bed2e1fc",
+      "bytes": 153
+    },
+    "ownSelfSeal": {
+      "path": ".sites-runtime/bastion-refinement-003/decoded-part-self-006-001/seal.json",
+      "sha256": "fe0e37da98d7af19f68912cea904109366aafd4fdab489fd84bdc959af179e37",
+      "bytes": 550
+    },
+    "assemblySummary": {
+      "path": ".sites-runtime/bastion-refinement-003/decoded-assembly-006-001/summary.json",
+      "sha256": "f784aa1a480499012943a370126948761d58503ca6fcd7c6de9d8f0303481f0c",
+      "bytes": 137
+    },
+    "assemblyExplicitPairs": {
+      "path": ".sites-runtime/bastion-refinement-003/decoded-assembly-006-001/assembly-diagnostics.json",
+      "sha256": "88243338851f39a3e7e866f09ac158f75471d8d40442b756fdadaca0a602c169",
+      "bytes": 8696608
+    },
+    "actualBodySurface": {
+      "path": ".sites-runtime/bastion-refinement-003/actual006-clearance-batch-surface-003/aggregate.json",
+      "sha256": "6450e15c08fea12e61604145cf9068ee1022aebb10987bb6707413e954c81d05",
+      "bytes": 60116
+    },
+    "actualBodySurfaceSeal": {
+      "path": ".sites-runtime/bastion-refinement-003/actual006-clearance-batch-surface-003/seal.json",
+      "sha256": "3a0b8717c3948fcc5e117275af2d65456050b776f72eb495feba885d84016d1d",
+      "bytes": 7385
+    },
+    "contact": {
+      "path": ".sites-runtime/bastion-refinement-003/contact-profile-result-006/comparison/receipt.json",
+      "sha256": "7bd78d92ec01d9564bd9b272d42634700f462f978bf4f06907baada5ad76a56f",
+      "bytes": 351365
+    },
+    "contactSeal": {
+      "path": ".sites-runtime/bastion-refinement-003/contact-profile-result-006/seal.json",
+      "sha256": "ad56f295816bb82a8194bd47710e6999277a1bfd240788fbe15fa082ba2bc3d7",
+      "bytes": 3516
+    },
+    "profileProvenance": {
+      "path": ".sites-runtime/bastion-refinement-003/grip-provenance-006/receipt.json",
+      "sha256": "57c90a6a7b982777a9c080282a18329d9c1179d22e20d6e7021c064aec1333d0",
+      "bytes": 918
+    },
+    "profileSeal": {
+      "path": ".sites-runtime/bastion-refinement-003/grip-provenance-006/seal.json",
+      "sha256": "71b906ddbeddf12db9562575c4d1af6882eef34d7abd3d7dcadd1e65650c902b",
+      "bytes": 3716
+    },
+    "staticViews": {
+      "path": ".sites-runtime/bastion-refinement-003/static-captures-006/receipt.json",
+      "sha256": "ea039bb3bee25ff48ad6b2670e5b25c08f134d8c70d33154cfb3d1362df5b2d4",
+      "bytes": 10922
+    }
+  },
+  "budgets": {
+    "maximumTriangles": 22000,
+    "maximumExportedVertices": 36000,
+    "maximumBytesExcludingSharedMaps": 1300000,
+    "maximumPrimitives": 7,
+    "actualPrimitives": 4,
+    "vertexHeadroom": 1971,
+    "atlasCompressedBytes": 18332,
+    "mapSize": 1024,
+    "sharedAtlasUnchanged": true
+  },
+  "localIntegration": {
+    "status": "APPROVE_BOUNDED_ATTEMPT006_LOCAL_CANONICAL_ART_INTEGRATION_ONLY",
+    "needed": [
+      "Four global area approvals and remaining whole-game requirements before public deployment."
+    ],
+    "noPublicDeploymentApproval": true,
+    "stagingReceipt": ".sites-runtime/bastion-refinement-003/local-admission-006-001/receipt.json",
+    "globalReleasePending": true,
+    "rootChecks": {
+      "path": ".sites-runtime/bastion-refinement-003/local-checks-006-001/receipt.json",
+      "bytes": 3359,
+      "sha256": "7c6d098b48e0da29b2a3b102ff6134b795704df80b52652296b483b20e37e8a6"
+    },
+    "focusedTestsPassed": 53,
+    "assetModelsValidated": 30,
+    "noFreshFullUnitSuiteClaim": true,
+    "postCheckReceipt": ".sites-runtime/bastion-refinement-003/local-admission-postchecks-006-002/receipt.json",
+    "retainedFailedCloseout": {
+      "path": ".sites-runtime/bastion-refinement-003/local-admission-postchecks-006-001/root-tool-terminal.json",
+      "exit": 1,
+      "reason": "Windows default cp1252 reader rejected UTF8 JavaScript; successor changes reader/output/baseline metadata only."
+    },
+    "independentReview": {
+      "path": ".sites-runtime/critic/bastion-refinement-002/local-integration-attempt006-review-001/review.json",
+      "sha256": "7db6e6bdfc002c30623e8e6a89777f910ab0a3f4ae75d10a2ca7c55d34ba285d",
+      "completionSeal": ".sites-runtime/critic/bastion-refinement-002/local-integration-attempt006-review-001/completion-seal.json",
+      "completionSealSha256": "4b383b069e3a1674190b6600697962e92893c2b636b2a71b69b822a495b32c12",
+      "scope": "Six exact local art/profile/cache files and focused integration only. Global allfourareas/publicdeployment still unapproved."
+    }
+  },
+  "assetReview": {
+    "decision": "APPROVE_BOUNDED_ATTEMPT006_BASTION_SHOULDER_ART_SOURCE_ADMISSION_ONLY",
+    "reviewer": "/root/critic",
+    "reviewedAt": "2026-10-06T07:00:20.624509+00:00",
+    "sealPath": ".sites-runtime/critic/bastion-refinement-002/attempt006-final-art-source-admission-review-001/review.json",
+    "sealSha256": "a0434aee59f099d886953e077e08f8cc5865100b18b9521964461f60e47d98c4",
+    "completionSeal": ".sites-runtime/critic/bastion-refinement-002/attempt006-final-art-source-admission-review-001/completion-seal.json",
+    "completionSealSha256": "6940a9a6bf6ace9e32e6c8950f7bda2aa00eab79287ddb41538c3f763295be98",
+    "scope": "Exact attempt006 Bastion shoulder source/art admission only. No deployment, global release, AAA or whole-game approval."
+  },
+  "historicalEvidence": {
+    "status": "HISTORICAL_V1_RECEIPT_ONLY_NOT_CURRENT006_APPROVAL_OR_CLAIM",
+    "path": ".sites-runtime/bastion-refinement-003/local-admission-006-001/backup/assets/reference/bastion-art-evidence.json",
+    "sha256": "8be42d40e6ae0a1dd19b60af9e52ad1aa5685cd34d16a2d6541fe1853fe575fc",
+    "bytes": 23959,
+    "entireReceipt": {
+      "schema": 1,
+      "status": "APPROVE_LOCAL_RELEASE_PUBLIC_VERIFICATION_PENDING",
+      "baselineCommit": "cb2bd262c85e7d6f22ecaf5e1d3a1af7d2f406b3",
+      "provenance": "Original Bastion armor/UV derivative of the approved editable feline rig. Reuses the unchanged original analytic Pounce atlas; no new provider generation or catalog asset.",
+      "shipping": {
+        "status": "STAGED_FOR_REVIEW_ONLY",
+        "privateSha256": "a4e0f266d486e07b342295dce693bf2b5c6ce8517a1ab8f9dee645da57f9d321",
+        "shippingSha256": "e6a661449af572b56cfcd2785b9a7df5194618d2c6e00f16d64e5a47b51487fc",
+        "privateBytes": 1145044,
+        "shippingBytes": 1145052,
+        "changedJSONFields": [
+          "images[0].uri",
+          "images[1].uri",
+          "images[2].uri"
+        ],
+        "unchangedBINAndChunkTailSha256": "123ad12b21c983cdf6bfc90cc12477315522b65fd0ffe7c8020561d7d2fcbde1",
+        "destinations": [
+          "assets/runtime/models/Bastion_Quadruped.glb",
+          "public/assets/models/Bastion_Quadruped.glb"
+        ],
+        "uriContract": [
+          "../textures/feline-albedo-v1.webp",
+          "../textures/feline-normal-v1.webp",
+          "../textures/feline-orm-v1.webp"
+        ],
+        "allUnrelatedRosterHashesUnchanged": true,
+        "atlasUnchanged": true,
+        "model": "public/assets/models/Bastion_Quadruped.glb",
+        "cacheRevision": "feline-bastion-art-13",
+        "triangles": 20192,
+        "exportedVertices": 35936,
+        "actualPrimitives": 4,
+        "materials": 4,
+        "sharedMaps": [
+          {
+            "kind": "albedo",
+            "uri": "../textures/feline-albedo-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-albedo-v1.webp",
+            "bytes": 8726,
+            "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21"
+          },
+          {
+            "kind": "normal",
+            "uri": "../textures/feline-normal-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-normal-v1.webp",
+            "bytes": 5614,
+            "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22"
+          },
+          {
+            "kind": "orm",
+            "uri": "../textures/feline-orm-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-orm-v1.webp",
+            "bytes": 3992,
+            "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c"
+          }
+        ]
+      },
+      "editableSource": {
+        "path": "assets/source/bastion-art-v1/Bastion_Quadruped.art-v1.blend",
+        "sha256": "2a3f2c83d9d74b782372545328b2df48833d1f0f6ac7e582788ba3119c751b08",
+        "packedImages": [
+          {
+            "name": "feline-albedo-v1.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "colorSpace": "sRGB",
+            "packedBytes": 451404,
+            "packedSha256": "c2b1c99983c1789568d9c2cdd26e8c5e79ddd9c5966f59d276b6535fb7e9946d"
+          },
+          {
+            "name": "feline-normal-v1.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "colorSpace": "Non-Color",
+            "packedBytes": 17022,
+            "packedSha256": "eb1242242b940de0bed68acfaf58a71129341e42ec9bf1c58f0a1becf536881b"
+          },
+          {
+            "name": "feline-orm-v1.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "colorSpace": "Non-Color",
+            "packedBytes": 11163,
+            "packedSha256": "b6ea370cbf7047a316e9f95043c472ffe795d13490e1cf63a0ca89e9df7bbfab"
+          }
+        ]
+      },
+      "preservation": {
+        "passed": true,
+        "method": "Exact decoded32 animation channel arrays/interpolation,25joint transforms/hierarchy/inverse binds; rigid one-bone influences; source paw-local bounds unchanged; all unrelated baseline shipping GLBs remain byte-identical. Only explicit parallel roster additions admitted separately and not qualified here.",
+        "candidate": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\models\\Bastion_Quadruped.glb",
+        "sha256": "e6a661449af572b56cfcd2785b9a7df5194618d2c6e00f16d64e5a47b51487fc",
+        "bytes": 1145052,
+        "atlas": [
+          {
+            "kind": "albedo",
+            "uri": "../textures/feline-albedo-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-albedo-v1.webp",
+            "bytes": 8726,
+            "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21"
+          },
+          {
+            "kind": "normal",
+            "uri": "../textures/feline-normal-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-normal-v1.webp",
+            "bytes": 5614,
+            "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22"
+          },
+          {
+            "kind": "orm",
+            "uri": "../textures/feline-orm-v1.webp",
+            "resolved": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\textures\\feline-orm-v1.webp",
+            "bytes": 3992,
+            "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c"
+          }
+        ],
+        "valuesCompared": 179233,
+        "retainedAnimations": 32,
+        "retainedJoints": 25,
+        "triangles": 20192,
+        "exportedVertices": 35936,
+        "primitives": 4,
+        "materials": 4,
+        "baselineRoster": 30,
+        "shippingModelsUnchanged": 29,
+        "parallelAdditions": [],
+        "sourceEnvelopeParts": 190
+      },
+      "privatePoseProof": {
+        "receipt": "assets/source/bastion-art-v1/candidate-pose-receipt.json",
+        "baselineComparison": {
+          "passed": true,
+          "equalFields": [
+            "pawDelta",
+            "paws",
+            "mixedFeet",
+            "uprightFeet",
+            "quadrupedFeet",
+            "anchoredFeet",
+            "maxAnchoredReach",
+            "minCorner",
+            "maxSegmentError",
+            "maxReach",
+            "maxCasts"
+          ],
+          "maxAllPoseReach": 0.9804481644583973,
+          "maxAdmittedAnchorReach": 0.9177400308967097,
+          "method": "Exactly identical post-IK floor/segment/sole/anchor metrics for private candidate and approved v12 Bastion, all6048feet. Standalone vertex sample totals deliberately differ with art geometry."
+        },
+        "shippingTransferBasis": "Only three image URI JSON fields differ; the complete BIN/chunk tail and all other JSON data are identical. This transfers the decoded private geometry/rig proof, not browser material qualification."
+      },
+      "sourceBounds": {
+        "locomotion": {
+          "quadruped": {
+            "samples": 1890,
+            "coreRadius": 1.8821871091920308,
+            "coreHeight": 2.4446511268615723,
+            "coreFloor": 0.6764627695083618,
+            "physicalHeight": 2.4446511268615723,
+            "physicalFloor": -0.12291623651981354,
+            "radiusDetail": {
+              "case": [
+                "Trot",
+                "Gallop",
+                0.5,
+                0.25,
+                "CombatBase",
+                0,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 7411,
+              "bones": [
+                "head"
+              ],
+              "sourcePosition": [
+                0.5001380443572998,
+                -1.8206580877304077,
+                1.5607820749282837
+              ],
+              "posedPosition": [
+                -0.07380369305610657,
+                -1.8807395696640015,
+                1.6054140329360962
+              ]
+            }
+          },
+          "upright": {
+            "samples": 1260,
+            "coreRadius": 1.6726645944667913,
+            "coreHeight": 3.252260684967041,
+            "coreFloor": 0.5521395206451416,
+            "physicalHeight": 3.252260684967041,
+            "physicalFloor": -0.03703715652227402,
+            "radiusDetail": {
+              "case": [
+                "TurnLeft",
+                "TurnRight",
+                0.5,
+                0.12,
+                "Missile",
+                0.2,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 6840,
+              "bones": [
+                "pelvis"
+              ],
+              "sourcePosition": [
+                -1.1937496662139893,
+                1.11324942111969,
+                1.1514804363250732
+              ],
+              "posedPosition": [
+                -1.1497858762741089,
+                1.2148247957229614,
+                1.0955803394317627
+              ]
+            }
+          }
+        },
+        "transitions": {
+          "passedNoNewEnvelope": true,
+          "samples": 735,
+          "candidateCore": {
+            "samples": 525,
+            "coreRadius": 1.952486950640402,
+            "coreHeight": 2.46335768699646,
+            "coreFloor": 0.321132093667984,
+            "physicalHeight": 2.9674723148345947,
+            "physicalFloor": -0.30835139751434326,
+            "radiusDetail": {
+              "case": [
+                "FelineClimb",
+                "FelineMantle",
+                0.75,
+                0.875,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 569,
+              "bones": [
+                "weapon_L"
+              ],
+              "sourcePosition": [
+                -0.7839999794960022,
+                -1.5810000896453857,
+                1.9190000295639038
+              ],
+              "posedPosition": [
+                -0.7447999715805054,
+                -1.804848551750183,
+                1.275321364402771
+              ]
+            },
+            "physicalHeightDetail": {
+              "case": [
+                "FelineClimb",
+                "FelineMantle",
+                0.25,
+                0.5,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 2630,
+              "bones": [
+                "FR_paw"
+              ],
+              "sourcePosition": [
+                0.5642793774604797,
+                -1.2315715551376343,
+                0.01942838728427887
+              ],
+              "posedPosition": [
+                1.5534336566925049,
+                -0.8499728441238403,
+                2.9674723148345947
+              ]
+            }
+          },
+          "baselineCore": {
+            "samples": 525,
+            "coreRadius": 1.952486950640402,
+            "coreHeight": 2.46335768699646,
+            "coreFloor": 0.30080926418304443,
+            "physicalHeight": 2.9674723148345947,
+            "physicalFloor": -0.30835139751434326,
+            "radiusDetail": {
+              "case": [
+                "FelineClimb",
+                "FelineMantle",
+                0.75,
+                0.875,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 985,
+              "bones": [
+                "weapon_L"
+              ],
+              "sourcePosition": [
+                -0.7839999794960022,
+                -1.5810000896453857,
+                1.9190000295639038
+              ],
+              "posedPosition": [
+                -0.7447999715805054,
+                -1.804848551750183,
+                1.275321364402771
+              ]
+            },
+            "physicalHeightDetail": {
+              "case": [
+                "FelineClimb",
+                "FelineMantle",
+                0.25,
+                0.5,
+                -0.65,
+                -0.24
+              ],
+              "vertex": 5574,
+              "bones": [
+                "FR_paw"
+              ],
+              "sourcePosition": [
+                0.5642793774604797,
+                -1.2315715551376343,
+                0.01942838728427887
+              ],
+              "posedPosition": [
+                1.5534336566925049,
+                -0.8499728441238403,
+                2.9674723148345947
+              ]
+            }
+          },
+          "scope": "Source-only conservative mixed traversal/air/head-aim; complete physical height2.96747/floor-.30835 are inherited exact values before actual wall/ledge paw IK. Highest vertex is unchanged FR_paw pad. No universal 2.6m whole-mesh or floor admission; final Actor contact/trajectory and armor bounds remain independent production review."
+        },
+        "method": "3150 authored gait/turn/additive/head-aim compositions and735 conservative transition samples. Measured central geometry is within the existing body envelope; inherited pre-IK extremities and cosmetic components are classified separately."
+      },
+      "independentCPU": {
+        "path": ".sites-runtime/critic/bastion-art/production-comparison.json",
+        "sha256": "48594b5cf61c2b42e5f3aa2c6cb552a69b2e0ae9b510b0e5d1dc7618e91a9ad2",
+        "framesPerModel": 12510,
+        "decision": "PASS_NO_MEASURED_ART_REGRESSION",
+        "scope": "Actual extracted Actor callback and real Rapier fixtures, six paired CPU trajectories. Controlled fixture placement is not an ordinary browser climb or network proof."
+      },
+      "sourceProofs": [
+        {
+          "path": "assets/source/bastion-art-v1/private-art-handoff.json",
+          "sha256": "996718947d82fd14c31a2ecf4ed331c1fac53d9394c97cd8a8d2d50928b08a23"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/source-art-receipt.json",
+          "sha256": "3202bb4dc486864f9d9f9a040570786def06cbfa3d99303938d3a3f725b44981"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/editable-source-receipt.json",
+          "sha256": "68fa32a85e972a947b953899bebb80fbc5696ebf4b34c297173728148b2ead72"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/primitive-consolidation-receipt.json",
+          "sha256": "c0ca20c8577730f59c51ed7abad53e32862b39cb844f0c7896d7a432da7344b4"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/candidate-preservation-receipt.json",
+          "sha256": "2202b1769dc5d1ddbd7550632432ee1a4677e6fa273963927370d9e4ffc5c5b0"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/candidate-pose-receipt.json",
+          "sha256": "49555446608364c38042ae768d7478eea1e7722cfd581a6b68806c5e76959ecd"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/shipping-preservation-receipt.json",
+          "sha256": "eef8e213b89f42cb7f62a40a5e7024ac83b8cbf6095b19552d6b097cc9dddb3a"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/source-core-bounds.json",
+          "sha256": "46b6c39fa5c337e499c0208ac4ac190b7b44a54b62b58574cd11f43917adb3a9"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/source-transition-bounds.json",
+          "sha256": "3fc881b7c499f1f3b7a01266e94aa54ab8e5840bf96cd43a01e0791c0822fdac"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/transition-baseline-classification.json",
+          "sha256": "1b567bbab88712916bcad662cc7371e801676dde5074330b578485bf090c47a8"
+        },
+        {
+          "path": "assets/source/bastion-art-v1/floor-baseline-comparison.json",
+          "sha256": "6f05cca986b56566d3765c5fc0cfa8f1af91ef43defdea1ec69dbaa7bf4548bf"
+        }
+      ],
+      "productionCaptures": {
+        "baseline": ".sites-runtime/bastion-art/baseline-full-body/receipt.json",
+        "candidate": ".sites-runtime/bastion-art/candidate-full-body/receipt.json",
+        "scope": "Root six rear poses plus independent normal-input front/side/local/remote/actions/traversal captures. Camera10 full-body rear captures and closer observer-camera6 views are distinct. Controlled quiet baseline/candidate profiles are separately identified.",
+        "independent": {
+          "baseline": ".sites-runtime/critic/bastion-art/baseline-inspection.json",
+          "private": ".sites-runtime/critic/bastion-art/private-inspection.json",
+          "consolidation": ".sites-runtime/critic/bastion-art/consolidation-inspection.json",
+          "shipping": ".sites-runtime/critic/bastion-art/shipping-inspection.json",
+          "completePosePair": ".sites-runtime/critic/bastion-art/production-comparison.json",
+          "dedicated": ".sites-runtime/critic/bastion-art/dedicated-runtime/report.json",
+          "peer": ".sites-runtime/critic/bastion-art/peer-runtime/report.json",
+          "matchedFrontSideBaseline": ".sites-runtime/critic/bastion-art/baseline-front-side/report.json",
+          "rainlineTraversal": ".sites-runtime/critic/bastion-art/traversal-v3-runtime/failure.json",
+          "emberFrostTraversal": ".sites-runtime/critic/bastion-art/traversal-v4-runtime/report.json",
+          "focusedCPU": ".sites-runtime/critic/bastion-art/focused-unit-report.json",
+          "quietBaseline": ".sites-runtime/critic/bastion-art/profile/v12-baseline-report.json",
+          "quietCandidate": ".sites-runtime/critic/bastion-art/profile/candidate-report.json"
+        }
+      },
+      "budgets": {
+        "maximumTriangles": 22000,
+        "maximumExportedVertices": 36000,
+        "maximumBytesExcludingSharedMaps": 1300000,
+        "maximumPrimitives": 7,
+        "actualPrimitives": 4,
+        "vertexHeadroom": 64,
+        "atlasCompressedBytes": 18332,
+        "mapSize": 1024,
+        "sharedAtlasUnchanged": true
+      },
+      "retainedRejections": [
+        "assets/source/bastion-art-v1/rejected-baseline-cli-invocation.json",
+        "assets/source/bastion-art-v1/rejected-check-raw-normalized-uv.json",
+        "assets/source/bastion-art-v1/rejected-floor-composition-draft.json",
+        "assets/source/bastion-art-v1/rejected-shipping-uri-check.json",
+        ".sites-runtime/bastion-art/staging-precheck-failure.json",
+        "assets/source/bastion-art-v1/retained-seven-primitives/"
+      ],
+      "limits": [
+        "One additional player chassis refined; all29 other shipping models byte-identical to version12.",
+        "No animation, controls, collider, movement speed, jump or multiplayer authority change in this art iteration.",
+        "3150+735 source bounds and paired CPU contact are scoped measurements; no universal whole-mesh envelope or terrain guarantee.",
+        "Inherited narrow-edge CPU fixture retains7.61cm/two unsupported paw corners exactly.",
+        "Independent asset and local integration review APPROVE; exact all-four release fingerprint and post-deployment public verification remain mandatory.",
+        "Playable art remains below the title artwork and the long-term AAA goal.",
+        "City size and destruction scope are unchanged from version12; no universal climbability or arbitrary voxel fracture claim."
+      ],
+      "assetReview": {
+        "reviewer": "/root/critic",
+        "model": "gpt-6.1-sol",
+        "decision": "APPROVE",
+        "reviewedAt": "2026-10-04T17:30:59.234Z",
+        "releaseIntegrationApprovalPending": false,
+        "scope": "Bounded original Bastion derivative admitted after independent exact preservation, six-site real-Rapier actual Actor callback pair, actual dedicated/PeerJS rendered action/contact and front/side views, three-theater ordinary traversal/teardown, actual loaded maps and quiet matched cost. This does not approve final integration/fingerprint or claim title-art/AAA parity.",
+        "evidence": {
+          "baseline": ".sites-runtime/critic/bastion-art/baseline-inspection.json",
+          "private": ".sites-runtime/critic/bastion-art/private-inspection.json",
+          "consolidation": ".sites-runtime/critic/bastion-art/consolidation-inspection.json",
+          "shipping": ".sites-runtime/critic/bastion-art/shipping-inspection.json",
+          "completePosePair": ".sites-runtime/critic/bastion-art/production-comparison.json",
+          "dedicated": ".sites-runtime/critic/bastion-art/dedicated-runtime/report.json",
+          "peer": ".sites-runtime/critic/bastion-art/peer-runtime/report.json",
+          "matchedFrontSideBaseline": ".sites-runtime/critic/bastion-art/baseline-front-side/report.json",
+          "rainlineTraversal": ".sites-runtime/critic/bastion-art/traversal-v3-runtime/failure.json",
+          "emberFrostTraversal": ".sites-runtime/critic/bastion-art/traversal-v4-runtime/report.json",
+          "focusedCPU": ".sites-runtime/critic/bastion-art/focused-unit-report.json",
+          "quietBaseline": ".sites-runtime/critic/bastion-art/profile/v12-baseline-report.json",
+          "quietCandidate": ".sites-runtime/critic/bastion-art/profile/candidate-report.json",
+          "broadRegression": ".sites-runtime/bastion-art/browser-full.json",
+          "focusedRegression": ".sites-runtime/bastion-art/browser-focused.json",
+          "finalOwnFrameTurning": ".sites-runtime/bastion-art/browser-turning-final.json",
+          "originalSupplyWaypoint": ".sites-runtime/bastion-art/original-supply-route.json",
+          "originalSupplyFailure": ".sites-runtime/critic/bastion-art/supply-failure-audit/replay-report.json",
+          "originalTurningFailure": ".sites-runtime/critic/bastion-art/turning-readiness-audit/classification.json"
+        },
+        "measurements": {
+          "quietScenario": "Fresh one-pilot Bastion Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+          "settings": {
+            "quality": "medium",
+            "volume": 0,
+            "sensitivity": 1,
+            "cameraDistance": 10,
+            "reducedFlashes": false,
+            "invertY": false
+          },
+          "baseline": {
+            "fps": 60,
+            "calls": 132,
+            "triangles": 1094716,
+            "geometries": 104,
+            "textures": 50
+          },
+          "candidate": {
+            "fps": 59.1,
+            "calls": 126,
+            "triangles": 1101084,
+            "geometries": 101,
+            "textures": 53
+          },
+          "settledRAF": {
+            "baseline": {
+              "durationMs": 10094.099999904633,
+              "samples": 606,
+              "p50": 16.600000143051147,
+              "p95": 18,
+              "p99": 18.90000009536743,
+              "maximum": 21.799999952316284,
+              "over50": 0,
+              "over100": 0
+            },
+            "candidate": {
+              "durationMs": 10096.5,
+              "samples": 606,
+              "p50": 16.700000047683716,
+              "p95": 17.90000009536743,
+              "p99": 18.59999990463257,
+              "maximum": 21.799999952316284,
+              "over50": 0,
+              "over100": 0
+            }
+          },
+          "movingRAF": {
+            "baseline": {
+              "durationMs": 13911.700000047684,
+              "samples": 827,
+              "p50": 16.700000047683716,
+              "p95": 17.799999952316284,
+              "p99": 18.700000047683716,
+              "maximum": 174.80000019073486,
+              "over50": 1,
+              "over100": 1
+            },
+            "candidate": {
+              "durationMs": 13876.100000143051,
+              "samples": 825,
+              "p50": 16.699999809265137,
+              "p95": 17.600000143051147,
+              "p99": 18.09999990463257,
+              "maximum": 173.70000004768372,
+              "over50": 1,
+              "over100": 1
+            }
+          },
+          "actualNewTextureCount": 3,
+          "sceneTriangleDelta": 6368
+        },
+        "limits": [
+          "P3: dark frontal armor seams remain weak at ordinary observer distances; broad shields, pilot, weapon mounts and ochre side markers read. Side/rear segmentation is an incremental improvement, far below key-art/AAA quality.",
+          "New maps are shared unchanged transport files, but the measured fresh Bastion scene allocates three more textures; no VRAM saving or generalized FPS gain is claimed.",
+          "The quiet one-pilot dedicated-PVP scope differs from the historical Pounce/city profile. Candidate ten raw FPS samples include first51 then nine60 (mean59.1); baseline mean60. Both moving runs retain one >100ms gap (~174ms).",
+          "Rainline first deployment and both rendered action runs have live camera diagnostics. Subsequent Ember/Frost redeploys strip the opt-in debug URL, so their stale camera diagnostic rows do not qualify same-frame camera sweeps; actual visual traversal/contact/PBR/teardown proof remains valid.",
+          "The first traversal material/initial-snapshot observer errors and Ember axis approach overshoot are retained, corrected only in ignored normal-input helpers. The Rainline success is retained within its later Ember-failure report, not relabeled an uninterrupted all-map pass.",
+          "Five paired CPU fixtures have zero sampled final paw-corner penetration; the inherited narrow-edge fixture retains two unsupported corners/max76.10mm exactly. No arbitrary edge, steep-slope or whole-mesh universal floor guarantee.",
+          "Inherited conservative source traversal physical height2.96747m and floor-.30835m remain pre-IK extrema; actual limbs/soles and core bounds are qualified separately, with no new cosmetic exemption or hull resize.",
+          "Actual shipping geometry/paw bounds/25 binds/32 action channels preserved exactly; final all-four source receipt must match and fresh public HTTPS/WSS verification is pending."
+        ],
+        "publicVerificationPending": true,
+        "localIntegrationReviewedAt": "2026-10-04T17:53:21.900Z",
+        "localIntegrationScope": "Approved frozen local candidate after 349 CPU tests, independent preservation/material/contact/transport/traversal/profile evidence, 30 distinct successful local browser scenarios across broad and focused runs, stronger own-frame turning exposure, and separate ordinary browser access to the original failed supply waypoint. Original two broad failures/public-only omission remain retained; fresh public verification is required after deployment."
+      }
+    },
+    "originalPath": "assets/reference/bastion-art-evidence.json"
+  },
+  "limits": [
+    "Existing strict degree4 position-weld closure remains unqualified; surface-only observations do not repair it or inherit its volume.",
+    "No complete compound-solid union/cavity validity claim;20 actual same-chest interface pairs require exact bounded reviewer acceptance, not broad code exemptions.",
+    "Finite actual006 completed frames only; no continuous full-volume/swept geometry or all motion intervals qualification.",
+    "Death/dive-specific fullgeometry clearance is not admitted by these captures.",
+    "No fresh performance, eight-rendered-pilot, WAN/network/publicdeployment approval.",
+    "No hull enlargement, new cosmetic armor reclassification or paw/support threshold relaxation.",
+    "Old v1 receipt and limits remain historical, never substituted for006 evidence.",
+    "All four global release areas remain PENDING. Root checks and separate bounded local art integration review pass; no global approval follows.",
+    "No title parity/AAA-ready or universal whole-building/terrain collision claim."
+  ]
+}

@@ -1,0 +1,9 @@
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Read blend: "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\assets\source\overhaul-pounce-anatomy-121\Pounce_Motion121.blend"
+Traceback (most recent call last):
+  File "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-stance-gait-194\author194.py", line 120, in <module>
+    if error:raise RuntimeError(error['message'])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: KEY_CLOCK_MISMATCH
+
+Blender quit

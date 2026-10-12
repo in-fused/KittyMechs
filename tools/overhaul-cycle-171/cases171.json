@@ -1,0 +1,637 @@
+{
+  "scope": "ACTUAL_DECODED_CLIP_CLOCK_AND_FK_FIXTURE_NO_BROWSER_GAMEPLAY_CONTACT_OR_FPS_CERTIFICATE",
+  "records": [
+    {
+      "name": "ON57",
+      "checks": 35,
+      "tinyPositiveWeight": 1e-100,
+      "negativeControls": "below/above exact cycle still rejected; invalid phase/metadata rejected; non-gait time/weight unchanged"
+    },
+    {
+      "name": "OFF25",
+      "checks": 35,
+      "tinyPositiveWeight": 1e-100,
+      "negativeControls": "below/above exact cycle still rejected; invalid phase/metadata rejected; non-gait time/weight unchanged"
+    },
+    {
+      "rig": "OFF25",
+      "index": 0,
+      "episode": 0,
+      "phase": 0,
+      "hit": true,
+      "clips": [
+        {
+          "name": "FelineHit",
+          "time": 0.1,
+          "weight": 0.4
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 90,
+      "episode": 0,
+      "phase": 0,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 180,
+      "episode": 1,
+      "phase": 0.02025462962962954,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineWalk",
+          "time": 0.9024594603332742,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 270,
+      "episode": 1,
+      "phase": 0.18750000000000355,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineWalk",
+          "time": 1.0947916294680948,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 360,
+      "episode": 2,
+      "phase": 0.3706385866988029,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineTrot",
+          "time": 0.6116030239778066,
+          "weight": 0.721040072108957
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.15540103734091446,
+          "weight": 0.27895992789104296
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 450,
+      "episode": 2,
+      "phase": 0.2630741471413729,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineTrot",
+          "time": 0.5381006583226629,
+          "weight": 0.721040072108957
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.03170193621759547,
+          "weight": 0.27895992789104296
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 540,
+      "episode": 3,
+      "phase": 0.15801648009978364,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.32567489722548426,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 630,
+      "episode": 3,
+      "phase": 0.2940606568066142,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.39369698329828134,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 720,
+      "episode": 4,
+      "phase": 0.49457800397306095,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.4939556535200707,
+          "weight": 0.7918895663367815
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 0.20811043366321835
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.6962949575300109,
+          "weight": 1.1772071539815524e-22
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.29793136217366883,
+          "weight": 4.554443442054512e-23
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 810,
+      "episode": 4,
+      "phase": 0.49457800397306095,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.4939556535200707,
+          "weight": 1.1370486739266721e-11
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 0.9999999999886295
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.6962949575300109,
+          "weight": 1.6903137637785757e-33
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.29793136217366883,
+          "weight": 6.539578365981034e-34
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 900,
+      "episode": 5,
+      "phase": 0,
+      "hit": true,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.24666665982455013,
+          "weight": 1.6326514981869944e-22
+        },
+        {
+          "name": "FelineHit",
+          "time": 0.1,
+          "weight": 0.4
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 0.9999999999999998
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.35833332780748606,
+          "weight": 2.4270669867710283e-44
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.8791666370816529,
+          "weight": 9.38996954269242e-45
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 990,
+      "episode": 5,
+      "phase": 0,
+      "hit": true,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.24666665982455013,
+          "weight": 2.344271600376658e-33
+        },
+        {
+          "name": "FelineHit",
+          "time": 0.1,
+          "weight": 0.4
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 1
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.35833332780748606,
+          "weight": 3.484947164546356e-55
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.8791666370816529,
+          "weight": 1.3482754250849025e-55
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1080,
+      "episode": 6,
+      "phase": 0.959641456083952,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.2264873885430889,
+          "weight": 0.3277612684744705
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.3307549899810456,
+          "weight": 0.6722387315255295
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1170,
+      "episode": 6,
+      "phase": 0.648632873716239,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.07098310257292009,
+          "weight": 0.16388063423723526
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.11823246267429233,
+          "weight": 0.33611936576276474
+        },
+        {
+          "name": "FelineUprightStride",
+          "time": 0.5837695708800023,
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1260,
+      "episode": 7,
+      "phase": 0.30531975266934674,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.2747877701230219,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1350,
+      "episode": 7,
+      "phase": 0.6930355935101797,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.6237320176359056,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1440,
+      "episode": 8,
+      "phase": 0.1048223802969579,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.09434013976810181,
+          "weight": 0.7
+        },
+        {
+          "name": "FelineUprightWalkLong",
+          "time": 0.12578686135467007,
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1530,
+      "episode": 8,
+      "phase": 0.1048223802969579,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.299077848215807,
+          "weight": 3.8418071669406487e-34
+        },
+        {
+          "name": "FelineIdle",
+          "time": 0,
+          "weight": 0.49999999999431477
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.42996195300304524,
+          "weight": 4.0992882891974116e-12
+        },
+        {
+          "name": "FelineUprightStride",
+          "time": 0.09434013976810181,
+          "weight": 0.35
+        },
+        {
+          "name": "FelineUprightWalkLong",
+          "time": 0.12578686135467007,
+          "weight": 0.15
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.9997123701667721,
+          "weight": 1.5859550804359523e-12
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1620,
+      "episode": 9,
+      "phase": 0.07072952523258058,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineTrot",
+          "time": 0.40666516914510725,
+          "weight": 0.19927459061227615
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.9605055882271012,
+          "weight": 0.8007254093877239
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "index": 1710,
+      "episode": 9,
+      "phase": 0.42279403334421106,
+      "hit": false,
+      "clips": [
+        {
+          "name": "FelineTrot",
+          "time": 0.6472425785184255,
+          "weight": 0.19927459061227615
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.2153797988653273,
+          "weight": 0.8007254093877239
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "frames": 1800,
+      "positiveSamples": 3783,
+      "stopSamples": 540,
+      "hitSamples": 195,
+      "mixedSamples": 1083,
+      "semantic": "Native/display distance integrates only in travel or legacy fallback branch; final clock does not integrate. Decoded FK moves; no gameplay contact qualification."
+    },
+    {
+      "rig": "ON57",
+      "frame": 0,
+      "mode": "quad",
+      "phase": 0,
+      "clips": [
+        {
+          "name": "FelineIdle",
+          "time": 1.2,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 60,
+      "mode": "quad",
+      "phase": 0.4500000341297481,
+      "clips": [
+        {
+          "name": "FelineWalk",
+          "time": 0.7166666899309841,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 120,
+      "mode": "quad",
+      "phase": 0.9714287209493735,
+      "clips": [
+        {
+          "name": "FelineWalk",
+          "time": 0.23809538477328637,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 180,
+      "mode": "quad",
+      "phase": 0.13485699292511155,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.09460946260083901,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 240,
+      "mode": "quad",
+      "phase": 0.7228557420072259,
+      "clips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.32980895588133324,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 300,
+      "mode": "quad",
+      "phase": 0.9327369353054416,
+      "clips": [
+        {
+          "name": "FelineTrot",
+          "time": 0.18030705846571762,
+          "weight": 0.721040072108957
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.19940359977797603,
+          "weight": 0.27895992789104296
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 360,
+      "mode": "quad",
+      "phase": 0.7284740966811336,
+      "clips": [
+        {
+          "name": "FelineIdle",
+          "time": 0.8166664759317876,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 420,
+      "mode": "transform",
+      "phase": 0.31143325128929344,
+      "clips": [
+        {
+          "name": "FelineTransitionArc106",
+          "time": 0.34999998720985326,
+          "weight": 1
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.338097191301284,
+          "weight": 0.3776876568189604
+        },
+        {
+          "name": "FelineUprightStride",
+          "time": 0.14123996468709857,
+          "weight": 0.4761904761904999
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.5780999094134363,
+          "weight": 0.1461218669905397
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 480,
+      "mode": "upright",
+      "phase": 0.007553736205819117,
+      "clips": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.019688161936623122,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 540,
+      "mode": "transform",
+      "phase": 0.7168737666786069,
+      "clips": [
+        {
+          "name": "FelineTransitionArc106",
+          "time": 0.3833333191772136,
+          "weight": 1
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.09036407086774238,
+          "weight": 0.34335241528999666
+        },
+        {
+          "name": "FelineUprightStride",
+          "time": 0.30341616646271147,
+          "weight": 0.5238095238095001
+        },
+        {
+          "name": "FelineWalk",
+          "time": 0.9835404180060234,
+          "weight": 0.13283806090050326
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frame": 660,
+      "mode": "quad",
+      "phase": 0.5126573222466715,
+      "clips": [
+        {
+          "name": "FelineIdle",
+          "time": 0.4666663169863113,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "frames": 720,
+      "gaitFrames": 795,
+      "reactions": 30,
+      "temporary": 4,
+      "browserContract": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      }
+    }
+  ]
+}

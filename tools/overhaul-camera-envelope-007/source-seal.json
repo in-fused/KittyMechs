@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11098,
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3609,
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime006Actor.tsx",
+      "bytes": 3516,
+      "sha256": "1e31e8a11e9c668a0c617559c46e8e0f32d95d41c193aaad0afe7371cda10498"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10452,
+      "sha256": "fbded0fcf886db3ee6c1d6b10ccc7c3866f95e406b78229a0a4cc99ada8ffa51"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 44837,
+      "sha256": "4b687320a4946cad2243fe775e6426e326fef2cf1a8cfacedb275125cd5f5a34"
+    },
+    {
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae"
+    },
+    {
+      "path": "docs/overhaul/camera-envelope-007.md",
+      "bytes": 5145,
+      "sha256": "f63cb4664caad76e2bb179881a9cbe01cb5c1b2b8179e63b043c74014c26122a"
+    },
+    {
+      "path": "node_modules/three/src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js",
+      "bytes": 400,
+      "sha256": "4422467001348636551ce64f1e6631d8a5032b7ac2788596c2dc5269618c7602"
+    },
+    {
+      "path": "node_modules/three/src/renderers/shaders/ShaderChunk/project_vertex.glsl.js",
+      "bytes": 312,
+      "sha256": "74632caa5cc4a9812b1bb423aac7574748e648613c18898c6bf57d26b85600d3"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/preimages/visualRegistry.ts",
+      "bytes": 1566,
+      "sha256": "f26ec039b6038c2a933877aabef2fff4629f52455278cb7a4b141b49d343bf86"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/root-preimages/Actors.before007.tsx",
+      "bytes": 44837,
+      "sha256": "0d97b9645431e95b5702205720611933ecc102de0b450837389882759b52f4b5"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/inspect-loader.mjs",
+      "bytes": 3012,
+      "sha256": "e865285bd8ca2fccfa45acec023abba6194f5be2ed549d9edd853fb09b0dada4"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/containment.test.ts",
+      "bytes": 5722,
+      "sha256": "344ab885adb843ac1c09cb7ec55bca0a0d064f083edd31e4578630948fa72c8a"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/tsconfig.json",
+      "bytes": 323,
+      "sha256": "b0e76960a82981f88f1026298d430c72817198fa79a5c9f942e16293bc9fc580"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/vitest.config.ts",
+      "bytes": 194,
+      "sha256": "17ecd2eb7c17a7460f070211aa944a28890b9cb066a7fa1a8688d37611a1d264"
+    },
+    {
+      "path": "tools/overhaul-camera-envelope-007/protected006-verification.json",
+      "bytes": 4233,
+      "sha256": "65eee539fc2ef0f4b4e1a4f99755b4f4fb66ab803f6b7d4e8a7233ab13e92357"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/actual-loader-readback.json",
+      "bytes": 8671,
+      "sha256": "f6329467828cf193f42db4f7eaa239ef7c1b29e5b0ceeaacc6d594b3b5f169cb"
+    }
+  ],
+  "scope": "Weighted attached render-only camera envelope and new Actor007 wrapper; immutable005 owner/source and historical006 preserved; compiler/fixture/browser UNRUN",
+  "startUTC": "2026-10-10T17:09:49.9278154Z",
+  "hardUTC": "2026-10-10T17:40:00Z",
+  "frozenUTC": "2026-10-10T17:20:07.0296086Z"
+}

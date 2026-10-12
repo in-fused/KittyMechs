@@ -1,0 +1,12 @@
+{
+  "writer": "CLOSED",
+  "status": "TERMINAL",
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-render-178/inventory178.mts"
+  ],
+  "exitCode": 0,
+  "reportedWallSeconds": 1.0661071,
+  "provenance": "exec_command terminal result; no browser/server/render/profile job"
+}

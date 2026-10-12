@@ -1,0 +1,61 @@
+{
+  "closedUTC": "2026-10-10T21:26:45.154604+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/evidence.json",
+      "bytes": 1272294,
+      "sha256": "03b8bc7261a0a619991593f447f553d38ddfa5bea2881d67a954c659cad9e66c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/page@ed6c5956a55ae2db1dfe0eca143c6adc.webm",
+      "bytes": 5865163,
+      "sha256": "82c9668be7343b8b2eecadff68200f7dfb230ca622cf63d4dce95d6eae6ea2b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/progress.json",
+      "bytes": 1242296,
+      "sha256": "214c059ab3d9cd9acd0baefeed9c73ec1058b31744cfee1d3ec06b504a762eff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-035/original-video.png",
+      "bytes": 8736603,
+      "sha256": "f2e554522afc28047b8fca6796692b9721a802311feec263d20615938a7041e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-035/receipt.json",
+      "bytes": 960,
+      "sha256": "d45d5f616efe1a2b5791cbb2084e4b4eb11922db50dd4268b0b03b0569e439a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-035/stdout.txt",
+      "bytes": 3273,
+      "sha256": "80a4bcb6eb5732866c81845b97b89b4525062e3a2ea6afef507eec1cf05cb020"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art035-build-process/process-receipt.json",
+      "bytes": 2615,
+      "sha256": "cacee489eba8cd34977f10796fe5e0832eb2852b5674233369cc5db243c015b1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art035-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "3127d958dcd65b1bc7111c0655aeac1346515301035ec17b046e8b77087e1050"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art035-capture-process/process-receipt.json",
+      "bytes": 2605,
+      "sha256": "a514d5061699e968967a3ff93ad92eb2d3987e1abc47cc1b5bb506e16d162563"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art035-capture-process/stdout.txt",
+      "bytes": 531,
+      "sha256": "650478a6c58f058e91a20889e8a7a2891bd4ef08878065751d40fcff6673c557"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-029/receipt.json",
+      "bytes": 70064,
+      "sha256": "6f079cde517809e9f1bf8f6da4435814b29ba50df11bbb4ea074f73c8dd8311b"
+    }
+  ],
+  "scope": "ONEfailed035capture and bounded originalvideo derivative; no runtime quality acceptance"
+}

@@ -1,0 +1,11 @@
+# Full co-op expedition: bounded acceptance
+
+Editor41 built successfully. Independently reviewed both receipts, event streams, final world samples, server damage events and engine logs for `Artifacts/Validation/ExpeditionSmoke/20260927-043027-742-Pounce-b57b3db9c69849248d9d227d8901c113`. The final launcher result is PASS, including completed process shutdown and unchanged module hash.
+
+Accept this real two-process localhost expedition: Pounce host and Bastion guest, Relay Watch/seed 2671. Production HostSession/JoinAddress established two actual participants. Ordinary simulated inputs traversed the mission with live AI. The host operated relay A and core; the guest operated relay B and extraction. Both peers observed the same progression and final checkpoint serial 6, all objective flags, Complete and zero extraction time. Their locally observed extraction intervals were approximately 60 seconds. Final samples show both pawns alive at the extraction area.
+
+The host's accepted-damage events independently attribute 1494.6 damage to the host and 725.4 to the guest, matching the receipt. Attribution requires both the actual instigating controller and damage-causing pawn; it does not infer contribution from another client's observed enemy health loss. The guest's attribution fields are zero because this accounting runs only on authority. Resolved-target counters are not independent kill totals.
+
+The reviewed driver makes no fixture placement, forced damage, AI suppression or mission-state override. Shared files coordinate readiness and completion, while actual replicated actors/state and player proximity gate progression. Both peers wrote completion evidence; the guest saved its successful receipt before acknowledging exit, and the host waited for that acknowledgement. No Error/Fatal match was found in the inspected logs.
+
+This proves one automated full co-op route with this kit pair and plan in Editor-game/NullRHI on one machine. It does not establish graphical quality, performance, human enjoyment, other encounter plans, Internet/second-PC play, latency tolerance, natural recovery/rejoin during combat or packaged multiplayer completion. No blocker was found within the measured scope.

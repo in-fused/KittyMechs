@@ -1,0 +1,840 @@
+{
+  "writer": "CLOSED",
+  "scope": "EXACT_SAVED_READ_GEOMETRY_COMPARISON_NOT_PUBLIC_RERUN;TOKEN_CLOCK_FROM_EACH_READ",
+  "input": ".sites-runtime/overhaul-20261010/coop173-public/evidence.json",
+  "sha256": "709abafa20c186217d4d61b3d9ec72e8d2e1127906826ed66a25c16c8f07e082",
+  "baseline": "BIT_EQUAL_173_REJECTS",
+  "candidate": "CURRENT_ALL_OCCUPANCY_CERTIFICATES_PASS",
+  "receipts": [
+    {
+      "tick": 1921,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 432,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9401000091206515,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995157997502,
+            "y": 0.9401000369415852,
+            "z": 21.9999973249184
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2019,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 444,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9400999398389831,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995157799776,
+            "y": 0.9400999273511116,
+            "z": 21.999997325457105
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2082,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 451,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9401000230250065,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995157621319,
+            "y": 0.9401000109736924,
+            "z": 21.999997325816242
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2388,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 512,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9401000183538417,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995156908569,
+            "y": 0.940099954919715,
+            "z": 21.99999732752214
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2442,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 526,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9400999193571624,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995156789837,
+            "y": 0.9400999238804798,
+            "z": 21.999997327821422
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2776,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 577,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9401000311304233,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995155957836,
+            "y": 0.9401000248271157,
+            "z": 21.999997329696914
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 2837,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 591,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9401000208494952,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995155819276,
+            "y": 0.9401000030792784,
+            "z": 21.9999973300361
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 3139,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 648,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9400999484537169,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995155106446,
+            "y": 0.9400999759545084,
+            "z": 21.999997331722046
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 3200,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 656,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9400999381727888,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.999995154967886,
+            "y": 0.9400999542066711,
+            "z": 21.99999733206123
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    },
+    {
+      "tick": 3527,
+      "publication": {
+        "roomEpoch": "fa69dc28-0cbc-4ba2-b6a7-be4e6cd8b787",
+        "sequence": 725,
+        "kind": "broadcast"
+      },
+      "active": {
+        "id": "045cb2af-12f1-4995-9889-d54533284f54",
+        "life": 1,
+        "position": {
+          "x": -8.000002419847041,
+          "y": 0.9400999612302985,
+          "z": 15.00009769792589
+        }
+      },
+      "target": {
+        "x": -3.0502525316941673,
+        "z": 16.94974746830583
+      },
+      "parked": [
+        {
+          "id": "fe088372-e1a4-4354-983c-6494e39bb049",
+          "life": 1,
+          "enabled": true,
+          "hp": 220,
+          "position": {
+            "x": -7.99999515419565,
+            "y": 0.9400999260268873,
+            "z": 21.999997333886842
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "corridor": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[2];p=r/'docs/overhaul/resource-limit-handoff-20261010.md'
+prefix='> CONTINUATION064: Same LIMITED playable042 on8799, no game/build/server changes. Moving-R saved-data diagnosis identifies frozen travel phase during substantial native translation; actual IAB lag still unresolved, CUA kernel initialization fails, actual Renderer report requested asynchronously. Full goal ACTIVE / INCOMPLETE. Latest exact continuation/next action: docs/overhaul/player-recovery-064-handoff.md. New source-only delta041 requires continuation-verification-041.json VERIFIED; editable assets retained in040/earlier parents.\n\n'
+s=p.read_text(encoding='utf8');assert not s.startswith(prefix);p.write_text(prefix+s,encoding='utf8');print('064 pointer written; doc writer closed')

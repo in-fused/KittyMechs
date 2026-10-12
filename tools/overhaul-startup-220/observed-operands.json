@@ -1,0 +1,39 @@
+{
+  "writer": "CLOSED",
+  "scope": "Exact saved219 guest input, not new observation",
+  "resources": [
+    {
+      "name": "http://localhost:8799/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb?rev=dee43000",
+      "startTime": 5842.400000095367,
+      "duration": 4287.599999904633,
+      "transferSize": 1249784,
+      "decodedBodySize": 1249484,
+      "responseEnd": 10130
+    },
+    {
+      "name": "http://localhost:8799/assets/models/Pounce_Anatomy121Batched.glb?sha=00a39f8f007d",
+      "startTime": 10245.200000047684,
+      "duration": 4533.5,
+      "transferSize": 7646704,
+      "decodedBodySize": 7646404,
+      "responseEnd": 14778.700000047684
+    },
+    {
+      "name": "http://localhost:8799/assets/art/coastal-overcast.hdr",
+      "startTime": 15067.799999952316,
+      "duration": 2174.9000000953674,
+      "transferSize": 1659325,
+      "decodedBodySize": 1659025,
+      "responseEnd": 17242.700000047684
+    }
+  ],
+  "sourceParent": {
+    "path": "tools/overhaul-readiness-211/GameCanvas211.tsx",
+    "bytes": 10913,
+    "sha256": "cff3d4a635448e9430e006d14c7fd9eca8ec07da2e219a00f3a8a24c6615617f"
+  },
+  "standardBlockingHook": "DeploymentAssets useGLTF(actorModelPath(...)) before returning PublicPounceAssets child",
+  "detailedBlockingHook": "PublicPounceAssets useGLTF(IDENTITY57_ASSET_URL034)",
+  "KHRAvailability": "UNQUALIFIED_NOT_RECORDED",
+  "gain": "UNQUALIFIED;overlap is a source scheduling change, not measured20s acceptance"
+}

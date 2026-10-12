@@ -1,0 +1,24 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_INCOMPLETE_FIRST_REMAINING_FAILURE_STOP",
+  "jobs": [
+    {
+      "pid": 369280,
+      "terminal": "TERMINAL",
+      "exitCode": 11,
+      "inclusiveSeconds": 4.844000000040978
+    },
+    {
+      "pid": 371396,
+      "terminal": "TERMINAL",
+      "exitCode": 1,
+      "inclusiveSeconds": 1.7659999998286366
+    }
+  ],
+  "aggregateInclusiveSeconds": 6.609999999869615,
+  "aggregateAuthorCapSeconds": 180,
+  "repairConsumed": true,
+  "runningJobs": [],
+  "historicalActiveRecords": "Immutable startup receipts only;terminal process receipts supersede their OPEN fields",
+  "outputAssets": []
+}

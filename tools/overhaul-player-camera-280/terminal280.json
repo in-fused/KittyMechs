@@ -1,0 +1,18 @@
+{
+  "writer": "CLOSED",
+  "scope": "one scoped type+geometry suite, inclusive30s, no browser/build/native gameplay",
+  "steps": [
+    {
+      "name": "type",
+      "exit": 0,
+      "seconds": 4.609999999869615
+    },
+    {
+      "name": "geometry",
+      "exit": 1,
+      "seconds": 0.7970000000204891
+    }
+  ],
+  "elapsedSeconds": 5.406999999890104,
+  "inclusive30Observed": true
+}

@@ -1,0 +1,184 @@
+{
+  "packet": "mission-identity-041",
+  "sourceFrozenUTC": "2026-10-10T23:20:36.3000602Z",
+  "owner": "/root/extraction_structure_039",
+  "status": "SOURCE_FROZEN_ROOT_TEST_BUILD_CAPTURE_CRITIC_PENDING",
+  "ownedPaths": [
+    {
+      "sha256": "032b380992fa1b79d04593bb0013db03ef3be13b62e76ea3f000cd6252c2d087",
+      "path": "server/arenaRooms.ts",
+      "bytes": 8019
+    },
+    {
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2",
+      "path": "shared/types.ts",
+      "bytes": 8151
+    },
+    {
+      "sha256": "0cadf9c7776a0752044c3804118fd8e6c6baf2984e27ce413d5e7cb6ab4c339f",
+      "path": "tests/arena-failure.test.ts",
+      "bytes": 9706
+    },
+    {
+      "sha256": "424272177290bb9d920a3562260ffba294216cb43bc28c3155c12ab604a7bf38",
+      "path": "tools/overhaul-mission-identity-041/mission-capture.mjs",
+      "bytes": 29093
+    },
+    {
+      "sha256": "5d07f28dd07f4c6e91f7543aeb3163fbabf00c872e4fb21ddac471228ace3600",
+      "path": "tools/overhaul-mission-identity-041/README.md",
+      "bytes": 6852
+    }
+  ],
+  "files": [
+    {
+      "sha256": "032b380992fa1b79d04593bb0013db03ef3be13b62e76ea3f000cd6252c2d087",
+      "path": "server/arenaRooms.ts",
+      "bytes": 8019
+    },
+    {
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2",
+      "path": "shared/types.ts",
+      "bytes": 8151
+    },
+    {
+      "sha256": "0cadf9c7776a0752044c3804118fd8e6c6baf2984e27ce413d5e7cb6ab4c339f",
+      "path": "tests/arena-failure.test.ts",
+      "bytes": 9706
+    },
+    {
+      "sha256": "424272177290bb9d920a3562260ffba294216cb43bc28c3155c12ab604a7bf38",
+      "path": "tools/overhaul-mission-identity-041/mission-capture.mjs",
+      "bytes": 29093
+    },
+    {
+      "sha256": "5d07f28dd07f4c6e91f7543aeb3163fbabf00c872e4fb21ddac471228ace3600",
+      "path": "tools/overhaul-mission-identity-041/README.md",
+      "bytes": 6852
+    }
+  ],
+  "readOnlyDependencies": [
+    {
+      "sha256": "2cb3ab33185f218a2b77b2db22e15a96f9a0b7adf2be1f06e4f9898590546842",
+      "path": "tools/overhaul-mission-traversal-040/mission-capture.mjs",
+      "bytes": 27751
+    },
+    {
+      "sha256": "cbfa4ea5302c85c9f62f07dfd6aa9e13172248ff090012f8c19c0d79d90070a9",
+      "path": "tools/overhaul-mission-traversal-040/source-seal.json",
+      "bytes": 1099
+    },
+    {
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a",
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858
+    },
+    {
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64",
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089
+    },
+    {
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600",
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241
+    }
+  ],
+  "productionScope": "server/arenaRooms.ts plus optional SnapshotPublication/GameSnapshot metadata in shared/types.ts only; server/index.ts unchanged",
+  "semantics": {
+    "failStop": "Registry guard, safe-integer exhaustion retires rather than reuse; retirement clears identity registration; newroom samecode newepoch",
+    "kind": [
+      "bootstrap",
+      "broadcast"
+    ],
+    "compatibility": "Additive optional shared metadata for offline Simulation; no input/layout protocol migration",
+    "lifetime": "Unique server UUID per room publication lifetime, safe monotonic sequence per generated admission/broadcast, once-encoded complete broadcasts to allmembers",
+    "physics": "Unchanged tick/time/Simulation/native factories/world/actor/objective fields",
+    "capture": "Requires valid identity with no tick-only fallback; matched identity also requires exact tick/time, actors and full native selector; unique bootstrap retained explicitly",
+    "identity": [
+      "snapshot.room",
+      "publication.roomEpoch",
+      "publication.sequence"
+    ]
+  },
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/arena-failure.test.ts",
+    "tests/overhaul-network-receipt.test.ts",
+    "tests/overhaul-arena-clock.test.ts"
+  ],
+  "rootBuildCommand": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "rootCaptureCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-mission-identity-041/mission-capture.mjs"
+  ],
+  "captureCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-mission-identity-041/mission-capture.mjs"
+  ],
+  "defaultOutputDir": ".sites-runtime/overhaul-20261010/mission-identity-041-public",
+  "plannedCandidate": {
+    "origin": "http://localhost:8806",
+    "build": "build033",
+    "requiredEnvironment": {
+      "KITTYMECH_BUILD_RECEIPT": "Exact frozen build033 receipt SHA256; root supplies after successful tests/build/freeze. Capture refuses missing or malformed hash."
+    },
+    "buildReceiptSHA256": null
+  },
+  "meaningfulTests": [
+    "Real native room/WebSocket unchanged-tick bootstrap after existing broadcast has changed actor content and distinct publication",
+    "Full host/guest broadcast equal complete state and samepublication",
+    "Same-tick actor removal advances publication without tick/time change",
+    "Retired room makes no subsequent snapshot calls",
+    "Recreated samecode room starts newepoch and sequence1",
+    "Existing step/snapshot/admission/cleanup native fail-stop suites retained"
+  ],
+  "sourceChecksExecuted": [
+    {
+      "exitCode": 0,
+      "command": "node --check tools/overhaul-mission-identity-041/mission-capture.mjs"
+    }
+  ],
+  "heavyJobsExecuted": false,
+  "runtimeClaims": "NONE",
+  "closed040": "Preserved, no rerun; immutable source SHA2cb3ab33185f218a2b77b2db22e15a96f9a0b7adf2be1f06e4f9898590546842",
+  "attempts": 1,
+  "technicalRepairMaximum": 1,
+  "bounds": {
+    "reserveCloseSeconds": 15,
+    "workSeconds": 155,
+    "combinedJSONTargetBytes": 30000000,
+    "compactKeyframeBytes": 20000000,
+    "audio": false,
+    "inclusiveTargetSeconds": 170,
+    "framesPerPage": 4000,
+    "matchWindowPerPage": 300,
+    "guestVideo": false,
+    "rootHardCapSeconds": 180,
+    "hostCanvas": [
+      1440,
+      900
+    ],
+    "hostVideo": [
+      960,
+      600
+    ]
+  },
+  "requiredMission": [
+    "relay-west",
+    "relay-east",
+    "core",
+    "extraction"
+  ],
+  "acceptance": "Bothclients COOP/extracted/all4requiredobjectives complete, exact committed-publication fullnativeparity, firstfailure preserved/noautomaticretry; root+independentcritic actualresults determine acceptance. Prior verified031/diagnostic032 immutable."
+}

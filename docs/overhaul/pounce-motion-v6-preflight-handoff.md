@@ -1,0 +1,11 @@
+# V6 bounded source handoff
+
+Closed, incomplete. The unchanged v5 quarter geometry now admits 58 sampled, newly FK-coupled walk/brake/rise/small-turn poses without the old independent knee/wrist axis defect. All 117 closed pieces have zero moving surface pairs or containment at those samples; actual sole drift ≤0.299510µm, floor ≥−0.052154µm. This establishes useful source feasibility progress, not a full motion or native support milestone.
+
+Source package: `assets/source/overhaul-pounce-motion-v6`. Editable blend SHA256 `0bf02b0aac9df5fa8d657c2685111011adc0327e0e3cdb7f034c2135ab002c69`; raw GLB `dc5f210f12bd64647dde2cb1b3ae8f58b304e7602d0be1f1dfebe4edcc9561c2`. Full framing: `review-ordinary.png`. Exact body bounds, physical binds, part owners, actual sole corners and source seat audits: `source-gate-packet.json`. Coordinate envelopes and all input/output preservation hashes: `final-handoff.json`.
+
+One convergence correction used, initial evidence preserved. No geometry repair or production migration. Only shared file touched: `shared/experimental/pounceMotionV6.ts`; it is isolated and not imported by production. New local author/probe scripts live inside the source package. Source axes, contact policy, graph migration and limitations are explicit in its `CONTACT-CONTRACT.md`.
+
+Still UNKNOWN: continuous exterior intervals, admitted joint domain and cancellation paths; adequate full-body four-foot walk/turn/brake/R on native floor/low obstacle; physically feasible COM/reactions, mass union, velocities, full pose coverage/sweeps, both-client authority, camera/performance and independent source/gameplay review. Quarter traces are independent fixtures, not a connected clip sequence. Wall catch/mantle and paired full-body tackle remain mandatory after complete motion qualification. Existing original masters and all earlier failed candidates remain unchanged.
+
+Node preflight started 05:29:29 UTC; successful Blender probe closed approximately 05:34 UTC, exit 0, ~9.16 seconds. All heavy jobs released then. The original 05:59 bound was not consumed after the continuous-domain gate remained unknown. No further source/native job, candidate, repair, runtime/public import or full-body expansion is authorized by this handoff.

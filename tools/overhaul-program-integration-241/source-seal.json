@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE241_SOURCE_ONLY_D_PRIVATE_BUILD; exact240compiledprogram helper; independent gate pending",
+  "files": [
+    {
+      "path": "tools/overhaul-program-integration-241/binding.json",
+      "bytes": 238694,
+      "sha256": "4b6a900b1023d8857e2aa550e9d7c3ddd90ab05fca6e5f9d8cc0680719f79b54"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/build241.mjs",
+      "bytes": 2073,
+      "sha256": "c903d27593efd51ecf7e41887ccd518df3934b173643bdb1a34e1db87016dcbf"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/HANDOFF.md",
+      "bytes": 1987,
+      "sha256": "f1a039b64d23492fb37f96c43b4410487830d6f85c5f243c4464253075bf0ff6"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/plugin241.mjs",
+      "bytes": 1528,
+      "sha256": "9108614695c31277ce4d9465d0e26a632b5d99ffb28d0cc291edc6f115bbb651"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/prepare241.py",
+      "bytes": 3010,
+      "sha256": "4540e45f1b9c45010dc11b75e56d75df3c1a22c2a9ecdf60d91fdb9db6bd737d"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/seal241.py",
+      "bytes": 1113,
+      "sha256": "9ebf94f3997fd459df18b19d2b38ba49a65c4a441a1bc442fedc436c70c2adae"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/supervise234-preimage.py",
+      "bytes": 7656,
+      "sha256": "2338ff1c70cc2386e0d6a259402d01f17d05a69dbe9b0fb24f559a89f4179b6f"
+    },
+    {
+      "path": "tools/overhaul-program-integration-241/supervise241.py",
+      "bytes": 7882,
+      "sha256": "a4211f6866471ef2cf119f00b2e64c7872137b759ead05c156836d43f686f89b"
+    }
+  ]
+}

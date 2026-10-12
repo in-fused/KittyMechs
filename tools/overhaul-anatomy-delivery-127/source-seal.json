@@ -1,0 +1,36 @@
+{
+  "writer": "CLOSED",
+  "status": "EXACTRAW_DATA_BROWSER_GATE_PENDING_SOURCE_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/deliver-validate.mjs",
+      "bytes": 11989,
+      "sha256": "640a7284e683288a827087a3ff3d0e485524df8e339242a3f736b8d3ea29b000"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/HANDOFF.md",
+      "bytes": 4401,
+      "sha256": "2e17811fc529a9696f7d5e20fd993dbcc7fd63fc87d6f0af3cc2e1e2eae59b96"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/protected-inputs.json",
+      "bytes": 6647,
+      "sha256": "b25f450c4db1a589109b35c39a5e70c7e2674e41b8b548681da8a2d0843995a8"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/route-proposal.json",
+      "bytes": 1021,
+      "sha256": "a64ebe9bb55c9b6687fdf49261a1e0ac2c3924c7ce1d728da934758134793312"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    }
+  ]
+}

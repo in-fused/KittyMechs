@@ -1,0 +1,42 @@
+{
+  "candidate": "ObjectiveGroundMarker183",
+  "writer": "CLOSED",
+  "files": [
+    {
+      "sha256": "7a6ca2dbe1394f584f8d80fe4fc56018ed13f2e86f7f73bf1e8dae02bdf7fe15",
+      "bytes": 352,
+      "path": "tools/overhaul-camera-183/compile-receipt.json"
+    },
+    {
+      "sha256": "aa05ae1e27f1e3111ed9d5daec0ab445855f2375eb1b276a8c639f06b4307feb",
+      "bytes": 3157,
+      "path": "tools/overhaul-camera-183/HANDOFF.md"
+    },
+    {
+      "sha256": "bd07b53520d545c0c059d4788d9aa0108466b73ed7c692ef6116cb3c31dfeb27",
+      "bytes": 4096,
+      "path": "tools/overhaul-camera-183/Objectives.candidate.tsx"
+    },
+    {
+      "sha256": "f65164bf2ad2e813710dd762d8c51001102996a4d44ac68c640fe01b42ee51e1",
+      "bytes": 1869,
+      "path": "tools/overhaul-camera-183/preimages.json"
+    },
+    {
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66",
+      "bytes": 4271,
+      "path": "tools/overhaul-camera-183/preimages/Objectives.tsx"
+    },
+    {
+      "sha256": "5aa78e7e813acac6f6068a9613bac9f5c958d0912a4797172ac0f13df67455fc",
+      "bytes": 1695,
+      "path": "tools/overhaul-camera-183/protected-inputs.json"
+    },
+    {
+      "sha256": "bd07b53520d545c0c059d4788d9aa0108466b73ed7c692ef6116cb3c31dfeb27",
+      "bytes": 4096,
+      "path": "src/game/world/Objectives.tsx"
+    }
+  ],
+  "status": "COMPILED_VISUAL_ADMISSION_PENDING"
+}

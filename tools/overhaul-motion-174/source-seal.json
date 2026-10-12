@@ -1,0 +1,566 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_FIRST_REMAINING_FAILURE_STOP",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/author-receipt174.json",
+      "bytes": 1182,
+      "sha256": "637dbdbb3e27dad2158103f36cf2bf9af2b93a5ed170a306b8176e591973b7a8"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/authored-motion-records174.json",
+      "bytes": 228150,
+      "sha256": "badc35f02b28144ca855b83d9309596477e875f760e653fe68a803d73e46bd0b"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/choreography174.py",
+      "bytes": 9940,
+      "sha256": "fbbc5d44a61311a09d0ee296bcbaae6ede5451de299a3d51088943bc089e4010"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/Pounce_Motion174.blend",
+      "bytes": 82335308,
+      "sha256": "90df033aaeff11dd80b6429b8959326c2097bce6230ec19a14d6721bb37c2321"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/preservation174.json",
+      "bytes": 4182,
+      "sha256": "46293735906d79bcb5706655763bbb9c791a56429ec86278e0c88aa53c03b835"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-motion-174/Pounce_Motion174.glb",
+      "bytes": 5447108,
+      "sha256": "e0500deedec7fd777c1aa731c3272191894cb2dca3030af4416e9b6654840e43"
+    },
+    {
+      "path": "tools/overhaul-motion-174/author-process174.json",
+      "bytes": 503,
+      "sha256": "5e4d86815cb18b85d555988945244d99e6f82524e2c2fb5468339f1800d6c8f9"
+    },
+    {
+      "path": "tools/overhaul-motion-174/author-stdout174.txt",
+      "bytes": 25774,
+      "sha256": "6718ee3143ee03505b8575fd919e5fc4f62fcf29a54c017b95b1c4aabd51ae40"
+    },
+    {
+      "path": "tools/overhaul-motion-174/author174.py",
+      "bytes": 10871,
+      "sha256": "41c9632bc83bdc23955e2b06b1e782f91e232d1425098787b73d40c96c5cbd58"
+    },
+    {
+      "path": "tools/overhaul-motion-174/closure-inputs174.json",
+      "bytes": 2051,
+      "sha256": "2f4213539caf3f51fa40bef98ee972d86f4dcaf15cae9f9a066d91524f5d905b"
+    },
+    {
+      "path": "tools/overhaul-motion-174/decoded-process174.json",
+      "bytes": 353,
+      "sha256": "99c9fa189ea1f5141106427bd0ccb9dbb425e195de82b541da2dc9cea4fac1d0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/decoded-receipt174.json",
+      "bytes": 36649,
+      "sha256": "e42753bcc2f13fdee7499b2e7962e230e4ea234eee8cd34a7d129569a3a060d1"
+    },
+    {
+      "path": "tools/overhaul-motion-174/decoded-stdout174.txt",
+      "bytes": 492,
+      "sha256": "c4f0c1a56982b8d71176c28c3c0e802da466757f8873e9b332df6a2e206c9054"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/author-process174.json",
+      "bytes": 492,
+      "sha256": "c764582e32b4827a23563513fd8bc65c9a9a1245946f2cbcaffd64050b2d215d"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/author-receipt174.json",
+      "bytes": 1182,
+      "sha256": "637dbdbb3e27dad2158103f36cf2bf9af2b93a5ed170a306b8176e591973b7a8"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/author-stdout174.txt",
+      "bytes": 25773,
+      "sha256": "d5e84aa8b7d475a2babdea74506ab921454a28bb3e78932281c298ac2f18da54"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/author174.py",
+      "bytes": 10727,
+      "sha256": "95809a393fd90a442a7e71fd998d4a3d23c8b391d57b4f1e9bc6544af19bf6e0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/authored-motion-records174.json",
+      "bytes": 228408,
+      "sha256": "72e6d44ab414f34ea888050f2eaa6a02829f58a51d629ec93182ed155fc06834"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/decoded-receipt174.json",
+      "bytes": 3925,
+      "sha256": "81a9c7d86e492e72b9cf5cadddbba12c47938834c614477648df265e33c80b8c"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/decoded-stdout174.txt",
+      "bytes": 488,
+      "sha256": "f3e9b786c05596feb33cf7f41fd11f67a015f1480c9d02f2609fac5469674b37"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/Pounce_Motion174.blend",
+      "bytes": 82335308,
+      "sha256": "fe27ee48384b02e7385e69f610e2faa4d425f88844dcf4bb1af0a54910f99fd0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/Pounce_Motion174.glb",
+      "bytes": 5446272,
+      "sha256": "3c01b49bcd5f62132b7b2c1d9ad5e09ab2e47861de653dd0189d02d53d122bc6"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preservation174.json",
+      "bytes": 4182,
+      "sha256": "46293735906d79bcb5706655763bbb9c791a56429ec86278e0c88aa53c03b835"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-00.png",
+      "bytes": 243746,
+      "sha256": "8cc219e5e1be869c38db47562a8eb62fceb4402e15ce50f28f6790166be871b5"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-01.png",
+      "bytes": 241959,
+      "sha256": "ebb14e9ed597b88f248b1809eaf5e71c84cb8b06ce2de53b1d4561c463a68e87"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-02.png",
+      "bytes": 241441,
+      "sha256": "0b09438c91d8e5c683e5792ffe828e477fe26d78b35a5244e94f6b7f7d739dd2"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-03.png",
+      "bytes": 242738,
+      "sha256": "fb905fcb24a1ca7dbb53a838305cfa3fc1028c41c1c30606e5caf34d770e9b9a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-04.png",
+      "bytes": 242968,
+      "sha256": "7636efc8d1e3b8c39dec281c6231555615c206dcb4856bbd481bf9a32a4e99bd"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-05.png",
+      "bytes": 243420,
+      "sha256": "d90a33a3873500445b3e53f70dbaa3bdf79e9637f81da52d8e01d3f6b12c4d79"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-06.png",
+      "bytes": 243637,
+      "sha256": "a7914ec75297ad87a0673ef916590812bbd77a33ba75ae5efcda63f9dd6cf867"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-front-07.png",
+      "bytes": 245608,
+      "sha256": "beefa2ca121a807ba41019ac328c4b49fee82f17cb5bf07a62126b2d0c794913"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-00.png",
+      "bytes": 257338,
+      "sha256": "02f0ccc601514230010024891261dfe5a68d94196dc4be0ee9e7cf752d0f03c0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-01.png",
+      "bytes": 258404,
+      "sha256": "82dee3ced585533df1d9b648ed1e39afde4fefb9774851f316f2613033f356b2"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-02.png",
+      "bytes": 257695,
+      "sha256": "6de19d63cc3cda5421aff73c364a11adb4f76f74f3b523c90fd8ea60ead7f34d"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-03.png",
+      "bytes": 253710,
+      "sha256": "1c47e02a23547cec24c9043fa27853e19e1d55587a6760be1dc55fa6303f69e3"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-04.png",
+      "bytes": 253578,
+      "sha256": "66d58e77d22d9da4b42a043d080324b2a5eac8b13cbd51424d2c7a7c1fa67a60"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-05.png",
+      "bytes": 252390,
+      "sha256": "aabc4cd771f3699dbff3c04e48580c24961c351dca528b4944606233398b44e3"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-06.png",
+      "bytes": 252851,
+      "sha256": "a88ed562cf42e89ac2eb7edba9ec00a5fd8396588d8f9e4ba79bc04f2353a135"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineGallop-side-07.png",
+      "bytes": 252328,
+      "sha256": "928bce8090ced034da3cd29fdc74c0ed33db9322c66e12038f3546a6111232dd"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-00.png",
+      "bytes": 252814,
+      "sha256": "d0abc0abbf177e5e460e35c1e61cb6ba9b4469a3a032ecda932fe3350ae78c7e"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-01.png",
+      "bytes": 252533,
+      "sha256": "affe3fdbcf3dbca921335a814cd32c061d82aedcc12eb47f632a511a7cf656d2"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-02.png",
+      "bytes": 250828,
+      "sha256": "6406ecdb024ab0225e7349a7753eec443f78f5e0ebfc9163be997f12ddf5b4f0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-03.png",
+      "bytes": 252883,
+      "sha256": "6bb2d9b80cb66765612c9bd83050ce8725467693fc0daa23695721d02ed621f0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-04.png",
+      "bytes": 252969,
+      "sha256": "25db3b15745d67ef0b895e179483e9d55bb4ed23ae982e18966186f6c36ee0f1"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-05.png",
+      "bytes": 252069,
+      "sha256": "74f4456d0b2467518e3cdd81b71d040435f7e11b10881e7c5df2423ac7cb2640"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-06.png",
+      "bytes": 251323,
+      "sha256": "3aaf85d668bcb03b00d478fd056b80796910c95551300365a331558546f73317"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-front-07.png",
+      "bytes": 253376,
+      "sha256": "afbe597a723e576327e90ff8da1a856e00862fcdaaba21d4965bb316526b5ac0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-00.png",
+      "bytes": 260751,
+      "sha256": "c84f873f286e5305bf22edc3e2c75e57d2c01d704b4835dcd2bf215044d32d33"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-01.png",
+      "bytes": 261777,
+      "sha256": "ccad3d9618ea50e075a258e070467961c34f8c1835622dbb56e27b226586173f"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-02.png",
+      "bytes": 258657,
+      "sha256": "5a29fff9e963331884c812029c8760d0b5756c094fc36739e5b0000df56c5cb2"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-03.png",
+      "bytes": 257785,
+      "sha256": "28364cd0549f2eff51725ad83415146d5fea017d2c9c99ba07ccf1facaa0eed5"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-04.png",
+      "bytes": 259216,
+      "sha256": "a470221622ce885a638bfee2d99d6d732f5afce6bec4d055ba2e53e8005fb94b"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-05.png",
+      "bytes": 259122,
+      "sha256": "956445cb2fd8c8f03584f43b61d5da4889dd0e9f1a8741e46252876fe079f994"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-06.png",
+      "bytes": 258714,
+      "sha256": "eb0f3661502ebfa65aea94a7e2974357a163c71db275149019f73a6edddddd02"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineUprightStride-side-07.png",
+      "bytes": 259492,
+      "sha256": "a4da35054b0172c1c8adf40f096c95802237ab224cd46962d8732468108da6e8"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-00.png",
+      "bytes": 242249,
+      "sha256": "42f239bd1840978a81da02b02f9fe00475e988346c243afc4fee35b8fd334da2"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-01.png",
+      "bytes": 241941,
+      "sha256": "d4165ada884da9e706c111354b0d92ff6c9b4fe01b730d6b0616c836a72319d0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-02.png",
+      "bytes": 242218,
+      "sha256": "fad6a7cb8eae6834db68f1cd650b22d1339a338b203a91530c10d9f55f3d7a5a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-03.png",
+      "bytes": 242692,
+      "sha256": "e0610f76f3da43c77094efc80f7d7b981185d1f8b484119e6512288fe3381875"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-04.png",
+      "bytes": 241742,
+      "sha256": "6eb6ec71b00bee91b620d30a70c31b677483b27e621f19fcfb145e99b95252e6"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-05.png",
+      "bytes": 241727,
+      "sha256": "78c660b4147c0938e668ff8427260533c605bc0dd9428965cde830aba2fc1262"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-06.png",
+      "bytes": 241842,
+      "sha256": "889ea4f1d36465d1de16eb3f69d46573717feefa7e050b0e6c463a043c636a5a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-front-07.png",
+      "bytes": 241576,
+      "sha256": "e513f741c0d25184a83143bbb6eed589dc704e00b0c40e32f54bcf4fae64ccfc"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-00.png",
+      "bytes": 258273,
+      "sha256": "1870a12988cc3c262340e07fdc2940d1c1dd16b32d3a2d65da6e457767ed13e0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-01.png",
+      "bytes": 254495,
+      "sha256": "79731df6f914016eecbf6f6b7e96356361ffc5a46ec52940f79cc41a2f0706b8"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-02.png",
+      "bytes": 256714,
+      "sha256": "e7c9edeadf57466e675039f2b73d9db48065a092d8d806322dc04d57641d3a05"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-03.png",
+      "bytes": 256335,
+      "sha256": "c38fb89f230a3f0f6c71c93dcd872968238465fd9e5d3f8e87ae4464f5bb705f"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-04.png",
+      "bytes": 256511,
+      "sha256": "9cdb2b27338a0fa75589da3b1232617e24d01efbf00559f91100dcf81c3cc997"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-05.png",
+      "bytes": 256694,
+      "sha256": "bf5f95430293aa01f924920ac616b649efc1b44b09a7db4ffc4e6554d0cbadbc"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-06.png",
+      "bytes": 258566,
+      "sha256": "4fcc484de4311720c7a6922b2472321d182393e634b74e8bd2611a627518fbde"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/FelineWalk-side-07.png",
+      "bytes": 256976,
+      "sha256": "803c9c43945549280aa5970fbfd41bbdc15906ffe0990e5154b3d64e16da88bc"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-front-00.png",
+      "bytes": 250884,
+      "sha256": "3ee0ca9344954ca40591a647da7b88eb18d26bf3e95cef354bb0224f4b5c9b56"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-front-01.png",
+      "bytes": 250076,
+      "sha256": "de664db8bb45854acd874195c980c745e6093eb324e796a9dce07c7fb25f2751"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-front-02.png",
+      "bytes": 250343,
+      "sha256": "530acda90a2cfff8a60210e6e77ade308d64a4a8a985ca34c5d8b7b02e136231"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-front-03.png",
+      "bytes": 246203,
+      "sha256": "290423162b0060e7f9321dc6f96ef1fc4b7fb96fe1a956dccdd92113f3634b90"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-front-04.png",
+      "bytes": 245073,
+      "sha256": "e51e5a65033cd5599ac48f497fac530793913c307d75773f1fa4a84dcf25b128"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-side-00.png",
+      "bytes": 255296,
+      "sha256": "1d1134f3d6f06214595e600bee304d0ddcbff001df985529690d0ec6476c6ff3"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-side-01.png",
+      "bytes": 254674,
+      "sha256": "2b76b50bdc0b3fc07bab3f1c4c2b903733c36678b4cb86284b381a02e1faee5d"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-side-02.png",
+      "bytes": 254812,
+      "sha256": "d9400d6ef8df37aef0445d7851ab050f4783b4942309455f5c3a565207a7da71"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-side-03.png",
+      "bytes": 256130,
+      "sha256": "4642776acd3da2159c79d595afdc9a720eb5bf87ee655ab38cbbf23fe4c944ed"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-down-side-04.png",
+      "bytes": 255088,
+      "sha256": "1bcf49eaec7f5727015997ea3645b8f12fe826f26b2303aafd527427d066358a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-front-00.png",
+      "bytes": 242266,
+      "sha256": "0cb8045df262156c1a169283298f0d8524c9fa9c9e87d4b776ffe5d0709993b6"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-front-01.png",
+      "bytes": 245073,
+      "sha256": "91b15a5599ec7304928a59581f8e27c7f66c76d88cf346defa53b86d1fb77b23"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-front-02.png",
+      "bytes": 246203,
+      "sha256": "62922ee6775ff456f0c407910b192eaf3b66d64fa3ad6c07504370b88d80a49a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-front-03.png",
+      "bytes": 250343,
+      "sha256": "dcc1869a6afc0dbb125f3dad6242da141b09df039a3854202b7434a0a48d69cf"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-front-04.png",
+      "bytes": 250076,
+      "sha256": "a3cc89fb33ca25e275fcec985b4812c61a4cc95045d99690b8231332f10f3679"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-side-00.png",
+      "bytes": 253776,
+      "sha256": "f822a9d5d731072820e9fe517e0e8f6cbe36201ccbde0580680295e61f6fea5e"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-side-01.png",
+      "bytes": 255088,
+      "sha256": "60c7c33ccc2ddde07e6b8a4cb57c72be7e86cc5bbe6cbe8e9ccc2104e4c6a2e8"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-side-02.png",
+      "bytes": 256130,
+      "sha256": "fdde68f19467200fa6c8e2c228a2541d0f8958f268a03ed9f0dbbc536d4bd642"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-side-03.png",
+      "bytes": 254812,
+      "sha256": "35bad3f714549f15f17992333e5a1aed6fff8fe8d3f3ec4b76178ed56512b1b0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview/R-up-side-04.png",
+      "bytes": 254674,
+      "sha256": "fb1dae669b626ebb369588732cde0cdd012cd68e9a60e53521bdccb504fac8c7"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview-process174.json",
+      "bytes": 506,
+      "sha256": "48fba41044829cbb478d6568beb5b50100ce0962a0a577750e999d22acb09686"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview-receipt174.json",
+      "bytes": 24598,
+      "sha256": "97f16d8340bd31bc04c14a1c18fa5fc4c4458682bff47e6ab517a69f2976e368"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-attempt/preview-stdout174.txt",
+      "bytes": 10378,
+      "sha256": "79db7be9e43f7ee82d6c392d37e3a0c204d7dd8c0b307b0a35227a122013b419"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-decoded-receipt174.json",
+      "bytes": 3925,
+      "sha256": "81a9c7d86e492e72b9cf5cadddbba12c47938834c614477648df265e33c80b8c"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-decoded-stdout174.txt",
+      "bytes": 488,
+      "sha256": "f3e9b786c05596feb33cf7f41fd11f67a015f1480c9d02f2609fac5469674b37"
+    },
+    {
+      "path": "tools/overhaul-motion-174/first-pad-inspection174.json",
+      "bytes": 4066,
+      "sha256": "27e2fbf86d00c45a63d2db6e30f74c060a3f96cb8ca2055dbaef0c40bddbf72b"
+    },
+    {
+      "path": "tools/overhaul-motion-174/HANDOFF.md",
+      "bytes": 5521,
+      "sha256": "8c541c217f82d60d1933f79ab6c6230b6e9d1281b26ea8302ccf73f0df98c134"
+    },
+    {
+      "path": "tools/overhaul-motion-174/inspect-pad174.mts",
+      "bytes": 2053,
+      "sha256": "dce07f2e858328a90276edc76cdeef18c6b6974125028a9c3233e21af1b7868f"
+    },
+    {
+      "path": "tools/overhaul-motion-174/inspect-process174.json",
+      "bytes": 504,
+      "sha256": "ad705a7f10461cde230f87cdd8dbfd6d731f5673e4dded7a0950d9c804fda5c0"
+    },
+    {
+      "path": "tools/overhaul-motion-174/inspect-stdout174.txt",
+      "bytes": 236,
+      "sha256": "40067ecb598e0a71749afdd8642eabd523741d020581d1994b258148ed6b82d3"
+    },
+    {
+      "path": "tools/overhaul-motion-174/inspect174.py",
+      "bytes": 1020,
+      "sha256": "f11f1ed05b7c45370b834b7a78de1c9f32abd440e3c5761493e29217512fdf53"
+    },
+    {
+      "path": "tools/overhaul-motion-174/master-inspection174.json",
+      "bytes": 24266,
+      "sha256": "dd49e897c5a8771652e77fc00136d472d4d9cb71e68a19d1c93ea68eca06eb60"
+    },
+    {
+      "path": "tools/overhaul-motion-174/pad-inspection-stdout174.txt",
+      "bytes": 4272,
+      "sha256": "57d62b959514c2d602135d47c1ac7d7fed5beede4d112c8dae4d75f1c208247a"
+    },
+    {
+      "path": "tools/overhaul-motion-174/preview-process174.json",
+      "bytes": 506,
+      "sha256": "48fba41044829cbb478d6568beb5b50100ce0962a0a577750e999d22acb09686"
+    },
+    {
+      "path": "tools/overhaul-motion-174/preview-receipt174.json",
+      "bytes": 24598,
+      "sha256": "97f16d8340bd31bc04c14a1c18fa5fc4c4458682bff47e6ab517a69f2976e368"
+    },
+    {
+      "path": "tools/overhaul-motion-174/preview-stdout174.txt",
+      "bytes": 10378,
+      "sha256": "79db7be9e43f7ee82d6c392d37e3a0c204d7dd8c0b307b0a35227a122013b419"
+    },
+    {
+      "path": "tools/overhaul-motion-174/preview174.py",
+      "bytes": 4481,
+      "sha256": "ab3d748558a90bcb33652db5dcfdc3aab706c96df444ae17459584846faca75b"
+    },
+    {
+      "path": "tools/overhaul-motion-174/protected-inputs174.json",
+      "bytes": 1802,
+      "sha256": "172b25dcfb12845acecf7197d5d5a644b8a0cba5a0e2e304c16ee3a2dac00db3"
+    },
+    {
+      "path": "tools/overhaul-motion-174/run174.py",
+      "bytes": 1270,
+      "sha256": "ff28752c499d58f0b988d4d93061a3ec8924f2f96ef81a460c7faa0407edf524"
+    },
+    {
+      "path": "tools/overhaul-motion-174/summary174.json",
+      "bytes": 1204,
+      "sha256": "7caac7a282c0334694757813d6f8955b3c20160098662ea8d84bfb8f526511a9"
+    },
+    {
+      "path": "tools/overhaul-motion-174/validate174.mts",
+      "bytes": 8161,
+      "sha256": "843ce042e4c3510c7141aa6d058b329e50f791cbcd6b1f9412c40cdee20a6217"
+    }
+  ]
+}

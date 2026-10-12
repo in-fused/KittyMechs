@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/page@48739ba0c05077cb16e63ef4631301d3.webm",
+      "bytes": 49070015,
+      "sha256": "9847439463b76cdcf9c3fec94d3347092716d2e84170d16dc21336af94206c8f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/page@b2341a242ac1e06df9ec347c3a2d551f.webm",
+      "bytes": 45190625,
+      "sha256": "c449d943dfe5b8685cd55a516f750e68cd6cae31255f129187458af46f724ab4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/evidence.json",
+      "bytes": 8626084,
+      "sha256": "62b60fb9b7ab1ecc7299091be9e97ce27b13643d9fcab3954f89054f3c10570c"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-075/extract-review.py",
+      "bytes": 2102,
+      "sha256": "9d504df562f5f1493fe08960cd364e6587379e7cb2402159ba41e95b312cd7a7"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-075/prepare-extract.py",
+      "bytes": 768,
+      "sha256": "439d854055c04b2ab6e731d141a497023404d8c788b7dcfa50ae4987366373f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-process/process-receipt.json",
+      "bytes": 63933,
+      "sha256": "055a796f0942619360987b0545c6ec4d810558f2ae763b7bc8215c26446e55cb"
+    }
+  ],
+  "command": [
+    "python",
+    "tools/overhaul-coop-integration-075/extract-review.py"
+  ],
+  "scope": "ONE sparse actualvideo derivative job, no capture or game rerun."
+}

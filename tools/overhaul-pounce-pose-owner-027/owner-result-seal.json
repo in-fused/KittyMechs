@@ -1,0 +1,35 @@
+{
+  "status": "THREE_CLOCK_VALIDATION_ONLY",
+  "files": [
+    {
+      "bytes": 5155949,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/raw-boundaries.json",
+      "sha256": "4d4493c03b8f6447fa9cb889312af0a4c9bdac1ac3769e0e7cf64161b91b513d"
+    },
+    {
+      "bytes": 218,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/receipt.json",
+      "sha256": "499dbdcdec1f0c9c53457f6b663b37c028ee9e07a1bbedfae54ee8a3a876bb38"
+    },
+    {
+      "bytes": 21988,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/verified-inputs.json",
+      "sha256": "f685c1a1317406edccea022fc264cf94f86b1a30a5d10fdbe4295eb1e454532b"
+    },
+    {
+      "bytes": 14258,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/process-receipt.json",
+      "sha256": "8d4e76ccfc570d24ec1dd018cbbf537d6846908b4c1fccdbd6d17261af883268"
+    },
+    {
+      "bytes": 217,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/stdout.txt",
+      "sha256": "083b374654b7f25d4f42969f6040924c9f7c55d5160ec6b7a01dc63c4ce98451"
+    },
+    {
+      "bytes": 4215,
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-analysis.json",
+      "sha256": "1a37d1a877d55faf309c9f85f20c79df068dee6a24787c72105d6be3ac92df19"
+    }
+  ]
+}

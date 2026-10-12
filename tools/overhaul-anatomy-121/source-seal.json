@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "execution": "UNRUN",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "bytes": 10918,
+      "sha256": "f5db7d376f7c664b7328e8ab71499df7cc4e6cf910659e6c9774c039ffd6a1d0"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "bytes": 8762,
+      "sha256": "3da424fa62207bc861b5f729020cb1a0de1b86513cba4e267ddb57cd68067b60"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/weight_ledger121.py",
+      "bytes": 3718,
+      "sha256": "eaaf297b9104a4cf677b51d38a0b3e6271b664411b31a8aa96880d111fb20598"
+    },
+    {
+      "path": "tools/overhaul-anatomy-121/protected-inputs.json",
+      "bytes": 4168,
+      "sha256": "660234a8b2ace4e021d77238add3a62bf974b45ec39fda19e2f79ba11a57250e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-121/HANDOFF.md",
+      "bytes": 3556,
+      "sha256": "980f7ff95a78746581cdae67273878b38cc599ee0e574ca122df3933b6de8231"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-048-author/process-receipt.json",
+      "bytes": 1520,
+      "sha256": "8a69edff0a87ea3b53743fbd567a6b90b5ae06a24c3cd79fa609254d45f494e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-048-author/stdout.txt",
+      "bytes": 999,
+      "sha256": "473451e8c3c01b5eeab9402c08e3e9c73c95fffb70f4d7d1318d57cca1bcd132"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author-receipt.json",
+      "bytes": 3094,
+      "sha256": "68d9c00adca0df20f29320f6bb56d985f56aa86f1ee45ebcd4beb2df0b64dd6e"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author.py",
+      "bytes": 9424,
+      "sha256": "ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.blend",
+      "bytes": 516462,
+      "sha256": "316e063e47156cf04be38cd48f0e7fc1525a52a454a5a8fda94d0cbe17fdb751"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.raw.glb",
+      "bytes": 108260,
+      "sha256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/author-handoff.json",
+      "bytes": 1243,
+      "sha256": "53d7a837005fc4650dcf5fcee13374a7c862c6acfdff167c1fbc662e3e9b2a06"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/author-seal.json",
+      "bytes": 437,
+      "sha256": "fb2624ef3fd112a4ffe1db2a8f0e1bc6324ab138769c7c7fb63848c597759e21"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/raw-failure-classification.json",
+      "bytes": 1846,
+      "sha256": "0a938c4ae46f812c18f9518c4417606f7fd6f2b1a370f6479e7353800a0bbe25"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/rejected-unbound-movingRecoil048.ts.txt",
+      "bytes": 2044,
+      "sha256": "994774e4227fd049e303a824ddd4f18758336bb622753f0154259259afa19df7"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/source-handoff.json",
+      "bytes": 3685,
+      "sha256": "3d3f72fc2c5bd0721d97690a0b02944a46c30cdf3bbe8869af3904141b1559ec"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/source-seal.json",
+      "bytes": 2532,
+      "sha256": "3053e3e9e2058c6c98342b0ffca1756b5e1960cad77f8b47c8a5b35afaffa8cd"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/preimages/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/seal-author048.py",
+      "bytes": 1324,
+      "sha256": "7d0f9948032240eb4922bcae3dbc97a864960e6b8379131da8406c1a191655fd"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/recoil048-author-seal.json",
+      "bytes": 1874,
+      "sha256": "3bd18788d8962c85dc7ca8e17791b2eb02e72a123beb805bc03f87f5a072a4ae"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-048.md",
+      "bytes": 1436,
+      "sha256": "11c9a2fac0e9369941db5c2162c0a35cd6b0f33b96047563dc972fa254fc4560"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-recoil-048-author-source-review.md",
+      "bytes": 2295,
+      "sha256": "112d0c847b345b1384fd17efd7259cb49b89c02b0da4cdab60538df33c1ab07e"
+    }
+  ],
+  "scope": "048 ONE failed author export, orphan skin rejected; all raw outputs preserved, original034 assets untouched, no sourcecandidate/retry/admission. 049 separate strict packaging proposal does not alter048 failure."
+}

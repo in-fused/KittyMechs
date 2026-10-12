@@ -1,0 +1,1 @@
+Writer CLOSED. Read-only diagnosis: docs/overhaul/navigation278-diagnosis.md. Exact actual/source operands: operands278.json. High-confidence omitted native retained lamp collider; pulse overshoot secondary. No runtime/limits/test/replay changes. Root decides bounded planner admission fix.

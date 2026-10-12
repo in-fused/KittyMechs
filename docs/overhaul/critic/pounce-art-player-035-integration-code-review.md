@@ -1,0 +1,15 @@
+#035 integration and ordinary observation execution gate
+
+Independent HIGH preflight began2026-10-10 21:19:17 UTC; target21:34/cleanup21:39/hard21:42. Root035 cleanup21:36/hard21:39 unchanged.
+
+**APPROVE ONE sealed full build (inclusive180s), then conditional ONE matching frozen8802 public observation (inclusive120s), with cleanup reserve. First genuine failure stops; no repair/retry.** Require actual source/build/server identity and first-failure receipts. No art/native/contact/performance/Gate1 acceptance follows.
+
+Verified all22 frozen rows, identical between build/capture seals, zero size/SHA mismatches. Build seal `3D7992F5665CF9989C9260CDFDE91E87E5C28538EF66958EE0E6178175C53FE4`; capture seal `566749DFAD57EF35D94736F1926DED06B123C10E835FAD4297AEF93BEF13713C`. Exact independently validated034 GLB/manifest are copied. Public actor selector uses034; private007 selection and005 default contract remain. One mixer/owner and existing007 weighted visual envelope remain; firstFailure hides preview and invokes sticky public008 legacy fallback, with registry/disposal lifecycle retained.
+
+Settings store exposes finite clamped6–18m feline distance, default6m, independently persisted from standard10m camera distance. Public settings slider labels it explicitly. Actual current rendered envelope supplies body height; boom/look/pitch composition damps through transforms/fallback. Same composition is passed to local fit, pair fit and final camera pose. Native reset may snap position; visual reacquisition only snaps fitted distance, preserving position smoothing. Existing focus/position clearance casts remain. Fallback selection returns legacy camera target/preference and damped legacy composition. These presentation changes can change crosshair-derived aim perspective; code does not establish beam clearance or improved actual readability.
+
+The script uses public selection/reload persistence and ordinary keys, records independent authority history, one host video and read-only renderer/input/owner state. It waits actual pin/quad/R/stride/Air/land/return/unsupported fallback/movement/off-on outcomes. DynamicJ/L steering to three2.5m road destination discs is a new035 observation, not a replacement for failed030. Failure sampling bypasses normal guard and preserves exceptions. Internal110s plus external120s is bounded; root launcher starts timing before hashes, reserves10s and records timeout cleanup uncertainty rather than inventing disposal.
+
+Actual postreceipt history must prove a unique processed Space/life and correlate presented Air with its authority clock: the generic processed>0 predicate alone is insufficient. Inspect unexpected firstFailure/fallbacks, exact same-tick peer states, current resource identities and actual frames despite completion labels. No audio/guest video/screenshots are claimed. Framing and procedural tile quality need actual video-derived ordinary pixels; runtime/contact/source032 is not mounted or approved. Full four-mech/three-map/Gate1 remains INCOMPLETE.
+
+Exact closure/hash is recorded in tools/overhaul-root-round-027/critic-visual035-code-closure.json.

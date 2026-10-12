@@ -1,0 +1,23 @@
+{
+  "sessionId": 18868,
+  "first": {
+    "chunk_id": "8f0f6f",
+    "wall_time_seconds": 10.0150575,
+    "session_id": 18868,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "terminal": {
+    "chunk_id": "9cd52c",
+    "wall_time_seconds": 1.0702271,
+    "exit_code": 1,
+    "original_token_count": 150,
+    "output": "12:26:49 | INFO: Finished glTF 2.0 export in 20.914976835250854 s\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\author.py\", line 185, in <module>\r\n    if error:raise RuntimeError(error['message'])\r\n\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nRuntimeError: REQUESTED_CHAIN_UNREACHABLE:FL:2.2233480703413053\r\n\nError: script failed, file: 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-identity57-animation-source-004/author.py', exiting.\n\nBlender quit\n"
+  },
+  "chunks": [
+    "",
+    "",
+    "Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)\nRead blend: \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-identity-complete-source-003\\Pounce_Identity003.blend\"\nFra:12 Mem:149.84M (Peak 151.47M) | Time:00:00.86 | Rendering 1 / 64 samples\nFra:12 Mem:149.84M (Peak 151.47M) | Time:00:00.97 | Rendering 25 / 64 samples\nFra:12 Mem:149.84M (Peak 151.47M) | Time:00:01.07 | Rendering 50 / 64 samples\nFra:12 Mem:149.84M (Peak 151.47M) | Time:00:01.13 | Rendering 64 / 64 samples\nSaved: 'C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\quad.png'\nTime: 00:01.42 (Saving: 00:00.24)\n\nFra:22 Mem:151.17M (Peak 152.83M) | Time:00:00.12 | Rendering 1 / 64 samples\nFra:22 Mem:151.17M (Peak 152.83M) | Time:00:00.25 | Rendering 25 / 64 samples\nFra:22 Mem:151.17M (Peak 152.83M) | Time:00:00.35 | Rendering 50 / 64 samples\nFra:22 Mem:151.17M (Peak 152.83M) | Time:00:00.40 | Rendering 64 / 64 samples\nSaved: 'C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\movingR.png'\nTime: 00:00.58 (Saving: 00:00.13)\n\nFra:8 Mem:149.22M (Peak 150.87M) | Time:00:00.14 | Rendering 1 / 64 samples\nFra:8 Mem:149.22M (Peak 150.87M) | Time:00:00.24 | Rendering 25 / 64 samples\nFra:8 Mem:149.22M (Peak 150.87M) | Time:00:00.34 | Rendering 50 / 64 samples\nFra:8 Mem:149.22M (Peak 150.87M) | Time:00:00.40 | Rendering 64 / 64 samples\nSaved: 'C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\upright.png'\nTime: 00:00.55 (Saving: 00:00.11)\n\nFra:12 Mem:149.22M (Peak 150.87M) | Time:00:00.10 | Rendering 1 / 64 samples\nFra:12 Mem:149.22M (Peak 150.87M) | Time:00:00.19 | Rendering 25 / 64 samples\nFra:12 Mem:149.22M (Peak 150.87M) | Time:00:00.29 | Rendering 50 / 64 samples\nFra:12 Mem:149.22M (Peak 150.87M) | Time:00:00.34 | Rendering 64 / 64 samples\nSaved: 'C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\pounce.png'\nTime: 00:00.48 (Saving: 00:00.11)\n\nInfo: Saved as \"Pounce_IdentityAnimation004.blend\"\r\nINFO Draco mesh compression is available, use library at D:\\KittyMechTools\\blender-4.5.14-windows-x64\\4.5\\scripts\\addons_core\\io_scene_gltf2\\extern_draco.dll\r\n12:26:28 | INFO: Starting glTF 2.0 export\r\n12:26:28 | INFO: Extracting primitive: OptimizedIdentityAnimation004\r\n12:26:28 | INFO: Primitives created: 4\r\n",
+    "12:26:49 | INFO: Finished glTF 2.0 export in 20.914976835250854 s\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-identity57-animation-source-004\\author.py\", line 185, in <module>\r\n    if error:raise RuntimeError(error['message'])\r\n\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nRuntimeError: REQUESTED_CHAIN_UNREACHABLE:FL:2.2233480703413053\r\n\nError: script failed, file: 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-identity57-animation-source-004/author.py', exiting.\n\nBlender quit\n"
+  ]
+}

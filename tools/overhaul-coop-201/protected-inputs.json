@@ -1,0 +1,109 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-177/source-seal.json",
+      "bytes": 6466,
+      "sha256": "db5608299c149cc4299ff6cde3102be92ed4684943e7d3626bd7b6290cf870b7"
+    },
+    {
+      "path": "docs/overhaul/critic/coop177-actual-review.md",
+      "bytes": 4605,
+      "sha256": "be00076c9ff102b24709cfad2fdf46ea8801a2a6a45f7cb227aa4d7edc9a1028"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop177-public/evidence.json",
+      "bytes": 2841353,
+      "sha256": "282b303b3a95b79caaeb9c8a4e9ec0189e5ed2629b1e62397f551edd3223928d"
+    },
+    {
+      "path": "tools/overhaul-coop-156/aim-feedback.mjs",
+      "bytes": 5338,
+      "sha256": "d14faaa97c0ef0896aef9d0c5719e29d335acae36de2d2f3fc8b1d2f7b254263"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools/overhaul-coop-201/preimages/controller.mjs",
+      "bytes": 8206,
+      "sha256": "2bcc236d6146d00a08f5d281ea250b82f161e1cd385c6b6874d9585867fb0088"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/current-occupancy.mjs",
+      "bytes": 1394,
+      "sha256": "36989c1ee5d4cb4fafee3fd59702b62f7ae43bc9fa202fe6d8769cdee1ca8939"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/exposure-search.mjs",
+      "bytes": 4237,
+      "sha256": "054042bf375ca12b1e239eded457482627c4b941b46a0665682073edaac981a8"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/geometry-source.mjs",
+      "bytes": 10995,
+      "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/interaction-separation.mjs",
+      "bytes": 3566,
+      "sha256": "68dfaec8f2d25b6893e2229743ef54c897b087f19a131295f8662165031a7e5c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/lifecycle-adapter.mjs",
+      "bytes": 2678,
+      "sha256": "b23df30f76caf2045a6824198b6224a1cc37517b09294adbf41abea36eb16430"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/mission-capture.mjs",
+      "bytes": 55316,
+      "sha256": "dae9537c5f39be4f9148643f2216a84309e5f37e69bffd9c77bd01d097c5d7e0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/motion-scheduler.mjs",
+      "bytes": 10754,
+      "sha256": "b3b5bde2cc5959373ee597ea00dcd0df4a81030a2905296bd8eb704d43116974"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/phased-stage.mjs",
+      "bytes": 2860,
+      "sha256": "c44740a3c981fc60dc1e9ce311d5a9c0f8ff9fdad29276ff220168fc872deeeb"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planner.mjs",
+      "bytes": 7933,
+      "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planning-read.mjs",
+      "bytes": 2326,
+      "sha256": "8a3dfd64059060eada299734b8b4751859b1d8a0568c120099adefd4dd3d7687"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/terrain-base.mjs",
+      "bytes": 2604,
+      "sha256": "277cf56eb7b1956640ab2acab094b64bd3aa221c825b44bd45f78e4ea132f293"
+    }
+  ],
+  "runtimeReceiptBinding": "External KITTYMECH_BUILD_RECEIPT SHA64 + KITTYMECH_BUILD_ROOT/receipt.json exactbytes;rootfreshHTTP/frozen062 source/importclosure gate",
+  "retained062Receipt": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+}

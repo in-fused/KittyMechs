@@ -1,0 +1,7 @@
+{
+  "forward": [0, -1, 0], "up": [0, 0, 1], "lateral": [1, 0, 0],
+  "side": {"FL": -1, "FR": 1, "HL": -1, "HR": 1},
+  "sourceToGLTF": [[1, 0, 0], [0, 0, 1], [0, -1, 0]],
+  "gltfLateral": [1, 0, 0], "gltfUp": [0, 1, 0],
+  "units": "source metres Z-up; Blender glTF export_yup maps (x,y,z) to (x,z,-y); character body parent is applied afterwards"
+}

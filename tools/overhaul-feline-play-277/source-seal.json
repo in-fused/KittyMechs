@@ -1,0 +1,42 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE finite277 mission-only two-client travel/lifecycle actual-play proposal; movingR and gesture UNTESTED; native/source/contact/art/performance unadmitted",
+  "files": [
+    {
+      "path": "tools/overhaul-feline-play-277/binding.json",
+      "bytes": 279554,
+      "sha256": "401a0f210f3872f255a043cbd0afc33e83adf310b2aec3907d5741f4d4ba551d"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/bound277.mjs",
+      "bytes": 4436,
+      "sha256": "7aa7f79afd2b1330f808e67e80561a74b8abb42623a498f11581a85fdbe98b40"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/capture277.mjs",
+      "bytes": 57785,
+      "sha256": "1c6f96baeb5ce35264156ced904ae29ac76ec0a617b89bd6a4b716bbfb838e23"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/guards277.mjs",
+      "bytes": 3593,
+      "sha256": "bc7a5ca6cd0c21b870ecb3ffe5d345f3f8afadf74b7483822e6adb5c50484a21"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/HANDOFF.md",
+      "bytes": 2774,
+      "sha256": "be4a1ed3387b0a5a9d80c4286d1a94202a860f0cb9487560cae565afd688588e"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/prepare277.py",
+      "bytes": 3048,
+      "sha256": "fa85d75667aaf335ef559391225cb0ad622191e815ea4a31b5f2e1a3cd7ae177"
+    },
+    {
+      "path": "tools/overhaul-feline-play-277/supervise277.py",
+      "bytes": 7113,
+      "sha256": "1557790935d830e930fd99729d9bb0035da0331cf526b55cbd02369ca5bfcada"
+    }
+  ],
+  "actual": "UNRUN"
+}

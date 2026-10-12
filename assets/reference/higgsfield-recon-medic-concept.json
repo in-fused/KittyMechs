@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "status": "ORIGINAL_DESIGN_REFERENCE_USED_FOR_AUTHORED_RIG_DERIVATIVES",
+  "jobId": "e60350f8-a3e3-4c2d-ab4b-69c74044eaf7",
+  "model": "gpt_image_2_5",
+  "params": {
+    "model": "gpt_image_2_5",
+    "prompt": "Create an ORIGINAL production design reference sheet for the browser game KittyMech, using the supplied game key art only as an aspiration for disciplined fitted armor, mechanical material richness, and feline identity. No Transformers, movie characters, logos or copied designs. Two clearly different original feline mech characters, a lean LYNX recon mech in desaturated deep teal and brushed silver with tiny cyan optics, tall lynx ears, slender relieved limbs, exposed waist bearings, narrow split dorsal and flank plates, compact mounted weapons, athletic paws and a segmented balancing tail; and CARACAL medic mech in ivory ceramic and warm orange with dark service cradles and exactly six clearly visible GREEN repair cells, black-tipped caracal ears, a compact dorsal drone/service dock, modest robust paw guards and repair tools. Each character has a complete unobstructed quadruped side/three-quarter view and a complete upright biped view, long natural feline proportions in quadruped mode and smooth convincing humanoid articulated stride anatomy in upright mode. Fitted armor panels with visible edge relief, inset panels, restrained exposed mechanisms and convincing roughness variation; avoid giant boxes, visually identical recolors, smooth toy plastic, excessive emission, clutter, scenery hiding paws, impossible joints. Neutral studio background and realistic diffuse readable lighting; full bodies and tails entirely in frame. This is a mesh-authoring design guide, not a screenshot or proof of in-game performance. Labels LYNX RECON and CARACAL MEDIC only; large clean readable views, no stats or UI. Maintain original feline aesthetic, achievable low-poly fitted geometry with normal-map detail.",
+    "aspect_ratio": "16:9",
+    "count": 1,
+    "quality": "high",
+    "resolution": "2k",
+    "medias": [
+      {
+        "role": "image",
+        "value": "99f6c2cd-4cfe-4fe7-a973-696f519fadfd"
+      }
+    ]
+  },
+  "sourceKeyArtJobId": "99f6c2cd-4cfe-4fe7-a973-696f519fadfd",
+  "sourcePath": "assets/reference/Concepts/recon-medic-higgsfield-e60350f8.png",
+  "sourceSha256": "477908ecdb0f43e4e1665092185cc69931521f9756642ab04e05f18cdfeb3a02",
+  "sourceBytes": 5305688,
+  "actualPixels": {
+    "width": 2688,
+    "height": 1520
+  },
+  "credits": 2.75,
+  "initialCredits": 946.5,
+  "postGenerationCredits": 943.75,
+  "noPurchaseOrTopup": true,
+  "usage": "Paint/silver/ivory-orange separation, recessed mechanisms and repair-cell caps informed original full-body art. Reference geometry/proportions/fingers/pilot omissions were not copied; fixed original feline rig/pilot/sole and exactly six medic cells remain actual-code verified.",
+  "limits": "Generated concept pixels are not in-game captures, a rig/mesh export, exact six-cell proof, playable quality proof or runtime performance evidence. Higgsfield was used for a specific design need, not unnecessary credit consumption.",
+  "tooling": "The game-dev CLI is unavailable; existing local Blender/glTF/project audits were used. img2threejs was read but not applied because this is an existing skinned GLB derivative pipeline, not its procedural Three.js factory workflow."
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "handcontact032-final-result-seal",
+  "sealedUTC": "2026-10-10T21:26:56.3321857Z",
+  "status": "FIRST_GENUINE_FAILURE_STOP",
+  "sourceOwnedRows": 14,
+  "protectedRows": 187,
+  "sourceMismatches": 0,
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/accepted-sparse-clocks.json",
+      "bytes": 221157,
+      "sha256": "4a945adb2d8bc33d9af0d3e25cbd5fd508bd6de0737bcba93f0ffda23ab3aeca"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/actual-author-ground.json",
+      "bytes": 464,
+      "sha256": "1b18a0b426ecca19bc4eed4a73ae40a94c7f76fbdb9f6d3d2fcba753b9ab761d"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/first-failure.json",
+      "bytes": 76477,
+      "sha256": "c4105c464990110b854c5aca1cd3a72d446315109f2f1d6ebfef4fc69b26c340"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/fixed-rest-verification.json",
+      "bytes": 101554,
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/geometry-clock-0.json",
+      "bytes": 12522291,
+      "sha256": "25536940cf940501dfe8036cc33c66852813ee7690659989e64576237cfafb20"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/inherited-capability-identities.json",
+      "bytes": 3965,
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/pose-owner-raw.ndjson",
+      "bytes": 355881,
+      "sha256": "9ab8b1efbdfdab6ffe9f3c98af28ff73dd54bfd774c67426e24f1f69e75defaa"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/Pounce_HandContact032.blend",
+      "bytes": 81392146,
+      "sha256": "8abf627b18e9e7619d4fee151ab0435daae8e4aa3c9fcb1d354f9a69ab67faf8"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/raw.ndjson",
+      "bytes": 35710,
+      "sha256": "b07cfe595251dc7c2885d4d1e4f5811895a3b0cb8347b1c1825e266130c718bd"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/receipt.json",
+      "bytes": 40721,
+      "sha256": "38f8acca4c3867eb4736dda11cd8212754747893e68e072f05994b9cf11ee94f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-validation-process/process-receipt.json",
+      "bytes": 2412,
+      "sha256": "7dfdb1880195faf14e4abc8361fa8e9c6c13c80e843fdb566ab707ac7ee4c97d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-validation-process/stdout.txt",
+      "bytes": 773,
+      "sha256": "33970de8b35bf7c2cdf87ca51adbc5c1cdf4edb7a8e0c50c08bfa82e3d18d5b2"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/postrun-input-verification.json",
+      "bytes": 2999,
+      "sha256": "76880c629abf890e32a60bf0e8d0d95cb58536955a127abe4a138f65ad335e99"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/actual-result-summary.json",
+      "bytes": 2013,
+      "sha256": "9597d5fa4d4ec2d5f1d08fc2dc0c296698f5590de98ba3872c46038d0781c705"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/RESULT.md",
+      "bytes": 1729,
+      "sha256": "dde76a11a258fe1e715c94a4118377b3352433392f445a331757f524a99a011b"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/result-seal.json",
+      "bytes": 3524,
+      "sha256": "ede00ae87ba4f29729d761e859dafd996e8800d7a62df2bb00f4ec4476c2bb5d"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/postrun-protected-verification.json",
+      "bytes": 44179,
+      "sha256": "02118fc1ef65d03b33c2968838d4adc50f53ea31e4f85a3fa6dd26e22cd7e86b"
+    }
+  ],
+  "totalBytes": 94807995.0
+}

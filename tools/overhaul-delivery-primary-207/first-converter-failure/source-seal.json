@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_CONVERTER_ALIAS_FAILURE_PRESERVED",
+  "files": [
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/conversion206-receipt.json",
+      "bytes": 3086750,
+      "sha256": "3a79be2fff66904eb9f4d6655bb8c9f3cbe2603350dac624bdd7e3f286e98905"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/converter-process207.json",
+      "bytes": 1986,
+      "sha256": "d6248005e04c504bcb21ca90f010a43622a9fb442248d7f166fc6f4f3950a99b"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/converter-stdout207.txt",
+      "bytes": 374,
+      "sha256": "c87d4938c6bd408d43147825cc75668682ae34f4a8ff89fa5b6bfbb5d3ced76a"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/run-converter207.py",
+      "bytes": 2043,
+      "sha256": "8a68c5fff5021de28981cbca156251159682be999cfdd1051a96f2d2ec772030"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_INCOMPLETE_FIRST_FAILURE_STOP",
+  "pid": 364304,
+  "exitCode": 11,
+  "inclusiveSeconds": 1.922000000020489,
+  "capSeconds": 165,
+  "prior198199Seconds": 8.235,
+  "aggregateAuthorSeconds": 10.157000000020489,
+  "runningJobs": [],
+  "lastSavedGuard": {
+    "guard": "COINCIDENT_CORNER_AMBIGUITY_transit_wall__glazing",
+    "expected": [],
+    "observed": [],
+    "passed": true
+  },
+  "savedPreRestoreOperands": "assets/source/overhaul-far-city-200/operands-transit_wall__glazing.npz",
+  "postRestoreOperands": "UNAVAILABLE:crash while reading first postmutation FLOAT_COLOR view, before restored NPZ save",
+  "pythonCrashLine": 81,
+  "nativeStack": [
+    "CustomData_get_elem_size",
+    "rna_Attribute_data_begin",
+    "FloatColorAttribute_data_lookup_int",
+    "RNA_property_collection_lookup_int"
+  ],
+  "actualAssetOutputs": [],
+  "wrapperOutputsClarification": "Directory inventory includes preexisting preview source + generated forensic records;no blend/glb/png assets",
+  "historicalOpenRecords": "process-active and ingestion-operands OPEN are historical startup/in-progress records;terminal receipt supersedes ownership",
+  "nextBoundaryInference": "Reacquire RNA color/UV attribute views by stable attribute names after CustomData layer removal and depsgraph update;strongly localized by stack but not tested. No fix/rerun allowed in200."
+}

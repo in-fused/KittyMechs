@@ -1,0 +1,2511 @@
+{
+  "before": "211a59bb6e84c7bf0b600f913329d104f4a114dea4a330809d5a65efb5781b9d",
+  "after": "211a59bb6e84c7bf0b600f913329d104f4a114dea4a330809d5a65efb5781b9d",
+  "materialBefore": [
+    {
+      "name": "FelinePBR_Identity003_AmberOptic",
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.9399999976158142,
+                0.2800000011920929,
+                0.03500000014901161,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.3499999940395355
+            ],
+            [
+              "Roughness",
+              0.46000000834465027
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.9399999976158142,
+                0.2800000011920929,
+                0.03500000014901161,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              2.4000000953674316
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_DeepTealCeramic",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_DeepTealCeramic",
+            "packedSHA256": "a690bb6f8fb69e01d9765e32be0dab35f026078ae8b6d37206930d7753967fc7"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.47999998927116394
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.08500000089406967,
+                0.23999999463558197,
+                0.22499999403953552,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.2800000011920929
+            ],
+            [
+              "Roughness",
+              0.47999998927116394
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.08500000089406967,
+                0.23999999463558197,
+                0.22499999403953552,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_Graphite",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Graphite",
+            "packedSHA256": "79f6823699b9d41a65b13bd1063fdf0c47893b0d55097fb35e38155cb8681ab1"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.800000011920929
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.019999999552965164,
+                0.02500000037252903,
+                0.028999999165534973,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.11999999731779099
+            ],
+            [
+              "Roughness",
+              0.800000011920929
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.019999999552965164,
+                0.02500000037252903,
+                0.028999999165534973,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_Gunmetal",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Gunmetal",
+            "packedSHA256": "ad9021bea1c7c80df3ff21f10cdefa10f0bb8c2f1a08700b0be1de44cf451518"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.5899999737739563
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.054999999701976776,
+                0.07800000160932541,
+                0.09200000017881393,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.6200000047683716
+            ],
+            [
+              "Roughness",
+              0.5899999737739563
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.054999999701976776,
+                0.07800000160932541,
+                0.09200000017881393,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    }
+  ],
+  "materialAfter": [
+    {
+      "name": "FelinePBR_Identity003_AmberOptic",
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.9399999976158142,
+                0.2800000011920929,
+                0.03500000014901161,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.3499999940395355
+            ],
+            [
+              "Roughness",
+              0.46000000834465027
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.9399999976158142,
+                0.2800000011920929,
+                0.03500000014901161,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              2.4000000953674316
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_DeepTealCeramic",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_DeepTealCeramic",
+            "packedSHA256": "a690bb6f8fb69e01d9765e32be0dab35f026078ae8b6d37206930d7753967fc7"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.47999998927116394
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.08500000089406967,
+                0.23999999463558197,
+                0.22499999403953552,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.2800000011920929
+            ],
+            [
+              "Roughness",
+              0.47999998927116394
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.08500000089406967,
+                0.23999999463558197,
+                0.22499999403953552,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_Graphite",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Graphite",
+            "packedSHA256": "79f6823699b9d41a65b13bd1063fdf0c47893b0d55097fb35e38155cb8681ab1"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.800000011920929
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.019999999552965164,
+                0.02500000037252903,
+                0.028999999165534973,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.11999999731779099
+            ],
+            [
+              "Roughness",
+              0.800000011920929
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.019999999552965164,
+                0.02500000037252903,
+                0.028999999165534973,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "FelinePBR_Identity003_Gunmetal",
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Gunmetal",
+            "packedSHA256": "ad9021bea1c7c80df3ff21f10cdefa10f0bb8c2f1a08700b0be1de44cf451518"
+          }
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_MetalRough",
+            "packedSHA256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+          }
+        },
+        {
+          "name": "Image Texture.002",
+          "type": "ShaderNodeTexImage",
+          "inputs": [
+            [
+              "Vector",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "image": {
+            "name": "Pounce034_Normal",
+            "packedSHA256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "inputs": [
+            [
+              "Displacement",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Thickness",
+              0.0
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "inputs": [
+            [
+              "Value",
+              0.5
+            ],
+            [
+              "Value",
+              0.5899999737739563
+            ],
+            [
+              "Value",
+              0.5
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "inputs": [
+            [
+              "Strength",
+              0.3199999928474426
+            ],
+            [
+              "Color",
+              [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "inputs": [
+            [
+              "Base Color",
+              [
+                0.054999999701976776,
+                0.07800000160932541,
+                0.09200000017881393,
+                1.0
+              ]
+            ],
+            [
+              "Metallic",
+              0.6200000047683716
+            ],
+            [
+              "Roughness",
+              0.5899999737739563
+            ],
+            [
+              "IOR",
+              1.5
+            ],
+            [
+              "Alpha",
+              1.0
+            ],
+            [
+              "Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Weight",
+              0.0
+            ],
+            [
+              "Diffuse Roughness",
+              0.0
+            ],
+            [
+              "Subsurface Weight",
+              0.0
+            ],
+            [
+              "Subsurface Radius",
+              [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ]
+            ],
+            [
+              "Subsurface Scale",
+              0.05000000074505806
+            ],
+            [
+              "Subsurface IOR",
+              1.399999976158142
+            ],
+            [
+              "Subsurface Anisotropy",
+              0.0
+            ],
+            [
+              "Specular IOR Level",
+              0.5
+            ],
+            [
+              "Specular Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Anisotropic",
+              0.0
+            ],
+            [
+              "Anisotropic Rotation",
+              0.0
+            ],
+            [
+              "Tangent",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Transmission Weight",
+              0.0
+            ],
+            [
+              "Coat Weight",
+              0.0
+            ],
+            [
+              "Coat Roughness",
+              0.029999999329447746
+            ],
+            [
+              "Coat IOR",
+              1.5
+            ],
+            [
+              "Coat Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Coat Normal",
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              "Sheen Weight",
+              0.0
+            ],
+            [
+              "Sheen Roughness",
+              0.5
+            ],
+            [
+              "Sheen Tint",
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              "Emission Color",
+              [
+                0.054999999701976776,
+                0.07800000160932541,
+                0.09200000017881393,
+                1.0
+              ]
+            ],
+            [
+              "Emission Strength",
+              0.0
+            ],
+            [
+              "Thin Film Thickness",
+              0.0
+            ],
+            [
+              "Thin Film IOR",
+              1.3300000429153442
+            ]
+          ],
+          "image": null
+        },
+        {
+          "name": "Separate Color",
+          "type": "ShaderNodeSeparateColor",
+          "inputs": [
+            [
+              "Color",
+              [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ]
+            ]
+          ],
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Math",
+          "Value",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Green",
+          "Math",
+          "Value"
+        ]
+      ]
+    }
+  ],
+  "identical": true
+}

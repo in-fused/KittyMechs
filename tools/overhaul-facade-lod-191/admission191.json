@@ -1,0 +1,34 @@
+{
+  "views": [
+    {
+      "label": "off-quad",
+      "distantSource": 211572,
+      "distantCandidate": 177956,
+      "reductionPercent": 15.888680921861116,
+      "passes20Percent": false
+    },
+    {
+      "label": "on-quad",
+      "distantSource": 210540,
+      "distantCandidate": 177052,
+      "reductionPercent": 15.905766125201861,
+      "passes20Percent": false
+    },
+    {
+      "label": "on-upright",
+      "distantSource": 210492,
+      "distantCandidate": 177004,
+      "reductionPercent": 15.909393231096669,
+      "passes20Percent": false
+    }
+  ],
+  "eligibleMetric": "Full-district nearest-AABB distance eligibility, not frustum/GPU submission",
+  "writer": "CLOSED",
+  "status": "UNADMITTED_INSUFFICIENT_REDUCTION",
+  "generatedIndices": {
+    "disposition": "Unadmitted diagnostic index output removed: runtime import is not justified; sealed editable author reproduces it",
+    "sha256": "e212d0dfad2ea9ace37455af2c797e3fee29a8441197ec70634fc5f35a31359c",
+    "bytes": 356029
+  },
+  "sourceAttributes": "Retained source cap triangles/attributes; no new UV/material/texture sampling"
+}

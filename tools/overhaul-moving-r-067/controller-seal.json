@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-r-067-source-review.md",
+      "bytes": 3593,
+      "sha256": "11149e2baa5c6930f2ab2404db64c98ee0d3a88e351a96f96b9494ff6c009e40"
+    },
+    {
+      "path": "docs/overhaul/moving-r-067-source-handoff.md",
+      "bytes": 4854,
+      "sha256": "e20ee40e9fbc95ba4c65fff32f59d6e01052f23084b498bf823a3dc7b5b53188"
+    },
+    {
+      "path": "docs/overhaul/moving-r-support-066-inventory.md",
+      "bytes": 8821,
+      "sha256": "bc6713e23b29795a0443a02d351397d1c56995d23aff1b781d523aeab3edd8d2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "public/assets/models/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime058EManifest.json",
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/capture.mjs",
+      "bytes": 6717,
+      "sha256": "6982a3b6d0d1da885038a0cc2673b31402a7a7968cddc68c84006f313e33a1d5"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/controller-check.ts",
+      "bytes": 5853,
+      "sha256": "7cb9a4d909b73914bcb11c4ec22419837fcf1870e3e7424e2e17cfd4d9d93dd5"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/preimages/identity57Runtime005.ts",
+      "bytes": 12094,
+      "sha256": "52b9e9eb76776da7f751bcd3687f477cb3df7f04ab0387600f51e7954e8b2c53"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4191,
+      "sha256": "fb04eee5e5cfae8e6cd056424e52b203560bbec65287bc9af3ae4dbaf2c81fff"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/prepare-check.py",
+      "bytes": 990,
+      "sha256": "e2b4dfb960e6783f3102c40a2cf8293d6f225cc72b32810b729e7176672b9274"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/source-seal.json",
+      "bytes": 3145,
+      "sha256": "63707f8f7bf037f8b25baa75cbbc612370a1f230fe40dde0fe17b2d0f291ba4d"
+    },
+    {
+      "path": "tools/overhaul-moving-r-support-068/result-seal.json",
+      "bytes": 1589,
+      "sha256": "1f3d7fc8471a5962f00bdaabc460f7fa6cc984f2a34543d74926972f2713e3d2"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-moving-r-067/controller-check.ts"
+  ],
+  "scope": "ONE067 candidate check only; no actual movement/play acceptance."
+}

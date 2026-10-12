@@ -1,0 +1,546 @@
+{
+  "schema": 1,
+  "candidate": "assets/runtime/models/Factory_Workshop.glb",
+  "sha256": "88869e378f447af93d932e05d9e48338a3953a908312c02f2d55d6084e6142d7",
+  "bytes": 4872496,
+  "units": "meters",
+  "up": "Y",
+  "bounds": {
+    "min": [
+      -11.5,
+      -8.940696716308594e-08,
+      -9.0
+    ],
+    "max": [
+      11.5,
+      12.800000458955765,
+      9.0
+    ]
+  },
+  "nodes": [
+    {
+      "name": "Factory_Workshop_Core",
+      "part": "body",
+      "bounds": {
+        "min": [
+          -10.15001106262207,
+          -8.940696716308594e-08,
+          -8.250003814697266
+        ],
+        "max": [
+          10.15001106262207,
+          12.000000387430191,
+          8.3100004196167
+        ]
+      },
+      "primitives": [
+        {
+          "material": "modular_factory_facade_garage",
+          "triangles": 664,
+          "vertices": 1048,
+          "bounds": {
+            "min": [
+              -10.150009155273438,
+              0.0,
+              -8.25000286102295
+            ],
+            "max": [
+              10.150009155273438,
+              4.5539988577365875,
+              8.25000286102295
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        },
+        {
+          "material": "modular_factory_facade_brick",
+          "triangles": 5087,
+          "vertices": 6199,
+          "bounds": {
+            "min": [
+              -10.15000057220459,
+              0.5499999523162842,
+              -8.250000953674316
+            ],
+            "max": [
+              10.150007247924805,
+              11.799999624490738,
+              8.250000953674316
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        },
+        {
+          "material": "modular_factory_facade_windows",
+          "triangles": 9904,
+          "vertices": 16839,
+          "bounds": {
+            "min": [
+              -10.079999923706055,
+              2.755306154489517,
+              -8.179999351501465
+            ],
+            "max": [
+              10.079999923706055,
+              11.079750448465347,
+              8.179999351501465
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        },
+        {
+          "material": "modular_factory_facade_brick_doors",
+          "triangles": 526,
+          "vertices": 589,
+          "bounds": {
+            "min": [
+              6.350000858306885,
+              0.550000011920929,
+              7.944999694824219
+            ],
+            "max": [
+              7.950002670288086,
+              2.750000149011612,
+              8.179999351501465
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        },
+        {
+          "material": "modular_factory_facade_windows_glass",
+          "triangles": 552,
+          "vertices": 1104,
+          "bounds": {
+            "min": [
+              -9.882333755493164,
+              6.786165148019791,
+              -7.982333183288574
+            ],
+            "max": [
+              9.882333755493164,
+              10.901083379983902,
+              7.982333183288574
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        },
+        {
+          "material": "modular_factory_facade_trim_01",
+          "triangles": 264,
+          "vertices": 480,
+          "bounds": {
+            "min": [
+              -10.15001106262207,
+              -8.940696716308594e-08,
+              -8.250003814697266
+            ],
+            "max": [
+              10.15001106262207,
+              12.000000387430191,
+              8.3100004196167
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        }
+      ]
+    },
+    {
+      "name": "Factory_Workshop_Roof",
+      "part": "roof",
+      "bounds": {
+        "min": [
+          -11.5,
+          11.99999988079071,
+          -9.0
+        ],
+        "max": [
+          11.5,
+          12.800000458955765,
+          9.0
+        ]
+      },
+      "primitives": [
+        {
+          "material": "modular_factory_facade_garage",
+          "triangles": 144,
+          "vertices": 288,
+          "bounds": {
+            "min": [
+              -11.5,
+              11.99999988079071,
+              -9.0
+            ],
+            "max": [
+              11.5,
+              12.800000458955765,
+              9.0
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        }
+      ]
+    },
+    {
+      "name": "Factory_Workshop_Sign",
+      "part": "sign",
+      "bounds": {
+        "min": [
+          -1.9420689344406128,
+          5.670000076293945,
+          8.289999961853027
+        ],
+        "max": [
+          1.9420689344406128,
+          7.869999885559082,
+          8.289999961853027
+        ]
+      },
+      "primitives": [
+        {
+          "material": "Factory_Original_RainlineWorks_Sign_Paint",
+          "triangles": 2,
+          "vertices": 4,
+          "bounds": {
+            "min": [
+              -1.9420689344406128,
+              5.670000076293945,
+              8.289999961853027
+            ],
+            "max": [
+              1.9420689344406128,
+              7.869999885559082,
+              8.289999961853027
+            ]
+          },
+          "normalAndTangentBasisValid": true
+        }
+      ]
+    }
+  ],
+  "triangles": 17143,
+  "exportVertices": 26551,
+  "primitives": 8,
+  "materialCount": 7,
+  "images": [
+    {
+      "name": "modular_factory_facade_garage_nor_gl_1k",
+      "bytes": 240114,
+      "sha256": "d0f4231aeef624f9d0172ee29b2f1758604672c56a4bc183fd3bb0d99b59eaf4",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "normalGL",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_garage_nor_gl_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_garage_arm_1k",
+      "bytes": 199883,
+      "sha256": "e84aafd8fa96d568475c1f57e1714cd513c2fc8c695adbfe947e0f5a136c4c31",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "ARM",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_garage_arm_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_garage_diff_1k",
+      "bytes": 161763,
+      "sha256": "ab9f42fed169284bf8f0b28b0185d7b9fd3a9f6fdaf8dc1f1aba7d357b7bd664",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "baseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\modular_factory_facade_garage_diff_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_brick_nor_gl_1k",
+      "bytes": 412185,
+      "sha256": "4e6afe7b0e28a573323435274d4a97ef512eaac35f3b3408aafce78421d0843f",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "normalGL",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_brick_nor_gl_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_brick_arm_1k",
+      "bytes": 221224,
+      "sha256": "846e215de5e1b31a35ead010339fe6316ea613087cd0b039a22f9d1db896c137",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "ARM",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_brick_arm_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_brick_diff_1k",
+      "bytes": 370025,
+      "sha256": "88c664efd1b523effaeb091cfb4a3d8db9fed74d942ef21bacf33167f36d9ef3",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "baseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\modular_factory_facade_brick_diff_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_windows_nor_gl_1k",
+      "bytes": 219410,
+      "sha256": "dc86a7d2ea4ffd26b63549de8b3f731917638340a535003a64ea6f633b703408",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "normalGL",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_windows_nor_gl_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_windows_arm_1k",
+      "bytes": 306179,
+      "sha256": "df0ec2340e0140082cfa2df2d6353e1f8cf6a9dbfd0b62a5a7b4e6c1a6b8b65b",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "ARM",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_windows_arm_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_windows_diff_1k",
+      "bytes": 185063,
+      "sha256": "f8be5578fa0149670e9f6bf421536adf5af1cc76779b7475395695e100abd5fa",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "baseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\modular_factory_facade_windows_diff_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_doors_nor_gl_1k",
+      "bytes": 150456,
+      "sha256": "f86699b8efba77083a2d7338181898f3217373ab695d1b7336a7d079f5fb9d8a",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "normalGL",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_doors_nor_gl_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_doors_arm_1k",
+      "bytes": 228711,
+      "sha256": "b8b49253bb4ffffda42416268494ed2ad7ce024276c1f8612dcbb1c5728e3ed6",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "ARM",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_doors_arm_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_doors_diff_1k",
+      "bytes": 157623,
+      "sha256": "2f4d34dada4433563b049d51f07a964f54b4bc6ff6a229e2bec6da68beab4d3b",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "baseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\modular_factory_facade_doors_diff_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_trim_01_nor_gl_1k",
+      "bytes": 245083,
+      "sha256": "f9191ffac2196d006a89266823d7911524379c8fa9a027ce4ff0126d89f290be",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "normalGL",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_trim_01_nor_gl_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_trim_01_arm_1k",
+      "bytes": 171322,
+      "sha256": "7ff6cf5ee48f1a1b10c0d276181446c4d33e2b6ede1451787abd36263b2dd414",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "ARM",
+      "colorSpace": "linear",
+      "derivativePath": "shipping-textures\\modular_factory_facade_trim_01_arm_1k.jpg"
+    },
+    {
+      "name": "modular_factory_facade_trim_01_diff_1k",
+      "bytes": 151796,
+      "sha256": "d8b69d7454bb9ed84fcc59f7213ee810eadabc3a0b90eaf68f79b51618ceff07",
+      "size": [
+        1024,
+        1024
+      ],
+      "role": "baseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\modular_factory_facade_trim_01_diff_1k.jpg"
+    },
+    {
+      "name": "rainline-works-sign",
+      "bytes": 62172,
+      "sha256": "65ae5129864aa5841b6cb6cfd25f24942a9af79a8aff45f534e6e135e98cec28",
+      "size": [
+        512,
+        290
+      ],
+      "role": "originalSignBaseColor",
+      "colorSpace": "sRGB",
+      "derivativePath": "shipping-textures\\rainline-works-sign.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_garage",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_brick",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_windows",
+      "normalTexture": {
+        "index": 6
+      },
+      "occlusionTexture": {
+        "index": 7
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 8
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_brick_doors",
+      "normalTexture": {
+        "index": 9
+      },
+      "occlusionTexture": {
+        "index": 10
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 11
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_windows_glass",
+      "normalTexture": {
+        "index": 12
+      },
+      "occlusionTexture": {
+        "index": 13
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 14
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 13
+        }
+      },
+      "alphaMode": "BLEND"
+    },
+    {
+      "doubleSided": true,
+      "name": "modular_factory_facade_trim_01",
+      "normalTexture": {
+        "index": 15
+      },
+      "occlusionTexture": {
+        "index": 16
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 17
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 16
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Factory_Original_RainlineWorks_Sign_Paint",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 18
+        },
+        "metallicFactor": 0.11999999731779099,
+        "roughnessFactor": 0.8199999928474426
+      }
+    }
+  ],
+  "cpuBinaryValidationPassed": true,
+  "gpuRenderRan": false
+}

@@ -1,0 +1,160 @@
+{
+  "actualStartUTC": "2026-10-10T19:21:34Z",
+  "cleanup": {
+    "processExitCode": 1,
+    "writerClosed": true,
+    "nativeWorldsAllocated": 0,
+    "processClosedObserved": true,
+    "noNativeWorldFreeClaim": true,
+    "activeAuthorJobs": 0,
+    "timedOut": false
+  },
+  "firstFailure": {
+    "currentPose": null,
+    "type": "AttributeError",
+    "operation": "restore_actual004_actions",
+    "module": "wholebody_choreography.py",
+    "line": 14,
+    "message": "'Action' object has no attribute 'startswith'",
+    "diagnosis": "Action reached a string identity operation after the shared allowed list was passed to Blender library destination; literal representation boundary, not geometry impossibility",
+    "phaseContext": null,
+    "physicalTrajectoryOutcome": "UNRUN"
+  },
+  "newGLBPresent": false,
+  "cleanupAimUTC": "2026-10-10T19:49:00Z",
+  "schema": "source018-author-closure",
+  "rootAttempts": 1,
+  "inputVerification": {
+    "allMatch": true,
+    "path": "tools/overhaul-pounce-wholebody-source-018/postrun-input-verification.json",
+    "frozenRows": 9,
+    "protectedRows": 9
+  },
+  "closedUTC": "2026-10-10T19:40:01.7477261Z",
+  "repairs": 0,
+  "nextAction": "Only separately authorized distinct literal action identity/library-return correction; immutable identities separate from returned Action objects, same frozen wholebody geometry/support/choreography/guards. No automatic successor.",
+  "newMasterPresent": false,
+  "sourcePoseSamples": 0,
+  "critic": {
+    "verdict": "ACCEPT failure preservation ONLY; DENY trajectory/geometry/art/native/runtime",
+    "codeReview": "docs/overhaul/critic/pounce-wholebody-source-018-code-review.md",
+    "resultSHA256": "2d6eda3aef5836f6e1ff8a0fe921401c5de8aeef8645607c099dca36eaa6d96b",
+    "closedUTC": "2026-10-10T19:39:04.170Z",
+    "resultReview": "docs/overhaul/critic/pounce-wholebody-source-018-result-review.md",
+    "codeSHA256": "73dfcac6a03bcaea2447117a2bf3ed7193102e00df5f5915be8d0e661774ccb7"
+  },
+  "resultDoc": {
+    "path": "docs/overhaul/pounce-wholebody-source-018-RESULT.md",
+    "sha256": "b88ae02059eb700540691cc92125eb6a03f58857145b2430093f99cb3d68166b"
+  },
+  "authorHeavyJobs": 0,
+  "actualActionRecords": 0,
+  "erratum": "43 actual exported004 identities with author-record complete flags are not43 qualified gameplay capabilities; restoring them failed before018 action records",
+  "selectedPNGs": 0,
+  "retries": 0,
+  "hardStopUTC": "2026-10-10T19:52:00Z",
+  "rootProcess": {
+    "startUTC": "2026-10-10T15:35:36.243423-04:00",
+    "endUTC": "2026-10-10T15:35:42.922677-04:00",
+    "elapsedSeconds": 6.671000000089407,
+    "pid": 346388,
+    "exitCode": 1,
+    "failure": null,
+    "command": [
+      "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-wholebody-source-018\\author.py"
+    ],
+    "inputsAfter": [
+      {
+        "path": "assets/source/overhaul-pounce-wholebody-source-018/author.py",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-wholebody-source-018/source_helpers.py",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-wholebody-source-018/wholebody_choreography.py",
+        "match": true
+      },
+      {
+        "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.author.py",
+        "match": true
+      },
+      {
+        "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.source_helpers.py",
+        "match": true
+      },
+      {
+        "path": "tools/overhaul-pounce-wholebody-source-018/actual004-capability-allowlist.json",
+        "match": true
+      },
+      {
+        "path": "tools/overhaul-pounce-wholebody-source-018/protected-inputs.json",
+        "match": true
+      },
+      {
+        "path": "tools/overhaul-pounce-wholebody-source-018/command.ps1",
+        "match": true
+      },
+      {
+        "path": "docs/overhaul/pounce-wholebody-source-018.md",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json",
+        "match": true
+      },
+      {
+        "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb",
+        "match": true
+      },
+      {
+        "path": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+        "match": true
+      }
+    ],
+    "stdoutSHA256": "156e87bee4e8ad5d7f65a52d5727533acd35c7fd9d7758f49643e85e7559d6c8"
+  },
+  "acceptedPairSamples": 0,
+  "sourceSeal": {
+    "path": "tools/overhaul-pounce-wholebody-source-018/source-seal.json",
+    "sha256": "f30bb0e0afa138d2fe30ee87629bcae503e5d1963c69ec1bb27fe64fd2521819"
+  },
+  "resultSeal": {
+    "path": "tools/overhaul-pounce-wholebody-source-018/result-seal.json",
+    "rows": 8,
+    "bytes": 14319,
+    "sha256": "d72527b6bef8960a32cf1620ec1d574d6f0b66bb9315f27e098d20144ff89dd3"
+  },
+  "status": "CLOSED_FIRST_ACTION_IDENTITY_IMPORT_FAILURE_STOP"
+}

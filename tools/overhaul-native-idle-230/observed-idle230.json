@@ -1,0 +1,986 @@
+{
+  "scope": "SAVED_ACTUAL228_READ_ONLY_NO_NEW_CAPTURE",
+  "status": "FIRST_GENUINE_FAILURE_STOP",
+  "cases": [],
+  "summary": {
+    "Native228Host": {
+      "observations": 11,
+      "totalObservedHorizontalDisplacement": 5.526708661464695e-06,
+      "nativeElapsed": 30.633333333332853,
+      "first": {
+        "pilot": "Native228Host",
+        "wallMs": 9305,
+        "label": "readiness",
+        "time": 0.3833333333333333,
+        "position": {
+          "x": -7.9999999955818915,
+          "y": 0.9160888889181661,
+          "z": 21.999999997371738
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "requested": {
+          "x": 0,
+          "y": -0.0061111111111111106,
+          "z": 0
+        },
+        "delta": {
+          "x": 1.9230063375008655e-10,
+          "y": 9.999999747378752e-05,
+          "z": -1.1423244294928026e-10
+        },
+        "inputAvailable": false,
+        "sentCount": 0,
+        "nonNeutralAxisPackets": 0,
+        "movementKeydowns": 0,
+        "phase": null,
+        "activeClips": null
+      },
+      "last": {
+        "pilot": "Native228Host",
+        "wallMs": 46382,
+        "label": "failure",
+        "time": 31.016666666666186,
+        "position": {
+          "x": -7.999995158156051,
+          "y": 0.9400999915396097,
+          "z": 21.999997324579216
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "requested": {
+          "x": 0,
+          "y": -0.0061111111111111106,
+          "z": 0
+        },
+        "delta": {
+          "x": 1.9948834251160008e-11,
+          "y": 5.268520908430219e-08,
+          "z": 9.974417125580004e-12
+        },
+        "inputAvailable": true,
+        "sentCount": 32,
+        "nonNeutralAxisPackets": 0,
+        "movementKeydowns": 0,
+        "phase": 0.9999983988914644,
+        "activeClips": [
+          {
+            "name": "FelineWalk",
+            "weight": 1,
+            "time": 0.2666650622364408
+          }
+        ]
+      }
+    },
+    "Native228Guest": {
+      "observations": 13,
+      "totalObservedHorizontalDisplacement": 2.4534244450599286e-06,
+      "nativeElapsed": 23.766666666665653,
+      "first": {
+        "pilot": "Native228Guest",
+        "wallMs": 23847,
+        "label": "readiness",
+        "time": 12.850000000000218,
+        "position": {
+          "x": -3.39999744076414,
+          "y": 0.9225999999852502,
+          "z": 22.00009805091492
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "requested": {
+          "x": 0,
+          "y": -0.0061111111111111106,
+          "z": 0
+        },
+        "delta": {
+          "x": 0,
+          "y": 9.999999747378752e-05,
+          "z": 3.701908823927624e-08
+        },
+        "inputAvailable": false,
+        "sentCount": 0,
+        "nonNeutralAxisPackets": 0,
+        "movementKeydowns": 0,
+        "phase": null,
+        "activeClips": null
+      },
+      "last": {
+        "pilot": "Native228Guest",
+        "wallMs": 50699,
+        "label": "failure",
+        "time": 36.61666666666587,
+        "position": {
+          "x": -3.399997782478507,
+          "y": 0.9400999751832569,
+          "z": 22.000095621404107
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "requested": {
+          "x": 0,
+          "y": -0.0061111111111111106,
+          "z": 0
+        },
+        "delta": {
+          "x": 0,
+          "y": 4.6733475755900145e-08,
+          "z": 0
+        },
+        "inputAvailable": true,
+        "sentCount": 32,
+        "nonNeutralAxisPackets": 0,
+        "movementKeydowns": 0,
+        "phase": 0,
+        "activeClips": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "time": 0.07776629640162601
+          }
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "pilot": "Native228Host",
+      "wallMs": 9305,
+      "label": "readiness",
+      "time": 0.3833333333333333,
+      "position": {
+        "x": -7.9999999955818915,
+        "y": 0.9160888889181661,
+        "z": 21.999999997371738
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 1.9230063375008655e-10,
+        "y": 9.999999747378752e-05,
+        "z": -1.1423244294928026e-10
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 9870,
+      "label": "readiness",
+      "time": 0.9500000000000013,
+      "position": {
+        "x": -7.999999989039374,
+        "y": 0.9194888888322749,
+        "z": 21.999999993494676
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 1.9253861005541495e-10,
+        "y": 9.999999747378752e-05,
+        "z": -1.1385822146214863e-10
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 10475,
+      "label": "readiness",
+      "time": 1.4666666666666663,
+      "position": {
+        "x": -7.999996791069398,
+        "y": 0.9225888882737491,
+        "z": 21.999996719619062
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 3.718479035796918e-08,
+        "y": 9.999999747378752e-05,
+        "z": -7.436958071593835e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 11051,
+      "label": "readiness",
+      "time": 1.949999999999998,
+      "position": {
+        "x": -7.999996287412757,
+        "y": 0.9254888882004889,
+        "z": 21.99999685024848
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 5.1523166177958046e-08,
+        "y": 9.999999747378752e-05,
+        "z": -6.869755253546828e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 11671,
+      "label": "readiness",
+      "time": 2.666666666666662,
+      "position": {
+        "x": -7.99999619736106,
+        "y": 0.9297888880918618,
+        "z": 21.99999684685882
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -3.820943206278571e-08,
+        "y": 9.999999747378752e-05,
+        "z": 1.9104716031392854e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 12186,
+      "label": "readiness",
+      "time": 3.2333333333333267,
+      "position": {
+        "x": -7.999996525164457,
+        "y": 0.9331888880059706,
+        "z": 21.999997006747314
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 9.999999747378752e-05,
+        "z": -1.4141976478754259e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 12806,
+      "label": "readiness",
+      "time": 3.816666666666658,
+      "position": {
+        "x": -7.9999963230922155,
+        "y": 0.9366888879175531,
+        "z": 21.999996836440435
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 9.999999747378752e-05,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 16310,
+      "label": "readiness",
+      "time": 4.016666666666658,
+      "position": {
+        "x": -7.999996336555767,
+        "y": 0.9378888878872386,
+        "z": 21.999996849655602
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -2.0811198098158457e-08,
+        "y": 9.999999747378752e-05,
+        "z": 2.0811198098158457e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": []
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 16976,
+      "label": "readiness",
+      "time": 4.166666666666657,
+      "position": {
+        "x": -7.999996240026629,
+        "y": 0.9387888878645027,
+        "z": 21.999996723253822
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -1.4856730068402157e-08,
+        "y": 9.999999747378752e-05,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 2,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "weight": 1,
+          "time": 0.20976666744053363
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 17525,
+      "label": "readiness",
+      "time": 8.600000000000007,
+      "position": {
+        "x": -7.999995161384033,
+        "y": 0.9400999524313375,
+        "z": 21.999997317057296
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -1.9988784932811754e-11,
+        "y": -6.714981282129884e-08,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 10,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0.999998410807472,
+      "activeClips": [
+        {
+          "name": "FelineWalk",
+          "weight": 1,
+          "time": 0.2666650741524481
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 23847,
+      "label": "readiness",
+      "time": 12.850000000000218,
+      "position": {
+        "x": -3.39999744076414,
+        "y": 0.9225999999852502,
+        "z": 22.00009805091492
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 9.999999747378752e-05,
+        "z": 3.701908823927624e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 24585,
+      "label": "readiness",
+      "time": 13.333333333333576,
+      "position": {
+        "x": -3.399997227758928,
+        "y": 0.9254999999119901,
+        "z": 22.000096560657155
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -6.855685796836042e-08,
+        "y": 9.999999747378752e-05,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 25173,
+      "label": "readiness",
+      "time": 14.066666666666945,
+      "position": {
+        "x": -3.399997194736177,
+        "y": 0.9298999998008367,
+        "z": 22.000096155354676
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 9.444129922542288e-09,
+        "y": 9.999999747378752e-05,
+        "z": 1.8888259845084576e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 25737,
+      "label": "readiness",
+      "time": 14.5000000000003,
+      "position": {
+        "x": -3.399997172083593,
+        "y": 0.9324999997351552,
+        "z": 22.000095791820083
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -7.463940576712957e-09,
+        "y": 9.999999747378752e-05,
+        "z": -5.971152461370366e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 26295,
+      "label": "readiness",
+      "time": 15.083333333333663,
+      "position": {
+        "x": -3.3999971919414613,
+        "y": 0.9359999996467377,
+        "z": 22.00009575248218
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 1.1641878572277164e-08,
+        "y": 9.999999747378752e-05,
+        "z": -1.1641878572277164e-08
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 26958,
+      "label": "readiness",
+      "time": 15.483333333333682,
+      "position": {
+        "x": -3.3999972300149297,
+        "y": 0.9383999995861086,
+        "z": 22.000095605222718
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": -1.2643663893641133e-09,
+        "y": 9.999999747378752e-05,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 27775,
+      "label": "readiness",
+      "time": 16.01666666666704,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9401000291126548,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 4.6733475755900145e-08,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 28401,
+      "label": "readiness",
+      "time": 16.83333333333366,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999348671758,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": -7.24758137948811e-08,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": null,
+      "activeClips": null
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 36147,
+      "label": "readiness",
+      "time": 17.350000000000296,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999530934496,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": -7.24758137948811e-08,
+        "z": 0
+      },
+      "inputAvailable": false,
+      "sentCount": 0,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": []
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 38244,
+      "label": "readiness",
+      "time": 17.466666666666956,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999225999113,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": -7.24758137948811e-08,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 3,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "weight": 1,
+          "time": 0.13776663652062415
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 40138,
+      "label": "readiness",
+      "time": 25.266666666666513,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999785665772,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 4.6733475755900145e-08,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 11,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "weight": 1,
+          "time": 0.5974666056483977
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 41246,
+      "label": "readiness",
+      "time": 27.18333333333307,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999884982594,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 4.6733475755900145e-08,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 32,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "weight": 1,
+          "time": 0.1822665437608969
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Host",
+      "wallMs": 46382,
+      "label": "failure",
+      "time": 31.016666666666186,
+      "position": {
+        "x": -7.999995158156051,
+        "y": 0.9400999915396097,
+        "z": 21.999997324579216
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 1.9948834251160008e-11,
+        "y": 5.268520908430219e-08,
+        "z": 9.974417125580004e-12
+      },
+      "inputAvailable": true,
+      "sentCount": 32,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0.9999983988914644,
+      "activeClips": [
+        {
+          "name": "FelineWalk",
+          "weight": 1,
+          "time": 0.2666650622364408
+        }
+      ]
+    },
+    {
+      "pilot": "Native228Guest",
+      "wallMs": 50699,
+      "label": "failure",
+      "time": 36.61666666666587,
+      "position": {
+        "x": -3.399997782478507,
+        "y": 0.9400999751832569,
+        "z": 22.000095621404107
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "requested": {
+        "x": 0,
+        "y": -0.0061111111111111106,
+        "z": 0
+      },
+      "delta": {
+        "x": 0,
+        "y": 4.6733475755900145e-08,
+        "z": 0
+      },
+      "inputAvailable": true,
+      "sentCount": 32,
+      "nonNeutralAxisPackets": 0,
+      "movementKeydowns": 0,
+      "phase": 0,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "weight": 1,
+          "time": 0.07776629640162601
+        }
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "path": ".sites-runtime/overhaul-20261011/native228-public/evidence.json",
+      "bytes": 1158590,
+      "sha256": "ea4318287ff1e9e4cd54d457d6bf0a2b52c009bbc062a7a6c17bee2d18af7f26"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/actual-summary.json",
+      "bytes": 217362,
+      "sha256": "c874f402eda66031b58d80a937c7733b8878752b8c640d21293331d2ec03b6b7"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeOwner218.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    }
+  ]
+}

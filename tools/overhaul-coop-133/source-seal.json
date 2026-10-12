@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "status": "FINITE_GROUND_EXPOSURE_SOURCE_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-133/exposure-planner.mjs",
+      "bytes": 6262,
+      "sha256": "2aa573a72fcde724dd0bcc855e2e634ec1490c738240e6796ece0c6ef1ccd022"
+    },
+    {
+      "path": "tools/overhaul-coop-133/HANDOFF.md",
+      "bytes": 5500,
+      "sha256": "cf336efcb1a6eba2f0a91952b56c58ab45a83753829212d10f3805fa47155bb7"
+    },
+    {
+      "path": "tools/overhaul-coop-133/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-133/mission-capture.mjs",
+      "bytes": 45776,
+      "sha256": "aa12b2bca8cbb6a54ce864697541196f54dd7260c19f46b2012e53baa765af6e"
+    },
+    {
+      "path": "tools/overhaul-coop-133/protected-inputs.json",
+      "bytes": 3726,
+      "sha256": "718e30679a0c4f50973ca4e4f5f4428889fba8f18925c59003ba69d6ba1f907f"
+    }
+  ]
+}

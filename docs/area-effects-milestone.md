@@ -1,0 +1,40 @@
+# Authored ability effects and cosmetic timing
+
+2026-10-06. This is a bounded Three/R3F presentation iteration. Native simulation, Rapier, networking, ability eligibility/damage, models, maps and dependency versions remain exact to the sealed Peer-admission source. The continuous goal and formal release requirements remain open.
+
+## Implemented behavior
+
+Pounce's upright rake now has three inward-width claw bands within the native7m/120° cone. Bastion has a translucent shield dome and circuit/perimeter surface; Caracal has green repair filaments and rising motes; Lynx has violet snare spokes and inward-curling motes. Accepted quadruped siege/pounce landings and instant repair use expanding surface feedback. These waves visualize already accepted actions; native damage/healing is not delayed until the visual wave arrives. Reduced flashes lowers brightness and slows the single burst entrance/front without extending lifetime or range.
+
+The surface uses the existing supported terrain/deck/cargo projection. It is decorative feedback, not exact three-dimensional field coverage or LOS. Persistent shield/repair/snare use native fixed centers, spherical distance, LOS, living owners and expiry; the dome's visual origin/height differ from native field geometry. Repair/snare mote centers plus circular sprite scale stay within the native3D radius. New city/broken-cell roof support, every map/building, continuous attacks and whole-building collapse are not qualified here.
+
+The area pool is bounded by graphics quality to at most128 motes, at most32 per field, twelve fields and sixteen transient events. Shader geometry is stable for each admitted effect and disposed on retirement. Cosmetic time follows native authority time or a monotonic guest extrapolation capped at75ms. Arena generation/room/seed, missing snapshot and timeline rewinds reset owned state. Combat sparks now use deterministic event-age trajectories instead of receipt birth and per-frame accumulation; null snapshots and redeploys clear old particles. Existing EMP and CoverDebris remain separate systems.
+
+The first shader candidates updated memoized prop wrappers. Installed R3F9.8.1 copies those wrappers into ShaderMaterial, so actual numeric opacity remained zero. Independent critic review denied visible-area approval for002. Candidate003 updates mounted material refs; onBeforeRender diagnostics read actual age/opacity/front/center/radius and world matrices. Mote diagnostics read actual instance translation, first-column scale and alpha. They retain native IDs/centers separately. They do not retain all sixteen instance-matrix entries, billboard rotation, shader pixels or exact damage coverage.
+
+## Retained qualification
+
+Evidence is beneath `.sites-runtime/area-vfx-001/`. Candidate001/002 and their failures remain immutable. Candidate003's597-file source manifest differs from the previous588-file source in only `AreaEffects.tsx`, `CombatEffects.tsx` and `diagnostics.ts`, with nine added presentation/test files. Fresh root build matches all82 frozen candidate files; fingerprint `758c1053f8cf3f4655e493461613c0b49514e5aa41183403260515ccb0120e7d`.
+
+| Check | Actual result and limits |
+| --- | --- |
+| Focus/static/build |90 focused tests across8 files, lint, type checking and build pass in `checks-003`. All source bytes stable after each job. |
+| Full unit suite |1370 passed, one failed, eight skipped across103 files. The unchanged experimental-rubble supported-descent witness still fails at `city-rubble-grounding.test.ts:68`. This is not all-pass. |
+| Upright ordinary/reduced | Both all-four-chassis tests pass actual material values, native radius/center matching, bounded motes, lifetime retirement and fresh redeploy. Eight PNGs and exact decoded report bodies are retained in `browser-003`. |
+| Visible burst timing | `burst-visual-001` captures later ordinary/reduced rake fronts using ordinary controls and actual uniforms. The first all-four Pounce stills were too early to establish the visible rake shape. Nearby PNG/readings are not atomic GPU/native captures. |
+| Previous-build reference | `baseline-visual-004` completes four actual ordinary-control previous-build captures. Different live histories/weather and nearby screenshots do not constitute matched performance measurements. |
+| Solo pause/resume | `pause-observer-004` records ten exact paused samples of shader uniforms and actual mote translations/scales/alphas, then resumed expiry. Full billboard rotations/buffer bytes, EMP and CoverDebris are outside that equality assertion. |
+| Quadruped feedback | `quad-observer-004` verifies native Bastion siege7m shockwave, Caracal10m instant repair with no persistent field, and Pounce5m/45-damage landing event. Three PNGs accompany actual draws/native events. |
+| Repeated resources | `resource-observer-004`: three stationary production repair casts, geometries99→101→99 and textures55 throughout, ended draws/motes0. This is completed-frame Three.info evidence, not all-effects/StrictMode/totalGPU memory or a hardware benchmark. |
+| Joined Peer field | `peer-field-observer-001` passes a second actual accepted shield after two ordinary pilots are ready; native field data agree, guest dome values/pixels are present and native expiry retires it. This is local browser Peer evidence, not WAN/all-eight-browser performance. |
+| Cold transient before joining | Third `browser-003` case fails: no dome observed after cold joining. Separate timing observation receives native state at4.9167s with the original live field, but first recordedFPS>10 readiness is10.5667s, after expiry7.8667s. The cold field was not observed rendered. No native lifetime was extended or expired effect resurrected to satisfy this test. Cold-load transient visibility remains unqualified. |
+
+Earlier failures remain honest history: first exact expiry subtraction loses oneULP, corrected by absolute expiry comparison without weakening its assertion; candidate001 browser readiness accidentally uses `window.name`; candidate002 trace close fails with ENOSPC and a truncated zip; observer001–003 fail before qualified observations. Installed Playwright's `waitForFunction` tests an async predicate's Promise synchronously, letting readiness return before the false result resolves. Separately saved004 observers use `expect.poll` with awaited `page.evaluate` and unchanged readiness conditions/timeouts; all four004 jobs pass. These successors do not relabel failed executions.
+
+## Review and continuing work
+
+The producer/source/build inventory and independent review are under `.sites-runtime/area-vfx-001/producer-closeout-001/` and `.sites-runtime/critic/area-vfx-001/source-local-integration-review-001/`. The independent receipt defines the admitted scope. Four owned private servers are closed only after PID, creation time, executable, command and listener ownership checks; protected friend services retain their identities and healthy service. The public friend link still runs its prior frozen build. The Unreal reference was neither modified nor deleted.
+
+No new dependency or paid generation occurs. A fresh Higgsfield workspace read reports one Plus workspace with0 credits. The earlier bank of55 images and16 silent motion references from943.75 credits remains source material for modeled/rigged implementation; this VFX iteration does not turn those films into playable animations. NTFS compression of retained critic evidence frees some disk storage while preserving file bytes; sealed evidence is not deleted.
+
+Next priorities include cold scene readiness/asset compilation, effect readability during actual encounters, damaged/elevated projection support, all-map/hardware/multiplayer cost and distinct authored attack/locomotion work using the retained reference bank. Universal traversal, fully populated districts and support-dependent destruction remain requirements. Physical rubble stays denied/default-off, all four formal release areas **PENDING**, public deployment approval **false**, and the continuous goal **ACTIVE**. This is not commercial AAA completion or a guarantee against regressions.

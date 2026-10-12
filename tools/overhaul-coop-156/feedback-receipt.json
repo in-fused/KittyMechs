@@ -1,0 +1,27 @@
+{
+  "writer": "CLOSED",
+  "scope": "ACTUAL_RETAINED_LAG_CLASSIFICATION_PLUS_HYPOTHETICAL_SECANT_COMMAND_NOT_NATIVE_PLAY",
+  "input": ".sites-runtime/overhaul-20261010/coop153-public/evidence.json",
+  "inputSha256": "2ffda8f460c56c4743046c21e3f8c553c73552d941084dc275fead24fbcdf0de",
+  "savedFailure": "Error: Mission153Host actual optical camera aim failed to progress after3 public look pulses\n    at trackFire (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-153/mission-capture.mjs:136:907)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:472:9)\n    at async directGo (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-153/mission-capture.mjs:95:4)\n    at async go (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-153/mission-capture.mjs:110:3)\n    at async squadStageObjective (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-153/mission-capture.mjs:171:2)\n    at async file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-153/mission-capture.mjs:276:61",
+  "before": {
+    "dyaw": -0.06484305177573857,
+    "lookYaw": -0.6021100001811979,
+    "gunYaw": -0.7858400010214021
+  },
+  "after": {
+    "dyaw": 0.06412471366076278,
+    "lookYaw": -0.7810900002717969,
+    "gunYaw": -0.6021100001852401
+  },
+  "candidate": {
+    "axis": "yaw",
+    "error": 0.06412471366076278,
+    "gain": 0.7205708200425653,
+    "key": "KeyJ",
+    "requestedMs": 46.83765752982426
+  },
+  "hypotheticalSecantResponse": 0,
+  "oldRequestedMs": 70,
+  "alignmentTolerance": 0.045
+}

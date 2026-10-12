@@ -1,0 +1,112 @@
+{
+  "writer": "CLOSED",
+  "scope": "OFFLINE_COMPILED_GEOMETRY_ONLY_NOT_PUBLIC_PLAY_OR_NATIVE_PHYSICS",
+  "elapsedMs": 1865,
+  "failed134Goal": {
+    "clear": true,
+    "path": [
+      {
+        "x": -4,
+        "z": -8
+      }
+    ]
+  },
+  "stages": {
+    "relay-west": {
+      "point": {
+        "x": -12,
+        "z": -32.3
+      },
+      "path": [
+        {
+          "x": -14,
+          "z": -20
+        },
+        {
+          "x": -12,
+          "z": -32.3
+        }
+      ],
+      "objective": {
+        "x": -12,
+        "y": -0.08,
+        "z": -35
+      },
+      "reach": 4,
+      "worstArrivalDistance": 3.800000000000003,
+      "geometryTick": 571
+    },
+    "relay-east": {
+      "point": {
+        "x": 32.09081169079632,
+        "z": -28.090811690796322
+      },
+      "path": [
+        {
+          "x": -2,
+          "z": -24
+        },
+        {
+          "x": 8,
+          "z": -34
+        },
+        {
+          "x": 32.09081169079632,
+          "z": -28.090811690796322
+        }
+      ],
+      "objective": {
+        "x": 34,
+        "y": -0.08,
+        "z": -30
+      },
+      "reach": 4,
+      "worstArrivalDistance": 3.8,
+      "geometryTick": 571
+    },
+    "core": {
+      "point": {
+        "x": 1.6532731788489266e-16,
+        "z": -73.3
+      },
+      "path": [
+        {
+          "x": -14,
+          "z": -20
+        },
+        {
+          "x": 1.6532731788489266e-16,
+          "z": -73.3
+        }
+      ],
+      "objective": {
+        "x": 0,
+        "y": -0.08,
+        "z": -76
+      },
+      "reach": 4,
+      "worstArrivalDistance": 3.800000000000003,
+      "geometryTick": 571
+    },
+    "extraction": {
+      "point": {
+        "x": -8,
+        "z": 12
+      },
+      "path": [
+        {
+          "x": -8,
+          "z": 12
+        }
+      ],
+      "objective": {
+        "x": -8,
+        "y": -0.08,
+        "z": 12
+      },
+      "reach": 4,
+      "worstArrivalDistance": 1.1,
+      "geometryTick": 571
+    }
+  }
+}

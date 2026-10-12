@@ -1,0 +1,14 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "command": "node node_modules/typescript/bin/tsc -p tools/overhaul-native-integration-222/tsconfig222.json --pretty false",
+  "exitCode": 0,
+  "elapsedSeconds": 7.67578,
+  "diagnostics": [],
+  "syntaxNodePluginBuild": "PASS",
+  "protectedRows": 906,
+  "actualBuild": false,
+  "actualBrowser": false,
+  "actualNativeWorld": false,
+  "loaderQualificationBinding": "PENDING_ACTUAL221_PROOF_REQUIRED"
+}

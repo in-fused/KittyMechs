@@ -1,0 +1,31 @@
+{
+  "schema": "handcontact032-final-closure-seal",
+  "sealedUTC": "2026-10-10T21:28:52.0245806Z",
+  "files": [
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/closure.json",
+      "bytes": 2673,
+      "sha256": "7e8ce8edbdfbc0436a73372359dbe4439db55c7a8ccb7c6e9d96015a65887c72"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/final-verification.json",
+      "bytes": 51435,
+      "sha256": "5109eae30cadae5c7ec29f1ae3088b7de683cbe607c0bdecb80ba0927f5bd7c0"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/final-result-seal.json",
+      "bytes": 4011,
+      "sha256": "4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292"
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-hand-contact-032-implementation-result-review.md",
+      "bytes": 3248,
+      "sha256": "87ff5a643b4577b635dc33477188f714b30baf1cf0c72eb4e95f5b31e1c14f2f"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/critic-implementation-result-closure.json",
+      "bytes": 842,
+      "sha256": "eb929537aded0b72dd9f7322cfa359d26afad57c70635dd40a42932cb4619259"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Airborne presentation ownership
+
+2026-10-06. This milestone changes the eligibility of rendered ground contacts during confirmed takeoff and landing. It does not adopt the private fluid gait clips, change physics, or publish a new friend build. The ongoing game goal remains active.
+
+## Problem and source change
+
+The render timeline interpolates a displayed body between confirmed actor samples while retaining the earlier sample as `state`. During a known ground-to-air segment, the body can already be ascending while that earlier sample still says `grounded`. Actor presentation then retains ground anchors and applies paw IK to a body that has left support. A private Caracal guest trace showed three released targets extending past reachable limb lengths during this interval; the accepted native actor was already airborne.
+
+`src/game/entities/renderTimeline.ts` now exposes a separate `grounded` presentation field. At the exact grounded source endpoint it retains support. At positive interpolation time along a confirmed ground-to-air segment it retires support; an airborne-to-ground segment restores it only at the confirmed landing endpoint. Two grounded endpoints retain support during slope interpolation. Held samples preserve their last confirmed support state. Authority state, interpolation positions, velocity, time, strike IDs, transport, climbing and physics are unchanged.
+
+Exactly twelve ground-eligibility reads in `src/game/entities/Actors.tsx` use the presentation field, including motion weights, contact leases, probe eligibility, landing presentation and diagnostics. `groundedOnRubble` remains an authority read. This removes contacts from the displayed airborne segment rather than changing the IK solver's reach limit or modifying authored animation.
+
+## Validation and retained attempts
+
+`tests/airborne-presentation.test.ts` adds twelve pure timeline tests covering takeoff endpoints, falling edges, exact landing, grounded slope interpolation, held samples, cache/reset behavior and monotonic high-frequency presentation of confirmed samples. The first focused check failed loading this new suite because browser audio accessed `window`; that failed attempt is retained in `root/checks-001`. The corrected test uses the existing audio mock pattern. `root/checks-002` subsequently passed 187 assertions in twelve actual test files, lint, TypeScript and Vite build. These tests alone do not qualify mounted actors or native multiplayer behavior.
+
+Private browser evidence is under `.sites-runtime/quad-native-admission-001/root`. `browser-001` contains sixteen old/private-fluid comparisons across solo and WebSocket play. Both solo Lynx attempts failed to complete their strike stage during repeated death/respawn. Some private-fluid cases reduced clamping, but Pounce retained a reach-reserve failure and Caracal retained guest takeoff clamping. Those failures prevented gait adoption.
+
+`browser-002` drives a real WebSocket guest with keyboard and mouse while a host observes. It exercises movement/braking, a physical firing turn, quadruped and upright jumps, both transformations and accepted airborne strike IDs on the original shipping rigs. Its observer incorrectly hardcoded Pounce's seven render meshes for every chassis. Actual shipping GLB skinned primitive counts are Pounce 7, Bastion 4, Lynx 5 and Caracal 4. Original layout failures remain intact; an independent successor review recomputes the saved traces with each bound GLB's layout. The job then terminated with `ENOSPC` while writing Caracal's failure record: both Caracal-before traces remain, the empty failure record remains, and Caracal-fixed was not attempted by this job.
+
+`browser-003` completes only the missing Caracal-fixed pair using the same fixed build and controls. It ended with exit zero and a bounded ownership pass. The host captured 470 samples and the driving guest 726; each recorded ten early-air frames. Native yaw travel was approximately 0.777 radians. Residual old-gait clamping remains: one host request and two guest requests clamped in this run. Pounce-fixed likewise retained more clamping than its particular baseline run, so this milestone makes no overall clamp-reduction claim.
+
+The independent closed-trace audit found both quadruped and upright early-air samples in all eight fixed views, with zero selected-air production ground probes, anchors or IK requests. All eight passed the per-rig mesh layout, four-paw/eight-corner layout, finite-value, frame/root/bind-scalar, source-field, request/clamp-diagnostic and strict strong-contact checks. These are checks of the sampled frames. The accepted native/presented strike identity was `id=1, life=1, kind=pounce` in every view; this does not add upright tackle coverage. Existing grounded reach-reserve failures and clamps remain explicit.
+
+NTFS compression of closed evidence preserved its logical bytes; no evidence was deleted. Both private-service groups were closed by exact process identity after their jobs ended. Cleanup receipts retain verification of all four protected friend-service identities and healthy port 8788. The shared URL continues serving its previous frozen build.
+
+## Limits and next work
+
+The browser observer captures actual completed Actor matrices, source presentation fields, four paws, eight independent rigid-paw bounding-box corners per paw, pre-solver target requests, contact diagnostics and native snapshots. It adds independent static Rapier queries and collection overhead. Its samples are bounded observations, not a performance benchmark, continuous swept collision proof, guard-volume admission, triangle-mesh ground proof or WAN qualification. Null corner hits remain unqualified.
+
+The contact release/fade path can still blend a grounded paw target outside reachable limb lengths. That problem remains separate from the interpolated takeoff ownership bug. The physical screening also found Lynx front-right physical paw radius extending farther outside the existing native envelope in sampled private-fluid poses; Pounce/Bastion lack complete physical-versus-cosmetic vertex classification. These issues prevent private gait adoption. Further pelvis lowering was prepared but deliberately not executed because the observed worst requests were dominated by gallop or idle/release behavior, not the proposed walk/trot edits.
+
+Physical city rubble remains denied and default off after the previously retained support-loss/breach tests. All four broad release areas—mechs, maps, enemy tactics and integration—remain pending. The production art, environment density, universal climbing/destruction, co-op depth, complete chassis motion and performance goals are not complete.
+
+Open-source library decisions remain in `docs/open-source-upgrades.md`, including the offline three-piñata fracture experiment, native Rapier ownership and Three.js batching. No new runtime dependency or paid Higgsfield job was added in this milestone.
+
+The critic approved the bounded source/check foundation in `.sites-runtime/critic/quad-native-admission-001/source-audit-002`. The independently sealed browser aspect and final source/local decision accompany the producer closeout and immutable overlay snapshot in `.sites-runtime/quad-native-final-001`. Final review evidence lives outside the closed producer so it can bind the complete source/build state without rewriting this milestone. Broad release and private gait adoption remain pending.

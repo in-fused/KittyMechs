@@ -1,0 +1,86 @@
+{
+  "writer": "CLOSED",
+  "status": "ONE_PRIVATE_NATIVE_OBSERVER_SOURCE_ONLY_UNADMITTED",
+  "files": [
+    {
+      "path": "tools/overhaul-native-observer-227/binding.json",
+      "bytes": 212001,
+      "sha256": "84737cd4c955f391e2b465478f9851d237eecc64c2e09abbd3d9b6936c0dabb2"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/brief-fixture-receipt.json",
+      "bytes": 245,
+      "sha256": "a83f1283eecaba1d5b8d2dfcde93a9170ad580dfe704980a595c09a2b87495b1"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/brief-fixture.mjs",
+      "bytes": 2980,
+      "sha256": "3f0d8d59be7d9190057bab6af9ff7df08105f339da2dbafb8d738bc8bdfdc426"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/capture.mjs",
+      "bytes": 21337,
+      "sha256": "964576c1a3fe043d86c8ad8649ae43ebb29834c093ffd23581ac12acc256a8b2"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/close227.py",
+      "bytes": 1835,
+      "sha256": "0818beca60aadde003d2b5ef9990ff5bcfe5921ba78316b29caa02f1e5204234"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/first-preparation-failure.json",
+      "bytes": 881,
+      "sha256": "391cfeef80e9c2d4470979711ecc3cbca554025e70a8bcc6f9f08725b5b2d703"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/guards.mjs",
+      "bytes": 2207,
+      "sha256": "516e57fcbddeea7d853e05fc87c0467777d57873d9cdacbc01fc1708be12822e"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/HANDOFF.md",
+      "bytes": 5375,
+      "sha256": "018acee7ca3e92d08254fe1ce7f7638ae877480a10600704cc366a433b6aab52"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/preimage/capture.mjs",
+      "bytes": 16084,
+      "sha256": "0653aeaaaf868054de0684f0adc8fdf638d742e9a719163f43798a290c11e3b7"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/preimage/source-seal.json",
+      "bytes": 2540,
+      "sha256": "d6230ff62fd32aae67365d9cce59d9ab74193a5668df1ad62d4f51153463df7f"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/preimage/supervise.py",
+      "bytes": 4839,
+      "sha256": "76cd6cfd951b0cd0ffaa789c544a4feceb4640a7aa5c8a829c5a3f204331f65c"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/prepare227-first.py",
+      "bytes": 4280,
+      "sha256": "17242133eba66948c73d5f4f4e402fa9c6d0d527856e53899d218d0286746b2f"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/prepare227.py",
+      "bytes": 4980,
+      "sha256": "af5d1d1bb71984ca85f1b0c1869714666d85dc531efb0b3bb05feb677becb3e8"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/static-receipt.json",
+      "bytes": 1424,
+      "sha256": "0d26011db4f0b57b8013540239055f2d4a29d036b65042ff3ccf68d54a9f8e88"
+    },
+    {
+      "path": "tools/overhaul-native-observer-227/supervise.py",
+      "bytes": 4944,
+      "sha256": "428b24f4664dfdee96ea9d9871f32055ccaa9dd267e816e5cd968e4e5edf950b"
+    }
+  ]
+}

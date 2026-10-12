@@ -1,0 +1,47 @@
+{
+  "writer": "CLOSED",
+  "inputs": [
+    {
+      "path": "tools/overhaul-motion-174/source-seal.json",
+      "bytes": 23142,
+      "sha256": "796e5f14cf8806e8164e08e336bd240017f0520f614c8fe6072e56cdae3ac160"
+    },
+    {
+      "path": "tools/overhaul-motion-174/validate174.mts",
+      "bytes": 8161,
+      "sha256": "843ce042e4c3510c7141aa6d058b329e50f791cbcd6b1f9412c40cdee20a6217"
+    },
+    {
+      "path": "tools/overhaul-motion-174/decoded-receipt174.json",
+      "bytes": 36649,
+      "sha256": "e42753bcc2f13fdee7499b2e7962e230e4ea234eee8cd34a7d129569a3a060d1"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/authored-motion-records174.json",
+      "bytes": 228150,
+      "sha256": "badc35f02b28144ca855b83d9309596477e875f760e653fe68a803d73e46bd0b"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-motion-174/Pounce_Motion174.glb",
+      "bytes": 5447108,
+      "sha256": "e0500deedec7fd777c1aa731c3272191894cb2dca3030af4416e9b6654840e43"
+    },
+    {
+      "path": "docs/overhaul/critic/motion174-failure-review.md",
+      "bytes": 5080,
+      "sha256": "366cfcc7a568dfb864f1ac1fa67f41f7b003a8df220fc63c5a2fe0e14d7b5a1a"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321"
+    }
+  ],
+  "174sealRows": 112,
+  "174preMatches": true
+}

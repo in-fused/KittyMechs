@@ -1,0 +1,13 @@
+# 085 independent declaration compatibility source gate
+
+**APPROVE ONE build <=180s, then conditional ONE frozen046 candidate observation <=100s.** No syntax, containment or baseline repetition. First subsequent build/freeze/identity/capture failure is FINAL STOP for this candidate: no further repair or retry. Actual quality/net-performance retention remains separately judged.
+
+Reviewed both exact preimage/postimage diffs, handoff/seal and086 prepare/launch/freeze/HTTP verifier. Each helper has exactly one change, `previous:Sphere|null` to `previous:SkinnedMesh['boundingSphere']`; reversing it reconstructs the complete original source. Actors081 is unchanged. Original078/081 bytes and084 failed build are preserved. These are erased TypeScript field annotations; all runtime statements, nullable-value restoration, lifecycle, sphere arithmetic and strict fail-open/containment guards remain unchanged. The installed declaration's inaccurate non-null contract is acknowledged, not converted into a runtime non-null claim or assertion.
+
+This exact runtime equivalence permits reuse of081's sampled containment PASS and complete084 six-phase prototype-on/standard-off baseline. No emitted build comparison or actual candidate measurement has yet occurred. The previous recommendation to archive both unused erroneous helpers is superseded here by fixing only their declarations: both compile paths now match installed types while preserving their runtime behavior. The unused078 helper does not enter frozen046's runtime file set.
+
+Root086 verifies the exact083 observer against its original seal, current085 inputs and prior PASS/baseline statuses. Build is the only compilation stage. Freeze046 requires successful unchanged-input receipt, asserts only Actors081/helper081 runtime changes against045, and verifies parent bytes/hardlinks/copies. HTTP verifier compares served index (allowing only the known arena metadata insertion) and relevant modules to frozen046. Seal every reviewed root script and evidence before execution; swap only the tracked idle-owned8799 server, preserving045 fallback. Do not reuse guessed process identity.
+
+Reuse does not remove the actual comparison limitations: sequential instrumented runs can differ in weather, enemy visibility, position and damage. Added bounds CPU work must be included; draw eligibility is not GPU time or visible quality. Require preserved NPC models/limbs/telegraphs and demonstrated net benefit, otherwise reject. No native/contact/animation tick is skipped by this correction. User Lowest/IAB lag, camera crowding, full gameplay and full goal remain unresolved/INCOMPLETE.
+
+No reviewer jobs or game edits. Original078/079/082/084 failures stay closed. Review writer CLOSED.

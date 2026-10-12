@@ -1,0 +1,567 @@
+{
+  "schema": 1,
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "units": "meters",
+  "up": "Y",
+  "sources": [
+    {
+      "receipt": {
+        "path": "assets/source/environment-foliage/fir_tree_01-blend-1k/package.json",
+        "bytes": 7760,
+        "sha256": "8b391c81b2c69ccbdd48c6c83ffb0cf2c19599d413113fd81e5fc48053a133a4"
+      },
+      "package": {
+        "asset": "fir_tree_01",
+        "name": "Fir Tree 01",
+        "authors": {
+          "Rob Tuytel": "photography",
+          "Rico Cilliers": "modeling"
+        },
+        "license": "CC0-1.0",
+        "licenseUrl": "https://polyhaven.com/license",
+        "assetUrl": "https://polyhaven.com/a/fir_tree_01",
+        "metadataUrl": "https://api.polyhaven.com/info/fir_tree_01",
+        "format": "blend",
+        "resolution": "1k",
+        "files": [
+          {
+            "path": "fir_tree_01_1k.blend",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/fir_tree_01/fir_tree_01_1k.blend",
+            "bytes": 218986261,
+            "providerMd5": "a08031ea8ffb49711b294e1c8213a909",
+            "sha256": "153d20aae6d7c63a4c52689d91e8bead78f6d17a70e11ef4d03d19953383de00"
+          },
+          {
+            "path": "textures/fir_tree_01_bark_diff_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_diff_1k.png",
+            "bytes": 5652976,
+            "providerMd5": "3a0fa82c548618135f9d64af79a3fcd1",
+            "sha256": "508ca0a40d118beec98e8375b4611e8a16123eec94b5d2b4870617cf4d24e6fa"
+          },
+          {
+            "path": "textures/fir_tree_01_bark_disp_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_disp_1k.png",
+            "bytes": 1561378,
+            "providerMd5": "ca8b268477c8e08e0b7d8ef89495e991",
+            "sha256": "ab08f400d208487b7bfd5d9cd4386456ed8e5fbcfdd045eca1705e3ed4b3dab8"
+          },
+          {
+            "path": "textures/fir_tree_01_bark_nor_gl_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_nor_gl_1k.png",
+            "bytes": 5778805,
+            "providerMd5": "2210cba4d4f7474a3e195c81f3b47093",
+            "sha256": "b889e7080d6efb0592f83e64cc5a5afa5fb7787b4b7d1ae13a65602689e793e8"
+          },
+          {
+            "path": "textures/fir_tree_01_bark_rough_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_bark_rough_1k.png",
+            "bytes": 1778413,
+            "providerMd5": "cf3118cd7ab3e3993f7a8e60d01903a5",
+            "sha256": "b198105d3022db6c459ae9c307ecdb7b644832ee20bcbfd89c3741cecc77881f"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_a_diff_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_diff_1k.png",
+            "bytes": 5013819,
+            "providerMd5": "8fa66dc48ee624dcfe30ad68fe0d8724",
+            "sha256": "50e8911ac39d8eeb720d7412495d00f8639f2a0ad01dec1c22aa79efc16e9f08"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_a_nor_gl_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_nor_gl_1k.png",
+            "bytes": 4338077,
+            "providerMd5": "6c6f69ce3ce2ab332e92366fbbe7b95a",
+            "sha256": "e1dfe1dcfd4d92eb7dd732cff98ac32c8a3aa5a36b9eea220e22030ea604ec09"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_a_rough_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_a_rough_1k.png",
+            "bytes": 1656557,
+            "providerMd5": "9228f23b16bed747765f65fe9263e767",
+            "sha256": "ebda61e833608c3df8d65018330c9e0bb80ec39b30d9416de0cc088c520ca8b6"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_b_diff_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_diff_1k.png",
+            "bytes": 4847111,
+            "providerMd5": "a3e4cc704875d7d8795a2b7949927952",
+            "sha256": "41bd8a65e0a827646b3a33dc1607eba2082ddc25fe714752259447c49d0600cc"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_b_nor_gl_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_nor_gl_1k.png",
+            "bytes": 4129931,
+            "providerMd5": "944aed03478cf0590469c7de834b4ec4",
+            "sha256": "fe5f1dafe611a7f04142abf7878622a6212ed7c1737711d548ec3301b3210cf7"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_b_rough_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_b_rough_1k.png",
+            "bytes": 1626272,
+            "providerMd5": "b251b18420d550baa7a1e81a2c19d8a3",
+            "sha256": "ff399f6d054f903deee0e4d455c09f12ac3441f5c9547a0e9d06c163e6958dee"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_c_diff_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_diff_1k.png",
+            "bytes": 5140137,
+            "providerMd5": "bbf00b9de62c4d7c7b3d66a9f74d57d4",
+            "sha256": "edbceb8657a036e98831a3550433ab2d78928fcf9060e400ca84748cedcaf962"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_c_nor_gl_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_nor_gl_1k.png",
+            "bytes": 4450875,
+            "providerMd5": "023ad88ebc76989ccbe1e3476174d997",
+            "sha256": "08a40a7486ad3a8d97cf3da0afe5951f1a038cb51395020e2c4a2113f46d1610"
+          },
+          {
+            "path": "textures/fir_tree_01_trunk_c_rough_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_trunk_c_rough_1k.png",
+            "bytes": 1722380,
+            "providerMd5": "bb1f564376e3863ffa0fe91564f146e9",
+            "sha256": "48fcced840b4beed4e03e09a352a67dd36185c9cd4247090069391bfb9746de9"
+          },
+          {
+            "path": "textures/fir_tree_01_twig_alpha_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_alpha_1k.png",
+            "bytes": 371026,
+            "providerMd5": "02ab808c8b2ff77ad9fdb2f92892db80",
+            "sha256": "3f399629337e7ac3af27a01b08ffb9c0d60224a9dd374a1427761a5c2eea9d6e"
+          },
+          {
+            "path": "textures/fir_tree_01_twig_diff_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_diff_1k.png",
+            "bytes": 3411459,
+            "providerMd5": "3791a2e595b63410ed0bd054633373de",
+            "sha256": "76f6d0c0044d76bac08fbbd3d2ac1c9b66bb046de7d0b1a22aa9b319308f3833"
+          },
+          {
+            "path": "textures/fir_tree_01_twig_mask_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_mask_1k.png",
+            "bytes": 1388205,
+            "providerMd5": "bffb132164ba6325c8846d71436eeae2",
+            "sha256": "67ac3d141278c0e21dbca3e821683fc618240c51ace7cf34d37aeb42a5aeba52"
+          },
+          {
+            "path": "textures/fir_tree_01_twig_nor_gl_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_nor_gl_1k.png",
+            "bytes": 1825146,
+            "providerMd5": "300954dfeee0541ad8512db4616de3c1",
+            "sha256": "cbb6b8179a9f7f6e84fd15d1f422bc342841d20845b2bad437612f03fb0067de"
+          },
+          {
+            "path": "textures/fir_tree_01_twig_rough_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_tree_01/fir_tree_01_twig_rough_1k.png",
+            "bytes": 1155354,
+            "providerMd5": "2b0e9158d4038029171651371668a8ee",
+            "sha256": "a4f0a4c8bc93946dea229def779ffe5d32c555c717e4bf7b0e4b4d86bc21987a"
+          },
+          {
+            "path": "info.json",
+            "bytes": 1163,
+            "sha256": "89c58a4a27e01e6dff0729cbcec87d949d82d73e2273668c8acf01ee420c38e7"
+          },
+          {
+            "path": "files.json",
+            "bytes": 109797,
+            "sha256": "b72c1e9efce10799ffa9502ce06409745d1deba9d091630412a69891e370ce0c"
+          },
+          {
+            "path": "license.html",
+            "bytes": 72685,
+            "sha256": "0b7a23e05e933f7f28ffab64ac1302e215f44eeb69abbfac4f2c4fd331101be5"
+          }
+        ],
+        "sourcePolycount": 7853731,
+        "integrity": "Complete declared provider dependency set; MD5/size and SHA256 verified",
+        "artisticAcceptance": "pending",
+        "vendoringCliUsed": false
+      }
+    },
+    {
+      "receipt": {
+        "path": "assets/source/environment-foliage/fern_02-gltf-1k/package.json",
+        "bytes": 2946,
+        "sha256": "f862c1bfefb79a5f7dd9068135541b2b97e8048c0776c0e04867e81d15b671f7"
+      },
+      "package": {
+        "asset": "fern_02",
+        "name": "Fern 02",
+        "authors": {
+          "Rob Tuytel": "scanning",
+          "Rico Cilliers": "modeling"
+        },
+        "license": "CC0-1.0",
+        "licenseUrl": "https://polyhaven.com/license",
+        "assetUrl": "https://polyhaven.com/a/fern_02",
+        "metadataUrl": "https://api.polyhaven.com/info/fern_02",
+        "format": "gltf",
+        "resolution": "1k",
+        "files": [
+          {
+            "path": "fern_02_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/fern_02/fern_02_1k.gltf",
+            "bytes": 6899,
+            "providerMd5": "cf276874d37bfb73c299504a6b355b77",
+            "sha256": "33974295ee19670af4877705fc7d91f33f42d6302f0d44a625e072271223031f"
+          },
+          {
+            "path": "textures/fern_02_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_arm_1k.jpg",
+            "bytes": 280359,
+            "providerMd5": "1bbb2b22951f450720d28e17d93a2987",
+            "sha256": "ebfb5d76ce9cbdaec20bcd22dce9b755f0b1b8650ef29ca13555e3e6961025d7"
+          },
+          {
+            "path": "textures/fern_02_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_diff_1k.jpg",
+            "bytes": 315705,
+            "providerMd5": "82c18a6cfd5ae91c37c0e078f591181c",
+            "sha256": "a828a6e7b4c01c826911e2eac4b3afc7457dab7b3b392a31c681ed88b7d50029"
+          },
+          {
+            "path": "textures/fern_02_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_nor_gl_1k.jpg",
+            "bytes": 367222,
+            "providerMd5": "43aed63dff79554f6064627515afd9d7",
+            "sha256": "45bce132c6e96a0864bc89ab5da51361ab3f4afa83a6669ae499ab5ca811f621"
+          },
+          {
+            "path": "fern_02.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/fern_02/fern_02.bin",
+            "bytes": 176176,
+            "providerMd5": "c061e9255f7d36ae9ce0e92ef3e100b2",
+            "sha256": "fe1abb762bcbbc7ad9e86925c8080437a62add257d9280e9142fdc85c226e64c"
+          },
+          {
+            "path": "textures/fern_02_alpha_1k.png",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fern_02/fern_02_alpha_1k.png",
+            "bytes": 114589,
+            "providerMd5": "1421e5e36946c23a7ddcc907de89025c",
+            "sha256": "ea3c64284c7ebdeedf484d2d816eae92825ec526140c3bb83859ddc7a64001f9"
+          },
+          {
+            "path": "info.json",
+            "bytes": 1065,
+            "sha256": "0a7442726d72e68a09e11324ea08706b234aa45442423bca1e0089922cdbc65a"
+          },
+          {
+            "path": "files.json",
+            "bytes": 29294,
+            "sha256": "a3e43a1dad9a175defdc5816daed6ab1192d4dcd4c8f8a5becd44e63616ba0b3"
+          },
+          {
+            "path": "license.html",
+            "bytes": 72685,
+            "sha256": "0b7a23e05e933f7f28ffab64ac1302e215f44eeb69abbfac4f2c4fd331101be5"
+          }
+        ],
+        "sourcePolycount": 6232,
+        "integrity": "Complete declared provider dependency set; MD5/size and SHA256 verified",
+        "artisticAcceptance": "pending",
+        "vendoringCliUsed": false
+      }
+    }
+  ],
+  "derivatives": [
+    {
+      "path": "assets/source/environment-foliage/prepared/bark-arm.jpg",
+      "bytes": 35879,
+      "sha256": "b678191d752d9301c899460aa08a0cfbd221eaf06f631f12583b28f31c510c18"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/bark-diff.jpg",
+      "bytes": 84462,
+      "sha256": "2f6730a343d0127d53008338f5eaecfef170130c524c965c84206adad7df026e"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/bark-normal.jpg",
+      "bytes": 148239,
+      "sha256": "b1acd2f7cbb51e5d2402e4033c1cb5ae82cd13fb973efe0ff0e46e62e4373ba8"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/bark-rough.jpg",
+      "bytes": 45776,
+      "sha256": "e54e2f5dc30fe1eb396ad34cf9b81678f6365f8d41b94fbac65e9d267230b3d0"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/fern-arm.jpg",
+      "bytes": 41927,
+      "sha256": "27f95fb18e0fe67d78fc85a28a210189d45f66bb0dac6d2b29e013457e849819"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/fern-diff.png",
+      "bytes": 324980,
+      "sha256": "447594e4f871e60ddc3a5db2a507889b6cc886631c9c70b939e926eff7afe89f"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/fern-normal.jpg",
+      "bytes": 40364,
+      "sha256": "6a90401ee45d0412dce6d820b17950cda90a4d2fcbc5a90bfd42e1a8a1b4657e"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_b-arm.jpg",
+      "bytes": 56560,
+      "sha256": "16cb36f71c0e89db42d1ae7761ca2fba99591a71f9581df704c7354782fb03ce"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_b-diff.jpg",
+      "bytes": 77018,
+      "sha256": "0e864ccc84d2b4655d67ca23d28afdb2c2020add4ada0110488a583888b7b1ae"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_b-normal.jpg",
+      "bytes": 115980,
+      "sha256": "0b341cfe66b06ffd21fe712dec292335932d34bb14800e4af364ea3fd4ce19f5"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_b-rough.jpg",
+      "bytes": 66903,
+      "sha256": "94bb04912e7cb241e16a5153fe99c98854e11e6029c36c4d8eafe00acabeaff9"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_c-arm.jpg",
+      "bytes": 67517,
+      "sha256": "022407407ad245ec38faf40fae14616796eeea1ae4213a6200ea3f360edd630e"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_c-diff.jpg",
+      "bytes": 88694,
+      "sha256": "a35a0772c30baa5ebb9254975c9fd557c94577f2b514e6aa13de4727ae9fecf4"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_c-normal.jpg",
+      "bytes": 130649,
+      "sha256": "251ce4667598f10323f301373e1a8dbf203d981de4a34a2285aa1aec05da0cf6"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/trunk_c-rough.jpg",
+      "bytes": 79787,
+      "sha256": "72fac57f737fb251787f03b55f12129eeb5d32cafe14cea953c7ae9814ad8a6e"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/twig-arm.jpg",
+      "bytes": 49915,
+      "sha256": "02168ff9b1aacd1b778f680c885d98e6b8234585cbd1093a00217bd66515c221"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/twig-diff.png",
+      "bytes": 362344,
+      "sha256": "e3b0f137a2b428d792094766379612428ab178b844c39c5065d3857ab9c0e395"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/twig-normal.jpg",
+      "bytes": 63635,
+      "sha256": "12ab099fadf78b591ac3071e5609ffbbaccb63f4b107536fd3c2c9808e4f1338"
+    },
+    {
+      "path": "assets/source/environment-foliage/prepared/twig-rough.jpg",
+      "bytes": 50699,
+      "sha256": "5f6377efb5a76d9d33bbd35dead44cd961f88260fe23f7b2975081e9ffc9b935"
+    },
+    {
+      "path": "assets/source/environment-foliage/editable/Forest_Fern.blend",
+      "bytes": 1822032,
+      "sha256": "906b7e3c9e6ae5a3268607a42dc0b57301e2c61bcadeb98875fffe30199cfa14"
+    },
+    {
+      "path": "assets/source/environment-foliage/editable/Forest_Fir.blend",
+      "bytes": 1641308,
+      "sha256": "5bb01063004998d3dbce34b351aea14cdc59a144f11c75904be9f9f674c93085"
+    },
+    {
+      "path": "assets/source/environment-foliage/derivative-bounds.json",
+      "bytes": 3256,
+      "sha256": "e81a585ae367da92537c235fc33ba2926557a4d919082bd69bb4e74371a8e386"
+    },
+    {
+      "path": "assets/runtime/models/Forest_Fir.glb",
+      "bytes": 4205528,
+      "sha256": "447c2b7ce3bf95732b26a47a7504f652bab80efe19c691de9a16b78b1f453c46"
+    },
+    {
+      "path": "assets/runtime/models/Forest_Fern.glb",
+      "bytes": 529172,
+      "sha256": "412f0e21051876c9bef6b2318cbbe22f41d0a6157e5fb13fe834016cb2d35247"
+    }
+  ],
+  "shipping": [
+    {
+      "path": "public/assets/models/Forest_Fir.glb",
+      "bytes": 1833764,
+      "sha256": "62d04a5e41628541ee75e9d927e8feb041ca0f5186d26232dccd4e33c8cbf9f1"
+    },
+    {
+      "path": "public/assets/models/Forest_Fern.glb",
+      "bytes": 464424,
+      "sha256": "4aaa22ad5aa5ab86a51b3f38db5ce2e8a8f91ed4cc20a36b0dcfdf34d21bfd2b"
+    }
+  ],
+  "transforms": {
+    "fir": "Provider fir_tree_01_b_LOD2; stem origin/ground normalized; uniform height normalization to 13 meters. Provider UVMap corner-vector attribute promoted to true UV layer with per-material source mapping. Scanned trunk root flare below 6.5m radially bounded to .33m for the existing .34m square proxy; branch canopy unchanged. Material-separated wood decimation and connected branch thinning; whole needle UV patches retained near/all, mid/half, far/quarter. Three shared-material LODs; original source package unchanged. Sparse c variant and .5 needle cutoff rejected in rendered diagnosis.",
+    "fern": "Provider fern_02_b and fern_02_d clumps; original meter scale; local origin with lowest vertex grounded. Two decimated LODs per clump; source JPEG albedo reconstructed with separately downloaded official Alpha map.",
+    "textures": "Matched base color/GL normal/roughness normalized to 512px; 16-bit scalar data normalized by 257 before 8-bit conversion. Double-sided MASK: needles .15 to retain fine needle mip coverage; fern .5. glTF-Transform weld/dedup/prune/Meshopt medium."
+  },
+  "sourceBounds": {
+    "sourceTree": "fir_tree_01_b_LOD2",
+    "treeHeight": 13,
+    "treeScale": 0.9234576957559745,
+    "sourceFernClumps": [
+      "fern_02_b",
+      "fern_02_d"
+    ],
+    "textureSize": 512,
+    "nodes": [
+      {
+        "asset": "Forest_Fir",
+        "node": "Fir_LOD0",
+        "triangles": 23111,
+        "boundsBlender": [
+          [
+            -2.390998601913452,
+            -2.7024495601654053,
+            -0.0008925751317292452
+          ],
+          [
+            2.809866189956665,
+            2.9163248538970947,
+            13.0
+          ]
+        ],
+        "materials": [
+          "PH_Fir_Bark",
+          "PH_Fir_Trunk",
+          "PH_Fir_Needles"
+        ]
+      },
+      {
+        "asset": "Forest_Fir",
+        "node": "Fir_LOD1",
+        "triangles": 10044,
+        "boundsBlender": [
+          [
+            -2.390998601913452,
+            -2.7024495601654053,
+            -0.0008925751317292452
+          ],
+          [
+            2.677063465118408,
+            2.9163248538970947,
+            13.0
+          ]
+        ],
+        "materials": [
+          "PH_Fir_Bark",
+          "PH_Fir_Trunk",
+          "PH_Fir_Needles"
+        ]
+      },
+      {
+        "asset": "Forest_Fir",
+        "node": "Fir_LOD2",
+        "triangles": 4514,
+        "boundsBlender": [
+          [
+            -2.3728816509246826,
+            -2.7024495601654053,
+            -0.0008925751317292452
+          ],
+          [
+            2.677063465118408,
+            2.9163248538970947,
+            13.0
+          ]
+        ],
+        "materials": [
+          "PH_Fir_Bark",
+          "PH_Fir_Trunk",
+          "PH_Fir_Needles"
+        ]
+      },
+      {
+        "asset": "Forest_Fern",
+        "node": "Fern_V0_LOD0",
+        "triangles": 2099,
+        "boundsBlender": [
+          [
+            -0.5281425714492798,
+            -0.4718152582645416,
+            0.0
+          ],
+          [
+            0.4616048336029053,
+            0.421874463558197,
+            0.427694708108902
+          ]
+        ],
+        "materials": [
+          "PH_Fern_Leaves"
+        ]
+      },
+      {
+        "asset": "Forest_Fern",
+        "node": "Fern_V0_LOD1",
+        "triangles": 480,
+        "boundsBlender": [
+          [
+            -0.5275322198867798,
+            -0.472641259431839,
+            -0.001891549676656723
+          ],
+          [
+            0.46219658851623535,
+            0.4148845374584198,
+            0.43257737159729004
+          ]
+        ],
+        "materials": [
+          "PH_Fern_Leaves"
+        ]
+      },
+      {
+        "asset": "Forest_Fern",
+        "node": "Fern_V1_LOD0",
+        "triangles": 816,
+        "boundsBlender": [
+          [
+            -0.2907802164554596,
+            -0.2411416471004486,
+            0.0
+          ],
+          [
+            0.28200197219848633,
+            0.35213664174079895,
+            0.2130875587463379
+          ]
+        ],
+        "materials": [
+          "PH_Fern_Leaves"
+        ]
+      },
+      {
+        "asset": "Forest_Fern",
+        "node": "Fern_V1_LOD1",
+        "triangles": 480,
+        "boundsBlender": [
+          [
+            -0.2907802164554596,
+            -0.24068988859653473,
+            0.0
+          ],
+          [
+            0.28200197219848633,
+            0.35213664174079895,
+            0.2130875587463379
+          ]
+        ],
+        "materials": [
+          "PH_Fern_Leaves"
+        ]
+      }
+    ]
+  },
+  "canonicalGameDevCliGateRan": false,
+  "admission": "Manual provider license/hash/package integrity and local derivative validation. Production visual and independent critic acceptance pending."
+}

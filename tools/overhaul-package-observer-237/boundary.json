@@ -1,0 +1,14 @@
+{
+  "writer": "CLOSED",
+  "scope": "Package scripts only concurrent boundary; compiled234 bytes unchanged; no npm/build/prebuild/cleanup executed by237",
+  "beforeSHA256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4",
+  "currentSHA256": "a951b2b35d6a86bbf07ffb08eff3ce30f227dbaecce67e4b1d39c4fa445184f3",
+  "addedScripts": {
+    "storage:check": "pwsh -NoProfile -File tools/storage-retention.ps1 -CheckBudget",
+    "storage:clean": "pwsh -NoProfile -File tools/storage-retention.ps1 -Apply -CheckBudget",
+    "prebuild": "npm run storage:clean"
+  },
+  "allOtherFieldsEqual": true,
+  "original235ExitCode": 1,
+  "original235Scope": "PRE_BROWSER_INPUT_HASH_REJECTION; zero game shader/native/browser executions"
+}

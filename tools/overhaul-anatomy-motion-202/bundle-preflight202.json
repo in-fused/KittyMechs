@@ -1,0 +1,24 @@
+{
+  "status": "STATIC_BUNDLE_PASS_NOT_EXECUTED",
+  "inputs": [
+    "node_modules/three/build/three.core.js",
+    "node_modules/three/build/three.module.js",
+    "node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+    "node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+    "node_modules/meshoptimizer/meshopt_encoder.module.js",
+    "node_modules/meshoptimizer/meshopt_decoder.module.js",
+    "node_modules/meshoptimizer/meshopt_simplifier.module.js",
+    "node_modules/meshoptimizer/meshopt_clusterizer.module.js",
+    "node_modules/meshoptimizer/index.module.js",
+    "src/game/entities/authoredFootfalls123.ts",
+    "src/game/entities/movingRFfeet067.ts",
+    "src/game/entities/locomotionTasks143.ts",
+    "node_modules/three/examples/jsm/math/ConvexHull.js",
+    "src/game/entities/sourceCoordination164.ts",
+    "src/game/entities/sourceCycle171.ts",
+    "assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json",
+    "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+    "tools/overhaul-anatomy-motion-202/browser-entry202.ts"
+  ],
+  "outputBytes": 1106208
+}

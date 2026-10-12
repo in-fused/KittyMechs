@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-root-round-032/player044-candidate.mjs",
+      "bytes": 6253,
+      "sha256": "a2bcffc52eb6c6799b7fb2d6d6188df4a29291f33efa1568854e0a4751225f47"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-036/receipt.json",
+      "bytes": 71181,
+      "sha256": "1022aa38c1dd3a29ed0214ca30ad56f8571c3f9a1bd19f3578a99eba63aca0c6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-036/playable-checkpoint.json",
+      "bytes": 558,
+      "sha256": "96165a763d81820647a7a307931488d18604663c591024e761c0502e76d687a4"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-root-round-032/player044-candidate.mjs",
+    ".sites-runtime/overhaul-20261010/player044-candidate"
+  ],
+  "scope": "ONE fresh actualSoloLow startup/movement/fire/ONOFF/pause; uprightW+Aclearance change explicit,043blockedfixturepreserved."
+}

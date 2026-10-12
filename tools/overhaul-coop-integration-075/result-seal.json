@@ -1,0 +1,1273 @@
+{
+  "utc": "2026-10-11T05:11:32.297263+00:00",
+  "status": "CLOSED_PARTIAL_FAILURE",
+  "verdict": "RETAIN045_LIMITED; DENY full mission and presentation approval",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/receipt.json",
+      "bytes": 73403,
+      "sha256": "2dfc9912c42a7f8dbe4658b4debe97440290a314cf265dc49410bbb389b911ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-build/process-receipt.json",
+      "bytes": 21503,
+      "sha256": "b28407add789156cf25fa561f991ce1b43f3fc9acfd4a4c6c5fa77408f376ab5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "f36da3bf54e4666b0c78617374467c822faa1a7388f88e5c3bc5cf977f29ad1f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-derivatives/process-receipt.json",
+      "bytes": 1306,
+      "sha256": "77e15923828dc3492688826d29b4007fff7d7977efe9ea7bd56e42a73b9a4199"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-derivatives/stdout.txt",
+      "bytes": 927,
+      "sha256": "0fb58cff22a96e8db006f262bd4c979eb139095e9c1499d69f47b8751bfe91ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-process/process-receipt.json",
+      "bytes": 63933,
+      "sha256": "055a796f0942619360987b0545c6ec4d810558f2ae763b7bc8215c26446e55cb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-process/stdout.txt",
+      "bytes": 1067,
+      "sha256": "baa6cfa21590f78f5b22063a5bb6acef90d94a04fbcf2c7061e957bd002dd205"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/evidence.json",
+      "bytes": 8626084,
+      "sha256": "62b60fb9b7ab1ecc7299091be9e97ce27b13643d9fcab3954f89054f3c10570c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/failure-guest.png",
+      "bytes": 1183704,
+      "sha256": "a0678e4189fa3a84d860138bb357f79ab71af6c9cc82b5b9944ac31f3cfd4553"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/failure.png",
+      "bytes": 1165023,
+      "sha256": "89a56e29f14be7778f0f8fc86b6185e5fb48a286ff490ec655027aa7c07399a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/guest-route-west.png",
+      "bytes": 1112251,
+      "sha256": "e044ec52d7032c1f829740e662010b12c1f10f891f97d622c97e45ec33eeb25d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/native-keyframes.json",
+      "bytes": 8975000,
+      "sha256": "26bb1efda6413c7fcf417d4e2993731f89b1b59c56fd330a209d2fb1a0dd045d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/page@48739ba0c05077cb16e63ef4631301d3.webm",
+      "bytes": 49070015,
+      "sha256": "9847439463b76cdcf9c3fec94d3347092716d2e84170d16dc21336af94206c8f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/page@b2341a242ac1e06df9ec347c3a2d551f.webm",
+      "bytes": 45190625,
+      "sha256": "c449d943dfe5b8685cd55a516f750e68cd6cae31255f129187458af46f724ab4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/progress.json",
+      "bytes": 1125,
+      "sha256": "860079a27a99610c6df10c8be05fb549a4f2a7874f5241b5aa92ae57477647da"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0001.jpg",
+      "bytes": 20735,
+      "sha256": "0efeaa8ab840e77964b452b2ef167f24d4c317c3c6f47b68e00599293da7ed72"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0002.jpg",
+      "bytes": 29310,
+      "sha256": "c6a8d36bd18acc5251c5d76965004e91d6f0a1a65d061af843cae5e3085a4b8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0003.jpg",
+      "bytes": 38303,
+      "sha256": "30864842aa09247485eb66d9ee41218bc5fb494faaa19395f976851611e9d31f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0004.jpg",
+      "bytes": 38955,
+      "sha256": "17cfb63f256fca2dbb328bbda2f2b8f36979dc49d27d05c8edf9d85a9bccecdf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0005.jpg",
+      "bytes": 38494,
+      "sha256": "9c45ba82adc8bbdfd4123fe8eef5211142838c06473e2de83f688877473afd4d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0006.jpg",
+      "bytes": 38467,
+      "sha256": "66c287a129571b429a42edfca0e3addaca44ba1d8abf349b3dda8fb79750cacd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0007.jpg",
+      "bytes": 24066,
+      "sha256": "5844570f34cd0a0b3f8f1116f03a2496dd1cec18ba8b920dc06ef423818a2538"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0008.jpg",
+      "bytes": 20945,
+      "sha256": "54d17d12d5dae202f2f5aba4d91ecb5d368284b78aedc1c9a283d117de379bfd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0009.jpg",
+      "bytes": 18230,
+      "sha256": "94959a91d136b02f1be1d159e87f94550dcd060ff1197534cd19091e6d4c4ada"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0010.jpg",
+      "bytes": 14544,
+      "sha256": "309bd2858ef4cc39472cac857a3e2195305e02142a31f3f013dbf268313b4459"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0011.jpg",
+      "bytes": 13450,
+      "sha256": "f33cd09e65d1dd56f5d9c11036c5a9e6ee410c5029d9863adbbbc98de9469cdb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0012.jpg",
+      "bytes": 12421,
+      "sha256": "2529fe96d96a0a77b94a9ee2df3dac0384b61485412243310e917d5da76ddecd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0013.jpg",
+      "bytes": 10421,
+      "sha256": "5152e096850379c9a8ecba60a6018b3c5172982c6f7001714204911b6ac135e3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0014.jpg",
+      "bytes": 10665,
+      "sha256": "75118f1d8b29df6c7b91d2cb488d7848745703b51cab0a3aa63075abdb7ccee9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0015.jpg",
+      "bytes": 10135,
+      "sha256": "df3e28fbcdcb725e06431cab9b516b116c02a491bbaf20b76f0bffeb227b001a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0016.jpg",
+      "bytes": 9583,
+      "sha256": "d631fae418c07de762c08cdea56fda287b5ded4e05736a7f067fb93b2c9059a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0017.jpg",
+      "bytes": 9124,
+      "sha256": "150b5bf922043bc954a33e0f9adec1d7bfdcdd230ce8346e3d11091140034a16"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0018.jpg",
+      "bytes": 8679,
+      "sha256": "f4ac4a02f8f250103bce5a8f1a71cc239e4c1b83a358ad1fe0ce6da0462a4b02"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0019.jpg",
+      "bytes": 8689,
+      "sha256": "b7634b398cb60ce4ec6e34fffc2053240586faab43a461d22754ede84b7dbbff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0020.jpg",
+      "bytes": 8326,
+      "sha256": "f6ae4dda85af4f6dbd641dae7f8fa1c627becaf242e76db9b11554a02edbc668"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0021.jpg",
+      "bytes": 8315,
+      "sha256": "51246946e3f08ac86844d00d6505ddec88db1f6ccef6a37b30757836d11a3e53"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0022.jpg",
+      "bytes": 8327,
+      "sha256": "c4aec72f3d7c56cd0b8f9b767f03ad35630f32e691bf14d93433fe2f1a3b1f18"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0023.jpg",
+      "bytes": 8032,
+      "sha256": "f5c945192f05d02f38c01637813368184bfdf3de19542c5bedba17cf7526bc03"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0024.jpg",
+      "bytes": 8008,
+      "sha256": "195464a50077be5b355bdb4f48782843c86e60b3930c2fe4e7da9bc3efb3bcf3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0025.jpg",
+      "bytes": 7703,
+      "sha256": "9dc47c7888e643ad98b0df5085bda69004395a4b559a713223e8dd289e220f96"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0026.jpg",
+      "bytes": 7701,
+      "sha256": "1ba68f434677bacc43ef2db5eb67f13bdeca5b6fd6bf5f28609823820ab08303"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0027.jpg",
+      "bytes": 7685,
+      "sha256": "aa9106d65ae3aa5043f9f73fa1338518361ccbb4b3005469f80564efad9b071e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0028.jpg",
+      "bytes": 7726,
+      "sha256": "24ec7865a7123adaec12b9218f4542f30916bb4b08553e8bf15f483d72501cde"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0029.jpg",
+      "bytes": 7710,
+      "sha256": "0d45e08d9991ee3e0db2e2782e4e3c8d73e5840d8f11e7c2f98b50e56c07c461"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0030.jpg",
+      "bytes": 7370,
+      "sha256": "21298bf9012b87614e1f2402a461ff63649940beab3f7b6dc3b1e389b1f7a8c6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0031.jpg",
+      "bytes": 7435,
+      "sha256": "4a5b4ed7c157268a9c677e71cc715155a03dd61fe100a8d63a9f0750d114543a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0032.jpg",
+      "bytes": 7784,
+      "sha256": "f7fd1b26154172fa952a33e2a8f577309ef9cd4ae14d8b8935e2662803d06637"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0033.jpg",
+      "bytes": 7801,
+      "sha256": "b17665e3a5032436533a5e43e9beef2afa61248ba5e715db76a7a4b0471093c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0034.jpg",
+      "bytes": 7324,
+      "sha256": "05a774115adeae61cde495e07c29666f74cfd3b58ae9b457ec58665830d89a98"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0035.jpg",
+      "bytes": 7583,
+      "sha256": "f12b0f4997c7403d29bf40e8d84369a655639d56d3c94b16097a9d33afb97626"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0036.jpg",
+      "bytes": 7761,
+      "sha256": "bc2110f90adf5ad9512829be3351b248bb43836d0cab269adb2d971b97909ce9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0037.jpg",
+      "bytes": 7175,
+      "sha256": "b5ed7220d87e6c9e4fc4045befa19517fd6c5717ff225c9e96cd737fcbdef381"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0038.jpg",
+      "bytes": 7140,
+      "sha256": "63035ecbb011e12a0ee80826135216be8694b452866202596aec6e75d7b26083"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0039.jpg",
+      "bytes": 7399,
+      "sha256": "cd34751fc8c6b006e2a361dd3480bc7d3bdf7238089f58e1b25787280f61462d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0040.jpg",
+      "bytes": 7192,
+      "sha256": "ddac2a937df54007fe8f85e11fd57c81a45edc7a537aca88dbe81e3547170566"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0041.jpg",
+      "bytes": 7377,
+      "sha256": "ea5e2bcad161b47f635b204080ec36a557236d2829273283e78480230c7984b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0042.jpg",
+      "bytes": 7358,
+      "sha256": "f01397abd88c19c9d6ff7844ab8dbebb133a5477b0ea483a1a1d584e42ac46f8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0043.jpg",
+      "bytes": 7215,
+      "sha256": "81d554bd1240ec84b71a2e7353843f60b8d4eac0a625f33b6d9db095a2683351"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0044.jpg",
+      "bytes": 7114,
+      "sha256": "08b416762ac113928a1509aa57410832764aee468414bce46db1c77a4cd228a9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0045.jpg",
+      "bytes": 7275,
+      "sha256": "6e87b602faaafc6f61a94ad959dfda06071f9ff1e1af5611214d683e237a3d06"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0046.jpg",
+      "bytes": 7584,
+      "sha256": "679166e4fdcedb320586da86f12e64af80c7cc3b3297f121322e4e47fda577a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0047.jpg",
+      "bytes": 7305,
+      "sha256": "1334171950e8e007f0491ef91c2076789706dc444f58a89b1748af3edd0d667a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-0048.jpg",
+      "bytes": 7323,
+      "sha256": "68c61d44bbefa94d56f1bcf46a25bf9eab621a2b1a64544e748058dbd1f560a4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-board-1.jpg",
+      "bytes": 682091,
+      "sha256": "18a3bc24d93e7f3df0d933623b48926b5a5803c2b7d6d12792fdf4ceb0af3e74"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-checkpoint-board-2.jpg",
+      "bytes": 457725,
+      "sha256": "a6532147fec90fd62f7bfab5aebd0c696a1aa2c882905a23d80cfb5441fc1c34"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0001.jpg",
+      "bytes": 19685,
+      "sha256": "7e4fcd9fb863632524f699bd823e7a9408bb9c3042d2942cbd2be84bd7edd77f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0002.jpg",
+      "bytes": 27926,
+      "sha256": "2e97cbe36a5bc2570e942f3760870e069c9dea246924fdcad3f30bc34d5ff802"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0003.jpg",
+      "bytes": 36314,
+      "sha256": "fd5dee91ca1086694821a465d98716fae3e496528aa6792c1920906064ddc53b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0004.jpg",
+      "bytes": 36740,
+      "sha256": "f14dc63f2798c95f105dc186a803dc98899dbbd92fbaa609c6021090622c284c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0005.jpg",
+      "bytes": 36476,
+      "sha256": "af3da226a745310286cb88a1c6aaf6a1146b07f32276365c02f3a19903b608af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0006.jpg",
+      "bytes": 36677,
+      "sha256": "7ad198e9b4c705bde0150fd845231b35a32fd20a2d44b36bf8f35fc97f228b15"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0007.jpg",
+      "bytes": 27843,
+      "sha256": "055b3ce8b01bdd04aa5de111e90aa3661f7fa7719e0402eba0b10292ac98b8fb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0008.jpg",
+      "bytes": 19866,
+      "sha256": "c527d1a2c85acaab3c391c23f678bb8ca38359fdf269ec9810cdab3d922906df"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0009.jpg",
+      "bytes": 17476,
+      "sha256": "096ea5b4e93dccebedae94a74a410b6174f214ac1dc23ca36ce0ec3ee4bba0ac"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0010.jpg",
+      "bytes": 15638,
+      "sha256": "580743b02bd99e47dfc6c88e64a7974d455ad7e6284cedec0b6c65440d3d97fd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0011.jpg",
+      "bytes": 13949,
+      "sha256": "5f8d92eefa7b0240adbfa73d9da0217aeb0f2d9dc8861b33ad89ef473a7d3f7c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0012.jpg",
+      "bytes": 12885,
+      "sha256": "e1b52283c6f6a86bc22cfc29f116d5a81a6f3c45ef555b89289c0968fda9d67f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0013.jpg",
+      "bytes": 11045,
+      "sha256": "57aebbaeef2981f30c44e674e47d1636b2d7e1163b1efe4bd9b1e4eed11fe77b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0014.jpg",
+      "bytes": 11067,
+      "sha256": "85b6b83ed99b362fe9c916a3533bebcb8b14cef292d02091a3406610b0a0e168"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0015.jpg",
+      "bytes": 10248,
+      "sha256": "7871f61f22e7e865e2c5b8f32d2cb1fde279015b8d303e9405739da57e427630"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0016.jpg",
+      "bytes": 9767,
+      "sha256": "52df61b669859a1dfaf4256bf9d0530ae88ed6f18400913ff9ebd720a8456c98"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0017.jpg",
+      "bytes": 9297,
+      "sha256": "ac87c91012e69a2a4152060a29fecf1d5325bc0df30ee4662d15a8ec548477a3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-0018.jpg",
+      "bytes": 9324,
+      "sha256": "3cd68cf7cf06baf9cd2f46aa07f2f8ce5f43696826aaa18d9cbe2d1a1e25a289"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-combat-board-1.jpg",
+      "bytes": 561560,
+      "sha256": "784f7eb136df1cd9f8cdf36b5d1313986873fc1358c8aec9047d542c1f5e5354"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0001.jpg",
+      "bytes": 22182,
+      "sha256": "c9b5ee3f7878997ec5465a1c8d39a5be2723174928e3fdc74336dd007a9826be"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0002.jpg",
+      "bytes": 31156,
+      "sha256": "1b494da91e86cbdc597e6d04eb87aba2b9175638391cabca4cbd72a3d9d10d38"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0003.jpg",
+      "bytes": 40778,
+      "sha256": "9b1e665ab83150107433e59a63262243cf5fb1d66668387b5a11f6ded800fcaf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0004.jpg",
+      "bytes": 41044,
+      "sha256": "4c71a695169f91f8fe9266c52df56b20e2055296b9e35daa3ac72d4267422751"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0005.jpg",
+      "bytes": 41176,
+      "sha256": "95409346a9494385d6e76db9a582b8575d88aec32b7770c20864f0500976be0e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0006.jpg",
+      "bytes": 31792,
+      "sha256": "0f562e25156d70308de8219d0d2f15970d6a722e762805360ea0a45e11dd0689"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0007.jpg",
+      "bytes": 26059,
+      "sha256": "aed60b446d732c905563c6bd1afb1f00968e1bfb5857c287dd9c61bf4f490aed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0008.jpg",
+      "bytes": 22756,
+      "sha256": "d9d833d142396e197e9cf42c6ca81704845cb089dfdc36478ca6b54543373c32"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0009.jpg",
+      "bytes": 17606,
+      "sha256": "af974ae9f2d8e7fcc859ad27bbf00b77d711b88a3c01cf0fea2fde00634b2117"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0010.jpg",
+      "bytes": 15678,
+      "sha256": "d271cda0bf752c0e75d95481b2c9e01cdf9b8f99a6eb88a17ac5910134502b14"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0011.jpg",
+      "bytes": 13274,
+      "sha256": "c7416ddbf664481202a77e99df3d95aab60038d629e96c0dd0beb368c38c6551"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0012.jpg",
+      "bytes": 12191,
+      "sha256": "1b43fbcb50241d8a77b7a7d5b477d40aaf43d009d51a96ecc57abc86c7178e6f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0013.jpg",
+      "bytes": 10791,
+      "sha256": "610a4ec164cef700bbb26780e0a3e279a4c738aada2bf5ebc9f6d0dd9d848f67"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0014.jpg",
+      "bytes": 10127,
+      "sha256": "668a95f0a5edaaecf1307d8939e60054ff55904bd7c14f3aeca248ecffcd62e0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0015.jpg",
+      "bytes": 9576,
+      "sha256": "cfa097858662cd12bd135983cd5938c515d2a4cfd850eee453dd90ae16a10000"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0016.jpg",
+      "bytes": 9009,
+      "sha256": "30e5aad7a96a92cb0c8abf857444f11d75f4566c2d95c1cf4cdbf8408e4d78ae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0017.jpg",
+      "bytes": 9020,
+      "sha256": "989561aa5b295f5593f842bb4c0ee1750ac2ab61f017580f952aec79785e33f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0018.jpg",
+      "bytes": 8610,
+      "sha256": "4d354019f968bd6ec3bcf8c891ae5b0f4049e27595ccf99cd75089ca6ea4f0a6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0019.jpg",
+      "bytes": 8316,
+      "sha256": "24c4d68e21c53e56657f5d0802698121e346c0ce08c8df606c60740dbf87c8b7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0020.jpg",
+      "bytes": 8394,
+      "sha256": "0b4283ca3bcce1d8218d9972298131365e7c260a5aa7b25cf5e23dfc15f0ecae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0021.jpg",
+      "bytes": 8074,
+      "sha256": "406363a26e2baa6076cba8333a566304ac5e6fb63eb54241bbdefe973878e220"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0022.jpg",
+      "bytes": 8047,
+      "sha256": "8f3383efe3d6276b0be986e7537fc28366b777cae327a4e9bf2e390293cc9a85"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0023.jpg",
+      "bytes": 8081,
+      "sha256": "e192b5fb9774787b87a23f2c1efa1f2ebe11718e58b6c2c2e8528e9c1ffe9948"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-0024.jpg",
+      "bytes": 7741,
+      "sha256": "a8210f326f77610cf5aff7fa29077122715ee2c0f62b1825b1647c0bb6e66997"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-failure-board-1.jpg",
+      "bytes": 699521,
+      "sha256": "d3dc1bf4e7d5eac05a6bc6acf059045781613f584d45664663c5baa23dc6a40d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0001.jpg",
+      "bytes": 21599,
+      "sha256": "06751effde59621b545eb0a69ae6a383cca67eb3f3ff6526b0843f0093779de4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0002.jpg",
+      "bytes": 29654,
+      "sha256": "20cf9ea4b4d2360e86bf3d44223645e4e84bd8614f23eb3be8b622bd23cc1f0f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0003.jpg",
+      "bytes": 37546,
+      "sha256": "35c6e9ea91e7523f72a4103041fa4c97e8ed150305c9d7131f26bf635801d181"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0004.jpg",
+      "bytes": 38456,
+      "sha256": "2adc43164b9fbbc0d3c9beb96b8c0a7e30fa60f235dc465015195dae805f3d60"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0005.jpg",
+      "bytes": 37316,
+      "sha256": "5232ae1adfe3a0f9261b6dc2d7541385bce73b9f26204182195f8b4c3aee9243"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0006.jpg",
+      "bytes": 34746,
+      "sha256": "4d8ab0dbe8dc012a21b8d8d0b2766cd0885421ae94b199aa77ffd280ff5d9f14"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0007.jpg",
+      "bytes": 26865,
+      "sha256": "6e1f67335c22cbfa6c53d101027afd51db78764cdbfca39f3148a5f662abf836"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0008.jpg",
+      "bytes": 19490,
+      "sha256": "07ce9c19e274cad0233705e01a7e6bc2a9d0cca045b2da8d693f31475f9fd042"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0009.jpg",
+      "bytes": 16187,
+      "sha256": "63394474249742d81155ce38af0b6a7b853caed4c812f6e8d144ad25dcae11b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0010.jpg",
+      "bytes": 15049,
+      "sha256": "291a1c2bb5608fbb890cb0dbf033636aa10d049146f2b1e0cde624cd93677d3b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0011.jpg",
+      "bytes": 13955,
+      "sha256": "64c64870f3ca21382b54605cc1b62468c1b5144dfe0b0534f2d2203cbcdc242b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0012.jpg",
+      "bytes": 12532,
+      "sha256": "f7df4ca96088b7d7264be1865a3260fc60d991136f81e9055487484ddc380fd6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0013.jpg",
+      "bytes": 11638,
+      "sha256": "728a21f217e5b15eee4aa72c0b32527ed703df034e67f1056c9791ac5f8b9f2e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0014.jpg",
+      "bytes": 11159,
+      "sha256": "4a85e0aedc657f6545d49a3f8ddf618d4b575d4b7d9540f31ab9ecf9fff32bdf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0015.jpg",
+      "bytes": 10828,
+      "sha256": "7da563641e54843e2b3c2456564809f16e1a3233fc1c26d931a26a1879618129"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0016.jpg",
+      "bytes": 10750,
+      "sha256": "3630e2ed73c878c8555bb3d39b50b7146dfff32a6b8494eaaf60b4e755dd93c3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0017.jpg",
+      "bytes": 10358,
+      "sha256": "c79cb4e5fb65ea38df4785c95bc40edc17019c717adde0745224671692b7e084"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-0018.jpg",
+      "bytes": 9787,
+      "sha256": "e96a16176b771c52c899117e09e010a4b6578b4d7981588c10c1a8d2ff501781"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/guest-travel-board-1.jpg",
+      "bytes": 572726,
+      "sha256": "0e341f80df29b9c86191fa3926aa77faa2237490bcdb946bf9b1055e67f96dde"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0001.jpg",
+      "bytes": 22131,
+      "sha256": "fc5e7f4d988103aa37762ed44de8902659a8c50f3b30345e33ae546ed3be373b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0002.jpg",
+      "bytes": 30300,
+      "sha256": "eaee55f34078ea5a28f80dfb21c09d04650d427fb586f6b517fcedc3baed26ab"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0003.jpg",
+      "bytes": 39669,
+      "sha256": "dddba817ddde66c162b08e80769ebede4588963e481fa570fa490d1ba61d13b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0004.jpg",
+      "bytes": 39668,
+      "sha256": "faa3da24581c9935cf0eb490e0a3c0ef93677e2c9ff942e8d185e6a8b3c06bc6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0005.jpg",
+      "bytes": 40109,
+      "sha256": "7ae59216721a7fd97e42181525c3b9e8a6659140218388d36877d4818b2101ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0006.jpg",
+      "bytes": 39839,
+      "sha256": "135c75fad073f1e64692dee67c3099811c52a763a1085f7f7ff2f00327c15a53"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0007.jpg",
+      "bytes": 25756,
+      "sha256": "a13b9e7a2087a263702f282bf1a0c875e3c43058789f62674b3ea566d693825f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0008.jpg",
+      "bytes": 22757,
+      "sha256": "8589968fdfca40f9ba76b2bd0848fdd63ba4a5723b86b66a702b2cd4b67e6f19"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0009.jpg",
+      "bytes": 17916,
+      "sha256": "3dfb221e500f15ea34eca6acf6158a02d7871382c4ace97f400f2b355fa53f07"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0010.jpg",
+      "bytes": 14946,
+      "sha256": "392e7e1f3dbc41a3cd5d66bc96cc4941ccd2c2d269e75e6b9cbf229208c3de91"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0011.jpg",
+      "bytes": 12954,
+      "sha256": "9cdb990169f4de3ef3d2de3bf5802f790a759c5ebb657d09e42d1ddbee607219"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0012.jpg",
+      "bytes": 12061,
+      "sha256": "b8aded963de2b4b93e0a22644d5e219c95232bff60cc079dd18562fe6ec2c291"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0013.jpg",
+      "bytes": 11220,
+      "sha256": "f14fe613adc837f606be428cf6c9192d7b9e32ee5cd9bed4c2044ec941b67a85"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0014.jpg",
+      "bytes": 10160,
+      "sha256": "ca439f62401d6e64bdf90cd2d2ac8f609011fbf92d73a7357e83d48e962dd222"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0015.jpg",
+      "bytes": 9730,
+      "sha256": "81ab4911d32bb14fe36f25a8e31b4b4809d4732c47c6288fec50cfa8e79269cc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0016.jpg",
+      "bytes": 9351,
+      "sha256": "9c618d5094f4c28e24674145991163a432690dfa341a86013512cd8f3098fc8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0017.jpg",
+      "bytes": 8997,
+      "sha256": "5b38c30f2c261cc3e6f2825e3b8e083818440ce3f1ada533560f936749dd0fa8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0018.jpg",
+      "bytes": 9007,
+      "sha256": "370fbbcb966063e1c26f983f27eead785b2fd41d6ccccad1fb3bd2698f17ccc2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0019.jpg",
+      "bytes": 8699,
+      "sha256": "fe1a49df28d3f02e20fa3de7d851da51c066eb6a58aa73866e4daba28167315e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0020.jpg",
+      "bytes": 8331,
+      "sha256": "329798f08b7dd4f69fab74939a9f2edbb821a8a26b120390f5ec6a47c1a640f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0021.jpg",
+      "bytes": 8074,
+      "sha256": "6a9d25d5045164d00dcc0019001338155e1336cf8bb08b16e6cbc70781885c84"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0022.jpg",
+      "bytes": 8087,
+      "sha256": "f20e5af530d58ccaff7b3daa8b996e6077e41d768055dee7750dd02da9b60849"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0023.jpg",
+      "bytes": 7867,
+      "sha256": "0c74096ca77eed23304b0450b55915a5c30ba65be736160321a17db6341f167d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0024.jpg",
+      "bytes": 7848,
+      "sha256": "3d1ba64717b4051996a7ae8282deb5a73317c1c670be3fc92715aac074056403"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0025.jpg",
+      "bytes": 7804,
+      "sha256": "183ea1d5c8f05565d0f9cf3a4fa2401ecaa1441af2593f5a7420fc303dd31651"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0026.jpg",
+      "bytes": 7567,
+      "sha256": "7e2e7bfb241e541be44d6e1a464fec863c379f43e1bafd0ccc7337ee6e151317"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0027.jpg",
+      "bytes": 7625,
+      "sha256": "24ac8218fef7f09799427673afc294254d01f6807fe20da2e3a0a38022131565"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0028.jpg",
+      "bytes": 7600,
+      "sha256": "68e3d877308b9fac1074e04e80ad8d8e127520ad18c259b0efb340e35966cd36"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0029.jpg",
+      "bytes": 7342,
+      "sha256": "804a5b49f98a149020e13bfbdd68fb056e9642e2fea40e82eeb0978d569abcfb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0030.jpg",
+      "bytes": 7358,
+      "sha256": "e2f76afbd25d49ade45ca26865e0fd6f056884e895c1f7b836993bd35a7ca64e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0031.jpg",
+      "bytes": 7328,
+      "sha256": "116c8366c5dce67b5d27b6bbe67fdd3816d4468afa30c280ead251a6ca345052"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0032.jpg",
+      "bytes": 7359,
+      "sha256": "f105e131abc831056381b68067e0c9a738ca5adff95f466f04d131d689c9284d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0033.jpg",
+      "bytes": 7092,
+      "sha256": "bc48f1e47795d0dcaadc2cc55bf4189942b810a449fa8832cddf7be3f1c5f0db"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0034.jpg",
+      "bytes": 7174,
+      "sha256": "9b4ce9bef5c3c89d60c087fcc86cf649d2f8d35503621a1132cc8867c9553fea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0035.jpg",
+      "bytes": 6955,
+      "sha256": "38d82ec437c575ffe68f0789e5779d27e96e450c026c43de2675a3bdea4f36f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0036.jpg",
+      "bytes": 6811,
+      "sha256": "aa901912cb18f3456be7a2df50adf51c01d487cdcf5cdd7bf2baa905ff1d017e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0037.jpg",
+      "bytes": 6629,
+      "sha256": "4897eede70a1e0fd6cb66bb0ffc01d68529254dab0adf778de2135faa8254704"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0038.jpg",
+      "bytes": 6623,
+      "sha256": "656dd62ad06f8e8c9d3fda85c34f894a8ab501d4a567eeec3c31cdd797783cca"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0039.jpg",
+      "bytes": 6768,
+      "sha256": "e21916abd56d3c10c8f779b02392e3f9e3e0394ee6fadb806865e1ffeb6c81cd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0040.jpg",
+      "bytes": 7116,
+      "sha256": "1a48a5c2403ec242568113f56d9ba5e5586633f33feff23406af1eddb004b32f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0041.jpg",
+      "bytes": 7094,
+      "sha256": "3abb669caf188dbb5c778b40ccd3af67f67f264e7bb8b713ac5942c135a74932"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0042.jpg",
+      "bytes": 7009,
+      "sha256": "08595fa24880615ab12cb7b2a89af623f8510ddc179773ecc3d030e14a36ef34"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0043.jpg",
+      "bytes": 6796,
+      "sha256": "bda18ce06c1b6f6b952582d3c07e2682f05b6d4ff6ca27f81b5cd27589b6b545"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0044.jpg",
+      "bytes": 6802,
+      "sha256": "22a3f8c9c47dae19875a5dfcf188be579d20f14b558ac19b3b4f2be171861a75"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0045.jpg",
+      "bytes": 6683,
+      "sha256": "e4ae6a5348870c8e96c01b3e28fa27f2a06fafad2d28daed99ddb897b70ce912"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0046.jpg",
+      "bytes": 6911,
+      "sha256": "a4453bbc34b066bf561908879a17c083ff29667b3c57431d90c891547fe5e3e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0047.jpg",
+      "bytes": 7123,
+      "sha256": "ca55bda1e21c9d1f7eaf901bddc3c00cf6c807e9749fd578eb3fe94bb5733ba6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-0048.jpg",
+      "bytes": 6866,
+      "sha256": "2e8715ee71dd4b5c2b556714a120d88ccd1da0aacf0099d42edd3485bf7ff19f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-board-1.jpg",
+      "bytes": 709469,
+      "sha256": "8dc782b6f5bfb62d4436e89db0d04dfeb00057d7eec1196182298014c24b581b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-checkpoint-board-2.jpg",
+      "bytes": 446923,
+      "sha256": "a0a579d948d0e6d0c566c24e67e5520f4aede14fbcb6d26f751444a442387ad0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0001.jpg",
+      "bytes": 19186,
+      "sha256": "0c0e849db30efc95d7b51ace50539dc8ba87a046620f43dc5c8e7da75f52728d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0002.jpg",
+      "bytes": 25398,
+      "sha256": "978bf789a832ac38044d9ecfc218b8ff0125a4bc9cdbf70eb7e1100258665ebe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0003.jpg",
+      "bytes": 33515,
+      "sha256": "343cd5d3b810007173a38b2db60b1a436ad5303957c82ebe46e39e3e5f68b055"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0004.jpg",
+      "bytes": 34466,
+      "sha256": "adf11c3bae255d68ccad487a67d778c1866751949cd70c17a1b73f0f4cead6e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0005.jpg",
+      "bytes": 31413,
+      "sha256": "770124432849f758c2c9435110970ef7d4e30ebf4372dd6347bfff52541e3ea5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0006.jpg",
+      "bytes": 33303,
+      "sha256": "359b7eb0cc8a3d27d8e685d4c9d572be4b1a2a181bd384fc4439be9ffa5ef30a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0007.jpg",
+      "bytes": 25559,
+      "sha256": "6b6c04f83b4fcb534163936b6f423c0cba6bc49dca009c292f616518dcd04217"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0008.jpg",
+      "bytes": 19852,
+      "sha256": "03be04a28d6a23743908ec735a363b509af6877092ddd6132c22a25e7f3b50c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0009.jpg",
+      "bytes": 17800,
+      "sha256": "462645b36ecd081686b8c40f4989b1d794c9a3f8ba0196290ccf2d4ce9d7685f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0010.jpg",
+      "bytes": 15784,
+      "sha256": "25ad3c6df65f9d9098cc8509b926bb54f20061030729c85b9a20f5639b44c435"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0011.jpg",
+      "bytes": 14839,
+      "sha256": "85c23710984095a5cdd74e1b045e40a1be35de4fbe66831d7e22f54524adfe93"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0012.jpg",
+      "bytes": 14151,
+      "sha256": "5cbdb24bc372a61fdc9ad27005a7e7a7a4807314e75288e21ed65775a71c5f8b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0013.jpg",
+      "bytes": 13136,
+      "sha256": "7aeccc774b4345355371639676dbaa2ae61f6894dd096146f5de89d97005ac06"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0014.jpg",
+      "bytes": 12574,
+      "sha256": "21e760b87d2c808a5e893dee3f623b0a9042cab78177c61b59f74433d73ee017"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0015.jpg",
+      "bytes": 11473,
+      "sha256": "4aa92a364bce91602a4f6396bb93ce04731f3430e97e0e7ac22689c4071be599"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0016.jpg",
+      "bytes": 10789,
+      "sha256": "fe797eff293d6fdd639208a5c3f0469bedd9da47b6a5eab7074aff77b4061afb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0017.jpg",
+      "bytes": 9843,
+      "sha256": "6cb295c19c30f05090b0398440219201cfeb5854d74f59f20754573744135d6c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-0018.jpg",
+      "bytes": 9666,
+      "sha256": "4351d6c4bf80a2c326900a5271104b87fae07625a8db49b7bf2de95deeeef1f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-combat-board-1.jpg",
+      "bytes": 548910,
+      "sha256": "3fe5b0c50c2e7e523c4ca5075c5b1fd5188bb2334397650dbc7ad70e3c3acc8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0001.jpg",
+      "bytes": 19938,
+      "sha256": "d90377d43b515929f0de35c0aa9277494d0f9f314da1173ef0c237ff2b9c98c6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0002.jpg",
+      "bytes": 28095,
+      "sha256": "780d7638563fda87902f837c31ebdbdb7ae8f458b8d152ca2eeca979acb4ab39"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0003.jpg",
+      "bytes": 37002,
+      "sha256": "26c4ae23c24e863fcfe71bff24c047aa2e8a8164841941357d0c330a4ac8372d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0004.jpg",
+      "bytes": 37881,
+      "sha256": "571dfbdc14348a2286151de7571945ab7532da3f16ec4152182c84e2d59a0a17"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0005.jpg",
+      "bytes": 38514,
+      "sha256": "717e64dcf60fd6d9f0dc3e4d818d9c0c78f4def1b00efd83485f76751fd45075"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0006.jpg",
+      "bytes": 35906,
+      "sha256": "72d01897b6e00ceafb69faa0af95fd1a1edce7a4269ec797757c38b91111d191"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0007.jpg",
+      "bytes": 28232,
+      "sha256": "7189998da8443d5028c57269b0f94efe20037f2731ac0858c86c013c3a5703f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0008.jpg",
+      "bytes": 19474,
+      "sha256": "e364a5e053320bb348455e5559c84e2dcedb2b8679251de90a6931638d62e020"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0009.jpg",
+      "bytes": 18015,
+      "sha256": "29347493cb9d1a8217c51ca42cf10b9a2cbaa139c390b957d89e18dc18161406"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0010.jpg",
+      "bytes": 16122,
+      "sha256": "5ed41878edbefc3b1014fa21f7e42994b6fdda15ef1179f9baa2e91c4e335067"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0011.jpg",
+      "bytes": 13726,
+      "sha256": "c66b15443e87516cad921ea54b240c17f06b4fa98f3ad3360f67dedc9018945d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0012.jpg",
+      "bytes": 12852,
+      "sha256": "8d5186942578844a6ead80ec8f4b0b5917262801f3a0564593d0a8a6d2ac2efe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0013.jpg",
+      "bytes": 12003,
+      "sha256": "50d91ca48a966a0523b23ef068ca3edb335bb92423489e5e8ddc6790b2aa82ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0014.jpg",
+      "bytes": 10635,
+      "sha256": "91e0a1d4219d7eaec90735019dc8df7deafe587b66e2dd8bdd152252273bc49f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0015.jpg",
+      "bytes": 10290,
+      "sha256": "e72304e129039003d757e66e7ebe2cd2b07b77d9cfc14e3567c15e8c8314f815"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0016.jpg",
+      "bytes": 9843,
+      "sha256": "4fc326b3217ed2ba4f7cb69993ab0cb2c7bf1151ed069d12f8be8c0558cf2c99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0017.jpg",
+      "bytes": 9167,
+      "sha256": "9a53126071d5d0ff5fb499c9b18e800e30b696ae5bf4d1192712430f7772fe32"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0018.jpg",
+      "bytes": 8769,
+      "sha256": "1eb0e39e6784b7959f8e11262ebadf3e12b6ad9398f1e552ba7acb00c7df6164"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0019.jpg",
+      "bytes": 8823,
+      "sha256": "8e65cb2975f5555b48d16ceb6b13ba79d1b23206575de108a70a0ec0104651a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0020.jpg",
+      "bytes": 8349,
+      "sha256": "0eaf7094023952032a3a77da0fda7acfc53f20cb420ae2ff087d122ef73a875c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0021.jpg",
+      "bytes": 8521,
+      "sha256": "792e98d81ec79f09e722c14392cd83f225dda739287a516573fe8e9e45be9d41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0022.jpg",
+      "bytes": 8249,
+      "sha256": "95745f474ca57243e27a7fca716ae8fa3b5753211b548fb156456ed557f78f14"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0023.jpg",
+      "bytes": 8357,
+      "sha256": "dfa966707f156f2b3d8e9facff475e12c7a683b4291dd44630c6ebfc5525c93b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-0024.jpg",
+      "bytes": 8021,
+      "sha256": "2b19cb528f7f4f82d9262dd42f589c288961cd3482b891042daa642efb0fe400"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-failure-board-1.jpg",
+      "bytes": 687310,
+      "sha256": "b441c66c88f7ac06e72615c59537d104b96a0fa67857e01868bb1eb106e676de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0001.jpg",
+      "bytes": 19767,
+      "sha256": "d245cd418ccf3c8b23280056deb55e0449eb112497930442ae4df839d7b8289f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0002.jpg",
+      "bytes": 26583,
+      "sha256": "4742a53a1d0526bbc8bddb5b68b096db4659250c1dd1fb980509114524241f52"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0003.jpg",
+      "bytes": 34809,
+      "sha256": "4cd3d30e3b01a08d7d533df07ecd83cdada631f647a1ef0c34e348ce2e6f39ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0004.jpg",
+      "bytes": 34747,
+      "sha256": "54f2b9db7889bbbb73c2373292a99e06bf932a1e4c1e35d166e9f9fae7d4b2ef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0005.jpg",
+      "bytes": 36059,
+      "sha256": "079cdbad852b7ea4355593139c5b62487940e32643dcfca002e2c5c74ef178bf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0006.jpg",
+      "bytes": 36417,
+      "sha256": "d81acbe1fb638fa6569784f3bfb758dcc1fa06b3de30be55e4f00b6b5277e686"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0007.jpg",
+      "bytes": 24569,
+      "sha256": "14f67af4f5ff82ad542fe5461b5b20ee9dfffc8c021a18ffef01d13f7e5e6ae6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0008.jpg",
+      "bytes": 19097,
+      "sha256": "720d8723e7f5fa8935ff20262aa7f7f9212d3428f90607afa0dbe772f9fca721"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0009.jpg",
+      "bytes": 17498,
+      "sha256": "d79e8c636ebb5d5af05aaa623ad577e8c7797fbedfafa8fc044f315dc9d18427"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0010.jpg",
+      "bytes": 15833,
+      "sha256": "128f4a59f504a7e99283b0bd0fd240303e573b92cd5097d64535f846ed21e60f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0011.jpg",
+      "bytes": 14765,
+      "sha256": "5f45b35fd5795d09cc37a8d1696140e7425f093720b2c470c025c45e66ee1a76"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0012.jpg",
+      "bytes": 13608,
+      "sha256": "c9152f0b51930279eb8070297ff16e263871c92f938c89fc4d3696d95e4b8050"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0013.jpg",
+      "bytes": 11926,
+      "sha256": "455c67358bb6d6dbec07679adcdb43f66f9ab2477516f0f47508f43d666a6e0a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0014.jpg",
+      "bytes": 11962,
+      "sha256": "c6eed8cf811ac3f6312febd792ec0d750c962969d40148ae0aaf6c4263e6a148"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0015.jpg",
+      "bytes": 11127,
+      "sha256": "375bc76e54cbb027a647855e436a1d04c83809e124e8f94ecbbb8d044b5d077f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0016.jpg",
+      "bytes": 10666,
+      "sha256": "d19a814ea1b54a04c231027f674b35d802643276f8ed1b710c17d69a802284ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0017.jpg",
+      "bytes": 10502,
+      "sha256": "8d8b74e35b37474fcff94b5a20d3c0b509625ccda34ae7ed9c3aa9c0b95e82f0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-0018.jpg",
+      "bytes": 10400,
+      "sha256": "ce6ab02b2ef7bb340df287da431155e618a03436b89c8d1efecac279b458fb86"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/host-travel-board-1.jpg",
+      "bytes": 553968,
+      "sha256": "9f1f6ae297fa751f90be950f73fd174b567d4fac196065ddec78c99b58a5f9bf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/review-frames/receipt.json",
+      "bytes": 1759,
+      "sha256": "a967b0b97152c0101bda3dd822430a470952b0c55ea08d02666371c7ec9a2d81"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/route-west.png",
+      "bytes": 1074496,
+      "sha256": "241844eb3c1b6632f2b5ef3422c760479f51ec3a4a30957964f5ec448d29b6c4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-syntax/process-receipt.json",
+      "bytes": 2070,
+      "sha256": "19f5211cc70716038d49f3a46fd2657c311fa82c78a6d2b892fa09cf645a9a01"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live045-http-verification.json",
+      "bytes": 849,
+      "sha256": "18fda4c560399cdb10f993665dd8fce0843e4852cd24d3278ad846507f16fe34"
+    },
+    {
+      "path": "docs/overhaul/coop075-route-failure-audit.md",
+      "bytes": 4594,
+      "sha256": "7d390942e9df9fe0ae777f97f702923d88b9b89138cdfc44e97464e08fab970f"
+    },
+    {
+      "path": "docs/overhaul/critic/coop075-harness-review.md",
+      "bytes": 3823,
+      "sha256": "a679a8b97ce257a5ffb174684e4411244961e312d57a8f741ce18815e3910184"
+    },
+    {
+      "path": "docs/overhaul/critic/coop075-play-review.md",
+      "bytes": 4117,
+      "sha256": "9fe602bb0826977fe9d6712d6d32a6ad5acac13e102fb3804fce2a1d840e43df"
+    },
+    {
+      "path": "docs/overhaul/critic/coop075-rescue-source-review.md",
+      "bytes": 2885,
+      "sha256": "e4d1fd7cbabcc5d06427471360a98300e9789b709f3cd7525bcd87bf0f9263d3"
+    },
+    {
+      "path": "tools/overhaul-coop-play-075/route-audit.json",
+      "bytes": 66720,
+      "sha256": "0f26f5d4cc0285ddca4bc174be6de2f3dff1a92ea2f415bb13ba489486bef606"
+    },
+    {
+      "path": "tools/overhaul-coop-play-075/source-handoff.json",
+      "bytes": 4621,
+      "sha256": "4755311ee40d9fd2f88bb01ebdae30539ebe923b4c7cb16b4763fa37edf42e90"
+    },
+    {
+      "path": "tools/overhaul-coop-play-075/source-seal.json",
+      "bytes": 2611,
+      "sha256": "35646417df6a915ecb9f1b2e46f019dfe9512de6378b116552b87ee878ec357c"
+    }
+  ],
+  "scope": "One 388.844s failed normal co-op attempt within original 480s supervisor. Actual west checkpoint, 422 delivered input ACKs, 4262 matching publications. No public revival, east/core/extraction/win/retry. Late braking audit, no proven production physics defect. Severe actual user lag unresolved. Full finite goal ACTIVE/INCOMPLETE."
+}

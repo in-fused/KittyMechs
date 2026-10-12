@@ -1,0 +1,551 @@
+{
+  "status": "FIRST_REMAINING_SOURCE_FAILURE_NO_RETRY",
+  "terminal": {
+    "status": "FIRST_REMAINING_SOURCE_FAILURE",
+    "browserConnected": false,
+    "elapsedMs": 3673
+  },
+  "actualFailedCase": {
+    "name": "FelineAir",
+    "time": 0.17766666093841196,
+    "fraction": 0.23,
+    "oldDuration": 0.7166666388511658,
+    "newDuration": 0.7166666388511658,
+    "bones": [
+      {
+        "name": "root",
+        "maxWorldMatrixResidual": 0
+      },
+      {
+        "name": "pelvis",
+        "maxWorldMatrixResidual": 3.673558993042003e-07
+      },
+      {
+        "name": "spine",
+        "maxWorldMatrixResidual": 3.3795497383914963e-07
+      },
+      {
+        "name": "chest",
+        "maxWorldMatrixResidual": 5.573860692997812e-07
+      },
+      {
+        "name": "head",
+        "maxWorldMatrixResidual": 8.246977374337661e-07
+      },
+      {
+        "name": "FL_upper",
+        "maxWorldMatrixResidual": 6.122072251368849e-07
+      },
+      {
+        "name": "FL_lower",
+        "maxWorldMatrixResidual": 5.295530044469032e-07
+      },
+      {
+        "name": "FL_paw",
+        "maxWorldMatrixResidual": 6.877844775932118e-07
+      },
+      {
+        "name": "FL_digit_0",
+        "maxWorldMatrixResidual": 7.347557364756341e-07
+      },
+      {
+        "name": "FL_claw_0",
+        "maxWorldMatrixResidual": 7.156793029872155e-07
+      },
+      {
+        "name": "FL_digit_1",
+        "maxWorldMatrixResidual": 6.903052112150476e-07
+      },
+      {
+        "name": "FL_claw_1",
+        "maxWorldMatrixResidual": 6.705339736789995e-07
+      },
+      {
+        "name": "FL_digit_2",
+        "maxWorldMatrixResidual": 7.329852356185995e-07
+      },
+      {
+        "name": "FL_claw_2",
+        "maxWorldMatrixResidual": 7.081071104475534e-07
+      },
+      {
+        "name": "FL_digit_3",
+        "maxWorldMatrixResidual": 7.015753638039968e-07
+      },
+      {
+        "name": "FL_claw_3",
+        "maxWorldMatrixResidual": 6.107188351145432e-07
+      },
+      {
+        "name": "FR_upper",
+        "maxWorldMatrixResidual": 6.122072251368849e-07
+      },
+      {
+        "name": "FR_lower",
+        "maxWorldMatrixResidual": 5.295530045579255e-07
+      },
+      {
+        "name": "FR_paw",
+        "maxWorldMatrixResidual": 6.877844775932118e-07
+      },
+      {
+        "name": "FR_digit_0",
+        "maxWorldMatrixResidual": 7.015753638039968e-07
+      },
+      {
+        "name": "FR_claw_0",
+        "maxWorldMatrixResidual": 6.107188351145432e-07
+      },
+      {
+        "name": "FR_digit_1",
+        "maxWorldMatrixResidual": 7.329852356185995e-07
+      },
+      {
+        "name": "FR_claw_1",
+        "maxWorldMatrixResidual": 7.081071104475534e-07
+      },
+      {
+        "name": "FR_digit_2",
+        "maxWorldMatrixResidual": 6.903052112150476e-07
+      },
+      {
+        "name": "FR_claw_2",
+        "maxWorldMatrixResidual": 6.705339736789995e-07
+      },
+      {
+        "name": "FR_digit_3",
+        "maxWorldMatrixResidual": 7.347557364756341e-07
+      },
+      {
+        "name": "FR_claw_3",
+        "maxWorldMatrixResidual": 7.156793029872155e-07
+      },
+      {
+        "name": "launcher",
+        "maxWorldMatrixResidual": 5.327477343719522e-07
+      },
+      {
+        "name": "HL_upper",
+        "maxWorldMatrixResidual": 4.449959827845795e-07
+      },
+      {
+        "name": "HL_lower",
+        "maxWorldMatrixResidual": 4.020706521057349e-07
+      },
+      {
+        "name": "HL_hock",
+        "maxWorldMatrixResidual": 4.725982470921153e-07
+      },
+      {
+        "name": "HL_paw",
+        "maxWorldMatrixResidual": 3.794035445814359e-07
+      },
+      {
+        "name": "HL_digit_0",
+        "maxWorldMatrixResidual": 4.180462264691265e-07
+      },
+      {
+        "name": "HL_claw_0",
+        "maxWorldMatrixResidual": 4.784905899835046e-07
+      },
+      {
+        "name": "HL_digit_1",
+        "maxWorldMatrixResidual": 3.7560210419673723e-07
+      },
+      {
+        "name": "HL_claw_1",
+        "maxWorldMatrixResidual": 3.9208716007266275e-07
+      },
+      {
+        "name": "HL_digit_2",
+        "maxWorldMatrixResidual": 4.280161885472644e-07
+      },
+      {
+        "name": "HL_claw_2",
+        "maxWorldMatrixResidual": 3.8187785766918836e-07
+      },
+      {
+        "name": "HL_digit_3",
+        "maxWorldMatrixResidual": 4.181119667157063e-07
+      },
+      {
+        "name": "HL_claw_3",
+        "maxWorldMatrixResidual": 4.496803114317771e-07
+      },
+      {
+        "name": "HR_upper",
+        "maxWorldMatrixResidual": 4.449959827845795e-07
+      },
+      {
+        "name": "HR_lower",
+        "maxWorldMatrixResidual": 4.020706519947126e-07
+      },
+      {
+        "name": "HR_hock",
+        "maxWorldMatrixResidual": 4.725982468700707e-07
+      },
+      {
+        "name": "HR_paw",
+        "maxWorldMatrixResidual": 3.794035443593913e-07
+      },
+      {
+        "name": "HR_digit_0",
+        "maxWorldMatrixResidual": 4.181119667157063e-07
+      },
+      {
+        "name": "HR_claw_0",
+        "maxWorldMatrixResidual": 4.4968031137626596e-07
+      },
+      {
+        "name": "HR_digit_1",
+        "maxWorldMatrixResidual": 4.280161884362421e-07
+      },
+      {
+        "name": "HR_claw_1",
+        "maxWorldMatrixResidual": 3.818778576136772e-07
+      },
+      {
+        "name": "HR_digit_2",
+        "maxWorldMatrixResidual": 3.7560210408571493e-07
+      },
+      {
+        "name": "HR_claw_2",
+        "maxWorldMatrixResidual": 3.9208715996164045e-07
+      },
+      {
+        "name": "HR_digit_3",
+        "maxWorldMatrixResidual": 4.1804622630259303e-07
+      },
+      {
+        "name": "HR_claw_3",
+        "maxWorldMatrixResidual": 4.784905898169711e-07
+      },
+      {
+        "name": "tail_0",
+        "maxWorldMatrixResidual": 0.0001921973622900663
+      },
+      {
+        "name": "tail_1",
+        "maxWorldMatrixResidual": 0.00029338587285101386
+      },
+      {
+        "name": "tail_2",
+        "maxWorldMatrixResidual": 0.00036260020947832816
+      },
+      {
+        "name": "tail_3",
+        "maxWorldMatrixResidual": 0.0003829971298979218
+      },
+      {
+        "name": "tail_4",
+        "maxWorldMatrixResidual": 0.0003715170514114602
+      }
+    ]
+  },
+  "worstBone": {
+    "name": "tail_3",
+    "maxWorldMatrixResidual": 0.0003829971298979218
+  },
+  "matrixResidualUnits": "maximum component combines dimensionless rotation and metre translation; it is NOT a whole-pad gap/tangential contact proof",
+  "unchangedCriterion": 2e-05,
+  "comparedCaseCount": 2,
+  "baselineMetadata": {
+    "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+    "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762",
+    "channels": [
+      {
+        "target": "root",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "root",
+        "property": "rotation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "root",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_0",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_0",
+        "property": "rotation",
+        "interpolation": "LINEAR",
+        "timeKeys": 43,
+        "outputValues": 43
+      },
+      {
+        "target": "tail_0",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_1",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_1",
+        "property": "rotation",
+        "interpolation": "LINEAR",
+        "timeKeys": 43,
+        "outputValues": 43
+      },
+      {
+        "target": "tail_1",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_2",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_2",
+        "property": "rotation",
+        "interpolation": "LINEAR",
+        "timeKeys": 43,
+        "outputValues": 43
+      },
+      {
+        "target": "tail_2",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_3",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_3",
+        "property": "rotation",
+        "interpolation": "LINEAR",
+        "timeKeys": 43,
+        "outputValues": 43
+      },
+      {
+        "target": "tail_3",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_4",
+        "property": "translation",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      },
+      {
+        "target": "tail_4",
+        "property": "rotation",
+        "interpolation": "LINEAR",
+        "timeKeys": 43,
+        "outputValues": 43
+      },
+      {
+        "target": "tail_4",
+        "property": "scale",
+        "interpolation": "STEP",
+        "timeKeys": 2,
+        "outputValues": 2
+      }
+    ]
+  },
+  "candidateMetadata": {
+    "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+    "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2",
+    "channels": [
+      {
+        "target": "root",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "root",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "root",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_0",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_0",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_0",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_1",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_1",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_1",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_2",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_2",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_2",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_3",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_3",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_3",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_4",
+        "property": "translation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_4",
+        "property": "rotation",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      },
+      {
+        "target": "tail_4",
+        "property": "scale",
+        "interpolation": "CUBICSPLINE",
+        "timeKeys": 43,
+        "outputValues": 129
+      }
+    ]
+  },
+  "initialReachedContracts": {
+    "clips": 45,
+    "activePrimitives": 4,
+    "sideOperands": [
+      {
+        "limb": "FL",
+        "bodyFrameHip": [
+          -0.46999986302468566,
+          1.4020002085730086,
+          0.7900002924219466
+        ],
+        "sourceSide": -1
+      },
+      {
+        "limb": "FR",
+        "bodyFrameHip": [
+          0.46999986302468577,
+          1.4020002085730086,
+          0.7900002924219464
+        ],
+        "sourceSide": 1
+      }
+    ],
+    "oldRestBones": 57,
+    "skins": 4
+  },
+  "unreached": [
+    "complete all39 action comparisons",
+    "5gaits128phases",
+    "actual speed/R/idle/stop/reverse",
+    "wholepad/headskin/covariance/dynamicenvelope",
+    "composed temporal preview",
+    "gameplay/art/nativecontact"
+  ],
+  "nextBoundedDecision": "First retain exact old delivered39 timing/interpolants while analytically retargeting their local transforms into the new61 identity-carrier hierarchy; compare actual decoded complete world poses before evaluating ordinary source art. This is a distinct future delivery/compatibility task, not an authorized second202repair."
+}

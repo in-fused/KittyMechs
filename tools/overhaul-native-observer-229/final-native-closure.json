@@ -1,0 +1,252 @@
+{
+  "writer": "CLOSED",
+  "scope": "LATER_NATIVE_PID_RETIREMENT_ONLY_NOT_ORIGINAL_DEADLINE_OR_SUCCESS_WAIVER",
+  "observedUTC": "2026-10-11T23:28:12.305354+00:00",
+  "originalJobExitCode": 1,
+  "originalGuestReadinessFailurePreserved": true,
+  "originalGuestKeysCleanupTimeoutPreserved": true,
+  "originalSupervisorFinalRetirementFalsePreserved": true,
+  "unknownBirthPID375032Preserved": true,
+  "ownedFinal": [
+    {
+      "pid": 374100,
+      "expectedCreation": 134362346402203702,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 367232,
+      "expectedCreation": 134362346402342790,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 373568,
+      "expectedCreation": 134362346427097632,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 364048,
+      "expectedCreation": 134362346427885691,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 344584,
+      "expectedCreation": 134362346434651534,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 372556,
+      "expectedCreation": 134362346435839913,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 367120,
+      "expectedCreation": 134362346435219423,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 372268,
+      "expectedCreation": 134362346439986627,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 369348,
+      "expectedCreation": 134362346440152046,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 371856,
+      "expectedCreation": 134362346441496351,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 367796,
+      "expectedCreation": 134362346449124347,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 371432,
+      "expectedCreation": 134362346452094729,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 373396,
+      "expectedCreation": 134362346452985613,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 369856,
+      "expectedCreation": 134362346451190056,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 374060,
+      "expectedCreation": 134362346456772125,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 356284,
+      "expectedCreation": 134362346457744078,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 359384,
+      "expectedCreation": 134362346457415217,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 368968,
+      "expectedCreation": 134362346462880146,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 369132,
+      "expectedCreation": 134362346463673325,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 374404,
+      "expectedCreation": 134362346465545339,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 371036,
+      "expectedCreation": 134362346466676838,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 374976,
+      "expectedCreation": 134362346487202189,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375140,
+      "expectedCreation": 134362346502661850,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375152,
+      "expectedCreation": 134362346503259734,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375316,
+      "expectedCreation": 134362346518341981,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375324,
+      "expectedCreation": 134362346518547420,
+      "originalBirthKnown": true,
+      "currentCreation": 134362347029959757,
+      "waitResult": 258,
+      "retiredNow": true
+    },
+    {
+      "pid": 374852,
+      "expectedCreation": 134362346631547175,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375716,
+      "expectedCreation": 134362346734881816,
+      "originalBirthKnown": true,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    },
+    {
+      "pid": 375032,
+      "expectedCreation": null,
+      "originalBirthKnown": false,
+      "openError": 87,
+      "pidAbsentNow": true,
+      "retiredNow": true
+    }
+  ],
+  "allObservedOwnedPIDsRetiredNow": true,
+  "nativeHealthAfter": {
+    "status": "ok",
+    "rooms": 0,
+    "players": 0,
+    "tickRate": 60
+  },
+  "gameplayQualityAccepted": false
+}

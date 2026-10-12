@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "owner275.test.ts",
+    "../overhaul-feline-runtime-274/NativeActor274.typecheck.tsx"
+  ]
+}

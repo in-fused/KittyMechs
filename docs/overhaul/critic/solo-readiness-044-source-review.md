@@ -1,0 +1,11 @@
+# Solo readiness 044 source gate
+
+APPROVE one focused four-file test, one build if it passes, and one fresh public Solo/Low observation from the frozen result. This permits validation of a startup repair, not general playability or performance approval. Review conducted 2026-10-11 around00:05 UTC; exact actual result/closure time will be recorded separately.
+
+The preserved035 lifecycle evidence has HTTP200 for the selected actual034 GLB and no page errors. Initial preview owners are absent. A real public pause holds native tick260 while the actual local quad owner commits with no firstFailure; the resumed screenshot shows complete preview self and the owner remains. This supports startup contention/commit starvation rather than a missing file or proven pose failure.
+
+The five frozen source rows match. Session's current-generation latch checks an actual registered local root's finite completed visual frame before admitting its first local physics step. It then remains latched, so rig replacement, fallback or death cannot silently freeze an ongoing game. Current generation guards remain. Registration alone, another root, nonfinite frame clock or prior-generation completion do not qualify. SceneReady uses the same completion predicate; LoadingOverlay remains until actual readiness and retains cancel. Source Actors and034Actor are unchanged from035. Native queries/roster/assets/animation rules/fixed timestep/043 cap are unchanged.
+
+The two real-Three tests meaningfully check held advancement before owner completion, the completed root identity/generation/finite clock and latch continuity after retirement. They do not prove React/Suspense/browser ordering, visible pixels, asset failure recovery or all four chassis. Actual selected model pixels and completed owner must appear before any pause, ordinary movement/fire must follow, and the thirteen native actors/NPC presentation/pause-resume must remain. Do not claim20 FPS dependable or wall-clock native pace from readiness. The known043 underlying KCC expense and overload gameclock slowdown remain.
+
+Source handoff SHA256 `88c1675098ee809b04fbde7aec463fcb216c481597a054a4d013752e93def9f7`; seal `d07a71911a90181b57018bdf6dee504f4a0f241c4af0d6184b3298938d11bbd9`. No heavy jobs or implementation edits by reviewer. First actual failure stays preserved; no automatic retry is approved.

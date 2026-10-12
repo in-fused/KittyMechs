@@ -1,0 +1,3976 @@
+{
+  "environment": {
+    "objects": [
+      {
+        "name": "SM_RainBasaltCluster",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          8.860183715820312,
+          6.6249494552612305,
+          5.531210422515869
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainCargoCover",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          8.5,
+          2.7049999237060547,
+          4.199999809265137
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainCedar",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          -4.76837158203125e-07
+        ],
+        "dimensions": [
+          8.809981346130371,
+          8.226898193359375,
+          13.01619815826416
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainDockCrane",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          24.540142059326172,
+          5.649999618530273,
+          22.729839324951172
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainFern",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -1.7763568394002505e-15,
+          0.0
+        ],
+        "dimensions": [
+          2.0235280990600586,
+          2.1586809158325195,
+          0.7105107307434082
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainLamp",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          1.850000023841858,
+          0.699999988079071,
+          5.940611839294434
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainPipeBank",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          10.0,
+          3.0,
+          2.1100001335144043
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainRetainingWall",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          12.25,
+          2.3789632320404053,
+          6.350000381469727
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainStormTower",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          5.5,
+          5.5,
+          22.0
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_RainWorkshop",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          23.0,
+          19.25,
+          12.800000190734863
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      }
+    ],
+    "actions": [],
+    "fps": 24
+  },
+  "feline": {
+    "objects": [
+      {
+        "name": "Abdominal_Articulation_0",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.054999999701976776,
+          2.2799999713897705
+        ],
+        "dimensions": [
+          0.47999998927116394,
+          0.3799999952316284,
+          0.12999999523162842
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Abdominal_Articulation_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.054999999701976776,
+          2.4149999618530273
+        ],
+        "dimensions": [
+          0.5249999761581421,
+          0.3799999952316284,
+          0.12999999523162842
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Abdominal_Articulation_2",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.054999999701976776,
+          2.549999952316284
+        ],
+        "dimensions": [
+          0.5699999928474426,
+          0.3799999952316284,
+          0.12999999523162842
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Ankle_Core_L",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          0.03500000014901161,
+          0.3100000023841858
+        ],
+        "dimensions": [
+          0.3000001013278961,
+          0.3200000524520874,
+          0.25999999046325684
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Ankle_Core_R",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          0.03500000014901161,
+          0.3100000023841858
+        ],
+        "dimensions": [
+          0.3000001013278961,
+          0.3200000524520874,
+          0.25999999046325684
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Balance_Cowl_L",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          0.18000000715255737,
+          0.800000011920929
+        ],
+        "dimensions": [
+          0.3200000822544098,
+          0.3200000524520874,
+          0.46000000834465027
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Balance_Cowl_R",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          0.18000000715255737,
+          0.800000011920929
+        ],
+        "dimensions": [
+          0.3200000822544098,
+          0.3200000524520874,
+          0.46000000834465027
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Recess_L",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          0.3199999928474426,
+          0.7599999904632568
+        ],
+        "dimensions": [
+          0.12999999523162842,
+          0.05999999865889549,
+          0.1899999976158142
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Recess_R",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          0.3199999928474426,
+          0.7599999904632568
+        ],
+        "dimensions": [
+          0.12999999523162842,
+          0.05999999865889549,
+          0.1899999976158142
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_L_0",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          0.35499998927116394,
+          0.7149999737739563
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_L_1",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          0.35499998927116394,
+          0.7599999904632568
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_L_2",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          0.35499998927116394,
+          0.8050000071525574
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_R_0",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          0.35499998927116394,
+          0.7149999737739563
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_R_1",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          0.35499998927116394,
+          0.7599999904632568
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Calf_Thruster_Slat_R_2",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          0.35499998927116394,
+          0.8050000071525574
+        ],
+        "dimensions": [
+          0.09799999743700027,
+          0.012000000104308128,
+          0.012000000104308128
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Canopy_Glass",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.5,
+          0.07999998331069946,
+          0.619999885559082
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Canopy_Rubber_Seal",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.5517544150352478,
+          0.041999995708465576,
+          0.690000057220459
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Cheek_Status_-1",
+        "type": "MESH",
+        "location": [
+          -0.3799999952316284,
+          -0.382999986410141,
+          3.299999952316284
+        ],
+        "dimensions": [
+          0.08500000089406967,
+          0.03400000184774399,
+          0.04500000178813934
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Cheek_Status_1",
+        "type": "MESH",
+        "location": [
+          0.3799999952316284,
+          -0.382999986410141,
+          3.299999952316284
+        ],
+        "dimensions": [
+          0.08500000089406967,
+          0.03400000184774399,
+          0.04500000178813934
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Enamel_Shell",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          1.1764285564422607,
+          0.8899999856948853,
+          1.1800000667572021
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_-1",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.375,
+          2.819999933242798
+        ],
+        "dimensions": [
+          0.13500000536441803,
+          0.05999999865889549,
+          0.10499999672174454
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_1",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.375,
+          2.819999933242798
+        ],
+        "dimensions": [
+          0.13500000536441803,
+          0.05999999865889549,
+          0.10499999672174454
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_-1_0",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.414000004529953,
+          2.7950000762939453
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_-1_1",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.414000004529953,
+          2.821000099182129
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_-1_2",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.414000004529953,
+          2.8469998836517334
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_1_0",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.414000004529953,
+          2.7950000762939453
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_1_1",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.414000004529953,
+          2.821000099182129
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Chest_Vent_Slat_1_2",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.414000004529953,
+          2.8469998836517334
+        ],
+        "dimensions": [
+          0.09000000357627869,
+          0.012000000104308128,
+          0.00800000037997961
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Cockpit_Seat_Back",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.10000000149011612,
+          3.2200000286102295
+        ],
+        "dimensions": [
+          0.36000001430511475,
+          0.10999999940395355,
+          0.5099999904632568
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Cockpit_Seat_Cushion",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.25,
+          2.9800000190734863
+        ],
+        "dimensions": [
+          0.30000001192092896,
+          0.3100000023841858,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Ear_Recess_-1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.19999998807907104,
+          0.0,
+          0.125
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Ear_Recess_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.19999998807907104,
+          0.0,
+          0.125
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Elbow_Axle_L",
+        "type": "MESH",
+        "location": [
+          1.225000023841858,
+          0.0,
+          2.5399999618530273
+        ],
+        "dimensions": [
+          0.09000001102685928,
+          0.20999999344348907,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Elbow_Axle_R",
+        "type": "MESH",
+        "location": [
+          -1.225000023841858,
+          0.0,
+          2.5399999618530273
+        ],
+        "dimensions": [
+          0.09000001102685928,
+          0.20999999344348907,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Elbow_Core_L",
+        "type": "MESH",
+        "location": [
+          1.100000023841858,
+          -0.004999999888241291,
+          2.5399999618530273
+        ],
+        "dimensions": [
+          0.3000001013278961,
+          0.3200000524520874,
+          0.3199999928474426
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Elbow_Core_R",
+        "type": "MESH",
+        "location": [
+          -1.100000023841858,
+          -0.004999999888241291,
+          2.5399999618530273
+        ],
+        "dimensions": [
+          0.3000001013278961,
+          0.3200000524520874,
+          0.3199999928474426
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Feline_Ear_Sensor_-1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.3073970079421997,
+          0.1599999964237213,
+          0.21151065826416016
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Feline_Ear_Sensor_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.3073970079421997,
+          0.1599999964237213,
+          0.21151065826416016
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_0_A",
+        "type": "MESH",
+        "location": [
+          1.25,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_0_B",
+        "type": "MESH",
+        "location": [
+          1.25,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_1_A",
+        "type": "MESH",
+        "location": [
+          1.3200000524520874,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_1_B",
+        "type": "MESH",
+        "location": [
+          1.3200000524520874,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_2_A",
+        "type": "MESH",
+        "location": [
+          1.3899999856948853,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_L_2_B",
+        "type": "MESH",
+        "location": [
+          1.3899999856948853,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_0_A",
+        "type": "MESH",
+        "location": [
+          -1.3899999856948853,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_0_B",
+        "type": "MESH",
+        "location": [
+          -1.3899999856948853,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_1_A",
+        "type": "MESH",
+        "location": [
+          -1.3200000524520874,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_1_B",
+        "type": "MESH",
+        "location": [
+          -1.3200000524520874,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_2_A",
+        "type": "MESH",
+        "location": [
+          -1.25,
+          -0.10499999672174454,
+          1.7519999742507935
+        ],
+        "dimensions": [
+          0.052000001072883606,
+          0.0729999989271164,
+          0.10999999940395355
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Finger_R_2_B",
+        "type": "MESH",
+        "location": [
+          -1.25,
+          -0.1420000046491623,
+          1.684999942779541
+        ],
+        "dimensions": [
+          0.05000000074505806,
+          0.07999999821186066,
+          0.07000000029802322
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Accent_L",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.20499999821186066,
+          0.28700000047683716
+        ],
+        "dimensions": [
+          0.25200000405311584,
+          0.17000000178813934,
+          0.03799999877810478
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Accent_R",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.20499999821186066,
+          0.28700000047683716
+        ],
+        "dimensions": [
+          0.25200000405311584,
+          0.17000000178813934,
+          0.03799999877810478
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Sole_L",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.1599999964237213,
+          0.07999999821186066
+        ],
+        "dimensions": [
+          0.41999998688697815,
+          0.7200000286102295,
+          0.11999999731779099
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Sole_R",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.1599999964237213,
+          0.07999999821186066
+        ],
+        "dimensions": [
+          0.41999998688697815,
+          0.7200000286102295,
+          0.11999999731779099
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Upper_L",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.07500000298023224,
+          0.18000000715255737
+        ],
+        "dimensions": [
+          0.34860000014305115,
+          0.5400000214576721,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Foot_Upper_R",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.07500000298023224,
+          0.18000000715255737
+        ],
+        "dimensions": [
+          0.34860000014305115,
+          0.5400000214576721,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Forearm_Accent_L",
+        "type": "MESH",
+        "location": [
+          1.190000057220459,
+          -0.24500000476837158,
+          2.299999952316284
+        ],
+        "dimensions": [
+          0.20999999344348907,
+          0.06199999898672104,
+          0.30000001192092896
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Forearm_Accent_R",
+        "type": "MESH",
+        "location": [
+          -1.190000057220459,
+          -0.24500000476837158,
+          2.299999952316284
+        ],
+        "dimensions": [
+          0.20999999344348907,
+          0.06199999898672104,
+          0.30000001192092896
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Forearm_Armor_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.47914642095565796,
+          0.41305238008499146,
+          0.5149116516113281
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Forearm_Armor_R",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.47914648056030273,
+          0.41305243968963623,
+          0.5149116516113281
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Hip_Accent_Disc_L",
+        "type": "MESH",
+        "location": [
+          0.550000011920929,
+          0.0,
+          1.8300000429153442
+        ],
+        "dimensions": [
+          0.0650000125169754,
+          0.3400000035762787,
+          0.3400000035762787
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Hip_Accent_Disc_R",
+        "type": "MESH",
+        "location": [
+          -0.550000011920929,
+          0.0,
+          1.8300000429153442
+        ],
+        "dimensions": [
+          0.0650000125169754,
+          0.3400000035762787,
+          0.3400000035762787
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Hip_Socket_L",
+        "type": "MESH",
+        "location": [
+          0.36000001430511475,
+          0.0,
+          1.840000033378601
+        ],
+        "dimensions": [
+          0.47000014781951904,
+          0.4800000488758087,
+          0.4699999988079071
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Hip_Socket_R",
+        "type": "MESH",
+        "location": [
+          -0.36000001430511475,
+          0.0,
+          1.840000033378601
+        ],
+        "dimensions": [
+          0.47000014781951904,
+          0.4800000488758087,
+          0.4699999988079071
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "KittyMech_Rig",
+        "type": "ARMATURE",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          1.8600001335144043,
+          4.08255672454834,
+          1.6018677949905396
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Armor_L",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          -0.23499999940395355,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.23499999940395355,
+          0.10999999940395355,
+          0.27000001072883606
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Armor_R",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          -0.23499999940395355,
+          1.1200000047683716
+        ],
+        "dimensions": [
+          0.23499999940395355,
+          0.10999999940395355,
+          0.27000001072883606
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Axle_L",
+        "type": "MESH",
+        "location": [
+          0.5699999928474426,
+          -0.02500000037252903,
+          1.0800000429153442
+        ],
+        "dimensions": [
+          0.0650000050663948,
+          0.2280000001192093,
+          0.2280000001192093
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Axle_R",
+        "type": "MESH",
+        "location": [
+          -0.5699999928474426,
+          -0.02500000037252903,
+          1.0800000429153442
+        ],
+        "dimensions": [
+          0.0650000050663948,
+          0.2280000001192093,
+          0.2280000001192093
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Core_L",
+        "type": "MESH",
+        "location": [
+          0.4099999964237213,
+          -0.02500000037252903,
+          1.0800000429153442
+        ],
+        "dimensions": [
+          0.3500000834465027,
+          0.37000006437301636,
+          0.3700000047683716
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Knee_Core_R",
+        "type": "MESH",
+        "location": [
+          -0.4099999964237213,
+          -0.02500000037252903,
+          1.0800000429153442
+        ],
+        "dimensions": [
+          0.3500000834465027,
+          0.37000006437301636,
+          0.3700000047683716
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Lower_Chest_Accent",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.38499999046325684,
+          2.6500000953674316
+        ],
+        "dimensions": [
+          0.28999999165534973,
+          0.07999999821186066,
+          0.18000000715255737
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Palm_L",
+        "type": "MESH",
+        "location": [
+          1.3200000524520874,
+          -0.09000000357627869,
+          1.8700000047683716
+        ],
+        "dimensions": [
+          0.22499999403953552,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Palm_R",
+        "type": "MESH",
+        "location": [
+          -1.3200000524520874,
+          -0.09000000357627869,
+          1.8700000047683716
+        ],
+        "dimensions": [
+          0.22499999403953552,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_L_0",
+        "type": "MESH",
+        "location": [
+          0.3003000020980835,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_L_1",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_L_2",
+        "type": "MESH",
+        "location": [
+          0.5396999716758728,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_R_0",
+        "type": "MESH",
+        "location": [
+          -0.5396999716758728,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_R_1",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Paw_Toe_R_2",
+        "type": "MESH",
+        "location": [
+          -0.3003000020980835,
+          -0.4099999964237213,
+          0.13500000536441803
+        ],
+        "dimensions": [
+          0.11550000309944153,
+          0.20000000298023224,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pelvis_Core",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.014999999664723873,
+          1.9900000095367432
+        ],
+        "dimensions": [
+          0.6700000166893005,
+          0.47999998927116394,
+          0.3799999952316284
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pelvis_Front_Ceramic",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.23499999940395355,
+          1.9900000095367432
+        ],
+        "dimensions": [
+          0.4099999964237213,
+          0.10499999672174454,
+          0.3199999928474426
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Body",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.29649999737739563,
+          3.1440000534057617
+        ],
+        "dimensions": [
+          0.18900005519390106,
+          0.13500002026557922,
+          0.26100000739097595
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_ChestBib",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.35679998993873596,
+          3.134999990463257
+        ],
+        "dimensions": [
+          0.12780004739761353,
+          0.04500000923871994,
+          0.17100000381469727
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Chin",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.38199999928474426,
+          3.252000093460083
+        ],
+        "dimensions": [
+          0.12420003861188889,
+          0.07020001113414764,
+          0.05400000140070915
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Ear_-1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.08010704815387726,
+          0.06810331344604492,
+          0.11398124694824219
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Ear_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.08010706305503845,
+          0.06810328364372253,
+          0.11398124694824219
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Eye_-1",
+        "type": "MESH",
+        "location": [
+          -0.05400000140070915,
+          -0.4117000102996826,
+          3.3366000652313232
+        ],
+        "dimensions": [
+          0.05760001391172409,
+          0.039600007236003876,
+          0.0737999975681305
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Eye_1",
+        "type": "MESH",
+        "location": [
+          0.05400000140070915,
+          -0.4117000102996826,
+          3.3366000652313232
+        ],
+        "dimensions": [
+          0.05760001391172409,
+          0.039600007236003876,
+          0.0737999975681305
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_EyeSpark_-1",
+        "type": "MESH",
+        "location": [
+          -0.05849999934434891,
+          -0.43059998750686646,
+          3.3510000705718994
+        ],
+        "dimensions": [
+          0.012600003741681576,
+          0.007200000807642937,
+          0.016200000420212746
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_EyeSpark_1",
+        "type": "MESH",
+        "location": [
+          0.04769999906420708,
+          -0.43059998750686646,
+          3.3510000705718994
+        ],
+        "dimensions": [
+          0.012600003741681576,
+          0.007200000807642937,
+          0.016200000420212746
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Head",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.326200008392334,
+          3.319499969482422
+        ],
+        "dimensions": [
+          0.25560009479522705,
+          0.2070000171661377,
+          0.21960000693798065
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_InnerEar_-1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.048600003123283386,
+          0.01260000467300415,
+          0.07649993896484375
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_InnerEar_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.048600003123283386,
+          0.01260000467300415,
+          0.07649993896484375
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_MuzzleLeft",
+        "type": "MESH",
+        "location": [
+          -0.035100001841783524,
+          -0.4171000123023987,
+          3.291599988937378
+        ],
+        "dimensions": [
+          0.09720002859830856,
+          0.05220000445842743,
+          0.07020000368356705
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_MuzzleRight",
+        "type": "MESH",
+        "location": [
+          0.035100001841783524,
+          -0.4171000123023987,
+          3.291599988937378
+        ],
+        "dimensions": [
+          0.09720002859830856,
+          0.05220000445842743,
+          0.07020000368356705
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Nose",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.4404999911785126,
+          3.296099901199341
+        ],
+        "dimensions": [
+          0.03420001268386841,
+          0.018000001087784767,
+          0.02160000056028366
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Paw_-1",
+        "type": "MESH",
+        "location": [
+          -0.06480000168085098,
+          -0.38199999928474426,
+          3.039599895477295
+        ],
+        "dimensions": [
+          0.08100002259016037,
+          0.09000001847743988,
+          0.06840000301599503
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_Paw_1",
+        "type": "MESH",
+        "location": [
+          0.06480000168085098,
+          -0.38199999928474426,
+          3.039599895477295
+        ],
+        "dimensions": [
+          0.08100002259016037,
+          0.09000001847743988,
+          0.06840000301599503
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_TabbyMark_-0.057",
+        "type": "MESH",
+        "location": [
+          -0.05130000039935112,
+          -0.3856000006198883,
+          3.3977999687194824
+        ],
+        "dimensions": [
+          0.021600008010864258,
+          0.016200002282857895,
+          0.0414000004529953
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_TabbyMark_0",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -0.3856000006198883,
+          3.3977999687194824
+        ],
+        "dimensions": [
+          0.021600008010864258,
+          0.016200002282857895,
+          0.0414000004529953
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pilot_TabbyMark_0.057",
+        "type": "MESH",
+        "location": [
+          0.05130000039935112,
+          -0.3856000006198883,
+          3.3977999687194824
+        ],
+        "dimensions": [
+          0.021600008010864258,
+          0.016200002282857895,
+          0.0414000004529953
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "PREVIEW_Camera",
+        "type": "CAMERA",
+        "location": [
+          6.099999904632568,
+          -9.5,
+          5.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "PREVIEW_Fill",
+        "type": "LIGHT",
+        "location": [
+          4.0,
+          -2.0,
+          4.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "PREVIEW_Floor",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          -0.02500000037252903
+        ],
+        "dimensions": [
+          200.0,
+          200.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "PREVIEW_Key",
+        "type": "LIGHT",
+        "location": [
+          -3.0,
+          -5.0,
+          7.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "PREVIEW_Rim",
+        "type": "LIGHT",
+        "location": [
+          1.0,
+          4.0,
+          6.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pulse_Cannon_Dark_Bore",
+        "type": "MESH",
+        "location": [
+          -1.4199999570846558,
+          -0.6850000023841858,
+          2.240000009536743
+        ],
+        "dimensions": [
+          0.14000000059604645,
+          0.022000007331371307,
+          0.14000000059604645
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pulse_Cannon_Emitter",
+        "type": "MESH",
+        "location": [
+          -1.4199999570846558,
+          -0.6990000009536743,
+          2.240000009536743
+        ],
+        "dimensions": [
+          0.06800000369548798,
+          0.008000003173947334,
+          0.06800000369548798
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pulse_Cannon_Housing",
+        "type": "MESH",
+        "location": [
+          -1.4199999570846558,
+          -0.2800000011920929,
+          2.240000009536743
+        ],
+        "dimensions": [
+          0.30000001192092896,
+          0.6499999761581421,
+          0.25
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pulse_Cannon_Muzzle_Rim",
+        "type": "MESH",
+        "location": [
+          -1.4199999570846558,
+          -0.6399999856948853,
+          2.240000009536743
+        ],
+        "dimensions": [
+          0.19599999487400055,
+          0.07500001043081284,
+          0.19599999487400055
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Pulse_Cannon_Top",
+        "type": "MESH",
+        "location": [
+          -1.4199999570846558,
+          -0.28999999165534973,
+          2.390000104904175
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          0.3199999928474426,
+          0.04500000178813934
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Rear_Hatch_Latch_-1",
+        "type": "MESH",
+        "location": [
+          -0.23000000417232513,
+          0.3919999897480011,
+          3.109999895095825
+        ],
+        "dimensions": [
+          0.054999999701976776,
+          0.03999999910593033,
+          0.11500000208616257
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Rear_Hatch_Latch_1",
+        "type": "MESH",
+        "location": [
+          0.23000000417232513,
+          0.3919999897480011,
+          3.109999895095825
+        ],
+        "dimensions": [
+          0.054999999701976776,
+          0.03999999910593033,
+          0.11500000208616257
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Rear_Lower_Vent",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.3700000047683716,
+          2.799999952316284
+        ],
+        "dimensions": [
+          0.30000001192092896,
+          0.03799999877810478,
+          0.09000000357627869
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Rear_Service_Hatch",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.3400000035762787,
+          3.130000114440918
+        ],
+        "dimensions": [
+          0.49000000953674316,
+          0.07500000298023224,
+          0.6399999856948853
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shin_Accent_L",
+        "type": "MESH",
+        "location": [
+          0.41999998688697815,
+          -0.07999999821186066,
+          0.5600000023841858
+        ],
+        "dimensions": [
+          0.1850000023841858,
+          0.054999999701976776,
+          0.18000000715255737
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shin_Accent_R",
+        "type": "MESH",
+        "location": [
+          -0.41999998688697815,
+          -0.07999999821186066,
+          0.5600000023841858
+        ],
+        "dimensions": [
+          0.1850000023841858,
+          0.054999999701976776,
+          0.18000000715255737
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shin_Armor_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.3462483882904053,
+          0.4687109589576721,
+          0.6244959235191345
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shin_Armor_R",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.3462483882904053,
+          0.46871092915534973,
+          0.6244959235191345
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Axle_L",
+        "type": "MESH",
+        "location": [
+          0.9200000166893005,
+          -0.23499999940395355,
+          3.0899999141693115
+        ],
+        "dimensions": [
+          0.20999999344348907,
+          0.06000000610947609,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Axle_R",
+        "type": "MESH",
+        "location": [
+          -0.9200000166893005,
+          -0.23499999940395355,
+          3.0899999141693115
+        ],
+        "dimensions": [
+          0.20999999344348907,
+          0.06000000610947609,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Disc_L",
+        "type": "MESH",
+        "location": [
+          0.9200000166893005,
+          -0.2720000147819519,
+          3.0899999141693115
+        ],
+        "dimensions": [
+          0.1420000046491623,
+          0.022000005468726158,
+          0.1420000046491623
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Disc_R",
+        "type": "MESH",
+        "location": [
+          -0.9200000166893005,
+          -0.2720000147819519,
+          3.0899999141693115
+        ],
+        "dimensions": [
+          0.1420000046491623,
+          0.022000005468726158,
+          0.1420000046491623
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Pauldron_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.5499906539916992,
+          0.5899899005889893,
+          0.31880927085876465
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Pauldron_R",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.5499906539916992,
+          0.5899899005889893,
+          0.31880927085876465
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Socket_L",
+        "type": "MESH",
+        "location": [
+          0.8299999833106995,
+          0.0,
+          3.0799999237060547
+        ],
+        "dimensions": [
+          0.4500001072883606,
+          0.46000006794929504,
+          0.46000000834465027
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Shoulder_Socket_R",
+        "type": "MESH",
+        "location": [
+          -0.8299999833106995,
+          0.0,
+          3.0799999237060547
+        ],
+        "dimensions": [
+          0.4500001072883606,
+          0.46000006794929504,
+          0.46000000834465027
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SK_Pounce_LOD0",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          2.5026073455810547,
+          4.458741188049316,
+          2.0009021759033203
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": "KittyMech_Rig"
+      },
+      {
+        "name": "SK_Pounce_LOD1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          2.5026073455810547,
+          4.459056377410889,
+          2.0006752014160156
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": "KittyMech_Rig"
+      },
+      {
+        "name": "SK_Pounce_LOD2",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          2.506157398223877,
+          4.46195650100708,
+          2.0041284561157227
+        ],
+        "hidden": true,
+        "render_hidden": true,
+        "collections": [
+          "Collection"
+        ],
+        "parent": "KittyMech_Rig"
+      },
+      {
+        "name": "Tail_Ceramic_Segment_0",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.26929572224617004,
+          0.28851717710494995,
+          0.2232816219329834
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_1",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.31649520993232727,
+          0.32367074489593506,
+          0.24678218364715576
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_2",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.3035227060317993,
+          0.26155364513397217,
+          0.19521570205688477
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_3",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.30083703994750977,
+          0.19799679517745972,
+          0.23506438732147217
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_4",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.31500816345214844,
+          0.23395097255706787,
+          0.2797130346298218
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_5",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.2707864046096802,
+          0.2707863450050354,
+          0.293621301651001
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Ceramic_Segment_6",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.19076550006866455,
+          0.2510780692100525,
+          0.29004836082458496
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_0",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.3400000035762787,
+          1.9600000381469727
+        ],
+        "dimensions": [
+          0.20999997854232788,
+          0.20999999344348907,
+          0.20999999344348907
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_1",
+        "type": "MESH",
+        "location": [
+          -0.11999999731779099,
+          0.6200000047683716,
+          1.9299999475479126
+        ],
+        "dimensions": [
+          0.1979999840259552,
+          0.1979999989271164,
+          0.1979999989271164
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_2",
+        "type": "MESH",
+        "location": [
+          -0.36000001430511475,
+          0.8799999952316284,
+          1.840000033378601
+        ],
+        "dimensions": [
+          0.18599998950958252,
+          0.1860000044107437,
+          0.1860000044107437
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_3",
+        "type": "MESH",
+        "location": [
+          -0.6700000166893005,
+          1.0199999809265137,
+          1.8300000429153442
+        ],
+        "dimensions": [
+          0.17399999499320984,
+          0.17399999499320984,
+          0.17399999499320984
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_4",
+        "type": "MESH",
+        "location": [
+          -1.0,
+          1.0399999618530273,
+          1.940000057220459
+        ],
+        "dimensions": [
+          0.16200000047683716,
+          0.16200000047683716,
+          0.16200000047683716
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_5",
+        "type": "MESH",
+        "location": [
+          -1.2799999713897705,
+          0.9200000166893005,
+          2.1500000953674316
+        ],
+        "dimensions": [
+          0.15000000596046448,
+          0.15000000596046448,
+          0.15000000596046448
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Joint_6",
+        "type": "MESH",
+        "location": [
+          -1.4700000286102295,
+          0.7300000190734863,
+          2.4100000858306885
+        ],
+        "dimensions": [
+          0.1379999816417694,
+          0.1379999965429306,
+          0.1379999965429306
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Tail_Rounded_Tip",
+        "type": "MESH",
+        "location": [
+          -1.5499999523162842,
+          0.550000011920929,
+          2.700000047683716
+        ],
+        "dimensions": [
+          0.13999998569488525,
+          0.14000000059604645,
+          0.2199999988079071
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Thigh_Armor_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.4729209244251251,
+          0.4803880751132965,
+          0.6205661296844482
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Thigh_Armor_R",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.47292083501815796,
+          0.4803880751132965,
+          0.6205661296844482
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Thumb_L",
+        "type": "MESH",
+        "location": [
+          1.1799999475479126,
+          -0.12600000202655792,
+          1.7999999523162842
+        ],
+        "dimensions": [
+          0.06499999761581421,
+          0.10000000149011612,
+          0.10499999672174454
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Thumb_R",
+        "type": "MESH",
+        "location": [
+          -1.1799999475479126,
+          -0.12600000202655792,
+          1.7999999523162842
+        ],
+        "dimensions": [
+          0.06499999761581421,
+          0.10000000149011612,
+          0.10499999672174454
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "UpperArm_Armor_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.49491286277770996,
+          0.3999314606189728,
+          0.5565834045410156
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "UpperArm_Armor_R",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.49491286277770996,
+          0.3999314606189728,
+          0.5565834045410156
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Wrist_Coupler_L",
+        "type": "MESH",
+        "location": [
+          1.2799999713897705,
+          -0.06499999761581421,
+          2.0199999809265137
+        ],
+        "dimensions": [
+          0.2540000081062317,
+          0.2540000081062317,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Wrist_Coupler_R",
+        "type": "MESH",
+        "location": [
+          -1.2799999713897705,
+          -0.06499999761581421,
+          2.0199999809265137
+        ],
+        "dimensions": [
+          0.2540000081062317,
+          0.2540000081062317,
+          0.1599999964237213
+        ],
+        "hidden": false,
+        "render_hidden": true,
+        "collections": [
+          "SOURCE_Parts_Pounce"
+        ],
+        "parent": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "FelineAir",
+        "range": [
+          1.0,
+          61.0
+        ]
+      },
+      {
+        "name": "FelineGallop",
+        "range": [
+          1.0,
+          31.0
+        ]
+      },
+      {
+        "name": "FelineIdle",
+        "range": [
+          1.0,
+          61.0
+        ]
+      },
+      {
+        "name": "Idle",
+        "range": [
+          1.0,
+          60.0
+        ]
+      },
+      {
+        "name": "Walk",
+        "range": [
+          1.0,
+          32.0
+        ]
+      }
+    ],
+    "fps": 60
+  },
+  "enemies": {
+    "objects": [
+      {
+        "name": "Area",
+        "type": "LIGHT",
+        "location": [
+          350.0,
+          -280.0,
+          600.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Area.001",
+        "type": "LIGHT",
+        "location": [
+          -200.0,
+          300.0,
+          420.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Area.002",
+        "type": "LIGHT",
+        "location": [
+          50.0,
+          0.0,
+          700.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Camera",
+        "type": "CAMERA",
+        "location": [
+          700.0,
+          -660.0,
+          530.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Inspection ground",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          -2.0
+        ],
+        "dimensions": [
+          3000.0,
+          3000.0,
+          0.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_Body",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          95.0
+        ],
+        "dimensions": [
+          120.81683349609375,
+          131.0,
+          141.5
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_Sensor",
+        "type": "MESH",
+        "location": [
+          -14.0,
+          0.0,
+          162.0
+        ],
+        "dimensions": [
+          46.0,
+          46.516170501708984,
+          36.5
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_Shield",
+        "type": "MESH",
+        "location": [
+          58.0,
+          3.814697265625e-06,
+          100.0
+        ],
+        "dimensions": [
+          44.39485168457031,
+          138.78005981445312,
+          151.5
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_Weapon",
+        "type": "MESH",
+        "location": [
+          26.0,
+          -44.0,
+          112.0
+        ],
+        "dimensions": [
+          78.5,
+          18.0,
+          23.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelFrontL",
+        "type": "MESH",
+        "location": [
+          34.0,
+          -57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelFrontR",
+        "type": "MESH",
+        "location": [
+          34.0,
+          57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelMidL",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelMidR",
+        "type": "MESH",
+        "location": [
+          0.0,
+          57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelRearL",
+        "type": "MESH",
+        "location": [
+          -34.0,
+          -57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Anchor_WheelRearR",
+        "type": "MESH",
+        "location": [
+          -34.0,
+          57.0,
+          32.0
+        ],
+        "dimensions": [
+          42.0,
+          17.0,
+          42.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_Body",
+        "type": "MESH",
+        "location": [
+          0.0,
+          235.0,
+          95.0
+        ],
+        "dimensions": [
+          106.85304260253906,
+          92.0,
+          93.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_LegFL",
+        "type": "MESH",
+        "location": [
+          32.0,
+          197.0,
+          40.0
+        ],
+        "dimensions": [
+          40.71580505371094,
+          43.66864776611328,
+          48.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_LegFR",
+        "type": "MESH",
+        "location": [
+          32.0,
+          273.0,
+          40.0
+        ],
+        "dimensions": [
+          40.71580505371094,
+          43.66864776611328,
+          48.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_LegRL",
+        "type": "MESH",
+        "location": [
+          -35.0,
+          197.0,
+          40.0
+        ],
+        "dimensions": [
+          40.71580505371094,
+          43.66864776611328,
+          48.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_LegRR",
+        "type": "MESH",
+        "location": [
+          -35.0,
+          273.0,
+          40.0
+        ],
+        "dimensions": [
+          40.71580505371094,
+          43.66864776611328,
+          48.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_Sensor",
+        "type": "MESH",
+        "location": [
+          -35.0,
+          235.0,
+          132.0
+        ],
+        "dimensions": [
+          23.000003814697266,
+          38.0,
+          54.5
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Mortar_Weapon",
+        "type": "MESH",
+        "location": [
+          7.0,
+          235.0,
+          111.0
+        ],
+        "dimensions": [
+          84.06362915039062,
+          67.40000915527344,
+          93.31568145751953
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_Body",
+        "type": "MESH",
+        "location": [
+          0.0,
+          -235.0,
+          95.0
+        ],
+        "dimensions": [
+          117.0,
+          68.54301452636719,
+          57.5
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_LegFL",
+        "type": "MESH",
+        "location": [
+          29.0,
+          -277.0,
+          72.0
+        ],
+        "dimensions": [
+          47.21799087524414,
+          31.79114532470703,
+          82.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_LegFR",
+        "type": "MESH",
+        "location": [
+          29.0,
+          -193.0,
+          72.0
+        ],
+        "dimensions": [
+          47.21799087524414,
+          31.79114532470703,
+          82.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_LegRL",
+        "type": "MESH",
+        "location": [
+          -31.0,
+          -277.0,
+          72.0
+        ],
+        "dimensions": [
+          47.217994689941406,
+          31.79114532470703,
+          82.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_LegRR",
+        "type": "MESH",
+        "location": [
+          -31.0,
+          -193.0,
+          72.0
+        ],
+        "dimensions": [
+          47.217994689941406,
+          31.79114532470703,
+          82.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_Sensor",
+        "type": "MESH",
+        "location": [
+          28.0,
+          -235.0,
+          154.0
+        ],
+        "dimensions": [
+          54.21940231323242,
+          39.5166130065918,
+          67.02218627929688
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "SM_Scout_Weapon",
+        "type": "MESH",
+        "location": [
+          16.0,
+          -273.0,
+          118.0
+        ],
+        "dimensions": [
+          75.0,
+          18.5,
+          18.0
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Text",
+        "type": "FONT",
+        "location": [
+          110.0,
+          -320.0,
+          1.0
+        ],
+        "dimensions": [
+          122.0999984741211,
+          9.214075088500977,
+          0.05999999865889549
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Text.001",
+        "type": "FONT",
+        "location": [
+          110.0,
+          -85.0,
+          1.0
+        ],
+        "dimensions": [
+          111.47000122070312,
+          7.004075050354004,
+          0.05999999865889549
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      },
+      {
+        "name": "Text.002",
+        "type": "FONT",
+        "location": [
+          110.0,
+          150.0,
+          1.0
+        ],
+        "dimensions": [
+          136.02000427246094,
+          9.210000038146973,
+          0.05999999865889549
+        ],
+        "hidden": false,
+        "render_hidden": false,
+        "collections": [
+          "Collection"
+        ],
+        "parent": null
+      }
+    ],
+    "actions": [],
+    "fps": 24
+  }
+}

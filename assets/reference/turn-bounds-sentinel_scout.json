@@ -1,0 +1,56 @@
+{
+  "name": "Sentinel_Scout",
+  "scale": 0.65,
+  "turnStyle": {
+    "arc": 0.72,
+    "duty": 0.68,
+    "duration": 0.85,
+    "lift": 0.24,
+    "lead": 0.06,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.08,
+      "FR": 0.5,
+      "HL": 0.58
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 1.9341756105422974,
+      "coreRadius": 1.4213424810054562,
+      "sideExtent": 0.9173811674118042,
+      "floor": 0.009749934077262878,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.7504125801325333e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.15585207566618922,
+        "FR": 0.15533283203840254,
+        "HL": 0.15498265326023103,
+        "HR": 0.1559631906449795
+      },
+      "stanceCancellationError": 3.955774190077302e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 1.9341756105422974,
+      "coreRadius": 1.4213424810054562,
+      "sideExtent": 0.9173811674118042,
+      "floor": 0.009749939665198326,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.73790674421015e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.15533283203840254,
+        "FR": 0.15585200786590575,
+        "HL": 0.15596320033073424,
+        "HR": 0.15498265326023103
+      },
+      "stanceCancellationError": 3.4052006275387155e-07
+    }
+  ]
+}

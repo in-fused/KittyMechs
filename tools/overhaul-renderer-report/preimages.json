@@ -1,0 +1,20 @@
+[
+  {
+    "path": "src/game/GameCanvas.tsx",
+    "preimage": "tools/overhaul-renderer-report/preimages/src__game__GameCanvas.tsx",
+    "bytes": 7925,
+    "sha256": "b77c772963c7ee37fe496ca95e889edefaca63c8af285f39ae20f454b6c19f5c"
+  },
+  {
+    "path": "src/ui/Settings.tsx",
+    "preimage": "tools/overhaul-renderer-report/preimages/src__ui__Settings.tsx",
+    "bytes": 3389,
+    "sha256": "5d99752710a52f0ed48ded80d89dd2a696175896ca4ec6edfd6daf1ee100f1c2"
+  },
+  {
+    "path": "src/state/store.ts",
+    "preimage": "tools/overhaul-renderer-report/preimages/src__state__store.ts",
+    "bytes": 3087,
+    "sha256": "e6f8c17fe7b3f54c0e46c1cff9f1dbbbd9f4fbba4608bd183427977c2bef2a94"
+  }
+]

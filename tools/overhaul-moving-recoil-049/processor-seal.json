@@ -1,0 +1,15 @@
+{
+  "round": "049",
+  "files": [
+    {
+      "path": "tools/overhaul-moving-recoil-049/prepare-clip.py",
+      "bytes": 8466,
+      "sha256": "ec383e790e7d8fed799d3a7997d80437b9de9aad127b0fe63cd750b2f4bfb9d9"
+    }
+  ],
+  "handoff": {
+    "path": "tools/overhaul-moving-recoil-049/processor-handoff.json",
+    "sha256": "df038abf39f9d3a3f80386bce9be2aa779041f81d0894c66e9a5b8128e82de0a"
+  },
+  "processorWriterClosed": true
+}

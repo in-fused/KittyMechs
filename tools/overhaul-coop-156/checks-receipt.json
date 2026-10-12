@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "tests": {
+    "command": "npx vitest run --config tools/overhaul-coop-156/vitest.config.mjs",
+    "exitCode": 0,
+    "tests": 4,
+    "durationMs": 310,
+    "terminalChunk": "da6596"
+  },
+  "syntax": {
+    "files": [
+      "mission-capture.mjs",
+      "aim-feedback.mjs"
+    ],
+    "exitCode": 0
+  },
+  "beforeAfter": {
+    "path": "tools/overhaul-coop-156/feedback-receipt.json",
+    "bytes": 1659,
+    "sha256": "2af19525347e2f27d93431a0d58b7dc8eeb23f3f9a03bb762e797185a261c419"
+  },
+  "testRepairsAfterGenuineFailure": 0,
+  "nativeWorldJobs": 0,
+  "publicJobs": 0,
+  "qualification": "UNRUN_PENDING_INDEPENDENT_SOURCE_AND_ACTUAL_GATES"
+}

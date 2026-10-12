@@ -1,0 +1,66 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE242 materially corrected241 publiccontrols observer; independent gate pending; no actual job",
+  "files": [
+    {
+      "path": "tools/overhaul-program-observer-242/binding.json",
+      "bytes": 248637,
+      "sha256": "ece67cfae58bd91098d43069cb5b6cfc54a463492f657f3386d93cbdf3908f9d"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/capture.mjs",
+      "bytes": 21961,
+      "sha256": "26047f9656af066681ccc3da7d071d294a9d076fd8420c3f672c259a86529845"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/capture.mjs.238-preimage",
+      "bytes": 21923,
+      "sha256": "ccc8da5a38b16d058df3ea174ffb37448b62fd4e5cfe9fcd34207d06802eb531"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/guards.mjs",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/guards.mjs.238-preimage",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/HANDOFF.md",
+      "bytes": 1840,
+      "sha256": "16117f650544155042160064554569722fe5e34cb63ba01ed54390d3b30e6277"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/network-classification.mjs.238-preimage",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/prepare242.py",
+      "bytes": 4166,
+      "sha256": "918f5e7702e1e6058260f3e9984419f0710f1d01051edb79e71ebace9fdf076c"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/seal242.py",
+      "bytes": 1138,
+      "sha256": "cffd22389914b5e85154dfb2d6b5a1941d725fedb63a24ce8686c9a9e636c145"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/supervise.py",
+      "bytes": 5508,
+      "sha256": "c1f916dcd60930b8a1f60b55546521e76fa7b7404db0b3333e22e9f496e2b274"
+    },
+    {
+      "path": "tools/overhaul-program-observer-242/supervise.py.238-preimage",
+      "bytes": 5268,
+      "sha256": "f02c6d4ee280578513dfa0284756eaf57d9f62bd0813ad0f5a94ec35e1a60cca"
+    }
+  ]
+}

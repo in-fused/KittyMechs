@@ -1,0 +1,29 @@
+# Continuation184 CLOSED — RETAIN_LIMITED062; full goal INCOMPLETE
+
+Independent actualcritic6fa4a9dc8bf09029967885bf43d46d6a139e4e3362a2c66ed9a93d0448130c6f RETAIN_LIMITED062 for181 spatialfoliage and183 marker; DENY fullmovement/contact/art milestone, general foliage certification, affectedhumanlag/performancegain. Viewed all6phasePNGs and115decoded originalvideo frames/fourboards. Fullbody visibleinsteadobstructing cyanextractionmarker; legposes change but skimming/sliding, abrupt reversals, stiffforelimbs and rapidR remain weak; sparseblocklike streets. These deficiencies not introducedby3newsource edits. Foliage visibleearly/noobviouslossinroute, notallLOD/stream/shadows/contexts. Headless55–56FPS variablepathsnotlagfix. Lastactualownerhp2.2alive, realenemyfireconfoundsposes/timing. Full finite goal ACTIVE/INCOMPLETE.
+
+Sole8799 nowretainedlimited062PID370280/session9510LIVE, receipt5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c; old061 stoppedandpreservedrollback. All181182183184/critics writers CLOSED, build79800/CPU35723/play16674/preflight2816+32605 terminal, browsers/nativeworkerclosed/health0/0. Source assets/Blender masters unchanged retained. Latest overlay067 atop066 exactmanifest/count/bytes incontinuation-verification-067.json aftercopyverification. Do notmutate frozenhardlinks orclosedpackets.
+
+Next finite player-facing action: investigate actual affected-clientperformance using available existingclient092telemetry/rendereridentity without repeatinghumanquestion orqualifyingheadlessasrepair; if no human data available, stateunobserved and use existing181 exactowner correspondence for ONE concrete measured rendering change preservingpixels/native. Genuine forelimb/contact choreography and177 encounter suspension/rescue lifecycle remain independent unfinished decisions. Do notreplay184unchanged orrevivefailed174 microtolerance/178smallpatch loops. Continuefullscopefourmechs/threemaps/integrateddistrictsystems/modes/progression/weather/audio, notcompletionbasedonremainingusage.
+
+Historical actual/sourceplan below supersededbythisclosedretention.
+
+# Actual184 observation CLOSED — independent retention review pending
+
+Build supervisor79800TERMINAL0/27.922s. Frozen062437files158730496B/428immutable061hardlinks9copies, only3admitted sourcepaths; receipt5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c. Exact idle061PID359304 stopped, tracked70124TERMINAL1 intentionalstop. Sole8799 nowcandidate062PID370280/session9510LIVE. New identity and servedindex/all12JS/CSS+fir/localPounce14responses exact062 inHTTPpreflight184.json/33.219s. Initialpreflight2816rootfile-path error recordedHTTPpreflight-first-failure184.json, onecorrected dist reference; no gameplay hadbegun.
+
+One actualsupervisor16674TERMINAL0/32.156s,1130allrowsMATCH, ordinarychild29.436s. CAPTURED/errorsnone/browserdisconnected/workerclosed/health0rooms0players. OriginalsixPNGs/video/evidence in play184-public; sealedprocessoriginal play184-public-observation. OFF55FPS180calls782677tri,ON55/176/804339,UP56/186/818072, variablepublicpathsdescriptiveNOTmatchedspeedup/humanIABproof. Nativehp183.7→74.8→14.3alive; ONsource128decoded-contract/presentation154verified, actualRnativeupright. Wheelrequested/photographedbutnotnumericallyasserted; pausehold/co-op/fullquality untested. Rootviewedon.png: localbodyvisibleinsteadpreviousrelayobstruction. Independentactualcritic ACTIVE, no retention/fullmilestone approvalyet. Human severeLowlag unresolved.
+
+Historical source/integration plan below superseded byactualfacts above.
+
+# Continuation184 ACTIVE — practical foliage/marker integration
+
+Full finite goal ACTIVE/INCOMPLETE. Current sole8799 retained061 unchanged pending admitted candidate062. Human severe Low lag unresolved. CPU182 CLOSED limited attribution, independent critic2510478903429d52f5ae252af73be451064d1ee6b1799998f31449d86637253c rejects actual local-body visibility: decorative EXTRACTION(-8,12) marker blocks pixels despite camera projection/nativeclearance true.
+
+183 CLOSED presentation-only Objectives.tsx removal of nonoptional body-height pedestal/cyan box/filled disk; flat depth-tested ground annulus, locations/state colors/native interaction/optional hardware preserved. Source seal815c50e49debbc5cfbc207214ff40872159e75ef805cd72281654ff8bf367651; first TypeScriptPASS, no repairs.
+
+181 implementation ACTIVE: exact7city material/geometry mappings and all6fir streams identified offline using actual compiled index-byte capacities/count/offsets, shader labels not owners. Current49 trees LOD0=0/LOD1=1/LOD2=48, global batches226716tri at saved180 cameras;32m spatial batches10044tri with every original tree/LOD/geometry/material retained. Predicted216672 avoided submissions about20–24% of whole frame, not GPU/FPS/player acceptance. Candidate presentation sources FoliageInstances.tsx +spatialFoliage181.ts. Native props/density/physics unchanged.
+
+Root184 UNRUN build/transition/observe/play scaffolds adapted179/182, source compile checks passed. Independent CLOSED combined source admission required before one build and ordinary Low OFF/ON travel/R/wheel capture with originalvideo/screenshots; actual critic can reject. Reuse8799 after exactidle061PID/command/listener/HTTP receipt identity and observedsession70124retirement. New062freeze preserves source/assets via immutable061hardlinks for unchanged files and copies for changed. No endless replay/second repair/presentation tests as acceptance. If candidate quality inadequate retain limited061 and report defects.
+
+Predecessor066 verifiedbb3b96663d23b75229bee1f20bcc87c51ac20da6334f31391318551579f4d4e0/106files39207972B. Preserve182 originals and all new closed candidate source/verdicts/release receipts into new067 after writers/jobs close. Full fourmech/threemap/integrated gameplay/art/contact/climb/destruction/co-op andhumanlag remain scope.

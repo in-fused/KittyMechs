@@ -1,0 +1,5 @@
+# Retained138 route diagnostic — CLOSED without result
+
+One offline read-only diagnostic terminated before planning because the retained native keyframes do not contain the exact failed route tick3145. Saved neighbors include3043 and3150, but they were deliberately not substituted as proof of the failed tick's geometry or NPC occupancy. No game/browser/native job, source mutation, route replay or qualification occurred.
+
+The actual138 receipt omits the precise rejection branch and complete actor occupancy for that planning read. A future observer must record those values at its actual current snapshot before concluding whether transient bots or permanent geometry blocked the route. Preserve the actual138 failure; do not infer its cause from a nearby tick or change the arrival margin to obtain a route. `diagnose138.mjs` is unexecuted beyond its exact-frame guard and produces no successful diagnostic JSON. Terminal Node exit1,0.581s; message: `Exact failed route native keyframe missing; do not substitute another tick`.

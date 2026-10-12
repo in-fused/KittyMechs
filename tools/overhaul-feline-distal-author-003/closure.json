@@ -1,0 +1,48 @@
+{
+  "status": "CLOSED_FIRST_AUTHOR_TOPOLOGY_FAILURE_UNADMITTED",
+  "closedUTC": "2026-10-10T13:42:47.6679957Z",
+  "hardDeadlineUTC": "2026-10-10T13:49:38Z",
+  "sessionId": 30223,
+  "exitCode": 1,
+  "failure": "SOURCE_SOLID_OPEN_OR_NONMANIFOLD:FelineDistal_FL_anklePlate_002",
+  "sourceMotionFrames": 0,
+  "actualBoneRecords": 57,
+  "newFinishedBinder": "NOT_EMITTED",
+  "materialRevision": "NOT_REACHED",
+  "sealedInputs": [
+    {
+      "path": "assets/source/overhaul-feline-distal-author-003/author.py",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-feline-distal-author-003/CONTRACT.md",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-distal-author-003/source_owner.py",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-distal-author-003/diff-manifest.json",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/feline-distal-author-003.md",
+      "matches": true
+    }
+  ],
+  "protectedCurrent": {
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-skinned-001\\Pounce_Skinned_001.blend": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\mesh-00.json": "6011b9f36d45d369ab986822d24e169acc0beff4660ea4c492bd24963b10dfac",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\paw-ownership.json": "e454604c5b2c984cd2d4da217cf3c18d3d91ded61308ebde15101cfa70d05780",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\anatomical-paw-decision-001\\measured.json": "8988c704eff4c4f3d5ef47d36505198112c3a7c7a39d2aab6755aa67c53d392f"
+  },
+  "protectedOriginalRawGLBSHA": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+  "preservationError": null,
+  "native": false,
+  "runtimeChanges": false,
+  "approved": false,
+  "activeJobs": 0,
+  "heavySlot": "RELEASED",
+  "retry": "NONE"
+}

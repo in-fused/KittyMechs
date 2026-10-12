@@ -1,0 +1,39 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "protectedRows": 728,
+  "mappings": [
+    {
+      "kind": "module",
+      "retainedRequest": "/assets/index-jFb_gY9P.js",
+      "candidateRequest": "/assets/index-DpxkElY8.js",
+      "candidateRow": {
+        "path": ".sites-runtime/overhaul-20261011/readiness211-private/dist/assets/index-DpxkElY8.js",
+        "bytes": 1640007,
+        "sha256": "1400752245105229a545457ae7e739fee8e9444548a2f4af6536d2ddf1fff7cd"
+      }
+    },
+    {
+      "kind": "stylesheet",
+      "retainedRequest": "/assets/index-BPDA3YLm.css",
+      "candidateRequest": "/assets/index-BPDA3YLm.css",
+      "candidateRow": {
+        "path": ".sites-runtime/overhaul-20261011/readiness211-private/dist/assets/index-BPDA3YLm.css",
+        "bytes": 27491,
+        "sha256": "db22b472773318fdffc05ad5a26599406d6f21988604a9a321ad485e734b7ef2"
+      }
+    }
+  ],
+  "modulePreloadsUnchanged": [
+    "/assets/three-Bjr22og3.js",
+    "/assets/physics-DsFk-bdi.js"
+  ],
+  "source212Seal": {
+    "path": "tools/overhaul-loading-capture-212/source-seal.json",
+    "bytes": 1595,
+    "sha256": "f15f99e09ee1891d7cb21f71c4fc84b42fc8b6a6ea1e13b8ea671355b7efd503"
+  },
+  "actualCapture": false,
+  "change": "Only real initial document+entry/style route adapter, document HTTP SHA validation and213 names/output/receipt",
+  "unchanged": "211 source, native endpoints/assets/security, readiness/life/ACK/movement/CPU sampling/cleanup/budgets"
+}

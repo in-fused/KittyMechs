@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds078.ts",
+      "bytes": 8191,
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45494,
+      "sha256": "d707e7ea81e5f59b52f9e5c00b00d1bd50e4e4068b517520dfa78ea36929ec46"
+    }
+  ]
+}

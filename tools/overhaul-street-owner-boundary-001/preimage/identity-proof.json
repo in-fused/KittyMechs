@@ -1,0 +1,20 @@
+{
+  "checkedUtc": "2026-10-10T13:08:05.7122819Z",
+  "browserTailSha256": "93910A60ECFEAA846BEA7AC9A49AECEB9D6EA7425F82B43F3187D753805362BC",
+  "browserReactFunctionTailIdentical": true,
+  "fixtureInverseNamespaceAndImportEqualsPrior": true,
+  "registry": "Original WeakMap exported only as an internal wrapper bridge; lookup and wrapper share exactly that instance",
+  "originalWrapperPreimageSha256": "29670270FCCD275683F24BAAD5C5B87F4EDE38DD7B7F4D5F8932D59869B46BE8",
+  "runtimeImported": "NOT_EXECUTED",
+  "nativeRegionSha256": "D79A765FBB94C5DE0F9A4D1D6E0B065B77CE75F7C1AE6D1D93193CE92A073EBD",
+  "browserImportsInPureModule": 0,
+  "nativeInterfaceRegistryClassLookupIdentical": true,
+  "native": "UNRUN",
+  "moduleImports": [
+    "@dimforge/rapier3d-compat",
+    "shared/rainlineStreetAdmission",
+    "type-only shared/cityDistrict",
+    "shared/overhaulRuins",
+    "shared/overhaulFracture"
+  ]
+}

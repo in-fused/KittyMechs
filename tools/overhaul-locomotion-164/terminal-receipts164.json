@@ -1,0 +1,44 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "jobs": [
+    {
+      "command": "node node_modules/tsx/dist/cli.mjs tools/overhaul-locomotion-164/reconstruct164.mts",
+      "exitCode": 0,
+      "receipt": "reconstruct-receipt164.txt",
+      "note": "original 160 immutable; new OFF actual action activation ordering, all selected FK <=2e-5"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-coordination164.test.ts",
+      "attempt": 1,
+      "exitCode": 1,
+      "receipt": "first-test-receipt164.txt",
+      "testsPassed": 0,
+      "testsFailed": 4
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "attempt": 1,
+      "exitCode": 2,
+      "receipt": "first-typecheck164.txt",
+      "note": "fixture weak-property typing only"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-coordination164.test.ts",
+      "attempt": 2,
+      "exitCode": 1,
+      "receipt": "test-receipt164.txt",
+      "testsPassed": 3,
+      "testsFailed": 1,
+      "note": "ONE math/fixture repair used, remaining final coverage count failure STOP"
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "attempt": 2,
+      "exitCode": 0,
+      "receipt": "typecheck164.txt",
+      "note": "terminal exit0 verified from session62587; stdout empty"
+    }
+  ],
+  "prohibitedJobs": "No browser/build/server/Blender/native fullgameplay jobs; no delegation"
+}

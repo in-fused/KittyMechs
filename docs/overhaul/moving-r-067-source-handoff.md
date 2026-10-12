@@ -1,0 +1,24 @@
+# MovingR067 — finite source candidate, unqualified
+
+Writer CLOSED within the04:02UTC deadline. Runtime005 and actor034 byte preimages are under `tools/overhaul-moving-r-067/preimages/`. New controller `movingRFfeet067.ts` and frozen provider `groundSupport067.ts` are wired into the existing public058E owner. No asset, metadata, input, hull, physics, timer, effects, camera, build/browser/Blender/export edits/jobs. Full goal and movement/contact quality remain INCOMPLETE. Specialist ran no controller fixture or compile.
+
+One joint owner samples the source mixer, then solves supported feet before final matrices. It explicitly restores the prior authored local rotations before mixer evaluation so cached/repeated source values cannot retain previous IK. Bone translations/scales and source chains remain unchanged. Two-link fore and articulated rear rotation solves use actual loaded rest lengths, current authored bend poles and source paw orientation. Unreachable targets release into recovery; they are not clamped or stretched.
+
+Actual foot-family skin weights/geometry derive a conservative lowest marker once in the loaded bind pose; includes toes/claws, not a guessed sole or pad-material certificate. Missing geometry is an explicit unavailable diagnostic. Rear stance/swing continues during R from committed root displacement; target direction uses the actual world displacement vector. Standing R does not advance a walking cycle. Fore IK influence unloads/rejoins with R while retaining authored source front release/core motion. Ordinary gait uses the same foot lifecycle so R exit keeps anchors instead of resetting every foot. Source core/fore pose and rendered fixed-length IK still need actual review for continuity.
+
+Fixed world-space foot anchors hold a current local support lease; provider pose/shape/identity/generation/life change releases them. Swing begins at the previous rendered marker with a bounded initial velocity, reaches an actual probed foothold and lands with zero endpoint velocity. Support loss fades the last solved rotations towards source and remains recoverable. Airborne, climb/pair/strike/down/death and reaction actions retain existing source/fallback behavior. No moving carrier or server bank-revision claim is made.
+
+Provider uses the same useRapier world, fixed/non-sensor enabled-handle inventory shared once per world/frame, and read-only rays. Provider067 wrong-import fixture failure remains preserved; distinct068 real-Rapier provider checks passed under root supervision. Provider source remains SHA `89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd`.
+
+Registered diagnostics remain plain JSON: current mounted rendered marker, fixed-anchor/landing target, stance/swing/recovery/unloaded state, stance residual, influence, weighted-vertex count, actual joint lengths/rest lengths/reach, translation-length error, frame/presentation/life/generation and local world/owner/handle/shapePose lease. Policy is truthfully `CURRENT_FIXED_SCENE_VISUAL_IK_NO_NATIVE_PAD_CERTIFICATE`. Pooled vector/quaternion math avoids steady per-limb math allocation after warmup; small diagnostic snapshots are still allocated. Geometry extraction is startup-only. No native pad force/COM certification is required for this candidate's visual placement.
+
+Root first obtains independent integrated source critique, then ONE focused controller check and typecheck. Fixture imports use `../../src`, loads actual058E geometry/chains and deliberately creates a small native fixed-plane test world; this is not district/play certification. It checks standing anchors, both source R motions, travel/back/turn lifecycle, removed support recovery, generation invalidation and repeated source-clock cache stability.
+
+```powershell
+node --import tsx tools/overhaul-moving-r-067/controller-check.ts
+npm run typecheck
+```
+
+Root owns first-failure preservation and any subsequent single build/normal-play review. `tools/overhaul-moving-r-067/capture.mjs` is root-owned/unrun and sealed with the packet. Standing/moving/back/turn R in both directions must be judged for visible slip, paw/claw clearance, knee/hock motion and entry/exit fluidity. Mathematical or provider checks cannot approve gameplay. Static/settled point support only; steep surfaces, active/moving ruins and cross-bank revision qualification remain unsupported. No asset-author loop or automatic retry.
+
+Source SHAs: runtime005 `18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3`; actor034 `a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239`; controller `2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8`; fixture `7cb9a4d909b73914bcb11c4ec22419837fcf1870e3e7424e2e17cfd4d9d93dd5`. `tools/overhaul-moving-r-067/source-seal.json` records exact focused hashes/preimages/dependencies for root review.

@@ -1,0 +1,52 @@
+[
+  {
+    "path": "src/game/entities/identity57Runtime005.ts",
+    "sha256": "ac76f154f8b1745183b95c44ac723168e3827efebf86cf53b5b1e1f4bc449dce",
+    "bytes": 13855
+  },
+  {
+    "path": "src/game/entities/movingRFfeet067.ts",
+    "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61",
+    "bytes": 15768
+  },
+  {
+    "path": "tools/overhaul-gait-088/preimages/identity57Runtime005.ts",
+    "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3",
+    "bytes": 13130
+  },
+  {
+    "path": "tools/overhaul-gait-088/preimages/movingRFfeet067.ts",
+    "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8",
+    "bytes": 13932
+  },
+  {
+    "path": "src/game/entities/identity57Runtime058EManifest.json",
+    "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027",
+    "bytes": 239878
+  },
+  {
+    "path": "src/game/entities/renderTimeline.ts",
+    "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+    "bytes": 9521
+  },
+  {
+    "path": "tools/overhaul-gait-058e/graft_verify.py",
+    "sha256": "13615bd4d5c86e633eec23642e04a210694811eddd1e1b393c8a3f8a6a864497",
+    "bytes": 12274
+  },
+  {
+    "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-idle.png",
+    "sha256": "9e2625c2be96877b6e80ead60dc07f4d03adb7249cb037bece82206828ccfccc",
+    "bytes": 1067132
+  },
+  {
+    "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-backpedal.png",
+    "sha256": "e7ef0fe625b68c4555b16ca7a6daef4b9c656bf76fb16b565d1fc479c3911abb",
+    "bytes": 1175869
+  },
+  {
+    "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-backpedal.png",
+    "sha256": "48085d289ef53ec89d813443b9612ff708c4131f95b4b13072b5ff84658cdb9d",
+    "bytes": 1314534
+  }
+]

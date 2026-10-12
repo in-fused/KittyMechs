@@ -1,0 +1,155 @@
+{
+  "reviewer": "/root/critic",
+  "decision": "APPROVE",
+  "reviewedAt": "2026-10-05T03:31:48.612Z",
+  "fingerprint": "b1c3dd3f9eb889c2c7d05cc5e164722c6c60edf2abbc05b1e39a139ff5e80b7d",
+  "scope": "Bounded v16 Rainline expansion, four generated basecolor maps, static-cell structural integration and realized-travel quadruped gait. Neither broader goal completion nor public deployment approval.",
+  "areas": {
+    "mechs": "APPROVE",
+    "maps": "APPROVE",
+    "enemyTactics": "APPROVE",
+    "integration": "APPROVE"
+  },
+  "sourceAndCompiledBinding": {
+    "receipt": "candidate003-binding.json",
+    "compiledSourceFiles": 524,
+    "compiledDistFiles": 81,
+    "compiledTotalFiles": 605,
+    "allManifestBytesVerified": true,
+    "all30V15ModelsAnd21PriorMapsByteIdentical": true,
+    "previousSource": "bab399705a844b7b1a45cd628365de31e71815bc",
+    "manifestSha256": "8cf6c744d5576941750d3bee4d4d7d7d65c85e73cc50fadaaf8980e78e2fb140",
+    "compiledDistBytes": 31553078,
+    "onlySourceChangeFromQualified002": "Residential sign atlas slot3 becomes neutral slot1; all other source bytes identical to candidate002.",
+    "servedJavaScriptBytesMatch": true,
+    "servedIndex": "Exact canonical index plus source-backed same-origin arena metadata from server/index.ts"
+  },
+  "independentProduction": {
+    "receipt": "runtime-check.json",
+    "completion": "completion.json",
+    "ordinaryDedicatedPounceRoute": true,
+    "stylesViewed": [
+      "residential",
+      "transit",
+      "civic",
+      "works"
+    ],
+    "normalRedeploys": 2,
+    "matchedSpawnGeometries": 104,
+    "matchedSpawnTextures": 54,
+    "allThreeHangarWorldCanvasSnapshotAndTerrainLeaseClears": true,
+    "acceptedDamage": "extension0 west cell1, supports0/1 and dependent roof-sector0 retired in actual authority and displayed geometry; surviving north grip reaches a grounded supported roof",
+    "noFloatingOwnedDecorInViewedOpeningAndSectorHole": true,
+    "observedStrongPlantSlipMaxMeters": 0.010076027764689898,
+    "observedStrongSoleErrorMaxMeters": 0.0001603466887870192,
+    "pageErrors": 0,
+    "assetHttpErrors": 0,
+    "contextsClosed": true,
+    "browserClosed": true
+  },
+  "rootComplementaryProduction": {
+    "receipt": ".sites-runtime/city-expansion/root-browser-004/.last-run.json",
+    "casesPassed": 3,
+    "scope": "Held/failing optional-art handoff, ordinary spawn-to-roof/forms/jump/facade pulse and real late-join full mask/mesh. Opening and upright-roof screenshots independently viewed."
+  },
+  "transport": {
+    "receipt": "binding-network-audit.json",
+    "clients": 8,
+    "scope": "38-second real loopback TCP co-op clients, seven healthy while receiver8 pauses for eight seconds; not eight rendered clients",
+    "sameTickStructureMismatches": 0,
+    "wholeSnapshotMaximumBytes": 32946,
+    "healthyStructureBytes": 14909,
+    "receiverRecoveryMs": 63.1711,
+    "finalTickLag": 0,
+    "allNormal1000Closes": true,
+    "worstValidStructureBudget": "Separate full-precision CPU proof: representative36720B, conservative45566B <49152B. This is not a 32KiB whole-snapshot claim."
+  },
+  "cost": {
+    "movingReceipt": "../moving-browser-002-audit.json",
+    "movingScope": "One Pounce guest, medium1440x900/defaultcamera10, sixteen-and-a-half-second common-spawn W/S/D/A loop",
+    "baselineMeanFPS": 56.82368905706053,
+    "candidateMeanFPS": 56.915540969778576,
+    "meanFPSChangePercent": 0.16164369867963657,
+    "bothP95Ms": 18.2,
+    "bothMaximumMs": 18.8,
+    "bothFramesOver50Ms": 0,
+    "matchedBeforeRenderDelta": {
+      "calls": 2,
+      "triangles": 146576,
+      "geometries": 2,
+      "textures": 4
+    },
+    "sourceEightPlayerTickSample": {
+      "actors": 21,
+      "ticks": 900,
+      "meanMs": 2.091249,
+      "p95Ms": 3.0572,
+      "p99Ms": 9.9502,
+      "maxMs": 37.2984,
+      "above16_67Ms": 3
+    },
+    "v15TickSample": {
+      "actors": 18,
+      "meanMs": 1.434886111111114,
+      "p95Ms": 2.1988,
+      "p99Ms": 4.4897,
+      "above16_67Ms": 0
+    }
+  },
+  "closedSourceFindings": [
+    "CITY GRID owns its terminal/guardian/LOS/EMP origins and follows actual roof/support state.",
+    "Same-frame Beacon support retirement uses a synchronous presented-state listener.",
+    "Realized quadruped speed uses raw callback elapsed time while smoothing alone is capped; raised support remains released during stop fade.",
+    "Memoized seed-generation owner prevents ready disposed maps returning during same-mounted seed reversal; original and actual installed-hook repaired receipts retained.",
+    "ServiceClimb excludes all eighty extension routes from unowned broad accents; original rail mismatch and fresh independent opening pixels retained.",
+    "Residential repair-service atlas cue replaced with neutral district lettering; candidate003 actual pixels independently viewed."
+  ],
+  "nonblockingLimits": [
+    "The expanded city remains flat, repetitive and sparse in detail/activity; this is not realistic-city or AAA fidelity completion.",
+    "Civic trim crosses portions of its sign and civic window readability is weak (P3).",
+    "Narrow authored strips remain; no universal exterior/corner/airborne traversal or all-map population approval.",
+    "Roof-sector removal and visual fragments are not credible whole-building collapse, resting collision rubble or new damageable classes on other maps.",
+    "Later camera diagnostic rows in the independent redeploy run are stale because normal Return removes debug=1; their zero-violation values are excluded. Actual screenshots/control/render/contact/stream evidence remains valid.",
+    "Discrete contact rows are not continuous all-paw corner or dynamic-platform qualification. One partial-weight0.785 plant had63mm drift; the reported strong metrics use the retained >0.8 gate.",
+    "Resource counts are per renderer; no VRAM/process-wide renderer retention or long-session endurance claim.",
+    "No eight-rendered-player FPS, input-latency benchmark, public WAN backpressure threshold, universal smoothness or frame-rate improvement claim.",
+    "Generated reference bank55images/16movies and943.75credits is retained source; only four basecolor maps are admitted in this candidate. No new game clips, generated meshes or matched PBR set.",
+    "First helper/input/readiness/unit failures and rejected source/texture attempts remain preserved; no retrospective attribution to a game failure."
+  ],
+  "publicationVerificationPending": true,
+  "trackedWrites": false,
+  "gpuReleased": true,
+  "activeCriticProcesses": 0,
+  "report": "docs/critical-review.md",
+  "candidate": "candidate003",
+  "priorDecision": {
+    "decision": "DENY",
+    "candidate": "candidate002",
+    "fingerprint": "a87479c8a9ee3e368b6a22d39879b36a76c624132ef9869c9c5fc367426c391c",
+    "receipt": "review-candidate002.json",
+    "receiptSha256": "a53affa324c9701c622f0253f92dca0af1d8eaed9e8423e0adc8299936d9176a",
+    "report": "review-candidate002.md",
+    "reportSha256": "b5153b58b27cc1f51e84127701c8e41a3918983f54b0b811c7be0d43fd16bd7b"
+  },
+  "closedWayfindingBlocker": {
+    "priority": "P2",
+    "original": "wayfinding-finding.json",
+    "repair": "candidate003-sign-pixel-review.json",
+    "ordinaryRuntime": "candidate003-sign.json",
+    "image": "candidate003-residential-sign.png",
+    "imageSha256": "ede3c76b03871a3b727312eb2de8815c9cc224779f11eb7ce36f1a04ff710934",
+    "result": "Residential signs use the neutral district slot1. The actual served candidate facade no longer advertises an unsupported repair station."
+  },
+  "evidenceReuse": {
+    "scope": "Candidate002 route, lifecycle, moving RAF, network and CPU qualifications corroborate unchanged candidate003 behavior. Their source/build labels remain candidate002, not restamped as new runs.",
+    "reason": "All 524 source files are byte-identical except the neutral residential sign-slot selection. All four admitted textures, authority, collisions, input, transport and gait source are unchanged.",
+    "finalCandidateFreshChecks": "All 605 immutable source/dist files; fingerprint; eight served JS files; source-backed served index; a new ordinary residential route, loaded-art/ground contact, screenshot and normal hangar cleanup."
+  },
+  "areaJudgments": {
+    "mechs": "Realized-travel quadruped gait and lean repair passes bounded long-frame, blocked/stalled and support-fade source/CPU evidence; unchanged rigs/strength/upright clips are not new fidelity work.",
+    "maps": "The Rainline extension is a useful bounded increase in connected buildings and supported routes. Actual facade opening and dependent roof-sector loss agree with their displayed masks, including attached details. Neutral residential signage closes the blocking wayfinding defect. Repetitive styles and civic sign occlusion remain qualified limits.",
+    "enemyTactics": "CITY GRID has actual guardian, terminal/LOS/EMP and support dependencies. Structural state remains full precision and monotonic; eight real co-op receivers agree at shared ticks. This is selective cell/sector destruction rather than whole-building collapse.",
+    "integration": "Exact source/build binding, guarded optional art, repaired generation ownership, actual fallback and hangar/redeploy evidence pass. Cost is measured in a narrow one-pilot route and separate eight-client/source tick samples; final public/native/served-byte closure remains pending."
+  },
+  "finalOwnedEvidenceFrozen": true
+}

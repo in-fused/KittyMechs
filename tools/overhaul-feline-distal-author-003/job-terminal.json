@@ -1,0 +1,23 @@
+{
+  "sessionId": 30223,
+  "launchUTC": "2026-10-10T13:39:38Z",
+  "initialWaitSeconds": 10.0058202,
+  "exitCode": 1,
+  "completionObservedByUTC": "2026-10-10T13:40:23Z",
+  "lastArtifactWriteUTC": "2026-10-10T13:39:57.8735434Z",
+  "rawFailureClock": "2026-10-10T09:39:52.577466-04:00",
+  "semanticFailureUTC": "2026-10-10T13:39:52.0000000Z",
+  "terminalPreservation": "Tool transcript session30223 contains full stdout; this file is a labeled summary plus exact preserved Python traceback",
+  "stdoutSummary": [
+    "Saved Pounce_FelineDistal_Author_003.execution-failed.blend",
+    "glTF export completed in0.40900278091430664s",
+    "Three declared same-state PNGs saved",
+    "RuntimeError: SOURCE_SOLID_OPEN_OR_NONMANIFOLD:FelineDistal_FL_anklePlate_002",
+    "Blender quit, exit1"
+  ],
+  "exactPythonTraceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-distal-author-003\\author.py\", line 605, in <module>\n    try:main()\n        ^^^^^^\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-distal-author-003\\author.py\", line 457, in main\n    assemblies,recipe=build_mechanics(rig,list(rigid.data.materials),rest,skin);finish=authored_finish(skin,rigid)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-distal-author-003\\author.py\", line 378, in build_mechanics\n    assemblies.extend(fitted_plates(skin,rig,materials))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-distal-author-003\\author.py\", line 415, in fitted_plates\n    e['owner']='WEIGHTED:'+limb;e['skinMountVertexMap']={i:old for old,i in mapping.items()};e['actualSourceTriangleIndices']=sorted(component);e['solid']=check_solid(plate);e['restVertices']=[list(v.co) for v in plate.data.vertices];assemblies.append(e)\n                                                                                                                                                           ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-distal-author-003\\author.py\", line 348, in check_solid\n    if any(n!=2 for n in edges.values()):raise RuntimeError('SOURCE_SOLID_OPEN_OR_NONMANIFOLD:'+obj.name)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SOURCE_SOLID_OPEN_OR_NONMANIFOLD:FelineDistal_FL_anklePlate_002\n",
+  "processExecutable": "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+  "processPID": "NOT_OBSERVED_BEFORE_PROCESS_EXIT",
+  "command": "& 'D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe' --background 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend' --python-exit-code 1 --python 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-feline-distal-author-003/author.py'",
+  "forcedTermination": false
+}

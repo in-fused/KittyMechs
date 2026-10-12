@@ -1,0 +1,138 @@
+{
+  "round": "050",
+  "frozenUTC": "2026-10-11T01:04:55.3872970Z",
+  "files": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 12289,
+      "sha256": "3652822b130c7dac526d20182fb8db1222032f7b497e6f8cc8291bf8f82c3c43"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4605,
+      "sha256": "d2f9caaeb5784b540ebaaf3431f87d0c8bf0c487c67adb4604f830fc6f57a091"
+    },
+    {
+      "path": "src/game/entities/movingRecoil050.ts",
+      "bytes": 2935,
+      "sha256": "19d0fff12fa2538d720b6e16a08e23214e22059ea92e3106b6e11e48eb5217b1"
+    },
+    {
+      "path": "src/game/entities/movingRecoil050Manifest.json",
+      "bytes": 3163,
+      "sha256": "9b55e9537441cfaf5b6833b95213d4e54d8a408c7f988f5589dc077acc0cd113"
+    },
+    {
+      "path": "public/assets/models/Pounce_MovingRecoil050.glb",
+      "bytes": 38480,
+      "sha256": "d363e8d71a19f214181e8eba137eb6ebe9a95a7c32587e49f81eff450949dae5"
+    },
+    {
+      "path": "tests/moving-recoil-050.test.ts",
+      "bytes": 10555,
+      "sha256": "d3f4e0f024233beeb34e4d5ebc84d3e90e69b1815e51ddf244f907574863b024"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/Pounce_MovingRecoil050.glb",
+      "bytes": 38480,
+      "sha256": "d363e8d71a19f214181e8eba137eb6ebe9a95a7c32587e49f81eff450949dae5"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/manifest.json",
+      "bytes": 3163,
+      "sha256": "9b55e9537441cfaf5b6833b95213d4e54d8a408c7f988f5589dc077acc0cd113"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/provenance.json",
+      "bytes": 1203,
+      "sha256": "b29c17fa2dba2752a81ce22624a423c7125c388ee50e6ded41ab048c72cbe8cf"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/process-receipt.json",
+      "bytes": 2938,
+      "sha256": "b1b5ef7bf93c587864f55b6deff6ddb79bac7004d76485629b48c49e2b3de419"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/prepare-clip.py",
+      "bytes": 8813,
+      "sha256": "e6e024ef258354ef1311d39742a8ce40a48a3e61c7b0334e59a1e048dce98cb2"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/processor-handoff.json",
+      "bytes": 1300,
+      "sha256": "fbd9b53431a42c4a45972611cb2b97a1cc3c198f1b039c0d740a07f49149aea7"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/processor-seal.json",
+      "bytes": 441,
+      "sha256": "afd830a3db18fe248bbebfe7293ef62a35702c26530c6d12026100f914ce6234"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/runtime-helper-draft.txt",
+      "bytes": 2935,
+      "sha256": "19d0fff12fa2538d720b6e16a08e23214e22059ea92e3106b6e11e48eb5217b1"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/runtime-owner-draft.txt",
+      "bytes": 12289,
+      "sha256": "3652822b130c7dac526d20182fb8db1222032f7b497e6f8cc8291bf8f82c3c43"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/runtime-test-draft.txt",
+      "bytes": 10555,
+      "sha256": "d3f4e0f024233beeb34e4d5ebc84d3e90e69b1815e51ddf244f907574863b024"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/preimages/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-050.md",
+      "bytes": 2925,
+      "sha256": "65ecbace8db901e871a18e5c193166916e025a0e9f0b4274700a56f186a8f3e9"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/read-authored-clips.ts",
+      "bytes": 2110,
+      "sha256": "0932f910490a3bad1ee3af1f0122c6996e9853d0c6b4624be2c3224450710d30"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    }
+  ],
+  "protected": [
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "bytes": 77650342,
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463"
+    }
+  ],
+  "handoff": {
+    "path": "tools/overhaul-moving-recoil-050/source-handoff.json",
+    "sha256": "b7e4b4ae1eb591f5eaa9784fb869a275c63cd9c956de7b20714c6e15bd486a77"
+  },
+  "writersClosed": true
+}

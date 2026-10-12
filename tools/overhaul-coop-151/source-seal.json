@@ -1,0 +1,62 @@
+{
+  "writer": "CLOSED",
+  "candidate": "cooperativePlanning151",
+  "publicCandidate": "UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-151/checks-receipt.json",
+      "bytes": 806,
+      "sha256": "1906bfc301fcc7c70deb8a025ceea9ceb4808780e049acd2d3cfcb3cb161d1d3"
+    },
+    {
+      "path": "tools/overhaul-coop-151/exposure-planner.mjs",
+      "bytes": 10842,
+      "sha256": "d3788d5bfac3ef3d5e43a854808d005753dd3f4565f87c8c13ce3a6e088a6944"
+    },
+    {
+      "path": "tools/overhaul-coop-151/HANDOFF.md",
+      "bytes": 5190,
+      "sha256": "4123f23f6ef7bd9a85cf1bf3bb0df939657664c717027ab9a47a33ef99d030bc"
+    },
+    {
+      "path": "tools/overhaul-coop-151/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-151/mission-capture.mjs",
+      "bytes": 47709,
+      "sha256": "24036b7f8b247bf0181e7c25a2e909f03cb3e4c56c7effec21830c3db7176e0f"
+    },
+    {
+      "path": "tools/overhaul-coop-151/planner.test.mjs",
+      "bytes": 3129,
+      "sha256": "dcf8f3669a61f2f62c78af4c57c756ccd14227aacfce1d36fbbabd190d3f92e6"
+    },
+    {
+      "path": "tools/overhaul-coop-151/planning-read.mjs",
+      "bytes": 3590,
+      "sha256": "f472cf31d9e0e629fce371e2c517abb803c87c08adda526468a6d29cd25e1ebd"
+    },
+    {
+      "path": "tools/overhaul-coop-151/preimages/exposure-planner.mjs",
+      "bytes": 9395,
+      "sha256": "2eb17b52894fc361ab7d7dc1631f1b9a4e0d043cc201458d1a898118a8e7e4b5"
+    },
+    {
+      "path": "tools/overhaul-coop-151/preimages/mission-capture.mjs",
+      "bytes": 47518,
+      "sha256": "8b567915703a95d3014b36b041922f466430fbbc2605eccbfe43f39781829ab8"
+    },
+    {
+      "path": "tools/overhaul-coop-151/protected-inputs.json",
+      "bytes": 3235,
+      "sha256": "8d2ff8a4fe08b87286b003cbe1faaae836460dd2b2cc531d726d2c95d16ff318"
+    },
+    {
+      "path": "tools/overhaul-coop-151/vitest.config.mjs",
+      "bytes": 154,
+      "sha256": "e224a81bfafceca447b84facd7446824f5d02bd5b217e8c93c0ad6974bebe2fc"
+    }
+  ]
+}

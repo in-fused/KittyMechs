@@ -1,0 +1,140 @@
+{
+  "packet": "058",
+  "writersClosed": true,
+  "handoff": {
+    "path": "tools/overhaul-camera-058/source-handoff.json",
+    "bytes": 5769,
+    "sha256": "e413b23d2d3b4448d2e20388a23121ef110a27996928d59a8bd2dfaa47c3576e"
+  },
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/world/Objectives.tsx",
+      "bytes": 4271,
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66"
+    },
+    {
+      "path": "src/game/camera/visualOccluders058.ts",
+      "bytes": 2229,
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948"
+    },
+    {
+      "path": "src/game/camera/thirdPersonSight058.ts",
+      "bytes": 2610,
+      "sha256": "0f142e9399227e9326d60e97f5a7788e7867eeef74391e7ca385be47504886c7"
+    },
+    {
+      "path": "tests/camera-body-orbit-058.test.ts",
+      "bytes": 7918,
+      "sha256": "cb0d705e289ce0164f10a902ed756a79ae345a7905f9453e077b0859dd27ce7e"
+    },
+    {
+      "path": "docs/overhaul/camera-058.md",
+      "bytes": 4859,
+      "sha256": "3c2846795e5b38b187f214ec421e2340b12f5e7266dc4cca933f9865034a9032"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": "src/game/camera/pairFraming.ts",
+      "bytes": 3190,
+      "sha256": "2c4eb4167cdf526c7b40fbac8b48cbdbc3e8412ca697ff7828527360d87aa249"
+    },
+    {
+      "path": "src/game/camera/viewAim.ts",
+      "bytes": 1113,
+      "sha256": "4c456fa05550729204b34f7abfa79bdd965d88424ecce4350e89c3784a542c6c"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4192,
+      "sha256": "69dfb7b1727cc7c8edb4829ad2c5975d91c301f46489334890f3834d6c99871c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-camera-058/preimages.json",
+      "bytes": 1000,
+      "sha256": "1b47a163f337ac68bfc43c42e9bf2675b478cc928ed8cae5625b4e2b1c0c414b"
+    },
+    {
+      "path": "tools/overhaul-camera-057/source-handoff.json",
+      "bytes": 3521,
+      "sha256": "ffcd3c1ab802de320b03f74b1b260c99d7d93be98914b048344d11188ea6b47c"
+    },
+    {
+      "path": "tools/overhaul-camera-057/source-seal.json",
+      "bytes": 1487,
+      "sha256": "a8e514d3f50b4b8e40268b56f8d0e96fb7ff945ddd660c3bb40e925849bc6faa"
+    },
+    {
+      "path": "docs/overhaul/critic/play-experience-057-result-review.md",
+      "bytes": 5416,
+      "sha256": "ab99a58efd9a1e1d40d3f64d9528e10396cf88142c4cec63738a61965d0697ed"
+    },
+    {
+      "path": "tools/overhaul-camera-058/preimages/src__game__camera__CameraRig.tsx",
+      "bytes": 10236,
+      "sha256": "4b1b4eb2475eacad3e74ed5cf76c1d172a08de77a6d47dd50addf48222784beb"
+    },
+    {
+      "path": "tools/overhaul-camera-058/preimages/src__game__camera__framing.ts",
+      "bytes": 4395,
+      "sha256": "45f4f3429069db60c98a28bbe4dafed8ae8b02ab701e23c4deb0ee634885ed41"
+    },
+    {
+      "path": "tools/overhaul-camera-058/preimages/src__game__camera__visualRegistry.ts",
+      "bytes": 2434,
+      "sha256": "2b0c29d74ebd61be0c7bec5ed3d1508aad526e02f8dcaec3dea97e6cdacc8dfe"
+    },
+    {
+      "path": "tools/overhaul-camera-058/preimages/src__game__world__Objectives.tsx",
+      "bytes": 4045,
+      "sha256": "29cb356ebd914234b90f7ef45899dc231447a196683d7a699b796e07a1c7a84d"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+/** Private assembled module: null delivery retains every existing062 route. */
+export function ActorsCandidate218({delivery=null,onRegistry}:{delivery?:PrivateDelivery218|null;onRegistry?:(reader:(()=>unknown)|null)=>void}){
+  const preview=useGameStore(s=>s.settings.felinePrototype);
+  const registry=useMemo(()=>createRegistry218(),[]);
+  const attempt=useRef({preview,serial:0});if(attempt.current.preview!==preview){attempt.current.preview=preview;if(preview)attempt.current.serial++;}
+  useEffect(()=>{onRegistry?.(()=>registry.read());return()=>onRegistry?.(null);},[registry,onRegistry]);
+  useEffect(()=>{if(!preview)resetFelineFallback008();},[preview]);
+  const [,pendingRevision]=useState(0);useEffect(()=>{const changed=()=>pendingRevision(n=>n+1);window.addEventListener(FELINE_PROTOTYPE_EVENT008,changed);window.addEventListener(POSE_PENDING_EVENT004,changed);window.addEventListener(PRACTICAL_MOTION_EVENT001,changed);window.addEventListener(PRACTICAL_MOTION_EVENT002,changed);window.addEventListener(IDENTITY57_EVENT005,changed);return()=>{window.removeEventListener(FELINE_PROTOTYPE_EVENT008,changed);window.removeEventListener(POSE_PENDING_EVENT004,changed);window.removeEventListener(PRACTICAL_MOTION_EVENT001,changed);window.removeEventListener(PRACTICAL_MOTION_EVENT002,changed);window.removeEventListener(IDENTITY57_EVENT005,changed);};},[]);
+  const [roster,setRoster]=useState<Pick<ActorState,'id'|'name'|'chassis'|'bot'|'role'>[]>([]);const ids=useRef('');
+  useFrame((frame,dt)=>{
+    const actors=runtime.snapshot?.actors??[];
+    registry.observe(actors,runtime.generation,delivery?.contract.sha256??null);
+    for(const actor of actors){
+      if(privateRequested218(actor,preview,delivery,identity57Selected005(actor))){updateTemporaryFeline154(actor.id,actor.jumpEpoch,null);continue;}
+      if(!publicFelineRequested008(actor)){updateTemporaryFeline154(actor.id,actor.jumpEpoch,null);continue;}
+      const p=sampleRenderActor(actor.id,frame.clock.elapsedTime,dt);if(!p)continue;
+      const peer=p.state.pair?actors.find(a=>a.id===p.state.pair!.other):undefined;
+      updateTemporaryFeline154(actor.id,p.state.jumpEpoch,unsupportedSourceAction154({...p.state,climb:p.climb,strike:p.strike},p.time,!!peer&&(identity57Selected005(peer)||publicFelineRequested008(peer))));
+    }
+    const key=actors.map(a=>`${a.id}:${a.chassis}:${a.role??''}:${privateRequested218(a,preview,delivery,identity57Selected005(a))?`${runtime.generation}:${delivery!.contract.sha256}`:publicFelineSelected008(a)}`).join(',');
+    if(key!==ids.current){for(const old of roster)if(!actors.some(a=>a.id===old.id))forgetTemporaryFeline154(old.id);ids.current=key;setRoster(actors.map(({id,name,chassis,bot,role})=>({id,name,chassis,bot,role})));}
+  },-2);
+  return <>{roster.map(actor=>{const candidate=felinePoseOwnerCandidate(actor),native=privateRequested218(actor,preview,delivery,identity57Selected005(actor));
+    if(native)return <NativeSlot218 key={`${actor.id}:${runtime.generation}:${delivery!.contract.sha256}:${attempt.current.serial}`} resetToken={`${runtime.generation}:${delivery!.contract.sha256}:${attempt.current.serial}`} actor={actor} generation={runtime.generation} delivery={delivery!} registry={registry} fallback={<Actor actor={actor}/>}/>;
+    return <Suspense key={actor.id} fallback={null}>{identity57Selected005(actor)?<Identity57RuntimeActor007 actor={actor}/>:publicFelineSelected008(actor)?<Identity57RuntimeActor034 actor={actor}/>:practicalMotionSelected002(actor)?<PracticalFelineMotionActor002 actor={actor}/>:practicalMotionSelected001(actor)?<PracticalFelineMotionActor001 actor={actor}/>:candidate?<FelinePoseOwnerActor actor={actor} candidate={candidate}/>:<Actor actor={actor}/>}</Suspense>;
+  })}</>;
+}

@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_ONLY_COMPILER_IDENTITY_PASS",
+  "files": [
+    {
+      "path": "tools/overhaul-startup-220/compiler-identity.mjs",
+      "bytes": 2785,
+      "sha256": "0099d92c4c90d11cf339a8612d39b9f7806fa46425d111ec71ff7dd391ed8f92"
+    },
+    {
+      "path": "tools/overhaul-startup-220/compiler-identity-receipt.json",
+      "bytes": 703,
+      "sha256": "3c2def281d5a2c805badccdcc8326293768f936a470f09d4b194b35024ff1151"
+    },
+    {
+      "path": "tools/overhaul-startup-220/source-seal.json",
+      "bytes": 2825,
+      "sha256": "5708c1d217ba0072ab4cc99d9bc1a05d45e20c8849afb2c7aeabd29d8a10be33"
+    },
+    {
+      "path": "tools/overhaul-startup-220/supplement/source-seal.json",
+      "bytes": 4234,
+      "sha256": "6feea10565fe772d19130ed9c156fa416e42c0c2c45e728ad4a0bd2edbfbac50"
+    }
+  ]
+}

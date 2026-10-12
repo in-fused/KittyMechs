@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "author.py",
+      "namespaceNormalizedEqualToDeclaredDiff": true,
+      "originalSHA256": "4e3dcff78257fd7a0c65edffa87829b68e600c66abf42d14d0c2fd29bd6a3e71",
+      "newSHA256": "690adb6949bd12d4b4b21cd437744f4a50d8e914b1f68cbf9d9efe41335a0a22"
+    },
+    {
+      "file": "source_helpers.py",
+      "namespaceNormalizedEqualToDeclaredDiff": true,
+      "originalSHA256": "09ab9ff4e16a4d95b936b9ad3982db35429dea97761f3b60186e1282f07fe8fd",
+      "newSHA256": "530242be882057257d23efd56074b006b56913a8f148f06e78b4336d3f6bb6b2"
+    },
+    {
+      "file": "wholebody_choreography.py",
+      "namespaceNormalizedEqualToDeclaredDiff": true,
+      "originalSHA256": "c57decfb6efeb6cf0fa605a215d3b21f99dca12ab09d522c0a30312f2289ab32",
+      "newSHA256": "68da3472c76ba31fe6acf39304c3d4833a8e5a0e8b65162346ca45ad624b5de3"
+    }
+  ],
+  "checkedUTC": "2026-10-10T19:42:27.1466598Z",
+  "allMatch": true,
+  "changes": [
+    "immutable tuple identity names",
+    "separate mutable destination list",
+    "actual loaded action exact name check"
+  ],
+  "normalization": "explicit namespace tokens and trailing line endings only; numeric constants unchanged"
+}

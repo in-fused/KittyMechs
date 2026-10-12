@@ -1,0 +1,12 @@
+{
+  "closedUTC": "2026-10-10T20:49:21.6551854Z",
+  "verdict": "ACCEPT_126_EXACT_SAVED_SURFACE_INTERSECTIONS_ONLY",
+  "review": "docs/overhaul/critic/pounce-paired-route-029-diagnostic-result-review.md",
+  "reviewSHA256": "B8B23D1305231356350B54BDE2898458CBB5E6E208033E801D7AE686C6595111",
+  "resultSealSHA256": "19318352DA83383D66C604DD4D66D39FE6D78CE2579DF1E34BDC41231D8E9A66",
+  "sealedMatches": 3,
+  "independentlyRecheckedBothTriangleWitnesses": 126,
+  "penetrationDepth": "UNMEASURED",
+  "nativePlayArt": "UNQUALIFIED",
+  "gate1": "INCOMPLETE"
+}

@@ -1,0 +1,24 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_STATIC_COMPARATOR_FAILURE",
+  "command": "node tools/overhaul-startup-220/static-check.mjs",
+  "exitCode": 1,
+  "message": "AssertionError [ERR_ASSERTION]: Only retained prerequisite scheduling/cache URL alias may differ",
+  "cause": "Raw CRCRLF preimage versus universal-newline copied candidate; first comparator did not normalize EOL before reversing literal edits. No candidate semantic/quality test reached.",
+  "rawToolOutput": "Tool output contained full large assertion diff, truncated12044tokens; full stderr was not saved locally. Original failed script and exact operands/preimages preserved.",
+  "initialSeal": {
+    "path": "tools/overhaul-startup-220/source-seal.json",
+    "bytes": 2825,
+    "sha256": "5708c1d217ba0072ab4cc99d9bc1a05d45e20c8849afb2c7aeabd29d8a10be33"
+  },
+  "originalFailedScript": {
+    "path": "tools/overhaul-startup-220/static-check.mjs",
+    "bytes": 2181,
+    "sha256": "d9cb140d2ada44c066d3ddc4d631cad1124f191c6cd4964d6e7c990ee525a4e7"
+  },
+  "candidateUnchanged": {
+    "path": "tools/overhaul-startup-220/GameCanvas220.tsx",
+    "bytes": 11379,
+    "sha256": "451230681f32e70bc32de7356c7d232b406b955d3908322f9e4363fd86d5a561"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "launch": {
+    "n": 1,
+    "rearStanceMax": 2.2133127385201512e-08,
+    "rearModes": {
+      "stance": 2
+    },
+    "allReasons": {
+      "none": 4
+    }
+  },
+  "stage-clear-beacon": {
+    "n": 8,
+    "rearStanceMax": 1.5522007397654133e-07,
+    "rearModes": {
+      "stance": 9,
+      "swing": 6,
+      "recovery": 1
+    },
+    "allReasons": {
+      "none": 30,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 2
+    }
+  },
+  "settle": {
+    "n": 5,
+    "rearStanceMax": 1.3098040915576224e-07,
+    "rearModes": {
+      "swing": 2,
+      "stance": 8
+    },
+    "allReasons": {
+      "none": 20
+    }
+  },
+  "standing-up": {
+    "n": 5,
+    "rearStanceMax": 1.3718219999918465e-07,
+    "rearModes": {
+      "stance": 10
+    },
+    "allReasons": {
+      "none": 16,
+      "SOURCE_FRONT_UNLOAD": 4
+    }
+  },
+  "standing-down": {
+    "n": 5,
+    "rearStanceMax": 1.4957025827050039e-07,
+    "rearModes": {
+      "stance": 10
+    },
+    "allReasons": {
+      "SOURCE_FRONT_UNLOAD": 4,
+      "none": 14,
+      "NO_FIXED_REACHABLE_SUPPORT": 2
+    }
+  },
+  "forward": {
+    "n": 5,
+    "rearStanceMax": 2.3668937226991418e-07,
+    "rearModes": {
+      "stance": 6,
+      "swing": 4
+    },
+    "allReasons": {
+      "none": 20
+    }
+  },
+  "moving-up": {
+    "n": 7,
+    "rearStanceMax": 2.3907597057944686e-07,
+    "rearModes": {
+      "stance": 9,
+      "swing": 1
+    },
+    "allReasons": {
+      "none": 15,
+      "STEP_SUPPORT_UNAVAILABLE": 1,
+      "SOURCE_FRONT_UNLOAD": 4
+    }
+  },
+  "moving-down": {
+    "n": 7,
+    "rearStanceMax": 0.006759939924632793,
+    "rearModes": {
+      "stance": 9,
+      "swing": 1
+    },
+    "allReasons": {
+      "SOURCE_FRONT_UNLOAD": 2,
+      "none": 16,
+      "NO_FIXED_REACHABLE_SUPPORT": 2
+    }
+  },
+  "backward": {
+    "n": 5,
+    "rearStanceMax": 0.202329773525841,
+    "rearModes": {
+      "stance": 6,
+      "swing": 3,
+      "recovery": 1
+    },
+    "allReasons": {
+      "none": 16,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 4
+    }
+  },
+  "backward-up": {
+    "n": 7,
+    "rearStanceMax": 1.184218749269829e-07,
+    "rearModes": {
+      "stance": 9,
+      "swing": 5
+    },
+    "allReasons": {
+      "none": 18,
+      "SOURCE_FRONT_UNLOAD": 10
+    }
+  },
+  "backward-down": {
+    "n": 7,
+    "rearStanceMax": 1.4629902778372247e-07,
+    "rearModes": {
+      "swing": 8,
+      "stance": 5,
+      "recovery": 1
+    },
+    "allReasons": {
+      "SOURCE_FRONT_UNLOAD": 6,
+      "none": 20,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 2
+    }
+  },
+  "turning": {
+    "n": 5,
+    "rearStanceMax": 5.188621308672194e-07,
+    "rearModes": {
+      "stance": 6,
+      "swing": 4
+    },
+    "allReasons": {
+      "none": 17,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 3
+    }
+  },
+  "turning-up": {
+    "n": 8,
+    "rearStanceMax": 1.2917575000017251e-07,
+    "rearModes": {
+      "recovery": 1,
+      "swing": 9,
+      "stance": 6
+    },
+    "allReasons": {
+      "none": 20,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 1,
+      "NO_FIXED_REACHABLE_SUPPORT": 1,
+      "SOURCE_FRONT_UNLOAD": 10
+    }
+  },
+  "turning-down": {
+    "n": 8,
+    "rearStanceMax": 1.1263190124917895e-07,
+    "rearModes": {
+      "swing": 7,
+      "stance": 8,
+      "recovery": 1
+    },
+    "allReasons": {
+      "SOURCE_FRONT_UNLOAD": 6,
+      "none": 25,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 1
+    }
+  },
+  "left": {
+    "n": 5,
+    "rearStanceMax": 1.3876820104367443e-07,
+    "rearModes": {
+      "stance": 3,
+      "swing": 7
+    },
+    "allReasons": {
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 4,
+      "none": 16
+    }
+  },
+  "right": {
+    "n": 5,
+    "rearStanceMax": 1.2617691397475843e-07,
+    "rearModes": {
+      "swing": 7,
+      "stance": 2,
+      "recovery": 1
+    },
+    "allReasons": {
+      "none": 17,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 3
+    }
+  },
+  "final-rest": {
+    "n": 6,
+    "rearStanceMax": 2.1441173962942513e-07,
+    "rearModes": {
+      "stance": 12
+    },
+    "allReasons": {
+      "none": 24
+    }
+  },
+  "resumed": {
+    "n": 4,
+    "rearStanceMax": 1.992090818159427e-07,
+    "rearModes": {
+      "stance": 5,
+      "swing": 3
+    },
+    "allReasons": {
+      "none": 15,
+      "FIXED_CHAIN_UNREACHABLE_RELEASE": 1
+    }
+  }
+}

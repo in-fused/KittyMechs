@@ -1,0 +1,170 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/motion042-build-b-process/process-receipt.json",
+      "bytes": 12520,
+      "sha256": "e33da5e1d740fa9a736ca1708d1abf71d37c81af6e4ef5d605ae2ff15ea31dfb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/motion042-build-b-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "62219282a29b4958307a9236aa334ab27885bed9e3575d19a5bb71e06b681a55"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/motion042-test-b-process/process-receipt.json",
+      "bytes": 12687,
+      "sha256": "ef80cf472acfa8f7fcca7ca2974fb783709623dcfa683c51f793ad965792fe35"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/motion042-test-b-process/stdout.txt",
+      "bytes": 233,
+      "sha256": "2898d1f6835fb9caa85729c3216f202d68f0a681e7ce53dc85917a6ccb64abde"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/evidence.json",
+      "bytes": 2079730,
+      "sha256": "c1d0bab98fce2003bb0410f89517ef1bb3bf91ad00ce45102b2a3d2e35d29ce8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/idle.png",
+      "bytes": 1416845,
+      "sha256": "408c0b0910ebe7f603cf71b2f4b856d6b826ab5c7f02fa23662ef791820b01f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/moving-fire.png",
+      "bytes": 1362852,
+      "sha256": "2a13a9c5542c847e10348451d0e73742067a4d006688f2b4db49497749ee5ae8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/page@dd0c2242b31395ec234318a3aaca7156.webm",
+      "bytes": 3106540,
+      "sha256": "ccf7d940a3e450f71641c11bf86c6262902ae1fa60f97fdabd67cdf13ec4c849"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/upright-walking.png",
+      "bytes": 1523723,
+      "sha256": "461d2b5ea4ccd162c67ac08a6d36e04a775660eacad6ec54d6bc307e6349236b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-baseline/walking.png",
+      "bytes": 1362788,
+      "sha256": "1c9d0fa06bcedc18f2c438b0e279354771ed5f3dcafdcc2f9667e0de41f755eb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/evidence.json",
+      "bytes": 2078327,
+      "sha256": "fe72ae164aa310334f2f4f096e5501ae6a27f27f3d9446d4a3695be01c04b557"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/idle.png",
+      "bytes": 1417222,
+      "sha256": "d87efa41aeaa789b048c99808fe376dd056f4c299528238bd61adf17eca4ef43"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/moving-fire.png",
+      "bytes": 1364873,
+      "sha256": "d74ec2603b121b875caf0a2dfe5b60a6f766df5f3667ab8e7adc53ca2eadf033"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/page@93cc38e83d14999e05abb6820678066a.webm",
+      "bytes": 3209819,
+      "sha256": "e338adca7b2e851e698656a7ca3d9d4dbdaccd1551736041542e818acf3cebb1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/upright-walking.png",
+      "bytes": 1523568,
+      "sha256": "67b07a9cd8f6dff55966dbadf50743ce676b1739ec74fdc4adff10c96ebe50f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate/walking.png",
+      "bytes": 1362114,
+      "sha256": "f69aa5a6c29666793e918abf0c8e3647e26b0aa1a25065be76cfdd42b93f4308"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate-process/process-receipt.json",
+      "bytes": 1027,
+      "sha256": "bf20165b4ce502e888971cb56385daf05dd2e98ab511655ff5bae41ac9d23552"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-candidate-process/stdout.txt",
+      "bytes": 673,
+      "sha256": "d4baaf1234f5baa6c3392f4099f2d5f969b94a3a46c53c5e9e59449c9121b03b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-motion/baseline-moving-fire.png",
+      "bytes": 3631142,
+      "sha256": "b81487d095252a204d83185e4eaf64c8b640658ea07ec0ae16885da2db80410c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-motion/baseline-stdout.txt",
+      "bytes": 3215,
+      "sha256": "ea3a982bd76ba796718acaaff2ec740f8067ca030a9b94fb094a839a967b370d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-motion/candidate-moving-fire.png",
+      "bytes": 3721603,
+      "sha256": "a14cb45cf3bbb2eea117feafe6ae6d37fc5035638879de02f70f4f9ba5e9c408"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-motion/candidate-stdout.txt",
+      "bytes": 3218,
+      "sha256": "e39e224cbf0f1dd7e2c8f4a2f3bd8d1fce32defe9da80dd3467fed594e184cc3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-motion/receipt.json",
+      "bytes": 1704,
+      "sha256": "114666ce468d978b9405b16d4df8a143652bee5e449812098e386a715d59d9db"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/evidence.json",
+      "bytes": 767552,
+      "sha256": "1c0d6628c44f0878dd71954a53c0acfe3b787dadde19dd6462be330ea8ce061d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/idle.png",
+      "bytes": 1560739,
+      "sha256": "b726fcbf6ec066b49cb0750f61aa7248d23ddfe20135b607757af396f3c1180d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/moving-fire.png",
+      "bytes": 1599229,
+      "sha256": "8feefa7fe3689cc6a07f52e6a541b345ba626610b6f27f36ff86c029f74d1d82"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/page@ca23a8745b7f9e5e8a68d3fccdf5512a.webm",
+      "bytes": 8512922,
+      "sha256": "7f9379d1647202bc1b1c96d6c00b4c48d087bf03202b6212c408827d80334097"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/upright-walking.png",
+      "bytes": 1529981,
+      "sha256": "36dd43abc9f064f4bf3df6e78932615f8f2e7e5adc51b75f804ce5b54eaadb8a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player042-solo-low/walking.png",
+      "bytes": 1620404,
+      "sha256": "38fe1a7adca610c78defab2488e65fb46befd0fa6202661f01c71cf4a1ca4f23"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-profile/cpu-profile.json",
+      "bytes": 279670,
+      "sha256": "e9b125556bf0bdc8182e401e2b875f6d159d57c76c4c87ed7edafbeae2090c85"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-profile/evidence.json",
+      "bytes": 184554,
+      "sha256": "aad602e6df9d7fd30f4d13718b990495a54546feb381cb9ac6b9ae80e337677a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-profile/idle.png",
+      "bytes": 1559923,
+      "sha256": "44000c6fb058ce10e6682f50269dbf3eb3e2291d7226dde0c74e20ae73811b5d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-profile/page@478f42ae19f50b4137a8341bc7810977.webm",
+      "bytes": 4189578,
+      "sha256": "732bf86632c7b2f2ac16d0b2e961e613edbd020c78153075c2d02ed5f83f4be8"
+    }
+  ],
+  "scope": "Actual042 motion and failedSoloLow timing plus043 profiler; no generalFPS/fullmilestone qualification."
+}

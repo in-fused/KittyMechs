@@ -1,0 +1,56 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_INCOMPLETE",
+  "files": [
+    {
+      "path": "assets/source/overhaul-far-city-199/author199.py",
+      "bytes": 17312,
+      "sha256": "9b59e16648654e23e8e509666c2eba034057ae293172b20a1514de5b7bb7bf90"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-199/preview199.py",
+      "bytes": 3054,
+      "sha256": "bb3079e0209c463387074f40418cb9b3dcffa3652bcfc737fdd14e40e85a5b29"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/HANDOFF.md",
+      "bytes": 3697,
+      "sha256": "898ac7f449a636c36fbf8f7a03b4b021d1a2c30d9c3289f615741a25f2087222"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/ownership-closed.json",
+      "bytes": 651,
+      "sha256": "3d4654bb3d539c80c0352a5021ef67425fdf11cabf917da419aefb4952a6287f"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-active.json",
+      "bytes": 364,
+      "sha256": "ef36e917f053fdf7d9d0a493830fc592b923d521ec182a1d767738225e324f2d"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-receipt.json",
+      "bytes": 534,
+      "sha256": "434d78faadeae0bce04f38322610ef5e75e8fa58262b7c49d833c809ad1ba287"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/protected-inputs.json",
+      "bytes": 8693,
+      "sha256": "529b1b2e049c68ef73f36021eee4c0446fdd0993a63901e11b3d54e9f6ae5787"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/run199.py",
+      "bytes": 1749,
+      "sha256": "87d0165e7fabdc85220e73ea3718434503af3a7eb2a8da4c334a2ff4205e6933"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stderr.txt",
+      "bytes": 578,
+      "sha256": "61be56c675f74fa9977f78964bd3336c31d12e4f4c93c6e814bf6887c9f01228"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stdout.txt",
+      "bytes": 5029,
+      "sha256": "ed22f5c4bb9b0461747614445e4ec0b196c48c5842529517a153aa02f3ad6b04"
+    }
+  ]
+}

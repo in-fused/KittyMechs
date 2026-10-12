@@ -1,0 +1,30 @@
+# Bounded stable open-set candidate
+
+Actual start2026-10-10 05:44:28UTC; deadline06:14:28UTC. Root granted one serial identification/qualification slot; every profile/test/compiler handle closed and slot released by05:48:22UTC. This is one candidate with no algorithm correction loop. Frozen playable build012 remains separate and unchanged by source edits.
+
+The preceding24m city index remains intact. A new isolated V8 profile on the same1123cell roof-pursuer query recorded307.284ms elapsed/453ms whole-process CPU. The direct/final grids made217511/205793 minimum-selection comparisons and exhausted1800cells each. V8 searchGrid recorded49self/176inclusive samples, free24self/75inclusive; repeated point/terrain work also remains substantial. This measured minimum-selection cost justified one stable indexed binary heap, without any further occupancy/terrain/street-graph rewrite.
+
+Root's actual mission018 witness identifies roof-guardian(anchor/patrol), tick5049, from(-34.037769057006145,11.940099705950589,-60.797690398593836) to(-34,11.92,-60.5), result0. Actual live navigation378.427ms, total step389.044ms, bot380.970ms, world.393ms and locomotion5.250ms. This is a real authoritative slow query. The isolated fixture reuses its exact endpoints with recorded filters; it does not replay the full live world, warm caches or private brain. Navigation-relevant structural broken masks/intact HP state matched the bracketing retained mission018 snapshots4357/5087. Query snapshots and bracket ticks are saved explicitly.
+
+The heap stores one open entry per cell. Original minimum scans read each duplicate's current shared cost and select the earliest insertion on an equal score. A decrease therefore updates the indexed entry's score while retaining its first insertion order. Removing later duplicates preserves the unique expansion order: original closed duplicates neither expand cells nor consume the1800 expansion budget. Scores retain the original cost-plus-Math.hypot arithmetic, neighbor iteration order and strict relaxation predicate. Full hull/occupancy predicates, damage invalidation, nearest-cell projection, path-cache behavior, MAX_SEARCH1800, street fallback, repath scheduling, NPC counts/roles/threat, rates and authority inputs are unchanged.
+
+Diagnostic comparison counts now mean heap comparisons; openMax counts unique entries, and duplicate pops are0. Pushes still count accepted relaxations, including decreases. These counter differences are expected observations of the changed data structure, not changed search bounds.
+
+Qualification used four retained queries × three cold-occupancy repeats against the exact pre-heap/post-index Navigation source. All twelve exact waypoint sequences, grid expanded counts, free misses and point-call counts matched. Recorded filters and source geometry were identical within each comparison; props stayed warm through the original accepted-damage invalidation path.
+
+| Query | Before median/max elapsed ms | After median/max elapsed ms | Before/after median process CPU ms |
+| --- | ---: | ---: | ---: |
+| bot-1 → retained host | 215.884 / 345.440 | 150.573 / 176.470 | 235 / 172 |
+| roof-pursuer → retained guest | 206.911 / 235.130 | 137.211 / 152.204 | 235 / 141 |
+| roof guard → retained host | .288 / .995 | .273 / .826 | 0 / 0 |
+| actual018 roof-guardian query | 145.090 / 149.991 | 110.028 / 118.928 | 172 / 125 |
+
+Whole-process CPU spans include process activity and quantize cheap cases to0ms. Three repeats cannot estimate a stable tail; empirical nearest-rank p95 equals the maximum. Separate cold V8 runs measured307.284→266.352ms; their startup/profiler effects differ from the repeated fixture. SearchGrid self samples fell49→17, while free remained28self/86inclusive after and point/terrain work remained visible. Comparisons in the isolated query fell423304→45112. No claim that this eliminates the remaining cost is made.
+
+Focused qualification: `tests/navigation-open-set.test.ts` independently retains the prior array algorithm and checks exact routes through symmetric ties/revisits/blocked failures; queue score decreases preserve earliest insertion ties. Accepted loss of actual spawn-west facade panels1/2 invalidates the prior blocked result and yields the same five-waypoint route as the prior array algorithm. Existing spatial-index tests retain occupied-cell/full-scan equivalence, rotated clearance/bucket coverage and detached cache-copy behavior. Two files/five cases passed with a single worker. Candidate source whole-project typecheck and scoped ESLint passed; the final added damage-oracle case passed afterward, but its additional compiler/lint pass is deferred while Motion owns the serial Blender slot. Root's admission checks should include the final test file.
+
+Artifacts under `.sites-runtime/overhaul-20261009/bot-cpu-002/`: `navigation-before.ts` is the exact pre-heap reference with imports normalized; `profile-before/evidence.json`, `profile-after/evidence.json`, V8 `CPU.20261010.014440.337112.0.001.cpuprofile` and `CPU.20261010.014709.1792.0.001.cpuprofile`; `qualification/evidence.json` preserves exact per-repeat CPU/wall/routes/counters and actual018 geometry bracket. Runner is `tools/overhaul-bot-open-qualify.mjs`.
+
+Final SHA256 handoff: `shared/navigation.ts` BD4A3EDAE445DD41744CBF350A98DE4BA6D76F219859FF63FE28536D32872E5F; `tests/navigation-open-set.test.ts` 3DC95718A5C1758247211FCF4E259BED4D5177ACB8300B0B4686274A2E738961; runner EC768B00827CCEF9A42C9574A341795AA194C587C2461F848CFAD2AD357CD061; normalized baseline E030C39C54E72C97A738F2E51C95BF26E6EE0BCDA079029CBE1B360260BB2716. No further source writes/jobs after this handoff.
+
+Status: partial optimization qualified for the bounded route/occupancy contract. No source behavior outside `shared/navigation.ts` was changed. Residual~110–151ms median cold paths still exceed a60Hz tick budget; root owns ordinary input/frame-clock review on a matching build. This is not dependable-pacing, rescue/lifecycle or overall gameplay acceptance. No additional heap/terrain/occupancy changes are proposed in this task.

@@ -1,0 +1,66 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE_PRIVATE235_UNCHANGED20S_OBSERVER_SOURCE_ONLY; independent gate pending; no actual job",
+  "files": [
+    {
+      "path": "tools/overhaul-shader-observer-235/binding.json",
+      "bytes": 231199,
+      "sha256": "e0bb59629f6070236088f19ec4e732165fd4dfde1fa91c46f1ed7f28184c9d50"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/capture.mjs",
+      "bytes": 21942,
+      "sha256": "f32af8de0c650064820c49b7151bbfa6c4f3446cafb49187da31d067e3582ec6"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/capture.mjs.228-preimage",
+      "bytes": 21465,
+      "sha256": "9cd408ff50b2c52b60cc807f33f1c76d6d70c8572ac44493c02c1cbcb1a9728f"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/guards.mjs",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/guards.mjs.228-preimage",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/HANDOFF.md",
+      "bytes": 1571,
+      "sha256": "ae89a06f147b74b529cdeb3c67745d01135a9c5dbefc18d30f7257fea387a0a8"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/network-classification.mjs.228-preimage",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/prepare235.py",
+      "bytes": 5104,
+      "sha256": "e7f365d40dc9e727e15948618600c277e41c8e7dfca662fcc636ce60796eb235"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/seal235.py",
+      "bytes": 1158,
+      "sha256": "d5baa1bf787877654c4e9214e2895f86d3e970b351622dcd0220b420d2f72d83"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/supervise.py",
+      "bytes": 5279,
+      "sha256": "3e2a9e48a6292d20d120fe0cf5dd128b41a77b1519648bd424deba13b34e5105"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/supervise.py.228-preimage",
+      "bytes": 5226,
+      "sha256": "980e3078def32130aa30217a22dff479cdb447a32869d9fed977500c8e80a39b"
+    }
+  ]
+}

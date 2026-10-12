@@ -1,0 +1,35 @@
+{
+  "task": "extraction-art-039",
+  "status": "CORRECTION_B_SOURCE_FROZEN_AWAITING_ROOT_EXPORT",
+  "reason": "Initial Blender attempt failed before writing outputs: finish(name) joined its first material subset, then accessed removed Blender RNA objects while calculating later subsets. Blender exit0 did not represent successful export.",
+  "failedAttemptStdout": ".sites-runtime/overhaul-20261010/extraction039-author-process/stdout.txt",
+  "originalScript": "assets/source/overhaul-extraction-art-039/author_extraction039.py",
+  "originalScriptSha256": "1ed12508ed44f8bf4ab5466d2c635196254760b865a6036eb092238119b29e10",
+  "originalSourceSeal": "tools/overhaul-extraction-039/art-source-seal.json",
+  "correctionScript": "assets/source/overhaul-extraction-art-039/author_extraction039b.py",
+  "correctionScriptSha256": "8704958e045760c907402fa4cc4f2c454833c4af460037d83a97d1930c1109b7",
+  "changes": [
+    "Precompute all four disjoint material object groups before any bpy.ops.object.join call; later joins access only still-valid members of their own group",
+    "Refuse to overwrite any existing master, GLB or export receipt before authoring starts"
+  ],
+  "geometryChanges": [],
+  "originalFilesChanged": [],
+  "command": "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe --background --python-exit-code 1 --python C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-extraction-art-039/author_extraction039b.py",
+  "outputAbsenceCheckUtc": "2026-10-10T22:32:58.7926335Z",
+  "outputAbsenceCheck": "Both Rainline_Extraction039.blend and public Rainline_Extraction039.glb absent at specialist read-only inspection; root must inspect export receipt/output bytes after one serial retry",
+  "expectedGeneratedFiles": [
+    "assets/source/overhaul-extraction-art-039/Rainline_Extraction039.blend",
+    "assets/source/overhaul-extraction-art-039/export-receipt.json",
+    "public/assets/overhaul/extraction039/Rainline_Extraction039.glb"
+  ],
+  "nativeSpecsSupersession": {
+    "source": "shared/rainlineExtraction039.ts",
+    "freightHall": {"centerXZ": [-28, -112], "dimensions": [20, 6, 10]},
+    "switchingHouse": {"centerXZ": [28, -112], "dimensions": [20, 4.8, 10]},
+    "pumpHouse": {"centerXZ": [-50, -112], "dimensions": [12, 5.4, 10]},
+    "transformEffect": "Generic normalized [-1,1] modules and runtime compiler-native half-extents/position transforms unchanged; no authored shape or simulation change"
+  },
+  "provenance": "ORIGINAL procedural local Blender; no external inputs",
+  "heavyJobsRunBySpecialist": [],
+  "visualReview": "UNREVIEWED"
+}

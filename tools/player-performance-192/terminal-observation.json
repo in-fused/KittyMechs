@@ -1,0 +1,13 @@
+{
+  "scope": "Lead record of observed exec/write_stdin tool results, not an external run-seal supervisor receipt or sealed input equivalence claim",
+  "command": "node tools/player-performance-192/capture192.mjs",
+  "sessionId": 69445,
+  "startChunkId": "d6c502",
+  "terminalChunkId": "acb59e",
+  "observedExitCode": 0,
+  "evidencePath": ".sites-runtime/overhaul-20261010/gpu192-public/evidence.json",
+  "evidenceInclusiveMs": 20115,
+  "browserConnectedAtClosure": false,
+  "serverUnchanged": {"port": 8799, "PID": 370280, "sessionId": 9510},
+  "limitation": "No gpu192-public-observation directory or external process-receipt was produced. Evidence cannot be described as a run-seal-supervised job. Source and native state mutation were not requested; HTTP retained062 index/bundle preflight ran in the script."
+}

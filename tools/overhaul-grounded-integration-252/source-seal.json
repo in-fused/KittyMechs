@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "scope": "One252 grounded ordinary motion integration: material-point world planting and authored recovery; actual gameplay/contact quality pending; original221 resource caveat retained",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-integration-252/binding.json",
+      "bytes": 250845,
+      "sha256": "f6d04cc8ff96a13a93605982118b4c399d555fc977fdc57b38f96edd486f733d"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-252/build252.mjs",
+      "bytes": 2065,
+      "sha256": "6ce2e8cab794b11b86ea35279f0a3e76d80b108ae8e96cf4647ba72798344dc8"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-252/plugin252.mjs",
+      "bytes": 2445,
+      "sha256": "e268ae0f131b0f966cf3351cee6f4fe0dabdaed48c45aa7193908c437554bd3f"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-252/prepare252.py",
+      "bytes": 2261,
+      "sha256": "c7d22d523cc5e9dbe7f206efa477ac0dd84fdf0b3c893c1147330eb9aca56485"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-252/supervise252.py",
+      "bytes": 7232,
+      "sha256": "1acee048060b5bd19dcb4f1afda6097d60c32239848c289c695edc896a9a3f52"
+    }
+  ]
+}

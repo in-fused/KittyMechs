@@ -1,0 +1,70 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_REMAINING_TYPE_FAILURE_RESTORED",
+  "candidate": [
+    {
+      "productionPath": "src/game/world/overhaulDistrictArt.tsx",
+      "preservedCandidate": {
+        "path": "tools/overhaul-render-178/candidate/overhaulDistrictArt.tsx",
+        "bytes": 6895,
+        "sha256": "b3c017e1ba45f3abcb6edb6817142235e83f7d81ef73202fbd642ad1386704e4"
+      }
+    },
+    {
+      "productionPath": "src/game/world/overhaulDressingArt.tsx",
+      "preservedCandidate": {
+        "path": "tools/overhaul-render-178/candidate/overhaulDressingArt.tsx",
+        "bytes": 5021,
+        "sha256": "2cc8386cd81760b11caea5b65725a3556a1044520e2ad2f2f711f9f7f69cedf7"
+      }
+    },
+    {
+      "productionPath": "src/game/world/visibleInstances178.ts",
+      "preservedCandidate": {
+        "path": "tools/overhaul-render-178/candidate/visibleInstances178.ts",
+        "bytes": 7231,
+        "sha256": "a199a68aea86649a9a14562f825266d44b9bef3fcb2df70c0c1f4c64064eaddb"
+      }
+    }
+  ],
+  "restored": [
+    {
+      "path": "src/game/world/overhaulDistrictArt.tsx",
+      "expectedSHA256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7",
+      "actual": {
+        "path": "src/game/world/overhaulDistrictArt.tsx",
+        "bytes": 9005,
+        "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7"
+      },
+      "match": true
+    },
+    {
+      "path": "src/game/world/overhaulDressingArt.tsx",
+      "expectedSHA256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b",
+      "actual": {
+        "path": "src/game/world/overhaulDressingArt.tsx",
+        "bytes": 4480,
+        "sha256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b"
+      },
+      "match": true
+    }
+  ],
+  "newHelperAbsentFromProduction": true,
+  "all174ProtectedRowsMatch": true,
+  "productionWritesRemainingBy178": [],
+  "frozen061ReceiptSHA256": "0f85163eac0dbc7047caf84ae725b094f38b1ca3ceccc3ee0bfbb9b4bb612215",
+  "frozen061NamedPresentationMatches": [
+    {
+      "path": "src/game/world/overhaulDistrictArt.tsx",
+      "frozen061SHA256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7",
+      "restoredSHA256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7",
+      "match": true
+    },
+    {
+      "path": "src/game/world/overhaulDressingArt.tsx",
+      "frozen061SHA256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b",
+      "restoredSHA256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b",
+      "match": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "writer": "CLOSED",
+  "scope": "LATER_FINAL_NATIVE_IDENTITY_CLOSURE_ONLY_NOT_RETROACTIVE_CLEANUP_DEADLINE_PASS",
+  "observedUTC": "2026-10-11T22:40:55.205360+00:00",
+  "originalJobExitCode": 1,
+  "originalCleanupTimeoutRetained": true,
+  "originalIntermediate357904Retained": true,
+  "allOwnedOriginalIdentitiesAbsentOrExited": true,
+  "ownedFinal": [
+    {
+      "pid": 374268,
+      "expectedCreation": 134362318075742353,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 373060,
+      "expectedCreation": 134362318075931431,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 358816,
+      "expectedCreation": 134362318091005668,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 368096,
+      "expectedCreation": 134362318090386306,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 374736,
+      "expectedCreation": 134362318093804263,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 357904,
+      "expectedCreation": 134362318094110207,
+      "currentCreation": 134362318094110207,
+      "waitResult": 0,
+      "originalAbsent": false,
+      "originalExited": true
+    },
+    {
+      "pid": 366792,
+      "expectedCreation": 134362318094644300,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 307948,
+      "expectedCreation": 134362318099740759,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 372948,
+      "expectedCreation": 134362318099929038,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 340748,
+      "expectedCreation": 134362318101487536,
+      "openError": 87,
+      "originalAbsent": true
+    },
+    {
+      "pid": 372448,
+      "expectedCreation": 134362318183613355,
+      "openError": 87,
+      "originalAbsent": true
+    }
+  ],
+  "nativeHealthAfter": {
+    "status": "ok",
+    "rooms": 0,
+    "players": 0,
+    "tickRate": 60
+  },
+  "inputs": [
+    {
+      "path": "tools/overhaul-pack-221/loader-evidence/evidence.json",
+      "bytes": 8075075,
+      "sha256": "4ec83d8df252390f3cc991689229bf04861a2cb0effe8f3bd0a0baf7ef2d6232"
+    },
+    {
+      "path": "tools/overhaul-pack-221/loader-supervisor/process-receipt.json",
+      "bytes": 2209,
+      "sha256": "8d128ed73c922aeea91dc2b021dba3acf35464b28ed6eb0592e754cddd26c49a"
+    },
+    {
+      "path": "tools/overhaul-pack-221/loader-supervisor/protected-after.json",
+      "bytes": 20968,
+      "sha256": "35e33761d8eaced0ccf8eb142730bebf5f358b20a891c95fd5c666ab80352111"
+    },
+    {
+      "path": "tools/overhaul-loader-wrapper-223/source-seal.json",
+      "bytes": 861,
+      "sha256": "0a4ca8ed5bd91f5a267072eda37a6688dc211874af743624125da72e0ee9fa47"
+    }
+  ],
+  "qualityAndGameplayAccepted": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "critic032-small-code",
+  "startedUTC": "2026-10-10T21:21:42Z",
+  "closedUTC": "2026-10-10T21:23:14.6603446Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "APPROVE_ONE_UNCHANGED_THREE_CLOCK_SOURCE_VALIDATION_ONLY",
+  "review": "docs/overhaul/critic/pounce-hand-contact-032-implementation-code-review.md",
+  "reviewSHA256": "D1C571FEA2398889A00B4F54DCD7B6C409DCB0C028028707F3DA0BEB444F9022",
+  "implementationSealSHA256": "59034AF51CBAE1CAD64581EAC8D99462EE6117252F545F73C005BB7BE2FD136A",
+  "ownedRowsVerified": 14,
+  "protectedRowsVerified": 187,
+  "mismatches": 0,
+  "singlePoseOwnerByteIdentical": true,
+  "inclusiveCapSeconds": 60,
+  "cleanupReserveInsideCapSeconds": 10,
+  "fullAuthorRenderExportNativeGranted": false,
+  "sourceArtPairGate1Accepted": false
+}

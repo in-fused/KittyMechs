@@ -1,0 +1,13 @@
+C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-locomotion-143\load-rig143.ts:17
+ const clips=root.listAnimations().map(a=>new AnimationClip(a.getName(),-1,a.listChannels().map(c=>{const s=c.getSampler()!,path=c.getTargetPath()!,property=path==='rotation'?'quaternion':path==='translation'?'position':path;if(!['rotation','translation','scale'].includes(path)||!['LINEAR','STEP'].includes(s.getInterpolation()))throw Error('143_FIXTURE_UNSUPPORTED_CHANNEL');const name=c.getTargetNode()!.getName()+'.'+property,t=s.getInput()!.getArray()!,v=s.getOutput()!.getArray()!,interpolation=s.getInterpolation()==='STEP'?InterpolateDiscrete:InterpolateLinear;return path==='rotation'?new QuaternionKeyframeTrack(name,t,v,interpolation):new VectorKeyframeTrack(name,t,v,interpolation);})));return {model,clips};
+                                                                                                                                                                                                                                                                                                                                                ^
+
+Error: 143_FIXTURE_UNSUPPORTED_CHANNEL
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-locomotion-143\load-rig143.ts:17:337)
+    at Array.map (<anonymous>)
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-locomotion-143\load-rig143.ts:17:93)
+    at Array.map (<anonymous>)
+    at loadRig143 (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-locomotion-143\load-rig143.ts:17:36)
+    at async <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\player-animation-package-196\decode196.mts:24:22)
+
+Node.js v24.13.0

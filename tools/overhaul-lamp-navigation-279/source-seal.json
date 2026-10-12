@@ -1,0 +1,166 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS_COMPILED_LAMP_NAVIGATION_SOURCE_ONLY",
+  "files": [
+    {
+      "path": "shared/lampNavigation279.ts",
+      "bytes": 4600,
+      "sha256": "823106a7a73a26d783aa005397ec851f15dc68e11a840bb6721f512ba7548a82"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/canonical-helper279.py",
+      "bytes": 861,
+      "sha256": "830afc5b34602d47a18e2242413cec0bee0888015038eab4440e2826df998026"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/close279.py",
+      "bytes": 7457,
+      "sha256": "1c93b5d8810d5262a058c0f234c775ef2947c5b0ea3efccfd49c257d4671e19c"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/closure-errors279.json",
+      "bytes": 549,
+      "sha256": "eb9b3398fa4f65e12b655a162c6528136ec6ef52496ca046cd2b68348ce09da9"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/geometry-source279.fixture.mjs",
+      "bytes": 11369,
+      "sha256": "869255bad3e55f4d25491e7de3f04127645b205333812c46bec43b8a8925659d"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/geometry-source279.mjs",
+      "bytes": 11380,
+      "sha256": "2693d4d985c7d57c4422aa87a68a8887f0aeb6a9de3e7cda1ef02c9ab3c00645"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/HANDOFF.md",
+      "bytes": 5470,
+      "sha256": "fb6567d743334e5b4029b4d09687920fab7297bca709b9caba835106f575f320"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/lamp279.test.ts",
+      "bytes": 6233,
+      "sha256": "29192ae01bb2d2273de66bbaa2ca00154c36c07654328f778cedd8fa36f06660"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/lampNavigation279.ts",
+      "bytes": 4578,
+      "sha256": "ac96cf2364a631a804794543731ed9c273b2049b665b9c857206a425111ceb9b"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/navigation279.fixture.ts",
+      "bytes": 13579,
+      "sha256": "55619fda0fdd7311b952dfc995b1a6e34fa80087579b873e6e2affa05ff20cbf"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/navigation279.ts",
+      "bytes": 13502,
+      "sha256": "f12a547601b521c6cf7a70f9934c2cc3415ba9f21aa882ace5bc6ef1d5d7d900"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/patch-manifest279.json",
+      "bytes": 1238,
+      "sha256": "2542001183baa0f9f19ea931e001566c1190b3718aba11e5053d4ba9c3892b14"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/planner279.fixture.mjs",
+      "bytes": 8202,
+      "sha256": "9b4034d19e6c67a45cdb03248e9f59c3532f1f68d32e4495542142aac1f4292a"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/planner279.mjs",
+      "bytes": 8183,
+      "sha256": "afc0b876aadb1975a4a319a8ffbfc6edecba768f98fe1146de2730909ffed3a4"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/geometry-source.mjs",
+      "bytes": 10995,
+      "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/planner.mjs",
+      "bytes": 7933,
+      "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/type-preflight-first/lamp279.test.ts",
+      "bytes": 6188,
+      "sha256": "26d3dae986fc5e30d15d7754cd7591ab499a2a4acd1a36ad4c9a723ea1661027"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/type-preflight-first/terminal279.json",
+      "bytes": 549,
+      "sha256": "8fffd807feaa61bd614edeea0d997c977767e6f7f13822bcd02805f0b55d786c"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/type-preflight-first/tsconfig279.json",
+      "bytes": 147,
+      "sha256": "6df13ee92589fe3884a13f6eb77f04a061512c6484838d0da45ec669215fae97"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/type-preflight-first/type279.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/preimages/type-preflight-first/type279.stdout",
+      "bytes": 940,
+      "sha256": "6db5758e438124d9650761bd066cd7f2c6058662f17ab13944abbb78a7c85f2b"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/prepare279.py",
+      "bytes": 4736,
+      "sha256": "8c0d6288ccd28b068daa91f58a9437deb0f7826cdd39a7ec1c7a8cf5c2c08b10"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/protected-inputs279.json",
+      "bytes": 2336,
+      "sha256": "5edcaa1744ab15aa497fbc00f510326f89ef83cdf8509eed839a79246bf90a2b"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/results279.json",
+      "bytes": 8070,
+      "sha256": "85bb4b637927e5c4b82a5fd9ed07650030b95ebba46ebd627a53941e94ff3403"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/run279.py",
+      "bytes": 1170,
+      "sha256": "5e548824f551b1035576f08f42ff47eeb35f57c17cbd483c5cbd7c6bbee989e1"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/suite279.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/suite279.stdout",
+      "bytes": 285,
+      "sha256": "042f562eb1291170be9aaf2637b7d2b3634997c2c9ab8752e408ea24f5129309"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/terminal279.json",
+      "bytes": 954,
+      "sha256": "6c11020f753b7ed070a9643cd1bbe747dacf42aa7330fce0424954ddddf3c82f"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/tsconfig279.json",
+      "bytes": 221,
+      "sha256": "06f1c9b44cecf073e19a7399ae3a7cf9bbdd3bd5c2669ca950c0352f48ce9cf3"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/type279.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-lamp-navigation-279/type279.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

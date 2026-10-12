@@ -1,0 +1,70 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "bytes": 4044,
+      "sha256": "7e27613c01bb094b2f546173512e98fd4f8bd7d4a3518f2d07764c3071cee17b",
+      "path": "docs/overhaul/critic/contact185-source-review.md"
+    },
+    {
+      "bytes": 4255,
+      "sha256": "59d68b8a535cf2d39cda02b1d542a44b073971877c2ffee58763f26a69d66899",
+      "path": "tools/overhaul-contact-185/source-seal.json"
+    },
+    {
+      "bytes": 18075,
+      "sha256": "04f35eb0a44ca7fae8e9bb432ca09b43b883829915daad7adeccf671844d4670",
+      "path": "tools/overhaul-contact-185/constraint-counterexamples185.json"
+    },
+    {
+      "bytes": 367030,
+      "sha256": "6c587e9c14b4c32493bde5e2e1b55323bd556a60ccd8928d563b1afbeb4e4cd1",
+      "path": "tools/overhaul-contact-185/fixture185.json"
+    },
+    {
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27",
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts"
+    },
+    {
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d",
+      "path": "src/game/entities/authoredFootfalls123.ts"
+    },
+    {
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321",
+      "path": "src/game/entities/movingRFfeet067.ts"
+    },
+    {
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1",
+      "path": "src/game/entities/sourcePresentation154.ts"
+    },
+    {
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd",
+      "path": "src/game/entities/groundSupport067.ts"
+    },
+    {
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710",
+      "path": "src/game/entities/identity57Runtime121Manifest.json"
+    },
+    {
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb"
+    },
+    {
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb"
+    },
+    {
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c",
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json"
+    }
+  ]
+}

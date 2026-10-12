@@ -1,0 +1,114 @@
+{
+  "status": "RETAIN_PERFORMANCE_DIRECTION",
+  "inputSHA256": {
+    "baseline": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e",
+    "candidate": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5"
+  },
+  "fixture": "REAL_RAPIER14_ACTORS_2048_TRIANGLE_FLOOR",
+  "warmupTicks": 30,
+  "rows": [
+    {
+      "label": "baseline",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 178.11380000000156,
+        "classification": 29.55080000000214,
+        "controller": 92.4774000000026,
+        "queries": 2100
+      },
+      "totalMs": 357.4083,
+      "totalMsPerTick": 2.382722,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    },
+    {
+      "label": "candidate",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 167.82929999999817,
+        "classification": 4.032000000002995,
+        "controller": 88.06240000000003,
+        "queries": 2100
+      },
+      "totalMs": 311.0818999999999,
+      "totalMsPerTick": 2.0738793333333327,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    },
+    {
+      "label": "candidate",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 170.84929999999713,
+        "classification": 5.484700000002704,
+        "controller": 93.79469999999787,
+        "queries": 2100
+      },
+      "totalMs": 332.87940000000003,
+      "totalMsPerTick": 2.219196,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    },
+    {
+      "label": "baseline",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 166.09499999999434,
+        "classification": 24.652099999994107,
+        "controller": 86.08550000000287,
+        "queries": 2100
+      },
+      "totalMs": 324.6208999999999,
+      "totalMsPerTick": 2.1641393333333325,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    },
+    {
+      "label": "baseline",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 162.26139999999714,
+        "classification": 26.56380000000445,
+        "controller": 85.07750000000215,
+        "queries": 2100
+      },
+      "totalMs": 322.7204999999999,
+      "totalMsPerTick": 2.1514699999999993,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    },
+    {
+      "label": "candidate",
+      "ticks": 150,
+      "actors": 14,
+      "queries": 2100,
+      "stageMs": {
+        "validation": 152.33870000000252,
+        "classification": 3.6330000000025393,
+        "controller": 85.62319999999409,
+        "queries": 2100
+      },
+      "totalMs": 290.47230000000036,
+      "totalMsPerTick": 1.9364820000000025,
+      "movementSHA256": "468aeafeeeb71ccf74b90f5ff02e1bde13303c7b73d3e327615a703a067be312",
+      "finalSHA256": "d907ca768e0cf2befd812c736ad05d37f6889df1641aa542bfd10f7bd26b8dbc"
+    }
+  ],
+  "medianTotalMsPerTick": {
+    "baseline": 2.1641393333333325,
+    "candidate": 2.0738793333333327
+  },
+  "equivalent": true,
+  "elapsedMs": 2522.7078,
+  "limits": "One fixed alternating comparison; wall timers include validation/controller/pose-independent fixture step and observation overhead. Not district replay, GPU measurement or affected-human lag qualification."
+}

@@ -1,0 +1,13 @@
+{
+  "writer": "CLOSED",
+  "status": "TERMINAL",
+  "exitCode": 1,
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-motion-174/validate174.mts"
+  ],
+  "reportedWallSeconds": 1.9075778,
+  "receiptProvenance": "exec_command terminal response; exact stack is in decoded-receipt174.json",
+  "nextJobRun": false
+}

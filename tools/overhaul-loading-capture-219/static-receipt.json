@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_PASS",
+  "protectedRows": 845,
+  "actualCapture": false,
+  "classification": {
+    "requiredType": "requestfailed",
+    "requiredMethod": "POST",
+    "requiredExactURL": "http://localhost:8799/client-report",
+    "requiredFailure": "net::ERR_ABORTED",
+    "initiator": "UNKNOWN",
+    "rendererReportDelivery": "UNAVAILABLE"
+  },
+  "source217": {
+    "path": "tools/overhaul-loading-capture-217/source-seal.json",
+    "bytes": 1944,
+    "sha256": "bbaa6675452c985bd494ed84bbc4f639f652fc5531bc3ffbda7cda44c7f1d004"
+  },
+  "actual217": {
+    "path": ".sites-runtime/overhaul-20261011/loading217-actual/output-seal.json",
+    "bytes": 3467,
+    "sha256": "6d873efdb37da9e91cc28a6e33b7d7e001fc81f340523191c4126d96706c3d47"
+  },
+  "nonASCIISelectorBytesExact": true,
+  "unchanged": "211/215/062;20/60/20/80/90;both healthy local/native/input/ACK/body readiness;public held-Tab invite+W lane;all other errors fatal;cleanup. No production changes.",
+  "syntax": {
+    "nodeCheck": "PASS",
+    "pythonCompile": "PASS"
+  },
+  "classificationFixture": "PASS10cases"
+}

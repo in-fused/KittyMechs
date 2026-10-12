@@ -1,0 +1,34 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_FIRST_REMAINING_FAILURE_STOP",
+  "authoredRecords": 6,
+  "singleOwnerEvaluatedRows": 651,
+  "passedDecodedChecks": 397,
+  "passedSkinKeyHeightChecks": 348,
+  "completedSkinGaits": [
+    "FelineWalk",
+    "FelineTrot"
+  ],
+  "unreachedSkinGaits": [
+    "FelineGallop",
+    "FelineUprightWalkLong",
+    "FelineUprightStride"
+  ],
+  "unreachedMixedR": true,
+  "walkMeasuredStride": {
+    "name": "FelineWalk",
+    "actualStanceMarkerStride": 0.7777625912990609,
+    "intent": 0.7777777777777777,
+    "residual": -1.5186478716788798e-05
+  },
+  "remainingFailure": "ACTUAL_NATIVE_STRIDE_INTENT_UNCHANGED:FelineTrot",
+  "trotResidualMagnitude": "NOT_PERSISTED_BEFORE_THROW; no rerun after remaining failure",
+  "sourceMaxPadResidual": 1.0359383914582132e-07,
+  "scale": 0.8,
+  "sourceFloorWorldZ": 0,
+  "rigUnchangedWorldTranslationZ": -0.017999999225139618,
+  "protectedAllMatch": true,
+  "geometryFingerprint": "f57184cd4ecc1bf9e0bde1ba0acef51643de0d8fe8f9b39a2d8404f393099959",
+  "previewStatus": "FIRST_ATTEMPT_ONLY; corrected basis preview not executed after remaining validation failure",
+  "nativeContact": "UNQUALIFIED"
+}

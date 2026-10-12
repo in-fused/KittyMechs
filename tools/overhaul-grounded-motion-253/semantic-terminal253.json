@@ -1,0 +1,47 @@
+{
+  "scope": "one authorized normalized-orientation fixture; no runtime edits",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-grounded-motion-253\\tsconfig253.json"
+      ],
+      "capSeconds": 15,
+      "exit": 0,
+      "elapsedSeconds": 5.202999999979511
+    },
+    {
+      "name": "fixture",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-grounded-motion-253\\motion253.test.ts"
+      ],
+      "capSeconds": 30,
+      "exit": 0,
+      "elapsedSeconds": 2.875
+    }
+  ],
+  "fixtureSHA256": "ea56f9324f3996d24df5b79a9c1709d80862efcc955f768644981f9b6eaf20bd",
+  "runtimeBefore": {
+    "groundedFeet253.ts": "7a185fc763516ae704e36584171d111dcdc3a99e8b54caf21332551ca5eaa396",
+    "footClock253.ts": "2f731e44f991ef69cd4e7dbe79e065af209c18c3a34a27165edd827b4993ffc2",
+    "sourceTask253.ts": "98cc2527bcce8c1f277ba135b6c4e781597dc9d57c1e892dd35fa0f96a541a1c",
+    "nativeOwner253.ts": "96c852ecdbae88401826d2b5a61e8fc4497092371a918ce1c9ebb2f51cdb7708",
+    "NativeActor253.tsx": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9",
+    "skinSole250.ts": "51ae8889364b93c0e2370fd2d1c88e7f41e036b1de996c611e02bf2f0e2571b2",
+    "contactObservation253.ts": "cbdd949ca12384f0c0cb0c537513b7f16f44247a5d3d5789de32e9e0724689fc"
+  },
+  "runtimeAfter": {
+    "groundedFeet253.ts": "7a185fc763516ae704e36584171d111dcdc3a99e8b54caf21332551ca5eaa396",
+    "footClock253.ts": "2f731e44f991ef69cd4e7dbe79e065af209c18c3a34a27165edd827b4993ffc2",
+    "sourceTask253.ts": "98cc2527bcce8c1f277ba135b6c4e781597dc9d57c1e892dd35fa0f96a541a1c",
+    "nativeOwner253.ts": "96c852ecdbae88401826d2b5a61e8fc4497092371a918ce1c9ebb2f51cdb7708",
+    "NativeActor253.tsx": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9",
+    "skinSole250.ts": "51ae8889364b93c0e2370fd2d1c88e7f41e036b1de996c611e02bf2f0e2571b2",
+    "contactObservation253.ts": "cbdd949ca12384f0c0cb0c537513b7f16f44247a5d3d5789de32e9e0724689fc"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "status": "SOURCE_ONLY_INDEPENDENT_CRITIC_GATE_REQUIRED",
+  "noJobs": true,
+  "noFixtureOrBaselineReruns": true,
+  "priorBuildFailure": {
+    "stdout": "\n> kittymech-web@0.1.0 build\n> tsc --noEmit && vite build\n\nsrc/game/entities/animatedEnemyBounds078.ts(37,62): error TS2322: Type 'Sphere | null' is not assignable to type 'Sphere'.\r\n  Type 'null' is not assignable to type 'Sphere'.\r\nsrc/game/entities/animatedEnemyBounds081.ts(41,62): error TS2322: Type 'Sphere | null' is not assignable to type 'Sphere'.\r\n  Type 'null' is not assignable to type 'Sphere'.\r\n",
+    "exitCode": 2
+  },
+  "actor": {
+    "afterSHA256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9",
+    "beforeSHA256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9",
+    "unchanged": true
+  },
+  "ownedGameSource": [
+    "src/game/entities/animatedEnemyBounds078.ts",
+    "src/game/entities/animatedEnemyBounds081.ts"
+  ],
+  "priorContainment": {
+    "status": "PASS_REVIEW_REQUIRED",
+    "reuse": "REQUEST_ONLY_REQUIRES_INDEPENDENT_CRITIC_APPROVAL",
+    "checkedVertices": 10740111.0
+  },
+  "exactDiffProof": [
+    {
+      "preimage": "tools/overhaul-performance-085/preimages/animatedEnemyBounds078.ts",
+      "after": "previous:SkinnedMesh['boundingSphere']",
+      "path": "src/game/entities/animatedEnemyBounds078.ts",
+      "onlyReplacement": true,
+      "occurrences": 1,
+      "preimageSHA256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b",
+      "before": "previous:Sphere|null",
+      "postimageSHA256": "6363d0eaecce98f8738e263061bb845c748b7cb42a1b527fa11ac0e9095d7168"
+    },
+    {
+      "preimage": "tools/overhaul-performance-085/preimages/animatedEnemyBounds081.ts",
+      "after": "previous:SkinnedMesh['boundingSphere']",
+      "path": "src/game/entities/animatedEnemyBounds081.ts",
+      "onlyReplacement": true,
+      "occurrences": 1,
+      "preimageSHA256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb",
+      "before": "previous:Sphere|null",
+      "postimageSHA256": "c00469a9f00f3e1ee5c4a628ce53240db4ae96046d54aef248bd0cb37614046c"
+    }
+  ],
+  "installedLibraryContract": {
+    "caveat": "Indexed access narrows stored static type to installed unsound declaration; runtime null remains possible and is preserved; no runtime soundness claim",
+    "runtime": "SkinnedMesh.js:97 constructor assigns boundingSphere=null",
+    "declaration": "SkinnedMesh.d.ts:111 declares boundingSphere: Sphere"
+  },
+  "writer": "CLOSED",
+  "nextGate": "Independent source critic before any build/capture; first new build/capture failure root stops whole candidate",
+  "files": [
+    {
+      "sha256": "6363d0eaecce98f8738e263061bb845c748b7cb42a1b527fa11ac0e9095d7168",
+      "bytes": 8209,
+      "path": "src/game/entities/animatedEnemyBounds078.ts"
+    },
+    {
+      "sha256": "c00469a9f00f3e1ee5c4a628ce53240db4ae96046d54aef248bd0cb37614046c",
+      "bytes": 8767,
+      "path": "src/game/entities/animatedEnemyBounds081.ts"
+    },
+    {
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b",
+      "bytes": 8191,
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds078.ts"
+    },
+    {
+      "sha256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb",
+      "bytes": 8749,
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds081.ts"
+    },
+    {
+      "sha256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9",
+      "bytes": 45494,
+      "path": "src/game/entities/Actors.tsx"
+    },
+    {
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc",
+      "bytes": 8670,
+      "path": "node_modules/three/src/objects/SkinnedMesh.js"
+    },
+    {
+      "sha256": "5a6bae49831f960e7f0bc66f49b2c40077b136d9573871f865507fde09580436",
+      "bytes": 6438,
+      "path": "node_modules/@types/three/src/objects/SkinnedMesh.d.ts"
+    },
+    {
+      "sha256": "0bc5f1fba8c369c00a873c2ae7a68257b8ae09c0efe8236b5e25fa42b6d790f0",
+      "bytes": 2731,
+      "path": "tools/overhaul-performance-081/containment-result.json"
+    },
+    {
+      "sha256": "3bcc8ee43033cf396733cd4ea00ae5d707d006828ccc3eb0067853f0243cf4b4",
+      "bytes": 10298,
+      "path": "tools/overhaul-performance-081/source-seal.json"
+    },
+    {
+      "sha256": "a590657c0a35fb22d0ff4aa8d86a9070fa4b4d03d46af590f7110bed55190072",
+      "bytes": 147839,
+      "path": "tools/overhaul-performance-integration-084/build-seal.json"
+    },
+    {
+      "sha256": "550da97fd0d1e4f7fa023b748062cd84b208fa8a69e299ea43ab59610a1dd42c",
+      "bytes": 87913,
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/process-receipt.json"
+    },
+    {
+      "sha256": "514024e928f4299a0e6e0c95f041987f919c929675d43440bfe35c4c2043d9d4",
+      "bytes": 409,
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/stdout.txt"
+    },
+    {
+      "sha256": "21d320af067c1b15fd7bb7febc9d8304c8ad49c7b1c65a06551ddecaffc89a50",
+      "bytes": 1893117,
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/evidence.json"
+    },
+    {
+      "path": "docs/overhaul/performance-085-type-handoff.md",
+      "bytes": 2248,
+      "sha256": "9f057bf56f0f88cc0b820aa7d591175f04aff248fc644db7e412d5ee55caf327"
+    }
+  ],
+  "runtimeProof": "Exactly one stored-field type annotation replacement per helper; TypeScript annotations erase, runtime statements and state behavior unchanged; no build or transpilation executed"
+}

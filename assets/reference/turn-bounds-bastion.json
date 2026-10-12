@@ -1,0 +1,56 @@
+{
+  "name": "Bastion",
+  "scale": 0.95,
+  "turnStyle": {
+    "arc": 0.44,
+    "duty": 0.82,
+    "duration": 1.3,
+    "lift": 0.16,
+    "lead": 0.026,
+    "offsets": {
+      "FL": 0,
+      "HL": 0.25,
+      "FR": 0.5,
+      "HR": 0.75
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.3645498752593994,
+      "coreRadius": 1.8583922574355336,
+      "sideExtent": 1.3779135942459106,
+      "floor": 0.013537285849452019,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.8615698530475306e-07,
+      "frames": 79,
+      "pawLift": {
+        "FL": 0.15199705213308332,
+        "FR": 0.15199709460139274,
+        "HL": 0.15025344491004944,
+        "HR": 0.15025352984666823
+      },
+      "stanceCancellationError": 4.5674003704358914e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.3645498752593994,
+      "coreRadius": 1.8583922574355336,
+      "sideExtent": 1.3779135942459106,
+      "floor": 0.013537280261516571,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.7392702072480684e-07,
+      "frames": 79,
+      "pawLift": {
+        "FL": 0.15199709460139274,
+        "FR": 0.15199705213308332,
+        "HL": 0.150253501534462,
+        "HR": 0.15025345906615256
+      },
+      "stanceCancellationError": 4.161027530987297e-07
+    }
+  ]
+}

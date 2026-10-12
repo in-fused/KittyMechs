@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "candidate": "POUNCE_V4_SOCKETED_ARMOR_SUPPORTED_FOLD",
+  "status": "READ_ONLY_PROPOSAL_IMPLEMENTATION_NOT_YET_AUTHORIZED",
+  "sourceOnly": true,
+  "derivativeDirectory": "assets/source/overhaul-pounce-v4",
+  "candidateLimit": 1,
+  "validationRepairLimit": 1,
+  "geometryMastersReadOnly": true,
+  "failedAEvidenceReadOnly": true,
+  "nativeHullChange": false,
+  "rootTeleport": false,
+  "rootMotionInSource": false,
+  "simplifiedModelOrOpponentProxy": false,
+  "pounceRuntimeScale": 0.8,
+  "skeleton": {
+    "jointCount": 25,
+    "preserveNamesHierarchyBindCentersAndLimbLengths": true,
+    "rigidArmorOneOwner": true,
+    "core": "One pelvis/carrier heave; fixed connector offsets and articulated child rotations",
+    "tail": "Parent endpoint continuity and fixed segment lengths; no independent world placement"
+  },
+  "restEnvelopeSourceMeters": {
+    "x": [-1.1, 1.1],
+    "y": [-2.22, 3.683],
+    "z": [0.034474, 2.495],
+    "status": "PRESERVED_PROPORTION_BOUND_NOT_A_POSED_OR_WORLD_CLEARANCE_PROOF"
+  },
+  "changedGeometry": [
+    "True swept-volume concave shoulder/hip sockets with fixed curved arch and upper-link moving cover",
+    "Relieved tapered upper/shin end caps and separated detailed joint lamellae",
+    "Named flat sole pads retaining all four armored digits/claws, palm/guard/dewclaw",
+    "Named ventral and knee bearing patches within retained proportions",
+    "Connected neck/socket clearance and fixed-length tail corridor"
+  ],
+  "initialConstructionEstimatesSourceMeters": {
+    "socketRadius": [0.3, 0.33],
+    "upperProximalSetback": 0.2,
+    "upperDistalSetback": 0.15,
+    "shinProximalSetback": 0.18,
+    "shinDistalSetback": 0.14,
+    "maximumVentralPadDepth": 0.1,
+    "status": "ESTIMATES_ONLY_ACTUAL_FULL_GEOMETRY_PATH_DETERMINES_CAVITIES"
+  },
+  "designTargetsNativeMeters": {
+    "noncontactSweptArmorClearance": 0.012,
+    "supportPatchGapMaximum": 0.001,
+    "floorNumericalTolerance": 0.0001,
+    "status": "UNPROVED_REQUIRED_CONSTRAINTS_NOT_ACCEPTANCE_RECEIPTS"
+  },
+  "contactPolicy": "Complete paw/guard/claws versus all actual target exteriors; named surface touch is not an exterior penetration waiver",
+  "attachmentPolicy": "Explicit rigid joint ownership only for intended mechanism volume; new armor/frame/cowl containment remains a failure",
+  "supportPolicy": "Finite belly/knee/sole patches, planted paws, lowered pelvis/chest, stated mass/reaction assumptions and support polygon; native force/terrain/roof proof separate",
+  "neutralEntryNecessaryRestSeparationMeters": 3.552,
+  "entry": "UNKNOWN: real stance/strike and incoming-speed swept anticipation before art contact, no head pop",
+  "exit": "UNKNOWN: retain certified clearance pose until real swept separation allows neutral",
+  "arbitraryCancel": "UNKNOWN: exact current pose and derivative, bounded braking/reversal and conservative interval proof at every admitted clock",
+  "clipMigration": {
+    "paired": ["Impact", "Pin", "Claw", "Release", "Escape", "connected arbitrary-clock cancellation graph"],
+    "freeClawDurationSeconds": 0.24,
+    "authorityClockOwnership": "Root approves phase/contact/accepted-combo timing integration only after corresponding source contact exists",
+    "retained": "Stable names/binds do not transfer acceptance; used locomotion/transform/landing/strike clips require re-audit and failing motions require migration",
+    "poseOwnerCount": 1
+  },
+  "independentCells": [
+    {"id": "HumanQuad", "rootSpacingMeters": 3.5, "nativeRadii": [1.75, 1.75], "scales": [0.8, 0.8], "status": "UNKNOWN_FIRST_NECESSARY_SOURCE_GATE"},
+    {"id": "HumanUpright", "rootSpacingMeters": 3.5, "nativeRadii": [1.75, 1.75], "scales": [0.8, 0.8], "status": "UNKNOWN_ONLY_AFTER_HUMANQUAD_GATE"},
+    {"id": "ScoutQuad", "rootSpacingMeters": 3.2, "nativeRadii": [1.75, 1.45], "scales": [0.8, 0.65], "status": "UNKNOWN_ACTUAL_RETAINED_SCOUT_INDEPENDENT_GATE"}
+  ],
+  "firstGate": "Detailed HumanQuad whole-body supported fold and restraint/withdrawal articulation corridor before large clip generation",
+  "qualificationRequires": [
+    "Visible coherent detailed silhouette and actual empty joint spaces",
+    "Manifold cavity topology, outward/interior normals, unchanged bind API",
+    "Closed self/participant containment and surface checks with exact ownership",
+    "Actual support patches and fixed-length no-slip limb/tail constraints",
+    "Conservative continuous interval proof including admitted recovery/cancel paths",
+    "Independent required cells",
+    "Separate native incoming momentum/world/roof/support-loss/host-guest bridge gates",
+    "Readable ordinary two-party footage and independent critic acceptance"
+  ],
+  "hardStop": "After one candidate and at most one exact-defect validation repair, save unsupported/unknown witnesses and stop; no B, shipping or public ModelPaths integration",
+  "implementationJobsStarted": false
+}

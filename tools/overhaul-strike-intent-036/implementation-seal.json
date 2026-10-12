@@ -1,0 +1,184 @@
+{
+  "packet": "strike-intent-036",
+  "status": "SOURCE_FROZEN_FOR_INDEPENDENT_PREFLIGHT",
+  "startedUTC": "2026-10-10T21:34:43Z",
+  "designFrozenUTC": "2026-10-10T21:40:10Z",
+  "frozenUTC": "2026-10-10T21:44:01.6553487Z",
+  "inputVersion": 4,
+  "decision": "Separate deliberate look strikePitch from muzzle weapon pitch; unchanged camera composition, dive threshold, native admission and life/action identifiers.",
+  "nativeReceipt": "actor.strikeReceipt",
+  "debugReceipt": "kittyMechDebug.input().strikeSent",
+  "validationExecuted": false,
+  "runtimePaths": [
+    "shared/inputProtocol.ts",
+    "shared/types.ts",
+    "shared/protocol.ts",
+    "shared/simulation.ts",
+    "src/game/input.ts",
+    "src/game/inputReceipt.ts",
+    "src/game/camera/CameraRig.tsx",
+    "src/game/snapshotAdmission.ts"
+  ],
+  "fixturePaths": [
+    "tests/chassis.test.ts",
+    "tests/city-authority.test.ts",
+    "tests/cover-state.test.ts",
+    "tests/climb-admission.test.ts",
+    "tests/city-presentation.test.ts",
+    "tests/city-rubble-presentation.test.ts",
+    "tests/jump-transport.test.ts",
+    "tests/jump-prehook.test.ts",
+    "tests/jump-network.test.ts",
+    "tests/jump-input.test.ts",
+    "tests/feline-strike-presentation.test.ts",
+    "tests/simulation.test.ts",
+    "tests/strike-intent-036.test.ts",
+    "tools/overhaul-strike-intent-036/contract.ts",
+    "docs/overhaul/strike-intent-036-implementation.md"
+  ],
+  "files": [
+    {
+      "path": "shared/inputProtocol.ts",
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44",
+      "bytes": 834
+    },
+    {
+      "path": "shared/types.ts",
+      "sha256": "0a0cf2a27739625ef378d6d79685949c89d5047fd2660f3743f19e598efc4ddb",
+      "bytes": 7772
+    },
+    {
+      "path": "shared/protocol.ts",
+      "sha256": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc",
+      "bytes": 12849
+    },
+    {
+      "path": "shared/simulation.ts",
+      "sha256": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92",
+      "bytes": 175845
+    },
+    {
+      "path": "src/game/input.ts",
+      "sha256": "a00f8f514a13169f10e8816ef29e70b65622bfd7f4eb18173b5d9b76aae40f8b",
+      "bytes": 16446
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3",
+      "bytes": 1870
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "sha256": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "bytes": 9153
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "sha256": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35",
+      "bytes": 10932
+    },
+    {
+      "path": "tests/chassis.test.ts",
+      "sha256": "7472c72a75735ab34f1d556642ab5e8e43cbd785843fde45502504fa29a5f457",
+      "bytes": 4152
+    },
+    {
+      "path": "tests/city-authority.test.ts",
+      "sha256": "34d38f19fd12f1f2b132402bdd2807f0b1225e63c821e7db7b88b2b29de33c76",
+      "bytes": 24819
+    },
+    {
+      "path": "tests/cover-state.test.ts",
+      "sha256": "1afca311a8a8a7087f88355302471888dde8ac9f8228dc1cfea69d1f1e5c6f32",
+      "bytes": 5154
+    },
+    {
+      "path": "tests/climb-admission.test.ts",
+      "sha256": "9d8989ec85380b4c8483b96d554eeb2a6dd91f67574467befa868185094ca16b",
+      "bytes": 4682
+    },
+    {
+      "path": "tests/city-presentation.test.ts",
+      "sha256": "aa013281f2ef3b187feb68511fab96a95c084be41b3070fe6ca5c4bc1e335a5e",
+      "bytes": 5210
+    },
+    {
+      "path": "tests/city-rubble-presentation.test.ts",
+      "sha256": "b7744d1107049a2eca74442f25329ddb66885db9903c9b10f4737d162832540f",
+      "bytes": 7870
+    },
+    {
+      "path": "tests/jump-transport.test.ts",
+      "sha256": "592dec4f1abd672d59efe0d6c17c7f4074a7ad0f042ca7e75d7ef8425eb46cf5",
+      "bytes": 3301
+    },
+    {
+      "path": "tests/jump-prehook.test.ts",
+      "sha256": "34ce7186a6a7b6102d60f73bbd0ae3b15ba2b7e757f14c9c151ec9e75d8c4ba5",
+      "bytes": 3856
+    },
+    {
+      "path": "tests/jump-network.test.ts",
+      "sha256": "fc41a54e5aac74b4ff3e1c1f3c3a6d1773f11c6ef1e24c94bf417f2e7480c77c",
+      "bytes": 23499
+    },
+    {
+      "path": "tests/jump-input.test.ts",
+      "sha256": "ec41302a0066ea6c14e0695660a00b41979890bbabc8b1863bd13e828f0e4c05",
+      "bytes": 7542
+    },
+    {
+      "path": "tests/feline-strike-presentation.test.ts",
+      "sha256": "e15ff8796a481a6bef5d187e398641a20c5de1bd3dd3e5ae57bc1fb0c380968e",
+      "bytes": 8121
+    },
+    {
+      "path": "tests/simulation.test.ts",
+      "sha256": "e0962c2f5bc172792cbf0d1d4474d74ff62f8409394960fecf1f9036e66e854c",
+      "bytes": 8346
+    },
+    {
+      "path": "tests/strike-intent-036.test.ts",
+      "sha256": "3dadca95e667c4a27f024378d3edb451c9eefc44b836940babd93027bdcbe77e",
+      "bytes": 113
+    },
+    {
+      "path": "tools/overhaul-strike-intent-036/contract.ts",
+      "sha256": "524f6f85c6a2bc1faca1320cf8547094935f45df02258f7b59d62b8b7a0f3b6a",
+      "bytes": 8673
+    },
+    {
+      "path": "docs/overhaul/strike-intent-036-implementation.md",
+      "sha256": "055c84ca0539e4d5ce9214c27bf425c2ae2550216b3531abe674b2600c5446cd",
+      "bytes": 5048
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-art-player-035.mjs",
+      "sha256": "751063f670cbab2cbc23ea1f1498a7b4553cbc312744a26dd16c0274d7fdc254",
+      "bytes": 12885
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/evidence.json",
+      "sha256": "03b8bc7261a0a619991593f447f553d38ddfa5bea2881d67a954c659cad9e66c",
+      "bytes": 1272294
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-028/receipt.json",
+      "sha256": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7",
+      "bytes": 69138
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/final-result-seal.json",
+      "sha256": "4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292",
+      "bytes": 4011
+    }
+  ],
+  "rootCheck": {
+    "maxInclusiveSeconds": 90,
+    "command": "npx vitest run --maxWorkers=1 --no-file-parallelism tests/strike-intent-036.test.ts tests/overhaul-view-input.test.ts tests/overhaul-view-aim.test.ts tests/feline-strike-input.test.ts tests/feline-strike-presentation.test.ts tests/feline-strike-authority.test.ts tests/jump-delivery.test.ts tests/jump-network.test.ts",
+    "firstFailure": "STOP_PACKET_NO_REPAIR_OR_RETRY",
+    "next": "One matched production build then conditional one frozen two-client capture after all gates."
+  }
+}

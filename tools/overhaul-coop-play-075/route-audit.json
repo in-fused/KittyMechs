@@ -1,0 +1,2579 @@
+{
+  "scope": "075 actual east follower route failure; derived read-only, not a new capture",
+  "inputs": [
+    "tools/overhaul-coop-play-075/mission-capture.mjs",
+    ".sites-runtime/overhaul-20261010/coop075-public/evidence.json",
+    ".sites-runtime/overhaul-20261010/coop075-public/native-keyframes.json"
+  ],
+  "role": {
+    "phase": "east-relay-route",
+    "wallMs": 310120,
+    "leader": "MissionGuest",
+    "follower": "MissionHost",
+    "leaderTarget": {
+      "x": 0,
+      "z": -35
+    },
+    "followerTarget": {
+      "x": -4.14123309837537,
+      "z": -30.658319631188824
+    },
+    "separation": 6
+  },
+  "failure": "Error: MissionHost route time bound exceeded\n    at go (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-play-075/mission-capture.mjs:76:25)\n    at async Promise.allSettled (index 1)\n    at async together (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-play-075/mission-capture.mjs:118:65)\n    at async squadGo (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-play-075/mission-capture.mjs:134:7)\n    at async file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-coop-play-075/mission-capture.mjs:170:94",
+  "deliveryCount": 422,
+  "deliveryFailures": 0,
+  "movementFailures": 0,
+  "parityCount": 4262,
+  "eastHostDeliveryCount": 75,
+  "eastHostSettles": [
+    {
+      "wallMs": 317264,
+      "tick": 16593,
+      "targeted": true,
+      "distance": 2.620030576771709,
+      "x": -1.5789866038833225,
+      "z": -31.20554273439437,
+      "speed": 0.002156838728934966
+    },
+    {
+      "wallMs": 328615,
+      "tick": 17266,
+      "targeted": false,
+      "distance": null,
+      "x": -4.659979055257825,
+      "z": -33.7137830974507,
+      "speed": 2.4333283267315236E-05
+    },
+    {
+      "wallMs": 331227,
+      "tick": 17426,
+      "targeted": false,
+      "distance": null,
+      "x": -5.45572327725831,
+      "z": -26.019915384263182,
+      "speed": 1.933143464098241E-06
+    },
+    {
+      "wallMs": 333824,
+      "tick": 17572,
+      "targeted": true,
+      "distance": 3.2716780411124047,
+      "x": -2.7068566339878544,
+      "z": -33.59880281650179,
+      "speed": 2.3757775660951386E-05
+    },
+    {
+      "wallMs": 338691,
+      "tick": 17861,
+      "targeted": false,
+      "distance": null,
+      "x": -1.3427586523777149,
+      "z": -32.91684515004981,
+      "speed": 7.007043758776735E-10
+    },
+    {
+      "wallMs": 350163,
+      "tick": 18485,
+      "targeted": false,
+      "distance": null,
+      "x": -6.364803420716724,
+      "z": -30.175688624000678,
+      "speed": 1.2178650675079504E-06
+    },
+    {
+      "wallMs": 359180,
+      "tick": 19024,
+      "targeted": true,
+      "distance": 1.5514438898291343,
+      "x": -4.626083895972041,
+      "z": -29.1845836143398,
+      "speed": 0.0008479164656388661
+    },
+    {
+      "wallMs": 361879,
+      "tick": 19163,
+      "targeted": true,
+      "distance": 1.4695909877089897,
+      "x": -3.7330144390844633,
+      "z": -32.07007569983603,
+      "speed": 2.9208917479914846E-08
+    },
+    {
+      "wallMs": 364089,
+      "tick": 19310,
+      "targeted": false,
+      "distance": null,
+      "x": -3.9681683078355823,
+      "z": -28.894005445762684,
+      "speed": 2.4564063372160196E-06
+    },
+    {
+      "wallMs": 365635,
+      "tick": 19397,
+      "targeted": true,
+      "distance": 2.1386178586500786,
+      "x": -2.8691373168285406,
+      "z": -32.37746438015786,
+      "speed": 0.002003810719582248
+    },
+    {
+      "wallMs": 367371,
+      "tick": 19496,
+      "targeted": true,
+      "distance": 1.6855252280767425,
+      "x": -3.718846858278722,
+      "z": -29.026576649386797,
+      "speed": 0.00010334765796133651
+    },
+    {
+      "wallMs": 368985,
+      "tick": 19600,
+      "targeted": true,
+      "distance": 1.8016862026816913,
+      "x": -5.304721830871225,
+      "z": -32.033952991604586,
+      "speed": 0.0008436557047488562
+    },
+    {
+      "wallMs": 371032,
+      "tick": 19717,
+      "targeted": true,
+      "distance": 2.056861057130141,
+      "x": -3.5418233399090724,
+      "z": -28.690735998965305,
+      "speed": 3.1275526695160596E-06
+    },
+    {
+      "wallMs": 372707,
+      "tick": 19794,
+      "targeted": true,
+      "distance": 1.3105361739875903,
+      "x": -5.06793556392384,
+      "z": -31.584995196678936,
+      "speed": 0.022097435864468606
+    },
+    {
+      "wallMs": 374602,
+      "tick": 19908,
+      "targeted": false,
+      "distance": null,
+      "x": -1.409969249489465,
+      "z": -29.61111879245153,
+      "speed": 4.98928408244447E-06
+    },
+    {
+      "wallMs": 377156,
+      "tick": 20053,
+      "targeted": true,
+      "distance": 2.8646606147370117,
+      "x": -7.0050075423610565,
+      "z": -30.587070970851205,
+      "speed": 6.024805094699187E-06
+    },
+    {
+      "wallMs": 379843,
+      "tick": 20212,
+      "targeted": false,
+      "distance": null,
+      "x": -0.8663402180756863,
+      "z": -30.083833659073107,
+      "speed": 1.4886735322931335E-07
+    }
+  ],
+  "eastHostPackets": [
+    {
+      "wallMs": 310885,
+      "seq": 10623,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": -2.656332652208528,
+      "sendDelayMs": 92.60000014305115,
+      "receiptHeldSpanMs": 431.2999999523163,
+      "ackTick": 16203,
+      "ackTime": 270.05000000008306,
+      "lastInput": 10630
+    },
+    {
+      "wallMs": 311720,
+      "seq": 10667,
+      "f": -1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.510096512914169,
+      "sendDelayMs": 370.80000019073486,
+      "receiptHeldSpanMs": 119.0,
+      "ackTick": 16262,
+      "ackTime": 271.0333333334155,
+      "lastInput": 10669
+    },
+    {
+      "wallMs": 312426,
+      "seq": 10693,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4853661674515897,
+      "sendDelayMs": 278.09999990463257,
+      "receiptHeldSpanMs": 119.90000009536743,
+      "ackTick": 16303,
+      "ackTime": 271.7166666667482,
+      "lastInput": 10693
+    },
+    {
+      "wallMs": 313037,
+      "seq": 10706,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.47951922048283274,
+      "sendDelayMs": 8.399999856948853,
+      "receiptHeldSpanMs": 258.2000000476837,
+      "ackTick": 16335,
+      "ackTime": 272.25000000008106,
+      "lastInput": 10712
+    },
+    {
+      "wallMs": 313622,
+      "seq": 10736,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.45371669900775746,
+      "sendDelayMs": 133.90000009536743,
+      "receiptHeldSpanMs": 133.79999995231628,
+      "ackTick": 16370,
+      "ackTime": 272.83333333341386,
+      "lastInput": 10736
+    },
+    {
+      "wallMs": 314112,
+      "seq": 10753,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5005306067947137,
+      "sendDelayMs": 29.299999952316284,
+      "receiptHeldSpanMs": 153.80000019073486,
+      "ackTick": 16405,
+      "ackTime": 273.41666666674666,
+      "lastInput": 10757
+    },
+    {
+      "wallMs": 314648,
+      "seq": 10773,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5007244607039261,
+      "sendDelayMs": 92.5,
+      "receiptHeldSpanMs": 90.40000009536743,
+      "ackTick": 16433,
+      "ackTime": 273.8833333334129,
+      "lastInput": 10773
+    },
+    {
+      "wallMs": 315158,
+      "seq": 10787,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4660494413225891,
+      "sendDelayMs": 28.09999990463257,
+      "receiptHeldSpanMs": 195.90000009536743,
+      "ackTick": 16467,
+      "ackTime": 274.45000000007906,
+      "lastInput": 10791
+    },
+    {
+      "wallMs": 315720,
+      "seq": 10810,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4668436565541678,
+      "sendDelayMs": 198.59999990463257,
+      "receiptHeldSpanMs": 86.70000004768372,
+      "ackTick": 16501,
+      "ackTime": 275.0166666667452,
+      "lastInput": 10811
+    },
+    {
+      "wallMs": 316216,
+      "seq": 10823,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4916351811310927,
+      "sendDelayMs": 51.10000014305115,
+      "receiptHeldSpanMs": 134.5,
+      "ackTick": 16531,
+      "ackTime": 275.51666666674475,
+      "lastInput": 10826
+    },
+    {
+      "wallMs": 317693,
+      "seq": 10877,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4853056799473641,
+      "sendDelayMs": 187.5,
+      "receiptHeldSpanMs": 127.0,
+      "ackTick": 16620,
+      "ackTime": 277.00000000007674,
+      "lastInput": 10879
+    },
+    {
+      "wallMs": 318194,
+      "seq": 10895,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4569095357120131,
+      "sendDelayMs": 110.60000014305115,
+      "receiptHeldSpanMs": 109.89999985694885,
+      "ackTick": 16648,
+      "ackTime": 277.466666666743,
+      "lastInput": 10895
+    },
+    {
+      "wallMs": 318689,
+      "seq": 10913,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.46069759665385596,
+      "sendDelayMs": 135.0,
+      "receiptHeldSpanMs": 100.20000004768372,
+      "ackTick": 16681,
+      "ackTime": 278.0166666667425,
+      "lastInput": 10914
+    },
+    {
+      "wallMs": 319371,
+      "seq": 10931,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5084530622111089,
+      "sendDelayMs": 112.09999990463257,
+      "receiptHeldSpanMs": 221.70000004768372,
+      "ackTick": 16713,
+      "ackTime": 278.55000000007533,
+      "lastInput": 10931
+    },
+    {
+      "wallMs": 320116,
+      "seq": 10959,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48964584843123976,
+      "sendDelayMs": 397.7999999523163,
+      "receiptHeldSpanMs": 104.5,
+      "ackTick": 16765,
+      "ackTime": 279.4166666667412,
+      "lastInput": 10959
+    },
+    {
+      "wallMs": 320683,
+      "seq": 10975,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4766366585442746,
+      "sendDelayMs": 99.10000014305115,
+      "receiptHeldSpanMs": 157.59999990463257,
+      "ackTick": 16798,
+      "ackTime": 279.9666666667407,
+      "lastInput": 10977
+    },
+    {
+      "wallMs": 321158,
+      "seq": 10991,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.46720625477333577,
+      "sendDelayMs": 13.0,
+      "receiptHeldSpanMs": 159.59999990463257,
+      "ackTick": 16828,
+      "ackTime": 280.46666666674025,
+      "lastInput": 10996
+    },
+    {
+      "wallMs": 322112,
+      "seq": 11025,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48300544817488844,
+      "sendDelayMs": 253.59999990463257,
+      "receiptHeldSpanMs": 244.0,
+      "ackTick": 16879,
+      "ackTime": 281.3166666667395,
+      "lastInput": 11027
+    },
+    {
+      "wallMs": 322579,
+      "seq": 11046,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5059426705590692,
+      "sendDelayMs": 63.799999952316284,
+      "receiptHeldSpanMs": 153.09999990463257,
+      "ackTick": 16914,
+      "ackTime": 281.9000000000723,
+      "lastInput": 11049
+    },
+    {
+      "wallMs": 323093,
+      "seq": 11066,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5190880567931968,
+      "sendDelayMs": 109.70000004768372,
+      "receiptHeldSpanMs": 83.39999985694885,
+      "ackTick": 16942,
+      "ackTime": 282.3666666667385,
+      "lastInput": 11066
+    },
+    {
+      "wallMs": 323725,
+      "seq": 11088,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4753550772419269,
+      "sendDelayMs": 63.5,
+      "receiptHeldSpanMs": 127.79999995231628,
+      "ackTick": 16979,
+      "ackTime": 282.98333333340463,
+      "lastInput": 11090
+    },
+    {
+      "wallMs": 324917,
+      "seq": 11132,
+      "f": -1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4688750487321161,
+      "sendDelayMs": 462.39999985694885,
+      "receiptHeldSpanMs": 93.60000014305115,
+      "ackTick": 17050,
+      "ackTime": 284.1666666667369,
+      "lastInput": 11134
+    },
+    {
+      "wallMs": 325486,
+      "seq": 11160,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4850361062308058,
+      "sendDelayMs": 106.29999995231628,
+      "receiptHeldSpanMs": 58.700000047683716,
+      "ackTick": 17086,
+      "ackTime": 284.76666666673634,
+      "lastInput": 11160
+    },
+    {
+      "wallMs": 325966,
+      "seq": 11176,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.49762054350642104,
+      "sendDelayMs": 12.800000190734863,
+      "receiptHeldSpanMs": 155.79999995231628,
+      "ackTick": 17116,
+      "ackTime": 285.2666666667359,
+      "lastInput": 11178
+    },
+    {
+      "wallMs": 326415,
+      "seq": 11192,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5015877879253922,
+      "sendDelayMs": 10.199999809265137,
+      "receiptHeldSpanMs": 108.40000009536743,
+      "ackTick": 17141,
+      "ackTime": 285.6833333334022,
+      "lastInput": 11192
+    },
+    {
+      "wallMs": 327286,
+      "seq": 11217,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.509962762187548,
+      "sendDelayMs": 264.5,
+      "receiptHeldSpanMs": 158.40000009536743,
+      "ackTick": 17188,
+      "ackTime": 286.4666666667348,
+      "lastInput": 11220
+    },
+    {
+      "wallMs": 329100,
+      "seq": 11294,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852591621584551,
+      "sendDelayMs": 156.70000004768372,
+      "receiptHeldSpanMs": 79.09999990463257,
+      "ackTick": 17301,
+      "ackTime": 288.3500000000664,
+      "lastInput": 11294
+    },
+    {
+      "wallMs": 329923,
+      "seq": 11324,
+      "f": -1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4658071302535791,
+      "sendDelayMs": 328.89999985694885,
+      "receiptHeldSpanMs": 107.5,
+      "ackTick": 17352,
+      "ackTime": 289.20000000006564,
+      "lastInput": 11325
+    },
+    {
+      "wallMs": 331733,
+      "seq": 11390,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852598883715701,
+      "sendDelayMs": 155.59999990463257,
+      "receiptHeldSpanMs": 95.90000009536743,
+      "ackTick": 17456,
+      "ackTime": 290.9333333333974,
+      "lastInput": 11390
+    },
+    {
+      "wallMs": 332262,
+      "seq": 11404,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.49686452355531385,
+      "sendDelayMs": 12.800000190734863,
+      "receiptHeldSpanMs": 192.09999990463257,
+      "ackTick": 17490,
+      "ackTime": 291.50000000006355,
+      "lastInput": 11407
+    },
+    {
+      "wallMs": 334201,
+      "seq": 11472,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852600315931744,
+      "sendDelayMs": 115.29999995231628,
+      "receiptHeldSpanMs": 63.40000009536743,
+      "ackTick": 17607,
+      "ackTime": 293.4500000000618,
+      "lastInput": 11472
+    },
+    {
+      "wallMs": 334651,
+      "seq": 11486,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4810603411148602,
+      "sendDelayMs": 8.099999904632568,
+      "receiptHeldSpanMs": 168.0,
+      "ackTick": 17632,
+      "ackTime": 293.86666666672807,
+      "lastInput": 11488
+    },
+    {
+      "wallMs": 335439,
+      "seq": 11517,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4665623405789095,
+      "sendDelayMs": 359.09999990463257,
+      "receiptHeldSpanMs": 49.799999952316284,
+      "ackTick": 17679,
+      "ackTime": 294.6500000000607,
+      "lastInput": 11517
+    },
+    {
+      "wallMs": 336007,
+      "seq": 11534,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4964847172485799,
+      "sendDelayMs": 16.09999990463257,
+      "receiptHeldSpanMs": 231.20000004768372,
+      "ackTick": 17710,
+      "ackTime": 295.1666666667269,
+      "lastInput": 11538
+    },
+    {
+      "wallMs": 336688,
+      "seq": 11559,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5130493937526169,
+      "sendDelayMs": 53.700000047683716,
+      "receiptHeldSpanMs": 282.7999999523163,
+      "ackTick": 17751,
+      "ackTime": 295.8500000000596,
+      "lastInput": 11567
+    },
+    {
+      "wallMs": 339387,
+      "seq": 11668,
+      "f": 0,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.485260035491475,
+      "sendDelayMs": 255.79999995231628,
+      "receiptHeldSpanMs": 73.80000019073486,
+      "ackTick": 17911,
+      "ackTime": 298.51666666672384,
+      "lastInput": 11669
+    },
+    {
+      "wallMs": 340120,
+      "seq": 11696,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4426151281803629,
+      "sendDelayMs": 145.0,
+      "receiptHeldSpanMs": 119.79999995231628,
+      "ackTick": 17958,
+      "ackTime": 299.30000000005646,
+      "lastInput": 11698
+    },
+    {
+      "wallMs": 340651,
+      "seq": 11715,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4753823574178646,
+      "sendDelayMs": 106.10000014305115,
+      "receiptHeldSpanMs": 92.19999980926514,
+      "ackTick": 17989,
+      "ackTime": 299.81666666672265,
+      "lastInput": 11715
+    },
+    {
+      "wallMs": 341302,
+      "seq": 11736,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5031303407308979,
+      "sendDelayMs": 128.10000014305115,
+      "receiptHeldSpanMs": 199.59999990463257,
+      "ackTick": 18028,
+      "ackTime": 300.46666666672206,
+      "lastInput": 11740
+    },
+    {
+      "wallMs": 342474,
+      "seq": 11774,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4902757628932175,
+      "sendDelayMs": 227.69999980926514,
+      "receiptHeldSpanMs": 293.5,
+      "ackTick": 18090,
+      "ackTime": 301.50000000005446,
+      "lastInput": 11779
+    },
+    {
+      "wallMs": 344490,
+      "seq": 11833,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4693603646242804,
+      "sendDelayMs": 405.5,
+      "receiptHeldSpanMs": 920.2000000476837,
+      "ackTick": 18197,
+      "ackTime": 303.28333333338617,
+      "lastInput": 11853
+    },
+    {
+      "wallMs": 345433,
+      "seq": 11887,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48431198844846607,
+      "sendDelayMs": 180.0,
+      "receiptHeldSpanMs": 437.5,
+      "ackTick": 18250,
+      "ackTime": 304.1666666667187,
+      "lastInput": 11893
+    },
+    {
+      "wallMs": 346018,
+      "seq": 11915,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5033846920123677,
+      "sendDelayMs": 14.600000143051147,
+      "receiptHeldSpanMs": 267.7999999523163,
+      "ackTick": 18283,
+      "ackTime": 304.7166666667182,
+      "lastInput": 11915
+    },
+    {
+      "wallMs": 346679,
+      "seq": 11936,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.504911204715409,
+      "sendDelayMs": 56.5,
+      "receiptHeldSpanMs": 311.2999999523163,
+      "ackTick": 18322,
+      "ackTime": 305.3666666667176,
+      "lastInput": 11939
+    },
+    {
+      "wallMs": 347439,
+      "seq": 11962,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4962571109632562,
+      "sendDelayMs": 140.79999995231628,
+      "receiptHeldSpanMs": 341.09999990463257,
+      "ackTick": 18357,
+      "ackTime": 305.9500000000504,
+      "lastInput": 11965
+    },
+    {
+      "wallMs": 347995,
+      "seq": 11985,
+      "f": 0,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48756174478943487,
+      "sendDelayMs": 68.80000019073486,
+      "receiptHeldSpanMs": 238.0,
+      "ackTick": 18392,
+      "ackTime": 306.5333333333832,
+      "lastInput": 11988
+    },
+    {
+      "wallMs": 348566,
+      "seq": 12007,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.47694320148188196,
+      "sendDelayMs": 48.5,
+      "receiptHeldSpanMs": 241.5,
+      "ackTick": 18410,
+      "ackTime": 306.83333333338294,
+      "lastInput": 12011
+    },
+    {
+      "wallMs": 350796,
+      "seq": 12082,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48525904261885844,
+      "sendDelayMs": 141.20000004768372,
+      "receiptHeldSpanMs": 330.89999985694885,
+      "ackTick": 18521,
+      "ackTime": 308.68333333338126,
+      "lastInput": 12086
+    },
+    {
+      "wallMs": 351409,
+      "seq": 12108,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5074024212141259,
+      "sendDelayMs": 103.70000004768372,
+      "receiptHeldSpanMs": 192.60000014305115,
+      "ackTick": 18561,
+      "ackTime": 309.3500000000473,
+      "lastInput": 12110
+    },
+    {
+      "wallMs": 352115,
+      "seq": 12131,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.49685068186917797,
+      "sendDelayMs": 145.5,
+      "receiptHeldSpanMs": 322.90000009536743,
+      "ackTick": 18599,
+      "ackTime": 309.9833333333801,
+      "lastInput": 12135
+    },
+    {
+      "wallMs": 352598,
+      "seq": 12150,
+      "f": 0,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4780181414550986,
+      "sendDelayMs": 52.89999985694885,
+      "receiptHeldSpanMs": 129.30000019073486,
+      "ackTick": 18633,
+      "ackTime": 310.5500000000462,
+      "lastInput": 12150
+    },
+    {
+      "wallMs": 353153,
+      "seq": 12171,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.44766050272085267,
+      "sendDelayMs": 164.5,
+      "receiptHeldSpanMs": 78.70000004768372,
+      "ackTick": 18668,
+      "ackTime": 311.133333333379,
+      "lastInput": 12171
+    },
+    {
+      "wallMs": 353664,
+      "seq": 12184,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48857563103054963,
+      "sendDelayMs": 64.70000004768372,
+      "receiptHeldSpanMs": 144.29999995231628,
+      "ackTick": 18700,
+      "ackTime": 311.6666666667119,
+      "lastInput": 12187
+    },
+    {
+      "wallMs": 354206,
+      "seq": 12204,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5334954703054389,
+      "sendDelayMs": 104.5,
+      "receiptHeldSpanMs": 72.40000009536743,
+      "ackTick": 18733,
+      "ackTime": 312.2166666667114,
+      "lastInput": 12205
+    },
+    {
+      "wallMs": 354984,
+      "seq": 12218,
+      "f": 0,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48068074425942026,
+      "sendDelayMs": 117.59999990463257,
+      "receiptHeldSpanMs": 399.59999990463257,
+      "ackTick": 18777,
+      "ackTime": 312.95000000004404,
+      "lastInput": 12228
+    },
+    {
+      "wallMs": 355566,
+      "seq": 12249,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4727454691143444,
+      "sendDelayMs": 155.60000014305115,
+      "receiptHeldSpanMs": 134.5,
+      "ackTick": 18811,
+      "ackTime": 313.5166666667102,
+      "lastInput": 12249
+    },
+    {
+      "wallMs": 356138,
+      "seq": 12266,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5006664765673948,
+      "sendDelayMs": 49.5,
+      "receiptHeldSpanMs": 154.30000019073486,
+      "ackTick": 18845,
+      "ackTime": 314.08333333337634,
+      "lastInput": 12266
+    },
+    {
+      "wallMs": 356624,
+      "seq": 12283,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.5002108369680474,
+      "sendDelayMs": 49.799999952316284,
+      "receiptHeldSpanMs": 117.09999990463257,
+      "ackTick": 18876,
+      "ackTime": 314.60000000004254,
+      "lastInput": 12283
+    },
+    {
+      "wallMs": 357454,
+      "seq": 12314,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4845426755373222,
+      "sendDelayMs": 245.90000009536743,
+      "receiptHeldSpanMs": 72.5,
+      "ackTick": 18925,
+      "ackTime": 315.41666666670847,
+      "lastInput": 12314
+    },
+    {
+      "wallMs": 358181,
+      "seq": 12329,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4805258383150587,
+      "sendDelayMs": 72.0,
+      "receiptHeldSpanMs": 360.2999999523163,
+      "ackTick": 18959,
+      "ackTime": 315.9833333333746,
+      "lastInput": 12335
+    },
+    {
+      "wallMs": 359769,
+      "seq": 12392,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4851054823138333,
+      "sendDelayMs": 95.60000014305115,
+      "receiptHeldSpanMs": 256.59999990463257,
+      "ackTick": 19061,
+      "ackTime": 317.68333333337307,
+      "lastInput": 12396
+    },
+    {
+      "wallMs": 362855,
+      "seq": 12508,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48526001397315877,
+      "sendDelayMs": 411.89999985694885,
+      "receiptHeldSpanMs": 187.10000014305115,
+      "ackTick": 19235,
+      "ackTime": 320.58333333337043,
+      "lastInput": 12509
+    },
+    {
+      "wallMs": 364558,
+      "seq": 12569,
+      "f": 1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48522232228127204,
+      "sendDelayMs": 121.20000004768372,
+      "receiptHeldSpanMs": 164,
+      "ackTick": 19340,
+      "ackTime": 322.33333333336884,
+      "lastInput": 12570
+    },
+    {
+      "wallMs": 365970,
+      "seq": 12616,
+      "f": -1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48603507593804823,
+      "sendDelayMs": 100.79999995231628,
+      "receiptHeldSpanMs": 79.09999990463257,
+      "ackTick": 19423,
+      "ackTime": 323.7166666667009,
+      "lastInput": 12616
+    },
+    {
+      "wallMs": 368004,
+      "seq": 12678,
+      "f": 1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852598117713262,
+      "sendDelayMs": 147.79999995231628,
+      "receiptHeldSpanMs": 194.5,
+      "ackTick": 19542,
+      "ackTime": 325.70000000003245,
+      "lastInput": 12682
+    },
+    {
+      "wallMs": 369415,
+      "seq": 12729,
+      "f": -1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852603629941757,
+      "sendDelayMs": 89.0,
+      "receiptHeldSpanMs": 125.59999990463257,
+      "ackTick": 19628,
+      "ackTime": 327.1333333333645,
+      "lastInput": 12731
+    },
+    {
+      "wallMs": 371749,
+      "seq": 12801,
+      "f": 1,
+      "s": 0,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48526000067331965,
+      "sendDelayMs": 115.40000009536743,
+      "receiptHeldSpanMs": 346.59999990463257,
+      "ackTick": 19751,
+      "ackTime": 329.1833333333626,
+      "lastInput": 12803
+    },
+    {
+      "wallMs": 373264,
+      "seq": 12859,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852603614153491,
+      "sendDelayMs": 111.70000004768372,
+      "receiptHeldSpanMs": 284.09999990463257,
+      "ackTick": 19828,
+      "ackTime": 330.4666666666948,
+      "lastInput": 12863
+    },
+    {
+      "wallMs": 375289,
+      "seq": 12935,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852613501600193,
+      "sendDelayMs": 121.30000019073486,
+      "receiptHeldSpanMs": 150.59999990463257,
+      "ackTick": 19954,
+      "ackTime": 332.56666666669287,
+      "lastInput": 12938
+    },
+    {
+      "wallMs": 377855,
+      "seq": 13022,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4852598789248096,
+      "sendDelayMs": 123.09999990463257,
+      "receiptHeldSpanMs": 351.5,
+      "ackTick": 20091,
+      "ackTime": 334.8500000000241,
+      "lastInput": 13024
+    },
+    {
+      "wallMs": 378349,
+      "seq": 13045,
+      "f": 0,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.49708280073037797,
+      "sendDelayMs": 54.10000014305115,
+      "receiptHeldSpanMs": 148.59999990463257,
+      "ackTick": 20124,
+      "ackTime": 335.4000000000236,
+      "lastInput": 13047
+    },
+    {
+      "wallMs": 380244,
+      "seq": 13109,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.48526026521935145,
+      "sendDelayMs": 129.90000009536743,
+      "receiptHeldSpanMs": 126.29999995231628,
+      "ackTick": 20238,
+      "ackTime": 337.3000000000219,
+      "lastInput": 13109
+    },
+    {
+      "wallMs": 380762,
+      "seq": 13123,
+      "f": 1,
+      "s": -1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.4786220560483179,
+      "sendDelayMs": 11.700000047683716,
+      "receiptHeldSpanMs": 203.0,
+      "ackTick": 20266,
+      "ackTime": 337.76666666668814,
+      "lastInput": 13125
+    },
+    {
+      "wallMs": 381379,
+      "seq": 13146,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.44195879513125946,
+      "sendDelayMs": 193.10000014305115,
+      "receiptHeldSpanMs": 151.09999990463257,
+      "ackTick": 20306,
+      "ackTime": 338.4333333333542,
+      "lastInput": 13148
+    },
+    {
+      "wallMs": 381952,
+      "seq": 13163,
+      "f": -1,
+      "s": 1,
+      "movementYaw": 0.485260001087188,
+      "aimYaw": 0.49055274527525095,
+      "sendDelayMs": 14.599999904632568,
+      "receiptHeldSpanMs": 221.10000014305115,
+      "ackTick": 20338,
+      "ackTime": 338.96666666668705,
+      "lastInput": 13167
+    }
+  ],
+  "eastNativeKeyframes": [
+    {
+      "tick": 16231,
+      "time": 270.5166666667493,
+      "wallMs": 311407,
+      "x": -5.40664448326811,
+      "z": -32.72116108443832,
+      "distance": 2.420037362162134,
+      "lastInput": 10645,
+      "speed": 7.595866035559074,
+      "requestedXZ": [
+        0.12093829639458449,
+        0.03742890781495038
+      ],
+      "acceptedXZ": [
+        0.10241100937128067,
+        0.04275989159941673
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0007098438800312579
+        },
+        {
+          "shapeType": 14,
+          "normalY": -8.633478864794597E-05,
+          "toi": 0.10273399949073792
+        }
+      ]
+    },
+    {
+      "tick": 16359,
+      "time": 272.6500000000807,
+      "wallMs": 313432,
+      "x": -7.092059702783672,
+      "z": -31.26214592503628,
+      "distance": 3.011973413299889,
+      "lastInput": 10728,
+      "speed": 7.5999208354475,
+      "requestedXZ": [
+        -0.12100249387739219,
+        -0.03745005569160308
+      ],
+      "acceptedXZ": [
+        -0.12100186944007874,
+        -0.03744974359869957
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0013716492103412747
+        }
+      ]
+    },
+    {
+      "tick": 16486,
+      "time": 274.76666666674544,
+      "wallMs": 315475,
+      "x": -7.159297436646966,
+      "z": -30.720523503681292,
+      "distance": 3.0187052972590465,
+      "lastInput": 10800,
+      "speed": 7.599633695865157,
+      "requestedXZ": [
+        -0.12099828355705408,
+        -0.03744747308570794
+      ],
+      "acceptedXZ": [
+        -0.12096405774354935,
+        -0.037310581654310226
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9998206496238708,
+          "toi": 5.594058893620968E-05
+        }
+      ]
+    },
+    {
+      "tick": 16609,
+      "time": 276.8166666667436,
+      "wallMs": 317511,
+      "x": -1.5788401478221772,
+      "z": -31.205604214579537,
+      "distance": 2.6201866437835766,
+      "lastInput": 10871,
+      "speed": 5.157646913124391E-05,
+      "requestedXZ": [
+        7.609235581207758E-07,
+        -3.999011639541222E-07
+      ],
+      "acceptedXZ": [
+        2.2457976456280448E-07,
+        -3.9990115396904E-07
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 9.546547516947612E-05
+        }
+      ]
+    },
+    {
+      "tick": 16729,
+      "time": 278.81666666674175,
+      "wallMs": 319529,
+      "x": -1.4632230940060822,
+      "z": -30.25757285709001,
+      "distance": 2.7078285692511255,
+      "lastInput": 10940,
+      "speed": 7.4663842822271835,
+      "requestedXZ": [
+        0.038926045851246115,
+        -0.11819480258088198
+      ],
+      "acceptedXZ": [
+        0.03892681375145912,
+        -0.11819480359554291
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0012981019681319594
+        }
+      ]
+    },
+    {
+      "tick": 16847,
+      "time": 280.78333333340663,
+      "wallMs": 321579,
+      "x": -5.84002987190803,
+      "z": -28.85401369201459,
+      "distance": 2.478190953075326,
+      "lastInput": 11008,
+      "speed": 7.599831546330372,
+      "requestedXZ": [
+        -0.03745199455549404,
+        0.12100033598017308
+      ],
+      "acceptedXZ": [
+        -0.03745199367403984,
+        0.12100033462047577
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0023066506255418062
+        }
+      ]
+    },
+    {
+      "tick": 16969,
+      "time": 282.8166666667381,
+      "wallMs": 323654,
+      "x": -3.97500803310146,
+      "z": -33.834425966148004,
+      "distance": 3.1804531474764954,
+      "lastInput": 11082,
+      "speed": 7.5627311548325755,
+      "requestedXZ": [
+        -0.12022553714537085,
+        -0.03785885814978759
+      ],
+      "acceptedXZ": [
+        -0.07909949123859406,
+        -0.07849079370498657
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0023643425665795803
+        }
+      ]
+    },
+    {
+      "tick": 17100,
+      "time": 285.00000000006946,
+      "wallMs": 325665,
+      "x": -4.9018206757022575,
+      "z": -23.748382069621456,
+      "distance": 6.951671062956271,
+      "lastInput": 11168,
+      "speed": 7.206730100787641,
+      "requestedXZ": [
+        0.035329042646381904,
+        -0.11479891868209666
+      ],
+      "acceptedXZ": [
+        0.035329535603523254,
+        -0.11479891836643219
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0010724326130002737
+        }
+      ]
+    },
+    {
+      "tick": 17219,
+      "time": 286.983333333401,
+      "wallMs": 327977,
+      "x": -4.605520453478167,
+      "z": -33.77163374282814,
+      "distance": 3.1477432401390164,
+      "lastInput": 11240,
+      "speed": 1.4091704581058135,
+      "requestedXZ": [
+        -0.022127988975396237,
+        0.007870990232338091
+      ],
+      "acceptedXZ": [
+        -0.013642078265547752,
+        0.015339317731559277
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0
+        },
+        {
+          "shapeType": 6,
+          "normalY": 0,
+          "toi": 0.0004254135419614613
+        }
+      ]
+    },
+    {
+      "tick": 17355,
+      "time": 289.2500000000656,
+      "wallMs": 330254,
+      "x": -5.950132563003552,
+      "z": -27.12642429839193,
+      "distance": 3.9681736245991805,
+      "lastInput": 11327,
+      "speed": 7.246289527506881,
+      "requestedXZ": [
+        0.04054513986860146,
+        0.11376222986194574
+      ],
+      "acceptedXZ": [
+        0.0405411534011364,
+        0.113763228058815
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9999997615814209,
+          "toi": 0.003568236716091633
+        }
+      ]
+    },
+    {
+      "tick": 17490,
+      "time": 291.50000000006355,
+      "wallMs": 332255,
+      "x": -4.218605588885339,
+      "z": -30.01717271095934,
+      "distance": 0.6457986339467344,
+      "lastInput": 11407,
+      "speed": 7.592834793653887,
+      "requestedXZ": [
+        0.03741397125959798,
+        -0.12089003419112229
+      ],
+      "acceptedXZ": [
+        0.03741396963596344,
+        -0.12088973820209503
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0029164620209485292
+        }
+      ]
+    },
+    {
+      "tick": 17613,
+      "time": 293.5500000000617,
+      "wallMs": 334276,
+      "x": -2.7401119120152724,
+      "z": -32.70474868013274,
+      "distance": 2.4801234709644233,
+      "lastInput": 11474,
+      "speed": 6.59151840920616,
+      "requestedXZ": [
+        -0.025456911486993427,
+        0.106868454063421
+      ],
+      "acceptedXZ": [
+        -0.025457076728343964,
+        0.10686849802732468
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0019710203632712364
+        }
+      ]
+    },
+    {
+      "tick": 17727,
+      "time": 295.45000000005996,
+      "wallMs": 336415,
+      "x": -4.7702615695273565,
+      "z": -32.65702621419199,
+      "distance": 2.095353149819854,
+      "lastInput": 11551,
+      "speed": 7.599513814511205,
+      "requestedXZ": [
+        0.037438599615765476,
+        -0.12099893795294249
+      ],
+      "acceptedXZ": [
+        0.03743860125541687,
+        -0.12099894136190414
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.002074036281555891
+        }
+      ]
+    },
+    {
+      "tick": 17854,
+      "time": 297.5666666667247,
+      "wallMs": 338429,
+      "x": -1.342755105944038,
+      "z": -32.91684399162144,
+      "distance": 3.59616620316554,
+      "lastInput": 11631,
+      "speed": 3.5882482641760234E-09,
+      "requestedXZ": [
+        5.72553107326701E-11,
+        1.7273224461107233E-11
+      ],
+      "acceptedXZ": [
+        -1.3200492503528949E-06,
+        -4.3131416305186576E-07
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 9.665220568422228E-05
+        }
+      ]
+    },
+    {
+      "tick": 17979,
+      "time": 299.65000000005614,
+      "wallMs": 340514,
+      "x": -6.50700623957849,
+      "z": -29.106007332349634,
+      "distance": 2.8295858405013075,
+      "lastInput": 11709,
+      "speed": 7.581187635980168,
+      "requestedXZ": [
+        -0.03808376996895173,
+        0.12047713158493982
+      ],
+      "acceptedXZ": [
+        -0.037994276732206345,
+        0.12056701630353928
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9996175169944763,
+          "toi": 0.0002690421824809164
+        },
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00156909239012748
+        }
+      ]
+    },
+    {
+      "tick": 18094,
+      "time": 301.56666666672106,
+      "wallMs": 342529,
+      "x": -3.2445993862016023,
+      "z": -34.72806641615915,
+      "distance": 4.167348186506958,
+      "lastInput": 11781,
+      "speed": 7.039378261936788,
+      "requestedXZ": [
+        -0.03468670292119303,
+        0.11207815207389023
+      ],
+      "acceptedXZ": [
+        -0.03468383476138115,
+        0.11207719892263412
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9999999403953552,
+          "toi": 0.0018335900967940688
+        }
+      ]
+    },
+    {
+      "tick": 18206,
+      "time": 303.43333333338603,
+      "wallMs": 344540,
+      "x": -7.200779583854032,
+      "z": -22.124510558373174,
+      "distance": 9.065689272640858,
+      "lastInput": 11864,
+      "speed": 7.5999999993221135,
+      "requestedXZ": [
+        -0.03744927807265003,
+        0.12100411568793679
+      ],
+      "acceptedXZ": [
+        -0.00839195679873228,
+        -0.00201748707331717
+      ],
+      "contacts": [
+        {
+          "shapeType": 1,
+          "normalY": 0,
+          "toi": 6.583827052963898E-05
+        },
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00021176444715820253
+        }
+      ]
+    },
+    {
+      "tick": 18322,
+      "time": 305.3666666667176,
+      "wallMs": 346625,
+      "x": -5.289112662805142,
+      "z": -31.621099982330804,
+      "distance": 1.498190074383273,
+      "lastInput": 11939,
+      "speed": 7.246371273453083,
+      "requestedXZ": [
+        0.09771762881195575,
+        -0.07097427292581654
+      ],
+      "acceptedXZ": [
+        0.09771554917097092,
+        -0.07097219675779343
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9999999403953552,
+          "toi": 0.0034271127078682184
+        }
+      ]
+    },
+    {
+      "tick": 18418,
+      "time": 306.96666666671615,
+      "wallMs": 348933,
+      "x": -5.906135957065576,
+      "z": -30.049692652253896,
+      "distance": 1.8668982029292118,
+      "lastInput": 12016,
+      "speed": 7.500143521107283,
+      "requestedXZ": [
+        -0.12053639226062816,
+        -0.033114591211842105
+      ],
+      "acceptedXZ": [
+        -0.12053639441728592,
+        -0.033114589750766754
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0020323314238339663
+        }
+      ]
+    },
+    {
+      "tick": 18537,
+      "time": 308.9500000000477,
+      "wallMs": 351048,
+      "x": -3.4056706005185857,
+      "z": -28.419910686953276,
+      "distance": 2.356167818702015,
+      "lastInput": 12095,
+      "speed": 7.566830181696875,
+      "requestedXZ": [
+        0.1202552536312711,
+        0.037991758263112275
+      ],
+      "acceptedXZ": [
+        0.12025512009859085,
+        0.03799191862344742
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0007288214401341975
+        }
+      ]
+    },
+    {
+      "tick": 18657,
+      "time": 310.95000000004586,
+      "wallMs": 353087,
+      "x": -6.922817332711072,
+      "z": -31.21657293329602,
+      "distance": 2.8370508634880913,
+      "lastInput": 12165,
+      "speed": 7.589074148250234,
+      "requestedXZ": [
+        -0.1120868950929779,
+        0.05860779963721357
+      ],
+      "acceptedXZ": [
+        -0.11208689212799072,
+        0.0586077980697155
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0020711934193968773
+        }
+      ]
+    },
+    {
+      "tick": 18788,
+      "time": 313.1333333333772,
+      "wallMs": 355144,
+      "x": -7.028913300670918,
+      "z": -30.76383288547052,
+      "distance": 2.889607239324883,
+      "lastInput": 12234,
+      "speed": 7.593463935318663,
+      "requestedXZ": [
+        -0.11206463210168313,
+        0.058807974166106176
+      ],
+      "acceptedXZ": [
+        -0.11206462979316711,
+        0.05880797281861305
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0020723885390907526
+        }
+      ]
+    },
+    {
+      "tick": 18904,
+      "time": 315.0666666667088,
+      "wallMs": 357157,
+      "x": -1.53167018173286,
+      "z": -31.358621787211206,
+      "distance": 2.7018959501885633,
+      "lastInput": 12298,
+      "speed": 7.597419248602248,
+      "requestedXZ": [
+        0.03753385677265123,
+        -0.12093287139727596
+      ],
+      "acceptedXZ": [
+        -0.02642170712351799,
+        -0.016195954754948616
+      ],
+      "contacts": [
+        {
+          "shapeType": 14,
+          "normalY": 0,
+          "toi": 7.086614641593769E-05
+        },
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0005560768768191338
+        },
+        {
+          "shapeType": 14,
+          "normalY": 0.061553772538900375,
+          "toi": 0.0021405129227787256
+        }
+      ]
+    },
+    {
+      "tick": 19028,
+      "time": 317.13333333337357,
+      "wallMs": 359217,
+      "x": -4.626093464773302,
+      "z": -29.18455181550283,
+      "distance": 1.551477086345592,
+      "lastInput": 12378,
+      "speed": 0.00033343528218418176,
+      "requestedXZ": [
+        -1.649925419976578E-06,
+        5.306677486271929E-06
+      ],
+      "acceptedXZ": [
+        -1.6499253661095281E-06,
+        5.306677394401049E-06
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00010949005809379742
+        }
+      ]
+    },
+    {
+      "tick": 19130,
+      "time": 318.833333333372,
+      "wallMs": 361262,
+      "x": -3.7330433699358343,
+      "z": -32.07004521380286,
+      "distance": 1.4695536652366497,
+      "lastInput": 12439,
+      "speed": 6.450345426196918E-05,
+      "requestedXZ": [
+        3.1784313098815247E-07,
+        -1.0269978213796922E-06
+      ],
+      "acceptedXZ": [
+        4.522729852851626E-07,
+        4.844089573907695E-08
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9999992847442627,
+          "toi": 9.995752043323591E-05
+        }
+      ]
+    },
+    {
+      "tick": 19239,
+      "time": 320.65000000003704,
+      "wallMs": 363552,
+      "x": -3.599130230362849,
+      "z": -30.186431841531252,
+      "distance": 0.7187166378589753,
+      "lastInput": 12513,
+      "speed": 7.290292688619315,
+      "requestedXZ": [
+        -0.0298022187922181,
+        0.11779330697355125
+      ],
+      "acceptedXZ": [
+        -0.029802218079566956,
+        0.11779330670833588
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.004049771931022406
+        }
+      ]
+    },
+    {
+      "tick": 19401,
+      "time": 323.3500000000346,
+      "wallMs": 365658,
+      "x": -2.8690791468880104,
+      "z": -32.37751692753484,
+      "distance": 2.138694700056172,
+      "lastInput": 12605,
+      "speed": 0.0007879799718527476,
+      "requestedXZ": [
+        9.690726685193682E-06,
+        -8.863717786061697E-06
+      ],
+      "acceptedXZ": [
+        1.0964232387777884E-05,
+        -9.500470696366392E-06
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 3.889466461259872E-05
+        }
+      ]
+    },
+    {
+      "tick": 19518,
+      "time": 325.3000000000328,
+      "wallMs": 367666,
+      "x": -3.7188539264763323,
+      "z": -29.026550032966046,
+      "distance": 1.6855492240033347,
+      "lastInput": 12669,
+      "speed": 6.094278524913352E-07,
+      "requestedXZ": [
+        -2.9879730135250024E-09,
+        9.707694107221906E-09
+      ],
+      "acceptedXZ": [
+        -9.378196352827217E-08,
+        6.679640591755742E-07
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 8.829475700622424E-05
+        }
+      ]
+    },
+    {
+      "tick": 19644,
+      "time": 327.4000000000309,
+      "wallMs": 369997,
+      "x": -4.3514256220468095,
+      "z": -30.226114896436812,
+      "distance": 0.48060569050878527,
+      "lastInput": 12739,
+      "speed": 7.438273919234799,
+      "requestedXZ": [
+        0.057824938152255645,
+        0.10965921250913456
+      ],
+      "acceptedXZ": [
+        0.05783472955226898,
+        0.10965915024280548
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 0.9999986886978149,
+          "toi": 0.00039481703424826264
+        }
+      ]
+    },
+    {
+      "tick": 19769,
+      "time": 329.48333333336234,
+      "wallMs": 372411,
+      "x": -4.8453734874727,
+      "z": -31.162910679804188,
+      "distance": 0.8662712126700806,
+      "lastInput": 12820,
+      "speed": 7.54616609207433,
+      "requestedXZ": [
+        -0.05866368895510322,
+        -0.11124981952871306
+      ],
+      "acceptedXZ": [
+        -0.058663688600063324,
+        -0.11124981939792633
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.002069335663691163
+        }
+      ]
+    },
+    {
+      "tick": 19902,
+      "time": 331.700000000027,
+      "wallMs": 374412,
+      "x": -1.4099681288294343,
+      "z": -29.61112003957655,
+      "distance": 2.9251385127104106,
+      "lastInput": 12905,
+      "speed": 2.023254464570748E-05,
+      "requestedXZ": [
+        3.21727038601068E-07,
+        1.010033392177639E-07
+      ],
+      "acceptedXZ": [
+        3.217270432287478E-07,
+        1.0100333724949451E-07
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 9.995326399803162E-05
+        }
+      ]
+    },
+    {
+      "tick": 20010,
+      "time": 333.50000000002535,
+      "wallMs": 376487,
+      "x": -6.996751851188378,
+      "z": -30.590036818323068,
+      "distance": 2.856335045158326,
+      "lastInput": 12979,
+      "speed": 0.137203219913974,
+      "requestedXZ": [
+        -0.0021539476863478325,
+        0.0007678536584530178
+      ],
+      "acceptedXZ": [
+        -0.002153947716578841,
+        0.0007678536348976195
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.0001067217526724562
+        }
+      ]
+    },
+    {
+      "tick": 20136,
+      "time": 335.60000000002344,
+      "wallMs": 378736,
+      "x": -1.2944906302498973,
+      "z": -29.878573169013418,
+      "distance": 2.951600790266897,
+      "lastInput": 13050,
+      "speed": 7.486662911370986,
+      "requestedXZ": [
+        0.11251305598272096,
+        -0.05394710781260825
+      ],
+      "acceptedXZ": [
+        0.11251305788755417,
+        -0.053946610540151596
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00014462589751929045
+        }
+      ]
+    },
+    {
+      "tick": 20271,
+      "time": 337.8500000000214,
+      "wallMs": 380800,
+      "x": -4.798416653138564,
+      "z": -31.581823388669935,
+      "distance": 1.1334678710633659,
+      "lastInput": 13128,
+      "speed": 7.592754597703899,
+      "requestedXZ": [
+        -0.12087350760270753,
+        -0.03746281473489275
+      ],
+      "acceptedXZ": [
+        -0.12087338417768478,
+        -0.03746281564235687
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.003838861361145973
+        }
+      ]
+    },
+    {
+      "tick": 20372,
+      "time": 339.5333333333532,
+      "wallMs": 382915,
+      "x": -1.1704918346984847,
+      "z": -30.341636105995917,
+      "distance": 2.987572946530535,
+      "lastInput": 13192,
+      "speed": 0.8809491536043643,
+      "requestedXZ": [
+        0.013973332714444626,
+        -0.004507922455133835
+      ],
+      "acceptedXZ": [
+        0.01397387869656086,
+        -0.004507796838879585
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00028074561851099133
+        }
+      ]
+    },
+    {
+      "tick": 20516,
+      "time": 341.933333333351,
+      "wallMs": 384953,
+      "x": -1.1173049326801965,
+      "z": -30.35882294765311,
+      "distance": 3.0387233856890408,
+      "lastInput": 13284,
+      "speed": 2.2524556606234004E-15,
+      "requestedXZ": [
+        3.572772871356898E-17,
+        -1.1526085711273283E-17
+      ],
+      "acceptedXZ": [
+        3.572772729245573E-17,
+        -1.1526086029365985E-17
+      ],
+      "contacts": [
+        {
+          "shapeType": 6,
+          "normalY": 1,
+          "toi": 0.00017362460494041443
+        }
+      ]
+    }
+  ],
+  "tracking": [
+    {
+      "name": "MissionHost",
+      "target": "overhaul-street-scout",
+      "startWallMs": 55185,
+      "endWallMs": 63103,
+      "firstNativeTime": 40.63333333333231,
+      "lastNativeTime": 42.283333333332216,
+      "exit": "target-defeated",
+      "steps": 8
+    },
+    {
+      "name": "MissionGuest",
+      "target": "overhaul-street-scout",
+      "startWallMs": 55677,
+      "endWallMs": 62902,
+      "firstNativeTime": 40.63333333333231,
+      "lastNativeTime": 42.283333333332216,
+      "exit": "target-defeated",
+      "steps": 9
+    },
+    {
+      "name": "MissionHost",
+      "target": "bot-2",
+      "startWallMs": 203650,
+      "endWallMs": 210867,
+      "firstNativeTime": 166.00000000002424,
+      "lastNativeTime": 171.5166666666953,
+      "exit": "target-defeated",
+      "steps": 11
+    },
+    {
+      "name": "MissionGuest",
+      "target": "bot-2",
+      "startWallMs": 207194,
+      "endWallMs": 211015,
+      "firstNativeTime": 169.2833333333602,
+      "lastNativeTime": 172.0166666666957,
+      "exit": "target-defeated",
+      "steps": 8
+    },
+    {
+      "name": "MissionHost",
+      "target": "bot-0",
+      "startWallMs": 218556,
+      "endWallMs": 224314,
+      "firstNativeTime": 180.26666666670226,
+      "lastNativeTime": 185.01666666670604,
+      "exit": "target-defeated",
+      "steps": 11
+    }
+  ],
+  "observedNativeSideContactSamples": [
+    {
+      "tick": 16231,
+      "time": 270.5166666667493,
+      "wallMs": 311407,
+      "actorXZ": [
+        -5.40664448326811,
+        -32.72116108443832
+      ],
+      "requested": [
+        0.12093829639458449,
+        0.03742890781495038
+      ],
+      "accepted": [
+        0.10241100937128067,
+        0.04275989159941673
+      ],
+      "horizontalDifference": 0.019278997706160074,
+      "contacts": [
+        {
+          "support": {
+            "handle": 3.5E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:4",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0.00010517180635361001
+          },
+          "witness1": {
+            "x": -5.999991416931152,
+            "y": -0.08000001311302185,
+            "z": -34.0854606628418
+          },
+          "toi": 0.0007098438800312579,
+          "frameStatus": "UNKNOWN"
+        },
+        {
+          "support": {
+            "handle": 1.0822178612E-312,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:3",
+            "position": {
+              "x": -1.973442792892456,
+              "y": 1.2401000261306763,
+              "z": -33.8408203125
+            },
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 14
+          },
+          "normal": {
+            "x": -0.9609999656677246,
+            "y": -8.633478864794597E-05,
+            "z": 0.2765485346317291
+          },
+          "witness1": {
+            "x": -3.712277412414551,
+            "y": 1.240112066268921,
+            "z": -33.234169006347656
+          },
+          "toi": 0.10273399949073792,
+          "frameStatus": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "tick": 16969,
+      "time": 282.8166666667381,
+      "wallMs": 323654,
+      "actorXZ": [
+        -3.97500803310146,
+        -33.834425966148004
+      ],
+      "requested": [
+        -0.12022553714537085,
+        -0.03785885814978759
+      ],
+      "accepted": [
+        -0.07909949123859406,
+        -0.07849079370498657
+      ],
+      "horizontalDifference": 0.057812678876593804,
+      "contacts": [
+        {
+          "support": {
+            "handle": 3.5E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:4",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "witness1": {
+            "x": -4.636969566345215,
+            "y": -0.08000098168849945,
+            "z": -33.99993896484375
+          },
+          "toi": 0.0023643425665795803,
+          "frameStatus": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "tick": 17219,
+      "time": 286.983333333401,
+      "wallMs": 327977,
+      "actorXZ": [
+        -4.605520453478167,
+        -33.77163374282814
+      ],
+      "requested": [
+        -0.022127988975396237,
+        0.007870990232338091
+      ],
+      "accepted": [
+        -0.013642078265547752,
+        0.015339317731559277
+      ],
+      "horizontalDifference": 0.01130427336059884,
+      "contacts": [
+        {
+          "support": {
+            "handle": 3.75E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:9",
+            "position": {
+              "x": -6,
+              "y": -0.07999999821186066,
+              "z": -35
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": -2.141969389413134E-06,
+            "y": 1,
+            "z": -5.215229521127185E-06
+          },
+          "witness1": {
+            "x": -5.739001274108887,
+            "y": 0.20782969892024994,
+            "z": -34.738929748535156
+          },
+          "toi": 0,
+          "frameStatus": "UNKNOWN"
+        },
+        {
+          "support": {
+            "handle": 3.75E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:9",
+            "position": {
+              "x": -6,
+              "y": -0.07999999821186066,
+              "z": -35
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": 0.7506806254386902,
+            "y": 0,
+            "z": 0.6606652736663818
+          },
+          "witness1": {
+            "x": -5.922064304351807,
+            "y": 1.844514012336731,
+            "z": -34.954978942871094
+          },
+          "toi": 0.0004254135419614613,
+          "frameStatus": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "tick": 18206,
+      "time": 303.43333333338603,
+      "wallMs": 344540,
+      "actorXZ": [
+        -7.200779583854032,
+        -22.124510558373174
+      ],
+      "requested": [
+        -0.03744927807265003,
+        0.12100411568793679
+      ],
+      "accepted": [
+        -0.00839195679873228,
+        -0.00201748707331717
+      ],
+      "horizontalDifference": 0.1264066559385361,
+      "contacts": [
+        {
+          "support": {
+            "handle": 1.24E-321,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:8",
+            "position": {
+              "x": -8.5,
+              "y": 1.0199999809265137,
+              "z": -20
+            },
+            "revision": "native-type:1",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 1
+          },
+          "normal": {
+            "x": 0.22987177968025208,
+            "y": 0,
+            "z": -0.9732208847999573
+          },
+          "witness1": {
+            "x": -7.599991798400879,
+            "y": 1.126167893409729,
+            "z": -20.39999771118164
+          },
+          "toi": 6.583827052963898E-05,
+          "frameStatus": "UNKNOWN"
+        },
+        {
+          "support": {
+            "handle": 3.5E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:4",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "witness1": {
+            "x": -7.063482284545898,
+            "y": -0.08000063896179199,
+            "z": -22.936416625976562
+          },
+          "toi": 0.00021176444715820253,
+          "frameStatus": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "tick": 18904,
+      "time": 315.0666666667088,
+      "wallMs": 357157,
+      "actorXZ": [
+        -1.53167018173286,
+        -31.358621787211206
+      ],
+      "requested": [
+        0.03753385677265123,
+        -0.12093287139727596
+      ],
+      "accepted": [
+        -0.02642170712351799,
+        -0.016195954754948616
+      ],
+      "horizontalDifference": 0.12271974519619412,
+      "contacts": [
+        {
+          "support": {
+            "handle": 1.0822178612E-312,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:3",
+            "position": {
+              "x": 0.32725244760513306,
+              "y": 1.2401000261306763,
+              "z": -34.34789276123047
+            },
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 14
+          },
+          "normal": {
+            "x": -0.5211510062217712,
+            "y": 0,
+            "z": 0.8534644842147827
+          },
+          "witness1": {
+            "x": -0.5837684869766235,
+            "y": 1.2401049137115479,
+            "z": -32.853729248046875
+          },
+          "toi": 7.086614641593769E-05,
+          "frameStatus": "UNKNOWN"
+        },
+        {
+          "support": {
+            "handle": 3.5E-322,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:4",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "witness1": {
+            "x": -1.9999890327453613,
+            "y": -0.08000020682811737,
+            "z": -30.96236801147461
+          },
+          "toi": 0.0005560768768191338,
+          "frameStatus": "UNKNOWN"
+        },
+        {
+          "support": {
+            "handle": 1.0822178612E-312,
+            "id": "feline-native:521107b9-1c96-4ae6-9b97-5ca28b13f00c:owner:3",
+            "position": {
+              "x": 0.32725244760513306,
+              "y": 1.2401000261306763,
+              "z": -34.34789276123047
+            },
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 14
+          },
+          "normal": {
+            "x": -0.5187888741493225,
+            "y": 0.061553772538900375,
+            "z": 0.8526835441589355
+          },
+          "witness1": {
+            "x": -0.5849689841270447,
+            "y": 1.2388224601745605,
+            "z": -32.85441589355469
+          },
+          "toi": 0.0021405129227787256,
+          "frameStatus": "UNKNOWN"
+        }
+      ]
+    }
+  ],
+  "immutableInputHashes": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/evidence.json",
+      "bytes": 8626084,
+      "sha256": "62b60fb9b7ab1ecc7299091be9e97ce27b13643d9fcab3954f89054f3c10570c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop075-public/native-keyframes.json",
+      "bytes": 8975000,
+      "sha256": "26bb1efda6413c7fcf417d4e2993731f89b1b59c56fd330a209d2fb1a0dd045d"
+    },
+    {
+      "path": "tools/overhaul-coop-play-075/mission-capture.mjs",
+      "bytes": 37138,
+      "sha256": "755e2d98aeea5f9b40b9e268bff4c3bc7053eb84a63c9055587c9b6960fd8aac"
+    },
+    {
+      "path": "tools/overhaul-coop-play-075/source-seal.json",
+      "bytes": 2611,
+      "sha256": "35646417df6a915ecb9f1b2e46f019dfe9512de6378b116552b87ee878ec357c"
+    }
+  ]
+}

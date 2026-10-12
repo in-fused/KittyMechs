@@ -1,0 +1,14 @@
+{
+  "writer": "CLOSED",
+  "scope": "OFFLINE_SAVED_READ_AND_SOURCE_SYNTAX_ONLY",
+  "command": "npx vitest run --config tools/overhaul-coop-162/vitest.config.mjs; node --check tools/overhaul-coop-162/arrival-contract.mjs",
+  "terminalChunk": "bb6050",
+  "exitCode": 0,
+  "wallSeconds": 3.2332945,
+  "focusedTests": 3,
+  "testDurationMs": 749,
+  "firstGenuineFailure": null,
+  "repairs": 0,
+  "publicOrNativeJobs": 0,
+  "disposition": "INFEASIBLE_AT_SAVED_READ_NO_PUBLIC_MISSION_CANDIDATE"
+}

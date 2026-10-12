@@ -1,0 +1,27 @@
+# DEBUG022: restricted movement after an unverified navigation turn
+
+Read-only diagnosis began 2026-10-10 19:41:58 UTC; findings frozen and writer closed before 19:49 UTC. No production edits, native run, compiler, browser replay, asset job or threshold change.
+
+The 020 observation failed its actual `FelineUprightStride` predicate. Binding remains valid: the host uses genuine019 SHA `4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e`, with no missing clips/bones, owner failure, fallback or page error. This does not qualify art or contact.
+
+## Recorded causal facts
+
+Both captures use Rainline seed7734. In successful public008 the post-pin travel input yaw was +0.04712 radians: actor moved north from roughly (-6.34,17.28) through (-6.79,7.80), selecting UprightStride. In failed020, `input.yaw`, camera `movementYaw` and actual actor yaw remain -1.606260 radians after peer pin and throughout W/R travel. Direction is approximately (+0.99937,+0.03546) in X/Z, pointing east toward the power fixture at (0,25). No J/L key event follows ShiftLeft; recorded post-pin events are W and R.
+
+`aim(0)` in both public008 and runtime020 scripts compares the desired numeric navigation heading with `Actor.aimYaw`. That field is the accepted crosshair/muzzle aim; actual movement uses `input.yaw`, sourced from `controls.yaw`. The helper's return condition therefore cannot establish navigation convergence. The exact transient actor aim value at that return was not recorded: do not claim why it became near zero, or that camera016 alone caused the false return. Changed visual focus, cover-derived target and camera lag are plausible contributors, untested.
+
+At accepted moving R, tick1620/time26.999999999999748, position is (-2.6706350562,0.9400999888,25.4883869140). At missing-stride tick2246/time37.43333333333249, it is (-2.5178979008,1.1565901218,26.9163160972). Horizontal endpoint displacement is **1.43607m across10.43333 native seconds**. This is endpoint distance, not measured total path length. Actor velocity remains the desired pre-KCC value (4.8609416619,0,0.1724591525), horizontal magnitude **4.864m/s**, and must not be misread as accepted movement speed. W is held, forward1/strafe0; seq678 and lastInput675 show normal recent accepted delivery. Grounded true, HP220, no pair/strike/field speed explanation. Native clocks advance626ticks over10.450wallseconds: the failure is not explained by lost simulation time.
+
+The actual native query receipt at tick1620 requests (0.081030,-0.006111,0.002875)m but accepts approximately (-0.000554,-0.000001,+0.000143)m. It records cuboid owner4, handle5.054e-321, at (0,0.02,25), plus ground owner2. Tick2246 also contacts owner4; first-failure tick2260 contacts cuboid owner6 at (0,1.22,25) and owner4. These positions match source `7734:overhaul:dressing:vista-spawn-control:pad` and `:body`: pad size1.8×0.2×3.5 and body1.5×2.4×2.8, floor -0.08. Source-owner attribution is a position/recipe correspondence, not a recorded semantic bank-ID lookup. Raw contact frames explicitly remain UNKNOWN; no new witness-frame qualification is inferred. The native collider identity and severely reduced query delta establish actual obstruction. No collider should be deleted or weakened.
+
+## Presentation and camera limits
+
+The owner selects WalkLong for displayed speed0.26686→0.44338 because its speed derives accepted render displacement/frame dt, not desired velocity. Its >2m/s stride branch and distance phase are unchanged by019's asset-contract seam. Native time versus presentation time differs about0.38–0.53s during low hostFPS; at quad sample owner speed14.81 exceeds native target7.6, showing catch-up can distort instantaneous presentation speed. That is a separate presentation-clock limitation, not sufficient evidence that a stride was available on the blocked path. Do not force stride from desired velocity while pinned against cover.
+
+Camera016 changes rendered focus height and hence the real crosshair aim ray, but leaves `controls.yaw` untouched. `readInput` retains independent movement yaw and view aim; Simulation movement uses the former. A camera-input regression has **not** been isolated. The successful prior run's focus height1.84 versus020 roughly0.76 makes an otherwise identical numeric aim helper sensitive to presentation/cover, reinforcing that weapon aim must not certify navigation heading.
+
+## Smallest next action
+
+Prepare a separately sealed ordinary observation script: numeric travel-heading convergence reads `camera.movementYaw`/input look yaw; peer weapon aiming continues to use accepted actor aimYaw. Keep the same keyboard movement, outcomes, world, clocks, physics and clip predicate. Confirm movement yaw before W, record accepted native delta/contact owner when blocked, and observe R/upright stride on the intended existing road. This corrects a causal measurement-domain mismatch, not a route/threshold/physics waiver. No020 rerun or production change is authorized by this report. If a genuine player-facing issue persists afterward, the next physical improvement should explain obstructed movement using actual KCC owner feedback; no headroom or cover waiver.
+
+All020 files and selected source inputs are recorded by size/SHA256 in `tools/overhaul-runtime-art-debug-022/closure.json`. Frozen027 and playable026 remain unchanged. Full game, finished art, native contact and motion admission remain incomplete.

@@ -1,0 +1,28 @@
+import * as THREE from '../.sites-runtime/destruction-lab-001/node_modules/three/build/three.module.js';
+import {DestructibleMesh} from '../assets/source/city-fracture/three-pinata-offline-patch/src/DestructibleMesh.ts';
+import {FractureOptions} from '../assets/source/city-fracture/three-pinata-offline-patch/src/entities/FractureOptions.ts';
+import {cityDistrict} from '../shared/cityDistrict.ts';
+import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const sha=x=>createHash('sha256').update(x).digest('hex');
+const dir=process.argv[2];if(!dir||existsSync(dir))throw Error('Fresh attempt path required');mkdirSync(dir,{recursive:true});
+function topology(g){
+ const p=g.attributes.position,indices=g.index?Array.from(g.index.array):Array.from({length:p.count},(_,i)=>i),edges=new Map(),directions=new Map();let volume=0,degenerate=0;
+ const v=i=>new THREE.Vector3().fromBufferAttribute(p,i),key=a=>[a.x,a.y,a.z].map(x=>Math.round(x*1e6)).join(',');
+ for(let i=0;i<indices.length;i+=3){const a=v(indices[i]),b=v(indices[i+1]),c=v(indices[i+2]);volume+=a.dot(b.clone().cross(c))/6;if(b.clone().sub(a).cross(c.clone().sub(a)).lengthSq()<1e-20)degenerate++;
+ for(const [u,w]of [[a,b],[b,c],[c,a]]){const x=key(u),y=key(w),k=[x,y].sort().join('|');edges.set(k,(edges.get(k)??0)+1);directions.set(k,(directions.get(k)??0)+(x<y?1:-1));}}
+ return {triangles:indices.length/3,finite:Array.from(p.array).every(Number.isFinite),signedVolume:volume,degenerate,boundaryEdges:[...edges.values()].filter(n=>n===1).length,nonManifoldEdges:[...edges.values()].filter(n=>n>2).length,orientationErrors:[...directions.values()].filter(n=>n!==0).length,weldPrecision:1e-6};
+}
+
+const outer=new THREE.MeshStandardMaterial(),inner=new THREE.MeshStandardMaterial();
+function bake(){const mesh=new DestructibleMesh(new THREE.BoxGeometry(1,1,1),outer,inner);mesh.updateMatrixWorld(true);const pieces=mesh.fracture(new FractureOptions({fractureMethod:'voronoi',fragmentCount:8,seed:1926,voronoiOptions:{mode:'3D',useApproximation:false}}));return pieces.map((p,i)=>({id:i,center:p.position.toArray(),positions:Array.from(p.geometry.attributes.position.array),normals:Array.from(p.geometry.attributes.normal.array),uv:Array.from(p.geometry.attributes.uv.array),indices:p.geometry.index?Array.from(p.geometry.index.array):Array.from({length:p.geometry.attributes.position.count},(_,i)=>i),groups:p.geometry.groups.map(g=>({...g})),volume:topology(p.geometry).signedVolume,validation:topology(p.geometry),sharedMaterials:p.material[0]===outer&&p.material[1]===inner}));}
+const a=bake(),b=bake(),repeatEqual=JSON.stringify(a)===JSON.stringify(b),volume=a.reduce((s,p)=>s+p.volume,0);
+const checks=a.map(p=>({id:p.id,...p.validation,sharedMaterials:p.sharedMaterials,groupIndices:[...new Set(p.groups.map(g=>g.materialIndex))]}));
+const source={package:'@dgreenheck/three-pinata',version:'2.0.1',three:'0.180.0',license:'MIT',seedReason:'Original random8 seed1926 restored; offline tuple hash patch corrects identified edge aliasing',patchManifest:JSON.parse(readFileSync('assets/source/city-fracture/three-pinata-offline-patch/manifest.json','utf8')),librarySha256:sha(readFileSync('.sites-runtime/destruction-lab-001/node_modules/@dgreenheck/three-pinata/build/three-pinata.es.js')),generatorSha256:sha(readFileSync('tools/bake-city-fracture.mjs')),citySourceSha256:sha(readFileSync('shared/cityDistrict.ts')),rendererSourceSha256:sha(readFileSync('src/game/world/cityGeometry.ts'))};
+const district=cityDistrict(7734);const samples=[district.blocks.find(x=>x.id.includes(':panel-')),district.blocks.find(x=>x.part==='deck'),district.blocks.find(x=>x.id.includes(':support-'))];
+const transformed=samples.map(block=>{const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(const p of a)for(let i=0;i<p.positions.length;i+=3){const local=[0,1,2].map(j=>(p.positions[i+j]+p.center[j])*block.halfExtents[j]*2),c=Math.cos(block.yaw),s=Math.sin(block.yaw),v=[local[0]*c+local[2]*s+block.position[0],local[1]+block.position[1],-local[0]*s+local[2]*c+block.position[2]];v.forEach((x,j)=>{min[j]=Math.min(min[j],x);max[j]=Math.max(max[j],x);});}return{id:block.id,position:block.position,halfExtents:block.halfExtents,yaw:block.yaw,min,max,expectedMin:block.position.map((x,j)=>x-block.halfExtents[j]),expectedMax:block.position.map((x,j)=>x+block.halfExtents[j]),volume:volume*8*block.halfExtents.reduce((n,x)=>n*x,1)};});
+const passed=repeatEqual&&a.length===8&&Math.abs(volume-1)<1e-5&&checks.every(p=>p.finite&&p.signedVolume>0&&!p.degenerate&&!p.boundaryEdges&&!p.nonManifoldEdges&&!p.orientationErrors&&p.sharedMaterials&&p.groupIndices.every(x=>x===0||x===1))&&transformed.every(t=>t.min.every((x,j)=>Math.abs(x-t.expectedMin[j])<1e-5)&&t.max.every((x,j)=>Math.abs(x-t.expectedMax[j])<1e-5));
+const payload={schema:1,template:'unit-cube',seed:1926,fragmentCount:8,source,pieces:a.map(({validation:_validation,sharedMaterials:_sharedMaterials,...p})=>p)},contentSha256=sha(JSON.stringify(payload));const asset={...payload,contentSha256};
+writeFileSync(`${dir}/candidate.json`,JSON.stringify(asset));writeFileSync(`${dir}/validation.json`,JSON.stringify({passed,repeatEqual,volume,checks,transformed,contentSha256},null,2));
+if(passed){if(existsSync('shared/data/city-fracture-v1.json'))throw Error('Frozen canonical asset already exists');writeFileSync('shared/data/city-fracture-v1.json',JSON.stringify(asset));}
+console.log(JSON.stringify({passed,repeatEqual,pieces:a.length,volume,contentSha256,invalid:checks.filter(p=>p.degenerate||p.boundaryEdges||p.nonManifoldEdges||p.orientationErrors)}));process.exitCode=passed?0:1;

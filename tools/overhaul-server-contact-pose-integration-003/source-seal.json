@@ -1,0 +1,140 @@
+{
+  "packet": "server-contact-pose-integration003",
+  "actualStartUTC": "2026-10-10T13:57:46Z",
+  "hardDeadlineUTC": "2026-10-10T14:32:46Z",
+  "freezeAimUTC": "2026-10-10T14:17:46Z",
+  "sealedUTC": "2026-10-10T14:16:20.3816173Z",
+  "codeFrozen": true,
+  "compiles": 2,
+  "compileExits": [
+    0,
+    0
+  ],
+  "native": "UNRUN",
+  "browser": "UNRUN",
+  "shipping": "LEGACY_FALSE_NULL",
+  "source004": "SEMANTIC_TICK0_PLANT_INTERFERENCE_UNADMITTED_NO_ASSET_CONSUMED",
+  "rootLampHook": "coordinated import/2-line syncChunks only, root helper/data preserved as current dependencies",
+  "files": [
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 173145,
+      "sha256": "4C117054EE0597AD3AE7BD41C863B89AC863CCE8A1F42E775353ABD336FEA599"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 7060,
+      "sha256": "1721E3F306EB6DDF27748A33B03E43AC7332BABC351AC6A2D3A13C811DE64934"
+    },
+    {
+      "path": "shared/felineNativePose003.ts",
+      "bytes": 4357,
+      "sha256": "E4D104D0BB15B1F245B84BD92AB63B25193639321D87DABDF098C203C657E2F6"
+    },
+    {
+      "path": "shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151F27F6508A6C7C14D54F7BFEF97DE0F20C28D24192BFC897199E13F4"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10447,
+      "sha256": "2E5D688E612D2C987A4F0A47A781DDDDE9BA147AAF84604B89E36BBE19228F8B"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 43711,
+      "sha256": "5AEE8EE98D0DEC5B940F54157546F5B27C3B0AD8AA881157F975ED6AB3909FA8"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner003.ts",
+      "bytes": 19229,
+      "sha256": "1B6707741031A7719BFD4597EDADC0A6324F185FEDD3A992630EEFE6F7D92AC3"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative003.ts",
+      "bytes": 12586,
+      "sha256": "DFCC5CA99084305C7DC091A9A70A6D3BC60440C1B06340EEE5CFF7A422E9ABB9"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest003.ts",
+      "bytes": 3529,
+      "sha256": "2A30907C7F4EB38D2E0700CB558939A747C4DE36F571B6AADB7C694BA53CD043"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor003.tsx",
+      "bytes": 7459,
+      "sha256": "F4FB1E80BD507ECEBDB6A395BEB83ACA83B0F8BB4FA20E02E0812D14F82489E5"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerEvidence003.ts",
+      "bytes": 2269,
+      "sha256": "E0BFA3FE52BE03E08D60630887316EC3B5E2784F00FBF52A16C0D40C130B48EB"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/tsconfig.json",
+      "bytes": 378,
+      "sha256": "DFF15DD884A9C55490D5F6E998C18D53472B612CE92263B676B321DA0B5E199A"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/mapping.json",
+      "bytes": 1192,
+      "sha256": "274544748274A91D74E8804FCAB39CED0E498CA480E106DCEEA8FBB0494E7CDC"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/preimage/shared/simulation.ts",
+      "bytes": 171775,
+      "sha256": "499247F23C82A6A38EDE797431079DF3BD48DF499E94ACC9C77D7F6FA5B5FA65"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/preimage/shared/types.ts",
+      "bytes": 6910,
+      "sha256": "A5ACF7121E43349E9E05E7E163AD4C55808066C85AC845DC9F77DCC8008751AC"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/preimage/src/game/snapshotAdmission.ts",
+      "bytes": 10190,
+      "sha256": "7A182D3FADDD1ACA45B189EBF5D6893E2AE0ECCAF6C6B507F88A8606F27326C6"
+    },
+    {
+      "path": "tools/overhaul-server-contact-pose-integration-003/preimage/src/game/entities/Actors.tsx",
+      "bytes": 43456,
+      "sha256": "85DCA7F72E7AE83543219EF55CE3B4A27F65817B5910DFE410EFB5B61466B396"
+    },
+    {
+      "path": "docs/overhaul/server-contact-pose-integration-003.md",
+      "bytes": 8764,
+      "sha256": "8015EBCF096B9C0CA37B1B6FAF47FD664824CE63825BBC834329467A5287E1DA"
+    },
+    {
+      "path": "shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643D638006D81AF385BE1B6B22C67E1973AF864D63ADD8493FAC1D9EAA1"
+    },
+    {
+      "path": "shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57F27D8648CD556AE159C29FBC2B35E2B99E985B1EDFB388D6CCC035FA1D2443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-server-contact-pose-integration-003/preparation-compile-1.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-server-contact-pose-integration-003/preparation-compile-1.json",
+      "bytes": 361,
+      "sha256": "EF4A632A188A916D0AA4AAA59DD6D9E7F3DE39216733AB217678959834E82DEC"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-server-contact-pose-integration-003/preparation-compile-2.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-server-contact-pose-integration-003/preparation-compile-2.json",
+      "bytes": 477,
+      "sha256": "C717631EEC9237AD86B1713A5269FCC21D61E8E443C9D0794E2E417667A9B610"
+    }
+  ]
+}

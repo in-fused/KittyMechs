@@ -1,0 +1,151 @@
+{
+  "frozenUTC": "2026-10-10T22:47:20.396410+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-checkpoint.json",
+      "bytes": 558,
+      "sha256": "a3a0a9f31411aee49cfc81f9b9d706b880623d491289cae6d6fcb27807cdfa0f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/receipt.json",
+      "bytes": 70825,
+      "sha256": "457c1f10ff23bdeae812c0ab19d9e7df1c383e733a6b3a72b0f559e95b9350f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-039/receipt.json",
+      "bytes": 1058,
+      "sha256": "a382cd26c11d0a7b25fd6f159e696c1b78aa72256dd45137282c3ac88750ce82"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-039/stdout.txt",
+      "bytes": 3267,
+      "sha256": "7592c61206eb574c3f4220a3e597145ef9b16572d7e557fd7c82197a80f7b2b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-039/video-01.png",
+      "bytes": 10406910,
+      "sha256": "ef5af3148e53263f5c64c9136c101b938eeb011a3a4c7afa15a8b106845f6ba4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-039/video-02.png",
+      "bytes": 12153559,
+      "sha256": "d1f81b6f412208f9e7ce58e27ec9862c605d5909bca548ca849985281f50ee1a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-039/video-03.png",
+      "bytes": 11766213,
+      "sha256": "e49adeefa8baff51fda02a65b7919d2baebe2f44096fe36fcf73020dfaadcf56"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/evidence.json",
+      "bytes": 11666752,
+      "sha256": "5c78ccbfee78a5960c9187218aa673df2ef2ce253d9327265f53cbe98456e197"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/extraction-east.png",
+      "bytes": 1659572,
+      "sha256": "2dceef82c663bc0956b20c32c8e65d585948a383b3d829784c869bf6e43e9831"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/extraction-west.png",
+      "bytes": 1451941,
+      "sha256": "d9be52ae525b0aa5aabf314aac9dc140ac0ac392eb7feb35c72fbb0e68759a05"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/level-recovery.png",
+      "bytes": 1556971,
+      "sha256": "0dede381452d300a48b987f80ba59792770e14557c08955eaf59211cb75c36a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/page@e881367e2f11183fcc79fe256905c611.webm",
+      "bytes": 12786497,
+      "sha256": "4ebcef45d5d4527ee3c026b1a107f1c5157ce77ced0d311fb532274b779d216d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/progress.json",
+      "bytes": 11646526,
+      "sha256": "8c7732531b4d9e8f88cef98e33bf126e74749a5d4a6a6254bd07fea9cae9d915"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/road-108.png",
+      "bytes": 1599585,
+      "sha256": "ded8d0f7d42f5a399ce2bee574013592027499e365e50cea6445bf5eafb70695"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/road-42.png",
+      "bytes": 1534749,
+      "sha256": "bd40333df82bed401cef21d142c6a0467b69a6815b8faef0c54169a286bb9dcc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-039/road-76.png",
+      "bytes": 1473561,
+      "sha256": "7021c3f5215336cd2b902330aa95ca43ee624433e7925770fec3f833733a9fb2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-author-b-process/process-receipt.json",
+      "bytes": 1589,
+      "sha256": "9d5f1020d94403d335aa331172f183d7df958b082efa949979df1ffdab42abd5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-author-b-process/stdout.txt",
+      "bytes": 6556,
+      "sha256": "7390130649a8edffb72f7c1d2b869897f871fb09fde33f838b409142296160d0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-author-process/process-receipt.json",
+      "bytes": 1324,
+      "sha256": "bffe1b1c5e82f09426af990914a1ea94355833a7f64bfb782b7577c3d35a34b1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-author-process/stdout.txt",
+      "bytes": 1172,
+      "sha256": "73b9e81943df47eb5b5b32de7fd8208db300fd8dbf5e28dc6292a44066d0d950"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-build-process/process-receipt.json",
+      "bytes": 10115,
+      "sha256": "349ac62b4cfd2d2bca11352e7a4340a0cf0249e94841421f479b61ef100dce68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "03603600fa7c34a831aad0034bf4a9db83dc8ef44fb018b342196f399f3cc142"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-capture-process/process-receipt.json",
+      "bytes": 10093,
+      "sha256": "306621533a0844d2f821834d60013e1953e32080217d4766f1734176680838c0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-capture-process/stdout.txt",
+      "bytes": 1463,
+      "sha256": "3f36ff03cf14efa32868fae28eec1c96ea2e8a8fbe682c2c99ff0d2672cac89c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-test-process/process-receipt.json",
+      "bytes": 9793,
+      "sha256": "70bf0e77aa50c20719742f6fa02df93d9f59b734027e30b85e07c19ac26e9e9e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039-test-process/stdout.txt",
+      "bytes": 2094,
+      "sha256": "aa588badc4934c1d6d9f0edda2b91c6c69822825f1db257c7af8b43b864d632a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039b-test-process/process-receipt.json",
+      "bytes": 10299,
+      "sha256": "c72b972bfe8385cc82f9f27ebac07bb5ddca3a08a14141b78b42870dcb001d02"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039b-test-process/stdout.txt",
+      "bytes": 3551,
+      "sha256": "f848dba4f909e68b88c0c0dfe94220a0851a234a5f13057d9b82dc5cdc454e8c"
+    },
+    {
+      "path": "tools/overhaul-extraction-039/output-inspection.json",
+      "bytes": 2984,
+      "sha256": "7aea6720aa37d22ab5f9cf8192d13689ae7ccee5a8b6f2e276536f75873bbaf4"
+    }
+  ],
+  "scope": "039 actual FAILED test and FAILED diagnostic capture preserved; no promotion, retry or gameplay acceptance; author a semantic failure despite exit0, b actual successful outputs"
+}

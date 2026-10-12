@@ -1,0 +1,47 @@
+{
+  "writer": "CLOSED",
+  "candidate": "fireRelease159",
+  "publicCandidate": "UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-159/checks-receipt.json",
+      "bytes": 709,
+      "sha256": "59633ded2162f65ea0a9efaf26960d995e077d19ff68e88da117a9c8159970f5"
+    },
+    {
+      "path": "tools/overhaul-coop-159/fire-order-receipt.json",
+      "bytes": 1373,
+      "sha256": "7f4083e5de56e528e75dececdca12589e6f2365b25a555b1242d1686b7b81f25"
+    },
+    {
+      "path": "tools/overhaul-coop-159/fire-order.test.mjs",
+      "bytes": 4283,
+      "sha256": "17235ba5194f283c1ed921bff43df24d46da8b512ab3cb53ca73ef0e665dcaef"
+    },
+    {
+      "path": "tools/overhaul-coop-159/HANDOFF.md",
+      "bytes": 2935,
+      "sha256": "a0da7f043bfad1d6e3aca10fc138fb69eb59483eba7aaf4b077ef0f810fd1aec"
+    },
+    {
+      "path": "tools/overhaul-coop-159/mission-capture.mjs",
+      "bytes": 49242,
+      "sha256": "beb5d5662fc8327f147be674d89b8dfb97e392229d2ab89ea192638493545353"
+    },
+    {
+      "path": "tools/overhaul-coop-159/preimages/mission-capture.mjs",
+      "bytes": 49181,
+      "sha256": "c0c8ceeb136a41564e315852090c091086b3963f685675947d1518d9154641ea"
+    },
+    {
+      "path": "tools/overhaul-coop-159/protected-inputs.json",
+      "bytes": 2457,
+      "sha256": "4da050f7dd247fabb318cd4528c6d27897101439e918497efdfd0de6d428d6f4"
+    },
+    {
+      "path": "tools/overhaul-coop-159/vitest.config.mjs",
+      "bytes": 157,
+      "sha256": "1ef6101268a8e648607ef18e44a380f75e3804965b5d6dcc0dfe5d0898b2afb9"
+    }
+  ]
+}

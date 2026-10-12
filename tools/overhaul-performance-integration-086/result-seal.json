@@ -1,0 +1,331 @@
+{
+  "utc": "2026-10-11T06:15:28.715116+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/receipt.json",
+      "bytes": 73403,
+      "sha256": "2dfc9912c42a7f8dbe4658b4debe97440290a314cf265dc49410bbb389b911ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-046/playable-checkpoint.json",
+      "bytes": 348,
+      "sha256": "6aa6b199d0b64e5827146750a802f93299d609697a272e9397bcca36dcc1e763"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-046/receipt.json",
+      "bytes": 73576,
+      "sha256": "7cc5f28399840ba8385b8c3b92c90bc22ac551bf56156dcf883f320921947ed3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/045-restored086-server-identity.json",
+      "bytes": 407,
+      "sha256": "4c69371ef8045a1312b7a9a640c7a858b8d2570ebfb080dffbb4b0d393a4ded8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/046-rollback-to045.json",
+      "bytes": 362,
+      "sha256": "e56bef80f10509f78e3197708b12ff9f3fd1309f749c7dc6783482260027b1d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/046-server-identity.json",
+      "bytes": 335,
+      "sha256": "ebce99ee3413c612e33739140401e0f83c03ac4abf91294252c211afdee03e16"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/046-switch-from045.json",
+      "bytes": 372,
+      "sha256": "96cb80b108d3645a631504b7e1c0d9b53618c14609b3e06803c354d1153d084b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live045-restored086-http-verification.json",
+      "bytes": 849,
+      "sha256": "2ddc4afe3eef83898013817e5f8ea89f8d17bbf96bc2145663c733dbc4d73bee"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live046-http-verification.json",
+      "bytes": 849,
+      "sha256": "9d674ac751ee2753511956ac8ad120ceb0995f59eea7a7bdae44cfbf7a48c149"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance083-syntax/process-receipt.json",
+      "bytes": 68173,
+      "sha256": "568c03ed490da0eae6e46a679b5729c3883086e17a1228e4e3de17d565edc70a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance083-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/cpu-profile.json",
+      "bytes": 840764,
+      "sha256": "0a09f6a6d1272a3c2cd420ef318321a2a88c64db065b29dc89a4a0521c970305"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/evidence.json",
+      "bytes": 1893117,
+      "sha256": "21d320af067c1b15fd7bb7febc9d8304c8ad49c7b1c65a06551ddecaffc89a50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/page@b4b15f0b111ebeaaa432993088305b1b.webm",
+      "bytes": 4822507,
+      "sha256": "70d7d18641d3f16dc1d105cb84596a60bc157f1d102faddbfbcacd1dc7915b99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-backpedal.png",
+      "bytes": 1175869,
+      "sha256": "e7ef0fe625b68c4555b16ca7a6daef4b9c656bf76fb16b565d1fc479c3911abb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-idle.png",
+      "bytes": 1067132,
+      "sha256": "9e2625c2be96877b6e80ead60dc07f4d03adb7249cb037bece82206828ccfccc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-sweep.png",
+      "bytes": 1195801,
+      "sha256": "e45b4c06dbca58be3c99890f2cdb87f638fd9e492699ff67da534750530b9f4c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-backpedal.png",
+      "bytes": 1314534,
+      "sha256": "48085d289ef53ec89d813443b9612ff708c4131f95b4b13072b5ff84658cdb9d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-idle.png",
+      "bytes": 1458291,
+      "sha256": "57c4e34082a692c04434f6f2d45187ee4f0048e785b6c1928bc6f07a28b25b98"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-sweep.png",
+      "bytes": 1352146,
+      "sha256": "41724179980d754c40ced045108e94b71da274f794cf357c22381c4cc3e7579f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline-process/process-receipt.json",
+      "bytes": 68175,
+      "sha256": "d3bb68cd10e1f03ac5e1133bfbd1b7040440c32565d0575e353dbc4fdbd7a7c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline-process/stdout.txt",
+      "bytes": 81,
+      "sha256": "b849199751cf220f028c1567aaf9d7919ac4855f78802ebfa7c18c103c607334"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/process-receipt.json",
+      "bytes": 87913,
+      "sha256": "550da97fd0d1e4f7fa023b748062cd84b208fa8a69e299ea43ab59610a1dd42c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/stdout.txt",
+      "bytes": 409,
+      "sha256": "514024e928f4299a0e6e0c95f041987f919c929675d43440bfe35c4c2043d9d4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-build/process-receipt.json",
+      "bytes": 84659,
+      "sha256": "3ff740fd24cdb719a21534bedf12425303e96c3ed9eb8994b3d31e131c93e664"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "1c5f0cf4e2935c203e93204f0eea510c3d5cbba0cf83c888a3af68d45425062a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/cpu-profile.json",
+      "bytes": 962905,
+      "sha256": "81268bd1b90eafa4965c4c60636e9740a8c8ba660a2cedd66dec764a322216c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/evidence.json",
+      "bytes": 2151871,
+      "sha256": "c2e9e0bc50cfbe13af872f6d5f06ebdb5524ddf2c551363471e1dfe3ecfb18d8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/page@9b0eb44c2fcfedc25afb60f1b628a89c.webm",
+      "bytes": 5117977,
+      "sha256": "ca2a9b624496408b5a7338dd8919a9ced7ad4fe306262f63d707f8b30a8eb37a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/prototype-backpedal.png",
+      "bytes": 1171547,
+      "sha256": "2ac17d9540c8d6a45d53de633aad81a562dfeb4d5e81c02e9352c36a6cd80320"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/prototype-idle.png",
+      "bytes": 1062256,
+      "sha256": "9c7b1827dadba78253d76c8fb50dfcdfd8bf0c8c31f123f1d61af0ddb64d0786"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/prototype-sweep.png",
+      "bytes": 1241551,
+      "sha256": "9a6aaf171d6db6996b88dc8af0763f4476b3b6395f7a60a4f199a6cd070a4502"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/standard-backpedal.png",
+      "bytes": 1264782,
+      "sha256": "cae5624314000f35e3d359dd33d8ee9b39daab9b8a2159e9bd9648dc70e0addf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/standard-idle.png",
+      "bytes": 1444815,
+      "sha256": "acbeb5153a165cc489e306156232be3f45ed140a4665a0ec823ff54152aeab9b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate/standard-sweep.png",
+      "bytes": 1362472,
+      "sha256": "73e29996c80e764a5bfc0d6fce03dd03116428c637201e4f3477b37d65b84159"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate-process/process-receipt.json",
+      "bytes": 64759,
+      "sha256": "8af460df5119f347d618af3f870449b1523ac5dc348b9e69ef8674412b4942d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-candidate-process/stdout.txt",
+      "bytes": 81,
+      "sha256": "3273e1540e78c1023d991d6789b376e48ebea6abb506c1cdb0888bb151875a6e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-freeze/process-receipt.json",
+      "bytes": 63050,
+      "sha256": "57c75d8cfc55bbad9de11ae081fc04344f6e315988682a83cedf033c6406c4ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance086-freeze/stdout.txt",
+      "bytes": 323,
+      "sha256": "09092aa754dc287e2da2ad0360ffdacf071c25678fe5ab8bae8e1f8313a38865"
+    },
+    {
+      "path": "docs/overhaul/critic/performance085-source-review.md",
+      "bytes": 2859,
+      "sha256": "0f66010072da4aab1ecd6a10e898e19076c02dbc94257eccbc0806540eb11417"
+    },
+    {
+      "path": "docs/overhaul/critic/performance086-build-review.md",
+      "bytes": 2987,
+      "sha256": "cf2ecce57a0137fd1a08eeeb1b2e6a7d643901cbca526cf2580712e30a5eec3a"
+    },
+    {
+      "path": "docs/overhaul/critic/performance086-play-review.md",
+      "bytes": 3541,
+      "sha256": "50c544835a4c2486a37037b2bfcc3085b5d07849c67959f95c8fb1540163ad34"
+    },
+    {
+      "path": "docs/overhaul/player-recovery-086-handoff.md",
+      "bytes": 7710,
+      "sha256": "431c6ca9f1930345a4d9ebff8e344921a9b9c142d5cfdd84217372bad0874776"
+    },
+    {
+      "path": "docs/overhaul/resource-limit-handoff-20261010.md",
+      "bytes": 19786,
+      "sha256": "b012a0ae75fcc3aa94dc242fb22bf71268cfc5ee56347bc3676474baf3d30358"
+    },
+    {
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds078.ts",
+      "bytes": 8191,
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b"
+    },
+    {
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds081.ts",
+      "bytes": 8749,
+      "sha256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb"
+    },
+    {
+      "path": "tools/overhaul-performance-085/source-seal.json",
+      "bytes": 5639,
+      "sha256": "a232412f5f895440f36bc4d691cf2a3731f7c33c5867102f0a113389d782a829"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/build-seal.json",
+      "bytes": 141865,
+      "sha256": "7becb22a6c4a4c471bf06d199646790d20634f9781897ab0e334a4f4ed258845"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/candidate-seal.json",
+      "bytes": 102378,
+      "sha256": "ae9ab6b23c51aadcbf8a8d082aa46d7a0d45f9736ebdb8f4dd0dc73bd459d563"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/close-result.py",
+      "bytes": 2341,
+      "sha256": "c6fed40d3934de677dce90d1f9425f23bf429bfdec6d64aae570fca4a87c5f05"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/close084.py",
+      "bytes": 1394,
+      "sha256": "689e5899874f5c5e64b7ca06b6870839830acad35a01d48124981446963238dc"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/closed084-result-seal.json",
+      "bytes": 4396,
+      "sha256": "dd7453b6fddd55502bfff66552e01a195a032e00cc21e299e1270d3b9e790bb4"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/comparison.json",
+      "bytes": 529787,
+      "sha256": "439687f4b92707c6332c8e4e16af259570a7943ad18ef6dfa4694d791268ff14"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/early-review085.md",
+      "bytes": 2743,
+      "sha256": "f8f7e6df36beb2de671b9995f1a3c53443925caf8d74fb1d23a136e144887758"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/excluded-Actors081.tsx",
+      "bytes": 45494,
+      "sha256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/freeze-seal.json",
+      "bytes": 99052,
+      "sha256": "3767f92c306b6c830f0e17353cc637f72fe45dae058a7daf6ba87c618c30619d"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/freeze046-administrative.py",
+      "bytes": 3097,
+      "sha256": "231c2b4c1b328bd3bc080cb3828358b1f5b982672f7d1db064a824ea60227ee6"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/freeze046.py",
+      "bytes": 2329,
+      "sha256": "3edb962f26f0374903afe21c640750b56a947693a655413acb1a1133f876dac9"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/launch.py",
+      "bytes": 535,
+      "sha256": "c76527c25395253821139e21e71773cd9b738947093d982dd3a55fbf3ef6530b"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/prepare-freeze.py",
+      "bytes": 1385,
+      "sha256": "b4b533aac3d3053bfbf1290e4f65ba69624501a367b1bdde72a71587a9fbf30f"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/prepare.py",
+      "bytes": 2897,
+      "sha256": "e42d2dfbc95e011d16bbb9dbca3c0b988a633a41de1e261682057650ab5ad9d3"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/recovery045.py",
+      "bytes": 2877,
+      "sha256": "d9bb75de21a4081ffdfa2ca696f06af38a80932a8cf8d76ce64a356bd57beef5"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/summarize.py",
+      "bytes": 2317,
+      "sha256": "0f9888579f7dac003f77981648cd95ce3e6301183aed81a9cdffa40b9cbbc59e"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/verify-http045-restored.py",
+      "bytes": 1104,
+      "sha256": "c29de97b36980d505b8a90b109b8a51d08b610ed71dc1be39bfb4dad954ae1f9"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/verify-http046.py",
+      "bytes": 1092,
+      "sha256": "f8d44f4a609528c97c759d408d5046498135687862a0cb3c191dadc638ec6937"
+    }
+  ],
+  "scope": "086 CLOSED REJECTED/RETIRED culling. Restored045LIMITED pid360548/session35273 same8799, HTTPverified. All writers/jobs closed, sole server. Goal/playerlag/quality INCOMPLETE. Raw sole review metadata race and all failures preserved; no rerun/performance claim. Source overlay045 separate verification. Candidatefrozen046 remains rejected; mutabledistunadmitted."
+}

@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 12064655,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/raw-boundaries.json",
+      "sha256": "adc41dca71d31a3fa04672d85e6572bfd3c385fb5d152ca496d0bb88c0e818de"
+    },
+    {
+      "bytes": 206,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/receipt.json",
+      "sha256": "6b6ef7b7c1219c534bf9f1be3ded57909e31bb1d61a02788991b88b442fb42e7"
+    },
+    {
+      "bytes": 9739,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/verified-inputs.json",
+      "sha256": "97ce33581d97360eeea6ea7e7d624cf3fac1f272c2fa0766aa9f754659e7d223"
+    },
+    {
+      "bytes": 6731,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/process-receipt.json",
+      "sha256": "5bfdd398927e6f7ae75b5d272598350a714fdb91fdfcd18d4c060d42b7a4ef84"
+    },
+    {
+      "bytes": 217,
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/stdout.txt",
+      "sha256": "083b374654b7f25d4f42969f6040924c9f7c55d5160ec6b7a01dc63c4ce98451"
+    },
+    {
+      "bytes": 5473,
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-analysis.json",
+      "sha256": "960337c4b3a464dcbea31048ddff9edfa77c544f2db9d2f908c49aca1f0984d7"
+    }
+  ],
+  "status": "DIAGNOSTIC_ONLY"
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "../../src/game/entities/identity57Runtime007Actor.tsx",
+    "../../src/game/camera/weightedVisualEnvelope007.ts",
+    "../../src/game/entities/Actors.tsx",
+    "../../src/debug/diagnostics.ts",
+    "./containment.test.ts",
+    "./vitest.config.ts"
+  ]
+}

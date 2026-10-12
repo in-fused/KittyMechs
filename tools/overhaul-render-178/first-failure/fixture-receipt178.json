@@ -1,0 +1,7 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_ACTUAL_SOURCE_FIXTURE_FAILURE_STOP",
+  "checks": [],
+  "scope": "actual local Three selection/geometry and compiled district dataset; no WebGL draw/browser or FPS claim",
+  "error": "TypeError: Cannot read properties of undefined (reading 'elements')\n    at <anonymous> (C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-render-178\\check178.mts:25:124)\n    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)"
+}

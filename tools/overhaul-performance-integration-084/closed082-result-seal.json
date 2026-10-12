@@ -1,0 +1,91 @@
+{
+  "utc": "2026-10-11T05:54:43.891670+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance081-containment/process-receipt.json",
+      "bytes": 68096,
+      "sha256": "efa295e0e608759113b7ec3b123a9fe77e79f1c66ff94a0c77e4ffaa5c4cbfdc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance081-containment/stdout.txt",
+      "bytes": 2117,
+      "sha256": "5cbda609ffcdd92eafe1da83a90d6364e917f534fe67f89a03c331cb0b6b1d50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/evidence.json",
+      "bytes": 901905,
+      "sha256": "5525cf80bf8b8e1f94dba9765e635b9f8704b491a37b09da2e464ee6990cafb0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/failed-cpu-profile.json",
+      "bytes": 691805,
+      "sha256": "c5a196f63e0d931c021bc880c374eaac323037012d6b4f2c33183677cb2ff81f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/failure.png",
+      "bytes": 783444,
+      "sha256": "98b382f12784e5e2f05eed2951fd10bb5ad66599022b8cb95d7c298e394ede17"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/page@a48b4e7be104760e544c47327f689679.webm",
+      "bytes": 3139660,
+      "sha256": "6890d1bd81932a382fc046f4952f626921eec80b6e13ec8859c774a1ae4116da"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/prototype-backpedal.png",
+      "bytes": 1170288,
+      "sha256": "8084b99424a10f357ce4ce57100ac434d7db855c23ceeb1955466e5edecdcfed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/prototype-idle.png",
+      "bytes": 1064143,
+      "sha256": "ed6bd365fecc7ecb0a0ced3d43a9402078de76c37d2b49a03767ee99dae0da46"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/prototype-sweep.png",
+      "bytes": 1224903,
+      "sha256": "e474f8032def9a366fd3a3e22c4773294385051d92a3fd1db7ae39812f658867"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline-process/process-receipt.json",
+      "bytes": 68089,
+      "sha256": "18e90ee813d54545de76bbebb8dd1960271da346a53c92daf5208a60319e958b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline-process/stdout.txt",
+      "bytes": 2262,
+      "sha256": "d591366d6f814c180405827800a8377998e6c382af17a8d78383c036cb06dbd0"
+    },
+    {
+      "path": "docs/overhaul/critic/performance081-source-review.md",
+      "bytes": 3651,
+      "sha256": "2cef87bf665aeea80bc753eacf09d947b2474dd892224430283abee84b4b12f3"
+    },
+    {
+      "path": "docs/overhaul/critic/performance082-result-review.md",
+      "bytes": 2674,
+      "sha256": "2d63962b5c2889da45cffc82c5ea02f62266695f6a9944b7d2d5248503af12b4"
+    },
+    {
+      "path": "docs/overhaul/performance-077-diagnosis.md",
+      "bytes": 6709,
+      "sha256": "cc2b3184fbac9a1ce2dffd2c73c4dcc8ec0f4644f131674b39d86f4075a837fc"
+    },
+    {
+      "path": "docs/overhaul/performance-081-source-handoff.md",
+      "bytes": 3431,
+      "sha256": "52e99b03e8ae144f904159628197470fc9f5a2089c916ba37314fe41e42602c3"
+    },
+    {
+      "path": "tools/overhaul-performance-081/containment-result.json",
+      "bytes": 2731,
+      "sha256": "0bc5f1fba8c369c00a873c2ae7a68257b8ae09c0efe8236b5e25fa42b6d790f0"
+    },
+    {
+      "path": "tools/overhaul-performance-081/source-seal.json",
+      "bytes": 10298,
+      "sha256": "3bcc8ee43033cf396733cd4ea00ae5d707d006828ccc3eb0067853f0243cf4b4"
+    }
+  ],
+  "scope": "081 containment PASS sampled scope;082 baseline CLOSED failed publicPause click intercepted bycanvas duringpointerlock. Three prototype phases33samples only, standard/build/candidate UNRUN, live045 unchanged. Observer083 separatelysourcegated Escape correction, firstfailurecloses. No performance orcamera/userlag qualification; fullgoal INCOMPLETE."
+}

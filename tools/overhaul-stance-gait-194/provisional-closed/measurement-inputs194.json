@@ -1,0 +1,21 @@
+{
+  "writer": "CLOSED",
+  "scope": "Named current measurement dependencies; recorded at closure, fourteen author protected inputs separately verified across both author processes",
+  "files": [
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    }
+  ]
+}

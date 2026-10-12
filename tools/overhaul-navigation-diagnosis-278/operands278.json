@@ -1,0 +1,780 @@
+{
+  "writer": "CLOSED",
+  "scope": "read-only saved actual277 evidence/compiled source; no native replay or pose/support certification",
+  "status": "HIGH_CONFIDENCE_PLANNER_OMITS_RETAINED_NATIVE_LAMP_COLLIDER",
+  "failure": {
+    "kind": "FINITE_WAYPOINT_ITERATIONS",
+    "phase": "west-relay-route",
+    "target": {
+      "x": -2.8386400924050856,
+      "z": 12.023856217758475
+    },
+    "arrivalTolerance": 1.1,
+    "pulseCount": 35,
+    "routeOrigin": {
+      "tick": 3323,
+      "publication": {
+        "roomEpoch": "af2e23ce-f39a-4b27-bd07-e88e3aff23a1",
+        "sequence": 918,
+        "kind": "broadcast"
+      }
+    },
+    "originPosition": {
+      "x": -2.8386400980165742,
+      "y": 0.9401000099319208,
+      "z": 18.0238562306319
+    }
+  },
+  "lamp": {
+    "x": -2.5,
+    "y": -0.08,
+    "z": 12,
+    "scale": 0.9,
+    "yaw": 0
+  },
+  "mesh": {
+    "source": "public/assets/models/SM_RainLamp.glb",
+    "sourceSha256": "ff8af8bb7d30c65c61dd24ba653c3f6f1264d76ba8ad06e5782565134e1d2441",
+    "vertices": 716,
+    "triangles": 752,
+    "completeLocalBounds": [
+      [
+        -0.35007619899125875,
+        1.5000762049517231
+      ],
+      [
+        0,
+        5.940611839294434
+      ],
+      [
+        -0.3499063341117056,
+        0.3499063341117056
+      ]
+    ],
+    "baseSourceBounds": [
+      [
+        -0.35007619899125875,
+        0.3501897157789292
+      ],
+      [
+        0,
+        0.3198107634057248
+      ],
+      [
+        -0.3499063341117056,
+        0.3499063341117056
+      ]
+    ],
+    "baseSourceTop": 0.3198107634057248,
+    "baseWorldTop": 0.2078296870651523,
+    "lastRawWitnessY": 0.20782853662967682,
+    "rawWitnessWorldFrameStatus": "UNKNOWN"
+  },
+  "targetDistanceToLampXZ": 0.3394793532895111,
+  "nativeContactFrames": 40,
+  "selectedNativeContacts": [
+    {
+      "page": "host",
+      "tick": 8097,
+      "publication": {
+        "roomEpoch": "af2e23ce-f39a-4b27-bd07-e88e3aff23a1",
+        "sequence": 2147,
+        "kind": "broadcast"
+      },
+      "actorPosition": {
+        "x": -4.301508291824117,
+        "y": 1.2279296181339774,
+        "z": 11.549083926455117
+      },
+      "hull": {
+        "handle": 1.0822178612e-312,
+        "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:3",
+        "position": {
+          "x": -4.30150842666626,
+          "y": 1.5279295444488525,
+          "z": 11.549083709716797
+        },
+        "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+        "rotation": {
+          "w": 1,
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shapeType": 14
+      },
+      "shape": {
+        "borderRadius": 0.12,
+        "halfHeight": 1.1800000000000002,
+        "kind": "RoundCylinder",
+        "radius": 1.63
+      },
+      "nativeTime": 134.94999999999953,
+      "movementTick": 8097,
+      "requested": {
+        "x": 2.8695490831376106e-13,
+        "y": -0.0061111111111111106,
+        "z": 8.103307214293123e-36
+      },
+      "delta": {
+        "x": -3.464115660989364e-09,
+        "y": 9.138551104115322e-05,
+        "z": 9.238407372436086e-09
+      },
+      "contacts": [
+        {
+          "applied": {
+            "x": 4.0450413091175775e-16,
+            "y": -8.614487342128996e-06,
+            "z": 1.1422774115045463e-38
+          },
+          "frame": {
+            "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+            "checks": [],
+            "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification",
+            "status": "UNKNOWN"
+          },
+          "raw": {
+            "normal1": {
+              "x": -5.585497433457931e-07,
+              "y": 1,
+              "z": 1.4894659443598357e-06
+            },
+            "normal2": {
+              "x": 5.585497433457931e-07,
+              "y": -1,
+              "z": -1.4894659443598357e-06
+            },
+            "witness1": {
+              "x": -2.760896682739258,
+              "y": 0.20782969892024994,
+              "z": 11.738929748535156
+            },
+            "witness2": {
+              "x": -2.760896682739258,
+              "y": 0.22782981395721436,
+              "z": 11.738929748535156
+            }
+          },
+          "remaining": {
+            "x": 2.8655040579944613e-13,
+            "y": -0.006102496758103371,
+            "z": 8.091884571278364e-36
+          },
+          "reportedHandle": 1.51e-321,
+          "support": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "supportQuery": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "toi": 8.614487342128996e-06
+        }
+      ]
+    },
+    {
+      "page": "host",
+      "tick": 8221,
+      "publication": {
+        "roomEpoch": "af2e23ce-f39a-4b27-bd07-e88e3aff23a1",
+        "sequence": 2183,
+        "kind": "broadcast"
+      },
+      "actorPosition": {
+        "x": -3.668690930452403,
+        "y": 1.2280035316110585,
+        "z": 13.45799485992089
+      },
+      "hull": {
+        "handle": 1.0822178612e-312,
+        "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:3",
+        "position": {
+          "x": -3.6686909198760986,
+          "y": 1.528003454208374,
+          "z": 13.45799446105957
+        },
+        "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+        "rotation": {
+          "w": 1,
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shapeType": 14
+      },
+      "shape": {
+        "borderRadius": 0.12,
+        "halfHeight": 1.1800000000000002,
+        "kind": "RoundCylinder",
+        "radius": 1.63
+      },
+      "nativeTime": 137.01666666666785,
+      "movementTick": 8221,
+      "requested": {
+        "x": 4.05673003067495e-12,
+        "y": -0.0061111111111111106,
+        "z": 4.056730030674707e-12
+      },
+      "delta": {
+        "x": -3.462567477185985e-08,
+        "y": 7.032341090962291e-05,
+        "z": 2.9686678004736677e-08
+      },
+      "contacts": [
+        {
+          "applied": {
+            "x": 1.9700156761968957e-14,
+            "y": -2.967657201224938e-05,
+            "z": 1.9700156761968957e-14
+          },
+          "frame": {
+            "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+            "checks": [],
+            "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification",
+            "status": "UNKNOWN"
+          },
+          "raw": {
+            "normal1": {
+              "x": -0.00034629396395757794,
+              "y": 0.9999998807907104,
+              "z": 0.0002968234184663743
+            },
+            "normal2": {
+              "x": 0.00034629396395757794,
+              "y": -0.9999998807907104,
+              "z": -0.0002968234184663743
+            },
+            "witness1": {
+              "x": -2.760896682739258,
+              "y": 0.20782969892024994,
+              "z": 12.261078834533691
+            },
+            "witness2": {
+              "x": -2.760903835296631,
+              "y": 0.22790348529815674,
+              "z": 12.26108455657959
+            }
+          },
+          "remaining": {
+            "x": 4.037030258696728e-12,
+            "y": -0.006081434432417154,
+            "z": 4.037030258696728e-12
+          },
+          "reportedHandle": 1.51e-321,
+          "support": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "supportQuery": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "toi": 2.967657201224938e-05
+        }
+      ]
+    },
+    {
+      "page": "guest",
+      "tick": 8305,
+      "publication": {
+        "roomEpoch": "af2e23ce-f39a-4b27-bd07-e88e3aff23a1",
+        "sequence": 2206,
+        "kind": "broadcast"
+      },
+      "actorPosition": {
+        "x": -3.6687107300812807,
+        "y": 1.2278783856603255,
+        "z": 13.458016449441953
+      },
+      "hull": {
+        "handle": 1.0822178612e-312,
+        "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:3",
+        "position": {
+          "x": -3.668710708618164,
+          "y": 1.5278782844543457,
+          "z": 13.458016395568848
+        },
+        "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+        "rotation": {
+          "w": 1,
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shapeType": 14
+      },
+      "shape": {
+        "borderRadius": 0.12,
+        "halfHeight": 1.1800000000000002,
+        "kind": "RoundCylinder",
+        "radius": 1.63
+      },
+      "nativeTime": 138.41666666666896,
+      "movementTick": 8305,
+      "requested": {
+        "x": 1.2473957548237159e-20,
+        "y": -0.0061111111111111106,
+        "z": 1.2473957548236395e-20
+      },
+      "delta": {
+        "x": 1.247395714651425e-20,
+        "y": -8.106751920422539e-05,
+        "z": 2.4707730972295394e-07
+      },
+      "contacts": [
+        {
+          "applied": {
+            "x": 2.2899241159017887e-22,
+            "y": -0.00011218557483516634,
+            "z": 2.2899241159017887e-22
+          },
+          "frame": {
+            "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+            "checks": [],
+            "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification",
+            "status": "UNKNOWN"
+          },
+          "raw": {
+            "normal1": {
+              "x": 0,
+              "y": 1,
+              "z": 4.051161158713512e-05
+            },
+            "normal2": {
+              "x": 0,
+              "y": -1,
+              "z": -4.051161158713512e-05
+            },
+            "witness1": {
+              "x": -2.7610297203063965,
+              "y": 0.20782853662967682,
+              "z": 12.26120376586914
+            },
+            "witness2": {
+              "x": -2.7610297203063965,
+              "y": 0.22785401344299316,
+              "z": 12.261204719543457
+            }
+          },
+          "remaining": {
+            "x": 1.2244964633949875e-20,
+            "y": -0.005998925305902958,
+            "z": 1.2244964633949875e-20
+          },
+          "reportedHandle": 1.51e-321,
+          "support": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "supportQuery": {
+            "handle": 1.51e-321,
+            "id": "feline-native:01dd1182-37e7-48d1-b53e-76ef3e58bbe5:owner:4",
+            "position": {
+              "x": -2.5,
+              "y": -0.07999999821186066,
+              "z": 12
+            },
+            "revision": "native-type:6",
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": 6
+          },
+          "toi": 0.00011218557483516634
+        }
+      ]
+    }
+  ],
+  "lastPulses": [
+    {
+      "iteration": 26,
+      "start": {
+        "x": -4.127330114510069,
+        "y": 1.2279485659744327,
+        "z": 11.09943672944231
+      },
+      "rest": {
+        "x": -4.359272596316402,
+        "y": 1.2279502601785803,
+        "z": 12.048659621188724
+      },
+      "keys": [
+        "KeyS",
+        "KeyD"
+      ],
+      "requestedLeaseMs": 208.67912326478663,
+      "actualHeldMs": 278.69999980926514,
+      "sentSeq": 2914,
+      "ackTick": 7015,
+      "ackLastInput": 2932,
+      "actualTravel": 0.9771496369962517,
+      "restDistance": 1.520834777605156
+    },
+    {
+      "iteration": 27,
+      "start": {
+        "x": -4.359287419295931,
+        "y": 1.2279505974774234,
+        "z": 12.048662924477382
+      },
+      "rest": {
+        "x": -4.357006211660998,
+        "y": 1.2279570711038659,
+        "z": 12.101422449663914
+      },
+      "keys": [
+        "KeyD"
+      ],
+      "requestedLeaseMs": 200.11179635973127,
+      "actualHeldMs": 242.10000014305115,
+      "sentSeq": 2980,
+      "ackTick": 7145,
+      "ackLastInput": 2992,
+      "actualTravel": 0.0528088193977297,
+      "restDistance": 1.5203460765352963
+    },
+    {
+      "iteration": 28,
+      "start": {
+        "x": -4.357006259682354,
+        "y": 1.2280140120933183,
+        "z": 12.101441182808374
+      },
+      "rest": {
+        "x": -4.348127514861513,
+        "y": 1.2279620244325642,
+        "z": 12.203515300865256
+      },
+      "keys": [
+        "KeyD"
+      ],
+      "requestedLeaseMs": 200.04566645336948,
+      "actualHeldMs": 210.90000009536743,
+      "sentSeq": 3028,
+      "ackTick": 7250,
+      "ackLastInput": 3038,
+      "actualTravel": 0.10245954170639165,
+      "restDistance": 1.5201413305008582
+    },
+    {
+      "iteration": 29,
+      "start": {
+        "x": -4.348136510219802,
+        "y": 1.2279582812797898,
+        "z": 12.203526593491832
+      },
+      "rest": {
+        "x": -4.287323774054168,
+        "y": 1.2279300091020602,
+        "z": 12.503698164031217
+      },
+      "keys": [
+        "KeyD"
+      ],
+      "requestedLeaseMs": 200.01994703643655,
+      "actualHeldMs": 295.30000019073486,
+      "sentSeq": 3131,
+      "ackTick": 7477,
+      "ackLastInput": 3150,
+      "actualTravel": 0.3062697514284297,
+      "restDistance": 1.5260841074066507
+    },
+    {
+      "iteration": 30,
+      "start": {
+        "x": -4.287399538754912,
+        "y": 1.227948010636105,
+        "z": 12.503729655172318
+      },
+      "rest": {
+        "x": -4.124318912919202,
+        "y": 1.2279706907110537,
+        "z": 11.094115846041966
+      },
+      "keys": [
+        "KeyW",
+        "KeyD"
+      ],
+      "requestedLeaseMs": 200.81130671103924,
+      "actualHeldMs": 271.10000014305115,
+      "sentSeq": 3194,
+      "ackTick": 7606,
+      "ackLastInput": 3205,
+      "actualTravel": 1.4190159905420194,
+      "restDistance": 1.5866276148857745
+    },
+    {
+      "iteration": 31,
+      "start": {
+        "x": -4.124326677545791,
+        "y": 1.2278366009203907,
+        "z": 11.094113532771125
+      },
+      "rest": {
+        "x": -4.353805105089608,
+        "y": 1.2280650508445845,
+        "z": 11.852230015112195
+      },
+      "keys": [
+        "KeyS",
+        "KeyD"
+      ],
+      "requestedLeaseMs": 208.76779766782553,
+      "actualHeldMs": 265.7000000476837,
+      "sentSeq": 3269,
+      "ackTick": 7769,
+      "ackLastInput": 3277,
+      "actualTravel": 0.792086453302403,
+      "restDistance": 1.5248542779879228
+    },
+    {
+      "iteration": 32,
+      "start": {
+        "x": -4.353779313630195,
+        "y": 1.2280367969769443,
+        "z": 11.85237136052393
+      },
+      "rest": {
+        "x": -4.338311216229827,
+        "y": 1.2279493692473196,
+        "z": 11.724594437295895
+      },
+      "keys": [
+        "KeyD"
+      ],
+      "requestedLeaseMs": 200.63324242675301,
+      "actualHeldMs": 230.79999995231628,
+      "sentSeq": 3319,
+      "ackTick": 7895,
+      "ackLastInput": 3330,
+      "actualTravel": 0.12870976709951146,
+      "restDistance": 1.5292387298520123
+    },
+    {
+      "iteration": 33,
+      "start": {
+        "x": -4.3382946299055405,
+        "y": 1.2279532504504758,
+        "z": 11.724593646908048
+      },
+      "rest": {
+        "x": -4.301486959178998,
+        "y": 1.2280385482052694,
+        "z": 11.54910735818936
+      },
+      "keys": [
+        "KeyD"
+      ],
+      "requestedLeaseMs": 201.21350151191348,
+      "actualHeldMs": 254.20000004768372,
+      "sentSeq": 3369,
+      "ackTick": 8003,
+      "ackLastInput": 3385,
+      "actualTravel": 0.17930488602537326,
+      "restDistance": 1.5379556025101726
+    },
+    {
+      "iteration": 34,
+      "start": {
+        "x": -4.30150531388832,
+        "y": 1.2278530952251927,
+        "z": 11.549081621826563
+      },
+      "rest": {
+        "x": -3.6686892825475717,
+        "y": 1.2280547271951505,
+        "z": 13.457984317896537
+      },
+      "keys": [
+        "KeyS",
+        "KeyD"
+      ],
+      "requestedLeaseMs": 202.3659210519457,
+      "actualHeldMs": 331.40000009536743,
+      "sentSeq": 3439,
+      "ackTick": 8140,
+      "ackLastInput": 3454,
+      "actualTravel": 2.011060822696587,
+      "restDistance": 1.6570169177355447
+    }
+  ],
+  "sourceCorrespondence": [
+    {
+      "source": "shared/Simulation.ts",
+      "retained062": {
+        "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/shared/Simulation.ts",
+        "bytes": 181567,
+        "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a"
+      },
+      "current": {
+        "path": "shared/Simulation.ts",
+        "bytes": 181567,
+        "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a"
+      },
+      "byteExact": true
+    },
+    {
+      "source": "shared/world.ts",
+      "retained062": {
+        "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/shared/world.ts",
+        "bytes": 13695,
+        "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+      },
+      "current": {
+        "path": "shared/world.ts",
+        "bytes": 13695,
+        "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+      },
+      "byteExact": true
+    },
+    {
+      "source": "shared/maps.ts",
+      "retained062": {
+        "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/shared/maps.ts",
+        "bytes": 9120,
+        "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+      },
+      "current": {
+        "path": "shared/maps.ts",
+        "bytes": 9120,
+        "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+      },
+      "byteExact": true
+    },
+    {
+      "source": "shared/rainlineLampCollision.ts",
+      "retained062": {
+        "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/shared/rainlineLampCollision.ts",
+        "bytes": 748,
+        "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+      },
+      "current": {
+        "path": "shared/rainlineLampCollision.ts",
+        "bytes": 748,
+        "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+      },
+      "byteExact": true
+    },
+    {
+      "source": "shared/data/rainlineLampMeshCollision001.json",
+      "retained062": {
+        "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/shared/data/rainlineLampMeshCollision001.json",
+        "bytes": 49691,
+        "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+      },
+      "current": {
+        "path": "shared/data/rainlineLampMeshCollision001.json",
+        "bytes": 49691,
+        "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+      },
+      "byteExact": true
+    }
+  ],
+  "sourceInputs": [
+    {
+      "path": ".sites-runtime/shader-startup-238/public277/evidence.json",
+      "bytes": 4193021,
+      "sha256": "57d94dc75bfcc56966b52aa067986450a230d7b8d456e8a0d006b7b95c301c90"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public277/native-keyframes.json",
+      "bytes": 3387820,
+      "sha256": "6aef2c5249cbfbf3124542794f9f58c0f5a0844abb40107f4cca3ed2d54cf4c5"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public277/failure-guest.png",
+      "bytes": 1093138,
+      "sha256": "8b2ac9d731abf679948aa6ad19ba77e3122924824954cddf8c71c61ffd08488e"
+    },
+    {
+      "path": "tools/overhaul-coop-177/planner.mjs",
+      "bytes": 7933,
+      "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+    },
+    {
+      "path": "tools/overhaul-coop-177/controller.mjs",
+      "bytes": 8206,
+      "sha256": "2bcc236d6146d00a08f5d281ea250b82f161e1cd385c6b6874d9585867fb0088"
+    },
+    {
+      "path": "tools/overhaul-coop-177/geometry-source.mjs",
+      "bytes": 10995,
+      "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/supervisor277/process-receipt.json",
+      "bytes": 5485,
+      "sha256": "2420519f15f8dfcb6d9271840a311a35bd742db3841828b0ccd51b931ad090f2"
+    }
+  ]
+}

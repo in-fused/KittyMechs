@@ -1,0 +1,18 @@
+{
+  "reviewStartUTC": "2026-10-10T15:08:22Z",
+  "closedUTC": "2026-10-10T15:09:34.1244237Z",
+  "reviewDeadlineUTC": "2026-10-10T15:10:10Z",
+  "rootHardDeadlineUTC": "2026-10-10T15:17:15Z",
+  "externalCleanupUTC": "2026-10-10T15:16:00Z",
+  "verdict": "APPROVE_ONE_ROOT_SERIAL_PASSIVE_THREE_VIEW_OBSERVATION_ONLY",
+  "sealSHA256": "8EBD67B7D5D1437502D471989EE4F5CCED08AB3D8E08D782FCBEFC183F9FC60C",
+  "frozenRowsMatch": 2,
+  "protectedRowsMatch": 2,
+  "reviewPath": "docs/overhaul/critic/complete-pounce-failed-master-views-001-code-review.md",
+  "reviewSHA256": "F229B2766D885FC7D9F70522F1E4E4161175AED0426476EE3CDFDE597D40C28F",
+  "reviewerJobs": 0,
+  "sourceWrites": 0,
+  "retryGranted": false,
+  "gate1": "INCOMPLETE",
+  "countChange": 0
+}

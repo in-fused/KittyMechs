@@ -1,0 +1,50 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE_OFFLINE_SAME_EXACT_SAVED_READ_COMPARISON_NOT_FAILED_INPUT_OR_NATIVE_SIGHT_OR_PUBLIC_PLAY",
+  "source": ".sites-runtime/overhaul-20261010/coop151-public/native-keyframes.json",
+  "sourceSha256": "881f624e87f7a341e4052a56a306d5db95d58fbf4648ef60b56309723721a07a",
+  "tick": 11904,
+  "publication": {
+    "kind": "broadcast",
+    "roomEpoch": "f5ca4c75-b36d-409e-a66c-c973a75cbc05",
+    "sequence": 2128
+  },
+  "snapshotSha256": "2e1834b1b1055cb8ede2cb4803e5015f2db6d616b312f3f6b0c91bfa77aab0c0",
+  "oracle": "Explicit permissive all-clear external sight fixture for route-search cost. No actual native visibility is claimed; both algorithms receive the identical oracle.",
+  "runs": [
+    {
+      "label": "baseline",
+      "elapsedMs": 2695.7104999999997,
+      "status": "PLANNING_UNQUALIFIED",
+      "failure": "Error: Exposure source planning2s finite CPU bound; unqualified",
+      "sightCalls": 0,
+      "sightPairs": 0,
+      "trace": {}
+    },
+    {
+      "label": "candidate",
+      "elapsedMs": 436.05859999999984,
+      "status": "OFFLINE_ROUTE_PROPOSAL_ONLY",
+      "sightCalls": 1,
+      "sightPairs": 34,
+      "targetId": "bot-2",
+      "goals": [
+        {
+          "x": 21.346400482711633,
+          "z": -25.70510623005717
+        },
+        {
+          "x": 17.10375979559235,
+          "z": -29.947746917176453
+        }
+      ],
+      "routePoints": [
+        6,
+        3
+      ],
+      "plannerMs": 418,
+      "routeAttempts": 2,
+      "rejected": 31
+    }
+  ]
+}

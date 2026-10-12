@@ -1,0 +1,33 @@
+{
+  "capSeconds": 60,
+  "files": [
+    {
+      "sha256": "249790feb4967df244457123d415a423b5d57470f66c8a17d8c2978186461bb7",
+      "bytes": 5682,
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle_diagnostic.py"
+    },
+    {
+      "sha256": "3ac04478a7782956cd543e5f510d4352c57fb2f8fa545ce0381223a2063230ee",
+      "bytes": 261905,
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle-input.json"
+    },
+    {
+      "sha256": "03b6ebaa75aedb88152536d411eb39bfca43e82ff031ce49aeec4c82539b9730",
+      "bytes": 24000,
+      "path": "tools/overhaul-pounce-paired-route-029/protected-inputs.json"
+    },
+    {
+      "sha256": "09602e016ed420ba837367ece160b54ef4ccfbc31a75a0ba15ccbe7f3585d6f2",
+      "bytes": 255,
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-command.ps1"
+    },
+    {
+      "sha256": "e34ef5ca62c979319d7328c7bf03d809ea04951afeeeebd805e5c4caeff5957e",
+      "bytes": 2665,
+      "path": "docs/overhaul/pounce-paired-route-029-diagnostic.md"
+    }
+  ],
+  "hardDeadlineUTC": "2026-10-10T21:13:00Z",
+  "frozenUTC": "2026-10-10T20:42:12.8801003Z",
+  "schema": "route029-unchangedtriangle-diagnostic"
+}

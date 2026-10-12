@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "path": "assets/source/overhaul-locomotion-143/task-contract143.json",
+      "bytes": 3263,
+      "sha256": "ec49b4d0bc30889409305c58854e185214b3bb124d017bf91a536dbf22b38941"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 48242,
+      "sha256": "8a08dbef29a9ae619e816eee1d1133ebae8a6548fe0aa8330d3207ffa97b852c"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 19400,
+      "sha256": "d6935561e0eb9afa1eda22a422c951f2ba54a042d9b2c4d12b3a79edd4b9cf73"
+    },
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "tests/locomotion-tasks143.test.ts",
+      "bytes": 7211,
+      "sha256": "810cf312292148b2dca929944cb78bc6846014fd0b61a8f5b9d58d6e2ef228b6"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/actual-source-cases143.json",
+      "bytes": 275873,
+      "sha256": "39e193b764a18ef3d7e1e85b1081374dfd41ae9982009bb4de92a2ae84afcaed"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/actual-source-cases143.raw-unqualified-body.json",
+      "bytes": 283153,
+      "sha256": "8e178a097d7e09d17426126f871b38367cce29b2a189d8b7472a5a5a447a5d4c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/candidate/Actors.tsx",
+      "bytes": 48242,
+      "sha256": "8a08dbef29a9ae619e816eee1d1133ebae8a6548fe0aa8330d3207ffa97b852c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/candidate/Identity57Runtime005.ts",
+      "bytes": 19400,
+      "sha256": "d6935561e0eb9afa1eda22a422c951f2ba54a042d9b2c4d12b3a79edd4b9cf73"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/candidate/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/final-check-receipts.json",
+      "bytes": 872,
+      "sha256": "deed135678da38a00a9087ceb71ddc55c08c7bbe154918cde4f8d82e843eb4fc"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/HANDOFF.md",
+      "bytes": 6870,
+      "sha256": "33670e261b6c9f1175e3cd0935a1e9b74c406565ac2df99b23cf9ad2f5d402ef"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/initial-check-receipts.json",
+      "bytes": 24780,
+      "sha256": "7a0e29dc8f36af4ea26a8d3a6bb5c9a1cb281e7e84e0d108321e0964f9fb74bc"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/preimages/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/preimages/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/preimages/Identity57Runtime005.ts",
+      "bytes": 17878,
+      "sha256": "be5cf8888a46aed18c85828ecd67bb3ed3f713551ac39930d84baad898855dbe"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/preimages/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/preimages/movingRFfeet067.ts",
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/protected-inputs.json",
+      "bytes": 792,
+      "sha256": "c34f5f9e8755ffcba01cffa295ec42766070265ff2b7de1aa42b26709670b848"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/task-contract143.json",
+      "bytes": 3263,
+      "sha256": "ec49b4d0bc30889409305c58854e185214b3bb124d017bf91a536dbf22b38941"
+    }
+  ],
+  "writer": "CLOSED"
+}

@@ -1,0 +1,1726 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/critic",
+  "at": "2026-10-04T17:21:18.989Z",
+  "port": 8791,
+  "label": "candidate",
+  "source": "Approved Bastion local candidate; final reviewed source digest recorded below",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "settings": {
+    "quality": "medium",
+    "volume": 0,
+    "sensitivity": 1,
+    "cameraDistance": 10,
+    "reducedFlashes": false,
+    "invertY": false
+  },
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "scenario": "Fresh one-pilot Bastion Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+  "samples": [
+    {
+      "fps": 51,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    },
+    {
+      "fps": 60,
+      "calls": 126,
+      "triangles": 1101084,
+      "geometries": 101,
+      "textures": 53,
+      "chunks": 9,
+      "bodies": 0
+    }
+  ],
+  "average": {
+    "fps": 59.1,
+    "calls": 126,
+    "triangles": 1101084,
+    "geometries": 101,
+    "textures": 53
+  },
+  "settledRAF": {
+    "durationMs": 10096.5,
+    "samples": 606,
+    "p50": 16.700000047683716,
+    "p95": 17.90000009536743,
+    "p99": 18.59999990463257,
+    "maximum": 21.799999952316284,
+    "over50": 0,
+    "over100": 0
+  },
+  "movingRAF": {
+    "durationMs": 13876.100000143051,
+    "samples": 825,
+    "p50": 16.699999809265137,
+    "p95": 17.600000143051147,
+    "p99": 18.09999990463257,
+    "maximum": 173.70000004768372,
+    "over50": 1,
+    "over100": 1
+  },
+  "movingRows": [
+    {
+      "cycle": 0,
+      "key": "KeyS",
+      "before": {
+        "x": -7.996675709999459,
+        "y": 0.9400999531830894,
+        "z": 22.00091437565665
+      },
+      "position": {
+        "x": -7.996563574037134,
+        "y": 0.9400200555214542,
+        "z": 39.891685134694555
+      },
+      "performance": {
+        "fps": 60,
+        "calls": 135,
+        "triangles": 1047078,
+        "geometries": 103,
+        "textures": 53,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "camera": {
+        "position": {
+          "x": -7.996559245003026,
+          "y": 5.240516779892478,
+          "z": 49.51250404024211
+        },
+        "focus": {
+          "x": -7.9965612051834585,
+          "y": 1.84016586020748,
+          "z": 39.70216427363494
+        },
+        "clear": true,
+        "violations": 0
+      }
+    },
+    {
+      "cycle": 0,
+      "key": "KeyW",
+      "before": {
+        "x": -7.996563574037134,
+        "y": 0.9400200555214542,
+        "z": 39.891685134694555
+      },
+      "position": {
+        "x": -7.996642335590748,
+        "y": 0.9401219677897461,
+        "z": 21.92436825666634
+      },
+      "performance": {
+        "fps": 60,
+        "calls": 124,
+        "triangles": 948647,
+        "geometries": 103,
+        "textures": 53,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "camera": {
+        "position": {
+          "x": -7.996653594983904,
+          "y": 5.240450185293634,
+          "z": 32.360854297584005
+        },
+        "focus": {
+          "x": -7.996653386281371,
+          "y": 1.8400864644281358,
+          "z": 22.150725059163637
+        },
+        "clear": true,
+        "violations": 0
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "KeyS",
+      "before": {
+        "x": -7.996642335590748,
+        "y": 0.9401219677897461,
+        "z": 21.92436825666634
+      },
+      "position": {
+        "x": -7.996120038115049,
+        "y": 0.9400987525263917,
+        "z": 39.70390557447506
+      },
+      "performance": {
+        "fps": 60,
+        "calls": 135,
+        "triangles": 1077726,
+        "geometries": 103,
+        "textures": 53,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "camera": {
+        "position": {
+          "x": -7.996118115648438,
+          "y": 5.240537445321861,
+          "z": 49.380345244200186
+        },
+        "focus": {
+          "x": -7.9961213551731065,
+          "y": 1.8401656863982008,
+          "z": 39.54983519829926
+        },
+        "clear": true,
+        "violations": 0
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "KeyW",
+      "before": {
+        "x": -7.996120038115049,
+        "y": 0.9400987525263917,
+        "z": 39.70390557447506
+      },
+      "position": {
+        "x": -7.995404457521224,
+        "y": 0.9402467207914742,
+        "z": 21.926388240499065
+      },
+      "performance": {
+        "fps": 60,
+        "calls": 124,
+        "triangles": 954177,
+        "geometries": 103,
+        "textures": 53,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "camera": {
+        "position": {
+          "x": -7.995397073310066,
+          "y": 5.240463503272253,
+          "z": 32.30314416279627
+        },
+        "focus": {
+          "x": -7.995399325960298,
+          "y": 1.8400765892044082,
+          "z": 22.113830919316225
+        },
+        "clear": true,
+        "violations": 0
+      }
+    }
+  ],
+  "start": {
+    "snapshot": {
+      "worldLayoutVersion": "rainline-city-1",
+      "tick": 595,
+      "time": 9.916666666666739,
+      "seed": 7734,
+      "room": "D8C060",
+      "mode": "pvp",
+      "actors": [
+        {
+          "id": "feaff912-d58a-464e-8519-4809c685630a",
+          "name": "BastionProfile",
+          "chassis": "bastion",
+          "bot": false,
+          "position": {
+            "x": -7.99668483079972,
+            "y": 0.9400101226606057,
+            "z": 22.00091177813802
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "yaw": 0,
+          "aimYaw": 0,
+          "aimPitch": -0.07072611036717658,
+          "hp": 340,
+          "maxHp": 340,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": -100,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": -100,
+          "aiState": "patrol",
+          "lastInput": 58
+        }
+      ],
+      "projectiles": [],
+      "events": [],
+      "fields": [],
+      "cover": [
+        {
+          "id": "7734:wall:-59:-7",
+          "hp": 180,
+          "maxHp": 180,
+          "destroyedAt": null
+        },
+        {
+          "id": "7734:cargo:55.55:-56.15",
+          "hp": 100,
+          "maxHp": 100,
+          "destroyedAt": null
+        },
+        {
+          "id": "7734:cargo:61.4:-66.5",
+          "hp": 100,
+          "maxHp": 100,
+          "destroyedAt": null
+        }
+      ],
+      "structures": [
+        {
+          "id": "7734:city:building-0:facade",
+          "layoutVersion": 1,
+          "revision": 0,
+          "brokenMask": 0,
+          "hp": [
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        {
+          "id": "7734:city:building-6:facade",
+          "layoutVersion": 1,
+          "revision": 0,
+          "brokenMask": 0,
+          "hp": [
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        {
+          "id": "7734:city:building-0:supports",
+          "layoutVersion": 1,
+          "revision": 0,
+          "brokenMask": 0,
+          "hp": [
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85,
+            85
+          ]
+        }
+      ],
+      "supplies": [
+        {
+          "id": "7734:supply-0",
+          "kind": "coolant",
+          "position": {
+            "x": 86,
+            "y": -0.08,
+            "z": 8.5
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        },
+        {
+          "id": "7734:supply-1",
+          "kind": "repair",
+          "position": {
+            "x": 93.33333333333333,
+            "y": -0.08,
+            "z": 31
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        },
+        {
+          "id": "7734:supply-2",
+          "kind": "repair",
+          "position": {
+            "x": 52,
+            "y": -0.08,
+            "z": -30
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        },
+        {
+          "id": "7734:supply-3",
+          "kind": "energy",
+          "position": {
+            "x": 0,
+            "y": -0.08,
+            "z": -47.666666666666664
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        },
+        {
+          "id": "7734:supply-4",
+          "kind": "energy",
+          "position": {
+            "x": 166.66666666666666,
+            "y": -0.08,
+            "z": 91
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        },
+        {
+          "id": "7734:supply-5",
+          "kind": "coolant",
+          "position": {
+            "x": 122.66666666666667,
+            "y": -0.08,
+            "z": 91
+          },
+          "born": 0,
+          "availableAt": 0,
+          "claimedBy": null
+        }
+      ],
+      "objectives": [
+        {
+          "id": "relay-west",
+          "name": "WEST RELAY",
+          "position": {
+            "x": -12,
+            "y": -0.08,
+            "z": -35
+          },
+          "seconds": 3,
+          "progress": 0,
+          "complete": false,
+          "unlocked": true
+        },
+        {
+          "id": "relay-east",
+          "name": "EAST RELAY",
+          "position": {
+            "x": 34,
+            "y": -0.08,
+            "z": -30
+          },
+          "seconds": 3,
+          "progress": 0,
+          "complete": false,
+          "unlocked": true
+        },
+        {
+          "id": "core",
+          "name": "STORM CORE",
+          "position": {
+            "x": 0,
+            "y": -0.08,
+            "z": -76
+          },
+          "seconds": 4,
+          "progress": 0,
+          "complete": false,
+          "unlocked": false
+        },
+        {
+          "id": "extraction",
+          "name": "EXTRACTION",
+          "position": {
+            "x": -8,
+            "y": -0.08,
+            "z": 12
+          },
+          "seconds": 8,
+          "progress": 0,
+          "complete": false,
+          "unlocked": false
+        }
+      ],
+      "checkpoint": null,
+      "phase": "active",
+      "winner": null
+    },
+    "camera": {
+      "position": {
+        "x": -7.996684843653344,
+        "y": 5.240467461864618,
+        "z": 32.00091190736232
+      },
+      "focus": {
+        "x": -7.996684799866363,
+        "y": 1.8400873764895442,
+        "z": 22.00091192761294
+      },
+      "clear": true,
+      "violations": 0
+    },
+    "settings": {
+      "quality": "medium",
+      "volume": 0,
+      "sensitivity": 1,
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "invertY": false
+    }
+  },
+  "errors": [],
+  "limits": [
+    "Q",
+    "u",
+    "i",
+    "e",
+    "t",
+    " ",
+    "s",
+    "e",
+    "r",
+    "i",
+    "a",
+    "l",
+    " ",
+    "m",
+    "a",
+    "t",
+    "c",
+    "h",
+    "e",
+    "d",
+    " ",
+    "s",
+    "e",
+    "s",
+    "s",
+    "i",
+    "o",
+    "n",
+    ";",
+    " ",
+    "R",
+    "A",
+    "F",
+    "-",
+    "o",
+    "n",
+    "l",
+    "y",
+    " ",
+    "o",
+    "b",
+    "s",
+    "e",
+    "r",
+    "v",
+    "a",
+    "t",
+    "i",
+    "o",
+    "n",
+    ",",
+    " ",
+    "n",
+    "o",
+    " ",
+    "v",
+    "i",
+    "d",
+    "e",
+    "o",
+    " ",
+    "o",
+    "r",
+    " ",
+    "p",
+    "e",
+    "r",
+    "-",
+    "f",
+    "r",
+    "a",
+    "m",
+    "e",
+    " ",
+    "c",
+    "o",
+    "n",
+    "t",
+    "a",
+    "c",
+    "t",
+    " ",
+    "c",
+    "o",
+    "l",
+    "l",
+    "e",
+    "c",
+    "t",
+    "i",
+    "o",
+    "n",
+    ".",
+    " ",
+    "S",
+    "c",
+    "r",
+    "e",
+    "e",
+    "n",
+    "s",
+    "h",
+    "o",
+    "t",
+    " ",
+    "a",
+    "f",
+    "t",
+    "e",
+    "r",
+    " ",
+    "e",
+    "a",
+    "c",
+    "h",
+    " ",
+    "s",
+    "a",
+    "m",
+    "p",
+    "l",
+    "i",
+    "n",
+    "g",
+    " ",
+    "w",
+    "i",
+    "n",
+    "d",
+    "o",
+    "w",
+    ".",
+    " ",
+    "S",
+    "c",
+    "o",
+    "p",
+    "e",
+    " ",
+    "i",
+    "s",
+    " ",
+    "t",
+    "h",
+    "i",
+    "s",
+    " ",
+    "v",
+    "i",
+    "e",
+    "w",
+    "p",
+    "o",
+    "r",
+    "t",
+    "/",
+    "r",
+    "e",
+    "n",
+    "d",
+    "e",
+    "r",
+    "e",
+    "r",
+    "/",
+    "s",
+    "c",
+    "e",
+    "n",
+    "a",
+    "r",
+    "i",
+    "o",
+    ",",
+    " ",
+    "n",
+    "o",
+    "t",
+    " ",
+    "a",
+    " ",
+    "g",
+    "e",
+    "n",
+    "e",
+    "r",
+    "a",
+    "l",
+    "i",
+    "z",
+    "e",
+    "d",
+    " ",
+    "F",
+    "P",
+    "S",
+    " ",
+    "o",
+    "r",
+    " ",
+    "V",
+    "R",
+    "A",
+    "M",
+    " ",
+    "c",
+    "l",
+    "a",
+    "i",
+    "m",
+    ",",
+    " ",
+    "m",
+    "o",
+    "b",
+    "i",
+    "l",
+    "e",
+    " ",
+    "r",
+    "e",
+    "s",
+    "u",
+    "l",
+    "t",
+    ",",
+    " ",
+    "l",
+    "o",
+    "n",
+    "g",
+    "-",
+    "s",
+    "e",
+    "s",
+    "s",
+    "i",
+    "o",
+    "n",
+    " ",
+    "s",
+    "t",
+    "r",
+    "e",
+    "s",
+    "s",
+    " ",
+    "t",
+    "e",
+    "s",
+    "t",
+    " ",
+    "o",
+    "r",
+    " ",
+    "t",
+    "i",
+    "m",
+    "i",
+    "n",
+    "g",
+    " ",
+    "c",
+    "o",
+    "m",
+    "p",
+    "a",
+    "r",
+    "i",
+    "s",
+    "o",
+    "n",
+    " ",
+    "a",
+    "g",
+    "a",
+    "i",
+    "n",
+    "s",
+    "t",
+    " ",
+    "t",
+    "h",
+    "e",
+    " ",
+    "h",
+    "i",
+    "s",
+    "t",
+    "o",
+    "r",
+    "i",
+    "c",
+    "a",
+    "l",
+    " ",
+    "P",
+    "o",
+    "u",
+    "n",
+    "c",
+    "e",
+    " ",
+    "p",
+    "r",
+    "o",
+    "f",
+    "i",
+    "l",
+    "e",
+    ".",
+    "This is one-pilot Bastion PVP, not the prior Pounce/city profile. The prior artifact is preserved byte-exact.",
+    "Measured +3 textures and +6368 scene triangles accompany -6 calls/-3 geometries; no VRAM saving or generalized FPS improvement is inferred.",
+    "All ten candidate HUD samples are retained: first51 then nine60. Both short moving routes retain one >100ms interval.",
+    "No video or continuous contact observer was running in either quiet profile. High/mobile, crowded worst-case, prolonged memory and hitch-free streaming remain unqualified."
+  ],
+  "reviewedAt": "2026-10-04T17:57:20.893Z",
+  "reviewedFingerprint": "562892a32b9fbf09feaa8bd6a3e220fb6d665ee51ee95c43ef1b49c89cf67dfc",
+  "testedRuntimeFingerprint": "219dac6fb715b311e806e6376653f4d4581b76e9c939f8b1a1faaeae5293945c",
+  "historicalVersion12Artifact": "docs/browser-performance-v12-baseline.json",
+  "sameSessionBaseline": {
+    "status": "PASS",
+    "reviewer": "/root/critic",
+    "at": "2026-10-04T17:20:19.917Z",
+    "port": 8788,
+    "label": "v12-baseline",
+    "source": "cb2bd262c85e7d6f22ecaf5e1d3a1af7d2f406b3",
+    "browser": "Headless Microsoft Edge",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "settings": {
+      "quality": "medium",
+      "volume": 0,
+      "sensitivity": 1,
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "invertY": false
+    },
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "scenario": "Fresh one-pilot Bastion Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+    "samples": [
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      },
+      {
+        "fps": 60,
+        "calls": 132,
+        "triangles": 1094716,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 0
+      }
+    ],
+    "average": {
+      "fps": 60,
+      "calls": 132,
+      "triangles": 1094716,
+      "geometries": 104,
+      "textures": 50
+    },
+    "settledRAF": {
+      "durationMs": 10094.099999904633,
+      "samples": 606,
+      "p50": 16.600000143051147,
+      "p95": 18,
+      "p99": 18.90000009536743,
+      "maximum": 21.799999952316284,
+      "over50": 0,
+      "over100": 0
+    },
+    "movingRAF": {
+      "durationMs": 13911.700000047684,
+      "samples": 827,
+      "p50": 16.700000047683716,
+      "p95": 17.799999952316284,
+      "p99": 18.700000047683716,
+      "maximum": 174.80000019073486,
+      "over50": 1,
+      "over100": 1
+    },
+    "movingRows": [
+      {
+        "cycle": 0,
+        "key": "KeyS",
+        "before": {
+          "x": -7.996675596735544,
+          "y": 0.9400999749236507,
+          "z": 22.000914389530962
+        },
+        "position": {
+          "x": -7.996556468695352,
+          "y": 0.9400999539579789,
+          "z": 39.70160425557573
+        },
+        "performance": {
+          "fps": 60,
+          "calls": 141,
+          "triangles": 1082418,
+          "geometries": 106,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.99655731782993,
+            "y": 5.240411584802687,
+            "z": 49.3667051914157
+          },
+          "focus": {
+            "x": -7.996555072907677,
+            "y": 1.8400595408385936,
+            "z": 39.54171105678111
+          },
+          "clear": true,
+          "violations": 0
+        }
+      },
+      {
+        "cycle": 0,
+        "key": "KeyW",
+        "before": {
+          "x": -7.996556468695352,
+          "y": 0.9400999539579789,
+          "z": 39.70160425557573
+        },
+        "position": {
+          "x": -7.99652397591593,
+          "y": 0.9400999892136315,
+          "z": 21.74583514161226
+        },
+        "performance": {
+          "fps": 60,
+          "calls": 130,
+          "triangles": 947809,
+          "geometries": 106,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.99652303421583,
+            "y": 5.2404837637624535,
+            "z": 32.07722772148816
+          },
+          "focus": {
+            "x": -7.9965234285923295,
+            "y": 1.8401199351014303,
+            "z": 21.901883645313337
+          },
+          "clear": true,
+          "violations": 0
+        }
+      },
+      {
+        "cycle": 1,
+        "key": "KeyS",
+        "before": {
+          "x": -7.99652397591593,
+          "y": 0.9401000102047692,
+          "z": 21.734963155917868
+        },
+        "position": {
+          "x": -7.996479127317979,
+          "y": 0.9402117739959794,
+          "z": 39.784738089989915
+        },
+        "performance": {
+          "fps": 60,
+          "calls": 141,
+          "triangles": 1071358,
+          "geometries": 106,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.996481802743487,
+            "y": 5.2404439263758995,
+            "z": 49.34829184805022
+          },
+          "focus": {
+            "x": -7.9964795750955835,
+            "y": 1.8400708029974215,
+            "z": 39.56185266996052
+          },
+          "clear": true,
+          "violations": 0
+        }
+      },
+      {
+        "cycle": 1,
+        "key": "KeyW",
+        "before": {
+          "x": -7.996479127317979,
+          "y": 0.9402117739959794,
+          "z": 39.784738089989915
+        },
+        "position": {
+          "x": -7.996444954388074,
+          "y": 0.9401064584931009,
+          "z": 22.015274001851722
+        },
+        "performance": {
+          "fps": 60,
+          "calls": 130,
+          "triangles": 947809,
+          "geometries": 106,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.996450532435705,
+            "y": 5.240484258114479,
+            "z": 32.35285579809655
+          },
+          "focus": {
+            "x": -7.996435492380474,
+            "y": 1.8401110983918751,
+            "z": 22.179033913497385
+          },
+          "clear": true,
+          "violations": 0
+        }
+      }
+    ],
+    "start": {
+      "snapshot": {
+        "worldLayoutVersion": "rainline-city-1",
+        "tick": 897,
+        "time": 14.950000000000323,
+        "seed": 7734,
+        "room": "51D64D",
+        "mode": "pvp",
+        "actors": [
+          {
+            "id": "6adb3a89-463d-4bd2-9af9-50b6e7523e4b",
+            "name": "BastionProfile",
+            "chassis": "bastion",
+            "bot": false,
+            "position": {
+              "x": -7.996680523408898,
+              "y": 0.9401184696730343,
+              "z": 22.000912764380892
+            },
+            "velocity": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "yaw": 0,
+            "aimYaw": 0,
+            "aimPitch": -0.0707255987385676,
+            "hp": 340,
+            "maxHp": 340,
+            "energy": 100,
+            "heat": 0,
+            "kills": 0,
+            "salvage": 0,
+            "grounded": true,
+            "boostUntil": 0,
+            "shieldUntil": 0,
+            "windupUntil": 0,
+            "abilityReadyAt": 0,
+            "rocketReadyAt": 0,
+            "stance": "quadruped",
+            "stanceChangedAt": -100,
+            "climb": null,
+            "climbDetachedAt": -100,
+            "pulseAt": -100,
+            "rocketAt": -100,
+            "abilityAt": -100,
+            "hurtAt": -100,
+            "diedAt": -100,
+            "disruptedUntil": 0,
+            "respawnAt": 0,
+            "hitAt": -100,
+            "fireAt": -100,
+            "aiState": "patrol",
+            "lastInput": 367
+          }
+        ],
+        "projectiles": [],
+        "events": [],
+        "fields": [],
+        "cover": [
+          {
+            "id": "7734:wall:-59:-7",
+            "hp": 180,
+            "maxHp": 180,
+            "destroyedAt": null
+          },
+          {
+            "id": "7734:cargo:55.55:-56.15",
+            "hp": 100,
+            "maxHp": 100,
+            "destroyedAt": null
+          },
+          {
+            "id": "7734:cargo:61.4:-66.5",
+            "hp": 100,
+            "maxHp": 100,
+            "destroyedAt": null
+          }
+        ],
+        "structures": [
+          {
+            "id": "7734:city:building-0:facade",
+            "layoutVersion": 1,
+            "revision": 0,
+            "brokenMask": 0,
+            "hp": [
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65
+            ]
+          },
+          {
+            "id": "7734:city:building-6:facade",
+            "layoutVersion": 1,
+            "revision": 0,
+            "brokenMask": 0,
+            "hp": [
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65,
+              65
+            ]
+          },
+          {
+            "id": "7734:city:building-0:supports",
+            "layoutVersion": 1,
+            "revision": 0,
+            "brokenMask": 0,
+            "hp": [
+              85,
+              85,
+              85,
+              85,
+              85,
+              85,
+              85,
+              85
+            ]
+          }
+        ],
+        "supplies": [
+          {
+            "id": "7734:supply-0",
+            "kind": "repair",
+            "position": {
+              "x": 86,
+              "y": -0.08,
+              "z": 23.5
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          },
+          {
+            "id": "7734:supply-1",
+            "kind": "energy",
+            "position": {
+              "x": 166.66666666666666,
+              "y": -0.08,
+              "z": 61
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          },
+          {
+            "id": "7734:supply-2",
+            "kind": "coolant",
+            "position": {
+              "x": 122.66666666666667,
+              "y": -0.08,
+              "z": 91
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          },
+          {
+            "id": "7734:supply-3",
+            "kind": "energy",
+            "position": {
+              "x": 166.66666666666666,
+              "y": -0.08,
+              "z": 31
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          },
+          {
+            "id": "7734:supply-4",
+            "kind": "coolant",
+            "position": {
+              "x": 174,
+              "y": -0.08,
+              "z": 68.5
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          },
+          {
+            "id": "7734:supply-5",
+            "kind": "repair",
+            "position": {
+              "x": 108,
+              "y": -0.08,
+              "z": 91
+            },
+            "born": 0,
+            "availableAt": 0,
+            "claimedBy": null
+          }
+        ],
+        "objectives": [
+          {
+            "id": "relay-west",
+            "name": "WEST RELAY",
+            "position": {
+              "x": -12,
+              "y": -0.08,
+              "z": -35
+            },
+            "seconds": 3,
+            "progress": 0,
+            "complete": false,
+            "unlocked": true
+          },
+          {
+            "id": "relay-east",
+            "name": "EAST RELAY",
+            "position": {
+              "x": 34,
+              "y": -0.08,
+              "z": -30
+            },
+            "seconds": 3,
+            "progress": 0,
+            "complete": false,
+            "unlocked": true
+          },
+          {
+            "id": "core",
+            "name": "STORM CORE",
+            "position": {
+              "x": 0,
+              "y": -0.08,
+              "z": -76
+            },
+            "seconds": 4,
+            "progress": 0,
+            "complete": false,
+            "unlocked": false
+          },
+          {
+            "id": "extraction",
+            "name": "EXTRACTION",
+            "position": {
+              "x": -8,
+              "y": -0.08,
+              "z": 12
+            },
+            "seconds": 8,
+            "progress": 0,
+            "complete": false,
+            "unlocked": false
+          }
+        ],
+        "checkpoint": null,
+        "phase": "active",
+        "winner": null
+      },
+      "camera": {
+        "position": {
+          "x": -7.996680519507381,
+          "y": 5.240431436664262,
+          "z": 32.000912789801106
+        },
+        "focus": {
+          "x": -7.996680517989184,
+          "y": 1.8400601895053326,
+          "z": 22.00091277525271
+        },
+        "clear": true,
+        "violations": 0
+      },
+      "settings": {
+        "quality": "medium",
+        "volume": 0,
+        "sensitivity": 1,
+        "cameraDistance": 10,
+        "reducedFlashes": false,
+        "invertY": false
+      }
+    },
+    "errors": [],
+    "limits": "Quiet serial matched session; RAF-only observation, no video or per-frame contact collection. Screenshot after each sampling window. Scope is this viewport/renderer/scenario, not a generalized FPS or VRAM claim, mobile result, long-session stress test or timing comparison against the historical Pounce profile."
+  },
+  "comparison": {
+    "decision": "PASS_SCOPED_PACING_BUDGET",
+    "reviewer": "/root/critic",
+    "at": "2026-10-04T17:39:14.729Z",
+    "scenario": "Fresh one-pilot Bastion Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+    "settings": {
+      "quality": "medium",
+      "volume": 0,
+      "sensitivity": 1,
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "invertY": false
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "baselineSource": "cb2bd262c85e7d6f22ecaf5e1d3a1af7d2f406b3",
+    "candidateSource": "Reviewed fingerprint 562892a32b9fbf09feaa8bd6a3e220fb6d665ee51ee95c43ef1b49c89cf67dfc",
+    "delta": {
+      "fps": {
+        "baseline": 60,
+        "candidate": 59.1,
+        "absolute": -0.8999999999999986,
+        "percent": -1.5000000000000013
+      },
+      "calls": {
+        "baseline": 132,
+        "candidate": 126,
+        "absolute": -6,
+        "percent": -4.545454545454541
+      },
+      "triangles": {
+        "baseline": 1094716,
+        "candidate": 1101084,
+        "absolute": 6368,
+        "percent": 0.5817033824297768
+      },
+      "geometries": {
+        "baseline": 104,
+        "candidate": 101,
+        "absolute": -3,
+        "percent": -2.8846153846153855
+      },
+      "textures": {
+        "baseline": 50,
+        "candidate": 53,
+        "absolute": 3,
+        "percent": 6.000000000000005
+      }
+    },
+    "settled": {
+      "baseline": {
+        "durationMs": 10094.099999904633,
+        "samples": 606,
+        "p50": 16.600000143051147,
+        "p95": 18,
+        "p99": 18.90000009536743,
+        "maximum": 21.799999952316284,
+        "over50": 0,
+        "over100": 0
+      },
+      "candidate": {
+        "durationMs": 10096.5,
+        "samples": 606,
+        "p50": 16.700000047683716,
+        "p95": 17.90000009536743,
+        "p99": 18.59999990463257,
+        "maximum": 21.799999952316284,
+        "over50": 0,
+        "over100": 0
+      }
+    },
+    "moving": {
+      "baseline": {
+        "durationMs": 13911.700000047684,
+        "samples": 827,
+        "p50": 16.700000047683716,
+        "p95": 17.799999952316284,
+        "p99": 18.700000047683716,
+        "maximum": 174.80000019073486,
+        "over50": 1,
+        "over100": 1
+      },
+      "candidate": {
+        "durationMs": 13876.100000143051,
+        "samples": 825,
+        "p50": 16.699999809265137,
+        "p95": 17.600000143051147,
+        "p99": 18.09999990463257,
+        "maximum": 173.70000004768372,
+        "over50": 1,
+        "over100": 1
+      }
+    },
+    "fpsSamples": {
+      "baseline": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "candidate": [
+        51,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "gates": {
+      "maximumSettledFPSRegressionPercent": 5,
+      "maximumSettledP95IncreaseMs": 2,
+      "passed": true
+    },
+    "notes": [
+      "Ten raw candidate HUD FPS samples retain first51 and nine60; the RAF window itself has606 samples and stable p95. No first sample was discarded.",
+      "Stationary -6 calls/-3 geometries are measured alongside +6368 scene triangles/+3 textures; model4 primitives versus prior7 is an independently decoded fact. No generalized environment-attribution, VRAM saving or FPS improvement claim.",
+      "Moving sampling13.9sec each retains one174ms gap on both sides; this does not establish hitch-free streaming. Short identical ordinary S/W inputs are contextual candidate/baseline evidence, not an exhaustive map/lifetime performance proof.",
+      "This is one-pilot Bastion PVP in Rainline with no NPCs; prior tracked v12 Pounce/solo-city metrics remain a different preserved artifact.",
+      "No browser video or per-frame contact/pose collection during quiet windows; all independent capture/CPU jobs were closed and root held CPU/GPU quiet."
+    ]
+  },
+  "evidence": {
+    "baseline": ".sites-runtime/critic/bastion-art/profile/v12-baseline-report.json",
+    "candidate": ".sites-runtime/critic/bastion-art/profile/candidate-report.json",
+    "baselineRAF": ".sites-runtime/critic/bastion-art/profile/v12-baseline-raf.json",
+    "candidateRAF": ".sites-runtime/critic/bastion-art/profile/candidate-raf.json",
+    "runtimeByteChecks": ".sites-runtime/critic/bastion-art/final-file-audit.json"
+  }
+}

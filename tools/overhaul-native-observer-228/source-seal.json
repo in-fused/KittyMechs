@@ -1,0 +1,66 @@
+{
+  "writer": "CLOSED",
+  "scope": "228_OBSERVER_CORRECTION_SOURCE_ONLY",
+  "files": [
+    {
+      "path": "tools/overhaul-native-observer-228/binding.json",
+      "bytes": 215328,
+      "sha256": "16f834ebe7590de403452ba6d808b55c2866a0dcb749103354ee0ae6809ddb94"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/capture.mjs",
+      "bytes": 21465,
+      "sha256": "9cd408ff50b2c52b60cc807f33f1c76d6d70c8572ac44493c02c1cbcb1a9728f"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/capture.mjs.227-preimage",
+      "bytes": 21337,
+      "sha256": "964576c1a3fe043d86c8ad8649ae43ebb29834c093ffd23581ac12acc256a8b2"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/check228.mjs",
+      "bytes": 1134,
+      "sha256": "3c8e5ef1499d12f00e8396b5cebece0740da390e30bb1f0c6fbdd427b6614831"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/guards.mjs",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/guards.mjs.227-preimage",
+      "bytes": 2207,
+      "sha256": "516e57fcbddeea7d853e05fc87c0467777d57873d9cdacbc01fc1708be12822e"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/HANDOFF.md",
+      "bytes": 2366,
+      "sha256": "8c0d20d39f6102affaa9fd9aabc5e75542c515afdfdc1daa2f0bf2aa9d486f0c"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/network-classification.mjs.227-preimage",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/prepare228.py",
+      "bytes": 4215,
+      "sha256": "0b79efcc6319f9c69d58a077bbd5766313e59ed8db6cd76be06ed964c88ffe42"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/supervise.py",
+      "bytes": 5226,
+      "sha256": "980e3078def32130aa30217a22dff479cdb447a32869d9fed977500c8e80a39b"
+    },
+    {
+      "path": "tools/overhaul-native-observer-228/supervise.py.227-preimage",
+      "bytes": 4944,
+      "sha256": "428b24f4664dfdee96ea9d9871f32055ccaa9dd267e816e5cd968e4e5edf950b"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import ts from 'typescript';import {writeFile} from 'node:fs/promises';
+const cfg=ts.readConfigFile('tsconfig.json',ts.sys.readFile),parsed=ts.parseJsonConfigFileContent(cfg.config,ts.sys,'.'),program=ts.createProgram(['tools/overhaul-pack-221/equivalence-entry221.ts'],parsed.options),diagnostics=ts.getPreEmitDiagnostics(program).map(d=>({file:d.file?.fileName,line:d.file&&d.start!==undefined?d.file.getLineAndCharacterOfPosition(d.start).line+1:null,code:d.code,text:ts.flattenDiagnosticMessageText(d.messageText,' ')}));
+await writeFile('tools/overhaul-pack-221/observer-type-receipt221.json',JSON.stringify({scope:'STATIC_TYPECHECK_ONLY',diagnostics},null,2));console.log(JSON.stringify({diagnostics}));if(diagnostics.length)process.exitCode=1;

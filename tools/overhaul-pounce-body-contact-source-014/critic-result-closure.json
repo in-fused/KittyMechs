@@ -1,0 +1,18 @@
+{
+  "startedUtc": "2026-10-10T19:13:34Z",
+  "closedUtc": "2026-10-10T19:15:26.7936085Z",
+  "verdict": "ACCEPT_FAILURE_PRESERVATION_INITIAL_SOURCE_OBSERVATIONS_ONLY",
+  "review": "docs/overhaul/critic/pounce-body-contact-source-014-result-review.md",
+  "reviewSha256": "E9F3C26CFE522639BE6DBB941CFF55D441762499A0AFC76CFFFB03263D0876FB",
+  "sourceSealSha256": "22EF708DF599DBCF13B2F7228412EB8ACFA55526A04211F6D0A72D9D48CC7F58",
+  "resultSealSha256": "CE7E6DA7F4FFFD0B60ACA77EBD0180E9E471EF248CE13C3CF8F8D4698348F194",
+  "matchedFrozenRows": 7,
+  "matchedProtectedRows": 7,
+  "matchedOutputRows": 20,
+  "imagesObserved": 0,
+  "acceptedPairRows": 0,
+  "nativeAdmission": false,
+  "runtimeAdmission": false,
+  "criticJobs": 0,
+  "gate1": "INCOMPLETE"
+}

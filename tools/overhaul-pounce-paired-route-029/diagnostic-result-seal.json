@@ -1,0 +1,21 @@
+{
+  "status": "126_EXACT_SURFACE_INTERSECTIONS_DIAGNOSTIC_ONLY",
+  "sealedUTC": "2026-10-10T20:48:12.8563178Z",
+  "files": [
+    {
+      "bytes": 220673,
+      "sha256": "dc89a1c2d08245285b7dd76f07be321dfcf443412022676a05c49da8510d745b",
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/raw.ndjson"
+    },
+    {
+      "bytes": 404,
+      "sha256": "72e1c847d8f866619e41afc22f776e5ee4a24ec1c7f9016981dab076f1b8413b",
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/receipt.json"
+    },
+    {
+      "bytes": 15292,
+      "sha256": "dc4fdbc841c1d113a2c7aaa155f799ba77d98ce49dc6842f6c5a37fbf49b5fa7",
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-diagnostic-process/process-receipt.json"
+    }
+  ]
+}

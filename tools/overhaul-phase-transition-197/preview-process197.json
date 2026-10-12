@@ -1,0 +1,19 @@
+{
+  "job": "preview",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-phase-transition-197\\preview197.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T19:51:25.155130+00:00",
+  "pid": 362744,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 22.265000000130385,
+  "closedUTC": "2026-10-11T19:51:47.416662+00:00"
+}

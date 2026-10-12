@@ -1,0 +1,17 @@
+import {readFileSync,writeFileSync,mkdirSync,statSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const receipt='.sites-runtime/overhaul-20261010/rainline-street-admission-001';
+const sha=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
+const closure=JSON.parse(readFileSync('.sites-runtime/overhaul-20261010/rainline-street-population-001/writer-closure.json','utf8'));
+if(closure.allWriters!=='CLOSED'||closure.jobExitCode!==0||closure.blenderJobCount!==1)throw Error('Source writer is not closed');
+const checked=closure.files.map(row=>{const hash=sha(row.path),bytes=statSync(row.path).size;if(hash!==row.sha256||bytes!==row.bytes)throw Error('Source inventory mismatch '+row.path);return {path:row.path,bytes,sha256:hash};});
+const source='assets/source/overhaul-rainline-street-population-001';
+const manifest=JSON.parse(readFileSync(source+'/manifest.json','utf8'));
+if(!manifest.sourceOwnership.startsWith('Original project geometry')||manifest.sharedMaterials!==4)throw Error('Source ownership/material contract mismatch');
+for(const [path,expected] of [[manifest.fontSource.path,manifest.fontSource.sha256],[manifest.fontSource.licensePath,manifest.fontSource.licenseSHA256],['docs/overhaul/critic/rainline-street-population-001-review.md','0ff18d3ad53c1fe629a47b7f63708bdfb19b5ed420f862ad31c669e481e93b01']])if(sha(path)!==expected)throw Error('License/critic receipt mismatch '+path);
+const proposal=JSON.parse(readFileSync(source+'/placement-proposal.json','utf8'));
+const selected=proposal.placements.filter(p=>p.cluster==='west-loading');
+if(selected.length!==10||selected.some((p,i)=>p.id!==`street001:west-loading:${String(i).padStart(2,'0')}`||p.yawRadians!==0||p.scaleXYZ.some(v=>v!==1)))throw Error('Unchanged West subset mismatch');
+mkdirSync(receipt,{recursive:true});
+writeFileSync(receipt+'/source-lock.json',JSON.stringify({status:'VERIFIED_DIRECT_PROJECT_SOURCE_ADMISSION_NOT_CLI_CANONICAL',verifiedUTC:new Date().toISOString(),sourceOwnership:manifest.sourceOwnership,closedSourceWriter:closure.closedUTC,criticSourceOnly:true,font:manifest.fontSource,selected,checked},null,2));
+console.log('DIRECT_SOURCE_LOCK_VERIFIED',selected.length,checked.length,sha(receipt+'/source-lock.json'));

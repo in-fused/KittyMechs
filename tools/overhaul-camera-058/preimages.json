@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 10236,
+    "sha256": "4b1b4eb2475eacad3e74ed5cf76c1d172a08de77a6d47dd50addf48222784beb",
+    "path": "src/game/camera/CameraRig.tsx",
+    "preimage": "tools/overhaul-camera-058/preimages/src__game__camera__CameraRig.tsx"
+  },
+  {
+    "bytes": 4395,
+    "sha256": "45f4f3429069db60c98a28bbe4dafed8ae8b02ab701e23c4deb0ee634885ed41",
+    "path": "src/game/camera/framing.ts",
+    "preimage": "tools/overhaul-camera-058/preimages/src__game__camera__framing.ts"
+  },
+  {
+    "bytes": 2434,
+    "sha256": "2b0c29d74ebd61be0c7bec5ed3d1508aad526e02f8dcaec3dea97e6cdacc8dfe",
+    "path": "src/game/camera/visualRegistry.ts",
+    "preimage": "tools/overhaul-camera-058/preimages/src__game__camera__visualRegistry.ts"
+  },
+  {
+    "bytes": 4045,
+    "sha256": "29cb356ebd914234b90f7ef45899dc231447a196683d7a699b796e07a1c7a84d",
+    "path": "src/game/world/Objectives.tsx",
+    "preimage": "tools/overhaul-camera-058/preimages/src__game__world__Objectives.tsx"
+  }
+]

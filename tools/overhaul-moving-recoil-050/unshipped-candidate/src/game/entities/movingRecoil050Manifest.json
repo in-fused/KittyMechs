@@ -1,0 +1,97 @@
+{
+  "schema": "original-moving-head-recoil050-explicit-source-clock",
+  "publicURL": "/assets/models/Pounce_MovingRecoil050.glb",
+  "sha256": "d363e8d71a19f214181e8eba137eb6ebe9a95a7c32587e49f81eff450949dae5",
+  "bytes": 38480,
+  "sourceMasterSHA256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463",
+  "sourceModelSHA256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+  "sourceRawSHA256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010",
+  "sourceBlendSHA256": "316e063e47156cf04be38cd48f0e7fc1525a52a454a5a8fda94d0cbe17fdb751",
+  "clips": {
+    "FelinePulseMoving048": {
+      "duration": 0.33333332650363445,
+      "sourceTimeOrigin": 0.01666666753590107,
+      "sourceTimeEnd": 0.3499999940395355,
+      "sourceClockSpan": 0.33333332650363445,
+      "channels": 1,
+      "targets": [
+        "head.quaternion"
+      ],
+      "idleReference": "FelineIdle",
+      "referenceQuaternionXYZW": [
+        0.039626073092222214,
+        0.0,
+        0.0,
+        0.9992145895957947
+      ],
+      "maxReferenceComponentMotion": 0.05446070060133934,
+      "samples": 21,
+      "inputAccessor": 13,
+      "outputAccessor": 14
+    },
+    "FelineMissileMoving048": {
+      "duration": 0.4666666518896818,
+      "sourceTimeOrigin": 0.01666666753590107,
+      "sourceTimeEnd": 0.4833333194255829,
+      "sourceClockSpan": 0.4666666518896818,
+      "channels": 1,
+      "targets": [
+        "head.quaternion"
+      ],
+      "idleReference": "FelineIdle",
+      "referenceQuaternionXYZW": [
+        0.039626073092222214,
+        0.0,
+        0.0,
+        0.9992145895957947
+      ],
+      "maxReferenceComponentMotion": 0.08867228776216507,
+      "samples": 29,
+      "inputAccessor": 133,
+      "outputAccessor": 134
+    },
+    "FelineUprightPulseMoving048": {
+      "duration": 0.33333332650363445,
+      "sourceTimeOrigin": 0.01666666753590107,
+      "sourceTimeEnd": 0.3499999940395355,
+      "sourceClockSpan": 0.33333332650363445,
+      "channels": 1,
+      "targets": [
+        "head.quaternion"
+      ],
+      "idleReference": "FelineUprightIdle",
+      "referenceQuaternionXYZW": [
+        0.5560588836669922,
+        0.0,
+        0.0,
+        0.8311429023742676
+      ],
+      "maxReferenceComponentMotion": 0.04607599973678589,
+      "samples": 21,
+      "inputAccessor": 13,
+      "outputAccessor": 135
+    },
+    "FelineUprightMissileMoving048": {
+      "duration": 0.4666666518896818,
+      "sourceTimeOrigin": 0.01666666753590107,
+      "sourceTimeEnd": 0.4833333194255829,
+      "sourceClockSpan": 0.4666666518896818,
+      "channels": 1,
+      "targets": [
+        "head.quaternion"
+      ],
+      "idleReference": "FelineUprightIdle",
+      "referenceQuaternionXYZW": [
+        0.5560588836669922,
+        0.0,
+        0.0,
+        0.8311429023742676
+      ],
+      "maxReferenceComponentMotion": 0.07581368088722229,
+      "samples": 29,
+      "inputAccessor": 133,
+      "outputAccessor": 136
+    }
+  },
+  "scope": "Head-only authored motion, no geometry/material/skin/native/contact certificate"
+}

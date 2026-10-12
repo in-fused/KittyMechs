@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {releasedPacket247,wrappedYaw} from './control-release247.mjs';
+const pre={actor:{id:'a',jumpEpoch:2},localReadiness:{generation:3}},packet={input:{seq:10}},row=(seq,at,yaw)=>({localId:'a',generation:3,at,input:{seq,jumpEpoch:2,forward:0,strafe:0,fire:false,rocket:false,yaw}}),edges=[{kind:'keydown',code:'KeyJ',at:1,focused:true},{kind:'keyup',code:'KeyJ',at:20,focused:true}],post=(rows,yaw=.6)=>({input:{sent:rows,look:{yaw}}});
+test('neutral axes before LOOK keyup cannot qualify release',()=>assert.equal(releasedPacket247(post([row(11,10,.3),row(12,18,.6)]),pre,packet,edges),null));
+test('stable post-keyup packets qualify second ACK operand',()=>assert.equal(releasedPacket247(post([row(11,21,.6),row(12,30,.6)]),pre,packet,edges).input.seq,12));
+test('a single post-keyup or still-changing yaw fails closed',()=>{assert.equal(releasedPacket247(post([row(11,21,.6)]),pre,packet,edges),null);assert.equal(releasedPacket247(post([row(11,21,.5),row(12,30,.6)]),pre,packet,edges),null);});
+test('wrong generation and held-again control fail closed',()=>{const wrong=row(12,30,.6);wrong.generation=4;assert.equal(releasedPacket247(post([row(11,21,.6),wrong]),pre,packet,edges),null);assert.equal(releasedPacket247(post([row(11,21,.6),row(12,30,.6)]),pre,packet,[...edges,{kind:'keydown',code:'KeyJ',at:25,focused:true}]),null);});
+test('shortest arc across pi has correct convergence sign',()=>assert.ok(wrappedYaw(.2,Math.PI-.01)<0));

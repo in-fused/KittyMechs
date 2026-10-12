@@ -1,0 +1,12 @@
+{
+  "samples": 6912,
+  "rawBelow": 5192,
+  "minFinal": 0.003999948501586914,
+  "maxSegments": 1.6992246143487932e-7,
+  "maxCasts": 5,
+  "minCore": 0.4285360733006086,
+  "maxCoreHeight": 3.02594642023498,
+  "maxCoreRadius": 1.6040150193774128,
+  "coreSamples": 44424288,
+  "method": "actual four shipping GLBs; 4 mixed base poses x3 independent turn offsets x8 gait phases x9 additive states x2 hind paws; real fixed Rapier floor; production single five-ray prepass, planted target, obstruction retraction and rigid IK; independent final8corner rays and all central-bone vertices incl cosmetics; no carrier/aim/authority trajectory qualification"
+}

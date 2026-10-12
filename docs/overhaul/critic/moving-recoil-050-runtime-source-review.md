@@ -1,0 +1,11 @@
+# Moving recoil 050 runtime source review
+
+Decision: APPROVE one unchanged focused test command, followed only on success by one whole build and one matched public F-only observation. This is a technical execution gate, not visual or gameplay acceptance. Stop on the first genuine failure; no repair or repeat is authorized by this review.
+
+Independently read the frozen sole mixer, actor binding, clip preparation, manifest and actual-source tests. Verified all 22 source rows and both 164-row root test/build envelopes: zero size or SHA mismatches. Source seal SHA `d4c1efcf2ab0a0f72bc5e0407d95b07ac5adc75a40ef71c9c4483477bddb1dbf`; test seal `46dda40821b6bd88fced914f1fb58acc579c61ca256f3866322ac26c22e96093`; build seal `ecd20a5fcbc9e40e46b78547cb2cca30c43ed0970b946eae4a86138f8384511d`.
+
+The derivative preserves source BIN/head accessors and records frame-one source origin separately. Runtime clones the head track, shifts by that origin once, constructs the event-span clip, and makes it additive against the actual stance Idle reference. The animation-only cached scene is not attached; one existing mixer owns the layer. Actual asset/model SHA identities are distinct and checked by the frozen offline packet and owner reference contract. Weight-bearing bones and carrier retain their gait bindings. Stationary reactions retain their existing whole-body path; round, pair, transform, air, strike, down/death, climb, life/reset, sticky fallback and disposal retire moving overlays.
+
+The focused tests use actual source tracks/rest hierarchy and Three mixing. They check all four event origins/endpoints, actual head motion, exact non-head/root/limb transforms, stationary behavior and cancellation. They do not prove native foot contacts, whole-body clearance or visible weapon feedback. Public observation must compare actual position-changing quad/upright F portions against the preserved 036 baseline, verify actual stance and selected layer clocks, and inspect original-video pixels. No ordinary Missile claim is possible from this F-only observer.
+
+Approved command: `node node_modules/vitest/vitest.mjs run tests/moving-recoil-050.test.ts tests/feline-runtime-042.test.ts`. Conditional build: `npm.cmd run build`. Preserve 047 unsuitability, 048 export failure and 049 clock failure unchanged. Full art/contact/movement/Gate1 remain unaccepted.

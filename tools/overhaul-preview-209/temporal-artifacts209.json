@@ -1,0 +1,888 @@
+{
+  "writer": "CLOSED",
+  "scope": "actual209primary composed61 poses rendered on exact202 editable master; no native/contact claim",
+  "rows": [
+    {
+      "name": "FelineWalk",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineWalk-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineWalk-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.11111111111111109
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.22222222222222218
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -0.3333333333333333
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -0.44444444444444436
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -0.5555555555555555
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -0.6666666666666666
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -0.7777777777777777
+        }
+      ]
+    },
+    {
+      "name": "FelineWalk",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineWalk-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineWalk-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.11111111111111109
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.22222222222222218
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -0.3333333333333333
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -0.44444444444444436
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -0.5555555555555555
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -0.6666666666666666
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -0.7777777777777777
+        }
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineTrot-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineTrot-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.19354838709677422
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.38709677419354843
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -0.5806451612903226
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -0.7741935483870969
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -0.9677419354838711
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -1.1612903225806452
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -1.3548387096774195
+        }
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineTrot-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineTrot-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.19354838709677422
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.38709677419354843
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -0.5806451612903226
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -0.7741935483870969
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -0.9677419354838711
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -1.1612903225806452
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -1.3548387096774195
+        }
+      ]
+    },
+    {
+      "name": "FelineGallop",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineGallop-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineGallop-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.34798534798534797
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.6959706959706959
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -1.0439560439560438
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -1.3919413919413919
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -1.7399267399267397
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -2.0879120879120876
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -2.4358974358974357
+        }
+      ]
+    },
+    {
+      "name": "FelineGallop",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineGallop-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineGallop-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0,
+          "carrierY": -0.34798534798534797
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0,
+          "carrierY": -0.6959706959706959
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0,
+          "carrierY": -1.0439560439560438
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0,
+          "carrierY": -1.3919413919413919
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0,
+          "carrierY": -1.7399267399267397
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0,
+          "carrierY": -2.0879120879120876
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -2.4358974358974357
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineUprightWalkLong-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineUprightWalkLong-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 1,
+          "carrierY": -0.15178571428571427
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 1,
+          "carrierY": -0.30357142857142855
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 1,
+          "carrierY": -0.45535714285714285
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 1,
+          "carrierY": -0.6071428571428571
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 1,
+          "carrierY": -0.7589285714285714
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 1,
+          "carrierY": -0.9107142857142857
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -1.0625
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineUprightWalkLong-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineUprightWalkLong-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 1,
+          "carrierY": -0.15178571428571427
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 1,
+          "carrierY": -0.30357142857142855
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 1,
+          "carrierY": -0.45535714285714285
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 1,
+          "carrierY": -0.6071428571428571
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 1,
+          "carrierY": -0.7589285714285714
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 1,
+          "carrierY": -0.9107142857142857
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -1.0625
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightStride",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineUprightStride-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineUprightStride-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 1,
+          "carrierY": -0.3076190476190476
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 1,
+          "carrierY": -0.6152380952380953
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 1,
+          "carrierY": -0.9228571428571428
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 1,
+          "carrierY": -1.2304761904761905
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 1,
+          "carrierY": -1.538095238095238
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 1,
+          "carrierY": -1.8457142857142856
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -2.1533333333333333
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightStride",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/FelineUprightStride-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/FelineUprightStride-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 1,
+          "carrierY": -0.3076190476190476
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 1,
+          "carrierY": -0.6152380952380953
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 1,
+          "carrierY": -0.9228571428571428
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 1,
+          "carrierY": -1.2304761904761905
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 1,
+          "carrierY": -1.538095238095238
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 1,
+          "carrierY": -1.8457142857142856
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -2.1533333333333333
+        }
+      ]
+    },
+    {
+      "name": "R-up",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/R-up-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/R-up-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.14285714285714285,
+          "carrierY": -0.14213356773692185
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.2857142857142857,
+          "carrierY": -0.3134567398789967
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.42857142857142855,
+          "carrierY": -0.5139695164262246
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.5714285714285714,
+          "carrierY": -0.7436718973786055
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.7142857142857143,
+          "carrierY": -1.0025638827361394
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.8571428571428571,
+          "carrierY": -1.2906454724988268
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -1.6079166666666664
+        }
+      ]
+    },
+    {
+      "name": "R-up",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/R-up-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/R-up-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.14285714285714285,
+          "carrierY": -0.14213356773692185
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.2857142857142857,
+          "carrierY": -0.3134567398789967
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.42857142857142855,
+          "carrierY": -0.5139695164262246
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.5714285714285714,
+          "carrierY": -0.7436718973786055
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.7142857142857143,
+          "carrierY": -1.0025638827361394
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.8571428571428571,
+          "carrierY": -1.2906454724988268
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": -1.6079166666666664
+        }
+      ]
+    },
+    {
+      "name": "R-down",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/R-down-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/R-down-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.8571428571428572,
+          "carrierY": -0.21510757874980443
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.7142857142857143,
+          "carrierY": -0.4010255530944558
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.5714285714285714,
+          "carrierY": -0.5577539230339542
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.4285714285714286,
+          "carrierY": -0.6852926885682995
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.2857142857142857,
+          "carrierY": -0.7836418496974916
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.1428571428571429,
+          "carrierY": -0.8528014064215311
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -0.8927713587404174
+        }
+      ]
+    },
+    {
+      "name": "R-down",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/R-down-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/R-down-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.8571428571428572,
+          "carrierY": -0.21510757874980443
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.7142857142857143,
+          "carrierY": -0.4010255530944558
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.5714285714285714,
+          "carrierY": -0.5577539230339542
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.4285714285714286,
+          "carrierY": -0.6852926885682995
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.2857142857142857,
+          "carrierY": -0.7836418496974916
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.1428571428571429,
+          "carrierY": -0.8528014064215311
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": -0.8927713587404174
+        }
+      ]
+    },
+    {
+      "name": "Idle-R-up",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/Idle-R-up-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/Idle-R-up-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.14285714285714285,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.2857142857142857,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.42857142857142855,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.5714285714285714,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.7142857142857143,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.8571428571428571,
+          "carrierY": 0
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        }
+      ]
+    },
+    {
+      "name": "Idle-R-up",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/Idle-R-up-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/Idle-R-up-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.14285714285714285,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.2857142857142857,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.42857142857142855,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.5714285714285714,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.7142857142857143,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.8571428571428571,
+          "carrierY": 0
+        },
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        }
+      ]
+    },
+    {
+      "name": "Idle-R-down",
+      "view": "side",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/Idle-R-down-side-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/Idle-R-down-side-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.8571428571428572,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.7142857142857143,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.5714285714285714,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.4285714285714286,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.2857142857142857,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.1428571428571429,
+          "carrierY": 0
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        }
+      ]
+    },
+    {
+      "name": "Idle-R-down",
+      "view": "front",
+      "frames": 8,
+      "board": "tools/overhaul-preview-209/preview/Idle-R-down-front-temporal-board.png",
+      "motion": "tools/overhaul-preview-209/preview/Idle-R-down-front-motion.gif",
+      "chronology": [
+        {
+          "phase": 0,
+          "stance": 1,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.14285714285714285,
+          "stance": 0.8571428571428572,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.2857142857142857,
+          "stance": 0.7142857142857143,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.42857142857142855,
+          "stance": 0.5714285714285714,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.5714285714285714,
+          "stance": 0.4285714285714286,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.7142857142857143,
+          "stance": 0.2857142857142857,
+          "carrierY": 0
+        },
+        {
+          "phase": 0.8571428571428571,
+          "stance": 0.1428571428571429,
+          "carrierY": 0
+        },
+        {
+          "phase": 0,
+          "stance": 0,
+          "carrierY": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-root-round-032/player043-candidate.mjs",
+      "bytes": 6192,
+      "sha256": "bcc0cbb8523af1384a0675aed5cb8714887a70e8eb53dc374aaedd59d9a8b932"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-035/receipt.json",
+      "bytes": 71181,
+      "sha256": "2c9f365e94bb295a480a0ac358b19152ae2b399cc0f02f8fbfad11f82d8da7b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-035/playable-checkpoint.json",
+      "bytes": 557,
+      "sha256": "fb5cbf33995d2b9b448d6bc53a1c12d975f01f474d34a13a792f1c4395b5ab97"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-root-round-032/player043-candidate.mjs",
+    ".sites-runtime/overhaul-20261010/player043-candidate"
+  ],
+  "scope": "ONE actualSoloLow frame/physics/movement/camera/ON OFF/pause validation; noautomaticretry."
+}

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "status": "INDEPENDENTLY_APPROVED_SCOPED_ASSET",
+  "worldLayoutVersion": "rainline-city-1",
+  "baselineCommit": "d3798fd620f50ea1fa17a6816141ed07e4a4af89",
+  "district": {
+    "newAnchors": 9,
+    "supportCells": 8,
+    "facadeCells": 64,
+    "retainedAnchors": 2,
+    "structureBanks": 3,
+    "staticBoxes": 122,
+    "npcs": 3,
+    "buildings": 8
+  },
+  "structure": "Three bounded banks:64 facade cells and8 steel supports; single10x10m roof sector active while at least4 of8 supports remain. Other sectors retain their independent solids.",
+  "rendering": "Six batched surfaces built from the exact122 shared solids plus attached non-solid facade/roof details; removed deck details use the same owner dependency. Existing road geometry supplies the roads once.",
+  "network": "Join/welcome/snapshot world identity; atomic full bank admission and monotonic damage. Guest geometry and scene-owned proxies apply one discrete revision in the same body presentation pass. Cosmetic debris uses a separate continuous monotonic clock.",
+  "budgets": {
+    "maximumCityBoxes": 128,
+    "actualCityBoxes": 122,
+    "structuralBankCount": 3,
+    "structuralCellCount": 72,
+    "maximumDebrisAlive": 48,
+    "debrisLifetimeSeconds": 2.8,
+    "maximumShardsPerAcceptedBreak": 8
+  },
+  "productionCaptures": ".sites-runtime/city-art/district-navigated/receipt.json",
+  "contractAudit": ".sites-runtime/critic/city-art/contract-audit.json",
+  "retainedFailures": [
+    ".sites-runtime/city-art/district-first/receipt.json",
+    ".sites-runtime/city-art/root-full-final.json",
+    ".sites-runtime/city-art/browser-full-first.json"
+  ],
+  "limits": [
+    "Rainline only;8 industrial buildings constitute a compact district.",
+    "Localized finite cells with one support-dependent sector; arbitrary voxel fracture and universal prop destruction remain unfinished.",
+    "Conservative3m enemy navigation needs a broad traversable breach.",
+    "Other theaters retain their authored layout."
+  ],
+  "assetReview": {
+    "reviewer": "/root/critic",
+    "decision": "APPROVE",
+    "recordedAt": "2026-10-04T15:47:02.243906+00:00",
+    "scope": "Rainline compact8-building district,122 canonical boxes,72 finite damage cells, one support-dependent roof sector; actual host breach/alternate climb and dedicated guest late-join/roof fall.",
+    "releaseIntegrationApprovalPending": true
+  },
+  "independentProduction": [
+    ".sites-runtime/critic/city-art/production-corrected/report.json",
+    ".sites-runtime/critic/city-art/network/report.json",
+    ".sites-runtime/critic/city-art/admission-report.json",
+    ".sites-runtime/critic/city-art/peer-layout/report.json",
+    ".sites-runtime/critic/city-art/profile/district-report.json"
+  ]
+}

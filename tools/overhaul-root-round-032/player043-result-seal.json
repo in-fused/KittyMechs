@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/evidence.json",
+      "bytes": 2197826,
+      "sha256": "69ae365c95ffe55a7e62972f4271c3424f28a2fb1e4ae3c95e5410c5b807523e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/idle.png",
+      "bytes": 1555407,
+      "sha256": "dbfdf493a3a635ec628833b3eee2a4dff692f341321b2769599a48d1a2e12f89"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/moving-fire.png",
+      "bytes": 1530160,
+      "sha256": "76e143801fc05531ad8b2c543388c2b8973eeff1fe83a74fa55c5c02208f2298"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/page@b785767c809ba6be7fe7bb01b654a8e2.webm",
+      "bytes": 4645515,
+      "sha256": "1ae5ed478e7fe84acdf3556735c38b58696cd19e21140d8b40a585294e41126f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/standard-walking.png",
+      "bytes": 1328101,
+      "sha256": "3687f7ae747f534a9d2ea256f4d8deb371ac2c2025cb91029af50308c180abe0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/upright-walking.png",
+      "bytes": 1497648,
+      "sha256": "e02a9d5782c66e21add043f92229f9a2d9694f692b58dd00acd9f474a12e080a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate/walking.png",
+      "bytes": 1476485,
+      "sha256": "69fbefe9923ef9a9fe172d5d2ca4465d7cf32ea5e98e818b84f50c83503f2bc8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate-process/process-receipt.json",
+      "bytes": 1044,
+      "sha256": "cb45563b8cddadb943e51b699d636e30742ada0b330e8462f1974f74474095d8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player043-candidate-process/stdout.txt",
+      "bytes": 722,
+      "sha256": "5648c6e856f2b359aeeaba53c43cdc8fa934c0f4f33edc145d45b481debb63a3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/solo043-build-process/process-receipt.json",
+      "bytes": 13553,
+      "sha256": "c9113ca25f917570611750df394688a6d271809d81aee141dbe1ed0c31dc39ac"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/solo043-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "fa4838d60f74b8dae94679d125985a9ccfb21eeb2cf0253aabec9e3d7316646c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/solo043-test-process/process-receipt.json",
+      "bytes": 13708,
+      "sha256": "dae779add2b6c0bd06a877cc24145a3f05348be958cad54248f9594a36123bf0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/solo043-test-process/stdout.txt",
+      "bytes": 233,
+      "sha256": "41d392f50b81dd1f61d2c4a4c9c2cf5bebd8246c96f3c310d7cb1576b55b3323"
+    }
+  ],
+  "scope": "Actual043 fixedstep boundedoverloadeffect and missingpreviewmodel; fullplayabilitynotapproved."
+}

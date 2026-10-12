@@ -1,0 +1,19 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_UNINTEGRATED_SOURCE_PROPOSAL",
+  "jobs": [],
+  "candidateRepairs": 0,
+  "callers": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48",
+      "status": "UNCHANGED062_CALLER"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603",
+      "status": "UNCHANGED062_CALLER"
+    }
+  ],
+  "dependency": "188 stable-material-point API source exists; independent ON57 focused fixture coverage UNREACHED after its allowed repair.189 does not repair/replay188 or certify it."
+}

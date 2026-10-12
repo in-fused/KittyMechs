@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "path": "tools/player-recovery-118/render-anatomy.py",
+      "sha256": "2f78432d9b3725b88a4e17f6a26a2157f3e051f9618c4eaf6dd4667e8b5d1b0d",
+      "bytes": 4145
+    },
+    {
+      "path": "tools/player-recovery-118/prepare-views.py",
+      "sha256": "b76b27311be2f808ce4f7451b6c7bb6ffbc65351945aaf3fc6fb277cf3dfed4e",
+      "bytes": 1310
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc",
+      "bytes": 1888
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "sha256": "0371ebfe572daf1b406974e259a2d0555fd2c4f93bfb7842def84646b1b7f59a",
+      "bytes": 82335308
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/authored-motion-records.json",
+      "sha256": "65cf306e84a47701b997bf3b3916ad007de9ecc5ffff9446ede70d396fca71d9",
+      "bytes": 3082
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author-receipt.json",
+      "sha256": "ff3802d0790780c2264058a2e76ac505b4a1f786acd2174d07d0fff6fdd8483e",
+      "bytes": 6049
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/intentional-weight-ledger121.json",
+      "sha256": "344a043fd456ccbaddc2104afae7f4f8044a08db5059905d79a32c66fbbfdc5e",
+      "bytes": 618766
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\player-recovery-118\\render-anatomy.py"
+  ],
+  "scope": "ONE120s passive saved-source121 gait/idle/retainedcombat/climb views; no master save/export/gameplay. Missing actions reported, no silent replacement; first failureSTOP"
+}

@@ -1,0 +1,13 @@
+{
+ "writer":"CLOSED",
+ "status":"FIRST_STATIC_BINDING_FAILURE",
+ "command":"python tools/overhaul-native-observer-227/prepare227.py",
+ "exitCode":1,
+ "assertion":"left.module==right.module==['/assets/index-jFb_gY9P.js'] and left.styles==right.styles and left.preload==right.preload",
+ "cause":"Copied219 preload equality assumed unchanged vendor export graph; native225 emitted new exactvendor names. Initial module and stylesheet match, vendor preload names differ.",
+ "retainedPreload":["/assets/three-Bjr22og3.js","/assets/physics-DsFk-bdi.js"],
+ "candidatePreload":["/assets/three-CMCxhyzx.js","/assets/physics-Cl8Hwzdy.js"],
+ "repairScope":"Record both exactsets, verify candidate AST imports its own vendor URLs; leave realHTML and all route/quality/time/native criteria unchanged. Preserve initialprepare script; no gamejob.",
+ "actualBuild":false,
+ "actualCapture":false
+}

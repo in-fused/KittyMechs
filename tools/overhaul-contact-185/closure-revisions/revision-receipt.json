@@ -1,0 +1,9 @@
+{
+  "writer": "CLOSED",
+  "reason": "Root requested precise final weighted-pad witness cause after initial closure was observed. Only HANDOFF and seal status changed; production and all fixture/receipt rows remain byte-identical. Initial closed bytes reconstructed and SHA verified; final closure supersedes initial for review. No new fixture/runtime changes.",
+  "initialSealSHA256": "60a21e444d2c22e28f46966693d55616203401f7547892d2e1761497f0d3a5c4",
+  "initialHandoffSHA256": "e2f169751e6f6e39462651d34a1b7706aa47d2b6518ba6bcd32c9b9a2f7792c2",
+  "finalSealSHA256": "59d68b8a535cf2d39cda02b1d542a44b073971877c2ffee58763f26a69d66899",
+  "finalHandoffSHA256": "2cdd3f0d7e78a83346be709763c9ac5f8242610ccd44690f25a12fb1f387bf35",
+  "finalSealUnmodifiedByThisReceipt": true
+}

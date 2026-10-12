@@ -1,0 +1,65 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "tools/overhaul-native-214/source-seal.json",
+      "bytes": 9474,
+      "sha256": "b867aead417e6cb5098fdbaf0e0a44e21a5d09be62e65ad6dcfe3adc6f9fa618"
+    },
+    {
+      "path": "tools/overhaul-native-214/nativeOwner214.ts",
+      "bytes": 13629,
+      "sha256": "33b77d2d9d412459312eea29999af48192784d2c7b5a2cba5a7ce3a19fef6614"
+    },
+    {
+      "path": "tools/overhaul-native-214/NativeActor214.tsx",
+      "bytes": 4021,
+      "sha256": "a86f1dd0f679613d3930b9dc5144cb96e3d9c086714ca3d2f7a60b024106348b"
+    },
+    {
+      "path": "tools/overhaul-native-214/pack214.mjs",
+      "bytes": 7990,
+      "sha256": "e20755b7c776968b14e61782ad29cdd92af525c6b79521c291d1efdb5b615bfe"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "docs/overhaul/critic/native214-source-review.md",
+      "bytes": 6986,
+      "sha256": "464c68368c7e2fbe4967c68bc60fbaff4140d29cb8b576679f4f9fa674c2ac95"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 10588,
+      "sha256": "1a661a7259c01cd4b4f269bdae42234d8579ce28674a995fdb6cbd1458632d1e"
+    },
+    {
+      "path": "shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": "shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": "src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/manifest.json",
+      "bytes": 3163,
+      "sha256": "9b55e9537441cfaf5b6833b95213d4e54d8a408c7f988f5589dc077acc0cd113"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/Pounce_MovingRecoil050.glb",
+      "bytes": 38480,
+      "sha256": "d363e8d71a19f214181e8eba137eb6ebe9a95a7c32587e49f81eff450949dae5"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/process-receipt.json",
+      "bytes": 2938,
+      "sha256": "b1b5ef7bf93c587864f55b6deff6ddb79bac7004d76485629b48c49e2b3de419"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-050/provenance.json",
+      "bytes": 1203,
+      "sha256": "b29c17fa2dba2752a81ce22624a423c7125c388ee50e6ded41ab048c72cbe8cf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-050-processor/process-receipt.json",
+      "bytes": 1736,
+      "sha256": "397f2410adf3e55395ef811c4c8678f3672125b576d7a2b5afcb72261382fd6a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-050-processor/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/seal-result050.py",
+      "bytes": 1163,
+      "sha256": "10f0546a46b3eb5225472dae03b7a003075d7b8aeaed567bd76f87d4dddcdd58"
+    }
+  ],
+  "scope": "Preserved ONE bounded050 processor results; sealed evidence is not gameplay approval."
+}

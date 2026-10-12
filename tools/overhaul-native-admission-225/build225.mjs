@@ -1,0 +1,12 @@
+import {build} from 'vite';
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {resolve} from 'node:path';
+import {createPrivatePlugins222} from './plugin225.mjs';
+import {proveEntry220} from '../overhaul-startup-220/prove-entry.mjs';
+if(process.env.KITTYMECH_225_BUILD_APPROVED!=='1')throw Error('222 build not approved');
+const sha=b=>createHash('sha256').update(b).digest('hex'),binding=JSON.parse(await readFile('tools/overhaul-native-integration-222/binding.json','utf8')),source=JSON.parse(await readFile('tools/overhaul-native-admission-225/source-seal.json','utf8')),rows=[...binding.files,...source.files];
+const check=async()=>{for(const row of rows){const bytes=await readFile(row.path);if(bytes.length!==row.bytes||sha(bytes)!==row.sha256)throw Error('222 protected input changed '+row.path);}};
+await check();const {plugins,bound}=await createPrivatePlugins222({loaderReceiptPath:process.env.KITTYMECH_222_LOADER_RECEIPT,loaderReceiptSHA256:process.env.KITTYMECH_222_LOADER_RECEIPT_SHA}),out=resolve('.sites-runtime/overhaul-20261011/native225-private/dist');
+await build({configFile:resolve('vite.config.ts'),publicDir:false,plugins,build:{outDir:out,emptyOutDir:false,rollupOptions:{output:{entryFileNames:'assets/index-jFb_gY9P.js'}}}});await check();await proveEntry220(out);
+await writeFile(resolve(out,'../delivery222.json'),JSON.stringify(bound.delivery,null,2)+'\n');await writeFile(resolve(out,'../build-receipt.json'),JSON.stringify({status:'PRIVATE_BUILD_UNADMITTED',actualAssetSHA:bound.delivery.contract.sha256,assetValueAdmissionWithResourceCaveat:bound.retirement,actorAssetURL:bound.actorAssetURL,loaderReceiptSHA256:bound.loaderReceiptSHA256,publicAssetsCopied:false,productionChanges:[],contactQualified:false},null,2)+'\n');

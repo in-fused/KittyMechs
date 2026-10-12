@@ -1,0 +1,14 @@
+{
+  "writer": "OPEN",
+  "pid": 358816,
+  "capSeconds": 173,
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-far-city-199\\author199.py"
+  ]
+}

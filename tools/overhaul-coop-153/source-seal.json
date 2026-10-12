@@ -1,0 +1,67 @@
+{
+  "writer": "CLOSED",
+  "candidate": "exposureSearch153",
+  "publicCandidate": "UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-153/checks-receipt.json",
+      "bytes": 713,
+      "sha256": "e4deb0508947535e5faddde036d87d6e60ae45c6030e30c8c04f2e231dda1d96"
+    },
+    {
+      "path": "tools/overhaul-coop-153/compare-retained-read.mjs",
+      "bytes": 3197,
+      "sha256": "2817677465ff51c4a8141fa002e999cf327278c8b720d4856e2a6026652b9d16"
+    },
+    {
+      "path": "tools/overhaul-coop-153/comparison-receipt.json",
+      "bytes": 1524,
+      "sha256": "6f0d5f7da8b96fe63e1e56537105fa4638e650c4fdebcbb05f8b61f5e8abd827"
+    },
+    {
+      "path": "tools/overhaul-coop-153/exposure-planner.mjs",
+      "bytes": 10987,
+      "sha256": "b18c84bc70d859aa3b33e0b16f4ef0ae1897fe1e967068814223f36534208223"
+    },
+    {
+      "path": "tools/overhaul-coop-153/exposure-search.mjs",
+      "bytes": 4228,
+      "sha256": "d91db291448ce938d93a46b7f31707f6e89118bc416720c0f1267a88d745840f"
+    },
+    {
+      "path": "tools/overhaul-coop-153/HANDOFF.md",
+      "bytes": 4935,
+      "sha256": "16f4217a3bf57243fdafd842874f24f568fc9935854fd7e16e89ff4a90cf0d8d"
+    },
+    {
+      "path": "tools/overhaul-coop-153/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-153/mission-capture.mjs",
+      "bytes": 47853,
+      "sha256": "f607b1886111f10faf3ad6c014a232cd40f7c51a1b7b3ea4a45b9861d48587eb"
+    },
+    {
+      "path": "tools/overhaul-coop-153/planning-read.mjs",
+      "bytes": 3590,
+      "sha256": "f472cf31d9e0e629fce371e2c517abb803c87c08adda526468a6d29cd25e1ebd"
+    },
+    {
+      "path": "tools/overhaul-coop-153/preimages/exposure-planner.mjs",
+      "bytes": 10842,
+      "sha256": "d3788d5bfac3ef3d5e43a854808d005753dd3f4565f87c8c13ce3a6e088a6944"
+    },
+    {
+      "path": "tools/overhaul-coop-153/preimages/mission-capture.mjs",
+      "bytes": 47709,
+      "sha256": "24036b7f8b247bf0181e7c25a2e909f03cb3e4c56c7effec21830c3db7176e0f"
+    },
+    {
+      "path": "tools/overhaul-coop-153/protected-inputs.json",
+      "bytes": 3440,
+      "sha256": "7ca467ca74aa273dfd7cc50c5b49a8bab5ab5bd322009c2ef46e02dd96be0edf"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Pose owner027 diagnostic — independent execution gate
+
+Actual review started2026-10-10 20:10:18 UTC; critic hard stop20:45 UTC. APPROVE ONE unchanged root-serial diagnostic command, conditional independently observed inclusive60s bound and source cleanup20:39/hard20:42. This grants no export/render, full choreography, contact, art, native or runtime acceptance.
+
+SealB7A3C24089D8BD3ABBB265DAE519E2A8D1D0BDB095E3DF70074157F43F7CACE5: all5 rows and44 protected rows match. Script2158F42E8D78809252D45E695B0319B3A33CE9174CE06A307B2CCCDC91BA1EE2. Three frozen actual Impact clocks1.933333/2.233333/2.533333s correspond to frames1/19/37. The unchanged021 solver is extracted without author entrypoint; source floor/root/geometry/rest lengths and historical targets stay unchanged.
+
+Instrumentation preserves requested absolute armature matrices, computed basis, actual current bone basis/TRS/modes/parent/constraints, root/world transforms, active Action/slot/NLA/drivers, before/after update, exact per-bone mode-change/key loop and forced frame replay. Evaluated57 bone matrices and selected actual skinned claw vertices allow the observed request-versus-pose gap to be located. Raw rows are written before finite validation; API/nonfinite exceptions stop and preserve the exception receipt. Pose mismatch is an expected measured diagnostic failure, never an accepted contact.
+
+The script clears active animation/basis, mutes NLA and creates fresh sparse role Actions. Additional evaluated reads can affect dependency-graph timing. This compares a causal write/evaluation boundary; it does not reproduce all81 earlier keys, certify historical failure causality exclusively or evaluate a new current victim surface. Historical victim points and their residuals must retain that label. Computed committed:true cannot outrank actual bone/skin readback. Any later single-owner correction requires a new frozen packet and actual result review.
+
+Root launcher16C7F228E54CE0C7C7EBBD6F7F1CF189025B67FD2BA1404741190957BCFB39FE provides a60s child execution cap, not a complete inclusive startup/hash/cleanup bound; unbounded cleanup waits and tree retirement claims need independent root observation. No same-packet fix, geometry/gap/tolerance change or retry is authorized. Source021/018 genuine failures and ordinary024 quality denials remain immutable.

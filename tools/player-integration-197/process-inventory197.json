@@ -1,0 +1,118 @@
+{
+  "observedUTC": "2026-10-11T19:58:05.0536283Z",
+  "scope": "Read-only known renderer/author/server process inventory; no process terminated or settings changed. Absence of an orphan Edge/Chrome/Blender process at this instant does not explain affected IAB lag.",
+  "processes": [
+    {
+      "ProcessId": 342000,
+      "ParentProcessId": 23728,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T17:28:53.737236-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\" C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node_modules\\@oai\\cua-repl\\bin\\cua-repl.mjs"
+    },
+    {
+      "ProcessId": 285048,
+      "ParentProcessId": 333228,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T17:28:54.38516-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs"
+    },
+    {
+      "ProcessId": 340700,
+      "ParentProcessId": 342976,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T17:28:54.468701-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs "
+    },
+    {
+      "ProcessId": 333832,
+      "ParentProcessId": 23728,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T18:59:50.056132-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\" C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node_modules\\@oai\\cua-repl\\bin\\cua-repl.mjs"
+    },
+    {
+      "ProcessId": 340964,
+      "ParentProcessId": 318952,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T18:59:50.103546-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs "
+    },
+    {
+      "ProcessId": 342604,
+      "ParentProcessId": 343800,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-09T18:59:50.110584-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs"
+    },
+    {
+      "ProcessId": 346552,
+      "ParentProcessId": 23728,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-10T05:34:40.606881-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\" C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node_modules\\@oai\\cua-repl\\bin\\cua-repl.mjs"
+    },
+    {
+      "ProcessId": 11072,
+      "ParentProcessId": 345356,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-10T05:34:40.673686-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs "
+    },
+    {
+      "ProcessId": 340120,
+      "ParentProcessId": 345912,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-10T05:34:40.686846-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs"
+    },
+    {
+      "ProcessId": 357208,
+      "ParentProcessId": 23728,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T02:38:33.768139-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\" C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node_modules\\@oai\\cua-repl\\bin\\cua-repl.mjs"
+    },
+    {
+      "ProcessId": 108244,
+      "ParentProcessId": 359148,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T02:38:33.862721-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs "
+    },
+    {
+      "ProcessId": 333092,
+      "ParentProcessId": 339860,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T02:38:33.863439-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs"
+    },
+    {
+      "ProcessId": 359392,
+      "ParentProcessId": 23728,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T03:21:41.957797-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\" C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node_modules\\@oai\\cua-repl\\bin\\cua-repl.mjs"
+    },
+    {
+      "ProcessId": 344340,
+      "ParentProcessId": 345532,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T03:21:42.036939-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs "
+    },
+    {
+      "ProcessId": 357560,
+      "ParentProcessId": 359176,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T03:21:42.042917-04:00",
+      "CommandLine": "\"C:\\Users\\Taylor\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\71e3f41277f96d73\\bin\\node.exe\"  ./server.mjs"
+    },
+    {
+      "ProcessId": 370280,
+      "ParentProcessId": 359212,
+      "Name": "node.exe",
+      "CreationDate": "2026-10-11T14:02:36.9448-04:00",
+      "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" --import tsx server/index.ts --production"
+    }
+  ]
+}

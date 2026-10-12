@@ -1,0 +1,25 @@
+{
+  "sourceSHA256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738",
+  "outputSHA256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738",
+  "sourceBytes": 5441344,
+  "outputBytes": 5441344,
+  "decodedSemanticSHA256": "9354df8778f7bd2e9488cf7f1471905a17edfad36e1e4d60c869a8b6ffb22390",
+  "exactDecodedGeometryUVWeightsBindsHierarchyAnd45Actions": true,
+  "rawByteExact": true,
+  "optimized": false,
+  "browserLoaderValidationRequired": true,
+  "browserLoaderValidationStatus": "PENDING",
+  "actualSelectedClips": [
+    "FelineWalk",
+    "FelineTrot",
+    "FelineGallop",
+    "FelineUprightWalkLong",
+    "FelineUprightStride",
+    "FelineTransitionBase106",
+    "FelineTransitionArc106"
+  ],
+  "weightLedgerSHA256": "344a043fd456ccbaddc2104afae7f4f8044a08db5059905d79a32c66fbbfdc5e",
+  "weightLedgerExportVertexCorrespondence": "NOT_ESTABLISHED_BY_DELIVERY; raw121 lineage and byte-exact preservation recorded",
+  "visualQualityApproved": false,
+  "nativeContactApproved": false
+}

@@ -1,0 +1,125 @@
+{
+  "startedUtc": "2026-10-10T19:35:29Z",
+  "closedUtc": "2026-10-10T19:36:53.1333995Z",
+  "verdict": "ACCEPT_SOURCE_BRIDGE_STATIC_PROTOTYPE_ALLOW_SEPARATE_OBSERVATION_ONLY",
+  "review": "docs/overhaul/critic/pounce-art-bridge-019-result-review.md",
+  "reviewSha256": "F5CEE0D7F162261484B87A56ED7B02E89D57163DFEB341F48D4C3D52CC4AB0FC",
+  "matchedInputRows": 22,
+  "outputRows": [
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/actual-action-records.json",
+      "bytes": 11647,
+      "sha256": "5810DCFE17084C309A0AD6C2A9E30D52B2CAE93052AF2A2DC4F7AC4A675DF588"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/actual-full-geometry.json",
+      "bytes": 5551568,
+      "sha256": "C0CDA808B91112568327C7833D96BFC9FCD237DA7DEE5F8AB189613EAEAB6184"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/asset-manifest.json",
+      "bytes": 564,
+      "sha256": "B86A231C86B9F778385943DD4E37BEA56D155910862709F8AA7F60F45248ECB4"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/author-receipt.json",
+      "bytes": 3291,
+      "sha256": "3E7A88D50612F72396B98716F3727467A98D0847D142B1BA44D7DB75986DC0C8"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-actual-attributes.json",
+      "bytes": 9761249,
+      "sha256": "2389F5952EBCA4F26CE21EB95018B7F27BDDCA9867AE037D883B0EC17A93790D"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-readback.json",
+      "bytes": 386852,
+      "sha256": "E8784BC31C848CE67469C5E0D5BED56423EA1B0787BB47948BD7B7262DF93BE5"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-source-offsets.json",
+      "bytes": 8073,
+      "sha256": "B8D43E22FB99E2A0D51F410B3A37A562641AADE733ECFCF990DF691421B5F423"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/fixed-rest-verification.json",
+      "bytes": 81200,
+      "sha256": "013FCC3E88ADF3F1F27BCAABA3EE457BA972530808332002322BB99A17EFB974"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/full.png",
+      "bytes": 1099276,
+      "sha256": "5A0C85353FF0C25F5D03D6D39326550794C371D694AF14C7C6125DF180CBFCAF"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/geometry-function-provenance.json",
+      "bytes": 2827,
+      "sha256": "ABB09F8AB50509AEB56308C866DC9A33E01FCD4D065DE5E59E0F302979546A7E"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "BE0DD9C4D14BC4509276DB63B333A179E359E68AF30B0262ED6955D14AE7B92C"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/inventory.json",
+      "bytes": 6708,
+      "sha256": "C6586998E53E0B6DD628D31BD17E4ED7768E4EDF9ED61FBB4A4CF8D5CD4C48A7"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/occupancy-catalog.json",
+      "bytes": 21278,
+      "sha256": "065AF9F8B891723D8A0C9CE3C341ABEB35500E8BB2AE4D50927CCAD665AADEFF"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/packet.json",
+      "bytes": 4217717,
+      "sha256": "57B6CA1E1231C12F388984C4BD6C2733DC11B871089BA32ADB59453DE25AA530"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/paw.png",
+      "bytes": 1034610,
+      "sha256": "B1A2FD7A188E6E2652F14B5A6944B372E62C6BA1064A91FE29E5424BC3032A6C"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.blend",
+      "bytes": 75790840,
+      "sha256": "568086ED09EC3460DA30EF2972B2699043694BAF82FDA936FA3DECDCBAF99F40"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.geometry.glb",
+      "bytes": 3473484,
+      "sha256": "3565274DCFE4BBFF9B7E7E09107A6D1BEB8C796C6FD651183081E61282753E72"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.raw.glb",
+      "bytes": 4191736,
+      "sha256": "4C050FD8F2E25F79548D51BDF8A419BBA702B3893ADFDC08E03749F60B71043E"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/readback.json",
+      "bytes": 1779439,
+      "sha256": "33EBF805BB3201EDFEEC0C476A4DC444B6339B75B76C29C5E7E189FEA01FFE07"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/sole.png",
+      "bytes": 1301418,
+      "sha256": "11DAEE583AFB28672DB3E620B8370F3B9C52B3E22FBE6EF1AFB8802165F37EBE"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source-profile.json",
+      "bytes": 274354,
+      "sha256": "24F188EFEB11B7603ED17AB2BB882A73BCC70BD4FC64AF025A1079E8C1FE484F"
+    }
+  ],
+  "actualAssetSha256": "4C050FD8F2E25F79548D51BDF8A419BBA702B3893ADFDC08E03749F60B71043E",
+  "viewedImages": [
+    "full.png",
+    "paw.png",
+    "sole.png"
+  ],
+  "finishedArt": false,
+  "nativeAdmission": false,
+  "runtimeQualityAdmission": false,
+  "gate1": "INCOMPLETE"
+}

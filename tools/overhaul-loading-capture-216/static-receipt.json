@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_PASS",
+  "protectedRows": 789,
+  "actualCapture": false,
+  "canonicalModule": "/assets/index-jFb_gY9P.js",
+  "aliasMappings": [],
+  "parent213": {
+    "path": "tools/overhaul-loading-capture-213/source-seal.json",
+    "bytes": 2177,
+    "sha256": "7637c518072e0c1896aeab3407dd1f3f49b75600e8e2db1a66175d0e6acb09ab"
+  },
+  "build215": {
+    "path": ".sites-runtime/overhaul-20261011/entry215-private/build-process-receipt.json",
+    "bytes": 4892,
+    "sha256": "af5349024e4abf01251c9492fe93b80e154d15c88fea8604fbcb7f22fada43c9"
+  },
+  "copiedPublicSelectorsExact": true,
+  "change": "216 identities/output/approval gate,215 exact receipt paths, no old-to-different entry alias; fixed canonical entry identity guard",
+  "unchanged": "211 source/readiness, native endpoints/assets/security,20/60/20/80/90 bounds, living local input/ACK/body camera predicate, W observation, CPU sampling, ownership/cleanup",
+  "syntax": {
+    "nodeCheck": "PASS",
+    "pythonCompile": "PASS",
+    "copiedNonASCIICharactersByteExact": "PASS"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "packet": "native-contact-clock-semantics004",
+  "actualStartUTC": "2026-10-10T14:32:28Z",
+  "hardDeadlineUTC": "2026-10-10T15:07:28Z",
+  "freezeAimUTC": "2026-10-10T14:52:28Z",
+  "sealedUTC": "2026-10-10T14:42:36.2172109Z",
+  "productionFrozen": true,
+  "preparationCompiles": 2,
+  "compileExits": [
+    2,
+    0
+  ],
+  "native": "UNRUN",
+  "maximumSimulationCalls": 34,
+  "maximumNativeSteps": 33,
+  "externalWallSeconds": 180,
+  "rawCapBytes": 33554432,
+  "privateCandidate": "UNCONFIGURED_EXPORT_BIND_READINESS_PENDING_NATIVE_PLAY_FLAGS_FALSE",
+  "files": [
+    {
+      "path": "shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "BCCE8D45A14EAB703387E0B23ABDFF728A01256901F3FCD722970C34A938BEDC"
+    },
+    {
+      "path": "shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439B93905733FD433B7FD5570E1037D0D9CB51BE625F525B496203B00B6B0"
+    },
+    {
+      "path": "shared/felineContactFrame004.ts",
+      "bytes": 5760,
+      "sha256": "286A9D48E48F06EF06428AFCE1677DCE7186A8FD03B848B8D091B12A084731CC"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 173335,
+      "sha256": "41CDBEC5AEA64BC5008A164E113BEFC6EA8CEA0924706EAE5771C5F49A58ACA8"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 7064,
+      "sha256": "8BCD22CB38D33BCADE08D729A457D6912052CF45273E1518F7B76F660B213DCF"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "E21B5A602BBC0414A9BE62A86015B6606EE019D63C5A53B6692B98DF9E329DEC"
+    },
+    {
+      "path": "shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173F583E99D87023410638602256C89AFFA0B9AC7305493D2D7B9570FAE99A2E"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "D151E8D96FA741051B6A4A88708374C18CD7D69F455CD413DC296F21CBD5436F"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10449,
+      "sha256": "0FB55B3483C515816D5F9DCED1C446EF3918E86620F9F5E2DB8E4E2F660FE398"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 43713,
+      "sha256": "42FB4D02573399067983BF6C0C558F5C1FDB4BBD07E4934809F912831519C2A3"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner004.ts",
+      "bytes": 19231,
+      "sha256": "E048C35ABBD793D5EA1BE71D28C7D57DE71253083F965CC4029EA407EFC34926"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative004.ts",
+      "bytes": 12783,
+      "sha256": "FA60F514ADC1BFECA2D990744CC89CA5BD9B72744F82376E704F5586CD754755"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor004.tsx",
+      "bytes": 7461,
+      "sha256": "447C13DBE988952F3FADA2F784AD0A3F51A69C102C48724590445FDEB310F429"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest004.ts",
+      "bytes": 4061,
+      "sha256": "6947D2D21CAB519DC33D86DFEFE6BBE43AE758A1133D1CD1E00E67075467C75B"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerEvidence004.ts",
+      "bytes": 2271,
+      "sha256": "8544A5F9257EDD47B4CB5F36F0B2678BC2FF4235D239824AB9FC9B106088E3D3"
+    },
+    {
+      "path": "shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643D638006D81AF385BE1B6B22C67E1973AF864D63ADD8493FAC1D9EAA1"
+    },
+    {
+      "path": "shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57F27D8648CD556AE159C29FBC2B35E2B99E985B1EDFB388D6CCC035FA1D2443"
+    },
+    {
+      "path": "docs/overhaul/native-contact-clock-semantics-004.md",
+      "bytes": 5878,
+      "sha256": "910907534321E822A0A72D8E124F23D6B7264C581D0F3DDB560B467B1668C44B"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/rapier.cjs",
+      "bytes": 2240834,
+      "sha256": "84B8A4425C8930A627451178C1BB01586BA6C47D93F6F25C80F7AF0CA7F1760F"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/rapier.cjs.map",
+      "bytes": 792294,
+      "sha256": "644F4A88857EA5E1908EF8741226DAB6D857D702B9AAAC09E477A7C962119F25"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/rapier_wasm3d_bg.wasm",
+      "bytes": 1569397,
+      "sha256": "18157113BD106B5C9644F4A293FEA7BA8513E9D44A8B2EC47D11225439C381CA"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/control/character_controller.d.ts",
+      "bytes": 8295,
+      "sha256": "1B6AB0C7E9AC00C12A20A1F47D14AA805656432D125D1DEFABD5A5247E4DD79C"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/binding-source-evidence.json",
+      "bytes": 1378,
+      "sha256": "EDEE88C28D9F1DCA921B5CD99F0604BDF7D49A92D6D4BF6AC523B56A572DAF24"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/fixture.ts",
+      "bytes": 6001,
+      "sha256": "D195B19FFEFCDCC7CEE8C599F6C36BE45C42AB2E74268E441B4681E3A033EB71"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/owned_runner.py",
+      "bytes": 12205,
+      "sha256": "BB81FFCD041187999EF6C463818484C1FD79054A22E2D6D619390DB64B279930"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/preimage-map.json",
+      "bytes": 965,
+      "sha256": "823805A4A2F736A367F39ADE5DB8718887F52FAE8239A4F99DE91AF139585A95"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/tsconfig.json",
+      "bytes": 445,
+      "sha256": "04E627263E6CD1FF5A9F2805C351D33BBCC88986A56817E3A81A75FF40CD62C4"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/vitest.config.ts",
+      "bytes": 230,
+      "sha256": "AC52500DEFE6420D63260E7E585227EECCBBB14638ABA6B1ECFE694244D6E9D0"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/preimage/shared/simulation.ts",
+      "bytes": 173145,
+      "sha256": "4C117054EE0597AD3AE7BD41C863B89AC863CCE8A1F42E775353ABD336FEA599"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/preimage/shared/types.ts",
+      "bytes": 7060,
+      "sha256": "1721E3F306EB6DDF27748A33B03E43AC7332BABC351AC6A2D3A13C811DE64934"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/preimage/src/game/snapshotAdmission.ts",
+      "bytes": 10447,
+      "sha256": "2E5D688E612D2C987A4F0A47A781DDDDE9BA147AAF84604B89E36BBE19228F8B"
+    },
+    {
+      "path": "tools/overhaul-native-contact-clock-semantics-004/preimage/src/game/entities/Actors.tsx",
+      "bytes": 43711,
+      "sha256": "5AEE8EE98D0DEC5B940F54157546F5B27C3B0AD8AA881157F975ED6AB3909FA8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-native-contact-clock-semantics-004/preparation-compile-1.json",
+      "bytes": 360,
+      "sha256": "35D9A076BB1F11204974FDCCFD17A6B67C587997151E70DEDCC7F2294A76772A"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-native-contact-clock-semantics-004/preparation-compile-1.txt",
+      "bytes": 347,
+      "sha256": "C077C2098B4D74210F9FBCB7C31DC220A82ED8E3BD4588892DFFC8DD79801CE4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-native-contact-clock-semantics-004/preparation-compile-2.json",
+      "bytes": 360,
+      "sha256": "7A2F4537A350B7422C03F7B3DE0B04C02145230A061847C8DD137EC3B5395570"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-native-contact-clock-semantics-004/preparation-compile-2.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-native-contact-clock-semantics-004/freeze-verification.json",
+      "bytes": 8230,
+      "sha256": "A9C5952FDF301578A5D9915F6B9F29A9EDB0F5B9F0BDBB25A66150BBA42C57D4"
+    }
+  ],
+  "sealPreparation": "First unreviewed ledger attempt used nonexistent selected dependency name and absent empty stdout file; preserved provisional ledger, corrected metadata only before final seal. No production or fixture changes after compile2."
+}

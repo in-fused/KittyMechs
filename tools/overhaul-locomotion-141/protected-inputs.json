@@ -1,0 +1,50 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "shared/ownedCharacterMotion.ts",
+      "bytes": 12595,
+      "sha256": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": "shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/control/character_controller.d.ts",
+      "bytes": 8295,
+      "sha256": "1b6ab0c7e9ac00c12a20a1f47d14aa805656432d125d1defabd5a5247e4dd79c"
+    },
+    {
+      "path": "node_modules/@dimforge/rapier3d-compat/package.json",
+      "bytes": 823,
+      "sha256": "f1e85d44f31fac7ad2f2c1846f767beee6ac4d72036141daa345a882fdfd5e7e"
+    },
+    {
+      "path": "tools/player-performance-135/district-comparison.json",
+      "bytes": 3331,
+      "sha256": "a226afd00caf8964b4c663f72673aabbe5c5ee6a6be6c785234547d6345169e7"
+    },
+    {
+      "path": "tools/overhaul-performance-135/baseline-timing135.json",
+      "bytes": 463,
+      "sha256": "dfc5155dfd8ca5589317a1e7c43a0f7696652a685709502e1363a2bd851d736b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop138-review/live-health.json",
+      "bytes": 130192,
+      "sha256": "acb262a2f232852e82ba9c03571ac36007a14aa9ab93ad0bdf62837174672e3d"
+    }
+  ]
+}

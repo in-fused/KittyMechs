@@ -1,0 +1,12 @@
+{
+  "closedUTC": "2026-10-10T20:24:29.6354658Z",
+  "verdict": "ACCEPT_THREE_CLOCK_OWNER_REPAIR_ONLY",
+  "review": "docs/overhaul/critic/pounce-pose-owner-027-single-writer-result-review.md",
+  "reviewSHA256": "ECBB9F812056764D085AA3FD9064896CF8F1C6F8B17B9EEB3F244F0EDEB3FC99",
+  "resultSealSHA256": "89FA46DCA4AD27E64CF67CCA5B8A9277A96189B01B1D8242EB1F52B7D665D5C5",
+  "resultMatches": 6,
+  "matrixChecks": 18,
+  "bonesPerCheck": 57,
+  "maxRecomputedResidual": 7.3909759521484375E-06,
+  "gate1": "INCOMPLETE"
+}

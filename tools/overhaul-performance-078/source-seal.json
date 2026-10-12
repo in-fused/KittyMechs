@@ -1,0 +1,123 @@
+{
+  "status": "SOURCE_FROZEN_UNRUN",
+  "writer": "CLOSED",
+  "ownedGameSource": [
+    "src/game/entities/Actors.tsx",
+    "src/game/entities/animatedEnemyBounds078.ts"
+  ],
+  "rootCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-performance-078/containment-check.ts"
+  ],
+  "rootInclusiveSeconds": 20,
+  "innerSeconds": 15,
+  "firstFailure": "STOP_PRESERVE_NO_RETRY",
+  "browserReadAPI": "window.kittyEnemyBounds078.read()",
+  "boundedOptionalReadAudit": "window.kittyEnemyBounds078.audit(actorId, recordedFrameClock): max100000vertices/12ms, incomplete explicitly not PASS",
+  "noChildJobs": true,
+  "notPromoted": true,
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45494,
+      "sha256": "d707e7ea81e5f59b52f9e5c00b00d1bd50e4e4068b517520dfa78ea36929ec46"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds078.ts",
+      "bytes": 8191,
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/containment-check.ts",
+      "bytes": 8308,
+      "sha256": "16a06efaffe4fdc3c89c3b6030c1c633ccea0d1ee003095c6dcfd90b1a0ac95b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/input-pins.json",
+      "bytes": 1302,
+      "sha256": "bd2730f4ac8f7b5476418237b86dc35233e8b38a93330aa598b7a02439a0ff4c"
+    },
+    {
+      "path": "tools/overhaul-performance-078/preimages/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "docs/overhaul/performance-078-source-handoff.md",
+      "bytes": 6129,
+      "sha256": "814a275a6a6f352df8d0be96701c3c2864d67620982e8f9e79b11f1f02526459"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "bytes": 8670,
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc"
+    },
+    {
+      "path": "node_modules/three/src/math/Frustum.js",
+      "bytes": 7615,
+      "sha256": "2332e8d732aace16957af57f82733969416827a4cfad8d5bea338fee9f082077"
+    },
+    {
+      "path": "node_modules/three/src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js",
+      "bytes": 400,
+      "sha256": "4422467001348636551ce64f1e6631d8a5032b7ac2788596c2dc5269618c7602"
+    },
+    {
+      "path": "src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": "tools/overhaul-performance-077/source-seal.json",
+      "bytes": 3706,
+      "sha256": "e484001bc6e4f06f8c936164e9ab81d7e69e140cbaa6613574ed05af12acbba9"
+    }
+  ]
+}

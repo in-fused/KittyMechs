@@ -1,0 +1,66 @@
+{
+  "terminal": true,
+  "session": 16674,
+  "exitCode": 0,
+  "seconds": 32.15600000019185,
+  "inputsMatched": 1130,
+  "health": {
+    "rooms": 0,
+    "players": 0
+  },
+  "serverPID": 370280,
+  "serverSession": 9510,
+  "buildReceiptSHA256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/evidence.json",
+      "bytes": 71503,
+      "sha256": "720bb277166e858f717805a6d6d106cd9a8e893ef6629cec022e981a78a725e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/off-forward.png",
+      "bytes": 940236,
+      "sha256": "fd89307c457629cec24071122a38a73865518110aae725b2b8b22fbdd89f2c22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/off.png",
+      "bytes": 961259,
+      "sha256": "9e2d90247bae32d4fa94b2b6c0666f461c22722c5d4f3ae1a5fa16e672e58b95"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/on-forward.png",
+      "bytes": 994356,
+      "sha256": "ddcb67d995898a80ac53f9effd87167344e15925b479e66143e05985b6bf477b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/on-upright-forward.png",
+      "bytes": 956147,
+      "sha256": "d7fc1a04ca04c7ba04f67a67b9a8c780fe19b3c334bebc34820edcd710f9a58d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/on-wheel.png",
+      "bytes": 941138,
+      "sha256": "7dec3d70f63e632f58655492f64e1fa5df1838f7c748efd616781de311006776"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/on.png",
+      "bytes": 988261,
+      "sha256": "fcbda5f69c4122c189f69d48609bb5cced1051766967a21a6e50250cdaca92a2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/page@358091e0288163432f5b27581ab0430e.webm",
+      "bytes": 3186081,
+      "sha256": "c37a15e66403c12ca0ab4cb195a1dca22320de6551e59abad327d5d128e5fe07"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public-observation/process-receipt.json",
+      "bytes": 153185,
+      "sha256": "d452fe09c6463544419270b6d5c7ba30850d9703d0cebcad4e9209d351c9dfaa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public-observation/stdout.txt",
+      "bytes": 67,
+      "sha256": "91ba3bc0a6ba828f4a0da1f689f199ede2536c5a3abb8208732364294ff686fd"
+    }
+  ]
+}

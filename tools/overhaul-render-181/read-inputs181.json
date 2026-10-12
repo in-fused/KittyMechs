@@ -1,0 +1,60 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900"
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6057,
+      "sha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": "src/game/world/FoliageInstances.tsx",
+      "bytes": 4421,
+      "sha256": "c74de98c75c1a37d55a10b0138ccaa68bda12bee943644185ec9aed2ef525a73"
+    },
+    {
+      "path": "shared/foliage.ts",
+      "bytes": 1001,
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "shared/streaming.ts",
+      "bytes": 1651,
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "bytes": 257421,
+      "sha256": "d0e01656b4840b3dd999997fc7e8b5f62d9f560f2690d1ec38252965b41d7df1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/summary180.json",
+      "bytes": 4014,
+      "sha256": "0e8ea01cc33ae56457f48ec31f82350eb28b88983e711b89201061730cc03237"
+    },
+    {
+      "path": "docs/overhaul/critic/draw180-actual-review.md",
+      "bytes": 3503,
+      "sha256": "f789a88bc47162ce97b5128411ea4f222c276c2f0e782b89ac91c6c0f225a2e8"
+    }
+  ]
+}

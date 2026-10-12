@@ -1,0 +1,24 @@
+{
+  "writer": "CLOSED",
+  "tests": {
+    "command": "npx vitest run --config tools/overhaul-coop-159/vitest.config.mjs",
+    "exitCode": 0,
+    "tests": 2,
+    "durationMs": 309,
+    "terminalChunk": "8161be"
+  },
+  "syntax": {
+    "file": "mission-capture.mjs",
+    "exitCode": 0
+  },
+  "behavioralDelta": "Aligned KeyF branch try/finally up before next neutral settlement; metadata/import substitutions only",
+  "fixture": {
+    "path": "tools/overhaul-coop-159/fire-order-receipt.json",
+    "bytes": 1373,
+    "sha256": "7f4083e5de56e528e75dececdca12589e6f2365b25a555b1242d1686b7b81f25"
+  },
+  "old156SealedRowsVerified": 9,
+  "genuineFixtureRepairFailures": 0,
+  "nativeWorldJobs": 0,
+  "publicJobs": 0
+}

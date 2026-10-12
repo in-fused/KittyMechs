@@ -1,0 +1,10 @@
+{
+  "closedUTC": "2026-10-10T14:45:11.680333+00:00",
+  "status": "CODE_DENIED_UNRUN",
+  "physicalJobsRun": 0,
+  "criticClosedUTC": "2026-10-10T14:41:31.8697448Z",
+  "criticReviewSha256": "C05C2AD02CFC2CBDE6F5BFD862FA6C887A3E6CDCAAFBDECC2A17665681E42E48",
+  "failure": "Fragment records lack required tiles/variant fields; no compiler/native/browser run.",
+  "frozenCopies": "tools\\overhaul-facade-rhythm-001\\frozen-input-copy-manifest.json",
+  "next": "Separately bounded literal fragment record continuity correction002 only; no geometry/layout/tolerance change or physicalretry."
+}

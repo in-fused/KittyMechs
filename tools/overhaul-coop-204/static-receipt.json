@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "syntaxFiles": 5,
+  "selectorBytes": "MATCH_201",
+  "retained201Files": "ALL_MATCH_FINAL_SEAL",
+  "motionTokenInjection": "EXPLICIT_PRESENT",
+  "fixture": "ONE_FAILURE_ONE_REPAIR_PASS7",
+  "actualPublic204": "NOT_RUN",
+  "bounds": {
+    "workMs": 420000,
+    "cleanupMs": 30000,
+    "childMs": 450000,
+    "rootMs": 480000,
+    "iterationsPerWaypoint": 35,
+    "routeWaypoints": 12,
+    "routeEvents": 4
+  }
+}

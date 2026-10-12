@@ -1,0 +1,345 @@
+{
+  "writer": "CLOSED",
+  "scope": "ACTUAL238 firstbrowser of234 rejected; no20swaiver or replay; precise changing signature field UNKNOWN",
+  "status": "FIRST_GENUINE_FAILURE_STOP",
+  "failure": "Error: Error: 232 finite preparation queue count exhausted\n    at guard (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-disk-observer-238/capture.mjs:19:113)\n    at read (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-disk-observer-238/capture.mjs:21:90)\n    at file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-disk-observer-238/capture.mjs:30:126\n    at async ready (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-disk-observer-238/capture.mjs:30:54)\n    at async file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-disk-observer-238/capture.mjs:50:760",
+  "phase": "host-deployment",
+  "childMs": 13896,
+  "supervisorSeconds": 20.843000000109896,
+  "rootTerminal": "23556_EXIT1_CONSUMED",
+  "nodePID": 375580,
+  "ownedIdentities": 25,
+  "retired": true,
+  "cleanup": [
+    {
+      "label": "host PUBLIC_KEYS_RELEASE",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "guest PUBLIC_KEYS_RELEASE",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "host FAILURE_READ",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "host FAILURE_PIXELS",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "host CONTEXT_CLOSE",
+      "status": "CLOSED",
+      "requestedCapMs": 5000
+    },
+    {
+      "label": "host BROWSER_CLOSE",
+      "status": "CLOSED",
+      "requestedCapMs": 5000
+    },
+    {
+      "label": "guest FAILURE_READ",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "guest FAILURE_PIXELS",
+      "status": "CLOSED",
+      "requestedCapMs": 1500
+    },
+    {
+      "label": "guest CONTEXT_CLOSE",
+      "status": "CLOSED",
+      "requestedCapMs": 5000
+    },
+    {
+      "label": "guest BROWSER_CLOSE",
+      "status": "CLOSED",
+      "requestedCapMs": 5000
+    }
+  ],
+  "protectedBeforeAllMatch": true,
+  "protectedAfterAllMatch": true,
+  "cases": [],
+  "errorCount": 24,
+  "firstError": {
+    "pilot": "Disk238Host",
+    "error": "Error: 232 finite preparation queue count exhausted"
+  },
+  "hostSubmit": {
+    "label": "host-submit",
+    "wallMs": 6313,
+    "deadlineWallMs": 26313
+  },
+  "guestSubmit": null,
+  "shaderFinal": {
+    "epoch": 1,
+    "mounted": true,
+    "admitted": false,
+    "fatal": "232 finite preparation queue count exhausted",
+    "queues": 4,
+    "draw": null
+  },
+  "shaderEvents": [
+    {
+      "at": 5392.700000047684,
+      "kind": "warmup-start",
+      "detail": {
+        "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+        "generation": 1,
+        "quality": "low",
+        "signature": {
+          "chars": 340367,
+          "hash": "42ff1988",
+          "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+        },
+        "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+      }
+    },
+    {
+      "at": 5392.700000047684,
+      "kind": "KHR-availability",
+      "detail": {
+        "available": true,
+        "scope": "COMPLETION_STATUS_KHR_POLL"
+      }
+    },
+    {
+      "at": 5392.700000047684,
+      "kind": "prepare-start"
+    },
+    {
+      "at": 5552,
+      "kind": "prepare-end",
+      "detail": {
+        "programs": 31
+      }
+    },
+    {
+      "at": 5693.5,
+      "kind": "stale-signature",
+      "detail": {
+        "previous": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "42ff1988",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        },
+        "current": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "d737b01e",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        }
+      }
+    },
+    {
+      "at": 5726.700000047684,
+      "kind": "warmup-start",
+      "detail": {
+        "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+        "generation": 1,
+        "quality": "low",
+        "signature": {
+          "chars": 340367,
+          "hash": "d737b01e",
+          "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+        },
+        "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+      }
+    },
+    {
+      "at": 5726.799999952316,
+      "kind": "KHR-availability",
+      "detail": {
+        "available": true,
+        "scope": "COMPLETION_STATUS_KHR_POLL"
+      }
+    },
+    {
+      "at": 5726.799999952316,
+      "kind": "prepare-start"
+    },
+    {
+      "at": 5738.599999904633,
+      "kind": "prepare-end",
+      "detail": {
+        "programs": 31
+      }
+    },
+    {
+      "at": 5803.899999856949,
+      "kind": "stale-signature",
+      "detail": {
+        "previous": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "d737b01e",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        },
+        "current": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "c437378",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        }
+      }
+    },
+    {
+      "at": 5941.299999952316,
+      "kind": "warmup-start",
+      "detail": {
+        "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+        "generation": 1,
+        "quality": "low",
+        "signature": {
+          "chars": 340367,
+          "hash": "c437378",
+          "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+        },
+        "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+      }
+    },
+    {
+      "at": 5941.299999952316,
+      "kind": "KHR-availability",
+      "detail": {
+        "available": true,
+        "scope": "COMPLETION_STATUS_KHR_POLL"
+      }
+    },
+    {
+      "at": 5941.299999952316,
+      "kind": "prepare-start"
+    },
+    {
+      "at": 5953.399999856949,
+      "kind": "prepare-end",
+      "detail": {
+        "programs": 31
+      }
+    },
+    {
+      "at": 6046,
+      "kind": "stale-signature",
+      "detail": {
+        "previous": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "c437378",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        },
+        "current": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "687db7d2",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        }
+      }
+    },
+    {
+      "at": 6118.299999952316,
+      "kind": "warmup-start",
+      "detail": {
+        "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+        "generation": 1,
+        "quality": "low",
+        "signature": {
+          "chars": 340367,
+          "hash": "687db7d2",
+          "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+        },
+        "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+      }
+    },
+    {
+      "at": 6118.399999856949,
+      "kind": "KHR-availability",
+      "detail": {
+        "available": true,
+        "scope": "COMPLETION_STATUS_KHR_POLL"
+      }
+    },
+    {
+      "at": 6118.399999856949,
+      "kind": "prepare-start"
+    },
+    {
+      "at": 6135.099999904633,
+      "kind": "prepare-end",
+      "detail": {
+        "programs": 31
+      }
+    },
+    {
+      "at": 6183.5,
+      "kind": "stale-signature",
+      "detail": {
+        "previous": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "687db7d2",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        },
+        "current": {
+          "localId": "00358bf6-ed4a-4ba3-a2e3-138c59b6f4f2",
+          "generation": 1,
+          "quality": "low",
+          "signature": {
+            "chars": 340367,
+            "hash": "2db6160c",
+            "scope": "DIAGNOSTIC_ONLY_FULL_STRING_EQUALITY_IS_GUARD"
+          },
+          "winner": "ab7b912d-e999-48ff-8136-4efb284adbf4"
+        }
+      }
+    },
+    {
+      "at": 6214.399999856949,
+      "kind": "error",
+      "detail": "232 finite preparation queue count exhausted"
+    }
+  ],
+  "canvasEvents": [],
+  "drawObserved": false,
+  "qualified": false
+}

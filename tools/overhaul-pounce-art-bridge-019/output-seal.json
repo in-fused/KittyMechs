@@ -1,0 +1,192 @@
+{
+  "schema": "art-bridge019-output-seal",
+  "sealedUTC": "2026-10-10T19:37:09.5647965Z",
+  "rows": [
+    {
+      "bytes": 11647,
+      "sha256": "5810dcfe17084c309a0ad6c2a9e30d52b2cae93052af2a2dc4f7ac4a675df588",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/actual-action-records.json"
+    },
+    {
+      "bytes": 5551568,
+      "sha256": "c0cda808b91112568327c7833d96bfc9fcd237da7dee5f8ab189613eaeab6184",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/actual-full-geometry.json"
+    },
+    {
+      "bytes": 564,
+      "sha256": "b86a231c86b9f778385943dd4e37bea56d155910862709f8aa7f60f45248ecb4",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/asset-manifest.json"
+    },
+    {
+      "bytes": 3291,
+      "sha256": "3e7a88d50612f72396b98716f3727467a98d0847d142b1ba44d7db75986dc0c8",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/author-receipt.json"
+    },
+    {
+      "bytes": 9761249,
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-actual-attributes.json"
+    },
+    {
+      "bytes": 386852,
+      "sha256": "e8784bc31c848ce67469c5e0d5bed56423ea1b0787bb47948bd7b7262df93be5",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-readback.json"
+    },
+    {
+      "bytes": 8073,
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/export-source-offsets.json"
+    },
+    {
+      "bytes": 81200,
+      "sha256": "013fcc3e88adf3f1f27bcaaba3ee457ba972530808332002322bb99a17efb974",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/fixed-rest-verification.json"
+    },
+    {
+      "bytes": 1099276,
+      "sha256": "5a0c85353ff0c25f5d03d6d39326550794c371d694af14c7c6125df180cbfcaf",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/full.png"
+    },
+    {
+      "bytes": 2827,
+      "sha256": "abb09f8ab50509aeb56308c866dc9a33e01fcd4d065de5e59e0f302979546a7e",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/geometry-function-provenance.json"
+    },
+    {
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/identity57Runtime019Manifest.json"
+    },
+    {
+      "bytes": 6708,
+      "sha256": "c6586998e53e0b6dd628d31bd17e4ed7768e4edf9ed61fbb4a4cf8d5cd4c48a7",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/inventory.json"
+    },
+    {
+      "bytes": 21278,
+      "sha256": "065af9f8b891723d8a0c9ce3c341abeb35500e8bb2ae4d50927ccad665aadeff",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/occupancy-catalog.json"
+    },
+    {
+      "bytes": 4217717,
+      "sha256": "57b6ca1e1231c12f388984c4bd6c2733dc11b871089ba32adb59453de25aa530",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/packet.json"
+    },
+    {
+      "bytes": 1034610,
+      "sha256": "b1a2fd7a188e6e2652f14b5a6944b372e62c6ba1064a91fe29e5424bc3032a6c",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/paw.png"
+    },
+    {
+      "bytes": 75790840,
+      "sha256": "568086ed09ec3460da30ef2972b2699043694baf82fda936fa3decdcbaf99f40",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.blend"
+    },
+    {
+      "bytes": 3473484,
+      "sha256": "3565274dcfe4bbff9b7e7e09107a6d1beb8c796c6fd651183081e61282753e72",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.geometry.glb"
+    },
+    {
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.raw.glb"
+    },
+    {
+      "bytes": 1779439,
+      "sha256": "33ebf805bb3201edfeec0c476a4dc444b6339b75b76c29c5e7e189fea01ffe07",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/readback.json"
+    },
+    {
+      "bytes": 1301418,
+      "sha256": "11daee583afb28672db3e620b8370f3b9c52b3e22fbe6ef1afb8802165f37ebe",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/sole.png"
+    },
+    {
+      "bytes": 274354,
+      "sha256": "24f188efeb11b7603ed17ab2bb882a73bcc70bd4fc64af025a1079e8c1fe484f",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source-profile.json"
+    },
+    {
+      "bytes": 184,
+      "sha256": "157c40a6086cc0af2d9131e324b1e8b230bbbc31ef6117c3a767df1fe4ff580b",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/actual-loader-process.json"
+    },
+    {
+      "bytes": 3123,
+      "sha256": "bb885b88d77460ef4db47d009d6253292cbc8c042000ce55211547727b7dfa95",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/author-process.json"
+    },
+    {
+      "bytes": 178,
+      "sha256": "909ef07aa6a8eda7b421111dde741f0f7151de23baa538959e7390fd4a9ffdb9",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/compile-process.json"
+    },
+    {
+      "bytes": 176,
+      "sha256": "94cbd69f8c0726fb4d14eea434f9a1ee7d398971183178a024cd22b33e99f134",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/graft-process.json"
+    },
+    {
+      "bytes": 8768,
+      "sha256": "188cd8e7fc3ac67ebbc80752b230f038007915bb4130b26d4eff66add595093f",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/graft-receipt.json"
+    },
+    {
+      "bytes": 6708,
+      "sha256": "c6586998e53e0b6dd628d31bd17e4ed7768e4edf9ed61fbb4a4cf8d5cd4c48a7",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/inventory.json"
+    },
+    {
+      "bytes": 21278,
+      "sha256": "065af9f8b891723d8a0c9ce3c341abeb35500e8bb2ae4d50927ccad665aadeff",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/occupancy-catalog.json"
+    },
+    {
+      "bytes": 6050908,
+      "sha256": "e25943812dc9d1ee3d121627328cda2514f27162305293ddc44a7d53b8f49bf1",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/offline-geometry.json"
+    },
+    {
+      "bytes": 4217717,
+      "sha256": "57b6ca1e1231c12f388984c4bd6c2733dc11b871089ba32adb59453de25aa530",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/packet.json"
+    },
+    {
+      "bytes": 8549,
+      "sha256": "9d754c7624bb13763c564a827f746a123c4ca617527bcc1d8a7f8455a27f654a",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/process-receipt.json"
+    },
+    {
+      "bytes": 1779439,
+      "sha256": "33ebf805bb3201edfeec0c476a4dc444b6339b75b76c29c5e7e189fea01ffe07",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/readback.json"
+    },
+    {
+      "bytes": 1780217,
+      "sha256": "ae9f2676386a23cd4821fd8141575eb64cbd82d6e6a9070ef3004357da27c6f3",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/receipt.json"
+    },
+    {
+      "bytes": 1763,
+      "sha256": "8954bebfe792b2f7ebdc4839e4c5798186544c5cafe86c15ed1b08e1f2c40d5b",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/retained-pose-comparison.json"
+    },
+    {
+      "bytes": 193,
+      "sha256": "9235b858c0430881b3d3187aa952dd376e112c65f660443fe10982c594106c8e",
+      "path": ".sites-runtime/overhaul-20261010/art-bridge-019/retained-pose-manifest-process.json"
+    },
+    {
+      "bytes": 8412,
+      "sha256": "c74e2a849c534a9710adb7cc7789a872d5f31229f49a83199728797d5cc4e754",
+      "path": "tools/overhaul-pounce-art-bridge-019/closure.json"
+    },
+    {
+      "bytes": 2881,
+      "sha256": "6b07df9ffcfbbc6ae8c57f8ab3f25ae71c9e4332a4c02aec0c9fdfccabec5ea2",
+      "path": "tools/overhaul-pounce-art-bridge-019/result.md"
+    }
+  ],
+  "sourceSealSHA": "403e91fa4e694b53dc5a01aaec3ba70f063643df9b8f865817d1fb30692e86b5"
+}

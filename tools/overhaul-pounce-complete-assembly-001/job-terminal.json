@@ -1,0 +1,17 @@
+{
+  "sessionId": 7130,
+  "firstChunkId": "c96da6",
+  "firstYieldWallSeconds": 10.0045296,
+  "launcherUtcApprox": "2026-10-10T14:56:58Z",
+  "osPid": "UNKNOWN_NOT_RECORDED",
+  "initialStdout": "Tool history chunk c96da6 retains repeated modifier-not-first INFO warnings, master save and four-primitive GLTF export14:57:08–09; this file is a summary, not a full raw first-chunk capture.",
+  "finalTerminal": {
+    "chunk_id": "5b3bbc",
+    "wall_time_seconds": 0.0000129,
+    "exit_code": 1,
+    "original_token_count": 173,
+    "output": "Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)\nRead blend: \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-skinned-001\\Pounce_Skinned_001.blend\"\nTraceback (most recent call last):\r\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-complete-assembly-001\\author.py\", line 408, in <module>\r\n    if error:raise RuntimeError(error['message'])\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nRuntimeError: ACTUAL_EXPORTED_PAD_FACETS_INCOMPLETE\r\n\r\n\nError: script failed, file: 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-complete-assembly-001/author.py', exiting.\n\nBlender quit\n"
+  },
+  "observedClosedUtc": "2026-10-10T14:57:28Z",
+  "reruns": 0
+}

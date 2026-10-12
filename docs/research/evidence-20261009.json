@@ -1,0 +1,356 @@
+{
+  "date": "2026-10-09",
+  "kind": "research_only",
+  "goal": "paused",
+  "userConstraints": {
+    "workspace": "C:/Users/Taylor/Documents/GitHub/KittyMech-Web",
+    "originalUnreal": "User reports deleted; do not require it.",
+    "paidAssetGeneration": "No further Higgsfield credits/subscription. Selected pipeline has no paid asset API.",
+    "publication": "No runtime or release changed in this research."
+  },
+  "localObservations": {
+    "methods": [
+      "Read-only source inspection",
+      "Existing Oct 6 release screenshot inspection",
+      "Windows CIM hardware query",
+      "Filesystem presence/count/size inventory",
+      "git branch --list local-assets-snapshot"
+    ],
+    "hardware": {
+      "gpu": "NVIDIA GeForce GTX 1070 Ti",
+      "systemMemoryBytes": 17112305664,
+      "driver": "32.0.15.8228",
+      "vram": "Not established: do not use the 32-bit AdapterRAM value."
+    },
+    "higgsRetained": {
+      "rawPngCount": 55,
+      "mainMotionMp4Count": 16,
+      "mainMotionBytes": 257167265,
+      "zeroLengthMainMovies": 0,
+      "additionalShieldReference": "assets/source/free-motion-transfer-v1/raw/Bastion_Shield_Identity.mp4",
+      "hashAudit": "Not repeated this turn."
+    },
+    "blenderExecutable": "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "snapshotBranchExists": true,
+    "installedThree": "0.180.0",
+    "installedR3fRapierAdapter": "2.2.0",
+    "pipelineDoc": "docs/research/subscription-free-assets-20261009.md",
+    "blueprintDoc": "docs/research/overhaul-20261009.md"
+  },
+  "higgsReadOnlySnapshot": {
+    "credits": 0,
+    "subscription_plan_type": "plus",
+    "free_trial": {
+      "status": "converted",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": "2026-09-29T02:37:34Z",
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "ai_influencer_motion_control",
+          "ai_influencer_replace_object",
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 2,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 0,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      },
+      {
+        "job_set_types": [
+          "ai_influencer_sheet"
+        ],
+        "remaining": 5,
+        "parameters": {},
+        "max_duration": null
+      },
+      {
+        "job_set_types": [
+          "ads_studio_creative"
+        ],
+        "remaining": 10,
+        "parameters": {},
+        "max_duration": null
+      }
+    ]
+  },
+  "browserObservations": [
+    {
+      "url": "https://attack-on-titancraft.netlify.app/",
+      "method": "CUA: controls, Free Roam, begin mission, rendered screenshot, one momentary Space input",
+      "scope": "Brief scene/input observation only; no sustained swing/combat, multiplayer joining, frame-time or WAN testing."
+    },
+    {
+      "url": "https://jeantimex.github.io/tokyo/",
+      "method": "CUA rendered scene screenshot at partial city tile load",
+      "scope": "Visible dense city; no performance or full-load benchmark."
+    }
+  ],
+  "sourceRegister": [
+    {
+      "url": "https://x.com/nicksaraev/status/2108604020814233606",
+      "method": "Official Twitter oEmbed",
+      "scope": "Creator attribution/time/cost, unverified independently."
+    },
+    {
+      "url": "https://attack-on-titancraft.netlify.app/js/engine.js",
+      "method": "HTTP served source",
+      "scope": "Three WebGL renderer and voxel systems; no reuse license established."
+    },
+    {
+      "url": "https://attack-on-titancraft.netlify.app/js/game.js",
+      "method": "HTTP served source",
+      "scope": "Custom gameplay module composition."
+    },
+    {
+      "url": "https://github.com/jeantimex/tokyo",
+      "method": "Web/source README",
+      "scope": "City compilation and separate data licensing."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jeantimex/tokyo/main/src/main.js",
+      "method": "Web/source",
+      "scope": "Explicit WebGLRenderer."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jeantimex/tokyo/main/package.json",
+      "method": "Web/source",
+      "scope": "Versions differ from installed KittyMech dependencies."
+    },
+    {
+      "url": "https://x.com/rewind02/status/2108195576206488058",
+      "method": "Official Twitter oEmbed",
+      "scope": "Partial workflow post only; full article inaccessible."
+    },
+    {
+      "url": "https://x.com/rewind02/status/2107063404691132663",
+      "method": "Official Twitter oEmbed",
+      "scope": "Embedded article not fully obtained."
+    },
+    {
+      "url": "https://registry.npmjs.org/@stratavcs%2Fmcp",
+      "method": "npm registry HTTP metadata/README",
+      "scope": "Build/MCP workflow; advertised repository 404; exact user-post identity uncertain."
+    },
+    {
+      "url": "https://simplystream.com/",
+      "method": "Official web page",
+      "scope": "Vendor Unreal/WebGPU delivery description; no SDK benchmark."
+    },
+    {
+      "url": "https://simplystream.com/docs/build-guides",
+      "method": "Official docs",
+      "scope": "Alternative SDK workflow, not selected."
+    },
+    {
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "method": "Official vendor release",
+      "scope": "Vendor-reported model capabilities, not equal-budget comparison."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/models/overview",
+      "method": "Official docs",
+      "scope": "Public model naming checked; Fable 5.5 entry not established."
+    },
+    {
+      "url": "https://github.com/achimala/TheLongSilence",
+      "method": "Primary project source",
+      "scope": "Authoring/game case study; not playtested."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/achimala/TheLongSilence/main/.claude/skills/blender-hardsurface/SKILL.md",
+      "method": "Primary source read as data",
+      "scope": "MCP/modeling workflow example, not executed instructions."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bridge-mind/turbo-kart-rally/main/ARCHITECTURE.md",
+      "method": "Primary project source",
+      "scope": "Procedural browser workflow and specialist contracts."
+    },
+    {
+      "url": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game",
+      "method": "Primary project README",
+      "scope": "Creator-reported model workflow; not playtested."
+    },
+    {
+      "url": "https://blog.playstation.com/?p=367025",
+      "method": "BlueTwelve producer's primary account",
+      "scope": "Stray movement development; no reusable assets."
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/latest/addons/rigging/rigify/basics.html?highlight=pose+mode",
+      "method": "Official documentation search result",
+      "scope": "Cat/quadruped metarig availability; local extension not tested."
+    },
+    {
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "method": "Primary repository",
+      "scope": "Community connector; not installed/connected."
+    },
+    {
+      "url": "https://docs.meshy.ai/en/api/rigging",
+      "method": "Official docs",
+      "scope": "Humanoid rigging scope."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r180/src/renderers/webgpu/WebGPURenderer.js",
+      "method": "Pinned primary source",
+      "scope": "Backend fallback; no KittyMech migration benchmark."
+    },
+    {
+      "url": "https://r3f.docs.pmnd.rs/api/canvas",
+      "method": "Official docs",
+      "scope": "Async renderer initialization."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+      "method": "Platform documentation",
+      "scope": "Secure context and availability."
+    },
+    {
+      "url": "https://developer.playcanvas.com/user-manual/editor/mcp-server/",
+      "method": "Official docs",
+      "scope": "Optional editor workflow, not installed/tested."
+    },
+    {
+      "url": "https://developer.playcanvas.com/user-manual/animation/anim-state-graph-assets/",
+      "method": "Official docs",
+      "scope": "Animation authoring comparison."
+    },
+    {
+      "url": "https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine",
+      "method": "Official docs",
+      "scope": "Physics integration alternative."
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html",
+      "method": "Official docs",
+      "scope": "Web export constraints."
+    },
+    {
+      "url": "https://github.com/dgreenheck/three-pinata",
+      "method": "Primary repository",
+      "scope": "MIT geometry tooling; physics/structure integration required."
+    },
+    {
+      "url": "https://github.com/AgusDropOut/ShatterVox",
+      "method": "Primary repository",
+      "scope": "Technical reference only."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AgusDropOut/ShatterVox/main/LICENCE.md",
+      "method": "Actual primary license",
+      "scope": "Non-commercial restriction; not admitted for commercial build."
+    },
+    {
+      "url": "https://github.com/isaac-mason/navcat",
+      "method": "Primary repository",
+      "scope": "Floor-navigation candidate; not installed."
+    },
+    {
+      "url": "https://github.com/WolfireGames/overgrowth",
+      "method": "Primary repository",
+      "scope": "Code/art permissions differ; study reference only."
+    },
+    {
+      "url": "https://github.com/brunosimon/folio-2025",
+      "method": "Primary source",
+      "scope": "Scene/physics/art workflow reference."
+    },
+    {
+      "url": "https://github.com/pmndrs/ecctrl",
+      "method": "Primary README/package",
+      "scope": "Compatibility must be qualified."
+    },
+    {
+      "url": "https://polyhaven.com/license",
+      "method": "Official source license",
+      "scope": "CC0 content source."
+    },
+    {
+      "url": "https://docs.ambientcg.com/license/",
+      "method": "Official source license",
+      "scope": "CC0 content source."
+    },
+    {
+      "url": "https://gltf-transform.dev/cli",
+      "method": "Official docs",
+      "scope": "Optimization tools."
+    },
+    {
+      "url": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "method": "Creator's pack page",
+      "scope": "CC0 animal starting assets; no dual-stance feline guarantee."
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "method": "Primary README/license",
+      "scope": "Local optional generation; legacy 10-series build guidance."
+    },
+    {
+      "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "method": "Model card",
+      "scope": "CreativeML OpenRAIL-M; not CC0."
+    },
+    {
+      "url": "https://github.com/VAST-AI-Research/TripoSR",
+      "method": "Primary README/license",
+      "scope": "Optional simple-prop reconstruction; no successful local run."
+    },
+    {
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "method": "Primary README/license",
+      "scope": "Official hardware/platform requirements exceed selected baseline."
+    },
+    {
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+      "method": "Primary README",
+      "scope": "Not selected for local baseline; own terms and resource requirements."
+    },
+    {
+      "url": "https://higgsfield.ai/terms-of-use-agreement",
+      "method": "Current primary terms",
+      "scope": "Exported output rights survive cancellation; model-training reuse restricted."
+    }
+  ],
+  "notPerformed": [
+    "Asset/tool installs",
+    "Generation runs",
+    "Paid API calls or subscription changes",
+    "Engine migration",
+    "New KittyMech runtime tests",
+    "Public release switch",
+    "Goal resumption",
+    "Original Unreal access/deletion"
+  ],
+  "researchReview": {
+    "verdict": "APPROVE_RESEARCH",
+    "file": "docs/research/critic-review-20261009.md",
+    "scope": "One static pass, four focused local implementation reads and one primary-source batch. No implementation, runtime quality or release approval. Root incorporated the nonblocking qualifications and clarified installed adapter compatibility afterward."
+  }
+}

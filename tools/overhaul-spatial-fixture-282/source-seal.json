@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_NUMERIC_FAILURE_STOP",
+  "files": [
+    {
+      "path": "tools/overhaul-spatial-fixture-282/check282.py",
+      "bytes": 1740,
+      "sha256": "7e506c083380ebc2416987ae8479ef7af7adba6f803036f8dbeee59e7b896b1f"
+    },
+    {
+      "path": "tools/overhaul-spatial-fixture-282/prepare282.py",
+      "bytes": 2802,
+      "sha256": "7086da7a6f9e1094e7e4f056327d8e91de2dc47ec49e82923c1ab05d9326bb8a"
+    },
+    {
+      "path": "tools/overhaul-spatial-fixture-282/terminal282.json",
+      "bytes": 1091,
+      "sha256": "92a9d6face4057ba36e0918891db116ee4a5225ac8c858d81d1d5125b9391b77"
+    },
+    {
+      "path": "tools/overhaul-spatial-fixture-282/test282.ts",
+      "bytes": 4712,
+      "sha256": "82bf4bad2bc5cab7d1f869e3b0f393f2abd95e360b4604653d27697c151bbdfb"
+    }
+  ]
+}

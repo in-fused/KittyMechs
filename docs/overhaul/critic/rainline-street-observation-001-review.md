@@ -1,0 +1,33 @@
+# Rainline street observation 001 — independent ordinary review
+
+Actual review start **2026-10-10 10:41:11 UTC**; inclusive deadline **10:49:11 UTC**. Read existing selected receipts/source and viewed existing pixels only; no gameplay, native query, build, capture, extraction, bake, correction or retry.
+
+**ACCEPT a useful, limited ordinary presentation increment and observed intact client agreement. DENY street gameplay/native admission, full district/city presentation and Gate1.** The observation stopped without establishing generator contact; damage/wreck phases never ran. It does not override the earlier failed support query.
+
+This is the separate root-authorized observation001/private016, after correction001 closed. It is not successful execution of original failed street001. Root's private build receipt identifies331 files/84,647,755 bytes and SHA256 `244e510d1818a7f9d1f7461fb814932547b54122d470845031f9ad2ee24d5b84`; build015 remains playable authority. Ordinary receipt SHA256 is `EAF287BE2E30604429AC2D36EB21BA7021C5EA4625A418470358A15F30BA695`. Actual probe interval **10:38:07.755–10:39:03.247 UTC**, room **902F65**, status **FAIL_STOP**, errors[]; no second attempt.
+
+Viewed mandatory existing host/guest West intact PNGs, host-solid-contact PNG, both failure PNGs and both3×4 temporal boards. Boards sample the retained host/guest videos every5s across their approximately57s/56.36s spans. Startup/loading and padding cells are distinct from gameplay. This is sampled temporal evidence, not full video inspection or proof of continuous smoothness/contact.
+
+## Ordinary visual judgment
+
+The industrial kit is useful in the real camera. Valves and upright manifold pipes, coiled reel, labeled cases, red repair trolley and wheeled tool cart have distinct silhouettes and enough seams/handles/wheels to communicate their purpose. Ochre, cobalt, red and dark steel sit coherently beside West Storage. These objects improve the local loading-bay scale/readability beyond repeated architecture alone; labels are legible in the close host view. No obvious gross source/render offset is visible in these intact views, although pixels alone cannot certify ground contact.
+
+**Full-city presentation remains denied.** The guest's wider view and the temporal route show large empty asphalt areas, sparse perimeter trees, distant bare boundaries/portal and repeated clean facade bands. The equipment forms a tidy display row against shutters rather than a convincing populated working street. Surface finish remains clean and flat relative to the wet ground; variation and wear do not establish richer district atmosphere. Ten detailed props in one cluster do not qualify city density, Core/horizon masses or the complete art brief.
+
+Camera quality is mixed. The guest view gives readable whole mechs and surrounding equipment. The near host West view fills much of the lower frame with the mech and crops its feet/underside, limiting inspection of contact and obscuring foreground detail. Later side-wall views have clearer framing but no generator in the relevant contact view. Debug camera clear/zero-violation flags do not negate the observed crop. Mechs remain recognizable, but these sampled views do not demonstrate convincing gait, paw articulation, feline support, responsive R or cancel; no motion-quality approval follows.
+
+## What the failed hold actually establishes
+
+The probe reports “Ordinary forward hold did not stop against generator source hull.” It did receive ordinary forward input: recorded KeyW/forward1/strafe0/yaw0, connected clients and advancing native input sequences. At tick3016/time50.266667 the host is approximately **[−63.191228,.940154,24.902654]**; at tick3066/time51.1 it is **[−63.989394,.940276,19.250364]**. The generator remains enabled at **[−59.799999,.686500,24.322001]**, identity quaternion, convex shape9; source halfX is.825m.
+
+The approach therefore does not establish that the player was aligned with or held against that specific generator. The first held sample is already about3.39m west of its center, and the later path continues beside the facade. The setup return point is not captured immediately before the hold; sparse boards and these receipts cannot establish any earlier actual generator intersection. Classify this as a **failed contact probe with unverified approach/possible pilot drift**, not proven missing collision, prop pass-through, a native controller defect or universal traversal failure. The PNG filename/label “solid-contact” is not itself contact evidence. Source placement or collision tuning is unjustified from this failed assertion.
+
+No pulse attack or persistent wreck phase executed. Consequently generator damage, host/guest retirement, native mass/inertia/work, settlement/support/wake, wreck navigation/reentry and actual destruction appearance remain unobserved. The original contradictory world-space terrain contact receipt remains failed and unqualified; an ordinary view of equipment does not repair it.
+
+## Limited replicated-state evidence and performance
+
+Six actual same-clock pairs at ticks **899/2848/3016/3066/3092/3136** have exactly equal complete actor and structure JSON between clients. At tick2848 both local client street diagnostics contain10 enabled convex owners with matching ID/shape/position/quaternion; no mismatch was found. The actual selected renderer reports **3 material groups** on both clients, within the four-material ceiling; do not report four executed batches merely because the source kit contains four materials. Both clients are Connected/playing with no transport error. These are intact replication and client-collider observations, not server support/force measurements or wreck agreement.
+
+Selected raw samples report46–49fps,177–179 calls and approximately1.489–1.527 million triangles. A viewed close host PNG separately displays48fps/177 calls/1.756 million triangles; these different camera/clock observations should not be merged into a single fixed load. No matched before/after performance comparison, smooth60 proof, GPU attribution or complete scene-budget approval exists. The coarse boards cannot resolve microstutter or foot skating.
+
+One next requirement is truthful owner-specific contact evidence from an actually established approach, together with a resolved native support witness, before any solid/damage admission. This review grants **no further probe, correction, source bake or candidate**. Preserve the stopped observation and all raw evidence. Source/R, four-paw support, climb/pairs, missions, full city/art/performance and Gate1/four-mech/three-map scope remain **INCOMPLETE**, counts unchanged.

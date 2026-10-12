@@ -1,0 +1,105 @@
+{
+  "task": "transformFeedback008",
+  "closedUtc": "2026-10-10T17:54:43.5571624Z",
+  "status": "COMBINED_NATIVE_GATE_FAILURE_STOP",
+  "repairRun": false,
+  "heavyJobs": 0,
+  "sourceSealSha256": "bc991a9864f2f842cc2455a70387d9a8c1b6dd6723e806fc5f8be93778a7ae3b",
+  "sourceRows": [
+    {
+      "path": "shared/types.ts",
+      "sha256": "0ba142df218358b1a5caf79eb1f6ef659942508fff3bd1c19b56fde29bfad359",
+      "matches": true
+    },
+    {
+      "path": "shared/stanceFeedback.ts",
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d",
+      "matches": true
+    },
+    {
+      "path": "shared/protocol.ts",
+      "sha256": "1189d00cd2db6b579d96805bdd5880b44dc5521a9bfbac055508104fe1336c9d",
+      "matches": true
+    },
+    {
+      "path": "shared/simulation.ts",
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298",
+      "matches": true
+    },
+    {
+      "path": "src/game/input.ts",
+      "sha256": "10dfd8799751219202afdc1d4250b14a5d55bf3a349a303c81c47a4c7fbd44fe",
+      "matches": true
+    },
+    {
+      "path": "src/game/stanceRequest.ts",
+      "sha256": "2e4b6c8e4ccaebf5493a9e0b4d2b45ed5b7f204105e870ee7dee5fd5644ffa7f",
+      "matches": true
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "sha256": "fa0b7b249985f8851ba69a1399509910ab70d25552362271a1bbf583d22bbd68",
+      "matches": true
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "sha256": "80fb95973f2a04b7982cf187f60e8abcb865137da942f0468404140d42015cec",
+      "matches": true
+    },
+    {
+      "path": "tests/transform-feedback-008.test.ts",
+      "sha256": "5e3ffe25f4cd42e0457814784db14768dbcf8e8b88fae9baacb2675079bb414e",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/transform-feedback-008.md",
+      "sha256": "2b921016711fbbd31ae976283e24c8a3f21375b2b7f2266c0eeb040b301f2c95",
+      "matches": true
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\shared__types.ts",
+      "sha256": "8bcd22cb38d33bcade08d729a457d6912052cf45273e1518f7b76f660b213dcf",
+      "matches": true
+    },
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\shared__protocol.ts",
+      "sha256": "dd7888228590034743dcd22fa899d58e97b0bb97e13ffdb5f0d80271544383f4",
+      "matches": true
+    },
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\shared__simulation.ts",
+      "sha256": "41cdbec5aea64bc5008a164e113befc6ea8cea0924706eae5771c5f49a58aca8",
+      "matches": true
+    },
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\src__game__input.ts",
+      "sha256": "da221ee85f51bdd2c9095352442557d25be3f82ee9662291346a8c2d2e18f29b",
+      "matches": true
+    },
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\src__game__snapshotAdmission.ts",
+      "sha256": "0fb55b3483c515816d5f9dced1c446ef3918e86620f9f5e2db8e4e2f660fe398",
+      "matches": true
+    },
+    {
+      "path": "tools\\overhaul-transform-feedback-008\\preimages\\src__ui__Hud.tsx",
+      "sha256": "89d31655419840f72fc7de097c5cfcb7d755e0bccb3af3290b53f5c24c9ecc33",
+      "matches": true
+    }
+  ],
+  "compiler": {
+    "exitCode": 0,
+    "seconds": 17.0983775
+  },
+  "native": {
+    "exitCode": 1,
+    "seconds": 12.4178808,
+    "newPassed": 6,
+    "legacyPassed": 6,
+    "legacyFailed": 6
+  },
+  "cause": "Exact failing native rejection/contact UNKNOWN; emptyInput unchanged and legacy request omitted",
+  "ordinary": "UNRUN_UNACCEPTED"
+}

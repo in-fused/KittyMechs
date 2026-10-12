@@ -1,0 +1,57 @@
+{
+  "command": [
+    "node",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-delivery-206\\convert206.mjs"
+  ],
+  "capSeconds": 15,
+  "protectedBefore": [
+    {
+      "path": "tools/overhaul-delivery-206/source-seal.json",
+      "sha256": "7838a1577f6c14c6678e1cd76eb1d90783248566b219e79617ab09413ac3a4a0",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762",
+      "match": true
+    }
+  ],
+  "startedUTC": "2026-10-11T20:59:45.259949+00:00",
+  "pid": 372388,
+  "exitCode": 1,
+  "status": "TERMINAL",
+  "protectedAfter": [
+    {
+      "path": "tools/overhaul-delivery-206/source-seal.json",
+      "sha256": "7838a1577f6c14c6678e1cd76eb1d90783248566b219e79617ab09413ac3a4a0",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "sha256": "825f13b1fda3fc80ee1b29431c7c19d602699752a0cbc03d38e2027d7d116762",
+      "match": true
+    }
+  ],
+  "elapsedSeconds": 0.6720000000204891,
+  "closedUTC": "2026-10-11T20:59:45.931777+00:00"
+}

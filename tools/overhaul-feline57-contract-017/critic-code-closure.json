@@ -1,0 +1,13 @@
+{
+  "startUtc": "2026-10-10T19:03:16Z",
+  "closedUtc": "2026-10-10T19:05:53.8601051Z",
+  "packetHardUtc": "2026-10-10T19:18:00Z",
+  "verdict": "APPROVE_ONE_ROOT_SERIAL_SOURCE_READBACK_ONLY",
+  "review": "docs/overhaul/critic/feline57-contract-017-code-review.md",
+  "reviewSha256": "79A58FD94B0DD0F6F16EA5EDABF5CE6104124ECFCEB54703DD7ECB264A18DC93",
+  "sealSha256": "CDC930AD2BC89D8B700E9B2C158225AED9849BFE8A07B35B505A0C038B562257",
+  "matchedRows": 13,
+  "criticExecutedJobs": 0,
+  "nativeAdmission": false,
+  "gate1": "INCOMPLETE"
+}

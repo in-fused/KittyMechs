@@ -1,0 +1,148 @@
+{
+  "schema": "street-native-qualification-design-001",
+  "status": "DESIGN_ONLY_UNIMPLEMENTED_UNRUN",
+  "actualStartUtc": "2026-10-10T11:45:05Z",
+  "hardDeadlineUtc": "2026-10-10T12:05:05Z",
+  "decision": "Complete original ten West props through actual production damage, dynamic wreck, persistence, navigation and guest collision lifecycle",
+  "document": "docs/overhaul/street-native-qualification-design-001.md",
+  "productionSeed": 7734,
+  "productionMode": "pvp",
+  "productionOptions": "default",
+  "originalPropIds": [
+    "street001:west-loading:00",
+    "street001:west-loading:01",
+    "street001:west-loading:02",
+    "street001:west-loading:03",
+    "street001:west-loading:04",
+    "street001:west-loading:05",
+    "street001:west-loading:06",
+    "street001:west-loading:07",
+    "street001:west-loading:08",
+    "street001:west-loading:09"
+  ],
+  "massKg": [
+    240,
+    75,
+    650,
+    220,
+    180,
+    180,
+    420,
+    85,
+    60,
+    35
+  ],
+  "nativeSteps": {
+    "host": 480,
+    "guest": 120,
+    "total": 600,
+    "guestCadenceHostTicks": 4,
+    "dtSeconds": 0.016666666666666666,
+    "extraInitializationSteps": 0
+  },
+  "publicWeaponRequests": {
+    "actors": "ten nonbot bastion quadrupeds",
+    "pulseHostTicks": [
+      20,
+      32,
+      44,
+      56,
+      68
+    ],
+    "requests": 50,
+    "spawnXZ": [
+      [
+        -50.8,
+        33
+      ],
+      [
+        -53,
+        33
+      ],
+      [
+        -67,
+        24.3
+      ],
+      [
+        -66,
+        26.2
+      ],
+      [
+        -58.8,
+        33
+      ],
+      [
+        -56.6,
+        17
+      ],
+      [
+        -54.7,
+        17
+      ],
+      [
+        -62,
+        17
+      ],
+      [
+        -44,
+        25
+      ],
+      [
+        -55,
+        35
+      ]
+    ],
+    "spawnStatus": "PROPOSED_UNVERIFIED_INITIAL_SETUP_ONLY",
+    "aim": "current public actor gun-base to current intact target",
+    "directDamageMutationAllowed": false
+  },
+  "deadlines": {
+    "allTenProductionDetachedByHostTick": 100,
+    "allTenProductionSettledByHostTick": 400,
+    "quietPersistenceThrough": 432,
+    "evictAt": 433,
+    "returnAt": 449,
+    "finalTick": 480
+  },
+  "navCheckpoints": [
+    16,
+    100,
+    240,
+    400,
+    432,
+    449,
+    480
+  ],
+  "nativeWallWatchdog": {
+    "seconds": 180,
+    "mechanism": "Proposed independent Windows Job Object owner; suspended child assigned before Resume; exclusive kill-on-close nonbreakaway job",
+    "implemented": false,
+    "verified": false,
+    "externalStopNativeCleanup": "UNKNOWN"
+  },
+  "artifact": {
+    "format": "append-only compact NDJSON with initial content-addressed geometry once",
+    "capBytes": 134217728,
+    "failureReserveBytes": 33554432,
+    "rawBeforeFiniteValidation": true,
+    "noFullReceiptPerRowRewrite": true
+  },
+  "futureCommands": {
+    "focusedCompile": "node node_modules/typescript/bin/tsc -p tools/overhaul-street-native-qualification-001/tsconfig.json",
+    "nativeJob": "One separately implemented and reviewed externally watched fixture, command frozen before implementation gate",
+    "exist": false,
+    "authorized": false
+  },
+  "firstGenuineFailure": "STOP_PRESERVE_NO_REPAIR_NO_RERUN",
+  "admission": "DENIED_PENDING_IMPLEMENTATION_AND_ACTUAL_GATES",
+  "unknowns": [
+    "public shooter placement clearance/LOS and actual accepted impacts",
+    "Node import of actual exported TSX guest collision owner",
+    "watchdog implementation and enforceable process ownership",
+    "actual ten-prop settle and persistent native witnesses",
+    "actual nav corridor/cache correctness",
+    "guest protocol/display collision agreement",
+    "calibrated physical COM/material energy",
+    "browser transport/render and four-mech three-map full task"
+  ]
+}

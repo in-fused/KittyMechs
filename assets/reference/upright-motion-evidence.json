@@ -1,0 +1,13 @@
+{
+  "scope": "Four player upright walk/stride and signed turn actions appended to retained scenes; no geometry generation or Sentinel export",
+  "clips": ["FelineUprightWalkLong", "FelineUprightStride", "FelineUprightTurnLeft", "FelineUprightTurnRight"],
+  "retainedPlayerClips": 28,
+  "playerClipCount": 32,
+  "sentinelClipCount": 17,
+  "sourceCompositionSamplesPerChassis": 648,
+  "runtimeActionIndices": [16, 17, 18, 19],
+  "runtime": "Pooled realized-speed hysteresis/blends, weighted physical cycle travel, presented-distance gait phase, signed actual angular-travel turn phase. Conservative raised-limb support is shared by all three existing contact passes. Quad/form/traversal/combat behavior and authority root/input remain intact.",
+  "preservation": "Root-owned upright-preservation-evidence.json independently compares decoded geometry, skin, bind, hierarchy/local transforms, materials/textures and every retained clip; exact zero numerical error; all 25 unrelated GLBs byte-identical.",
+  "contact": "upright-contact-evidence.json records 6912 actual shipping hind-foot samples, independently differing gait/turn phases and full-weight additive reactions, production five-ray/rigid IK on a real fixed Rapier floor, all 8 final paw corners and 44424288 central-bone vertex samples.",
+  "limits": "Source mixed soles require procedural correction; pre-IK min floor remains explicitly recorded. Fixed-floor tests do not qualify moving authority trajectories, uneven/absent supports, carrier/aim composition, rendered appearance or networking. Lynx running flight is authored release while authority grounding remains truthful. Rapid authority yaw remains unchanged. Independent production review is required."
+}

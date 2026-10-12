@@ -1,0 +1,28 @@
+{
+  "scope": "one scoped source type and directed geometry suite30; no native game/browser/build",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-lamp-navigation-279\\tsconfig279.json"
+      ],
+      "cap": 15,
+      "exit": 0,
+      "seconds": 2.3910000000614673
+    },
+    {
+      "name": "suite",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-lamp-navigation-279\\lamp279.test.ts"
+      ],
+      "cap": 30,
+      "exit": 0,
+      "seconds": 0.6559999999590218
+    }
+  ]
+}

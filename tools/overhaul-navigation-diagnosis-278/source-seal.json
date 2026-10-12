@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "status": "HIGH_CONFIDENCE_PLANNER_OMITS_RETAINED_NATIVE_LAMP_COLLIDER",
+  "files": [
+    {
+      "path": "docs/overhaul/navigation278-diagnosis.md",
+      "bytes": 4628,
+      "sha256": "475f1cd4807f38c0dc0930eba8a87bd742ff82407e3b60403470bff69cef1d3f"
+    },
+    {
+      "path": "tools/overhaul-navigation-diagnosis-278/diagnose278.py",
+      "bytes": 9567,
+      "sha256": "049a0288edbb6db7ec222a2d5b451093784dc8a5510bf3d4ab54be7191e25f44"
+    },
+    {
+      "path": "tools/overhaul-navigation-diagnosis-278/HANDOFF.md",
+      "bytes": 292,
+      "sha256": "b9fb5534e4dc9a9b731fd8ff0dd19d2c5429363a66a28923ab21bba57ba7ace1"
+    },
+    {
+      "path": "tools/overhaul-navigation-diagnosis-278/operands278.json",
+      "bytes": 22706,
+      "sha256": "474993051afccb781a763c1ab52189f43f15f705fe3ab6516dcf72b075b49fa1"
+    }
+  ]
+}

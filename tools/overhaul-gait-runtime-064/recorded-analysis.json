@@ -1,0 +1,5285 @@
+{
+  "scope": "Saved063 read-only CPU diagnosis; sample intervals bound switches, not frame/pad contact clocks",
+  "inputSHA256": "681a41d4113281521639d362052abe4db8826a854ca6a31b664264550e40f0c8",
+  "samples": 100,
+  "rows": [
+    {
+      "wallMs": 10495,
+      "segment": "launch",
+      "nativeTick": 428,
+      "nativeTime": 7.133333333333313,
+      "nativePosition": {
+        "x": -7.99999516158196,
+        "y": 0.9400999896987924,
+        "z": 21.99999731656847
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 6.8308400000572025,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.77183680567916e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.7475065077781498,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 10621,
+      "segment": "rest",
+      "nativeTick": 438,
+      "nativeTime": 7.299999999999979,
+      "nativePosition": {
+        "x": -7.999995161582159,
+        "y": 0.9400999173757737,
+        "z": 21.99999731661835
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 6.973280000114423,
+      "ownerMode": "quad",
+      "ownerSpeed": 3.831985102580998e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.8899465078353703,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 10866,
+      "segment": "rest",
+      "nativeTick": 456,
+      "nativeTime": 7.599999999999978,
+      "nativePosition": {
+        "x": -7.999995161502645,
+        "y": 0.9401000268643839,
+        "z": 21.999997316728088
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 7.330640000057203,
+      "ownerMode": "quad",
+      "ownerSpeed": 5.121045993805295e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.030639809322339433,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 11277,
+      "segment": "rest",
+      "nativeTick": 466,
+      "nativeTime": 7.766666666666644,
+      "nativePosition": {
+        "x": -7.999995161502845,
+        "y": 0.9400999545413652,
+        "z": 21.999997316777968
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 7.532359999942762,
+      "ownerMode": "quad",
+      "ownerSpeed": 6.764807474591129e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.2323598092078985,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 11520,
+      "segment": "rest",
+      "nativeTick": 495,
+      "nativeTime": 8.24999999999999,
+      "nativePosition": {
+        "x": -7.999995161443519,
+        "y": 0.9400999245571439,
+        "z": 21.999997316937584
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 7.82887999982832,
+      "ownerMode": "quad",
+      "ownerSpeed": 5.742261549528889e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.5288798090934571,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 11738,
+      "segment": "rest",
+      "nativeTick": 509,
+      "nativeTime": 8.483333333333334,
+      "nativePosition": {
+        "x": -7.999995161403862,
+        "y": 0.9400999431399396,
+        "z": 21.999997317017392
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 8.13231999988554,
+      "ownerMode": "quad",
+      "ownerSpeed": 6.764860115048564e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.8323198091506774,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 11959,
+      "segment": "rest",
+      "nativeTick": 521,
+      "nativeTime": 8.683333333333344,
+      "nativePosition": {
+        "x": -7.999995161364165,
+        "y": 0.9400999761873391,
+        "z": 21.999997317087225
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 8.390559999942761,
+      "ownerMode": "quad",
+      "ownerSpeed": 6.764910407458888e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 1.0905598092078974,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 12197,
+      "segment": "rest",
+      "nativeTick": 534,
+      "nativeTime": 8.900000000000022,
+      "nativePosition": {
+        "x": -7.999995161344456,
+        "y": 0.9400999420849258,
+        "z": 21.999997317157057
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 8.662840000057201,
+      "ownerMode": "quad",
+      "ownerSpeed": 6.764254563939828e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.14617311086652776,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 12432,
+      "segment": "rest",
+      "nativeTick": 550,
+      "nativeTime": 9.166666666666702,
+      "nativePosition": {
+        "x": -7.999995161304839,
+        "y": 0.9400999462031178,
+        "z": 21.99999731724684
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 8.952399999999985,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.971375428798966e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.4357331108093115,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 13054,
+      "segment": "forward",
+      "nativeTick": 584,
+      "nativeTime": 9.733333333333396,
+      "nativePosition": {
+        "x": -7.999995161225645,
+        "y": 0.940099939974898,
+        "z": 21.999997317436385
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "nativeSpeed": 0.0,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 9.67270474625183,
+      "ownerMode": "quad",
+      "ownerSpeed": 6.249362803795105e-10,
+      "gaitPhase": 0,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 1.1560378570611554,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 13271,
+      "segment": "forward",
+      "nativeTick": 601,
+      "nativeTime": 10.016666666666744,
+      "nativePosition": {
+        "x": -7.999991450613272,
+        "y": 0.9399999921023846,
+        "z": 21.03979973648804
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -6.757895996446261
+      },
+      "nativeSpeed": 6.757895996446261,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 9.897917090361911,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.576697738919894,
+      "gaitPhase": 0.22225675404347417,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.10927364907732441,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 13497,
+      "segment": "forward",
+      "nativeTick": 614,
+      "nativeTime": 10.233333333333421,
+      "nativePosition": {
+        "x": -7.999997988099817,
+        "y": 0.9400999593507732,
+        "z": 19.456459896314318
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.522322146349688
+      },
+      "nativeSpeed": 7.522322146349688,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 10.145774043187492,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.636803280423718,
+      "gaitPhase": 0.8904645225430529,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.16507742405744225,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 13725,
+      "segment": "forward",
+      "nativeTick": 629,
+      "nativeTime": 10.483333333333434,
+      "nativePosition": {
+        "x": -7.999997153546751,
+        "y": 0.9402076567766199,
+        "z": 17.56249819849747
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.595034220953008
+      },
+      "nativeSpeed": 7.595034220953008,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 10.377145315631035,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.86020061259767,
+      "gaitPhase": 0.6057916572063444,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11763194561758329,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 13933,
+      "segment": "forward",
+      "nativeTick": 641,
+      "nativeTime": 10.683333333333444,
+      "nativePosition": {
+        "x": -8.000002155166133,
+        "y": 0.9400621243311617,
+        "z": 16.04287898694294
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599449775997864
+      },
+      "nativeSpeed": 7.599449775997864,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 10.59235566462039,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.06190788071022,
+      "gaitPhase": 0.2767415391701938,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.06279025825671884,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 14151,
+      "segment": "forward",
+      "nativeTick": 653,
+      "nativeTime": 10.883333333333454,
+      "nativePosition": {
+        "x": -8.0000021745584,
+        "y": 0.940117701318668,
+        "z": 14.52293345485943
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599939033442756
+      },
+      "nativeSpeed": 7.599939033442756,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 10.806164875577956,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.047607611760096,
+      "gaitPhase": 0.9437693606465235,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.173961563906834,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 14381,
+      "segment": "forward",
+      "nativeTick": 668,
+      "nativeTime": 11.133333333333466,
+      "nativePosition": {
+        "x": -8.000000063905318,
+        "y": 0.9400999315129593,
+        "z": 12.622940512049372
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.59999610253839
+      },
+      "nativeSpeed": 7.59999610253839,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 11.023777815252636,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.989613896552633,
+      "gaitPhase": 0.622716476900017,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.12045274895240361,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 14610,
+      "segment": "forward",
+      "nativeTick": 681,
+      "nativeTime": 11.350000000000144,
+      "nativePosition": {
+        "x": -7.999999344149402,
+        "y": 0.9399999336546171,
+        "z": 10.976282478916819
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.59999964048805
+      },
+      "nativeSpeed": 7.59999964048805,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 11.250600756233942,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.675437371227355,
+      "gaitPhase": 0.3303997883466204,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.07173329995270042,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 14868,
+      "segment": "forward",
+      "nativeTick": 694,
+      "nativeTime": 11.566666666666821,
+      "nativePosition": {
+        "x": -8.000002217773874,
+        "y": 0.9402268924549572,
+        "z": 9.329634325254137
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599999966837687
+      },
+      "nativeSpeed": 7.599999966837687,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 11.483755502080482,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.110261919606944,
+      "gaitPhase": 0.05783639413521158,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.02630606673798413,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 15094,
+      "segment": "forward",
+      "nativeTick": 710,
+      "nativeTime": 11.833333333333501,
+      "nativePosition": {
+        "x": -8.000000010504504,
+        "y": 0.9401000197557733,
+        "z": 7.302970619547541
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599999998235123
+      },
+      "nativeSpeed": 7.599999998235123,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 11.720829763247893,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.929264717578367,
+      "gaitPhase": 0.7975050804492709,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.14958418341989452,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 15341,
+      "segment": "forward",
+      "nativeTick": 722,
+      "nativeTime": 12.03333333333351,
+      "nativePosition": {
+        "x": -8.000000010504504,
+        "y": 0.9400999844601029,
+        "z": 5.782970638621027
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599999999804446
+      },
+      "nativeSpeed": 7.599999999804446,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 11.946305781399829,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.681257918450477,
+      "gaitPhase": 0.5009902482556993,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1001650438004627,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 15595,
+      "segment": "forward",
+      "nativeTick": 737,
+      "nativeTime": 12.283333333333523,
+      "nativePosition": {
+        "x": -7.999995407835052,
+        "y": 0.9400995881823474,
+        "z": 3.882983730781252
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.5999999999874985
+      },
+      "nativeSpeed": 7.5999999999874985,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 12.196794944344992,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.24906899730661,
+      "gaitPhase": 0.28251276076995235,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.0637521285412615,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 15844,
+      "segment": "forward",
+      "nativeTick": 754,
+      "nativeTime": 12.56666666666687,
+      "nativePosition": {
+        "x": -8.000009194639429,
+        "y": 0.9400999876760762,
+        "z": 1.729698108184511
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -7.599999999999445
+      },
+      "nativeSpeed": 7.599999999999445,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 12.443047189459792,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.465415096781646,
+      "gaitPhase": 0.050801449597639214,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.025133575959882727,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 16563,
+      "segment": "backward",
+      "nativeTick": 795,
+      "nativeTime": 13.250000000000238,
+      "nativePosition": {
+        "x": -8.000034488762013,
+        "y": 0.940099967106944,
+        "z": -0.9037794287478214
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": -0.02810376424527016
+      },
+      "nativeSpeed": 0.02810376424527016,
+      "nativeYaw": 0,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 13.197779281874421,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.07733334562961022,
+      "gaitPhase": 0.719127109020083,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 1.0311122973163156,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 16801,
+      "segment": "backward",
+      "nativeTick": 812,
+      "nativeTime": 13.533333333333585,
+      "nativePosition": {
+        "x": -8.000030404744509,
+        "y": 0.9400999443331967,
+        "z": 0.169531202186608
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 6.897936899118689
+      },
+      "nativeSpeed": 6.897936899118689,
+      "nativeYaw": -2.781695430898626,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 13.432529069158496,
+      "ownerMode": "quad",
+      "ownerSpeed": 5.649621718288655,
+      "gaitPhase": 0.04858570943635798,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.02476428592612396,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 17023,
+      "segment": "backward",
+      "nativeTick": 824,
+      "nativeTime": 13.733333333333595,
+      "nativePosition": {
+        "x": -8.000029685770583,
+        "y": 0.9399999854812632,
+        "z": 1.6378164722218749
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.5222091910526965
+      },
+      "nativeSpeed": 7.5222091910526965,
+      "nativeYaw": -3.0928858610208136,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 13.644427969293362,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.138288103108554,
+      "gaitPhase": 0.6414125713179154,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.12356876474676033,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 17255,
+      "segment": "backward",
+      "nativeTick": 840,
+      "nativeTime": 14.000000000000275,
+      "nativePosition": {
+        "x": -8.000018728627664,
+        "y": 0.9400999051958207,
+        "z": 3.6583591534390685
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.5958600241522305
+      },
+      "nativeSpeed": 7.5958600241522305,
+      "nativeYaw": -3.1382083375441074,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 13.881529666328069,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.4087920004259065,
+      "gaitPhase": 0.3745131861331631,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.0790855330540702,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 17482,
+      "segment": "backward",
+      "nativeTick": 852,
+      "nativeTime": 14.200000000000285,
+      "nativePosition": {
+        "x": -8.000033617508944,
+        "y": 0.940250818488421,
+        "z": 5.178046791125798
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599541277600523
+      },
+      "nativeSpeed": 7.599541277600523,
+      "nativeYaw": -3.141134636219188,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 14.115174668261282,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.208410258476972,
+      "gaitPhase": 0.10297305225622688,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.03382884323160931,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 17704,
+      "segment": "backward",
+      "nativeTick": 867,
+      "nativeTime": 14.450000000000298,
+      "nativePosition": {
+        "x": -8.00003317174347,
+        "y": 0.9401848126816913,
+        "z": 7.077998368312382
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599970674858112
+      },
+      "nativeSpeed": 7.599970674858112,
+      "nativeYaw": -3.1415550572345574,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 14.351005368498084,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.26498358030218,
+      "gaitPhase": 0.8387206522477906,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.15645344551426443,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 17927,
+      "segment": "backward",
+      "nativeTick": 881,
+      "nativeTime": 14.683333333333643,
+      "nativePosition": {
+        "x": -8.000031721246252,
+        "y": 0.9399998882781074,
+        "z": 8.851336939503216
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599997748090402
+      },
+      "nativeSpeed": 7.599997748090402,
+      "nativeYaw": -3.1415890077972417,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 14.564338826781736,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.231650280364621,
+      "gaitPhase": 0.5043185427766379,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.10071975956428486,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 18152,
+      "segment": "backward",
+      "nativeTick": 894,
+      "nativeTime": 14.90000000000032,
+      "nativePosition": {
+        "x": -8.0000303874652,
+        "y": 0.9400999364715245,
+        "z": 10.498013181854748
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599999792278028
+      },
+      "nativeSpeed": 7.599999792278028,
+      "nativeYaw": -3.1415922359320128,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 14.800989122852528,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.706354595976741,
+      "gaitPhase": 0.24266938852591396,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.05711156637689833,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 18381,
+      "segment": "backward",
+      "nativeTick": 906,
+      "nativeTime": 15.10000000000033,
+      "nativePosition": {
+        "x": -8.000022392894506,
+        "y": 0.9399999529613706,
+        "z": 12.01798143820908
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.5999999769837485
+      },
+      "nativeSpeed": 7.5999999769837485,
+      "nativeYaw": -3.141592597065959,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 15.01141165724475,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.95055442319091,
+      "gaitPhase": 0.8991889481959299,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1665314950266726,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 18589,
+      "segment": "backward",
+      "nativeTick": 920,
+      "nativeTime": 15.333333333333675,
+      "nativePosition": {
+        "x": -8.000035677168867,
+        "y": 0.9402501228013717,
+        "z": 13.791306300331616
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599999998232557
+      },
+      "nativeSpeed": 7.599999998232557,
+      "nativeYaw": -3.1415926481085656,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 15.239557507947781,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.93076713528855,
+      "gaitPhase": 0.6109912700170197,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11849854776883756,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 18816,
+      "segment": "backward",
+      "nativeTick": 932,
+      "nativeTime": 15.533333333333685,
+      "nativePosition": {
+        "x": -8.00002045309128,
+        "y": 0.9400237275676046,
+        "z": 15.311305387188458
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599999999804162
+      },
+      "nativeSpeed": 7.599999999804162,
+      "nativeYaw": -3.1415926528479896,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 15.45937738008746,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.078236963287292,
+      "gaitPhase": 0.29682650973041935,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.06613775341244173,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 19043,
+      "segment": "backward",
+      "nativeTick": 947,
+      "nativeTime": 15.783333333333697,
+      "nativePosition": {
+        "x": -7.999848977945088,
+        "y": 0.9404450587953034,
+        "z": 17.211238889266514
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.59999999998748
+      },
+      "nativeSpeed": 7.59999999998748,
+      "nativeYaw": -3.1415926535289023,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 15.694827744180188,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.078113470451644,
+      "gaitPhase": 0.03140958061139054,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.021901597735307664,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 19275,
+      "segment": "backward",
+      "nativeTick": 960,
+      "nativeTime": 16.000000000000373,
+      "nativePosition": {
+        "x": -7.999851313034617,
+        "y": 0.940000024134788,
+        "z": 18.857867462803387
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599999999998845
+      },
+      "nativeSpeed": 7.599999999998845,
+      "nativeYaw": -3.141592653582818,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 15.919094330754307,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.62228508713994,
+      "gaitPhase": 0.7311060736190488,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1385176820753945,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 19507,
+      "segment": "backward",
+      "nativeTick": 974,
+      "nativeTime": 16.233333333333693,
+      "nativePosition": {
+        "x": -7.999872031606908,
+        "y": 0.9401141051766172,
+        "z": 20.63118491904881
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 7.599999999999911
+      },
+      "nativeSpeed": 7.599999999999911,
+      "nativeYaw": -3.1415926535891163,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 16.154095578002195,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.268908684254178,
+      "gaitPhase": 0.46430163453025386,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.09405027473232536,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 20232,
+      "segment": "left",
+      "nativeTick": 1021,
+      "nativeTime": 17.016666666666982,
+      "nativePosition": {
+        "x": -7.999858345005647,
+        "y": 0.940131451816269,
+        "z": 23.392589833699294
+      },
+      "nativeVelocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0.008751602790112955
+      },
+      "nativeSpeed": 0.008751602790112955,
+      "nativeYaw": -3.14159265358976,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 16.88723927877682,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.0702260114563004,
+      "gaitPhase": 0.04835877119923396,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 1.0705721988512842,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 20454,
+      "segment": "left",
+      "nativeTick": 1032,
+      "nativeTime": 17.200000000000305,
+      "nativePosition": {
+        "x": -8.737660284509358,
+        "y": 0.9400000469521911,
+        "z": 23.393192988673963
+      },
+      "nativeVelocity": {
+        "x": -6.384913929794325,
+        "y": 0,
+        "z": 0.0011080150740170622
+      },
+      "nativeSpeed": 6.3849140259348065,
+      "nativeYaw": -4.41570387722627,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 17.10607724227959,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.736312160137049,
+      "gaitPhase": 0.26167738032531157,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.12569891015046775,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 20660,
+      "segment": "left",
+      "nativeTick": 1043,
+      "nativeTime": 17.383333333333628,
+      "nativePosition": {
+        "x": -10.043739731778798,
+        "y": 0.9401400435580581,
+        "z": 23.393279337426993
+      },
+      "nativeVelocity": {
+        "x": -7.438274003068333,
+        "y": 0,
+        "z": 0.00014747501996331173
+      },
+      "nativeSpeed": 7.438274004530291,
+      "nativeYaw": -4.6649550414260945,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 17.323440989476662,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.669798031651806,
+      "gaitPhase": 0.8839354530209679,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.16398924578349253,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 20878,
+      "segment": "left",
+      "nativeTick": 1059,
+      "nativeTime": 17.65000000000028,
+      "nativePosition": {
+        "x": -12.057725313474831,
+        "y": 0.9401154637870787,
+        "z": 23.393323546874786
+      },
+      "nativeVelocity": {
+        "x": -7.591393048480738,
+        "y": 0,
+        "z": 7.848523868816816e-06
+      },
+      "nativeSpeed": 7.591393048484795,
+      "nativeYaw": -4.709093106600755,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 17.540612319590785,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.946114202781939,
+      "gaitPhase": 0.5516661612594455,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.10861102945840581,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 21082,
+      "segment": "left",
+      "nativeTick": 1072,
+      "nativeTime": 17.866666666666934,
+      "nativePosition": {
+        "x": -13.431743714382348,
+        "y": 0.9400012076047642,
+        "z": 23.58361700817752
+      },
+      "nativeVelocity": {
+        "x": -7.599206072506879,
+        "y": 0,
+        "z": 7.23968162934912e-07
+      },
+      "nativeSpeed": 7.599206072506914,
+      "nativeYaw": -4.712011408894056,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 17.75568050706723,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.643482263084375,
+      "gaitPhase": 0.22177125214764665,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.053628543582310756,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 21324,
+      "segment": "left",
+      "nativeTick": 1082,
+      "nativeTime": 18.03333333333359,
+      "nativePosition": {
+        "x": -14.30417190062016,
+        "y": 0.9399999813393106,
+        "z": 24.116284883467436
+      },
+      "nativeVelocity": {
+        "x": -7.599873067073994,
+        "y": 0,
+        "z": 1.1574784605981627e-07
+      },
+      "nativeSpeed": 7.599873067073995,
+      "nativeYaw": -4.712317666341782,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 17.967226745624092,
+      "ownerMode": "quad",
+      "ownerSpeed": 5.5131835595511705,
+      "gaitPhase": 0.9257712585762912,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1709618801725885,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 21528,
+      "segment": "left",
+      "nativeTick": 1098,
+      "nativeTime": 18.300000000000242,
+      "nativePosition": {
+        "x": -16.319726529886424,
+        "y": 0.9401000113901273,
+        "z": 24.17060233252856
+      },
+      "nativeVelocity": {
+        "x": -7.599993244712902,
+        "y": 0,
+        "z": 6.1600244759458465e-09
+      },
+      "nativeSpeed": 7.599993244712902,
+      "nativeYaw": -4.712384025238868,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 18.18802722619321,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.667894016616168,
+      "gaitPhase": 0.591284803300856,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11521413658830001,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 21744,
+      "segment": "left",
+      "nativeTick": 1109,
+      "nativeTime": 18.483333333333565,
+      "nativePosition": {
+        "x": -17.713053855468928,
+        "y": 0.9401886333833273,
+        "z": 24.170603227989282
+      },
+      "nativeVelocity": {
+        "x": -7.599999100882179,
+        "y": 0,
+        "z": 8.198893262986543e-10
+      },
+      "nativeSpeed": 7.599999100882179,
+      "nativeYaw": -4.712388188157234,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 18.408163669563272,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.438695434170196,
+      "gaitPhase": 0.27810113982292417,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.063016858369728,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 21951,
+      "segment": "left",
+      "nativeTick": 1123,
+      "nativeTime": 18.716666666666885,
+      "nativePosition": {
+        "x": -19.486383620073497,
+        "y": 0.9401543207421083,
+        "z": 24.17060404062548
+      },
+      "nativeVelocity": {
+        "x": -7.599999930955763,
+        "y": 0,
+        "z": 6.296019470063978e-11
+      },
+      "nativeSpeed": 7.599999930955763,
+      "nativeYaw": -4.712388903560835,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 18.604787688845168,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.589505558646767,
+      "gaitPhase": 0.8915670454081815,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1652611778717197,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 22162,
+      "segment": "left",
+      "nativeTick": 1135,
+      "nativeTime": 18.916666666666874,
+      "nativePosition": {
+        "x": -20.22995582362509,
+        "y": 0.9401768549831059,
+        "z": 24.17091112964703
+      },
+      "nativeVelocity": {
+        "x": -7.59999999234968,
+        "y": 0,
+        "z": 6.9761884239383685e-12
+      },
+      "nativeSpeed": 7.59999999234968,
+      "nativeYaw": -4.712388969987711,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 18.820536075996323,
+      "ownerMode": "quad",
+      "ownerSpeed": 5.767221622131409,
+      "gaitPhase": 0.5458625939171435,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.10764376821667218,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 22665,
+      "segment": "right",
+      "nativeTick": 1163,
+      "nativeTime": 19.383333333333514,
+      "nativePosition": {
+        "x": -20.229992875003035,
+        "y": 0.9401776159392466,
+        "z": 24.170633430369353
+      },
+      "nativeVelocity": {
+        "x": -0.4621564759268978,
+        "y": 0,
+        "z": 2.2576840906021266e-14
+      },
+      "nativeSpeed": 0.4621564759268978,
+      "nativeYaw": -4.712388979662271,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 19.31002044058595,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.0005858888384618453,
+      "gaitPhase": 0.5458625939171435,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 1.0600199637487941,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 22873,
+      "segment": "right",
+      "nativeTick": 1177,
+      "nativeTime": 19.616666666666834,
+      "nativePosition": {
+        "x": -19.504759233011526,
+        "y": 0.9400999562266589,
+        "z": 24.170708574174704
+      },
+      "nativeVelocity": {
+        "x": 6.355857585271359,
+        "y": 0,
+        "z": 1.4194336805296777e-15
+      },
+      "nativeSpeed": 6.355857585271359,
+      "nativeYaw": -2.1641665329752766,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 19.529990338277255,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.8564804607893715,
+      "gaitPhase": 0.7798420221903362,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.3416008458694894,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 23097,
+      "segment": "right",
+      "nativeTick": 1190,
+      "nativeTime": 19.83333333333349,
+      "nativePosition": {
+        "x": -17.951687957658095,
+        "y": 0.9400149138372581,
+        "z": 24.1707114721225
+      },
+      "nativeVelocity": {
+        "x": 7.4852370823513485,
+        "y": 0,
+        "z": 1.3093223786754295e-16
+      },
+      "nativeSpeed": 7.4852370823513485,
+      "nativeYaw": -1.6387721316746235,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 19.748534874230835,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.655353910429017,
+      "gaitPhase": 0.416937791388502,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.08615630072833,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 23336,
+      "segment": "right",
+      "nativeTick": 1202,
+      "nativeTime": 20.033333333333477,
+      "nativePosition": {
+        "x": -16.440141196860594,
+        "y": 0.9401238116178502,
+        "z": 24.170712567741965
+      },
+      "nativeVelocity": {
+        "x": 7.587283906261653,
+        "y": 0,
+        "z": 1.4507705487172143e-17
+      },
+      "nativeSpeed": 7.587283906261653,
+      "nativeYaw": -1.579995851601531,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 19.978591488706673,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.916903264713173,
+      "gaitPhase": 0.12492942063257909,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.03748823802916289,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 23571,
+      "segment": "right",
+      "nativeTick": 1218,
+      "nativeTime": 20.30000000000013,
+      "nativePosition": {
+        "x": -14.414473738087935,
+        "y": 0.9401076587263743,
+        "z": 24.170728447526848
+      },
+      "nativeVelocity": {
+        "x": 7.599323257828693,
+        "y": 0,
+        "z": 7.720905738894762e-19
+      },
+      "nativeSpeed": 7.599323257828693,
+      "nativeYaw": -1.5714355415280712,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 20.210618282323367,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.3317633921851275,
+      "gaitPhase": 0.8481142013161246,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.15801903705481485,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 23784,
+      "segment": "right",
+      "nativeTick": 1231,
+      "nativeTime": 20.516666666666783,
+      "nativePosition": {
+        "x": -12.767861168398184,
+        "y": 0.9401281552845103,
+        "z": 24.17072758299129
+      },
+      "nativeVelocity": {
+        "x": 7.599937575549908,
+        "y": 0,
+        "z": 7.121963362040358e-20
+      },
+      "nativeSpeed": 7.599937575549908,
+      "nativeYaw": -1.570869554495792,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 20.440947249214148,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.085284761174849,
+      "gaitPhase": 0.5666816998874541,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11111361927635495,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 23996,
+      "segment": "right",
+      "nativeTick": 1243,
+      "nativeTime": 20.71666666666677,
+      "nativePosition": {
+        "x": -11.247870724214835,
+        "y": 0.940099927370211,
+        "z": 24.17071335971609
+      },
+      "nativeVelocity": {
+        "x": 7.59999308317377,
+        "y": 0,
+        "z": 7.89136034254898e-21
+      },
+      "nativeSpeed": 7.59999308317377,
+      "nativeYaw": -1.5708062370865379,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 20.662585150702093,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.838369725823839,
+      "gaitPhase": 0.2581845669753493,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.05969742949996967,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 24222,
+      "segment": "right",
+      "nativeTick": 1258,
+      "nativeTime": 20.966666666666757,
+      "nativePosition": {
+        "x": -9.347886215462012,
+        "y": 0.9400998968912245,
+        "z": 24.170735710181763
+      },
+      "nativeVelocity": {
+        "x": 7.599999557822093,
+        "y": 0,
+        "z": 5.044777887105879e-22
+      },
+      "nativeSpeed": 7.599999557822093,
+      "nativeYaw": -1.5707971402811722,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 20.870768282122363,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.130769542556143,
+      "gaitPhase": 0.9077164033870754,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1679527375850029,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 24441,
+      "segment": "right",
+      "nativeTick": 1269,
+      "nativeTime": 21.15000000000008,
+      "nativePosition": {
+        "x": -7.954558502449316,
+        "y": 0.9400999427297575,
+        "z": 24.170733664914515
+      },
+      "nativeVelocity": {
+        "x": 7.599999941146833,
+        "y": 0,
+        "z": 6.714518033713652e-23
+      },
+      "nativeSpeed": 7.599999941146833,
+      "nativeYaw": -1.5707964568548758,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 21.092122008283404,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.872922000531484,
+      "gaitPhase": 0.5983307523875694,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11638846145795909,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 25106,
+      "segment": "turn-left",
+      "nativeTick": 1306,
+      "nativeTime": 21.766666666666712,
+      "nativePosition": {
+        "x": -5.198323237858375,
+        "y": 0.9401000592142009,
+        "z": 24.170762111475206
+      },
+      "nativeVelocity": {
+        "x": 0.09024879024679201,
+        "y": 0,
+        "z": 2.9408363052576045e-26
+      },
+      "nativeSpeed": 0.09024879024679201,
+      "nativeYaw": -1.5707963332702017,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 21.72091212450248,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.21219127606358976,
+      "gaitPhase": 0.14307599413225533,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineWalk",
+          "time": 0.15974265926965814,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 25325,
+      "segment": "turn-left",
+      "nativeTick": 1325,
+      "nativeTime": 22.08333333333336,
+      "nativePosition": {
+        "x": -5.46322192458635,
+        "y": 0.9400998506452379,
+        "z": 23.25440256160946
+      },
+      "nativeVelocity": {
+        "x": -2.53542996445987,
+        "y": 0,
+        "z": -6.229059236414129
+      },
+      "nativeSpeed": 6.7252943486093715,
+      "nativeYaw": 0.11748730166280667,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 21.975011296900202,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.7427755722351135,
+      "gaitPhase": 0.41737026500935503,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.19057094591882018,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 25534,
+      "segment": "turn-left",
+      "nativeTick": 1338,
+      "nativeTime": 22.300000000000015,
+      "nativePosition": {
+        "x": -6.327148759944492,
+        "y": 0.9401515246708368,
+        "z": 21.9579946310565
+      },
+      "nativeVelocity": {
+        "x": -5.19188297850476,
+        "y": 0,
+        "z": -5.3050428673785985
+      },
+      "nativeSpeed": 7.422878733160876,
+      "nativeYaw": 0.7238383168172943,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 22.19524779131855,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.539840866866379,
+      "gaitPhase": 0.012693689277151421,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.018782282454832704,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 25752,
+      "segment": "turn-left",
+      "nativeTick": 1350,
+      "nativeTime": 22.500000000000004,
+      "nativePosition": {
+        "x": -7.558066258413845,
+        "y": 0.9399999784645116,
+        "z": 21.130616991345597
+      },
+      "nativeVelocity": {
+        "x": -6.854096967247768,
+        "y": 0,
+        "z": -2.977520953223672
+      },
+      "nativeSpeed": 7.472902800339441,
+      "nativeYaw": 1.136764772627209,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 22.41273515673348,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.636079667257018,
+      "gaitPhase": 0.6745274138425191,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.12908790527032962,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 25966,
+      "segment": "turn-left",
+      "nativeTick": 1363,
+      "nativeTime": 22.716666666666658,
+      "nativePosition": {
+        "x": -9.137921700460964,
+        "y": 0.9401798586322184,
+        "z": 20.821936026653567
+      },
+      "nativeVelocity": {
+        "x": -7.4780029286164975,
+        "y": 0,
+        "z": 0.03864705226997733
+      },
+      "nativeSpeed": 7.478102793827193,
+      "nativeYaw": 1.555745094403976,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 22.628516716645663,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.751616838556943,
+      "gaitPhase": 0.33674805028445537,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.07279134362871384,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 26177,
+      "segment": "turn-left",
+      "nativeTick": 1375,
+      "nativeTime": 22.916666666666647,
+      "nativePosition": {
+        "x": -10.599277632517868,
+        "y": 0.9400494300670471,
+        "z": 21.114445148473898
+      },
+      "nativeVelocity": {
+        "x": -7.000661775245469,
+        "y": 0,
+        "z": 2.674743913732129
+      },
+      "nativeSpeed": 7.4942324687342134,
+      "nativeYaw": 1.917395205257414,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 22.846954278602258,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.3367728096856375,
+      "gaitPhase": 0.007751853619877513,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.01795864316327891,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 26385,
+      "segment": "turn-left",
+      "nativeTick": 1388,
+      "nativeTime": 23.1333333333333,
+      "nativePosition": {
+        "x": -11.937348218841606,
+        "y": 0.9400749604564408,
+        "z": 22.012469819253603
+      },
+      "nativeVelocity": {
+        "x": -5.323513203297285,
+        "y": 0,
+        "z": 5.264675344135634
+      },
+      "nativeSpeed": 7.487095518612687,
+      "nativeYaw": 2.331774160322712,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 23.05852411997914,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.425416549010069,
+      "gaitPhase": 0.6577164597933828,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1262860795432855,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 26592,
+      "segment": "turn-left",
+      "nativeTick": 1401,
+      "nativeTime": 23.349999999999955,
+      "nativePosition": {
+        "x": -12.813248576803261,
+        "y": 0.9401883668096344,
+        "z": 23.365546709364573
+      },
+      "nativeVelocity": {
+        "x": -2.8635119368515385,
+        "y": 0,
+        "z": 6.928525084028739
+      },
+      "nativeSpeed": 7.496943407316524,
+      "nativeYaw": 2.7315145988688236,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 23.257882157797663,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.78561137783473,
+      "gaitPhase": 0.2703608959482348,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.06172681769991756,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 26797,
+      "segment": "turn-left",
+      "nativeTick": 1415,
+      "nativeTime": 23.583333333333275,
+      "nativePosition": {
+        "x": -13.062702852741012,
+        "y": 0.939999962602924,
+        "z": 25.07813751555077
+      },
+      "nativeVelocity": {
+        "x": 0.4675681227143932,
+        "y": 0,
+        "z": 7.475097695004265
+      },
+      "nativeSpeed": 7.489706636393493,
+      "nativeYaw": 3.1852015616070326,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 23.472273757554163,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.473917320649898,
+      "gaitPhase": 0.9290459957491344,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.17150766971156184,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 27004,
+      "segment": "turn-left",
+      "nativeTick": 1427,
+      "nativeTime": 23.783333333333264,
+      "nativePosition": {
+        "x": -12.666216009736189,
+        "y": 0.9401423539192547,
+        "z": 26.511756403809706
+      },
+      "nativeVelocity": {
+        "x": 3.2507280909530145,
+        "y": 0,
+        "z": 6.739343728402705
+      },
+      "nativeSpeed": 7.482378432749302,
+      "nativeYaw": 3.5716664860759146,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 23.670252224940644,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.501886978728831,
+      "gaitPhase": 0.5367741864539661,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.10612903361126182,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 27627,
+      "segment": "turn-right",
+      "nativeTick": 1461,
+      "nativeTime": 24.3499999999999,
+      "nativePosition": {
+        "x": -11.203583724712615,
+        "y": 0.9401827715500258,
+        "z": 28.14962437728682
+      },
+      "nativeVelocity": {
+        "x": 0.05467846285205727,
+        "y": 0,
+        "z": 0.04439973741145631
+      },
+      "nativeSpeed": 0.07043487049800035,
+      "nativeYaw": 4.0116134511001,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 24.29425245660905,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.1813731031210656,
+      "gaitPhase": 0.031834222932149984,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineWalk",
+          "time": 0.04850088993438831,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 27841,
+      "segment": "turn-right",
+      "nativeTick": 1475,
+      "nativeTime": 24.58333333333322,
+      "nativePosition": {
+        "x": -10.636973916876258,
+        "y": 0.9401725319711841,
+        "z": 28.626439897985257
+      },
+      "nativeVelocity": {
+        "x": 4.582510052219038,
+        "y": 0,
+        "z": 4.425502159374671
+      },
+      "nativeSpeed": 6.370593986538336,
+      "nativeYaw": 3.95979238078809,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 24.507053312158565,
+      "ownerMode": "quad",
+      "ownerSpeed": 4.504431698910834,
+      "gaitPhase": 0.2605187735002576,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.12521615730309843,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 28053,
+      "segment": "turn-right",
+      "nativeTick": 1488,
+      "nativeTime": 24.799999999999873,
+      "nativePosition": {
+        "x": -9.7823087641477,
+        "y": 0.9400999714143109,
+        "z": 29.900158962876596
+      },
+      "nativeVelocity": {
+        "x": 3.0671697012137287,
+        "y": 0,
+        "z": 6.746583728189256
+      },
+      "nativeSpeed": 7.4110675329207165,
+      "nativeYaw": 3.589985823674011,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 24.71934426688012,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.4272838087481405,
+      "gaitPhase": 0.8312346330611682,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1552057756265877,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 28264,
+      "segment": "turn-right",
+      "nativeTick": 1503,
+      "nativeTime": 25.04999999999986,
+      "nativePosition": {
+        "x": -9.471405599473172,
+        "y": 0.9400931905528706,
+        "z": 31.722319370777406
+      },
+      "nativeVelocity": {
+        "x": -0.32849776928049557,
+        "y": 0,
+        "z": 7.4858377778904615
+      },
+      "nativeSpeed": 7.493041973812389,
+      "nativeYaw": 3.1164561709655847,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 24.934766646642988,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.670093697268456,
+      "gaitPhase": 0.48606545714972205,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.09767757856980053,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 28479,
+      "segment": "turn-right",
+      "nativeTick": 1513,
+      "nativeTime": 25.216666666666516,
+      "nativePosition": {
+        "x": -9.746196995696181,
+        "y": 0.9401000069646398,
+        "z": 32.93398912128905
+      },
+      "nativeVelocity": {
+        "x": -2.705189164309033,
+        "y": 0,
+        "z": 6.97353788248806
+      },
+      "nativeSpeed": 7.479858221463229,
+      "nativeYaw": 2.7909372779893977,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 25.150666257620067,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.7300748380863125,
+      "gaitPhase": 0.14876478363147955,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.04146079860297433,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 28697,
+      "segment": "turn-right",
+      "nativeTick": 1526,
+      "nativeTime": 25.43333333333317,
+      "nativePosition": {
+        "x": -10.633218358477706,
+        "y": 0.9400999260923709,
+        "z": 34.2798214021037
+      },
+      "nativeVelocity": {
+        "x": -5.207049699959074,
+        "y": 0,
+        "z": 5.387347895851913
+      },
+      "nativeSpeed": 7.49245513358498,
+      "nativeYaw": 2.3917232571740588,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 25.366139547779653,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.529306498782065,
+      "gaitPhase": 0.8106313265031514,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.15177189113629047,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 28915,
+      "segment": "turn-right",
+      "nativeTick": 1540,
+      "nativeTime": 25.66666666666649,
+      "nativePosition": {
+        "x": -12.099786515554541,
+        "y": 0.9401659881968226,
+        "z": 35.198851170660056
+      },
+      "nativeVelocity": {
+        "x": -7.027917675814518,
+        "y": 0,
+        "z": 2.586892156558526
+      },
+      "nativeSpeed": 7.488900979962958,
+      "nativeYaw": 1.9423849800943331,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 25.57528573928666,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.311183193895136,
+      "gaitPhase": 0.45281384116685136,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.0921356424694288,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 29142,
+      "segment": "turn-right",
+      "nativeTick": 1553,
+      "nativeTime": 25.883333333333145,
+      "nativePosition": {
+        "x": -13.697515729090327,
+        "y": 0.9401088566500403,
+        "z": 35.404885870755244
+      },
+      "nativeVelocity": {
+        "x": -7.486711075936588,
+        "y": 0,
+        "z": -0.396676036225731
+      },
+      "nativeSpeed": 7.497212456124433,
+      "nativeYaw": 1.5360370372081835,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 25.80459012176763,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.385403543998687,
+      "gaitPhase": 0.15677539773887328,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.04279590097907484,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 29360,
+      "segment": "turn-right",
+      "nativeTick": 1565,
+      "nativeTime": 26.083333333333133,
+      "nativePosition": {
+        "x": -15.134376536330336,
+        "y": 0.9401576886211115,
+        "z": 35.01797699683957
+      },
+      "nativeVelocity": {
+        "x": -6.795002795692038,
+        "y": 0,
+        "z": -3.15746314614473
+      },
+      "nativeSpeed": 7.4927722848572405,
+      "nativeYaw": 1.1543403155355931,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 26.020196007501653,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.616540498843638,
+      "gaitPhase": 0.8193496994066272,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.15322495331393518,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 29566,
+      "segment": "turn-right",
+      "nativeTick": 1581,
+      "nativeTime": 26.349999999999785,
+      "nativePosition": {
+        "x": -16.638498316725844,
+        "y": 0.9399999002616096,
+        "z": 33.73986931273394
+      },
+      "nativeVelocity": {
+        "x": -4.314853988911865,
+        "y": 0,
+        "z": -6.103172796275259
+      },
+      "nativeSpeed": 7.474401857461438,
+      "nativeYaw": 0.6353686553686295,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 26.235598699331042,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.611343101228474,
+      "gaitPhase": 0.4812637062475719,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.0968772867378689,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30149,
+      "segment": "upright",
+      "nativeTick": 1612,
+      "nativeTime": 26.866666666666422,
+      "nativePosition": {
+        "x": -17.825138456627855,
+        "y": 1.179999900173625,
+        "z": 32.388070412098024
+      },
+      "nativeVelocity": {
+        "x": -0.026721022917490726,
+        "y": 0,
+        "z": -0.17723458170712283
+      },
+      "nativeSpeed": 0.17923757981700117,
+      "nativeYaw": 0.16803008859274637,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": -100,
+      "ownerRenderTime": 26.794410437817323,
+      "ownerMode": "quad",
+      "ownerSpeed": 0.39213271826773577,
+      "gaitPhase": 0.9260040465759878,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineWalk",
+          "time": 0.9426706985885364,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30399,
+      "segment": "upright",
+      "nativeTick": 1627,
+      "nativeTime": 27.116666666666408,
+      "nativePosition": {
+        "x": -18.095845098232047,
+        "y": 1.180026573230334,
+        "z": 32.03218131582398
+      },
+      "nativeVelocity": {
+        "x": -0.1415750021272304,
+        "y": 0,
+        "z": -4.223555199932049
+      },
+      "nativeSpeed": 4.225927354806324,
+      "nativeYaw": 0.05479860634080586,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.023306801365376,
+      "ownerMode": "transform",
+      "ownerSpeed": 2.1601432853621003,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.10472400195089296,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.07505219848518939,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30634,
+      "segment": "upright",
+      "nativeTick": 1643,
+      "nativeTime": 27.38333333333306,
+      "nativePosition": {
+        "x": -18.341898185058625,
+        "y": 1.179519382086637,
+        "z": 30.867111191853475
+      },
+      "nativeVelocity": {
+        "x": -0.1606272580977738,
+        "y": 0,
+        "z": -4.827370546517678
+      },
+      "nativeSpeed": 4.830042185057021,
+      "nativeYaw": 0.034747271537599565,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.279206893372805,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.001999193819744,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.47029556196150685,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.33704513965757327,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30846,
+      "segment": "upright",
+      "nativeTick": 1655,
+      "nativeTime": 27.583333333333048,
+      "nativePosition": {
+        "x": -18.385763253874273,
+        "y": 0.940056694343566,
+        "z": 29.898619451328706
+      },
+      "nativeVelocity": {
+        "x": -0.16157953765847535,
+        "y": 0,
+        "z": -4.857550752677013
+      },
+      "nativeSpeed": 4.860237366818923,
+      "nativeYaw": 0.033452633667622064,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.487966753025816,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.0906504928711485,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.7685239328943793,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.5507754638640937,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 31051,
+      "segment": "upright",
+      "nativeTick": 1669,
+      "nativeTime": 27.816666666666368,
+      "nativePosition": {
+        "x": -18.44717450914638,
+        "y": 0.940063711458988,
+        "z": 28.768415563508462
+      },
+      "nativeVelocity": {
+        "x": -0.16168908924685754,
+        "y": 0,
+        "z": -4.861022726306292
+      },
+      "nativeSpeed": 4.863711063298038,
+      "nativeYaw": 0.03326964978550376,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.715992108184846,
+      "ownerMode": "upright",
+      "ownerSpeed": 5.036257747838715,
+      "gaitPhase": 0.19155482486881453,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.0709405366990706,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 31254,
+      "segment": "upright",
+      "nativeTick": 1681,
+      "nativeTime": 28.016666666666357,
+      "nativePosition": {
+        "x": -18.479502774167003,
+        "y": 0.940130263617375,
+        "z": 27.79618079285283
+      },
+      "nativeVelocity": {
+        "x": -0.16169719190344134,
+        "y": 0,
+        "z": -4.861279520483367
+      },
+      "nativeSpeed": 4.863967984900852,
+      "nativeYaw": 0.0332526593092856,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.915395316924407,
+      "ownerMode": "upright",
+      "ownerSpeed": 5.058113761441728,
+      "gaitPhase": 0.6419366734267951,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.19854873210131438,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 31472,
+      "segment": "upright",
+      "nativeTick": 1693,
+      "nativeTime": 28.216666666666345,
+      "nativePosition": {
+        "x": -18.511834583102853,
+        "y": 0.9401450321596894,
+        "z": 26.82392470608611
+      },
+      "nativeVelocity": {
+        "x": -0.16169808970338195,
+        "y": 0,
+        "z": -4.861307974089237
+      },
+      "nativeSpeed": 4.863996452625899,
+      "nativeYaw": 0.033250359898374285,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 28.132782092528554,
+      "ownerMode": "upright",
+      "ownerSpeed": 4.668772786528449,
+      "gaitPhase": 0.13297122832858455,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.05434185036522409,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 31678,
+      "segment": "upright",
+      "nativeTick": 1706,
+      "nativeTime": 28.433333333333,
+      "nativePosition": {
+        "x": -18.546402508949058,
+        "y": 0.9401866283073286,
+        "z": 25.771135450109433
+      },
+      "nativeVelocity": {
+        "x": -0.16169819125891824,
+        "y": 0,
+        "z": -4.861311192647261
+      },
+      "nativeSpeed": 4.863999672781028,
+      "nativeYaw": 0.033250041229540596,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 28.347867955603345,
+      "ownerMode": "upright",
+      "ownerSpeed": 5.043259998820369,
+      "gaitPhase": 0.6185804413090922,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.1919311327431726,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 31893,
+      "segment": "upright",
+      "nativeTick": 1718,
+      "nativeTime": 28.63333333333299,
+      "nativePosition": {
+        "x": -18.578732026598544,
+        "y": 0.9401000173378815,
+        "z": 24.798873417779397
+      },
+      "nativeVelocity": {
+        "x": -0.1616982004351251,
+        "y": 0,
+        "z": -4.861311483465029
+      },
+      "nativeSpeed": 4.863999963743104,
+      "nativeYaw": 0.03325000557981046,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 28.55661909478883,
+      "ownerMode": "upright",
+      "ownerSpeed": 4.84965984066498,
+      "gaitPhase": 0.09010796455553918,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.04219725848914954,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 32113,
+      "segment": "upright",
+      "nativeTick": 1733,
+      "nativeTime": 28.883333333332974,
+      "nativePosition": {
+        "x": -18.78828293909052,
+        "y": 0.9399999308292717,
+        "z": 23.932404347464036
+      },
+      "nativeVelocity": {
+        "x": -0.1616982015054774,
+        "y": 0,
+        "z": -4.861311517387265
+      },
+      "nativeSpeed": 4.863999997682173,
+      "nativeYaw": 0.03325000045801758,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 28.765837272136043,
+      "ownerMode": "upright",
+      "ownerSpeed": 4.649513666733259,
+      "gaitPhase": 0.5626909072416146,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.17609576413971326,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 32678,
+      "segment": "quadruped",
+      "nativeTick": 1763,
+      "nativeTime": 29.383333333332946,
+      "nativePosition": {
+        "x": -19.47867008854834,
+        "y": 0.9401019520768568,
+        "z": 23.200594617520984
+      },
+      "nativeVelocity": {
+        "x": -0.0038666879401427065,
+        "y": 0,
+        "z": -0.11624850767029947
+      },
+      "nativeSpeed": 0.11631279728042877,
+      "nativeYaw": 0.03325000004441373,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 29.32327368642307,
+      "ownerMode": "upright",
+      "ownerSpeed": 0.26070624016698657,
+      "gaitPhase": 0.24069096846421686,
+      "ownerStance": 1,
+      "active": [
+        {
+          "name": "FelineUprightWalkLong",
+          "time": 0.1610812503180543,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 32899,
+      "segment": "quadruped",
+      "nativeTick": 1780,
+      "nativeTime": 29.666666666666263,
+      "nativePosition": {
+        "x": -19.444902881895786,
+        "y": 0.9400999993789991,
+        "z": 24.26818557689112
+      },
+      "nativeVelocity": {
+        "x": 0.22920777402925233,
+        "y": 0,
+        "z": 6.890926314679165
+      },
+      "nativeSpeed": 6.894737245030678,
+      "nativeYaw": 2.8149454309037134,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 29.559456025762348,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.85399606556372,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.7960152012913275,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.1461891000672759,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33131,
+      "segment": "quadruped",
+      "nativeTick": 1791,
+      "nativeTime": 29.849999999999586,
+      "nativePosition": {
+        "x": -19.40026352499578,
+        "y": 0.9401110457887807,
+        "z": 25.610136008357223
+      },
+      "nativeVelocity": {
+        "x": 0.24953285963035932,
+        "y": 0,
+        "z": 7.5019817983334764
+      },
+      "nativeSpeed": 7.506130664367767,
+      "nativeYaw": 3.1173023770119546,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 29.773839046466005,
+      "ownerMode": "transform",
+      "ownerSpeed": 7.191904453260635,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.4897537431432458,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.36567646988791863,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33352,
+      "segment": "quadruped",
+      "nativeTick": 1807,
+      "nativeTime": 30.116666666666237,
+      "nativePosition": {
+        "x": -19.333110591778194,
+        "y": 0.94019047411477,
+        "z": 27.628126686906036
+      },
+      "nativeVelocity": {
+        "x": 0.25248736472707695,
+        "y": 0,
+        "z": 7.590806346296787
+      },
+      "nativeSpeed": 7.595004335504122,
+      "nativeYaw": 3.170844556588849,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.004246724478833,
+      "ownerMode": "transform",
+      "ownerSpeed": 7.704381508738328,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.16059991741063473,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.6015700358407113,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33562,
+      "segment": "quadruped",
+      "nativeTick": 1819,
+      "nativeTime": 30.316666666666226,
+      "nativePosition": {
+        "x": -19.282590017569845,
+        "y": 0.9400998746763616,
+        "z": 29.143003127073463
+      },
+      "nativeVelocity": {
+        "x": 0.2526350383054681,
+        "y": 0,
+        "z": 7.595246020088952
+      },
+      "nativeSpeed": 7.599446464595739,
+      "nativeYaw": 3.174301569999762,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.221739318697722,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.546609290391876,
+      "gaitPhase": 0.5827975478692278,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11379959399001408,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33778,
+      "segment": "quadruped",
+      "nativeTick": 1832,
+      "nativeTime": 30.53333333333288,
+      "nativePosition": {
+        "x": -19.22786342996139,
+        "y": 0.9400999623443749,
+        "z": 30.788715800737556
+      },
+      "nativeVelocity": {
+        "x": 0.2526517425496635,
+        "y": 0,
+        "z": 7.59574821822067
+      },
+      "nativeSpeed": 7.599948940461105,
+      "nativeYaw": 3.174780667679215,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.438694708908614,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.568374935557237,
+      "gaitPhase": 0.2596516082366045,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.05994193638139983,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33993,
+      "segment": "quadruped",
+      "nativeTick": 1846,
+      "nativeTime": 30.7666666666662,
+      "nativePosition": {
+        "x": -19.16890208833817,
+        "y": 0.9401352240646883,
+        "z": 32.56107357749861
+      },
+      "nativeVelocity": {
+        "x": 0.25265330962003435,
+        "y": 0,
+        "z": 7.595795330786995
+      },
+      "nativeSpeed": 7.599996079082375,
+      "nativeYaw": 3.1748366426940633,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.653054568097073,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.633202588804205,
+      "gaitPhase": 0.9284499844953653,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.17140833450075005,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 34201,
+      "segment": "quadruped",
+      "nativeTick": 1858,
+      "nativeTime": 30.96666666666619,
+      "nativePosition": {
+        "x": -19.11836686628837,
+        "y": 0.940099996868339,
+        "z": 34.08023465285223
+      },
+      "nativeVelocity": {
+        "x": 0.25265342552372183,
+        "y": 0,
+        "z": 7.595798815327488
+      },
+      "nativeSpeed": 7.599999565549944,
+      "nativeYaw": 3.174841840103516,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.870519399340655,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.565426731307419,
+      "gaitPhase": 0.6069401539567898,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.11782336174622292,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 34427,
+      "segment": "quadruped",
+      "nativeTick": 1869,
+      "nativeTime": 31.149999999999512,
+      "nativePosition": {
+        "x": -19.07204818298075,
+        "y": 0.9401200111141588,
+        "z": 35.47279503056925
+      },
+      "nativeVelocity": {
+        "x": 0.25265343804421087,
+        "y": 0,
+        "z": 7.59579919174477
+      },
+      "nativeSpeed": 7.5999999421753985,
+      "nativeYaw": 3.1748425235298123,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 31.08614826727244,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.738984484413489,
+      "gaitPhase": 0.2797019912057157,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.06328366693849628,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 34646,
+      "segment": "quadruped",
+      "nativeTick": 1885,
+      "nativeTime": 31.416666666666163,
+      "nativePosition": {
+        "x": -19.004664793992077,
+        "y": 0.940100176417145,
+        "z": 37.498354187702354
+      },
+      "nativeVelocity": {
+        "x": 0.25265343986422034,
+        "y": 0,
+        "z": 7.595799246461723
+      },
+      "nativeSpeed": 7.599999996922612,
+      "nativeYaw": 3.1748426445527755,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 31.318707523664024,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.657553343856754,
+      "gaitPhase": 0.0052871419522557694,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.01754785787769048,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 42856,
+      "segment": "resumed",
+      "nativeTick": 2378,
+      "nativeTime": 39.63333333333237,
+      "nativePosition": {
+        "x": -18.929656033518334,
+        "y": 0.9400999287762897,
+        "z": 39.7524728511066
+      },
+      "nativeVelocity": {
+        "x": 7.292536670058149e-50,
+        "y": 0,
+        "z": 2.1924357955700562e-48
+      },
+      "nativeSpeed": 2.1936482915010143e-48,
+      "nativeYaw": 3.174842652713455,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 39.52400981901183,
+      "ownerMode": "quad",
+      "ownerSpeed": 0,
+      "gaitPhase": 0.4554880980681359,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineIdle",
+          "time": 0.5906754684258931,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 43078,
+      "segment": "resumed",
+      "nativeTick": 2388,
+      "nativeTime": 39.799999999999024,
+      "nativePosition": {
+        "x": -18.947241572893766,
+        "y": 0.9401646447230814,
+        "z": 39.22372906809457
+      },
+      "nativeVelocity": {
+        "x": -0.1943680138929838,
+        "y": 0,
+        "z": -5.843500148891765
+      },
+      "nativeSpeed": 5.846731814862282,
+      "nativeYaw": 0.8613648323806596,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 39.74018618783674,
+      "ownerMode": "quad",
+      "ownerSpeed": 3.293003604724667,
+      "gaitPhase": 0.6599529946752966,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineTrot",
+          "time": 0.29164708403270506,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 43296,
+      "segment": "resumed",
+      "nativeTick": 2401,
+      "nativeTime": 40.01666666666568,
+      "nativePosition": {
+        "x": -18.997588891533745,
+        "y": 0.9402461950930228,
+        "z": 37.70974067007907
+      },
+      "nativeVelocity": {
+        "x": -0.2472770413537876,
+        "y": 0,
+        "z": -7.434162643468431
+      },
+      "nativeSpeed": 7.438274003068334,
+      "nativeYaw": 0.1281178778907255,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 39.936052469683254,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.313852861164116,
+      "gaitPhase": 0.2539134744818195,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.058985580737788826,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 43542,
+      "segment": "resumed",
+      "nativeTick": 2417,
+      "nativeTime": 40.28333333333233,
+      "nativePosition": {
+        "x": -19.064537964759005,
+        "y": 0.9400997081656168,
+        "z": 35.69687409108289
+      },
+      "nativeVelocity": {
+        "x": -0.25236731155745007,
+        "y": 0,
+        "z": -7.58719705534125
+      },
+      "nativeSpeed": 7.591393048480739,
+      "nativeYaw": 0.039841747566029734,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 40.166138142526236,
+      "ownerMode": "quad",
+      "ownerSpeed": 7.574829251274672,
+      "gaitPhase": 0.9586096562795879,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.1764349465584151,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 43774,
+      "segment": "resumed",
+      "nativeTick": 2430,
+      "nativeTime": 40.499999999998984,
+      "nativePosition": {
+        "x": -19.119256632400287,
+        "y": 0.9401929079948967,
+        "z": 34.05176807349332
+      },
+      "nativeVelocity": {
+        "x": -0.2526270467412324,
+        "y": 0,
+        "z": -7.595005760872089
+      },
+      "nativeSpeed": 7.599206072506878,
+      "nativeYaw": 0.034005142981054864,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 40.40087822355751,
+      "ownerMode": "quad",
+      "ownerSpeed": 8.193563370231235,
+      "gaitPhase": 0.6899806511802813,
+      "ownerStance": 0,
+      "active": [
+        {
+          "name": "FelineGallop",
+          "time": 0.13166344487459647,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    }
+  ],
+  "clipSwitches": [
+    {
+      "beforeIndex": 9,
+      "afterIndex": 10,
+      "before": {
+        "wallMs": 13054,
+        "segment": "forward",
+        "nativeTick": 584,
+        "nativeTime": 9.733333333333396,
+        "nativePosition": {
+          "x": -7.999995161225645,
+          "y": 0.940099939974898,
+          "z": 21.999997317436385
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "nativeSpeed": 0.0,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 9.67270474625183,
+        "ownerMode": "quad",
+        "ownerSpeed": 6.249362803795105e-10,
+        "gaitPhase": 0,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.1560378570611554,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 13271,
+        "segment": "forward",
+        "nativeTick": 601,
+        "nativeTime": 10.016666666666744,
+        "nativePosition": {
+          "x": -7.999991450613272,
+          "y": 0.9399999921023846,
+          "z": 21.03979973648804
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -6.757895996446261
+        },
+        "nativeSpeed": 6.757895996446261,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 9.897917090361911,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.576697738919894,
+        "gaitPhase": 0.22225675404347417,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.10927364907732441,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.960197580955516
+    },
+    {
+      "beforeIndex": 10,
+      "afterIndex": 11,
+      "before": {
+        "wallMs": 13271,
+        "segment": "forward",
+        "nativeTick": 601,
+        "nativeTime": 10.016666666666744,
+        "nativePosition": {
+          "x": -7.999991450613272,
+          "y": 0.9399999921023846,
+          "z": 21.03979973648804
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -6.757895996446261
+        },
+        "nativeSpeed": 6.757895996446261,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 9.897917090361911,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.576697738919894,
+        "gaitPhase": 0.22225675404347417,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.10927364907732441,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 13497,
+        "segment": "forward",
+        "nativeTick": 614,
+        "nativeTime": 10.233333333333421,
+        "nativePosition": {
+          "x": -7.999997988099817,
+          "y": 0.9400999593507732,
+          "z": 19.456459896314318
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -7.522322146349688
+        },
+        "nativeSpeed": 7.522322146349688,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 10.145774043187492,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.636803280423718,
+        "gaitPhase": 0.8904645225430529,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.16507742405744225,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.5833398401872176
+    },
+    {
+      "beforeIndex": 21,
+      "afterIndex": 22,
+      "before": {
+        "wallMs": 15844,
+        "segment": "forward",
+        "nativeTick": 754,
+        "nativeTime": 12.56666666666687,
+        "nativePosition": {
+          "x": -8.000009194639429,
+          "y": 0.9400999876760762,
+          "z": 1.729698108184511
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -7.599999999999445
+        },
+        "nativeSpeed": 7.599999999999445,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 12.443047189459792,
+        "ownerMode": "quad",
+        "ownerSpeed": 8.465415096781646,
+        "gaitPhase": 0.050801449597639214,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.025133575959882727,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 16563,
+        "segment": "backward",
+        "nativeTick": 795,
+        "nativeTime": 13.250000000000238,
+        "nativePosition": {
+          "x": -8.000034488762013,
+          "y": 0.940099967106944,
+          "z": -0.9037794287478214
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -0.02810376424527016
+        },
+        "nativeSpeed": 0.02810376424527016,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 13.197779281874421,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.07733334562961022,
+        "gaitPhase": 0.719127109020083,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0311122973163156,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 2.6334775370538055
+    },
+    {
+      "beforeIndex": 22,
+      "afterIndex": 23,
+      "before": {
+        "wallMs": 16563,
+        "segment": "backward",
+        "nativeTick": 795,
+        "nativeTime": 13.250000000000238,
+        "nativePosition": {
+          "x": -8.000034488762013,
+          "y": 0.940099967106944,
+          "z": -0.9037794287478214
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -0.02810376424527016
+        },
+        "nativeSpeed": 0.02810376424527016,
+        "nativeYaw": 0,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 13.197779281874421,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.07733334562961022,
+        "gaitPhase": 0.719127109020083,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0311122973163156,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 16801,
+        "segment": "backward",
+        "nativeTick": 812,
+        "nativeTime": 13.533333333333585,
+        "nativePosition": {
+          "x": -8.000030404744509,
+          "y": 0.9400999443331967,
+          "z": 0.169531202186608
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": 6.897936899118689
+        },
+        "nativeSpeed": 6.897936899118689,
+        "nativeYaw": -2.781695430898626,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 13.432529069158496,
+        "ownerMode": "quad",
+        "ownerSpeed": 5.649621718288655,
+        "gaitPhase": 0.04858570943635798,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.02476428592612396,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.0733106309421994
+    },
+    {
+      "beforeIndex": 35,
+      "afterIndex": 36,
+      "before": {
+        "wallMs": 19507,
+        "segment": "backward",
+        "nativeTick": 974,
+        "nativeTime": 16.233333333333693,
+        "nativePosition": {
+          "x": -7.999872031606908,
+          "y": 0.9401141051766172,
+          "z": 20.63118491904881
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": 7.599999999999911
+        },
+        "nativeSpeed": 7.599999999999911,
+        "nativeYaw": -3.1415926535891163,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 16.154095578002195,
+        "ownerMode": "quad",
+        "ownerSpeed": 8.268908684254178,
+        "gaitPhase": 0.46430163453025386,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.09405027473232536,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 20232,
+        "segment": "left",
+        "nativeTick": 1021,
+        "nativeTime": 17.016666666666982,
+        "nativePosition": {
+          "x": -7.999858345005647,
+          "y": 0.940131451816269,
+          "z": 23.392589833699294
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0.008751602790112955
+        },
+        "nativeSpeed": 0.008751602790112955,
+        "nativeYaw": -3.14159265358976,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 16.88723927877682,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.0702260114563004,
+        "gaitPhase": 0.04835877119923396,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0705721988512842,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 2.761404914684402
+    },
+    {
+      "beforeIndex": 36,
+      "afterIndex": 37,
+      "before": {
+        "wallMs": 20232,
+        "segment": "left",
+        "nativeTick": 1021,
+        "nativeTime": 17.016666666666982,
+        "nativePosition": {
+          "x": -7.999858345005647,
+          "y": 0.940131451816269,
+          "z": 23.392589833699294
+        },
+        "nativeVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0.008751602790112955
+        },
+        "nativeSpeed": 0.008751602790112955,
+        "nativeYaw": -3.14159265358976,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 16.88723927877682,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.0702260114563004,
+        "gaitPhase": 0.04835877119923396,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0705721988512842,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 20454,
+        "segment": "left",
+        "nativeTick": 1032,
+        "nativeTime": 17.200000000000305,
+        "nativePosition": {
+          "x": -8.737660284509358,
+          "y": 0.9400000469521911,
+          "z": 23.393192988673963
+        },
+        "nativeVelocity": {
+          "x": -6.384913929794325,
+          "y": 0,
+          "z": 0.0011080150740170622
+        },
+        "nativeSpeed": 6.3849140259348065,
+        "nativeYaw": -4.41570387722627,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 17.10607724227959,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.736312160137049,
+        "gaitPhase": 0.26167738032531157,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.12569891015046775,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.7378021860440384
+    },
+    {
+      "beforeIndex": 37,
+      "afterIndex": 38,
+      "before": {
+        "wallMs": 20454,
+        "segment": "left",
+        "nativeTick": 1032,
+        "nativeTime": 17.200000000000305,
+        "nativePosition": {
+          "x": -8.737660284509358,
+          "y": 0.9400000469521911,
+          "z": 23.393192988673963
+        },
+        "nativeVelocity": {
+          "x": -6.384913929794325,
+          "y": 0,
+          "z": 0.0011080150740170622
+        },
+        "nativeSpeed": 6.3849140259348065,
+        "nativeYaw": -4.41570387722627,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 17.10607724227959,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.736312160137049,
+        "gaitPhase": 0.26167738032531157,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.12569891015046775,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 20660,
+        "segment": "left",
+        "nativeTick": 1043,
+        "nativeTime": 17.383333333333628,
+        "nativePosition": {
+          "x": -10.043739731778798,
+          "y": 0.9401400435580581,
+          "z": 23.393279337426993
+        },
+        "nativeVelocity": {
+          "x": -7.438274003068333,
+          "y": 0,
+          "z": 0.00014747501996331173
+        },
+        "nativeSpeed": 7.438274004530291,
+        "nativeYaw": -4.6649550414260945,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 17.323440989476662,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.669798031651806,
+        "gaitPhase": 0.8839354530209679,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.16398924578349253,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.3060794501238246
+    },
+    {
+      "beforeIndex": 45,
+      "afterIndex": 46,
+      "before": {
+        "wallMs": 22162,
+        "segment": "left",
+        "nativeTick": 1135,
+        "nativeTime": 18.916666666666874,
+        "nativePosition": {
+          "x": -20.22995582362509,
+          "y": 0.9401768549831059,
+          "z": 24.17091112964703
+        },
+        "nativeVelocity": {
+          "x": -7.59999999234968,
+          "y": 0,
+          "z": 6.9761884239383685e-12
+        },
+        "nativeSpeed": 7.59999999234968,
+        "nativeYaw": -4.712388969987711,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 18.820536075996323,
+        "ownerMode": "quad",
+        "ownerSpeed": 5.767221622131409,
+        "gaitPhase": 0.5458625939171435,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.10764376821667218,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 22665,
+        "segment": "right",
+        "nativeTick": 1163,
+        "nativeTime": 19.383333333333514,
+        "nativePosition": {
+          "x": -20.229992875003035,
+          "y": 0.9401776159392466,
+          "z": 24.170633430369353
+        },
+        "nativeVelocity": {
+          "x": -0.4621564759268978,
+          "y": 0,
+          "z": 2.2576840906021266e-14
+        },
+        "nativeSpeed": 0.4621564759268978,
+        "nativeYaw": -4.712388979662271,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 19.31002044058595,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.0005858888384618453,
+        "gaitPhase": 0.5458625939171435,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0600199637487941,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.00028016012105669093
+    },
+    {
+      "beforeIndex": 46,
+      "afterIndex": 47,
+      "before": {
+        "wallMs": 22665,
+        "segment": "right",
+        "nativeTick": 1163,
+        "nativeTime": 19.383333333333514,
+        "nativePosition": {
+          "x": -20.229992875003035,
+          "y": 0.9401776159392466,
+          "z": 24.170633430369353
+        },
+        "nativeVelocity": {
+          "x": -0.4621564759268978,
+          "y": 0,
+          "z": 2.2576840906021266e-14
+        },
+        "nativeSpeed": 0.4621564759268978,
+        "nativeYaw": -4.712388979662271,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 19.31002044058595,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.0005858888384618453,
+        "gaitPhase": 0.5458625939171435,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 1.0600199637487941,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 22873,
+        "segment": "right",
+        "nativeTick": 1177,
+        "nativeTime": 19.616666666666834,
+        "nativePosition": {
+          "x": -19.504759233011526,
+          "y": 0.9400999562266589,
+          "z": 24.170708574174704
+        },
+        "nativeVelocity": {
+          "x": 6.355857585271359,
+          "y": 0,
+          "z": 1.4194336805296777e-15
+        },
+        "nativeSpeed": 6.355857585271359,
+        "nativeYaw": -2.1641665329752766,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 19.529990338277255,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.8564804607893715,
+        "gaitPhase": 0.7798420221903362,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.3416008458694894,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.7252336458844546
+    },
+    {
+      "beforeIndex": 47,
+      "afterIndex": 48,
+      "before": {
+        "wallMs": 22873,
+        "segment": "right",
+        "nativeTick": 1177,
+        "nativeTime": 19.616666666666834,
+        "nativePosition": {
+          "x": -19.504759233011526,
+          "y": 0.9400999562266589,
+          "z": 24.170708574174704
+        },
+        "nativeVelocity": {
+          "x": 6.355857585271359,
+          "y": 0,
+          "z": 1.4194336805296777e-15
+        },
+        "nativeSpeed": 6.355857585271359,
+        "nativeYaw": -2.1641665329752766,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 19.529990338277255,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.8564804607893715,
+        "gaitPhase": 0.7798420221903362,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.3416008458694894,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 23097,
+        "segment": "right",
+        "nativeTick": 1190,
+        "nativeTime": 19.83333333333349,
+        "nativePosition": {
+          "x": -17.951687957658095,
+          "y": 0.9400149138372581,
+          "z": 24.1707114721225
+        },
+        "nativeVelocity": {
+          "x": 7.4852370823513485,
+          "y": 0,
+          "z": 1.3093223786754295e-16
+        },
+        "nativeSpeed": 7.4852370823513485,
+        "nativeYaw": -1.6387721316746235,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 19.748534874230835,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.655353910429017,
+        "gaitPhase": 0.416937791388502,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.08615630072833,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.5530712753561353
+    },
+    {
+      "beforeIndex": 54,
+      "afterIndex": 55,
+      "before": {
+        "wallMs": 24441,
+        "segment": "right",
+        "nativeTick": 1269,
+        "nativeTime": 21.15000000000008,
+        "nativePosition": {
+          "x": -7.954558502449316,
+          "y": 0.9400999427297575,
+          "z": 24.170733664914515
+        },
+        "nativeVelocity": {
+          "x": 7.599999941146833,
+          "y": 0,
+          "z": 6.714518033713652e-23
+        },
+        "nativeSpeed": 7.599999941146833,
+        "nativeYaw": -1.5707964568548758,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 21.092122008283404,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.872922000531484,
+        "gaitPhase": 0.5983307523875694,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.11638846145795909,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 25106,
+        "segment": "turn-left",
+        "nativeTick": 1306,
+        "nativeTime": 21.766666666666712,
+        "nativePosition": {
+          "x": -5.198323237858375,
+          "y": 0.9401000592142009,
+          "z": 24.170762111475206
+        },
+        "nativeVelocity": {
+          "x": 0.09024879024679201,
+          "y": 0,
+          "z": 2.9408363052576045e-26
+        },
+        "nativeSpeed": 0.09024879024679201,
+        "nativeYaw": -1.5707963332702017,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 21.72091212450248,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.21219127606358976,
+        "gaitPhase": 0.14307599413225533,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.15974265926965814,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 2.756235264737737
+    },
+    {
+      "beforeIndex": 55,
+      "afterIndex": 56,
+      "before": {
+        "wallMs": 25106,
+        "segment": "turn-left",
+        "nativeTick": 1306,
+        "nativeTime": 21.766666666666712,
+        "nativePosition": {
+          "x": -5.198323237858375,
+          "y": 0.9401000592142009,
+          "z": 24.170762111475206
+        },
+        "nativeVelocity": {
+          "x": 0.09024879024679201,
+          "y": 0,
+          "z": 2.9408363052576045e-26
+        },
+        "nativeSpeed": 0.09024879024679201,
+        "nativeYaw": -1.5707963332702017,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 21.72091212450248,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.21219127606358976,
+        "gaitPhase": 0.14307599413225533,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.15974265926965814,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 25325,
+        "segment": "turn-left",
+        "nativeTick": 1325,
+        "nativeTime": 22.08333333333336,
+        "nativePosition": {
+          "x": -5.46322192458635,
+          "y": 0.9400998506452379,
+          "z": 23.25440256160946
+        },
+        "nativeVelocity": {
+          "x": -2.53542996445987,
+          "y": 0,
+          "z": -6.229059236414129
+        },
+        "nativeSpeed": 6.7252943486093715,
+        "nativeYaw": 0.11748730166280667,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 21.975011296900202,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.7427755722351135,
+        "gaitPhase": 0.41737026500935503,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.19057094591882018,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.9538795200969343
+    },
+    {
+      "beforeIndex": 56,
+      "afterIndex": 57,
+      "before": {
+        "wallMs": 25325,
+        "segment": "turn-left",
+        "nativeTick": 1325,
+        "nativeTime": 22.08333333333336,
+        "nativePosition": {
+          "x": -5.46322192458635,
+          "y": 0.9400998506452379,
+          "z": 23.25440256160946
+        },
+        "nativeVelocity": {
+          "x": -2.53542996445987,
+          "y": 0,
+          "z": -6.229059236414129
+        },
+        "nativeSpeed": 6.7252943486093715,
+        "nativeYaw": 0.11748730166280667,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 21.975011296900202,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.7427755722351135,
+        "gaitPhase": 0.41737026500935503,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.19057094591882018,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 25534,
+        "segment": "turn-left",
+        "nativeTick": 1338,
+        "nativeTime": 22.300000000000015,
+        "nativePosition": {
+          "x": -6.327148759944492,
+          "y": 0.9401515246708368,
+          "z": 21.9579946310565
+        },
+        "nativeVelocity": {
+          "x": -5.19188297850476,
+          "y": 0,
+          "z": -5.3050428673785985
+        },
+        "nativeSpeed": 7.422878733160876,
+        "nativeYaw": 0.7238383168172943,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 22.19524779131855,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.539840866866379,
+        "gaitPhase": 0.012693689277151421,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.018782282454832704,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.5578970117605793
+    },
+    {
+      "beforeIndex": 64,
+      "afterIndex": 65,
+      "before": {
+        "wallMs": 27004,
+        "segment": "turn-left",
+        "nativeTick": 1427,
+        "nativeTime": 23.783333333333264,
+        "nativePosition": {
+          "x": -12.666216009736189,
+          "y": 0.9401423539192547,
+          "z": 26.511756403809706
+        },
+        "nativeVelocity": {
+          "x": 3.2507280909530145,
+          "y": 0,
+          "z": 6.739343728402705
+        },
+        "nativeSpeed": 7.482378432749302,
+        "nativeYaw": 3.5716664860759146,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 23.670252224940644,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.501886978728831,
+        "gaitPhase": 0.5367741864539661,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.10612903361126182,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 27627,
+        "segment": "turn-right",
+        "nativeTick": 1461,
+        "nativeTime": 24.3499999999999,
+        "nativePosition": {
+          "x": -11.203583724712615,
+          "y": 0.9401827715500258,
+          "z": 28.14962437728682
+        },
+        "nativeVelocity": {
+          "x": 0.05467846285205727,
+          "y": 0,
+          "z": 0.04439973741145631
+        },
+        "nativeSpeed": 0.07043487049800035,
+        "nativeYaw": 4.0116134511001,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 24.29425245660905,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.1813731031210656,
+        "gaitPhase": 0.031834222932149984,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.04850088993438831,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 2.195883580642496
+    },
+    {
+      "beforeIndex": 65,
+      "afterIndex": 66,
+      "before": {
+        "wallMs": 27627,
+        "segment": "turn-right",
+        "nativeTick": 1461,
+        "nativeTime": 24.3499999999999,
+        "nativePosition": {
+          "x": -11.203583724712615,
+          "y": 0.9401827715500258,
+          "z": 28.14962437728682
+        },
+        "nativeVelocity": {
+          "x": 0.05467846285205727,
+          "y": 0,
+          "z": 0.04439973741145631
+        },
+        "nativeSpeed": 0.07043487049800035,
+        "nativeYaw": 4.0116134511001,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 24.29425245660905,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.1813731031210656,
+        "gaitPhase": 0.031834222932149984,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.04850088993438831,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 27841,
+        "segment": "turn-right",
+        "nativeTick": 1475,
+        "nativeTime": 24.58333333333322,
+        "nativePosition": {
+          "x": -10.636973916876258,
+          "y": 0.9401725319711841,
+          "z": 28.626439897985257
+        },
+        "nativeVelocity": {
+          "x": 4.582510052219038,
+          "y": 0,
+          "z": 4.425502159374671
+        },
+        "nativeSpeed": 6.370593986538336,
+        "nativeYaw": 3.95979238078809,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 24.507053312158565,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.504431698910834,
+        "gaitPhase": 0.2605187735002576,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.12521615730309843,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.7405401509136935
+    },
+    {
+      "beforeIndex": 66,
+      "afterIndex": 67,
+      "before": {
+        "wallMs": 27841,
+        "segment": "turn-right",
+        "nativeTick": 1475,
+        "nativeTime": 24.58333333333322,
+        "nativePosition": {
+          "x": -10.636973916876258,
+          "y": 0.9401725319711841,
+          "z": 28.626439897985257
+        },
+        "nativeVelocity": {
+          "x": 4.582510052219038,
+          "y": 0,
+          "z": 4.425502159374671
+        },
+        "nativeSpeed": 6.370593986538336,
+        "nativeYaw": 3.95979238078809,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 24.507053312158565,
+        "ownerMode": "quad",
+        "ownerSpeed": 4.504431698910834,
+        "gaitPhase": 0.2605187735002576,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.12521615730309843,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 28053,
+        "segment": "turn-right",
+        "nativeTick": 1488,
+        "nativeTime": 24.799999999999873,
+        "nativePosition": {
+          "x": -9.7823087641477,
+          "y": 0.9400999714143109,
+          "z": 29.900158962876596
+        },
+        "nativeVelocity": {
+          "x": 3.0671697012137287,
+          "y": 0,
+          "z": 6.746583728189256
+        },
+        "nativeSpeed": 7.4110675329207165,
+        "nativeYaw": 3.589985823674011,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 24.71934426688012,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.4272838087481405,
+        "gaitPhase": 0.8312346330611682,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.1552057756265877,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.5338881248501124
+    },
+    {
+      "beforeIndex": 74,
+      "afterIndex": 75,
+      "before": {
+        "wallMs": 29566,
+        "segment": "turn-right",
+        "nativeTick": 1581,
+        "nativeTime": 26.349999999999785,
+        "nativePosition": {
+          "x": -16.638498316725844,
+          "y": 0.9399999002616096,
+          "z": 33.73986931273394
+        },
+        "nativeVelocity": {
+          "x": -4.314853988911865,
+          "y": 0,
+          "z": -6.103172796275259
+        },
+        "nativeSpeed": 7.474401857461438,
+        "nativeYaw": 0.6353686553686295,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 26.235598699331042,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.611343101228474,
+        "gaitPhase": 0.4812637062475719,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.0968772867378689,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 30149,
+        "segment": "upright",
+        "nativeTick": 1612,
+        "nativeTime": 26.866666666666422,
+        "nativePosition": {
+          "x": -17.825138456627855,
+          "y": 1.179999900173625,
+          "z": 32.388070412098024
+        },
+        "nativeVelocity": {
+          "x": -0.026721022917490726,
+          "y": 0,
+          "z": -0.17723458170712283
+        },
+        "nativeSpeed": 0.17923757981700117,
+        "nativeYaw": 0.16803008859274637,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 26.794410437817323,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.39213271826773577,
+        "gaitPhase": 0.9260040465759878,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.9426706985885364,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.7987426412322376
+    },
+    {
+      "beforeIndex": 75,
+      "afterIndex": 76,
+      "before": {
+        "wallMs": 30149,
+        "segment": "upright",
+        "nativeTick": 1612,
+        "nativeTime": 26.866666666666422,
+        "nativePosition": {
+          "x": -17.825138456627855,
+          "y": 1.179999900173625,
+          "z": 32.388070412098024
+        },
+        "nativeVelocity": {
+          "x": -0.026721022917490726,
+          "y": 0,
+          "z": -0.17723458170712283
+        },
+        "nativeSpeed": 0.17923757981700117,
+        "nativeYaw": 0.16803008859274637,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": -100,
+        "ownerRenderTime": 26.794410437817323,
+        "ownerMode": "quad",
+        "ownerSpeed": 0.39213271826773577,
+        "gaitPhase": 0.9260040465759878,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineWalk",
+            "time": 0.9426706985885364,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 30399,
+        "segment": "upright",
+        "nativeTick": 1627,
+        "nativeTime": 27.116666666666408,
+        "nativePosition": {
+          "x": -18.095845098232047,
+          "y": 1.180026573230334,
+          "z": 32.03218131582398
+        },
+        "nativeVelocity": {
+          "x": -0.1415750021272304,
+          "y": 0,
+          "z": -4.223555199932049
+        },
+        "nativeSpeed": 4.225927354806324,
+        "nativeYaw": 0.05479860634080586,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 27.023306801365376,
+        "ownerMode": "transform",
+        "ownerSpeed": 2.1601432853621003,
+        "gaitPhase": 0.022530402863843113,
+        "ownerStance": 0.10472400195089296,
+        "active": [
+          {
+            "name": "FelineTransformUp",
+            "time": 0.07505219848518939,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.4471455407978191
+    },
+    {
+      "beforeIndex": 78,
+      "afterIndex": 79,
+      "before": {
+        "wallMs": 30846,
+        "segment": "upright",
+        "nativeTick": 1655,
+        "nativeTime": 27.583333333333048,
+        "nativePosition": {
+          "x": -18.385763253874273,
+          "y": 0.940056694343566,
+          "z": 29.898619451328706
+        },
+        "nativeVelocity": {
+          "x": -0.16157953765847535,
+          "y": 0,
+          "z": -4.857550752677013
+        },
+        "nativeSpeed": 4.860237366818923,
+        "nativeYaw": 0.033452633667622064,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 27.487966753025816,
+        "ownerMode": "transform",
+        "ownerSpeed": 5.0906504928711485,
+        "gaitPhase": 0.022530402863843113,
+        "ownerStance": 0.7685239328943793,
+        "active": [
+          {
+            "name": "FelineTransformUp",
+            "time": 0.5507754638640937,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 31051,
+        "segment": "upright",
+        "nativeTick": 1669,
+        "nativeTime": 27.816666666666368,
+        "nativePosition": {
+          "x": -18.44717450914638,
+          "y": 0.940063711458988,
+          "z": 28.768415563508462
+        },
+        "nativeVelocity": {
+          "x": -0.16168908924685754,
+          "y": 0,
+          "z": -4.861022726306292
+        },
+        "nativeSpeed": 4.863711063298038,
+        "nativeYaw": 0.03326964978550376,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 27.715992108184846,
+        "ownerMode": "upright",
+        "ownerSpeed": 5.036257747838715,
+        "gaitPhase": 0.19155482486881453,
+        "ownerStance": 1,
+        "active": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.0709405366990706,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.1318710926241071
+    },
+    {
+      "beforeIndex": 84,
+      "afterIndex": 85,
+      "before": {
+        "wallMs": 32113,
+        "segment": "upright",
+        "nativeTick": 1733,
+        "nativeTime": 28.883333333332974,
+        "nativePosition": {
+          "x": -18.78828293909052,
+          "y": 0.9399999308292717,
+          "z": 23.932404347464036
+        },
+        "nativeVelocity": {
+          "x": -0.1616982015054774,
+          "y": 0,
+          "z": -4.861311517387265
+        },
+        "nativeSpeed": 4.863999997682173,
+        "nativeYaw": 0.03325000045801758,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 28.765837272136043,
+        "ownerMode": "upright",
+        "ownerSpeed": 4.649513666733259,
+        "gaitPhase": 0.5626909072416146,
+        "ownerStance": 1,
+        "active": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.17609576413971326,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 32678,
+        "segment": "quadruped",
+        "nativeTick": 1763,
+        "nativeTime": 29.383333333332946,
+        "nativePosition": {
+          "x": -19.47867008854834,
+          "y": 0.9401019520768568,
+          "z": 23.200594617520984
+        },
+        "nativeVelocity": {
+          "x": -0.0038666879401427065,
+          "y": 0,
+          "z": -0.11624850767029947
+        },
+        "nativeSpeed": 0.11631279728042877,
+        "nativeYaw": 0.03325000004441373,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 29.32327368642307,
+        "ownerMode": "upright",
+        "ownerSpeed": 0.26070624016698657,
+        "gaitPhase": 0.24069096846421686,
+        "ownerStance": 1,
+        "active": [
+          {
+            "name": "FelineUprightWalkLong",
+            "time": 0.1610812503180543,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.0060715168296022
+    },
+    {
+      "beforeIndex": 85,
+      "afterIndex": 86,
+      "before": {
+        "wallMs": 32678,
+        "segment": "quadruped",
+        "nativeTick": 1763,
+        "nativeTime": 29.383333333332946,
+        "nativePosition": {
+          "x": -19.47867008854834,
+          "y": 0.9401019520768568,
+          "z": 23.200594617520984
+        },
+        "nativeVelocity": {
+          "x": -0.0038666879401427065,
+          "y": 0,
+          "z": -0.11624850767029947
+        },
+        "nativeSpeed": 0.11631279728042877,
+        "nativeYaw": 0.03325000004441373,
+        "nativeStance": "upright",
+        "stanceChangedAt": 26.94999999999975,
+        "ownerRenderTime": 29.32327368642307,
+        "ownerMode": "upright",
+        "ownerSpeed": 0.26070624016698657,
+        "gaitPhase": 0.24069096846421686,
+        "ownerStance": 1,
+        "active": [
+          {
+            "name": "FelineUprightWalkLong",
+            "time": 0.1610812503180543,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 32899,
+        "segment": "quadruped",
+        "nativeTick": 1780,
+        "nativeTime": 29.666666666666263,
+        "nativePosition": {
+          "x": -19.444902881895786,
+          "y": 0.9400999993789991,
+          "z": 24.26818557689112
+        },
+        "nativeVelocity": {
+          "x": 0.22920777402925233,
+          "y": 0,
+          "z": 6.890926314679165
+        },
+        "nativeSpeed": 6.894737245030678,
+        "nativeYaw": 2.8149454309037134,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 29.559456025762348,
+        "ownerMode": "transform",
+        "ownerSpeed": 5.85399606556372,
+        "gaitPhase": 0.2501921233869986,
+        "ownerStance": 0.7960152012913275,
+        "active": [
+          {
+            "name": "FelineTransformDown",
+            "time": 0.1461891000672759,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.0681248432528683
+    },
+    {
+      "beforeIndex": 88,
+      "afterIndex": 89,
+      "before": {
+        "wallMs": 33352,
+        "segment": "quadruped",
+        "nativeTick": 1807,
+        "nativeTime": 30.116666666666237,
+        "nativePosition": {
+          "x": -19.333110591778194,
+          "y": 0.94019047411477,
+          "z": 27.628126686906036
+        },
+        "nativeVelocity": {
+          "x": 0.25248736472707695,
+          "y": 0,
+          "z": 7.590806346296787
+        },
+        "nativeSpeed": 7.595004335504122,
+        "nativeYaw": 3.170844556588849,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 30.004246724478833,
+        "ownerMode": "transform",
+        "ownerSpeed": 7.704381508738328,
+        "gaitPhase": 0.2501921233869986,
+        "ownerStance": 0.16059991741063473,
+        "active": [
+          {
+            "name": "FelineTransformDown",
+            "time": 0.6015700358407113,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 33562,
+        "segment": "quadruped",
+        "nativeTick": 1819,
+        "nativeTime": 30.316666666666226,
+        "nativePosition": {
+          "x": -19.282590017569845,
+          "y": 0.9400998746763616,
+          "z": 29.143003127073463
+        },
+        "nativeVelocity": {
+          "x": 0.2526350383054681,
+          "y": 0,
+          "z": 7.595246020088952
+        },
+        "nativeSpeed": 7.599446464595739,
+        "nativeYaw": 3.174301569999762,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 30.221739318697722,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.546609290391876,
+        "gaitPhase": 0.5827975478692278,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.11379959399001408,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.515718627381968
+    },
+    {
+      "beforeIndex": 94,
+      "afterIndex": 95,
+      "before": {
+        "wallMs": 34646,
+        "segment": "quadruped",
+        "nativeTick": 1885,
+        "nativeTime": 31.416666666666163,
+        "nativePosition": {
+          "x": -19.004664793992077,
+          "y": 0.940100176417145,
+          "z": 37.498354187702354
+        },
+        "nativeVelocity": {
+          "x": 0.25265343986422034,
+          "y": 0,
+          "z": 7.595799246461723
+        },
+        "nativeSpeed": 7.599999996922612,
+        "nativeYaw": 3.1748426445527755,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 31.318707523664024,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.657553343856754,
+        "gaitPhase": 0.0052871419522557694,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.01754785787769048,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 42856,
+        "segment": "resumed",
+        "nativeTick": 2378,
+        "nativeTime": 39.63333333333237,
+        "nativePosition": {
+          "x": -18.929656033518334,
+          "y": 0.9400999287762897,
+          "z": 39.7524728511066
+        },
+        "nativeVelocity": {
+          "x": 7.292536670058149e-50,
+          "y": 0,
+          "z": 2.1924357955700562e-48
+        },
+        "nativeSpeed": 2.1936482915010143e-48,
+        "nativeYaw": 3.174842652713455,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 39.52400981901183,
+        "ownerMode": "quad",
+        "ownerSpeed": 0,
+        "gaitPhase": 0.4554880980681359,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 0.5906754684258931,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 2.255366325645385
+    },
+    {
+      "beforeIndex": 95,
+      "afterIndex": 96,
+      "before": {
+        "wallMs": 42856,
+        "segment": "resumed",
+        "nativeTick": 2378,
+        "nativeTime": 39.63333333333237,
+        "nativePosition": {
+          "x": -18.929656033518334,
+          "y": 0.9400999287762897,
+          "z": 39.7524728511066
+        },
+        "nativeVelocity": {
+          "x": 7.292536670058149e-50,
+          "y": 0,
+          "z": 2.1924357955700562e-48
+        },
+        "nativeSpeed": 2.1936482915010143e-48,
+        "nativeYaw": 3.174842652713455,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 39.52400981901183,
+        "ownerMode": "quad",
+        "ownerSpeed": 0,
+        "gaitPhase": 0.4554880980681359,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineIdle",
+            "time": 0.5906754684258931,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 43078,
+        "segment": "resumed",
+        "nativeTick": 2388,
+        "nativeTime": 39.799999999999024,
+        "nativePosition": {
+          "x": -18.947241572893766,
+          "y": 0.9401646447230814,
+          "z": 39.22372906809457
+        },
+        "nativeVelocity": {
+          "x": -0.1943680138929838,
+          "y": 0,
+          "z": -5.843500148891765
+        },
+        "nativeSpeed": 5.846731814862282,
+        "nativeYaw": 0.8613648323806596,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 39.74018618783674,
+        "ownerMode": "quad",
+        "ownerSpeed": 3.293003604724667,
+        "gaitPhase": 0.6599529946752966,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.29164708403270506,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 0.5290361417417531
+    },
+    {
+      "beforeIndex": 96,
+      "afterIndex": 97,
+      "before": {
+        "wallMs": 43078,
+        "segment": "resumed",
+        "nativeTick": 2388,
+        "nativeTime": 39.799999999999024,
+        "nativePosition": {
+          "x": -18.947241572893766,
+          "y": 0.9401646447230814,
+          "z": 39.22372906809457
+        },
+        "nativeVelocity": {
+          "x": -0.1943680138929838,
+          "y": 0,
+          "z": -5.843500148891765
+        },
+        "nativeSpeed": 5.846731814862282,
+        "nativeYaw": 0.8613648323806596,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 39.74018618783674,
+        "ownerMode": "quad",
+        "ownerSpeed": 3.293003604724667,
+        "gaitPhase": 0.6599529946752966,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineTrot",
+            "time": 0.29164708403270506,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "after": {
+        "wallMs": 43296,
+        "segment": "resumed",
+        "nativeTick": 2401,
+        "nativeTime": 40.01666666666568,
+        "nativePosition": {
+          "x": -18.997588891533745,
+          "y": 0.9402461950930228,
+          "z": 37.70974067007907
+        },
+        "nativeVelocity": {
+          "x": -0.2472770413537876,
+          "y": 0,
+          "z": -7.434162643468431
+        },
+        "nativeSpeed": 7.438274003068334,
+        "nativeYaw": 0.1281178778907255,
+        "nativeStance": "quadruped",
+        "stanceChangedAt": 29.416666666666277,
+        "ownerRenderTime": 39.936052469683254,
+        "ownerMode": "quad",
+        "ownerSpeed": 7.313852861164116,
+        "gaitPhase": 0.2539134744818195,
+        "ownerStance": 0,
+        "active": [
+          {
+            "name": "FelineGallop",
+            "time": 0.058985580737788826,
+            "weight": 1
+          }
+        ],
+        "firstFailure": null
+      },
+      "nativeDistanceBetweenSamples": 1.5148253106611906
+    }
+  ],
+  "transformRows": [
+    {
+      "wallMs": 30399,
+      "segment": "upright",
+      "nativeTick": 1627,
+      "nativeTime": 27.116666666666408,
+      "nativePosition": {
+        "x": -18.095845098232047,
+        "y": 1.180026573230334,
+        "z": 32.03218131582398
+      },
+      "nativeVelocity": {
+        "x": -0.1415750021272304,
+        "y": 0,
+        "z": -4.223555199932049
+      },
+      "nativeSpeed": 4.225927354806324,
+      "nativeYaw": 0.05479860634080586,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.023306801365376,
+      "ownerMode": "transform",
+      "ownerSpeed": 2.1601432853621003,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.10472400195089296,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.07505219848518939,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30634,
+      "segment": "upright",
+      "nativeTick": 1643,
+      "nativeTime": 27.38333333333306,
+      "nativePosition": {
+        "x": -18.341898185058625,
+        "y": 1.179519382086637,
+        "z": 30.867111191853475
+      },
+      "nativeVelocity": {
+        "x": -0.1606272580977738,
+        "y": 0,
+        "z": -4.827370546517678
+      },
+      "nativeSpeed": 4.830042185057021,
+      "nativeYaw": 0.034747271537599565,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.279206893372805,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.001999193819744,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.47029556196150685,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.33704513965757327,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 30846,
+      "segment": "upright",
+      "nativeTick": 1655,
+      "nativeTime": 27.583333333333048,
+      "nativePosition": {
+        "x": -18.385763253874273,
+        "y": 0.940056694343566,
+        "z": 29.898619451328706
+      },
+      "nativeVelocity": {
+        "x": -0.16157953765847535,
+        "y": 0,
+        "z": -4.857550752677013
+      },
+      "nativeSpeed": 4.860237366818923,
+      "nativeYaw": 0.033452633667622064,
+      "nativeStance": "upright",
+      "stanceChangedAt": 26.94999999999975,
+      "ownerRenderTime": 27.487966753025816,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.0906504928711485,
+      "gaitPhase": 0.022530402863843113,
+      "ownerStance": 0.7685239328943793,
+      "active": [
+        {
+          "name": "FelineTransformUp",
+          "time": 0.5507754638640937,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 32899,
+      "segment": "quadruped",
+      "nativeTick": 1780,
+      "nativeTime": 29.666666666666263,
+      "nativePosition": {
+        "x": -19.444902881895786,
+        "y": 0.9400999993789991,
+        "z": 24.26818557689112
+      },
+      "nativeVelocity": {
+        "x": 0.22920777402925233,
+        "y": 0,
+        "z": 6.890926314679165
+      },
+      "nativeSpeed": 6.894737245030678,
+      "nativeYaw": 2.8149454309037134,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 29.559456025762348,
+      "ownerMode": "transform",
+      "ownerSpeed": 5.85399606556372,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.7960152012913275,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.1461891000672759,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33131,
+      "segment": "quadruped",
+      "nativeTick": 1791,
+      "nativeTime": 29.849999999999586,
+      "nativePosition": {
+        "x": -19.40026352499578,
+        "y": 0.9401110457887807,
+        "z": 25.610136008357223
+      },
+      "nativeVelocity": {
+        "x": 0.24953285963035932,
+        "y": 0,
+        "z": 7.5019817983334764
+      },
+      "nativeSpeed": 7.506130664367767,
+      "nativeYaw": 3.1173023770119546,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 29.773839046466005,
+      "ownerMode": "transform",
+      "ownerSpeed": 7.191904453260635,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.4897537431432458,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.36567646988791863,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    },
+    {
+      "wallMs": 33352,
+      "segment": "quadruped",
+      "nativeTick": 1807,
+      "nativeTime": 30.116666666666237,
+      "nativePosition": {
+        "x": -19.333110591778194,
+        "y": 0.94019047411477,
+        "z": 27.628126686906036
+      },
+      "nativeVelocity": {
+        "x": 0.25248736472707695,
+        "y": 0,
+        "z": 7.590806346296787
+      },
+      "nativeSpeed": 7.595004335504122,
+      "nativeYaw": 3.170844556588849,
+      "nativeStance": "quadruped",
+      "stanceChangedAt": 29.416666666666277,
+      "ownerRenderTime": 30.004246724478833,
+      "ownerMode": "transform",
+      "ownerSpeed": 7.704381508738328,
+      "gaitPhase": 0.2501921233869986,
+      "ownerStance": 0.16059991741063473,
+      "active": [
+        {
+          "name": "FelineTransformDown",
+          "time": 0.6015700358407113,
+          "weight": 1
+        }
+      ],
+      "firstFailure": null
+    }
+  ],
+  "elapsedSeconds": 0.15628790017217398
+}

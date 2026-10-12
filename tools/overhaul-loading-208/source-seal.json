@@ -1,0 +1,121 @@
+{
+  "writer": "CLOSED",
+  "candidate": "UNADMITTED_STATIC_ONLY",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-208/asset-inventory.json",
+      "bytes": 7566,
+      "sha256": "c4183533f82dcbe34d7d5571271609128b1a6a787414f13eae74d3905f2b586a"
+    },
+    {
+      "path": "tools/overhaul-loading-208/complete208.py",
+      "bytes": 1276,
+      "sha256": "969bf7644617e6a037f8a8ae842bd1ee0542868c2e7745fcb984336e596040bb"
+    },
+    {
+      "path": "tools/overhaul-loading-208/decoder-client.mjs",
+      "bytes": 2180,
+      "sha256": "32c6cee308edf73c7255a009ace9260b0054109e148cfab1918a574005d3e216"
+    },
+    {
+      "path": "tools/overhaul-loading-208/decoder-client.reviewed.mjs",
+      "bytes": 2354,
+      "sha256": "9538472c9fa828bfd8b27c19463f29d92876ba7266facd12f6ea0a9f315ef331"
+    },
+    {
+      "path": "tools/overhaul-loading-208/decoder.worker.mjs",
+      "bytes": 743,
+      "sha256": "c9b77bfdbb82d1e9eba428d776379460f0a8e0e01e8a1d722ea6a87004805002"
+    },
+    {
+      "path": "tools/overhaul-loading-208/HANDOFF.md",
+      "bytes": 2092,
+      "sha256": "37a4080564f7ee82c0d415e6daa1df9bcb746852e3828c600078e730e6dd7ff5"
+    },
+    {
+      "path": "tools/overhaul-loading-208/initial-closed-snapshot/decoder-client.mjs",
+      "bytes": 2180,
+      "sha256": "32c6cee308edf73c7255a009ace9260b0054109e148cfab1918a574005d3e216"
+    },
+    {
+      "path": "tools/overhaul-loading-208/initial-closed-snapshot/HANDOFF.md",
+      "bytes": 2092,
+      "sha256": "37a4080564f7ee82c0d415e6daa1df9bcb746852e3828c600078e730e6dd7ff5"
+    },
+    {
+      "path": "tools/overhaul-loading-208/initial-closed-snapshot/install-decoder.proposed.mjs",
+      "bytes": 1349,
+      "sha256": "df94fcadf49588c704c26453231c95833b4862616e5df4be60d331ffe2071829"
+    },
+    {
+      "path": "tools/overhaul-loading-208/initial-closed-snapshot/loading208-diagnosis.md",
+      "bytes": 6528,
+      "sha256": "42ae3429009d47cbb63fc7639bf280f1e55d6a8c1fec6e9105a089b4f3f214b3"
+    },
+    {
+      "path": "tools/overhaul-loading-208/install-decoder.proposed.mjs",
+      "bytes": 1349,
+      "sha256": "df94fcadf49588c704c26453231c95833b4862616e5df4be60d331ffe2071829"
+    },
+    {
+      "path": "tools/overhaul-loading-208/install-decoder.reviewed.mjs",
+      "bytes": 1922,
+      "sha256": "6d6ce94f5f60273ef2cc95adfff329b661bde2670ed89007f527c0ca764f121f"
+    },
+    {
+      "path": "tools/overhaul-loading-208/inventory208.py",
+      "bytes": 3600,
+      "sha256": "43d518ec48cac66f678eef7a879a5a5abe99d4597771d378dc651a4f40d99e07"
+    },
+    {
+      "path": "tools/overhaul-loading-208/protected-inputs.json",
+      "bytes": 6606,
+      "sha256": "1ab246562e6ce820d2ac8fd9c9ca22cad8318ce4f6ceaf0310321661a608c1a9"
+    },
+    {
+      "path": "tools/overhaul-loading-208/protocol-fixture-receipt.json",
+      "bytes": 688,
+      "sha256": "e2f5b61ca65d921bf2c58e7753a17a2a6d34c9f78d1ba8127cfe76b8745ca4cc"
+    },
+    {
+      "path": "tools/overhaul-loading-208/protocol-fixture.mjs",
+      "bytes": 2309,
+      "sha256": "850846e5ed0696294dc5d9f903b51eb8dd0bafb6ecd852c37b21b15126ea0355"
+    },
+    {
+      "path": "tools/overhaul-loading-208/REVIEWED-HANDOFF.md",
+      "bytes": 3941,
+      "sha256": "aede8274279ac1e80aa3913d1e45ba57ee8181d96e056052b22fcc6746661fcf"
+    },
+    {
+      "path": "tools/overhaul-loading-208/reviewed-protocol-fixture.mjs",
+      "bytes": 1131,
+      "sha256": "f8ace4b616c005b261b1ab30423cf76d0cda0404232cca4663be6d6367dfd14b"
+    },
+    {
+      "path": "tools/overhaul-loading-208/reviewed-protocol-receipt.json",
+      "bytes": 217,
+      "sha256": "f33f761e51c107f577c4d01a0bb623f7b42ac45992ee59ad8261d67eb951b736"
+    },
+    {
+      "path": "tools/overhaul-loading-208/seal208.py",
+      "bytes": 3360,
+      "sha256": "fe962ff4fa283274620235633106b1396787c70249e02e0a883e370c8ad72a16"
+    },
+    {
+      "path": "tools/overhaul-loading-208/static-validation.json",
+      "bytes": 705,
+      "sha256": "df66e0fd7dc55c255c24b789fa61d877f7fce6537592bfa7206e45ed1f2063b1"
+    },
+    {
+      "path": "tools/overhaul-loading-208/telemetry.proposed.mjs",
+      "bytes": 2457,
+      "sha256": "deb4324a3d71ca13c058dd8ca75c0442a340090e7821cd3d6c9485c22b6a0f4b"
+    },
+    {
+      "path": "docs/overhaul/loading208-diagnosis.md",
+      "bytes": 6528,
+      "sha256": "42ae3429009d47cbb63fc7639bf280f1e55d6a8c1fec6e9105a089b4f3f214b3"
+    }
+  ]
+}

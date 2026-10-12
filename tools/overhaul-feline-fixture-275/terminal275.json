@@ -1,0 +1,28 @@
+{
+  "scope": "one type15 and fixture-only coherent owner suite30; exact CLOSED274 runtime, no browser/native game/build",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-fixture-275\\tsconfig275.json"
+      ],
+      "cap": 15,
+      "exit": 0,
+      "seconds": 5.672000000020489
+    },
+    {
+      "name": "suite",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-fixture-275\\owner275.test.ts"
+      ],
+      "cap": 30,
+      "exit": 0,
+      "seconds": 5.952999999979511
+    }
+  ]
+}

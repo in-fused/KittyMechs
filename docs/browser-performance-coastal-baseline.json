@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-04T09:15:34.348Z",
+  "port": 8790,
+  "label": "candidate",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 56,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 338
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262354,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262354,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262454,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262354,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    }
+  ],
+  "errors": [],
+  "historicalBaseline": "docs/browser-performance-turn-baseline.json",
+  "baseline": ".sites-runtime/critic/steep-contact/profile/same-session-v8-baseline-performance-report.json",
+  "baselineAverage": {
+    "fps": 57,
+    "calls": 243.3,
+    "triangles": 1262359.6,
+    "geometries": 146,
+    "textures": 57
+  },
+  "candidateAverage": {
+    "fps": 56.9,
+    "calls": 243.4,
+    "triangles": 1262352,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaselineAverage": {
+    "fps": 56.9,
+    "calls": 243.3,
+    "triangles": 1262345.6,
+    "geometries": 146,
+    "textures": 57
+  },
+  "note": "Independent critic; one fresh solo Pounce Rainline page per settled sample, medium1440x900 on GTX1070Ti. Ten 1s samples and separate screenshot-free ordinary moving PVP RAF. Initial v8 sample near an unrelated CPU runner was retained; the clean repeated baseline is used here. Similar throughput/pacing and stable resources in these windows do not establish every hardware, arbitrary surfaces, long-session or large-room performance. No shipping assets changed in this milestone.",
+  "baselineSource": "0ecaae7aff2a2e00c9947a7c0150a826d87f8cd5",
+  "sameSessionBaseline": {
+    "date": "2026-10-04T09:18:53.230Z",
+    "port": 8788,
+    "label": "same-session-v8-baseline",
+    "browser": "Headless Microsoft Edge",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "preset": "medium",
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "samples": [
+      {
+        "fps": 57,
+        "calls": 242,
+        "triangles": 1262270,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 338
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 338
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 243,
+        "triangles": 1262334,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262394,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262354,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262454,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 244,
+        "triangles": 1262454,
+        "geometries": 146,
+        "textures": 57,
+        "chunks": 9,
+        "bodies": 284
+      }
+    ],
+    "errors": [],
+    "historicalBaseline": "docs/browser-performance-turn-baseline.json",
+    "baseline": "docs/browser-performance-turn-baseline.json",
+    "baselineAverage": {
+      "fps": 56.9,
+      "calls": 243.3,
+      "triangles": 1262345.6,
+      "geometries": 146,
+      "textures": 57
+    },
+    "candidateAverage": {
+      "fps": 57,
+      "calls": 243.3,
+      "triangles": 1262359.6,
+      "geometries": 146,
+      "textures": 57
+    },
+    "historicalBaselineAverage": {
+      "fps": 56.9,
+      "calls": 243.3,
+      "triangles": 1262345.6,
+      "geometries": 146,
+      "textures": 57
+    },
+    "note": "Independent critic; one fresh solo Pounce Rainline page, other browser probes closed. Ten settled 1s samples. FPS throughput is not frame-time or long-session/hardware qualification."
+  },
+  "reviewedSourceFingerprint": "8eb6f1d0bcecc4fd98fb88e1b4515347aa3091d8fb66ce82fdd6fcf6c16f1a16",
+  "movingRAF": {
+    "baseline": {
+      "passed": true,
+      "date": "2026-10-04T09:16:29.470Z",
+      "port": 8788,
+      "method": "Screenshot-free single-page ordinary Pounce local60Hz peer-host PVP firing slow/rapid turns and keyboard-duty directional reversals. RAF is a read-only observer. Same script/settings against frozenv8 and candidate; this does not establish general hardware or long-session pacing.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "durationMs": 15270,
+      "samples": 866,
+      "p50": 17.59999990463257,
+      "p95": 18.600000143051147,
+      "p99": 19.699999809265137,
+      "maximum": 21.200000047683716,
+      "over50": 0,
+      "over100": 0,
+      "performance": {
+        "fps": 57,
+        "calls": 141,
+        "triangles": 1020222,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 274
+      },
+      "cameraViolations": 0,
+      "errors": []
+    },
+    "candidate": {
+      "passed": true,
+      "date": "2026-10-04T09:17:56.703Z",
+      "port": 8790,
+      "method": "Screenshot-free single-page ordinary Pounce local60Hz peer-host PVP firing slow/rapid turns and keyboard-duty directional reversals. RAF is a read-only observer. Same script/settings against frozenv8 and candidate; this does not establish general hardware or long-session pacing.",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "durationMs": 15041.700000047684,
+      "samples": 858,
+      "p50": 17.5,
+      "p95": 18.5,
+      "p99": 19.09999990463257,
+      "maximum": 21.5,
+      "over50": 0,
+      "over100": 0,
+      "performance": {
+        "fps": 57,
+        "calls": 141,
+        "triangles": 1020222,
+        "geometries": 104,
+        "textures": 50,
+        "chunks": 9,
+        "bodies": 274
+      },
+      "cameraViolations": 0,
+      "errors": []
+    }
+  },
+  "contactQuerySuite": {
+    "method": "Identical 24 actual Rapier/rig/head-tail/IK CPU trajectories, 30,240 frames, four chassis, three moderate sites and three real coastal sites. This suite is not a browser FPS measurement.",
+    "baselineRays": 238880,
+    "candidateRays": 331450,
+    "increasePercent": 38.75167448091092,
+    "maxPerPawFrame": 5,
+    "maxPerActorFrame": 20,
+    "regularCadenceHz": 30,
+    "note": "Moving unplanted footprints and release fades can force one replacement probe per presented frame; there is no duplicate final-pass probe. Do not describe every active query as 30Hz."
+  },
+  "independentReview": "APPROVE",
+  "finalLocalBrowserEvidence": {
+    "newScenarios": 2,
+    "newRunDurationMs": 57455.257,
+    "existingScenarios": 21,
+    "existingRunDurationMs": 578494.679,
+    "distinctScenarios": 23,
+    "runs": 2,
+    "retries": 0,
+    "sourceFingerprint": "8eb6f1d0bcecc4fd98fb88e1b4515347aa3091d8fb66ce82fdd6fcf6c16f1a16"
+  }
+}

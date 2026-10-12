@@ -1,0 +1,29 @@
+{
+  "task": "extraction-art-039",
+  "status": "AUTHOR_SOURCE_FROZEN_AWAITING_ROOT_EXPORT",
+  "command": "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe --background --python C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-extraction-art-039/author_extraction039.py",
+  "ownedFiles": [
+    "assets/source/overhaul-extraction-art-039/author_extraction039.py",
+    "assets/source/overhaul-extraction-art-039/asset-manifest.json",
+    "src/game/world/rainlineExtractionArt.tsx",
+    "tests/extraction039-art.test.ts",
+    "docs/overhaul/extraction-039-art.md",
+    "tools/overhaul-extraction-039/art-handoff.json"
+  ],
+  "expectedGeneratedFiles": [
+    "assets/source/overhaul-extraction-art-039/Rainline_Extraction039.blend",
+    "assets/source/overhaul-extraction-art-039/export-receipt.json",
+    "public/assets/overhaul/extraction039/Rainline_Extraction039.glb"
+  ],
+  "rootIntegration": [
+    "Exclude buildingId prefix 7734:overhaul:extraction039: from main district and identity adapters",
+    "Mount RainlineExtractionArt for intact and ruins with experimentalFragments matching existing mode",
+    "Keep native preloading and shared presentation as only physical/mask/ruin owner",
+    "Inspect actual output bytes/bounds/triangles/materials and run production build plus ordinary play capture"
+  ],
+  "provenance": "ORIGINAL procedural local Blender content; no external inputs",
+  "sourceSeal": "tools/overhaul-extraction-039/art-source-seal.json",
+  "geometryTest": "tests/extraction039-art.test.ts: actual clipper all four facade directions, quarter native bounds and full union volume; prepared, not run by specialist",
+  "visualReview": "UNREVIEWED",
+  "heavyJobsRunBySpecialist": []
+}

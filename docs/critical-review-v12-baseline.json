@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/critic",
+  "model": "gpt-6.1-sol",
+  "reviewedAt": "2026-10-04T15:54:29.994Z",
+  "fingerprint": "acaa25b905c007cf9e5e577981bd75253a355f4ef91d2886de796593c9516624",
+  "areas": {
+    "mechs": "APPROVE",
+    "maps": "APPROVE",
+    "enemyTactics": "APPROVE",
+    "integration": "APPROVE"
+  },
+  "report": "docs/critical-review.md"
+}

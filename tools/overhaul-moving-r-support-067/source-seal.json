@@ -1,0 +1,83 @@
+{
+  "packet": "067-support-provider",
+  "writersClosed": true,
+  "handoff": {
+    "path": "tools/overhaul-moving-r-support-067/source-handoff.json",
+    "bytes": 3889,
+    "sha256": "2b2ea92c4db885be22fdba8f23404440898173d3061000a82981d8fe93ef32d2"
+  },
+  "files": [
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "tools/overhaul-moving-r-support-067/ground-support.check.test.ts",
+      "bytes": 4233,
+      "sha256": "05224c18200ddaaa7208b416939c01f1205290686a630adf62ef5ada44826bcd"
+    },
+    {
+      "path": "tools/overhaul-moving-r-support-067/ground-support.vitest.config.ts",
+      "bytes": 178,
+      "sha256": "94ce61763beb595346a6745d0be436fa8d98187cebbd6700dc9bceef5827c4ad"
+    },
+    {
+      "path": "docs/overhaul/moving-r-support-067-source-handoff.md",
+      "bytes": 3790,
+      "sha256": "d0b40b45e958ba2a234489246d1377467aa38e4ee76f1e91399578fe2a30ebc4"
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-moving-r-support-067/preimages/source-preimage.json",
+      "bytes": 82,
+      "sha256": "9e08cc7fbb801c1d23d243926a5e4c282b1aca0979df67519adc10a44cf8400d"
+    },
+    {
+      "path": "docs/overhaul/moving-r-support-066-inventory.md",
+      "bytes": 8821,
+      "sha256": "bc6713e23b29795a0443a02d351397d1c56995d23aff1b781d523aeab3edd8d2"
+    },
+    {
+      "path": "src/game/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 176991,
+      "sha256": "75db2735d0f0e71a462a3bd10d3496166dafcd7333b8ee90413fc5f7a42a591c"
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": "src/game/world/World.tsx",
+      "bytes": 15225,
+      "sha256": "03102a2b82afe822c0e96f27369950792e207c7f47cc8690601274e92e659660"
+    },
+    {
+      "path": "src/game/world/cityPresentation.ts",
+      "bytes": 5508,
+      "sha256": "ba8cd4e862c7fc9e6542f934d960aa559da79bb6c3c84db54468f08cd762f86e"
+    },
+    {
+      "path": "src/game/world/guestCollisionTiles.ts",
+      "bytes": 9092,
+      "sha256": "865f5fa9fa4cbfe7038dfd94b71cfa02bc95b8df3170ada484f792126e0603b1"
+    },
+    {
+      "path": "src/game/world/OverhaulRuinCollision.tsx",
+      "bytes": 2380,
+      "sha256": "e8c02adeef371812fc78a94d208ef217cf8e7221d9c4eef9f330756ffc8ea3ca"
+    },
+    {
+      "path": "src/game/world/overhaulRuinCollisionOwner.ts",
+      "bytes": 4737,
+      "sha256": "cc7d17c8a919b301d75f3be561e2438a6126201dc6008b8a65f7b7ec53c792e5"
+    }
+  ]
+}

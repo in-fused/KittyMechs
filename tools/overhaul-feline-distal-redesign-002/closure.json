@@ -1,0 +1,96 @@
+{
+  "candidate": "feline-distal-redesign-002",
+  "actualStartUTC": "2026-10-10T12:56:04Z",
+  "hardDeadlineUTC": "2026-10-10T13:16:04Z",
+  "closedUTC": "2026-10-10T13:03:54.3511358Z",
+  "status": "CLOSED_DESIGN_ONLY_FOR_INDEPENDENT_REVIEW",
+  "oneSelectedDesign": "mid-lower-link distal replacement and continuous feline five-pad paw",
+  "lightRecordedRead": {
+    "exitCode": 0,
+    "wallSeconds": 1.6823692,
+    "command": "python tools/overhaul-feline-distal-redesign-002/measure.py",
+    "sourcePoseOrNativeExecution": false
+  },
+  "sourceAuthorJobs": 0,
+  "compilerJobs": 0,
+  "nativeJobs": 0,
+  "browserJobs": 0,
+  "renderJobs": 0,
+  "jobsActive": 0,
+  "writersClosed": true,
+  "productionChanged": false,
+  "allOldBytesUnchangedByScope": true,
+  "recordedInputBefore": {
+    "state": "1062fac9f2afef3b22f91a62feb019bc69362f51db736ad5edb08a420fb28664",
+    "geometry": "5ea66a5a1917bd8506027ee937d8857f6a9095a9f62e7e4c323e4ba05d0e53bd",
+    "catalog": "32a974eeff1903731f1ca6bab1fe71e44c4114ffbcc69e340ce6193bb667340d",
+    "originalRigid": "6ad9fe07fe0e28597ed80cb5c81e0a7fb9b8a335ffd0e97724584878c9ed0881",
+    "rest": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2"
+  },
+  "recordedInputAfter": {
+    "state": "1062fac9f2afef3b22f91a62feb019bc69362f51db736ad5edb08a420fb28664",
+    "geometry": "5ea66a5a1917bd8506027ee937d8857f6a9095a9f62e7e4c323e4ba05d0e53bd",
+    "catalog": "32a974eeff1903731f1ca6bab1fe71e44c4114ffbcc69e340ce6193bb667340d",
+    "originalRigid": "6ad9fe07fe0e28597ed80cb5c81e0a7fb9b8a335ffd0e97724584878c9ed0881",
+    "rest": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2"
+  },
+  "protectedSourceInputs": [
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/first-failure-full-state.json",
+      "bytes": 272954,
+      "sha256": "1062fac9f2afef3b22f91a62feb019bc69362f51db736ad5edb08a420fb28664"
+    },
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/first-failure-full-geometry.json",
+      "bytes": 17184748,
+      "sha256": "5ea66a5a1917bd8506027ee937d8857f6a9095a9f62e7e4c323e4ba05d0e53bd"
+    },
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/source-catalog.json",
+      "bytes": 6614913,
+      "sha256": "32a974eeff1903731f1ca6bab1fe71e44c4114ffbcc69e340ce6193bb667340d"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-extractor-001/extraction/mesh-01.json",
+      "bytes": 18618619,
+      "sha256": "6ad9fe07fe0e28597ed80cb5c81e0a7fb9b8a335ffd0e97724584878c9ed0881"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-reconciliation-001/reconciliation/reconciled-rest.json",
+      "bytes": 167736,
+      "sha256": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-extractor-001/extraction/paw-ownership.json",
+      "bytes": 525919,
+      "sha256": "e454604c5b2c984cd2d4da217cf3c18d3d91ded61308ebde15101cfa70d05780"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend",
+      "bytes": 5064256,
+      "sha256": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400"
+    },
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/review-full-last-state.png",
+      "bytes": 737593,
+      "sha256": "4e9e1384ab258cca63b3be097ea2f1733ce7d916fab643b9eb6b12a2d9772dbb"
+    },
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/review-paw-last-state.png",
+      "bytes": 802360,
+      "sha256": "918628a19b009d4812953421cfda8b5c64a8da048a4f90ffc79750970bc5d69c"
+    },
+    {
+      "path": "assets/source/overhaul-anatomical-paw-loft-001/review-sole-last-state.png",
+      "bytes": 810832,
+      "sha256": "2e50f4b150b9f37d627c3433aec5ef8a486a06850a0996735638360c1e881b8b"
+    },
+    {
+      "path": "docs/overhaul/critic/anatomical-paw-loft-001-result-review.md",
+      "bytes": 5384,
+      "sha256": "ddff26fa039e286e648cef561bdb93c1376e06a1617746f9d799d6ac6ee69113"
+    }
+  ],
+  "implementationOrSourceJobAuthorized": false,
+  "fullGoalGate1": "INCOMPLETE"
+}

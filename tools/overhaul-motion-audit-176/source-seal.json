@@ -1,0 +1,51 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_ACTUAL_CRITERION_FAILURE_STOP_READ_ONLY",
+  "files": [
+    {
+      "path": "tools/overhaul-motion-audit-176/audit176.mts",
+      "bytes": 7128,
+      "sha256": "3ee4a90d1e7436cf8a38c3b2b4c4b7724cdea5a28289e25cedc10b8020d87b57"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/HANDOFF.md",
+      "bytes": 4788,
+      "sha256": "cb900adb8cc19cadb42149fbf44d5ff15de2ba52538560162fc3106381554e10"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/operands176.json",
+      "bytes": 607220,
+      "sha256": "add47e97e0e58ea63aa331d59e4632bbcc377e7d0c6860ff27da1f9b4c0b7d53"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/postprocess176.json",
+      "bytes": 34936,
+      "sha256": "8e4a358eb4da5a81a26b3a69cd3e3f029db6b8a0d9bfadf7659a4cef8df1aa66"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/process176.json",
+      "bytes": 1276,
+      "sha256": "12828eee39b2898b9a766910a2d137fcf451f956ca0addd7007d66abcbca6ba0"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/protected-inputs176.json",
+      "bytes": 1616,
+      "sha256": "23d7d2457be8c8fabe0b12a2a05aebb45fe7b15aab768d22d8a0022707e26e97"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/result176.json",
+      "bytes": 859,
+      "sha256": "5a073d335f5c43ae4f65037d5a4deb6e11961a8359521430cdc6bebef855d331"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/run176.py",
+      "bytes": 2141,
+      "sha256": "b76ecf42b5d8dbb17b118f2e16800cf37062168ec478a1fea666677ec326ee77"
+    },
+    {
+      "path": "tools/overhaul-motion-audit-176/stdout176.txt",
+      "bytes": 2590,
+      "sha256": "e4813aebf9492ba7f9d729ae9631b8d073fa55052f2f148666ed049b5a930433"
+    }
+  ]
+}

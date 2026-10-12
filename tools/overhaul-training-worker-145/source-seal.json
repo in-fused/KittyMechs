@@ -1,0 +1,176 @@
+{
+  "writer": "CLOSED",
+  "candidate": "trainingWorker145",
+  "publicAdmission": "PENDING",
+  "files": [
+    {
+      "path": "src/game/network.ts",
+      "bytes": 13112,
+      "sha256": "e10c59c35792451f61fc4d3cea48bd9a5b3ea1800aa32368e18d02a0f3ee0c91"
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5898,
+      "sha256": "862fabfd950c6658c019bfe7e6bd5f289ed7e3e08c51aedb0a64a385f458c05a"
+    },
+    {
+      "path": "src/game/trainingAuthority145.ts",
+      "bytes": 1834,
+      "sha256": "734206f5d853af3a91794f40aac00c01fc0b57ebe1a9d89f4fb69af4cce3c241"
+    },
+    {
+      "path": "src/game/training.worker.ts",
+      "bytes": 3399,
+      "sha256": "0de652c5e5afee39ae263c09fb630410fdea6d786002ee4a7d43a77166c9a5d2"
+    },
+    {
+      "path": "src/game/trainingWorkerProtocol145.ts",
+      "bytes": 1627,
+      "sha256": "839975deb221a7179ebbf57d70e5bf2801dccbb70102cd3083e48ffcb901f916"
+    },
+    {
+      "path": "src/game/trainingWorkerClient145.ts",
+      "bytes": 2741,
+      "sha256": "9da653d9ad1ef8a4bc6404d562a25ba7adbf53e52bf9212b19ea74c05ccb8a20"
+    },
+    {
+      "path": "src/game/trainingSession145.ts",
+      "bytes": 4173,
+      "sha256": "b2c6cd9bbdb504340f717882dee8f3b15f6171aa63fa6be689080d7ed0999792"
+    },
+    {
+      "path": "tests/training-worker-145.test.ts",
+      "bytes": 6454,
+      "sha256": "488ef3dd2ac1970da3a66381eb16ac9062e6bcbf52890cdfb1235888a2121c9a"
+    },
+    {
+      "path": "tests/training-session-145.test.ts",
+      "bytes": 4272,
+      "sha256": "92b9c2d7edd9eba232b41f236e7e92b5b7aba82b3d4f63de360f16aa41e586fc"
+    },
+    {
+      "path": "tests/training-worker-startup-145.test.ts",
+      "bytes": 1819,
+      "sha256": "9c1c9774aaf2d182046f7bbfdedb6fff3f0d87942a1b7bfffb544e943385bc4d"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/checks-receipt.json",
+      "bytes": 1392,
+      "sha256": "7fb0626a14206b3f6e046585a18a675c3225dd4bddd3c48932916eb6ded719a9"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/compile-worker.mjs",
+      "bytes": 418,
+      "sha256": "a60803efb3bc476e003e4a5fcf6fef07f8181e8248ab38369fec399ec9ccde45"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/HANDOFF.md",
+      "bytes": 4319,
+      "sha256": "d4b792c713fe998467c47881a05d6329b4fa9cdaf2b7379eff62612b832dca7d"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/late-init-fixture-first-failure.ts",
+      "bytes": 7541,
+      "sha256": "c8d98c2244d3e1a772b27c288254192900381d6424d309d5ebdc45ce7d69bae8"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/preimages/network.ts",
+      "bytes": 12948,
+      "sha256": "8a44b5b8175259e3b353ca100a4ac1cc2c0cb6a647e06e7b3dd2e6d8ba93e917"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/preimages/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/preimages/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": "tools/overhaul-training-worker-145/worker-compile/training-worker.js",
+      "bytes": 7292958,
+      "sha256": "2e119d9dfda44f72a55d18f0f3bd7239d8127be29c0c64da90423522e74a07aa"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "src/game/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/physicsGuard.ts",
+      "bytes": 911,
+      "sha256": "096989ac15f6275bd265af54e6f5c8409c892d842870357c8dfce81b77893878"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10932,
+      "sha256": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "bytes": 12849,
+      "sha256": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/inputProtocol.ts",
+      "bytes": 834,
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44"
+    },
+    {
+      "path": "shared/layout.ts",
+      "bytes": 156,
+      "sha256": "b5472164d7997db81e278502837c9a355ee257855a4229bf495e9c0a53acf510"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 10588,
+      "sha256": "1a661a7259c01cd4b4f269bdae42234d8579ce28674a995fdb6cbd1458632d1e"
+    },
+    {
+      "path": "tools/overhaul-render-timeline-144/source-seal.json",
+      "bytes": 2703,
+      "sha256": "5fa3dd0498a611f13edb2455032881f42b568d70943bf9cf6234aa138140a815"
+    }
+  ],
+  "unchangedRuntime": true,
+  "unchanged144": true
+}

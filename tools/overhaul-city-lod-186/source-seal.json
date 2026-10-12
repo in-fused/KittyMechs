@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "bytes": 164,
+      "sha256": "e340b72776cdc8cef6ec94ea56cb47f0b844a76780d47db962bdf7f7bc53d70f",
+      "path": "tools/overhaul-city-lod-186/compare-receipt.json"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-city-lod-186/compare-stderr.txt"
+    },
+    {
+      "bytes": 439,
+      "sha256": "46d484df4778b93a0a0046c2c89748fe63638284dafdcc1c0c2c05c0a96c6f33",
+      "path": "tools/overhaul-city-lod-186/compare-stdout.txt"
+    },
+    {
+      "bytes": 51526,
+      "sha256": "0ed7ad9246f0441b3cad3c1149b3496993ca4e71d5811a5208f0dda131d077b6",
+      "path": "tools/overhaul-city-lod-186/compare186.json"
+    },
+    {
+      "bytes": 6952,
+      "sha256": "c2b039b282f5f1574ebe6a8e3a22a4239923f4bd7f5c4e098d9ae05b8c6262ae",
+      "path": "tools/overhaul-city-lod-186/compare186.mts"
+    },
+    {
+      "bytes": 4150,
+      "sha256": "3816947838c5846e340d0f1022882bc3ab856a1de5af6b04d5ff2d78ab4fc92e",
+      "path": "tools/overhaul-city-lod-186/HANDOFF.md"
+    },
+    {
+      "bytes": 412341,
+      "sha256": "15971069c04b2b54c5cef8295530960302d384f2827b1f51a1641a13ca258cc8",
+      "path": "tools/overhaul-city-lod-186/indices186.json"
+    },
+    {
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637",
+      "path": "tools/overhaul-city-lod-186/preimages/overhaulIdentityArt.tsx"
+    },
+    {
+      "bytes": 3562,
+      "sha256": "fa292f4da771c1a56ad937f7cc6c11c639b81ee9841d46bc7d0b68bcff19ea9b",
+      "path": "tools/overhaul-city-lod-186/protected-inputs.json"
+    },
+    {
+      "bytes": 173,
+      "sha256": "546c218547d6552dba18bfe9e099592901beb5cb6326fae14afbc8356bcb1a30",
+      "path": "tools/overhaul-city-lod-186/types-receipt.json"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-city-lod-186/types-stderr.txt"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-city-lod-186/types-stdout.txt"
+    }
+  ],
+  "writer": "CLOSED",
+  "status": "NEGATIVE_NO_JUSTIFIED_LOD_INTEGRATION"
+}

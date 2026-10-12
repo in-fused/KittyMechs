@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/deliver-validate.mjs",
+      "bytes": 12436,
+      "sha256": "d15c50f408aeffd36dcbfbea832e8707b4fab8f592539609a6601b02486055ca"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/HANDOFF.md",
+      "bytes": 4317,
+      "sha256": "2e1538e1e071fe229dfaf17057c6c8af9ebd2c623c28621da94e916224909d8a"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/protected-inputs.json",
+      "bytes": 5075,
+      "sha256": "7b14e642e1604920d1702f6ea5b83d302f14c14410d0eb55ac4c5f200cdb13a2"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/route-proposal.json",
+      "bytes": 1021,
+      "sha256": "eff0257d658e73de6f91851c30050ddb37de2cb91b733a6d0f7bcb65945dc23b"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/source-seal.json",
+      "bytes": 1277,
+      "sha256": "3b646ddd8d48c6a9795f5097a9cc95597ba51a7b9616029d6217ee900e5abeed"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 17011,
+      "sha256": "1f276dc072abcfbf8e1d114459b34b14a68ae620524d457640ad3560658e09e4"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 21194,
+      "sha256": "2d1d3140873dadc38c9064f4af0ae33ef363b3cb45cb049bcaed1c9b9e8d1efb"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "tests/authored-footfalls123.test.ts",
+      "bytes": 6292,
+      "sha256": "55e1c1f96e548dd97353ebfa414f4d6f65458401a9b762fc7b419896aabd09f3"
+    },
+    {
+      "path": "tools/overhaul-anatomy-runtime-123/preimages/Identity57Runtime005.ts",
+      "bytes": 16597,
+      "sha256": "31c8cdfa4e35798d190d26b392e366ffde51e33fd76dbd229089e3bf1c5e98e1"
+    },
+    {
+      "path": "tools/overhaul-anatomy-runtime-123/preimages/movingRFfeet067.ts",
+      "bytes": 19890,
+      "sha256": "282973c14b956985e72f2714c62079a3651f440eb15f8347288c2ead5dda5ccd"
+    },
+    {
+      "path": "tools/overhaul-anatomy-runtime-123/HANDOFF.md",
+      "bytes": 4050,
+      "sha256": "cfc0d8ba389ec3b6b46f8dee59c6511add1ccd6c8e48d0c545ea489490a27dce"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/authored-motion-records.json",
+      "bytes": 3082,
+      "sha256": "65cf306e84a47701b997bf3b3916ad007de9ecc5ffff9446ede70d396fca71d9"
+    },
+    {
+      "path": "docs/overhaul/critic/anatomy121-output-review.md",
+      "bytes": 3863,
+      "sha256": "600f25d1b6f26afab45b273eb9b62004cdee7fc6aefb5a4bcdddfced724fca05"
+    },
+    {
+      "path": "tools/overhaul-anatomy-runtime-123/source-seal.json",
+      "bytes": 1782,
+      "sha256": "6d785dfcdc2ce4bcdf6d08a891187ccf0a684b284b7c728f303c2a36b3f8ea4a"
+    },
+    {
+      "path": "docs/overhaul/critic/anatomy126-delivery-source-review.md",
+      "bytes": 2651,
+      "sha256": "a7cd718e1524fbc25670ee948e2e4e96ddf37f20513e983ca2ba4840a1bc7ea6"
+    },
+    {
+      "path": "tools/player-integration-125/prepare-delivery.py",
+      "bytes": 1215,
+      "sha256": "9259fd5a0ea899141f9aa610faf1474129030835d47d0b08c0b408e1f5644665"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-anatomy-delivery-126/deliver-validate.mjs"
+  ],
+  "scope": "ONE90s full NEW121 exactraw delivery/actualvalidation, firstfailureSTOP; NO route/build/publicbrowser job"
+}

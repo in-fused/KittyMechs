@@ -1,0 +1,39 @@
+{
+  "startedUtc": "2026-10-10T19:35:55Z",
+  "closedUtc": "2026-10-10T19:37:44.4535394Z",
+  "verdict": "APPROVE_ONE_CONDITIONAL_INTEGRATED_PUBLIC_OBSERVATION",
+  "review": "docs/overhaul/critic/runtime-art-integration-020-code-review.md",
+  "reviewSha256": "560723228D97219B3C40A1576B04309FCE6A3AB1DF14AB8F3485A08DE6468D86",
+  "inspectedRows": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049A2095896C3FD27AB698C724EAE29A36067D600CF2F7178B6C9CB12DB50128"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-020/identity57Runtime005.ts.preimage",
+      "bytes": 10452,
+      "sha256": "FBDED0FCF886DB3EE6C1D6B10CCC7C3866F95E406B78229A0A4CC99ADA8FFA51"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-020/identity57Runtime019Actor.tsx.pending",
+      "bytes": 4111,
+      "sha256": "7E42FA2E64518D62B0458DB1232591BD3B854A33A130EFA26DACE178A7DCF23F"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-020/CameraRig.tsx.current-input",
+      "bytes": 8376,
+      "sha256": "0ACB09714ECC984AA871A3F50D2404CE484D41908F02FE987824ACB06BF1F017"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "BE0DD9C4D14BC4509276DB63B333A179E359E68AF30B0262ED6955D14AE7B92C"
+    }
+  ],
+  "finalMountedSelectorFreeze": "REQUIRED_ROOT_VERIFICATION_BEFORE_JOB",
+  "criticJobs": 0,
+  "nativeAdmission": false,
+  "qualityAdmission": false,
+  "gate1": "INCOMPLETE"
+}

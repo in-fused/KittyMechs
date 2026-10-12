@@ -1,0 +1,64 @@
+{
+  "writer": "CLOSED",
+  "scope": "OFFLINE_EXACT_SAVED_GEOMETRY_HYPOTHETICAL_VALID_NOMINAL_ORIGIN_NO_NATIVE_ADMISSION",
+  "input": ".sites-runtime/overhaul-20261010/coop159-public/evidence.json",
+  "inputSha256": "2114624a3d5c1124a0c3a612985fa505165e9f1733aae89f0def784a7b2bc6c8",
+  "tick": 13596,
+  "actualInvalidOrigin": {
+    "x": 9.601667480301764,
+    "y": 0.9400999943008356,
+    "z": -31.6505889712242
+  },
+  "validNominalOrigin": {
+    "x": 9.139669506449364,
+    "z": -32.041077950895726
+  },
+  "goal": {
+    "x": 9.139669506449364,
+    "z": -34.24107795089573
+  },
+  "path": [
+    {
+      "x": 9.139669506449364,
+      "z": -34.24107795089573
+    }
+  ],
+  "witnesses": [
+    {
+      "point": {
+        "x": 9.139669506449364,
+        "z": -34.24107795089573
+      },
+      "endpoint": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "leg": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 2.85
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": null,
+        "clearance": 2.85
+      }
+    }
+  ],
+  "allBlockCount": 1370,
+  "allOccupancy": 14,
+  "arrival": 1.1,
+  "clearance": 2.85
+}

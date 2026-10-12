@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+import {createDecoderClient208} from './decoder-client.mjs';
+const cases=[],run=(name,fn)=>{fn();cases.push({name,status:'PASS'});};
+const posts=[],receipts=[],worker={postMessage:(m,t)=>posts.push({m,t}),terminate(){this.terminated=true;}},client=createDecoderClient208(worker,{onReceipt:r=>receipts.push(r)});
+let rejection;const source=new Uint8Array([11,22,33,44,55]),view=source.subarray(1,4),p=client.decode(2,4,view,'ATTRIBUTES','NONE');
+run('Only requested view copied; original GLB backing bytes not detached/mutated',()=>{assert.deepEqual([...new Uint8Array(posts[0].m.source)],[22,33,44]);assert.notEqual(posts[0].m.source,source.buffer);assert.deepEqual([...source],[11,22,33,44,55]);assert.equal(posts[0].t[0],posts[0].m.source);});
+const result=new Uint8Array([1,2,3,4,5,6,7,8]);worker.onmessage({data:{id:1,buffer:result.buffer,decodeMs:2,queueMs:3}});assert.deepEqual([...await p],[...result]);
+run('Output byte count plus actual queue/decode receipt retained',()=>{assert.equal(client.pending(),0);assert.equal(receipts[0].workerDecodeMs,2);assert.equal(receipts[0].workerQueueMs,3);});
+const p2=client.decode(1,4,view,'ATTRIBUTES','NONE').catch(e=>rejection=e);worker.onmessage({data:{id:2,buffer:new ArrayBuffer(3)}});await p2;
+run('Wrong output length fails task and retires worker; no silent sync fallback',()=>{assert.match(String(rejection),/byte count/);assert.equal(worker.terminated,true);});
+await assert.rejects(client.decode(1,4,view,'ATTRIBUTES','NONE'),/owner closed/);cases.push({name:'Closed page owner rejects late decode',status:'PASS'});
+const w2={postMessage(){},terminate(){this.terminated=true;}},c2=createDecoderClient208(w2),pending=c2.decode(1,4,view,'ATTRIBUTES','NONE');const failed=assert.rejects(pending,/unknown\/duplicate/);w2.onmessage({data:{id:999,buffer:new ArrayBuffer(4)}});await failed;cases.push({name:'Foreign result cannot resolve another pending task',status:'PASS'});
+await writeFile(new URL('./protocol-fixture-receipt.json',import.meta.url),JSON.stringify({status:'PASS',scope:'STATIC_PROTOCOL_ONLY; no actual Worker/codec/performance/browser job',cases},null,2)+'\n');console.log(JSON.stringify({status:'PASS',cases:cases.length,actualDecoderExecuted:false}));

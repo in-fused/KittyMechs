@@ -1,0 +1,506 @@
+{
+  "status": "CAPTURED_PROFILE_REVIEW_REQUIRED",
+  "errors": [],
+  "durationMs": 23761.599,
+  "samples": 14513,
+  "selfTop": [
+    {
+      "name": "(idle)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 8885.773
+    },
+    {
+      "name": "(program)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 1981.551
+    },
+    {
+      "name": "onBeforeRender",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 44090,
+      "sampledMs": 505.359
+    },
+    {
+      "name": "",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 451.382
+    },
+    {
+      "name": "w",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3788,
+      "column": 2374,
+      "sampledMs": 293.42
+    },
+    {
+      "name": "W",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 36944,
+      "sampledMs": 265.934
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 504824,
+      "sampledMs": 250.231
+    },
+    {
+      "name": "getProgramInfoLog",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 193.213
+    },
+    {
+      "name": "bindVertexArray",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 161.687
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 26547,
+      "sampledMs": 159.599
+    },
+    {
+      "name": "i1",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 88002,
+      "sampledMs": 158.645
+    },
+    {
+      "name": "b",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3587,
+      "column": 14771,
+      "sampledMs": 153.348
+    },
+    {
+      "name": "renderBufferDirect",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 25562,
+      "sampledMs": 152.429
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 1434015,
+      "sampledMs": 149.637
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 389644,
+      "sampledMs": 149.173
+    },
+    {
+      "name": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 148.806
+    },
+    {
+      "name": "i1",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 88002,
+      "sampledMs": 146.267
+    },
+    {
+      "name": "upload",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3737,
+      "column": 14878,
+      "sampledMs": 126.793
+    },
+    {
+      "name": "l",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 10176,
+      "sampledMs": 111.13
+    },
+    {
+      "name": "Ab",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14107,
+      "sampledMs": 94.666
+    },
+    {
+      "name": "wasm-function[339]",
+      "url": "wasm://wasm/005fc9d6",
+      "line": 1,
+      "column": 977352,
+      "sampledMs": 92.224
+    },
+    {
+      "name": "Mo",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 54275,
+      "sampledMs": 91.674
+    },
+    {
+      "name": "setValue",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3737,
+      "column": 14740,
+      "sampledMs": 83.219
+    },
+    {
+      "name": "E",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3788,
+      "column": 8522,
+      "sampledMs": 81.126
+    },
+    {
+      "name": "texSubImage2D",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 79.799
+    },
+    {
+      "name": "multiplyMatrices",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 9,
+      "column": 112332,
+      "sampledMs": 76.267
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 23998,
+      "sampledMs": 75.642
+    },
+    {
+      "name": "getBoundingSphereAt",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 38263,
+      "sampledMs": 75.559
+    },
+    {
+      "name": "i.onmessage",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 121641,
+      "sampledMs": 75.381
+    },
+    {
+      "name": "v",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3587,
+      "column": 14349,
+      "sampledMs": 75.282
+    },
+    {
+      "name": "copySampleValue_",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 120498,
+      "sampledMs": 75.189
+    },
+    {
+      "name": "hr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 34381,
+      "sampledMs": 73.394
+    },
+    {
+      "name": "se",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 41420,
+      "sampledMs": 72.431
+    },
+    {
+      "name": "Ir",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 30677,
+      "sampledMs": 61.673
+    },
+    {
+      "name": "texSubImage2D",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 58.463
+    }
+  ],
+  "inclusiveTop": [
+    {
+      "name": "(root)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 23760.812
+    },
+    {
+      "name": "mR",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14570,
+      "sampledMs": 10795.538
+    },
+    {
+      "name": "Ab",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14107,
+      "sampledMs": 10762.22
+    },
+    {
+      "name": "(idle)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 8885.773
+    },
+    {
+      "name": "render",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 28913,
+      "sampledMs": 5307.259
+    },
+    {
+      "name": "Ll",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 31758,
+      "sampledMs": 4280.405
+    },
+    {
+      "name": "fr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 33634,
+      "sampledMs": 4238.553
+    },
+    {
+      "name": "qt",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 33900,
+      "sampledMs": 4186.065
+    },
+    {
+      "name": "renderBufferDirect",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 25562,
+      "sampledMs": 3467.099
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 504824,
+      "sampledMs": 2836.789
+    },
+    {
+      "name": "W",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 36944,
+      "sampledMs": 2620.417
+    },
+    {
+      "name": "(program)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 1981.551
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 392207,
+      "sampledMs": 815.238
+    },
+    {
+      "name": "step",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 221984,
+      "sampledMs": 787.641
+    },
+    {
+      "name": "i.onmessage",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 121641,
+      "sampledMs": 713.508
+    },
+    {
+      "name": "Ir",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 30677,
+      "sampledMs": 641.516
+    },
+    {
+      "name": "step",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 214723,
+      "sampledMs": 633.39
+    },
+    {
+      "name": "setValue",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3737,
+      "column": 14740,
+      "sampledMs": 621.162
+    },
+    {
+      "name": "Ir",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 30677,
+      "sampledMs": 614.286
+    },
+    {
+      "name": "onBeforeRender",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 44090,
+      "sampledMs": 611.268
+    },
+    {
+      "name": "d4",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 116464,
+      "sampledMs": 604.661
+    },
+    {
+      "name": "D4",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 114663,
+      "sampledMs": 576.683
+    },
+    {
+      "name": "_o",
+      "url": "http://localhost:8799/assets/index-BgP5Zm6B.js",
+      "line": 42,
+      "column": 107323,
+      "sampledMs": 560.665
+    },
+    {
+      "name": "Ae",
+      "url": "http://localhost:8799/assets/pawContact-DdkwckLq.js",
+      "line": 1,
+      "column": 13021,
+      "sampledMs": 557.05
+    },
+    {
+      "name": "hr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 34381,
+      "sampledMs": 494.99
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-B0vX_Pba.js",
+      "line": 237,
+      "column": 528322,
+      "sampledMs": 475.926
+    },
+    {
+      "name": "B",
+      "url": "http://localhost:8799/assets/pawContact-DdkwckLq.js",
+      "line": 1,
+      "column": 11051,
+      "sampledMs": 473.882
+    },
+    {
+      "name": "upload",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3737,
+      "column": 14878,
+      "sampledMs": 472.615
+    },
+    {
+      "name": "",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 451.382
+    },
+    {
+      "name": "h",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3587,
+      "column": 13966,
+      "sampledMs": 451.38
+    },
+    {
+      "name": "castRayAndGetNormal",
+      "url": "http://localhost:8799/assets/physics-CEFJ-CQz.js",
+      "line": 1,
+      "column": 122435,
+      "sampledMs": 412.372
+    },
+    {
+      "name": "castRayAndGetNormal",
+      "url": "http://localhost:8799/assets/physics-CEFJ-CQz.js",
+      "line": 1,
+      "column": 96919,
+      "sampledMs": 379.628
+    },
+    {
+      "name": "getWorldPosition",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 9,
+      "column": 125707,
+      "sampledMs": 368.703
+    },
+    {
+      "name": "updateWorldMatrix",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 9,
+      "column": 126920,
+      "sampledMs": 362.54
+    },
+    {
+      "name": "Ee",
+      "url": "http://localhost:8799/assets/pawContact-DdkwckLq.js",
+      "line": 1,
+      "column": 16573,
+      "sampledMs": 353.224
+    }
+  ],
+  "rAF": {
+    "medianMs": 17.80000000000291,
+    "p95Ms": 18.5,
+    "p99Ms": 34.80000000000109
+  },
+  "scope": "Sampled browser main-thread CPU only. Includes CDP observation/screenshot overhead; not GPU time or actual user IAB diagnosis."
+}

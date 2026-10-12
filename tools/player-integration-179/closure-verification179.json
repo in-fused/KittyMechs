@@ -1,0 +1,36 @@
+{
+  "scope": "Root179 closure: no production delta/new062; current061 limited retained. Fullgoal/humanlag INCOMPLETE.",
+  "draw180": {
+    "terminal": true,
+    "exitCode": 0,
+    "inclusiveSeconds": 18.468000000109896,
+    "inputRows": 451,
+    "mismatch": 0
+  },
+  "health": {
+    "rooms": 0,
+    "players": 0
+  },
+  "files": [
+    {
+      "path": "tools/overhaul-draw-audit-180/public-seal.json",
+      "bytes": 105436,
+      "sha256": "547aa26a4686750bec1724dbd4982eb166459e22108d4d6f673f5807f351d046"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "bytes": 257421,
+      "sha256": "d0e01656b4840b3dd999997fc7e8b5f62d9f560f2690d1ec38252965b41d7df1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/summary180.json",
+      "bytes": 4014,
+      "sha256": "0e8ea01cc33ae56457f48ec31f82350eb28b88983e711b89201061730cc03237"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public-observation/process-receipt.json",
+      "bytes": 66900,
+      "sha256": "e459dccc07a892b7a5f71534ceec1f5835745036a7f5c003127238dab17a24f2"
+    }
+  ]
+}

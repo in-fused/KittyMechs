@@ -1,0 +1,40 @@
+# Independent Pounce skinned-001 review
+
+Review started 2026-10-10 08:07:22 UTC; closed 08:12:31 UTC, within the 08:22:22 UTC deadline. Independent HIGH, bounded source and presentation review only. No implementation, new render, native run, browser capture, compiler job or subagent. Gate1 remains INCOMPLETE; no counts change.
+
+**DENY complete source admission and complete presentation acceptance.** The continuous anatomical body is a useful improvement over the open ring and disconnected rigid modules. It does not make this candidate playable or qualified. Preserve the sole executed job and failed package; do not relabel it PASS or authorize an automatic repair/model replacement.
+
+## Evidence and scope
+
+Read the frozen contract, source receipt, the relevant authoring and derived-forensics arithmetic, final handoff and seal. Viewed all three actual source PNGs: `review-quad-normal.png`, `review-rise-normal.png`, `review-upright-normal.png`. Independently measured blend, raw GLB, original receipt and all three PNG SHA-256 values; they match the sealed packet. Blend: `63FDC9B9EA96459D8943AB519CA6E7CC3F2D39DCB21F0B74915359E8109BD400`; GLB: `2A12EC71E453C811FAAD006CBFA29B99DC395F995A13D20974E3F2982C429EAB`; receipt: `CDCF7A6B4AC761D12A71FB8C6B61E91ACD3F5377D0EB671595EABA3C193F2CAA`.
+
+Job 96580 is the single closed authoring execution, exit 0, approximately 164.422 seconds. Derived forensic readback is explicitly separate from that execution. No repair, runtime migration or public asset change is evidenced. Existing masters remain preserved according to the packet.
+
+## Visible anatomy and detail
+
+The quad and rising views show a connected abdomen, fuller scapula and haunch volumes, and a coherent head-to-body transition. The retained face, eyes, whiskers, canopy, paws and tail provide recognizable Pounce identity. This is a real silhouette gain, sufficient to retain the skinned topology as a useful direction.
+
+The body presentation remains weak: large glossy, largely unbroken dark patches read as a smooth coated animal, with abrupt lighter armor/material boundaries rather than a consistently detailed mechanical feline. The upright view is bulky and bear-like, with raised paws obscuring the front anatomy. These are visible limitations, not a claim that an upright cat must retain its quad silhouette. The quad foreground paw is cropped and the upright head/canopy is cropped; those images cannot certify complete extremity readability. The rise view provides the most complete body view, but it still supplies no gait, weight transfer or responsive R timing evidence.
+
+These are static source-camera renders. Visible paws near the studio floor do not prove bearing, traction, momentum, supported cancellation, native terrain contact or ordinary-camera legibility. No continuous footage or ordinary gameplay was observed.
+
+## Independent source failures
+
+The first genuine reported geometry failure is `FelineUprightWalk`, frame 0: actual head polygon 68 intersects new dorsal/fore-upper armor polygon 195. The audit merges selected head and armor surfaces; it does not identify a unique individual armor object or certify penetration depth or the entire body. The head and attached armor have different moving ownership. Related intersections recur in upright idle, turns and R/cancel samples. There is no evidence that this is a declared legitimate shared attachment junction. It remains a real source obstruction, independently of the circuit transport error. It does not establish that the whole feline anatomy or skinned-body route is impossible.
+
+The skin is reported as one closed connected island, 13,440 vertices / 13,438 faces, zero nonmanifold edges, with normalized weights within approximately 4.75e-8. That supports topology integrity, not clearance, continuous deformation quality, physical support or mass calibration. The declared 1,800 mass allocation and centroid approximation are an explicit prototype representation; no native force/COM/inertia qualification follows from them. Manufacture-ready bearings, rigid closed ownership for the flexible abdomen and industrial structural certification are not prerequisites supplied by the user.
+
+There are **two separate circuit problems**:
+
+1. Recorded target error first exceeds 5 mm native at frame 64, t=1.066667, `accelerateQuad`, speed 5.566117 m/s, before R. Derived immutable readback identifies the HL swing request as 1.749186 source against a 1.712906 chain, ratio 1.021180; derived clamped error agrees with the recorded 0.0306239096 native error within 2.86e-7 m. Raw per-chain requested targets were not recorded, so this is a strong derived explanation, not an original exact per-chain witness. The planner predicts a swing endpoint using current constant velocity while the carrier accelerates; local reach can consequently fail despite valid individual clips. Maximum requested ratio is 1.210681. Clamping IK is not successful target preservation.
+2. The diagnostic root-moving circuit reports approximately 29.498 m native chain error and a skin floor minimum near -23.9 m. Its authoring transport premultiplies each pose-bone matrix by the carrier through the hierarchy. This audit is invalid for interpreting anatomical bounds or chain feasibility. Individual root-free clip chain errors are below 0.6 micrometre native. Do not turn the broken transport's huge numbers into proof of physical body collapse, or use the individually valid chains to excuse the separate target and intersection failures.
+
+The approximate diagnostic hull also leaves quad head extent about 0.057964 m native outside, with larger cancellation extents. This is not an actual full native containment test. Air, climb, reaction and retained tackle clips are unqualified for the changed body; pairs are explicitly unsupported. No continuous native, full-body proxy, ordinary-camera or two-client gate ran.
+
+## One finite next requirement
+
+**Correct and qualify the complete-body pose/contact planner and carrier-coordinate ownership on the preserved skinned direction before authoring another decorative body.** Freeze one corrected source-only attempt with one carrier transform applied once at the rig root, consistent skeleton-local transforms, and contact targets owned in world/support coordinates. Plan swing endpoints together with the actual accelerating/turning carrier and joint reach, rather than carrying an unreachable constant-velocity prediction forward and clamping it. Preserve planted paw position, orientation and sole contact through supported phases. Do not lengthen chains, shrink collision, lower useful speeds, waive the head intersection or silently replant a stale target.
+
+The smallest falsifiable gate is one connected complete-body circuit: acceleration to 7.6 m/s quad, brake, actual 90-degree step turn, 0.7-second R and reverse, acceleration to 4.864 m/s upright, the 0.20 m obstacle, and bounded cancellation from moving and R phases, using actual gravity 22. Record raw requested and achieved targets for every chain, root/local/world transforms, reach and joint state, support owner and paw/sole contact state at matching clocks. A continuous bound is necessary between samples; finite sample count alone is not clearance proof. Stop and retain the first genuine failure. Re-evaluate the existing head/armor obstruction under these valid transforms; any geometry change requires a separately explicit decision, not automatic cosmetic repair.
+
+If that source gate succeeds, the necessary next admission gate remains full moving-body collision coverage, finite declared mass/COM support and momentum, honest loss/recovery of contact, cancel and life ownership in native simulation, followed by the same motion in ordinary cameras on both actual clients. Existing detailed masters and failed candidates stay preserved. Useful speeds, full quad/upright identity, climb and paired scope remain required; a quarter-domain proxy cannot be the release result. This review authorizes no implementation or acceptance, and makes no claim about native improvement from an observer/helper that has not run.

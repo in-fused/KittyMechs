@@ -1,0 +1,17 @@
+{
+  "writer": "CLOSED",
+  "utc": "2026-10-11T08:40:56.031904+00:00",
+  "nodeCheck": {
+    "controller.mjs": 0,
+    "mission-capture.mjs": 0
+  },
+  "pythonInMemoryCompile": [
+    "prepare.py",
+    "preflight.py",
+    "launch.py",
+    "author-package.py"
+  ],
+  "metadataOnlyExact103Comparison": true,
+  "browserJobs": 0,
+  "publicMission": "UNRUN"
+}

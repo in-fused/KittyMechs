@@ -1,0 +1,162 @@
+{
+  "nativeRuntimeArt": "DENIED_UNOBSERVED",
+  "sourceAdmission": "INCOMPLETE",
+  "schema": "paired-route029-full-result",
+  "acceptedPartialSamples": 77,
+  "files": [
+    {
+      "bytes": 11787,
+      "sha256": "c86c4d7b97820420d0d61e474dbb7a1c609de05203661449101c6a6144144e92",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-action-records.json"
+    },
+    {
+      "bytes": 3074172,
+      "sha256": "1d81527a3ba7ba0076a4858c18de062735dfde97aa268c538aff6885f1919327",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-animation-inventory.json"
+    },
+    {
+      "bytes": 638,
+      "sha256": "d37a481aacd9a6e4b79de071f4ec42ddc50824acab40f2d9b8bb9f49f35d2ca7",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-author-ground.json"
+    },
+    {
+      "bytes": 12631025,
+      "sha256": "69ebb0b6fea4b784ad34b982bc5da569e642882beb5d86b4c37e9a326871b1ff",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-current-two-body-geometry.json"
+    },
+    {
+      "bytes": 5465062,
+      "sha256": "1fe5601e20925d65ba929a8ec1f65b06f3e5eeb858292eb9f279fa892f81d8cf",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-full-geometry.json"
+    },
+    {
+      "bytes": 76173,
+      "sha256": "65fbc81165695a61c362d72af7ee2a55eece7669045643107e02f3a294fe2c9b",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/current-pair-request.json"
+    },
+    {
+      "bytes": 9761249,
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-actual-attributes.json"
+    },
+    {
+      "bytes": 437656,
+      "sha256": "7e21c8c59b0b048c75ddc743c3eab3a733156f2206adf13d1fb62f0b2df8f135",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-readback.json"
+    },
+    {
+      "bytes": 8073,
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-source-offsets.json"
+    },
+    {
+      "bytes": 410120,
+      "sha256": "801df01fb3ff217311ab452206ea85c21b5b988dedef3e65e880f0a341459fdd",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/first-source-failure.json"
+    },
+    {
+      "bytes": 101554,
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/fixed-rest-verification.json"
+    },
+    {
+      "bytes": 3965,
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/inherited-capability-identities.json"
+    },
+    {
+      "bytes": 15694534,
+      "sha256": "ef352a404514a0baa8b170533932604a7561630a148e3431ca39f666146ce9df",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/matching-clock-two-body-assembly.json"
+    },
+    {
+      "bytes": 836,
+      "sha256": "b296a848cafd8a80084d62893c992395b4aa3d5904306be0a6086a4a7e493e9f",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/median-tail-route-design.json"
+    },
+    {
+      "bytes": 600246,
+      "sha256": "7df0d749a1c48610c6794fe9b3bf7cb78e213b69af02bd686b00bb5394bc278e",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-front.png"
+    },
+    {
+      "bytes": 1068,
+      "sha256": "9e8ab7dd5d8707976263bb52ac53cd6543aee00ec97ee3a94f9f4682eee82db7",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-root-design.json"
+    },
+    {
+      "bytes": 12437657,
+      "sha256": "c954c0db2943ad8ed2514a8abb9304d5d67217c4bf0a4d6e7ce49cd8e7bae92e",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-selected-actual-geometry.json"
+    },
+    {
+      "bytes": 615994,
+      "sha256": "7cb067a94d5bb813c55f3adf42b3bdfadcb174bfcadcb46716434345e5976177",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-side.png"
+    },
+    {
+      "bytes": 15531541,
+      "sha256": "2036f7b419c8e5983cf331ceb9b1de2db83b2c8248ae58021d1c8447d8b1aae4",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pose-owner-raw.ndjson"
+    },
+    {
+      "bytes": 88004622,
+      "sha256": "c44cf21ac11faa481822a66289705dc84ae8a9d74b511067fe97b41f56d2983c",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.blend"
+    },
+    {
+      "bytes": 3677612,
+      "sha256": "1addd50fc648cca4f68a879d8be7420697333acf09ebb79e8dd786d5ef65570a",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.raw.glb"
+    },
+    {
+      "bytes": 241013,
+      "sha256": "a861cddb2bb3a3412b880acb69c6f20efaf53f6204b98ee35bd71b3e30704e1a",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/receipt.json"
+    },
+    {
+      "bytes": 960096,
+      "sha256": "5fd51f898eca8bbd5663a4ea357d05edc9acb9fb0018dbe598337aa2f7b1fc10",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/selected-source-detail.png"
+    },
+    {
+      "bytes": 253348,
+      "sha256": "b7d8a8f6b36b2a92c98a84b0fc1c438d7ec992c716d5c18c1b094d10b5e5f256",
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/source-profile.json"
+    },
+    {
+      "bytes": 17756,
+      "sha256": "2bf5eb09e0d470c7b698112736d26f13f92c720f7556ce6da9f8362cbf05f565",
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/process-receipt.json"
+    },
+    {
+      "bytes": 3122,
+      "sha256": "f2cb1a675e81276ba8ea0dab714ec70da7b2d6268007cc5266d1f47c74b78cc8",
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/stdout.txt"
+    },
+    {
+      "bytes": 27523,
+      "sha256": "712524a86329f134faea40af871f568023b7763f1882ee32d67ad88aba0d053e",
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/verified-inputs.json"
+    },
+    {
+      "bytes": 7947,
+      "sha256": "2b033e73ff84b41b3c477077334c40479979cb5d877d698611b8076ce2b9f605",
+      "path": "tools/overhaul-pounce-paired-route-029/full-analysis.json"
+    },
+    {
+      "bytes": 33703,
+      "sha256": "e7d5eca88e8b24a3f37f4ffb0233409d10b0b997f9c4166d3eff53ee3dd88d49",
+      "path": "tools/overhaul-pounce-paired-route-029/full-postrun-input-verification.json"
+    },
+    {
+      "bytes": 3915,
+      "sha256": "a9aca41782f079aeb73c0ce28933bc1dc0bfeb7c1906c8daf28336122dcf929c",
+      "path": "docs/overhaul/pounce-paired-route-029-RESULT.md"
+    }
+  ],
+  "totalBytes": 170094007.0,
+  "status": "FIRST_SOURCE_FAILURE_STOP",
+  "sealedUTC": "2026-10-10T20:59:55.6553401Z",
+  "currentCrossCandidateCount": 6
+}

@@ -1,0 +1,26 @@
+{
+  "mode": "STATIC_JSON_NO_PACK_OR_POSE_JOB",
+  "clips": 45,
+  "primitives": 4,
+  "bones": 61,
+  "sourceAssetBytes": 18399512,
+  "bufferViews": 11205,
+  "accessors": 11200,
+  "protectedInputs": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/decoded-catalog.json",
+      "bytes": 2225757,
+      "sha256": "8e9d99e9a78fa6847fd521fde6127d575b931b64a8f1f070632de9631156b5f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    }
+  ]
+}

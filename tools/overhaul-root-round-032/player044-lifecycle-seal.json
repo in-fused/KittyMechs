@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-root-round-032/player044-lifecycle.mjs",
+      "bytes": 6914,
+      "sha256": "5223f8baa45107149a3dd5216c3d177956950e9675e5e934b721851a811452ef"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-root-round-032/player044-lifecycle.mjs",
+    ".sites-runtime/overhaul-20261010/player044-lifecycle"
+  ],
+  "scope": "NEW044 actualSolo absentmodel lifecycle/HTTP diagnostic, one finite attempt no sourcechanges."
+}

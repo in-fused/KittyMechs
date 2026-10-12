@@ -1,0 +1,41 @@
+{
+  "writer": "CLOSED",
+  "status": "EXACT_ATTRIBUTE_BATCH_SOURCE_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-batch-129/batch-validate.mjs",
+      "bytes": 11370,
+      "sha256": "2caadc831a343767d321994d8b989d9d7c5cd6abda3f775cc65975c341556d0b"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/HANDOFF.md",
+      "bytes": 3462,
+      "sha256": "6d0c735289eda3bc876f179f8590398265582e105506373245e946ec060b6a71"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/protected-inputs.json",
+      "bytes": 8842,
+      "sha256": "6d4d32a9572860282ceb57828896a1f30410bafdccaa4f24bf027fd2328cc85e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/read-only-catalog.mjs",
+      "bytes": 6170,
+      "sha256": "7fd95283620deb4a82f6691474fde21ffb144d0504aff9164fb896eba26f6f9d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "aad264286462f708b6467cd40394f8ca55f45f646f4970f116f63c13f46851b7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    }
+  ]
+}

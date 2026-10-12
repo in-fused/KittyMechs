@@ -1,0 +1,109 @@
+{
+  "writer": "CLOSED",
+  "restoration": [
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2",
+      "unchanged": true
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 48242,
+      "sha256": "8a08dbef29a9ae619e816eee1d1133ebae8a6548fe0aa8330d3207ffa97b852c",
+      "unchanged": true
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 19400,
+      "sha256": "d6935561e0eb9afa1eda22a422c951f2ba54a042d9b2c4d12b3a79edd4b9cf73",
+      "unchanged": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4465,
+      "sha256": "d3575eeaef01112ed2a2561599fcaebeb46e5aaa6519b5eeb2f2c7f229cd6aa5",
+      "unchanged": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3644,
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed",
+      "unchanged": true
+    },
+    {
+      "path": "tests/locomotion-tasks143.test.ts",
+      "bytes": 7211,
+      "sha256": "810cf312292148b2dca929944cb78bc6846014fd0b61a8f5b9d58d6e2ef228b6",
+      "unchanged": true
+    }
+  ],
+  "newHelperAbsentFromProduction": true,
+  "inputs": [
+    {
+      "path": "tools/overhaul-locomotion-147/source-seal.json",
+      "bytes": 2487,
+      "sha256": "5e36e554ac3336807a3b1376d5f030f012788235976b7d956dea15a1e90a6ba0"
+    },
+    {
+      "path": "docs/overhaul/critic/playability150-design-review.md",
+      "bytes": 8517,
+      "sha256": "cdfac6d61e5c15edd9b67a7e72cf7ac32c25f196416c0a6e81c7dcef3c6e6cde"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "shared/Simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": "shared/ownedCharacterMotion.ts",
+      "bytes": 12595,
+      "sha256": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    }
+  ]
+}

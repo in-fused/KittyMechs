@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_PASS",
+  "protectedRows": 817,
+  "actualCapture": false,
+  "publicControlChange": {
+    "before": "await host.page.keyboard.press('Tab');const invite=new URL(await host.page.getByLabel('Squad invite').inputValue());",
+    "after": "let invite;await host.page.keyboard.down('Tab');try{invite=new URL(await host.page.getByLabel('Squad invite').inputValue({timeout:10000}));}finally{await host.page.keyboard.up('Tab');}"
+  },
+  "sourceHud": {
+    "path": "src/ui/Hud.tsx",
+    "bytes": 18910,
+    "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff"
+  },
+  "source216": {
+    "path": "tools/overhaul-loading-capture-216/source-seal.json",
+    "bytes": 2146,
+    "sha256": "c4794176bafd821310582ac71b143998be69bcf2718bab5dbf04d2990088d180"
+  },
+  "actual216": {
+    "path": ".sites-runtime/overhaul-20261011/loading216-actual/output-seal.json",
+    "bytes": 3245,
+    "sha256": "a0ee4ca2acf951b1ac374ef97dc846c110dcf8b7d3e244f182df585706bd0710"
+  },
+  "nonASCIISelectorBytesExact": true,
+  "unchanged": "Same211/215/062;20/60/20/80/90;owner/life/ACK/readiness/body/network/profile/native cleanup;existing10s invite timeout. No DOM/state/clipboard injection.",
+  "syntax": {
+    "nodeCheck": "PASS",
+    "pythonCompile": "PASS"
+  }
+}

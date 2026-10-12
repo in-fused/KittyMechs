@@ -1,0 +1,19 @@
+{
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "scope": "actual decoded 61 rig; constructed fixed Rapier floor/carrier cases, not native trajectory or browser gameplay",
+  "cases": [],
+  "firstFailure": {
+    "reason": "Error: 143_FIXTURE_UNSUPPORTED_CHANNEL",
+    "operands": null,
+    "last": null
+  },
+  "counts": {
+    "frames": 0,
+    "fulfilled": 0,
+    "touch": 0,
+    "release": 0,
+    "independentChecks": 0
+  },
+  "maxSamePointError": 0,
+  "maxMinDifference": 0
+}

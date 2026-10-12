@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "tools/player-recovery-114/render-source.py",
+      "sha256": "f5fcc04083a4e5d93708770ee98543bf6a0d7fab8fa147008a5a1cebaba29afb",
+      "bytes": 3227
+    },
+    {
+      "path": "tools/player-recovery-114/prepare-views.py",
+      "sha256": "c7384498597b5e745bea26a3509ab4c363a4e6ccc8d3dd04774e33595c9a4311",
+      "bytes": 1120
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc",
+      "bytes": 1888
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-112/Pounce_Motion112.blend",
+      "sha256": "279a19b3c813a317da1283362ff75759ba31bfe7e70ae8acec876968de0e11b9",
+      "bytes": 82332300
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-112/authored-motion-records.json",
+      "sha256": "65cf306e84a47701b997bf3b3916ad007de9ecc5ffff9446ede70d396fca71d9",
+      "bytes": 3082
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-112/author-receipt.json",
+      "sha256": "ad3e4cc6e7da48a207846aec669eeda3b1baaa02b248b6c2eb612c4dc71ee651",
+      "bytes": 4872
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\player-recovery-114\\render-source.py"
+  ],
+  "scope": "ONE120s passive source view job; no master save or export or gameplay; first failure stops"
+}

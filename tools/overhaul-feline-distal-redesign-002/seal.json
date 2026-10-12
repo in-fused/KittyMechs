@@ -1,0 +1,39 @@
+{
+  "candidate": "feline-distal-redesign-002",
+  "sealedUTC": "2026-10-10T13:03:54.4022740Z",
+  "status": "CLOSED_DESIGN_ONLY_NO_AUTHOR_GRANT",
+  "jobsActive": 0,
+  "writersClosed": true,
+  "files": [
+    {
+      "path": "docs/overhaul/feline-distal-redesign-002.md",
+      "bytes": 12345,
+      "sha256": "463cd3301ec9b24418c2100efd9380de10f5d331cbbfe05fa58af61e19fed65c"
+    },
+    {
+      "path": "tools\\overhaul-feline-distal-redesign-002\\closure.json",
+      "bytes": 4172,
+      "sha256": "fb394e70504e97e4ddb185b2fbb15ba84ff091d595395a6e3af250ac369af2b6"
+    },
+    {
+      "path": "tools\\overhaul-feline-distal-redesign-002\\design.json",
+      "bytes": 12599,
+      "sha256": "a68286f553caeaffaf907f1f4ff2db36a6ef3fe6987f1eb8d745914adeaa433a"
+    },
+    {
+      "path": "tools\\overhaul-feline-distal-redesign-002\\measure.py",
+      "bytes": 4207,
+      "sha256": "ea49acd57309ac09a45a47fb0db2411f9f7b5b7e35d630e9feec0c68ee482935"
+    },
+    {
+      "path": "tools\\overhaul-feline-distal-redesign-002\\ownership-readback.json",
+      "bytes": 193,
+      "sha256": "ebbadb92ee98e13a19ae59f904e0a61168ad49a9ed1b1bed52c6b77746ee6fde"
+    },
+    {
+      "path": "tools\\overhaul-feline-distal-redesign-002\\recorded-facts.json",
+      "bytes": 60982,
+      "sha256": "1b5e2cb49f0fcdaa0df5ba838e88becea4042ecb0d40d8098107fd5066d460c3"
+    }
+  ]
+}

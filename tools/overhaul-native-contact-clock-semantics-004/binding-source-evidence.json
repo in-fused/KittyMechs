@@ -1,0 +1,8 @@
+{
+  "installedPackage": "@dimforge/rapier3d-compat",
+  "version": "0.19.2",
+  "sourceMap": "node_modules/@dimforge/rapier3d-compat/rapier.cjs.map",
+  "source": "../gen3d/gen3d/control/character_controller.ts",
+  "excerpt": "public computedCollision(\n        i: number,\n        out?: CharacterCollision,\n    ): CharacterCollision | null {\n        if (!this.raw.computedCollision(i, this.rawCharacterCollision)) {\n            return null;\n        } else {\n            let c = this.rawCharacterCollision;\n            out = out ?? new CharacterCollision();\n            out.translationDeltaApplied = VectorOps.fromRaw(\n                c.translationDeltaApplied(),\n            );\n            out.translationDeltaRemaining = VectorOps.fromRaw(\n                c.translationDeltaRemaining(),\n            );\n            out.toi = c.toi();\n            out.witness1 = VectorOps.fromRaw(c.worldWitness1());\n            out.witness2 = VectorOps.fromRaw(c.worldWitness2());\n            out.normal1 = VectorOps.fromRaw(c.worldNormal1());\n            out.normal2 = VectorOps.fromRaw(c.worldNormal2());\n            out.collider = this.colliders.get(c.handle());\n            return out;\n        }\n    }\n}\n",
+  "interpretation": "Actual JS binding uses world accessors; actual geometry correspondence remains separately measured, not inferred from declaration."
+}

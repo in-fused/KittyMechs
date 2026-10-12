@@ -1,0 +1,15 @@
+# MovingR067 focused check result
+
+Verdict: ACCEPT the bounded fixture/typecheck results and permit ONE root build plus ONE separately sealed ordinary-play observation, preserving042 fallback. No contact or movement-quality admission follows from these checks. Reviewer jobs0; source edits0.
+
+The actual controller command passed in1.391s with405 recorded samples; typecheck passed in13.422s. Both process receipts report exit0, no failure and21 unchanged input rows. The result identifies actual058E weighted geometry and a deliberately fixed-plane test world, and explicitly denies actual-play/native-pad qualification.
+
+Both rear limbs retain length and numerical anchor consistency: HL227 stance/176 swing/2 recovery samples, HR306 stance/97 swing/2 recovery. Their maximum recorded stance residual is approximately1.4285e-6m. No fixed-link stretching was observed; root aggregate maximum translation-length error is4.17e-7. The fixture also exercises removed-support recovery, generation invalidation and repeated source-clock stability. These results provide concrete viability for observing the candidate rather than an assertion-only reason to reject it.
+
+The overall maximum stance error0.833601m is real and must remain reported. At sample189, presentationTime13.1666667, FL is labelled stance with influence1, markerY0.736565m and floor targetYapproximately0. The controller's fore release multiplies stored influence by a separate R control factor; the recorded influence excludes that factor. Consequently stance/influence1 in this transition does not mean full final IK influence, and the large discrepancy cannot be dismissed as a small planted residual. Fore limbs later reach explicit unloaded state142 times each. This distinction supports inspecting the intended fore lift but does not qualify the fore release/replant transition or its visual continuity.
+
+The moving fixture checks execution, finite values and unchanged lengths; it does not assert small all-limb contact residual throughout moving/back/turn R. Partial release can preserve a support/stance label while the rendered foot leaves it. Ordinary play must therefore judge rear hold/replant, fore lift and rejoin, knee/hock trajectories, actual paw/claw clearance and source-to-IK entry/exit. A positive numeric rear result does not prove those qualities in the real district, under frame lag or at actual player speeds. The bind-derived lowest marker is still not a full current articulated foot-envelope guarantee.
+
+Allow one build and one1440x900 normal-input observation covering standing, forward, reverse and turning R, both directions and ordinary gait exits. Actual failures remain failures; no automatic repeat or source adjustment follows this permission. Preserve timing and body visibility alongside motion because shared collider inventory, startup weighted extraction and per-limb model matrix updates have not received a performance qualification. Reject weak actual presentation despite successful checks.
+
+Reviewer writer CLOSED. Full gameplay/contact/art/Gate1 remain INCOMPLETE.

@@ -1,0 +1,17 @@
+{
+  "schema": "critic032-diagnostic-code",
+  "startedUTC": "2026-10-10T21:08:31Z",
+  "closedUTC": "2026-10-10T21:09:45.0785146Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "APPROVE_ONE_UNCHANGED_ROOT_ONLY_DIAGNOSTIC",
+  "review": "docs/overhaul/critic/pounce-hand-contact-032-diagnostic-code-review.md",
+  "reviewSHA256": "1937723EA97DC43834CE4195BB5802A38C799356E2C057F9C4477D5F08852F0D",
+  "sealSHA256": "DCAF3EDB0F819D52777CC336AA1297E04BAAB31EF6862A00DE458D7DCF3BBC6B",
+  "ownedRowsVerified": 5,
+  "protectedRowsVerified": 171,
+  "triangleMappingsVerified": 6,
+  "mismatches": 0,
+  "inclusiveExternalCapSeconds": 60,
+  "sourceNativeArtGate1Accepted": false,
+  "otherJobGranted": false
+}

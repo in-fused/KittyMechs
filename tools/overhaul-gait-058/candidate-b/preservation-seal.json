@@ -1,0 +1,67 @@
+{
+  "candidate": "058B",
+  "status": "SAVED_AUTHORED_MASTER_PRESERVED_EXPORT_STOP_NO_GRAFT",
+  "createdUTC": "2026-10-11T02:54:21.055522+00:00",
+  "files": [
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/author-receipt.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/author-receipt.json",
+      "sha256": "85a8e23c8c1aeaa450eece9db8aadb1956c66a0e306dea38269560d9e0ad638e",
+      "bytes": 43176
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/author.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/author.py",
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a",
+      "bytes": 10162
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/authored-gait-records.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/authored-gait-records.json",
+      "sha256": "cf929e1805a0a148bda7d39e99d17a4748b57eaddc9c5c85a5606be81d1b6dc3",
+      "bytes": 658451
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/geometry-material-preservation.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/geometry-material-preservation.json",
+      "sha256": "71a91b0f8946ea1ae135910b42d53ce3569924c057ff2528b3bf24c119f73522",
+      "bytes": 55347
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/pose-owner-readback.jsonl",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/pose-owner-readback.jsonl",
+      "sha256": "3d358dd2160ab7bed14e67a0cc7d7d6f6ed5b4374ec51f317fd362110c3ad022",
+      "bytes": 14975895
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/Pounce_Gait058.blend",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/Pounce_Gait058.blend",
+      "sha256": "e392a26aa45a5348b33efcfa34845b8be8a840c4d1ff8550b74d28afaa71414d",
+      "bytes": 77650342
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/solver-provenance.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/source-output/solver-provenance.json",
+      "sha256": "d9a899a1e9440c201f462eccc29ace6e5da4512cca04691b6300feced78496bd",
+      "bytes": 1155
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058/graft_verify.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/graft_verify.py",
+      "sha256": "5a472a4dcb92d2481d5bf21989de699c58befa2e334e6072ecade9fb8f019ca0",
+      "bytes": 11824
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058/protected-inputs.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/protected-inputs.json",
+      "sha256": "e2f81a19cdf4564cc78b014dfc736fcc29199e64da4f14cb41ed16ba07d6fd52",
+      "bytes": 2739
+    },
+    {
+      "originalPath": "docs/overhaul/gait-058-author-handoff.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-b/gait-058-author-handoff.md",
+      "sha256": "70b0a634ebaeeee9502213ce96a5d75b92bd8f4362ec33cf572c8159cb0ab316",
+      "bytes": 7467
+    }
+  ]
+}

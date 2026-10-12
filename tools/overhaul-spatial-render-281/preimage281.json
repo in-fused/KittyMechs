@@ -1,0 +1,15 @@
+{
+  "writer": "CLOSED",
+  "source": {
+    "path": "src/game/world/overhaulDistrictArt.tsx",
+    "bytes": 9005,
+    "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7"
+  },
+  "canonical": "src/game/world/overhaulDistrictArt.tsx",
+  "candidate": {
+    "path": "tools/overhaul-spatial-render-281/overhaulDistrictArt281.tsx",
+    "bytes": 9261,
+    "sha256": "02d3d90f172f1d0af2e53baf19197022a0a6cd7df47e4bd06a7eca5264671170"
+  },
+  "scope": "Private candidate spatial render batching; native/simulation/structural ownership unchanged; performance and actual destruction visual culling unverified"
+}

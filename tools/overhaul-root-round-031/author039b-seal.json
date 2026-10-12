@@ -1,0 +1,54 @@
+{
+  "frozenUTC": "2026-10-10T18:31:07.648751-04:00",
+  "files": [
+    {
+      "path": "assets/source/overhaul-extraction-art-039/author_extraction039.py",
+      "sha256": "1ed12508ed44f8bf4ab5466d2c635196254760b865a6036eb092238119b29e10",
+      "bytes": 7280
+    },
+    {
+      "path": "assets/source/overhaul-extraction-art-039/asset-manifest.json",
+      "sha256": "cab3a00ac7a85914384ece6113b6f328fb1e8ba1c9426dd7ca94f2c38a31031a",
+      "bytes": 2894
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900",
+      "bytes": 9779
+    },
+    {
+      "path": "tests/extraction039-art.test.ts",
+      "sha256": "3a75936a2c7308e332c86b4c243cd65cd9174454ea963f767bf7e134aaeab0c5",
+      "bytes": 2752
+    },
+    {
+      "path": "docs/overhaul/extraction-039-art.md",
+      "sha256": "432b164ab1a3d0bece0ece63e7735b7610366edb7e2f5935913c8387d142f57d",
+      "bytes": 4080
+    },
+    {
+      "path": "tools/overhaul-extraction-039/art-handoff.json",
+      "sha256": "58c71e8cc84a1aca537adce2db243ce8fe8032f0e62d4f72f052b9261fa8f336",
+      "bytes": 1728
+    },
+    {
+      "sha256": "8704958e045760c907402fa4cc4f2c454833c4af460037d83a97d1930c1109b7",
+      "path": "assets/source/overhaul-extraction-art-039/author_extraction039b.py",
+      "bytes": 7569
+    },
+    {
+      "sha256": "c3588ccf6aa00691ecc9b1fdc39ae5c2d1227cd2b845445abc1010affd167745",
+      "path": "tools/overhaul-extraction-039/art-correction-b-handoff.json",
+      "bytes": 2587
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-extraction-art-039/author_extraction039b.py"
+  ],
+  "inclusiveCapSeconds": 120
+}

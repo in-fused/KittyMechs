@@ -1,0 +1,9 @@
+# Revival feedback: actual damage versus regeneration cooldown
+
+The ordinary mission017 final frame showed a restored teammate as under fire. Source inspection established a deterministic cause: revival assigned both `hitAt` and `hurtAt` to the revival time. `hitAt` also controls the seven-second armor regeneration delay, so removing both timestamps would change the game balance.
+
+Revival now resets only the regeneration cooldown (`hitAt`) and preserves the last actual accepted damage timestamp (`hurtAt`). The damage vignette, camera shake and model hit flash read `hurtAt`, as the existing teammate-under-fire cue already does. Actual damage still updates both clocks. No hull, rescue duration, NPC threat, regeneration rate or protection interval changed.
+
+The existing native restore test now verifies the preserved damage timestamp, restarted regeneration delay, unchanged 88 HP during the immediate post-revive period, unchanged two-second protection, and a later accepted hit updating HP and both clocks. The first added damage assertion failed because it attempted damage inside that existing protection interval; the corrected test observes protection and waits through it rather than altering gameplay. Both focused co-op files passed: 17 tests. Whole lint passed. Frozen builds012/013 and ordinary two-client missions018/019 completed revival with no synthetic under-fire panel or guest damage vignette in precleanup DOM/screenshots. See mission-play-018.md/019.md. Subsequent ordinary hits and separate camera/model rendered-hit measurements remain untested; independent follow-up review is pending after another service thread-limit rejection.
+
+This is a bounded cooperative feedback correction, not an acceptance of the district, movement, combat, art or destruction. Build011 remains retained as the previous frozen playable checkpoint.

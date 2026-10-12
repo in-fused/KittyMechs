@@ -1,0 +1,5 @@
+# Anatomy125 launcher addendum — CLOSED
+
+APPROVE the newly supplied launch.py and prepare-play.py within the unchanged execution limits and conditions of anatomy125-integration-source-review.md (SHA `303d6d74d57031a2b96d79e519ce081e6c00b36c54fd453497fee92e36a0073b`). No extra observation or quality approval.
+
+Launcher SHA `bc1ca06a0fab503b0eaf8bf629e7d59a39bb96c18ca7324c6c5654663a955705` supplies the actual frozen053 receipt SHA. Preparation SHA `0ce7c8d1ffa3df4babee949f617b6eba87d15a6daf9424976c59cbaab292db61` checks checkpoint/receipt identity, idle health, raw HTML after the two known server metas and exact served121 GLB. It binds all frozen files into the observation seal. Root must verify those frozen file hashes against the original053 receipt before execution: computing current file hashes for a new seal alone does not prove the original bytes. Record actual tracked idle-server replacement and served identity; preserve052 rollback. ONE90-second root/80-second inclusive child remains the only allowed observation. Reviewer jobs0; writer CLOSED.

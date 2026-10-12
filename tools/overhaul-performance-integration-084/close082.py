@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,hashlib,datetime
+r=Path(__file__).resolve().parents[2];h=Path(__file__).resolve().parent
+paths={p for n in ['performance081-containment','performance082-baseline-process','performance082-baseline'] for p in (r/'.sites-runtime/overhaul-20261010'/n).rglob('*') if p.is_file()}
+paths.update(r/p for p in ['tools/overhaul-performance-081/containment-result.json','tools/overhaul-performance-081/source-seal.json','docs/overhaul/critic/performance081-source-review.md','docs/overhaul/critic/performance082-result-review.md','docs/overhaul/performance-077-diagnosis.md','docs/overhaul/performance-081-source-handoff.md'])
+rows=[{'path':p.relative_to(r).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(paths)]
+p=h/'closed082-result-seal.json';assert not p.exists();p.write_text(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'files':rows,'scope':'081 containment PASS sampled scope;082 baseline CLOSED failed publicPause click intercepted bycanvas duringpointerlock. Three prototype phases33samples only, standard/build/candidate UNRUN, live045 unchanged. Observer083 separatelysourcegated Escape correction, firstfailurecloses. No performance orcamera/userlag qualification; fullgoal INCOMPLETE.'},indent=2));print(json.dumps({'files':len(rows),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}))

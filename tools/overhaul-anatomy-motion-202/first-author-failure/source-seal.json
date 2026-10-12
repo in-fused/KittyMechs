@@ -1,0 +1,185 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_AUTHOR_FAILURE_PRESERVED",
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json",
+      "bytes": 348,
+      "sha256": "10812071dfbd71b1bb05c71a8a3787a3ca56905257dad7f6f517b39cf5e2e469"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/anatomy202.py",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/anatomy202.py",
+      "bytes": 4632,
+      "sha256": "0e6b600904caa0123544d49ab21e1d360de924a65454e83dca3650c34f21e09e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/armor-ledger202.json",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/armor-ledger202.json",
+      "bytes": 1103240,
+      "sha256": "5f7500467c5748c8ae5ca1f672c5eb11e18f93b6d07a5f5a3cb22f5021d46dfe"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/armor202.py",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/armor202.py",
+      "bytes": 5650,
+      "sha256": "0c4b98a48509090e3e221b858482ad232a134d32984db8b25f1342b67ebd83d4"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/author-receipt202.json",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/author-receipt202.json",
+      "bytes": 2734,
+      "sha256": "2fcb13d6850baba5f73792a13b2a4dd46b3d4152989f3afd4f0d1d0bfcf7331e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/choreography202.py",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/choreography202.py",
+      "bytes": 7885,
+      "sha256": "99fa8fb08dc989db0fc40f86ffb589993e940cee1bab7108fdbcc4ec90358caf"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/evaluated-pose202.json",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/evaluated-pose202.json",
+      "bytes": 246,
+      "sha256": "f61f71d052603377152525b4841b6fc2acbc4ffa382f1c11c4657564ef3002c5"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/assets/source/overhaul-anatomy-motion-202/source-operands202.json",
+      "originalPath": "assets/source/overhaul-anatomy-motion-202/source-operands202.json",
+      "bytes": 1284353,
+      "sha256": "9f850787ea259b1e7b956fd9dbdf1278a8d7b7c79fba1c229386805d44b1d4e2"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/docs/overhaul/anatomy-motion202-design.md",
+      "originalPath": "docs/overhaul/anatomy-motion202-design.md",
+      "bytes": 4636,
+      "sha256": "8fda3de0744e4d7014c82d2d3ecd56d01c69f20473606ffd5fdd1bf103935d5f"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/author-process202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/author-process202.json",
+      "bytes": 549,
+      "sha256": "7c88bc30c14cec54238402a86e2024c5f268d71bae718be7c48b42a784410045"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/author-stdout202.txt",
+      "originalPath": "tools/overhaul-anatomy-motion-202/author-stdout202.txt",
+      "bytes": 650,
+      "sha256": "5f95bca502640a7b7094946259f30adcb18016df7f9569102a524aa8e886c4c5"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/author202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/author202.py",
+      "bytes": 17097,
+      "sha256": "2ef5e25eb500d10dccd650193ecc9b5fac819fe0d8c9d7908bc2d858ec2b814f"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/browser-bundle202.js",
+      "originalPath": "tools/overhaul-anatomy-motion-202/browser-bundle202.js",
+      "bytes": 1106208,
+      "sha256": "5f1b1a13d2c6d121835bfefe3f0e44b1090e45fe612b5b1e86aca4b97180f677"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/browser-decode202.mjs",
+      "originalPath": "tools/overhaul-anatomy-motion-202/browser-decode202.mjs",
+      "bytes": 2999,
+      "sha256": "7f5225f822bf82ee466b82d53b492065af16ca6affe81212399d16382017924b"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/browser-entry202.ts",
+      "originalPath": "tools/overhaul-anatomy-motion-202/browser-entry202.ts",
+      "bytes": 15251,
+      "sha256": "7b71e0daefd5b3f8d41dc1fb6a9e6c4649d8b8fb5b6fa4bcfe7195aa6385d98f"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/bundle-preflight202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/bundle-preflight202.json",
+      "bytes": 1097,
+      "sha256": "b8419f964ee5d98628a9736d9dce2198672b5149f3df8201d611016536130229"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/preflight202.mjs",
+      "originalPath": "tools/overhaul-anatomy-motion-202/preflight202.mjs",
+      "bytes": 608,
+      "sha256": "07e7ed6b6b69c37e3b4d55a0cc9797bf65ef22b2042f81b9601d7eb52edea8f0"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/preview202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/preview202.py",
+      "bytes": 8361,
+      "sha256": "bc4e032458e43ecad35cf2e8340df1bb7c4ff8de6e3069ea07246bfc1d02d2dd"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/protected-inputs202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/protected-inputs202.json",
+      "bytes": 1661,
+      "sha256": "8962ec87484b2d182c303afa5616a4ebc90f28bf4d50faa98def1efef228de04"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/readiness-seal202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/readiness-seal202.json",
+      "bytes": 6238,
+      "sha256": "0b12b400d3b50b42e0b49dc10de2ccdc6037fb0fafe7613bb33ad834f939797a"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/READINESS.md",
+      "originalPath": "tools/overhaul-anatomy-motion-202/READINESS.md",
+      "bytes": 2179,
+      "sha256": "929e219e5c33c303c804f7ffb0dfd34985ee790d53848a616858129fbd0330ed"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/run-decode202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/run-decode202.py",
+      "bytes": 1144,
+      "sha256": "878e4ab943205e1514a85e1a15f3a91b2fd549ca811691e564ece2f31cc02971"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/run202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/run202.py",
+      "bytes": 2350,
+      "sha256": "dbb5e0280f96e8759d2965ac674bce58bb04ab8fc55ed5b4c347bc0c8f21e144"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/seal-readiness202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/seal-readiness202.py",
+      "bytes": 2494,
+      "sha256": "e7cce9bdef75c4dd8aeb90b7b2568620a6d18983709797cfecdbe8790dd9fed8"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "originalPath": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/static-check202.py",
+      "originalPath": "tools/overhaul-anatomy-motion-202/static-check202.py",
+      "bytes": 902,
+      "sha256": "f0b1f53c61b8e1321900239385d47c2ebfb43b462ed41f3bc2ebe3cef553adb2"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/static-first-failure202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/static-first-failure202.json",
+      "bytes": 454,
+      "sha256": "2b77da9550c35583f51742c523a28e538c03e5a73fcf78ff971f43ff8c273063"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/static-plan202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/static-plan202.json",
+      "bytes": 1392,
+      "sha256": "05f46e57245aca6b44286d7c7372ce2beb209e6b35f069b4693849ca17635a86"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/tools/overhaul-anatomy-motion-202/static-source-check202.json",
+      "originalPath": "tools/overhaul-anatomy-motion-202/static-source-check202.json",
+      "bytes": 8474,
+      "sha256": "a7b9f96eb0471a72aebdc1b145f0a4a4e368d683ad7755ef710b2b52e6ee4902"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/first-author-failure/diagnosis202.json",
+      "bytes": 5770,
+      "sha256": "5752b057fe281946f86e60d26a56378aa3a94a680c2b5f3deb5da9e2d10d193e"
+    }
+  ]
+}

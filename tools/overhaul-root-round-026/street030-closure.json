@@ -1,0 +1,144 @@
+{
+  "closedUTC": "2026-10-10T21:00:10.549476+00:00",
+  "jobs": 0,
+  "sourceWriters": 0,
+  "status": "PARTIAL_FUNCTIONAL_AND_STREET_INCREMENT_ACCEPTED_FULL_ROUTE_AND_ART_INCOMPLETE",
+  "files": [
+    {
+      "path": "shared/rainlineStreetPopulation030.ts",
+      "bytes": 672,
+      "sha256": "4dc8b99a63f6ddd87f6d9432bfe2d1fdb47e95da639c7c88f9914fde792e2825"
+    },
+    {
+      "path": "shared/data/rainlineStreetPopulation030.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": "shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6058,
+      "sha256": "e62910f9380aacf2a712754d4902834e7103e30aff1662731d5b3786aa79952c"
+    },
+    {
+      "path": "tools/overhaul-root-round-026/plan-street030.ts",
+      "bytes": 2134,
+      "sha256": "99141659ebbc50e8f7d63e4506bc22c7475671273da30b5a419229551bbd70b9"
+    },
+    {
+      "path": "tools/overhaul-root-round-026/street030-plan.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "tools/overhaul-street-player-030.mjs",
+      "bytes": 12668,
+      "sha256": "b8156a3f48e539224f7125c4c0096362b0911e49a57664182732b7ffba658523"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "docs/overhaul/rainline-street-030-plan.md",
+      "bytes": 1646,
+      "sha256": "8385f82aac8829023ece90caff2c6f54bba56d6d1a42498f9c6f7fd52b6d2df0"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/ATTRIBUTION.md",
+      "bytes": 611,
+      "sha256": "10d04a1c7021cfe0930cad1085e9dc73da60415bfdef7f21709aa15e8a0774db"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/Rainline_StreetPopulation_001.glb",
+      "bytes": 5140368,
+      "sha256": "387db23d0128df59c215b927ecfcadffb0492faa2bcee1c54a9264f98fcad70a"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/source-lock.json",
+      "bytes": 11885,
+      "sha256": "4dc5925ea1eb3902960edc8015bb79a6ddec3f1505d495b5e129deed929cdef1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/evidence.json",
+      "bytes": 5641374,
+      "sha256": "079f00ae2468c87cdeb254e8d6cfb0391bd1f939fba018bba8e979017770ca0b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/page@a19bf5a6a39a049bc2f4101b717210fc.webm",
+      "bytes": 9051424,
+      "sha256": "f85dc89982e5647835ecc6edb2254fb51b89edf59081294f9902b238dd0a2535"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-player-030/progress.json",
+      "bytes": 5629767,
+      "sha256": "398bf8ba725e9a2073ab4898f267dbb6a0e2777bbd9b35111d791e7115d75d56"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/receipt.json",
+      "bytes": 1115,
+      "sha256": "78fd72ab5837a53f89efbc5c23a02d9dbb0d412117c8ae8e851a8cad995eb44a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/route.png",
+      "bytes": 7382809,
+      "sha256": "f9f0386160e5ea405a6b3eab0282075d1edeb93ee9a4099bc6e8acf32d363539"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street-motion-030/stdout.txt",
+      "bytes": 3264,
+      "sha256": "30a8ae490a0002d0a98f22bbc1e20c7e16d13dba7814fbf7b0c49b58b9b51f8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-build-process/process-receipt.json",
+      "bytes": 1842,
+      "sha256": "4d449ce95c50399c028498fddce855e4884a53f8b4df04f84e4899d32ffeb9f8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-build-process/stdout.txt",
+      "bytes": 2261,
+      "sha256": "9625dbd6ff5fa98520706a158a623f088a0053cc38fadba7cccf6032c4933d62"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-capture-process/process-receipt.json",
+      "bytes": 1836,
+      "sha256": "dd52f15b70b2edd18f83473f27648959f9de3ca92eeb72651d09575915677f2a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/street030-capture-process/stdout.txt",
+      "bytes": 986,
+      "sha256": "3b888dc8d53b1a3d10062a45cac2a335372dbaa5996b1c42d714127642ac4167"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-028/receipt.json",
+      "bytes": 69138,
+      "sha256": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7"
+    },
+    {
+      "path": "docs/overhaul/critic/rainline-street-030-code-review.md",
+      "bytes": 2790,
+      "sha256": "724ad865f52445f592017633eee696ac09d13f4a86371ce9801a1678b093bc9b"
+    },
+    {
+      "path": "docs/overhaul/critic/rainline-street-030-result-review.md",
+      "bytes": 3803,
+      "sha256": "12a32f64b4cdafeaa8e7301195ce6f424e0523f6cbe77e0a90026c26b1a673c8"
+    }
+  ],
+  "limits": "Strict waypoint route failed by overshoot; actual movement continued through core. No obstruction proof, exact new prop destruction interaction, finished art, native pair contact, or Gate1 admission."
+}

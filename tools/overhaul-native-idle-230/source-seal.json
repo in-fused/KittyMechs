@@ -1,0 +1,104 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_IDLE_CONTROL_PASS_UNADMITTED_GAMEPLAY",
+  "closedUTC": "2026-10-11T23:33:37.221040+00:00",
+  "files": [
+    {
+      "path": "tools/overhaul-native-idle-230/check-receipts230.json",
+      "bytes": 499,
+      "sha256": "b19e9ca7823c9115deae3473a31fce295b44126475b71f7b71b7b2145ac1c657"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/check-source230.mjs",
+      "bytes": 828,
+      "sha256": "2847d86aab49b2fa0fdfd14800a0fab8cc116d7eb5b2eaa093558a02d6168acc"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/close230.py",
+      "bytes": 2531,
+      "sha256": "1761ecca0d7dde23916e6abe539b477418c831eaed5ce19802f7d412f767b275"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/control-check230.ts",
+      "bytes": 4182,
+      "sha256": "cd563e6cb104f791b9ad7beab5a5c746e3048b92cad04c392775a55138dbd42f"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/control-receipt230.json",
+      "bytes": 3036,
+      "sha256": "c4b9413d710578ba591e1b86a33c35975e5b85811e8f0c0ae2032b895b636931"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/HANDOFF.md",
+      "bytes": 4314,
+      "sha256": "3080e80b82f4605456689f021138987fe5686f721d493dedfad22b5d5375c483"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/nativeOwner222-preimage.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/nativeOwner230.diff",
+      "bytes": 1425,
+      "sha256": "461a26e02d7b27356c706911df891acceeedad102bef6ac1763f6edbcd039c8f"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/nativeOwner230.ts",
+      "bytes": 14109,
+      "sha256": "d9fd180751f5985b07dea3486c88a6d0491932ef6b7bbd96ab619b5aeeb30db9"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/observed-idle230.json",
+      "bytes": 23339,
+      "sha256": "ecf27c46a5b9355d17779bbe35504700ac8b52629593601903162a42935b792b"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/prepare230.py",
+      "bytes": 2781,
+      "sha256": "c5801993beb0ebdb7d2ae4ce9d941ab49ed6b3f67e094db88824054970881f91"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/protected-inputs230.json",
+      "bytes": 1221,
+      "sha256": "664383bc668b66ae6ab95f46255ccd846b82ce656fb1756850fec8f9bfa418fc"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/source-type230.json",
+      "bytes": 85,
+      "sha256": "64a6faf9afb08b3271559636157db300e7eb6628955311e09ff76b2174c094f3"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "tools/overhaul-native-integration-222/nativeOwner218.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "tools/overhaul-native-214/raw209-contract214.json",
+      "bytes": 2071624,
+      "sha256": "ad28fed1e6bd01c27a2be65e843c2bbf07deb352bf05064ad319cd20f5aa7f91"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/actual-summary.json",
+      "bytes": 217362,
+      "sha256": "c874f402eda66031b58d80a937c7733b8878752b8c640d21293331d2ec03b6b7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/native228-public/evidence.json",
+      "bytes": 1158590,
+      "sha256": "ea4318287ff1e9e4cd54d457d6bf0a2b52c009bbc062a7a6c17bee2d18af7f26"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    }
+  ]
+}

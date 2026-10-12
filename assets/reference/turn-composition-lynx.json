@@ -1,0 +1,27 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "samples": 540,
+  "coreRadius": 1.64114152001951,
+  "coreHeight": 2.3411097526550293,
+  "limbLengthError": 6.324843246208189e-07,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; turn/idle-walk-trot-gallop mixtures and mirrored reversal; local TRS blend, inverse(reference)*reaction quaternion at full additive weight; no post-animation aim, contact IK or carrier tilt",
+  "radiusCase": [
+    0.75,
+    0,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ],
+  "heightCase": [
+    0.25,
+    0.5,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ]
+}

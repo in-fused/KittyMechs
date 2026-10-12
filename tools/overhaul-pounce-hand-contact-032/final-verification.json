@@ -1,0 +1,1317 @@
+{
+  "verifiedUTC": "2026-10-10T21:28:51.9749688Z",
+  "inputRows": 201,
+  "resultRows": 17,
+  "totalRows": 218,
+  "mismatches": 0,
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/source_actor.py",
+      "bytes": 17266,
+      "sha256": "e8bc806f5e485ccf479d583ab87a9532be89f4c086af9f7240788a36c65cc216",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/source_helpers.py",
+      "bytes": 29035,
+      "sha256": "db17f9966019f3a638c3ef2ee4bf9b19d318371ac9b176ac8e1f4459ff96fcb3",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/capabilities.py",
+      "bytes": 1416,
+      "sha256": "22ee47cbb0d7ba4e72d3dfcd4e907e3b5e7a9c694312aa5ccfa90c1361db78f8",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/hand_contact.py",
+      "bytes": 8076,
+      "sha256": "9185d791f85c208ed8bb725bfce623751973f8bfc41e51f3b7bb6b58aa2f3921",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/validate_hand.py",
+      "bytes": 6725,
+      "sha256": "a3ec88da7efe3454412c5ab3780780599a55311108eab19c55a674e06e3ad366",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/actual004-capability-allowlist.json",
+      "bytes": 1028,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/small-protected-inputs.json",
+      "bytes": 39550,
+      "sha256": "7ef50d9ffd047e3e37d9ad1ee5d0fd92e0e6ed747996c47675229f6e41d25cfe",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/source-actor-exact-diff.patch",
+      "bytes": 16152,
+      "sha256": "0afa31436261c1c82e53a0324fc09db293e7325a1f96d184900229f8b52b4ee3",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/exact-diff.json",
+      "bytes": 494,
+      "sha256": "69ab2d220a85c650ae25656bcc409792c32155cb405e82ab77707028ce5accab",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/validation-command.ps1",
+      "bytes": 509,
+      "sha256": "aa81e88f93cd7767c2771d5216a75034aa3a5df29c60f6ffb4b6aaff94bce870",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/implementation-contract.json",
+      "bytes": 2162,
+      "sha256": "8a675cf3af5ed08d9b783605855302454b51ed7de49854bd4d1a1a218836c5bc",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/design-seal.json",
+      "bytes": 309,
+      "sha256": "9d95aa102e44e322eef9b7944fea41f8b144d7e3792f6af6f7dff953cd6eb2eb",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-hand-contact-032.md",
+      "bytes": 4271,
+      "sha256": "c6da1a3457859d37b11b7ef58631df6d5b0c23101ec336e9db98c8696f4c4d90",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-diagnostic-process/process-receipt.json",
+      "bytes": 22604,
+      "sha256": "0bef2437f5cd32b96c56e1db44e376a9679b234163fac412ead9267eee680f18",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-diagnostic-process/process-receipt.json",
+      "bytes": 15292,
+      "sha256": "dc4fdbc841c1d113a2c7aaa155f799ba77d98ce49dc6842f6c5a37fbf49b5fa7",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/process-receipt.json",
+      "bytes": 17756,
+      "sha256": "2bf5eb09e0d470c7b698112736d26f13f92c720f7556ce6da9f8362cbf05f565",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/stdout.txt",
+      "bytes": 3122,
+      "sha256": "f2cb1a675e81276ba8ea0dab714ec70da7b2d6268007cc5266d1f47c74b78cc8",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/paired-route-029-full-process/verified-inputs.json",
+      "bytes": 27523,
+      "sha256": "712524a86329f134faea40af871f568023b7763f1882ee32d67ad88aba0d053e",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/process-receipt.json",
+      "bytes": 10432,
+      "sha256": "3b3dbba141cb3fcd1ce16eafa4e62e76eaeea315359df7de4e0ed5f6c333e25b",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/stdout.txt",
+      "bytes": 3109,
+      "sha256": "b16f809d0dfd5a33aaccc7e516d97a835c38e8540ce050cad46efe72921c8c6a",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/verified-inputs.json",
+      "bytes": 15790,
+      "sha256": "4a1afdf262a1cf1c8a38e2536e47b36e48b6755afd14e4ebb49b1906cd2997e6",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/process-receipt.json",
+      "bytes": 6731,
+      "sha256": "5bfdd398927e6f7ae75b5d272598350a714fdb91fdfcd18d4c060d42b7a4ef84",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/stdout.txt",
+      "bytes": 217,
+      "sha256": "083b374654b7f25d4f42969f6040924c9f7c55d5160ec6b7a01dc63c4ce98451",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-process/verified-inputs.json",
+      "bytes": 9739,
+      "sha256": "97ce33581d97360eeea6ea7e7d624cf3fac1f272c2fa0766aa9f754659e7d223",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/process-receipt.json",
+      "bytes": 14258,
+      "sha256": "8d4e76ccfc570d24ec1dd018cbbf537d6846908b4c1fccdbd6d17261af883268",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/stdout.txt",
+      "bytes": 217,
+      "sha256": "083b374654b7f25d4f42969f6040924c9f7c55d5160ec6b7a01dc63c4ce98451",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/verified-inputs.json",
+      "bytes": 21988,
+      "sha256": "f685c1a1317406edccea022fc264cf94f86b1a30a5d10fdbe4295eb1e454532b",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/blender-stdout.txt",
+      "bytes": 711,
+      "sha256": "156e87bee4e8ad5d7f65a52d5727533acd35c7fd9d7758f49643e85e7559d6c8",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/process-receipt.json",
+      "bytes": 2909,
+      "sha256": "0c15683ac117a0795427723c66e7726b31b760fe5ba6a104f8b291f1798c9bfa",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-018/verified-inputs.json",
+      "bytes": 3664,
+      "sha256": "a3e5159ce80b41283260b17d892cdd51d7cbf945759626acdf6416cbf6e79801",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py",
+      "bytes": 28647,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json",
+      "bytes": 399738,
+      "sha256": "531b6a4271c190fa01ccf334d3e16d69cc811be8c479d0861dd4a80fb6c82876",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend",
+      "bytes": 63438571,
+      "sha256": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py",
+      "bytes": 29034,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json",
+      "bytes": 245958,
+      "sha256": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/diagnostic/raw.ndjson",
+      "bytes": 10275,
+      "sha256": "6f72fd63e6fc41199c6b34b6ee6de3ce1ef51181ba72d571476c4297649ee1c8",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/diagnostic/receipt.json",
+      "bytes": 400,
+      "sha256": "d86b20e317996dbac0202fe0ee9b8355e062262db7a65258a9b2cd905e52d68c",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/triangle_diagnostic.py",
+      "bytes": 5680,
+      "sha256": "72af2c82a2b646ae508e17b93afbfb0a62cdffeb500db207c7e82f13908e256d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/triangle-input.json",
+      "bytes": 203785,
+      "sha256": "e53540a2c85e99ce74340e513bc0263784eafd1b98aa4fb7420012f674b876fa",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json",
+      "bytes": 11251,
+      "sha256": "8636c14aad432356a970f461896d82d65a5fb75c005a6c997631eb5a978ea202",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend",
+      "bytes": 75210396,
+      "sha256": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/author.py",
+      "bytes": 22127,
+      "sha256": "2575ad799e65656f27cdb12b4033335300b255f222e6b5ca6c097420c6e5e328",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/raw.ndjson",
+      "bytes": 220673,
+      "sha256": "dc89a1c2d08245285b7dd76f07be321dfcf443412022676a05c49da8510d745b",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/diagnostic/receipt.json",
+      "bytes": 404,
+      "sha256": "72e1c847d8f866619e41afc22f776e5ee4a24ec1c7f9016981dab076f1b8413b",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-action-records.json",
+      "bytes": 11787,
+      "sha256": "c86c4d7b97820420d0d61e474dbb7a1c609de05203661449101c6a6144144e92",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-animation-inventory.json",
+      "bytes": 3074172,
+      "sha256": "1d81527a3ba7ba0076a4858c18de062735dfde97aa268c538aff6885f1919327",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-author-ground.json",
+      "bytes": 638,
+      "sha256": "d37a481aacd9a6e4b79de071f4ec42ddc50824acab40f2d9b8bb9f49f35d2ca7",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-current-two-body-geometry.json",
+      "bytes": 12631025,
+      "sha256": "69ebb0b6fea4b784ad34b982bc5da569e642882beb5d86b4c37e9a326871b1ff",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/actual-full-geometry.json",
+      "bytes": 5465062,
+      "sha256": "1fe5601e20925d65ba929a8ec1f65b06f3e5eeb858292eb9f279fa892f81d8cf",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/current-pair-request.json",
+      "bytes": 76173,
+      "sha256": "65fbc81165695a61c362d72af7ee2a55eece7669045643107e02f3a294fe2c9b",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-actual-attributes.json",
+      "bytes": 9761249,
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-readback.json",
+      "bytes": 437656,
+      "sha256": "7e21c8c59b0b048c75ddc743c3eab3a733156f2206adf13d1fb62f0b2df8f135",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/export-source-offsets.json",
+      "bytes": 8073,
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/first-source-failure.json",
+      "bytes": 410120,
+      "sha256": "801df01fb3ff217311ab452206ea85c21b5b988dedef3e65e880f0a341459fdd",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/fixed-rest-verification.json",
+      "bytes": 101554,
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/inherited-capability-identities.json",
+      "bytes": 3965,
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/matching-clock-two-body-assembly.json",
+      "bytes": 15694534,
+      "sha256": "ef352a404514a0baa8b170533932604a7561630a148e3431ca39f666146ce9df",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/median-tail-route-design.json",
+      "bytes": 836,
+      "sha256": "b296a848cafd8a80084d62893c992395b4aa3d5904306be0a6086a4a7e493e9f",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-front.png",
+      "bytes": 600246,
+      "sha256": "7df0d749a1c48610c6794fe9b3bf7cb78e213b69af02bd686b00bb5394bc278e",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-root-design.json",
+      "bytes": 1068,
+      "sha256": "9e8ab7dd5d8707976263bb52ac53cd6543aee00ec97ee3a94f9f4682eee82db7",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-selected-actual-geometry.json",
+      "bytes": 12437657,
+      "sha256": "c954c0db2943ad8ed2514a8abb9304d5d67217c4bf0a4d6e7ce49cd8e7bae92e",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pair-side.png",
+      "bytes": 615994,
+      "sha256": "7cb067a94d5bb813c55f3adf42b3bdfadcb174bfcadcb46716434345e5976177",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/pose-owner-raw.ndjson",
+      "bytes": 15531541,
+      "sha256": "2036f7b419c8e5983cf331ceb9b1de2db83b2c8248ae58021d1c8447d8b1aae4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.blend",
+      "bytes": 88004622,
+      "sha256": "c44cf21ac11faa481822a66289705dc84ae8a9d74b511067fe97b41f56d2983c",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/Pounce_PairedRoute029.raw.glb",
+      "bytes": 3677612,
+      "sha256": "1addd50fc648cca4f68a879d8be7420697333acf09ebb79e8dd786d5ef65570a",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/receipt.json",
+      "bytes": 241013,
+      "sha256": "a861cddb2bb3a3412b880acb69c6f20efaf53f6204b98ee35bd71b3e30704e1a",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/selected-source-detail.png",
+      "bytes": 960096,
+      "sha256": "5fd51f898eca8bbd5663a4ea357d05edc9acb9fb0018dbe598337aa2f7b1fc10",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/full-author/source-profile.json",
+      "bytes": 253348,
+      "sha256": "b7d8a8f6b36b2a92c98a84b0fc1c438d7ec992c716d5c18c1b094d10b5e5f256",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/source_helpers.py",
+      "bytes": 29035,
+      "sha256": "232163063af573a7af818439c862bfce4b06dd665ebb22b35321e55117d6e10d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle_diagnostic.py",
+      "bytes": 5682,
+      "sha256": "249790feb4967df244457123d415a423b5d57470f66c8a17d8c2978186461bb7",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/triangle-input.json",
+      "bytes": 261905,
+      "sha256": "3ac04478a7782956cd543e5f510d4352c57fb2f8fa545ce0381223a2063230ee",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-paired-route-029/wholebody_choreography.py",
+      "bytes": 13432,
+      "sha256": "558851547da4fc4d0b1007d476821240a8a8c3fbe003859f82ab74beb2a522cb",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/author.py",
+      "bytes": 21195,
+      "sha256": "eb3d07922a05c72f1d77b3c1b04f2d339250ce02bc8e03fc5f5f14d8ddf79799",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/clocks.json",
+      "bytes": 606368,
+      "sha256": "e61147c0776b74bc1a8538750db7f55e2a7cbb92677cff138ab529589266bff4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/diagnostic.py",
+      "bytes": 8604,
+      "sha256": "2158f42e8d78809252d45e695b0319b3a33ce9174ce06a307b2cccdc91ba1ee2",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-action-records.json",
+      "bytes": 11787,
+      "sha256": "c86c4d7b97820420d0d61e474dbb7a1c609de05203661449101c6a6144144e92",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-animation-inventory.json",
+      "bytes": 3074167,
+      "sha256": "a0c664773ad44372a2e10fa9ffda87100b24863bcbdd0cf3d7b0570bf7c15532",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-author-ground.json",
+      "bytes": 635,
+      "sha256": "e58573affa6ad4dd8709308b36a0219d8c812f0e35270524e8e1a25b7c79de0b",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-current-two-body-geometry.json",
+      "bytes": 12655752,
+      "sha256": "d9883416862a9ddc4569ddb82b65536948fe2c537d485c786859c9e0211f96f1",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/actual-full-geometry.json",
+      "bytes": 5467333,
+      "sha256": "20d6bcef57ec84a2d0f0be086499d02544d883de2759b3748cb86a6fb33979e8",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/current-pair-request.json",
+      "bytes": 75244,
+      "sha256": "2cca3072577c7e64a48d65778b86937d29bfdf8c784dca739dc7945fc7cecd12",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-actual-attributes.json",
+      "bytes": 9761249,
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-readback.json",
+      "bytes": 436936,
+      "sha256": "bbc7fa8250e84f52ad287e7235a52ee2ff15438056fa590a01fae6945b34e751",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/export-source-offsets.json",
+      "bytes": 8073,
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/first-source-failure.json",
+      "bytes": 456520,
+      "sha256": "9ae05ccc6cebb39463de6ca0aec405e7dc58c9aa4de318010171ff9e9c8adb61",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/fixed-rest-verification.json",
+      "bytes": 101554,
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/inherited-capability-identities.json",
+      "bytes": 3965,
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/matching-clock-two-body-assembly.json",
+      "bytes": 15595128,
+      "sha256": "5078876e38e130c0a93e3c668fd7622849922ec0f09ed9c32920751b2fca5cd1",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-front.png",
+      "bytes": 616116,
+      "sha256": "cf8e524ecd2e51bd84e6e160f3645ba3dad44d74e887361259ab368f3f609c3f",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-root-design.json",
+      "bytes": 1065,
+      "sha256": "07144b967b3e6b7d61af146c22e031f57988faa666d91c6043f30c2f885df6ee",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-selected-actual-geometry.json",
+      "bytes": 12438730,
+      "sha256": "54890dab428b91ae4af739f9f7f3ba7e668171d7cd1e19fb1c6420e450343953",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pair-side.png",
+      "bytes": 624495,
+      "sha256": "e08c4935fad2af20b83bf8611fc6e2513300eb3dfd8728dfe1596d10a517d599",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/pose-owner-raw.ndjson",
+      "bytes": 15516301,
+      "sha256": "30203aff12d73aab33c843d0876c040d2f78a4aceed87cfe78f11a3b76db2baa",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/Pounce_PoseOwner027.blend",
+      "bytes": 88004622,
+      "sha256": "2ffface8a11b9cc02db67357d47d138c0df542d28233b2df6806018aa2695043",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/Pounce_PoseOwner027.raw.glb",
+      "bytes": 3679004,
+      "sha256": "c2f8d1f3b65ac3c1d95c6758a75cefd4d3a695c553018ac58c7d28fafa35e79d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/receipt.json",
+      "bytes": 253256,
+      "sha256": "38091401248c0f95e63130f1868552df13ffa7631ea4b0d9ab5521b5da85ef16",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/selected-source-detail.png",
+      "bytes": 1094707,
+      "sha256": "6fa4f5f6f49a383ab06cdf0063098d7bf464914d78d5a2a57c9a32c1e3a37cf8",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/full-author/source-profile.json",
+      "bytes": 253346,
+      "sha256": "50ab6c3056602405040373855d8bfb63d76210be84f45c1727308d80fc898ac4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner_validation.py",
+      "bytes": 11542,
+      "sha256": "c3ec9104fe261ef07f0d97cd59b2c4a6d2090ad4ee089eb0f4a89c1ded766c1c",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/raw-boundaries.json",
+      "bytes": 5155949,
+      "sha256": "4d4493c03b8f6447fa9cb889312af0a4c9bdac1ac3769e0e7cf64161b91b513d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner-validation/receipt.json",
+      "bytes": 218,
+      "sha256": "499dbdcdec1f0c9c53457f6b663b37c028ee9e07a1bbedfae54ee8a3a876bb38",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/raw-boundaries.json",
+      "bytes": 12064655,
+      "sha256": "adc41dca71d31a3fa04672d85e6572bfd3c385fb5d152ca496d0bb88c0e818de",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/receipt.json",
+      "bytes": 206,
+      "sha256": "6b6ef7b7c1219c534bf9f1be3ded57909e31bb1d61a02788991b88b442fb42e7",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/source_helpers.py",
+      "bytes": 29013,
+      "sha256": "7cfe5af8ba801e5174c6666b3795b5ecaf3e5b00b766ddaea1c3004a22cbe7b7",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/wholebody_choreography.py",
+      "bytes": 11847,
+      "sha256": "cdfd84065da76492a0081700d5fcab69f724908f3268995c35352a45a20824a5",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/actual-action-records.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/author.py",
+      "bytes": 20199,
+      "sha256": "4e3dcff78257fd7a0c65edffa87829b68e600c66abf42d14d0c2fd29bd6a3e71",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/first-source-failure.json",
+      "bytes": 599,
+      "sha256": "57278de4b9f12e367c13ac581085bf4a7d2f4b383c47698166c9a33f274ceb58",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/matching-clock-two-body-assembly.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/receipt.json",
+      "bytes": 2802,
+      "sha256": "6e336cdac41d471014a30bae1b5e3686b34b903479956cd3bfe37731e5e44da3",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/source_helpers.py",
+      "bytes": 29011,
+      "sha256": "09ab9ff4e16a4d95b936b9ad3982db35429dea97761f3b60186e1282f07fe8fd",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/wholebody_choreography.py",
+      "bytes": 11726,
+      "sha256": "c57decfb6efeb6cf0fa605a215d3b21f99dca12ab09d522c0a30312f2289ab32",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/author.py",
+      "bytes": 20201,
+      "sha256": "690adb6949bd12d4b4b21cd437744f4a50d8e914b1f68cbf9d9efe41335a0a22",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/first-source-failure.json",
+      "bytes": 401848,
+      "sha256": "7e7e586872aaf13f35a58a1bf2a6079b0f846994e9ad4c95068d867b1ce5baac",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/matching-clock-two-body-assembly.json",
+      "bytes": 16291125,
+      "sha256": "91d985d67c9971796210e4ddb7b133b253516988980d1f97f60a89e5e0910344",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/Pounce_Wholebody021.blend",
+      "bytes": 88332942,
+      "sha256": "c0cc28dcbc56b13925832d3a81233a8e4d34bf864e1c888d14fe68e8e4367f56",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/source_helpers.py",
+      "bytes": 29013,
+      "sha256": "530242be882057257d23efd56074b006b56913a8f148f06e78b4336d3f6bb6b2",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/wholebody_choreography.py",
+      "bytes": 11853,
+      "sha256": "68da3472c76ba31fe6acf39304c3d4833a8e5a0e8b65162346ca45ad624b5de3",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-hand-contact-032-diagnostic-code-review.md",
+      "bytes": 2217,
+      "sha256": "1937723ea97dc43834ce4195bb5802a38c799356e2c057f9c4477d5f08852f0d",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-hand-contact-032-diagnostic-result-review.md",
+      "bytes": 2347,
+      "sha256": "419b51a01adc27f1415dc3330a35e50879ebac3c03400eb2d78bb6aaa58508b1",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-paired-route-029-diagnostic-code-review.md",
+      "bytes": 2300,
+      "sha256": "f30450e94b5adc47bb341b0e00aed50535e96422915f9ebeba095a202c371926",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-paired-route-029-diagnostic-result-review.md",
+      "bytes": 2213,
+      "sha256": "b8b23d1305231356350b54bde2898458cbb5e6e208033e801d7ae686c6595111",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-paired-route-029-full-result-review.md",
+      "bytes": 4462,
+      "sha256": "32355608bbbc173ffc675297a60c85ab0f5cb9452984394e125a60d0c6048d8c",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-pose-owner-027-full-author-result-review.md",
+      "bytes": 3603,
+      "sha256": "04720575a9fc05acc5200d36c8baa8f86d58a792f6844eb671f86aebd052e45c",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-pose-owner-027-single-writer-result-review.md",
+      "bytes": 2247,
+      "sha256": "ecbb9f812056764d085aa3fd9064896cf8f1c6f8b17b9eeb3f244f0edeb3fc99",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-wholebody-source-018-code-review.md",
+      "bytes": 3288,
+      "sha256": "73dfcac6a03bcaea2447117a2bf3ed7193102e00df5f5915be8d0e661774ccb7",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-wholebody-source-018-result-review.md",
+      "bytes": 2197,
+      "sha256": "2d6eda3aef5836f6e1ff8a0fe921401c5de8aeef8645607c099dca36eaa6d96b",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-hand-contact-032-diagnostic.md",
+      "bytes": 1307,
+      "sha256": "3c77f19328cac55fe6a1ca36a758165b5bb2fcb335fb0b21c64b5bad9cb6e637",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-hand-contact-032.md",
+      "bytes": 4271,
+      "sha256": "c6da1a3457859d37b11b7ef58631df6d5b0c23101ec336e9db98c8696f4c4d90",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-paired-route-029-diagnostic.md",
+      "bytes": 2665,
+      "sha256": "e34ef5ca62c979319d7328c7bf03d809ea04951afeeeebd805e5c4caeff5957e",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-paired-route-029-RESULT.md",
+      "bytes": 3915,
+      "sha256": "a9aca41782f079aeb73c0ce28933bc1dc0bfeb7c1906c8daf28336122dcf929c",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-paired-route-029.md",
+      "bytes": 3940,
+      "sha256": "21e03a228e692ab418ac533b4b5f9747c677ae00c30d65a653f1ffeac546423c",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-pose-owner-027-full-author.md",
+      "bytes": 2592,
+      "sha256": "a8555739b934df6cbc16c1c1c99e1a7a6bfe00da38e4d6085b79f8304e02e173",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-pose-owner-027-RESULT.md",
+      "bytes": 3656,
+      "sha256": "30f97b583c31c0d425b71d60ab85c8d3d449c8155b54b56d28c49fb57c2b8d77",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-pose-owner-027-single-writer.md",
+      "bytes": 2864,
+      "sha256": "847ab18a2e7aeb1756a04a7906e58cbf95bb831b832f6710d99c7db0371fa150",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-pose-owner-027.md",
+      "bytes": 3131,
+      "sha256": "49902a4eb930b80de67fb11148ed6d705db4a9de8c1c5e8366d590d27bd734d4",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-wholebody-source-018-RESULT.md",
+      "bytes": 2884,
+      "sha256": "b88ae02059eb700540691cc92125eb6a03f58857145b2430093f99cb3d68166b",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-wholebody-source-018.md",
+      "bytes": 6478,
+      "sha256": "f817cb9c7524bb08eb0126735eacace22df384a31f939aa2a0ff110b938625b2",
+      "matches": true
+    },
+    {
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/critic-diagnostic-code-closure.json",
+      "bytes": 716,
+      "sha256": "97939bad3bf452252af0453016e234929978870db8236b7625204056e7b264be",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/critic-diagnostic-result-closure.json",
+      "bytes": 692,
+      "sha256": "0ac1169338f496803abd556fa34d644ad31aef643ee253c41891e196d25a9423",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/design-seal.json",
+      "bytes": 309,
+      "sha256": "9d95aa102e44e322eef9b7944fea41f8b144d7e3792f6af6f7dff953cd6eb2eb",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/diagnostic-command.ps1",
+      "bytes": 238,
+      "sha256": "988df516c82685df19078841086e2a3eac9887b1f3c8050b948d25214987b342",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/diagnostic-result-seal.json",
+      "bytes": 784,
+      "sha256": "7ed23a5d6afcce606f0e28dba9c7d8d1941d6452b941ac234267bca2cf95c206",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/diagnostic-seal.json",
+      "bytes": 1264,
+      "sha256": "dcaf3edb0f819d52777cc336aa1297e04baab31ef6862a00de458d7dcf3bbc6b",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/protected-inputs.json",
+      "bytes": 36259,
+      "sha256": "530a67f487f5537b69cc03a7245aa5bbe935e5e1d8f8db5de6e7697f309a4ed7",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/actual004-capability-allowlist.json",
+      "bytes": 1028,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/author-exact-diff.patch",
+      "bytes": 16542,
+      "sha256": "fd9fb3fd862b9ba98b477a4b3c9d29194baadc4b7e1ad903239e73c0a20aceeb",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/choreography-exact-diff.patch",
+      "bytes": 7519,
+      "sha256": "c51f39aa2377aaca913843490d768a71d93095df95e338c9b63482a890a03827",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/closure-seal.json",
+      "bytes": 1301,
+      "sha256": "e1897016dee7d88036f4629173229a33d3b15409901c890f02d5e8ad5f205d4f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/closure.json",
+      "bytes": 25646,
+      "sha256": "f5ccac25aa3eae614e31368ae58296f053d3d1f0278344f0cc903b01bb58a1ed",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-command.ps1",
+      "bytes": 255,
+      "sha256": "09602e016ed420ba837367ece160b54ef4ccfbc31a75a0ba15ccbe7f3585d6f2",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-result-seal.json",
+      "bytes": 785,
+      "sha256": "19318352da83383d66c604dd4d66d39fe6d78ce2579df1e34bdc41231d8e9a66",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-seal.json",
+      "bytes": 1202,
+      "sha256": "db71cc5a2cdd960c6065cf5778fb7079d604e68c7e8a378fa6ad92611ba828c4",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-analysis.json",
+      "bytes": 7947,
+      "sha256": "2b033e73ff84b41b3c477077334c40479979cb5d877d698611b8076ce2b9f605",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-command.ps1",
+      "bytes": 423,
+      "sha256": "f6a86f9f28dc37f5a6143252255cac18e9597522c74323035508c2a5812f2e24",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-exact-diff.json",
+      "bytes": 1400,
+      "sha256": "82d3261da733a2ee4329fa8d120f7eb7a26b5c143a6008fd6ce39694a31d5d91",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-postrun-input-verification.json",
+      "bytes": 33703,
+      "sha256": "e7d5eca88e8b24a3f37f4ffb0233409d10b0b997f9c4166d3eff53ee3dd88d49",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-preparation-verification.json",
+      "bytes": 15280,
+      "sha256": "4c82f40acf1112f1455b6ce0a6e78ff278e7091c40f8c4e6d3db4acde7cc1a87",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-protected-inputs.json",
+      "bytes": 26580,
+      "sha256": "3a523c5840892e40e76ac3d0e6a0225d62a2d407a63ffca292b4ee3dd9568fa9",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/protected-inputs.json",
+      "bytes": 24000,
+      "sha256": "03b6ebaa75aedb88152536d411eb39bfca43e82ff031ce49aeec4c82539b9730",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/actual004-capability-allowlist.json",
+      "bytes": 1028,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/closure-seal.json",
+      "bytes": 625,
+      "sha256": "ebe049a9f370aaeb34c40d03cb877a4b5bfc4f64d1321d3db176de0068efc0dc",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/closure.json",
+      "bytes": 2979,
+      "sha256": "3660cbf2f10be5a1306a0d105b967ca3a05acb06d254f7afdbd06ca13f8b86ac",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/command.ps1",
+      "bytes": 364,
+      "sha256": "daf66cb009a2758ce13094e5d456ea2313e9b197e43391c36fe056d74b78fed4",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-analysis.json",
+      "bytes": 5473,
+      "sha256": "960337c4b3a464dcbea31048ddff9edfa77c544f2db9d2f908c49aca1f0984d7",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-result-seal.json",
+      "bytes": 1298,
+      "sha256": "5e5fa042969fee8ce800cb9a3cded0813413060d955d0d7f5f6153e074b182ec",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/diagnostic-seal.json",
+      "bytes": 1197,
+      "sha256": "b7a3c24089d8bd3abbb265dae519e2a8d1d0bdb095e3df70074157f43f7cace5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/final-verification.json",
+      "bytes": 22461,
+      "sha256": "7d535f01a07405975404150b3a031f06ca341ec05d562159795a793e2f08f05f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-analysis.json",
+      "bytes": 3803,
+      "sha256": "0840eb729ea03108af522144171421132e8de5f192c9dde21de56eac6a4d79f1",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-command.ps1",
+      "bytes": 361,
+      "sha256": "e8ca0919301b8735797949cdd8e4a4c95397f8dbf0ac173bafb60c1539c1116e",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-exact-diff.json",
+      "bytes": 1232,
+      "sha256": "9a42fd7f14bd59ea079fd451770bd7e091552ce3f05944571993ef02b615e221",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-postrun-input-verification.json",
+      "bytes": 9841,
+      "sha256": "b452167fa0e1fe917d5374c79c44eaf90d7b2bddad75c77b6410c1f9bbd57664",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-protected-inputs.json",
+      "bytes": 14802,
+      "sha256": "c93f676b9f4175230fe8697f33b024df2e796190454438467a9bbfe515afe899",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-result-seal.json",
+      "bytes": 6585,
+      "sha256": "75e767f8c1f9220ef81f5e21126a50cf229993e917a10003c5c5e2cb93f2cdc5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-seal.json",
+      "bytes": 2045,
+      "sha256": "4aefebc517c13d9a8372441e966fbcb0aac96f1df27d2d75b187ba1b576130bc",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-analysis.json",
+      "bytes": 4215,
+      "sha256": "1a37d1a877d55faf309c9f85f20c79df068dee6a24787c72105d6be3ac92df19",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-command.ps1",
+      "bytes": 358,
+      "sha256": "e91bbc997ea3bf6554f1a1973c9a23d21f082496da57fd1f0b754e1faddb46e0",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-protected-inputs.json",
+      "bytes": 11893,
+      "sha256": "cb3ae0001011fc8052af068ab98b038147be6b4ee3fa627b386f073345608efb",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-result-seal.json",
+      "bytes": 1373,
+      "sha256": "89fa46dca4ad27e64cf67cca5b8a9277a96189b01b1d8242eb1f52b7d665d5c5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-seal.json",
+      "bytes": 1195,
+      "sha256": "422a4db9739bec1c88bf5b2943850aeed868a22b5e0e0ebc7e5d8deb5a759faf",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/protected-inputs.json",
+      "bytes": 9291,
+      "sha256": "1572735bd5b5412e14b11315840e3d979bac9ba5ff5e41af39c83afdf50341c0",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/actual004-capability-allowlist.json",
+      "bytes": 1028,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/closure.json",
+      "bytes": 6111,
+      "sha256": "30dd9749d27c0b5aa878e221372e70fadc7c78f8b0766374de29f7ed20b749c0",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/command.ps1",
+      "bytes": 251,
+      "sha256": "ef87d9afa67cc766ce10d1593a7288cb2ba1ee5e3a510bc8f98152435e1c354f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-code-closure.json",
+      "bytes": 697,
+      "sha256": "e1997d292b19be85bc37ed45f548250c36917a1ba639719529aad2aebd163308",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-result-closure.json",
+      "bytes": 1406,
+      "sha256": "1a28fa7527a1fd79e82361744bb3d1f633599c4cc8efb25f476d790a04faef2c",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/critic-result-seal-verification.json",
+      "bytes": 268,
+      "sha256": "529a2e1848aad6ee93c4914de8909a016d934e8178c017e46075f3fe39fa2a1b",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/postrun-input-verification.json",
+      "bytes": 4410,
+      "sha256": "8fa748999c9d99cf8a746178d093a7ccfc74fabd6547bdf5a617f25edd3fe5b6",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.author.py",
+      "bytes": 28647,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.source_helpers.py",
+      "bytes": 29034,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/protected-inputs.json",
+      "bytes": 2055,
+      "sha256": "4521f067704c08a05f63bc42bf521c4bdb3355a1cd3c82673e3bd1dbb3742133",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/result-seal.json",
+      "bytes": 1862,
+      "sha256": "d72527b6bef8960a32cf1620ec1d574d6f0b66bb9315f27e098d20144ff89dd3",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/source-seal.json",
+      "bytes": 2181,
+      "sha256": "f30bb0e0afa138d2fe30ee87629bcae503e5d1963c69ec1bb27fe64fd2521819",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-021/closure.json",
+      "bytes": 11294,
+      "sha256": "ed416da06321bd716d9dcb1392094f929117e88b56f6aa12b5947220dc22c89e",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-021/result-seal.json",
+      "bytes": 6026,
+      "sha256": "b0dc0847374cab5f919fee727fba3680aa99247b4c47f5261309997bfbc26d8f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-021/source-seal.json",
+      "bytes": 2578,
+      "sha256": "b41ca94c3446901cdda32ad7bc20d52b604aa437972ce672c937b456cef46421",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/accepted-sparse-clocks.json",
+      "bytes": 221157,
+      "sha256": "4a945adb2d8bc33d9af0d3e25cbd5fd508bd6de0737bcba93f0ffda23ab3aeca",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/actual-author-ground.json",
+      "bytes": 464,
+      "sha256": "1b18a0b426ecca19bc4eed4a73ae40a94c7f76fbdb9f6d3d2fcba753b9ab761d",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/first-failure.json",
+      "bytes": 76477,
+      "sha256": "c4105c464990110b854c5aca1cd3a72d446315109f2f1d6ebfef4fc69b26c340",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/fixed-rest-verification.json",
+      "bytes": 101554,
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/geometry-clock-0.json",
+      "bytes": 12522291,
+      "sha256": "25536940cf940501dfe8036cc33c66852813ee7690659989e64576237cfafb20",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/inherited-capability-identities.json",
+      "bytes": 3965,
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/pose-owner-raw.ndjson",
+      "bytes": 355881,
+      "sha256": "9ab8b1efbdfdab6ffe9f3c98af28ff73dd54bfd774c67426e24f1f69e75defaa",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/Pounce_HandContact032.blend",
+      "bytes": 81392146,
+      "sha256": "8abf627b18e9e7619d4fee151ab0435daae8e4aa3c9fcb1d354f9a69ab67faf8",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/raw.ndjson",
+      "bytes": 35710,
+      "sha256": "b07cfe595251dc7c2885d4d1e4f5811895a3b0cb8347b1c1825e266130c718bd",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-hand-contact-032/small-validation/receipt.json",
+      "bytes": 40721,
+      "sha256": "38f8acca4c3867eb4736dda11cd8212754747893e68e072f05994b9cf11ee94f",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-validation-process/process-receipt.json",
+      "bytes": 2412,
+      "sha256": "7dfdb1880195faf14e4abc8361fa8e9c6c13c80e843fdb566ab707ac7ee4c97d",
+      "matches": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/hand-contact-032-validation-process/stdout.txt",
+      "bytes": 773,
+      "sha256": "33970de8b35bf7c2cdf87ca51adbc5c1cdf4edb7a8e0c50c08bfa82e3d18d5b2",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/postrun-input-verification.json",
+      "bytes": 2999,
+      "sha256": "76880c629abf890e32a60bf0e8d0d95cb58536955a127abe4a138f65ad335e99",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/actual-result-summary.json",
+      "bytes": 2013,
+      "sha256": "9597d5fa4d4ec2d5f1d08fc2dc0c296698f5590de98ba3872c46038d0781c705",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/RESULT.md",
+      "bytes": 1729,
+      "sha256": "dde76a11a258fe1e715c94a4118377b3352433392f445a331757f524a99a011b",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/result-seal.json",
+      "bytes": 3524,
+      "sha256": "ede00ae87ba4f29729d761e859dafd996e8800d7a62df2bb00f4ec4476c2bb5d",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/postrun-protected-verification.json",
+      "bytes": 44179,
+      "sha256": "02118fc1ef65d03b33c2968838d4adc50f53ea31e4f85a3fa6dd26e22cd7e86b",
+      "matches": true
+    }
+  ]
+}

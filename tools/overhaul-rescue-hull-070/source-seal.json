@@ -1,0 +1,72 @@
+{
+  "packet": "070-rescue-hull",
+  "status": "FROZEN_SOURCE_ONLY_UNRUN",
+  "writersClosed": true,
+  "files": [
+    {
+      "path": "tools/overhaul-rescue-hull-070/source-handoff.json",
+      "bytes": 3571,
+      "sha256": "8c5630e2c9b7943fd4b5bf43554121fa31e366ef0e04a38139320673bac26249"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "tools/overhaul-rescue-hull-070/rescue-hull.test.ts",
+      "bytes": 5133,
+      "sha256": "38573f4c320912d75b9994404d031371ed9ecc9804dd532d63dc8a599992f551"
+    },
+    {
+      "path": "tools/overhaul-rescue-hull-070/vitest.config.ts",
+      "bytes": 201,
+      "sha256": "d5cc2234e4ab6a34cdd7f4e17c27049e91043770798e76e822fca0cc205622ad"
+    },
+    {
+      "path": "tools/overhaul-rescue-hull-070/README.md",
+      "bytes": 2075,
+      "sha256": "00c33523a18e4c5e1bd44c7b19b0e1b31314c1778c2c2274619b5a88ac687d2d"
+    },
+    {
+      "path": "tools/overhaul-rescue-hull-070/preimages/simulation.ts",
+      "bytes": 176991,
+      "sha256": "75db2735d0f0e71a462a3bd10d3496166dafcd7333b8ee90413fc5f7a42a591c"
+    },
+    {
+      "path": "tools/overhaul-rescue-hull-070/preimages.json",
+      "bytes": 212,
+      "sha256": "8744a2b401d62472f1873db345fb81de3bf05db0a0ebee3884cdb023320babca"
+    },
+    {
+      "path": "docs/overhaul/coop-mission-069-direction.md",
+      "bytes": 5552,
+      "sha256": "2863d491d0ce1d46847a602ffee2a93dbfecf766457be4b4731561e8799cf891"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/result-seal.json",
+      "bytes": 2233,
+      "sha256": "922127575286f9a1219b081f85d2d24db22806132d579ea94f766664f37aff35"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/final-result-seal.json",
+      "bytes": 2741,
+      "sha256": "4a327db4d7ff15af790ada763cc103e00fafe39f4f6ddfb1669b4a83ca820b0b"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": "tests/overhaul-coop-native.test.ts",
+      "bytes": 8668,
+      "sha256": "1296eb4fe963fda33482175f244a9e57f8436b4fbfe905005a69315a95f58790"
+    }
+  ]
+}

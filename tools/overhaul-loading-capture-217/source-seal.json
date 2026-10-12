@@ -1,0 +1,55 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-capture-217/binding.json",
+      "bytes": 172518,
+      "sha256": "d134347e25386751371ff257a1f6cacee010073f8e4e669ddb1a5b7f8dd78727"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/capture.mjs",
+      "bytes": 15668,
+      "sha256": "222438eff955d91e03c2a1390b866de14c7417fd7a84c4cdb3182315e259488f"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/entry-identity.json",
+      "bytes": 1269,
+      "sha256": "56a4fcc17b469b48b99fd7ebb03a8a2d2229e1828d4a7a348c456eb4c0aac79c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/HANDOFF.md",
+      "bytes": 2071,
+      "sha256": "14feecf50aa20980a3e2bb7a674dd78b210799070a8873cd1084eee9411a14ab"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/preimage/capture.mjs",
+      "bytes": 15600,
+      "sha256": "cc83278c8eabc2f0d748f1b1f5a3f0a1c80abb66bfadc8400ff9515dd6a6247c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/preimage/supervise.py",
+      "bytes": 4839,
+      "sha256": "765568b303658965e4750bd55a5c2ec1e6a1d058bd74227165cc5ac9f15a1618"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/prepare217.py",
+      "bytes": 3508,
+      "sha256": "51a4953c23975f49131061477cd221e4c6d201e62d797be2a7656ea6872b6840"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/seal.py",
+      "bytes": 620,
+      "sha256": "7817d954cf3542fdd9f5e7c0437498625867984323cf31cf053668020e5eecd6"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/static-receipt.json",
+      "bytes": 1328,
+      "sha256": "524b092d36e8913f185a11376f9e92886a2a98a2a6a3847e156ffd4766097db2"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-217/supervise.py",
+      "bytes": 4839,
+      "sha256": "36eacc4809906ff89cb9171f9abc47861555bdd63a19c70a8055bf7caef58353"
+    }
+  ]
+}

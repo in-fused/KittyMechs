@@ -1,0 +1,283 @@
+{
+  "schema": 1,
+  "status": "INDEPENDENTLY_APPROVED_SCOPED_ASSET",
+  "projectId": "7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44",
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44",
+  "nativeRevision": 3,
+  "provenance": "Original revision-1 scripted 251-part assembly; guarded consolidation and original authored PBR atlas. No catalog or generative mesh imports.",
+  "workflow": [
+    "Read settled revision 1 and queried actual scene",
+    "Guarded revision 1 / sceneSequence 0 consolidation -> revision 2",
+    "Inspected cloud Eevee front/rear preview and actual embedded base-color bytes",
+    "Guarded revision 2 / sceneSequence 0 base-color encoding correction -> revision 3",
+    "Cloud Eevee front/rear preview of revision 3 inspected",
+    "Downloaded exact committed blend/GLB with descriptor GET and transient headers",
+    "Extracted source PNG maps; normalized baseColor JPEG92/ORM JPEG95 without chroma subsampling; GL normal PNG unchanged",
+    "Removed presentation nodes, retained all three maps, weld/dedup/prune keepSolidTextures + Meshopt medium; decoded output validated"
+  ],
+  "shippingPath": "public/assets/models/City_Coolant_Higgsfield.glb",
+  "validation": {
+    "status": "UNADMITTED_CPU_VALIDATED",
+    "source": "Frostline_Coolant_Candidate_corrected_raw.glb",
+    "sourceSha256": "5fe6af7cc2daf34f96f66cc7d85dca9443f838e04f790ce194154823b2938865",
+    "candidate": "Frostline_Coolant_Candidate_meshopt_pbr.glb",
+    "sha256": "12e814d2763fa557a25e130a6dc8155daa40aed1d208aa70a6a5c455c1df3e2b",
+    "bytes": 1096008,
+    "triangles": 5860,
+    "primitives": 1,
+    "materials": [
+      {
+        "name": "Frostline_Coolant_Portable_PBR_Atlas",
+        "doubleSided": false,
+        "baseColor": "Coolant_BaseColor",
+        "normal": "Coolant_NormalGL",
+        "metallicRoughness": "Coolant_ORM",
+        "occlusion": "Coolant_ORM"
+      }
+    ],
+    "images": [
+      {
+        "name": "Coolant_NormalGL",
+        "size": [
+          1024,
+          1024
+        ],
+        "mime": "image/png",
+        "bytes": 619422,
+        "sha256": "35a1c8853384191ecd94ce6e70cafd8290c8e90bdcfae420057f85bc655718e6"
+      },
+      {
+        "name": "Coolant_ORM",
+        "size": [
+          1024,
+          1024
+        ],
+        "mime": "image/jpeg",
+        "bytes": 318125,
+        "sha256": "0cd3f66552234e34ed04658b6d0f54df363f6df01299216befcc6bc61f37d743"
+      },
+      {
+        "name": "Coolant_BaseColor",
+        "size": [
+          1024,
+          1024
+        ],
+        "mime": "image/jpeg",
+        "bytes": 39953,
+        "sha256": "85a8e3cbb36d5aca0ab341cc23bc898586bdd909d54db3289b4459838a43b1a5"
+      }
+    ],
+    "bounds": {
+      "min": [
+        -5,
+        -8.000904259275465e-05,
+        -1.5498825037385175
+      ],
+      "max": [
+        5,
+        2.1105801063173733,
+        1.5498825037385175
+      ],
+      "dimensions": [
+        10,
+        2.1106601153599662,
+        3.099765007477035
+      ]
+    },
+    "reversedTriangles": 0,
+    "degenerateTriangles": 0,
+    "maxNormalLengthError": 0.000896336088907157,
+    "presentationNodes": 0,
+    "localGpuRan": false,
+    "runtimeEdited": false
+  },
+  "editableSource": {
+    "path": "Frostline_Coolant_Candidate_corrected.blend",
+    "bytes": 3334809,
+    "sha256": "9f30dd56273d01f4b94f1e5abf8fce909661beae1845febf37dc40b989942c58",
+    "blender": "5.2.0 LTS",
+    "nativeConsolidated": true,
+    "semanticFaceAttribute": "OriginalPartID",
+    "semanticParts": 251,
+    "originalNamedSourcePreserved": "Revision 1 plus unchanged original thirteen-file folder",
+    "localBlender45CompatibilityVerified": false
+  },
+  "editableRecovery": {
+    "method": "Live read-only Higgsfield query on settled revision3 verified editable mesh, OriginalPartID semantic attribute, CoolantAtlasUV and all three packed1024px maps; no scene mutation.",
+    "query": {
+      "projectRead": {
+        "ok": true,
+        "exists": true,
+        "project": {
+          "projectId": "7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44",
+          "revision": 3,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": {
+            "projectId": "7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44",
+            "revision": 3,
+            "blend": {
+              "size": 3334809,
+              "etag": "638e2efd38a845df5c4c218311161842"
+            },
+            "glb": {
+              "size": 2840868,
+              "etag": "ebe721190b3cef6616c2c42b3978a37a"
+            },
+            "generated": []
+          },
+          "createdAt": "2026-10-04T08:26:16.410Z",
+          "updatedAt": "2026-10-04T12:04:42.794Z"
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44"
+      },
+      "operation": {
+        "ok": true,
+        "operation": {
+          "id": "6e103d21-cc48-4e3a-8147-923e196a482b",
+          "projectId": "7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44",
+          "access": "query",
+          "status": "succeeded",
+          "baseRevision": 3,
+          "headRevision": 3,
+          "headSceneSequence": 0,
+          "stale": false,
+          "sceneSequenceBefore": 0,
+          "sceneSequenceAfter": 0,
+          "revisionBefore": 3,
+          "revisionAfter": null,
+          "createdAt": "2026-10-04T14:55:53.340Z",
+          "startedAt": "2026-10-04T14:55:53.378Z",
+          "finishedAt": "2026-10-04T14:56:05.272Z",
+          "result": {
+            "blender": "5.2.0 LTS",
+            "meshes": [
+              {
+                "name": "Frostline_Coolant_Housing_Candidate",
+                "vertices": 3432,
+                "polygons": 2902,
+                "dimensions": [
+                  10,
+                  3.0999999046325684,
+                  2.1105000972747803
+                ],
+                "materials": [
+                  "Frostline_Coolant_Portable_PBR_Atlas"
+                ],
+                "attributes": [
+                  ".select_vert",
+                  "position",
+                  ".corner_vert",
+                  ".corner_edge",
+                  ".select_poly",
+                  "sharp_face",
+                  ".edge_verts",
+                  ".select_edge",
+                  "CoolantAtlasUV",
+                  "OriginalPartID"
+                ],
+                "uvLayers": [
+                  "CoolantAtlasUV"
+                ]
+              }
+            ],
+            "images": [
+              {
+                "name": "Coolant_BaseColor",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "packed": true
+              },
+              {
+                "name": "Coolant_NormalGL",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "packed": true
+              },
+              {
+                "name": "Coolant_ORM",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "packed": true
+              }
+            ]
+          },
+          "output": {
+            "stdoutTail": "",
+            "stderrTail": "",
+            "truncated": false
+          },
+          "error": null,
+          "artifacts": null,
+          "generatedArtifacts": []
+        },
+        "terminal": true,
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/7bfa141e-7a54-4afb-b1a2-cd7b5cb91c44"
+      },
+      "schemaCorrection": "InitialwaitSeconds30rejectedbyconfiguredmaximum8; samequeryID/code acceptedwith8, no scene mutation."
+    },
+    "localBlender45CompatibilityVerified": false
+  },
+  "placement": {
+    "seed": 7734,
+    "building": "7734:city:building-3",
+    "position": [
+      156,
+      7.92,
+      50
+    ],
+    "scale": 0.5,
+    "collision": "Single shared cuboid,5x1.05533x1.54988m. Source base compensated upward0.00004m at half scale.",
+    "density": 1,
+    "lod": "One5860-triangle fixture at half scale with native mesh frustum culling; repeated instances/dedicated low-detail LOD unqualified."
+  },
+  "rights": {
+    "scope": "Provider commercial-output permission only; this is not a copyright clearance or admission of the staged coolant asset.",
+    "sources": [
+      {
+        "url": "https://higgsfield.ai/terms-of-use-agreement",
+        "updated": "2026-07-26",
+        "relevantSections": [
+          "4.4",
+          "8",
+          "13.2"
+        ]
+      },
+      {
+        "url": "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially"
+      }
+    ],
+    "findings": [
+      "Higgsfield states that it does not claim ownership of user inputs or generated outputs and does not restrict commercial use of them.",
+      "The stated output rights survive subscription cancellation and account deletion; users may transfer or sublicense outputs.",
+      "Third-party model acceptable-use restrictions still apply. The provider does not guarantee originality or absence of third-party rights."
+    ],
+    "originalScriptedAssembly": true,
+    "catalogOrGenerativeMeshImports": false,
+    "noCC0GrantInferred": true
+  },
+  "billing": {
+    "costReturned": null,
+    "invoiceVerified": false,
+    "noPurchaseOrTopUp": true,
+    "noZeroCostClaim": true
+  },
+  "preservedSourceDirectory": "Frozen original staged source folder unchanged; runtime qualification is stored separately.",
+  "remaining": [],
+  "assetReview": {
+    "reviewer": "/root/critic",
+    "decision": "APPROVE",
+    "recordedAt": "2026-10-04T15:47:02.243906+00:00",
+    "scope": "One optimized5860-triangle rooftop fixture at half scale; exact native source and retained editable query, fitted shipping PBR appearance, single shared collision box and initial-load fallback handoff.",
+    "releaseIntegrationApprovalPending": true
+  },
+  "runtimeAppearance": ".sites-runtime/city-art/coolant-runtime/receipt.json",
+  "fallbackQualification": "Initial-load geometry/PBR handoff and scene retirement verified. The loading veil may cover initial fallback; late visible play fallback is unqualified."
+}

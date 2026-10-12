@@ -1,0 +1,8 @@
+{
+  "writer":"CLOSED",
+  "runs":[
+    {"command":"node --import tsx tools/overhaul-performance-135/sample135.mts","exitCode":0,"toolWallSeconds":1.0952037,"receipt":"tools/overhaul-performance-135/baseline-timing135.json","stderr":"Rapier deprecated initialization parameters warning; no error."},
+    {"command":"node node_modules/vitest/vitest.mjs run tests/owned-character-performance135.test.ts tests/owned-character-motion.test.ts tests/owned-character-rubble.test.ts","exitCode":0,"toolWallSeconds":1.6721509,"testFilesPassed":3,"testsPassed":48,"runnerDurationMs":752},
+    {"command":"node node_modules/typescript/bin/tsc --noEmit","exitCode":0,"initialYieldMs":10000,"session":37048,"terminalOutput":"No diagnostics; completed exit0."}
+  ]
+}

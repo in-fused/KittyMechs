@@ -1,0 +1,70 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-capture-219/binding.json",
+      "bytes": 178247,
+      "sha256": "f35f30f402cb8b56a593d07a9346639c04578a1b24044bb78fea871ab22d48a5"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/capture.mjs",
+      "bytes": 16084,
+      "sha256": "0653aeaaaf868054de0684f0adc8fdf638d742e9a719163f43798a290c11e3b7"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/classification-fixture.mjs",
+      "bytes": 1875,
+      "sha256": "7bfa39980a1e7abfac5971afe087891415c568f096ed7e0ac358cb9cbc6cdb61"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/entry-identity.json",
+      "bytes": 1269,
+      "sha256": "56a4fcc17b469b48b99fd7ebb03a8a2d2229e1828d4a7a348c456eb4c0aac79c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/fixture-receipt.json",
+      "bytes": 3544,
+      "sha256": "dbbf909bd8a884d462207fcb1d74c7fe3e66e4c6d4722bbd53415299721a9f56"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/HANDOFF.md",
+      "bytes": 2472,
+      "sha256": "2e244722a0dc459e20437039ccb5824d3cc2cc8a5838fdeede9a0b9538f12516"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/preimage/capture.mjs",
+      "bytes": 15668,
+      "sha256": "222438eff955d91e03c2a1390b866de14c7417fd7a84c4cdb3182315e259488f"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/preimage/supervise.py",
+      "bytes": 4839,
+      "sha256": "36eacc4809906ff89cb9171f9abc47861555bdd63a19c70a8055bf7caef58353"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/prepare219.py",
+      "bytes": 4235,
+      "sha256": "c2a648ef5e9da645eb1be2e901a2df31cce2f783c3ad70f48c1ba0dfa8ec755e"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/seal.py",
+      "bytes": 620,
+      "sha256": "f82fd588a3eb4ce4015957749ed538efcf59be1dab1ec67528d36d2328d6c9fa"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/static-receipt.json",
+      "bytes": 1132,
+      "sha256": "7da3be8b91fd3d34febcb73f08450d2d3264d3207794457278e48ad727022f26"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-219/supervise.py",
+      "bytes": 4839,
+      "sha256": "76cd6cfd951b0cd0ffaa789c544a4feceb4640a7aa5c8a829c5a3f204331f65c"
+    }
+  ]
+}

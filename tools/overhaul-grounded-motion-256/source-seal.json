@@ -1,0 +1,151 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_EQUIVALENCE_COST_CANDIDATE_UNSHIPPED",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-motion-256/contactObservation256.ts",
+      "bytes": 5464,
+      "sha256": "cbdd949ca12384f0c0cb0c537513b7f16f44247a5d3d5789de32e9e0724689fc"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/equivalence-cost256.json",
+      "bytes": 2551270,
+      "sha256": "d5c1bbef216cbd5838f0adb3878a76d6cbf82071f730494edf4f901392a47004"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/equivalence256.test.ts",
+      "bytes": 12655,
+      "sha256": "4486017e247cf99173b57143eb7a27b33dce907f835a861d2c27b076ae8d8b1f"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/groundedFeet256.ts",
+      "bytes": 15029,
+      "sha256": "e36d5b80d6c7ccffc1fd210f06c2994df7bc98b070cc11d3b191192e2ba4871d"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/HANDOFF.md",
+      "bytes": 5621,
+      "sha256": "74a7a1d4c06254079bd4c125b3b3b10f6f692ab68b1900a9da36671072b073f3"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/NativeActor256.tsx",
+      "bytes": 6250,
+      "sha256": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/NativeActor256.typecheck.tsx",
+      "bytes": 6255,
+      "sha256": "c21eb4d80803efef90edd5423d7cef7e8965fd339a402b0d64143d97e4c85dc0"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/nativeOwner256.ts",
+      "bytes": 14983,
+      "sha256": "be1b3c5c55fa246738d9c181ea0e55e35298c6ff9a8ab59ef1703da2704b89ac"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/first-equivalence256.test.ts",
+      "bytes": 12470,
+      "sha256": "ca419f1868dc0a2ad09da251483b6f4f9037d1e3bf10153961d5e8cf45dc62a4"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/first-terminal256.json",
+      "bytes": 555,
+      "sha256": "7b2ed9e7e0b5975c2124d412e451edbf0f6ad035a3a98bcd9900f061b05d4d91"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/first-type256.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/first-type256.stdout",
+      "bytes": 445,
+      "sha256": "916db3e96578c7ecc95989bdf18a52ab5e9c41ac3405b87be1c81250fba49b19"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/groundedFeet253.ts",
+      "bytes": 14198,
+      "sha256": "7a185fc763516ae704e36584171d111dcdc3a99e8b54caf21332551ca5eaa396"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/nativeOwner253.ts",
+      "bytes": 14983,
+      "sha256": "96c852ecdbae88401826d2b5a61e8fc4497092371a918ce1c9ebb2f51cdb7708"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/skinSole250.ts",
+      "bytes": 10367,
+      "sha256": "51ae8889364b93c0e2370fd2d1c88e7f41e036b1de996c611e02bf2f0e2571b2"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/source-seal253.json",
+      "bytes": 11004,
+      "sha256": "371f06d15d14977910d7a86a6a719c8ac958dbea1e03afb61919dcb38a794600"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/preimages/sourceTask253.ts",
+      "bytes": 13011,
+      "sha256": "98cc2527bcce8c1f277ba135b6c4e781597dc9d57c1e892dd35fa0f96a541a1c"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/protected-inputs256.json",
+      "bytes": 2200,
+      "sha256": "90f679cd98c874736079f7c2550b87decb86f3b0122f9d5f5ed59086963d4b36"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/run-suite256.py",
+      "bytes": 1223,
+      "sha256": "a75d1f2a24b7fad44217df7b89b3710e02f014dced67add4180beb480d327851"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/skinSole256.ts",
+      "bytes": 11559,
+      "sha256": "a770f95606b949f66b4e0826462ee3e189384d35175c4e656c7b0b3397e6fefe"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/sourceTask256.ts",
+      "bytes": 13112,
+      "sha256": "6e82e605b0a703ab722330e0bf521ec04225825a28e3de13cacd727c786cc7db"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/suite256.stderr",
+      "bytes": 90,
+      "sha256": "06210b38572a0a9d5c904cc541365ad69d7afaac6d4ed10f5d33268b0ae185d2"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/suite256.stdout",
+      "bytes": 555,
+      "sha256": "07e0253ca0ce23d4b476339a47dd73fce8719ae483a41fe66c60e487ba53e681"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/summary256.json",
+      "bytes": 3405,
+      "sha256": "c92aa8395456dc625b20c0a5f0bafd2bf937861f182892742b3c3b0fda275a69"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/terminal256.json",
+      "bytes": 968,
+      "sha256": "7483ced95e171cb3919e06d7d625b580ac9789d3be139bd3dffea2b3237692fe"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/tsconfig256.json",
+      "bytes": 178,
+      "sha256": "a91694cd6555961c63e395c7a3b9cce5ef28366ae96d261e89cec998edc37e42"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/type256.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/type256.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-256/visualRegistry256.typecheck.ts",
+      "bytes": 4604,
+      "sha256": "4415b7515ac129dc4fe29a67a063b7e0a8c519bdbfe72d68bc0e0b8b42795e25"
+    }
+  ]
+}

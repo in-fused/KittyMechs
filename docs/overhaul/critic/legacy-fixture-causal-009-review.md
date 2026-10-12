@@ -1,0 +1,15 @@
+# Legacy fixture causal009 independent code review
+
+DENY the frozen causal probe. No compiler/native/browser/build job is approved by this review. The baseline/candidate comparison is a useful diagnostic purpose, but the declared unexpected-API stop is not implemented reliably.
+
+Start 2026-10-10 18:02:13 UTC; requested report 18:04, hard review close 18:06. Focused inspection covered the contract, run.mjs, observe.ts, both Vitest configs, selected current Simulation ray signatures, and all 155 sealed file hashes. Seal SHA256: 9b2048bb009ec81c68a69331bf80872ed05729f278d5c67041932c1bf822e99c; 155/155 rows matched. No execution or mutation was performed.
+
+Mandatory stop before execution: run.mjs permits any failed Vitest child to continue when stdout contains `Test Files` and observation.json is nonempty. A wrapped observation/collider API exception thrown inside a test becomes a Vitest test failure; afterEach can still write observation.json. The runner then launches the second tree and emits its normal diagnostic status. The code therefore cannot distinguish permitted assertion failures from its contractually fatal observation/API failure. This is an evidence/control-flow defect, not a production physics failure or permission to weaken assertions.
+
+The wrapper calls original methods once and the selected ray wrappers add no scene query. The isolated configs select the same legacy file, one worker, and a 20-second test timeout. Runtime timers attempt a 26-second per-child/56-second remaining limit using taskkill; they do not constitute audited Job Object ownership, and synchronous taskkill failure is not receipt-preserved. No actual timeout/disposal evidence exists yet.
+
+A second evidence limitation is the shallow actor() snapshot: position, climb and pair remain references when a pre-call snapshot is captured and are serialized only after the original method returns. Mutable nested values can therefore describe the post-call state while labeled before. The integer/scalar fields do not have this aliasing issue. Logging caps also omit later events; counters describe omission, not complete traces.
+
+One necessary underlying requirement before any separately authorized causal probe is a fatal observer-error channel, independent of assertion results, that preserves the first raw failure and prevents the second tree after an instrumentation/API exception. Pre-call nested state must be copied when captured if used as causal before evidence. This review neither authorizes a correction nor another run.
+
+008's six legacy failures remain unexplained. Baseline failure equivalence, collider recipients, gameplay quality, source art, native qualification and full Gate1 remain unproved/incomplete. The review does not approve production repair or an 008 qualification retry.

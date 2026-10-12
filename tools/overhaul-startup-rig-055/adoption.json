@@ -1,0 +1,21 @@
+{
+  "scope": "055 source adopted; live037 frozen unchanged; no public approval",
+  "files": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 7925,
+      "sha256": "b77c772963c7ee37fe496ca95e889edefaca63c8af285f39ae20f454b6c19f5c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4192,
+      "sha256": "69dfb7b1727cc7c8edb4829ad2c5975d91c301f46489334890f3834d6c99871c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Asset.ts",
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b"
+    }
+  ],
+  "reviewSHA256": "b936dfe59b9a2fae8c11a79edf18b8d5bd5619cbfe7a315b8fa182338522589d"
+}

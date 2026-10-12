@@ -1,0 +1,17 @@
+{
+  "schema": "critic034-material-result",
+  "startedUTC": "2026-10-10T21:16:48Z",
+  "closedUTC": "2026-10-10T21:17:41.0952816Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "ACCEPT_MATERIAL_RESOURCE_PACKET_ONLY_CONDITIONAL_FRESH_COPY",
+  "review": "docs/overhaul/critic/pounce-art-detail-034-material-result-review.md",
+  "reviewSHA256": "05FD5ACFB7AAF3D99C3C346632CC77F43FC9D79E67369AFE7178533C508E80FF",
+  "resultSealSHA256": "8518C675FEF927CC7995B07E6AF0BE50053CC7F24AF4F24BC5E106230DEDB7BB",
+  "resultRowsVerified": 12,
+  "mismatches": 0,
+  "newGLBSHA256": "5295D87F683BCBBC5DF6647CCA92F12725050CFD8174403787F0E5D760B0B595",
+  "preservedOriginalBinaryPrefix": true,
+  "geometryBindingAnimationFieldsEqual": true,
+  "newOrdinaryJobGranted": false,
+  "artRuntimeGate1Accepted": false
+}

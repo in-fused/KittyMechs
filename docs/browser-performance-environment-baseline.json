@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-04T05:44:57.175Z",
+  "port": 8790,
+  "label": "candidate",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 57,
+      "calls": 242,
+      "triangles": 1262270,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 338
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 338
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 243,
+      "triangles": 1262334,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262414,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262354,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262354,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 57,
+      "calls": 244,
+      "triangles": 1262454,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    }
+  ],
+  "errors": [],
+  "baseline": "docs/browser-performance-vertical-baseline.json",
+  "baselineAverage": {
+    "fps": 60,
+    "calls": 231.5,
+    "triangles": 964442,
+    "geometries": 139,
+    "textures": 33
+  },
+  "candidateAverage": {
+    "fps": 57,
+    "calls": 243.3,
+    "triangles": 1262351.6,
+    "geometries": 146,
+    "textures": 57
+  },
+  "note": "Independent critic. One fresh solo Pounce/Rainline1440x900 medium page at a time; all other QA clients closed. Sequential frozen648bf4e localhost8788 baseline then candidate8790, ten settled1s samples each. Historical60FPS is preserved; same-session56.9 vs candidate57.0 distinguishes session conditions from added asset costs. Candidate146geometries/57textures are stable during this sample. Separate actual medium return and screenshot-free route measurements qualify memory/pacing. GTX1070Ti/Edge sample does not qualify other hardware, large player counts or commercial AAA quality.",
+  "sourceCandidateFingerprint": "65f3d297a9ea45e79c84322c74f6bc10106cab962894876784a6c97eff74cd17",
+  "baselineSource": "648bf4eb4646b707a4ac1f73fc3c7db8e851a81d",
+  "sameSessionBaseline": {
+    "date": "2026-10-04T05:43:37.915Z",
+    "source": "648bf4eb4646b707a4ac1f73fc3c7db8e851a81d",
+    "port": 8788,
+    "browser": "Headless Microsoft Edge",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "preset": "medium",
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "samples": [
+      {
+        "fps": 56,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 338
+      },
+      {
+        "fps": 57,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 338
+      },
+      {
+        "fps": 57,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 232,
+        "triangles": 964432,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 232,
+        "triangles": 964532,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 232,
+        "triangles": 964532,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 231,
+        "triangles": 964412,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      },
+      {
+        "fps": 57,
+        "calls": 232,
+        "triangles": 964432,
+        "geometries": 139,
+        "textures": 33,
+        "chunks": 9,
+        "bodies": 284
+      }
+    ],
+    "average": {
+      "fps": 56.9,
+      "calls": 231.4,
+      "triangles": 964440,
+      "geometries": 139,
+      "textures": 33
+    },
+    "errors": []
+  },
+  "costVsHistoricalPercent": {
+    "fps": -5.000000000000004,
+    "calls": 5.097192224622038,
+    "triangles": 30.889322530540973,
+    "geometries": 5.035971223021574,
+    "textures": 72.72727272727273
+  },
+  "costVsSameSessionPercent": {
+    "fps": 0.17574692442883233,
+    "calls": 5.1426101987899875,
+    "triangles": 30.889593961262495,
+    "geometries": 5.035971223021574,
+    "textures": 72.72727272727273
+  },
+  "movingFrameIntervals": {
+    "method": "Unchanged ordinary medium keyboard coastal route crossing two chunk boundaries. No screenshot operation inside either sampled window; historical window is from the previous approved milestone, not a fresh same-session RAF baseline.",
+    "historical": {
+      "candidateOnly": true,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "durationMs": 35855.299999952316,
+      "samples": 2152,
+      "p50": 16.699999809265137,
+      "p95": 17.700000047683716,
+      "p99": 18.700000047683716,
+      "maximum": 40.200000047683716,
+      "over50": 0,
+      "over100": 0,
+      "note": "Final scenery candidate; actual keyboard route crosses two chunk boundaries. No screenshot operations inside sampling and no published baseline frame-time sample."
+    },
+    "candidate": {
+      "candidateOnly": false,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "durationMs": 36184.5,
+      "samples": 2057,
+      "p50": 17.59999990463257,
+      "p95": 18.5,
+      "p99": 19,
+      "maximum": 37.90000009536743,
+      "over50": 0,
+      "over100": 0,
+      "note": "Final scenery candidate; actual keyboard route crosses two chunk boundaries. No screenshot operations inside sampling; unchanged ordinary route has historical648bf4e frame-time evidence."
+    }
+  },
+  "streamReturnEvidence": {
+    "method": "Three unchanged ordinary medium streamed round trips. Screenshots occur inside the long RAF window; it is not a screenshot-free pacing measurement.",
+    "candidateFrameIntervals": {
+      "candidateOnly": false,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "durationMs": 218006.5,
+      "samples": 12387,
+      "p50": 17.5,
+      "p95": 18.5,
+      "p99": 19.40000009536743,
+      "maximum": 189,
+      "over50": 6,
+      "over100": 2,
+      "note": "Actual keyboard routes, three streamed round trips; screenshots are included. Historical648bf4e baseline has the same ordinary route; screenshot-inclusive sample is compared separately from screenshot-free coast."
+    },
+    "candidateReturns": [
+      {
+        "performance": {
+          "fps": 57,
+          "calls": 126,
+          "triangles": 933412,
+          "geometries": 104,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.931180757564219,
+            "y": 5.240485322239941,
+            "z": 31.799168907299165
+          },
+          "focus": {
+            "x": -7.931176668089174,
+            "y": 1.840135571466239,
+            "z": 21.7991717094175
+          },
+          "clear": true,
+          "violations": 0
+        }
+      },
+      {
+        "performance": {
+          "fps": 57,
+          "calls": 126,
+          "triangles": 933412,
+          "geometries": 104,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.902695578404063,
+            "y": 5.240451764167527,
+            "z": 31.793620784294255
+          },
+          "focus": {
+            "x": -7.902695707567379,
+            "y": 1.84010244593883,
+            "z": 21.79362152308225
+          },
+          "clear": true,
+          "violations": 0
+        }
+      },
+      {
+        "performance": {
+          "fps": 57,
+          "calls": 126,
+          "triangles": 933412,
+          "geometries": 104,
+          "textures": 50,
+          "chunks": 9,
+          "bodies": 0
+        },
+        "camera": {
+          "position": {
+            "x": -7.789194692248579,
+            "y": 5.240459915887363,
+            "z": 32.23031056730876
+          },
+          "focus": {
+            "x": -7.789194709904833,
+            "y": 1.8400999456367202,
+            "z": 22.23031053700713
+          },
+          "clear": true,
+          "violations": 0
+        }
+      }
+    ],
+    "resourcePlateau": {
+      "geometries": 104,
+      "textures": 50
+    },
+    "historicalPlateau": {
+      "geometries": 94,
+      "textures": 26
+    },
+    "cameraViolations": 0,
+    "pageErrors": []
+  }
+}

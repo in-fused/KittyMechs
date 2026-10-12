@@ -1,0 +1,1160 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-043/receipt.json",
+      "bytes": 73375,
+      "sha256": "0cacbbd7c6c17d6c7bacb4aead027cd26812a640361f6cf25a78cfb3f855165d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live043-http-verification.json",
+      "bytes": 849,
+      "sha256": "43d6364f481cdd4a21954d66762e6f73f892368b2fe3124f71e37500c990ff0f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-build/process-receipt.json",
+      "bytes": 83179,
+      "sha256": "471d821a6714109f802500f28808888aa8e9e0b8850110be0cb931dc1853fe55"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "b47625ce6af6cab9e1d65129f80986637f1ea7537b823ad80952530f7fcd3ab2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-controller/process-receipt.json",
+      "bytes": 2647,
+      "sha256": "c2a90938cd33f8630ee6122595e8999f0c1fba7a3a791d5cecb1b000bb382448"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-controller/stdout.txt",
+      "bytes": 169,
+      "sha256": "53d488fe37b34f5d29fbc487de94b8ca9c25a3ae188e5382c9828d097a6ff49b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-observer-process/process-receipt.json",
+      "bytes": 62570,
+      "sha256": "c916fd95a611a8bfa3748dc1c690a71ab18af7268f9d6b3510d5cb019a99b1cd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-observer-process/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/backward-down.png",
+      "bytes": 1024896,
+      "sha256": "7230b82409c9c8f5187c5b7717655227095dcf6a9863b26efe95e6cfde626a6b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/backward-up.png",
+      "bytes": 1034213,
+      "sha256": "d20f75b45ab00df35379f31d5f23c395c5875ffec039ad50cd12e796489ed405"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/backward.png",
+      "bytes": 986237,
+      "sha256": "e0b59dcb8d02e07d562a9ddbd0ff76b04fe86e1b3080049ad00292babe49845f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/evidence.json",
+      "bytes": 7656615,
+      "sha256": "5face873a661984eb18155c32bc27babd9926f86243325cc334defe4572d5863"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/final-rest.png",
+      "bytes": 1028252,
+      "sha256": "f4fe2c233fe5249a048d700f23790e1f3afc0f0b0fe63d66d2c9cae93d1d0274"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/forward.png",
+      "bytes": 974717,
+      "sha256": "dead234e8968d4c33992c9cb41adbbc36858f028b11259d80d9b8d82e72e0757"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/left.png",
+      "bytes": 999599,
+      "sha256": "b7edef34b8a83aca4aedeb73c44a932737e3b34afa036a37a2bb17d99fc50d54"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/moving-down.png",
+      "bytes": 978111,
+      "sha256": "e304923757b3e0dbd78733bb2beb58ea4ab056da4024356563234993cd53356c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/moving-up.png",
+      "bytes": 926354,
+      "sha256": "d7808d7454dd80b7e3ddad470d1dc6ca939a8b2c2df0a899240d90f24782824e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/page@9b3ca6f7d5498f296928570f69864fa3.webm",
+      "bytes": 11062638,
+      "sha256": "6f24349d0c2f8cd8a5e890230fe0b301e6965a6e091583f2981663eaa1643ae0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/report-1440.png",
+      "bytes": 165033,
+      "sha256": "d701dab04f9068c0cc976fc86415fc81be71ed15e6346a64f11eca69738eef1d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/resumed.png",
+      "bytes": 1010036,
+      "sha256": "eaaf4f4711dc2a177d36539b6c8e7a4ece6822cf5140a43471e663901bacce0e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-01.jpg",
+      "bytes": 316555,
+      "sha256": "657299d2e5f74eca774f60b4c09c344614778568cd12abe84f7a30a47842d29c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-02.jpg",
+      "bytes": 854426,
+      "sha256": "04bd6f2c836b89b53604ac35ceea65822ec5d227d1a144a0ca2b5ce1aa53dc88"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-03.jpg",
+      "bytes": 556232,
+      "sha256": "1f87c447dabeebaec7f0fab3377153eb4b3ce4d0dde6396d16f18e45857f0c80"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-04.jpg",
+      "bytes": 601543,
+      "sha256": "1820eb0a1fe63b511df6e2348048ee14a2386f86de064a40e9fcf3af69fe0214"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-05.jpg",
+      "bytes": 506232,
+      "sha256": "c3c8a3cc505a0f5b722ce5004c6d304516aa0e53a218771b9e3456c923eeef9b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/board-06.jpg",
+      "bytes": 229115,
+      "sha256": "ac638930c3bed22529d0818ddcb4b27583b86a9c541afb5100404a0b363579e3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0001.jpg",
+      "bytes": 1115,
+      "sha256": "c2edbfdee0da2de553e0aa050d3d13994b7f8b06c9a2512bdac849712eba6b41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0002.jpg",
+      "bytes": 1091,
+      "sha256": "d89961387ef30c7dc12a75ef3d5f907c3a254bde4044a83bff63565777b09b38"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0003.jpg",
+      "bytes": 37440,
+      "sha256": "23ec658d2aaedb4be1e01b423ffd67842f2b08fbc104c4b8e8220884c539d236"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0004.jpg",
+      "bytes": 14520,
+      "sha256": "6a20e5abbe633a8fcb23ac3a20b9dfa3f1b341bd130897f1bf18563cf8025fd3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0005.jpg",
+      "bytes": 34318,
+      "sha256": "77fa002ad90b2749cc321f86293950960a50ab22a1be6e75b1c0f8ef785196d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0006.jpg",
+      "bytes": 4317,
+      "sha256": "7ab26b0ee61aa4946e8f63c112f166fb249d30c8f7f3f063609c1a30aeadbefe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0007.jpg",
+      "bytes": 4029,
+      "sha256": "ba1e027478d4d399419469dad5d12aad6eb777d22097895472de040027f84ca0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0008.jpg",
+      "bytes": 3902,
+      "sha256": "d888220932dca61fc66acebca250176badd6f62665ee28a90f1c7382feff6b84"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0009.jpg",
+      "bytes": 3923,
+      "sha256": "b170ca19ff189d33fa36c5e31aec3d38aa075f3fcc38de64a8059622e35aa7ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0010.jpg",
+      "bytes": 4871,
+      "sha256": "98ab5e6f00046d60122ee7f67932230f4a6b873cae48885751f5f8ba1457dfd5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0011.jpg",
+      "bytes": 4861,
+      "sha256": "661adec34117bbfa5629efccd3afa5bfd3a0b03d174b703698b5bdc9b9552d14"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0012.jpg",
+      "bytes": 5035,
+      "sha256": "73d605a103ed288ee63225418aaa49c9e96377127615d831bc48db412db4ea7d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0013.jpg",
+      "bytes": 4667,
+      "sha256": "3b76d14ce763ad206ee800b87d23f05af46356814a82214062a8de7b0d43b455"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0014.jpg",
+      "bytes": 4823,
+      "sha256": "a27ecf8896648e91f589036877df25f133f1833af3092482f600a2e853e12bc8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0015.jpg",
+      "bytes": 4831,
+      "sha256": "4d95b21134a669be9a6c36a86513caf423ea53058467ba7dab281f9bbcdfd7eb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0016.jpg",
+      "bytes": 4820,
+      "sha256": "dd397cde38471fb73721b027c3d28c072122b285f0898cd7fc727ca692c8d5d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0017.jpg",
+      "bytes": 4867,
+      "sha256": "5dbd44ebaf8377767b46b543786c7bdec551af0c336c3a8bfddd860892687d43"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0018.jpg",
+      "bytes": 4808,
+      "sha256": "2bfc5c6b52b95754725baf53a9e8b4581454c5e2e05e73f3deed0362c95dfa8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0019.jpg",
+      "bytes": 4862,
+      "sha256": "6326a1fe81947592e19924fbc71c2a4105dd97c78ac4f9cfaa8d17521438dbbe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0020.jpg",
+      "bytes": 4800,
+      "sha256": "93302a70d667c469f9e3906512d7e83201596a6c69853ddfbbb98d939367f303"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0021.jpg",
+      "bytes": 4369,
+      "sha256": "047026bcbd55559ac37d6ab425ed0572bb60c6ae56df05fcd3cff61f294eff90"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0022.jpg",
+      "bytes": 4864,
+      "sha256": "c5ef086f5cf7e66fbad51e1101344dd315d9797b85f07ab18aeae3ff8c849213"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0023.jpg",
+      "bytes": 4871,
+      "sha256": "1febae0236b49d57988dd249c36b339c12b8c5c4718de90ad0e923d2071ada62"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0024.jpg",
+      "bytes": 4871,
+      "sha256": "1febae0236b49d57988dd249c36b339c12b8c5c4718de90ad0e923d2071ada62"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0025.jpg",
+      "bytes": 4863,
+      "sha256": "514b83595b4ccf1a5639d7ae88c11ca20c02203de5322bddd3e282deacd0e0c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0026.jpg",
+      "bytes": 4862,
+      "sha256": "2da6c9bae29a39c077025b8322d18325452682f2b2e8f63fb5fb400811f8723b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0027.jpg",
+      "bytes": 4862,
+      "sha256": "2da6c9bae29a39c077025b8322d18325452682f2b2e8f63fb5fb400811f8723b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0028.jpg",
+      "bytes": 4862,
+      "sha256": "2da6c9bae29a39c077025b8322d18325452682f2b2e8f63fb5fb400811f8723b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0029.jpg",
+      "bytes": 4858,
+      "sha256": "7d05d72ecdc0b5b6bb97c6895896e08b5be9bcef13dbfb6430d9f660fb35c459"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0030.jpg",
+      "bytes": 4858,
+      "sha256": "7d05d72ecdc0b5b6bb97c6895896e08b5be9bcef13dbfb6430d9f660fb35c459"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0031.jpg",
+      "bytes": 4858,
+      "sha256": "7d05d72ecdc0b5b6bb97c6895896e08b5be9bcef13dbfb6430d9f660fb35c459"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0032.jpg",
+      "bytes": 4861,
+      "sha256": "67c8fed12e4b6c75f3b57cfb29d806c812188366dd7112dcf82ac46319fc9f84"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0033.jpg",
+      "bytes": 7410,
+      "sha256": "fc4f01a821bec142dd77b6a1158e5fac8447e05cb7c9dd7e152041e0df2de195"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0034.jpg",
+      "bytes": 7632,
+      "sha256": "fe6f207a10c2fca89e127b87fe01882f364648b0b1264390651e9f4ce693a249"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0035.jpg",
+      "bytes": 7623,
+      "sha256": "3e3afd51238a0e0f8a039043eb1e7bd51aa569985ccb810a5116a5984f2b034f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0036.jpg",
+      "bytes": 7464,
+      "sha256": "37fad7cb0b8ead5fc423ea53d61d8aa78e45f75d59524a1a85d1b93ff4059ce1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0037.jpg",
+      "bytes": 7489,
+      "sha256": "002d8e7d61dea858a3cce0632a257f38df550a04cb6128588255dbdbd0de48b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0038.jpg",
+      "bytes": 38910,
+      "sha256": "b1b8bc0fd78988574c190cefeb77ded9f26364a047edd7a03427818c40f90645"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0039.jpg",
+      "bytes": 38907,
+      "sha256": "5d1cf4e994a025749093f9ba3f82401bae35324f87b50662d8b56596f0c8bbd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0040.jpg",
+      "bytes": 30107,
+      "sha256": "b01b3afe96d51f41bf12b407e7e53dec64320c21a363d0b3bc0661cdc19722a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0041.jpg",
+      "bytes": 24767,
+      "sha256": "1acda08c06ca7af551d46702eaff05db859a115e2bd4506773b678911c181eaf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0042.jpg",
+      "bytes": 20046,
+      "sha256": "5a6cf8ba8203e246d34125c0e5c90e982122ea34c6d1921e6d03436917f97357"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0043.jpg",
+      "bytes": 17489,
+      "sha256": "65c90129fb837064dfcf4e195a75b8dd343d80840dcb07978bcc8afbc7ceb86c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0044.jpg",
+      "bytes": 17919,
+      "sha256": "9acec180111303afdc3016751edbde0dbf1678bcc319f2968fc7a9f2be7f13a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0045.jpg",
+      "bytes": 15509,
+      "sha256": "5338530ba1f9b37ffa28f6926a96063343d4eea1471a4c02739f3783cf844407"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0046.jpg",
+      "bytes": 13140,
+      "sha256": "753251fca24018457bdeeed930ecd9de3389968078e91e5e5633bb9d924d5152"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0047.jpg",
+      "bytes": 13052,
+      "sha256": "0443b30ff20847d741213eab1c6de51511c9370008c34024bae12f6be9eac23a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0048.jpg",
+      "bytes": 12831,
+      "sha256": "1bea76f67ef5b7fc185f6c304399e9aab6d487ccd63a073385ba31aff79df468"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0049.jpg",
+      "bytes": 11808,
+      "sha256": "39b1c99b58e30f4f99e276f0a2062457eaeb7cbba48a8234bffec39a8cb96869"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0050.jpg",
+      "bytes": 12638,
+      "sha256": "5736af2f037360cd146b906a32bd2b13a4adf6f54c91c49aa7709c53de01e0a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0051.jpg",
+      "bytes": 11880,
+      "sha256": "719f0aa63e6bb4e4549a96ef78519474fd6a4a39e1fff1aa0eaac25c766a97c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0052.jpg",
+      "bytes": 9440,
+      "sha256": "93cc7422abbab53fa6d3dd3b357bf36fc40bc42bc528f6ec23b4c0c58257d911"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0053.jpg",
+      "bytes": 11085,
+      "sha256": "4fd245b6ccff53ae039e3af04b3ae58f3ad74adc91bde85155d33f0d15afc74e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0054.jpg",
+      "bytes": 10530,
+      "sha256": "4ec08eb703fd9d37e05133e00482b4760685590acc01d25e078beec94a3c9cf1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0055.jpg",
+      "bytes": 10088,
+      "sha256": "96966e8acd4dae286c981def3ed2cfeafe7e2c22071bc4b94775dedd4f89835b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0056.jpg",
+      "bytes": 10094,
+      "sha256": "fdd98a4b7615e389e3feda2ed81d26886e1fe6038bde2d8ecc2af68a67529d87"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0057.jpg",
+      "bytes": 10124,
+      "sha256": "595937c5895c2ac2c6a556385e6a5f20ac22070ea8dfe615e072a93e340c0b22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0058.jpg",
+      "bytes": 7557,
+      "sha256": "40437e04aef1cfb6d0eeab765e22ef9599532ce3d6990dd2a85c77d1aa66a821"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0059.jpg",
+      "bytes": 9758,
+      "sha256": "f673c03b7b33a3a29d60e6d6f8497aabeba7ff4f3beb4f5c3a7f2bc7f4ddf7dc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0060.jpg",
+      "bytes": 8940,
+      "sha256": "ce1ec9e374a82b3d17eaf1978dc38ab9d0ffe73cfd56ed76ba74a47cd07b546b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0061.jpg",
+      "bytes": 8877,
+      "sha256": "7e0f757f80d598dae4fdba2889ea5425141767ec1b9770fb91c40d2ef0b5c153"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0062.jpg",
+      "bytes": 8281,
+      "sha256": "94f95f1680c0b7dc3393d29170307557610a89713b815f45dcbb9181f65249bb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0063.jpg",
+      "bytes": 8442,
+      "sha256": "4f3caa090f2425e80ece8dd62c0bfd0b9af39a8cdc9a882c90b349eed28622bc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0064.jpg",
+      "bytes": 8278,
+      "sha256": "d21f3ad0dcb4a1acfde996580ae8158d108f33c4638cf8cd63a1c775cb55185e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0065.jpg",
+      "bytes": 8305,
+      "sha256": "fa18684ce2b6eae7454910549947d753d595bf33af70c027a86af79ed7fff1a0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0066.jpg",
+      "bytes": 7954,
+      "sha256": "15f9cab841fe60baf3c74dfa528ece0ffc3f8d80281a8dd059e80e1d59f01c7f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0067.jpg",
+      "bytes": 7919,
+      "sha256": "abb7636bd4d708056df748c63b9cb2a7cd1cdcb9d6fdec5534f8039875081d26"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0068.jpg",
+      "bytes": 7379,
+      "sha256": "ec8d2a681da40c215fe95e7b64648b35c2cd0c6f2abf851367f5fe66eb6e5846"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0069.jpg",
+      "bytes": 7185,
+      "sha256": "c88348c683d305672eadebdd9be15e747a8ab64777d77d2676232086547f5f06"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0070.jpg",
+      "bytes": 6229,
+      "sha256": "8a220704017ff9c196695499c3e2b0cd8a875a3581f521d4b4c38e694a0a5264"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0071.jpg",
+      "bytes": 6165,
+      "sha256": "82f754fe18a8cfbc9c2bcd8a58fcfa562c34ca72498c89860b71f4c1fe7df637"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0072.jpg",
+      "bytes": 7480,
+      "sha256": "f533019ec3984ae7deb5a055f4f099dd6d123076f81bbe29021c0af72dfdc49a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0073.jpg",
+      "bytes": 7147,
+      "sha256": "03668c8e363e6b2a694c88601d738958cff514b301b6eee511352f5decddde1f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0074.jpg",
+      "bytes": 6702,
+      "sha256": "68d93d5a75b42beb68bdd1febd28da3085b659f821e5f830fc3a52abea5cfcef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0075.jpg",
+      "bytes": 6886,
+      "sha256": "9116600bf31df5fe836da230bd574179912892452e69a3f12d42c2fe5fdebbd6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0076.jpg",
+      "bytes": 6653,
+      "sha256": "8c76a0671e69f2728a2734cdeb3133cabf28493a6c2801bfda7c918fadfe574c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0077.jpg",
+      "bytes": 6556,
+      "sha256": "6874bb8d699caff122a23e99d233aaf309974353b0c5c56f47bdb60c0d267903"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0078.jpg",
+      "bytes": 6607,
+      "sha256": "92a30b393429a95308756ba4bee5cce1ef146b26b9a08b35a68a4d8536bc16df"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0079.jpg",
+      "bytes": 6567,
+      "sha256": "7c6f82a0382624db814def17b04fbe073953b9bf4945d402e99e04c36bceda5b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0080.jpg",
+      "bytes": 6467,
+      "sha256": "1998a11d9dfd7ef28c854a71c81735597cfbf2f251664dbd8a403e979a8a3852"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0081.jpg",
+      "bytes": 6308,
+      "sha256": "7ec8e91d9e911b87ea38e86cf730a32288023b24468799242a5c699ebc6e13f3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0082.jpg",
+      "bytes": 6211,
+      "sha256": "af585e60aca38cc9a168b53b58722754b2964ac307ad888c428aa1fde1f8e9bf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0083.jpg",
+      "bytes": 6060,
+      "sha256": "dd659a4d037b1607745f3d0e404534fe16452707b9df89db79fe6b151f647290"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0084.jpg",
+      "bytes": 6091,
+      "sha256": "8053f5ad46fe3c825623525a5c2bd26165ea5f85bb1e90e57a9508cc7c787850"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0085.jpg",
+      "bytes": 6074,
+      "sha256": "fd4df68e0fc98769e5d1ff182ede6d12009aea5b8b5d216143d148425ea9739a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0086.jpg",
+      "bytes": 6113,
+      "sha256": "302ad43423ad37de0293cb68bddd03aa21ded331e7f4cc0ac08a676016c0f8ee"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0087.jpg",
+      "bytes": 6112,
+      "sha256": "0b797240af8a813b71a5f5b5a5e28dfe3e5844f719ecf2fc97d800e604eb71fa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0088.jpg",
+      "bytes": 6043,
+      "sha256": "b4fff8d8b4ddcf199c8218922fdecc2b8547f62599b186bddaa2e3d24d75e789"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0089.jpg",
+      "bytes": 6221,
+      "sha256": "953fc5d5e614f9ced569b83ad102affe01a91266d17c336bd4e0bd35f3fd2942"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0090.jpg",
+      "bytes": 6071,
+      "sha256": "7f0f6ef1cd48c22cb9121e7309be63d7bacb2131c5a2bc1ddf0b8d5ba7f6b0de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0091.jpg",
+      "bytes": 6089,
+      "sha256": "7855e9443a4412e7d32c2021a7a476129458acae57a75ec602712e60e22d1259"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0092.jpg",
+      "bytes": 6148,
+      "sha256": "3c68dc3c308bb8c8e8d608dc7afc27b0ab9b92999211fa35855973d585bc6738"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0093.jpg",
+      "bytes": 6268,
+      "sha256": "6bd3e70a65883ae8d4d5dbcf674bf933ac9489ff3f07a2397cfb2b66c338d49d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0094.jpg",
+      "bytes": 6033,
+      "sha256": "e847da5e5f409b830de8ebfcc2470169bd3cda0169f7dae2de3e1416ce0abf91"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0095.jpg",
+      "bytes": 6077,
+      "sha256": "79bae1106b880fb8ab74cb93312a531aed36ea212ee69443a6b9dc2be294dad9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0096.jpg",
+      "bytes": 6123,
+      "sha256": "55d06a6db4e5de221667f483e32136d16a28e07a5f5fd73c04057bd9bc75b07e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0097.jpg",
+      "bytes": 6058,
+      "sha256": "e9b75471e252b6b495c2bf10bbfc5ff9a433ef2d56577b615b84b7ac5ae61471"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0098.jpg",
+      "bytes": 5994,
+      "sha256": "080385db76ad4da876021767f70e2399c5190e87b9713f3bfb4aa001e81337e6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0099.jpg",
+      "bytes": 5977,
+      "sha256": "b6c36877a71d4ed287b65085ed0011ae506fa8ea3d8d1ba2727137b977bfb796"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0100.jpg",
+      "bytes": 5858,
+      "sha256": "bb06e1d908bab4745fb128ce9d6f6523cde58c0eb89015832e809bced8f2e7c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0101.jpg",
+      "bytes": 5991,
+      "sha256": "0338378357abb2648a778d37c515001044f58d95d0053d42ff68e56a05757ca3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0102.jpg",
+      "bytes": 6266,
+      "sha256": "6d4f4b6548dcd7cbe8f758416174817b732608aaad559804f52e9d3928159d95"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0103.jpg",
+      "bytes": 6101,
+      "sha256": "47b6c182b609b0c5d21dbb873434fa280001623fe6e3de1b005dbe93b12aac74"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0104.jpg",
+      "bytes": 6217,
+      "sha256": "162174c84e096664e1d365834be050f6d95ac45d595947acfbd6b4e73a3f9155"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0105.jpg",
+      "bytes": 6300,
+      "sha256": "d960367be39643b23c0344606d8dcc28fda0ba4c54a21020dad19616aae0bee2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0106.jpg",
+      "bytes": 6383,
+      "sha256": "ab07ae706d5e6ef9e6f1b1b9c8c21f90e707734e44da91d0c3847dac44c542c0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0107.jpg",
+      "bytes": 6655,
+      "sha256": "f42e8003a1e526457e95d976add6703a7308229665ff39c8d55a884c27e5b4c3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0108.jpg",
+      "bytes": 6706,
+      "sha256": "6ec2341b6952ccb01c9ce0409f69d28204d827b8f484e667070a5550b58f65c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0109.jpg",
+      "bytes": 6934,
+      "sha256": "b774b879d97058f289449412b5d31f93dfd3386d63403c682135eaa1a91197b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0110.jpg",
+      "bytes": 7116,
+      "sha256": "ca88c8fcbd472ad32a6107201d1cf317341084f981497ee0afad8a293e29b3e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0111.jpg",
+      "bytes": 6991,
+      "sha256": "94f848796f90166ad89a10192c5325a8dc8eeefdc5d097ecc60ecb87e3fc1aa8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0112.jpg",
+      "bytes": 6914,
+      "sha256": "c25128fe64dff4fd23ad22ae7b4308f338c28eb613bf229df633aaaec6eb4ce8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0113.jpg",
+      "bytes": 6987,
+      "sha256": "e1eed7efb8afdd9d502a60c3be1f0b0809f60258fab90477a370a728bfa19803"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0114.jpg",
+      "bytes": 6992,
+      "sha256": "2e67022cc9740ef2282c82dbbb851ab932b3adf398ff6654d3f2508c7e343fc8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0115.jpg",
+      "bytes": 7133,
+      "sha256": "6fd146b4594f1593fbde8131cd96ba930c5558dc32343038e21d11b2a6f16d99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0116.jpg",
+      "bytes": 6917,
+      "sha256": "5857c0bdc42899216b9e4340ca1d8373a42269e7337971701cc5c80ca6d3974b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0117.jpg",
+      "bytes": 7005,
+      "sha256": "952a4dd872d687667cc45f89be5c372b14cee56db989c64edb9869e0b19e01e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0118.jpg",
+      "bytes": 6949,
+      "sha256": "a4c20975161cc395f6580f2985a48e81b4a89c5911648663943738fc14d4c302"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0119.jpg",
+      "bytes": 6903,
+      "sha256": "e1ee9e6f9c23a8042f2dabccb5f56e5d6ec69344bcb5b35e48a06f12a424d228"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0120.jpg",
+      "bytes": 6737,
+      "sha256": "1cd44a2e0d3b8c68382b8be7c2a2e361ebe6f22af8f8f45a6e62efe0283928d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0121.jpg",
+      "bytes": 6776,
+      "sha256": "64841e93a794047f4b3a39892b701588c20704c4d782af7072e27e8378950139"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0122.jpg",
+      "bytes": 6832,
+      "sha256": "367d5d3932b7223f4bdd52ef34df88b17dd788941bef53f71529977b31f6e55e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0123.jpg",
+      "bytes": 6385,
+      "sha256": "8e81ed4b7b05f61edbfaf7d5ab2ae9fef7498dbf83e7ba2c24c7c2853007b738"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0124.jpg",
+      "bytes": 6598,
+      "sha256": "69f3ce76a0185acc21be753e6c15ae0545e466a993c40c42003b696a434c09ae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0125.jpg",
+      "bytes": 6723,
+      "sha256": "ed2a659b8991ef070074250933da3cc7b44c4979e8cfc40506056d503d62e6d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0126.jpg",
+      "bytes": 6351,
+      "sha256": "1be66c18cd54f9057ebd4669e7783011b68882f84a4925e2d80b0e2331f24a84"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0127.jpg",
+      "bytes": 6699,
+      "sha256": "234edddfe0399d73e4f3ba10d0260d22ddd103996b5498cf0612a63cd65470e3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0128.jpg",
+      "bytes": 6734,
+      "sha256": "5e04bb74c537f3a8109d1ea37ff94411f562114668b2d379cca501dc8e7fc3a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0129.jpg",
+      "bytes": 6222,
+      "sha256": "c237de3a50b394a4b272bdfdf413fe5f73c857963b17b337c3468528f20afd54"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0130.jpg",
+      "bytes": 6721,
+      "sha256": "e5ed6a579d372b537bb04152170a79ec7ef84eb7c634cc64bc7045002315a64e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0131.jpg",
+      "bytes": 6450,
+      "sha256": "0223563210d0075de3448b84a583f3575b78b82aebcbb4214377802f7164888a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0132.jpg",
+      "bytes": 6793,
+      "sha256": "2a73e8c2ba421872ef1db475f0b51e6bbfd805fcb7b09d87ffb041c083fe27ab"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0133.jpg",
+      "bytes": 6750,
+      "sha256": "dd9c0be989bcbed00038640d58da02024398118c8209023236c9c8159ef932a2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0134.jpg",
+      "bytes": 6641,
+      "sha256": "56ae2ca621a79f0505196232cb2d788961b2f1b8aafbb5f3b146a1944980fd7c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0135.jpg",
+      "bytes": 6515,
+      "sha256": "c349f1d2bca3e3b198a2225c3d0042fb0fb0205431b5b1d2e343ded5236359c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0136.jpg",
+      "bytes": 6339,
+      "sha256": "70776400a41020abc88e38737b7089251d8de431bd85c5d60a64b77b871bb942"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0137.jpg",
+      "bytes": 6412,
+      "sha256": "ba32208375eb637e68c10d1c58d80159316a6c2b6e76e247e185e359947eb612"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0138.jpg",
+      "bytes": 6603,
+      "sha256": "64a67b00a1a4eef4a70022eed5df3f8dfb73abec102af145d431089edadc46d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0139.jpg",
+      "bytes": 6539,
+      "sha256": "d2e7b70c0e8407ef0caab519f28284fffe5cea3313f2b9cac70605be9f35bf50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0140.jpg",
+      "bytes": 6851,
+      "sha256": "57821798384766b21e4f269dd73fa8e44854fd7069dc66710a9570e209bdc051"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0141.jpg",
+      "bytes": 6740,
+      "sha256": "79f90bce647da854262c738ad8bedbb6e4ec4f30688eb3b78b9f545648b46685"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0142.jpg",
+      "bytes": 6481,
+      "sha256": "0ead6d249b39d7bbdcb3967ea22e8b843640e437471096c2d3e0f93f35d9a05a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0143.jpg",
+      "bytes": 6699,
+      "sha256": "ff64c47ef04fdea7720bb6ef6631e419aecd1952ecda67ce7831e4d2935fc80c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0144.jpg",
+      "bytes": 6566,
+      "sha256": "9b165e6e72c82886a5b60daa208775d5274e632052bb4caeb8a217cb198e627f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0145.jpg",
+      "bytes": 6638,
+      "sha256": "bfada5bf328808cfc6ae56b1f3aae64a0676dfd0e8547ab486d3df5338b3caea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0146.jpg",
+      "bytes": 6732,
+      "sha256": "cf298fa4c4b109c836b8c9a938c1b8b16290ed338caade07dced03f62535d7a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0147.jpg",
+      "bytes": 6764,
+      "sha256": "f76c5f4bd33f85449a7c5d405b6f053afea87b1bac28bc653b6c3653c1199560"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0148.jpg",
+      "bytes": 6692,
+      "sha256": "162960c24ec164006a5470ffd507b465b5391ea1ececda49d663cc65e18e3000"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0149.jpg",
+      "bytes": 6937,
+      "sha256": "1bdcf2c42bf0c55381ffa5d119c12ddd26d8658db9321ceb7916943c35721db6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0150.jpg",
+      "bytes": 7063,
+      "sha256": "8345e21bc1fadd3b358a29f703b9eac10d186836094d32b2c2884d3493aefd99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0151.jpg",
+      "bytes": 6658,
+      "sha256": "ddbbd449053d10785532b1ae1239958a1a5ca9292c5848046f0423b4fc1b2aef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0152.jpg",
+      "bytes": 6614,
+      "sha256": "a90d8c7214d9f5f7009422de7f66a74f436e87a3325490dfbcf8ca3bdf588d8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0153.jpg",
+      "bytes": 6543,
+      "sha256": "4f247715e9dcca56a2dcf3021760feb8c065e091bc19e789901789b6fd4e7f97"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0154.jpg",
+      "bytes": 6662,
+      "sha256": "cbd8ec60e52980a61b57155b93082591ecfbe332b852f8be541c34e26f6d30c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0155.jpg",
+      "bytes": 6679,
+      "sha256": "d22dcb13efd23da9f23770d68263b0dcc94fb74cf790005e3d74969f708c7c75"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0156.jpg",
+      "bytes": 6167,
+      "sha256": "2ed83d5d0e057d2f5a94ffca81612feb619ebb2c7c869e5794d8409a8981724c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0157.jpg",
+      "bytes": 6590,
+      "sha256": "9d751c38b6ea0f16d02505795054100102ed8a5d3ae0f92822b4c0d3b28723aa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0158.jpg",
+      "bytes": 6554,
+      "sha256": "38884d5b99cbd5bbd2dd738ec7ffbf67c3cf168e2b028592822ed0fefc765725"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0159.jpg",
+      "bytes": 6623,
+      "sha256": "2867d7d5caf25d8848aac626177e9d5f0ce1ccdfd39bf415d975e1c7bde798a2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0160.jpg",
+      "bytes": 6638,
+      "sha256": "711433dc6d5e8fb01f9481c764ffa3944fdbf4331cb4bf949290bc0fea4a93cf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0161.jpg",
+      "bytes": 6718,
+      "sha256": "cb25af8a2fdf0354e91ad7dbb63aaf18aa81041e47c2a0e80be7e72ef34cdace"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0162.jpg",
+      "bytes": 6945,
+      "sha256": "d10f3bac7eb21bc68fa137d2d94b943a1dd3d639e3365e92dd8b63b08757e33f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0163.jpg",
+      "bytes": 6944,
+      "sha256": "0e8e8a5ffe8d1a5ffc069cdcb8638f013e7dca5695d009122ce99d9e5bb3d69b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0164.jpg",
+      "bytes": 6937,
+      "sha256": "4baa6344b4626722023847a5cd40d130fecce4cd480aceaa369d2f2a3e69c422"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0165.jpg",
+      "bytes": 6858,
+      "sha256": "95cb46dd7c6a7c8fe5c1659a8d5c787513b5ba17ac1dc62f37b6d01eace55717"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0166.jpg",
+      "bytes": 6867,
+      "sha256": "38177d70721c52974905ed1bee3cdaaa67a1d3eec6b387dcbb2a7c15ce3899bc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0167.jpg",
+      "bytes": 6887,
+      "sha256": "37c6e2f701b98e7d31e43d488dd8366da14b1faa2a985ef26ebc18c88db8650f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0168.jpg",
+      "bytes": 6893,
+      "sha256": "815c2e13245b807e26ed9fa9e038e66d33d0b84a81911c9e096267497fd19c71"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0169.jpg",
+      "bytes": 6922,
+      "sha256": "9a61098db7db05383ec820d82c3f096d22850948c4543eeb0354a0f68a999321"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0170.jpg",
+      "bytes": 2759,
+      "sha256": "37ceb77d08d7c8ceb702cd82bd2d1ab0499864899ca07028a1d6e37446055f42"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0171.jpg",
+      "bytes": 3392,
+      "sha256": "329c822a6b7ccadee382ae0dd5933a357e3748ac42f3724a30f1a76b0af440c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0172.jpg",
+      "bytes": 3350,
+      "sha256": "17c8e174865dc7eef95dd852ae0b20a9a24a4cd6ed1dcc0dd57345679c14ff44"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0173.jpg",
+      "bytes": 3359,
+      "sha256": "ba546b45792ab213bf62c10850fca967a8474b3c0dec09d1a3a7c5ccff6b5eff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0174.jpg",
+      "bytes": 3340,
+      "sha256": "70356a47ea0563039abbeb1281f0adcaae402b7fe291660e811837c181fc8d54"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0175.jpg",
+      "bytes": 3353,
+      "sha256": "aacd8e763ad9e011c51259ec150eff5473ae83ce6dfe4b0118f789f3cd506a15"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0176.jpg",
+      "bytes": 3356,
+      "sha256": "e2d6a67f92a430a8c0b2ba4448867cecc97e99a6c3a1388e857c027df5d182e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0177.jpg",
+      "bytes": 3376,
+      "sha256": "4b4ee1d6128401ade5e894b536f9fc6fbc52b4178cb5f89d45087f55be1d8bc1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0178.jpg",
+      "bytes": 3378,
+      "sha256": "214c89f42a049b86c2b23f17aa7b6dc57b18c5736110442811376a41696a19f7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0179.jpg",
+      "bytes": 3380,
+      "sha256": "e2c37a1fa76f5323e62b2f65d8e57de497784d1a76dd5876644ed454843f42b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0180.jpg",
+      "bytes": 2778,
+      "sha256": "b4772f81c509f43b20ca07ad069fc791cba520412d411d269d2b16d3930fc671"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0181.jpg",
+      "bytes": 6883,
+      "sha256": "31161c259ae074faef6da9b99170fc021e3ea3c32e0a8458a5a96d7fbf682e10"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0182.jpg",
+      "bytes": 6785,
+      "sha256": "df500f0d2b62bee74337df480647d2b6841d4d94aade451b3de06518871c8b89"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0183.jpg",
+      "bytes": 6725,
+      "sha256": "62033983d7af0c804a536e22c77357e6c854d65e611f0112547f0e3d53ad544c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0184.jpg",
+      "bytes": 6931,
+      "sha256": "5034191ac4e6d9013c9878895abd617d1a1fc492426eac08307fba0bf1e98289"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0185.jpg",
+      "bytes": 6626,
+      "sha256": "58894e6158955a2252ab025705017032c7a917a8d9a9fe4d627f60c0fa0eba89"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0186.jpg",
+      "bytes": 6613,
+      "sha256": "38c67f56fa23bccfa4124e3b0c77fe584a94a8021f598ee04b7cc05ed71ac088"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0187.jpg",
+      "bytes": 6519,
+      "sha256": "6ab3791e6f0bb94f423896debf1a8b623fc255a7f2642f3bbae7b2bea4ce36d7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0188.jpg",
+      "bytes": 6512,
+      "sha256": "5669e7e958a2660600795d78cf8267ce60f2754e6eb20b5d2a70e0b6920f12df"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0189.jpg",
+      "bytes": 6673,
+      "sha256": "74c152bc62f175615647993cf725ede93506764da37e03ef0eb291f0cf5511e8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/frame-0190.jpg",
+      "bytes": 6668,
+      "sha256": "2ae1cb62dae26e3460e056119ffad565c32861ca655efb03c721650f3b8d4bb6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/review-frames/receipt.json",
+      "bytes": 1432,
+      "sha256": "0ee6dabc339880c4cbf754a997b9c32ae89942e85cb480a5852f2acf2a710346"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/right.png",
+      "bytes": 1036473,
+      "sha256": "596e50c7e1720060009a629cb0358631d6aa6f0b49bc76ab669d21c1187e8392"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/settle.png",
+      "bytes": 799781,
+      "sha256": "305f9c2763862472a2f3bfbae135cca7602a9e75912a753cc0d8be694fcd726d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/stage-clear-beacon.png",
+      "bytes": 830784,
+      "sha256": "e07391d8d7a0f3dd911624c8150c52c3653a4292e62ae67afa6e93a1cdad83d7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/standing-down.png",
+      "bytes": 971034,
+      "sha256": "362b41ecf652f44cd6e2e0d08d1fcf41a0a8fe9d0a6515051a42dce918f97cd6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/standing-up.png",
+      "bytes": 925643,
+      "sha256": "248b280ecff50e691752369ae9cc0cf4496b771f38c1c77c6918a9d7859d2665"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/turning-down.png",
+      "bytes": 1032697,
+      "sha256": "de0c3e8d825a0be4dfaa5ef1d1dbcb20492c6688e1963eea27b035b73d7b9042"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/turning-up.png",
+      "bytes": 963521,
+      "sha256": "2c047e9f55ff0a17ea037b99c338c837f76a630b2368278dda90c6dfe1f81536"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-play/turning.png",
+      "bytes": 1311860,
+      "sha256": "a5849ca69c40561034a3dc5742e2a8ecfa5e86c938e537efa19645f081207d1d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-typecheck/process-receipt.json",
+      "bytes": 2595,
+      "sha256": "345eb7befc27dd22eac34e95b301ae9f879afbc758d388936d9691c596c0a12f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-typecheck/stdout.txt",
+      "bytes": 49,
+      "sha256": "ddea41cf12947fb6e95b363db9ba6a163f3a658c3b0dd2513296ba0cfaeee3ae"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/close-result.py",
+      "bytes": 2016,
+      "sha256": "cccce9abe57b6c234f3edced70a1727525de3439b2ed1579a5a4bf302ac3f137"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/controller-check-result.json",
+      "bytes": 1835892,
+      "sha256": "05ce774fc50186db79358d28d0f7ebd30514382d6570cd6266691dc7683ff2aa"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/extract-review.py",
+      "bytes": 1693,
+      "sha256": "8b88ee1dd23ba222243eab99cb80b8d5b3ea9a8c931598d4957cf81c48628ac8"
+    },
+    {
+      "path": "tools/overhaul-moving-r-067/play-summary.json",
+      "bytes": 1089,
+      "sha256": "1161257a60dbf8165ec7ba381f4e9f5af673edaa31ff1d954c1b918544a93b22"
+    }
+  ],
+  "scope": "Actual043 automatedEdge observation only; quality pending independent critic; IAB severe lag unresolved."
+}

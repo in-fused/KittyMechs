@@ -1,0 +1,1 @@
+{"extends":"../../tsconfig.json","compilerOptions":{"rootDirs":["typecheck","../../src"]},"include":["typecheck/game/GameCanvas232.tsx","shaderStartup232.tsx","fixture232.test.ts","typecheck/game/rendering/deploymentReadiness211.ts","registry-types232.d.ts","../../src/debug/diagnostics.ts"],"exclude":[]}

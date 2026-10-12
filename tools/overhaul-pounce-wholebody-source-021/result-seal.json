@@ -1,0 +1,142 @@
+{
+  "sealedUTC": "2026-10-10T19:53:23.5206206Z",
+  "status": "FIRST_ACTUAL_CLAW_POSE_MISMATCH_FAILURE_STOP",
+  "schema": "source021-result-seal",
+  "files": [
+    {
+      "sha256": "c86c4d7b97820420d0d61e474dbb7a1c609de05203661449101c6a6144144e92",
+      "bytes": 11787,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/actual-action-records.json"
+    },
+    {
+      "sha256": "5088c66c73c192206ae116d1cf5255e904a826c4165e8cb917bc0c23749de5aa",
+      "bytes": 3072440,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/actual-animation-inventory.json"
+    },
+    {
+      "sha256": "0c0329e375cf0ecc3f431c4bb5ed09c89d4f835a3fb47f3b6faa9d5d8b720c6d",
+      "bytes": 635,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/actual-author-ground.json"
+    },
+    {
+      "sha256": "8787e34c4de2cdc7ca6b4f009cf8d3311235c62b74494acaeaa13482df2a7f56",
+      "bytes": 12632969,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/actual-current-two-body-geometry.json"
+    },
+    {
+      "sha256": "f8701c5ff0e6dce2c34e556af5e9f4c4d6b17bdac1e2a4462e5bd265830eea53",
+      "bytes": 5469897,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/actual-full-geometry.json"
+    },
+    {
+      "sha256": "a3b7ee3982145960dd7c497a573505eacce446335661eccb48b4038cae025016",
+      "bytes": 74769,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/current-pair-request.json"
+    },
+    {
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "bytes": 9761249,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/export-actual-attributes.json"
+    },
+    {
+      "sha256": "26dc3301390c8044d4a9c05d83c5fc45453dcc53513dfa95480f15a26e2e4530",
+      "bytes": 409665,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/export-readback.json"
+    },
+    {
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "bytes": 8073,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/export-source-offsets.json"
+    },
+    {
+      "sha256": "7e7e586872aaf13f35a58a1bf2a6079b0f846994e9ad4c95068d867b1ce5baac",
+      "bytes": 401848,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/first-source-failure.json"
+    },
+    {
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "bytes": 101554,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/fixed-rest-verification.json"
+    },
+    {
+      "sha256": "b5ab1c37644d899df4bb5a06deff3ed4ef2b090587a69d38d77188dd503fc0d4",
+      "bytes": 3965,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/inherited-capability-identities.json"
+    },
+    {
+      "sha256": "91d985d67c9971796210e4ddb7b133b253516988980d1f97f60a89e5e0910344",
+      "bytes": 16291125,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/matching-clock-two-body-assembly.json"
+    },
+    {
+      "sha256": "2f686d2f0c6cee86523b79d365f6ee451a7445a84c8974ff72899d794eec8460",
+      "bytes": 620416,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/pair-front.png"
+    },
+    {
+      "sha256": "07144b967b3e6b7d61af146c22e031f57988faa666d91c6043f30c2f885df6ee",
+      "bytes": 1065,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/pair-root-design.json"
+    },
+    {
+      "sha256": "8c3f94dc9a42b46297e5e78d6d1dcbecc4579ec186ab2857532887d8575661bd",
+      "bytes": 12441507,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/pair-selected-actual-geometry.json"
+    },
+    {
+      "sha256": "36e5be5d2f1d6b1b4c2ff3135d4ae45119861b9f44380e492e7e9ee32d52b0fb",
+      "bytes": 624878,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/pair-side.png"
+    },
+    {
+      "sha256": "c0cc28dcbc56b13925832d3a81233a8e4d34bf864e1c888d14fe68e8e4367f56",
+      "bytes": 88332942,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/Pounce_Wholebody021.blend"
+    },
+    {
+      "sha256": "3728c3b94ae0ef2b0835f377959c4b05b232ba1d7c0baae76adad9728abb054e",
+      "bytes": 3609968,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/Pounce_Wholebody021.raw.glb"
+    },
+    {
+      "sha256": "578bc36acd3b0894250a409988ced4cb3b577bd6cb4d679913a9c13e643c5d57",
+      "bytes": 216540,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/receipt.json"
+    },
+    {
+      "sha256": "b74a7a39e78944d0bb8a5303b812025079e12dce12ba23da8be088c4559de03c",
+      "bytes": 1051655,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/selected-source-detail.png"
+    },
+    {
+      "sha256": "0556bf9709ecd4b6a4b0f25f91fab6660e3077e2c6975b5a84e4158f571b6971",
+      "bytes": 253346,
+      "path": "assets/source/overhaul-pounce-wholebody-source-021/source-profile.json"
+    },
+    {
+      "sha256": "2c407ceff6f31547345b9809d4a5c3ef6f06be2ed28c2d4b03beec4efab864c7",
+      "bytes": 2526,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-021/blender-stdout.txt"
+    },
+    {
+      "sha256": "fe4705c512490f7f6d9ae443d9468008c13d78d519188ee92e7341e83dcece47",
+      "bytes": 6343,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-021/process-receipt.json"
+    },
+    {
+      "sha256": "3229dfabbcf00d357d407d8fedf4a15f255b4c56bd842da72441e76787f81831",
+      "bytes": 9176,
+      "path": ".sites-runtime/overhaul-20261010/wholebody-source-021/verified-inputs.json"
+    },
+    {
+      "sha256": "54f4d1802c0b892538f67ab395355d2dbd16bb9fa04164a0d562e26b37a850f8",
+      "bytes": 3485,
+      "path": "docs/overhaul/pounce-wholebody-source-021-RESULT.md"
+    },
+    {
+      "sha256": "e760d8a4397762042cb880f35206819c04cd885f761e611cbfd6bf1291e546c4",
+      "bytes": 10876,
+      "path": "tools/overhaul-pounce-wholebody-source-021/postrun-input-verification.json"
+    }
+  ]
+}

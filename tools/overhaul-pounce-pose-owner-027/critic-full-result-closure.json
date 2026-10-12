@@ -1,0 +1,20 @@
+{
+  "closedUTC": "2026-10-10T20:34:17.8015365Z",
+  "verdict": "ACCEPT_OWNER_REPAIR_AND_PARTIAL_PRESERVATION_ONLY",
+  "completePairArtNativeRuntime": "DENIED",
+  "review": "docs/overhaul/critic/pounce-pose-owner-027-full-author-result-review.md",
+  "reviewSHA256": "04720575A9FC05ACC5200D36C8BAA8F86D58A792F6844EB671F86AEBD052E45C",
+  "resultSealSHA256": "75E767F8C1F9220EF81F5E21126A50CF229993E917A10003C5C5E2CB93F2CDC5",
+  "resultMatches": 29,
+  "matrixChecks": 470,
+  "bonesPerCheck": 57,
+  "recomputedMaximum": 7.867813110351562E-06,
+  "viewed": [
+    "pair-side.png",
+    "pair-front.png",
+    "selected-source-detail.png"
+  ],
+  "imageClock": 2.3666666666666663,
+  "failedClock": 2.4,
+  "gate1": "INCOMPLETE"
+}

@@ -1,0 +1,7 @@
+# Finite shader and native observation 235
+
+Source only until explicitly gated. One actual two-client public-controls PVP observation of materially changed private234: controlled shader-startup232 and idle230 correction. Retains unchanged20-second combined readiness and actual canvas click; adds separate canvas admission begin/end and shader owner diagnostics. Keeps exact native/source/input/ACK/provider guard, genuine network failure handling, finite140-second work and30-second cleanup/180-second external job envelope. No shader-ready substitute for input or pixels.
+
+Public062 real HTML and old preload paths remain unchanged; private compiled modules and the exact packed221 asset are routed for this isolated browser observation. No new listener, HTML rewrite, security bypass, map thinning or GPU flag. Source-only stages, actual compilation, draw submission and game-quality acceptance remain separate. Original228 readiness/cleanup failure remains rejected and preserved. Shader cleanup retains first known descendant creation identity instead of overwriting it with null during process exit.
+
+Planned public actions: two-client entry, W/S stops, J/L turns, idle/moving R, jump/landing, one physical paired-action attempt if real geometry permits, ordinary guest leave/rejoin if finite time remains. Unreached cases stay incomplete. It cannot approve full cooperative mission, contact, all four mechs/three maps or reported human lag. Independent critic must inspect actual pixels/temporal evidence and may reject quality despite passing control assertions.

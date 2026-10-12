@@ -1,0 +1,15 @@
+# Mission009 squad coordination reassessment
+
+Recorded source: `.sites-runtime/overhaul-20261009/mission-009/evidence.json`. No page errors. Ordinary pulse defeated WORKS SCOUT at23.8;18tracking steps,15envelope-aligned. Weapon contact is established for that encounter, not for covered bot-0.
+
+Host(-.019,2.590,-36.230)muzzle repeatedly hit the same obstruction near(-11.602,2.68,-47.63), between host root(.907,.940,-35.318) and bot-0(-17.076,.940,-53). At59.083 hostHP218.967, guestHP99; at66.25 hostHP220, guestHP2.2. Guest remained(-11.168,.940,-30.843), then fell at66.883 while the host kept firing. Bot-0 remained95HP through all three bounded tracking episodes (33/44,43/43,41/41envelope-aligned samples), then returned to patrol after losing its living visible target. The harness failed at73.733 with `MissionGuest downed on route`; host was still220HP. This is an unattended teammate and blocked firing failure, not native all-down failure, a demonstrated aiming/weapon defect, or NPC respawn.
+
+`pilotGunAligned` is a geometric alignment heuristic using an ordinary cylinder envelope. Native rounded corners and cover are not reproduced by this predicate. Accepted authority impact/death events alone establish contact or defeat.
+
+One ordinary squad policy correction: the new readonly `kittyMechDebug.sight` delegates to the same `runtime.clearRay` static-world query used by visible HUD cues. Unknown/blocked eye or muzzle LOS excludes a firing target. Tracking stops immediately on occlusion/disengagement or a teammate falling/receiving new damage. The exposed squad member receives the next keyboard combat turn. The route advances through paired hops of at most4m, preserving the authored waypoints and4m trail, rather than leaving the follower behind an entire movement/combat leg. Either living teammate can approach within3.8m and hold ordinary E to rescue the other; downing/all-down and channel failure remain real and recorded. Objective interaction also observes either teammate downing.
+
+Changes are confined to the ordinary harness and pure `tools/overhaul-squad-policy.ts`; no authority weapon, enemy regeneration, pressure, range, damage, or lifecycle rule changed. Root's deliberately exposed optional lifecycle route remains intact. Four bounded combat episodes, two rescue calls,8native-second/15wall-second rescue-channel bounds, and60paired-hop bounds preserve finite failure. New tests cover the recorded covered-host/exposed-guest choice, symmetric rescue, disengagement and unknown LOS.
+
+Rescue threat clearing passes an explicit already-down-ally context to tracking. That corpse does not abort the rescuer's combat turn; survivor downing, cover/disengagement and new damage to a living ally still interrupt normally.
+
+Qualification: text changes and four focused tests written; tests, native jobs and an ordinary rerun remain held pending root's quiet-window grant and build006 containing the readonly sight reader. Tests cannot approve gameplay or presentation. Mission009 and lifecycle001 incomplete evidence remain retained.

@@ -1,0 +1,11 @@
+# Public feline prototype008 (root Medium)
+
+Started17:37UTC October10, freeze target17:49, implementation cutoff17:51. Integrates unchanged source004 partial43-actions, motion owner005 and weighted envelope007 through an explicit Settings checkbox. Default off, no private configuration required, no model/physics/native profile replacement. Four existing mech selections and modes remain available.
+
+New wrapper008 uses the same actual rig/mount/mixer/envelope. If the immutable owner rejects an unsupported actual presentation request, it hides that one preview frame and records a generation-bound per-actor fallback. React replaces that actor with the complete existing standard rig; fallback stays for this round/actor until the player switches preview off/on. No duplicate animation owner, duplicate collider or per-frame vertex scan. Public read-only receipt exposes failures for review; it cannot configure/steer simulation. Startup constructor/envelope errors still stop the candidate; they are not swallowed.
+
+This is a safe optional preview checkpoint, not source/action/contact/art admission. Missing upright death/down, wall alignment and unsupported pair/strike roles remain missing. Native hull/profile stays legacy and does not yet match new body proportions. Switching rigs can be visibly discontinuous; ordinary capture must judge camera/continuity and continued player control. The Settings note explains automatic standard-rig fallback.
+
+Exact preimages in tools/overhaul-playable-prototype-008/preimages and preimage-seal.json. Protected005/007 wrappers/control/model remain unchanged. Actor roster mapping is intentionally new and historically preserved. Independent code review and one fresh frozen whole-build/ordinary UI capture remain required; no claim that this change has run yet.
+
+Integration partner High owns transformFeedback008 in shared Simulation/types/schema and client input/Hud. Root owns Settings/store/Actors/public selector/wrapper. One serial native test packet after freeze, one integrated wholebuild and one outcome-driven two-client observation. Preserve failures and stop; no same-packet gameplay repair/rerun. Full Gate1/four-mech/three-map goal INCOMPLETE.

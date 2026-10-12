@@ -1,0 +1,3 @@
+Initial tsc exited1. Private copy's ../state/store and registry augmentation ./visualEnvelope did not resolve under initial rootDirs. Test MeshStandardMaterial.defines lacked type; witness callback this lacked annotation. Missing store then caused dependent implicit-any/index errors. No GPU/model/native invocation occurred.
+First scoped adapter tsc exited1: typecheck/game copy's ../../shared/{maps,weather,config} crossed virtual rootDirs. Corrected compile-only relative paths to ../../../../shared without modifying canonical candidate paths.
+Initial root Vitest command exited1, collected zero tests; root config includes only tests/*.test.ts. Exact JSON retained in first-fixture-setup-failure.json. This is failed setup, not a passed or failed lifecycle assertion.

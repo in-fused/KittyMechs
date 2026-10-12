@@ -1,0 +1,9 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+Error: 206_SIX_NEW_CLIPS_CHANGED
+    at convert206 (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-delivery-206/convert206.mjs:33:799)
+    at async file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-delivery-206/convert206.mjs:37:93
+
+Node.js v24.13.0

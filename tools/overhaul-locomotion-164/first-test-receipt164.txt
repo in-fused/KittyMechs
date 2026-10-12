@@ -1,0 +1,69 @@
+
+ RUN  v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web
+
+stderr | tests/source-coordination164.test.ts > 164 final source load/current footprint/exact affine soles > current client planes, role release and genuine suspension preserve source transforms through heading/reverse/startstop/R and support loss
+using deprecated parameters for the initialization function; pass a single object instead
+
+ ❯ tests/source-coordination164.test.ts (4 tests | 4 failed) 1265ms
+     × independent full decoded vertices agree with affine plane extrema across both actual skins, all gait phases, movingR, parent tilts and binding mutations 369ms
+     × current client planes, role release and genuine suspension preserve source transforms through heading/reverse/startstop/R and support loss 408ms
+     × replays exact raised-root and final-R contradictory saved poses without letting stale quad fore load or asynchronous native UNKNOWN justify a global drop 214ms
+     × finite relative CPU sample compares exact full-skin scan with current-map affine extrema, without an FPS claim 269ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/source-coordination164.test.ts > 164 final source load/current footprint/exact affine soles > independent full decoded vertices agree with affine plane extrema across both actual skins, all gait phases, movingR, parent tilts and binding mutations
+Error: 164_NONFINITE_OR_NONAFFINE_SKIN_MAP
+ ❯ affine src/game/entities/sourceCoordination164.ts:13:124
+     11| type Mesh164={mesh:SkinnedMesh;skeleton:Skeleton;bind:Matrix4;geometry…
+     12| type Skeleton164={skeleton:Skeleton;bones:Bone[];inverses:Matrix4[];in…
+     13| const affine=(m:Matrix4)=>{const e=m.elements;if(!e.every(Number.isFin…
+       |                                                                                                                            ^
+     14|
+     15| /** Identical exact 4-weight groups are affine maps of POSITION. Plane…
+ ❯ SkinSole164.beginPose src/game/entities/sourceCoordination164.ts:37:416
+ ❯ tests/source-coordination164.test.ts:28:459
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  tests/source-coordination164.test.ts > 164 final source load/current footprint/exact affine soles > current client planes, role release and genuine suspension preserve source transforms through heading/reverse/startstop/R and support loss
+AssertionError: expected 0 to be greater than 0
+ ❯ tests/source-coordination164.test.ts:45:113
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  tests/source-coordination164.test.ts > 164 final source load/current footprint/exact affine soles > replays exact raised-root and final-R contradictory saved poses without letting stale quad fore load or asynchronous native UNKNOWN justify a global drop
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ tests/source-coordination164.test.ts:54:191
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+ FAIL  tests/source-coordination164.test.ts > 164 final source load/current footprint/exact affine soles > finite relative CPU sample compares exact full-skin scan with current-map affine extrema, without an FPS claim
+Error: 164_NONFINITE_OR_NONAFFINE_SKIN_MAP
+ ❯ affine src/game/entities/sourceCoordination164.ts:13:124
+     11| type Mesh164={mesh:SkinnedMesh;skeleton:Skeleton;bind:Matrix4;geometry…
+     12| type Skeleton164={skeleton:Skeleton;bones:Bone[];inverses:Matrix4[];in…
+     13| const affine=(m:Matrix4)=>{const e=m.elements;if(!e.every(Number.isFin…
+       |                                                                                                                            ^
+     14|
+     15| /** Identical exact 4-weight groups are affine maps of POSITION. Plane…
+ ❯ SkinSole164.beginPose src/game/entities/sourceCoordination164.ts:37:416
+ ❯ tests/source-coordination164.test.ts:61:282
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  4 failed (4)
+   Start at  11:16:15
+   Duration  1.82s (transform 202ms, setup 0ms, import 318ms, tests 1.26s, environment 0ms)
+

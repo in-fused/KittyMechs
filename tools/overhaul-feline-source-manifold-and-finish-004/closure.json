@@ -1,0 +1,74 @@
+{
+  "status": "CLOSED_SOURCE_FAILURE_STOP_UNADMITTED",
+  "closedUTC": "2026-10-10T14:18:05.4443642Z",
+  "hardDeadlineUTC": "2026-10-10T14:37:17Z",
+  "session": 5309,
+  "processID": 347352,
+  "exitCode": 0,
+  "semanticStatus": "SOURCE_FAILURE_STOP",
+  "firstFailure": {
+    "tick": 0,
+    "time": 0.0,
+    "phase": "plant",
+    "failures": [
+      "ACTUAL_GEOMETRY_INTERFERENCE"
+    ]
+  },
+  "frameCount": 1,
+  "sourceGaitRNative": "NOT_RUN",
+  "protectedBefore": {
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-skinned-001\\Pounce_Skinned_001.blend": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\mesh-00.json": "6011b9f36d45d369ab986822d24e169acc0beff4660ea4c492bd24963b10dfac",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\paw-ownership.json": "e454604c5b2c984cd2d4da217cf3c18d3d91ded61308ebde15101cfa70d05780",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\anatomical-paw-decision-001\\measured.json": "8988c704eff4c4f3d5ef47d36505198112c3a7c7a39d2aab6755aa67c53d392f"
+  },
+  "protectedAfter": {
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-skinned-001\\Pounce_Skinned_001.blend": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\mesh-00.json": "6011b9f36d45d369ab986822d24e169acc0beff4660ea4c492bd24963b10dfac",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-bind-extractor-001\\extraction\\paw-ownership.json": "e454604c5b2c984cd2d4da217cf3c18d3d91ded61308ebde15101cfa70d05780",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\anatomical-paw-decision-001\\measured.json": "8988c704eff4c4f3d5ef47d36505198112c3a7c7a39d2aab6755aa67c53d392f"
+  },
+  "protectedOriginalRawGLBSHA": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+  "frozenFiles": [
+    {
+      "path": "assets/source/overhaul-feline-source-manifold-and-finish-004/author.py",
+      "sha256": "7f535c273f4c304d85dc3c737b14b215633d929cebe4e5603729b723ef709d03",
+      "matchesFreeze": true
+    },
+    {
+      "path": "assets/source/overhaul-feline-source-manifold-and-finish-004/CONTRACT.md",
+      "sha256": "ceea85cd56bb0989ec5796590485e6451713dd6fbb0304555d0d7e2ac10e9bc7",
+      "matchesFreeze": true
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/source_owner.py",
+      "sha256": "115c9c7dd608736bb53e89171947077f73005be57c33e8df4b0205f6267d6af2",
+      "matchesFreeze": true
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/panel_topology.py",
+      "sha256": "604d7e805adf9b5efb2dcad7ffb8f4ec76b6b682c6f2860d588e3f04e045320e",
+      "matchesFreeze": true
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/preparation_check.py",
+      "sha256": "3d4b97e65aa32086af40134b5086146b5774a495245a87e660a0625b16cdf8e2",
+      "matchesFreeze": true
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/preparation-check.json",
+      "sha256": "3d4d03886ae444618590d4a5abb2c0c0323c9d9762968b89967b8b3725849283",
+      "matchesFreeze": true
+    },
+    {
+      "path": "docs/overhaul/feline-source-manifold-and-finish-004.md",
+      "sha256": "02f77aaf567ba75575e9c7a73f009a2ff2e40784c39e8d04e691d62ca8e8b968",
+      "matchesFreeze": true
+    }
+  ],
+  "jobs": 0,
+  "writers": "CLOSED",
+  "heavySlot": "RELEASED",
+  "admitted": false,
+  "retry": "NONE"
+}

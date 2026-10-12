@@ -1,0 +1,34 @@
+  private releasePair(actor:ActorState,immediate=false):void {
+    const pair=actor.pair;if(!pair)return;
+    const other=this.actors.get(pair.other);
+    for(const participant of [actor,other])if(participant?.pair?.id===pair.id){
+      if(immediate){participant.pair=null;participant.pairImmuneUntil=this.time+PAIR_TIMING.immunity;}
+      else participant.pair={...participant.pair,phase:'release',phaseAt:this.time,endsAt:this.time+PAIR_TIMING.release};
+    }
+  }
+  private advancePair(actor:ActorState,input:InputState,dt:number):void {
+    const pair=actor.pair;if(!pair)return;
+    const other=this.actors.get(pair.other);
+    if(!validPair(actor,other)||actor.disruptedUntil>this.time||other!.disruptedUntil>this.time||
+      !actor.grounded&&this.time-pair.startedAt>.15||!other!.grounded&&this.time-pair.startedAt>.15||
+      horizontalDistance(actor.position,other!.position)>pair.offset+other!.pair!.offset+.8){this.releasePair(actor,true);return;}
+    if(pair.phase==='release'){if(this.time>=pair.endsAt)this.releasePair(actor,true);return;}
+    if(pair.role==='victim'&&this.time-pair.startedAt>=PAIR_TIMING.escapeWindow){
+      const profile=PAIR_PROFILE[other!.chassis];
+      pair.escape=Math.min(2,pair.escape+(input.interact?dt*profile.escapeRate:0)+(input.jump?PAIR_TIMING.escapeNeeded:0));other!.pair!.escape=pair.escape;
+      if(pair.escape>=PAIR_TIMING.escapeNeeded){this.releasePair(actor);return;}
+    }
+    if(pair.role==='attacker'){
+      if(pair.phase==='impact'&&this.time>=pair.endsAt){
+        for(const participant of [actor,other!])participant.pair={...participant.pair!,phase:'pin',phaseAt:this.time,endsAt:this.time+PAIR_PROFILE[actor.chassis].duration};
+      }else if(pair.phase==='pin'){
+        const due=Math.floor((this.time-pair.phaseAt)/.25);
+        if(input.fire&&due>pair.combo&&pair.combo<2&&this.lineOfSight(actor.position,other!.position)){
+          pair.combo++;other!.pair!.combo=pair.combo;
+          this.damage(other!,PAIR_PROFILE[actor.chassis].comboDamage,actor.id,other!.position);
+          this.emit('impact',other!.position,actor.id,other!.id,undefined,PAIR_PROFILE[actor.chassis].comboDamage);
+        }
+        if(this.time>=pair.endsAt)this.releasePair(actor);
+      }
+    }
+  }

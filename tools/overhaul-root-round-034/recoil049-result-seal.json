@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-049-processor/process-receipt.json",
+      "bytes": 1723,
+      "sha256": "4abab62e17117889979083f6881faf3099dd46d2290039f5145868291d4feff6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-recoil-049-processor/stdout.txt",
+      "bytes": 317,
+      "sha256": "b8f9e4868baced09903039782657e71487a0344968f0ac87871008c759381430"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-049/process-receipt.json",
+      "bytes": 1084,
+      "sha256": "a72b8078f619a1e499d2b3e6fa58be2eb8727268f8602649fea68e81717d67ff"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/prepare-clip.py",
+      "bytes": 8466,
+      "sha256": "ec383e790e7d8fed799d3a7997d80437b9de9aad127b0fe63cd750b2f4bfb9d9"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/processor-handoff.json",
+      "bytes": 1166,
+      "sha256": "df038abf39f9d3a3f80386bce9be2aa779041f81d0894c66e9a5b8128e82de0a"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/processor-seal.json",
+      "bytes": 441,
+      "sha256": "839f0b9203074be391627c33460c64ca8b8c81e7ce05b3b3a61d8905d031c90f"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/raw-timing-failure.json",
+      "bytes": 1414,
+      "sha256": "3114f4864869b0078c940ddc6931e8583f7e878e49183e1ccda8458150180ea4"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/rejected-unbound-moving-recoil-049.test.ts.txt",
+      "bytes": 8902,
+      "sha256": "6a70530c30ba1d22bd879d6e840f6ea4639bb39e1c68deaa7c46958dc08c2e6f"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/runtime-helper-draft.txt",
+      "bytes": 2314,
+      "sha256": "b7499d388cdf8b97be7b9f554d3a2a3dadf1bcab835c42ec787fdd668a9a3e9a"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/source-handoff.json",
+      "bytes": 3495,
+      "sha256": "31d41a4b73fa88b234f15bad9ee1e995367d351411b1520f029681bb66c29e61"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-049/source-seal.json",
+      "bytes": 2276,
+      "sha256": "02d38405f6152f8b811649109396bf1c735fa20a6d53eb7c5f600f4f68aa8fcf"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/seal-processor049.py",
+      "bytes": 1333,
+      "sha256": "73b3726d5856c22f57ec3ae9df139d03b7f80ff41c2a0febcb578d3a41a9d55b"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/recoil049-processor-seal.json",
+      "bytes": 2342,
+      "sha256": "52128bb34bfd34b3f678cdf181a4113a371fa9dea2dedfc68e1c6b3f70247858"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-049.md",
+      "bytes": 2183,
+      "sha256": "fed347e1ec8faa3e6f7c171b302617b48709bf0f6e4a455ef725ed1f127c1fa8"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-recoil-049-processor-source-review.md",
+      "bytes": 2024,
+      "sha256": "8718be6b9b668de7519dcff38b30f2705e3c70321ba09d12cbd4a6a63dc30b10"
+    }
+  ],
+  "scope": "049 first packagingFAIL eventrelative0 timing requirement, rawsourceframe1 offset; laterquaternion/motion/referenceguards unreached. No candidate or shipping/no rerun;050distinctclockrepresentationmustpreservefailure."
+}

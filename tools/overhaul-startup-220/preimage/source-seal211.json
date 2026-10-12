@@ -1,0 +1,76 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_READY_PRIVATE_BUILD_UNRUN",
+  "productionChanges": [],
+  "contractFixture": {
+    "command": "node --import tsx tools/overhaul-readiness-211/fixture211.ts",
+    "exitCode": 0,
+    "cases": 9,
+    "limitation": "Focused readiness ownership contract, not gameplay or presentation acceptance"
+  },
+  "syntax": "Actual esbuild transform helper and GameCanvas passed",
+  "files": [
+    {
+      "path": "tools/overhaul-readiness-211/build211.mjs",
+      "bytes": 1589,
+      "sha256": "dec2b58ef1db41da75f1a04f6adacf47a0e5014fd55e2b08ecff86a79cbf6ec7"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/deploymentReadiness211.ts",
+      "bytes": 1727,
+      "sha256": "2a5a982a29ffb15d3863aab3f22c1380977612cffe3ea704ab45356912efa19f"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/fixture211.ts",
+      "bytes": 1073,
+      "sha256": "6aba37f948357fd90e493083ce371b03c62d260cba5893c301b46ed33d98ea2d"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/GameCanvas062-preimage.tsx",
+      "bytes": 10252,
+      "sha256": "8fa2de3d7aaea5b31ad496ee74b4c8645a1dde51731c44bf12ebd1e6c7dbec63"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/GameCanvas211.tsx",
+      "bytes": 10913,
+      "sha256": "cff3d4a635448e9430e006d14c7fd9eca8ec07da2e219a00f3a8a24c6615617f"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/HANDOFF.md",
+      "bytes": 2978,
+      "sha256": "54faea3fe24c2471b731f5e31da54f9ef2b2c8928c0adfce67ac3377aff2d20f"
+    },
+    {
+      "path": "tools/overhaul-readiness-211/prepare211.py",
+      "bytes": 3004,
+      "sha256": "5acc9816174caf7205e1b292bddab3512685d2039b00b84cab4a074fcff6fe82"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10252,
+      "sha256": "8fa2de3d7aaea5b31ad496ee74b4c8645a1dde51731c44bf12ebd1e6c7dbec63"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 553,
+      "sha256": "d0e0125a09e2e7c834bf90262afdd365877cc606bdb9c9cd9e2ec3a8eb5e6d83"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    }
+  ]
+}

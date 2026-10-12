@@ -1,0 +1,73 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_AUTHOR_FAILURE_STOP",
+  "error": {
+    "message": "KEY_CLOCK_MISMATCH",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-stance-gait-194\\author194.py\", line 98, in <module>\n    write_pose(desired);validate_evaluated(RIG,desired,emit,'detached194');key_owned(RIG,action,frame,desired,emit);RIG.animation_data.action=None;first=first or {n:m.copy() for n,m in desired.items()};last=desired\n                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"194-fractional-key-owner\", line 2, in key_owned\nRuntimeError: KEY_CLOCK_MISMATCH\n",
+    "clock": {
+      "name": "FelineWalk",
+      "frame": 14.2,
+      "phase": 0.22
+    }
+  },
+  "recordsCompleted": 0,
+  "evaluatedRows": 43,
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/choreography174.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-motion-174/author174.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "match": true
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "match": true
+    }
+  ]
+}

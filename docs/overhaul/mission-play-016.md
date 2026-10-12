@@ -1,0 +1,7 @@
+# Ordinary mission016 rescue — incomplete
+
+Frozenbuild010/support3, actualtwoUIplayers/WESTcheckpoint/guestexposuretolivebot2, noHP/stateinjection. Browser46494closed;0pageerrors. Guestactuallydown84.833333native; hostaliveatcheckpoint220HP. Hostordinarilyapproachedanddefeatedbot2attackerby93.066667, host147.4HP. HostthenheldrealEfor~8.1wallsec; final101.733333guestdownedHP0/reviveProgress1/reviverIdhost, host176.5667HP/lasthurttime92.65/grounded/velocity~0. Activeattempt1, nosuccessfulreviveclaim.
+
+Measuredhorizontalcentreseparation2.852277066m. Simulation.advanceCoop.restore requires unchangedPounce radius1.75+1.75+.05=3.55m separationfromlivehumans, so this necessaryfullhullrestorationconditionfails. Generalpilotgoarrival1.1m allowedgoal3.8m tostop~2.85m whiledownedcolliderdisabled. This provesafailednecessarycondition; nativefullCuboidintersectionwasnotintercepted, so otherpossiblegeometrycausesnotruledout. NoNPCfirechannelinterruptionclaimbecauseprogress1 andlasthurt9s earlier.
+
+RootcorrectsONLYordinarypilot: rescuego4mwith.2marrivaltolerance/shortneartaps+brakingandsettledrecheck, nofullhullwaiver/targetmove/HPinjection. CandidateUNRUNuntilquietlane. Existing16video/failure.png/JSONretained. Fullrevive/Gate1INCOMPLETE.

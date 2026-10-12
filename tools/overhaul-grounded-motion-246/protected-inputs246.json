@@ -1,0 +1,59 @@
+{
+  "writer": "CLOSED",
+  "inputs": [
+    {
+      "path": "tools/overhaul-native-idle-230/nativeOwner230.ts",
+      "bytes": 14109,
+      "sha256": "d9fd180751f5985b07dea3486c88a6d0491932ef6b7bbd96ab619b5aeeb30db9"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/NativeActor222.tsx",
+      "bytes": 5492,
+      "sha256": "dc64c71b9d82717598ce0745daefaabb5740949920cf2755a0fb8692536e34d5"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/visualRegistry222.ts",
+      "bytes": 4584,
+      "sha256": "719bf9195b1f29d990918919f61e303a6cc454d843dfc55ddeb74ad0e192dd1a"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "docs/overhaul/player-integration-245-handoff.md",
+      "bytes": 4465,
+      "sha256": "dbd96750babdefb5aca3860295f30170d7629c12cb647345a63a4ee4ae47424f"
+    },
+    {
+      "path": "docs/overhaul/critic/program242-actual-review.md",
+      "bytes": 5477,
+      "sha256": "5bc2c6556daffa81567c861a63b37fa853e956f120ad87d23a451da27ffa7146"
+    }
+  ],
+  "productionChanged": false,
+  "assetsChanged": false,
+  "storageClean": {
+    "exit": 0,
+    "cFreeGiB": 40.21,
+    "dFreeGiB": 689.12,
+    "artifactGiB": 34.17,
+    "deleted": 0
+  }
+}

@@ -1,0 +1,34 @@
+/** Private delivery proposal; no main conversion until root approval.
+ * Six new ordinary quaternion channels change between-key law to shortest-arc
+ * LINEAR. Their original authored key quaternion bytes and clocks are retained.
+ * Original39 and all geometry/rest/bind bytes remain unchanged from closed207. */
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+import {resolve} from 'node:path';
+import {readGLB206,accessorBytes206,hash206,ordinary206} from '../overhaul-delivery-primary-207/convert207.mjs';
+export const input209='tools/overhaul-delivery-primary-207/output/Pounce_Anatomy206.glb';
+export const inputSHA209='c276854828a906bccda5f94bfb999e7208022fd34a1142b370a87d689a08cac2';
+const equality=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+export function prepare209(source,operands=[]){
+ const doc=structuredClone(source.doc),parts=[Buffer.from(source.bin)];let cursor=source.bin.length,rotations=0;
+ const ordinary=doc.animations.filter(a=>ordinary206.has(a.name));if(ordinary.length!==6||doc.animations.length!==45||new Set(doc.animations.map(a=>a.name)).size!==45)throw Error('209_EXACT6_39_45_CONTRACT');
+ for(const action of ordinary)for(const ch of action.channels){if(ch.target.path!=='rotation')continue;const si=ch.sampler,sampler=action.samplers[si],input=source.doc.accessors[sampler.input],a=source.doc.accessors[sampler.output],clock=accessorBytes206(source,sampler.input),bytes=accessorBytes206(source,sampler.output),law=sampler.interpolation??'LINEAR';
+  if(input.type!=='SCALAR'||a.type!=='VEC4'||!['STEP','LINEAR','CUBICSPLINE'].includes(law))throw Error('209_UNSUPPORTED_QUATERNION_SAMPLER');
+  const stride=law==='CUBICSPLINE'?3:1;if(a.count!==input.count*stride)throw Error('209_QUATERNION_KEY_COUNT');
+  const selected=Buffer.alloc(input.count*16),intervals=[];
+  for(let i=0;i<input.count;i++){const offset=(i*stride+(stride===3?1:0))*16;bytes.copy(selected,i*16,offset,offset+16);const q=Array.from({length:4},(_,j)=>bytes.readFloatLE(offset+j*4)),norm=Math.hypot(...q);if(!Number.isFinite(norm)||norm===0)throw Error('209_INVALID_AUTHORED_QUATERNION');if(i){const q0=Array.from({length:4},(_,j)=>selected.readFloatLE((i-1)*16+j*4)),t0=clock.readFloatLE((i-1)*4),t1=clock.readFloatLE(i*4);if(!(t1>t0))throw Error('209_NONINCREASING_CLOCK');intervals.push({left:i-1,right:i,times:[t0,t1],spacingSeconds:t1-t0,dot:q.reduce((s,v,j)=>s+v*q0[j],0),norms:[Math.hypot(...q0),norm],cubicTangents:stride===3?{leftOut:Array.from({length:4},(_,j)=>bytes.readFloatLE(((i-1)*3+2)*16+j*4)),rightIn:Array.from({length:4},(_,j)=>bytes.readFloatLE(i*3*16+j*4))}:null});}}
+  const row={action:action.name,node:doc.nodes[ch.target.node].name,sourceInterpolation:law,deliveryInterpolation:'LINEAR',inputAccessor:sampler.input,inputSHA:hash206(clock),keyCount:input.count,authoredQuaternionBytesSHA:hash206(selected),intervals};operands.push(row);
+  // Give this channel its own sampler so shared-source sampler aliases cannot
+  // change another property/channel. Keep all original sampler records intact.
+  const padding=(4-cursor%4)%4;if(padding){parts.push(Buffer.alloc(padding));cursor+=padding;}const view=doc.bufferViews.length;doc.bufferViews.push({buffer:0,byteOffset:cursor,byteLength:selected.length});parts.push(selected);cursor+=selected.length;const index=doc.accessors.length;doc.accessors.push({bufferView:view,componentType:5126,count:input.count,type:'VEC4'});ch.sampler=action.samplers.length;action.samplers.push({...structuredClone(sampler),output:index,interpolation:'LINEAR'});rotations++;
+ }
+ const original39=source.doc.animations.filter(a=>!ordinary206.has(a.name)),delivered39=doc.animations.filter(a=>!ordinary206.has(a.name));if(original39.length!==39||!equality(original39,delivered39))throw Error('209_COMPLETE39_JSON_CHANGED');
+ for(const key of Object.keys(source.doc).filter(k=>!['animations','accessors','bufferViews','buffers'].includes(k)))if(!equality(source.doc[key],doc[key]))throw Error('209_NON_ANIMATION_JSON_CHANGED:'+key);
+ if(!equality(source.doc.accessors,doc.accessors.slice(0,source.doc.accessors.length))||!equality(source.doc.bufferViews,doc.bufferViews.slice(0,source.doc.bufferViews.length)))throw Error('209_ORIGINAL_ACCESSOR_VIEW_CHANGED');
+ for(const a of ordinary){const before=source.doc.animations.find(x=>x.name===a.name);if(before.channels.length!==a.channels.length)throw Error('209_ORDINARY_CHANNEL_COUNT');for(let i=0;i<a.channels.length;i++){const c=a.channels[i],old=before.channels[i];if(!equality(c.target,old.target))throw Error('209_CHANNEL_TARGET_CHANGED');if(c.target.path!=='rotation'&&(!equality(c,old)||!equality(a.samplers[c.sampler],before.samplers[old.sampler])))throw Error('209_NON_ROTATION_CHANNEL_CHANGED');if(c.target.path==='rotation'&&a.samplers[c.sampler].input!==before.samplers[old.sampler].input)throw Error('209_AUTHORED_CLOCK_CHANGED');}}
+ let bin=Buffer.concat(parts);if(bin.length%4)bin=Buffer.concat([bin,Buffer.alloc(4-bin.length%4)]);if(!bin.subarray(0,source.bin.length).equals(source.bin))throw Error('209_SOURCE_BINARY_PREFIX_CHANGED');doc.buffers[0].byteLength=bin.length;
+ return {doc,bin,rotations,preservedBinaryPrefixBytes:source.bin.length};
+}
+export function encode209({doc,bin}){let j=Buffer.from(JSON.stringify(doc));if(j.length%4)j=Buffer.concat([j,Buffer.alloc(4-j.length%4,32)]);const h=Buffer.alloc(20),b=Buffer.alloc(8);h.writeUInt32LE(0x46546c67);h.writeUInt32LE(2,4);h.writeUInt32LE(28+j.length+bin.length,8);h.writeUInt32LE(j.length,12);h.writeUInt32LE(0x4e4f534a,16);b.writeUInt32LE(bin.length);b.writeUInt32LE(0x004e4942,4);return Buffer.concat([h,j,b,bin]);}
+export async function convert209(){const folder='tools/overhaul-delivery-209',operands=[],receipt={status:'INCOMPLETE',sourceOnly:true,contactQualified:false,operands};let error;try{const bytes=await readFile(input209);if(hash206(bytes)!==inputSHA209)throw Error('209_SEALED_INPUT_CHANGED');const prepared=prepare209(readGLB206(bytes),operands),out=encode209(prepared);await mkdir(folder+'/output',{recursive:true});const path=folder+'/output/Pounce_Anatomy209.glb';await writeFile(path,out,{flag:'wx'});Object.assign(receipt,{status:'PRIVATE_LAW_CHANGED_UNADMITTED',input:{path:input209,sha256:inputSHA209},output:{path,bytes:out.length,sha256:hash206(out)},rotations:prepared.rotations,preservedBinaryPrefixBytes:prepared.preservedBinaryPrefixBytes,preservedOriginal39:true,exactSixJSON:false,declaredChange:'six ordinary quaternion channels: CUBICSPLINE/STEP/LINEAR to shortest-arc LINEAR at unchanged authored key clocks/values'});}catch(e){error=e;receipt.error=String(e.stack??e);}finally{await writeFile(folder+'/conversion209-receipt.json',JSON.stringify(receipt,null,2));}if(error)throw error;return receipt;}
+if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href)console.log(JSON.stringify(await convert209()));

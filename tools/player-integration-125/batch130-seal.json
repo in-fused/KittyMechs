@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-batch-130/batch-validate.mjs",
+      "bytes": 11379,
+      "sha256": "706e1cdd80cb170fe0a56b6c56c6eaf8291459e9c1b7e3e59a1afb2dc67cc1cb"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/HANDOFF.md",
+      "bytes": 4139,
+      "sha256": "144978e107a375e6c34cd9491ea1a9ab410d7042eeb8cd55f29494952106a9cc"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/protected-inputs.json",
+      "bytes": 10584,
+      "sha256": "c15cb34a99d94a816088c997bd0ec508a196adf3809a6b6e9d8b5bc5dde5c857"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/read-only-catalog.mjs",
+      "bytes": 6170,
+      "sha256": "7fd95283620deb4a82f6691474fde21ffb144d0504aff9164fb896eba26f6f9d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "f8b1c4cd9caae734f43570c0e58aa94edf5fbf9cc5a2aeb02ee3c4a1f8306f53"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/source-seal.json",
+      "bytes": 1637,
+      "sha256": "5d05cd3574e303308f977b5373ccaf862f1910352321745c95874b114e4ddc97"
+    },
+    {
+      "path": "docs/overhaul/critic/anatomy130-integration-source-review.md",
+      "bytes": 4273,
+      "sha256": "c00b4463ec23c90208c491eea765f57f7df365d2205a25bd77c3b9951fe919d5"
+    },
+    {
+      "path": "tools/player-integration-125/prepare-batch130.py",
+      "bytes": 1077,
+      "sha256": "f83471cec67c38f19b64ff7e630c4ff72fa0f4548bc3ec75deb8c42200b2660f"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-anatomy-batch-130/batch-validate.mjs"
+  ],
+  "scope": "ONE90s NEW121 exactcomponent materialbatch data verification; firstfailureSTOP, no public/route/browserjob"
+}

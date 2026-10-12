@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE distinct251 actual controls/R/steering +candidate253 planted motion observation, qualitypending; original242 failure unchanged",
+  "files": [
+    {
+      "path": "tools/overhaul-player-controls-251/binding.json",
+      "bytes": 259193,
+      "sha256": "d4c854c42ded7b4cda9a9783298f6b835b3c4be753513923b85f43113b9c92bd"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/capture251-encoding-preimage.mjs",
+      "bytes": 22165,
+      "sha256": "e1176d733830906af0b46793c5408a5aedd5abe40217771c063052203b553cf5"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/capture251.mjs",
+      "bytes": 22149,
+      "sha256": "51c87f2acd6b78a84dc5a5d5741aa92e838a387af2b48c5f7c7d6cde200db1d2"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/HANDOFF.md",
+      "bytes": 1797,
+      "sha256": "31ca1bc1d96186915010c0bf4ec20c12775d6dd315faf23f983832d8024df149"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/packetRetention251.mjs",
+      "bytes": 503,
+      "sha256": "ea57b1694c78f5c3774137ce30c9bd0ce74983307634e548079870d96e80416a"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/packetRetention251.test.mjs",
+      "bytes": 1151,
+      "sha256": "bca1180c520ba5e4be52fb4e46dfc1348c97742ca3f91a3faf8bf94388f42b7a"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/prepare251.py",
+      "bytes": 2821,
+      "sha256": "448337c59937142fb6613b24380634db30144bb63c631bfd4e6865ff03ed6260"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/supervise251.py",
+      "bytes": 7016,
+      "sha256": "3bb00e0ebd79d41b4474c6b4037a661dc0d94844535bebd891368fa0f0c2d22b"
+    }
+  ]
+}

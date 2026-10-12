@@ -1,0 +1,45 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "shared/ownedCharacterMotion.ts",
+      "bytes": 12595,
+      "sha256": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5"
+    },
+    {
+      "path": "tests/owned-character-performance135.test.ts",
+      "bytes": 5363,
+      "sha256": "95d18934c7cb1b8ec301c2943e2ac52a23a7acaea8178ed8f9930dd816dd4a4c"
+    },
+    {
+      "path": "tools/overhaul-performance-135/preimages/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": "tools/overhaul-performance-135/sample135.mts",
+      "bytes": 3932,
+      "sha256": "9a6c1b09d3ea812ea2ebc7f6306c3fa391b0e02066b84f4ea031e1ab3abd391f"
+    },
+    {
+      "path": "tools/overhaul-performance-135/instrumented-baseline135.ts",
+      "bytes": 12040,
+      "sha256": "2a477cf77caa229f45559fea858f52cd68fe3db74d228f279aefa5bf48f233c6"
+    },
+    {
+      "path": "tools/overhaul-performance-135/baseline-timing135.json",
+      "bytes": 463,
+      "sha256": "dfc5155dfd8ca5589317a1e7c43a0f7696652a685709502e1363a2bd851d736b"
+    },
+    {
+      "path": "tools/overhaul-performance-135/terminal-receipts.json",
+      "bytes": 751,
+      "sha256": "87dc9bcbc19140c11965b3fd53cc03a4a27b321f16224ae515288d527330646c"
+    },
+    {
+      "path": "tools/overhaul-performance-135/HANDOFF.md",
+      "bytes": 5781,
+      "sha256": "44f81a84ad32e28779ae07aeda6c0d78fa86166b6cb0f799cc84f833b1e48b4e"
+    }
+  ]
+}

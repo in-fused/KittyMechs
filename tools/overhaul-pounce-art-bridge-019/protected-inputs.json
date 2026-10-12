@@ -1,0 +1,81 @@
+{
+  "schema": "art-bridge019-protected-inputs",
+  "capturedUTC": "2026-10-10T19:29:02.7185548Z",
+  "files": [
+    {
+      "bytes": 75210396,
+      "sha256": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend"
+    },
+    {
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    },
+    {
+      "bytes": 310556,
+      "sha256": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source-profile.json"
+    },
+    {
+      "bytes": 28647,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "bytes": 29034,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "bytes": 63438571,
+      "sha256": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend"
+    },
+    {
+      "bytes": 3105312,
+      "sha256": "d72113b364fac8b018e1c167c4cab5507b189dd6bc273b4c15660cb3136a18c8",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.raw.glb"
+    },
+    {
+      "bytes": 245958,
+      "sha256": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json"
+    },
+    {
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6",
+      "path": "src/game/entities/identity57Runtime005Manifest.json"
+    },
+    {
+      "bytes": 4217725,
+      "sha256": "3dd0e07a604992c0bffd77d4bcef041fdd880ea2bb8c804e966378560d407361",
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-017/packet.json"
+    },
+    {
+      "bytes": 16448,
+      "sha256": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "path": "tools/overhaul-feline57-contract-013/export.ts"
+    },
+    {
+      "bytes": 2717,
+      "sha256": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "path": "shared/feline57Contract013.ts"
+    },
+    {
+      "bytes": 6465,
+      "sha256": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "path": "shared/feline57Evaluator013.ts"
+    },
+    {
+      "bytes": 4476,
+      "sha256": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f",
+      "path": "shared/feline57Profile013.ts"
+    },
+    {
+      "bytes": 5633,
+      "sha256": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "path": "shared/feline57Occupancy013.ts"
+    }
+  ]
+}

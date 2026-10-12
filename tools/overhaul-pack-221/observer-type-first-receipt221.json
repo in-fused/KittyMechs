@@ -1,0 +1,17 @@
+{
+  "scope": "STATIC_TYPECHECK_ONLY",
+  "diagnostics": [
+    {
+      "file": "tools/overhaul-pack-221/equivalence-entry221.ts",
+      "line": 16,
+      "code": 2339,
+      "text": "Property 'decodeGltfBuffer' does not exist on type '{ supported: boolean; }'."
+    },
+    {
+      "file": "tools/overhaul-pack-221/equivalence-entry221.ts",
+      "line": 32,
+      "code": 2339,
+      "text": "Property 'ready' does not exist on type '{ supported: boolean; }'."
+    }
+  ]
+}

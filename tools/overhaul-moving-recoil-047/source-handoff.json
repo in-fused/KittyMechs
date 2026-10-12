@@ -1,0 +1,75 @@
+{
+  "round": "047",
+  "status": "CLOSED_UNSUITABLE_AUTHORED_QUADRUPED_CLIPS_NO_SHIPPING_CHANGE",
+  "frozenUTC": "2026-10-11T00:44:37.2970032Z",
+  "ownedPaths": [
+    "tests/moving-recoil-047.test.ts",
+    "docs/overhaul/moving-recoil-047.md",
+    "tools/overhaul-moving-recoil-047/read-authored-clips.ts",
+    "tools/overhaul-moving-recoil-047/authored-track-observation.json",
+    "tools/overhaul-moving-recoil-047/quad-nonidle-track-observation.json",
+    "tools/overhaul-moving-recoil-047/preimages/identity57Runtime005.ts",
+    "tools/overhaul-moving-recoil-047/rejected-preliminary-identity57Runtime005.ts.txt",
+    "tools/overhaul-moving-recoil-047/rejected-preliminary-movingRecoil047.ts.txt"
+  ],
+  "files": [
+    {
+      "path": "tests/moving-recoil-047.test.ts",
+      "bytes": 3320,
+      "sha256": "73945225cea86306d28384dc59bd925d95e1cada17e3386ee6131965d13ee43b"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-047.md",
+      "bytes": 2138,
+      "sha256": "2421d52cb7dd3549a3fb62602671033f2e4ad6993c1d07de0e200534f257c784"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/read-authored-clips.ts",
+      "bytes": 2110,
+      "sha256": "0932f910490a3bad1ee3af1f0122c6996e9853d0c6b4624be2c3224450710d30"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/authored-track-observation.json",
+      "bytes": 4896,
+      "sha256": "5e811d7d0653a0790be2edf485fed3adf1c8b5cc2b6cd77a6c64d387c1fd0f6a"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/quad-nonidle-track-observation.json",
+      "bytes": 15044,
+      "sha256": "ddfba9f780f906fae246aedd1e1d7f202f952c64791b8f539a4824883f4735fe"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/preimages/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/rejected-preliminary-identity57Runtime005.ts.txt",
+      "bytes": 11999,
+      "sha256": "2063b37966175d9814966599123f8ad2e44a3e06383af4208bb6603ef6dafef3"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-047/rejected-preliminary-movingRecoil047.ts.txt",
+      "bytes": 1005,
+      "sha256": "0e73ada1379f4802a9b75071010147a434be27bf60cedc659e8581d8a0f3896a"
+    }
+  ],
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/moving-recoil-047.test.ts"
+  ],
+  "productionRestoration": {
+    "path": "src/game/entities/identity57Runtime005.ts",
+    "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+    "preimageSHA256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+    "exact": true
+  },
+  "productionHelper": "Removed unsealed movingRecoil047.ts; rejected draft retained text only",
+  "assetSHA256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+  "shippingChanges": [],
+  "authorJobsExecuted": [],
+  "scopeDecision": "Original full quad+upright moving recoil cannot use current upper-body authored clips faithfully. No upright-only narrowing; parent closes unsuitable. No new native/contact/quality claim.",
+  "writersClosed": true
+}

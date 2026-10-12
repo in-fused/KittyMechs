@@ -1,0 +1,96 @@
+{
+  "writer": "CLOSED",
+  "scope": "source/retained evidence preimages; root must add actual immutable frozen receipt and all transitive dependencies before any job",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-138/source-seal.json",
+      "bytes": 1575,
+      "sha256": "6dd99a01b323632fcdc0e9f059d84aa53f45291b257754ca3323b7a71c9e27fe"
+    },
+    {
+      "path": "tools/overhaul-coop-138/mission-capture.mjs",
+      "bytes": 47518,
+      "sha256": "8b567915703a95d3014b36b041922f466430fbbc2605eccbfe43f39781829ab8"
+    },
+    {
+      "path": "tools/overhaul-coop-138/exposure-planner.mjs",
+      "bytes": 9395,
+      "sha256": "2eb17b52894fc361ab7d7dc1631f1b9a4e0d043cc201458d1a898118a8e7e4b5"
+    },
+    {
+      "path": "tools/overhaul-coop-145/HANDOFF.md",
+      "bytes": 1035,
+      "sha256": "18df1c736563ee8bfc0dd9a719861a0138ad81833712ddb5cf0285bfa2810af3"
+    },
+    {
+      "path": "tools/overhaul-coop-145/diagnose138.mjs",
+      "bytes": 1914,
+      "sha256": "2e6445cb5a6bd0e4598738fcb2196d5a2ad5ca16eb51335f9d377cb49cb99721"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop138-public/evidence.json",
+      "bytes": 1298122,
+      "sha256": "c8d70f4341c0a7d1cde25355ee4513d05f3b031cbe80d15b31ab46bf3d9c5217"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop138-public/native-keyframes.json",
+      "bytes": 1438850,
+      "sha256": "95acab69b4311cda9049e2704922bfcb0deb25417517e44b28eb3e352b5838d5"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": "shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    }
+  ]
+}

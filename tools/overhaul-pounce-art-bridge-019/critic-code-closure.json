@@ -1,0 +1,14 @@
+{
+  "scopeStartedUtc": "2026-10-10T19:25:26Z",
+  "startedUtc": "2026-10-10T19:32:34Z",
+  "closedUtc": "2026-10-10T19:33:36.8702494Z",
+  "verdict": "APPROVE_ONE_ROOT_SERIAL_SOURCE_ART_BRIDGE_READBACK",
+  "review": "docs/overhaul/critic/pounce-art-bridge-019-code-review.md",
+  "reviewSha256": "E9A686B91A2D15F842522E2D298F4729C0CC60F473BD19C52078C577B5A729B4",
+  "sealSha256": "403E91FA4E694B53DC5A01AAEC3BA70F063643DF9B8F865817D1FB30692E86B5",
+  "matchedRows": 22,
+  "criticJobs": 0,
+  "artAdmission": false,
+  "nativeAdmission": false,
+  "gate1": "INCOMPLETE"
+}

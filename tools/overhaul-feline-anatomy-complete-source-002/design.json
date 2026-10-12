@@ -1,0 +1,22 @@
+{
+  "sourceCandidate": "feline-anatomy-complete-source002",
+  "actualStartUtc": "2026-10-10T15:15:39Z",
+  "hardDeadlineUtc": "2026-10-10T15:50:39Z",
+  "allNewRenderAndRest": true,
+  "preservedOriginals": true,
+  "restCount": {"core":6,"foreChains":6,"hindChains":8,"tail":5,"digitsClaws":32,"actualIntendedTotal":57},
+  "explicitRetiredBoneRoles": ["weapon_L","weapon_R"],
+  "newBoneRoles": ["HL_hock","HR_hock"],
+  "chainProfiles": {"fore":["upper","lower","paw"],"hind":["upper","lower","hock","paw"]},
+  "anatomy": ["continuous tapered thorax waist haunch", "fitted sloped scapular and pelvic thickness patches", "bent forelimbs", "three-link digitigrade hind", "integrated rounded four-lobed metacarpal/toe continuum", "actual forward-open claw cavities", "slim wedge face angled optics swept ears", "slim articulated tail"],
+  "functionalPads":20,
+  "materials":4,
+  "targetTriangles":[30000,50000],
+  "newExportProvenance":"actual _SOURCE_VERTEX point attribute survives exporter splitting; no coordinate equality gate",
+  "preservationOrder":["full state and geometry","editable master","three actual views","optimized rawGLB","actual export/bind/source-ID readback"],
+  "sourceMotionNativeArtRuntimeGate1":"UNQUALIFIED",
+  "heavyJobsBeforeGate":0,
+  "maximumAuthorJobs":1,
+  "repairsOrRetries":0,
+  "externalAssets":"NONE; optional external reference skipped"
+}

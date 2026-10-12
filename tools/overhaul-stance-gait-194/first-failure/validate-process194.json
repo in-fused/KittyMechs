@@ -1,0 +1,12 @@
+{
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools\\overhaul-stance-gait-194\\package-validate194.mts"
+  ],
+  "pid": 371300,
+  "capSeconds": 30,
+  "elapsedSeconds": 1.4738398999907076,
+  "exitCode": 1,
+  "status": "TERMINAL"
+}

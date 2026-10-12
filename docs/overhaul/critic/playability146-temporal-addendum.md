@@ -1,0 +1,5 @@
+# Playability146 temporal addendum — CLOSED
+
+After the main review closed, root supplied saved-video derivatives. Viewed all three boards:85 actual frames at6FPS, original SHA256ae62aafa21c8cb9b4b1d3434b4f2f26cf74771bc739442a58e0537cec171e95f and sourceUnchanged=true. Board01 covers menus/loading; board02 shows initial distant self and forward travel, then increasingly beacon-dominated composition. Board03 covers stop/reverse/fallback vicinity; the beacon hides much of the leg action. Early body/leg poses vary, but these small temporal panels do not demonstrate convincing planting, joint continuity or fluid reverse. No video/native exact-clock alignment is assumed. Unused black terminal panels are not scene-render failures.
+
+REJECT057/restore056 disposition and all main-review limits remain unchanged. The supplied footage does not repair the actual unreachable-task/permanent-fallback failure or qualify UNRUN OFF/R/pause/teardown phases. No further capture or derivative was run by reviewer. Writer CLOSED.

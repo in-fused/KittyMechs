@@ -1,0 +1,11 @@
+# Moving recoil048 author source gate
+
+Reviewed 2026-10-11 00:49 UTC. Permit **one unchanged animation-only author attempt**, conditional root serial120-second supervisor and nonzero Python failure exit. This grants no runtime or visual acceptance.
+
+The original034 master/GLB are hash-guarded and opened into memory only. A copied armature with the same rest data supplies the actual evaluated quad/upright Idle head basis. The source anatomical-right axis is transformed into head-rest-local space before four new terminal-head quaternion actions are authored. No mesh, material, skin, gait or existing clip is modified. The new editable armature-only master and GLB have distinct paths and refuse overwrite.
+
+Each pulse/missile curve has an idle start/end and a bounded recoil/settle trajectory. Actual export must contain the exact four NLA action names, no render asset payload, one actual head rotation per action, endpoint agreement with actual034 Idle within1e−5, and nonconstant component motion. Other exporter-sampled channels are removed from the standalone shipping derivative; the raw export is retained separately. Runtime binding must still use the exact actual head track and idle reference, not copied node indices or inferred motion.
+
+The component-motion threshold is a source nonidentity guard, not a certificate that recoil reads well or is collision-safe. The new armature-only master cannot establish current whole-body skin/head/armor clearance. Blender NLA/API/export behavior may fail honestly; any first genuine failure stops without repair or rerun. The later runtime layer must preserve lower/root gait and clear on critical modes, with tests and actual matched movement/fire pixels before admission. Missile source evidence remains separate from the F-only ordinary observation.
+
+Independently verified author/handoff rows and the protected master/GLB hashes: zero mismatches. Author SHA256 `ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128`; author seal `fb2624ef3fd112a4ffe1db2a8f0e1bc6324ab138769c7c7fb63848c597759e21`. Protected master `c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463`; model `5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595`. Full art, native contact, mission and Gate1 remain unqualified.

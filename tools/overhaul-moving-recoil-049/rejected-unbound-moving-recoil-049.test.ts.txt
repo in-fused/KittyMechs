@@ -1,0 +1,65 @@
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {describe,expect,it} from 'vitest';
+import {AdditiveAnimationBlendMode,Bone,Group} from 'three';
+import {readAuthoredClips047} from '../tools/overhaul-moving-recoil-047/read-authored-clips';
+import {Identity57Runtime005} from '../src/game/entities/identity57Runtime005';
+import {prepareMovingRecoil049} from '../src/game/entities/movingRecoil049';
+import sourceManifest from '../src/game/entities/identity57Runtime034Manifest.json';
+import recoilManifest from '../src/game/entities/movingRecoil049Manifest.json';
+import type {ActorState} from '../shared/types';
+import type {RenderActorFrame} from '../src/game/entities/renderTimeline';
+
+const originalBytes=readFileSync('public'+sourceManifest.publicURL),recoilBytes=readFileSync('public'+recoilManifest.publicURL);
+const original=readAuthoredClips047('public'+sourceManifest.publicURL),recoil=readAuthoredClips047('public'+recoilManifest.publicURL);
+function glb(bytes:Buffer){const length=bytes.readUInt32LE(12);return {json:JSON.parse(bytes.subarray(20,20+length).toString()),bin:bytes.subarray(28+length)};}
+const graph=glb(originalBytes).json;
+function state():ActorState{return {id:'test',name:'test',chassis:'pounce',bot:false,position:{x:0,y:1,z:0},velocity:{x:0,y:0,z:0},yaw:0,aimYaw:0,aimPitch:0,hp:220,maxHp:220,energy:100,heat:0,kills:0,salvage:0,grounded:true,boostUntil:0,shieldUntil:0,windupUntil:0,abilityReadyAt:0,rocketReadyAt:0,stance:'quadruped',stanceChangedAt:-100,climb:null,climbDetachedAt:-100,pulseAt:-1,rocketAt:-1,abilityAt:-1,hurtAt:-1,diedAt:-1,disruptedUntil:0,respawnAt:0,hitAt:-1,fireAt:-1,aiState:'patrol',lastInput:0,jumpEpoch:1,jumpProcessed:0,strikeProcessed:0,strike:null,strikeEndedAt:-1};}
+function frame(s:ActorState,time:number,distance=.02):RenderActorFrame{return {state:s,time,grounded:s.grounded,position:{...s.position},velocity:{...s.velocity},yaw:0,climb:s.climb,strike:s.strike,climbProgress:0,distance,angularDistance:0,reset:false};}
+/** Actual034 node rest transforms/hierarchy and actual clips; no invented
+ * source bones/poses, mesh changes, skin or native-contact certificate. */
+function fixture(layer=true){
+ const nodes=graph.nodes.map((n:any)=>{const o=sourceManifest.jointNames.includes(n.name)?new Bone():new Group();o.name=n.name??'';if(n.translation)o.position.fromArray(n.translation);if(n.rotation)o.quaternion.fromArray(n.rotation);if(n.scale)o.scale.fromArray(n.scale);if(n.matrix){o.matrix.fromArray(n.matrix);o.matrix.decompose(o.position,o.quaternion,o.scale);}return o;});
+ graph.nodes.forEach((n:any,i:number)=>(n.children??[]).forEach((child:number)=>nodes[i].add(nodes[child])));const model=new Group();for(const i of graph.scenes[graph.scene??0].nodes)model.add(nodes[i]);
+ const root=new Group(),body=new Group();root.add(body);body.add(model);const owner=new Identity57Runtime005(model,original.clips,'test',sourceManifest,layer?recoil.clips:[],layer?recoilManifest:undefined);
+ return {model,root,body,owner,head:model.getObjectByName('head') as Bone,foot:model.getObjectByName('FL_lower') as Bone};
+}
+const active=(f:ReturnType<typeof fixture>)=>f.owner.diagnostic.activeClips.filter(a=>a.name.endsWith('Moving048'));
+function comparePreserved(a:ReturnType<typeof fixture>,b:ReturnType<typeof fixture>,includeHead=false){for(const name of sourceManifest.jointNames){if(name==='head'&&!includeHead)continue;const x=a.model.getObjectByName(name)!,y=b.model.getObjectByName(name)!;expect(x.position.toArray()).toEqual(y.position.toArray());expect(x.quaternion.toArray()).toEqual(y.quaternion.toArray());expect(x.scale.toArray()).toEqual(y.scale.toArray());expect(x.matrixWorld.elements).toEqual(y.matrixWorld.elements);}expect(a.root.matrixWorld.elements).toEqual(b.root.matrixWorld.elements);}
+
+describe('049 actual authored head overlay in the sole existing mixer',()=>{
+ it('preserves failed048 BIN byte-exact and admits zero render assets with exactly four head channels',()=>{
+  expect(original.sha256).toBe(sourceManifest.sha256);expect(recoil.sha256).toBe(recoilManifest.sha256);
+  const raw=readFileSync('assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.raw.glb'),processed=glb(recoilBytes);expect(createHash('sha256').update(raw).digest('hex')).toBe(recoilManifest.sourceRawSHA256);expect(processed.bin.equals(glb(raw).bin)).toBe(true);
+  for(const field of ['meshes','materials','skins','images','textures'])expect(processed.json[field]).toBeUndefined();expect(recoil.clips).toHaveLength(4);
+  for(const clip of recoil.clips){expect(clip.tracks.map(t=>t.name)).toEqual(['head.quaternion']);expect(clip.duration).toBeGreaterThan(.3);}
+  const values=recoil.clips.map(c=>Array.from(c.tracks[0].values)),prepared=prepareMovingRecoil049(recoil.clips,original.clips,recoilManifest);expect(prepared.errors).toEqual([]);expect(prepared.clips.every(c=>c.blendMode===AdditiveAnimationBlendMode)).toBe(true);expect(recoil.clips.map(c=>Array.from(c.tracks[0].values))).toEqual(values);
+ });
+ it.each(['quadruped','upright'] as const)('retains %s gait and every root/limb matrix while pulse/missile move the actual head',stance=>{
+  for(const event of ['pulseAt','rocketAt'] as const){const a=fixture(),b=fixture(false),s=state();s.stance=stance;
+   try{a.owner.step(frame(s,1.8),1,1/60,a.root,a.body,false);b.owner.step(frame(s,1.8),1,1/60,b.root,b.body,false);const foot=a.foot.matrixWorld.clone();s[event]=1.95;
+    for(const t of [2,2.02,2.04]){a.owner.step(frame(s,t),t,1/60,a.root,a.body,false);b.owner.step(frame(s,t),t,1/60,b.root,b.body,false);expect(a.owner.diagnostic.firstFailure).toBeNull();expect(a.owner.diagnostic.mode).toBe(stance==='upright'?'upright':'quad');comparePreserved(a,b);expect(active(a)).toHaveLength(1);expect(active(a)[0].weight).toBe(1);expect(a.owner.diagnostic.activeClips.some(c=>c.name.includes('Walk')&&c.weight===1)).toBe(true);}
+    expect(a.head.quaternion.angleTo(b.head.quaternion)).toBeGreaterThan(.02);expect(a.foot.matrixWorld.equals(foot)).toBe(false);
+   }finally{a.owner.dispose();b.owner.dispose();}
+  }
+ });
+ it.each(['quadruped','upright'] as const)('retains the complete stationary %s source reaction exactly',stance=>{
+  for(const event of ['pulseAt','rocketAt'] as const){const a=fixture(),b=fixture(false),s=state();s.stance=stance;s[event]=1.95;
+   try{a.owner.step(frame(s,2,0),1,1/60,a.root,a.body,false);b.owner.step(frame(s,2,0),1,1/60,b.root,b.body,false);comparePreserved(a,b,true);expect(a.owner.diagnostic.mode).toBe('reaction');expect(active(a)).toEqual([]);}finally{a.owner.dispose();b.owner.dispose();}
+  }
+ });
+ it('cancels active recoil on round closure, reset, air, transformation, pair, down and sticky fallback, and releases the owner on disposal',()=>{
+  for(const reason of ['round','reset','air','transform','pair','down','fallback','dispose']){const f=fixture(),s=state();try{
+   f.owner.step(frame(s,1.8),1,1/60,f.root,f.body,false);s.pulseAt=1.95;f.owner.step(frame(s,2),2,1/60,f.root,f.body,false);expect(active(f)).toHaveLength(1);let p=frame(s,2.02),allowed=true;
+   if(reason==='round')allowed=false;if(reason==='reset')p.reset=true;if(reason==='air'){s.grounded=false;p.grounded=false;}if(reason==='transform'){s.stance='upright';s.stanceChangedAt=2;}if(reason==='down')s.downed={at:2,reviveProgress:0,reviverId:null};
+   if(reason==='pair')s.pair={id:'pair',other:'peer',life:1,otherLife:1,role:'attacker',phase:'pin',startedAt:2,phaseAt:2,endsAt:2.8,yaw:0,style:'quadruped',opponent:'pounce',anchor:{x:0,y:0,z:0},offset:3.5,escape:0,combo:0,comboAt:-100};
+   if(reason==='fallback')p.climb={anchor:'actual-unsupported',phase:'cling',startedAt:2,progress:0,normal:{x:1,y:0,z:0},contact:{x:0,y:0,z:0},top:2,base:0,height:2,gripMask:1,roofMask:1,mantleStage:null,mantleStageAt:2};
+   if(reason==='dispose'){f.owner.dispose();const q=f.head.quaternion.toArray();f.owner.step(p,3,1/60,f.root,f.body,true);expect(f.head.quaternion.toArray()).toEqual(q);}else f.owner.step(p,3,1/60,f.root,f.body,true,allowed);
+   expect(active(f)).toEqual([]);if(reason==='fallback')expect(f.owner.diagnostic.firstFailure?.reason).toBe('UNSUPPORTED_SURFACE_ALIGNED_CLIMB');
+   if(reason==='reset'){f.owner.step(frame(s,2.04),4,1/60,f.root,f.body,false);expect(active(f)).toEqual([]);}
+  }finally{f.owner.dispose();}}
+ });
+ it('rejects an identity or extra limb track instead of certifying false recoil',()=>{
+  for(const bad of ['identity','limb']){const clips=recoil.clips.map(c=>c.clone()),track=clips[0].tracks[0],ref=recoilManifest.clips.FelinePulseMoving048.referenceQuaternionXYZW;if(bad==='identity')for(let i=0;i<track.values.length;i++)track.values[i]=ref[i%4];else clips[0].tracks.push(original.clips.find(c=>c.name==='FelineWalk')!.tracks.find(t=>t.name==='FL_lower.quaternion')!.clone());expect(prepareMovingRecoil049(clips,original.clips,recoilManifest).errors.length).toBeGreaterThan(0);}
+ });
+});

@@ -1,0 +1,19 @@
+{
+  "writer": "CLOSED",
+  "chunk": "d2eb00",
+  "exitCode": 1,
+  "wallSeconds": 3.4802838,
+  "testFiles": 1,
+  "tests": 6,
+  "passed": 5,
+  "failed": 1,
+  "vitestDurationMs": 960,
+  "testDurationMs": 222,
+  "firstFailure": "Expected unsupported.seed9 planning to throw; actual getMap normalizes seed9 to supported Rainline7734",
+  "location": "phased.test.mjs:41:300",
+  "staticRuinNegativeAfterFailure": "NOT_REACHED",
+  "repairsUsed": 1,
+  "furtherRepair": "NONE_STOP",
+  "publicCandidate": "UNADMITTED_SOURCE_INCOMPLETE",
+  "publicAttempt": "UNRUN"
+}

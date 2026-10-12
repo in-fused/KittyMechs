@@ -1,0 +1,140 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_FIRST_REMAINING_AUTHOR_FAILURE",
+  "closedUTC": "2026-10-11T19:05:51.645204+00:00",
+  "files": [
+    {
+      "path": "assets/source/overhaul-stance-gait-194/author-receipt194.json",
+      "bytes": 2410,
+      "sha256": "6d99eeb8b02d360f170d4e30a6d513d003959cbe33769a4259ad9f0eeaea8667"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/choreography194.py",
+      "bytes": 10048,
+      "sha256": "114ecae599ebc86b43f4a289fddb7f69c10cb6b665bf305bb5ac9b1e94a9b168"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author-process194.json",
+      "bytes": 497,
+      "sha256": "3bd58946de596596afaae152d1321dcda417e490a59f93793af18085804ef64b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author-stdout194.txt",
+      "bytes": 501,
+      "sha256": "d0ff6d40ef35a4a3a7f8adaeee90542c2580af2e2c2ad0223723259b2510ebc1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author194.py",
+      "bytes": 11801,
+      "sha256": "3805231af4146c96151abf08df84a50b69a1b199e7f617e70793bcf2af59362e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/baseline-summary194.json",
+      "bytes": 4743,
+      "sha256": "29401b0778ec0e608cde46af8be17f6fa8f6045533307261ff39d112441629f9"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-process194.json",
+      "bytes": 509,
+      "sha256": "4ca8712ee059ecef543d984e5c920f0b941404dee3a6a622dec5a2964503c04b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-receipt194.json",
+      "bytes": 2563,
+      "sha256": "5f0e248f6f6497a3d134c574c8330a381fa8bc712d6ca00d91abfe5110055509"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-stdout194.txt",
+      "bytes": 582,
+      "sha256": "8b0593e1761d026f3306543450ac146ecaf07c5c3c2e1200124b2c2c168c22fa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author194.py",
+      "bytes": 11110,
+      "sha256": "f004d0b6d27c30ec458e0aa0f8bef7ee1791b626457693b1c9ec3484783f183a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/validate-process194.json",
+      "bytes": 263,
+      "sha256": "daa00dd74ba61300e441be31adfc154122987c1c42ea634c17b8fab849331664"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/validate-stdout194.txt",
+      "bytes": 903,
+      "sha256": "787061ca115e0a21a091f65728270e86c2bff8de5d40a59ce5d108fdd5e966b1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/HANDOFF.md",
+      "bytes": 5502,
+      "sha256": "54ebef6ecb9ba75ec4ea7038d62e70e6823c9c64e300bc4086fd013e96c5d7fa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure-receipt194.json",
+      "bytes": 253,
+      "sha256": "ea258a7f0ea06089503e66a7d1900101e260e6c26a19065651e86c6e9cc4de81"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure-stdout194.txt",
+      "bytes": 21518,
+      "sha256": "863e87b43771b43d092ba5ebc6e4a4c32feadc0c5dd15a7b159a5e764a1352bd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure194.mts",
+      "bytes": 4088,
+      "sha256": "da9dc10850f2047269caa5f3bfef2b6b4bbcfb52f1cb300ecd7ee35b3537e0e4"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measurement-inputs194.json",
+      "bytes": 765,
+      "sha256": "4a5d797e7cebe1bf55f3e857a1f4837f9bc2f45ed7c4447ae8e1c0de59340b0d"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measurement194.json",
+      "bytes": 473327,
+      "sha256": "6fc805fa9aa797e74a433830b5f27c8e0151711d12082297924b98877f5dd3cb"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/package-validate194.mts",
+      "bytes": 10497,
+      "sha256": "02d6a443a0eea2cffb6ba09bd7c053def038fdde094e4c35ff04cfe861609df7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/protected-inputs194.json",
+      "bytes": 2745,
+      "sha256": "feca86b5b78bbc94b0c21cdbc1aa446e26ddb3c64a5a803e4fbc0b68c453d7b5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run-measure194.py",
+      "bytes": 679,
+      "sha256": "28f9edf56f66c9fc0973759be35a6b638cf2d03ade823e27088219bba165905b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run-validate194.py",
+      "bytes": 690,
+      "sha256": "197163d1035efce9d1fb508fccada5700f136e935bae7d4e58eb710bf4879b45"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run194.py",
+      "bytes": 1282,
+      "sha256": "23987b54f19a9b9754e9e3a6e32c5307369ff193d067a090147aaa788394f8b3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/SPECIFICATION.md",
+      "bytes": 1240,
+      "sha256": "c5c1e37444bbe520b656cf681eff5442021b498787caf5c278c4ce53061ee658"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/validate-process194.json",
+      "bytes": 263,
+      "sha256": "daa00dd74ba61300e441be31adfc154122987c1c42ea634c17b8fab849331664"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/validate-stdout194.txt",
+      "bytes": 903,
+      "sha256": "787061ca115e0a21a091f65728270e86c2bff8de5d40a59ce5d108fdd5e966b1"
+    }
+  ],
+  "productionChanged": false,
+  "publicAssetWritten": false,
+  "remainingJobs": 0
+}

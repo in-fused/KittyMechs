@@ -1,0 +1,57 @@
+{
+  "writer": "CLOSED",
+  "inputs": [
+    {
+      "path": "tools/overhaul-grounded-motion-246/source-seal.json",
+      "bytes": 3823,
+      "sha256": "f661be626d8c7b66aba5ab2d3565a9555dc41552751338d26f748a14c17eebe6"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "tools/overhaul-native-idle-230/nativeOwner230.ts",
+      "bytes": 14109,
+      "sha256": "d9fd180751f5985b07dea3486c88a6d0491932ef6b7bbd96ab619b5aeeb30db9"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/NativeActor222.tsx",
+      "bytes": 5492,
+      "sha256": "dc64c71b9d82717598ce0745daefaabb5740949920cf2755a0fb8692536e34d5"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": "tools/overhaul-native-214/raw209-contract214.json",
+      "bytes": 2071624,
+      "sha256": "ad28fed1e6bd01c27a2be65e843c2bbf07deb352bf05064ad319cd20f5aa7f91"
+    },
+    {
+      "path": "node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    }
+  ],
+  "productionChanged": false,
+  "assetsChanged": false
+}

@@ -1,0 +1,141 @@
+{
+  "status": "PASS_EQUIVALENCE_NUMERIC_COST_ONLY",
+  "frames": 1182,
+  "semanticChecks": 4728,
+  "independentChecks": 204,
+  "maxBoneOrientationDifference": 6.664001874625056e-08,
+  "maxPawDifference": 0,
+  "maxMinimumDifference": 0,
+  "maxIndependentSkinDifference": 2.220446049250313e-16,
+  "cost": {
+    "baseline": {
+      "samples": 974,
+      "median": 1.4291000000002896,
+      "p95": 2.527599999999893,
+      "max": 4.4582000000000335
+    },
+    "candidate": {
+      "samples": 974,
+      "median": 1.309400000000096,
+      "p95": 2.375500000000102,
+      "max": 3.4779000000000906
+    },
+    "pairedMedianDifference": 0.10690000000022337,
+    "order": "alternating same frame; first16 per case excluded; source owner only, constructed scenes"
+  },
+  "work256": {
+    "begins": 20912,
+    "boneMaps": 289222,
+    "reusedBoneMaps": 986227,
+    "groupMaps": 308700,
+    "reusedGroupMaps": 862036,
+    "invalidations": 51027
+  },
+  "mutations": [
+    {
+      "name": "owner",
+      "error": "Error: 164_SKIN_OWNER_ORDER_OR_INVERSE_MUTATION",
+      "expected": "164_SKIN_OWNER_ORDER_OR_INVERSE_MUTATION"
+    },
+    {
+      "name": "inverse",
+      "error": "Error: 164_SKIN_OWNER_ORDER_OR_INVERSE_MUTATION",
+      "expected": "164_SKIN_OWNER_ORDER_OR_INVERSE_MUTATION"
+    },
+    {
+      "name": "geometry",
+      "error": "Error: 164_MESH_BIND_OR_LAYOUT_MUTATION",
+      "expected": "164_MESH_BIND_OR_LAYOUT_MUTATION"
+    },
+    {
+      "name": "bind",
+      "error": "Error: 164_MESH_BIND_OR_LAYOUT_MUTATION",
+      "expected": "164_MESH_BIND_OR_LAYOUT_MUTATION"
+    },
+    {
+      "name": "attached inverse",
+      "error": "Error: 164_STALE_ATTACHED_BIND_INVERSE",
+      "expected": "164_STALE_ATTACHED_BIND_INVERSE"
+    },
+    {
+      "name": "non-affine bone world",
+      "error": "Error: 164_NONFINITE_OR_NONAFFINE_SKIN_MAP",
+      "expected": "164_NONFINITE_OR_NONAFFINE_SKIN_MAP"
+    }
+  ],
+  "skippedAuthoredSolves": 0,
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "direction": 1,
+      "fulfilled": 72,
+      "skipped": 0
+    },
+    {
+      "name": "FelineWalk",
+      "direction": -1,
+      "fulfilled": 61,
+      "skipped": 0
+    },
+    {
+      "name": "FelineTrot",
+      "direction": 1,
+      "fulfilled": 62,
+      "skipped": 0
+    },
+    {
+      "name": "FelineTrot",
+      "direction": -1,
+      "fulfilled": 89,
+      "skipped": 0
+    },
+    {
+      "name": "FelineGallop",
+      "direction": 1,
+      "fulfilled": 49,
+      "skipped": 0
+    },
+    {
+      "name": "FelineGallop",
+      "direction": -1,
+      "fulfilled": 49,
+      "skipped": 0
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": 1,
+      "fulfilled": 32,
+      "skipped": 0
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": -1,
+      "fulfilled": 61,
+      "skipped": 0
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": 1,
+      "fulfilled": 19,
+      "skipped": 0
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": -1,
+      "fulfilled": 61,
+      "skipped": 0
+    },
+    {
+      "name": "MOVING_R",
+      "direction": 1,
+      "fulfilled": 29,
+      "skipped": null
+    },
+    {
+      "name": "MOVING_R",
+      "direction": -1,
+      "fulfilled": 29,
+      "skipped": null
+    }
+  ]
+}

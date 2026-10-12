@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,hashlib,datetime
+r=Path(__file__).resolve().parents[2];h=Path(__file__).resolve().parent
+paths={p for n in ['performance078-syntax','performance078-containment'] for p in (r/'.sites-runtime/overhaul-20261010'/n).rglob('*') if p.is_file()}
+paths.update(r/p for p in ['tools/overhaul-performance-078/containment-result.json','tools/overhaul-performance-078/source-seal.json','docs/overhaul/critic/performance078-source-review.md','docs/overhaul/critic/performance078-result-review.md','docs/overhaul/performance-077-diagnosis.md','docs/overhaul/performance-078-source-handoff.md'])
+rows=[{'path':p.relative_to(r).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(paths)]
+p=h/'result-seal.json';assert not p.exists();p.write_text(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'files':rows,'scope':'078 CLOSED first fixture failure1.265s before loading models (invalid onebuffer assumption on Meshopt GLBs). Source unchanged, baseline/build/candidate UNRUN, live045 unchanged. Production bounds/performance UNTESTED/UNADMITTED; no rejection of actual model data or bounds proof. Future079 separately gated fixture-only shipping-loader correction; never overwrite078 failure. Fullgoal/userlag INCOMPLETE.'},indent=2));print(json.dumps({'files':len(rows),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}))

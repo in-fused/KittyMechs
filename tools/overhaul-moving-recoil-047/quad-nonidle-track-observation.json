@@ -1,0 +1,632 @@
+[
+  {
+    "clip": "FelinePulse",
+    "bone": "root",
+    "property": "translation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.024914612993597984
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_upper",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.009614884853363037
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_lower",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.016235411167144775
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_paw",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.010912686586380005
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_claw_0",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399150244891644
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_claw_1",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384653463959694
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_claw_2",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384653463959694
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FL_claw_3",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399151735007763
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_upper",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.1756112277507782
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_lower",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.7408191155254826E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_lower",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.33341848850250244
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_lower",
+    "property": "scale",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.1920928955078125E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_paw",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.398014788378532E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_paw",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.4915599524974823
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_paw",
+    "property": "scale",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 2.384185791015625E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_digit_0",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.6391277313232422E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_0",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.1548399925231934E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_0",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399150244891644
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_digit_1",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.862645149230957E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_1",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_1",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384651973843575
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_digit_2",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_2",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384651973843575
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_digit_3",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.341104507446289E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_3",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "FR_claw_3",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399151735007763
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_upper",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.010251849889755249
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_lower",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.01599639654159546
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_hock",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.007001221179962158
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_claw_0",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399151735007763
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_claw_1",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384652718901634
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_claw_2",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384652718901634
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HL_claw_3",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399153970181942
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_upper",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.010251849889755249
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_lower",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.01599639654159546
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_hock",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.007001221179962158
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_claw_0",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399153970181942
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_claw_1",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384652718901634
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_claw_2",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12384652718901634
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "HR_claw_3",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.12399151735007763
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "tail_0",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.02739419578574598
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "tail_1",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.040578119456768036
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "tail_2",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.05055314768105745
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "tail_3",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.05479461792856455
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "tail_4",
+    "property": "rotation",
+    "keys": 20,
+    "maxIdleFirstComponentDelta": 0.05243685841560364
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "root",
+    "property": "translation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.024957703426480293
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_upper",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.009631156921386719
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_lower",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.01626265048980713
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_paw",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.010931342840194702
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_claw_0",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420442514121532
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_claw_1",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12405901029706001
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_claw_2",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12405901029706001
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FL_claw_3",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420442514121532
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_upper",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.17584392428398132
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_lower",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.7408191155254826E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_lower",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.33341848850250244
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_lower",
+    "property": "scale",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.1920928955078125E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_paw",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.398014788378532E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_paw",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.49160899221897125
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_paw",
+    "property": "scale",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 2.384185791015625E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_digit_0",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.6391277313232422E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_0",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.1548399925231934E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_0",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420441024005413
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_digit_1",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.862645149230957E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_1",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_1",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12405901029706001
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_digit_2",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_2",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12405901029706001
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_digit_3",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.341104507446289E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_3",
+    "property": "translation",
+    "keys": 2,
+    "maxIdleFirstComponentDelta": 1.2665987014770508E-07
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "FR_claw_3",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420444004237652
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_upper",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.01026955246925354
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_lower",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.01602405309677124
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_hock",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.007013201713562012
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_claw_0",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420441024005413
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_claw_1",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.1240590326488018
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_claw_2",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.1240590326488018
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HL_claw_3",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420441769063473
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_upper",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.01026955246925354
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_lower",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.01602405309677124
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_hock",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.007013201713562012
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_claw_0",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420441769063473
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_claw_1",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.1240590326488018
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_claw_2",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.1240590326488018
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "HR_claw_3",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.12420441024005413
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "tail_0",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.027441503712907434
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "tail_1",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.04067348502576351
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "tail_2",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.0506283575668931
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "tail_3",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.05488889757543802
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "tail_4",
+    "property": "rotation",
+    "keys": 28,
+    "maxIdleFirstComponentDelta": 0.052409933879971504
+  }
+]

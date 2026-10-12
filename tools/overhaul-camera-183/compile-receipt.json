@@ -1,0 +1,12 @@
+{
+  "exitCode": 0,
+  "repairs": 0,
+  "initialChunk": "bed54f",
+  "attempt": 1,
+  "writer": "CLOSED",
+  "command": "npx tsc --noEmit",
+  "tests": "No new implementation-mirroring tests, per root instruction",
+  "sessionId": 84470,
+  "finalChunk": "5c0082",
+  "scope": "Whole-project TypeScript compile; no build/public/browser/native job"
+}

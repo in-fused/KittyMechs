@@ -1,0 +1,9 @@
+# Ordinary cooperative capture 008 — checkpoint and actual squad failure, mission incomplete
+
+Build004 normal UI/keyboard in separate contexts; retained evidence/progress/dual videos at `.sites-runtime/overhaul-20261009/mission-008/`. WEST RELAY again completed through actual E interaction. Later both pilots were downed and authority `coop.status` became failed at86.183333. No page errors. Extraction, a successful revive, late join and retry are still unproved.
+
+Bot0 took real pulse damage95→42.2→15.8. It retreated, survived the third host firing window and recovered to95 under the existing universal seven-second delay/14HP-per-second rule. That is regeneration without an accepted defeat, not an NPC respawn regression. Guest later killed it at81.6; it stayed dead at failure. The guest was then killed by another active threat during sequential rescue clearing.
+
+The source diagnosis identifies a pilot-controller error, not a demonstrated weapon defect: IJKL feedback follows delayed authority gun yaw and the fire gate uses errors measured before the look pulse. Recorded round-two eastbound projectiles miss a westward target. The bounded correction uses actual current camera look angles, fresh released-pulse reads, accepted ray/hull alignment, projectile-flight and measured simulation latency, and actual snapshot seconds instead of wall time. Production weapon, range, damage, regeneration and lifecycle rules remain unchanged. Controller correction/native proof and a fresh ordinary mission await the art job's quiet window.
+
+Independent rescue quality concerns remain: pressure from multiple directions, solo rescue while teammate is down, and insufficient readable warning. Root has an unbuilt HUD candidate showing unobstructed nearby enemy windups/recent admitted-hit bearings and an explicit under-fire rescue interruption message. It does not alter authority and requires actual play review.

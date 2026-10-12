@@ -1,0 +1,94 @@
+{
+  "task": "transformFeedback008",
+  "startUtc": "2026-10-10T17:36:33Z",
+  "frozenUtc": "2026-10-10T17:47:18.1039749Z",
+  "hardDeadlineUtc": "2026-10-10T18:02:00Z",
+  "status": "FROZEN_EXECUTION_UNRUN",
+  "heavyJobs": 0,
+  "qualificationCommand": "node node_modules/vitest/vitest.mjs run tests/transform-feedback-008.test.ts tests/stance.test.ts",
+  "compilerCommand": "node node_modules/typescript/bin/tsc --noEmit",
+  "rows": [
+    {
+      "path": "shared/types.ts",
+      "bytes": 7280,
+      "sha256": "0ba142df218358b1a5caf79eb1f6ef659942508fff3bd1c19b56fde29bfad359"
+    },
+    {
+      "path": "shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "bytes": 10870,
+      "sha256": "1189d00cd2db6b579d96805bdd5880b44dc5521a9bfbac055508104fe1336c9d"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 175245,
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 15958,
+      "sha256": "10dfd8799751219202afdc1d4250b14a5d55bf3a349a303c81c47a4c7fbd44fe"
+    },
+    {
+      "path": "src/game/stanceRequest.ts",
+      "bytes": 2291,
+      "sha256": "2e4b6c8e4ccaebf5493a9e0b4d2b45ed5b7f204105e870ee7dee5fd5644ffa7f"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10716,
+      "sha256": "fa0b7b249985f8851ba69a1399509910ab70d25552362271a1bbf583d22bbd68"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18492,
+      "sha256": "80fb95973f2a04b7982cf187f60e8abcb865137da942f0468404140d42015cec"
+    },
+    {
+      "path": "tests/transform-feedback-008.test.ts",
+      "bytes": 6697,
+      "sha256": "5e3ffe25f4cd42e0457814784db14768dbcf8e8b88fae9baacb2675079bb414e"
+    },
+    {
+      "path": "docs/overhaul/transform-feedback-008.md",
+      "bytes": 4910,
+      "sha256": "2b921016711fbbd31ae976283e24c8a3f21375b2b7f2266c0eeb040b301f2c95"
+    }
+  ],
+  "preimages": [
+    {
+      "path": "shared/types.ts",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\shared__types.ts",
+      "sha256": "8bcd22cb38d33bcade08d729a457d6912052cf45273e1518f7b76f660b213dcf"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\shared__protocol.ts",
+      "sha256": "dd7888228590034743dcd22fa899d58e97b0bb97e13ffdb5f0d80271544383f4"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\shared__simulation.ts",
+      "sha256": "41cdbec5aea64bc5008a164e113befc6ea8cea0924706eae5771c5f49a58aca8"
+    },
+    {
+      "path": "src/game/input.ts",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\src__game__input.ts",
+      "sha256": "da221ee85f51bdd2c9095352442557d25be3f82ee9662291346a8c2d2e18f29b"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\src__game__snapshotAdmission.ts",
+      "sha256": "0fb55b3483c515816d5f9dced1c446ef3918e86620f9f5e2db8e4e2f660fe398"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "preimage": "tools\\overhaul-transform-feedback-008\\preimages\\src__ui__Hud.tsx",
+      "sha256": "89d31655419840f72fc7de097c5cfcb7d755e0bccb3af3290b53f5c24c9ecc33"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "packet": "mission-identity-041",
+  "sealedUTC": "2026-10-10T23:20:36.4070400Z",
+  "ownedPaths": [
+    {
+      "sha256": "032b380992fa1b79d04593bb0013db03ef3be13b62e76ea3f000cd6252c2d087",
+      "path": "server/arenaRooms.ts",
+      "bytes": 8019
+    },
+    {
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2",
+      "path": "shared/types.ts",
+      "bytes": 8151
+    },
+    {
+      "sha256": "0cadf9c7776a0752044c3804118fd8e6c6baf2984e27ce413d5e7cb6ab4c339f",
+      "path": "tests/arena-failure.test.ts",
+      "bytes": 9706
+    },
+    {
+      "sha256": "424272177290bb9d920a3562260ffba294216cb43bc28c3155c12ab604a7bf38",
+      "path": "tools/overhaul-mission-identity-041/mission-capture.mjs",
+      "bytes": 29093
+    },
+    {
+      "sha256": "5d07f28dd07f4c6e91f7543aeb3163fbabf00c872e4fb21ddac471228ace3600",
+      "path": "tools/overhaul-mission-identity-041/README.md",
+      "bytes": 6852
+    }
+  ],
+  "handoff": {
+    "sha256": "f2ea9932e69a8bcef9c221b56cfddd0f1d6da364cb89ed7d1053f7e685008256",
+    "path": "tools/overhaul-mission-identity-041/source-handoff.json",
+    "bytes": 6691
+  },
+  "status": "SOURCE_ONLY_NO_TEST_BUILD_CAPTURE_EXECUTED",
+  "syntax": "New041 capture passed node --check",
+  "immutable040CaptureSHA256": "2cb3ab33185f218a2b77b2db22e15a96f9a0b7adf2be1f06e4f9898590546842"
+}

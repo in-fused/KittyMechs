@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-11T05:40:49.259676+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance078-containment/process-receipt.json",
+      "bytes": 64863,
+      "sha256": "5c5bfda6873b718c2650f41d3ef52f345c8f297f7b9646426366656461ce6110"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance078-containment/stdout.txt",
+      "bytes": 1448,
+      "sha256": "c85e0e5c23e05cf1e38b18cddac874cd9369f70218d0f6a6e854c6e89b4173d8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance078-syntax/process-receipt.json",
+      "bytes": 64853,
+      "sha256": "499b7e2652a769af33767a5bd3888e56fdce2de37e81b3a2d27e3637257f35d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance078-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/overhaul/critic/performance078-result-review.md",
+      "bytes": 1746,
+      "sha256": "4b7903a4a30a15075c7877e57b33ec7977f446ababc05896b2eef96d850df8e9"
+    },
+    {
+      "path": "docs/overhaul/critic/performance078-source-review.md",
+      "bytes": 5426,
+      "sha256": "afbe41bdca30583480dc058cc49adbc9d09bbeae99d1657d4f33ce52e198b505"
+    },
+    {
+      "path": "docs/overhaul/performance-077-diagnosis.md",
+      "bytes": 6709,
+      "sha256": "cc2b3184fbac9a1ce2dffd2c73c4dcc8ec0f4644f131674b39d86f4075a837fc"
+    },
+    {
+      "path": "docs/overhaul/performance-078-source-handoff.md",
+      "bytes": 6129,
+      "sha256": "814a275a6a6f352df8d0be96701c3c2864d67620982e8f9e79b11f1f02526459"
+    },
+    {
+      "path": "tools/overhaul-performance-078/containment-result.json",
+      "bytes": 1769,
+      "sha256": "f35186cc9565ebfdb660f1f7db629d5a1f56a66e50f6abf34276769b5e63699b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/source-seal.json",
+      "bytes": 4376,
+      "sha256": "3867563789f634e42584acee279513b599c68e8094192dbf11ed4a94500df526"
+    }
+  ],
+  "scope": "078 CLOSED first fixture failure1.265s before loading models (invalid onebuffer assumption on Meshopt GLBs). Source unchanged, baseline/build/candidate UNRUN, live045 unchanged. Production bounds/performance UNTESTED/UNADMITTED; no rejection of actual model data or bounds proof. Future079 separately gated fixture-only shipping-loader correction; never overwrite078 failure. Fullgoal/userlag INCOMPLETE."
+}

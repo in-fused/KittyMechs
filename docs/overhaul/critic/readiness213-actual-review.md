@@ -1,0 +1,25 @@
+# Readiness213 actual review
+
+Writer: CLOSED. Verdict: DENY_READINESS213_ACTUAL_ACCEPTANCE. Preserve the failed private observation; retain062 unchanged. Neither211 readiness correctness nor a product loading/lag fix is demonstrated, and this review authorizes no replay.
+
+The single observation stopped on Loading213Host's unchanged20s composite readiness guard. Supervisor exit1 took36.266s within90s; child evidence reports30.739s. Guest deployment, short movement and steady profiling were unreached. There were no recorded page errors or recurrence of212's local-network-access error. The real document returned HTTP200 from observed127.0.0.1:8799 with the retained document and existing server metadata. That establishes this request's success, not212's missing address-space cause.
+
+I viewed both actual failure PNGs. Host shows the hangar with callsign Mochi and the HOST SQUAD control, rather than a deployed local body. Guest shows a blank page before deployment. Saved host rows briefly reach playing/Connected with13 actors and an overlay, then finish hangar/Offline with null snapshot, unmounted input, zero camera and no overlay. This supports prior native snapshot admission; it does not establish final local ownership, healthy current model, native input ACK or body pixels. The local readiness ring remains not-ready and generation0 in its captured operands. An absent overlay in the final hangar cannot count as deployment readiness.
+
+The private adapter has a concrete module-identity defect. The original document requests `/assets/index-jFb_gY9P.js`, fulfilled with candidate entry bytes. Saved ResourceTiming also records canonical `/assets/index-DpxkElY8.js`; actual emitted `GameCanvas-DWR599xN.js` imports that canonical entry. The closed operands record both URLs fetching the same1640007B candidate, whose entry contains the top-level application bootstrap. Different ES-module URLs retain different module identities even when bytes match. The second bootstrap/store ownership strongly explains the observed callsign and UI reset. It is a harness delivery defect with matching observed symptoms, rather than evidence that211 kept an otherwise healthy visible actor behind unrelated loading. This run also cannot prove211 itself free of readiness defects.
+
+The host1000us startup CPU profile covers22.023s and13395 samples;10576 are `(idle)` and1618 `(program)`. It samples the failed loading/bootstrap experiment, not sustained native gameplay. No steady profile, guest profile, affected-human client report, GPU measurement or comparable FPS result was obtained. Main-thread idle samples do not rule out worker/GPU/loading problems or resolve the reported severe Lowest ON/OFF lag. Original videos are preserved; this review inspected failure pixels and saved event chronology, without decoding or claiming temporal gait coverage.
+
+All739 recorded protected rows and exact213 source match after capture. The actual HANDOFF's736 count is a preserved transcription error. All12 cleanup actions report CLOSED. The raw supervisor's intermediate identity scan still contains370308 at its original creation time; it must not be rewritten as historical absence. The later closed summary separately reports all25 original identities absent or exited, including370308 absent, and native health0rooms/0players.
+
+The next finite corrective scope should preserve one entry-module URL throughout the private build's document, dynamic imports and bootstrap, preferably by emitting the retained entry filename. Verify that static module identity before requesting a distinct bounded readiness observation. Do not change211's loading predicate, readiness20s, browser security policy or gameplay criteria to compensate for this adapter reset. A later gate still needs real current local token/owner/input and visible bodies in both clients; source contracts and compile success cannot substitute. Full readiness, art/motion/contact, co-op and human performance remain incomplete.
+
+SHA256 evidence bindings:
+
+- 213 source seal: `7637c518072e0c1896aeab3407dd1f3f49b75600e8e2db1a66175d0e6acb09ab`; output seal: `92689323836948a427af8d8cb14daf2ae451143a64b14ef97ca2dbeaa7da0abf`.
+- Closed summary: `d922a72514de531c121955b68d7d85f9fc0cc4f63e37a3a3d5a3d5ed1edaa2de`; raw evidence: `49ff900f74e59e00eef5ad6c89f88e802fd35fbbbbebf76c99733324eceabc0e`.
+- Module operands: `a0a606111383474f11bba478f7fe6518224f1c995ac3c3058c184cdbe5638012`; supervisor receipt: `6e3c2d24ec64f7dcddb3deb4bc3c04d3256355e563b861ea629415c1797f7f38`.
+- Host PNG: `32e50689809fe270936353a3727175071f6a6b2f6a08c949f2247dd8efb92518`; guest PNG: `99db2a93b06fa1bf617f5c495e02dcf6c0b76961108491217e2cf4fed8699d35`.
+- Startup CPU profile: `f1f5a8b5d5dcad2704c5ea1cac4e573173e0ba8f7b431f7d3da34d3dc57c0b15`; original host/guest videos are bound by the output seal as `b3ec0cb77379081fdb022d3691cd3e1a010aaae64334a6c580a75ffa1301cfdd` and `e77ea968a1bdb7a8cae646cc0a6cb098df012eb8c3271240b4bc066a141c5631`.
+
+Reviewer changed only this review and ran no browser, native, build, render, test or replay job.

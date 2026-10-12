@@ -1,0 +1,138 @@
+{
+  "candidate": "058C",
+  "startedUTC": "2026-10-11T02:58:53.768938+00:00",
+  "closedUTC": "2026-10-11T02:59:03.557225+00:00",
+  "status": "FIRST_EXPORT_FAILURE_STOP",
+  "error": {
+    "message": "SAVED_B_GEOMETRY_REST_UV_WEIGHTS_MATERIAL_MISMATCH",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-gait-058c\\export_saved.py\", line 38, in <module>\n    if fingerprint()!=seal['before'] or materials()!=seal['materialBefore']:raise RuntimeError('SAVED_B_GEOMETRY_REST_UV_WEIGHTS_MATERIAL_MISMATCH')\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SAVED_B_GEOMETRY_REST_UV_WEIGHTS_MATERIAL_MISMATCH\n"
+  },
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source_helpers.py",
+      "sha256": "aefb262b589571816f3b6a09e1b87dac773d08ee0c988b30ec68855a0b762f88",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "match": true
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-identity57-runtime-005/inventory.py",
+      "sha256": "130f7361c39874670060719b9291c6e168191f5dc8130545ad35d6146d508501",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-gait-058/graft_verify.py",
+      "sha256": "5a472a4dcb92d2481d5bf21989de699c58befa2e334e6072ecade9fb8f019ca0",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author-receipt.json",
+      "sha256": "85a8e23c8c1aeaa450eece9db8aadb1956c66a0e306dea38269560d9e0ad638e",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/authored-gait-records.json",
+      "sha256": "cf929e1805a0a148bda7d39e99d17a4748b57eaddc9c5c85a5606be81d1b6dc3",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/geometry-material-preservation.json",
+      "sha256": "71a91b0f8946ea1ae135910b42d53ce3569924c057ff2528b3bf24c119f73522",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/pose-owner-readback.jsonl",
+      "sha256": "3d358dd2160ab7bed14e67a0cc7d7d6f6ed5b4374ec51f317fd362110c3ad022",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/Pounce_Gait058.blend",
+      "sha256": "e392a26aa45a5348b33efcfa34845b8be8a840c4d1ff8550b74d28afaa71414d",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/solver-provenance.json",
+      "sha256": "d9a899a1e9440c201f462eccc29ace6e5da4512cca04691b6300feced78496bd",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source-profile.json",
+      "sha256": "24f188efeb11b7603ed17ab2bb882a73bcc70bd4fc64af025a1079e8c1fe484f",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/author.py",
+      "sha256": "0440eef72af0ada36ec886e792c4f56222d28f6bc996477409ea21a4e705ade6",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058c/export_saved.py",
+      "sha256": "e62a576947f9daef216398faa897cea1cb6fa99536305c10946daebee474242b",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-gait-058c/graft_verify.py",
+      "sha256": "028b3ab733e7b33a02d2fbec9c9872657b862b3e3fa261fa97d117c2e8ed769e",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-gait-058/candidate-b/preservation-seal.json",
+      "sha256": "d363e24e713ffaadd947c835ef99415dd3a41962a5126e069f20faea63a25e3c",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-gait-058c/source-preflight.json",
+      "sha256": "4afa5a979f8132fafb7e84baf2d85ac31b885b0ffc21f24a8b5a3ce8def96c67",
+      "match": true
+    }
+  ],
+  "witness": {}
+}

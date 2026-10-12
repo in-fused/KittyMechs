@@ -1,0 +1,33 @@
+# Candidate164 — CLOSED / INCOMPLETE
+
+Status: `FIRST_REMAINING_FIXTURE_FAILURE`. One coherent correction was used; the remaining failure stopped further edits/tests. This source candidate is unshipped and requires independent review. Public058 and all closed155/160/143/147/152 packets and assets were untouched. Parent camera167 changes are separately owned and were not reverted.
+
+## Production allowlist and ownership
+
+Changed only `src/game/entities/Actors.tsx`, `Identity57Runtime005.ts`, `sourcePresentation154.ts`; added `sourceCoordination164.ts`. Exact before images are under `preimages/`. Existing155 helper remains immutable but these callers now use164. No source keyframes, rest/binds, assets, native hull/physics, camera or gameplay speed/duty/reach constants changed. The source policy remains `CONTACT_UNQUALIFIED_SOURCE_PRESENTATION`; this is visual placement, never a planted/IK/contact certificate. No rejected143 contact solver is constructed or run.
+
+Final source roles now exclude fore floor load whenever the actual final stance or positive upright clip owns the fore gesture. Positive-contributor recovery unloads that limb; pure authored gallop suspension has no global mount target. Idle/gait load transfer preserves gait release rather than treating the idle contributor as an unknown whole-body action. Actual Arc106 time/weight, selected upright names and blend amount are exposed as role provenance.
+
+The frame starts by clearing old placement support/basis diagnostics. Each loaded foot has its own current-client footprint probe/validated lease (at most4), plane point/normal and current root basis. Native actor/life identity is required to use its border/height in the OFF dispatch, as already required ON. Missing current support, incompatible footprint/root lower-boundary basis, inconsistent foot planes, or a mount beyond the unchanged native border reports unknown/incompatible and uses target0 while source animation continues. Raw/asynchronous UNKNOWN native contacts never authorize a global drop. Compatible mounts retain the existing source recovery-time response. This does not fix native peripheral support representation or qualify actual collision/art clearance.
+
+## Exact skin computation
+
+Cache convex vertices separately for every EXACT four-index/four-weight group in each actual foot family, with all paw descendants included at the existing >.99 ownership criterion; no rounding or weight normalization. Current skeleton/bone/inverse/layout and mesh/bind/attached-inverse checks remain per pose. Build current bone-world/inverse maps once per unique Skeleton, then group affine maps. Scalar plane coefficients scan the same hull vertices, transforming only the winning point. No per-vertex `applyBoneTransform/localToWorld` runtime loop and no whole-character per-frame vertex traversal. The one repair incorporated the exact constant homogeneous divisions performed by Three's Vector3 operations (Matrix4 inversion may yield bottom-right slightly away from bit-exact1); no source matrix mutation or tolerance increase.
+
+## Evidence and first remaining failure
+
+`reconstruct164.mts` recreates OFF Actor activation order instead of alphabetical catalog order. All11 selected158 poses, including mixed OFF R-up/down, reconstruct under unchanged2e-5. Output filenames retain160 suffix INSIDE this new164 packet; old160 was not written. This resolves160's quaternion blend-order mismatch and does not certify contact or source animation quality.
+
+Corrected directed fixture: 3/4 tests passed; terminal exit1. Independent full decoded foot vertices vs affine extrema:22 poses/rig including five gaits, movingR, parent tilts and tilted planes; max error ON8.88e-16m / OFF1.33e-15m. Actual skin domains ON12557 vertices ->4928 hull vertices/60 exact weight groups, OFF3536 ->1674/24; each actual fixture rig has1 Skeleton shared across4/6 foot meshes. Inverse-value/order, mesh bind, geometry-attribute, stale attached inverse mutation controls passed. Current valid-life Rapier plane lifecycle covers heading, reversal, start/stop, both R directions, recovery, genuine ON gallop suspension, reset and support loss; all source local translations/quaternions/scales stay exactly unchanged by this owner.
+
+Saved158 replay completes individual FK/fore-role/raised-root no-drop assertions but FAILS its final R coverage count:2 rather than4. Exact cause in preserved final output: OFF contact metadata `stance` is a string and numeric blend is `stanceAmount`; fixture chose `stance ?? stanceAmount`. Also saved sample actor may omit jumpEpoch, so its replay support provider received an invalid life and all saved-plane leases are UNKNOWN. Thus saved replays establish source FK and actual positive-upright fore-role behavior only; they do NOT establish compatible/incompatible synchronized footprint support or a corrected OFF numeric-R basis. These fixture provenance problems remain unrepaired; no additional invocation is authorized in this packet. The valid-life synthetic plane test is separate, not substituted as real gameplay proof.
+
+Finite20-pose Node sample: complete-skin plane scan median ON4.978ms / OFF1.465ms, current-map affine extrema ON.108ms / OFF.038ms. Max sample error <=5.28e-16m. This compares FULL foot vertex skinning with the affine hull, not an exact timing replay of old155's hull skin loop, and does not predict renderer/worker contention or human FPS. Both paths exclude render/physics; affine timing includes current pose refresh/map validation.
+
+First and final fixture/typecheck receipts are preserved. Final `tsc --noEmit` terminal exit0; first typecheck exit2 was fixture catalog weak-property typing and was included in the single repair. No old writing fixture was run. See `terminal-receipts164.json` and `source-cases164.json`.
+
+## Remaining integration conditions
+
+Do not ship from this incomplete packet. Independent source review must decide the exact fixture provenance correction/new bounded gate, verify actual root/support pairing and final-R ownership, and assess costs. Only after admission may parent run ONE ordinary actual ON/OFF gameplay gate with default camera plus limb-readable view: forward/reverse/turn/stop, movingR up/down, raised root/peripheral support and support absence. Actual sliding, hovering, limb stiffness, border mismatch and human lag remain unresolved quality conditions. No contact or full animation acceptance claim is made.
+
+Writer: CLOSED. Exact production/candidate/test/input/preimage hashes are in source-seal.json and protected-inputs164.json. No further writes after sealing.

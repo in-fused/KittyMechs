@@ -1,0 +1,19 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "source211Original": {
+    "path": "tools/overhaul-readiness-211/build211.mjs",
+    "bytes": 1589,
+    "sha256": "dec2b58ef1db41da75f1a04f6adacf47a0e5014fd55e2b08ecff86a79cbf6ec7"
+  },
+  "originalPreimage": {
+    "path": "tools/overhaul-entry-215/preimage/build211.mjs",
+    "bytes": 1589,
+    "sha256": "dec2b58ef1db41da75f1a04f6adacf47a0e5014fd55e2b08ecff86a79cbf6ec7"
+  },
+  "original211LogicRetained": true,
+  "RollupPrimaryType": "node_modules/rollup/dist/rollup.d.ts830 entryFileNames?: string | callback",
+  "buildOptionOnly": "rollupOptions.output.entryFileNames=assets/index-jFb_gY9P.js",
+  "otherChanges": "New output folder and readonly AST/receipt writer only",
+  "actualBuild": false
+}

@@ -1,0 +1,171 @@
+{
+  "acceptedBeats": [
+    {
+      "Name": "Approach",
+      "Count": 44
+    },
+    {
+      "Name": "Impact",
+      "Count": 14
+    },
+    {
+      "Name": "Prepare",
+      "Count": 19
+    }
+  ],
+  "clock": 2.4,
+  "acceptedRows": 77,
+  "firstFailure": "CROSS_BODY_NONCLAW_SURFACE_CANDIDATES",
+  "frame": 29,
+  "supportPadsFailureVictim": 20,
+  "pngClock": 2.3666666666666663,
+  "failureForePaws": [
+    {
+      "residual": 2.6656007498500226E-07,
+      "limb": "FL",
+      "requestedSource": [
+        -0.30831435322761536,
+        -1.6938029527664185,
+        1.3014461994171143
+      ],
+      "actualArmaturePawSource": [
+        -0.3083142340183258,
+        -1.6938029527664185,
+        1.3014464378356934
+      ]
+    },
+    {
+      "residual": 4.460403188197543E-07,
+      "limb": "FR",
+      "requestedSource": [
+        0.30831435322761536,
+        -1.7089364528656006,
+        1.3014461994171143
+      ],
+      "actualArmaturePawSource": [
+        0.3083142340183258,
+        -1.7089368104934692,
+        1.3014459609985352
+      ]
+    }
+  ],
+  "progress": 0.8737997256515775,
+  "supportPadsFailureAttacker": 10,
+  "maxMatrixComponentResidual": 7.867813110351562E-06,
+  "local": 0.4666666666666667,
+  "crossCount": 126,
+  "firstCandidates": [
+    {
+      "attacker": "FL_Claw_3",
+      "victim": "027Victim__TailInterlockingShell_0",
+      "attackerCombinedTriangle": 8693,
+      "victimCombinedTriangle": 44401
+    },
+    {
+      "attacker": "FL_Claw_3",
+      "victim": "027Victim__TailInterlockingShell_0",
+      "attackerCombinedTriangle": 8692,
+      "victimCombinedTriangle": 44401
+    },
+    {
+      "attacker": "FL_Claw_3",
+      "victim": "027Victim__TailInterlockingShell_0",
+      "attackerCombinedTriangle": 8696,
+      "victimCombinedTriangle": 44401
+    },
+    {
+      "attacker": "FL_Claw_3",
+      "victim": "027Victim__TailInterlockingShell_0",
+      "attackerCombinedTriangle": 8695,
+      "victimCombinedTriangle": 44401
+    }
+  ],
+  "ownerChecks": 470,
+  "clipCount": 49,
+  "ownerStages": [
+    {
+      "Name": "owned-key-current-evaluation",
+      "Count": 156
+    },
+    {
+      "Name": "owned-key-same-clock-replay",
+      "Count": 156
+    },
+    {
+      "Name": "solver-detached-evaluated",
+      "Count": 158
+    }
+  ],
+  "lastOwnerCheck": {
+    "maxResidual": 8.344650268554688E-07,
+    "phase": {
+      "beat": "Impact",
+      "clockSeconds": 2.4,
+      "frame": 29,
+      "phase": {
+        "kind": "FORE_RELEASE_VICTIM_CONTACT_REPLANT",
+        "foreProgress": 0.8737997256515775,
+        "hindWorldFixed": true,
+        "leftClawReleaseRecontactSource": 0,
+        "rightClawMaintainsSourceContact": false
+      },
+      "requestedAttackerRootWorldSource": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          3.0721280574798584
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.017999999225139618
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "requestedVictimRootWorldSource": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.017999999225139618
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "tailAnticipation": 1,
+      "contactProgress": 0.8737997256515775
+    },
+    "frame": 29,
+    "stage": "owned-key-same-clock-replay",
+    "action": "FelinePairImpactAttacker"
+  }
+}

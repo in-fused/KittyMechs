@@ -1,0 +1,13 @@
+{
+  "candidate": "Rainline street population 001",
+  "actualStartUTC": "2026-10-10 09:33:00 UTC",
+  "hardDeadlineUTC": "2026-10-10 10:13:00 UTC",
+  "frozenJobCount": 1,
+  "command": "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe --background --factory-startup --python tools/overhaul-rainline-street-population-001/author.py",
+  "outputs": ["assets/source/overhaul-rainline-street-population-001", ".sites-runtime/overhaul-20261010/rainline-street-population-001"],
+  "limits": {"modules":16,"uniqueTriangles":80000,"sharedMaterials":4,"originalWeatherMaps":4,"mapSize":256,"glbBytes":12582912,"blenderJobSeconds":720},
+  "sourcePreviews": ["2400x1900 complete silhouette board, Cycles CPU 24 samples", "2200x1500 finite West loading-pocket study, Cycles CPU 24 samples"],
+  "physicsNavigationClimbingDestructionAdmission": "PENDING",
+  "heavySlot": "AWAIT_ROOT_EXPLICIT_GRANT",
+  "firstFailure": "Stop and preserve. No repeat/tuning/second bake."
+}

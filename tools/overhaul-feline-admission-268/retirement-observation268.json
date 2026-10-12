@@ -1,0 +1,98 @@
+{
+  "writer": "CLOSED",
+  "observedUTC": "2026-10-12T04:57:42.033779+00:00",
+  "scope": "READ_ONLY_ORIGINAL_OWNED_IDENTITY_OBSERVATION_NO_RETRY_NO_KILL",
+  "originalSupervisorExitCode": 1,
+  "originalImmediateRetirementFailurePreserved": true,
+  "ownedFinal": [
+    {
+      "pid": 361448,
+      "expectedCreation": 134362545989588537,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 371616,
+      "expectedCreation": 134362545989691222,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 375572,
+      "expectedCreation": 134362545994559526,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 357608,
+      "expectedCreation": 134362545999386931,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 377276,
+      "expectedCreation": 134362545998928482,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 372504,
+      "expectedCreation": 134362546000883628,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 379812,
+      "expectedCreation": 134362546001392738,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 372208,
+      "expectedCreation": 134362546001037143,
+      "currentCreation": 134362546001037143,
+      "originalAbsent": false,
+      "waitResult": 0,
+      "exitCode": 0,
+      "originalExited": true
+    },
+    {
+      "pid": 376416,
+      "expectedCreation": 134362546003676272,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 379528,
+      "expectedCreation": 134362546003820770,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 373872,
+      "expectedCreation": 134362546004409455,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    },
+    {
+      "pid": 379264,
+      "expectedCreation": 134362546022332865,
+      "openError": 87,
+      "originalAbsent": true,
+      "originalExited": false
+    }
+  ],
+  "allOwnedOriginalIdentitiesAbsentOrExited": true,
+  "retirementWithinOriginalDeadlineProven": false,
+  "contactQualified": false
+}

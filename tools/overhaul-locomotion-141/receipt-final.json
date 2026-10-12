@@ -1,0 +1,307 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_ACTUAL_FAILURE_STOP",
+  "rows": [
+    {
+      "label": "baseline",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 7.27681857142857,
+      "locomotionMsPerTick": 4.917380000000025,
+      "poseSHA": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "label": "nonmutating-candidate",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 6.487642857142857,
+      "locomotionMsPerTick": 4.379669999999893,
+      "poseSHA": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "label": "nonmutating-candidate",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 6.862011428571428,
+      "locomotionMsPerTick": 4.580141428571349,
+      "poseSHA": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    },
+    {
+      "label": "baseline",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 6.116947142857141,
+      "locomotionMsPerTick": 4.2407871428571005,
+      "poseSHA": "0b92e434ce32bd77889b238f6ea14892951a22e89d49339c2c56d3d8477a6a47"
+    }
+  ],
+  "semanticRows": [
+    {
+      "otherY": 0,
+      "desired": {
+        "x": 0.1,
+        "y": -0.02,
+        "z": 0.03
+      },
+      "equal": false,
+      "baseline": {
+        "native": {
+          "move": {
+            "x": 0.10000000149011612,
+            "y": 0.00009999999747378752,
+            "z": 0.029999999329447746
+          },
+          "grounded": true,
+          "hits": [
+            {
+              "handle": 5e-324,
+              "toi": 0,
+              "normal1": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+              },
+              "normal2": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+              },
+              "witness1": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "witness2": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.10000000149011612,
+                "y": -0.019999999552965164,
+                "z": 0.029999999329447746
+              }
+            }
+          ]
+        },
+        "state": [
+          [
+            2,
+            {
+              "x": 0,
+              "y": 2,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            0.875,
+            1.25,
+            0.125
+          ],
+          [
+            2,
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            0.875,
+            1.25,
+            0.125
+          ]
+        ]
+      },
+      "candidate": {
+        "native": {
+          "move": {
+            "x": 0.10000000149011612,
+            "y": 0,
+            "z": 0.029999999329447746
+          },
+          "grounded": true,
+          "hits": [
+            {
+              "handle": 5e-324,
+              "toi": 0,
+              "normal1": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+              },
+              "normal2": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+              },
+              "witness1": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "witness2": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.10000000149011612,
+                "y": -0.019999999552965164,
+                "z": 0.029999999329447746
+              }
+            }
+          ]
+        },
+        "state": [
+          [
+            2,
+            {
+              "x": 0,
+              "y": 2,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            0.875,
+            1.25,
+            0.125
+          ],
+          [
+            2,
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            0.875,
+            1.25,
+            0.125
+          ]
+        ]
+      }
+    }
+  ],
+  "bounds": "ONE isolated process,20s wall; no public/native production edits",
+  "sourceHashes": {
+    "../../shared/simulation.ts": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328",
+    "../../shared/ownedCharacterMotion.ts": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5",
+    "./baseline.ts": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5",
+    "./nonmutating-candidate.ts": "d383e20c94b7f55a5a857cc0863348d258b71daf2438c60e980dc13236e91170"
+  },
+  "baselineProjectionValidated": true,
+  "failure": "Error: CAP_SUPPORT_NATIVE_RESULT_CHANGED",
+  "elapsedMs": 3697.3147
+}

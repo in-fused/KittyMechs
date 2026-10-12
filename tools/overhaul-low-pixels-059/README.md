@@ -1,0 +1,9 @@
+059 is one source-only Low render-budget candidate. The actual user's IAB lag remains unresolved. Prior automated hardware-renderer FPS does not prove the cause of that lag, and no improvement is claimed before root observation.
+
+Low previously requested DPR [1,1], so a 1440×900 CSS canvas always rendered roughly 1.3 million pixels. The candidate uses DPR=min(1,sqrt(921600/(CSS width*height))), with a 0.25 minimum. Width and height share one scale, preserving aspect. Small views keep DPR 1. The floor is a legibility bound and can exceed the approximate 1280×720 area budget on exceptionally large canvases.
+
+A small useThree effect responds to quality, CSS size and actual viewport DPR. The actual-DPR dependency repairs Canvas configuration reasserting its old clamp on parent updates; it is not a per-frame query. The component mounts outside asset Suspense so the resolution prerequisite does not wait for model loading. setDpr changes the existing renderer's buffer size without remounting the context or native world. Non-Low keeps the original device-DPR lower clamp of 1 and each quality preset's upper clamp. There are no shader, native time-step, camera, asset or gameplay changes.
+
+Settings explains the softer Low image. The existing renderer report remains the source of actual drawing-buffer dimensions and frame/workload observations. Focused tests cover landscape/portrait/resized/high-DPI areas, ratio preservation, integer buffer bounds, unchanged non-Low clamps, invalid startup size and the explicit minimum-DPR exception. They are unrun. Root owns serial tests/build and one actual UI/report/browser observation; no iterations or IAB resolution claim are authorized by this packet.
+
+Current 040 GameCanvas and Settings preimages are preserved before edits. The handoff records all owned source rows, protected dependencies, exact root commands and writer closure. The gait asset candidate remains outside this packet.

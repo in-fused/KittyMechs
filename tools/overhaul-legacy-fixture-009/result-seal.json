@@ -1,0 +1,25 @@
+{
+  "sealedUtc": "2026-10-10T18:10:39.1769405Z",
+  "rows": [
+    {
+      "path": "tools/overhaul-legacy-fixture-009/result.md",
+      "bytes": 2294,
+      "sha256": "d817af87a11d61886db219507e94bdaa881d9074c17eb484cad4ee1712ec5902"
+    },
+    {
+      "path": "tools/overhaul-legacy-fixture-009/closure.json",
+      "bytes": 36216,
+      "sha256": "5b2857cb249821f4d288b4c850e8eab07078f2bb5276b0b19312dc2b387a4fd0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-009/critic-code-closure.json",
+      "bytes": 558,
+      "sha256": "3d15b727e32956b87ebd7a2dfab5468555e12366a5fdf5b68eccd8442e0c3d19"
+    },
+    {
+      "path": "docs/overhaul/critic/legacy-fixture-causal-009-review.md",
+      "bytes": 2805,
+      "sha256": "65f604708854ddbf35dd7904fcfec595950414abcabb62adb6c46371bf42a387"
+    }
+  ]
+}

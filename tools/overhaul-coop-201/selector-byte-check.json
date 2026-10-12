@@ -1,0 +1,61 @@
+{
+  "writer": "CLOSED",
+  "expectedUTF8Hex": "434f505920494e5649544520e28697",
+  "observedUTF8Hex": "434f505920494e5649544520e28697",
+  "match": true,
+  "files": [
+    {
+      "path": "tools/overhaul-coop-201/controller.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/current-occupancy.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/exposure-search.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/geometry-source.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/interaction-separation.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/lifecycle-adapter.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/mission-capture.mjs",
+      "restorations": [
+        {
+          "sourceCharacter": "\u2197",
+          "corruptedSequence": "\u00c3\u00a2\u00e2\u20ac\u00a0\u00e2\u20ac\u201d"
+        }
+      ]
+    },
+    {
+      "path": "tools/overhaul-coop-201/motion-scheduler.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/phased-stage.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/planner.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/planning-read.mjs",
+      "restorations": []
+    },
+    {
+      "path": "tools/overhaul-coop-201/terrain-base.mjs",
+      "restorations": []
+    }
+  ]
+}

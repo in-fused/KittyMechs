@@ -1,0 +1,535 @@
+{
+  "schema": 1,
+  "status": "CPU_ADMITTED_BROWSER_CRITIC_PENDING",
+  "provider": "Higgsfield connected owner account",
+  "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import",
+  "assets": [
+    {
+      "runtime": "public/assets/textures/City_Concrete_Cast.webp",
+      "runtimeSha256": "c6ec4ea63906f108029c2cef8843c157e62e8575be6d1be4b72985411f1a866a",
+      "runtimeBytes": 382512,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "file": "City_Concrete_Cast.webp",
+      "sources": [
+        {
+          "index": 1,
+          "name": "City_Concrete_Cast",
+          "kind": "tile",
+          "jobId": "53a9765d-ce76-4085-af59-b5053883d9c4",
+          "raw": {
+            "file": "raw\\City_Concrete_Cast.png",
+            "bytes": 21326802,
+            "sha256": "5cb08ef7331ddb1fa81488cbb13205eb84267a5663709166b6933484aaea39ed",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "draft": {
+            "file": "drafts\\City_Concrete_Cast_1024.webp",
+            "bytes": 382512,
+            "sha256": "c6ec4ea63906f108029c2cef8843c157e62e8575be6d1be4b72985411f1a866a",
+            "dimensions": [
+              1024,
+              1024
+            ]
+          },
+          "status": "PRIVATE_VISUALLY_INSPECTED_NOT_RUNTIME_APPROVED",
+          "baseColorSpace": "sRGB",
+          "quoteCredits": 4.25,
+          "limits": "Albedo/decal only, no matched generated PBR or physics/appearance admission; atlas islands need explicit UV cropping"
+        }
+      ],
+      "role": "sRGB basecolor; scalar roughness, no generated normal/AO/metalness"
+    },
+    {
+      "runtime": "public/assets/textures/City_Asphalt_Service.webp",
+      "runtimeSha256": "d3a77c63a73a8be9f00039d3144c0487eb945c67f016c0acac0bf4621d56d970",
+      "runtimeBytes": 461274,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "file": "City_Asphalt_Service.webp",
+      "sources": [
+        {
+          "index": 5,
+          "name": "City_Asphalt_Service",
+          "kind": "tile",
+          "jobId": "ad8b3bb1-bb34-4fb3-a386-622eac726748",
+          "raw": {
+            "file": "raw\\City_Asphalt_Service.png",
+            "bytes": 21025423,
+            "sha256": "6cdfc24888053d78ab423cb845687110cba7b84e147470d19978e6a1585d6e46",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "draft": {
+            "file": "drafts\\City_Asphalt_Service_1024.webp",
+            "bytes": 461274,
+            "sha256": "d3a77c63a73a8be9f00039d3144c0487eb945c67f016c0acac0bf4621d56d970",
+            "dimensions": [
+              1024,
+              1024
+            ]
+          },
+          "status": "PRIVATE_VISUALLY_INSPECTED_NOT_RUNTIME_APPROVED",
+          "baseColorSpace": "sRGB",
+          "quoteCredits": 4.25,
+          "limits": "Albedo/decal only, no matched generated PBR or physics/appearance admission; atlas islands need explicit UV cropping"
+        }
+      ],
+      "role": "sRGB basecolor; scalar roughness, no generated normal/AO/metalness"
+    },
+    {
+      "runtime": "public/assets/textures/City_District_Signs.webp",
+      "runtimeSha256": "69c617244e9c3e5d58a41edc55b841598f913ee5326d4405b9333e3794a5db5e",
+      "runtimeBytes": 371064,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "file": "City_District_Signs.webp",
+      "sources": [
+        {
+          "name": "Factory_Original_works",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\city-expansion\\admission-drafts\\atlas-pack-003\\extracted\\Factory_Original_works.jpg",
+          "sourceGlb": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\models\\Factory_Workshop.glb",
+          "sourceGlbSha256": "bd0141d52e41a87c45470d7457e67a3a0136fd95daf175025bb193c169af3834",
+          "material": "Factory_Original_RainlineWorks_Sign_Paint",
+          "sourceSha256": "65ae5129864aa5841b6cb6cfd25f24942a9af79a8aff45f534e6e135e98cec28",
+          "sourceDimensions": [
+            512,
+            290
+          ],
+          "cropPixelsTopLeft": null,
+          "jobId": "6b150405-fd6a-4d4b-aa2d-a6c5d0390813",
+          "rights": "Higgsfield original generated project sign",
+          "retainedMaterial": {
+            "role": "works",
+            "material": "Factory_Original_RainlineWorks_Sign_Paint",
+            "hasBaseColorImage": true,
+            "file": "Factory_Original_works.jpg",
+            "mimeType": "image/jpeg",
+            "bytes": 62172,
+            "sha256": "65ae5129864aa5841b6cb6cfd25f24942a9af79a8aff45f534e6e135e98cec28",
+            "textureName": "rainline-works-sign",
+            "baseColorFactor": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "alphaMode": "OPAQUE",
+            "texCoord": 0,
+            "wrapS": 10497,
+            "wrapT": 10497,
+            "textureExtensions": []
+          }
+        },
+        {
+          "name": "City_Sign_Civic",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\drafts\\City_Sign_Civic_512.webp",
+          "jobId": "c7c925f8-a31e-426e-b8de-58007301b87c",
+          "sourceSha256": "cd691a12e8d49197675313c537b0b113de393e3799d94b91dcdc7115514a7fa8",
+          "sourceDimensions": [
+            512,
+            512
+          ],
+          "cropPixelsTopLeft": null,
+          "ownerRaw": {
+            "file": "raw\\City_Sign_Civic.png",
+            "bytes": 10042517,
+            "sha256": "40501661a57bfbb431fde4722b5e5213fc5094ae251d4f86ce90b0c7703babd5",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import"
+        },
+        {
+          "name": "City_Sign_Dock",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\drafts\\City_Sign_Dock_512.webp",
+          "jobId": "881b5131-969a-4052-9162-30ba58fabd99",
+          "sourceSha256": "dc1f7aae6811438689cca646d282b3456ee16e62600451fca77ed46044f940eb",
+          "sourceDimensions": [
+            512,
+            512
+          ],
+          "cropPixelsTopLeft": null,
+          "ownerRaw": {
+            "file": "raw\\City_Sign_Dock.png",
+            "bytes": 13257336,
+            "sha256": "bcc2e57ab9a4660787e76b606c47399efabf7e6228e6afdc778f700c28b3babb",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import"
+        },
+        {
+          "name": "City_Sign_Medical",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\drafts\\City_Sign_Medical_512.webp",
+          "jobId": "5d1f838d-ade6-4673-b1bf-3d1128bf9772",
+          "sourceSha256": "5e9d96519a081f8b89009c323a28125d67c715329dc58df68005bcc31a8870b7",
+          "sourceDimensions": [
+            512,
+            512
+          ],
+          "cropPixelsTopLeft": null,
+          "ownerRaw": {
+            "file": "raw\\City_Sign_Medical.png",
+            "bytes": 10646221,
+            "sha256": "1081eedbfdbb8c973d016ecb62d3c741ecc822cf1725aa9c5b7de871af855f2b",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import"
+        },
+        {
+          "name": "City_Sign_Transport",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\drafts\\City_Sign_Transport_512.webp",
+          "jobId": "98afa5d1-f762-428e-b662-2b03d9a4dca8",
+          "sourceSha256": "e620ba38aada747ce577dca4160f62092b0fd042cba7fe0f8463b8c563c75fc5",
+          "sourceDimensions": [
+            512,
+            512
+          ],
+          "cropPixelsTopLeft": null,
+          "ownerRaw": {
+            "file": "raw\\City_Sign_Transport.png",
+            "bytes": 14155980,
+            "sha256": "b9fc2114896f2024016065fe754df642477a9617e5ac36d6bf5155da68d551f6",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import"
+        }
+      ],
+      "slots": [
+        {
+          "slot": 0,
+          "uv": {
+            "uMin": 0.001953125,
+            "uMax": 0.248046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 1,
+          "uv": {
+            "uMin": 0.251953125,
+            "uMax": 0.498046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 2,
+          "uv": {
+            "uMin": 0.501953125,
+            "uMax": 0.748046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 3,
+          "uv": {
+            "uMin": 0.751953125,
+            "uMax": 0.998046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 4,
+          "uv": {
+            "uMin": 0.001953125,
+            "uMax": 0.248046875,
+            "vMin": 0.50390625,
+            "vMax": 0.99609375
+          }
+        }
+      ],
+      "role": "opaque basecolor UV atlas, clamp, flipY=false"
+    },
+    {
+      "runtime": "public/assets/textures/City_Facade_Windows.webp",
+      "runtimeSha256": "2a3fe165bac23f58adfdeba53426dcff0fecf54f2eef182424ad500be1d9d82b",
+      "runtimeBytes": 300644,
+      "dimensions": [
+        1024,
+        512
+      ],
+      "file": "City_Facade_Windows.webp",
+      "sources": [
+        {
+          "name": "City_Window_Service",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\drafts\\City_Window_Service_512.webp",
+          "jobId": "2bc3aac6-a5cc-45fb-9cb1-45c596f8b4ac",
+          "sourceSha256": "b5df18aeedbf7f1e94b35c2d1ae2ccf4be58fc5fbc00aeaa68d63724f24b5b37",
+          "sourceDimensions": [
+            512,
+            512
+          ],
+          "cropPixelsTopLeft": null,
+          "ownerRaw": {
+            "file": "raw\\City_Window_Service.png",
+            "bytes": 12639724,
+            "sha256": "346a3fa2317bad068f8299e5ee596e8db662746ddc2c27c446df98ca7ebe3bae",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import"
+        },
+        {
+          "name": "Residential_Window_Atlas",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\expanded\\drafts\\Residential_Window_Atlas_1024.webp",
+          "jobId": "56a72365-e257-43c6-9367-60940ec8089b",
+          "sourceSha256": "e93a56f481191ce48c03165b0938b00720566219cc4981254371512151ef2f70",
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "cropPixelsTopLeft": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "ownerRaw": {
+            "file": "expanded\\raw\\Residential_Window_Atlas.png",
+            "bytes": 14845269,
+            "sha256": "cd030b22c2394d0c8c8e071561f0f2486a271f244747e853022627d47a1ddcaf",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import",
+          "island": 0,
+          "croppedOriginal": {
+            "file": ".sites-runtime/city-expansion/admission-drafts/atlas-pack-003/extracted/Residential_Window_Island_0.png",
+            "bytes": 348480,
+            "sha256": "cdf2dfe1464f4568d9973c2b2ea769a3fc68f57476ca14ae3606ce32d7bd0e88"
+          }
+        },
+        {
+          "name": "Residential_Window_Atlas",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\expanded\\drafts\\Residential_Window_Atlas_1024.webp",
+          "jobId": "56a72365-e257-43c6-9367-60940ec8089b",
+          "sourceSha256": "e93a56f481191ce48c03165b0938b00720566219cc4981254371512151ef2f70",
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "cropPixelsTopLeft": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "ownerRaw": {
+            "file": "expanded\\raw\\Residential_Window_Atlas.png",
+            "bytes": 14845269,
+            "sha256": "cd030b22c2394d0c8c8e071561f0f2486a271f244747e853022627d47a1ddcaf",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import",
+          "island": 1,
+          "croppedOriginal": {
+            "file": ".sites-runtime/city-expansion/admission-drafts/atlas-pack-003/extracted/Residential_Window_Island_1.png",
+            "bytes": 343994,
+            "sha256": "ac553c8d63d59753366f851f31e650c5bcfec1b9f3b9e09aa7a7a76881aabec0"
+          }
+        },
+        {
+          "name": "Residential_Window_Atlas",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\expanded\\drafts\\Residential_Window_Atlas_1024.webp",
+          "jobId": "56a72365-e257-43c6-9367-60940ec8089b",
+          "sourceSha256": "e93a56f481191ce48c03165b0938b00720566219cc4981254371512151ef2f70",
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "cropPixelsTopLeft": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "ownerRaw": {
+            "file": "expanded\\raw\\Residential_Window_Atlas.png",
+            "bytes": 14845269,
+            "sha256": "cd030b22c2394d0c8c8e071561f0f2486a271f244747e853022627d47a1ddcaf",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import",
+          "island": 2,
+          "croppedOriginal": {
+            "file": ".sites-runtime/city-expansion/admission-drafts/atlas-pack-003/extracted/Residential_Window_Island_2.png",
+            "bytes": 324994,
+            "sha256": "2af2f4e67d4143fadf131a4812dac611e60d9babb9d57954cab4c3652a7bf0f7"
+          }
+        },
+        {
+          "name": "Residential_Window_Atlas",
+          "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\city-materials-v1\\expanded\\drafts\\Residential_Window_Atlas_1024.webp",
+          "jobId": "56a72365-e257-43c6-9367-60940ec8089b",
+          "sourceSha256": "e93a56f481191ce48c03165b0938b00720566219cc4981254371512151ef2f70",
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "cropPixelsTopLeft": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "ownerRaw": {
+            "file": "expanded\\raw\\Residential_Window_Atlas.png",
+            "bytes": 14845269,
+            "sha256": "cd030b22c2394d0c8c8e071561f0f2486a271f244747e853022627d47a1ddcaf",
+            "dimensions": [
+              2880,
+              2880
+            ],
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "provider": "Higgsfield connected owner account",
+          "rights": "Original generated source; not CC0 relabeling; platform rights/provenance, no external catalog import",
+          "island": 3,
+          "croppedOriginal": {
+            "file": ".sites-runtime/city-expansion/admission-drafts/atlas-pack-003/extracted/Residential_Window_Island_3.png",
+            "bytes": 341368,
+            "sha256": "e23452804d0592ac61bc62630b1b308633de492d6de6b19c5e10c1b857921f4b"
+          }
+        }
+      ],
+      "slots": [
+        {
+          "slot": 0,
+          "uv": {
+            "uMin": 0.001953125,
+            "uMax": 0.248046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 1,
+          "uv": {
+            "uMin": 0.251953125,
+            "uMax": 0.498046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 2,
+          "uv": {
+            "uMin": 0.501953125,
+            "uMax": 0.748046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 3,
+          "uv": {
+            "uMin": 0.751953125,
+            "uMax": 0.998046875,
+            "vMin": 0.00390625,
+            "vMax": 0.49609375
+          }
+        },
+        {
+          "slot": 4,
+          "uv": {
+            "uMin": 0.001953125,
+            "uMax": 0.248046875,
+            "vMin": 0.50390625,
+            "vMax": 0.99609375
+          }
+        }
+      ],
+      "role": "opaque basecolor UV atlas, clamp, flipY=false"
+    }
+  ],
+  "builder": {
+    "file": "tools/pack-city-atlases.py",
+    "sha256": "61e2813f91369164f10212f15c466422989910845ed0adf398d2901660f29296"
+  },
+  "sourceBank": "assets/source/city-materials-v1",
+  "atlasReceipt": "assets/source/city-admission-v1/atlas-pack-003/atlas-receipt.json",
+  "atlasReceiptSha256": "d2b452501c4af3d397dab8b648fea607ac77f7ae08119c4957d38e0d014ceb0f",
+  "uvContract": {
+    "slotOrder": "Top-left row-major, slots0..3 first row, slots4..7 second row",
+    "slotUV": "Top-left-origin image/glTF rectangle for Three texture.flipY=false",
+    "slotUVThreeFlipYTrue": "Bottom-left-origin rectangle for Three texture.flipY=true",
+    "localV0TopFlipYFalse": "U=uMin+localU*(uMax-uMin); V=vMin+localV*(vMax-vMin), using slotUV",
+    "localV0BottomFlipYFalse": "U=uMin+localU*(uMax-uMin); V=vMax-localV*(vMax-vMin), using slotUV. Required for current cityGeometry bottom-origin localV if texture.flipY=false",
+    "localV0BottomFlipYTrue": "U=uMin+localU*(uMax-uMin); V=vMin+localV*(vMax-vMin), using slotUVThreeFlipYTrue",
+    "recommendedSampler": "ClampToEdgeWrapping; remap every panel UV into one payload, never repeat across the whole atlas",
+    "limits": "2px gutter protects the base texture/first mip vicinity; distant mip/anisotropic bleeding and physical aspect/readability require runtime inspection"
+  },
+  "limits": [
+    "Generated video/image design bank is reference material, not animated meshes.",
+    "New city textures are basecolor only; scalar material roughness has no claim of matched generated PBR.",
+    "Window and sign details remain owned by precise facade cells and do not create transparent openings.",
+    "GPU appearance, distant atlas sampling and resource retirement require independent runtime review."
+  ],
+  "production": {
+    "manifest": "assets/source/city-materials-v1/final-source-manifest.json",
+    "spendLedger": "assets/source/city-materials-v1/spend-ledger.json",
+    "images": 55,
+    "motionReferences": 16,
+    "netCredits": 943.75,
+    "closingCredits": 0,
+    "runtimeScope": "Only these four texture candidates; remaining production is retained private source"
+  }
+}

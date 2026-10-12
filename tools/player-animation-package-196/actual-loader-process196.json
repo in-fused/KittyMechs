@@ -1,0 +1,12 @@
+{
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools\\player-animation-package-196\\actual-loader196.mts"
+  ],
+  "pid": 368380,
+  "capSeconds": 30,
+  "elapsedSeconds": 1.8045224999077618,
+  "exitCode": 1,
+  "status": "TERMINAL"
+}

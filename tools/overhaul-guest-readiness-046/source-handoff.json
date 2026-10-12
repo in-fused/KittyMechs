@@ -1,0 +1,57 @@
+{
+  "round": "046",
+  "status": "SOURCE_FROZEN_CAUSE_UNKNOWN_NO_RUNTIME_FIX",
+  "frozenUTC": "2026-10-11T00:32:48.1127823Z",
+  "ownedPaths": [
+    "tools/overhaul-guest-readiness-046/diagnostic.mjs",
+    "tools/overhaul-guest-readiness-046/README.md"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-guest-readiness-046/diagnostic.mjs",
+      "bytes": 7640,
+      "sha256": "6cba9cedcc333620c212fcfa91899f129e1034bfafc21c09db47881bc0632b90"
+    },
+    {
+      "path": "tools/overhaul-guest-readiness-046/README.md",
+      "bytes": 2441,
+      "sha256": "0647f66c04dd6d46f399d51b2cf44d62c342be0c4ccae53b1f1e5bd9cce80ebe"
+    }
+  ],
+  "rootSourceCheckCommand": [
+    "node",
+    "--check",
+    "tools/overhaul-guest-readiness-046/diagnostic.mjs"
+  ],
+  "rootDiagnosticCommand": [
+    "node",
+    "tools/overhaul-guest-readiness-046/diagnostic.mjs",
+    ".sites-runtime/overhaul-20261011/guest046-diagnostic"
+  ],
+  "requiredEnv": {
+    "KITTYMECH_BUILD_RECEIPT": "Root sets exact unchanged036 frozen receipt SHA256"
+  },
+  "bounds": {
+    "workMs": 65000,
+    "cleanupMs": 15000,
+    "intendedInclusiveMs": 80000,
+    "rootAbsoluteSupervisorMs": 120000,
+    "guestInitialObservationMs": 20000,
+    "optionalPublicESCProbeMs": 6000
+  },
+  "attempts": 1,
+  "automaticRetry": false,
+  "shippingChanges": [],
+  "cause": "UNKNOWN:045 guest lacks own prototype diagnostics/pixels/resources. No welcome generation increment; speculative generation/passive-effect fixes prohibited.",
+  "readiness": "existing ordinary input/scene readiness plus actual visualFrameClock>=0,visualCorners=8,fitAvailable=true. Exact public observations retained without runtime mutation.",
+  "evidence": "each-second both pages public prototype,camera,input,transport/performance;GLBHTTP/failedrequests;guest-own PNGs;latest full server snapshots+counts only, explicit diagnosis not mission parity certificate",
+  "failure": "Persist initial20s guest failure before connected-playing publicESC pause/resume; errors stop first; no mission controls; no automatic retry.",
+  "expectedOutcomes": [
+    "GUEST_READY_WITHOUT_PROBE_CAUSE_NOT_REPRODUCED",
+    "INITIAL_GUEST_READINESS_FAILURE_PRESERVED_PROBE_REVIEW_REQUIRED",
+    "FIRST_DIAGNOSTIC_FAILURE_STOP"
+  ],
+  "immutable": "045 sources/failure evidence and frozen036 runtime remain unchanged",
+  "authorJobsExecuted": [],
+  "writersClosed": true
+}

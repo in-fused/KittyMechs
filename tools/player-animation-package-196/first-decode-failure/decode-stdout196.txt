@@ -1,0 +1,9 @@
+C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\player-animation-package-196\decode196.mts:17
+ const fail=(reason:string,data:any)=>{ops.failures.push({reason,data});writeFileSync(dir+'/validation196-operands.json',JSON.stringify(ops,null,2));throw Error(reason);};
+                                                                                                                                                           ^
+
+Error: EXACT_FIVE_PRIMITIVES
+    at fail (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\player-animation-package-196\decode196.mts:17:156)
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\player-animation-package-196\decode196.mts:23:113)
+
+Node.js v24.13.0

@@ -1,0 +1,48 @@
+{
+  "terminal": true,
+  "session": 35723,
+  "exitCode": 0,
+  "seconds": 25.67200000002049,
+  "matched": 439,
+  "health": {
+    "rooms": 0,
+    "players": 0
+  },
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/evidence.json",
+      "bytes": 48731,
+      "sha256": "ca09decd99905b7b29263bb2737ebd33385ad8af5fe4fd5bf265f95041d20ee1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/off-summary.json",
+      "bytes": 14417,
+      "sha256": "53c400f476bd59957aeb026da4c4d712d9c1d03007adc156dd8dd98e263ba526"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/off.cpuprofile",
+      "bytes": 388296,
+      "sha256": "60ff9187b89d6e9930ac4b9e60c1a19bd1d586b8c2f3e6ab8f1c8660e3f2c8fe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/off.png",
+      "bytes": 916394,
+      "sha256": "d2e8ed6a7757a575583e4c68c06a36877e929b1d8df1a512ee3c42e5765add16"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/on-summary.json",
+      "bytes": 14452,
+      "sha256": "fe308a72b880e3ae9f2644afa9faeb1f4cbb5beb6e260f053a84e8c380149570"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/on.cpuprofile",
+      "bytes": 314915,
+      "sha256": "aa626c02ffa73eecbf5518921d925adf8a4112171c65fff489e0200a4fa13f5a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/on.png",
+      "bytes": 860518,
+      "sha256": "8e2cecaf782ae8953629c86aa8d44d26ebab46cb0b4f88daf5f3257ce8bde534"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scope": "EXACT_SOURCE_AND_RETAINED_ACTUAL_FAILURE_INPUTS",
+  "files": [
+    {
+      "path": "tools/overhaul-shader-startup-232/source-seal.json",
+      "bytes": 3651,
+      "sha256": "0e481977bfab3af5fbc3dc828accaf53354551118b45b43883f745528886dda5"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/shaderStartup232.tsx",
+      "bytes": 15226,
+      "sha256": "1f3f4a02f0cd8553bc1d413b3f32e7d00d87ec69e86111b08873add2dd890c8b"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/GameCanvas232.tsx",
+      "bytes": 12300,
+      "sha256": "e18ac137b02cc3b076cb819799ac506d308f3352afefe3436ef6bd76501282d7"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/fixture232.test.ts",
+      "bytes": 7828,
+      "sha256": "91d0b1d8c7a9b02492c61e96f7ab2dfb002c111cb07e0f809f2b9fad5df21342"
+    },
+    {
+      "path": "tools/overhaul-native-outcome-239/actual-summary.json",
+      "bytes": 9795,
+      "sha256": "601e92df0fa396beee1d6adc20627caa36e26940c021dffc51a712ecab54ea8a"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public/evidence.json",
+      "bytes": 514385,
+      "sha256": "34e5fc4218c009c12e72e62f5253780f2aee6bc2ec354fe74b6c5573043f0c26"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public/output-seal.json",
+      "bytes": 1192,
+      "sha256": "881a395caa945666624db17d162510f84c2fd108f4d494dc5aee6e75ae702812"
+    },
+    {
+      "path": "node_modules/three/src/renderers/WebGLRenderer.js",
+      "bytes": 102861,
+      "sha256": "35cea4871231c3fddc3517dcd03fc876bdb8f9e73f1a77042b35e3de0498c4cd"
+    },
+    {
+      "path": "node_modules/three/src/renderers/webgl/WebGLProgram.js",
+      "bytes": 31448,
+      "sha256": "d1ce381d6bfd7a632e708b1cd49b3332c16c5d0165a9532ab20788f6fafcc7fa"
+    },
+    {
+      "path": "node_modules/@react-three/fiber/dist/events-9ce18a08.esm.js",
+      "bytes": 710191,
+      "sha256": "0f2563472e4f3c6a4691e01d22358f15db9adeb750c366ab53ed84989ecec755"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/visualRegistry222.ts",
+      "bytes": 4584,
+      "sha256": "719bf9195b1f29d990918919f61e303a6cc454d843dfc55ddeb74ad0e192dd1a"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/source-seal.json",
+      "bytes": 6255,
+      "sha256": "ddd7d34d26d154913c19645f7e8f5cb6e6371e00dafc43fc4f3d87ea70bf86d8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "FelinePulseMoving048",
+    "samples": 21,
+    "first": 0.016666668,
+    "last": 0.35,
+    "span": 0.33333332650363445,
+    "minDelta": 0.016666650772094727,
+    "maxDelta": 0.016666680574417114,
+    "inputAccessor": 13,
+    "outputAccessor": 14,
+    "firstExpected": 0,
+    "expectedLast": 0.3333333333333333
+  },
+  {
+    "name": "FelineMissileMoving048",
+    "samples": 29,
+    "first": 0.016666668,
+    "last": 0.48333332,
+    "span": 0.4666666518896818,
+    "minDelta": 0.016666650772094727,
+    "maxDelta": 0.016666680574417114,
+    "inputAccessor": 133,
+    "outputAccessor": 134,
+    "firstExpected": 0,
+    "expectedLast": 0.4666666666666667
+  },
+  {
+    "name": "FelineUprightPulseMoving048",
+    "samples": 21,
+    "first": 0.016666668,
+    "last": 0.35,
+    "span": 0.33333332650363445,
+    "minDelta": 0.016666650772094727,
+    "maxDelta": 0.016666680574417114,
+    "inputAccessor": 13,
+    "outputAccessor": 135,
+    "firstExpected": 0,
+    "expectedLast": 0.3333333333333333
+  },
+  {
+    "name": "FelineUprightMissileMoving048",
+    "samples": 29,
+    "first": 0.016666668,
+    "last": 0.48333332,
+    "span": 0.4666666518896818,
+    "minDelta": 0.016666650772094727,
+    "maxDelta": 0.016666680574417114,
+    "inputAccessor": 133,
+    "outputAccessor": 136,
+    "firstExpected": 0,
+    "expectedLast": 0.4666666666666667
+  }
+]

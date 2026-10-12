@@ -1,0 +1,27 @@
+{
+  "writer": "CLOSED",
+  "comparison": {
+    "command": "npx tsx tools/overhaul-coop-153/compare-retained-read.mjs",
+    "exitCode": 0,
+    "wallSeconds": 5.4783178,
+    "terminalChunk": "97638e",
+    "runs": 1,
+    "oracle": "PERMISSIVE_SOURCE_FIXTURE_NOT_NATIVE_SIGHT",
+    "receipt": {
+      "path": "tools/overhaul-coop-153/comparison-receipt.json",
+      "bytes": 1524,
+      "sha256": "6f0d5f7da8b96fe63e1e56537105fa4638e650c4fdebcbb05f8b61f5e8abd827"
+    }
+  },
+  "syntax": {
+    "files": [
+      "exposure-search.mjs",
+      "mission-capture.mjs"
+    ],
+    "exitCode": 0
+  },
+  "nativeWorldJobs": 0,
+  "publicJobs": 0,
+  "actualFailedInput": "UNKNOWN_NOT_RETAINED",
+  "publicQualification": "PENDING"
+}

@@ -1,0 +1,66 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE238_OUTPUT_ONLY_D_RUN_ADAPTER_SOURCE; independent gate pending; no actual browser",
+  "files": [
+    {
+      "path": "tools/overhaul-disk-observer-238/binding.json",
+      "bytes": 237275,
+      "sha256": "46d54b1ad2af4a3aa718a650a4763677792cf2e622cb56e45c6e4cefdde1465b"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/capture.mjs",
+      "bytes": 21923,
+      "sha256": "ccc8da5a38b16d058df3ea174ffb37448b62fd4e5cfe9fcd34207d06802eb531"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/capture.mjs.237-preimage",
+      "bytes": 21948,
+      "sha256": "bd42dea2a8dd64431a1ec43490a88a2c0bce43564e37ba4328abb9aa4e43d8bc"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/guards.mjs",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/guards.mjs.237-preimage",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/HANDOFF.md",
+      "bytes": 1757,
+      "sha256": "78616ba4fd564f55c233f9b2ef713b44ed66f61bc847b5bcfbda04c8a931fbff"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/network-classification.mjs.237-preimage",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/prepare238.py",
+      "bytes": 2131,
+      "sha256": "83d6313089b4c7ccd887576dd95166010edd1e0951fdcf584fe193f71732e611"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/seal238.py",
+      "bytes": 1127,
+      "sha256": "3a5ef6e4309ee2c8161a0bc74b692c2bb43ca32f2fd5583176985b90f294b01f"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/supervise.py",
+      "bytes": 5268,
+      "sha256": "f02c6d4ee280578513dfa0284756eaf57d9f62bd0813ad0f5a94ec35e1a60cca"
+    },
+    {
+      "path": "tools/overhaul-disk-observer-238/supervise.py.237-preimage",
+      "bytes": 5281,
+      "sha256": "1e5cc687adc1c1055b2c0728135a6810a58109d62cc4a96e72be2ddefd612a38"
+    }
+  ]
+}

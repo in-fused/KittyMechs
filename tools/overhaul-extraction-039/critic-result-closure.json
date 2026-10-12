@@ -1,0 +1,62 @@
+{
+  "closedUTC": "2026-10-10T22:52:22Z",
+  "task": "Independent extraction-player-039 result review",
+  "status": "CLOSED_LIMITED_EVIDENCE_ACCEPTED_PROMOTION_DENIED",
+  "review": {
+    "path": "docs/overhaul/critic/extraction-player-039-result-review.md",
+    "sha256": "ead6b8fc65fdaa060bea9cfcff64e5ac38ae0c0c0b81ffba9474bafbc9c5c28b"
+  },
+  "accepted": [
+    "Preserved appended source and bounded native prefix/support/asset evidence",
+    "Local freight and utility facade improvement visible in actual images",
+    "Bounded prior feature observations and eighteen equal-tick complete actor parity samples"
+  ],
+  "denied": [
+    "Diagnostic build032 promotion",
+    "Route clearance certification: final focused qualification 42/43",
+    "Ordinary freight wall attachment, transfer and roof landing",
+    "Finished district/mech art, planted gait and physical paired restraint",
+    "Destruction, co-op and hardware performance qualification",
+    "Full Gate1 and complete four-mech/three-map scope"
+  ],
+  "sourceSeals": [
+    {"path": "tools/overhaul-root-round-031/extraction039-finalbuild-seal.json", "sha256": "2749ec2f214ac298bdb63246a3a77c7e599c5a2cb05277c60c59bee20c613110", "verifiedRows": 100, "mismatches": 0},
+    {"path": "tools/overhaul-root-round-031/extraction039-finalcapture-seal.json", "sha256": "12ab94c1ad2b153c95225898c68b62289deb3dbb1da4eabf497cb995b620101b", "verifiedRows": 100, "mismatches": 0},
+    {"path": "tools/overhaul-root-round-031/extraction039-result-seal.json", "sha256": "5782e1a0a80c307d8117577116e431965cb895de72a8dbb9e3bdcbd9bf6763d6", "verifiedRows": 29, "mismatches": 0}
+  ],
+  "actualEvidence": {
+    "path": ".sites-runtime/overhaul-20261010/art-player-039/evidence.json",
+    "sha256": "5c78ccbfee78a5960c9187218aa673df2ef2ce253d9327265f53cbe98456e197",
+    "status": "FAIL_STOP",
+    "events": 24,
+    "nativeHistoryRows": 1477,
+    "recordedRuntimeErrors": 0,
+    "plannedScreenshots": 8,
+    "actualScreenshotsInspected": 6,
+    "videoBoardsInspected": 3,
+    "missingScreenshots": ["climb", "roof"],
+    "failedOutcome": "freight native wall attachment",
+    "failureInterpretation": "Settled approach lay north of real freight wall; delivered C/W then travelled west outside the hall. Native wall mechanic failure or obstruction owner is not established."
+  },
+  "parentProcess": {
+    "path": ".sites-runtime/overhaul-20261010/extraction039-capture-process/process-receipt.json",
+    "sha256": "306621533a0844d2f821834d60013e1953e32080217d4766f1734176680838c0",
+    "startUTC": "2026-10-10T22:44:14.860435+00:00",
+    "endUTC": "2026-10-10T22:45:55.363732+00:00",
+    "inclusiveElapsedSeconds": 100.5,
+    "exitCode": 1
+  },
+  "frozenBuild032Receipt": {
+    "path": ".sites-runtime/overhaul-20261009/build-032/receipt.json",
+    "sha256": "457c1f10ff23bdeae812c0ab19d9e7df1c383e733a6b3a72b0f559e95b9350f2",
+    "files": 398,
+    "bytes": 113814782,
+    "scope": "UNAPPROVED_DIAGNOSTIC"
+  },
+  "timestampLimit": "Source seal frozenUTC 22:40:28 is inherited; actual fresh capture started 22:44. Historical test metadata changed after its completed run and is not claimed current-identical.",
+  "criticImplementationEdits": 0,
+  "criticHeavyJobs": 0,
+  "activeCriticJobs": [],
+  "writersClosed": true,
+  "retryOrImplementationAuthorized": false
+}

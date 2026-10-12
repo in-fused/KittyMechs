@@ -1,0 +1,14 @@
+import {build,transform} from 'esbuild';
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import assert from 'node:assert/strict';
+import {createDelivery222} from './delivery-factory.mjs';
+const folder='tools/overhaul-native-integration-222',old='tools/overhaul-native-wiring-218',normalize=s=>s.replace(/\r\n|\r/g,'\n');
+for(const name of ['ActorsCandidate222.tsx','NativeActor222.tsx','wiring222.tsx','nativeOwner218.ts','nativeBasis218.ts','visualRegistry222.ts','actor-bridge222.tsx'])await transform(await readFile(folder+'/'+name,'utf8'),{loader:name.endsWith('tsx')?'tsx':'ts',format:'esm',jsx:'automatic'});
+const standard=a=>normalize(a).slice(normalize(a).indexOf('function Actor('));assert.equal(standard(await readFile(folder+'/ActorsCandidate222.tsx','utf8')),standard(await readFile(old+'/ActorsCandidate218.tsx','utf8')));
+for(const name of ['nativeOwner218.ts','nativeBasis218.ts'])assert((await readFile(folder+'/'+name)).equals(await readFile(old+'/'+name)));
+const registry=normalize(await readFile(folder+'/visualRegistry222.ts','utf8')),original=normalize(await readFile('src/game/camera/visualRegistry.ts','utf8'));assert(registry.startsWith(original),'Original registry runtime functions remain exact prefix');
+await assert.rejects(()=>createDelivery222(),/actual root-verified loader receipt required/);
+const target=resolve('src/game/camera/visualRegistry.ts'),text=await readFile(folder+'/visualRegistry222.ts','utf8');
+await build({entryPoints:[folder+'/registry-fixture.ts'],outfile:folder+'/registry-fixture-bundle.mjs',bundle:true,format:'esm',platform:'node',packages:'external',plugins:[{name:'fixture-canonical-registry222',setup(b){b.onLoad({filter:/visualRegistry\.ts$/},args=>args.path===target?{contents:text,loader:'ts'}:null);}}]});
+await writeFile(folder+'/static-receipt.json',JSON.stringify({writer:'CLOSED',status:'TRANSFORM_AND_IDENTITY_PASS_FIXTURE_COMPILED',transformedFiles:7,standardActorIdentity:'PASS_EOL_NORMALIZED_TOKENS',ownerAndBasisBytes:'EXACT218',registryOriginalRuntimePrefix:'EXACT_EOL_NORMALIZED_TOKENS',pendingProofRejected:true,fixtureCompiled:true,actualBuild:false,actualGameplay:false},null,2)+'\n');console.log(JSON.stringify({status:'STATIC_TRANSFORM_PASS',fixtureOnly:true,actualBuild:false}));

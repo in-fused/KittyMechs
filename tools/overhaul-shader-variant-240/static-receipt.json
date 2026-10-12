@@ -1,0 +1,29 @@
+{
+  "writer": "CLOSED",
+  "candidate": "shaderStartup240.tsx",
+  "scope": "SOURCE_ONLY_NO_GPU_PROGRAM_TEST_OR_GAMEPLAY",
+  "tsc": {
+    "exit": 0,
+    "seconds": 5.2697453,
+    "config": "tsconfig240.json"
+  },
+  "fixture": {
+    "exit": 0,
+    "seconds": 1.6516525,
+    "passed": 15,
+    "failed": 0,
+    "receipt": "fixture-receipt.json",
+    "initialPassedReceipt": "pre-binding-fixture-receipt.json"
+  },
+  "preimagesExact": true,
+  "parent232Seal": "0e481977bfab3af5fbc3dc828accaf53354551118b45b43883f745528886dda5",
+  "oldMutableSignatureFieldActual238": "UNKNOWN",
+  "primaryProgramIdentity": "Installed WebGLProgram programIdCount starts0 and this.id=programIdCount++ (lines12/1079), current-context program Maps are actual renderer objects; body also requires exact retained object membership",
+  "counters": {
+    "acceptedPreparationSetsMax": 4,
+    "startupLifetimeMs": 20000,
+    "capturePassesAreNotGPUQueueCount": true
+  },
+  "noRuntimeConsumerEdits": true,
+  "noActualBuildBrowserGPUShaderNativeDecoderJobs": true
+}

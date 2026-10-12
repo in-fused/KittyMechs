@@ -1,0 +1,75 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "bytes": 82335308,
+      "sha256": "0371ebfe572daf1b406974e259a2d0555fd2c4f93bfb7842def84646b1b7f59a"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "bytes": 8762,
+      "sha256": "3da424fa62207bc861b5f729020cb1a0de1b86513cba4e267ddb57cd68067b60"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "bytes": 10918,
+      "sha256": "f5db7d376f7c664b7328e8ab71499df7cc4e6cf910659e6c9774c039ffd6a1d0"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/choreography174.py",
+      "bytes": 9940,
+      "sha256": "fbbc5d44a61311a09d0ee296bcbaae6ede5451de299a3d51088943bc089e4010"
+    },
+    {
+      "path": "tools/overhaul-motion-174/author174.py",
+      "bytes": 10871,
+      "sha256": "41c9632bc83bdc23955e2b06b1e782f91e232d1425098787b73d40c96c5cbd58"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "bytes": 8552,
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "bytes": 10162,
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "bytes": 20304,
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "bytes": 1660,
+      "sha256": "d4d72cd4baa55f48b3c650df3f780c48e60d4b9ae7182a53ee3d4de155d2d81b"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "candidate": "feline-distal-redesign-002",
+  "actualStartUTC": "2026-10-10T12:56:04Z",
+  "hardDeadlineUTC": "2026-10-10T13:16:04Z",
+  "status": "DESIGN_ONLY_NOT_AUTHOR_AUTHORIZATION",
+  "singleTopology": "continuous deforming distal lower/ankle/metacarpal/four toes; five real pads; actual toe claw recess; segmented exterior armor; no journal roller arrays",
+  "sourceBasis": "armature-source Xright/-Yfront/Zup; native=.8*(x,z,-y); Actor pi mount separate",
+  "preserveOriginalRestBones": 25,
+  "maximumNewLocalBones": 32,
+  "actualPadsPerPaw": 5,
+  "replacement": [
+    {
+      "limb": "FL",
+      "retireOriginalRigidPawPartIDs": [
+        "part:Retained FL central paw palm",
+        "part:Retained FL metacarpal guard",
+        "part:Retained FL digit 0 knuckle",
+        "part:Retained FL digit 0 joint seam",
+        "part:Retained FL hooked claw 0",
+        "part:Retained FL digit 1 knuckle",
+        "part:Retained FL digit 1 joint seam",
+        "part:Retained FL hooked claw 1",
+        "part:Retained FL digit 2 knuckle",
+        "part:Retained FL digit 2 joint seam",
+        "part:Retained FL hooked claw 2",
+        "part:Retained FL digit 3 knuckle",
+        "part:Retained FL digit 3 joint seam",
+        "part:Retained FL hooked claw 3",
+        "part:Retained FL dewclaw socket",
+        "part:Retained FL dewclaw",
+        "part:Retained FL paw status light"
+      ],
+      "splitOriginalLowerArmorPartID": "part:FL lower segmented armor",
+      "keepOriginalLowerArmorProximalGeometry": true,
+      "replaceOriginalSkinAndArmorDistalTo": {
+        "newDesignReplacementPlaneSource": [
+          -0.7300000190734863,
+          -0.7955999672412872,
+          0.5450000166893005
+        ],
+        "planeNormalTowardPawSource": [
+          0.0,
+          -0.5563801640278243,
+          -0.830927862739222
+        ],
+        "originalLowerLengthSource": 0.878535973829282,
+        "nativeUnchangedFullChainLength": 1.398688840866089,
+        "pawHeadSource": [
+          -0.7300000190734863,
+          -1.0399999618530273,
+          0.18000000715255737
+        ],
+        "planeDefinition": "AUTHOR DESIGN midway through original lower bone; no new exact tessellation loop extracted or qualification"
+      },
+      "newSemanticOwnerIDs": [
+        "FL.distal-core",
+        "FL.lower-plate.dorsal",
+        "FL.lower-plate.sideL",
+        "FL.lower-plate.sideR",
+        "FL.metacarpal-plate",
+        "FL.central-pad",
+        "FL.digit0.core",
+        "FL.digit0.pad",
+        "FL.digit0.cap",
+        "FL.digit0.claw",
+        "FL.digit1.core",
+        "FL.digit1.pad",
+        "FL.digit1.cap",
+        "FL.digit1.claw",
+        "FL.digit2.core",
+        "FL.digit2.pad",
+        "FL.digit2.cap",
+        "FL.digit2.claw",
+        "FL.digit3.core",
+        "FL.digit3.pad",
+        "FL.digit3.cap",
+        "FL.digit3.claw"
+      ]
+    },
+    {
+      "limb": "FR",
+      "retireOriginalRigidPawPartIDs": [
+        "part:Retained FR central paw palm",
+        "part:Retained FR metacarpal guard",
+        "part:Retained FR digit 0 knuckle",
+        "part:Retained FR digit 0 joint seam",
+        "part:Retained FR hooked claw 0",
+        "part:Retained FR digit 1 knuckle",
+        "part:Retained FR digit 1 joint seam",
+        "part:Retained FR hooked claw 1",
+        "part:Retained FR digit 2 knuckle",
+        "part:Retained FR digit 2 joint seam",
+        "part:Retained FR hooked claw 2",
+        "part:Retained FR digit 3 knuckle",
+        "part:Retained FR digit 3 joint seam",
+        "part:Retained FR hooked claw 3",
+        "part:Retained FR dewclaw socket",
+        "part:Retained FR dewclaw",
+        "part:Retained FR paw status light"
+      ],
+      "splitOriginalLowerArmorPartID": "part:FR lower segmented armor",
+      "keepOriginalLowerArmorProximalGeometry": true,
+      "replaceOriginalSkinAndArmorDistalTo": {
+        "newDesignReplacementPlaneSource": [
+          0.7300000190734863,
+          -0.7955999672412872,
+          0.5450000166893005
+        ],
+        "planeNormalTowardPawSource": [
+          0.0,
+          -0.5563801640278243,
+          -0.830927862739222
+        ],
+        "originalLowerLengthSource": 0.878535973829282,
+        "nativeUnchangedFullChainLength": 1.398688840866089,
+        "pawHeadSource": [
+          0.7300000190734863,
+          -1.0399999618530273,
+          0.18000000715255737
+        ],
+        "planeDefinition": "AUTHOR DESIGN midway through original lower bone; no new exact tessellation loop extracted or qualification"
+      },
+      "newSemanticOwnerIDs": [
+        "FR.distal-core",
+        "FR.lower-plate.dorsal",
+        "FR.lower-plate.sideL",
+        "FR.lower-plate.sideR",
+        "FR.metacarpal-plate",
+        "FR.central-pad",
+        "FR.digit0.core",
+        "FR.digit0.pad",
+        "FR.digit0.cap",
+        "FR.digit0.claw",
+        "FR.digit1.core",
+        "FR.digit1.pad",
+        "FR.digit1.cap",
+        "FR.digit1.claw",
+        "FR.digit2.core",
+        "FR.digit2.pad",
+        "FR.digit2.cap",
+        "FR.digit2.claw",
+        "FR.digit3.core",
+        "FR.digit3.pad",
+        "FR.digit3.cap",
+        "FR.digit3.claw"
+      ]
+    },
+    {
+      "limb": "HL",
+      "retireOriginalRigidPawPartIDs": [
+        "part:Retained HL central paw palm",
+        "part:Retained HL metacarpal guard",
+        "part:Retained HL digit 0 knuckle",
+        "part:Retained HL digit 0 joint seam",
+        "part:Retained HL hooked claw 0",
+        "part:Retained HL digit 1 knuckle",
+        "part:Retained HL digit 1 joint seam",
+        "part:Retained HL hooked claw 1",
+        "part:Retained HL digit 2 knuckle",
+        "part:Retained HL digit 2 joint seam",
+        "part:Retained HL hooked claw 2",
+        "part:Retained HL digit 3 knuckle",
+        "part:Retained HL digit 3 joint seam",
+        "part:Retained HL hooked claw 3",
+        "part:Retained HL dewclaw socket",
+        "part:Retained HL dewclaw",
+        "part:Retained HL paw status light"
+      ],
+      "splitOriginalLowerArmorPartID": "part:HL lower segmented armor",
+      "keepOriginalLowerArmorProximalGeometry": true,
+      "replaceOriginalSkinAndArmorDistalTo": {
+        "newDesignReplacementPlaneSource": [
+          -0.7300000190734863,
+          0.7591999769210815,
+          0.5450000166893005
+        ],
+        "planeNormalTowardPawSource": [
+          0.0,
+          0.5801822555061167,
+          -0.8144866790782002
+        ],
+        "originalLowerLengthSource": 0.8962700530592691,
+        "nativeUnchangedFullChainLength": 1.3703248977661133,
+        "pawHeadSource": [
+          -0.7300000190734863,
+          1.0191999673843384,
+          0.18000000715255737
+        ],
+        "planeDefinition": "AUTHOR DESIGN midway through original lower bone; no new exact tessellation loop extracted or qualification"
+      },
+      "newSemanticOwnerIDs": [
+        "HL.distal-core",
+        "HL.lower-plate.dorsal",
+        "HL.lower-plate.sideL",
+        "HL.lower-plate.sideR",
+        "HL.metacarpal-plate",
+        "HL.central-pad",
+        "HL.digit0.core",
+        "HL.digit0.pad",
+        "HL.digit0.cap",
+        "HL.digit0.claw",
+        "HL.digit1.core",
+        "HL.digit1.pad",
+        "HL.digit1.cap",
+        "HL.digit1.claw",
+        "HL.digit2.core",
+        "HL.digit2.pad",
+        "HL.digit2.cap",
+        "HL.digit2.claw",
+        "HL.digit3.core",
+        "HL.digit3.pad",
+        "HL.digit3.cap",
+        "HL.digit3.claw"
+      ]
+    },
+    {
+      "limb": "HR",
+      "retireOriginalRigidPawPartIDs": [
+        "part:Retained HR central paw palm",
+        "part:Retained HR metacarpal guard",
+        "part:Retained HR digit 0 knuckle",
+        "part:Retained HR digit 0 joint seam",
+        "part:Retained HR hooked claw 0",
+        "part:Retained HR digit 1 knuckle",
+        "part:Retained HR digit 1 joint seam",
+        "part:Retained HR hooked claw 1",
+        "part:Retained HR digit 2 knuckle",
+        "part:Retained HR digit 2 joint seam",
+        "part:Retained HR hooked claw 2",
+        "part:Retained HR digit 3 knuckle",
+        "part:Retained HR digit 3 joint seam",
+        "part:Retained HR hooked claw 3",
+        "part:Retained HR dewclaw socket",
+        "part:Retained HR dewclaw",
+        "part:Retained HR paw status light"
+      ],
+      "splitOriginalLowerArmorPartID": "part:HR lower segmented armor",
+      "keepOriginalLowerArmorProximalGeometry": true,
+      "replaceOriginalSkinAndArmorDistalTo": {
+        "newDesignReplacementPlaneSource": [
+          0.7300000190734863,
+          0.7591999769210815,
+          0.5450000166893005
+        ],
+        "planeNormalTowardPawSource": [
+          0.0,
+          0.5801822555061167,
+          -0.8144866790782002
+        ],
+        "originalLowerLengthSource": 0.8962700530592691,
+        "nativeUnchangedFullChainLength": 1.3703248977661133,
+        "pawHeadSource": [
+          0.7300000190734863,
+          1.0191999673843384,
+          0.18000000715255737
+        ],
+        "planeDefinition": "AUTHOR DESIGN midway through original lower bone; no new exact tessellation loop extracted or qualification"
+      },
+      "newSemanticOwnerIDs": [
+        "HR.distal-core",
+        "HR.lower-plate.dorsal",
+        "HR.lower-plate.sideL",
+        "HR.lower-plate.sideR",
+        "HR.metacarpal-plate",
+        "HR.central-pad",
+        "HR.digit0.core",
+        "HR.digit0.pad",
+        "HR.digit0.cap",
+        "HR.digit0.claw",
+        "HR.digit1.core",
+        "HR.digit1.pad",
+        "HR.digit1.cap",
+        "HR.digit1.claw",
+        "HR.digit2.core",
+        "HR.digit2.pad",
+        "HR.digit2.cap",
+        "HR.digit2.claw",
+        "HR.digit3.core",
+        "HR.digit3.pad",
+        "HR.digit3.cap",
+        "HR.digit3.claw"
+      ]
+    }
+  ],
+  "authorIntentDimensionsSource": {
+    "halfWidth": 0.21,
+    "rearY": 0.1,
+    "toeFrontY": -0.27,
+    "toeXOffsets": [
+      -0.15,
+      -0.05,
+      0.05,
+      0.15
+    ],
+    "maximumToeHalfWidth": 0.043,
+    "centralPadWidth": 0.19,
+    "centralPadLength": 0.135,
+    "digitalPadWidth": 0.07,
+    "digitalPadLength": 0.11,
+    "physicalBearingPlaneZ": 0.018,
+    "clawPivotY": -0.22,
+    "clawPivotZ": 0.12,
+    "clawRadiusEnvelope": 0.075,
+    "clawMaximumHalfThickness": 0.008,
+    "clawRetractedDegrees": -100,
+    "clawExtendedDegrees": 0,
+    "toeCrownZ": 0.215
+  },
+  "materialSemantics": "filled compliant connected load core; actual Boolean carved claw recess is empty; no enclosed free-floating chassis or fictional cavity",
+  "intentionalInterfaces": [
+    "welded continuous skin boundary with exact original weight/UV/material mapping",
+    "contiguous real pad/core material surfaces",
+    "named fitted plate mounts",
+    "actual modeled claw hinge with later physical-load qualification"
+  ],
+  "forbidden": [
+    "retained distal lower armor inside new core",
+    "unrelated solid crossings hidden by same owner",
+    "claw touching recess through motion",
+    "geometry below actual frozen floor",
+    "native hull shrinking/foot marker offset"
+  ],
+  "motionOwner": {
+    "states": [
+      "loaded",
+      "authorized-unload",
+      "swing-or-guard",
+      "claw-ready",
+      "retract",
+      "replant",
+      "interrupted-recovery"
+    ],
+    "currentPreviousCommittedOnly": true,
+    "futureTrajectoryOracle": false,
+    "singleCarrier": true,
+    "soleRotationalTerms": [
+      "omega cross offset",
+      "alpha cross offset",
+      "omega cross omega cross offset"
+    ],
+    "replaceRuntimeWrites": "locomotion/R root-core-limb mixer/additives/terrain/pawIK ownership only after separate qualification; do not layer new owner or merely change GLB URL",
+    "climbPairsReactions": "UNQUALIFIED"
+  },
+  "knownFacts": "recorded-facts.json",
+  "scopeUnknown": [
+    "exact new halfway original tessellation seam loops/counts",
+    "actual sculpted recess and moving claw clearance",
+    "joint load/force/COM",
+    "full source/native geometry occupancy",
+    "causal unified gait/movingR/cancel implementation",
+    "native provider body/load/release support",
+    "normal-camera detailed feline art",
+    "ordinary two-client movement"
+  ],
+  "sourceJobAuthorized": false,
+  "productionChanged": false,
+  "newModelExists": false,
+  "fullGoalGate1": "INCOMPLETE"
+}

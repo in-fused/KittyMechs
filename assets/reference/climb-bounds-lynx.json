@@ -1,0 +1,72 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "cosmeticExcluded": "tail, whiskers, antennae, sensor mast/lidar, ear tufts",
+  "coreIncludes": "pelvis/spine/chest/head armor; contact limbs excluded only from coreRadius/coreHeight, included in all other measurements",
+  "clips": [
+    {
+      "clip": "FelineGrab",
+      "duration": 0.3,
+      "height": 2.3097920417785645,
+      "radius": 1.8043935547203824,
+      "floor": 0.013223769143223763,
+      "coreRadius": 1.6339970714980692,
+      "coreHeight": 2.3097920417785645,
+      "sideExtent": 0.6459813714027405,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlaneMin": -1.5845360660552978,
+      "pawPlaneMax": 0.8043840265274048,
+      "stanceContactError": 0,
+      "wallClearanceMin": -2.5749206544745107e-07
+    },
+    {
+      "clip": "FelineCling",
+      "duration": 1.5,
+      "height": 2.13516902923584,
+      "radius": 1.8043938976036233,
+      "floor": 0.45640233159065247,
+      "coreRadius": 1.5366036529162779,
+      "coreHeight": 2.13516902923584,
+      "sideExtent": 0.6238904595375061,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlaneMin": -1.5845364284515382,
+      "pawPlaneMax": -1.5845355224609374,
+      "stanceContactError": 4.775390625155751e-07,
+      "wallClearanceMin": -6.151199340997948e-07
+    },
+    {
+      "clip": "FelineClimb",
+      "duration": 0.9,
+      "height": 2.4180164337158203,
+      "radius": 1.8043939145420533,
+      "floor": 0.008786024525761604,
+      "coreRadius": 1.5366036529162779,
+      "coreHeight": 2.1516220569610596,
+      "sideExtent": 0.6572445034980774,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlaneMin": -1.5845364284515382,
+      "pawPlaneMax": -1.4335638761520386,
+      "stanceContactError": 0,
+      "wallClearanceMin": -6.151199340997948e-07
+    },
+    {
+      "clip": "FelineMantle",
+      "duration": 0.9,
+      "height": 2.3097920417785645,
+      "radius": 1.804393503905094,
+      "floor": 0.013223769143223763,
+      "coreRadius": 1.6339970714980692,
+      "coreHeight": 2.3097920417785645,
+      "sideExtent": 0.6451499462127686,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlaneMin": -1.584536247253418,
+      "pawPlaneMax": 0.8043840265274048,
+      "stanceContactError": 0,
+      "wallClearanceMin": -2.5749206544745107e-07
+    }
+  ]
+}

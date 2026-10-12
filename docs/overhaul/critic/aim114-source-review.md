@@ -1,0 +1,13 @@
+﻿# Aim114 source review
+
+ACCEPT the bounded forward-halfspace source correction for a later separately gated integration/ordinary observation. No build, shipping, combat-quality or lag approval is granted here. Review writer CLOSED, reviewer jobs0; live051 remains unchanged.
+
+Reviewed viewAim SHA81AE8DBDDE4FC139101063ED1CA440C55166D9FD4ACCC7137897B0E0979FB548 and test5BC5D79AA9D619CB127A581EA639541F034837BDC08D0A5A575792E446F6CD7F, immediate CameraRig caller and shared direction convention. Target forwardDistance=−dx*sin(fallbackYaw)−dz*cos(fallbackYaw) now must be positive. A nearby third-person ray hit behind the pilot or exactly lateral retains fallback yaw/clamped pitch and reachable:false; it cannot aim the native muzzle backwards merely because camera cover lies between boom and pilot. Legitimate world-rear targets still work when the player actually looks toward them.
+
+For eligible forward targets the original offset-muzzle pitch solve, limits and28binary iterations remain. Source tests cover111behind geometry, side boundary and rotated genuine forward target, both stances and actual native aim-versus-movement separation. Correcting the geometric test's supplied view yaw makes its legitimate rearward-world case consistent with the new directional policy; it does not change expected muzzle intersection tolerance. Root reports four focused tests passed; reviewer ran none.
+
+CameraRig passes yaw+pairCamera.yaw and pitch, and always sends the returned shot yaw/pitch even when unreachable. Thus the guard preserves that existing fallback policy rather than cancelling a shot or changing movement/native damage. Pair-camera yaw bias remains part of fallback direction. The rule may intentionally reject a strongly off-axis target admitted by the center ray, and the pitch-out-of-range branch still returns a target yaw with reachable:false. This patch does not promise muzzle line-of-sight, peer exclusion, fully truthful visible target selection or a disabled-fire response; native collision still decides the actual shot.
+
+A later ordinary integration gate should verify the delivered actual aimYaw and projectile direction around the nearby cover case, normal forward aim, explicit rotated view, and peer/pair bias without movement-yaw corruption. Crosshair unreachable must remain observable rather than being interpreted as successful hit alignment. No hidden state/aim injection, timer/native/weapon change or automatic capture retry follows. This narrow source fix does not explain111's terminal arrival guard, which occurred before combat.
+
+Full mission, combat/pair quality, camera occlusion, convincing gait/R and the user's severe actual-client Lowest lag remain unqualified.

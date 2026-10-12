@@ -1,0 +1,17 @@
+{
+  "job": "preview",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-animation-264\\preview264.py"
+  ],
+  "capInclusiveCleanup": 180,
+  "pid": 361724,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 13.172000000020489
+}

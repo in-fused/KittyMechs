@@ -1,0 +1,13 @@
+# Anatomy127/128 two-stage source review — CLOSED
+
+APPROVE ONE unchanged127 delivery job, 90 seconds inclusive, first actual failure STOP/no retry. APPROVE ONE focused123/regression test stage and typecheck for the new128 constructor. Route/build/freeze/public execution requires a separate short gate after the actual delivery receipt/manifest and shared canonical imports are available. No browser success or shipping/quality approval is granted now. Reviewer executed no jobs and changed no game source.
+
+Reviewed only the126→127 delivery delta,123→128 constructor delta and handoffs. Six127 and three128 source rows match. Seals: `772b4d4ff75d215dc844a489aff337e6d523c71ffbf13a24296a19c7a06df0a8` and `fdf983f5b6e17cf19c4593c7bddd531284cb2d524556cd45c8d62555cffeb921`. Runtime128 SHA `be5cf8888a46aed18c85828ecd67bb3ed3f713551ac39930d84baad898855dbe`.
+
+126 remains terminally failed at Node GLTFLoader's browser texture dependency, not a failed actual browser parse.127 removes that Node loader and mock globals, retaining read-only resource/catalog/stride/neutral checks and exclusive byte-exact copying. Manifest explicitly requires browser validation and remains PENDING. Raw/public bytes must equal5,441,344 bytes/SHA `735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738`.124 and126 failures are preserved, not reclassified as passes.
+
+128 checks the genuinely supplied AnimationClips against all45 defined catalog entries when the flag is true, including exact duration, channel count and translated target names. It rejects duplicate, extra and missing names through the existing failure flow. Legacy assets retain subset validation and cannot claim the new contract passed. The new diagnostic describes clip parsing only; joint/owner/fallback checks remain independently necessary. Existing123 tests do not alone exercise every malformed all45 contract branch; actual guarded browser loading is still required.
+
+The later public gate must require the current local owner's exact121 SHA, `browserClipContract128.required===true`, expected45, loaded45, passedtrue, no firstFailure/missing bones or clips/fallback and no page errors. Matching a flag or physically copying the GLB is insufficient. The asset module, actor and initial loader must share the generated canonical URL/manifest. Preserve ordinary first failure and actual evidence if texture/loader/owner admission fails.
+
+Authored Blender weight-ledger→export split-vertex correspondence remains NOT ESTABLISHED. Exact delivery preserves actual exported resources, not every intended original-vertex edit. No anatomy, temporal gait/R, retained combat/climb skin, native contact, performance, human Lowest lag or full-goal acceptance. Live052 remains preserved. Writer CLOSED.

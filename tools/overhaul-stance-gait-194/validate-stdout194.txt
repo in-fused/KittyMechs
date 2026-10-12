@@ -1,0 +1,9 @@
+C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-stance-gait-194\package-validate194.mts:17
+ const fail=(reason:string,data:any)=>{ops.failures.push({reason,data});writeFileSync(dir+'/validation194-operands.json',JSON.stringify(ops,null,2));throw Error(reason);};
+                                                                                                                                                           ^
+
+Error: EXACT_RETAINED_GEOMETRY_SKIN_REST_MATERIAL_TEXTURE_PRESERVATION
+    at fail (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-stance-gait-194\package-validate194.mts:17:156)
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-stance-gait-194\package-validate194.mts:23:227)
+
+Node.js v24.13.0

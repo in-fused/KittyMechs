@@ -1,0 +1,39 @@
+{
+  "packet": "motion-performance-042",
+  "closedUTC": "2026-10-10T23:54:49.0784857Z",
+  "reviewer": "/root/architecture",
+  "status": "ACCEPT_BOUNDED_FIXES_LIMITED_FUNCTIONAL_PREVIEW_DENY_GENERAL_LAG_FULL_GATE",
+  "report": "docs/overhaul/critic/player-motion-performance-042-result-review.md",
+  "reportSHA256": "2984c8c21c243ae191e6b697278e06f127d58b389afec1f4426f994c30513ff7",
+  "sourceHandoffSHA256": "875126d1185b0f3acf22deb66415ab90dce889ea2df0b2ed882f2a22b89167b4",
+  "correctionBTestSHA256": "9e70b6be0a2dc3522331fb746681c0b9cc828fb8aaea4511f2c3d1df4da95508",
+  "resultSeal": "tools/overhaul-root-round-032/player042-result-seal.json",
+  "resultSealSHA256": "527bda8f1fe04182a58ee0a7309acf6e1b2d92e967305c7bc679dda30f7f7010",
+  "verifiedResultRows": 33,
+  "verifiedResultBytes": 51003025,
+  "resultMismatches": [],
+  "tests": "First40PASS1FAIL preserved; numericassertion correctionB41PASS",
+  "build": "PASS26.67seconds",
+  "accepted": [
+    "moving-fire gait-selection correction",
+    "exact per-actor palette dedup with unchanged skin data",
+    "equivalent complete eight-corner enclosure",
+    "clear public preview settings",
+    "bounded limited-preview use"
+  ],
+  "denied": [
+    "general Solo lag resolved",
+    "measured FPS gain",
+    "full planted/contact gait",
+    "unobstructed upright travel",
+    "finished art",
+    "full mission",
+    "Gate1"
+  ],
+  "actualScreenshotsViewed": 8,
+  "actualMovementBoardsViewed": 2,
+  "reviewerHeavyJobs": [],
+  "implementationEdits": [],
+  "reviewerActiveHeavyJobs": 0,
+  "writersClosed": true
+}

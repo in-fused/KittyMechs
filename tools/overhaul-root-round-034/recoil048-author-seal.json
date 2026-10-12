@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-moving-recoil-048/author-handoff.json",
+      "bytes": 1243,
+      "sha256": "53d7a837005fc4650dcf5fcee13374a7c862c6acfdff167c1fbc662e3e9b2a06"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/author-seal.json",
+      "bytes": 437,
+      "sha256": "fb2624ef3fd112a4ffe1db2a8f0e1bc6324ab138769c7c7fb63848c597759e21"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author.py",
+      "bytes": 9424,
+      "sha256": "ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/prepare-author048.py",
+      "bytes": 1157,
+      "sha256": "2ae39a9b54cfbe9572d358ff46ba44e8ee160a41895bc58a0ec286a82fdcad76"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "protected": [
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "bytes": 77650342,
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-moving-recoil-048/author.py"
+  ],
+  "scope": "ONE independent-source-gated localBlender048 author;120s supervisor, failurepreserved/no retry; original034 master/model untouched. No shipping admission."
+}

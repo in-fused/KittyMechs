@@ -1,0 +1,49 @@
+{
+  "generated_on": "2026-10-03",
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "quotedCreditsPerImage": 1.5,
+  "assets": [
+    {
+      "index": 0,
+      "job_id": "e0e1f055-5df9-4957-a911-b3b554affc25",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261003_194831_e0e1f055-5df9-4957-a911-b3b554affc25.png",
+      "prompt": "Game theater selection concept illustration, realistic industrial coastal reclamation district, rain-soaked dock cranes and concrete seawall on the left, central service avenue splitting into cargo alleys, storm relay tower distant, evergreen coastal foothills, cool blue-gray overcast morning with amber industrial lights, no mechs, no people, no text or logos. Cinematic panoramic 16:9 composition, detailed grounded materials, readable geography. This is location concept art for KittyMech Rainline Reach.",
+      "original": "assets/inbox/theater-rainline.png",
+      "runtime": "public/assets/art/theater-rainline.webp"
+    },
+    {
+      "index": 1,
+      "job_id": "75b4cab9-43ca-4fb0-ad83-3f91725d66a5",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261003_194831_75b4cab9-43ca-4fb0-ad83-3f91725d66a5.png",
+      "prompt": "Game theater selection concept illustration, realistic abandoned volcanic quarry, terraced basalt excavation bowl with sloped switchback ramps, large orange gantry over central molten foundry vents, paired refinery yards and rusty pipeline walkways, warm copper dust and dark basalt cliffs, no mechs, no people, no text or logos. Cinematic panoramic 16:9 composition, detailed grounded materials, readable geography. This is location concept art for KittyMech Ember Quarry.",
+      "original": "assets/inbox/theater-ember.png",
+      "runtime": "public/assets/art/theater-ember.webp"
+    },
+    {
+      "index": 2,
+      "job_id": "3cde6f33-22b9-4159-b6cb-a097d01da7b7",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261003_194831_3cde6f33-22b9-4159-b6cb-a097d01da7b7.png",
+      "prompt": "Game theater selection concept illustration, realistic high alpine communications station, distinct snow-covered ridgeline with crossing maintenance routes, three insulated research outposts and giant antenna dishes, pines, frozen basin, pale turquoise ice and snow against dark rock, steel gantry causeway, cloudy cold daylight, no mechs, no people, no text or logos. Cinematic panoramic 16:9 composition, detailed grounded materials, readable geography. This is location concept art for KittyMech Frostline Basin.",
+      "original": "assets/inbox/theater-frostline.png",
+      "runtime": "public/assets/art/theater-frostline.webp"
+    },
+    {
+      "index": 3,
+      "job_id": "0649042e-bb44-402e-86ba-5492db7f7a0d",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261003_194832_0649042e-bb44-402e-86ba-5492db7f7a0d.png",
+      "prompt": "Seamlessly tileable 1:1 photorealistic game terrain albedo texture: flat dark volcanic basalt gravel, charcoal gray fragments with subtle rust mineral deposits and dusty copper fines. Orthographic directly overhead, flat diffuse lighting, no perspective, no shadows, no objects, no text, no large cracks, no baked directional light. Continuous natural detail evenly distributed edge to edge. Physically grounded rough ground color texture.",
+      "original": "assets/inbox/ember-ground.png",
+      "runtime": "public/assets/textures/ember-ground.webp"
+    },
+    {
+      "index": 4,
+      "job_id": "18fd37da-0e4c-429b-9adf-e042a32e8361",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20261003_194831_18fd37da-0e4c-429b-9adf-e042a32e8361.png",
+      "prompt": "Seamlessly tileable 1:1 photorealistic game terrain albedo texture: compacted alpine white snow broken by small dark slate gravel and restrained pale blue frost, approximately 80 percent snow coverage. Orthographic directly overhead, flat diffuse lighting, no perspective, no shadows, no objects, no text, no footprints, no baked directional light. Continuous natural detail evenly distributed edge to edge. Physically grounded rough ground color texture.",
+      "original": "assets/inbox/frost-ground.png",
+      "runtime": "public/assets/textures/frost-ground.webp"
+    }
+  ],
+  "note": "Theater illustrations are concept art. Terrain images are generated albedo textures; normal/roughness maps use the retained source terrain inputs. No plan change or credit top-up."
+}

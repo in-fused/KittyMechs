@@ -1,0 +1,102 @@
+{
+  "sealedUTC": "2026-10-10T17:33:34.0165869Z",
+  "files": [
+    {
+      "bytes": 3639,
+      "path": "docs/overhaul/camera-envelope-007-RESULT.md",
+      "sha256": "47b8a4f135f897582449f0f2da664aec4db401a012f71cd1818568d50003571a"
+    },
+    {
+      "bytes": 3602,
+      "path": "docs/overhaul/critic/camera-envelope-007-code-review.md",
+      "sha256": "7ebaa7d569b93f2b128f6eb24b473168042697c8f190fb243eacfd6d6cb985e7"
+    },
+    {
+      "bytes": 4730,
+      "path": "docs/overhaul/critic/identity57-player-007-result-review.md",
+      "sha256": "662e6b8536df57fa4f716a6066e4002bdadbb3335deffb64c657ecb94a44b827"
+    },
+    {
+      "bytes": 3353116,
+      "path": ".sites-runtime/overhaul-20261010/identity57-player-007/evidence.json",
+      "sha256": "50d843836b54b15603bf2da73663cc498e51624c5de62b56eef216b7819b2c51"
+    },
+    {
+      "bytes": 724,
+      "path": ".sites-runtime/overhaul-20261010/identity57-player-007/critic-result-closure.json",
+      "sha256": "ec07488dd6ea1809742405c3583379ee209439020a46285319a764bb2e1cb4d2"
+    },
+    {
+      "bytes": 3362,
+      "path": ".sites-runtime/overhaul-20261010/identity57-player-007-capture-integrity.json",
+      "sha256": "4eaf828872fda5bad6778b2eb51884ad4dcbb74c6f8b80072e34507241be8283"
+    },
+    {
+      "bytes": 4380,
+      "path": "tools/overhaul-camera-envelope-007/source-seal.json",
+      "sha256": "ee921461e21da01d65de4da637e41129829ef2a944bc1f9d194670bd9da69ebc"
+    },
+    {
+      "bytes": 1642,
+      "path": "tools/overhaul-camera-envelope-007/closure.json",
+      "sha256": "50da28fa512f7e6e7ccf76f7fbece7c3e2fd4ea64a101797e263f14b4f15c6b3"
+    },
+    {
+      "bytes": 4233,
+      "path": "tools/overhaul-camera-envelope-007/protected006-verification.json",
+      "sha256": "65eee539fc2ef0f4b4e1a4f99755b4f4fb66ab803f6b7d4e8a7233ab13e92357"
+    },
+    {
+      "bytes": 8671,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/actual-loader-readback.json",
+      "sha256": "f6329467828cf193f42db4f7eaa239ef7c1b29e5b0ceeaacc6d594b3b5f169cb"
+    },
+    {
+      "bytes": 154,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/compile1-receipt.json",
+      "sha256": "90871f480932a131582d765ce0772cd042a640c3fb5f42a6b12afff1abef15f7"
+    },
+    {
+      "bytes": 0,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/compile1.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 232,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/fixture-receipt.json",
+      "sha256": "7c0331b2346d919ea2348980b637e09e43a4ce9643127d3c48c4a2c63f026f0e"
+    },
+    {
+      "bytes": 239,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/fixture.stdout.txt",
+      "sha256": "eaf8738e0d8171ef0b2206c9e71e4e92ab5e78d48abebf4ae19ac55222578ad8"
+    },
+    {
+      "bytes": 2752,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/containment-result.json",
+      "sha256": "dcdcc399aeabdd9f790cab6189a8a66b7e09b971dc43a949e48f9dd1e2d561dd"
+    },
+    {
+      "bytes": 155,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/whole-build-receipt.json",
+      "sha256": "9357ca4b4d117a67bb42b843f84b0caa88f2fed9695104ac0784fbe45a316049"
+    },
+    {
+      "bytes": 2143,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/whole-build.stdout.txt",
+      "sha256": "3196322cae860c66083a2f4cfe71e803d6f51b6a9247e14c30f5f092ea0ebf74"
+    },
+    {
+      "bytes": 16782,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/observation-summary.json",
+      "sha256": "4aa3c1b8aedab27af564e2f0f327efd7c9d19ac6f47dfbc591afaf7f379a9b86"
+    },
+    {
+      "bytes": 4606,
+      "path": ".sites-runtime/overhaul-20261010/overhaul-camera-envelope-007/final-source-verification.json",
+      "sha256": "d582d670fd6c68911f098d26496692d52fc9f70337e31c9a6be6ac342f72bbec"
+    }
+  ],
+  "scope": "Actual007 finite outcome; original media protected by root capture-integrity receipt; no extra execution",
+  "writerClosed": true
+}

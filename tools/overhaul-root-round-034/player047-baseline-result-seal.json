@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/evidence.json",
+      "bytes": 3366430,
+      "sha256": "710bee7304d1971cdf1f5c707d96a13ac885c52b81be3b071b3abcd006713f23"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/idle.png",
+      "bytes": 1330713,
+      "sha256": "161924a7fec205ec5c5f5f4ef30a187015a684b5ae43d26235f928ed07ebe314"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/page@055bdb365e5d54061be43a12fa044731.webm",
+      "bytes": 3418193,
+      "sha256": "b2db3d1c5b84abcf7b4e49f8aef58453466c5e1496b4deb9058c378f82e2c82d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/quad-moving-fire.png",
+      "bytes": 1336018,
+      "sha256": "df0b2132478a4a9eca056130b83e20225c8fdbf6567d4acde482f5eb046fa8dd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/standard-walking.png",
+      "bytes": 1076767,
+      "sha256": "efd2215b18d18fd1a19614edf8ec05223e3bfe4f5fc2828673d7241135bac6f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/stationary-fire.png",
+      "bytes": 1330226,
+      "sha256": "8160b17525aa768c27e29c7be3b04a6c3a59f688bc3b31324ec1eebbcb7e099f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline/upright-moving-fire.png",
+      "bytes": 1237880,
+      "sha256": "acb2817ec03e9518384eb40018e8d614180f65eddcc610042cf097b3cc513581"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-motion/derivative-receipt.json",
+      "bytes": 1502,
+      "sha256": "6fb59a4e3d112babd174172da4e4f36b9d99938a7787bf08aa6b0239b4f8ff9d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-motion/quad-moving-fire-approx.png",
+      "bytes": 2332638,
+      "sha256": "0657c36ae66bed388bb0e68db13b9a85a03eae4237e3cb9114b8038e003ec2e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-motion/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-motion/upright-moving-fire-approx.png",
+      "bytes": 2516722,
+      "sha256": "001940b1802e392e511c763ee4781ac033a774101b99ade9167fa075b811cd74"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-process/process-receipt.json",
+      "bytes": 60858,
+      "sha256": "3d8b82390c4e986334b55f9ffb73c8c9cb6dca3b242ba2dd4c2392cb9cc06dc7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player047-baseline-process/stdout.txt",
+      "bytes": 797,
+      "sha256": "09acff7263146311d6458bef042a49fb86399a5735c4602a5367c4f0a887dba0"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/derive-baseline047.py",
+      "bytes": 2189,
+      "sha256": "ffc5e68c0120a19ca3c3afa2176a1383e2f57273f30b669f34a2e23cbd60976e"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/player047-baseline-seal.json",
+      "bytes": 95558,
+      "sha256": "7b27cdd3b9c7b18f760e74fd00aa0df451e3e5c83d092e1459faa4073d39a628"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-recoil-048-baseline-source-review.md",
+      "bytes": 1747,
+      "sha256": "eb87d3b1a9089f9e3709f1337beb2ca4008359fca4295b011c13f595a621f1ca"
+    }
+  ],
+  "scope": "ONE unchanged036 matched ordinaryLow movement/fire baseline for futureconditional049; no candidate/missile/contact/performance admission."
+}

@@ -1,0 +1,107 @@
+{
+  "status": "SOURCE_PROPOSAL_UNADMITTED",
+  "semantics": "local=((measuredSignedPhase+offset)%1+1)%1; stance iff local<sourceDuty and limb not unloaded; blended authored swing releases correction; no native-contact certificate",
+  "clips": [
+    {
+      "name": "FelineWalk",
+      "sourceDuty": 0.72,
+      "sourceOffsets": {
+        "FL": 0,
+        "HL": 0.75,
+        "FR": 0.5,
+        "HR": 0.25
+      },
+      "touchdown": {
+        "FL": 0.0,
+        "HL": 0.25,
+        "FR": 0.5,
+        "HR": 0.75
+      },
+      "nativeDistancePerCycle": 0.7777777777777777,
+      "sourceSweep": 0.6999999999999998,
+      "unloaded": []
+    },
+    {
+      "name": "FelineTrot",
+      "sourceDuty": 0.62,
+      "sourceOffsets": {
+        "FL": 0,
+        "HL": 0.54,
+        "FR": 0.5,
+        "HR": 0.04
+      },
+      "touchdown": {
+        "FL": 0.0,
+        "HL": 0.45999999999999996,
+        "FR": 0.5,
+        "HR": 0.96
+      },
+      "nativeDistancePerCycle": 1.3548387096774195,
+      "sourceSweep": 1.05,
+      "unloaded": []
+    },
+    {
+      "name": "FelineGallop",
+      "sourceDuty": 0.26,
+      "sourceOffsets": {
+        "FL": 0.52,
+        "HL": 0.94,
+        "FR": 0.45,
+        "HR": 0.87
+      },
+      "touchdown": {
+        "FL": 0.48,
+        "HL": 0.06000000000000005,
+        "FR": 0.55,
+        "HR": 0.13
+      },
+      "nativeDistancePerCycle": 2.4358974358974357,
+      "sourceSweep": 0.7916666666666666,
+      "unloaded": []
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "sourceDuty": 0.64,
+      "sourceOffsets": {
+        "FL": 0.5,
+        "HL": 0,
+        "FR": 0,
+        "HR": 0.5
+      },
+      "touchdown": {
+        "FL": 0.5,
+        "HL": 0.0,
+        "FR": 0.0,
+        "HR": 0.5
+      },
+      "nativeDistancePerCycle": 1.0625,
+      "sourceSweep": 0.85,
+      "unloaded": [
+        "FL",
+        "FR"
+      ]
+    },
+    {
+      "name": "FelineUprightStride",
+      "sourceDuty": 0.64,
+      "sourceOffsets": {
+        "FL": 0.5,
+        "HL": 0,
+        "FR": 0,
+        "HR": 0.5
+      },
+      "touchdown": {
+        "FL": 0.5,
+        "HL": 0.0,
+        "FR": 0.0,
+        "HR": 0.5
+      },
+      "nativeDistancePerCycle": 2.1533333333333333,
+      "sourceSweep": 1.7226666666666668,
+      "unloaded": [
+        "FL",
+        "FR"
+      ]
+    }
+  ]
+}

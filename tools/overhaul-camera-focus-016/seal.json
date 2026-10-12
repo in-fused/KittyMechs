@@ -1,0 +1,21 @@
+{
+  "frozenUTC": "2026-10-10T18:56:37.274192+00:00",
+  "scope": "Literal preexecution duplicate declaration removal only;015 denied/unrun preserved. Same camera design. ONE eventual serial compile/build027/capture016 after013 freeze. cleanup19:19 hard19:22 UTC.",
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 8376,
+      "sha256": "0acb09714ecc984aa871a3f50d2404ce484d41908f02fe987824acb06bf1f017"
+    },
+    {
+      "path": "tools/overhaul-camera-focus-player-016.mjs",
+      "bytes": 10653,
+      "sha256": "8669530063944bae8d9e51741dcee8a7ee2b60f12a47bd2b183b02d4d117fa71"
+    },
+    {
+      "path": "tools/overhaul-camera-focus-016/CameraRig.tsx.preimage015",
+      "bytes": 8491,
+      "sha256": "cb0eed659f0a736c9741192bd27eca7b0d9b48391a6427eaffbbd72f4fc2ba62"
+    }
+  ]
+}

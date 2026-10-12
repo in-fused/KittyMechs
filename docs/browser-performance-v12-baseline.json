@@ -1,0 +1,844 @@
+{
+  "date": "2026-10-04T15:20:38.687Z",
+  "port": 8791,
+  "label": "candidate",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "cameraDistance": 10,
+  "reducedFlashes": false,
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 60,
+      "calls": 282,
+      "triangles": 1417184,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 60,
+      "calls": 282,
+      "triangles": 1417184,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 60,
+      "calls": 283,
+      "triangles": 1417204,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 60,
+      "calls": 283,
+      "triangles": 1417204,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 60,
+      "calls": 283,
+      "triangles": 1417304,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 59,
+      "calls": 283,
+      "triangles": 1417244,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 510
+    },
+    {
+      "fps": 60,
+      "calls": 282,
+      "triangles": 1417184,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 492
+    },
+    {
+      "fps": 60,
+      "calls": 282,
+      "triangles": 1417184,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 492
+    },
+    {
+      "fps": 60,
+      "calls": 283,
+      "triangles": 1417204,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 492
+    },
+    {
+      "fps": 60,
+      "calls": 283,
+      "triangles": 1417304,
+      "geometries": 150,
+      "textures": 63,
+      "chunks": 9,
+      "bodies": 492
+    }
+  ],
+  "errors": [],
+  "source": {
+    "fingerprint": "acaa25b905c007cf9e5e577981bd75253a355f4ef91d2886de796593c9516624",
+    "baselineCommit": "d3798fd620f50ea1fa17a6816141ed07e4a4af89",
+    "runtimeFingerprint": "cf1a3ea4a7acae3367393e66798006b00ee8444d6c75de4be56987e2405a38a1",
+    "compiledCanvas": "GameCanvas-yOcptBXu.js"
+  },
+  "candidateAverage": {
+    "fps": 59.9,
+    "calls": 282.6,
+    "triangles": 1417220,
+    "geometries": 150,
+    "textures": 63
+  },
+  "baselineAverage": {
+    "fps": 59.9,
+    "calls": 243.6,
+    "triangles": 1298556,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaselineAverage": {
+    "fps": 60,
+    "calls": 243.6,
+    "triangles": 1298544,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaseline": "docs/browser-performance-v11-baseline.json",
+  "settledRAF": {
+    "durationMs": 10115.599999904633,
+    "samples": 606,
+    "p50": 16.600000143051147,
+    "p95": 18.90000009536743,
+    "p99": 21.09999990463257,
+    "maximum": 34.59999990463257,
+    "over50": 0,
+    "over100": 0
+  },
+  "note": "Independent serial v11/candidate fresh solo Rainline Pounce, medium1440x900 camera10 reducedFlashes=false, single headless Edge/GTX1070Ti,10 settled samples with RAF-only observer. No concurrent browser/CPU jobs; screenshot after measured window. Same FPS with higher calls/triangles; no FPS gain or worst-case/high/mobile claim. Moving reduced-flash sample is separate.",
+  "sameSessionBaseline": {
+    "average": {
+      "fps": 59.9,
+      "calls": 243.6,
+      "triangles": 1298556,
+      "geometries": 146,
+      "textures": 57
+    },
+    "settledRAF": {
+      "durationMs": 10098.799999952316,
+      "samples": 605,
+      "p50": 16.700000047683716,
+      "p95": 18.40000009536743,
+      "p99": 19.59999990463257,
+      "maximum": 33.200000047683716,
+      "over50": 0,
+      "over100": 0
+    },
+    "evidence": ".sites-runtime/critic/city-art/profile/v11-baseline-performance-report.json"
+  },
+  "delta": {
+    "calls": 39,
+    "callsPercent": 16.00985221674877,
+    "triangles": 118664,
+    "trianglesPercent": 9.138150376264097,
+    "geometries": 4,
+    "textures": 6,
+    "fps": 0
+  },
+  "budget": {
+    "wholeFrameAdditionalCalls": {
+      "cap": 60,
+      "measured": 39,
+      "passed": true
+    },
+    "additionalTriangles": {
+      "cap": 150000,
+      "measured": 118664,
+      "passed": true
+    },
+    "environmentCallAttribution": "UNMEASURED; aggregate calls cannot establish the proposed separate+30 environment cap"
+  },
+  "moving": {
+    "candidateOnly": true,
+    "method": "Candidate-only single browser-authority PVP ordinary route through avenue, outer service road and return; RAF-only observer, no per-frame contact/streaming, video or screenshot during measured route. Medium1440x900 camera10 reduced flashes true. Three subsequent ordinary solo redeployments test bounded render resources and scene retirement; not long-session/general hardware qualification.",
+    "durationMs": 118761.09999990463,
+    "raf": {
+      "samples": 7094,
+      "p50": 16.699999809265137,
+      "p95": 17.799999952316284,
+      "p99": 18.899999856948853,
+      "maximum": 179.79999995231628,
+      "over50": 7,
+      "over100": 3
+    },
+    "stages": {
+      "spawn": {
+        "samples": 1,
+        "p50": 4.599999904632568,
+        "p95": 4.599999904632568,
+        "p99": 4.599999904632568,
+        "maximum": 4.599999904632568,
+        "over50": 0,
+        "over100": 0
+      },
+      "58,-30": {
+        "samples": 1815,
+        "p50": 16.699999809265137,
+        "p95": 17.90000009536743,
+        "p99": 19.299999952316284,
+        "maximum": 179.79999995231628,
+        "over50": 4,
+        "over100": 3
+      },
+      "130,-30": {
+        "samples": 715,
+        "p50": 16.700000047683716,
+        "p95": 17.700000047683716,
+        "p99": 18.59999990463257,
+        "maximum": 26.09999990463257,
+        "over50": 0,
+        "over100": 0
+      },
+      "130,1": {
+        "samples": 767,
+        "p50": 16.700000047683716,
+        "p95": 17.700000047683716,
+        "p99": 18.899999856948853,
+        "maximum": 85.89999985694885,
+        "over50": 2,
+        "over100": 0
+      },
+      "130,121": {
+        "samples": 1183,
+        "p50": 16.700000047683716,
+        "p95": 17.600000143051147,
+        "p99": 18.800000190734863,
+        "maximum": 57.5,
+        "over50": 1,
+        "over100": 0
+      },
+      "174,121": {
+        "samples": 457,
+        "p50": 16.600000143051147,
+        "p95": 17.600000143051147,
+        "p99": 18.299999952316284,
+        "maximum": 19.5,
+        "over50": 0,
+        "over100": 0
+      },
+      "174,1": {
+        "samples": 1192,
+        "p50": 16.699999809265137,
+        "p95": 17.699999809265137,
+        "p99": 18.5,
+        "maximum": 23,
+        "over50": 0,
+        "over100": 0
+      },
+      "-8,22": {
+        "samples": 964,
+        "p50": 16.699999809265137,
+        "p95": 17.90000009536743,
+        "p99": 18.799999952316284,
+        "maximum": 26.899999856948853,
+        "over50": 0,
+        "over100": 0
+      }
+    },
+    "routeSamples": [
+      {
+        "stage": "58,-30",
+        "performance": {
+          "fps": 60,
+          "calls": 113,
+          "triangles": 696708,
+          "geometries": 112,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 254
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 58.639948818602385,
+            "y": 0.9401982657308691,
+            "z": -30.568329416941637
+          },
+          "velocity": {
+            "x": 0.10077965136659532,
+            "y": 0,
+            "z": -0.09591313512503165
+          },
+          "yaw": -0.8133985770712605,
+          "aimYaw": -0.8084999999999999,
+          "aimPitch": -0.0705108700717498,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 1293
+        }
+      },
+      {
+        "stage": "130,-30",
+        "performance": {
+          "fps": 60,
+          "calls": 80,
+          "triangles": 861672,
+          "geometries": 113,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 351
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 130.93944128722327,
+            "y": 0.9400999517583114,
+            "z": -30.003604448484616
+          },
+          "velocity": {
+            "x": 0.1757443865438092,
+            "y": 0,
+            "z": -0.00035660740277341206
+          },
+          "yaw": -1.5688723784971101,
+          "aimYaw": -1.5687,
+          "aimPitch": -0.02115354642050121,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 2007
+        }
+      },
+      {
+        "stage": "130,1",
+        "performance": {
+          "fps": 59,
+          "calls": 121,
+          "triangles": 1078578,
+          "geometries": 118,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 351
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 129.68075171881955,
+            "y": 0.9400999126172974,
+            "z": 0.6055783093980338
+          },
+          "velocity": {
+            "x": 0.04249833037370964,
+            "y": 0,
+            "z": 0.1716787140930634
+          },
+          "yaw": -2.914061785671992,
+          "aimYaw": -2.8895999999999993,
+          "aimPitch": -0.07045002766493605,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 2337
+        }
+      },
+      {
+        "stage": "130,121",
+        "performance": {
+          "fps": 60,
+          "calls": 76,
+          "triangles": 883412,
+          "geometries": 116,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 414
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 130.21245871215703,
+            "y": 0.9400999568048701,
+            "z": 121.74739184283686
+          },
+          "velocity": {
+            "x": 0.05458186141213926,
+            "y": 0,
+            "z": 0.12793596813501498
+          },
+          "yaw": -2.7461223033601287,
+          "aimYaw": -2.7341999999999995,
+          "aimPitch": -0.054666917547344915,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 3521
+        }
+      },
+      {
+        "stage": "174,121",
+        "performance": {
+          "fps": 60,
+          "calls": 71,
+          "triangles": 770984,
+          "geometries": 113,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 414
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 173.93376098697533,
+            "y": 0.940130637802822,
+            "z": 120.80850459071172
+          },
+          "velocity": {
+            "x": 0.08546807611808574,
+            "y": 0,
+            "z": 0.013549925880807803
+          },
+          "yaw": -1.7107302792581054,
+          "aimYaw": -1.7367,
+          "aimPitch": 0.08250384557166378,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 3978
+        }
+      },
+      {
+        "stage": "174,1",
+        "performance": {
+          "fps": 60,
+          "calls": 77,
+          "triangles": 890932,
+          "geometries": 116,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 392
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 173.9978597676576,
+            "y": 0.9401005287442512,
+            "z": -0.34647132535081937
+          },
+          "velocity": {
+            "x": -2.2686856881329466e-17,
+            "y": 0,
+            "z": -0.1111359676882071
+          },
+          "yaw": 3.183390555994674e-13,
+          "aimYaw": 7.32920668600201e-17,
+          "aimPitch": -0.077635584027369,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 5170
+        }
+      },
+      {
+        "stage": "130,1",
+        "performance": {
+          "fps": 57,
+          "calls": 121,
+          "triangles": 965174,
+          "geometries": 114,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 351
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 130.31672874579687,
+            "y": 0.940171285227434,
+            "z": 0.8785236471563489
+          },
+          "velocity": {
+            "x": -0.16953903810336182,
+            "y": 0,
+            "z": 0.046072293429967215
+          },
+          "yaw": 1.8330130997923382,
+          "aimYaw": 1.8375000000000001,
+          "aimPitch": -0.06422592499268646,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 5607
+        }
+      },
+      {
+        "stage": "58,-30",
+        "performance": {
+          "fps": 60,
+          "calls": 120,
+          "triangles": 700666,
+          "geometries": 113,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 254
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": 57.8824307369419,
+            "y": 0.9401023023380457,
+            "z": -30.104672188813687
+          },
+          "velocity": {
+            "x": -0.07811315049990161,
+            "y": 0,
+            "z": -0.03889946612728237
+          },
+          "yaw": 1.1049121453628492,
+          "aimYaw": 1.1108999999999998,
+          "aimPitch": -0.07055470180417059,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 6445
+        }
+      },
+      {
+        "stage": "-8,22",
+        "performance": {
+          "fps": 60,
+          "calls": 138,
+          "triangles": 1019854,
+          "geometries": 113,
+          "textures": 56,
+          "chunks": 9,
+          "bodies": 308
+        },
+        "actor": {
+          "id": "e610c61b-7212-4454-85c1-7986cac135a5",
+          "name": "DistrictPerf",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": -8.227505955722734,
+            "y": 0.9401862739775151,
+            "z": 22.444469082611782
+          },
+          "velocity": {
+            "x": -0.036508089978041544,
+            "y": 0,
+            "z": 0.13319762261070886
+          },
+          "yaw": 2.86402232655977,
+          "aimYaw": 2.8790999999999998,
+          "aimPitch": -0.07051221008485965,
+          "hp": 220,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 0,
+          "salvage": 0,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 0,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 2.799999999999995,
+          "rocketAt": -100,
+          "abilityAt": -100,
+          "hurtAt": -100,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": -100,
+          "fireAt": 2.799999999999995,
+          "aiState": "patrol",
+          "lastInput": 7406
+        }
+      }
+    ],
+    "redeployments": [
+      {
+        "fps": 27,
+        "calls": 282,
+        "triangles": 1417184,
+        "geometries": 150,
+        "textures": 63,
+        "chunks": 9,
+        "bodies": 528
+      },
+      {
+        "fps": 60,
+        "calls": 282,
+        "triangles": 1417184,
+        "geometries": 150,
+        "textures": 63,
+        "chunks": 9,
+        "bodies": 528
+      },
+      {
+        "fps": 60,
+        "calls": 282,
+        "triangles": 1417184,
+        "geometries": 150,
+        "textures": 63,
+        "chunks": 9,
+        "bodies": 528
+      }
+    ],
+    "settings": {
+      "preset": "medium",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "cameraDistance": 10,
+      "reducedFlashes": true
+    },
+    "evidence": ".sites-runtime/critic/city-art/profile/district-report.json",
+    "limits": "No matched baseline for this route. Three>100ms gaps occur in initial connector stage; no causal attribution or general hardware guarantee. Three redeploys qualify resources, not long-session or startup/settled FPS."
+  }
+}

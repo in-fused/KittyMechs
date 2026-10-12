@@ -1,0 +1,37 @@
+from pathlib import Path
+import datetime, json
+r=Path(__file__).resolve().parents[2];stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
+body=f'''Updated {stamp}. Finite full overhaul goal ACTIVE / INCOMPLETE. Execute the complete original brief in docs/research/new-overhaul-task-prompt-20261009.md. Architecture003 comparison is closed. Lead Sol Medium, difficult physics/animation/debugging and independent reviews Sol High, routine work Medium; Standard speed requested. At most two implementation specialists plus an independent critic. No Unreal, paid generation, installations, automation or reset redemption.
+
+## Recommended playable checkpoint
+
+http://localhost:8801/?overhaul=1 — select Pounce and enable Pounce feline prototype in Settings. Frozen build028 preserves the reviewed supported two-stance movement sequence and adds15 original authored street props. Independent030 review accepted functional sequence, partial ordinary travel and small prop increment only. Finished gait, genuine physical paired contact, complete climbing, dense art, destruction and Gate1 remain unapproved. Frozen root .sites-runtime/overhaul-20261009/build-028/playable-root; port8801 server23538. Receipt SHA2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7. Restart in that root with PORT=8801 and node --import tsx server/index.ts --production. Prior checkpoints8800/8799/8790 remain preserved.
+
+## Closed round027: new material/camera candidate
+
+Local Blender author034 generated original panel, louver, fastener, abrasion and ID-paint PBR textures; packed editable master and five PNGs are retained in assets/source/overhaul-pounce-art-detail-034. Direct GLB resource append preserves original019 binary/mesh/accessor/node/skin/animation bytes. Public Pounce_ArtDetail034.glb SHA5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595. Independent034 review accepted material-resource preservation only, not finished art or animation.
+
+Candidate035 adds explicit persisted6m feline camera setting and rendered-height camera composition. ONE production build passed35.312s; frozen build029 has394 files113322724bytes; receipt SHA6f079cde517809e9f1bf8f6da4435814b29ba50df11bbb4ea074f73c8dd8311b. Candidate http://localhost:8802/?overhaul=1, server61243, remains unapproved. Do not replace recommended028 with it.
+
+ONE browser capture035 stopped at the opening paired pin: native strikeProcessed1, an unpaired dive, then supported safe fallback. No browser errors;62.641s inclusive; no retry. Actual evidence/video .sites-runtime/overhaul-20261010/art-player-035; process art035-capture-process. Later transformation/jump/route steps were never reached. The smaller camera's effect on crosshair/muzzle pitch is a candidate cause, not yet an exact captured strike-input proof. Camera distance returned to legacy10m after fallback. Root viewed original-video1fps contact sheet art-motion-035/original-video.png: slightly closer rear view but thin limbs and rounded armor; small material detail does not establish finished art. Consult independent critic/pounce-art-player-035-result-review.md for the authoritative verdict. Original failed receipt is immutable.
+
+## Closed sparse contact032
+
+Exact saved029 diagnostics independently confirmed six actual pad/chassis triangle intersections. New whole-hand design derives orientation and hinges from current receiver normal and uses every hand vertex to constrain wrist before fixed-chain IK. ONE sparse source validation stopped14.969s at ordered rigid-weight guard UNSUPPORTED_NONRIGID_HAND_SOURCE:FL_IntegratedWristArmor, before receiving queries or hand solve. Exact offending weight tuples are unknown; this does not prove contact or geometry failure. One prepared clock and11 owner rows only. Actual raw failure stage1/frame3/sourceSparseClockSeconds0.03333333333333333; summary timing erratum is retained. No full-author, export, native promotion, render, repair or retry. Partial editable81MB master and all actual receipts retained. Result seal tools/overhaul-pounce-hand-contact-032/final-result-seal.json SHA4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292. Independent review accepts preservation/prepared pose only and denies completed contact/release/art/native/Gate1.
+
+## Exact recovery and next finite work
+
+Latest recovery .sites-runtime/overhaul-20261010/handoff-027 must have external continuation-verification-027.json status VERIFIED before restoration. Overlay files onto complete .sites-runtime/overhaul-20261009/preserved-007/files; preserve historical files. Check base-manifest SHA. This includes ignored editable assets; original runtime videos, process receipts and playable roots remain at original paths. Prior verified026 remains intact. All round027 source/review writers and heavy jobs are closed before snapshot. Idle playable servers remain.
+
+Allowance21:27UTC79%used/21%remaining, ordinary use allowed. Reserve final10% for verification/freezing/exact handoff. Existing upgraded playable028 is preserved before exhaustion. Never mark the full goal complete at the quota boundary.
+
+Next player-facing work: separately bounded difficult camera/strike-input investigation with exact queued native strike pitch evidence, then an independently reviewed safe integrated correction. Distinguish intentional downward dive input from camera/muzzle parallax without disabling dive or waiving checks. Do not rerun035 unchanged. Whole-hand continuation requires actual weighted/skinned geometry under the accepted single pose owner, not omitted armor, weight rewriting, marker shifts or guard exemptions. Do not run another full source-author loop until that representation is validated. Preserve all old failed packets.
+
+Still required: independently accepted detailed connected district with convincing both stances, genuinely paired combat, universal supported climbing, wear/load-path destruction and dependable two-client checkpoint/revive/lifecycle; then four distinct mechs and all three populated maps, Co-Op/PvP/PvPvE, progression/pickups, audio/loading/performance. First district is not final scope. Passing tests cannot approve art or gameplay. Prior details/failed packets remain in immutable round026 recovery and source reports.
+'''
+for name,title in [('current-state.md','Current KittyMech overhaul state'),('resource-limit-handoff-20261010.md','Exact continuation handoff027'),('active-bounded-work-20261010.md','Closed bounded round027')]:
+ (r/'docs/overhaul'/name).write_text('# '+title+'\n\n'+body,encoding='utf8')
+p=r/'docs/overhaul/playable-checkpoints.md';s=p.read_text(encoding='utf8');title='## Unapproved material and camera candidate029'
+assert title not in s
+s=s.replace('## Street increment preview028',title+'\n\nCandidate http://localhost:8802/?overhaul=1 retains original019 geometry and clips with original034 PBR detail and an explicit6m feline camera setting. ONE build passed; ONE gameplay capture failed at the opening pin with an unpaired dive and safe fallback. Later movement/route steps were not reached. Build029 is frozen for diagnosis only; use reviewed028 at8801. No contact032 promotion. Frozen root `.sites-runtime/overhaul-20261009/build-029/playable-root`, receipt SHA6f079cde517809e9f1bf8f6da4435814b29ba50df11bbb4ea074f73c8dd8311b, server61243.\n\n## Street increment preview028',1);p.write_text(s,encoding='utf8')
+print(json.dumps({'writtenUTC':stamp,'files':4}))

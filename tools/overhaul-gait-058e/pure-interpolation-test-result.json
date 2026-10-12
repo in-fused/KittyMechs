@@ -1,0 +1,338 @@
+{
+  "status": "PASS_PURE_LOCAL_MATH_ONLY",
+  "STEPOracleCases": [
+    {
+      "path": "translation",
+      "time": 0.5,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 1,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 1.1,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 2.999,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 3,
+      "actual": [
+        110,
+        120,
+        130
+      ],
+      "expectedThree": [
+        110,
+        120,
+        130
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 3.001,
+      "actual": [
+        110,
+        120,
+        130
+      ],
+      "expectedThree": [
+        110,
+        120,
+        130
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 5.999,
+      "actual": [
+        110,
+        120,
+        130
+      ],
+      "expectedThree": [
+        110,
+        120,
+        130
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 6,
+      "actual": [
+        210,
+        220,
+        230
+      ],
+      "expectedThree": [
+        210,
+        220,
+        230
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 7,
+      "actual": [
+        210,
+        220,
+        230
+      ],
+      "expectedThree": [
+        210,
+        220,
+        230
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 2,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "translation",
+      "time": 1,
+      "actual": [
+        10,
+        20,
+        30
+      ],
+      "expectedThree": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 0.5,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 1,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 1.1,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 2.999,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 3,
+      "actual": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "expectedThree": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 3.001,
+      "actual": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "expectedThree": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 5.999,
+      "actual": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "expectedThree": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 6,
+      "actual": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "expectedThree": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 7,
+      "actual": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "expectedThree": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 2,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "rotation",
+      "time": 1,
+      "actual": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expectedThree": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "linearVectorAndSlerpPreserved": true,
+  "CUBICSPLINEAndUnknownRejected": true,
+  "BlenderBrowserExportBuildNativeJobs": 0
+}

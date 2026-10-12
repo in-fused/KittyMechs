@@ -1,0 +1,35 @@
+{
+  "job": "author",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-anatomy-motion-202\\author202.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T20:42:51.498397+00:00",
+  "pid": 363172,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "outputs": [
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/output/Pounce_Anatomy202.glb",
+      "bytes": 17481360,
+      "sha256": "38cb294dff0bd000cc8edffdf5817a3d7cc81ef1ae7ce53e124a76fde77600b2"
+    }
+  ],
+  "actualRecords": 45,
+  "actualBones": 61,
+  "actualClips": 45,
+  "actualPrimitives": 4,
+  "elapsedSeconds": 80.92200000002049,
+  "closedUTC": "2026-10-11T20:44:12.410598+00:00"
+}

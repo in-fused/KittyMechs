@@ -1,0 +1,112 @@
+{
+  "packet": "coop-play-045",
+  "owner": "/root/extraction_structure_039",
+  "status": "FROZEN_WRITERS_CLOSED_SOURCE_ONLY_INDEPENDENT_SOURCE_GATE_REQUIRED",
+  "sourceFrozenUTC": "2026-10-11T00:23:30.2605200Z",
+  "ownedPaths": [
+    "tools/overhaul-coop-play-045/mission-capture.mjs",
+    "tools/overhaul-coop-play-045/README.md"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-coop-play-045/mission-capture.mjs",
+      "bytes": 31383,
+      "sha256": "f3fbe390f3d96a21b3ad803473ee82ab2ca0f8c28a380a598b9806243eee93c8"
+    },
+    {
+      "path": "tools/overhaul-coop-play-045/README.md",
+      "bytes": 3809,
+      "sha256": "ad1a5c20329bcb12fb19babcb3d689a6c2c40428dd21c6498f47563aaa1ce3d5"
+    }
+  ],
+  "dependenciesReadOnly": [
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "tools/overhaul-mission-identity-041/mission-capture.mjs",
+      "bytes": 29093,
+      "sha256": "424272177290bb9d920a3562260ffba294216cb43bc28c3155c12ab604a7bf38"
+    },
+    {
+      "path": "tools/overhaul-mission-identity-041/critic-result-closure.json",
+      "bytes": 2982,
+      "sha256": "a523c6ff4742cd928a0e9bf6579707b8018524294f507cb1e5e11833fbda99ef"
+    },
+    {
+      "path": "docs/overhaul/critic/mission-identity-041-result-review.md",
+      "bytes": 4873,
+      "sha256": "8fa3dfae62903ea574f006fea4533cf8514c9ba50e37f0f85aa16114fd78d7f5"
+    }
+  ],
+  "runtimeEdits": [],
+  "jobsExecuted": [],
+  "baseline": "Frozen036 stable8799; latestsourcebackup033 VERIFIED113files9831603B manifest4c50403f049bce2099399cadb04c874bc32e50ceac48d944685c9cfe6470664e unchanged",
+  "prior041Classification": "155s cutoff firstwest,57settles,first10m~42s,oneorganicrevive825samepublicationcomparisons0mismatch; notdiagnosedmissionbug",
+  "design": "Two independent headlessEdgeprocesses, onepageeach. Concurrentwholewaypoint routes6mfullhullspacing; hostinteractor+guestcover. No4mserialhop/faceNorthloop. SettledneutralACKvel<=.12 distinctnativeTick proofs retained at actualfullwaypoint/objective/rescue approaches. Concurrent actions joined beforeorganicrescue; no control races perpage.",
+  "bounds": {
+    "workSeconds": 420,
+    "cleanupSeconds": 30,
+    "intendedInclusiveSeconds": 450,
+    "rootAbsoluteSupervisorSeconds": 480,
+    "framesPerClient": 9000,
+    "recentPublicationIndex": 300,
+    "nativeKeyframesBytes": 18000000,
+    "combinedFinalJSONBytes": 30000000,
+    "hostPeriodicKeyframesSeconds": 2,
+    "organicRescuesMaximum": 2,
+    "attempts": 1,
+    "automaticRetry": false
+  },
+  "nativeObservation": "ExplicitfullsharedWorld045 selector unchanged041fields; room+publicationepoch/sequence exactidentity+tick/time/hash equality, bootstrap explicitfullkeyframes. Fullstatehashes everyobservedframe, semantic/lifecycle/checkpoint/ruin/wear keyframes. Bounds failstop explicitly. No native actor/HP/damage/warp/objective writes.",
+  "requiredCompletion": "Bothclients modecoop+phaseextracted, allfourrequiredwest/east/core/extractioncomplete, bothhumansalive andwithin4.5mofextraction, >=3 exactpublicationmatches; no missionclaimwithoutactualindependentresultapproval",
+  "capture": {
+    "processes": 2,
+    "browser": "headless msedge",
+    "hostViewport": [
+      1440,
+      900
+    ],
+    "hostVideo": [
+      960,
+      600
+    ],
+    "guestVideo": false
+  },
+  "rootSourceCheckCommand": [
+    "node",
+    "--check",
+    "tools/overhaul-coop-play-045/mission-capture.mjs"
+  ],
+  "rootCaptureCommand": [
+    "node",
+    "tools/overhaul-coop-play-045/mission-capture.mjs",
+    ".sites-runtime/overhaul-20261011/coop045-public"
+  ],
+  "defaultOutputDirectory": ".sites-runtime/overhaul-20261011/coop045-public",
+  "requiredEnv": {
+    "KITTYMECH_BUILD_RECEIPT": "Root must supply exact frozen036 receipt SHA256"
+  },
+  "rootExecutionPrerequisites": [
+    "Independent critic source gate",
+    "Stable8799 existing036 server remains",
+    "Fresh outputdirectory; ONEattempt",
+    "Rootownedprocess supervisor480s+cleanup process tree"
+  ],
+  "implementationOrdinal": 1,
+  "technicalRepairMaximum": 1,
+  "technicalRepairsUsed": 0,
+  "fullUserGoal": "ACTIVE_INCOMPLETE"
+}

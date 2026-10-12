@@ -1,0 +1,105 @@
+{
+  "status": "PASS_SCOPED_MOVING_RAF_AND_NORMAL_REDEPLOY_LIFETIME",
+  "recordedAt": "2026-10-05T03:33:51.730158+00:00",
+  "captureOwner": "/root",
+  "independentReviewer": "/root/critic",
+  "baselineSource": "bab399705a844b7b1a45cd628365de31e71815bc",
+  "reviewedReleaseSourceFingerprint": "b1c3dd3f9eb889c2c7d05cc5e164722c6c60edf2abbc05b1e39a139ff5e80b7d",
+  "measuredCandidateSourceFingerprint": "a87479c8a9ee3e368b6a22d39879b36a76c624132ef9869c9c5fc367426c391c",
+  "measuredCandidate": "candidate002",
+  "finalCandidate": "candidate003",
+  "finalChange": "Only residential sign slot3 to neutral1; final003 timing was not recaptured. Prior002 timing remains explicitly scoped corroboration.",
+  "evidence": {
+    "moving": ".sites-runtime/city-expansion/moving-browser-002.json",
+    "movingSha256": "3c2b1ca94fb7a4c1eed8a87cd0790e487dfae7582a70281ccbf6dd5352c68412",
+    "independentAudit": ".sites-runtime/critic/city-expansion/moving-browser-002-audit.json",
+    "lifetime": ".sites-runtime/critic/city-expansion/final/runtime-check.json",
+    "finalBinding": ".sites-runtime/critic/city-expansion/final/candidate003-binding.json"
+  },
+  "scope": "Serial medium-quality1440x900 private compiled builds; same ordinary east-facing quad W/S/D/A4s loop,10s post-ready warmup; one real PVP pilot. Not exhaustive city/Co-op/8-player qualification.",
+  "profiles": [
+    {
+      "label": "baseline",
+      "summary": {
+        "meanFPS": 56.82368905706053,
+        "frameMs": {
+          "p50": 17.599999999998545,
+          "p95": 18.19999999999709,
+          "p99": 18.599999999998545,
+          "max": 18.80000000000291,
+          "over50": 0
+        },
+        "movingFrames": 916,
+        "frames": 938,
+        "snapshots": 296,
+        "packetBytesMax": 3134,
+        "structuralBytesMax": 489,
+        "packetGapP95": 76
+      }
+    },
+    {
+      "label": "candidate",
+      "summary": {
+        "meanFPS": 56.915540969778576,
+        "frameMs": {
+          "p50": 17.599999999998545,
+          "p95": 18.19999999999709,
+          "p99": 18.5,
+          "max": 18.799999999999272,
+          "over50": 0
+        },
+        "movingFrames": 918,
+        "frames": 940,
+        "snapshots": 300,
+        "packetBytesMax": 17543,
+        "structuralBytesMax": 14909,
+        "packetGapP95": 75
+      }
+    }
+  ],
+  "independentCostJudgment": {
+    "movingReceipt": "../moving-browser-002-audit.json",
+    "movingScope": "One Pounce guest, medium1440x900/defaultcamera10, sixteen-and-a-half-second common-spawn W/S/D/A loop",
+    "baselineMeanFPS": 56.82368905706053,
+    "candidateMeanFPS": 56.915540969778576,
+    "meanFPSChangePercent": 0.16164369867963657,
+    "bothP95Ms": 18.2,
+    "bothMaximumMs": 18.8,
+    "bothFramesOver50Ms": 0,
+    "matchedBeforeRenderDelta": {
+      "calls": 2,
+      "triangles": 146576,
+      "geometries": 2,
+      "textures": 4
+    },
+    "sourceEightPlayerTickSample": {
+      "actors": 21,
+      "ticks": 900,
+      "meanMs": 2.091249,
+      "p95Ms": 3.0572,
+      "p99Ms": 9.9502,
+      "maxMs": 37.2984,
+      "above16_67Ms": 3
+    },
+    "v15TickSample": {
+      "actors": 18,
+      "meanMs": 1.434886111111114,
+      "p95Ms": 2.1988,
+      "p99Ms": 4.4897,
+      "above16_67Ms": 0
+    }
+  },
+  "normalRedeploy": {
+    "deployments": 3,
+    "sameSpawnGeometries": 104,
+    "sameSpawnTextures": 54,
+    "hangarWorldCanvasSnapshotTerrainClears": true,
+    "scope": "Independent002 normal scene recreation; per-renderer counts, no VRAM/endurance/process-wide retention claim."
+  },
+  "limits": [
+    "One rendered pilot on the common spawn loop; not full-city/eight-rendered-client or WAN latency qualification.",
+    "No FPS gain or universal hitch-free movement claim.",
+    "Whole eight-client packet maximum32946B exceeds32KiB;48KiB bound concerns the structural array separately.",
+    "Inherited upright clips, partial-weight contact drift, broad fidelity/traversal/destruction goals remain unfinished."
+  ]
+}

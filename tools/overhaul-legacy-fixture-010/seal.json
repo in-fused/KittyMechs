@@ -1,0 +1,1539 @@
+{
+  "task": "legacyFixtureCausal010",
+  "startUtc": "2026-10-10T18:11:00Z",
+  "frozenUtc": "2026-10-10T18:14:02.8496454Z",
+  "hardDeadlineUtc": "2026-10-10T18:30:00Z",
+  "cleanupUtc": "2026-10-10T18:28:00Z",
+  "command": "node tools/overhaul-legacy-fixture-010/run.mjs",
+  "status": "FROZEN_DIAGNOSTIC_UNRUN",
+  "inherited155Match": true,
+  "sourceTestCopies": [
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/areaGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/areaGeometry.ts",
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/building-grip-profiles.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/building-grip-profiles.json",
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/buildingGrip.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingGrip.ts",
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/buildingSurfaces.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingSurfaces.ts",
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/buildingVault.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingVault.ts",
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/characterRubbleImpulse.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/characterRubbleImpulse.ts",
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityDistrict.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityDistrict.ts",
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityFracture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityFracture.ts",
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityFractureCatalog.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityFractureCatalog.ts",
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityNavigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityNavigation.ts",
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityRubble.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubble.ts",
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityRubbleAdmission.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubbleAdmission.ts",
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/cityRubbleImpact.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubbleImpact.ts",
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/config.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/config.ts",
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/coverState.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/coverState.ts",
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/encounters.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/encounters.ts",
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineContactFrame004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineContactFrame004.ts",
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineNativePose003.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePose003.ts",
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineNativePose004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePose004.ts",
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineNativePoseSource003.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePoseSource003.ts",
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineNativePoseSource004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePoseSource004.ts",
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/felineStrike.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineStrike.ts",
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/foliage.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/foliage.ts",
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/inputProtocol.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/inputProtocol.ts",
+      "sha256": "914e0ff383ae04ee2d825fee1289a8f9b487fbf2b1f0a680c5923bb82d6cd1cd"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/layout.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/layout.ts",
+      "sha256": "2aa92e5d68a6e25d600086fcf6d1796fc7b2323e91c9ced18aecb71d1749987a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/maps.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/maps.ts",
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/math.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/math.ts",
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/navigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/navigation.ts",
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulArchitecture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulArchitecture.ts",
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulBondedMaterial.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulBondedMaterial.ts",
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulBondedOwner.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulBondedOwner.ts",
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulCoop.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulCoop.ts",
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulCornerClimb.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulCornerClimb.ts",
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulDistrict.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulDistrict.ts",
+      "sha256": "822864bd12697f15244059dd1e705c054c5744120e6f2ec76d1d67e7c32063b3"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulDressing.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulDressing.ts",
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulEncounter.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulEncounter.ts",
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulFracture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulFracture.ts",
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulGantryPortal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulGantryPortal.ts",
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulRoofLocal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRoofLocal.ts",
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulRuinImpact.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuinImpact.ts",
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulRuins.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuins.ts",
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulRuinSurfaces.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuinSurfaces.ts",
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/overhaulSupport.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulSupport.ts",
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/ownedCharacterMotion.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/ownedCharacterMotion.ts",
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/ownedCharacterQuery.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/ownedCharacterQuery.ts",
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/pairedCombat.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/pairedCombat.ts",
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/protocol.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/protocol.ts",
+      "sha256": "dd7888228590034743dcd22fa899d58e97b0bb97e13ffdb5f0d80271544383f4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/rainlineLampCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineLampCollision.ts",
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/rainlineStreetAdmission.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineStreetAdmission.ts",
+      "sha256": "3fb18b5f9224b9319e6f3c20a0ded231e6c84ed2f105496902586ff09d996059"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/rainlineStreetPopulation002.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineStreetPopulation002.ts",
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/roadGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/roadGeometry.ts",
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/scenery.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/scenery.ts",
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/simulation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/simulation.ts",
+      "sha256": "41cdbec5aea64bc5008a164e113befc6ea8cea0924706eae5771c5f49a58aca8"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/streaming.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/streaming.ts",
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/structuralPropCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/structuralPropCollision.ts",
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/structuralPropNavigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/structuralPropNavigation.ts",
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/supplies.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/supplies.ts",
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/traversal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/traversal.ts",
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/types.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/types.ts",
+      "sha256": "8bcd22cb38d33bcade08d729a457d6912052cf45273e1518f7b76f660b213dcf"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/vertical-navigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/vertical-navigation.ts",
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/weather.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/weather.ts",
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/workshopCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/workshopCollision.ts",
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/workshopGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/workshopGeometry.ts",
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/world.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/world.ts",
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/city-fracture-shapes-v2.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/city-fracture-shapes-v2.json",
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/city-fracture-v1.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/city-fracture-v1.json",
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/rainlineLampMeshCollision001.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/rainlineLampMeshCollision001.json",
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/rainlineStreetAdmission001.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/rainlineStreetAdmission001.json",
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/structuralPropCollision.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/structuralPropCollision.json",
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/workshopCollision.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/workshopCollision.json",
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/data/workshopRoofPatches.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/workshopRoofPatches.json",
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/shared/experimental/pounceMotionV6.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/experimental/pounceMotionV6.ts",
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/baseline020/tests/stance.test.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/tests/stance.test.ts",
+      "sha256": "303e20a8048aba6344d0516ec1ea1e8126a5057a29d9592103f0c6b29e81806e"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/areaGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/areaGeometry.ts",
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/building-grip-profiles.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/building-grip-profiles.json",
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/buildingGrip.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingGrip.ts",
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/buildingSurfaces.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingSurfaces.ts",
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/buildingVault.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingVault.ts",
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/characterRubbleImpulse.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/characterRubbleImpulse.ts",
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityDistrict.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityDistrict.ts",
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityFracture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityFracture.ts",
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityFractureCatalog.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityFractureCatalog.ts",
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityNavigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityNavigation.ts",
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityRubble.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubble.ts",
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityRubbleAdmission.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubbleAdmission.ts",
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/cityRubbleImpact.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubbleImpact.ts",
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/config.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/config.ts",
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/coverState.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/coverState.ts",
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/encounters.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/encounters.ts",
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineContactFrame004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineContactFrame004.ts",
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineNativePose003.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePose003.ts",
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineNativePose004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePose004.ts",
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineNativePoseSource003.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePoseSource003.ts",
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineNativePoseSource004.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePoseSource004.ts",
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/felineStrike.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineStrike.ts",
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/foliage.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/foliage.ts",
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/inputProtocol.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/inputProtocol.ts",
+      "sha256": "914e0ff383ae04ee2d825fee1289a8f9b487fbf2b1f0a680c5923bb82d6cd1cd"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/layout.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/layout.ts",
+      "sha256": "2aa92e5d68a6e25d600086fcf6d1796fc7b2323e91c9ced18aecb71d1749987a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/maps.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/maps.ts",
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/math.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/math.ts",
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/navigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/navigation.ts",
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulArchitecture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulArchitecture.ts",
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulBondedMaterial.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulBondedMaterial.ts",
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulBondedOwner.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulBondedOwner.ts",
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulCoop.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulCoop.ts",
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulCornerClimb.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulCornerClimb.ts",
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulDistrict.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulDistrict.ts",
+      "sha256": "822864bd12697f15244059dd1e705c054c5744120e6f2ec76d1d67e7c32063b3"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulDressing.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulDressing.ts",
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulEncounter.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulEncounter.ts",
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulFracture.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulFracture.ts",
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulGantryPortal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulGantryPortal.ts",
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulRoofLocal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRoofLocal.ts",
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulRuinImpact.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuinImpact.ts",
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulRuins.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuins.ts",
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulRuinSurfaces.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuinSurfaces.ts",
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/overhaulSupport.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulSupport.ts",
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/ownedCharacterMotion.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/ownedCharacterMotion.ts",
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/ownedCharacterQuery.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/ownedCharacterQuery.ts",
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/pairedCombat.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/pairedCombat.ts",
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/protocol.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/protocol.ts",
+      "sha256": "1189d00cd2db6b579d96805bdd5880b44dc5521a9bfbac055508104fe1336c9d"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/rainlineLampCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineLampCollision.ts",
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/rainlineStreetAdmission.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineStreetAdmission.ts",
+      "sha256": "3fb18b5f9224b9319e6f3c20a0ded231e6c84ed2f105496902586ff09d996059"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/rainlineStreetPopulation002.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineStreetPopulation002.ts",
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/roadGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/roadGeometry.ts",
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/scenery.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/scenery.ts",
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/simulation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/simulation.ts",
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/stanceFeedback.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/stanceFeedback.ts",
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/streaming.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/streaming.ts",
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/structuralPropCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/structuralPropCollision.ts",
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/structuralPropNavigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/structuralPropNavigation.ts",
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/supplies.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/supplies.ts",
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/traversal.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/traversal.ts",
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/types.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/types.ts",
+      "sha256": "0ba142df218358b1a5caf79eb1f6ef659942508fff3bd1c19b56fde29bfad359"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/vertical-navigation.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/vertical-navigation.ts",
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/weather.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/weather.ts",
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/workshopCollision.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/workshopCollision.ts",
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/workshopGeometry.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/workshopGeometry.ts",
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/world.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/world.ts",
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/city-fracture-shapes-v2.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/city-fracture-shapes-v2.json",
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/city-fracture-v1.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/city-fracture-v1.json",
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/rainlineLampMeshCollision001.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/rainlineLampMeshCollision001.json",
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/rainlineStreetAdmission001.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/rainlineStreetAdmission001.json",
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/structuralPropCollision.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/structuralPropCollision.json",
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/workshopCollision.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/workshopCollision.json",
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/data/workshopRoofPatches.json",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/workshopRoofPatches.json",
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/shared/experimental/pounceMotionV6.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/experimental/pounceMotionV6.ts",
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "source": ".sites-runtime/overhaul-20261010/legacy-fixture-009/current008/tests/stance.test.ts",
+      "copy": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/tests/stance.test.ts",
+      "sha256": "303e20a8048aba6344d0516ec1ea1e8126a5057a29d9592103f0c6b29e81806e"
+    }
+  ],
+  "rows": [
+    {
+      "path": "tools/overhaul-legacy-fixture-010/observe.ts",
+      "bytes": 6546,
+      "sha256": "d8889c4134baa2db1de4e2b0be903ed9aa7409182624a23458a980639a72ca18"
+    },
+    {
+      "path": "tools/overhaul-legacy-fixture-010/run.mjs",
+      "bytes": 4718,
+      "sha256": "37d44d3fa42390b9b5b23cb81e5ff2e5b85f9b1e69115179394b53bdf0f1418d"
+    },
+    {
+      "path": "tools/overhaul-legacy-fixture-010/fatal-reporter.mjs",
+      "bytes": 472,
+      "sha256": "97e5b26c9ba38911631935d29da9e83e3eddf4d8f04acf4f152c408aca8bb481"
+    },
+    {
+      "path": "docs/overhaul/legacy-fixture-causal-010.md",
+      "bytes": 3811,
+      "sha256": "76a0407fdbf2a122156e6b81e6f97e00743b998b6ccbfddc627f4b1edf70a73c"
+    },
+    {
+      "path": "tools/overhaul-legacy-fixture-009/seal.json",
+      "bytes": 35779,
+      "sha256": "9b2048bb009ec81c68a69331bf80872ed05729f278d5c67041932c1bf822e99c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/fatal-reporter.mjs",
+      "bytes": 472,
+      "sha256": "97e5b26c9ba38911631935d29da9e83e3eddf4d8f04acf4f152c408aca8bb481"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/observe.ts",
+      "bytes": 6546,
+      "sha256": "d8889c4134baa2db1de4e2b0be903ed9aa7409182624a23458a980639a72ca18"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/vitest.config.ts",
+      "bytes": 252,
+      "sha256": "183810806ae3b4a51b1fcf4c621413d02a7e1302a3bc5e48efede4c1e41f8e52"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/areaGeometry.ts",
+      "bytes": 3743,
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/building-grip-profiles.json",
+      "bytes": 1679642,
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingGrip.ts",
+      "bytes": 25300,
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingSurfaces.ts",
+      "bytes": 7282,
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/buildingVault.ts",
+      "bytes": 2730,
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/characterRubbleImpulse.ts",
+      "bytes": 9992,
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityFracture.ts",
+      "bytes": 3220,
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityFractureCatalog.ts",
+      "bytes": 835,
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityNavigation.ts",
+      "bytes": 4136,
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubble.ts",
+      "bytes": 7731,
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubbleAdmission.ts",
+      "bytes": 2303,
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/cityRubbleImpact.ts",
+      "bytes": 7392,
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/coverState.ts",
+      "bytes": 2035,
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineContactFrame004.ts",
+      "bytes": 5760,
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePose003.ts",
+      "bytes": 4357,
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/felineStrike.ts",
+      "bytes": 7685,
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/foliage.ts",
+      "bytes": 1001,
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/inputProtocol.ts",
+      "bytes": 581,
+      "sha256": "914e0ff383ae04ee2d825fee1289a8f9b487fbf2b1f0a680c5923bb82d6cd1cd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/layout.ts",
+      "bytes": 156,
+      "sha256": "2aa92e5d68a6e25d600086fcf6d1796fc7b2323e91c9ced18aecb71d1749987a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulBondedMaterial.ts",
+      "bytes": 6238,
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulBondedOwner.ts",
+      "bytes": 13419,
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulCornerClimb.ts",
+      "bytes": 10325,
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulDistrict.ts",
+      "bytes": 16542,
+      "sha256": "822864bd12697f15244059dd1e705c054c5744120e6f2ec76d1d67e7c32063b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulEncounter.ts",
+      "bytes": 4490,
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulGantryPortal.ts",
+      "bytes": 2415,
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRoofLocal.ts",
+      "bytes": 1966,
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuinImpact.ts",
+      "bytes": 6604,
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuins.ts",
+      "bytes": 25874,
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulRuinSurfaces.ts",
+      "bytes": 7669,
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/overhaulSupport.ts",
+      "bytes": 11165,
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/ownedCharacterQuery.ts",
+      "bytes": 2232,
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/pairedCombat.ts",
+      "bytes": 6552,
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/protocol.ts",
+      "bytes": 10618,
+      "sha256": "dd7888228590034743dcd22fa899d58e97b0bb97e13ffdb5f0d80271544383f4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "3fb18b5f9224b9319e6f3c20a0ded231e6c84ed2f105496902586ff09d996059"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/roadGeometry.ts",
+      "bytes": 1530,
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/scenery.ts",
+      "bytes": 495,
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/simulation.ts",
+      "bytes": 173335,
+      "sha256": "41cdbec5aea64bc5008a164e113befc6ea8cea0924706eae5771c5f49a58aca8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/streaming.ts",
+      "bytes": 1651,
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/structuralPropCollision.ts",
+      "bytes": 3777,
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/supplies.ts",
+      "bytes": 1876,
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/types.ts",
+      "bytes": 7064,
+      "sha256": "8bcd22cb38d33bcade08d729a457d6912052cf45273e1518f7b76f660b213dcf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/vertical-navigation.ts",
+      "bytes": 3081,
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/weather.ts",
+      "bytes": 1925,
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/workshopCollision.ts",
+      "bytes": 1597,
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/workshopGeometry.ts",
+      "bytes": 2947,
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/city-fracture-shapes-v2.json",
+      "bytes": 319760,
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/city-fracture-v1.json",
+      "bytes": 164581,
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/structuralPropCollision.json",
+      "bytes": 1268872,
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/workshopCollision.json",
+      "bytes": 731536,
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/data/workshopRoofPatches.json",
+      "bytes": 11533,
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/shared/experimental/pounceMotionV6.ts",
+      "bytes": 13506,
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/baseline020/tests/stance.test.ts",
+      "bytes": 11561,
+      "sha256": "303e20a8048aba6344d0516ec1ea1e8126a5057a29d9592103f0c6b29e81806e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/fatal-reporter.mjs",
+      "bytes": 472,
+      "sha256": "97e5b26c9ba38911631935d29da9e83e3eddf4d8f04acf4f152c408aca8bb481"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/observe.ts",
+      "bytes": 6546,
+      "sha256": "d8889c4134baa2db1de4e2b0be903ed9aa7409182624a23458a980639a72ca18"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/vitest.config.ts",
+      "bytes": 252,
+      "sha256": "183810806ae3b4a51b1fcf4c621413d02a7e1302a3bc5e48efede4c1e41f8e52"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/areaGeometry.ts",
+      "bytes": 3743,
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/building-grip-profiles.json",
+      "bytes": 1679642,
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingGrip.ts",
+      "bytes": 25300,
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingSurfaces.ts",
+      "bytes": 7282,
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/buildingVault.ts",
+      "bytes": 2730,
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/characterRubbleImpulse.ts",
+      "bytes": 9992,
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityFracture.ts",
+      "bytes": 3220,
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityFractureCatalog.ts",
+      "bytes": 835,
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityNavigation.ts",
+      "bytes": 4136,
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubble.ts",
+      "bytes": 7731,
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubbleAdmission.ts",
+      "bytes": 2303,
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/cityRubbleImpact.ts",
+      "bytes": 7392,
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/coverState.ts",
+      "bytes": 2035,
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineContactFrame004.ts",
+      "bytes": 5760,
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePose003.ts",
+      "bytes": 4357,
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/felineStrike.ts",
+      "bytes": 7685,
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/foliage.ts",
+      "bytes": 1001,
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/inputProtocol.ts",
+      "bytes": 581,
+      "sha256": "914e0ff383ae04ee2d825fee1289a8f9b487fbf2b1f0a680c5923bb82d6cd1cd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/layout.ts",
+      "bytes": 156,
+      "sha256": "2aa92e5d68a6e25d600086fcf6d1796fc7b2323e91c9ced18aecb71d1749987a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulBondedMaterial.ts",
+      "bytes": 6238,
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulBondedOwner.ts",
+      "bytes": 13419,
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulCornerClimb.ts",
+      "bytes": 10325,
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulDistrict.ts",
+      "bytes": 16542,
+      "sha256": "822864bd12697f15244059dd1e705c054c5744120e6f2ec76d1d67e7c32063b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulEncounter.ts",
+      "bytes": 4490,
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulGantryPortal.ts",
+      "bytes": 2415,
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRoofLocal.ts",
+      "bytes": 1966,
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuinImpact.ts",
+      "bytes": 6604,
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuins.ts",
+      "bytes": 25874,
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulRuinSurfaces.ts",
+      "bytes": 7669,
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/overhaulSupport.ts",
+      "bytes": 11165,
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/ownedCharacterQuery.ts",
+      "bytes": 2232,
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/pairedCombat.ts",
+      "bytes": 6552,
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/protocol.ts",
+      "bytes": 10870,
+      "sha256": "1189d00cd2db6b579d96805bdd5880b44dc5521a9bfbac055508104fe1336c9d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "3fb18b5f9224b9319e6f3c20a0ded231e6c84ed2f105496902586ff09d996059"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/roadGeometry.ts",
+      "bytes": 1530,
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/scenery.ts",
+      "bytes": 495,
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/simulation.ts",
+      "bytes": 175245,
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/streaming.ts",
+      "bytes": 1651,
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/structuralPropCollision.ts",
+      "bytes": 3777,
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/supplies.ts",
+      "bytes": 1876,
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/types.ts",
+      "bytes": 7280,
+      "sha256": "0ba142df218358b1a5caf79eb1f6ef659942508fff3bd1c19b56fde29bfad359"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/vertical-navigation.ts",
+      "bytes": 3081,
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/weather.ts",
+      "bytes": 1925,
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/workshopCollision.ts",
+      "bytes": 1597,
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/workshopGeometry.ts",
+      "bytes": 2947,
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/city-fracture-shapes-v2.json",
+      "bytes": 319760,
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/city-fracture-v1.json",
+      "bytes": 164581,
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/structuralPropCollision.json",
+      "bytes": 1268872,
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/workshopCollision.json",
+      "bytes": 731536,
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/data/workshopRoofPatches.json",
+      "bytes": 11533,
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/shared/experimental/pounceMotionV6.ts",
+      "bytes": 13506,
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-010/current008/tests/stance.test.ts",
+      "bytes": 11561,
+      "sha256": "303e20a8048aba6344d0516ec1ea1e8126a5057a29d9592103f0c6b29e81806e"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+import {AnimationClip,AnimationUtils} from 'three';
+
+export interface MovingRecoilContract048 {clips:Record<string,{duration:number;channels:number;targets:string[];idleReference:string;referenceQuaternionXYZW:number[]}>}
+export const MOVING_RECOIL_NAMES048=['FelinePulseMoving048','FelineMissileMoving048','FelineUprightPulseMoving048','FelineUprightMissileMoving048'] as const;
+
+/** Clone only source-authored terminal-head quaternion tracks. One existing
+ * mixer combines their actual idle-referenced deltas with the complete gait. */
+export function prepareMovingRecoil048(clips:AnimationClip[],references:AnimationClip[],contract:MovingRecoilContract048){
+ const result:AnimationClip[]=[],errors:string[]=[];
+ for(const name of MOVING_RECOIL_NAMES048){
+  const source=clips.find(c=>c.name===name),record=contract.clips[name],reference=references.find(c=>c.name===record?.idleReference);
+  const track=source?.tracks[0],idle=reference?.tracks.find(t=>t.name==='head.quaternion');
+  if(!source||!record||!reference||source.tracks.length!==1||record.channels!==1||record.targets.join(',')!=='head.quaternion'||track?.name!=='head.quaternion'||track.ValueTypeName!=='quaternion'||!idle||idle.ValueTypeName!=='quaternion'||Math.abs(source.duration-record.duration)>1e-6){errors.push(name+':ACTUAL_EXPORT_TRACK_CONTRACT');continue;}
+  const referenceValues=record.referenceQuaternionXYZW;
+  const matches=(values:ArrayLike<number>)=>referenceValues.length===4&&Math.min(...[1,-1].map(sign=>Math.max(...referenceValues.map((value,i)=>Math.abs(values[i]-sign*value)))))<1e-5;
+  if(!matches(idle.values)||!matches(track.values)||!matches(track.values.slice(track.values.length-4))||Array.from(track.values).some(v=>!Number.isFinite(v))){errors.push(name+':ACTUAL_IDLE_REFERENCE_BASIS');continue;}
+  const additive=source.clone();AnimationUtils.makeClipAdditive(additive,0,reference,60);result.push(additive);
+ }
+ if(clips.length!==MOVING_RECOIL_NAMES048.length)errors.push('048:EXACT_FOUR_SOURCE_CLIPS_REQUIRED');
+ return {clips:result,errors};
+}

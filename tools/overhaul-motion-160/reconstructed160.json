@@ -1,0 +1,2978 @@
+[
+  {
+    "rig": "ON57",
+    "phase": "on-forward",
+    "ownerTime": 4.81305178110942,
+    "ownerNativeTick": 288,
+    "actorNativeTick": 294,
+    "sourceClips": [
+      {
+        "name": "FelineWalk",
+        "time": 0.9044539382478917,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineWalk",
+        "weight": 1,
+        "phase": 0.8877872855946847,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.0166666507720947,
+          "nativeDistancePerCycle": 0.7777777187880921,
+          "sourceDuty": 0.72,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.75,
+            "HR": 0.25
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0,
+            0.7166666666666667
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0,
+      "FR": 0.9853715649467272,
+      "HL": 0.12325477541351339,
+      "HR": 0.3199498395299384
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 0.3125856056406744,
+        "ankle": [
+          -0.8605848805130203,
+          0.45150028790025926,
+          12.445082243501078
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 0.22290609786513332,
+        "ankle": [
+          -1.6446430659002806,
+          0.3605066920102377,
+          12.584923758287129
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": 0.22289848573683874,
+        "ankle": [
+          -0.8846302627194451,
+          0.3444994100961593,
+          14.21136245571151
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": 0.22289266211283326,
+        "ankle": [
+          -1.6206336066311027,
+          0.3444938463020816,
+          13.822476186881396
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": 0.22290243197875678,
+    "sourceRootFromExactFK": [
+      -1.2526412230681143,
+      0.22786563957442385,
+      13.379315428300997
+    ],
+    "mountHeight": -0.004944098098415211,
+    "rootLowerBoundaryFromAsynchronousNative": 0.22792000770568832,
+    "nativeBodyCenter": {
+      "x": -1.253916272828753,
+      "y": 1.227919960769281,
+      "z": 13.378684275704632
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -1.2539162635803223,
+        "y": 1.5279200077056885,
+        "z": 13.378684043884277
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.1800000000000002,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.3078465816877453,
+    "inferredHorizontalPlaneY": -0.08000005161057333,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+          "revision": "native-type:6",
+          "handle": 4.05e-321,
+          "position": {
+            "x": 0,
+            "y": -0.07999999821186066,
+            "z": 12
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -0.2608965337276459,
+            "y": 0.20782966911792755,
+            "z": 12.261070251464844
+          },
+          "witness2": {
+            "x": -0.26089656352996826,
+            "y": 0.2278296947479248,
+            "z": 12.261070251464844
+          },
+          "normal1": {
+            "x": 3.725283477251651e-7,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": -3.725283477251651e-7,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 1.7763568394002505e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineWalk",
+        "time": 0.9044539382478917,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.0166666507720947,
+          "nativeDistancePerCycle": 0.7777777187880921,
+          "sourceDuty": 0.72,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.75,
+            "HR": 0.25
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0,
+            0.7166666666666667
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 3136,
+            "minY": 0.0896640641646658,
+            "ankle": [
+              0.39205634255509403,
+              0.22857874642425063,
+              -0.9342331847999161
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 3149,
+            "minY": -0.000015443610875321215,
+            "ankle": [
+              -0.3920018428321662,
+              0.1375851505342291,
+              -0.7943916700138678
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 3136,
+            "minY": -0.00002305573916978887,
+            "ankle": [
+              0.3680109603486692,
+              0.12157786862015074,
+              0.8320470274105116
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 3136,
+            "minY": -0.000028879363175358594,
+            "ankle": [
+              -0.36799238356298836,
+              0.12157230482607295,
+              0.44316075858040027
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-stop",
+    "ownerTime": 5.551035558344186,
+    "ownerNativeTick": 333,
+    "actorNativeTick": 339,
+    "sourceClips": [
+      {
+        "name": "FelineIdle",
+        "time": 0.6843687645209433,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineIdle",
+        "weight": 1,
+        "phase": null,
+        "gait": null
+      }
+    ],
+    "sourceLoads": {
+      "FL": 1,
+      "FR": 1,
+      "HL": 1,
+      "HR": 1
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 0.2269515734256596,
+        "ankle": [
+          -0.8580995307949939,
+          0.36455159678218685,
+          12.558702768788553
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 0.2269515734256596,
+        "ankle": [
+          -1.642099568200866,
+          0.36455159678218685,
+          12.558702742612745
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": 0.22695138528958989,
+        "ankle": [
+          -0.8820996582916302,
+          0.3485514981359894,
+          13.990702923680615
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": 0.22695138528958989,
+        "ankle": [
+          -1.6180995363260682,
+          0.3485514981359894,
+          13.99070289910741
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": 0.22695147935762475,
+    "sourceRootFromExactFK": [
+      -1.2500995767421317,
+      0.2278410676915792,
+      13.374702565714836
+    ],
+    "mountHeight": -0.0008897886583954936,
+    "rootLowerBoundaryFromAsynchronousNative": 0.22789878845214828,
+    "nativeBodyCenter": {
+      "x": -1.2500865042500273,
+      "y": 1.227898716383752,
+      "z": 13.374686765856655
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -1.2500865459442139,
+        "y": 1.5278987884521484,
+        "z": 13.374687194824219
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.1800000000000002,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.30784133439579064,
+    "inferredHorizontalPlaneY": -0.08000006637977039,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+          "revision": "native-type:6",
+          "handle": 4.05e-321,
+          "position": {
+            "x": 0,
+            "y": -0.07999999821186066,
+            "z": 12
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -0.26089659333229065,
+            "y": 0.20782969892024994,
+            "z": 12.261070251464844
+          },
+          "witness2": {
+            "x": -0.26089656352996826,
+            "y": 0.22786200046539307,
+            "z": 12.261070251464844
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": -0.0000011156088248753804
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0.0000011156088248753804
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 2.220446049250313e-16,
+    "pureSelectedContributors": [],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-stop",
+    "ownerTime": 5.813433413776281,
+    "ownerNativeTick": 348,
+    "actorNativeTick": 354,
+    "sourceClips": [
+      {
+        "name": "FelineIdle",
+        "time": 0.9467666199530382,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineIdle",
+        "weight": 1,
+        "phase": null,
+        "gait": null
+      }
+    ],
+    "sourceLoads": {
+      "FL": 1,
+      "FR": 1,
+      "HL": 1,
+      "HR": 1
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 0.22733728595322197,
+        "ankle": [
+          -0.8580986769641176,
+          0.36493731287635695,
+          12.558626288427932
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 0.22733728595322197,
+        "ankle": [
+          -1.6420987015789013,
+          0.36493731287635695,
+          12.558626262252124
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": 0.227337148306059,
+        "ankle": [
+          -0.8820988178173824,
+          0.34893724666137016,
+          13.990626431669689
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": 0.227337148306059,
+        "ankle": [
+          -1.618098656347474,
+          0.34893724666137016,
+          13.990626407096485
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": 0.22733721712964047,
+    "sourceRootFromExactFK": [
+      -1.2500987165157098,
+      0.2279671461381687,
+      13.374626046684217
+    ],
+    "mountHeight": -0.0006300842434684381,
+    "rootLowerBoundaryFromAsynchronousNative": 0.22797508239746078,
+    "nativeBodyCenter": {
+      "x": -1.2500997392684277,
+      "y": 1.227975099341311,
+      "z": 13.374543329932909
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -1.250099778175354,
+        "y": 1.527975082397461,
+        "z": 13.374543190002441
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.1800000000000002,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.30796729352534513,
+    "inferredHorizontalPlaneY": -0.07999999215223622,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+          "revision": "native-type:6",
+          "handle": 1.517e-321,
+          "position": {
+            "x": -2.5,
+            "y": -0.07999999821186066,
+            "z": 12
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -2.2389018535614014,
+            "y": 0.2078290432691574,
+            "z": 12.230070114135742
+          },
+          "witness2": {
+            "x": -2.2389004230499268,
+            "y": 0.22789597511291504,
+            "z": 12.230070114135742
+          },
+          "normal1": {
+            "x": 0.00007272801303770393,
+            "y": 1,
+            "z": -0.000009091001629712991
+          },
+          "normal2": {
+            "x": -0.00007272801303770393,
+            "y": -1,
+            "z": 0.000009091001629712991
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 0,
+    "pureSelectedContributors": [],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-reverse",
+    "ownerTime": 6.527401043139489,
+    "ownerNativeTick": 390,
+    "actorNativeTick": 396,
+    "sourceClips": [
+      {
+        "name": "FelineIdle",
+        "time": 0.4440675508604357,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineIdle",
+        "weight": 1,
+        "phase": null,
+        "gait": null
+      }
+    ],
+    "sourceLoads": {
+      "FL": 1,
+      "FR": 1,
+      "HL": 1,
+      "HR": 1
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 0.22769877932761057,
+        "ankle": [
+          -0.8580269712786919,
+          0.3652987948262641,
+          12.558598513223096
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 0.22769877932761057,
+        "ankle": [
+          -1.6420269875401554,
+          0.3652987948262641,
+          12.55859848704729
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": 0.22769865576108544,
+        "ankle": [
+          -0.8820271211011528,
+          0.34929878493971045,
+          13.990598759378866
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": 0.22769865576108544,
+        "ankle": [
+          -1.6180269333395392,
+          0.34929878493971045,
+          13.990598734805666
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": 0.227698717544348,
+    "sourceRootFromExactFK": [
+      -1.250027006653624,
+      0.22794816534989848,
+      13.374598271523107
+    ],
+    "mountHeight": -0.0002497070157158442,
+    "rootLowerBoundaryFromAsynchronousNative": 0.2280556678771971,
+    "nativeBodyCenter": {
+      "x": -1.250026253901767,
+      "y": 1.228055725540944,
+      "z": 13.374600057687855
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -1.2500262260437012,
+        "y": 1.5280556678771973,
+        "z": 13.374600410461426
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.1800000000000002,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.307948443223532,
+    "inferredHorizontalPlaneY": -0.08000001866346815,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+          "revision": "native-type:6",
+          "handle": 4.05e-321,
+          "position": {
+            "x": 0,
+            "y": -0.07999999821186066,
+            "z": 12
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -0.26098036766052246,
+            "y": 0.2078293114900589,
+            "z": 12.261146545410156
+          },
+          "witness2": {
+            "x": -0.26098036766052246,
+            "y": 0.22795820236206055,
+            "z": 12.26114559173584
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": -0.00004597625229507685
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0.00004597625229507685
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 1.7798229048217483e-15,
+    "pureSelectedContributors": [],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-moving-R-up",
+    "ownerTime": 11.052104351807767,
+    "ownerNativeTick": 663,
+    "actorNativeTick": 669,
+    "sourceClips": [
+      {
+        "name": "FelineGallop",
+        "time": 0.24734144315418186,
+        "weight": 0.11280074571684047
+      },
+      {
+        "name": "FelineTransitionArc106",
+        "time": 0.38543767089865416,
+        "weight": 1
+      },
+      {
+        "name": "FelineTrot",
+        "time": 0.42361956832671466,
+        "weight": 0.36038351360555504
+      },
+      {
+        "name": "FelineUprightStride",
+        "time": 0.22334144380238236,
+        "weight": 0.5268157406776045
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineGallop",
+        "weight": 0.11280074571684047,
+        "phase": 0.5766869546210678,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.4358982851473603,
+          "sourceDuty": 0.26,
+          "sourceOffsets": {
+            "FL": 0.52,
+            "FR": 0.45,
+            "HL": 0.94,
+            "HR": 0.87
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0.5,
+            0.7083333333333334
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        }
+      },
+      {
+        "name": "FelineTrot",
+        "weight": 0.36038351360555504,
+        "phase": 0.9766869546210677,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4333333373069763,
+          "nativeDistancePerCycle": 1.3548383374834434,
+          "sourceDuty": 0.62,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.54,
+            "HR": 0.04
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0,
+            0.6
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        }
+      },
+      {
+        "name": "FelineUprightStride",
+        "weight": 0.5268157406776045,
+        "phase": 0.5166869546210677,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.1533341443921303,
+          "sourceDuty": 0.64,
+          "sourceOffsets": {
+            "FL": 0.5,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ],
+          "exportStanceSamplePhase": [
+            0,
+            0.625
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0.09549022268754824,
+      "FR": 0.17022826016779216,
+      "HL": 0.26063713128789584,
+      "HR": 0.006097199950976148
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 0.5688938220962737,
+        "ankle": [
+          -12.621095562738235,
+          0.7478510808542824,
+          22.624636192065914
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 0.5823770978119622,
+        "ankle": [
+          -12.852755897224686,
+          0.7635804676708652,
+          22.99312091134695
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": -0.11450898420417202,
+        "ankle": [
+          -11.320631756289144,
+          0.012266590055571652,
+          24.07799738322524
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": -0.20116077998864249,
+        "ankle": [
+          -12.397773655433465,
+          -0.07412001352291428,
+          23.85507854276393
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": 0.22985891705783168,
+    "sourceRootFromExactFK": [
+      -12.200273303150452,
+      -0.05981730977942101,
+      23.492487644857384
+    ],
+    "mountHeight": -0.039499595104267836,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05990006923675517,
+    "nativeBodyCenter": {
+      "x": -12.200279382604178,
+      "y": 0.9400999824795129,
+      "z": 23.017635853124784
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.200279235839844,
+        "y": 1.8400999307632446,
+        "z": 23.017635345458984
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.34935852686705826,
+    "inferredHorizontalPlaneY": -0.08000001470495877,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -11.720378875732422,
+            "y": -0.0800018310546875,
+            "z": 21.99999237060547
+          },
+          "witness2": {
+            "x": -11.720378875732422,
+            "y": -0.059988975524902344,
+            "z": 21.99999237060547
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 7.147801729532276e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineGallop",
+        "time": 0.24734144315418186,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.4358982851473603,
+          "sourceDuty": 0.26,
+          "sourceOffsets": {
+            "FL": 0.52,
+            "FR": 0.45,
+            "HL": 0.94,
+            "HR": 0.87
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0.5,
+            0.7083333333333334
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 3136,
+            "minY": -0.0012579256916490453,
+            "ankle": [
+              -0.20793489224830988,
+              0.13635310098443632,
+              -0.9562949807973412
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 3149,
+            "minY": -0.0013953400663739412,
+            "ankle": [
+              -0.9434440240794196,
+              0.1362418128445107,
+              -0.63516663449961
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 3136,
+            "minY": 0.10948986791456022,
+            "ankle": [
+              0.88114769181117,
+              0.26266938737352497,
+              0.5898972127173743
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 3136,
+            "minY": 0.049193364502988494,
+            "ankle": [
+              0.3621983901218887,
+              0.20409599747986712,
+              1.128611998884814
+            ]
+          }
+        ]
+      },
+      {
+        "clip": "FelineTrot",
+        "time": 0.42361956832671466,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4333333373069763,
+          "nativeDistancePerCycle": 1.3548383374834434,
+          "sourceDuty": 0.62,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.54,
+            "HR": 0.04
+          },
+          "unloadedLimbs": [],
+          "exportStanceSamplePhase": [
+            0,
+            0.6
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 3136,
+            "minY": 0.001989204170358555,
+            "ankle": [
+              -0.4208398457532552,
+              0.14054511715405188,
+              -1.2504502855095212
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 3149,
+            "minY": -0.0003436096603849671,
+            "ankle": [
+              -0.6636203077363738,
+              0.1372629703651641,
+              -0.2484408440279785
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 3136,
+            "minY": -0.0005193975013876619,
+            "ankle": [
+              0.8234022683098712,
+              0.12109365475819656,
+              0.5100283929015584
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 3136,
+            "minY": -0.0006124558799161309,
+            "ankle": [
+              -0.16984787174060384,
+              0.1210148360719365,
+              0.39274175623071705
+            ]
+          }
+        ]
+      },
+      {
+        "clip": "FelineUprightStride",
+        "time": 0.22334144380238236,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.1533341443921303,
+          "sourceDuty": 0.64,
+          "sourceOffsets": {
+            "FL": 0.5,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ],
+          "exportStanceSamplePhase": [
+            0,
+            0.625
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 3136,
+            "minY": 1.3639683675341452,
+            "ankle": [
+              -0.015482024913780368,
+              1.504261988508484,
+              -0.5386389472832587
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 3149,
+            "minY": 1.3740034739760287,
+            "ankle": [
+              -0.5138730513118457,
+              1.5143068607360424,
+              -0.19357051582564222
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 3136,
+            "minY": -0.0019014620644846672,
+            "ankle": [
+              0.9072855731472458,
+              0.11970880350781057,
+              0.6263987848252255
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 3136,
+            "minY": -0.0012268254145085707,
+            "ankle": [
+              -0.3200216295212257,
+              0.12039547292985814,
+              0.18578935085780712
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-upright-forward",
+    "ownerTime": 12.167425243415959,
+    "ownerNativeTick": 729,
+    "actorNativeTick": 735,
+    "sourceClips": [
+      {
+        "name": "FelineUprightStride",
+        "time": 0.04775387550332872,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineUprightStride",
+        "weight": 1,
+        "phase": 0.07771802201760503,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.1533341443921303,
+          "sourceDuty": 0.64,
+          "sourceOffsets": {
+            "FL": 0.5,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ],
+          "exportStanceSamplePhase": [
+            0,
+            0.625
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0,
+      "FR": 0,
+      "HL": 0.1386152427888448,
+      "HR": 0.09059229286419306
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 1.3109675682740665,
+        "ankle": [
+          -11.886496186659418,
+          1.4510725696724536,
+          17.590003474033676
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 1.2659691728734026,
+        "ankle": [
+          -12.493762075534832,
+          1.4060768075591827,
+          17.646249647188057
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": -0.07937409212701653,
+        "ankle": [
+          -11.832217491342732,
+          0.042235682128853064,
+          18.163979433512772
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": -0.07976693102039042,
+        "ankle": [
+          -12.56827635049916,
+          0.041838808810726325,
+          19.240607468112135
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.0795293582964973,
+    "sourceRootFromExactFK": [
+      -12.200292222308194,
+      -0.05988331473574782,
+      18.069580466447757
+    ],
+    "mountHeight": -0.018892984672951026,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05989995002746562,
+    "nativeBodyCenter": {
+      "x": -12.200292203825917,
+      "y": 0.9401000200816618,
+      "z": 17.667939239276574
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.200292587280273,
+        "y": 1.8401000499725342,
+        "z": 17.667940139770508
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.019363723300617443,
+    "inferredHorizontalPlaneY": -0.08000009692416371,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -12.136066436767578,
+            "y": -0.08001014590263367,
+            "z": 18.135765075683594
+          },
+          "witness2": {
+            "x": -12.136066436767578,
+            "y": -0.059939026832580566,
+            "z": 18.13576316833496
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 1.831026719408895e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineUprightStride",
+        "time": 0.04775387550332872,
+        "gait": {
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.4166666567325592,
+          "nativeDistancePerCycle": 2.1533341443921303,
+          "sourceDuty": 0.64,
+          "sourceOffsets": {
+            "FL": 0.5,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ],
+          "exportStanceSamplePhase": [
+            0,
+            0.625
+          ],
+          "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 3136,
+            "minY": 1.3897438676827656,
+            "ankle": [
+              0.3137960356487768,
+              1.5298488690811525,
+              -0.479576992414083
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 3149,
+            "minY": 1.3447454722821015,
+            "ankle": [
+              -0.29346985322663754,
+              1.4848531069678816,
+              -0.42333081925970223
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 3136,
+            "minY": -0.0005977927183175059,
+            "ankle": [
+              0.36807473096546406,
+              0.12101198153755208,
+              0.09439896706501588
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 3136,
+            "minY": -0.0009906316116915087,
+            "ankle": [
+              -0.36798412819096593,
+              0.12061510821942523,
+              1.1710270016643733
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "ON57",
+    "phase": "on-moving-R-down",
+    "ownerTime": 15.491430106213915,
+    "ownerNativeTick": 927,
+    "actorNativeTick": 933,
+    "sourceClips": [
+      {
+        "name": "FelineUprightIdle",
+        "time": 0.8914297247441892,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineUprightIdle",
+        "weight": 1,
+        "phase": null,
+        "gait": null
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0,
+      "FR": 0,
+      "HL": 1,
+      "HR": 1
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 3136,
+        "minY": 1.3327976328783564,
+        "ankle": [
+          -12.6323623640568,
+          1.4634484205003064,
+          17.57021266481387
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 3149,
+        "minY": 1.3327976328783564,
+        "ankle": [
+          -11.76836222939656,
+          1.4634484205003064,
+          17.57022678197873
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 3136,
+        "minY": -0.08101409056543893,
+        "ankle": [
+          -12.568344031512757,
+          0.04058600150150607,
+          16.44949943744413
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 3136,
+        "minY": -0.014256199778617654,
+        "ankle": [
+          -11.8323434344492,
+          0.10734438658502576,
+          16.44950964961145
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.04763514517202829,
+    "sourceRootFromExactFK": [
+      -12.20035405004214,
+      -0.059890300267092744,
+      17.06550531205664
+    ],
+    "mountHeight": -0.021123179408209958,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05990018844604472,
+    "nativeBodyCenter": {
+      "x": -12.20033549812231,
+      "y": 0.940099860570843,
+      "z": 17.067472084578593
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.200335502624512,
+        "y": 1.840099811553955,
+        "z": 17.067472457885742
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.05348808334360666,
+    "inferredHorizontalPlaneY": -0.080000049107425,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -12.734007835388184,
+            "y": -0.07999996095895767,
+            "z": 18.007492065429688
+          },
+          "witness2": {
+            "x": -12.73397159576416,
+            "y": -0.059999942779541016,
+            "z": 18.007497787475586
+          },
+          "normal1": {
+            "x": 0.0018448777263984084,
+            "y": 0.9999982714653015,
+            "z": 0.0002608918002806604
+          },
+          "normal2": {
+            "x": -0.0018448777263984084,
+            "y": -0.9999982714653015,
+            "z": -0.0002608918002806604
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 3.5596458096434965e-15,
+    "pureSelectedContributors": [],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "OFF25",
+    "phase": "off-forward",
+    "ownerTime": 23.80930016189095,
+    "actorNativeTick": 1434,
+    "sourceClips": [
+      {
+        "name": "FelineWalk",
+        "time": 0.4430791249773439,
+        "weight": 0.20304253125726202
+      },
+      {
+        "name": "FelineTrot",
+        "time": 0.09920885979394829,
+        "weight": 0.796957468742738
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineWalk",
+        "weight": 0.20304253125726202,
+        "phase": 0.37079345434587596,
+        "gait": {
+          "nativeDistancePerCycle": 0.8228571428571428,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.25,
+            "HR": 0.75
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.1666666269302368,
+          "unloadedLimbs": []
+        }
+      },
+      {
+        "name": "FelineTrot",
+        "weight": 0.796957468742738,
+        "phase": 0.12079345434587596,
+        "gait": {
+          "nativeDistancePerCycle": 1.6,
+          "sourceDuty": 0.55,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.5,
+            "HR": 0
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.699999988079071,
+          "unloadedLimbs": []
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0.5241672961126096,
+      "FR": 0,
+      "HL": 0.02459472593169278,
+      "HR": 0.3769393264786429
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 884,
+        "minY": -0.07881156402049272,
+        "ankle": [
+          -12.581881570160876,
+          0.037526370318166524,
+          30.420800620848098
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 884,
+        "minY": 0.03300520217528734,
+        "ankle": [
+          -11.5218378726151,
+          0.1493431613259404,
+          29.732799619663314
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 884,
+        "minY": 0.014427034651164239,
+        "ankle": [
+          -12.982763254817348,
+          0.13076500505914607,
+          28.266022277635255
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 884,
+        "minY": -0.07413677892594772,
+        "ankle": [
+          -11.727215794048458,
+          0.04220125649344064,
+          28.62887327033242
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.0744307903162896,
+    "sourceRootFromExactFK": [
+      -12.195194625004238,
+      -0.05982917847800984,
+      29.30636086538834
+    ],
+    "mountHeight": -0.04169042805508004,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05999999046325699,
+    "nativeBodyCenter": {
+      "x": -12.187667989271626,
+      "y": 0.9400000646785323,
+      "z": 28.740400959349124
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:10",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.187667846679688,
+        "y": 1.2400000095367432,
+        "z": 28.740400314331055
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.1800000000000002,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.04725969558081392,
+    "inferredHorizontalPlaneY": -0.08000005784202349,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -12.739968299865723,
+            "y": -0.08001083135604858,
+            "z": 30.109050750732422
+          },
+          "witness2": {
+            "x": -12.739969253540039,
+            "y": -0.05993497371673584,
+            "z": 30.109050750732422
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 2.0380985511143445e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineWalk",
+        "time": 0.4430791249773439,
+        "gait": {
+          "nativeDistancePerCycle": 0.8228571428571428,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.25,
+            "HR": 0.75
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.1666666269302368,
+          "unloadedLimbs": []
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 0.027648045659298792,
+            "ankle": [
+              -0.4251005439803753,
+              0.1439860740506933,
+              0.9079621396269086
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 0.1832256570882238,
+            "ankle": [
+              0.7371691478331759,
+              0.2995636546141956,
+              0.7694359026738066
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.027644503722632607,
+            "ankle": [
+              -0.7640366735002365,
+              0.1439824450934174,
+              -0.913851957617301
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.02764638499976857,
+            "ankle": [
+              0.45951138350398013,
+              0.14398434088542045,
+              -0.7230008671850567
+            ]
+          }
+        ]
+      },
+      {
+        "clip": "FelineTrot",
+        "time": 0.09920885979394829,
+        "gait": {
+          "nativeDistancePerCycle": 1.6,
+          "sourceDuty": 0.55,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.5,
+            "HR": 0
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.699999988079071,
+          "unloadedLimbs": []
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 0.02762028882729828,
+            "ankle": [
+              -0.3768448789607729,
+              0.1439581948989067,
+              1.1673420186874346
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 0.14134001584112188,
+            "ankle": [
+              0.6565925984845918,
+              0.2576779623818255,
+              0.33632997140625315
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.14133043115677701,
+            "ankle": [
+              -0.7930176960047272,
+              0.2576684201563639,
+              -1.0696278686991796
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.02762969100050905,
+            "ankle": [
+              0.47014241887543123,
+              0.14396775489703129,
+              -0.6658581203219346
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "OFF25",
+    "phase": "off-upright-forward",
+    "ownerTime": 32.18526592864647,
+    "actorNativeTick": 1935,
+    "sourceClips": [
+      {
+        "name": "FelineUprightStride",
+        "time": 0.7288798293376011,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineUprightStride",
+        "weight": 1,
+        "phase": 0.8098664984959145,
+        "gait": {
+          "nativeDistancePerCycle": 2.0771929824561406,
+          "sourceDuty": 0.57,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "cycleStart": 0,
+          "cycleEnd": 0.8999999761581421,
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ]
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0,
+      "FR": 0,
+      "HL": 0,
+      "HR": 0.9813336934768936
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 884,
+        "minY": 1.7915758861157416,
+        "ankle": [
+          -12.210123215874548,
+          1.9176228948323424,
+          21.848263499726716
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 884,
+        "minY": 1.7915751212614788,
+        "ankle": [
+          -13.649304871156492,
+          1.9176221607419597,
+          21.777101519184463
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 884,
+        "minY": 0.09839768315460592,
+        "ankle": [
+          -12.327528789537677,
+          0.2147388221930785,
+          22.966515403518226
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 884,
+        "minY": -0.07813313083104434,
+        "ankle": [
+          -13.497846031993118,
+          0.03820565941070386,
+          23.129837288390593
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.07813313083104434,
+    "sourceRootFromExactFK": [
+      -12.902364695618266,
+      -0.05999775600530999,
+      22.270686324554223
+    ],
+    "mountHeight": -0.04566595544755799,
+    "rootLowerBoundaryFromAsynchronousNative": -0.06000008583068828,
+    "nativeBodyCenter": {
+      "x": -12.887430206089656,
+      "y": 0.939999980958552,
+      "z": 21.957559950521123
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.887430191040039,
+        "y": 1.8399999141693115,
+        "z": 21.95755958557129
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.047532921892271096,
+    "inferredHorizontalPlaneY": -0.08000009727575744,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -13.999996185302734,
+            "y": -0.07999999821186066,
+            "z": 21.60664939880371
+          },
+          "witness2": {
+            "x": -13.99999713897705,
+            "y": -0.059999942779541016,
+            "z": 21.606651306152344
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 4.027524346742929e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineUprightStride",
+        "time": 0.7288798293376011,
+        "gait": {
+          "nativeDistancePerCycle": 2.0771929824561406,
+          "sourceDuty": 0.57,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "cycleStart": 0,
+          "cycleEnd": 0.8999999761581421,
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ]
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 1.8972395975686096,
+            "ankle": [
+              0.6922414797437169,
+              2.02328660628521,
+              -0.4224228248275109
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 1.8972388327143463,
+            "ankle": [
+              -0.7469401755382254,
+              2.0232858721948275,
+              -0.4935848053697591
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.20406139460747397,
+            "ankle": [
+              0.5748359060805875,
+              0.3204025336459465,
+              0.695829078964004
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.027530580621823782,
+            "ankle": [
+              -0.5954813363748532,
+              0.14386937086357188,
+              0.8591509638363739
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "OFF25",
+    "phase": "off-moving-R-up",
+    "ownerTime": 30.49999999999955,
+    "actorNativeTick": 1836,
+    "sourceClips": [
+      {
+        "name": "FelineIdle",
+        "time": 0.48503339695930464,
+        "weight": 0.995587877529156
+      },
+      {
+        "name": "FelineWalk",
+        "time": 0.06078946844746895,
+        "weight": 0.00441211238968778
+      },
+      {
+        "name": "FelineTrot",
+        "time": 0.036473681689624476,
+        "weight": 8.129967952082298e-9
+      },
+      {
+        "name": "FelineGallop",
+        "time": 0.026921050401185264,
+        "weight": 1.951188264269688e-9
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineIdle",
+        "weight": 0.995587877529156,
+        "phase": null,
+        "gait": null
+      },
+      {
+        "name": "FelineWalk",
+        "weight": 0.00441211238968778,
+        "phase": 0.038367654321314754,
+        "gait": {
+          "nativeDistancePerCycle": 0.8228571428571428,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.25,
+            "HR": 0.75
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.1666666269302368,
+          "unloadedLimbs": []
+        }
+      },
+      {
+        "name": "FelineTrot",
+        "weight": 8.129967952082298e-9,
+        "phase": 0.028985874913840217,
+        "gait": {
+          "nativeDistancePerCycle": 1.6,
+          "sourceDuty": 0.55,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.5,
+            "HR": 0
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.699999988079071,
+          "unloadedLimbs": []
+        }
+      },
+      {
+        "name": "FelineGallop",
+        "weight": 1.951188264269688e-9,
+        "phase": 0.020508766418178365,
+        "gait": {
+          "nativeDistancePerCycle": 3.0181818181818185,
+          "sourceDuty": 0.44,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.92,
+            "HL": 0.54,
+            "HR": 0.45999999999999996
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.5166666507720947,
+          "unloadedLimbs": []
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0.00012953436123817113,
+      "FR": 0.0019419912090058852,
+      "HL": 0.004083061509747887,
+      "HR": 2.2083303566507594e-10
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 884,
+        "minY": -0.08007077238001918,
+        "ankle": [
+          -14.405084984546482,
+          0.03626722094599877,
+          28.729918785178377
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 884,
+        "minY": -0.0799685944178005,
+        "ankle": [
+          -14.41885058690519,
+          0.03636940559948176,
+          29.897839216353468
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 884,
+        "minY": -0.07992984626038306,
+        "ankle": [
+          -12.757003556403498,
+          0.03640815985874579,
+          28.751832716522884
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 884,
+        "minY": -0.07946021527708362,
+        "ankle": [
+          -12.771490201029426,
+          0.03687778499888872,
+          29.919743370190936
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.07994503870914987,
+    "sourceRootFromExactFK": [
+      -13.579832335173004,
+      -0.05998935810119299,
+      29.32494355113189
+    ],
+    "mountHeight": -0.047597313456300555,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05990018844604472,
+    "nativeBodyCenter": {
+      "x": -13.580206775327705,
+      "y": 0.9400999011822204,
+      "z": 29.324917664622795
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -13.580206871032715,
+        "y": 1.840099811553955,
+        "z": 29.32491683959961
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.047652294927200564,
+    "inferredHorizontalPlaneY": -0.08000002018004988,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.350698471069336,
+            "y": -0.07999999821186066,
+            "z": 29.36093521118164
+          },
+          "witness2": {
+            "x": -14.350698471069336,
+            "y": -0.6598985195159912,
+            "z": 29.36093521118164
+          },
+          "normal1": {
+            "x": -3.1575578418596706e-7,
+            "y": 1,
+            "z": -0.0000011329183280395227
+          },
+          "normal2": {
+            "x": 3.1575578418596706e-7,
+            "y": -1,
+            "z": 0.0000011329183280395227
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      },
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.350698471069336,
+            "y": -0.07999999821186066,
+            "z": 29.36093521118164
+          },
+          "witness2": {
+            "x": -14.350698471069336,
+            "y": -0.6598985195159912,
+            "z": 29.36093521118164
+          },
+          "normal1": {
+            "x": -3.1575578418596706e-7,
+            "y": 1,
+            "z": -0.0000011329183280395227
+          },
+          "normal2": {
+            "x": 3.1575578418596706e-7,
+            "y": -1,
+            "z": 0.0000011329183280395227
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      },
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.350698471069336,
+            "y": -0.07999999821186066,
+            "z": 29.36093521118164
+          },
+          "witness2": {
+            "x": -14.350698471069336,
+            "y": -0.6598985195159912,
+            "z": 29.36093521118164
+          },
+          "normal1": {
+            "x": -3.1575578418596706e-7,
+            "y": 1,
+            "z": -0.0000011329183280395227
+          },
+          "normal2": {
+            "x": 3.1575578418596706e-7,
+            "y": -1,
+            "z": 0.0000011329183280395227
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      },
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.350698471069336,
+            "y": -0.07999999821186066,
+            "z": 29.36093521118164
+          },
+          "witness2": {
+            "x": -14.350698471069336,
+            "y": -0.6598985195159912,
+            "z": 29.36093521118164
+          },
+          "normal1": {
+            "x": -3.1575578418596706e-7,
+            "y": 1,
+            "z": -0.0000011329183280395227
+          },
+          "normal2": {
+            "x": 3.1575578418596706e-7,
+            "y": -1,
+            "z": 0.0000011329183280395227
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      },
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.350698471069336,
+            "y": -0.07999999821186066,
+            "z": 29.36093521118164
+          },
+          "witness2": {
+            "x": -14.350698471069336,
+            "y": -0.6598985195159912,
+            "z": 29.36093521118164
+          },
+          "normal1": {
+            "x": -3.1575578418596706e-7,
+            "y": 1,
+            "z": -0.0000011329183280395227
+          },
+          "normal2": {
+            "x": 3.1575578418596706e-7,
+            "y": -1,
+            "z": 0.0000011329183280395227
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 4.307035781641227e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineWalk",
+        "time": 0.06078946844746895,
+        "gait": {
+          "nativeDistancePerCycle": 0.8228571428571428,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.25,
+            "HR": 0.75
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 1.1666666269302368,
+          "unloadedLimbs": []
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 0.027636419856977734,
+            "ankle": [
+              -1.080563665705819,
+              0.1439743998159847,
+              -0.598419402709823
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 0.02764728078042611,
+            "ankle": [
+              -0.68470023733268,
+              0.14398527598333621,
+              0.5749475268081956
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.027647584236124234,
+            "ankle": [
+              0.7723426979057231,
+              0.1439855330056221,
+              -0.573782084243211
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.15494258174122133,
+            "ankle": [
+              0.974519861692505,
+              0.27128053614470937,
+              0.5970094345892696
+            ]
+          }
+        ]
+      },
+      {
+        "clip": "FelineTrot",
+        "time": 0.036473681689624476,
+        "gait": {
+          "nativeDistancePerCycle": 1.6,
+          "sourceDuty": 0.55,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.5,
+            "HL": 0.5,
+            "HR": 0
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.699999988079071,
+          "unloadedLimbs": []
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 0.027404631727706352,
+            "ankle": [
+              -1.2177578079454012,
+              0.14374255350700615,
+              -0.6002438096444066
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 0.027558953952436793,
+            "ankle": [
+              -0.4333378027089317,
+              0.14389684027656913,
+              0.5782896535025872
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.02750264729899199,
+            "ankle": [
+              1.2293835183656567,
+              0.14384055754720243,
+              -0.5677049751744394
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.027540962535873903,
+            "ankle": [
+              0.4139527798396589,
+              0.1438790568555205,
+              0.5895558204164116
+            ]
+          }
+        ]
+      },
+      {
+        "clip": "FelineGallop",
+        "time": 0.026921050401185264,
+        "gait": {
+          "nativeDistancePerCycle": 3.0181818181818185,
+          "sourceDuty": 0.44,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0.92,
+            "HL": 0.54,
+            "HR": 0.45999999999999996
+          },
+          "cycleStart": 0.01666666753590107,
+          "cycleEnd": 0.5166666507720947,
+          "unloadedLimbs": []
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 0.03510985779618303,
+            "ankle": [
+              -1.4207867588684104,
+              0.15144776861683606,
+              -0.6029431953014596
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 0.13830406395181516,
+            "ankle": [
+              -1.4600881674562052,
+              0.25464201240521245,
+              0.5646375148831299
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.24027626561750082,
+            "ankle": [
+              1.3271139634327818,
+              0.35661420010969686,
+              -0.5664054671137724
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.10226655853819877,
+            "ankle": [
+              1.4504891462290892,
+              0.21860451567862432,
+              0.6033381633766897
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  },
+  {
+    "rig": "OFF25",
+    "phase": "off-moving-R-down",
+    "ownerTime": 35.399999999999274,
+    "actorNativeTick": 2130,
+    "sourceClips": [
+      {
+        "name": "FelineUprightWalkLong",
+        "time": 0.6364689724573396,
+        "weight": 1
+      }
+    ],
+    "sourceFootfalls": [
+      {
+        "name": "FelineUprightWalkLong",
+        "weight": 1,
+        "phase": 0.5303907893052799,
+        "gait": {
+          "nativeDistancePerCycle": 1.3142857142857143,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "cycleStart": 0,
+          "cycleEnd": 1.2000000476837158,
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ]
+        }
+      }
+    ],
+    "sourceLoads": {
+      "FL": 0,
+      "FR": 0,
+      "HL": 0.47581563414043804,
+      "HR": 0.01848812479014075
+    },
+    "completeFootFamilyWorldMinima": [
+      {
+        "limb": "FL",
+        "vertices": 884,
+        "minY": 1.827372709954774,
+        "ankle": [
+          -13.706430969602462,
+          1.95341974413742,
+          21.183241891556264
+        ]
+      },
+      {
+        "limb": "FR",
+        "vertices": 884,
+        "minY": 1.8273725775640546,
+        "ankle": [
+          -12.678400100829002,
+          1.9534195959700482,
+          22.191640061269897
+        ]
+      },
+      {
+        "limb": "HL",
+        "vertices": 884,
+        "minY": -0.07964917945780436,
+        "ankle": [
+          -12.567807543818166,
+          0.03668912941194302,
+          20.19105376326208
+        ]
+      },
+      {
+        "limb": "HR",
+        "vertices": 884,
+        "minY": -0.07966248721081881,
+        "ankle": [
+          -12.184663596048606,
+          0.03667563862755996,
+          21.47528922390682
+        ]
+      }
+    ],
+    "weightedLoadedWorldY": -0.07964967719911012,
+    "sourceRootFromExactFK": [
+      -12.87930609126236,
+      -0.05990001275390888,
+      21.35366514393771
+    ],
+    "mountHeight": -0.04738851442583585,
+    "rootLowerBoundaryFromAsynchronousNative": -0.05996193885803203,
+    "nativeBodyCenter": {
+      "x": -12.879833767228982,
+      "y": 0.9400380255257428,
+      "z": 21.395653702743026
+    },
+    "nativeHull": {
+      "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+      "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+      "handle": 1.082217858644e-312,
+      "position": {
+        "x": -12.879834175109863,
+        "y": 1.8400380611419678,
+        "z": 21.395652770996094
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "shapeType": 14
+    },
+    "nativeShape": {
+      "kind": "RoundCylinder",
+      "halfHeight": 1.7799999999999998,
+      "radius": 1.63,
+      "borderRadius": 0.12
+    },
+    "currentClientSurfaceLease": {
+      "worldKey": "ground067-world:1",
+      "generation": 1,
+      "life": 1,
+      "ownerKey": "ground067-world:1:owner:1",
+      "colliderHandle": 2.2620475135445e-311,
+      "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+    },
+    "currentMountRequest": -0.047738823659223543,
+    "inferredHorizontalPlaneY": -0.07999998643249781,
+    "nativeUpContactsRawExcludedFromQualification": [
+      {
+        "owner": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+          "revision": "native-type:6",
+          "handle": 1.507e-321,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 6
+        },
+        "raw": {
+          "witness1": {
+            "x": -14.041296005249023,
+            "y": -0.08000003546476364,
+            "z": 21.505481719970703
+          },
+          "witness2": {
+            "x": -14.041296005249023,
+            "y": -0.059999704360961914,
+            "z": 21.50547981262207
+          },
+          "normal1": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "normal2": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          }
+        },
+        "status": "UNKNOWN",
+        "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+      }
+    ],
+    "sourceFKReconstructionMaxError": 1.7798229048217483e-15,
+    "pureSelectedContributors": [
+      {
+        "clip": "FelineUprightWalkLong",
+        "time": 0.6364689724573396,
+        "gait": {
+          "nativeDistancePerCycle": 1.3142857142857143,
+          "sourceDuty": 0.7,
+          "sourceOffsets": {
+            "FL": 0,
+            "FR": 0,
+            "HL": 0,
+            "HR": 0.5
+          },
+          "cycleStart": 0,
+          "cycleEnd": 1.2000000476837158,
+          "unloadedLimbs": [
+            "FL",
+            "FR"
+          ]
+        },
+        "sourceSoles": [
+          {
+            "limb": "FL",
+            "vertices": 884,
+            "minY": 1.9346612371345193,
+            "ankle": [
+              -0.8271248783401016,
+              2.0607082713171647,
+              -0.17042325238144895
+            ]
+          },
+          {
+            "limb": "FR",
+            "vertices": 884,
+            "minY": 1.9346611047437994,
+            "ankle": [
+              0.20090599043335677,
+              2.060708123149793,
+              0.8379749173321859
+            ]
+          },
+          {
+            "limb": "HL",
+            "vertices": 884,
+            "minY": 0.027639347721940318,
+            "ankle": [
+              0.3114985474441928,
+              0.14397765659168782,
+              -1.162611380675631
+            ]
+          },
+          {
+            "limb": "HR",
+            "vertices": 884,
+            "minY": 0.02762603996892587,
+            "ankle": [
+              0.6946424952137529,
+              0.14396416580730476,
+              0.12162407996911168
+            ]
+          }
+        ]
+      }
+    ],
+    "provenance": "ACTUAL_EXPORTED_BIND_SKIN_FULL_OWNED_FOOT_FAMILY_RECONSTRUCTION; SAVED_OWNER_CLOCK; ASYNCHRONOUS_NATIVE_RAW_CONTACT_UNKNOWN; INFERRED_PLANE_IS_ALGEBRA_NOT_SURFACE_CERTIFICATE"
+  }
+]

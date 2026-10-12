@@ -1,0 +1,11 @@
+# Street fixture boundaries 001 — independent import-failure result
+
+Actual review start2026-10-10 13:05:12 UTC; inclusive deadline13:10:12 UTC. **Accept preserved import-failure and bounded normal process-ownership evidence only. DENY native/street/provider completion.** No review execution, implementation or retry occurred.
+
+The actual suite failed at collection with `ReferenceError: window is not defined`, through `src/state/store.ts:6:34`, audio and runtime dependencies. No test body ran. The fixture constructs its Evidence and worlds inside that body; raw.ndjson was never created. Thus there is no native lifecycle, support, damage, settlement, nav, guest protocol or cleanup-return receipt. This is an actual Node/browser dependency-boundary failure, not a prop geometry/physics failure. The separately assigned class-dependency work was not duplicated here.
+
+The external journal records atomic creation request at elapsed0.0387402s, actual suspended root PID336628 already in its job at0.0514217s, and normal closure at4.6480714s. Root creation file time converts to13:03:40.8015019 UTC. Eight process identities were observed; final accounting reports total8/active0/terminated0, root exit1, no timer timeout and no external errors. This supports the observed create/membership/resume/normal-exit ownership path. It does **not** exercise the178/180-second termination branches, stuck startup, forced descendant cleanup or all bootstrap interruption cases. The generic native-cleanup string is no evidence of World.free; no world/test was reached.
+
+Root closure13:04:34.275065 UTC is a later sealing clock, not native completion. Closure SHA19292C6CDE0519AE4616741E9B3C075E518C166D3B02DFDAB981706BEE0F26DF; stdout3C40782064591513A7B0F4F2FB879D49BD0052DAA2FA1E621C6AAB92E7A3DCB0; watchdog FE0394FFE45CBF6E62CBD52F480A8F069A2281DAB1E1394BF8D889D04B9646D3. The closure reports127 inputs unchanged; their seal was verified in the prior code gate. Preserve this first failure. No rerun, browser shim, copied guest implementation or production repair is authorized by this result.
+
+Ordinary player, art, feline motion, street admission and full four-mech/three-map Gate1 remain unqualified/INCOMPLETE. No count changed.

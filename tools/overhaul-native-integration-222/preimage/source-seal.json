@@ -1,0 +1,184 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_ASSEMBLED_WIRING_UNADMITTED",
+  "closedUTC": "2026-10-11T22:05:44.317788+00:00",
+  "files": [
+    {
+      "path": "tools/overhaul-native-wiring-218/ActorsCandidate218.tsx",
+      "bytes": 51866,
+      "sha256": "ab40ab7e628c1633f7d9cbcef726d699bd23917dd011522c0dc4ead2f35eba2f"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/ActorsCandidate218.tsx.diff",
+      "bytes": 13615,
+      "sha256": "3186dc28d36b0c4ee9f0e7aaae986850e2cad2744cd08d7490b416cdab5061d8"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/check-static218.mjs",
+      "bytes": 1410,
+      "sha256": "927a94d482c786f71b05303b80c8ed169907e7da2e9f4774d07e10d691687dca"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/close218.py",
+      "bytes": 2555,
+      "sha256": "78b86f1809e5a0d5303c11baa192a95ebd61046f24aaec4ddf9b45b8b6ee477d"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/guards-fixture218.ts",
+      "bytes": 2192,
+      "sha256": "e1586a0d80448d44112040dc22d0aa2de8d9d8b893e28d5c13daa5665c1429a2"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/HANDOFF.md",
+      "bytes": 7307,
+      "sha256": "6c9f1f87ad5f1980d38329833bf695c814d24609c5476da335cf76d9b9f1bd9c"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/NativeActor218.tsx",
+      "bytes": 5314,
+      "sha256": "6ff52b3e721a93b525842ddb274a43d41a81f041c8c54b345b397640d0d8c6e5"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/NativeActor218.tsx.diff",
+      "bytes": 8615,
+      "sha256": "c6b8754013d20a9c7b6b875d07c822cd7d87917437cd0ce3854a898833da9f95"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/nativeOwner218.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/nativeOwner218.ts.diff",
+      "bytes": 6545,
+      "sha256": "578558cfaedc12a2b79b82e0c73d3cd810922dd9295f2fccbcee62ac8c80e692"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/parent-body218.txt",
+      "bytes": 3751,
+      "sha256": "7528dd5de43b3007e63c23894e3e5786c1d41ea639a587bfa0327c40ae759f37"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/parent-diff-ledger218.json",
+      "bytes": 406,
+      "sha256": "89f697032b20b1dcf175c3996605a3d60e689332ba89c4c2a6385021af6d903b"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/preimages/src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/preimages/tools/overhaul-native-214/NativeActor214.tsx",
+      "bytes": 4021,
+      "sha256": "a86f1dd0f679613d3930b9dc5144cb96e3d9c086714ca3d2f7a60b024106348b"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/preimages/tools/overhaul-native-214/nativeOwner214.ts",
+      "bytes": 13629,
+      "sha256": "33b77d2d9d412459312eea29999af48192784d2c7b5a2cba5a7ce3a19fef6614"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/prepare218.py",
+      "bytes": 1823,
+      "sha256": "099892f37e6f22f14244b0c72fb43997b76aced9e7997d73467afa1963d15dc1"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/protected-inputs218.json",
+      "bytes": 2185,
+      "sha256": "08b90a4a81ce18f34079fd667371b54bdaadb15ec9e352a2b023d3aa9e42c617"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/static-check218-first-receipt.json",
+      "bytes": 756,
+      "sha256": "d50e74f5ca9dfbed75940a7ee87e2600df641b1ff820620ea58de46d34155ee4"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/static-check218-receipt.json",
+      "bytes": 512,
+      "sha256": "7e74105bae149de78d4362fa2b031a3873d9bdbb4628470bb740a68e3371bf70"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/tsconfig218-first.json",
+      "bytes": 161,
+      "sha256": "b080bac73d6b84703ee1081477f5e59a2b7158142a77fb1d48aa8e922286c211"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/tsconfig218.json",
+      "bytes": 194,
+      "sha256": "45b5f200be819a1afad87657861929b5e5f4903326b5938970c8995fd98371d9"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/wiring218.tsx",
+      "bytes": 5620,
+      "sha256": "637f2a98f610890299bbf454b56db6ef8f25d1a35a1cee0f5dc98c2a7356cd9f"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "tools/overhaul-native-214/source-seal.json",
+      "bytes": 9474,
+      "sha256": "b867aead417e6cb5098fdbaf0e0a44e21a5d09be62e65ad6dcfe3adc6f9fa618"
+    },
+    {
+      "path": "tools/overhaul-native-214/nativeOwner214.ts",
+      "bytes": 13629,
+      "sha256": "33b77d2d9d412459312eea29999af48192784d2c7b5a2cba5a7ce3a19fef6614"
+    },
+    {
+      "path": "tools/overhaul-native-214/NativeActor214.tsx",
+      "bytes": 4021,
+      "sha256": "a86f1dd0f679613d3930b9dc5144cb96e3d9c086714ca3d2f7a60b024106348b"
+    },
+    {
+      "path": "tools/overhaul-native-214/pack214.mjs",
+      "bytes": 7990,
+      "sha256": "e20755b7c776968b14e61782ad29cdd92af525c6b79521c291d1efdb5b615bfe"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "docs/overhaul/critic/native214-source-review.md",
+      "bytes": 6986,
+      "sha256": "464c68368c7e2fbe4967c68bc60fbaff4140d29cb8b576679f4f9fa674c2ac95"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 10588,
+      "sha256": "1a661a7259c01cd4b4f269bdae42234d8579ce28674a995fdb6cbd1458632d1e"
+    },
+    {
+      "path": "shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": "shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": "src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    }
+  ]
+}

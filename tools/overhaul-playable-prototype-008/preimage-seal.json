@@ -1,0 +1,27 @@
+{
+  "startUTC": "2026-10-10T17:37:16.934454+00:00",
+  "owner": "root Medium",
+  "scope": "Public opt-in partial rig with sticky per-actor standard-rig fallback; no motion/source/physics edits",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "preimage": "tools/overhaul-playable-prototype-008/preimages/src/game/entities/Actors.tsx",
+      "sha256": "4b687320a4946cad2243fe775e6426e326fef2cf1a8cfacedb275125cd5f5a34"
+    },
+    {
+      "path": "src/state/store.ts",
+      "preimage": "tools/overhaul-playable-prototype-008/preimages/src/state/store.ts",
+      "sha256": "2db52a75b487732b4109fd987d810c862673ae39fc08be2d16d7c44d6baccbd8"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "preimage": "tools/overhaul-playable-prototype-008/preimages/src/ui/Settings.tsx",
+      "sha256": "8b66d345cc58a8f85a4121109845b0ae8bf4d7efbe9b603af2bb9ef06d936b0b"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "preimage": "tools/overhaul-playable-prototype-008/preimages/src/game/entities/identity57Runtime007Actor.tsx",
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd"
+    }
+  ]
+}

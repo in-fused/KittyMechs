@@ -1,0 +1,36 @@
+{
+  "writer": "CLOSED",
+  "execution": "UNRUN_SOURCE_ONLY",
+  "files": [
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321"
+    },
+    {
+      "path": "tests/contact-lifecycle132.test.ts",
+      "bytes": 5531,
+      "sha256": "a65092a34b9cdacd9fd8894ab1766146af7940ef547ca7c3d31cc66300f88fbf"
+    },
+    {
+      "path": "tools/overhaul-contact-132/HANDOFF.md",
+      "bytes": 4737,
+      "sha256": "4b18f9ccd8d1f55230d9786a681a87d52cb4f6762afe211d78d0b307b579ecd3"
+    },
+    {
+      "path": "tools/overhaul-contact-132/preimages/movingRFfeet067.ts",
+      "bytes": 21194,
+      "sha256": "2d1d3140873dadc38c9064f4af0ae33ef363b3cb45cb049bcaed1c9b9e8d1efb"
+    },
+    {
+      "path": "tools/overhaul-contact-132/preimages/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "tools/overhaul-contact-132/preimages/identity57Runtime005.ts",
+      "bytes": 17878,
+      "sha256": "be5cf8888a46aed18c85828ecd67bb3ed3f713551ac39930d84baad898855dbe"
+    }
+  ]
+}

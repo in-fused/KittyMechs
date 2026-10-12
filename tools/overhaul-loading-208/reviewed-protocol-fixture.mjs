@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+import {createDecoderClient208} from './decoder-client.reviewed.mjs';
+const worker={postMessage(){},terminate(){this.terminated=true;}},client=createDecoderClient208(worker,{onReceipt(){throw Error('observer failure');}});
+const pending=client.decode(1,4,new Uint8Array([1]),'ATTRIBUTES','NONE');
+worker.onmessage({data:{id:1,buffer:new Uint8Array([1,2,3,4]).buffer,decodeMs:2,queueMs:3}});
+assert.deepEqual([...await pending],[1,2,3,4]);assert.equal(client.pending(),0);assert.deepEqual(client.observationErrors(),['Error: observer failure']);
+client.close();await assert.rejects(client.decode(1,4,new Uint8Array([1]),'ATTRIBUTES','NONE'),/owner closed/);
+await writeFile(new URL('./reviewed-protocol-receipt.json',import.meta.url),JSON.stringify({status:'PASS',actualWorkerExecuted:false,scope:'Observational callback error cannot strand successful protocol decode; retirement rejects later work. No actual codec/lifecycle browser execution.'},null,2)+'\n');
+console.log('PASS observational isolation and retired ownership; no actual Worker');

@@ -1,0 +1,203 @@
+[
+  {
+    "file": "Factory_Workshop.glb",
+    "sourceBytes": 4872496,
+    "runtimeBytes": 3961572,
+    "sha256": "bd0141d52e41a87c45470d7457e67a3a0136fd95daf175025bb193c169af3834",
+    "nodes": [
+      {
+        "name": "Factory_Workshop_Core",
+        "triangles": 16997,
+        "primitives": 6
+      },
+      {
+        "name": "Factory_Workshop_Roof",
+        "triangles": 144,
+        "primitives": 1
+      },
+      {
+        "name": "Factory_Workshop_Sign",
+        "triangles": 2,
+        "primitives": 1
+      }
+    ],
+    "materials": [
+      {
+        "name": "modular_factory_facade_garage",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 1
+      },
+      {
+        "name": "modular_factory_facade_brick",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "modular_factory_facade_windows",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "modular_factory_facade_brick_doors",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 1
+      },
+      {
+        "name": "modular_factory_facade_windows_glass",
+        "alphaMode": "BLEND",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "modular_factory_facade_trim_01",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "Factory_Original_RainlineWorks_Sign_Paint",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": false,
+        "roughness": false,
+        "roughnessFactor": 0.8199999928474426,
+        "metallicFactor": 0.11999999731779099
+      }
+    ]
+  },
+  {
+    "file": "Forest_Fern.glb",
+    "sourceBytes": 529172,
+    "runtimeBytes": 464424,
+    "sha256": "4aaa22ad5aa5ab86a51b3f38db5ce2e8a8f91ed4cc20a36b0dcfdf34d21bfd2b",
+    "nodes": [
+      {
+        "name": "Fern_V0_LOD0",
+        "triangles": 2099,
+        "primitives": 1
+      },
+      {
+        "name": "Fern_V0_LOD1",
+        "triangles": 480,
+        "primitives": 1
+      },
+      {
+        "name": "Fern_V1_LOD0",
+        "triangles": 816,
+        "primitives": 1
+      },
+      {
+        "name": "Fern_V1_LOD1",
+        "triangles": 480,
+        "primitives": 1
+      }
+    ],
+    "materials": [
+      {
+        "name": "PH_Fern_Leaves",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 1
+      }
+    ]
+  },
+  {
+    "file": "Forest_Fir.glb",
+    "sourceBytes": 4205528,
+    "runtimeBytes": 1833764,
+    "sha256": "62d04a5e41628541ee75e9d927e8feb041ca0f5186d26232dccd4e33c8cbf9f1",
+    "nodes": [
+      {
+        "name": "Fir_LOD0",
+        "triangles": 23111,
+        "primitives": 3
+      },
+      {
+        "name": "Fir_LOD1",
+        "triangles": 10044,
+        "primitives": 3
+      },
+      {
+        "name": "Fir_LOD2",
+        "triangles": 4514,
+        "primitives": 3
+      }
+    ],
+    "materials": [
+      {
+        "name": "PH_Fir_Bark",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": false,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "PH_Fir_Trunk",
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": false,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      },
+      {
+        "name": "PH_Fir_Needles",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.15,
+        "doubleSided": true,
+        "baseColor": true,
+        "normal": true,
+        "roughness": true,
+        "roughnessFactor": 1,
+        "metallicFactor": 0
+      }
+    ]
+  }
+]

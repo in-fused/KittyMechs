@@ -1,0 +1,17 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/world/overhaulDistrictArt.tsx",
+      "bytes": 9005,
+      "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7",
+      "preimage": "tools/overhaul-render-178/preimages/overhaulDistrictArt.tsx"
+    },
+    {
+      "path": "src/game/world/overhaulDressingArt.tsx",
+      "bytes": 4480,
+      "sha256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b",
+      "preimage": "tools/overhaul-render-178/preimages/overhaulDressingArt.tsx"
+    }
+  ]
+}

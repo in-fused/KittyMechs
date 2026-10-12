@@ -1,0 +1,555 @@
+{
+  "writer": "CLOSED",
+  "scope": "source asset counts and saved existing receipts; no runtime benchmark",
+  "counts": [
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4",
+      "bytes": 617084,
+      "meshes": 1,
+      "triangles": 15192,
+      "primitives": 6,
+      "materials": 6,
+      "modules": [
+        {
+          "name": "FL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "FR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "chest",
+          "triangles": 0
+        },
+        {
+          "name": "tail_3",
+          "triangles": 0
+        },
+        {
+          "name": "tail_2",
+          "triangles": 0
+        },
+        {
+          "name": "tail_1",
+          "triangles": 0
+        },
+        {
+          "name": "tail_0",
+          "triangles": 0
+        },
+        {
+          "name": "spine",
+          "triangles": 0
+        },
+        {
+          "name": "HL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "HR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "pelvis",
+          "triangles": 0
+        },
+        {
+          "name": "root",
+          "triangles": 0
+        },
+        {
+          "name": "FelineWeb_Rig",
+          "triangles": 15192
+        }
+      ]
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4",
+      "bytes": 608432,
+      "meshes": 1,
+      "triangles": 15556,
+      "primitives": 6,
+      "materials": 6,
+      "modules": [
+        {
+          "name": "FL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "FR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "chest",
+          "triangles": 0
+        },
+        {
+          "name": "tail_3",
+          "triangles": 0
+        },
+        {
+          "name": "tail_2",
+          "triangles": 0
+        },
+        {
+          "name": "tail_1",
+          "triangles": 0
+        },
+        {
+          "name": "tail_0",
+          "triangles": 0
+        },
+        {
+          "name": "spine",
+          "triangles": 0
+        },
+        {
+          "name": "HL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "HR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "pelvis",
+          "triangles": 0
+        },
+        {
+          "name": "root",
+          "triangles": 0
+        },
+        {
+          "name": "FelineWeb_Rig",
+          "triangles": 15556
+        }
+      ]
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1",
+      "bytes": 650804,
+      "meshes": 1,
+      "triangles": 16236,
+      "primitives": 6,
+      "materials": 6,
+      "modules": [
+        {
+          "name": "FL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "FR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "chest",
+          "triangles": 0
+        },
+        {
+          "name": "tail_3",
+          "triangles": 0
+        },
+        {
+          "name": "tail_2",
+          "triangles": 0
+        },
+        {
+          "name": "tail_1",
+          "triangles": 0
+        },
+        {
+          "name": "tail_0",
+          "triangles": 0
+        },
+        {
+          "name": "spine",
+          "triangles": 0
+        },
+        {
+          "name": "HL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "HR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "pelvis",
+          "triangles": 0
+        },
+        {
+          "name": "root",
+          "triangles": 0
+        },
+        {
+          "name": "FelineWeb_Rig",
+          "triangles": 16236
+        }
+      ]
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+      "bytes": 1249484,
+      "meshes": 1,
+      "triangles": 29674,
+      "primitives": 8,
+      "materials": 8,
+      "modules": [
+        {
+          "name": "FL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "FR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "FR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "chest",
+          "triangles": 0
+        },
+        {
+          "name": "tail_3",
+          "triangles": 0
+        },
+        {
+          "name": "tail_2",
+          "triangles": 0
+        },
+        {
+          "name": "tail_1",
+          "triangles": 0
+        },
+        {
+          "name": "tail_0",
+          "triangles": 0
+        },
+        {
+          "name": "spine",
+          "triangles": 0
+        },
+        {
+          "name": "HL_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HL_upper",
+          "triangles": 0
+        },
+        {
+          "name": "HR_lower",
+          "triangles": 0
+        },
+        {
+          "name": "HR_upper",
+          "triangles": 0
+        },
+        {
+          "name": "pelvis",
+          "triangles": 0
+        },
+        {
+          "name": "root",
+          "triangles": 0
+        },
+        {
+          "name": "Pounce_Overhaul_Rig",
+          "triangles": 29674
+        }
+      ]
+    },
+    {
+      "path": "public/assets/overhaul/city-v2/Rainline_Modular_City_v2.glb",
+      "sha256": "60fdf81c28f3b7193129111b72179bdf96cc3a9c254c1241e2bb5606aa9f5870",
+      "bytes": 574656,
+      "meshes": 61,
+      "triangles": 3192,
+      "primitives": 61,
+      "materials": 11,
+      "modules": [
+        {
+          "name": "frame",
+          "triangles": 96
+        },
+        {
+          "name": "foundation",
+          "triangles": 24
+        },
+        {
+          "name": "facade_workshop",
+          "triangles": 307
+        },
+        {
+          "name": "facade_factory",
+          "triangles": 312
+        },
+        {
+          "name": "facade_apartment",
+          "triangles": 456
+        },
+        {
+          "name": "facade_shop",
+          "triangles": 365
+        },
+        {
+          "name": "facade_utility",
+          "triangles": 490
+        },
+        {
+          "name": "facade_transit",
+          "triangles": 314
+        },
+        {
+          "name": "facade_civic",
+          "triangles": 336
+        },
+        {
+          "name": "roof",
+          "triangles": 132
+        },
+        {
+          "name": "roof_utility",
+          "triangles": 180
+        },
+        {
+          "name": "roof_residential",
+          "triangles": 84
+        },
+        {
+          "name": "slab",
+          "triangles": 12
+        },
+        {
+          "name": "gantry",
+          "triangles": 36
+        },
+        {
+          "name": "bridge",
+          "triangles": 72
+        },
+        {
+          "name": "rail",
+          "triangles": 12
+        },
+        {
+          "name": "props",
+          "triangles": 120
+        }
+      ]
+    },
+    {
+      "path": "public/assets/overhaul/dressing-v1/Rainline_Dressing_v1.glb",
+      "sha256": "53ab93a0cfc5a3f54c6ac0602d91905114030b231abb54b635f562142a10a4af",
+      "bytes": 42928,
+      "meshes": 15,
+      "triangles": 1545,
+      "primitives": 15,
+      "materials": 1,
+      "modules": [
+        {
+          "name": "plinth",
+          "triangles": 36
+        },
+        {
+          "name": "post",
+          "triangles": 36
+        },
+        {
+          "name": "pipe",
+          "triangles": 132
+        },
+        {
+          "name": "vehicle_chassis",
+          "triangles": 108
+        },
+        {
+          "name": "vehicle_cab",
+          "triangles": 151
+        },
+        {
+          "name": "vehicle_cargo",
+          "triangles": 120
+        },
+        {
+          "name": "tire",
+          "triangles": 72
+        },
+        {
+          "name": "transformer",
+          "triangles": 144
+        },
+        {
+          "name": "insulator",
+          "triangles": 84
+        },
+        {
+          "name": "duct",
+          "triangles": 156
+        },
+        {
+          "name": "canopy",
+          "triangles": 60
+        },
+        {
+          "name": "bench",
+          "triangles": 48
+        },
+        {
+          "name": "sign",
+          "triangles": 170
+        },
+        {
+          "name": "roof_vent",
+          "triangles": 132
+        },
+        {
+          "name": "tank",
+          "triangles": 96
+        }
+      ]
+    },
+    {
+      "path": "public/assets/overhaul/dressing-v2/Rainline_Dressing_v2.glb",
+      "sha256": "c1c6cd591bc73264218d74e54c3944a5e5529c9f329176d41f4ac269fb304af8",
+      "bytes": 40680,
+      "meshes": 4,
+      "triangles": 2318,
+      "primitives": 4,
+      "materials": 1,
+      "modules": [
+        {
+          "name": "service_unit",
+          "triangles": 554
+        },
+        {
+          "name": "power_unit",
+          "triangles": 528
+        },
+        {
+          "name": "ticket_panel",
+          "triangles": 606
+        },
+        {
+          "name": "roof_machine",
+          "triangles": 630
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop173-public/evidence.json",
+      "sampleCount": 8,
+      "selected": [
+        {
+          "fps": 42,
+          "calls": 204,
+          "triangles": 1146425,
+          "actors": 2,
+          "renderer": null
+        },
+        {
+          "fps": 35,
+          "calls": 204,
+          "triangles": 1146425,
+          "actors": 2,
+          "renderer": null
+        },
+        {
+          "fps": 40,
+          "calls": 204,
+          "triangles": 1146425,
+          "actors": 14,
+          "renderer": null
+        }
+      ]
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/playability172-public/evidence.json",
+      "sampleCount": 188,
+      "selected": [
+        {
+          "fps": 12,
+          "calls": 117,
+          "triangles": 885115,
+          "actors": null,
+          "renderer": null
+        },
+        {
+          "fps": 55,
+          "calls": 199,
+          "triangles": 1186424,
+          "actors": null,
+          "renderer": null
+        },
+        {
+          "fps": 45,
+          "calls": 201,
+          "triangles": 1140532,
+          "actors": null,
+          "renderer": null
+        }
+      ]
+    }
+  ]
+}

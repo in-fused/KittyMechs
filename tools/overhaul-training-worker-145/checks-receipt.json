@@ -1,0 +1,13 @@
+{
+  "writer": "CLOSED",
+  "scope": "observed tool terminal results; no production build or public run",
+  "finalTests": {"command": "npx vitest run tests/training-worker-145.test.ts tests/training-session-145.test.ts tests/training-worker-startup-145.test.ts tests/session-authority.test.ts tests/jump-network.test.ts tests/render-timeline-low-frame-144.test.ts", "exitCode": 0, "files": 6, "tests": 56, "durationSeconds": 4.08, "terminalChunk": "124659"},
+  "typecheck": {"command": "npx tsc --noEmit", "exitCode": 0, "terminalSession": 58806, "terminalChunk": "071c4a"},
+  "isolatedWorkerCompile": {"command": "node tools/overhaul-training-worker-145/compile-worker.mjs", "exitCode": 0, "modules": 74, "durationSeconds": 2.72, "unminifiedKilobytes": 7292.96, "productionBuild": false},
+  "preservedFailures": [
+    {"kind": "initial typecheck", "exitCode": 1, "cause": "145 layoutVersion incorrectly typed number although existing native contract is string; concurrent143 type errors also present"},
+    {"kind": "startup fixture before worker execution", "exitCode": 1, "testsPassed": 55, "testsFailed": 1, "cause": "Cannot redefine property:init from vi.spyOn(RAPIER,init)", "retainedSource": "tools/overhaul-training-worker-145/late-init-fixture-first-failure.ts"}
+  ],
+  "publicAdmission": "PENDING independent source review and actual browser verification",
+  "humanLagFixed": false
+}

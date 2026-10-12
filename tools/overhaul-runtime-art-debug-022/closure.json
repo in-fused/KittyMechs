@@ -1,0 +1,130 @@
+{
+  "task": "runtime-art-debug-022",
+  "startedUTC": "2026-10-10T19:41:58Z",
+  "closedUTC": "2026-10-10T19:45:30.2977002Z",
+  "status": "READ_ONLY_CAUSAL_DIAGNOSIS_CLOSED",
+  "jobsActive": 0,
+  "heavyJobs": 0,
+  "productionWrites": 0,
+  "observationReruns": 0,
+  "qualification": false,
+  "closureMetadataError": "First closure shell used bare false instead of PowerShell boolean. Null failed JSON retained; only closing metadata corrected, no analysis or qualification rerun.",
+  "diagnosis": "Numeric navigation helper reads weapon aim instead of movement yaw; actual native collision restricts eastward movement at power fixture. Exact transient false-return input and camera-specific causality unobserved.",
+  "protectedAndEvidence": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/actual-game-output.webm",
+      "bytes": 15633,
+      "sha256": "a30d00c8bc04e6c785c42aae9cccacfda3207a6278bad53a805e4b5971fd4198"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/evidence.json",
+      "bytes": 1904374,
+      "sha256": "ffe4e38359d9ef627c2d375ffd5ca5461da05118ce776e2a8f9e47ae70ca58a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/failure-guest.png",
+      "bytes": 1468272,
+      "sha256": "4f1630a88629904b2cc49a3c852902d905c3f64fd86dfe91a4176962311c9bd7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/failure-host.png",
+      "bytes": 1816697,
+      "sha256": "d45689ff4e0d4b9fe8e42ecd96d5ff197a8f849c35ee95c45dd71d36751fd43f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/idle-guest.png",
+      "bytes": 1463933,
+      "sha256": "e253aa67560aa3d5e582e30b232184c0f7dbee8d62f0e6ec02a7904909953c7b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/idle-host.png",
+      "bytes": 1524610,
+      "sha256": "e15f2803f0f15531f90a1fcba731687e45b7e125fd263fe68960dc03e773f259"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/page@0dbd6e429aea674197d31ec4869ccce7.webm",
+      "bytes": 4142847,
+      "sha256": "771600cb8b6cc4b2cfe24633dccb6f6bcf76432a8c53d2fc451180c86ad7707d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/page@f4e1f51e0102224ce0254a52d616d6ef.webm",
+      "bytes": 5167018,
+      "sha256": "5a46f62369387b3ca512434dfab4b73f302f49a3637b58404a2d0bb37abe764f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/pin-guest.png",
+      "bytes": 1480933,
+      "sha256": "a2c8586ca99d9a6b6bb2761cb1e10b2b08bcf10d4623989c7de3ebdde9dbd449"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/pin-host.png",
+      "bytes": 1828010,
+      "sha256": "2327c005392f5176925f197715fb5450b36eb48d4d578f4016e7f7c976fb495f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-020/progress.json",
+      "bytes": 1903614,
+      "sha256": "2505b0b13d1ee0c25364643926c6a58f41683320748ceb969d502e3752aafafb"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 8376,
+      "sha256": "0acb09714ecc984aa871a3f50d2404ce484d41908f02fe987824acb06bf1f017"
+    },
+    {
+      "path": "src/game/camera/viewAim.ts",
+      "bytes": 1113,
+      "sha256": "4c456fa05550729204b34f7abfa79bdd965d88424ecce4350e89c3784a542c6c"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 3291,
+      "sha256": "8fcfe76f296e0c2eab252ab6150129b4febb8a0d4bab3417fd0bf62d91f4d4c4"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 15958,
+      "sha256": "10dfd8799751219202afdc1d4250b14a5d55bf3a349a303c81c47a4c7fbd44fe"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 175245,
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298"
+    },
+    {
+      "path": "shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-player-020.mjs",
+      "bytes": 11031,
+      "sha256": "3c329f2058f60e5114a2cdf85327935cef4c46737bad2896729a9cca8e7db119"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/public-prototype-player-008/evidence.json",
+      "bytes": 3477447,
+      "sha256": "f55d104ae99996a9bf21cf15fdc882171e413672731234c582b415eed720ad32"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.raw.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": "docs/overhaul/runtime-art-player-022-diagnosis.md",
+      "bytes": 5442,
+      "sha256": "8e5cb0a076221327b1de42b719922377e9c56099655291f301842e70464e16ca"
+    }
+  ]
+}

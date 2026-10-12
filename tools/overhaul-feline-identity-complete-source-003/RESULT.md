@@ -1,0 +1,11 @@
+# Closed single identity source003 attempt
+
+The exact frozen factory-startup Blender command ran once, unified session63812, terminal exit0. Actual receipt clock16:05:03.052133→16:05:14.183556UTC (11.131423seconds). Initial tool chunk74da68 yielded after10.0066787seconds; final chunk814697 returned exit0. No process remains. Heavy slot released immediately after completion; no retry/API repair/source edit after freeze.
+
+Semantic status CONSTRUCTED_STATIC_SOURCE_ONLY, sourceIssues[] and executionError null. Actual evaluated geometry43,940triangles/four materials, within the frozen30–50k target;57bones/20authored pad facets. Actual GLB59nodes/one skin/four material primitives. Direct exported _SOURCE_VERTEX identity maps all20 unique pad surfaces; actual nodes/inverse binds/joints/weights/indices are retained. No clip or pose circuit authored or executed. The source003 curved tail rest and three-link hind profile are explicit future adapter requirements.
+
+Actual full/paw/sole PNGs were inspected. Front-facing amber eyes and larger inset ears are visible; layered teal body/limb panels separate from the dark chassis and curved tail. Broad smooth armor surfaces, pastel appearance under this studio illumination, sparse finish and exposed narrow toe recess cuts remain visual risks. Static construction success cannot declare finished/premium Pounce art. Independent actual pixel review is required and may deny this candidate. No appearance-driven rerender or geometry refinement is allowed in this closed packet.
+
+All six frozen owned files and six protected master/raw files match their before values. Editable Pounce_Identity003.blend SHA398a93ecc1c2730488e39ba8c0376eae81a0630c0de9241283255629682fcfd4; rawGLBc16163532550febf23c4697a9a244ce1102714c1fe05f7483593bdd842a6a267; receipt32ef0c7a1192f0a3d015db3680a783093309d3b6b7dda36537b6ebd283c3a162. The new packet does not change shipping/public/shared/src or older assets.
+
+Neutral floor and claw-versus-carved-paw surface/one containment-probe checks only: not a complete assembly certificate, continuous claw sweep, moving skin occupancy, full native hull, support-force, gait/R/climb/pair/reaction or ordinary two-client qualification. The whole four-mech/three-map objective and Gate1 remain incomplete. Existing legacy asset owner must not consume this rig by URL/clip-name substitution.

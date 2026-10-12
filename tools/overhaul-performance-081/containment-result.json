@@ -1,0 +1,90 @@
+{
+  "status": "PASS_REVIEW_REQUIRED",
+  "scope": "ALL retained Sentinel loaded vertices/all own clips and actual shared pair clips; Three and Float32 palette containment. No live gameplay/performance acceptance.",
+  "models": [
+    {
+      "name": "Sentinel_Scout",
+      "skins": 6,
+      "bones": 25,
+      "ownClips": 17,
+      "pairClips": 30,
+      "poses": 142,
+      "checkedVertices": 3451398,
+      "boundsTotalMs": 24.542899999996735,
+      "boundsMaxMs": 2.175299999999879,
+      "allSourceAttributesAndBindsUnchanged": true,
+      "staleAttributeFailOpen": true
+    },
+    {
+      "name": "Sentinel_Mortar",
+      "skins": 6,
+      "bones": 25,
+      "ownClips": 17,
+      "pairClips": 30,
+      "poses": 142,
+      "checkedVertices": 3507375,
+      "boundsTotalMs": 20.160400000004756,
+      "boundsMaxMs": 0.4404000000004089,
+      "allSourceAttributesAndBindsUnchanged": true,
+      "staleAttributeFailOpen": true
+    },
+    {
+      "name": "Sentinel_Anchor",
+      "skins": 6,
+      "bones": 25,
+      "ownClips": 17,
+      "pairClips": 30,
+      "poses": 142,
+      "checkedVertices": 3781338,
+      "boundsTotalMs": 15.277900000001864,
+      "boundsMaxMs": 0.3170000000000073,
+      "allSourceAttributesAndBindsUnchanged": true,
+      "staleAttributeFailOpen": true
+    }
+  ],
+  "inputs": [
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4",
+      "match": true
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4",
+      "match": true
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1",
+      "match": true
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+      "match": true
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds081.ts",
+      "bytes": 8749,
+      "sha256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45494,
+      "sha256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9",
+      "match": true
+    }
+  ],
+  "elapsedMs": 6950.0504
+}

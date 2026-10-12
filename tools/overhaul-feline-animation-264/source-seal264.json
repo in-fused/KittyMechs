@@ -1,0 +1,637 @@
+{
+  "writer": "CLOSED",
+  "status": "PRIVATE_AUTHORED_AND_EXPORTED_SOURCE_UNADMITTED",
+  "files": [
+    {
+      "path": "tools/overhaul-feline-animation-264/assemble264.py",
+      "bytes": 3036,
+      "sha256": "d30342b688c2172dbafd327b4eecc006f51efa1a96a49d1336035fd34abc6f28"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/author-process264.json",
+      "bytes": 455,
+      "sha256": "148cb7e570aa064913295383a06bdde9a8d3f5f103ad81e3dd07145cd7f25bb7"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/author264.py",
+      "bytes": 15776,
+      "sha256": "87f33dfcf3a5a0a39246ac1f602b16c2e8ecc81ed8dfb87c9a21113f9c47f06e"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/HANDOFF.md",
+      "bytes": 7859,
+      "sha256": "bd581c88fb2edcd05c309af820a697f7860cef5b0afad3b54b9d9fc26288cde4"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/preview-process264.json",
+      "bytes": 457,
+      "sha256": "ac1e131e5a9890eaca5bd7861bfcfbf423fa64835690522c0833b1361703d2bb"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/preview264.py",
+      "bytes": 5033,
+      "sha256": "c6944c7a347be6963ae64dc90a80ec9dceaf5e128e3b2a478377e19a3d6dfc18"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-264/run264.py",
+      "bytes": 1024,
+      "sha256": "814a0da147b62606f48c9a4f759c20f518fbcf8f301e3f3f846534e35fd50bd0"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/author-receipt264.json",
+      "bytes": 39776,
+      "sha256": "8ac2ae46fb5deed6a058db076be32ec950165350dae023704c8b5e451bbb8306"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/motion-contract264.json",
+      "bytes": 47186,
+      "sha256": "949b69a67524f3cfcdba7ee75dbbe4df2c32419565becb03d9fe431b0aa91694"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/Pounce_Feline264.blend",
+      "bytes": 79587698,
+      "sha256": "626f8b163ac59a8c0b12ac5c99a056d488c994caddcd9648be7821be0ec9d287"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/Pounce_Feline264.glb",
+      "bytes": 6733164,
+      "sha256": "a1aa8bab5601a12448a169602827146b226b126e6012bf7a94cf44d0c13fa9d6"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/preview-receipt264.json",
+      "bytes": 30379,
+      "sha256": "8b6a3a5ea45aa71b29094879cc5332d0bf610dac4dbe81137da918d4a16cb158"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/samples264.json",
+      "bytes": 2146578,
+      "sha256": "f0ad98a311e5f48d9e5081d8e6a4de8f05eb1262a6b88e103c6aaaa35dc79968"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/temporal-artifacts264.json",
+      "bytes": 7755,
+      "sha256": "4fa58fcff75dc73cdc22c6182e4edfd76caa2132c429337fde17eb1df7b81dea"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/author-stdout264.txt",
+      "bytes": 247,
+      "sha256": "aa416c56078428a6f7b8ca83650f9e7167e2f4fd03c429321733bef74f780bc7"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview-stdout264.txt",
+      "bytes": 14231,
+      "sha256": "1e1732e72e244b08d47883d80bc12537d44381fc197897e4589cc4c33521c893"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-00.png",
+      "bytes": 124486,
+      "sha256": "d1d0899e43767e1ee58f4bb6c878564f785b677d427b0728d82fd2802d611679"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-01.png",
+      "bytes": 124401,
+      "sha256": "bbf228c699f33f5002a043ade45bf1842f6bac82cbb461dafdb7a6bf47c09f7e"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-02.png",
+      "bytes": 123862,
+      "sha256": "497d798f7c3c2e2dab48724d6e704e1b7de1de5c419dbf6c5aa4dbbd40766c7d"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-03.png",
+      "bytes": 125693,
+      "sha256": "3a4b60e8470dc695b722bdae5e3881dec8922138a54560072f6fe46e4498491c"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-04.png",
+      "bytes": 125691,
+      "sha256": "d2baf9f39d3c64c17088d156daf6fe956360a08aa4fa4db2c2e15d8d04ae499a"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-05.png",
+      "bytes": 125113,
+      "sha256": "eb9f9e7d21b86bfc317f9e4390443b6cc1f0db3ed866fbb334e809eef7acb1e0"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-06.png",
+      "bytes": 125501,
+      "sha256": "79f38a9a014a760b7a7d29642fd3c21a43168559f2c4e6475121daf940222ad9"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-07.png",
+      "bytes": 124486,
+      "sha256": "8a7b1d5b31aa32161ef5fa0c93308d207bbb6a2b93b4d99343fef1af6b765cb8"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-board.png",
+      "bytes": 444185,
+      "sha256": "bce96f2ec7d2a0c37c05a7a35e49c8a518ace0c0bb273ef9ac59d9acfe79f55f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-front-sequence.gif",
+      "bytes": 326097,
+      "sha256": "3b794ccf1225ee0ccfaaee72fd6829ae4eeb6039ec3fa8b3585458a191d0b594"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-00.png",
+      "bytes": 128736,
+      "sha256": "ec83995ca572d311acb73635170a2fa2ea5f9e1161b62c3fdc917bf5be23d122"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-01.png",
+      "bytes": 131783,
+      "sha256": "7a4fa53ca849e099fd0c51c4969a8ee82dc6bca436ab944a7069582ca4fe0249"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-02.png",
+      "bytes": 131423,
+      "sha256": "c887480bf8d264c40b344eac089e75e486342442e318e7f1d04095e7a16f9511"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-03.png",
+      "bytes": 128911,
+      "sha256": "8bd80fe473aa35b6979fcafb7da701e0cf40fd32015c39b68c77d63fe4017bb4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-04.png",
+      "bytes": 127107,
+      "sha256": "574d212a2ffe282e857f88527a33cac28c34e7f530b2966d3b6adcf702947893"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-05.png",
+      "bytes": 128306,
+      "sha256": "754684d62aa647427d15ef2f7c8153a7989b421775941ff76373d11d40ce3e27"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-06.png",
+      "bytes": 127334,
+      "sha256": "36573c9b8ade394f5fe6d988ef1718b86a59fd960be6367bc0fa535f2425169b"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-07.png",
+      "bytes": 128736,
+      "sha256": "d813c6036b12d5a8433b5f3ef3aa57afa463acf1ab16cbb3d391aaaa86555505"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-board.png",
+      "bytes": 507361,
+      "sha256": "ea6de891c956853a32f9a943e295f007024de352114a8f91f01d349475a89b6b"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineGallop-side-sequence.gif",
+      "bytes": 370897,
+      "sha256": "62facda9d28fe54897bf2e13124009c55b29af4c42021fd3e13342330ed06172"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-00.png",
+      "bytes": 130325,
+      "sha256": "338ba8c8f851d336053606f8f09efde4bf6600be0e274fd335dc7621b540a7b4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-01.png",
+      "bytes": 129959,
+      "sha256": "054b0bd8991f246419c4fcd98c95dfe306d05c1414ee15fbbecc6d50a72cddee"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-02.png",
+      "bytes": 128153,
+      "sha256": "e82a709984940bd1169c53f2f3ca01b19c6cea958f8f03ebb1c4b328455b4caa"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-03.png",
+      "bytes": 128105,
+      "sha256": "63937b9e8127ccc05e2058ab6fe972c4fb0a9d4af151318e2087844cc23e6a24"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-04.png",
+      "bytes": 126969,
+      "sha256": "f40b1ecfa352e9dc78520d429c3df9513a2ab53847378eef7520b46934e6aca9"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-05.png",
+      "bytes": 125537,
+      "sha256": "d2382fa01cfd62e668e284ad6ac672ce4615f260e86000ffb05748bebb18e313"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-06.png",
+      "bytes": 124265,
+      "sha256": "4557941d40489f81289ed4a78eb8a1ec0dc482abb9f4cff04225d4748a6689b4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-07.png",
+      "bytes": 125145,
+      "sha256": "4c5ad0854f2b21fe33655eff8d5f1a0788de8341bec359d50e7c5aac50337d57"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-board.png",
+      "bytes": 425338,
+      "sha256": "38f710bf4591bef8d36918350bd8410efe01566828d4cbc12ddac32882c7c619"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-front-sequence.gif",
+      "bytes": 355276,
+      "sha256": "a7fbe2b9ac16acd81a0db5c7ad3dfef346eb58a5f94a50bd9b09b5d53e42a021"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-00.png",
+      "bytes": 133428,
+      "sha256": "4669c3e42f9bec7cab6a8ca47594335425006ac51bf9c3e4583df92292b72e5f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-01.png",
+      "bytes": 133154,
+      "sha256": "166793356735a449d521295290b28d3f78ea1f93745ba6a504d87a6a02dc6395"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-02.png",
+      "bytes": 133478,
+      "sha256": "d4e44e5099f7d1f69fe2b7ea90ea3f687d1c5faf2211e3a99eeba5c9ffd5a8c7"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-03.png",
+      "bytes": 133410,
+      "sha256": "209fac820947d65a36a95a1293a428b4432e7987818f16f4e7f960e46da372dc"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-04.png",
+      "bytes": 133551,
+      "sha256": "4dd4d755024422b402336d62a53ee940991fabe304e2fe2eb4729228fd0bde84"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-05.png",
+      "bytes": 132937,
+      "sha256": "9ab23fb55990b62a091eb7b6162a2ba4df6c232325c5cf1575bc32493d8d5071"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-06.png",
+      "bytes": 133019,
+      "sha256": "d30fff3fc192d00703aeee91fb6ed29baa9eede734163c90dd1047156da8da79"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-07.png",
+      "bytes": 132062,
+      "sha256": "eac33d42676f484609b36b5b47beff3e27561c7294bfe29d3de168b956841dfb"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-board.png",
+      "bytes": 496566,
+      "sha256": "91776310646a077f32eb48be68ec71adf7fc996f289871b3344f5c0110557410"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareDown264-side-sequence.gif",
+      "bytes": 411652,
+      "sha256": "6cbe6825ac0d2875bbddd8438a743add7a8db6b6046c9b180a1adb278d772ed1"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-00.png",
+      "bytes": 125145,
+      "sha256": "c6def902f67f5955315462ee539394bb9bd492518abce94d56d9622ef48fd27f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-01.png",
+      "bytes": 125199,
+      "sha256": "2fccc100f7bdb6073b50222d5d255da117351c9cbb7300322e435afb8f83c870"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-02.png",
+      "bytes": 123839,
+      "sha256": "5f0424e0f5930a1baab63ca5b1f2753a8356f6096635d89e1a96eb98b2d26b72"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-03.png",
+      "bytes": 123009,
+      "sha256": "c21ad1acc1523b35f132a4a03dea283d4e38123370e92c459f54e9a59cac8ae2"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-04.png",
+      "bytes": 124890,
+      "sha256": "9dbf642a431ddfb34245ab2523c0c61266bc69682e2dcc2d51ab9597a97a34df"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-05.png",
+      "bytes": 126126,
+      "sha256": "aa78c96b5b83cf6c34e9c29081587cbcfef953d36c97823b52a497378258c57c"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-06.png",
+      "bytes": 130121,
+      "sha256": "1b046341f970f48bd117ce54c105c5eea04ffc8da4e7fa8ecb1a46634c0b37ea"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-07.png",
+      "bytes": 130325,
+      "sha256": "2f5af4e16d88999fd1db434e4dca474e221ed5722fa01cd1a0782f30e1e126bf"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-board.png",
+      "bytes": 434572,
+      "sha256": "d7cf3488386cbcc757479cd3ac2930ff573d271b37c34d562a208100089cefff"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-front-sequence.gif",
+      "bytes": 367909,
+      "sha256": "a10f264b9df4cb2cd2325be10ce86eea0271c3a7b19d36661f070463a0f7f7ae"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-00.png",
+      "bytes": 132062,
+      "sha256": "503ff4057cb91594357c66f51a2455920ee782b31d0c573624290b48477e2c08"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-01.png",
+      "bytes": 132434,
+      "sha256": "5188eedc1850dd76326db428366a31658d89335e1604b11f64acc7902b039bd4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-02.png",
+      "bytes": 133497,
+      "sha256": "f2be322aa015503eb3159090ef5afd102e17ba0ecfc1cb7b7c425ed0718570f9"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-03.png",
+      "bytes": 133709,
+      "sha256": "49850372aa2c4ac6442ecd645b7c4d958ccd4f09f56633e5b5cb0fafddfe4d1f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-04.png",
+      "bytes": 133103,
+      "sha256": "ecbfc9dedb94f46e0b0cacbf756f62caca6129a6c2ef85ca00a9dcb6c8ba664c"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-05.png",
+      "bytes": 133444,
+      "sha256": "4df8cfde66abb2fb19b805f631c46adbada9e99a2a6bec462c03af01fb083aae"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-06.png",
+      "bytes": 133554,
+      "sha256": "e1d84b12632d71f3052b39bfb7dc58b1a2d976509b35c7b6590bb9cca47c2818"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-07.png",
+      "bytes": 133428,
+      "sha256": "be3eec242602257ddc3cd26bd2a3d8246a64b980cb465ed2ffff5dd622331c05"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-board.png",
+      "bytes": 496264,
+      "sha256": "784feb3160bff61cdc31a76cbd0766b973caebce016b32441d197d175e238120"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelinePrepareUp264-side-sequence.gif",
+      "bytes": 414005,
+      "sha256": "abefea12e9cbc6e5c1c28a016d696c3fa58ed4ce86ca2ee2e7a4f9ba552039c0"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-00.png",
+      "bytes": 130211,
+      "sha256": "b880a0638959ae8141d2f6e36ac8bdb6d2a0a8e3666d17104fdf5b010ea915b5"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-01.png",
+      "bytes": 130163,
+      "sha256": "522e2e60f351e3e8a7ca816ada106b223db7672f4c1a0fd9d144fcef0012a512"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-02.png",
+      "bytes": 129609,
+      "sha256": "abb32fcae3c2cc8fd4556f10e9954230672279db990826f0d6ad6d271f7a5564"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-03.png",
+      "bytes": 130125,
+      "sha256": "557c7667071d34080e103ee67866769ca8aef70b5de475e035ad049ea805aaa5"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-04.png",
+      "bytes": 129669,
+      "sha256": "a7c9b03a71c12b2455959c5c8ea7f526eaa04c098264fc03a7ef64340569ff0e"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-05.png",
+      "bytes": 129867,
+      "sha256": "9fb7342af6e966f6eb860dbf1e77a0eaf28aaf60a853996d54cd8ee27a0dbc42"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-06.png",
+      "bytes": 129964,
+      "sha256": "5aa27f15939c7c8250e6d210ba0be0b0de474448418d64b90db43e2bf6743570"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-07.png",
+      "bytes": 130211,
+      "sha256": "f6d2c01239330c0d36a0ff0eb7a02fdaef3130bdd4b470fe5c669bc2cf629b9d"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-board.png",
+      "bytes": 484263,
+      "sha256": "7f7dfd6f3163e1d35f2e7a65f3ea53d286221d4d19b5ba4e94600933456805ef"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-front-sequence.gif",
+      "bytes": 400710,
+      "sha256": "0d26be4cee3514d0f44edad41e9b10991da3b2a4a18605c5357e9d81072c131c"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-00.png",
+      "bytes": 135043,
+      "sha256": "a5521b6711970881cafe9a4d119caaf70414f19f345404bb80fa27d603572109"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-01.png",
+      "bytes": 134342,
+      "sha256": "1b2ff0a16d6fa98decbed529dbbc24ba8b34add4b51a9804466cfbc1d34bb611"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-02.png",
+      "bytes": 133055,
+      "sha256": "9ee704b25119eeff273289dab0b118ecdb1f70c62fc57422a14eba828c5482b2"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-03.png",
+      "bytes": 134247,
+      "sha256": "826033a3a0e9ca1398ee9c7b70749e463427be4453a65513b8036bc8fd9db926"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-04.png",
+      "bytes": 133291,
+      "sha256": "d4c6fbfc960e4a8170e8624ea0d1280b80f4dee69c2d23f1bf0063b1ebbe2d90"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-05.png",
+      "bytes": 132125,
+      "sha256": "4f36930177e20eb4655d2caa7de292eec24e05bdc9b21da53ee862e3f11fe688"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-06.png",
+      "bytes": 131967,
+      "sha256": "41eec5fde3875181a27a68e1cf6c4485ac019fd07e28f786c287c213af12265d"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-07.png",
+      "bytes": 135043,
+      "sha256": "c865c064abd6f5bc267b07a575dfd061cc74812f288444fe721742ebd6498885"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-board.png",
+      "bytes": 535099,
+      "sha256": "de31ce00bc3e4f4ef7d41c4a0239810cdf3d05f900d686c6dbc8c28292301892"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineUprightStride-side-sequence.gif",
+      "bytes": 400416,
+      "sha256": "e108175c0c859751a917a467b02e3cb8a2e067f3c565902cf3b7ef9f86b6feb8"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-00.png",
+      "bytes": 125222,
+      "sha256": "b55a358524e8906ef241b35826957ae789c7fd06e6164382e15e245009616d9a"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-01.png",
+      "bytes": 125225,
+      "sha256": "7bdcb128ecb802517f94b23737a5bbae74848323c95010e272a25f542f89f425"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-02.png",
+      "bytes": 124750,
+      "sha256": "3f110bb6ddf7e18ca47cdd4d07c5e7955d6e1cec421074047ae313774021fe4f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-03.png",
+      "bytes": 125075,
+      "sha256": "6fb602a27c2479fb22bb24397226574136e81776b7d0e822a575a4257de8c2a0"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-04.png",
+      "bytes": 125448,
+      "sha256": "548ff8652ae8c4b97a678c1237029f02e0cb4dc94c49a27f31218202c00f0b38"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-05.png",
+      "bytes": 125114,
+      "sha256": "ebb24c7fb223a353bd71b1a711254b8ce9b70ea51ccc271ea018f973c06298f6"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-06.png",
+      "bytes": 124698,
+      "sha256": "51f07d9c8be7fec58b7278f6a5aa68cf9f90a05611b910636fb03af03924b75d"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-07.png",
+      "bytes": 125222,
+      "sha256": "7c352f29e2e503e9fd616b3b0ac3e1ffa43b3b354d8f0d78468aeeab4092bc37"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-board.png",
+      "bytes": 435783,
+      "sha256": "acb7c3a383723e3243bbd6067c166855c07b0c7fb24be55a13e15f20f5aa8376"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-front-sequence.gif",
+      "bytes": 302607,
+      "sha256": "58574a5f8385af70cbc34979702c2d0dd5c753671e4e26dbab1d34345fb75861"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-00.png",
+      "bytes": 132954,
+      "sha256": "0f536a4be08f36a839d50a24ab62bbfea7d5815fc5f5a113dd476197051378e6"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-01.png",
+      "bytes": 131806,
+      "sha256": "8abdc0129b5bd9450288358551158ee1f168dc94ca882f81ee8ce7d6cc5bd5ee"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-02.png",
+      "bytes": 131032,
+      "sha256": "7e18c6c9d6a9a0472b8410cf86328f8dc6920b7b446461a5724b1e5bb3ad162f"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-03.png",
+      "bytes": 130581,
+      "sha256": "464bf9284eeff63e69393899bfce4b34dc214e2e41206280d1c3ce82652f1644"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-04.png",
+      "bytes": 129431,
+      "sha256": "e313ca6557f0dabb5f904a438194c2f4a1fbdea72ec7665d649cd737d22cd437"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-05.png",
+      "bytes": 129062,
+      "sha256": "e3e614f916aab650e62704b9b9d7cfa5b47ba9db07876307f0961069a6aa535d"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-06.png",
+      "bytes": 129722,
+      "sha256": "78f7be70de585158cf0266aff33c07e6f4a477b910407a42e8226558b28f6207"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-07.png",
+      "bytes": 132954,
+      "sha256": "41deb5547e255439800cd31c703223c9f56f3d96fc012245bdc490baa0b3e753"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-board.png",
+      "bytes": 511186,
+      "sha256": "605029c1275b16caf6e9a93286f8ae380bcfa9d3f9eb11cc3f603f075c7717e2"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation264/preview/FelineWalk-side-sequence.gif",
+      "bytes": 402051,
+      "sha256": "3a2bec15b9b42e51e9bca5bfbf10fa6dd31931ed7b9e925dff5718c4cbe445cd"
+    }
+  ],
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": "tools/overhaul-pack-221/output/Pounce_Anatomy221.glb",
+      "sha256": "5147c2c2e46f4b2328d5d97ac091da70204244cb68882592d6328cec53489473"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/source-seal261.json",
+      "sha256": "0fb18c8ed9ca2e713258d6c74b193248496bb3eaf70383afed06e3ca9f919fa6"
+    }
+  ],
+  "closed261Matches": [
+    {
+      "path": "tools/overhaul-feline-animation-261/author261.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/run261.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/preview261.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/author-process261.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-261/author-receipt261.json",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation261/author-stdout261.txt",
+      "match": true
+    }
+  ],
+  "contactQualified": false,
+  "qualityApproved": false,
+  "publicApproved": false
+}

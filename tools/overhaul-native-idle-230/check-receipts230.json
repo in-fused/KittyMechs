@@ -1,0 +1,17 @@
+{
+  "writer": "CLOSED",
+  "staticType": {
+    "command": "node tools/overhaul-native-idle-230/check-source230.mjs",
+    "exitCode": 0,
+    "seconds": 6.0894655
+  },
+  "control": {
+    "command": "node --import tsx tools/overhaul-native-idle-230/control-check230.ts",
+    "exitCode": 0,
+    "seconds": 1.7335829,
+    "assertions": 5,
+    "scope": "recording composer stub only; no constructor/rig/native/render proof"
+  },
+  "productionChanged": false,
+  "baseline222Changed": false
+}

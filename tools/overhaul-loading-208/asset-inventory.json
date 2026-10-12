@@ -1,0 +1,252 @@
+{
+  "writer": "CLOSED",
+  "scope": "FROZEN062 raw GLB JSON/image-header metadata only; no geometry decode/render/FPS test",
+  "assets": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1",
+      "allJSONMeshes": 1,
+      "activeMeshes": 1,
+      "activePrimitives": 6,
+      "activeTriangles": 16236,
+      "materials": 6,
+      "textures": 0,
+      "images": [],
+      "skinJoints": [
+        25
+      ],
+      "animations": 17,
+      "channels": 1275,
+      "meshoptViews": 29,
+      "meshoptDecodedBytes": 998180,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "KHR_materials_emissive_strength",
+        "KHR_mesh_quantization"
+      ]
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4",
+      "allJSONMeshes": 1,
+      "activeMeshes": 1,
+      "activePrimitives": 6,
+      "activeTriangles": 15556,
+      "materials": 6,
+      "textures": 0,
+      "images": [],
+      "skinJoints": [
+        25
+      ],
+      "animations": 17,
+      "channels": 1275,
+      "meshoptViews": 29,
+      "meshoptDecodedBytes": 923340,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "KHR_materials_emissive_strength",
+        "KHR_mesh_quantization"
+      ]
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4",
+      "allJSONMeshes": 1,
+      "activeMeshes": 1,
+      "activePrimitives": 6,
+      "activeTriangles": 15192,
+      "materials": 6,
+      "textures": 0,
+      "images": [],
+      "skinJoints": [
+        25
+      ],
+      "animations": 17,
+      "channels": 1275,
+      "meshoptViews": 29,
+      "meshoptDecodedBytes": 917568,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "KHR_materials_emissive_strength",
+        "KHR_mesh_quantization"
+      ]
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+      "allJSONMeshes": 1,
+      "activeMeshes": 1,
+      "activePrimitives": 8,
+      "activeTriangles": 29674,
+      "materials": 8,
+      "textures": 0,
+      "images": [],
+      "skinJoints": [
+        25
+      ],
+      "animations": 62,
+      "channels": 4650,
+      "meshoptViews": 37,
+      "meshoptDecodedBytes": 1148564,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "KHR_materials_emissive_strength",
+        "KHR_mesh_quantization"
+      ]
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "allJSONMeshes": 256,
+      "activeMeshes": 1,
+      "activePrimitives": 5,
+      "activeTriangles": 48492,
+      "materials": 4,
+      "textures": 9,
+      "images": [
+        {
+          "mimeType": "image/png",
+          "encodedBytes": 347732,
+          "width": 512,
+          "height": 512,
+          "RGBA8WithMipBytesEstimate": 1398101.3333333333
+        },
+        {
+          "mimeType": "image/png",
+          "encodedBytes": 392640,
+          "width": 512,
+          "height": 512,
+          "RGBA8WithMipBytesEstimate": 1398101.3333333333
+        },
+        {
+          "mimeType": "image/png",
+          "encodedBytes": 268153,
+          "width": 512,
+          "height": 512,
+          "RGBA8WithMipBytesEstimate": 1398101.3333333333
+        },
+        {
+          "mimeType": "image/png",
+          "encodedBytes": 364661,
+          "width": 512,
+          "height": 512,
+          "RGBA8WithMipBytesEstimate": 1398101.3333333333
+        },
+        {
+          "mimeType": "image/png",
+          "encodedBytes": 403267,
+          "width": 512,
+          "height": 512,
+          "RGBA8WithMipBytesEstimate": 1398101.3333333333
+        }
+      ],
+      "skinJoints": [
+        57
+      ],
+      "animations": 45,
+      "channels": 7695,
+      "meshoptViews": 0,
+      "meshoptDecodedBytes": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    }
+  ],
+  "saved204": [
+    {
+      "page": "host",
+      "snapshotTick": 1671,
+      "cameraFrameClock": 32.004299999952316,
+      "visualFrameClock": 32.004299999952316,
+      "preferredDistance": 10,
+      "visualOwner": "9cffc043-4540-4acb-8a06-316e97786734",
+      "performance": {
+        "fps": 40,
+        "calls": 185,
+        "triangles": 917961,
+        "geometries": 171,
+        "textures": 107,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "inputAt": 34443.90000009537,
+      "transport": {
+        "connection": "Connected",
+        "error": null,
+        "phase": "playing",
+        "receipt": {
+          "packets": 296,
+          "snapshots": 295,
+          "admitted": 295,
+          "schemaRejected": 0,
+          "localAckRejected": 0,
+          "decodeFailures": 0,
+          "lastType": "snapshot",
+          "lastBytes": 46713,
+          "lastReceivedAt": 34154.09999990463,
+          "rawTick": 1671,
+          "rawTime": 27.8499999999997,
+          "admittedTick": 1671,
+          "admittedTime": 27.8499999999997,
+          "lastAdmittedAt": 34156.799999952316,
+          "firstFailure": null,
+          "close": null
+        }
+      }
+    },
+    {
+      "page": "guest",
+      "snapshotTick": 1370,
+      "cameraFrameClock": 16.35159999990464,
+      "visualFrameClock": 16.35159999990464,
+      "preferredDistance": 10,
+      "visualOwner": "e90b965c-cf16-46f5-a72f-de272780dbdf",
+      "performance": {
+        "fps": 2,
+        "calls": 85,
+        "triangles": 687435,
+        "geometries": 137,
+        "textures": 94,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "inputAt": 25232.699999809265,
+      "transport": {
+        "connection": "Connected",
+        "error": null,
+        "phase": "playing",
+        "receipt": {
+          "packets": 92,
+          "snapshots": 91,
+          "admitted": 91,
+          "schemaRejected": 0,
+          "localAckRejected": 0,
+          "decodeFailures": 0,
+          "lastType": "snapshot",
+          "lastBytes": 46760,
+          "lastReceivedAt": 25206.199999809265,
+          "rawTick": 1370,
+          "rawTime": 22.833333333333318,
+          "admittedTick": 1370,
+          "admittedTime": 22.833333333333318,
+          "lastAdmittedAt": 25209.699999809265,
+          "firstFailure": null,
+          "close": null
+        }
+      }
+    }
+  ],
+  "missing": [
+    "Manager active/loaded/total/errors and per-item start/end",
+    "Local SceneReady latch/current generation registry state",
+    "Network ResourceTiming/HTTP failures/transfer times",
+    "Meshopt per-view actual CPU/queue duration",
+    "Main-thread long tasks and animation/roster construction durations",
+    "GPU shader compile/texture upload and frame times"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Bastion",
+  "scale": 0.95,
+  "cosmeticExcluded": "tail, whiskers, antennae, sensor mast/lidar, ear tufts",
+  "clips": [
+    {
+      "clip": "FelineUprightIdle",
+      "duration": 2,
+      "height": 3.1883325576782227,
+      "radius": 1.6424241079900186,
+      "floor": 0.01353730633854866,
+      "hindPawMin": 0.1624498762190342,
+      "hindPawMax": 0.16245011687278746,
+      "forePawMin": 2.328449523448944,
+      "forePawMax": 2.3284504294395445
+    },
+    {
+      "clip": "FelineUprightWalk",
+      "duration": 0.95,
+      "height": 3.1942882537841797,
+      "radius": 1.652362288365762,
+      "floor": 0.013537329621613026,
+      "hindPawMin": 0.16244990453124045,
+      "hindPawMax": 0.3333346381783485,
+      "forePawMin": 2.328449523448944,
+      "forePawMax": 2.3284502029418945
+    },
+    {
+      "clip": "FelineUprightAir",
+      "duration": 1,
+      "height": 3.1882164478302,
+      "radius": 1.6420990767924308,
+      "floor": 0.4695374071598053,
+      "hindPawMin": 0.6184499651193619,
+      "hindPawMax": 0.6184501349925995,
+      "forePawMin": 2.328449523448944,
+      "forePawMax": 2.3284504294395445
+    },
+    {
+      "clip": "FelineTransformUp",
+      "duration": 0.7,
+      "height": 3.1858248710632324,
+      "radius": 1.8570653537173376,
+      "floor": 0.01353730633854866,
+      "hindPawMin": 0.16244989037513732,
+      "hindPawMax": 0.16245001778006554,
+      "forePawMin": 0.1624500036239624,
+      "forePawMax": 2.40603312253952
+    },
+    {
+      "clip": "FelineTransformDown",
+      "duration": 0.7,
+      "height": 3.1858248710632324,
+      "radius": 1.8570653537173376,
+      "floor": 0.01353730633854866,
+      "hindPawMin": 0.16244989037513732,
+      "hindPawMax": 0.16245001778006554,
+      "forePawMin": 0.1624500036239624,
+      "forePawMax": 2.40603312253952
+    }
+  ]
+}

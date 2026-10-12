@@ -1,0 +1,23 @@
+{
+  "schema": "critic035-ordinary-result",
+  "startedUTC": "2026-10-10T21:26:01Z",
+  "closedUTC": "2026-10-10T21:30:30.0821118Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "ACCEPT_LIMITED_DELIVERY_FAILURE_PRESERVATION_DENY_PLAYABLE_PROMOTION_ART_CONTACT_FULLSEQUENCE",
+  "review": "docs/overhaul/critic/pounce-art-player-035-result-review.md",
+  "reviewSHA256": "34023F23EF3E3E37761101CB710B427E0D422150961D6D01A447FF11BFE74382",
+  "resultSealSHA256": "BD29AB98702A9D7219F269C54466467730FEF94742EC122505C7A4D4135AA9B1",
+  "resultRowsVerified": 11,
+  "mismatches": 0,
+  "sameTickFullActorEquality": [
+    1364,
+    2228,
+    2247
+  ],
+  "actualVideoSheetViewed": true,
+  "retainedSentRecordsAggregated": 192,
+  "exactQueuedStrikePitchRecorded": false,
+  "cameraAimCauseIsolated": false,
+  "sourceArtNativeGate1Accepted": false,
+  "additionalJobGranted": false
+}

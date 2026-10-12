@@ -1,0 +1,76 @@
+{
+  "status": "SOURCE_UNADMITTED_INSUFFICIENT_REDUCTION",
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-facade-lod-191/admission191.json",
+      "sha256": "dcb7399bee42accd5ecea800b5e55e8109fdea19f7fa9655300f572933a47030",
+      "bytes": 1141
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/author191.py",
+      "sha256": "09e0487b199c0388caa069e8be82ef6cae71f787ab75d1e7c83ba796838e5ae0",
+      "bytes": 1973
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/compare-receipt.json",
+      "sha256": "80253bff7739bc3dac484723eb750fca6bc09e24e074107a1f270ef94d0e596e",
+      "bytes": 166
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/compare-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/compare-stdout.txt",
+      "sha256": "98c9d90479bf1feb117025d7ee2e20411d38cd140c5b5e9700a3b343ab097ed5",
+      "bytes": 451
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/compare191.json",
+      "sha256": "1d7440a784128edea8e6ffe935b893bcfac5a2b79fc798b604f54e57cbc6a657",
+      "bytes": 163310
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/compare191.mts",
+      "sha256": "5c8969bb3c109ca644fc7deb5382f6d7451410a0d2e3f0b4fbbfd38b945a44de",
+      "bytes": 6801
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/HANDOFF.md",
+      "sha256": "29e7ac2ef8428a89939d0a8ef925a99110b0b9b4f3812cfd2026fe3859f4346f",
+      "bytes": 4130
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/panel-source191.ts",
+      "sha256": "28f2afabad341891fdf6a5b023f9afa721b57d67bb43337815a4610557b80811",
+      "bytes": 2825
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/preimages/overhaulIdentityArt.tsx",
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637",
+      "bytes": 10515
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/protected-inputs.json",
+      "sha256": "7b910cf3ec4943bb27100460f5149a75062dd9b29db71054e08811e7d084b757",
+      "bytes": 2978
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/types-receipt.json",
+      "sha256": "55216804a8021aaccf13852ad2e6409a6d86098bed7e007f5f55db624a177a44",
+      "bytes": 169
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/types-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/types-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

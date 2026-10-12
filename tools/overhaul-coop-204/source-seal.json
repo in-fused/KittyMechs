@@ -1,0 +1,86 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_UNADMITTED_UNRUN",
+  "files": [
+    {
+      "path": "docs/overhaul/coop204-design.md",
+      "bytes": 3637,
+      "sha256": "77b37c3093972b92e1e33383d6bd0b0a2b55ea18b0afb7c89948ec6ebeb5eca0"
+    },
+    {
+      "path": "tools/overhaul-coop-204/close204.py",
+      "bytes": 3265,
+      "sha256": "feec0f1c5805b0dcaedbf33f6d9135cc174ce5812eeca897c547f22d330b710b"
+    },
+    {
+      "path": "tools/overhaul-coop-204/command-envelope.mjs",
+      "bytes": 5924,
+      "sha256": "324e267531b2785edaa8bb511207019f1c8d81249f190f334ff53fbd57d352d5"
+    },
+    {
+      "path": "tools/overhaul-coop-204/controller.mjs",
+      "bytes": 10771,
+      "sha256": "80d5102a5d524d4ee1f3ad05b1b48e102e7da985039f7c3f34d10a3880ef838c"
+    },
+    {
+      "path": "tools/overhaul-coop-204/fixture-first-failure.json",
+      "bytes": 10111,
+      "sha256": "b9b4e169a1f980dd8e61c387891972f3b5c45ffd8bbaaf4fe4caa47d77dd06c7"
+    },
+    {
+      "path": "tools/overhaul-coop-204/fixture-receipt.json",
+      "bytes": 10604,
+      "sha256": "196c3c18e785b8b2e0a0207b82e66b4997044c0a24410e3de5603b87418b73e3"
+    },
+    {
+      "path": "tools/overhaul-coop-204/fixture204.mjs",
+      "bytes": 4811,
+      "sha256": "38f9e195329c1fd27fdbe67e519cbaa4af5ef55bc990c269390643b6afac7d1a"
+    },
+    {
+      "path": "tools/overhaul-coop-204/geometry204.mjs",
+      "bytes": 7978,
+      "sha256": "0d7f5397fb6d12c613d8328bbe738ea2bb6ada9fb8f708df862100db22e9ad69"
+    },
+    {
+      "path": "tools/overhaul-coop-204/HANDOFF.md",
+      "bytes": 3714,
+      "sha256": "c6f217ca2284d4c60681c8d1aadf8e916069e242147c361b34dbd87e1e96e927"
+    },
+    {
+      "path": "tools/overhaul-coop-204/mission-capture.mjs",
+      "bytes": 57264,
+      "sha256": "d3ba30b016a91ee3301b2c63b0bcb9c53cc176027dc88b9fc891bdcc960847f1"
+    },
+    {
+      "path": "tools/overhaul-coop-204/preimages/controller201.mjs",
+      "bytes": 8206,
+      "sha256": "08f438ef15fdd7b61842d697a2e8b216683be134fb340b35e3164d5b729a1d81"
+    },
+    {
+      "path": "tools/overhaul-coop-204/preimages/mission201.mjs",
+      "bytes": 57096,
+      "sha256": "0e123ee1b2f53edbcb037ce43ce03970e79eece165f39e2a8d0ab21388f7d56c"
+    },
+    {
+      "path": "tools/overhaul-coop-204/preimages/planner201.mjs",
+      "bytes": 7933,
+      "sha256": "5fb14521bd5b641c5165d499d7d06fef0fb0a88781c0774b278e91b139772ed6"
+    },
+    {
+      "path": "tools/overhaul-coop-204/prepare204.py",
+      "bytes": 5308,
+      "sha256": "38dae0e47c5f8a576a61dd9ab5cbcb4cec9e60b71118a5df3a2455a46994d5de"
+    },
+    {
+      "path": "tools/overhaul-coop-204/protected-inputs.json",
+      "bytes": 15617,
+      "sha256": "f3466f25c1185b18c8604e96194c9a39c5540df6c6c2a1950f116c27be86bb3b"
+    },
+    {
+      "path": "tools/overhaul-coop-204/static-receipt.json",
+      "bytes": 452,
+      "sha256": "e4f0d07f6408edeb0cd23a203ddf84e0ff36213c721d4ded7e93738d1b2b8926"
+    }
+  ]
+}

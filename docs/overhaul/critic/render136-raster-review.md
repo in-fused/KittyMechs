@@ -1,0 +1,13 @@
+# Render136 actual raster review
+
+APPROVE ONE build/freeze056 and ONE freshly sealed ordinary public visual observation, preserving055 rollback. Writer CLOSED; reviewer ran no jobs or game edits. This approves the next observation, not live retention, GPU savings or a human lag fix.
+
+Read the actual comparison and both fixture sources; viewed candidate-mixed.png. All three cases have exactly0 differing RGBA channels/maxByteDelta0 and errors[]: uncovered sky, near opaque occlusion, and mixed horizon/floor plus a far opaque box at760m and a transparent overlay. The mixed image visibly retains the procedural sky/horizon, near solid, far colored geometry and blended foreground plane. Actual conventional perspective near.1/far850 and shader/fog/tone-mapping uniforms are consistent with the scoped source gate. Baseline/candidate source hashes match frozen055/current136.
+
+Fixture renderer is headless ANGLE GTX1070Ti D3D11 at960x540. performance.now around render+gl.finish is synchronized submission/completion wall timing; no GPU timer extension was queried. The tiny variable timings do not establish exclusive GPU time, total game frame savings or affected-client improvement. Warm-up8 frames and fixed alternating runs reduce some startup effects but are not a broad benchmark.
+
+The concrete opaque-depthWrite-false ordering caveat remains: such a material rendered before late sky can lose its color. Root reports no such production exception found in explicit declarations/material cloning; the fixture uses ordinary depth-writing opaque materials and does not prove every imported material state. Transparent effects remain separately ordered. Public admission must reject missing/different distant silhouettes, horizon/cloud/fog joins, opaque surfaces or transparent effects; do not waive a loss because fixture pixels matched. Render order/group assumptions and conventional depth configuration remain scoped.
+
+Comparison SHA256 `ad373359391d95a85d6d46ffe5b4b2534911fc7ea7323bd7079c3f0ecbbbd9df`; browser fixture `1ebc140138cfb7b92eefb745a4b56304d7603dbf41db56bb78a8ff970921c037c`; driver `4690dd02735bd3d2da63e2e52769ab5f2dd153c577c20275d74b3f4f3ece4759`. Candidate WeatherSky remains `0cdb9204e69343f08391e9befe092e8d0a6be5b93cc201dfe6023de006a6d9c2`.
+
+ONE public capture must use tracked idle8799 ownership, exact frozen056/HTTP identity and unchanged scene/weather/roster/controls, first genuine failure STOP. No fixture rerun, shader simplification or silent material changes are authorized. Actual independent pixels/native review determines limited retention versus055 rollback. Full goal, human Lowest ON/OFF lag, art/gait/contact/co-op and general performance remain INCOMPLETE.

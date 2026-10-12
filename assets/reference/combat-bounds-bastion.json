@@ -1,0 +1,126 @@
+{
+  "name": "Bastion",
+  "scale": 0.95,
+  "clips": [
+    {
+      "clip": "FelineCombatBase",
+      "duration": 0.1,
+      "radius": 1.8570654728165157,
+      "height": 2.3645498752593994,
+      "floor": 0.013537432067096233,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 5.662441253662109e-08
+    },
+    {
+      "clip": "FelinePulse",
+      "duration": 0.21666666666666667,
+      "radius": 1.8570654728165157,
+      "height": 2.3645498752593994,
+      "floor": 0.013537432067096233,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.7962081228832967e-07
+    },
+    {
+      "clip": "FelineMissile",
+      "duration": 0.43333333333333335,
+      "radius": 1.8570654728165157,
+      "height": 2.3645498752593994,
+      "floor": 0.01353742741048336,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.5048144045618052e-07
+    },
+    {
+      "clip": "FelineAbility",
+      "duration": 0.7,
+      "radius": 1.8579446633347865,
+      "height": 2.3645498752593994,
+      "floor": 0.013537408784031868,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.3942144679585545e-07
+    },
+    {
+      "clip": "FelineHit",
+      "duration": 0.3333333333333333,
+      "radius": 1.858206004338888,
+      "height": 2.3645498752593994,
+      "floor": 0.013537310063838959,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.3870091769957654e-07
+    },
+    {
+      "clip": "FelineDeath",
+      "duration": 1.05,
+      "radius": 1.8570651155189812,
+      "height": 2.3645501136779785,
+      "floor": 0.013537277467548847,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.6569293909048503e-07
+    },
+    {
+      "clip": "FelineUprightCombatBase",
+      "duration": 0.1,
+      "radius": 1.6357937126785103,
+      "height": 3.1858248710632324,
+      "floor": 0.013537304475903511,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.2740492820739745e-07
+    },
+    {
+      "clip": "FelineUprightPulse",
+      "duration": 0.21666666666666667,
+      "radius": 1.6511272337480838,
+      "height": 3.1858248710632324,
+      "floor": 0.013537304475903511,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.2740492820739745e-07
+    },
+    {
+      "clip": "FelineUprightMissile",
+      "duration": 0.43333333333333335,
+      "radius": 1.6755004064717127,
+      "height": 3.1858248710632324,
+      "floor": 0.013537304475903511,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.2740492820739745e-07
+    },
+    {
+      "clip": "FelineUprightAbility",
+      "duration": 0.7,
+      "radius": 1.6357937970196512,
+      "height": 3.1858248710632324,
+      "floor": 0.013537304475903511,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.2740492820739745e-07
+    },
+    {
+      "clip": "FelineUprightHit",
+      "duration": 0.3333333333333333,
+      "radius": 1.6433177418818432,
+      "height": 3.1858248710632324,
+      "floor": 0.013537304475903511,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.2740492820739745e-07
+    },
+    {
+      "clip": "FelineUprightDeath",
+      "duration": 1.05,
+      "radius": 1.8192553255060224,
+      "height": 3.195369005203247,
+      "floor": 0.013537300750613213,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.6987323760986326e-07
+    }
+  ]
+}

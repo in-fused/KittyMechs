@@ -1,0 +1,38 @@
+{
+  "closedUTC": "2026-10-11T02:30:32.7516348Z",
+  "status": "RETAIN_039_LIMITED_MOVEMENT_TIMING_CHECKPOINT",
+  "reviewPath": "docs/overhaul/critic/play-experience-057-result-review.md",
+  "reviewSHA256": "ab99a58efd9a1e1d40d3f64d9528e10396cf88142c4cec63738a61965d0697ed",
+  "resultSealSHA256": "c393061b3a83509c0522ae572b458df67326abc7e9438354bc63c356d346db1b",
+  "verifiedResultRows": 32,
+  "viewedEndpointPNGs": 14,
+  "viewedMotionBoards": 2,
+  "baselineSeconds": 37.047,
+  "candidateSeconds": 33.609,
+  "inputRowsEach": 408,
+  "inputMismatches": 0,
+  "baselineRaf": {
+    "count": 886,
+    "median": 18,
+    "p95": 36,
+    "p99": 53.3
+  },
+  "candidateRaf": {
+    "count": 951,
+    "median": 17.9,
+    "p95": 18.6,
+    "p99": 36.1
+  },
+  "cameraResolved": false,
+  "userLagResolved": false,
+  "fullGoal": "ACTIVE INCOMPLETE",
+  "heavyJobsByReviewer": 0,
+  "writersClosed": true,
+  "limits": [
+    "both motion boards retain no-obvious-self pedestal panel",
+    "candidate left endpoint body cropped",
+    "video offsets not native aligned",
+    "sequential runs differ in positions and damage",
+    "no universal FPS or multiplayer/fullmission/contact qualification"
+  ]
+}

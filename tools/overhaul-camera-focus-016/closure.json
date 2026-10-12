@@ -1,0 +1,40 @@
+{
+  "closedUTC": "2026-10-10T18:59:53.370205+00:00",
+  "status": "FIRST_BUILD_FAILURE_STOP",
+  "compile": {
+    "stage": "compile",
+    "startUTC": "2026-10-10T18:58:20.981040+00:00",
+    "endUTC": "2026-10-10T18:58:33.086207+00:00",
+    "elapsedSeconds": 12.109000000171363,
+    "exitCode": 0,
+    "failure": null,
+    "command": [
+      "node",
+      "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+      "--noEmit"
+    ],
+    "cwd": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\camera-focus-016\\build-root",
+    "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "build": {
+    "stage": "build",
+    "startUTC": "2026-10-10T18:58:39.935345+00:00",
+    "endUTC": "2026-10-10T18:58:40.831935+00:00",
+    "elapsedSeconds": 0.8910000000614673,
+    "exitCode": 1,
+    "failure": null,
+    "command": [
+      "node",
+      "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\vite\\bin\\vite.js",
+      "build"
+    ],
+    "cwd": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\camera-focus-016\\build-root",
+    "stdoutSHA256": "c3a1d56aca131d64934a05f1d4fb454a7d989210a7accc21971d1eae446397cd"
+  },
+  "reason": "Copied playable026 package omits source index.html; Vite cannot resolve entry. Root packaging error. No source/quality result inferred.",
+  "build027Created": false,
+  "browserCapture": false,
+  "activeJobs": 0,
+  "checkpoint026": "Preserved; unchanged running server89579 localhost8799",
+  "next": "Do not rerun016. A later integrated body build must use complete editable source package including index.html."
+}

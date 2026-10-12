@@ -1,0 +1,91 @@
+{
+  "cleanupUTC": "2026-10-10T21:33:00Z",
+  "hardUTC": "2026-10-10T21:36:00Z",
+  "status": "PENDING_ONE_SOURCE_VALIDATION_INCOMPLETE_FAMILY",
+  "schema": "handcontact032-small-implementation-seal",
+  "protectedCount": 187,
+  "frozenUTC": "2026-10-10T21:21:24.6011654Z",
+  "inclusiveCapSeconds": 60,
+  "cleanupReserveInsideCapSeconds": 10,
+  "files": [
+    {
+      "sha256": "e8bc806f5e485ccf479d583ab87a9532be89f4c086af9f7240788a36c65cc216",
+      "bytes": 17266,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/source_actor.py"
+    },
+    {
+      "sha256": "db17f9966019f3a638c3ef2ee4bf9b19d318371ac9b176ac8e1f4459ff96fcb3",
+      "bytes": 29035,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/source_helpers.py"
+    },
+    {
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "bytes": 2631,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/single_pose_owner.py"
+    },
+    {
+      "sha256": "22ee47cbb0d7ba4e72d3dfcd4e907e3b5e7a9c694312aa5ccfa90c1361db78f8",
+      "bytes": 1416,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/capabilities.py"
+    },
+    {
+      "sha256": "9185d791f85c208ed8bb725bfce623751973f8bfc41e51f3b7bb6b58aa2f3921",
+      "bytes": 8076,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/hand_contact.py"
+    },
+    {
+      "sha256": "a3ec88da7efe3454412c5ab3780780599a55311108eab19c55a674e06e3ad366",
+      "bytes": 6725,
+      "path": "assets/source/overhaul-pounce-hand-contact-032/validate_hand.py"
+    },
+    {
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "bytes": 1028,
+      "path": "tools/overhaul-pounce-hand-contact-032/actual004-capability-allowlist.json"
+    },
+    {
+      "sha256": "7ef50d9ffd047e3e37d9ad1ee5d0fd92e0e6ed747996c47675229f6e41d25cfe",
+      "bytes": 39550,
+      "path": "tools/overhaul-pounce-hand-contact-032/small-protected-inputs.json"
+    },
+    {
+      "sha256": "0afa31436261c1c82e53a0324fc09db293e7325a1f96d184900229f8b52b4ee3",
+      "bytes": 16152,
+      "path": "tools/overhaul-pounce-hand-contact-032/source-actor-exact-diff.patch"
+    },
+    {
+      "sha256": "69ab2d220a85c650ae25656bcc409792c32155cb405e82ab77707028ce5accab",
+      "bytes": 494,
+      "path": "tools/overhaul-pounce-hand-contact-032/exact-diff.json"
+    },
+    {
+      "sha256": "aa81e88f93cd7767c2771d5216a75034aa3a5df29c60f6ffb4b6aaff94bce870",
+      "bytes": 509,
+      "path": "tools/overhaul-pounce-hand-contact-032/validation-command.ps1"
+    },
+    {
+      "sha256": "8a675cf3af5ed08d9b783605855302454b51ed7de49854bd4d1a1a218836c5bc",
+      "bytes": 2162,
+      "path": "tools/overhaul-pounce-hand-contact-032/implementation-contract.json"
+    },
+    {
+      "sha256": "9d95aa102e44e322eef9b7944fea41f8b144d7e3792f6af6f7dff953cd6eb2eb",
+      "bytes": 309,
+      "path": "tools/overhaul-pounce-hand-contact-032/design-seal.json"
+    },
+    {
+      "sha256": "c6da1a3457859d37b11b7ef58631df6d5b0c23101ec336e9db98c8696f4c4d90",
+      "bytes": 4271,
+      "path": "docs/overhaul/pounce-hand-contact-032.md"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-hand-contact-032\\validate_hand.py"
+  ]
+}

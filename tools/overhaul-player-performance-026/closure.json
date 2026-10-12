@@ -1,0 +1,97 @@
+{
+  "task": "player-performance-026",
+  "startedUTC": "2026-10-10T20:03:59Z",
+  "closedUTC": "2026-10-10T20:15:18.4955513Z",
+  "status": "BASELINE_MEASURED_NO_CAUSE_SUPPORTED_RUNTIME_CANDIDATE",
+  "jobsActive": 0,
+  "productionWrites": 0,
+  "baselineAttempts": 1,
+  "candidateAttempts": 0,
+  "candidateCompilerTests": "UNRUN",
+  "rootSession": 36529,
+  "rootPID": 13568,
+  "rootReportedInclusiveSeconds": 46.578,
+  "nativeHostFlightAndPresentedAirBothWorkloads": true,
+  "performanceApproval": false,
+  "artContactGate1Approval": false,
+  "protectedInputs": [
+    {
+      "path": "tools/overhaul-player-performance-026/capture.mjs",
+      "bytes": 10627,
+      "sha256": "2bb1a02fe9ec1bba9f00f2b3e9bb85780b2990251af149bc64f3a20609bd745b",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/player-performance-026.md",
+      "bytes": 5019,
+      "sha256": "c15219faf45536f63fbff68b57cdb0cf226d62309b6af7ff0558f97b46affb6d",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128",
+      "match": true
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11098,
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323",
+      "match": true
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f",
+      "match": true
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 4002,
+      "sha256": "1e973cca3d0aae317a683ff9d23a505234cba3baa45e9add223659aea961cb56",
+      "match": true
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 6879,
+      "sha256": "b48724f9f0268398a1dfaea7146ba64788d20dca71b1d07b10962db54e6c5d51",
+      "match": true
+    },
+    {
+      "path": "src/game/world/World.tsx",
+      "bytes": 14979,
+      "sha256": "724c70a9dae1d76b184ccb340ebc6fa8078fabe14004c87687482643bacd1220",
+      "match": true
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 15958,
+      "sha256": "10dfd8799751219202afdc1d4250b14a5d55bf3a349a303c81c47a4c7fbd44fe",
+      "match": true
+    },
+    {
+      "path": "src/game/network.ts",
+      "bytes": 12948,
+      "sha256": "8a44b5b8175259e3b353ca100a4ac1cc2c0cb6a647e06e7b3dd2e6d8ba93e917",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-024/evidence.json",
+      "bytes": 2268466,
+      "sha256": "e3b3d9c469c3d3c77c8251302ba3e9e8464d70f077bcf5836e39bd29d417acc7",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.raw.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e",
+      "match": true
+    }
+  ]
+}

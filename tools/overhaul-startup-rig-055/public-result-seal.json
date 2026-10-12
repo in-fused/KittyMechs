@@ -1,0 +1,65 @@
+{
+  "scope": "055 ONE uninstrumented actual038 startup success, independent review pending",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public-process/process-receipt.json",
+      "bytes": 61615,
+      "sha256": "8d74759888f73d977180114e9b94d8f162659df3e2a0552f6446a5672b645124"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public-process/stdout.txt",
+      "bytes": 232,
+      "sha256": "1de9372b568a9f8810062dabc2fed75dc1a8f1d9010f71710c6703cce448680e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live038-http-verification.json",
+      "bytes": 866,
+      "sha256": "db74e3c307f97e9c655d4b00c17397b4027b9c2dc2ac0bb94ea7459be517d743"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live038-server.json",
+      "bytes": 243,
+      "sha256": "f080856b4c877c99a884f45f18bb1f3f6d24caa37f9f212425b0acb7a866636e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/evidence.json",
+      "bytes": 335052,
+      "sha256": "701ebc1aa923a8bc0c3aacbe192eb4eca56e14491ace47698a21fb1658372f87"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/native-keyframes.json",
+      "bytes": 683132,
+      "sha256": "ebbcef7b703db6d039044b72ad4caf25de463e56903f1a3951771e4899546fca"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/page@8e2412a4fa002978e9f5639125837e8e.webm",
+      "bytes": 3200164,
+      "sha256": "9d1ea41faf8ef34afa7191b63ec91e2f2a2348308550fb6cb9c0ec4d42c23005"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/page@b18d032d1f948f705a559a041528aac6.webm",
+      "bytes": 1291906,
+      "sha256": "d4ab8f7bcf53ed4534cde5a5b450d62fffe32f6fd92e4e77ef2e814e0e7d5837"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/progress.json",
+      "bytes": 296,
+      "sha256": "7a1e1d731f36c07725798af341eeabe8835a53bcee1a69354ce8e774d1b7fa0d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/ready-guest.png",
+      "bytes": 1411465,
+      "sha256": "8df4a8a03697d8a2cc00bf031f5d104eb087d092636be574c04fc7dae686c4e3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/ready-host.png",
+      "bytes": 1454028,
+      "sha256": "b91864a957b2311fe16287b403fc84ae016a0eb296270a4f4021b941880ac7d7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-public/summary.json",
+      "bytes": 6376,
+      "sha256": "1508a3718d72ff654ce44bfecd8bb15a13c4c32d06d7fbf7b05a07bd63fcf91d"
+    }
+  ]
+}

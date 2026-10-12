@@ -1,0 +1,3249 @@
+{
+  "schema": 2,
+  "status": "CONTACT_CANDIDATE_REQUIRES_MATCH_REVIEW",
+  "v1SourceSha256": "54e4947fa7a8418b7da4a9532270b7304876defdc24874a433d71765af949eb0",
+  "scale": 0.8,
+  "nativeHullDistances": {
+    "PouncePounce": 3.5,
+    "PounceScout": 3.2,
+    "PounceAnchor": 3.95
+  },
+  "rootMotion": false,
+  "clips": {
+    "FelinePairImpactAttacker": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairPinAttacker": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseAttacker": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairImpactVictim": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairPinVictim": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseVictim": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairFallVictim": {
+      "durationRequested": 1.05,
+      "frames": [
+        0,
+        63
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightPairImpactAttacker": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightPairPinAttacker": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightPairReleaseAttacker": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightPairImpactVictim": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightPairPinVictim": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightPairReleaseVictim": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightPairFallVictim": {
+      "durationRequested": 1.05,
+      "frames": [
+        0,
+        63
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairImpactAttackerScout": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairImpactVictimScout": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairPinAttackerScout": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairPinVictimScout": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseAttackerScout": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseVictimScout": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerScout": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairImpactVictimScout": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairPinAttackerScout": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairPinVictimScout": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerScout": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimScout": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairImpactAttackerMortar": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairImpactVictimMortar": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairPinAttackerMortar": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairPinVictimMortar": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseAttackerMortar": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseVictimMortar": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerMortar": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairImpactVictimMortar": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairPinAttackerMortar": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairPinVictimMortar": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerMortar": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimMortar": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairImpactAttackerAnchor": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairImpactVictimAnchor": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelinePairPinAttackerAnchor": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairPinVictimAnchor": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseAttackerAnchor": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelinePairReleaseVictimAnchor": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "quadruped",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerAnchor": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairImpactVictimAnchor": {
+      "durationRequested": 0.28,
+      "frames": [
+        0,
+        16.8
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": 0.12
+    },
+    "FelineUprightAgainstQuadPairPinAttackerAnchor": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairPinVictimAnchor": {
+      "durationRequested": 0.8,
+      "frames": [
+        0,
+        48
+      ],
+      "loop": true,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerAnchor": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimAnchor": {
+      "durationRequested": 0.35,
+      "frames": [
+        0,
+        21
+      ],
+      "loop": false,
+      "stance": "upright",
+      "rootMotion": false,
+      "contactSeconds": null
+    }
+  },
+  "contacts": [
+    {
+      "rootSeparation": 3.2,
+      "phase": "Impact",
+      "seconds": 0.12,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.00018494763935450464,
+      "medianTipGap": 0.1063700020313263,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.139521524310112,
+          "signedNearestPlaneGap": 0.13952152291312814,
+          "tip": [
+            -0.5691709518432617,
+            -1.9214775562286377,
+            1.3239318132400513
+          ],
+          "nearestTarget": [
+            -0.436093807220459,
+            -1.8913004398345947,
+            1.353019118309021
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.06367702782154083,
+          "signedNearestPlaneGap": 0.06121362489648163,
+          "tip": [
+            -0.4810962677001953,
+            -1.9572941064834595,
+            1.3240596055984497
+          ],
+          "nearestTarget": [
+            -0.422349750995636,
+            -1.9437615871429443,
+            1.3445652723312378
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.0017941923579201102,
+          "signedNearestPlaneGap": -0.0017941918122232892,
+          "tip": [
+            -0.4032752513885498,
+            -1.9605640172958374,
+            1.3266242742538452
+          ],
+          "nearestTarget": [
+            -0.4047078490257263,
+            -1.9609078168869019,
+            1.325600266456604
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.00018494763935450464,
+          "signedNearestPlaneGap": 0.00018494708421179507,
+          "tip": [
+            -0.31535059213638306,
+            -1.9243806600570679,
+            1.3267529010772705
+          ],
+          "nearestTarget": [
+            -0.3152453899383545,
+            -1.9243812561035156,
+            1.3269050121307373
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.047730181366205215,
+          "signedNearestPlaneGap": 0.04627472156425938,
+          "tip": [
+            0.30635330080986023,
+            -1.9133704900741577,
+            1.260650396347046
+          ],
+          "nearestTarget": [
+            0.2861529290676117,
+            -1.9070464372634888,
+            1.3034303188323975
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.1063700020313263,
+          "signedNearestPlaneGap": 0.09899123187642545,
+          "tip": [
+            0.3943646550178528,
+            -1.9493427276611328,
+            1.260677456855774
+          ],
+          "nearestTarget": [
+            0.3088401257991791,
+            -1.934931755065918,
+            1.3222603797912598
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17890244722366333,
+          "signedNearestPlaneGap": 0.17196429171599448,
+          "tip": [
+            0.4823646545410156,
+            -1.949315071105957,
+            1.26068913936615
+          ],
+          "nearestTarget": [
+            0.32649388909339905,
+            -1.9238942861557007,
+            1.3447377681732178
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.25355198979377747,
+          "signedNearestPlaneGap": 0.25164500158280134,
+          "tip": [
+            0.5703533291816711,
+            -1.9132874011993408,
+            1.2606855630874634
+          ],
+          "nearestTarget": [
+            0.33361852169036865,
+            -1.8758982419967651,
+            1.3434339761734009
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.2,
+      "phase": "Pin",
+      "seconds": 0.4,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.0008984309388324618,
+      "medianTipGap": 0.1053401380777359,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.1398025006055832,
+          "signedNearestPlaneGap": 0.1398024964146316,
+          "tip": [
+            -0.5698177814483643,
+            -1.9222856760025024,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4364740252494812,
+            -1.892043113708496,
+            1.3550660610198975
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.06388620287179947,
+          "signedNearestPlaneGap": 0.06080202106386423,
+          "tip": [
+            -0.4818178117275238,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.42223772406578064,
+            -1.9446203708648682,
+            1.3444907665252686
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.0021076102275401354,
+          "signedNearestPlaneGap": -0.002107609652739484,
+          "tip": [
+            -0.4040001332759857,
+            -1.9617176055908203,
+            1.328370213508606
+          ],
+          "nearestTarget": [
+            -0.4056844115257263,
+            -1.9621224403381348,
+            1.32716965675354
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.0008984309388324618,
+          "signedNearestPlaneGap": -0.0008984281163861851,
+          "tip": [
+            -0.3160000741481781,
+            -1.9257175922393799,
+            1.328370213508606
+          ],
+          "nearestTarget": [
+            -0.31651103496551514,
+            -1.9257147312164307,
+            1.3276312351226807
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.046431273221969604,
+          "signedNearestPlaneGap": 0.044980460312217474,
+          "tip": [
+            0.30581769347190857,
+            -1.9142853021621704,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.2860383689403534,
+            -1.9081395864486694,
+            1.3034740686416626
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.1053401380777359,
+          "signedNearestPlaneGap": 0.09773813420906663,
+          "tip": [
+            0.3938177227973938,
+            -1.9502853155136108,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3086564540863037,
+            -1.9360301494598389,
+            1.3222582340240479
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17800278961658478,
+          "signedNearestPlaneGap": 0.17137065739370883,
+          "tip": [
+            0.48181772232055664,
+            -1.95028555393219,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.32626721262931824,
+            -1.924960970878601,
+            1.344669222831726
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.2528345584869385,
+          "signedNearestPlaneGap": 0.25106854597106576,
+          "tip": [
+            0.5698177218437195,
+            -1.9142855405807495,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.33338502049446106,
+            -1.876994013786316,
+            1.3433692455291748
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.2,
+      "phase": "Release",
+      "seconds": 0,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.0008983498555608094,
+      "medianTipGap": 0.1053401380777359,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.1398025006055832,
+          "signedNearestPlaneGap": 0.13980249082669616,
+          "tip": [
+            -0.5698177814483643,
+            -1.9222856760025024,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4364740550518036,
+            -1.8920429944992065,
+            1.3550660610198975
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.06388617306947708,
+          "signedNearestPlaneGap": 0.06080201524309814,
+          "tip": [
+            -0.4818178117275238,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.422237753868103,
+            -1.9446203708648682,
+            1.3444907665252686
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.002107633976265788,
+          "signedNearestPlaneGap": -0.0021076333869132213,
+          "tip": [
+            -0.4040001332759857,
+            -1.9617176055908203,
+            1.328370213508606
+          ],
+          "nearestTarget": [
+            -0.4056844413280487,
+            -1.9621224403381348,
+            1.32716965675354
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.0008983498555608094,
+          "signedNearestPlaneGap": -0.000898347295647639,
+          "tip": [
+            -0.3160000741481781,
+            -1.9257175922393799,
+            1.328370213508606
+          ],
+          "nearestTarget": [
+            -0.3165110647678375,
+            -1.9257147312164307,
+            1.3276313543319702
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.04643118008971214,
+          "signedNearestPlaneGap": 0.04498035029973835,
+          "tip": [
+            0.30581769347190857,
+            -1.9142853021621704,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.286038339138031,
+            -1.9081395864486694,
+            1.303473949432373
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.1053401380777359,
+          "signedNearestPlaneGap": 0.0977381500415504,
+          "tip": [
+            0.3938177227973938,
+            -1.9502853155136108,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3086564540863037,
+            -1.9360301494598389,
+            1.3222582340240479
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17800273001194,
+          "signedNearestPlaneGap": 0.17137066973373294,
+          "tip": [
+            0.48181772232055664,
+            -1.95028555393219,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.32626721262931824,
+            -1.924960970878601,
+            1.3446691036224365
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.25283458828926086,
+          "signedNearestPlaneGap": 0.2510685855522752,
+          "tip": [
+            0.5698177218437195,
+            -1.9142855405807495,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.33338499069213867,
+            -1.8769941329956055,
+            1.3433692455291748
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Impact",
+      "seconds": 0.12,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.003542541526257992,
+      "medianTipGap": 0.10854846239089966,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.1447826623916626,
+          "signedNearestPlaneGap": 0.13638604898005724,
+          "tip": [
+            -0.5691709518432617,
+            -1.9214775562286377,
+            1.3239318132400513
+          ],
+          "nearestTarget": [
+            -0.4310556650161743,
+            -1.9503928422927856,
+            1.3563369512557983
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.0568673200905323,
+          "signedNearestPlaneGap": 0.05269772210158408,
+          "tip": [
+            -0.4810962677001953,
+            -1.9572941064834595,
+            1.3240596055984497
+          ],
+          "nearestTarget": [
+            -0.43451642990112305,
+            -1.9689503908157349,
+            1.3545283079147339
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.003542541526257992,
+          "signedNearestPlaneGap": 0.0035415767051745206,
+          "tip": [
+            -0.41346117854118347,
+            -1.9571529626846313,
+            1.3241580724716187
+          ],
+          "nearestTarget": [
+            -0.411572128534317,
+            -1.9578250646591187,
+            1.3270785808563232
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.0044205887243151665,
+          "signedNearestPlaneGap": 0.004414104914758354,
+          "tip": [
+            -0.32553645968437195,
+            -1.920969843864441,
+            1.3242865800857544
+          ],
+          "nearestTarget": [
+            -0.3271918296813965,
+            -1.9243179559707642,
+            1.3266512155532837
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.06319548189640045,
+          "signedNearestPlaneGap": 0.06309804832562804,
+          "tip": [
+            0.30635330080986023,
+            -1.9133704900741577,
+            1.260650396347046
+          ],
+          "nearestTarget": [
+            0.275199830532074,
+            -1.9266688823699951,
+            1.3140009641647339
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.10854846239089966,
+          "signedNearestPlaneGap": 0.10839763330295682,
+          "tip": [
+            0.3943646550178528,
+            -1.9493427276611328,
+            1.260677456855774
+          ],
+          "nearestTarget": [
+            0.31008660793304443,
+            -1.9759056568145752,
+            1.3237202167510986
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17879131436347961,
+          "signedNearestPlaneGap": 0.17856849543750286,
+          "tip": [
+            0.4823646545410156,
+            -1.949315071105957,
+            1.26068913936615
+          ],
+          "nearestTarget": [
+            0.33346524834632874,
+            -1.9929054975509644,
+            1.3495439291000366
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.265087366104126,
+          "signedNearestPlaneGap": 0.258569560945034,
+          "tip": [
+            0.5703533291816711,
+            -1.9132874011993408,
+            1.2606855630874634
+          ],
+          "nearestTarget": [
+            0.331232488155365,
+            -1.9843145608901978,
+            1.350394368171692
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Pin",
+      "seconds": 0.4,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.0021597740706056356,
+      "medianTipGap": 0.10719239711761475,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.14472226798534393,
+          "signedNearestPlaneGap": 0.13558503240346909,
+          "tip": [
+            -0.5698177814483643,
+            -1.9222856760025024,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4312569200992584,
+            -1.951071858406067,
+            1.3561969995498657
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.05619252845644951,
+          "signedNearestPlaneGap": 0.05277547566220164,
+          "tip": [
+            -0.4818178117275238,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.43475499749183655,
+            -1.9698344469070435,
+            1.3543671369552612
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.0021597740706056356,
+          "signedNearestPlaneGap": 0.0021591851764242165,
+          "tip": [
+            -0.41418248414993286,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4130307734012604,
+            -1.958695411682129,
+            1.3276991844177246
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.002327702706679702,
+          "signedNearestPlaneGap": 0.0023242870229296386,
+          "tip": [
+            -0.32618242502212524,
+            -1.9222854375839233,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.327053964138031,
+            -1.9240485429763794,
+            1.3271636962890625
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.06164566054940224,
+          "signedNearestPlaneGap": 0.06156511418521404,
+          "tip": [
+            0.30581769347190857,
+            -1.9142853021621704,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.27519169449806213,
+            -1.927268385887146,
+            1.3138190507888794
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.10719239711761475,
+          "signedNearestPlaneGap": 0.10095874825492501,
+          "tip": [
+            0.3938177227973938,
+            -1.9502853155136108,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.31013333797454834,
+            -1.9765300750732422,
+            1.3235491514205933
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17751920223236084,
+          "signedNearestPlaneGap": 0.17724420875310898,
+          "tip": [
+            0.48181772232055664,
+            -1.95028555393219,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3333844542503357,
+            -1.992910385131836,
+            1.349461317062378
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.2639685571193695,
+          "signedNearestPlaneGap": 0.25724083185195923,
+          "tip": [
+            0.5698177218437195,
+            -1.9142855405807495,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3313356935977936,
+            -1.9850289821624756,
+            1.3502421379089355
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Release",
+      "seconds": 0,
+      "target": "victim skull/muzzle",
+      "minimumTipGap": 0.0021597740706056356,
+      "medianTipGap": 0.10719239711761475,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.14472226798534393,
+          "signedNearestPlaneGap": 0.13558503240346909,
+          "tip": [
+            -0.5698177814483643,
+            -1.9222856760025024,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4312569200992584,
+            -1.951071858406067,
+            1.3561969995498657
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.05619252845644951,
+          "signedNearestPlaneGap": 0.05277545074932277,
+          "tip": [
+            -0.4818178117275238,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.43475499749183655,
+            -1.9698344469070435,
+            1.3543671369552612
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.0021597740706056356,
+          "signedNearestPlaneGap": 0.0021591851764242165,
+          "tip": [
+            -0.41418248414993286,
+            -1.9582855701446533,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.4130307734012604,
+            -1.958695411682129,
+            1.3276991844177246
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.002327702706679702,
+          "signedNearestPlaneGap": 0.0023242870229296386,
+          "tip": [
+            -0.32618242502212524,
+            -1.9222854375839233,
+            1.3259186744689941
+          ],
+          "nearestTarget": [
+            -0.327053964138031,
+            -1.9240485429763794,
+            1.3271636962890625
+          ]
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "gapMeters": 0.06164566054940224,
+          "signedNearestPlaneGap": 0.06156511418521404,
+          "tip": [
+            0.30581769347190857,
+            -1.9142853021621704,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.27519169449806213,
+            -1.927268385887146,
+            1.3138190507888794
+          ]
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "gapMeters": 0.10719239711761475,
+          "signedNearestPlaneGap": 0.10095874825492501,
+          "tip": [
+            0.3938177227973938,
+            -1.9502853155136108,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.31013333797454834,
+            -1.9765300750732422,
+            1.3235491514205933
+          ]
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "gapMeters": 0.17751923203468323,
+          "signedNearestPlaneGap": 0.17724423110485077,
+          "tip": [
+            0.48181772232055664,
+            -1.95028555393219,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3333844244480133,
+            -1.992910385131836,
+            1.349461317062378
+          ]
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "gapMeters": 0.2639685869216919,
+          "signedNearestPlaneGap": 0.2572408765554428,
+          "tip": [
+            0.5698177218437195,
+            -1.9142855405807495,
+            1.2619184255599976
+          ],
+          "nearestTarget": [
+            0.3313356339931488,
+            -1.9850289821624756,
+            1.3502421379089355
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.2,
+      "phase": "Impact",
+      "seconds": 0.12,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.08414988219738007,
+      "medianTipGap": 0.10734650492668152,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.08414988219738007,
+          "signedNearestPlaneGap": 0.017743478620644737,
+          "tip": [
+            -0.5941042304039001,
+            -1.7964435815811157,
+            2.200005054473877
+          ],
+          "nearestTarget": [
+            -0.5763607025146484,
+            -1.739061951637268,
+            2.141066789627075
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.10734650492668152,
+          "signedNearestPlaneGap": 0.09691188094438985,
+          "tip": [
+            -0.5162829160690308,
+            -1.8583309650421143,
+            2.187338352203369
+          ],
+          "nearestTarget": [
+            -0.4953228235244751,
+            -1.8660473823547363,
+            2.082341194152832
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.10900143533945084,
+          "signedNearestPlaneGap": 0.10285652539459988,
+          "tip": [
+            -0.42828282713890076,
+            -1.858327865600586,
+            2.1873490810394287
+          ],
+          "nearestTarget": [
+            -0.4581962823867798,
+            -1.8646847009658813,
+            2.0827255249023438
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.0841960608959198,
+          "signedNearestPlaneGap": 0.04476312872038024,
+          "tip": [
+            -0.35046878457069397,
+            -1.7964353561401367,
+            2.2000346183776855
+          ],
+          "nearestTarget": [
+            -0.368360698223114,
+            -1.739061951637268,
+            2.1410672664642334
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.2,
+      "phase": "Pin",
+      "seconds": 0.4,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.08618715405464172,
+      "medianTipGap": 0.10647639632225037,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.08618715405464172,
+          "signedNearestPlaneGap": 0.017817558761677788,
+          "tip": [
+            -0.5938177704811096,
+            -1.7979272603988647,
+            2.199930429458618
+          ],
+          "nearestTarget": [
+            -0.5760000944137573,
+            -1.737609624862671,
+            2.1410021781921387
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.10647639632225037,
+          "signedNearestPlaneGap": 0.09602827008347958,
+          "tip": [
+            -0.5160000920295715,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.49535319209098816,
+            -1.8679550886154175,
+            2.083116054534912
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.10825607180595398,
+          "signedNearestPlaneGap": 0.10235618689330295,
+          "tip": [
+            -0.4280000627040863,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.4582206606864929,
+            -1.8665032386779785,
+            2.083516836166382
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.08618716150522232,
+          "signedNearestPlaneGap": 0.017817764522167323,
+          "tip": [
+            -0.3501823842525482,
+            -1.7979272603988647,
+            2.199930429458618
+          ],
+          "nearestTarget": [
+            -0.3680000901222229,
+            -1.737609624862671,
+            2.1410021781921387
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.2,
+      "phase": "Release",
+      "seconds": 0,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.10181055217981339,
+      "medianTipGap": 0.10825634002685547,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.121744304895401,
+          "signedNearestPlaneGap": 0.12006142642349005,
+          "tip": [
+            -0.6040000915527344,
+            -1.8327522277832031,
+            2.1635162830352783
+          ],
+          "nearestTarget": [
+            -0.5644330382347107,
+            -1.7528002262115479,
+            2.0806682109832764
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.10647659748792648,
+          "signedNearestPlaneGap": 0.09602766449097544,
+          "tip": [
+            -0.5160000920295715,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.4953533411026001,
+            -1.8679550886154175,
+            2.083115816116333
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.10825634002685547,
+          "signedNearestPlaneGap": 0.10235607044887729,
+          "tip": [
+            -0.4280000627040863,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.45822077989578247,
+            -1.8665032386779785,
+            2.0835165977478027
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.10181055217981339,
+          "signedNearestPlaneGap": 0.09626704920083284,
+          "tip": [
+            -0.3388686776161194,
+            -1.8330109119415283,
+            2.163907051086426
+          ],
+          "nearestTarget": [
+            -0.2922152876853943,
+            -1.7798402309417725,
+            2.0906832218170166
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Impact",
+      "seconds": 0.12,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.002104381565004587,
+      "medianTipGap": 0.006284050643444061,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.002127350540831685,
+          "signedNearestPlaneGap": -0.0021273461170494556,
+          "tip": [
+            -0.5941042304039001,
+            -1.7964435815811157,
+            2.200005054473877
+          ],
+          "nearestTarget": [
+            -0.5933015942573547,
+            -1.7972782850265503,
+            2.201789617538452
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.006293400656431913,
+          "signedNearestPlaneGap": -0.0062848657253198326,
+          "tip": [
+            -0.5061061382293701,
+            -1.8235054016113281,
+            2.2237536907196045
+          ],
+          "nearestTarget": [
+            -0.5033897757530212,
+            -1.821140170097351,
+            2.228914499282837
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.006284050643444061,
+          "signedNearestPlaneGap": -0.006275539519265294,
+          "tip": [
+            -0.4181060791015625,
+            -1.823502540588379,
+            2.223764181137085
+          ],
+          "nearestTarget": [
+            -0.41539376974105835,
+            -1.8211408853530884,
+            2.228917360305786
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.002104381565004587,
+          "signedNearestPlaneGap": -0.002104377170326188,
+          "tip": [
+            -0.33010411262512207,
+            -1.7964346408843994,
+            2.2000370025634766
+          ],
+          "nearestTarget": [
+            -0.3293101191520691,
+            -1.7972604036331177,
+            2.2018022537231445
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Pin",
+      "seconds": 0.4,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.0010112861637026072,
+      "medianTipGap": 0.007153111509978771,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.0010112861637026072,
+          "signedNearestPlaneGap": -0.0010112841700902209,
+          "tip": [
+            -0.5938177704811096,
+            -1.7979272603988647,
+            2.199930429458618
+          ],
+          "nearestTarget": [
+            -0.5934361815452576,
+            -1.7983241081237793,
+            2.2007787227630615
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.007153118960559368,
+          "signedNearestPlaneGap": -0.007145880401367322,
+          "tip": [
+            -0.5160000920295715,
+            -1.8259559869766235,
+            2.2277743816375732
+          ],
+          "nearestTarget": [
+            -0.5141997337341309,
+            -1.8240126371383667,
+            2.2344188690185547
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.007153111509978771,
+          "signedNearestPlaneGap": -0.007145873532863334,
+          "tip": [
+            -0.4280000627040863,
+            -1.8259559869766235,
+            2.2277743816375732
+          ],
+          "nearestTarget": [
+            -0.426199734210968,
+            -1.8240126371383667,
+            2.2344188690185547
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.001011497457511723,
+          "signedNearestPlaneGap": -0.0010114953183801845,
+          "tip": [
+            -0.3298177421092987,
+            -1.7979272603988647,
+            2.199930429458618
+          ],
+          "nearestTarget": [
+            -0.32943612337112427,
+            -1.7983241081237793,
+            2.2007789611816406
+          ]
+        }
+      ]
+    },
+    {
+      "rootSeparation": 3.5,
+      "phase": "Release",
+      "seconds": 0,
+      "target": "victim bracing forearm/paw",
+      "minimumTipGap": 0.08398783951997757,
+      "medianTipGap": 0.0853172019124031,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "gapMeters": 0.08398786932229996,
+          "signedNearestPlaneGap": 0.08251560060307384,
+          "tip": [
+            -0.6028687357902527,
+            -1.8330109119415283,
+            2.163907051086426
+          ],
+          "nearestTarget": [
+            -0.5769118666648865,
+            -1.8541470766067505,
+            2.0868780612945557
+          ]
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "gapMeters": 0.0853172019124031,
+          "signedNearestPlaneGap": 0.08531601083814166,
+          "tip": [
+            -0.5160000920295715,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.510159432888031,
+            -1.872443437576294,
+            2.103078603744507
+          ]
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "gapMeters": 0.08542460203170776,
+          "signedNearestPlaneGap": 0.0854236721934285,
+          "tip": [
+            -0.4280000627040863,
+            -1.8598171472549438,
+            2.187253952026367
+          ],
+          "nearestTarget": [
+            -0.43384167551994324,
+            -1.873063325881958,
+            2.103065013885498
+          ]
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "gapMeters": 0.08398783951997757,
+          "signedNearestPlaneGap": 0.08251548884436488,
+          "tip": [
+            -0.34113144874572754,
+            -1.8330109119415283,
+            2.163907051086426
+          ],
+          "nearestTarget": [
+            -0.3670882284641266,
+            -1.8541470766067505,
+            2.0868780612945557
+          ]
+        }
+      ]
+    }
+  ],
+  "kinematics": {
+    "FelinePairImpactAttacker": {
+      "floorWorldMeters": 0.027578914165496828,
+      "topWorldMeters": 2.018400001525879,
+      "maxLimbLengthErrorWorld": 2.3379332407813537e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "maxClawForwardWorldMeters": 1.9635433197021486
+    },
+    "FelinePairPinAttacker": {
+      "floorWorldMeters": 0.02757888436317444,
+      "topWorldMeters": 2.0248001098632815,
+      "maxLimbLengthErrorWorld": 5.107933898962358e-7,
+      "maxReachRatio": 0.8528136389650548,
+      "maxClawForwardWorldMeters": 1.963543701171875
+    },
+    "FelinePairReleaseAttacker": {
+      "floorWorldMeters": 0.027578914165496828,
+      "topWorldMeters": 2.018400001525879,
+      "maxLimbLengthErrorWorld": 4.378595905407679e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "maxClawForwardWorldMeters": 1.9635433197021486
+    },
+    "FelinePairImpactVictim": {
+      "floorWorldMeters": 0.02757905125617981,
+      "topWorldMeters": 1.9959999084472657,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "maxClawForwardWorldMeters": 1.2937355995178224
+    },
+    "FelinePairPinVictim": {
+      "floorWorldMeters": 0.027578940987586977,
+      "topWorldMeters": 1.918400001525879,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "maxClawForwardWorldMeters": 1.2937362670898438
+    },
+    "FelinePairReleaseVictim": {
+      "floorWorldMeters": 0.02757895886898041,
+      "topWorldMeters": 1.9959999084472657,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "maxClawForwardWorldMeters": 1.2275435447692873
+    },
+    "FelinePairFallVictim": {
+      "floorWorldMeters": 0.02757893800735474,
+      "topWorldMeters": 1.9959999084472657,
+      "maxLimbLengthErrorWorld": 2.6520352252035196e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "maxClawForwardWorldMeters": 1.2275437355041505
+    },
+    "FelineUprightPairImpactAttacker": {
+      "floorWorldMeters": 0.027579009532928467,
+      "topWorldMeters": 3.0960002899169923,
+      "maxLimbLengthErrorWorld": 5.289379990003341e-7,
+      "maxReachRatio": 0.9605126087025309,
+      "maxClawForwardWorldMeters": 1.861582946777344
+    },
+    "FelineUprightPairPinAttacker": {
+      "floorWorldMeters": 0.02757905721664429,
+      "topWorldMeters": 3.0744007110595706,
+      "maxLimbLengthErrorWorld": 5.97296258320057e-7,
+      "maxReachRatio": 0.961660905600645,
+      "maxClawForwardWorldMeters": 1.8615831375122072
+    },
+    "FelineUprightPairReleaseAttacker": {
+      "floorWorldMeters": 0.027578988671302797,
+      "topWorldMeters": 3.0960002899169923,
+      "maxLimbLengthErrorWorld": 5.423838993934283e-7,
+      "maxReachRatio": 0.9605126087025309,
+      "maxClawForwardWorldMeters": 1.861582946777344
+    },
+    "FelineUprightPairImpactVictim": {
+      "floorWorldMeters": 0.027579081058502198,
+      "topWorldMeters": 3.0960002899169923,
+      "maxLimbLengthErrorWorld": 4.1190453581307906e-7,
+      "maxReachRatio": 0.982582333583546,
+      "maxClawForwardWorldMeters": 1.8455829620361328
+    },
+    "FelineUprightPairPinVictim": {
+      "floorWorldMeters": 0.027578988671302797,
+      "topWorldMeters": 3.0822078704833986,
+      "maxLimbLengthErrorWorld": 7.265337500506064e-7,
+      "maxReachRatio": 0.9837049396569286,
+      "maxClawForwardWorldMeters": 1.8455833435058595
+    },
+    "FelineUprightPairReleaseVictim": {
+      "floorWorldMeters": 0.027579063177108766,
+      "topWorldMeters": 3.0960002899169923,
+      "maxLimbLengthErrorWorld": 5.892689842745824e-7,
+      "maxReachRatio": 0.982582211413375,
+      "maxClawForwardWorldMeters": 1.867543411254883
+    },
+    "FelineUprightPairFallVictim": {
+      "floorWorldMeters": 0.027579066157341004,
+      "topWorldMeters": 3.0960002899169923,
+      "maxLimbLengthErrorWorld": 4.042520327374177e-7,
+      "maxReachRatio": 0.9988562884431529,
+      "maxClawForwardWorldMeters": 0.908819580078125
+    },
+    "FelinePairImpactAttackerScout": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 2.7794486605614567e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairImpactVictimScout": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairPinAttackerScout": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 2.7794486605614567e-7,
+      "maxReachRatio": 0.8481587050771259,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairPinVictimScout": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairReleaseAttackerScout": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 4.6096942893925077e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairReleaseVictimScout": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerScout": {
+      "floorWorldMeters": 0.02757910192012787,
+      "maxLimbLengthErrorWorld": 4.7296547069919373e-7,
+      "maxReachRatio": 0.919413740929397,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairImpactVictimScout": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairPinAttackerScout": {
+      "floorWorldMeters": 0.027579158544540405,
+      "maxLimbLengthErrorWorld": 3.4429282491643676e-7,
+      "maxReachRatio": 0.919413740929397,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairPinVictimScout": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerScout": {
+      "floorWorldMeters": 0.027579069137573242,
+      "maxLimbLengthErrorWorld": 5.520840837824892e-7,
+      "maxReachRatio": 0.919413740929397,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimScout": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.65
+    },
+    "FelinePairImpactAttackerMortar": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 2.929882172431064e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairImpactVictimMortar": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairPinAttackerMortar": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 8.405403635336484e-8,
+      "maxReachRatio": 0.8481587050771259,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairPinVictimMortar": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairReleaseAttackerMortar": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 3.2200928030690083e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairReleaseVictimMortar": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerMortar": {
+      "floorWorldMeters": 0.027578988671302797,
+      "maxLimbLengthErrorWorld": 3.884783001950609e-7,
+      "maxReachRatio": 0.9057164369602501,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairImpactVictimMortar": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairPinAttackerMortar": {
+      "floorWorldMeters": 0.027579304575920106,
+      "maxLimbLengthErrorWorld": 2.784266815325509e-7,
+      "maxReachRatio": 0.9057164369602501,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairPinVictimMortar": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerMortar": {
+      "floorWorldMeters": 0.02757898569107056,
+      "maxLimbLengthErrorWorld": 6.578444447846721e-7,
+      "maxReachRatio": 0.9057164369602501,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimMortar": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 0.8
+    },
+    "FelinePairImpactAttackerAnchor": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 2.629196060865979e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelinePairImpactVictimAnchor": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelinePairPinAttackerAnchor": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 1.7135657541800243e-7,
+      "maxReachRatio": 0.8481587050771259,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelinePairPinVictimAnchor": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelinePairReleaseAttackerAnchor": {
+      "floorWorldMeters": 0.027578914165496828,
+      "maxLimbLengthErrorWorld": 3.4287602668214845e-7,
+      "maxReachRatio": 0.8723109696761929,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelinePairReleaseVictimAnchor": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairImpactAttackerAnchor": {
+      "floorWorldMeters": 0.027579081058502198,
+      "maxLimbLengthErrorWorld": 3.952081874203373e-7,
+      "maxReachRatio": 0.9084810790845255,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairImpactVictimAnchor": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 2.7206600421436634e-7,
+      "maxReachRatio": 0.8723108802619834,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairPinAttackerAnchor": {
+      "floorWorldMeters": 0.027579155564308167,
+      "maxLimbLengthErrorWorld": 3.4886550395185626e-7,
+      "maxReachRatio": 0.9084810790845255,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairPinVictimAnchor": {
+      "floorWorldMeters": 0.027578940987586977,
+      "maxLimbLengthErrorWorld": 3.2447729179097e-7,
+      "maxReachRatio": 0.8220128464058922,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairReleaseAttackerAnchor": {
+      "floorWorldMeters": 0.027579075098037722,
+      "maxLimbLengthErrorWorld": 5.701581046402282e-7,
+      "maxReachRatio": 0.9084810790845255,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    },
+    "FelineUprightAgainstQuadPairReleaseVictimAnchor": {
+      "floorWorldMeters": 0.02757895886898041,
+      "maxLimbLengthErrorWorld": 2.6129074468528304e-7,
+      "maxReachRatio": 0.8723108858503718,
+      "sourceSampleScale": 0.8,
+      "victimRuntimeScale": 1.05
+    }
+  },
+  "enemyBindComparison": {
+    "Sentinel_Scout": {
+      "runtimeScale": 0.65,
+      "bones": {
+        "chest": {
+          "pounceRestHead": [
+            0,
+            -0.6240000128746033,
+            1.7000000476837158
+          ],
+          "enemyRestHead": [
+            0,
+            -0.6240000128746033,
+            1.7000000476837158
+          ],
+          "pounceLength": 0.4785645008087158,
+          "enemyLength": 0.4785645008087158,
+          "relativeLengthDifference": 0
+        },
+        "head": {
+          "pounceRestHead": [
+            0,
+            -1.1440000534057617,
+            1.7999999523162842
+          ],
+          "enemyRestHead": [
+            0,
+            -1.1440000534057617,
+            1.7999999523162842
+          ],
+          "pounceLength": 0.5223982930183411,
+          "enemyLength": 0.5223982930183411,
+          "relativeLengthDifference": 0
+        },
+        "FL_upper": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -0.9151999950408936,
+            1.7000000476837158
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -0.9151999950408936,
+            1.7000000476837158
+          ],
+          "pounceLength": 0.8698253035545349,
+          "enemyLength": 0.8698253035545349,
+          "relativeLengthDifference": 0
+        },
+        "FL_lower": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -0.5511999726295471,
+            0.9100000262260437
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -0.5511999726295471,
+            0.9100000262260437
+          ],
+          "pounceLength": 0.8785357475280762,
+          "enemyLength": 0.8785357475280762,
+          "relativeLengthDifference": 0
+        },
+        "FL_paw": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -1.0399999618530273,
+            0.18000000715255737
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -1.0399999618530273,
+            0.18000000715255737
+          ],
+          "pounceLength": 0.3640000820159912,
+          "enemyLength": 0.3640000820159912,
+          "relativeLengthDifference": 0
+        },
+        "HL_upper": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            0.9359999895095825,
+            1.600000023841858
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            0.9359999895095825,
+            1.600000023841858
+          ],
+          "pounceLength": 0.8166359663009644,
+          "enemyLength": 0.8166359663009644,
+          "relativeLengthDifference": 0
+        },
+        "HL_lower": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            0.4991999864578247,
+            0.9100000262260437
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            0.4991999864578247,
+            0.9100000262260437
+          ],
+          "pounceLength": 0.8962701559066772,
+          "enemyLength": 0.8962701559066772,
+          "relativeLengthDifference": 0
+        }
+      },
+      "status": "REST_BIND_MATCHES_POUNCE; SCALE_AND_GEOMETRY_REQUIRE_OPPONENT_CONTACT_AUDIT"
+    },
+    "Sentinel_Anchor": {
+      "runtimeScale": 1.05,
+      "bones": {
+        "chest": {
+          "pounceRestHead": [
+            0,
+            -0.6240000128746033,
+            1.7000000476837158
+          ],
+          "enemyRestHead": [
+            0,
+            -0.6240000128746033,
+            1.7000000476837158
+          ],
+          "pounceLength": 0.4785645008087158,
+          "enemyLength": 0.4785645008087158,
+          "relativeLengthDifference": 0
+        },
+        "head": {
+          "pounceRestHead": [
+            0,
+            -1.1440000534057617,
+            1.7999999523162842
+          ],
+          "enemyRestHead": [
+            0,
+            -1.1440000534057617,
+            1.7999999523162842
+          ],
+          "pounceLength": 0.5223982930183411,
+          "enemyLength": 0.5223982930183411,
+          "relativeLengthDifference": 0
+        },
+        "FL_upper": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -0.9151999950408936,
+            1.7000000476837158
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -0.9151999950408936,
+            1.7000000476837158
+          ],
+          "pounceLength": 0.8698253035545349,
+          "enemyLength": 0.8698253035545349,
+          "relativeLengthDifference": 0
+        },
+        "FL_lower": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -0.5511999726295471,
+            0.9100000262260437
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -0.5511999726295471,
+            0.9100000262260437
+          ],
+          "pounceLength": 0.8785357475280762,
+          "enemyLength": 0.8785357475280762,
+          "relativeLengthDifference": 0
+        },
+        "FL_paw": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            -1.0399999618530273,
+            0.18000000715255737
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            -1.0399999618530273,
+            0.18000000715255737
+          ],
+          "pounceLength": 0.3640000820159912,
+          "enemyLength": 0.3640000820159912,
+          "relativeLengthDifference": 0
+        },
+        "HL_upper": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            0.9359999895095825,
+            1.600000023841858
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            0.9359999895095825,
+            1.600000023841858
+          ],
+          "pounceLength": 0.8166359663009644,
+          "enemyLength": 0.8166359663009644,
+          "relativeLengthDifference": 0
+        },
+        "HL_lower": {
+          "pounceRestHead": [
+            -0.7300000190734863,
+            0.4991999864578247,
+            0.9100000262260437
+          ],
+          "enemyRestHead": [
+            -0.7300000190734863,
+            0.4991999864578247,
+            0.9100000262260437
+          ],
+          "pounceLength": 0.8962701559066772,
+          "enemyLength": 0.8962701559066772,
+          "relativeLengthDifference": 0
+        }
+      },
+      "status": "REST_BIND_MATCHES_POUNCE; SCALE_AND_GEOMETRY_REQUIRE_OPPONENT_CONTACT_AUDIT"
+    }
+  },
+  "restPhysicalEnvelopeWorld": {
+    "radius": 1.7760000228881836,
+    "width": 1.7600001096725464,
+    "front": 1.7760000228881836,
+    "rear": 1.204800009727478,
+    "height": 1.9960001707077026,
+    "excludes": "tail and whiskers only"
+  },
+  "nativeHullRecommendation": "Preserve current root/hull scale pending contact review; no scaling correction requested. Pounce/Pounce upright is authored at 3.5 m; Pounce/Pounce at 3.2 m overreaches, so do not infer smaller enemy quality from a scaled Pounce proxy.",
+  "actualEnemyContacts": [
+    {
+      "opponent": "Sentinel_Scout",
+      "runtimeScale": 0.65,
+      "rootSeparation": 3.2,
+      "stance": "quadruped",
+      "minimumTipGap": 4.470348358154297e-8,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.24622081220149994,
+          "signedNearestPlaneGap": 0.2410986158065498
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.16104383766651154,
+          "signedNearestPlaneGap": 0.11408320887130685
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.07347436249256134,
+          "signedNearestPlaneGap": 0.06933992623817176
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 2.384185791015625e-7,
+          "signedNearestPlaneGap": 2.380313901539921e-7
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 4.470348358154297e-8,
+          "signedNearestPlaneGap": -2.9544288793204032e-8
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.0822482779622078,
+          "signedNearestPlaneGap": 0.08154122839187039
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.16853384673595428,
+          "signedNearestPlaneGap": 0.1685283645056188
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.2569964528083801,
+          "signedNearestPlaneGap": 0.25698809427558444
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    },
+    {
+      "opponent": "Sentinel_Scout",
+      "runtimeScale": 0.65,
+      "rootSeparation": 3.2,
+      "stance": "uprightAgainstQuad",
+      "minimumTipGap": 0,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.22350558638572693,
+          "signedNearestPlaneGap": 0.2234918921312783
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.13951636850833893,
+          "signedNearestPlaneGap": 0.13868330552941188
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.05314520001411438,
+          "signedNearestPlaneGap": 0.05314194007587503
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 0,
+          "signedNearestPlaneGap": 0
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 1.7881393432617188e-7,
+          "signedNearestPlaneGap": -1.7685098896436102e-7
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.08638925850391388,
+          "signedNearestPlaneGap": 0.08638645282189827
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.17345070838928223,
+          "signedNearestPlaneGap": 0.17344481222971808
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.2608853578567505,
+          "signedNearestPlaneGap": 0.2608764946926385
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    },
+    {
+      "opponent": "Sentinel_Mortar",
+      "runtimeScale": 0.8,
+      "rootSeparation": 3.5,
+      "stance": "quadruped",
+      "minimumTipGap": 5.960464477539063e-8,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.12142056971788406,
+          "signedNearestPlaneGap": 0.12137871149752755
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.03570779412984848,
+          "signedNearestPlaneGap": 0.035706739839952206
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.0014800501521676779,
+          "signedNearestPlaneGap": -0.0014800501945253508
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 1.1920928955078125e-7,
+          "signedNearestPlaneGap": -1.1908861097253975e-7
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 5.960464477539063e-8,
+          "signedNearestPlaneGap": -5.909896572120488e-8
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.06547688692808151,
+          "signedNearestPlaneGap": 0.06547090463573113
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.15287920832633972,
+          "signedNearestPlaneGap": 0.14853262502583675
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.24207206070423126,
+          "signedNearestPlaneGap": 0.23677143006352708
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    },
+    {
+      "opponent": "Sentinel_Mortar",
+      "runtimeScale": 0.8,
+      "rootSeparation": 3.5,
+      "stance": "uprightAgainstQuad",
+      "minimumTipGap": 1.1920928955078125e-7,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.14528994262218475,
+          "signedNearestPlaneGap": 0.14308667718432844
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.06163327768445015,
+          "signedNearestPlaneGap": 0.06162950917860144
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.01061976421624422,
+          "signedNearestPlaneGap": 0.010619351349305362
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 1.1920928955078125e-7,
+          "signedNearestPlaneGap": 1.1697018464928988e-7
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 1.7881393432617188e-7,
+          "signedNearestPlaneGap": -1.7685098896436102e-7
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.06643150746822357,
+          "signedNearestPlaneGap": 0.06642924629704794
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.15356354415416718,
+          "signedNearestPlaneGap": 0.15355833680951037
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.24099820852279663,
+          "signedNearestPlaneGap": 0.24099002551520243
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    },
+    {
+      "opponent": "Sentinel_Anchor",
+      "runtimeScale": 1.05,
+      "rootSeparation": 3.95,
+      "stance": "quadruped",
+      "minimumTipGap": 1.4901161193847656e-8,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.09071926772594452,
+          "signedNearestPlaneGap": 0.09071926679462194
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.058758873492479324,
+          "signedNearestPlaneGap": 0.05118512238186668
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.019593246281147003,
+          "signedNearestPlaneGap": 0.01959199849344584
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 1.6858739115832577e-7,
+          "signedNearestPlaneGap": 1.2444796837485228e-7
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 1.4901161193847656e-8,
+          "signedNearestPlaneGap": 3.755726396548198e-9
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.036439087241888046,
+          "signedNearestPlaneGap": 0.03593340376892229
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.03513747826218605,
+          "signedNearestPlaneGap": 0.03499909659876721
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.08683022856712341,
+          "signedNearestPlaneGap": 0.08661467209458351
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    },
+    {
+      "opponent": "Sentinel_Anchor",
+      "runtimeScale": 1.05,
+      "rootSeparation": 3.95,
+      "stance": "uprightAgainstQuad",
+      "minimumTipGap": 2.9802322387695312e-8,
+      "claws": [
+        {
+          "claw": "FL hooked claw 0",
+          "surfaceGapMeters": 0.04592427238821983,
+          "signedNearestPlaneGap": 0.04571434296667576
+        },
+        {
+          "claw": "FL hooked claw 1",
+          "surfaceGapMeters": 0.006592561025172472,
+          "signedNearestPlaneGap": 0.006592560960598348
+        },
+        {
+          "claw": "FL hooked claw 2",
+          "surfaceGapMeters": 0.0035281588789075613,
+          "signedNearestPlaneGap": 0.003528158812514448
+        },
+        {
+          "claw": "FL hooked claw 3",
+          "surfaceGapMeters": 2.9802322387695312e-8,
+          "signedNearestPlaneGap": -1.8012768165931448e-8
+        },
+        {
+          "claw": "FR hooked claw 0",
+          "surfaceGapMeters": 1.1920928955078125e-7,
+          "signedNearestPlaneGap": 1.1855522075165936e-7
+        },
+        {
+          "claw": "FR hooked claw 1",
+          "surfaceGapMeters": 0.00034803192829713225,
+          "signedNearestPlaneGap": -0.00034802505251718685
+        },
+        {
+          "claw": "FR hooked claw 2",
+          "surfaceGapMeters": 0.05743139609694481,
+          "signedNearestPlaneGap": 0.05695562541950494
+        },
+        {
+          "claw": "FR hooked claw 3",
+          "surfaceGapMeters": 0.14906123280525208,
+          "signedNearestPlaneGap": 0.1443163106450811
+        }
+      ],
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW"
+    }
+  ],
+  "capabilityMatrix": [
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "bot",
+      "victimRole": "scout",
+      "victimStance": "quadruped",
+      "victimScale": 0.65,
+      "rootSeparation": 3.2,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttackerScout",
+          "victim": "FelinePairImpactVictimScout"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttackerScout",
+          "victim": "FelinePairPinVictimScout"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttackerScout",
+          "victim": "FelinePairReleaseVictimScout"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.555939793586731,
+          -2.015730381011963,
+          1.7199894189834595
+        ],
+        "FR": [
+          0.47581785917282104,
+          -1.9454984664916992,
+          1.6051788330078125
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.3127518892288208,
+          -1.9721277952194214,
+          1.2604129314422607
+        ],
+        "FR": [
+          0.247054323554039,
+          -1.9143983125686646,
+          1.1681432723999023
+        ]
+      },
+      "selectedClawGaps": [
+        2.384185791015625e-7,
+        4.470348358154297e-8
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.8723109696761929
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "upright",
+      "victimKind": "bot",
+      "victimRole": "scout",
+      "victimStance": "quadruped",
+      "victimScale": 0.65,
+      "rootSeparation": 3.2,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelineUprightAgainstQuadPairImpactAttackerScout",
+          "victim": "FelineUprightAgainstQuadPairImpactVictimScout"
+        },
+        "pin": {
+          "attacker": "FelineUprightAgainstQuadPairPinAttackerScout",
+          "victim": "FelineUprightAgainstQuadPairPinVictimScout"
+        },
+        "release": {
+          "attacker": "FelineUprightAgainstQuadPairReleaseAttackerScout",
+          "victim": "FelineUprightAgainstQuadPairReleaseVictimScout"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.5595712661743164,
+          -1.9596617221832275,
+          1.4782769680023193
+        ],
+        "FR": [
+          0.5024973154067993,
+          -1.9524743556976318,
+          1.3913052082061768
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.3258393704891205,
+          -1.92812180519104,
+          1.1810355186462402
+        ],
+        "FR": [
+          0.2598155438899994,
+          -1.922371506690979,
+          1.1114579439163208
+        ]
+      },
+      "selectedClawGaps": [
+        0,
+        1.7881393432617188e-7
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.919413740929397
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "bot",
+      "victimRole": "mortar",
+      "victimStance": "quadruped",
+      "victimScale": 0.8,
+      "rootSeparation": 3.5,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttackerMortar",
+          "victim": "FelinePairImpactVictimMortar"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttackerMortar",
+          "victim": "FelinePairPinVictimMortar"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttackerMortar",
+          "victim": "FelinePairReleaseVictimMortar"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.5600645542144775,
+          -1.9581568241119385,
+          1.6990419626235962
+        ],
+        "FR": [
+          0.5653165578842163,
+          -1.949770212173462,
+          1.6592719554901123
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.316051721572876,
+          -1.9229816198349,
+          1.2428128719329834
+        ],
+        "FR": [
+          0.3304356038570404,
+          -1.914101481437683,
+          1.2613359689712524
+        ]
+      },
+      "selectedClawGaps": [
+        1.1920928955078125e-7,
+        5.960464477539063e-8
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.8723109696761929
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "upright",
+      "victimKind": "bot",
+      "victimRole": "mortar",
+      "victimStance": "quadruped",
+      "victimScale": 0.8,
+      "rootSeparation": 3.5,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelineUprightAgainstQuadPairImpactAttackerMortar",
+          "victim": "FelineUprightAgainstQuadPairImpactVictimMortar"
+        },
+        "pin": {
+          "attacker": "FelineUprightAgainstQuadPairPinAttackerMortar",
+          "victim": "FelineUprightAgainstQuadPairPinVictimMortar"
+        },
+        "release": {
+          "attacker": "FelineUprightAgainstQuadPairReleaseAttackerMortar",
+          "victim": "FelineUprightAgainstQuadPairReleaseVictimMortar"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.5595356822013855,
+          -1.973262071609497,
+          1.8174982070922852
+        ],
+        "FR": [
+          0.5579919219017029,
+          -1.9500864744186401,
+          1.6696964502334595
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.3156285285949707,
+          -1.941939353942871,
+          1.4554383754730225
+        ],
+        "FR": [
+          0.32457590103149414,
+          -1.9204614162445068,
+          1.3341712951660156
+        ]
+      },
+      "selectedClawGaps": [
+        1.1920928955078125e-7,
+        1.7881393432617188e-7
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.9057164369602501
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "bot",
+      "victimRole": "anchor",
+      "victimStance": "quadruped",
+      "victimScale": 1.05,
+      "rootSeparation": 3.95,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttackerAnchor",
+          "victim": "FelinePairImpactVictimAnchor"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttackerAnchor",
+          "victim": "FelinePairPinVictimAnchor"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttackerAnchor",
+          "victim": "FelinePairReleaseVictimAnchor"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.5595846176147461,
+          -1.9718612432479858,
+          2.0035600662231445
+        ],
+        "FR": [
+          0.4601340591907501,
+          -1.969125747680664,
+          2.0130765438079834
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.3156677484512329,
+          -1.9352065324783325,
+          1.5392181873321533
+        ],
+        "FR": [
+          0.22592493891716003,
+          -1.9295858144760132,
+          1.544379711151123
+        ]
+      },
+      "selectedClawGaps": [
+        1.6858739115832577e-7,
+        1.4901161193847656e-8
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.8723109696761929
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "upright",
+      "victimKind": "bot",
+      "victimRole": "anchor",
+      "victimStance": "quadruped",
+      "victimScale": 1.05,
+      "rootSeparation": 3.95,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelineUprightAgainstQuadPairImpactAttackerAnchor",
+          "victim": "FelineUprightAgainstQuadPairImpactVictimAnchor"
+        },
+        "pin": {
+          "attacker": "FelineUprightAgainstQuadPairPinAttackerAnchor",
+          "victim": "FelineUprightAgainstQuadPairPinVictimAnchor"
+        },
+        "release": {
+          "attacker": "FelineUprightAgainstQuadPairReleaseAttackerAnchor",
+          "victim": "FelineUprightAgainstQuadPairReleaseVictimAnchor"
+        }
+      },
+      "targetsSource": {
+        "FL": [
+          -0.5591719746589661,
+          -1.9598342180252075,
+          2.278890371322632
+        ],
+        "FR": [
+          0.5600018501281738,
+          -1.9500536918640137,
+          2.1999945640563965
+        ]
+      },
+      "contactPointsWorld": {
+        "FL": [
+          -0.3051551580429077,
+          -1.9282593727111816,
+          1.8215261697769165
+        ],
+        "FR": [
+          0.3144015073776245,
+          -1.933026671409607,
+          1.7099629640579224
+        ]
+      },
+      "selectedClawGaps": [
+        2.9802322387695312e-8,
+        1.1920928955078125e-7
+      ],
+      "target": "victim skull/muzzle",
+      "maxKinematicReach": 0.9084810790845255
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "player",
+      "victimChassis": "pounce",
+      "victimStance": "quadruped",
+      "rootSeparation": 3.5,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttacker",
+          "victim": "FelinePairImpactVictim"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttacker",
+          "victim": "FelinePairPinVictim"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttacker",
+          "victim": "FelinePairReleaseVictim"
+        }
+      }
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "upright",
+      "victimKind": "player",
+      "victimChassis": "pounce",
+      "victimStance": "upright",
+      "rootSeparation": 3.5,
+      "supported": true,
+      "status": "AUTHORED_CONTACT_CANDIDATE_PENDING_GAMEPLAY_REVIEW",
+      "clips": {
+        "impact": {
+          "attacker": "FelineUprightPairImpactAttacker",
+          "victim": "FelineUprightPairImpactVictim"
+        },
+        "pin": {
+          "attacker": "FelineUprightPairPinAttacker",
+          "victim": "FelineUprightPairPinVictim"
+        },
+        "release": {
+          "attacker": "FelineUprightPairReleaseAttacker",
+          "victim": "FelineUprightPairReleaseVictim"
+        }
+      }
+    }
+  ],
+  "v1MasterUnchanged": true,
+  "unsupportedCombinationPolicy": "Any pair not explicitly supported in capabilityMatrix is unsupported: no generic enemy reuse, no non-Pounce player attacker, no NPC attacker, and no mixed player/player stance.",
+  "exportValidation": {
+    "passed": true,
+    "errors": [],
+    "bytes": 1521276,
+    "sha256": "a8777cf8220a4e4174ea48791b87808712d6bfc7d3e926677edcef6cb1db7d26",
+    "triangles": 29674,
+    "primitives": 8,
+    "weightError": 0,
+    "clips": {
+      "FelineAir": 1.0166666507720947,
+      "FelineClimb": 0.8999999761581421,
+      "FelineCling": 1.5,
+      "FelineCombatBase": 0.10000000149011612,
+      "FelineDeath": 1.0499999523162842,
+      "FelineGallop": 0.5166666507720947,
+      "FelineHit": 0.3333333432674408,
+      "FelineIdle": 2.0166666507720947,
+      "FelineLandingRecovery": 0.6000000238418579,
+      "FelineMantle": 0.8999999761581421,
+      "FelineMissile": 0.4333333373069763,
+      "FelinePairFallVictim": 1.0499999523162842,
+      "FelinePairImpactAttacker": 0.2800000011920929,
+      "FelinePairImpactAttackerAnchor": 0.2800000011920929,
+      "FelinePairImpactAttackerMortar": 0.2800000011920929,
+      "FelinePairImpactAttackerScout": 0.2800000011920929,
+      "FelinePairImpactVictim": 0.2800000011920929,
+      "FelinePairImpactVictimAnchor": 0.2800000011920929,
+      "FelinePairImpactVictimMortar": 0.2800000011920929,
+      "FelinePairImpactVictimScout": 0.2800000011920929,
+      "FelinePairPinAttacker": 0.800000011920929,
+      "FelinePairPinAttackerAnchor": 0.800000011920929,
+      "FelinePairPinAttackerMortar": 0.800000011920929,
+      "FelinePairPinAttackerScout": 0.800000011920929,
+      "FelinePairPinVictim": 0.800000011920929,
+      "FelinePairPinVictimAnchor": 0.800000011920929,
+      "FelinePairPinVictimMortar": 0.800000011920929,
+      "FelinePairPinVictimScout": 0.800000011920929,
+      "FelinePairReleaseAttacker": 0.3499999940395355,
+      "FelinePairReleaseAttackerAnchor": 0.3499999940395355,
+      "FelinePairReleaseAttackerMortar": 0.3499999940395355,
+      "FelinePairReleaseAttackerScout": 0.3499999940395355,
+      "FelinePairReleaseVictim": 0.3499999940395355,
+      "FelinePairReleaseVictimAnchor": 0.3499999940395355,
+      "FelinePairReleaseVictimMortar": 0.3499999940395355,
+      "FelinePairReleaseVictimScout": 0.3499999940395355,
+      "FelinePulse": 0.21666666865348816,
+      "FelineRearLaunch": 0.8999999761581421,
+      "FelineTrot": 0.699999988079071,
+      "FelineTurnLeft": 1,
+      "FelineTurnRight": 1,
+      "FelineUprightAgainstQuadPairImpactAttackerAnchor": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairImpactAttackerMortar": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairImpactAttackerScout": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairImpactVictimAnchor": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairImpactVictimMortar": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairImpactVictimScout": 0.2800000011920929,
+      "FelineUprightAgainstQuadPairPinAttackerAnchor": 0.800000011920929,
+      "FelineUprightAgainstQuadPairPinAttackerMortar": 0.800000011920929,
+      "FelineUprightAgainstQuadPairPinAttackerScout": 0.800000011920929,
+      "FelineUprightAgainstQuadPairPinVictimAnchor": 0.800000011920929,
+      "FelineUprightAgainstQuadPairPinVictimMortar": 0.800000011920929,
+      "FelineUprightAgainstQuadPairPinVictimScout": 0.800000011920929,
+      "FelineUprightAgainstQuadPairReleaseAttackerAnchor": 0.3499999940395355,
+      "FelineUprightAgainstQuadPairReleaseAttackerMortar": 0.3499999940395355,
+      "FelineUprightAgainstQuadPairReleaseAttackerScout": 0.3499999940395355,
+      "FelineUprightAgainstQuadPairReleaseVictimAnchor": 0.3499999940395355,
+      "FelineUprightAgainstQuadPairReleaseVictimMortar": 0.3499999940395355,
+      "FelineUprightAgainstQuadPairReleaseVictimScout": 0.3499999940395355,
+      "FelineUprightAir": 1,
+      "FelineUprightCombatBase": 0.10000000149011612,
+      "FelineUprightDeath": 1.0499999523162842,
+      "FelineUprightHit": 0.3333333432674408,
+      "FelineUprightIdle": 2,
+      "FelineUprightMissile": 0.4333333373069763,
+      "FelineUprightPairFallVictim": 1.0499999523162842,
+      "FelineUprightPairImpactAttacker": 0.2800000011920929,
+      "FelineUprightPairImpactVictim": 0.2800000011920929,
+      "FelineUprightPairPinAttacker": 0.800000011920929,
+      "FelineUprightPairPinVictim": 0.800000011920929,
+      "FelineUprightPairReleaseAttacker": 0.3499999940395355,
+      "FelineUprightPairReleaseVictim": 0.3499999940395355,
+      "FelineUprightPulse": 0.21666666865348816,
+      "FelineUprightStride": 0.8999999761581421,
+      "FelineUprightTurnLeft": 1.100000023841858,
+      "FelineUprightTurnRight": 1.100000023841858,
+      "FelineUprightWalkLong": 1.2000000476837158,
+      "FelineWalk": 1.1666666269302368,
+      "PounceTackleAttacker": 1.5,
+      "PounceTackleVictim": 1.5,
+      "FelineTransformDown": 1,
+      "FelineTransformUp": 1
+    },
+    "joints": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "sourceTransformNameAliases": {
+      "PounceTransformUp": "FelineTransformUp",
+      "PounceTransformDown": "FelineTransformDown"
+    }
+  },
+  "actualExportClipDurations": {
+    "FelineAir": 1.0166666507720947,
+    "FelineClimb": 0.8999999761581421,
+    "FelineCling": 1.5,
+    "FelineCombatBase": 0.10000000149011612,
+    "FelineDeath": 1.0499999523162842,
+    "FelineGallop": 0.5166666507720947,
+    "FelineHit": 0.3333333432674408,
+    "FelineIdle": 2.0166666507720947,
+    "FelineLandingRecovery": 0.6000000238418579,
+    "FelineMantle": 0.8999999761581421,
+    "FelineMissile": 0.4333333373069763,
+    "FelinePairFallVictim": 1.0499999523162842,
+    "FelinePairImpactAttacker": 0.2800000011920929,
+    "FelinePairImpactAttackerAnchor": 0.2800000011920929,
+    "FelinePairImpactAttackerMortar": 0.2800000011920929,
+    "FelinePairImpactAttackerScout": 0.2800000011920929,
+    "FelinePairImpactVictim": 0.2800000011920929,
+    "FelinePairImpactVictimAnchor": 0.2800000011920929,
+    "FelinePairImpactVictimMortar": 0.2800000011920929,
+    "FelinePairImpactVictimScout": 0.2800000011920929,
+    "FelinePairPinAttacker": 0.800000011920929,
+    "FelinePairPinAttackerAnchor": 0.800000011920929,
+    "FelinePairPinAttackerMortar": 0.800000011920929,
+    "FelinePairPinAttackerScout": 0.800000011920929,
+    "FelinePairPinVictim": 0.800000011920929,
+    "FelinePairPinVictimAnchor": 0.800000011920929,
+    "FelinePairPinVictimMortar": 0.800000011920929,
+    "FelinePairPinVictimScout": 0.800000011920929,
+    "FelinePairReleaseAttacker": 0.3499999940395355,
+    "FelinePairReleaseAttackerAnchor": 0.3499999940395355,
+    "FelinePairReleaseAttackerMortar": 0.3499999940395355,
+    "FelinePairReleaseAttackerScout": 0.3499999940395355,
+    "FelinePairReleaseVictim": 0.3499999940395355,
+    "FelinePairReleaseVictimAnchor": 0.3499999940395355,
+    "FelinePairReleaseVictimMortar": 0.3499999940395355,
+    "FelinePairReleaseVictimScout": 0.3499999940395355,
+    "FelinePulse": 0.21666666865348816,
+    "FelineRearLaunch": 0.8999999761581421,
+    "FelineTrot": 0.699999988079071,
+    "FelineTurnLeft": 1,
+    "FelineTurnRight": 1,
+    "FelineUprightAgainstQuadPairImpactAttackerAnchor": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairImpactAttackerMortar": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairImpactAttackerScout": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairImpactVictimAnchor": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairImpactVictimMortar": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairImpactVictimScout": 0.2800000011920929,
+    "FelineUprightAgainstQuadPairPinAttackerAnchor": 0.800000011920929,
+    "FelineUprightAgainstQuadPairPinAttackerMortar": 0.800000011920929,
+    "FelineUprightAgainstQuadPairPinAttackerScout": 0.800000011920929,
+    "FelineUprightAgainstQuadPairPinVictimAnchor": 0.800000011920929,
+    "FelineUprightAgainstQuadPairPinVictimMortar": 0.800000011920929,
+    "FelineUprightAgainstQuadPairPinVictimScout": 0.800000011920929,
+    "FelineUprightAgainstQuadPairReleaseAttackerAnchor": 0.3499999940395355,
+    "FelineUprightAgainstQuadPairReleaseAttackerMortar": 0.3499999940395355,
+    "FelineUprightAgainstQuadPairReleaseAttackerScout": 0.3499999940395355,
+    "FelineUprightAgainstQuadPairReleaseVictimAnchor": 0.3499999940395355,
+    "FelineUprightAgainstQuadPairReleaseVictimMortar": 0.3499999940395355,
+    "FelineUprightAgainstQuadPairReleaseVictimScout": 0.3499999940395355,
+    "FelineUprightAir": 1,
+    "FelineUprightCombatBase": 0.10000000149011612,
+    "FelineUprightDeath": 1.0499999523162842,
+    "FelineUprightHit": 0.3333333432674408,
+    "FelineUprightIdle": 2,
+    "FelineUprightMissile": 0.4333333373069763,
+    "FelineUprightPairFallVictim": 1.0499999523162842,
+    "FelineUprightPairImpactAttacker": 0.2800000011920929,
+    "FelineUprightPairImpactVictim": 0.2800000011920929,
+    "FelineUprightPairPinAttacker": 0.800000011920929,
+    "FelineUprightPairPinVictim": 0.800000011920929,
+    "FelineUprightPairReleaseAttacker": 0.3499999940395355,
+    "FelineUprightPairReleaseVictim": 0.3499999940395355,
+    "FelineUprightPulse": 0.21666666865348816,
+    "FelineUprightStride": 0.8999999761581421,
+    "FelineUprightTurnLeft": 1.100000023841858,
+    "FelineUprightTurnRight": 1.100000023841858,
+    "FelineUprightWalkLong": 1.2000000476837158,
+    "FelineWalk": 1.1666666269302368,
+    "PounceTackleAttacker": 1.5,
+    "PounceTackleVictim": 1.5,
+    "FelineTransformDown": 1,
+    "FelineTransformUp": 1
+  }
+}

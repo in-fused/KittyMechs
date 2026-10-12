@@ -1,0 +1,16 @@
+{
+  "recordKind": "Lead direct-tool terminal observation; not external supervisor or presealed input bundle",
+  "observedUTC": "2026-10-11T19:18:01.876732+00:00",
+  "command": "node tools/player-animation-package-196/browser-decode196.mjs",
+  "toolChunk": "2c6a87",
+  "exitCode": 1,
+  "toolWallTimeSeconds": 4.6588723,
+  "browserInclusiveMs": 2939,
+  "browserConnected": false,
+  "measurementStatus": "DENSE_DECODED_SOURCE_REJECTED",
+  "evidencePath": "tools/player-animation-package-196/browser-decode196-evidence.json",
+  "evidenceSHA256": "9bb0280dc7d36f7951a5d3deb24ffa311631d41ba7ebe9520bdbab350c8d76cf",
+  "newListeners": false,
+  "liveSourceWrites": false,
+  "humanLagQualification": false
+}

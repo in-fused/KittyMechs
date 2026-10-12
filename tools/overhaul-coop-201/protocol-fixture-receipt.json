@@ -1,0 +1,1277 @@
+{
+  "writer": "CLOSED",
+  "scope": "SOURCE_ONLY saved operands + hypothetical public adapter sequencing;not actual browser/ACK/rest execution",
+  "sourcePath": ".sites-runtime/overhaul-20261010/coop177-public/evidence.json",
+  "sourceSHA256": "282b303b3a95b79caaeb9c8a4e9ec0189e5ed2629b1e62397f551edd3223928d",
+  "cases": [
+    "OLD220HP_COMMITMENT_STILL_REJECTS_REAL159_5HP",
+    "CURRENT_SAME_LIFE_HEALTH_ACCEPTED_ONLY_IN_NEW_COMMITMENT",
+    "DOWN_LIFE_REENABLE_NEGATIVES_REJECT",
+    "OLD_TOKEN_IMMUTABLE_RETIRE_RELEASE_ACK_HANDLER_RELEASE_NEW_HEALTH_RECOMMIT_ORDER"
+  ],
+  "operands": [
+    {
+      "label": "saved surviving damage",
+      "expected": {
+        "committedHP": 220
+      },
+      "actual": {
+        "actualHP": 159.50000000000003,
+        "tick": 6249,
+        "publication": {
+          "roomEpoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+          "sequence": 1382,
+          "kind": "broadcast"
+        }
+      }
+    },
+    {
+      "label": "negative down",
+      "expected": "reject",
+      "actual": {
+        "actor": {
+          "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+          "name": "Mission177Guest",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": -4.446825069006813,
+            "y": 0.9400999734680044,
+            "z": -1.0433671975711072
+          },
+          "velocity": {
+            "x": 1e-323,
+            "y": 0,
+            "z": -4.848588217985541e-58
+          },
+          "yaw": -0.16624263343577456,
+          "aimYaw": -0.17821999990940127,
+          "aimPitch": -0.06303647691383958,
+          "hp": 0,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 1,
+          "salvage": 35,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 100.583333333329,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 99.033333333329,
+          "rocketAt": 99.083333333329,
+          "abilityAt": -100,
+          "hurtAt": 99.01666666666233,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": 99.01666666666233,
+          "fireAt": 99.083333333329,
+          "aiState": "patrol",
+          "lastInput": 2742,
+          "jumpEpoch": 1,
+          "jumpProcessed": 0,
+          "strikeProcessed": 0,
+          "strike": null,
+          "strikeEndedAt": -100,
+          "nativePose": {
+            "version": 2,
+            "nativeStepTick": 6249,
+            "localPosition": {
+              "x": 0,
+              "y": 0.30000001192092896,
+              "z": 0
+            },
+            "localRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "worldId": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9",
+            "actorId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "tick": 6249,
+            "time": 104.14999999999537,
+            "phase": "current-native-readback",
+            "enabled": false,
+            "hull": {
+              "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+              "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+              "handle": 1.0822178612e-312,
+              "position": {
+                "x": -4.44682502746582,
+                "y": 1.2400999069213867,
+                "z": -1.0433671474456787
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "shapeType": 14
+            },
+            "shape": {
+              "kind": "RoundCylinder",
+              "halfHeight": 1.1800000000000002,
+              "radius": 1.63,
+              "borderRadius": 0.12
+            },
+            "movement": {
+              "life": 1,
+              "tick": 6249,
+              "time": 104.14999999999537,
+              "phase": "locomotion-query-before-world-step",
+              "computed": true,
+              "grounded": true,
+              "requested": {
+                "x": 0,
+                "y": -0.0061111111111111106,
+                "z": -8.080980363309235e-60
+              },
+              "hullAtQuery": {
+                "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+                "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+                "handle": 1.0822178612e-312,
+                "position": {
+                  "x": -4.44682502746582,
+                  "y": 1.2400999069213867,
+                  "z": -1.0433671474456787
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 14
+              },
+              "delta": {
+                "x": 0,
+                "y": 4.6733475755900145e-8,
+                "z": 0
+              },
+              "contacts": [
+                {
+                  "support": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "supportQuery": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "reportedHandle": 3.5e-322,
+                  "toi": 0.00009995326399803162,
+                  "raw": {
+                    "witness1": {
+                      "x": -4.327467441558838,
+                      "y": -0.07999999821186066,
+                      "z": -1.999997854232788
+                    },
+                    "witness2": {
+                      "x": -4.327467441558838,
+                      "y": -0.059999942779541016,
+                      "z": -1.9999980926513672
+                    },
+                    "normal1": {
+                      "x": 0,
+                      "y": 1,
+                      "z": 0
+                    },
+                    "normal2": {
+                      "x": 0,
+                      "y": -1,
+                      "z": 0
+                    }
+                  },
+                  "frame": {
+                    "status": "UNKNOWN",
+                    "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                    "checks": [],
+                    "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+                  },
+                  "applied": {
+                    "x": 0,
+                    "y": -0.00009995326399803162,
+                    "z": 0
+                  },
+                  "remaining": {
+                    "x": 0,
+                    "y": -0.006011157762259245,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          },
+          "groundedOnRubble": false,
+          "downed": {},
+          "pair": null,
+          "stanceFeedback": null
+        },
+        "bindings": [
+          {
+            "name": "Mission177Host",
+            "id": "74999422-57b3-4380-80d9-2a16869ae58d",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -9.600806472097693,
+              "y": 0.9400999817607226,
+              "z": 13.097550907225742
+            },
+            "hp": 220,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4020,
+            "sequence": 934,
+            "packet": {
+              "input": {
+                "seq": 2277,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06782579133287071,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": -5.036274253427244e-12,
+                "strikePitch": 0.06
+              },
+              "at": 70890.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "74999422-57b3-4380-80d9-2a16869ae58d",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 68.78090000009554,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4010,
+              "time": 66.83333333333083,
+              "wall": 1791739556352,
+              "position": {
+                "x": -9.600806472097693,
+                "y": 0.9400999423759641,
+                "z": 13.097550907225742
+              },
+              "velocity": {
+                "x": -5.591667298526066e-79,
+                "y": 0,
+                "z": -1.462002588320788e-30
+              },
+              "lastInput": 2283,
+              "nativeStepTick": 4010
+            }
+          },
+          {
+            "name": "Mission177Guest",
+            "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -3.811686839132583,
+              "y": 0.9400999379035784,
+              "z": 16.778994004120403
+            },
+            "hp": 159.50000000000003,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4068,
+            "sequence": 949,
+            "packet": {
+              "input": {
+                "seq": 1556,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06783737791702152,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": 0,
+                "strikePitch": 0.06
+              },
+              "at": 62775.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 60.025,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4061,
+              "time": 67.68333333333078,
+              "wall": 1791739557230,
+              "position": {
+                "x": -3.811686839132583,
+                "y": 0.9400999303074786,
+                "z": 16.778994004120403
+              },
+              "velocity": {
+                "x": 7.507147348121128e-168,
+                "y": 0,
+                "z": 4.871540133691074e-196
+              },
+              "lastInput": 1560,
+              "nativeStepTick": 4061
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "negative life",
+      "expected": "reject",
+      "actual": {
+        "actor": {
+          "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+          "name": "Mission177Guest",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": -4.446825069006813,
+            "y": 0.9400999734680044,
+            "z": -1.0433671975711072
+          },
+          "velocity": {
+            "x": 1e-323,
+            "y": 0,
+            "z": -4.848588217985541e-58
+          },
+          "yaw": -0.16624263343577456,
+          "aimYaw": -0.17821999990940127,
+          "aimPitch": -0.06303647691383958,
+          "hp": 159.50000000000003,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 1,
+          "salvage": 35,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 100.583333333329,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 99.033333333329,
+          "rocketAt": 99.083333333329,
+          "abilityAt": -100,
+          "hurtAt": 99.01666666666233,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": 99.01666666666233,
+          "fireAt": 99.083333333329,
+          "aiState": "patrol",
+          "lastInput": 2742,
+          "jumpEpoch": 2,
+          "jumpProcessed": 0,
+          "strikeProcessed": 0,
+          "strike": null,
+          "strikeEndedAt": -100,
+          "nativePose": {
+            "version": 2,
+            "nativeStepTick": 6249,
+            "localPosition": {
+              "x": 0,
+              "y": 0.30000001192092896,
+              "z": 0
+            },
+            "localRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "worldId": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9",
+            "actorId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "tick": 6249,
+            "time": 104.14999999999537,
+            "phase": "current-native-readback",
+            "enabled": true,
+            "hull": {
+              "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+              "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+              "handle": 1.0822178612e-312,
+              "position": {
+                "x": -4.44682502746582,
+                "y": 1.2400999069213867,
+                "z": -1.0433671474456787
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "shapeType": 14
+            },
+            "shape": {
+              "kind": "RoundCylinder",
+              "halfHeight": 1.1800000000000002,
+              "radius": 1.63,
+              "borderRadius": 0.12
+            },
+            "movement": {
+              "life": 1,
+              "tick": 6249,
+              "time": 104.14999999999537,
+              "phase": "locomotion-query-before-world-step",
+              "computed": true,
+              "grounded": true,
+              "requested": {
+                "x": 0,
+                "y": -0.0061111111111111106,
+                "z": -8.080980363309235e-60
+              },
+              "hullAtQuery": {
+                "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+                "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+                "handle": 1.0822178612e-312,
+                "position": {
+                  "x": -4.44682502746582,
+                  "y": 1.2400999069213867,
+                  "z": -1.0433671474456787
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 14
+              },
+              "delta": {
+                "x": 0,
+                "y": 4.6733475755900145e-8,
+                "z": 0
+              },
+              "contacts": [
+                {
+                  "support": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "supportQuery": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "reportedHandle": 3.5e-322,
+                  "toi": 0.00009995326399803162,
+                  "raw": {
+                    "witness1": {
+                      "x": -4.327467441558838,
+                      "y": -0.07999999821186066,
+                      "z": -1.999997854232788
+                    },
+                    "witness2": {
+                      "x": -4.327467441558838,
+                      "y": -0.059999942779541016,
+                      "z": -1.9999980926513672
+                    },
+                    "normal1": {
+                      "x": 0,
+                      "y": 1,
+                      "z": 0
+                    },
+                    "normal2": {
+                      "x": 0,
+                      "y": -1,
+                      "z": 0
+                    }
+                  },
+                  "frame": {
+                    "status": "UNKNOWN",
+                    "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                    "checks": [],
+                    "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+                  },
+                  "applied": {
+                    "x": 0,
+                    "y": -0.00009995326399803162,
+                    "z": 0
+                  },
+                  "remaining": {
+                    "x": 0,
+                    "y": -0.006011157762259245,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          },
+          "groundedOnRubble": false,
+          "downed": null,
+          "pair": null,
+          "stanceFeedback": null
+        },
+        "bindings": [
+          {
+            "name": "Mission177Host",
+            "id": "74999422-57b3-4380-80d9-2a16869ae58d",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -9.600806472097693,
+              "y": 0.9400999817607226,
+              "z": 13.097550907225742
+            },
+            "hp": 220,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4020,
+            "sequence": 934,
+            "packet": {
+              "input": {
+                "seq": 2277,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06782579133287071,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": -5.036274253427244e-12,
+                "strikePitch": 0.06
+              },
+              "at": 70890.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "74999422-57b3-4380-80d9-2a16869ae58d",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 68.78090000009554,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4010,
+              "time": 66.83333333333083,
+              "wall": 1791739556352,
+              "position": {
+                "x": -9.600806472097693,
+                "y": 0.9400999423759641,
+                "z": 13.097550907225742
+              },
+              "velocity": {
+                "x": -5.591667298526066e-79,
+                "y": 0,
+                "z": -1.462002588320788e-30
+              },
+              "lastInput": 2283,
+              "nativeStepTick": 4010
+            }
+          },
+          {
+            "name": "Mission177Guest",
+            "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -3.811686839132583,
+              "y": 0.9400999379035784,
+              "z": 16.778994004120403
+            },
+            "hp": 159.50000000000003,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4068,
+            "sequence": 949,
+            "packet": {
+              "input": {
+                "seq": 1556,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06783737791702152,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": 0,
+                "strikePitch": 0.06
+              },
+              "at": 62775.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 60.025,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4061,
+              "time": 67.68333333333078,
+              "wall": 1791739557230,
+              "position": {
+                "x": -3.811686839132583,
+                "y": 0.9400999303074786,
+                "z": 16.778994004120403
+              },
+              "velocity": {
+                "x": 7.507147348121128e-168,
+                "y": 0,
+                "z": 4.871540133691074e-196
+              },
+              "lastInput": 1560,
+              "nativeStepTick": 4061
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "negative enabled",
+      "expected": "reject",
+      "actual": {
+        "actor": {
+          "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+          "name": "Mission177Guest",
+          "chassis": "pounce",
+          "bot": false,
+          "position": {
+            "x": -4.446825069006813,
+            "y": 0.9400999734680044,
+            "z": -1.0433671975711072
+          },
+          "velocity": {
+            "x": 1e-323,
+            "y": 0,
+            "z": -4.848588217985541e-58
+          },
+          "yaw": -0.16624263343577456,
+          "aimYaw": -0.17821999990940127,
+          "aimPitch": -0.06303647691383958,
+          "hp": 159.50000000000003,
+          "maxHp": 220,
+          "energy": 100,
+          "heat": 0,
+          "kills": 1,
+          "salvage": 35,
+          "grounded": true,
+          "boostUntil": 0,
+          "shieldUntil": 0,
+          "windupUntil": 0,
+          "abilityReadyAt": 0,
+          "rocketReadyAt": 100.583333333329,
+          "stance": "quadruped",
+          "stanceChangedAt": -100,
+          "climb": null,
+          "climbDetachedAt": -100,
+          "pulseAt": 99.033333333329,
+          "rocketAt": 99.083333333329,
+          "abilityAt": -100,
+          "hurtAt": 99.01666666666233,
+          "diedAt": -100,
+          "disruptedUntil": 0,
+          "respawnAt": 0,
+          "hitAt": 99.01666666666233,
+          "fireAt": 99.083333333329,
+          "aiState": "patrol",
+          "lastInput": 2742,
+          "jumpEpoch": 1,
+          "jumpProcessed": 0,
+          "strikeProcessed": 0,
+          "strike": null,
+          "strikeEndedAt": -100,
+          "nativePose": {
+            "version": 2,
+            "nativeStepTick": 6249,
+            "localPosition": {
+              "x": 0,
+              "y": 0.30000001192092896,
+              "z": 0
+            },
+            "localRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "worldId": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9",
+            "actorId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "tick": 6249,
+            "time": 104.14999999999537,
+            "phase": "current-native-readback",
+            "enabled": false,
+            "hull": {
+              "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+              "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+              "handle": 1.0822178612e-312,
+              "position": {
+                "x": -4.44682502746582,
+                "y": 1.2400999069213867,
+                "z": -1.0433671474456787
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "shapeType": 14
+            },
+            "shape": {
+              "kind": "RoundCylinder",
+              "halfHeight": 1.1800000000000002,
+              "radius": 1.63,
+              "borderRadius": 0.12
+            },
+            "movement": {
+              "life": 1,
+              "tick": 6249,
+              "time": 104.14999999999537,
+              "phase": "locomotion-query-before-world-step",
+              "computed": true,
+              "grounded": true,
+              "requested": {
+                "x": 0,
+                "y": -0.0061111111111111106,
+                "z": -8.080980363309235e-60
+              },
+              "hullAtQuery": {
+                "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:3",
+                "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+                "handle": 1.0822178612e-312,
+                "position": {
+                  "x": -4.44682502746582,
+                  "y": 1.2400999069213867,
+                  "z": -1.0433671474456787
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 14
+              },
+              "delta": {
+                "x": 0,
+                "y": 4.6733475755900145e-8,
+                "z": 0
+              },
+              "contacts": [
+                {
+                  "support": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "supportQuery": {
+                    "id": "feline-native:3da90808-a73a-492f-b4df-93fb89ca70d9:owner:6",
+                    "revision": "native-type:6",
+                    "handle": 3.5e-322,
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0,
+                      "w": 1
+                    },
+                    "shapeType": 6
+                  },
+                  "reportedHandle": 3.5e-322,
+                  "toi": 0.00009995326399803162,
+                  "raw": {
+                    "witness1": {
+                      "x": -4.327467441558838,
+                      "y": -0.07999999821186066,
+                      "z": -1.999997854232788
+                    },
+                    "witness2": {
+                      "x": -4.327467441558838,
+                      "y": -0.059999942779541016,
+                      "z": -1.9999980926513672
+                    },
+                    "normal1": {
+                      "x": 0,
+                      "y": 1,
+                      "z": 0
+                    },
+                    "normal2": {
+                      "x": 0,
+                      "y": -1,
+                      "z": 0
+                    }
+                  },
+                  "frame": {
+                    "status": "UNKNOWN",
+                    "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                    "checks": [],
+                    "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+                  },
+                  "applied": {
+                    "x": 0,
+                    "y": -0.00009995326399803162,
+                    "z": 0
+                  },
+                  "remaining": {
+                    "x": 0,
+                    "y": -0.006011157762259245,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          },
+          "groundedOnRubble": false,
+          "downed": null,
+          "pair": null,
+          "stanceFeedback": null
+        },
+        "bindings": [
+          {
+            "name": "Mission177Host",
+            "id": "74999422-57b3-4380-80d9-2a16869ae58d",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -9.600806472097693,
+              "y": 0.9400999817607226,
+              "z": 13.097550907225742
+            },
+            "hp": 220,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4020,
+            "sequence": 934,
+            "packet": {
+              "input": {
+                "seq": 2277,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06782579133287071,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": -5.036274253427244e-12,
+                "strikePitch": 0.06
+              },
+              "at": 70890.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "74999422-57b3-4380-80d9-2a16869ae58d",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 68.78090000009554,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4010,
+              "time": 66.83333333333083,
+              "wall": 1791739556352,
+              "position": {
+                "x": -9.600806472097693,
+                "y": 0.9400999423759641,
+                "z": 13.097550907225742
+              },
+              "velocity": {
+                "x": -5.591667298526066e-79,
+                "y": 0,
+                "z": -1.462002588320788e-30
+              },
+              "lastInput": 2283,
+              "nativeStepTick": 4010
+            }
+          },
+          {
+            "name": "Mission177Guest",
+            "id": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+            "life": 1,
+            "generation": 1,
+            "position": {
+              "x": -3.811686839132583,
+              "y": 0.9400999379035784,
+              "z": 16.778994004120403
+            },
+            "hp": 159.50000000000003,
+            "room": "B85226",
+            "epoch": "94f02d64-750e-4521-a5d9-a9b0bd30d499",
+            "tick": 4068,
+            "sequence": 949,
+            "packet": {
+              "input": {
+                "seq": 1556,
+                "jumpId": 0,
+                "jumpCancel": 0,
+                "jumpEpoch": 1,
+                "strikeId": 0,
+                "strikeCancel": 0,
+                "strikeEpoch": 1,
+                "strike": false,
+                "forward": 0,
+                "strafe": 0,
+                "yaw": 0,
+                "pitch": 0.06783737791702152,
+                "fire": false,
+                "rocket": false,
+                "jump": false,
+                "boost": false,
+                "interact": false,
+                "stance": "quadruped",
+                "climb": false,
+                "stanceRequest": {
+                  "seq": 0,
+                  "life": 1
+                },
+                "aimYaw": 0,
+                "strikePitch": 0.06
+              },
+              "at": 62775.5,
+              "source": "frame",
+              "generation": 1,
+              "localId": "cbc22e4d-fb91-463c-a69d-2510d0d7408e",
+              "aim": {
+                "lookPitch": 0.06,
+                "lookYaw": 0,
+                "cameraRay": {
+                  "frameClock": 60.025,
+                  "yaw": 0,
+                  "pitch": 0.059999999999999824,
+                  "targetDistance": 180,
+                  "reachable": true
+                }
+              }
+            },
+            "rest": {
+              "tick": 4061,
+              "time": 67.68333333333078,
+              "wall": 1791739557230,
+              "position": {
+                "x": -3.811686839132583,
+                "y": 0.9400999303074786,
+                "z": 16.778994004120403
+              },
+              "velocity": {
+                "x": 7.507147348121128e-168,
+                "y": 0,
+                "z": 4.871540133691074e-196
+              },
+              "lastInput": 1560,
+              "nativeStepTick": 4061
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "public adapter encounter order",
+      "expected": "release+matching-life source-ACK/rest before handler; release+new source-ACK/rest after",
+      "actual": {
+        "order": [
+          "READ:Mission177Guest:before",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "READ:Mission177Host:before",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Host:KeyF",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Guest:before",
+          "ACK_REST_FIXTURE:Mission177Guest:220",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Host:before",
+          "READ:Mission177Host:before",
+          "ACK_REST_FIXTURE:Mission177Host:220",
+          "READ:Mission177Host:before",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Guest:before",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Host:KeyF",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Guest:before",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "READ:Mission177Host:before",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Host:KeyF",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Guest:before",
+          "ACK_REST_FIXTURE:Mission177Guest:220",
+          "READ:Mission177Guest:before",
+          "READ:Mission177Host:before",
+          "READ:Mission177Host:before",
+          "ACK_REST_FIXTURE:Mission177Host:220",
+          "READ:Mission177Host:before",
+          "READ:Mission177Guest:before",
+          "HANDLER",
+          "PRESS:Mission177Guest:KeyF",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "UP:Mission177Host:KeyF",
+          "READ:Mission177Guest:after",
+          "READ:Mission177Guest:after",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "READ:Mission177Host:after",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Host:KeyF",
+          "READ:Mission177Guest:after",
+          "READ:Mission177Guest:after",
+          "ACK_REST_FIXTURE:Mission177Guest:159.50000000000003",
+          "READ:Mission177Guest:after",
+          "READ:Mission177Host:after",
+          "READ:Mission177Host:after",
+          "ACK_REST_FIXTURE:Mission177Host:220",
+          "READ:Mission177Host:after",
+          "READ:Mission177Guest:after",
+          "RELEASE:Mission177Guest",
+          "UP:Mission177Guest:KeyW",
+          "RELEASE:Mission177Host",
+          "UP:Mission177Host:KeyW",
+          "UP:Mission177Guest:KeyA",
+          "UP:Mission177Host:KeyA",
+          "UP:Mission177Guest:KeyS",
+          "UP:Mission177Host:KeyS",
+          "UP:Mission177Guest:KeyD",
+          "UP:Mission177Host:KeyD",
+          "UP:Mission177Guest:KeyF",
+          "UP:Mission177Host:KeyF"
+        ],
+        "priorSerial": 1,
+        "newSerial": 2,
+        "oldHP": 220,
+        "newHP": 159.50000000000003
+      }
+    }
+  ],
+  "status": "PASS_SOURCE_ONLY"
+}

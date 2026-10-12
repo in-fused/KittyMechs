@@ -1,0 +1,105 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4741,
+      "sha256": "a0b0df85f17ddf64c15f80ac5c25b5ee5f415da15645e6f356c26e68e5f9444d"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 2848,
+      "sha256": "9f77bafe483baabcf27072ef0e54f5e88c3f6578be9befd143b9a683044e1df6"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "bytes": 1660,
+      "sha256": "d4d72cd4baa55f48b3c650df3f780c48e60d4b9ae7182a53ee3d4de155d2d81b"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 12029,
+      "sha256": "0e38081db857736d5bfa6cf6953e4e856050c2edfcfd34e4bf3988992b110e57"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json",
+      "bytes": 348,
+      "sha256": "10812071dfbd71b1bb05c71a8a3787a3ca56905257dad7f6f517b39cf5e2e469"
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/authored-motion-records202.json",
+      "bytes": 12074,
+      "sha256": "d5d2b3494f36f7cf48dc289ab254c84481701d6537b34f1e7f8afcd979d90d91"
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/decoded-catalog.json",
+      "bytes": 2225757,
+      "sha256": "8e9d99e9a78fa6847fd521fde6127d575b931b64a8f1f070632de9631156b5f2"
+    },
+    {
+      "path": "docs/overhaul/critic/motion209-temporal-review.md",
+      "bytes": 4816,
+      "sha256": "af290aba1e1968edae0e19490c691e36cb15fcb6026e01ae0f682f44717d9300"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/convert209.mjs",
+      "bytes": 6898,
+      "sha256": "ea6258aad8a381fe1174ce96b3340f8cdda82b47821405b30ddd8cbde3466486"
+    }
+  ]
+}

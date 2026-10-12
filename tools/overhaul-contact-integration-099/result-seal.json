@@ -1,0 +1,1191 @@
+{
+  "utc": "2026-10-11T07:20:36.899075+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-048/receipt.json",
+      "bytes": 74079,
+      "sha256": "909eb6c3c553cd2279b7321c9c1cd28d718bf6ef918445d98f4b0c212bcce265"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-049/playable-checkpoint.json",
+      "bytes": 348,
+      "sha256": "c506ca42f7d75445f6e9e1db75a957d61a78138d766843beccbef98b26fd1db7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-049/receipt.json",
+      "bytes": 74053,
+      "sha256": "a7f4259eaa7f8398b9bd68bcf7302905195981ff283e6e04ae72e2a6da70abfe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/049-retention100.json",
+      "bytes": 529,
+      "sha256": "efcb45c0717151533844c9e408e2c35d4890ba8ae9609f5f93264678442e296c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-build/process-receipt.json",
+      "bytes": 85798,
+      "sha256": "28e747c0407be398db23bf097419dad3f743869b644feadf77a23788756172ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-build/stdout.txt",
+      "bytes": 2049,
+      "sha256": "ca9d824ea5da1bc63778adae4f4f6ae04f214ff14391cc3c3ee732341b2a8386"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/evidence.json",
+      "bytes": 1261636,
+      "sha256": "1a450602e9e4e28d44e81b01bcc0e100ccf3524ad970c9a8b0831c9abb2a9441"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/final-idle.png",
+      "bytes": 943527,
+      "sha256": "6be2fdf9826837aca16505128f58d1ae4c8c7c61f1dc631f41ca0664c5665c31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/idle.png",
+      "bytes": 1058601,
+      "sha256": "bdebf4053b39f4ba83befc58f0727fc1b802ed8f3343c893e5f9805e9a86596a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/moving-R-down.png",
+      "bytes": 971047,
+      "sha256": "234ed781f454f0446ea37783373bb0ca6781841334ca2e38292695dcba3c54de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/moving-R-up.png",
+      "bytes": 986084,
+      "sha256": "990caf9344285a7c98dee4775b363dc9507c73234a66254f96b2585214d1dd22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/page@45d02ee1fdffbc51471c29ea5930d7b5.webm",
+      "bytes": 4901286,
+      "sha256": "0a34e12de3093ddb5c2d2299c61ecda1da38edf1c2328dd7393ac12825ef0ef2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-forward.png",
+      "bytes": 960976,
+      "sha256": "64f554b2819e79a51b632769b2d8e17210a4b67dbe1de325eab6f61ee38e65e5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-return.png",
+      "bytes": 958174,
+      "sha256": "347595cb0e0a91d6b8aa6a793bf3c02736c5b0180599702e142bc5a6e8c28e9e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-reverse.png",
+      "bytes": 1041476,
+      "sha256": "58b473b71fcf3db84347d820a8da717eff0b0616b5c8b846d23b31e350c69b1c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-stop.png",
+      "bytes": 1049760,
+      "sha256": "92f1c9d90ef6e36fd12c9e738ffac190cd9de519aa343bfea031ebee20563db1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/board-01.jpg",
+      "bytes": 328933,
+      "sha256": "70783a001ec585a171819481a14e64a7ec91b802b72c69da6fa54b21c3e15865"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/board-02.jpg",
+      "bytes": 623889,
+      "sha256": "c47dcc4ec23c528539c52530e26110a6cddfbfeae9d892e7dd9cae6ff4c4f91e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/board-03.jpg",
+      "bytes": 582717,
+      "sha256": "fd12c56fd47a502d23115e275b17f2c4967d3a3d539d8aca789f9a830de75cbb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/board-04.jpg",
+      "bytes": 571417,
+      "sha256": "8ed47cc5d4686d54da8b9c4b06a3641ee179436c77d9028e060f047ff66d9dfa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/board-05.jpg",
+      "bytes": 376525,
+      "sha256": "3f707ea59a8ff156333dc5dd71cf04af4d3f576d8c09f51b965a35a6961f3c00"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0001.jpg",
+      "bytes": 1115,
+      "sha256": "c2edbfdee0da2de553e0aa050d3d13994b7f8b06c9a2512bdac849712eba6b41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0002.jpg",
+      "bytes": 33875,
+      "sha256": "add2b6ff888701f12b1e7bab6d73e7c964b13b2f0a85e9c9b236d117631c0caa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0003.jpg",
+      "bytes": 33311,
+      "sha256": "5f9868cdb84988526df5d6eff8974804a4618d7367d9074db34aeda6414e812a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0004.jpg",
+      "bytes": 13895,
+      "sha256": "575b958e1c09722cb89598c5f01620cc0e51321429da13e2e23b524baff79650"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0005.jpg",
+      "bytes": 33205,
+      "sha256": "9a90ec10e4593fcc79d3496105534a3f48aa8e148461d8409fb0d0fcb80ff9cb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0006.jpg",
+      "bytes": 4507,
+      "sha256": "ce1eff1d4c283dd038107c787f1a2c3d4bddf53bad7b1db6be583b3284c2d170"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0007.jpg",
+      "bytes": 4076,
+      "sha256": "6f6dbf3f60bd1cf5694289e7b6af9bf8253a0cc77a751b43c145fc804fefb046"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0008.jpg",
+      "bytes": 3761,
+      "sha256": "c519cf83ad396df32a49ac483ca63b6d89502eb603b5ad8c7a6e9f05cdbefe12"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0009.jpg",
+      "bytes": 3900,
+      "sha256": "40c533e9690e922d2976f63bd1be82c25c2ff0e56ff4392f2396b86860b4dc3a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0010.jpg",
+      "bytes": 4969,
+      "sha256": "036d09217ba6f8f92e2a36b6e6dc76e3ebf7d5a858c7ccc6634d1c5815ec8211"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0011.jpg",
+      "bytes": 4953,
+      "sha256": "712a0ed3b5e936f55dbf8af1b17c6e632dd68e68fca7c68779971ef823af4dec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0012.jpg",
+      "bytes": 5059,
+      "sha256": "9b11ceb19c3aa12a3b8ccebf18546fd2c95729e884f4d9cc32c5a3f4e8982592"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0013.jpg",
+      "bytes": 4811,
+      "sha256": "902a7433edd6f51f95447726510e31cca1de1305838d20d81eb43d39dee561f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0014.jpg",
+      "bytes": 4880,
+      "sha256": "1158c9697e08c8060a3dd22c55caf127575cb9077534fd223e7705a6f90e8594"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0015.jpg",
+      "bytes": 4844,
+      "sha256": "82ac03089e82451c27ff622d899c4bf0b434c818e905762e7dc8aea807fed90f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0016.jpg",
+      "bytes": 5127,
+      "sha256": "2d52a4a58bc4e41ca25ef4afa42ca2bc08416fb0063fef3d4f7472fc00e3f3c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0017.jpg",
+      "bytes": 4886,
+      "sha256": "e65f83151a6ae79931591c735f2e44f2bb982042a24ec3b0681bdf3c50f392f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0018.jpg",
+      "bytes": 3878,
+      "sha256": "05042be55561bc419c65c42bb74ed39583302e5c15870ee5da4e146586927283"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0019.jpg",
+      "bytes": 3957,
+      "sha256": "8f67c7f2f06523fafb6bdcbb13dcfffe09c0bd794e5f0d7698cd2bae328a8c24"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0020.jpg",
+      "bytes": 4928,
+      "sha256": "90e4c4830a9ea7d214973be6fd978636998ff49a005f93119074494efcd1c1c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0021.jpg",
+      "bytes": 4930,
+      "sha256": "d5adbb42366d613797c7069f987c799470745d126f9d027d3737cce29576ec2c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0022.jpg",
+      "bytes": 3944,
+      "sha256": "b7a9b7e3878f0985c94e1796e94d37514285a3bda3bf4bf0fc0c4d75f51bd760"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0023.jpg",
+      "bytes": 3935,
+      "sha256": "37a973ab0f9e4b67afe3fedda5ce4b3b766294da176b2e5eae0fbe94f4d65a76"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0024.jpg",
+      "bytes": 4914,
+      "sha256": "3008aa005eb74d6cb2575e1308553c9fa385a62569544dc9722437087726a4d7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0025.jpg",
+      "bytes": 3928,
+      "sha256": "9f05655e9c0c61700c104e48d47af6516bf36af9494ad6ce58a29dafc8c345e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0026.jpg",
+      "bytes": 3928,
+      "sha256": "9f05655e9c0c61700c104e48d47af6516bf36af9494ad6ce58a29dafc8c345e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0027.jpg",
+      "bytes": 4920,
+      "sha256": "37f18f4254f2ca13c74f5e7aae97e6a82c37aae1e05a8ab050c06b45a386e690"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0028.jpg",
+      "bytes": 3928,
+      "sha256": "9f05655e9c0c61700c104e48d47af6516bf36af9494ad6ce58a29dafc8c345e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0029.jpg",
+      "bytes": 4920,
+      "sha256": "37f18f4254f2ca13c74f5e7aae97e6a82c37aae1e05a8ab050c06b45a386e690"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0030.jpg",
+      "bytes": 3928,
+      "sha256": "9f05655e9c0c61700c104e48d47af6516bf36af9494ad6ce58a29dafc8c345e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0031.jpg",
+      "bytes": 3933,
+      "sha256": "45086bbe12fbfc400b1adf8e0df49ed6487f0d1c2fbf5486c0c764e052d36d8a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0032.jpg",
+      "bytes": 4882,
+      "sha256": "36507a2e7b79725422c1df652501a1c7707f86574ff665e48a3585f390ff170c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0033.jpg",
+      "bytes": 3929,
+      "sha256": "9e1a8f82563b21372cd68fd029a818cd8b6ecab159a86bfe74f382d8fc7d205f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0034.jpg",
+      "bytes": 3930,
+      "sha256": "3679a440d97b78e4733e161e4ca75e9bc66bbb6819024f0f304a982430d2fd49"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0035.jpg",
+      "bytes": 4881,
+      "sha256": "b79083cd1b8be7479e895a94be92b4edacc082f6714146d12d95fd6ce180fcce"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0036.jpg",
+      "bytes": 3930,
+      "sha256": "3679a440d97b78e4733e161e4ca75e9bc66bbb6819024f0f304a982430d2fd49"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0037.jpg",
+      "bytes": 3930,
+      "sha256": "c363c5fbe4a16a913156586b499d3cec56f190c133a8dd48d2eb0f02637ba772"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0038.jpg",
+      "bytes": 4880,
+      "sha256": "b611eef70e2327037fba9446ce3e89e83b478e5055a57281245dad9a5230bddb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0039.jpg",
+      "bytes": 3932,
+      "sha256": "8ff4bf7d473a0e20560d321312f38e7febf002aca432cd2aee1ba9354d1f9ca8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0040.jpg",
+      "bytes": 3932,
+      "sha256": "8ff4bf7d473a0e20560d321312f38e7febf002aca432cd2aee1ba9354d1f9ca8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0041.jpg",
+      "bytes": 3932,
+      "sha256": "8ff4bf7d473a0e20560d321312f38e7febf002aca432cd2aee1ba9354d1f9ca8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0042.jpg",
+      "bytes": 7506,
+      "sha256": "a5ca89ad06e28de103d47aac233e284ff29fcb1b4aafbc0e6e28fc9d8ed384fa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0043.jpg",
+      "bytes": 5610,
+      "sha256": "c4fc4bb251ed1d984fd30ce425f2db05e312bf2c1feee0fd875a919ad46c2d5c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0044.jpg",
+      "bytes": 5610,
+      "sha256": "c4fc4bb251ed1d984fd30ce425f2db05e312bf2c1feee0fd875a919ad46c2d5c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0045.jpg",
+      "bytes": 5653,
+      "sha256": "615c1e53adc5ab5ed1b9b076f3e92a774ef887c3446b564ea47a8e7c611f527d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0046.jpg",
+      "bytes": 5399,
+      "sha256": "0a3bf1c5a6955fc1612ac8138d43cefa3ad43bc20b970cbffe959e9fa361cd54"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0047.jpg",
+      "bytes": 24823,
+      "sha256": "2f4c3442b451137c7052c21aef4110d278c9acf13366863929769c39ab857447"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0048.jpg",
+      "bytes": 18789,
+      "sha256": "c3ad3ed72d57c6022f80f005247523a357a0b26e31dc1e22fef34923419f5738"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0049.jpg",
+      "bytes": 15059,
+      "sha256": "95e684033503cc0156cd308e15e395559571605459c3790837a3ccb009c086db"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0050.jpg",
+      "bytes": 13959,
+      "sha256": "1e78e51a1c481c518e0620571d05c230bcf1167173f2c570da23c06f55d5e097"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0051.jpg",
+      "bytes": 12035,
+      "sha256": "18c5c71b999a5fd29b92d1de0e6e7a58a693a44b6c37a001472e9d4e7005b822"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0052.jpg",
+      "bytes": 11271,
+      "sha256": "e00614dc0977e1e271dfa02cb9f61651246146522ee068d864f63d5a4e2994b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0053.jpg",
+      "bytes": 10627,
+      "sha256": "c1ee83bf10afbaa99826981b01a5c0e5eea621c4c744c5dd6bf1d3f81c8f1b7f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0054.jpg",
+      "bytes": 10122,
+      "sha256": "f66e3a1b04804018cda9cc08e548851c5dcc3c8246a8ee1fc14d8c808cddf851"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0055.jpg",
+      "bytes": 9610,
+      "sha256": "6502c7e593c5c4912c1d2ab1c01bb1fae4ec4d19c6bed666971f7c38c7c57681"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0056.jpg",
+      "bytes": 9120,
+      "sha256": "1ec9b07d04b02c86688c334ba8dd6e020922cf0ec301c6422027ac7419be5269"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0057.jpg",
+      "bytes": 8708,
+      "sha256": "6b570e0ab1aa25c27fefd98dd9cbbe764d378b75e418755bf535cc6850e1da72"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0058.jpg",
+      "bytes": 8243,
+      "sha256": "d699ac02e2a6b8e712e166ec2e42328c7aa7d067f8cae9a81793cf744ab9ae3a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0059.jpg",
+      "bytes": 8250,
+      "sha256": "bcdd67b2fe38c9c92a080ccdec82986186ec262b22b51fec31bbe77048e87b76"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0060.jpg",
+      "bytes": 7555,
+      "sha256": "b46d2011e0a32d956ebcd055dc229d0251a1aa593774905227fada1d54caf700"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0061.jpg",
+      "bytes": 7574,
+      "sha256": "ffbd9d65fc984d7bc5e39bd5f747c335956d0b909716f45774299065171f130b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0062.jpg",
+      "bytes": 7244,
+      "sha256": "df252e7d526f19418017979509c8929e9d9a320aab8f59266cf29ec593a1b758"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0063.jpg",
+      "bytes": 6612,
+      "sha256": "2ba0c7b0b0d936afd9acf8929754ff56a97f8c8935ead686e517797f6cd719cb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0064.jpg",
+      "bytes": 6558,
+      "sha256": "7d1a8b7fad1089dbcce0aa8f0f18dd252df4c5d8bc6baebc67ad44c98aae369c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0065.jpg",
+      "bytes": 6513,
+      "sha256": "f0aa100742671677db39aa3b668921527e974de96ae237936cb33a3f6e6db248"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0066.jpg",
+      "bytes": 6235,
+      "sha256": "b0fb9f6aaae716ef0a4dac91d2df453c592f39658533b28534ba247db9ba36d6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0067.jpg",
+      "bytes": 6458,
+      "sha256": "0d8e964cee027241050400143c2b8e9092e7a41d4bcdefda278ae85990ab0951"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0068.jpg",
+      "bytes": 6262,
+      "sha256": "25cd544c84855b9d93aebf6a0afda349531caafb71ec0a5adba38ba932ca3652"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0069.jpg",
+      "bytes": 6374,
+      "sha256": "ad36642bae44ac1e1a8b628b4d003cf7edcbf236f1a8524a4fcf072171c652ac"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0070.jpg",
+      "bytes": 6394,
+      "sha256": "a1de6032e332beaeb941fbd50401b3f0fffd1220aaa4423233b152f4955d286c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0071.jpg",
+      "bytes": 6355,
+      "sha256": "b142e2421cf9ebd592cd7611fb24b4bd9ce60a421fffebc3cd788a2b70d9b1a4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0072.jpg",
+      "bytes": 6366,
+      "sha256": "3623beb0018e9074f84724108e4235b6ee8adfc4ba791b7480ed2338a57acbee"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0073.jpg",
+      "bytes": 5955,
+      "sha256": "a7abfca3e45aface5d11ad0ec430634c3266077bedb48f6e8ce2514bcb00c135"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0074.jpg",
+      "bytes": 6053,
+      "sha256": "219d860e42de0247409cde9c42223f6c9c9ad7ef879cea0615d305083ed22c4c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0075.jpg",
+      "bytes": 6082,
+      "sha256": "98d56afffd45d0e712e203cafc7a5c76b6fd592e2da280b2f36ae9a6998210ab"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0076.jpg",
+      "bytes": 6334,
+      "sha256": "58237051076c8b391b0158a1a0f2dd557f2b175add532094f8b2071f931db4b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0077.jpg",
+      "bytes": 6480,
+      "sha256": "96f1011a318de3afbde3521336de76c1056d392a598707877203a63d7de9774e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0078.jpg",
+      "bytes": 6427,
+      "sha256": "24dda577281ebba8613020bb10859cb04e1c8989008180e3c90802921df40d68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0079.jpg",
+      "bytes": 6515,
+      "sha256": "aaa4d203a5b4658b6b7b7688f0c90ad4f6f278563b771ae5cc232830bdbdc83e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0080.jpg",
+      "bytes": 6386,
+      "sha256": "21be2bfc46b0ba80cd479f26582d3f8bdd50ef57619f315a1a9cde3411a8916b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0081.jpg",
+      "bytes": 6205,
+      "sha256": "6a3ee91caec30d141aa89f15c54273fcda760d4b79cfc3de286a0ca389342fc9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0082.jpg",
+      "bytes": 6372,
+      "sha256": "7e1be4ffff37c586cd23d9c58adc95635e29defc47fa7000b08b3dbfdb4a7dfe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0083.jpg",
+      "bytes": 6321,
+      "sha256": "038ce6f1cf1344791099607f86778aae239d09e17683d244ea785e25dc9017dc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0084.jpg",
+      "bytes": 6662,
+      "sha256": "d11df5deb6afe56d60cf0798d738ac83262616618adcdb1297ba37ec37a0616d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0085.jpg",
+      "bytes": 6768,
+      "sha256": "ed1ad67dfbe7f6751ec5aef9baf679faf277c466a3711ce4ff0c0e4fd5bd8cd3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0086.jpg",
+      "bytes": 6643,
+      "sha256": "2e757289a09f12bd70e227bf020dd4b62212453e105860963b02a149efa092a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0087.jpg",
+      "bytes": 6584,
+      "sha256": "8cbcf0fc98cdb5736806a0e70b6ba1f0e61f9a2185a66d2b65f88d0bcd0d0f48"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0088.jpg",
+      "bytes": 6602,
+      "sha256": "f9f786373c870cec294040171220529253ae3f0548ceadeaea10eef6187a65f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0089.jpg",
+      "bytes": 6715,
+      "sha256": "8e39ef24e0a6b10c3c799fe823db64a971141480e1111880bd5e2892aadbd323"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0090.jpg",
+      "bytes": 6661,
+      "sha256": "75940a15cf8faf21d6c76050f6b852b1ad330fa8ca73f17f71c62ae1a437bc26"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0091.jpg",
+      "bytes": 6674,
+      "sha256": "fda5fcb3e188a6fdae38bd4f89066a60ae480f4f516dbf5aed13de43dcb562fe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0092.jpg",
+      "bytes": 6640,
+      "sha256": "70e72df0bf1b50d95e5a86fd16a314a972dbf542dd9279abee222c922ea343e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0093.jpg",
+      "bytes": 6519,
+      "sha256": "b9fda032a2ec4a8168419fa4d546e447d211630ac838949d59203906c2a3fb44"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0094.jpg",
+      "bytes": 6570,
+      "sha256": "9fc053fde40e81c3d68a3ce2baa26893119b20eb395b15afd605dad84f7cc64c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0095.jpg",
+      "bytes": 6693,
+      "sha256": "d7a0f0c78f5a2f0fcc12707623633ebdd37ef5b6720309a0dbb1662f35da6a20"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0096.jpg",
+      "bytes": 6713,
+      "sha256": "1a8ae8d7f1e04daced554831357728a687af94d78e6b762f07a734e0f95783a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0097.jpg",
+      "bytes": 6585,
+      "sha256": "e497406819fff451212e78a86b87360bf7ca78d875b3742d3afed1d3dec8ebb5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0098.jpg",
+      "bytes": 6587,
+      "sha256": "0c35db25ce07988e8fa3e85977e259e6a2ca544c8e64e776a0ef8bdccc4b05fb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0099.jpg",
+      "bytes": 6711,
+      "sha256": "0175e42224ab0a5d5eaf591d46c6e34c011d65481fa986268a76d8c404f8b439"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0100.jpg",
+      "bytes": 6792,
+      "sha256": "63f5945a2dfafc281377b57d99c4ab67c678185ebfcac50009c99b31250efbbd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0101.jpg",
+      "bytes": 6726,
+      "sha256": "2867e6832ccbb2a352af13e4f30e9551f44381ddbb882966108520117245bdbb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0102.jpg",
+      "bytes": 6816,
+      "sha256": "6575727b296992a47293f40035a09f41bc0a6fd9406c547e6a82099690161cd9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0103.jpg",
+      "bytes": 6585,
+      "sha256": "58813f0f1da402becc625613fa7b50781c7ecfed14192c895bb9ccb62fd49591"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0104.jpg",
+      "bytes": 6481,
+      "sha256": "ce515b929bcbb60fa24857e7d7e3012106a762a7db6f945e57d513655c350e2c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0105.jpg",
+      "bytes": 6499,
+      "sha256": "076d4dd813c918ee41b0039fadcf37337b38b87689ae161b72275af07b9b7813"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0106.jpg",
+      "bytes": 6490,
+      "sha256": "638dd4177f909868542274dcdad2ed7d606a5963fbe03fd36b02dd33eb49fcfa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0107.jpg",
+      "bytes": 6452,
+      "sha256": "9b36a8e1fa99b78c5d434859c872956e8eaa419e43deeef4c12c129a67c13e94"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0108.jpg",
+      "bytes": 6503,
+      "sha256": "e167ece0bb3fe82e695679c36d9380bf9e44e8d69e229447e3102f8102c8d7e3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0109.jpg",
+      "bytes": 6577,
+      "sha256": "c9e39587750c6fada6c89bcec54d81d75ea83de1f110651f27612d3953832af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0110.jpg",
+      "bytes": 6582,
+      "sha256": "9880803356e262283e2eff36cf57da9a4e49f6afa9cfbec88385b46de2da6769"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0111.jpg",
+      "bytes": 6556,
+      "sha256": "450ec92bf161ad54c55862f4807feb8fa9c0def4e582ae01e545ab2a09280c1b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0112.jpg",
+      "bytes": 6714,
+      "sha256": "ea9bf12d0e02c291fd5dd49520b94a6fd3e9d4fc87b04c9521ef8d65a652ec46"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0113.jpg",
+      "bytes": 6504,
+      "sha256": "874c02bdae0b8286b46c6b1b971220d105ff81571eb34d33f50873d379269a08"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0114.jpg",
+      "bytes": 6417,
+      "sha256": "6a2d4f69224be3f602eb5457186c60cd6a21f8d722809564c2cbe7b77b422904"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0115.jpg",
+      "bytes": 6360,
+      "sha256": "6a3143942b73e55d210d7b5faba3eecd066072adbe9ad90864201ed8e741fbf8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0116.jpg",
+      "bytes": 6327,
+      "sha256": "7006cb4d0e116d8b9a40c4ee695bd34c4299dffbb8b0a16dbf66f3c6e0af1172"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0117.jpg",
+      "bytes": 6124,
+      "sha256": "9eaaa709b0cd24a9e133390d7e90903aca90b203dc17150c35963491f2b2fbf0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0118.jpg",
+      "bytes": 6150,
+      "sha256": "7fcd24d6af50bc4170f3f6dd53fb44cff93b89d5c0485b2bb6dd940db34e0565"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0119.jpg",
+      "bytes": 6355,
+      "sha256": "de3e37983309fe0cfd95155f967ba0d80624b9dd8a2cff6bc0e68f6d7dc0b67f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0120.jpg",
+      "bytes": 6364,
+      "sha256": "a0023f74f8c3292b4d74af5b82344d530cacc551102bc19915e076991adf5c63"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0121.jpg",
+      "bytes": 6429,
+      "sha256": "4e80d503b8465c9ccddae6f86c8399cb477928ae7d03d78bd69da3b615025925"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0122.jpg",
+      "bytes": 6594,
+      "sha256": "ff0f101b055eda510a67a6698f5fbacf8caf6e1eee8b32535d8189d514160e5d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0123.jpg",
+      "bytes": 6415,
+      "sha256": "a64c81f2f3bb757e0994006afaf1d1fcbb76a534367e24ed0b11e37c1feffd8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0124.jpg",
+      "bytes": 6316,
+      "sha256": "34ae827e90796cf25ef0987779a1574f266607c8bbcff1d510d50c61eed98768"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0125.jpg",
+      "bytes": 6414,
+      "sha256": "0e0cebc9d821ccd81be64539e8d7d7373bdc18878d031906416a0ed112cbb5ff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0126.jpg",
+      "bytes": 6435,
+      "sha256": "a6f514aecf7fd4c97eb70981b6ce08bdcdee48d4f9bd158e43c28f917750ea64"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0127.jpg",
+      "bytes": 6290,
+      "sha256": "417998ebee3e7c4409917b50d8dd0f6df1f890d14aa882094d051cbdb3f2a177"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0128.jpg",
+      "bytes": 6269,
+      "sha256": "f6c1843884632e28e861bb12089a4fd9d70cfe5f5da8f710f053929a513ca755"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0129.jpg",
+      "bytes": 6302,
+      "sha256": "77f0226edc07be503489dd1dbeaee77a325da146df8d87ce2e5a723646fb8748"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0130.jpg",
+      "bytes": 6369,
+      "sha256": "17ad0ab0a776cd9c03602f6b17ab4ad7a061f9464d2a17f35ea45c146c526f09"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0131.jpg",
+      "bytes": 6411,
+      "sha256": "863b1d3f552ffecacbf25cf061f9ef29eb755021b34c1392966b4957e484eca3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0132.jpg",
+      "bytes": 6397,
+      "sha256": "fb090a45641088799ad55e79d092511211d2164a893721c644df7b49f935d533"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0133.jpg",
+      "bytes": 6390,
+      "sha256": "8d91e5e202fad138a214851c4c90931ae5b197b794866372405aeb588e6ff911"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0134.jpg",
+      "bytes": 6417,
+      "sha256": "9e647b3e022ec988678a07872a4fbd4feb4f20822770aa43616c7265ebff5e90"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0135.jpg",
+      "bytes": 6549,
+      "sha256": "eb8f31933a92b0391b0ec938e5ad1fd5fe227b8bc13e4d2edb3182c46eb74d45"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0136.jpg",
+      "bytes": 6543,
+      "sha256": "bcfd4a71122094092f7059c044642276fa0551b9c3d8682ebcc21f326418eb41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0137.jpg",
+      "bytes": 6564,
+      "sha256": "a1da4f51fe0691a77e8456ddde47f15d93f3ed157c9e0f79a51d002e21c32503"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0138.jpg",
+      "bytes": 6598,
+      "sha256": "0fd47eb85ebd9031006ff1ef94d9978f5b4bfaa378e7e3d3d661341c5cafded6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0139.jpg",
+      "bytes": 6654,
+      "sha256": "435b4aac2ec5776df5b9442850840a256f55e65d7833865c63b0ba1e8d974a6e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0140.jpg",
+      "bytes": 6553,
+      "sha256": "569fdf79816a92f109ec2b553387f2c2799b779a68d9b20da80b2d99835f4429"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0141.jpg",
+      "bytes": 6619,
+      "sha256": "bd1b1a8721f89205a6c125e9d1268c15d68e834823b56e426b54c1e437909ce5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0142.jpg",
+      "bytes": 6698,
+      "sha256": "eb8415f1a1b9e1f0c80d70bdf0f6ed60721c070dff30b723a6dcfc175f96de42"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0143.jpg",
+      "bytes": 6547,
+      "sha256": "256e5757c8e68e41f2d7e11f6f10eefccd552ac2f43e80a56e5063a3c03361b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0144.jpg",
+      "bytes": 6074,
+      "sha256": "e0643ad6f346934084c5913d3b35e7bdea6f1c09348b7996e9d8941ffd89fac8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0145.jpg",
+      "bytes": 6057,
+      "sha256": "3c76a6b32e5c01c7d5373b25e8c4fef954b3e75e8c4ac0bc7d46d1ba3f4c1395"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0146.jpg",
+      "bytes": 6066,
+      "sha256": "cff01f188e771f5e7eefae8ebbe86cf2a185f9f11251cc4f561c97db66b569f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0147.jpg",
+      "bytes": 6270,
+      "sha256": "c15e523148f1f68fc2c5a3cc7d8f430f21afbb3423ecd926384adadd1fe6f83b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0148.jpg",
+      "bytes": 6103,
+      "sha256": "43618b0157b05220213e25515ff65ff971940d097314434985fa9e705e330400"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0149.jpg",
+      "bytes": 6115,
+      "sha256": "cf81087894167b0d21c4515b34c167a5b2382eb8864803731f3da68ea3226e53"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0150.jpg",
+      "bytes": 6149,
+      "sha256": "9d45f943927625f9e03a51315781d3701c18b4126796f24a0c882e26a9105b85"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0151.jpg",
+      "bytes": 6164,
+      "sha256": "eae24e6a18e09ff1fea2490145cae27c9ffad735ab447b4a70e0f0324ed28eef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0152.jpg",
+      "bytes": 6172,
+      "sha256": "296711ec3ec56941dcc5af1280dfbda04911d23a4e496ac8357d13124a39080f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0153.jpg",
+      "bytes": 6196,
+      "sha256": "b250417d2c41fe8c371ac4b1d66c3df316501158fb07a559c8e9b05239ac7df6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0154.jpg",
+      "bytes": 6126,
+      "sha256": "c57da2358f83cf7e491f25ebeab27895c69a200c924af6a270e57caf6a8f482a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0155.jpg",
+      "bytes": 6005,
+      "sha256": "60bf6645641e01ab962e23d07aef386341916225c6092577b5705146056c5f83"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0156.jpg",
+      "bytes": 6039,
+      "sha256": "9a459ac7572a1a2b3bee92bd16d376640c33aa109a31ac06b182734461d89947"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0157.jpg",
+      "bytes": 6029,
+      "sha256": "2c077b66be904a4b5f574a71b68923820f31aef7c01fae7171e1d50600094710"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0158.jpg",
+      "bytes": 6007,
+      "sha256": "e2d8654864b3d50c1206fec6ee6de7d91e190c8b057909509ac112653a26d1d7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0159.jpg",
+      "bytes": 6038,
+      "sha256": "97a5885436b09ef43faf9bf588b92739d3614288fb578a646c266d6dc0d58561"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0160.jpg",
+      "bytes": 6038,
+      "sha256": "317d4c8900089262a036cede02438618bc8e8e29208e328d4e8309e5c02f45b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0161.jpg",
+      "bytes": 6050,
+      "sha256": "2c74c7700789d27ba60a70501856b44262e9ea388335808851f1291d32f49753"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0162.jpg",
+      "bytes": 6058,
+      "sha256": "6b8f7ae1ab2e688c0bba38e772e7012911328454c05e78cfbb8815263ffc6840"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0163.jpg",
+      "bytes": 6038,
+      "sha256": "dc9357061f168b9f6fb79abdf6d6470141b7661652a8f11ed4f0d2730e241506"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0164.jpg",
+      "bytes": 6045,
+      "sha256": "563f8b5942c43c432d7b9669a3de351bdef0ccd51208f3eb98ff2a6e4bfc3a8b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0165.jpg",
+      "bytes": 6047,
+      "sha256": "4bee070d76c3e8353bf90321fdcfc58dd7892164fb708da75e1e3536ff3ae45c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0166.jpg",
+      "bytes": 6050,
+      "sha256": "0046d308581c4d8d4cca30f1aeab737b09b7d4004614ff34ea9f7a0399f2331e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/frame-0167.jpg",
+      "bytes": 6051,
+      "sha256": "01e4dfaf8a09eb6aa083e7cc453cab6b3cc4392469c952a90f523547ec2fa68a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/review-frames/receipt.json",
+      "bytes": 1372,
+      "sha256": "4a9577697a54bdbb986ee59309d030678d1faee40a39f2eac2c3063cc1e9f8c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-forward.png",
+      "bytes": 962426,
+      "sha256": "6d44f7792c7faea375445544e4800b81a483643d406c82846339810a584a99b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-reverse.png",
+      "bytes": 976259,
+      "sha256": "754a0eef4d575cbdd15c25c3fa2762723de55dcc6774a4de899fc78842bbeda7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-stop.png",
+      "bytes": 966787,
+      "sha256": "d805522a127b7c17039bada2879324aa1f5ba3633f99c16d87e6b55ca632a46c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate-process/process-receipt.json",
+      "bytes": 65417,
+      "sha256": "602ab29896c420a581141fdf1c4d9ec8b6f42befa067cf8bebc2d1e2584d4783"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate-process/stdout.txt",
+      "bytes": 82,
+      "sha256": "5ac72438e30e51e8bec1a4603518f00fe6fb2fcf66aff41eb354fe93da00b5eb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-cleanup.json",
+      "bytes": 140,
+      "sha256": "3b5d963793fa9e5d75e914395415feda8f65271f53c075e8668f16e64e311b4f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-final-inventory.json",
+      "bytes": 216,
+      "sha256": "64377755debd85dd4813dea1ece848e8de737d6681c039f82c7d391bea3e93c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-freeze/process-receipt.json",
+      "bytes": 76777,
+      "sha256": "e172bfe90fe011f512a0f5c7e7a99f7222847c192b8c6525229f9bf461bbddbf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-freeze/stdout.txt",
+      "bytes": 323,
+      "sha256": "3802115a4e5d49a90b6cd9270bbba980e943dafb5bf9978fabc32a4875f8eea0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-server-identity.json",
+      "bytes": 384,
+      "sha256": "04290245b4c68c9fa640246f3339e25ced68e459c615244a8fd323940d9a9a1e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-server-swap.json",
+      "bytes": 407,
+      "sha256": "4699baa131310ff937dc20623b052181869db80ed78607df3ba5a0d8d1943072"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-syntax/process-receipt.json",
+      "bytes": 65301,
+      "sha256": "0144f98ccf0bac80aa2f46e0cf1f76c00bcd45e01f276d5c7010b8a4a395174b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-syntax/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-tests/process-receipt.json",
+      "bytes": 85711,
+      "sha256": "8f08732dfd90da477d91eedb33e62d84bca0fddf128c31e5d6eead08a6b3d573"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-tests/stdout.txt",
+      "bytes": 229,
+      "sha256": "5a52cfc36819d44db7ce53fd7880a23d0b7bd451dc709fdca33453c736eb8fcd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-video-derive/process-receipt.json",
+      "bytes": 2512,
+      "sha256": "5f3c6ca2b00ba6665a1ad741afdc301c392451aa0a506f132878e71554199c24"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-video-derive/stdout.txt",
+      "bytes": 449,
+      "sha256": "f6a927861aa3de9f6159ff0d3bc38d1fff6c5d07e78ade43b8dc75256c604f2d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live049-http-verification.json",
+      "bytes": 828,
+      "sha256": "635a5bf3b51bb6cc387fa2f305063ea3cfa1b7a7aa34efa8605cbccdb126d4ce"
+    },
+    {
+      "path": "docs/overhaul/critic/contact099-source-review.md",
+      "bytes": 6186,
+      "sha256": "0a0779cafa1475659400f7a1852e719ea10640e48b4c75b98b71d1ba0da5a720"
+    },
+    {
+      "path": "docs/overhaul/critic/contact100-play-review.md",
+      "bytes": 5891,
+      "sha256": "9155bfd51cbe62f814f95f7bac9173cfcaecedd2746e37b348462f263b9bab95"
+    },
+    {
+      "path": "docs/overhaul/player-recovery-100-handoff.md",
+      "bytes": 9371,
+      "sha256": "37ae758a8c10e30cd4a8d7867566d7783535d9895d30d9f112870aaa08638b80"
+    },
+    {
+      "path": "docs/overhaul/resource-limit-handoff-20261010.md",
+      "bytes": 21598,
+      "sha256": "199d86430ec4f167c2cb4bc54e8344d0a1823cdc4dfbfc5d81b342da86b3ab84"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 19890,
+      "sha256": "282973c14b956985e72f2714c62079a3651f440eb15f8347288c2ead5dda5ccd"
+    },
+    {
+      "path": "tests/contact-skin098.test.ts",
+      "bytes": 4485,
+      "sha256": "780857aee12fa11de1ea9b0ba86b5a062c99114f0858f77d20c609779730662b"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/build-seal.json",
+      "bytes": 143663,
+      "sha256": "1305c03ccbf5130d41a49586609aa49eb5cee105da538aef77728ca1fc006185"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/candidate-seal.json",
+      "bytes": 103351,
+      "sha256": "d300267d73014cdf242abff69fc6318fcaa5d95d29e13fee11999bc03741e7aa"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/close-result.py",
+      "bytes": 2171,
+      "sha256": "b5f919c9739e9ab307cb5862326549fb1fc91005d94cd03c8e5dc773708efaa5"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/derive-seal.json",
+      "bytes": 3590,
+      "sha256": "a7eb12ccf6a8a693d0995828875b089dd88de2b69ab60519c92969b2ded3e769"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/extract-review.py",
+      "bytes": 1678,
+      "sha256": "75b7b78f1be2d58a65e251309a150301f1770ce1f7845bd073f2e83f58b53437"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/freeze-seal.json",
+      "bytes": 124843,
+      "sha256": "36cc3807a38f95d7b84a32b3e4a3c5ebdedf72f83d384f22ef663f50c905ef94"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/freeze049.py",
+      "bytes": 2227,
+      "sha256": "3d4c127f4e237a24c9d90e84d0eeec7f4ee7dccb9b860dd72cd7d8645504ce04"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/launch.py",
+      "bytes": 424,
+      "sha256": "80a0ea691321de6cd3f6c6f69ed27abd12134b162d1c4bd81733db402add7b5e"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/observations.json",
+      "bytes": 8995,
+      "sha256": "288873420933cdbdaf63feef892c8e129a561e0c7742c9f05b298632d465251b"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/prepare.py",
+      "bytes": 3124,
+      "sha256": "26677977e9bd5ffe3a58ce99c6f99c4937a55ec04dc9bac9352c876f3324e751"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/recovery048.py",
+      "bytes": 2735,
+      "sha256": "430c9c0d951b26aa4ecf4da56b07efb3546b17633106965b66ef45626318c251"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/summarize.py",
+      "bytes": 2104,
+      "sha256": "0b1ed20a2210adc4b1c7637908d18932b4a2555f973bf37617d2cf70ac73f49e"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/syntax-seal.json",
+      "bytes": 103149,
+      "sha256": "d32033f988575cf22dd7a53c304f233110954fcf143d6d700a7e7880057c17f1"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/tests-seal.json",
+      "bytes": 143491,
+      "sha256": "437631b2b2959b39cefe735e0c4e658ff27c1dec326e1e8b75e743576274f821"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/verify-http049.py",
+      "bytes": 1129,
+      "sha256": "12f765ca3da7b57cf905729092765f9a04fc32ed39bcdd7e6c8545b12d8929dc"
+    },
+    {
+      "path": "tools/overhaul-contact-play-100/capture.mjs",
+      "bytes": 4850,
+      "sha256": "784e12268060620ee7610c9be1a38b89e4501a97270d3f3771b2ddc0a99b9474"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/candidate-movingRFfeet067.ts",
+      "bytes": 19890,
+      "sha256": "282973c14b956985e72f2714c62079a3651f440eb15f8347288c2ead5dda5ccd"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/candidate-test-contact-skin098.test.ts",
+      "bytes": 4485,
+      "sha256": "780857aee12fa11de1ea9b0ba86b5a062c99114f0858f77d20c609779730662b"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/handoff.md",
+      "bytes": 7402,
+      "sha256": "a70afc8963af3457616661da6bb397e36d630be21485be52f25144fe3c0a4494"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/client094-source-review.md",
+      "bytes": 4614,
+      "sha256": "41cb834434405b463c67f5b68497d1f96eba25bc9fdd4d2ab2bc681d73563dc9"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/player-recovery-097-handoff.md",
+      "bytes": 7916,
+      "sha256": "3adf869c97e0830b7d6b88761d2908c775bc019a0ee58acc579042eb49a76e9b"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/inputs/rejected-candidate-movingRFfeet067-093.ts",
+      "bytes": 19274,
+      "sha256": "f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/preimages/movingRFfeet067-047.ts",
+      "bytes": 15768,
+      "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61"
+    },
+    {
+      "path": "tools/overhaul-foot-contact-098/source-seal.json",
+      "bytes": 2447,
+      "sha256": "5e083ed6b00d77234b17e570db7e9741a13bd9fb845d2461ee5bfb7f7406b44e"
+    }
+  ],
+  "scope": "098-100 closed actual contact experiment and independent verdict; see current handoff. No source/marker refinement loop. Actual IAB lag/gait/fluidR/art/fullgoal incomplete. Source overlay048 separate; preserve048 rollback/rawvideo."
+}

@@ -1,0 +1,37 @@
+{
+  "sealedUTC": "2026-10-10T19:02:25.8371696Z",
+  "rows": [
+    {
+      "path": "tools/overhaul-feline57-contract-013/result.md",
+      "sha256": "6334cde1bfb35846cda25800c03733c0d34e0e5c01867208fd0c394b9bca6c9e",
+      "bytes": 1961
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/closure.json",
+      "sha256": "d30e9983406e66aa3734eda81a42607d9f09da4afb08dcf451a9acbbd737167c",
+      "bytes": 4841
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/closure-writer-first-failure.json",
+      "sha256": "abdfbffecbe18ed94df9829819e596ee285b52a94aa108514452a9121721c789",
+      "bytes": 6
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/result-seal-before-closure-writer-correction.json",
+      "sha256": "20aa3c75ebdfe60b27445144b2c1c2ed35c737ba6e458781d47021663e18a248",
+      "bytes": 952
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-013/qualification-process.json",
+      "sha256": "19ee932ccec59721281443e271422bd0eeb984d2b4b81ea980269558505a2abc",
+      "bytes": 662
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-013/compile-process.json",
+      "sha256": "f0fcbbcc9c2b9326dde2dd0a58f833fad5174d3e14ea4c8fc40a28f0d6d9df82",
+      "bytes": 446
+    }
+  ],
+  "frozenSealSHA": "ee6adf4a45734d8fcdf37944dd6f2fb362e26157c7c6af49e8fa82af36573939",
+  "schema": "feline57-contract013-result-seal"
+}

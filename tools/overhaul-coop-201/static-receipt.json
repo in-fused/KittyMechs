@@ -1,0 +1,54 @@
+{
+  "writer": "CLOSED",
+  "syntax": [
+    {
+      "path": "mission-capture.mjs",
+      "result": "PASS",
+      "receipt": "7dc564"
+    },
+    {
+      "path": "motion-scheduler.mjs",
+      "result": "PASS",
+      "receipt": "b19d30"
+    },
+    {
+      "path": "lifecycle-adapter.mjs",
+      "result": "PASS",
+      "receipt": "a94efa"
+    }
+  ],
+  "fixture": {
+    "result": "PASS_SOURCE_ONLY",
+    "receipt": "10f03e",
+    "seconds": 0.8686652,
+    "reverifiedAfterRequestedStaticChanges": true,
+    "firstFixtureReceipt": "f1c780",
+    "scope": "Saved actual operands plus hypothetical adapter;no browser/native world"
+  },
+  "selector": "Original177 COPY INVITE literal exactUTF8 MATCH;corrupted prep copies preserved",
+  "boundsAuthority": "Root final201 instruction restores original177420work30cleanup450inclusive480supervisor20readiness35iterations100records12routewaypoints4events.18 was OBSERVED177 count, notcap;90/120was interimrootproposal, withdrawn beforejob.",
+  "actualJob": "NOT_LAUNCHED_ROOT_APPROVAL_PENDING",
+  "sourceHashes": [
+    {
+      "path": "tools/overhaul-coop-201/mission-capture.mjs",
+      "bytes": 56984,
+      "sha256": "0e123ee1b2f53edbcb037ce43ce03970e79eece165f39e2a8d0ab21388f7d56c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/motion-scheduler.mjs",
+      "bytes": 14921,
+      "sha256": "b9c3616cf32a8c86581657f16ca3f71bbf75621d120ebcaeeb721f93fc5478e6"
+    },
+    {
+      "path": "tools/overhaul-coop-201/controller.mjs",
+      "bytes": 8206,
+      "sha256": "08f438ef15fdd7b61842d697a2e8b216683be134fb340b35e3164d5b729a1d81"
+    },
+    {
+      "path": "tools/overhaul-coop-201/lifecycle-adapter.mjs",
+      "bytes": 2962,
+      "sha256": "fb8cf223a104f22b63deca8136f67ad438f1fe173c62994d273aa5d8e56f70e3"
+    }
+  ],
+  "rootFinalCorrection": "root-static-correction203.json; final main syntax and saved-health/order fixture PASS; initial source packet archived before correction."
+}

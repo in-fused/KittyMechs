@@ -1,0 +1,13 @@
+{
+  "threeRoots": [
+    "node_modules/three"
+  ],
+  "loader": [
+    "node_modules/three-stdlib/loaders/GLTFLoader.js"
+  ],
+  "codec": [
+    "node_modules/three-stdlib/libs/MeshoptDecoder.js"
+  ],
+  "standalone": true,
+  "appBootstrap": false
+}

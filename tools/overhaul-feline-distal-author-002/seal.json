@@ -1,0 +1,35 @@
+{
+  "namespace": "overhaul-feline-distal-author-002",
+  "startedUTC": "2026-10-10T13:09:38Z",
+  "hardDeadlineUTC": "2026-10-10T13:49:38Z",
+  "sealedUTC": "2026-10-10T13:27:03.1781981Z",
+  "status": "FROZEN_PENDING_INDEPENDENT_TEXT_GATE",
+  "jobsRun": 0,
+  "files": [
+    {
+      "path": "assets/source/overhaul-feline-distal-author-002/author.py",
+      "bytes": 59271,
+      "sha256": "7d1b42454645c6de926f3b07005d2e6e74442cfb3f05f6816510f314f0e4a01e"
+    },
+    {
+      "path": "assets/source/overhaul-feline-distal-author-002/CONTRACT.md",
+      "bytes": 8901,
+      "sha256": "f4ba95b11ecf7d29a3df98e64f179cdd66036200585377944f32c8476decca24"
+    },
+    {
+      "path": "tools/overhaul-feline-distal-author-002/source_owner.py",
+      "bytes": 2109,
+      "sha256": "115c9c7dd608736bb53e89171947077f73005be57c33e8df4b0205f6267d6af2"
+    },
+    {
+      "path": "tools/overhaul-feline-distal-author-002/preparation-read-error.json",
+      "bytes": 279,
+      "sha256": "fe6f7d1a7f8c53f3955cf2aac231c4d0271fe91bef385dc3f993803da6ac551f"
+    },
+    {
+      "path": "docs/overhaul/feline-distal-author-002.md",
+      "bytes": 1866,
+      "sha256": "dcf767fae9064e0df380543cb17fb179da2b9e5aa729ba3a1e11969452f8e3b6"
+    }
+  ]
+}

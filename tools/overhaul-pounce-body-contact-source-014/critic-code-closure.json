@@ -1,0 +1,15 @@
+{
+  "startedUtc": "2026-10-10T19:10:10Z",
+  "closedUtc": "2026-10-10T19:11:34.5916974Z",
+  "hardStopUtc": "2026-10-10T19:25:00Z",
+  "verdict": "APPROVE_ONE_ROOT_SERIAL_SOURCE_ATTEMPT_ONLY",
+  "review": "docs/overhaul/critic/pounce-body-contact-source-014-code-review.md",
+  "reviewSha256": "1E5066BAF1B0355AD80CF1EE56353059556452E080F422F39DB455FCB2D4BCB8",
+  "sourceSealSha256": "22EF708DF599DBCF13B2F7228412EB8ACFA55526A04211F6D0A72D9D48CC7F58",
+  "matchedFrozenRows": 7,
+  "matchedProtectedRows": 7,
+  "criticJobs": 0,
+  "nativeAdmission": false,
+  "runtimeAdmission": false,
+  "gate1": "INCOMPLETE"
+}

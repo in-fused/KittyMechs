@@ -1,0 +1,52 @@
+{
+  "writer": "CLOSED",
+  "candidate": "opticalNativeCoordination156",
+  "publicCandidate": "UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-156/aim-feedback.mjs",
+      "bytes": 5338,
+      "sha256": "d14faaa97c0ef0896aef9d0c5719e29d335acae36de2d2f3fc8b1d2f7b254263"
+    },
+    {
+      "path": "tools/overhaul-coop-156/checks-receipt.json",
+      "bytes": 667,
+      "sha256": "53ace53218ad3c80031cbe7da33720af51404f9ea411ea74e1b31ca721fe32db"
+    },
+    {
+      "path": "tools/overhaul-coop-156/feedback-receipt.json",
+      "bytes": 1659,
+      "sha256": "2af19525347e2f27d93431a0d58b7dc8eeb23f3f9a03bb762e797185a261c419"
+    },
+    {
+      "path": "tools/overhaul-coop-156/feedback.test.mjs",
+      "bytes": 4507,
+      "sha256": "a9258cf1396d86d67525e353fda6b34e1e7aec8197feae242e9b1379cfcdae3d"
+    },
+    {
+      "path": "tools/overhaul-coop-156/HANDOFF.md",
+      "bytes": 5503,
+      "sha256": "b0f2bc5df990c680a52e20661498173c9e291d6be0639d34193e66f7de472745"
+    },
+    {
+      "path": "tools/overhaul-coop-156/mission-capture.mjs",
+      "bytes": 49181,
+      "sha256": "c0c8ceeb136a41564e315852090c091086b3963f685675947d1518d9154641ea"
+    },
+    {
+      "path": "tools/overhaul-coop-156/preimages/mission-capture.mjs",
+      "bytes": 47853,
+      "sha256": "f607b1886111f10faf3ad6c014a232cd40f7c51a1b7b3ea4a45b9861d48587eb"
+    },
+    {
+      "path": "tools/overhaul-coop-156/protected-inputs.json",
+      "bytes": 3323,
+      "sha256": "3eb9ef3fb0cecfb3adac519e38763c1e8619d9a69959609dd122044cb2531bf0"
+    },
+    {
+      "path": "tools/overhaul-coop-156/vitest.config.mjs",
+      "bytes": 155,
+      "sha256": "f3d74606b636027eaa502fff73f9c6f835001cd686bc88815a5a42b44bb67177"
+    }
+  ]
+}

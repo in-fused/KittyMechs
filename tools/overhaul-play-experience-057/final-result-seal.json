@@ -1,0 +1,160 @@
+{
+  "scope": "057source/technical/exactactualresult/independentreview closure. Fullgoal incomplete; limitationsandverdict remain authoritative.",
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "sha256": "4b1b4eb2475eacad3e74ed5cf76c1d172a08de77a6d47dd50addf48222784beb",
+      "bytes": 10236
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "sha256": "45f4f3429069db60c98a28bbe4dafed8ae8b02ab701e23c4deb0ee634885ed41",
+      "bytes": 4395
+    },
+    {
+      "path": "tests/camera-moving-fit-057.test.ts",
+      "sha256": "84b887aa0020af804649ae9e36fc69505f7eb4e2fcaf9b99060301299a4e5bc4",
+      "bytes": 2876
+    },
+    {
+      "path": "docs/overhaul/camera-057.md",
+      "sha256": "c0c2e22922e2f5a0ee01f1a787b75d014c93fc181023616b0bac8f124bfa7fba",
+      "bytes": 3345
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages/CameraRig.tsx",
+      "sha256": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "bytes": 9153
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages/framing.ts",
+      "sha256": "d76aab8c8e0d917a2f18487795f7a508ce4fc4da46a61d7779094c0fa153629d",
+      "bytes": 3670
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages.json",
+      "sha256": "a91ddb4ce07265eff61a5cd1a2a58162eb04272923b9a9ccae0a514fdf84e7af",
+      "bytes": 320
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "sha256": "2b0c29d74ebd61be0c7bec5ed3d1508aad526e02f8dcaec3dea97e6cdacc8dfe",
+      "bytes": 2434
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "bytes": 11235
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e",
+      "bytes": 791
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086",
+      "bytes": 785
+    },
+    {
+      "path": "docs/overhaul/critic/coop-play-056-result-review.md",
+      "sha256": "a1acd6230aa7c89b77622168a8a80ffa7ebb70351434c7ce71fe7e85b8103041",
+      "bytes": 5547
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-public/failure.png",
+      "sha256": "3cb2f0dd72f5e103ae9b7905fe7bbfe1bbf6189a1208ed50275b9026e9a7b81e",
+      "bytes": 1331473
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-public/failure-guest.png",
+      "sha256": "d683ffe198b185922365793b93b7d30dcf9abbc353350cf0363474aebb9a4714",
+      "bytes": 1318903
+    },
+    {
+      "path": "tools/overhaul-render-cull-057/rainlineStreetArt.tsx.preimage",
+      "sha256": "e62910f9380aacf2a712754d4902834e7103e30aff1662731d5b3786aa79952c",
+      "bytes": 6058
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "sha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c",
+      "bytes": 6057
+    },
+    {
+      "path": "tools/overhaul-render-cull-057/README.md",
+      "sha256": "7740cf4cfc6d32dae94c5f0ed8f0989742caee45140f075b763ff9bd93a0b135",
+      "bytes": 2846
+    },
+    {
+      "path": "tools/overhaul-render-cull-057/source-handoff.json",
+      "sha256": "394c74d5cf503e5e06680c3a1cc53ee38b93e04963be66b67233b89da9c3b037",
+      "bytes": 1369
+    },
+    {
+      "path": "tools/overhaul-play-experience-057/result-seal.json",
+      "bytes": 6991,
+      "sha256": "c393061b3a83509c0522ae572b458df67326abc7e9438354bc63c356d346db1b"
+    },
+    {
+      "path": "docs/overhaul/critic/play-experience-057-result-review.md",
+      "bytes": 5416,
+      "sha256": "ab99a58efd9a1e1d40d3f64d9528e10396cf88142c4cec63738a61965d0697ed"
+    },
+    {
+      "path": "tools/overhaul-play-experience-057/finalize.py",
+      "bytes": 2104,
+      "sha256": "789281732d55c041c4ed03bf51a3f11d7ea70681e74c63b69cb81765ec34c0f1"
+    },
+    {
+      "path": "tools/overhaul-camera-057/source-handoff.json",
+      "bytes": 3521,
+      "sha256": "ffcd3c1ab802de320b03f74b1b260c99d7d93be98914b048344d11188ea6b47c"
+    },
+    {
+      "path": "tools/overhaul-render-cull-057/source-seal.json",
+      "bytes": 877,
+      "sha256": "70590a71f495f1fda90da69b267c1fd38338166394b48a7f25d70fbe7a114640"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/experience057-test/process-receipt.json",
+      "bytes": 62872,
+      "sha256": "d1af0181d431934772d6df18b09eec56feb707dfb95e9608187c3785a96617ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/experience057-test/stdout.txt",
+      "bytes": 233,
+      "sha256": "2c065aa2101fc1bdb4f4dc17d2832344ce9829c0335e8445ed2284e6023f5040"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/experience057-build/process-receipt.json",
+      "bytes": 62732,
+      "sha256": "e4104181c289cf285245e4f3685024e26773c6739c529c7894e384ab046389b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/experience057-build/stdout.txt",
+      "bytes": 2049,
+      "sha256": "edcce5406dcea89d67817b18008396a1608e44e6569b700dd37d3aa84b6532f0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-039/receipt.json",
+      "bytes": 71577,
+      "sha256": "7975f3f3f86f67ea1ccc06fb804bf1f8eee317475fb08b157cacb49e277e6815"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-039/playable-checkpoint.json",
+      "bytes": 471,
+      "sha256": "f5951c38ed3c708d136617ca52c89ebdb0e161d7ddca3893ca8c9f35081c7f42"
+    },
+    {
+      "path": "tools/overhaul-play-experience-057/critic-result-closure.json",
+      "bytes": 1215,
+      "sha256": "1d9d5c054e0aac0e25f4561e98b0fec38cb10502562077235a1ad9c175babb1e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live039-server.json",
+      "bytes": 396,
+      "sha256": "dd54ce4a95859c98513168f902bab2412058aba621df4b675ecbbabed30ab583"
+    }
+  ]
+}

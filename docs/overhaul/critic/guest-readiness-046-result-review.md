@@ -1,0 +1,17 @@
+# Guest readiness 046 independent result review
+
+Closed 2026-10-11 00:36 UTC. **Accept this single observed guest startup and diagnostic delivery only. Cause of045 remains UNKNOWN; full mission, general dependable readiness and full Gate1 remain unqualified.** No production fix, retry or mission replay occurred.
+
+The unchanged036 diagnostic exited0 in34.485 seconds inclusive (root00:33:53.972→00:34:28.456 UTC), with all411 protected input rows unchanged. All eight result-seal rows,3,337,901 bytes, independently match their recorded size/SHA. Status is `GUEST_READY_WITHOUT_PROBE_CAUSE_NOT_REPRODUCED`: no initial20-second failure was recorded and no ESC probe was performed.
+
+Guest observations initially had no owner, visualFrameClock−1, corners0 and an active loading overlay. Generation remained1. At30.678seconds from overall startup, two real owner diagnostics and eight fitted corners appeared while the overlay still remained. At31.714seconds the overlay cleared, input was playing/mounted, camera visualFrameClock18.1022 matched frameClock, fitAvailabletrue and corners8. This final sample qualified the unchanged predicate inside the declared guest observation window; the interval from first guest sample to readiness was18.609seconds. That is sampled timing, not a precise asset-load duration or guaranteed startup bound.
+
+Both owner records identify the actual preview SHA5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595, quad idle, without missing bones/clips, fallback or firstFailure. Recorded GLB requests returned200 on both pages; no page/request failures were recorded. The captured latest native snapshot counts are493host/287guest. These are diagnosis-only latest states and counts, not an exact committed-publication comparison or complete mission history.
+
+I viewed both actual guest-initial and host-initial PNGs. Each page shows its complete third-person self and teammate; the guest also has a nearby container occupying the right edge. This qualifies visibility for these frames, not camera clearance everywhere or subsequent movement. No locomotion, firing, R, revival, objective channel or extraction was attempted. Instantaneous FPS and HTTP success do not explain why045 failed to register its guest visual within its bound. A welcome-generation mismatch, pause-based cure, GPU cause or dependable readiness fix has not been demonstrated.
+
+The process receipt reports normal completion without cleanup failure. A separate current cleanup inventory finds no matching owned child/headless Edge processes from this window, and server health is ok with rooms0/players0. This supports current retirement; it is not a historical proof of every process-tree event. The script's allSettled cleanup does not individually surface close rejections, as recorded in preflight.
+
+The original045 failure and denied mission result remain unchanged. This single non-reproduction permits no automatic next run or speculative runtime change. A future guest failure should retain actual current-generation root/owner readiness and guest pixels/resources; full required mission still needs its own successful ordinary outcome.
+
+Result seal SHA256 `562aa9baa01cedf1f1aa5233007274bbdccd4e3006ba343053f93cbb3f7be9ea`; source envelope `02e5837708df784fe53043e875a1e098825936288731e84817d7fff56d51f792`. Cleanup inventory is a separate readonly artifact, outside the original eight-row result seal; its exact hash is recorded in the closure. All implementation and reviewer heavy jobs are closed.

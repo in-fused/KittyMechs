@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root/critic",
+  "model": "gpt-6.1-sol",
+  "reviewedAt": "2026-10-04T17:57:20.893Z",
+  "fingerprint": "562892a32b9fbf09feaa8bd6a3e220fb6d665ee51ee95c43ef1b49c89cf67dfc",
+  "areas": {
+    "mechs": "APPROVE",
+    "maps": "APPROVE",
+    "enemyTactics": "APPROVE",
+    "integration": "APPROVE"
+  },
+  "report": "docs/critical-review.md",
+  "scope": "Bounded Bastion playable-art local release gate. Fresh public HTTPS/WSS and deployment byte verification remain required after publication.",
+  "baselineCommit": "cb2bd262c85e7d6f22ecaf5e1d3a1af7d2f406b3",
+  "coveredFiles": 314,
+  "evidence": ".sites-runtime/critic/bastion-art/final-file-audit.json"
+}

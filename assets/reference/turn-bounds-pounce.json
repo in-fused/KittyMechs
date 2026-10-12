@@ -1,0 +1,56 @@
+{
+  "name": "Pounce",
+  "scale": 0.8,
+  "turnStyle": {
+    "arc": 0.62,
+    "duty": 0.72,
+    "duration": 1,
+    "lift": 0.22,
+    "lead": 0.045,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.25,
+      "FR": 0.5,
+      "HL": 0.75
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.0959994792938232,
+      "coreRadius": 1.749292867439413,
+      "sideExtent": 1.0816258192062378,
+      "floor": 0.011999854817986488,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.504295955636394e-07,
+      "frames": 61,
+      "pawLift": {
+        "FL": 0.17501723766326907,
+        "FR": 0.17501747608184817,
+        "HL": 0.17501736879348756,
+        "HR": 0.1750173330307007
+      },
+      "stanceCancellationError": 4.821717361487552e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.0959994792938232,
+      "coreRadius": 1.749292867439413,
+      "sideExtent": 1.0816258192062378,
+      "floor": 0.011999836191534996,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.9884848552773637e-07,
+      "frames": 61,
+      "pawLift": {
+        "FL": 0.17501747608184817,
+        "FR": 0.17501718997955326,
+        "HL": 0.1750173330307007,
+        "HR": 0.17501739263534546
+      },
+      "stanceCancellationError": 4.821717361487552e-07
+    }
+  ]
+}

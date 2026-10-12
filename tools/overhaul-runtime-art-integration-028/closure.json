@@ -1,0 +1,124 @@
+{
+  "closedUTC": "2026-10-10T20:28:31.730798+00:00",
+  "status": "CLOSED_PARTIAL_FUNCTIONAL_PREVIEW_ACCEPTED",
+  "jobs": 0,
+  "writers": 0,
+  "scope": "Complete supported public sequence and unique jump receipt accepted; finished gait/contact/art/performance/Gate1 denied; runtime unchanged027",
+  "rows": [
+    {
+      "path": "tools/overhaul-runtime-art-player-024.mjs",
+      "bytes": 11199,
+      "sha256": "8f1618d8972489733e860e9c03f9fedc94ce25a491193feadc4c8162830d5a66"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-024/run-stage.py",
+      "bytes": 1687,
+      "sha256": "8637cf7bd54c6f7c97c01d930182d25c37da78658e25eebec87824983e420fc1"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-player-020.mjs",
+      "bytes": 11031,
+      "sha256": "3c329f2058f60e5114a2cdf85327935cef4c46737bad2896729a9cca8e7db119"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-020/capture-seal.json",
+      "bytes": 2621,
+      "sha256": "b31761057100ed996ffa901cd3864f16c57bf16e05731aee1505cd66fa5ad786"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-browser-audio.mjs",
+      "bytes": 3140,
+      "sha256": "7714a65f1f7d577f398d538da81e42c63a2c7d3f4d99f3c9625d7fe67b629397"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-027/receipt.json",
+      "bytes": 68778,
+      "sha256": "a3a26e7e83351390e9a37dcd8ba5bc76eb621c9df566d1e9a294ca851e363159"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-027/playable-checkpoint.json",
+      "bytes": 510,
+      "sha256": "06048f344247768c5e83e605dda70df2e2df432ffd2158ab37d1c55b27f3646d"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-player-028.mjs",
+      "bytes": 11987,
+      "sha256": "268c2ac9e5e890703d17165c5153fb73079c9bef0aa5b4b3f6f59fb2c07a6f80"
+    },
+    {
+      "path": "tools/overhaul-root-round-025/run-bounded.py",
+      "bytes": 3638,
+      "sha256": "0188752cffa20ae852cb72a195cc2c62f69ac991df752b0af3be70e4dbe60a78"
+    },
+    {
+      "path": "tools/overhaul-root-round-025/prepare-light-capture.py",
+      "bytes": 3505,
+      "sha256": "07d850b568990db98e774dfbe14e23b265a50b03571ce04b265f91194ac2b36f"
+    },
+    {
+      "path": "docs/overhaul/runtime-art-player-028-contract.md",
+      "bytes": 2435,
+      "sha256": "4e887498507f7ce23efde0b1df516068cdaf41208bb56541c31b41ef9e729447"
+    },
+    {
+      "path": "tools/overhaul-player-performance-026/result-seal.json",
+      "bytes": 888,
+      "sha256": "4e6d3bb24ca1880302d54bb89566b54e223bca47722e7159c5f7dad1f0a94e09"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-028/evidence.json",
+      "bytes": 3995060,
+      "sha256": "eda9365d1e51c06c3361accd7a4d54d100103fcf29630d1eccce3a43933baf72"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-028/page@5ee3e783537a3675e8499f8deda864af.webm",
+      "bytes": 5832353,
+      "sha256": "2776abadf887fade153eb594cb59ad5c705229cb27459428585c0aad449a5cfd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-028/progress.json",
+      "bytes": 3983318,
+      "sha256": "ceccfa7a0cb5b70a6f478ad3045d8b9bc9e12aa022ca3f9eb56dc6a1552c3c0c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-player-028-process/process-receipt.json",
+      "bytes": 1812,
+      "sha256": "eb7334b29b8069f8262fe98aa21e90de941e4e40d65e0d3dcc75345930279924"
+    },
+    {
+      "path": "docs/overhaul/critic/runtime-art-player-028-result-review.md",
+      "bytes": 3799,
+      "sha256": "38c0b458c16ab9fc516e946d830f5085f94a0fc5b96b17b0e2aa03816dda756e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-motion-028/detail-stdout.txt",
+      "bytes": 3360,
+      "sha256": "b878141108c6c6c5addddd8b4a5767fe38e08fbd551b6f13e9e8e1465a2ed72e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-motion-028/detail.png",
+      "bytes": 11413332,
+      "sha256": "9dca641e6c09dedfc9edc8e717078eab72409828a334a555b3f77844687a3d1a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-motion-028/full-stdout.txt",
+      "bytes": 3277,
+      "sha256": "d028191fbcf7753cf3cea15da15bbecd80fa408659181a011602cc2382402e08"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-motion-028/full.png",
+      "bytes": 10180487,
+      "sha256": "a0768a38b4c9dce1a4068230e389776244e3dadacc36055287259789a48df44c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/runtime-art-motion-028/receipt.json",
+      "bytes": 2276,
+      "sha256": "cd71f510fc9e5f3523538f50185652c6fb10f2145554de12a584a8346e0d706e"
+    }
+  ]
+}

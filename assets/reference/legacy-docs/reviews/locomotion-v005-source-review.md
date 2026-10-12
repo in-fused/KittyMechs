@@ -1,0 +1,9 @@
+# Locomotion v005 source review
+
+Reviewed `Tools/Blender/prepare_locomotion_v005.py` and the prepared single-Pounce invocation without running Blender. After the requested rigid-weight and group-name fingerprint corrections, the script is suitable for one bounded offline experiment. This is source acceptance only; no new animation has been evaluated or approved.
+
+The script refuses existing output revisions and linked output ancestors, pins Blender4.5.14, verifies canonical source metadata, hashes all canonical model files before/after, and exports only to a new revision. Each FBX uses its explicit active action with all-action/NLA export disabled. Failure remains rejected even if an earlier clip produced a partial FBX. The external660-second limit is required in addition to the cooperative600-second checks because native evaluation/export may block.
+
+The contact checks use evaluated LOD0 vertices mapped from authored sole geometry, not bone-box proxies. At240Hz they test the60Hz interpolated poses, stance height/drift, sole penetration, rest-length preservation and endpoint loop matrices. Rigid weighting now rejects multiple meaningful assignments, invalid weights and nonunit totals; the topology signature includes group index/name mapping. Canonical rest-bone, mesh and gameplay-speed changes are not part of the experiment.
+
+The20cm pelvis compression and45/35cm swing lifts remain hypotheses. The generous adjacent-joint allowance and surface/containment checks are not complete volume certification. A passing report requires independent articulated visual review, explicit clip identity and Unreal roundtrip evidence before any preview integration. Forward-only clips do not cover reverse/strafe, acceleration, airborne, combat or downed poses and cannot authorize default art activation.

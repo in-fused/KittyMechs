@@ -1,0 +1,102 @@
+{
+  "writer": "CLOSED",
+  "scope": "EXACT_RETAINED13596_COMPILED_GEOMETRY_NO_NATIVE_PUBLIC_PLAY",
+  "input": ".sites-runtime/overhaul-20261010/coop159-public/evidence.json",
+  "inputSha256": "2114624a3d5c1124a0c3a612985fa505165e9f1733aae89f0def784a7b2bc6c8",
+  "result": {
+    "status": "INFEASIBLE_AT_SAVED_READ",
+    "path": null,
+    "readTick": 13596,
+    "publication": {
+      "roomEpoch": "91cad716-b697-4db7-9492-208960eba352",
+      "sequence": 2634,
+      "kind": "broadcast"
+    },
+    "currentOrigin": {
+      "x": 9.601667480301764,
+      "y": 0.9400999943008356,
+      "z": -31.6505889712242
+    },
+    "nominal": {
+      "x": 9.139669506449364,
+      "z": -32.041077950895726
+    },
+    "next": {
+      "x": 13.888239500914827,
+      "z": -32.654855369726235
+    },
+    "arrival": 1.1,
+    "margin": 1.1,
+    "nativeHull": 1.75,
+    "arrivalError": 0.6049163339575426,
+    "arrivalAccepted": true,
+    "currentClear": false,
+    "currentBlocker": {
+      "kind": "STATIC_BLOCK",
+      "owner": "7734:overhaul:street001:population030:relay-east:0:solid",
+      "position": [
+        10,
+        0.6864999961853028,
+        -28.578000029921533
+      ],
+      "halfExtents": [
+        0.824999988079071,
+        0.7664999961853027,
+        0.572000041604042
+      ],
+      "yaw": 0,
+      "point": {
+        "x": 9.601667480301764,
+        "y": 0.9400999943008356,
+        "z": -31.6505889712242
+      },
+      "clearance": 2.85
+    },
+    "nominalClear": true,
+    "nominalBlocker": null,
+    "nominalSegmentClear": true,
+    "nominalSegmentBlocker": null,
+    "actualSegmentClear": false,
+    "actualSegmentBlocker": {
+      "kind": "STATIC_BLOCK",
+      "owner": "7734:overhaul:street001:population030:relay-east:0:solid",
+      "position": [
+        10,
+        0.6864999961853028,
+        -28.578000029921533
+      ],
+      "halfExtents": [
+        0.824999988079071,
+        0.7664999961853027,
+        0.572000041604042
+      ],
+      "yaw": 0,
+      "point": {
+        "x": 10.077953260369881,
+        "z": -31.762174126613314
+      },
+      "clearance": 2.85
+    },
+    "endpoint": {
+      "owner": "7734:overhaul:street001:population030:relay-east:0:solid",
+      "point": {
+        "x": 9.139669506449364,
+        "z": -32.041077950895726
+      },
+      "clearance": 2.85,
+      "arrival": 1.1,
+      "edgeDistance": 0.04107787937014962,
+      "entireDiskOutsideThisOwner": false,
+      "witness": {
+        "x": 9.139669506449364,
+        "z": -32.00000007152558
+      }
+    },
+    "contract": "No public keys unless current full2.85-clear origin AND complete1.1 arrival region/next corridor certified. Never use margin0 escape."
+  },
+  "independent": {
+    "expandedSouth": -32.00000007152558,
+    "nominalEdgeGap": 0.04107787937014962,
+    "actualEnvelopePenetration": 0.3494111003013778
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "tsxTransform": "PASS",
+  "exact211TokensApartFromDeclaredPreloadScheduling": "PASS_AFTER_EOL_ONLY_NORMALIZATION",
+  "installedIndividualLoaderCacheKeyEquality": "PASS_PRIMARY_SOURCE",
+  "missingOptionalProofRejected": "PASS",
+  "candidateChanged": false,
+  "initialFailedCheckPreserved": true,
+  "buildRun": false,
+  "captureRun": false,
+  "KHRAvailability": "UNQUALIFIED",
+  "operands": {
+    "parentRawSHA256": "cff3d4a635448e9430e006d14c7fd9eca8ec07da2e219a00f3a8a24c6615617f",
+    "candidateRawSHA256": "451230681f32e70bc32de7356c7d232b406b955d3908322f9e4363fd86d5a561",
+    "parentDoubleCRLF": 118,
+    "candidateDoubleCRLF": 0,
+    "parentNormalizedSHA256": "22f5a93a74613f8842222b5bba29e44c680a3db9a4979a737d4073d2fb3ba0fc",
+    "undoNormalizedSHA256": "22f5a93a74613f8842222b5bba29e44c680a3db9a4979a737d4073d2fb3ba0fc",
+    "scope": "Only CR/LF representation normalized; all other source tokens and unchanged blank-line count retained."
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "schema": 3,
+  "status": "BOUNDED_V3_CANDIDATE",
+  "sourceSha256": "54e4947fa7a8418b7da4a9532270b7304876defdc24874a433d71765af949eb0",
+  "masterUnchanged": true,
+  "rootMotion": false,
+  "clips": {
+    "FelinePairImpactAttacker": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairImpactVictim": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairPinAttacker": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelinePairPinVictim": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelinePairClawAttacker": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairClawVictim": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairReleaseAttacker": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairReleaseVictim": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairEscapeAttacker": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairEscapeVictim": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairImpactAttacker": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairImpactVictim": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairPinAttacker": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelineUprightPairPinVictim": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelineUprightPairClawAttacker": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairClawVictim": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairReleaseAttacker": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairReleaseVictim": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairEscapeAttacker": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelineUprightPairEscapeVictim": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairImpactAttackerScout": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairImpactVictimScout": {
+      "durationRequested": 0.28,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairPinAttackerScout": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelinePairPinVictimScout": {
+      "durationRequested": 0.8,
+      "rootMotion": false,
+      "loop": true
+    },
+    "FelinePairClawAttackerScout": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairClawVictimScout": {
+      "durationRequested": 0.24,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairReleaseAttackerScout": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairReleaseVictimScout": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairEscapeAttackerScout": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    },
+    "FelinePairEscapeVictimScout": {
+      "durationRequested": 0.35,
+      "rootMotion": false,
+      "loop": false
+    }
+  },
+  "kinematics": {
+    "FelinePairImpactAttacker": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 3.394837563064357e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairImpactVictim": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 1.976068841003098e-07,
+      "maxReachRatio": 0.8723108802619841,
+      "supportPawSlipWorldMeters": 2.1851423716334533e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairPinAttacker": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 2.626444951303597e-07,
+      "maxReachRatio": 0.7396905800721528,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairPinVictim": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 1.4603511040434116e-07,
+      "maxReachRatio": 0.7768030233950168,
+      "supportPawSlipWorldMeters": 1.2839233415447482e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairClawAttacker": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 3.76074632679746e-07,
+      "maxReachRatio": 0.7396905800721528,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairClawVictim": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 2.821922113760422e-07,
+      "maxReachRatio": 0.7948095739488237,
+      "supportPawSlipWorldMeters": 1.2839233415447482e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairReleaseAttacker": {
+      "floorWorldMeters": 0.02757897973060608,
+      "maxLimbLengthErrorWorld": 3.45238436150197e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.5078914929239178e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairReleaseVictim": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 2.321140361694063e-07,
+      "maxReachRatio": 0.8723108802619841,
+      "supportPawSlipWorldMeters": 2.0230487285229135e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairEscapeAttacker": {
+      "floorWorldMeters": 0.02757897973060608,
+      "maxLimbLengthErrorWorld": 3.4584426318318155e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.5078914929239178e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairEscapeVictim": {
+      "floorWorldMeters": 0.027578920125961304,
+      "maxLimbLengthErrorWorld": 2.711251783971136e-07,
+      "maxReachRatio": 0.9218997169691922,
+      "supportPawSlipWorldMeters": 2.1457672119140626e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairImpactAttacker": {
+      "floorWorldMeters": 0.027579084038734436,
+      "maxLimbLengthErrorWorld": 5.37418685553348e-07,
+      "maxReachRatio": 0.998856163383056,
+      "supportPawSlipWorldMeters": 1.5078914929239178e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairImpactVictim": {
+      "floorWorldMeters": 0.027579081058502198,
+      "maxLimbLengthErrorWorld": 5.014646485612673e-07,
+      "maxReachRatio": 0.83970344779038,
+      "supportPawSlipWorldMeters": 2.0230487285229135e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairPinAttacker": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 1.972223215851443e-07,
+      "maxReachRatio": 0.9988561414212815,
+      "supportPawSlipWorldMeters": 7.633118912497579e-08,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairPinVictim": {
+      "floorWorldMeters": 0.027579188346862793,
+      "maxLimbLengthErrorWorld": 2.3293999671381018e-07,
+      "maxReachRatio": 0.7368463887926108,
+      "supportPawSlipWorldMeters": 1.1920928955078125e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairClawAttacker": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 4.839903622766429e-07,
+      "maxReachRatio": 0.9988563854409731,
+      "supportPawSlipWorldMeters": 7.633118912497579e-08,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairClawVictim": {
+      "floorWorldMeters": 0.027579188346862793,
+      "maxLimbLengthErrorWorld": 3.5432493907805454e-07,
+      "maxReachRatio": 0.7368463887926108,
+      "supportPawSlipWorldMeters": 1.1920928955078125e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairReleaseAttacker": {
+      "floorWorldMeters": 0.02757907807826996,
+      "maxLimbLengthErrorWorld": 6.200722565630202e-07,
+      "maxReachRatio": 0.9988561414212815,
+      "supportPawSlipWorldMeters": 1.6214216361922556e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairReleaseVictim": {
+      "floorWorldMeters": 0.027578991651535035,
+      "maxLimbLengthErrorWorld": 4.899080349396456e-07,
+      "maxReachRatio": 0.83970344779038,
+      "supportPawSlipWorldMeters": 1.998311831264521e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairEscapeAttacker": {
+      "floorWorldMeters": 0.02757907807826996,
+      "maxLimbLengthErrorWorld": 6.583571002138911e-07,
+      "maxReachRatio": 0.9988561414212815,
+      "supportPawSlipWorldMeters": 1.6214216361922556e-07,
+      "rootTranslationSource": 0
+    },
+    "FelineUprightPairEscapeVictim": {
+      "floorWorldMeters": 0.027578991651535035,
+      "maxLimbLengthErrorWorld": 4.386035910464159e-07,
+      "maxReachRatio": 0.83970344779038,
+      "supportPawSlipWorldMeters": 1.998311831264521e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairImpactAttackerScout": {
+      "floorWorldMeters": 0.02757905125617981,
+      "maxLimbLengthErrorWorld": 3.75950661979374e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairImpactVictimScout": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 1.976068841003098e-07,
+      "maxReachRatio": 0.8723108802619841,
+      "supportPawSlipWorldMeters": 2.1851423716334533e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairPinAttackerScout": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 3.75950661979374e-07,
+      "maxReachRatio": 0.7396905800721528,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairPinVictimScout": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 1.4603511040434116e-07,
+      "maxReachRatio": 0.7768030233950168,
+      "supportPawSlipWorldMeters": 1.2839233415447482e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairClawAttackerScout": {
+      "floorWorldMeters": 0.027579209208488466,
+      "maxLimbLengthErrorWorld": 3.9063617043311186e-07,
+      "maxReachRatio": 0.7396905800721528,
+      "supportPawSlipWorldMeters": 1.0662402999400091e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairClawVictimScout": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 2.821922113760422e-07,
+      "maxReachRatio": 0.7948095739488237,
+      "supportPawSlipWorldMeters": 1.2839233415447482e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairReleaseAttackerScout": {
+      "floorWorldMeters": 0.02757897973060608,
+      "maxLimbLengthErrorWorld": 4.334642244252507e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.5078914929239178e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairReleaseVictimScout": {
+      "floorWorldMeters": 0.02757895588874817,
+      "maxLimbLengthErrorWorld": 2.321140361694063e-07,
+      "maxReachRatio": 0.8723108802619841,
+      "supportPawSlipWorldMeters": 2.0230487285229135e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairEscapeAttackerScout": {
+      "floorWorldMeters": 0.02757897973060608,
+      "maxLimbLengthErrorWorld": 3.75950661979374e-07,
+      "maxReachRatio": 0.872311081443943,
+      "supportPawSlipWorldMeters": 1.5078914929239178e-07,
+      "rootTranslationSource": 0
+    },
+    "FelinePairEscapeVictimScout": {
+      "floorWorldMeters": 0.027578920125961304,
+      "maxLimbLengthErrorWorld": 2.711251783971136e-07,
+      "maxReachRatio": 0.9218997169691922,
+      "supportPawSlipWorldMeters": 2.1457672119140626e-07,
+      "rootTranslationSource": 0
+    }
+  },
+  "capabilityMatrix": [
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "player",
+      "victimRole": null,
+      "victimChassis": "pounce",
+      "victimStance": "quadruped",
+      "victimScale": 0.8,
+      "rootSeparation": 3.5,
+      "supported": true,
+      "selectedClawGaps": [
+        2.4027400513659813e-07,
+        6.664001972467304e-08
+      ],
+      "targetsSource": {
+        "FL": [
+          -0.6296308636665344,
+          -2.4370410442352295,
+          1.0694290399551392
+        ],
+        "FR": [
+          0.6114698052406311,
+          -2.3764078617095947,
+          1.3295412063598633
+        ]
+      },
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttacker",
+          "victim": "FelinePairImpactVictim"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttacker",
+          "victim": "FelinePairPinVictim"
+        },
+        "claw": {
+          "attacker": "FelinePairClawAttacker",
+          "victim": "FelinePairClawVictim"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttacker",
+          "victim": "FelinePairReleaseVictim"
+        },
+        "escape": {
+          "attacker": "FelinePairEscapeAttacker",
+          "victim": "FelinePairEscapeVictim"
+        }
+      },
+      "status": "SOURCE_QUALIFIED_PENDING_ORDINARY_GAMEPLAY_REVIEW"
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "upright",
+      "victimKind": "player",
+      "victimRole": null,
+      "victimChassis": "pounce",
+      "victimStance": "upright",
+      "victimScale": 0.8,
+      "rootSeparation": 3.5,
+      "supported": true,
+      "selectedClawGaps": [
+        0.016848348081111908,
+        2.384185791015625e-07
+      ],
+      "targetsSource": {
+        "FL": [
+          -0.6444971561431885,
+          -2.6964094638824463,
+          2.1999924182891846
+        ],
+        "FR": [
+          0.5737513899803162,
+          -2.712599039077759,
+          2.418363332748413
+        ]
+      },
+      "clips": {
+        "impact": {
+          "attacker": "FelineUprightPairImpactAttacker",
+          "victim": "FelineUprightPairImpactVictim"
+        },
+        "pin": {
+          "attacker": "FelineUprightPairPinAttacker",
+          "victim": "FelineUprightPairPinVictim"
+        },
+        "claw": {
+          "attacker": "FelineUprightPairClawAttacker",
+          "victim": "FelineUprightPairClawVictim"
+        },
+        "release": {
+          "attacker": "FelineUprightPairReleaseAttacker",
+          "victim": "FelineUprightPairReleaseVictim"
+        },
+        "escape": {
+          "attacker": "FelineUprightPairEscapeAttacker",
+          "victim": "FelineUprightPairEscapeVictim"
+        }
+      },
+      "status": "SOURCE_QUALIFIED_PENDING_ORDINARY_GAMEPLAY_REVIEW"
+    },
+    {
+      "attackerChassis": "pounce",
+      "attackerStance": "quadruped",
+      "victimKind": "bot",
+      "victimRole": "scout",
+      "victimChassis": null,
+      "victimStance": "quadruped",
+      "victimScale": 0.65,
+      "rootSeparation": 3.2,
+      "supported": true,
+      "selectedClawGaps": [
+        2.9802322387695312e-08,
+        8.429369557916289e-08
+      ],
+      "targetsSource": {
+        "FL": [
+          -0.6511862874031067,
+          -2.3990864753723145,
+          1.21662175655365
+        ],
+        "FR": [
+          0.7061665654182434,
+          -2.39996600151062,
+          1.2350568771362305
+        ]
+      },
+      "clips": {
+        "impact": {
+          "attacker": "FelinePairImpactAttackerScout",
+          "victim": "FelinePairImpactVictimScout"
+        },
+        "pin": {
+          "attacker": "FelinePairPinAttackerScout",
+          "victim": "FelinePairPinVictimScout"
+        },
+        "claw": {
+          "attacker": "FelinePairClawAttackerScout",
+          "victim": "FelinePairClawVictimScout"
+        },
+        "release": {
+          "attacker": "FelinePairReleaseAttackerScout",
+          "victim": "FelinePairReleaseVictimScout"
+        },
+        "escape": {
+          "attacker": "FelinePairEscapeAttackerScout",
+          "victim": "FelinePairEscapeVictimScout"
+        }
+      },
+      "status": "SOURCE_QUALIFIED_PENDING_ORDINARY_GAMEPLAY_REVIEW"
+    }
+  ],
+  "unsupportedCombinationPolicy": "Only explicitly source-qualified cells are admissible. Actual Scout quadruped is audited; Scout upright, Mortar, Anchor and mixed player stances are unsupported and remain plain strikes.",
+  "design": "Fixed-root shoulder restraint/front-knee yield, not a full body-over-body ground tackle.",
+  "exportValidation": {
+    "passed": true,
+    "errors": [],
+    "bytes": 1249484,
+    "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+    "triangles": 29674,
+    "primitives": 8,
+    "weightError": 0,
+    "clips": {
+      "FelineAir": 1.0166666507720947,
+      "FelineClimb": 0.8999999761581421,
+      "FelineCling": 1.5,
+      "FelineCombatBase": 0.10000000149011612,
+      "FelineDeath": 1.0499999523162842,
+      "FelineGallop": 0.5166666507720947,
+      "FelineHit": 0.3333333432674408,
+      "FelineIdle": 2.0166666507720947,
+      "FelineLandingRecovery": 0.6000000238418579,
+      "FelineMantle": 0.8999999761581421,
+      "FelineMissile": 0.4333333373069763,
+      "FelinePairClawAttacker": 0.23333333432674408,
+      "FelinePairClawAttackerScout": 0.23333333432674408,
+      "FelinePairClawVictim": 0.23333333432674408,
+      "FelinePairClawVictimScout": 0.23333333432674408,
+      "FelinePairEscapeAttacker": 0.3499999940395355,
+      "FelinePairEscapeAttackerScout": 0.3499999940395355,
+      "FelinePairEscapeVictim": 0.3499999940395355,
+      "FelinePairEscapeVictimScout": 0.3499999940395355,
+      "FelinePairImpactAttacker": 0.2800000011920929,
+      "FelinePairImpactAttackerScout": 0.2800000011920929,
+      "FelinePairImpactVictim": 0.2800000011920929,
+      "FelinePairImpactVictimScout": 0.2800000011920929,
+      "FelinePairPinAttacker": 0.800000011920929,
+      "FelinePairPinAttackerScout": 0.800000011920929,
+      "FelinePairPinVictim": 0.800000011920929,
+      "FelinePairPinVictimScout": 0.800000011920929,
+      "FelinePairReleaseAttacker": 0.3499999940395355,
+      "FelinePairReleaseAttackerScout": 0.3499999940395355,
+      "FelinePairReleaseVictim": 0.3499999940395355,
+      "FelinePairReleaseVictimScout": 0.3499999940395355,
+      "FelinePulse": 0.21666666865348816,
+      "FelineRearLaunch": 0.8999999761581421,
+      "FelineTrot": 0.699999988079071,
+      "FelineTurnLeft": 1,
+      "FelineTurnRight": 1,
+      "FelineUprightAir": 1,
+      "FelineUprightCombatBase": 0.10000000149011612,
+      "FelineUprightDeath": 1.0499999523162842,
+      "FelineUprightHit": 0.3333333432674408,
+      "FelineUprightIdle": 2,
+      "FelineUprightMissile": 0.4333333373069763,
+      "FelineUprightPairClawAttacker": 0.23333333432674408,
+      "FelineUprightPairClawVictim": 0.23333333432674408,
+      "FelineUprightPairEscapeAttacker": 0.3499999940395355,
+      "FelineUprightPairEscapeVictim": 0.3499999940395355,
+      "FelineUprightPairImpactAttacker": 0.2800000011920929,
+      "FelineUprightPairImpactVictim": 0.2800000011920929,
+      "FelineUprightPairPinAttacker": 0.800000011920929,
+      "FelineUprightPairPinVictim": 0.800000011920929,
+      "FelineUprightPairReleaseAttacker": 0.3499999940395355,
+      "FelineUprightPairReleaseVictim": 0.3499999940395355,
+      "FelineUprightPulse": 0.21666666865348816,
+      "FelineUprightStride": 0.8999999761581421,
+      "FelineUprightTurnLeft": 1.100000023841858,
+      "FelineUprightTurnRight": 1.100000023841858,
+      "FelineUprightWalkLong": 1.2000000476837158,
+      "FelineWalk": 1.1666666269302368,
+      "PounceTackleAttacker": 1.5,
+      "PounceTackleVictim": 1.5,
+      "FelineTransformDown": 1,
+      "FelineTransformUp": 1
+    },
+    "joints": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "sourceTransformNameAliases": {
+      "PounceTransformUp": "FelineTransformUp",
+      "PounceTransformDown": "FelineTransformDown"
+    }
+  },
+  "actualExportClipDurations": {
+    "FelineAir": 1.0166666507720947,
+    "FelineClimb": 0.8999999761581421,
+    "FelineCling": 1.5,
+    "FelineCombatBase": 0.10000000149011612,
+    "FelineDeath": 1.0499999523162842,
+    "FelineGallop": 0.5166666507720947,
+    "FelineHit": 0.3333333432674408,
+    "FelineIdle": 2.0166666507720947,
+    "FelineLandingRecovery": 0.6000000238418579,
+    "FelineMantle": 0.8999999761581421,
+    "FelineMissile": 0.4333333373069763,
+    "FelinePairClawAttacker": 0.23333333432674408,
+    "FelinePairClawAttackerScout": 0.23333333432674408,
+    "FelinePairClawVictim": 0.23333333432674408,
+    "FelinePairClawVictimScout": 0.23333333432674408,
+    "FelinePairEscapeAttacker": 0.3499999940395355,
+    "FelinePairEscapeAttackerScout": 0.3499999940395355,
+    "FelinePairEscapeVictim": 0.3499999940395355,
+    "FelinePairEscapeVictimScout": 0.3499999940395355,
+    "FelinePairImpactAttacker": 0.2800000011920929,
+    "FelinePairImpactAttackerScout": 0.2800000011920929,
+    "FelinePairImpactVictim": 0.2800000011920929,
+    "FelinePairImpactVictimScout": 0.2800000011920929,
+    "FelinePairPinAttacker": 0.800000011920929,
+    "FelinePairPinAttackerScout": 0.800000011920929,
+    "FelinePairPinVictim": 0.800000011920929,
+    "FelinePairPinVictimScout": 0.800000011920929,
+    "FelinePairReleaseAttacker": 0.3499999940395355,
+    "FelinePairReleaseAttackerScout": 0.3499999940395355,
+    "FelinePairReleaseVictim": 0.3499999940395355,
+    "FelinePairReleaseVictimScout": 0.3499999940395355,
+    "FelinePulse": 0.21666666865348816,
+    "FelineRearLaunch": 0.8999999761581421,
+    "FelineTrot": 0.699999988079071,
+    "FelineTurnLeft": 1,
+    "FelineTurnRight": 1,
+    "FelineUprightAir": 1,
+    "FelineUprightCombatBase": 0.10000000149011612,
+    "FelineUprightDeath": 1.0499999523162842,
+    "FelineUprightHit": 0.3333333432674408,
+    "FelineUprightIdle": 2,
+    "FelineUprightMissile": 0.4333333373069763,
+    "FelineUprightPairClawAttacker": 0.23333333432674408,
+    "FelineUprightPairClawVictim": 0.23333333432674408,
+    "FelineUprightPairEscapeAttacker": 0.3499999940395355,
+    "FelineUprightPairEscapeVictim": 0.3499999940395355,
+    "FelineUprightPairImpactAttacker": 0.2800000011920929,
+    "FelineUprightPairImpactVictim": 0.2800000011920929,
+    "FelineUprightPairPinAttacker": 0.800000011920929,
+    "FelineUprightPairPinVictim": 0.800000011920929,
+    "FelineUprightPairReleaseAttacker": 0.3499999940395355,
+    "FelineUprightPairReleaseVictim": 0.3499999940395355,
+    "FelineUprightPulse": 0.21666666865348816,
+    "FelineUprightStride": 0.8999999761581421,
+    "FelineUprightTurnLeft": 1.100000023841858,
+    "FelineUprightTurnRight": 1.100000023841858,
+    "FelineUprightWalkLong": 1.2000000476837158,
+    "FelineWalk": 1.1666666269302368,
+    "PounceTackleAttacker": 1.5,
+    "PounceTackleVictim": 1.5,
+    "FelineTransformDown": 1,
+    "FelineTransformUp": 1
+  },
+  "retainedSourceAudit": {
+    "type": "READ_ONLY_SOURCE_AND_ACTUAL_SCOUT_AUDIT",
+    "actualScout": {
+      "FelinePairClawVictimScout": {
+        "floorWorldMeters": 0.009749916847795248,
+        "supportPawSlipWorldMeters": 2.3566458491646306e-07,
+        "maxLimbLengthErrorWorld": 2.7265742943427543e-07,
+        "runtimeScale": 0.65,
+        "source": "assets/source/feline-web/Sentinel_Scout.blend"
+      },
+      "FelinePairEscapeVictimScout": {
+        "floorWorldMeters": 0.009749917453154922,
+        "supportPawSlipWorldMeters": 2.6348101588124154e-07,
+        "maxLimbLengthErrorWorld": 2.7265742943427543e-07,
+        "runtimeScale": 0.65,
+        "source": "assets/source/feline-web/Sentinel_Scout.blend"
+      },
+      "FelinePairImpactVictimScout": {
+        "floorWorldMeters": 0.00974993803538382,
+        "supportPawSlipWorldMeters": 2.6276794010588077e-07,
+        "maxLimbLengthErrorWorld": 2.7265742943427543e-07,
+        "runtimeScale": 0.65,
+        "source": "assets/source/feline-web/Sentinel_Scout.blend"
+      },
+      "FelinePairPinVictimScout": {
+        "floorWorldMeters": 0.009749964065849782,
+        "supportPawSlipWorldMeters": 1.3560056686401367e-07,
+        "maxLimbLengthErrorWorld": 2.7265742943427543e-07,
+        "runtimeScale": 0.65,
+        "source": "assets/source/feline-web/Sentinel_Scout.blend"
+      },
+      "FelinePairReleaseVictimScout": {
+        "floorWorldMeters": 0.009749964065849782,
+        "supportPawSlipWorldMeters": 2.8486659408820516e-07,
+        "maxLimbLengthErrorWorld": 2.8156163203174603e-07,
+        "runtimeScale": 0.65,
+        "source": "assets/source/feline-web/Sentinel_Scout.blend"
+      }
+    },
+    "bindErrors": {
+      "root": 0.0,
+      "pelvis": 0.0,
+      "spine": 0.0,
+      "chest": 0.0,
+      "head": 0.0,
+      "weapon_L": 0.0,
+      "weapon_R": 0.0,
+      "FL_upper": 0.0,
+      "FL_lower": 0.0,
+      "FL_paw": 0.0,
+      "FR_upper": 0.0,
+      "FR_lower": 0.0,
+      "FR_paw": 0.0,
+      "launcher": 0.0,
+      "tail_0": 0.0,
+      "tail_1": 0.0,
+      "tail_2": 0.0,
+      "tail_3": 0.0,
+      "tail_4": 0.0,
+      "HL_upper": 0.0,
+      "HL_lower": 0.0,
+      "HL_paw": 0.0,
+      "HR_upper": 0.0,
+      "HR_lower": 0.0,
+      "HR_paw": 0.0
+    },
+    "humanClawRetainingContact": {
+      "FelinePair": {
+        "minGapWorld": 2.4027400513659813e-07,
+        "maxGapWorld": 0.03579556941986084,
+        "samples": [
+          2.4027400513659813e-07,
+          0.002006381982937455,
+          0.007500441744923592,
+          0.015104533173143864,
+          0.02307502180337906,
+          0.029828209429979324,
+          0.03426138311624527,
+          0.03579556941986084,
+          0.03426138311624527,
+          0.029828209429979324,
+          0.02307502180337906,
+          0.015104533173143864,
+          0.007500441744923592,
+          0.002006381982937455,
+          2.4027400513659813e-07
+        ]
+      },
+      "FelineUprightPair": {
+        "minGapWorld": 0.01287791132926941,
+        "maxGapWorld": 0.016848348081111908,
+        "samples": [
+          0.016848348081111908,
+          0.016629409044981003,
+          0.016028406098484993,
+          0.01519272942095995,
+          0.014309347607195377,
+          0.013553322292864323,
+          0.01305248774588108,
+          0.01287791132926941,
+          0.01305248774588108,
+          0.013553322292864323,
+          0.014309347607195377,
+          0.01519272942095995,
+          0.016028406098484993,
+          0.016629409044981003,
+          0.016848348081111908
+        ]
+      }
+    },
+    "passedActualScout": true
+  }
+}

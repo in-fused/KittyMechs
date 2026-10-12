@@ -1,0 +1,36 @@
+{
+  "sealedUTC": "2026-10-10T21:03:24.7792480Z",
+  "files": [
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/closure.json",
+      "sha256": "f5ccac25aa3eae614e31368ae58296f053d3d1f0278344f0cc903b01bb58a1ed",
+      "bytes": 25646
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-seal.json",
+      "sha256": "fd98c5b0d7835bebb0f4e785edafb7b62d135a57355d3703361db6939abedfd0",
+      "bytes": 2830
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/full-result-seal.json",
+      "sha256": "1d244dcf7ea063f4d06d9341620d97d3977cd59471d56875eaf57f733192263f",
+      "bytes": 7037
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/diagnostic-result-seal.json",
+      "sha256": "19318352da83383d66c604dd4d66d39fe6d78ce2579df1e34bdc41231d8e9a66",
+      "bytes": 785
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-paired-route-029-full-result-review.md",
+      "sha256": "32355608bbbc173ffc675297a60c85ab0f5cb9452984394e125a60d0c6048d8c",
+      "bytes": 4462
+    },
+    {
+      "path": "tools/overhaul-pounce-paired-route-029/critic-full-result-closure.json",
+      "sha256": "7d165f3236c491e841954ff2b174a51f9dcddd302ef5600fac192ef17020e732",
+      "bytes": 1043
+    }
+  ],
+  "status": "CLOSED"
+}

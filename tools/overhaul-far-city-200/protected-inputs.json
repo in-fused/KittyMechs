@@ -1,0 +1,535 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-far-city-198/source-seal.json",
+      "bytes": 4168,
+      "sha256": "3c5dd7b54a7266cc55d3fcb3661e60b885812a3578cf411c0480ef752946a818"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-198/author198.py",
+      "bytes": 16609,
+      "sha256": "e3006b4c38600d98135731df8b8058c3d568b81dc640057eac03cebced79e0b2"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-author198.py",
+      "bytes": 15768,
+      "sha256": "b3c1cf1f0ac6cfe83724a27a4c8dce97b1c76ae35c28a206f7c0e67b5360eefa"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-blender.crash.txt",
+      "bytes": 19830,
+      "sha256": "6e83f61a92a04a58750d323cc8257ab87b56a53ecc61426bf723b3921fe2a1d1"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-process-active.json",
+      "bytes": 364,
+      "sha256": "d3b6dbbc68d6ce97eeada1f9d810f13e9a5843a279045a932c9a57d60f0b46eb"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-process-receipt.json",
+      "bytes": 355,
+      "sha256": "bd2ab88f8e6f33cd09e527325b3200992574645be37b641826fe6c2aa2f009f3"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-run198.py",
+      "bytes": 1737,
+      "sha256": "4978eb3d3af616b59bac80d6f6b43a67542ddcdf19ccc76de5d549e502aa4ef1"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-stderr.txt",
+      "bytes": 107,
+      "sha256": "884f634675c1b96e3ed7157850e3c1e6453b096215b7ca195314d4bb9daa88da"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-stdout.txt",
+      "bytes": 127,
+      "sha256": "46c660fc138a2c5f7fdd946b8a6a4051f90b885dc2d3f70cc9f60cc8e42463e6"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/HANDOFF.md",
+      "bytes": 4144,
+      "sha256": "8d13271acc146be49a7332a1cf7463fd324b7a37bfe8249513fe33a8f94b69a6"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/inventory-final.json",
+      "bytes": 1173,
+      "sha256": "740685256df278a8d320851a0bfca878d363158d4a20bc2fb3f6e9c5e776229c"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/ownership-closed.json",
+      "bytes": 658,
+      "sha256": "4a68c52a970482fee27b4781d2a676ab7b4431b8554c14e7a1fbc609acbab087"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/process-active.json",
+      "bytes": 364,
+      "sha256": "d3b6dbbc68d6ce97eeada1f9d810f13e9a5843a279045a932c9a57d60f0b46eb"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/process-receipt.json",
+      "bytes": 355,
+      "sha256": "bd2ab88f8e6f33cd09e527325b3200992574645be37b641826fe6c2aa2f009f3"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/protected-inputs.json",
+      "bytes": 5629,
+      "sha256": "6609d3288e570de213807f7cf73fd381575f1037e95ee1a3fd6bbfef91f6c9d2"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-process-active.json",
+      "bytes": 364,
+      "sha256": "fa2a10777d73e3cf6469ab0d42a071cf8ae8c5e993cae22e896525fccee47e54"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-process-receipt.json",
+      "bytes": 355,
+      "sha256": "b7d00521f45a9195daccc4b6dc1602a93ab9a8896445e2a11ce4bb372117bdf6"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-stderr.txt",
+      "bytes": 512,
+      "sha256": "cbe015b50822af39270d20758e81ba5f5977b6beb9c63dcabd86ec08263cff36"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-stdout.txt",
+      "bytes": 5029,
+      "sha256": "28c65c1bf044e6b0c6fb6bbe055c2cb8670ed890f0894137e0b78887cee77906"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/run198-repair.py",
+      "bytes": 1784,
+      "sha256": "1a4cd141f8d0ad2b9bc2bc391fd239ca0d6f5f9baba7717708d259fabc7d8a67"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/run198.py",
+      "bytes": 1737,
+      "sha256": "4978eb3d3af616b59bac80d6f6b43a67542ddcdf19ccc76de5d549e502aa4ef1"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/stderr.txt",
+      "bytes": 107,
+      "sha256": "884f634675c1b96e3ed7157850e3c1e6453b096215b7ca195314d4bb9daa88da"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/stdout.txt",
+      "bytes": 127,
+      "sha256": "46c660fc138a2c5f7fdd946b8a6a4051f90b885dc2d3f70cc9f60cc8e42463e6"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/source-seal.json",
+      "bytes": 2498,
+      "sha256": "f8ae2830751ca0f2037991f3b0377042be5a39aa0a936cbdc53e364932a9b3a8"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-199/author199.py",
+      "bytes": 17312,
+      "sha256": "9b59e16648654e23e8e509666c2eba034057ae293172b20a1514de5b7bb7bf90"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-199/preview199.py",
+      "bytes": 3054,
+      "sha256": "bb3079e0209c463387074f40418cb9b3dcffa3652bcfc737fdd14e40e85a5b29"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/failure-operands-forensic.json",
+      "bytes": 4321,
+      "sha256": "ff6cb51e39908f99462870424a6d6bd0aa926af9e7784d41af1c359d2b802348"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/HANDOFF.md",
+      "bytes": 5152,
+      "sha256": "81cd78ce2e42c727422dc74e1ff0268edde626c34826251100c1d327037a10e1"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/initial-close-HANDOFF.md",
+      "bytes": 3697,
+      "sha256": "898ac7f449a636c36fbf8f7a03b4b021d1a2c30d9c3289f615741a25f2087222"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/initial-close-seal.json",
+      "bytes": 1917,
+      "sha256": "d372e686a79d4d3bfe0a5a3c21ed6fddac3d1154dc5348179eb27178cb659e53"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/ownership-closed.json",
+      "bytes": 651,
+      "sha256": "3d4654bb3d539c80c0352a5021ef67425fdf11cabf917da419aefb4952a6287f"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-active.json",
+      "bytes": 364,
+      "sha256": "ef36e917f053fdf7d9d0a493830fc592b923d521ec182a1d767738225e324f2d"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-receipt.json",
+      "bytes": 534,
+      "sha256": "434d78faadeae0bce04f38322610ef5e75e8fa58262b7c49d833c809ad1ba287"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/protected-inputs.json",
+      "bytes": 8693,
+      "sha256": "529b1b2e049c68ef73f36021eee4c0446fdd0993a63901e11b3d54e9f6ae5787"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/run199.py",
+      "bytes": 1749,
+      "sha256": "87d0165e7fabdc85220e73ea3718434503af3a7eb2a8da4c334a2ff4205e6933"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stderr.txt",
+      "bytes": 578,
+      "sha256": "61be56c675f74fa9977f78964bd3336c31d12e4f4c93c6e814bf6887c9f01228"
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stdout.txt",
+      "bytes": 5029,
+      "sha256": "ed22f5c4bb9b0461747614445e4ec0b196c48c5842529517a153aa02f3ad6b04"
+    },
+    {
+      "path": "tools/overhaul-far-city-198/source-seal.json",
+      "bytes": 4168,
+      "sha256": "3c5dd7b54a7266cc55d3fcb3661e60b885812a3578cf411c0480ef752946a818"
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/source-seal.json",
+      "bytes": 2323,
+      "sha256": "5b980185e8f49ae9162b991b64c5bd5adfba7be2744d1c3019ad8a9da1c1d492"
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/HANDOFF.md",
+      "bytes": 4150,
+      "sha256": "3816947838c5846e340d0f1022882bc3ab856a1de5af6b04d5ff2d78ab4fc92e"
+    },
+    {
+      "path": "tools/overhaul-render-181/source-seal.json",
+      "bytes": 3715,
+      "sha256": "d01bc144de367d20af4f65a70b3adc6135ceaf9d0dd28918f327e09920d463f1"
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.json",
+      "bytes": 978680,
+      "sha256": "c2a6299fa9e40b1f478d5cfb5c7fc78a5f1d3b694dfd340ba64722c9be37ea46"
+    },
+    {
+      "path": "tools/overhaul-render-181/identity-source181.ts",
+      "bytes": 3052,
+      "sha256": "2b931cbe7ac736e3729c3b98e4cb3228776206d2d9d5e5abab2d4a99de62791a"
+    },
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": "public/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "bytes": 2184328,
+      "sha256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "bytes": 257421,
+      "sha256": "d0e01656b4840b3dd999997fc7e8b5f62d9f560f2690d1ec38252965b41d7df1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    },
+    {
+      "path": "node_modules/three/src/objects/BatchedMesh.js",
+      "bytes": 47215,
+      "sha256": "b4d1675b3f56258d7d52715b82d42ec856a2380960ad79d9827203358183651b"
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/source-seal.json",
+      "bytes": 2721,
+      "sha256": "3205993a8c4cee421e2428910df2d7cd65a28c198c25943de2f82368fe042181"
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/HANDOFF.md",
+      "bytes": 4130,
+      "sha256": "29e7ac2ef8428a89939d0a8ef925a99110b0b9b4f3812cfd2026fe3859f4346f"
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/Rainline_Identity_v4.blend",
+      "bytes": 2684288,
+      "sha256": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf"
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/author.py",
+      "bytes": 11783,
+      "sha256": "626f841bed68728dab9c7f601d9a31faf3a66d45668d9fdeef5ceeabdad65817"
+    },
+    {
+      "path": "public/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    }
+  ],
+  "preimageChecks": [
+    {
+      "path": "assets/source/overhaul-far-city-198/author198.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-author198.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-blender.crash.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-process-active.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-process-receipt.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-run198.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-stderr.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/first-stdout.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/inventory-final.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/ownership-closed.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/process-active.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/process-receipt.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/protected-inputs.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-process-active.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-process-receipt.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-stderr.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/repair-stdout.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/run198-repair.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/run198.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/stderr.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/stdout.txt",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-far-city-199/author199.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-far-city-199/preview199.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/failure-operands-forensic.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/initial-close-HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/initial-close-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/ownership-closed.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-active.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/process-receipt.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/protected-inputs.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/run199.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stderr.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-199/stdout.txt",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-far-city-198/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/identity-source181.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "match": true
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "match": true
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "match": true
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "match": true
+    },
+    {
+      "path": "public/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "match": true
+    },
+    {
+      "path": "node_modules/three/src/objects/BatchedMesh.js",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/Rainline_Identity_v4.blend",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/author.py",
+      "match": true
+    },
+    {
+      "path": "public/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "match": true
+    }
+  ],
+  "allMatch": true
+}

@@ -1,0 +1,11 @@
+# Render136 actual visual review — CLOSED
+
+Verdict: RETAIN056 LIMITED background-order correction. No observed introduced visual loss warrants rollback to055. This does not qualify GPU savings, affected-human browser lag, locomotion, body-obstacle clearance, art, co-op or the full goal.
+
+Reviewed the actual saved chronological boards02–06 and full quad-forward and moving-R-down-reverse PNGs, with the retained135 quad-forward PNG as a nearby-view comparison. Cloud shape and color, gray horizon/fog, distant facades, overhead structure, opaque mech and street surfaces remain visible. Rain streaks and the landing-zone circle remain visible. The nearby forward views are visually consistent; these sequential captures are not pixel-aligned comparisons. Board06 contains only its final available panels; unused black panels are not a scene-render failure. No firing occurred in this route, so muzzle/combat effects were not publicly exercised.
+
+The actual observer completed 33.219 seconds under the90-second outer cap (31.600-second observation), with63 samples across16 phases, errors empty and cleanupFailure null. Native forward/reverse travel and both stance transitions were recorded; these support ordinary scene inspection, not a new gait verdict. Video SHA256 e7c7759dc26fcbf5687a8491120223423a3182d0c312616288b73a32f074b865 was preserved by the182-frame,6FPS derivative receipt. Frozen056 receipt:64e158e208f75d4829a40afdaf6e4de1285149b307d7653807e33391ef5bce20; only WeatherSky changed from055.
+
+The earlier three real-raster cases had zero differing RGBA channels, including a760m opaque object and a transparent overlay. Combined with this public scene evidence, that supports retaining the narrow background ordering/depth correction. Neither raster render-plus-gl.finish wall timings nor warmed screenshot FPS establish exclusive GPU time, net performance gain or resolution of the user's severe Lowest ON/OFF lag. Actual affected-client evidence remains missing.
+
+Existing bouncy/rapid stance presentation, broad upright forearms and near-container head occlusion remain unqualified. No wall/pair/mission/contact or general visual-clearance admission follows from this review. Full goal remains INCOMPLETE. Reviewer jobs:0; no game edits or additional captures. Writer CLOSED.

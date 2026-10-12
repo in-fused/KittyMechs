@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/evidence.json",
+      "bytes": 269176,
+      "sha256": "2d7999e3834acd5177111edd06d7a9ff1a755c322bae3796bb4a8510e0f8f8d0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/failure-guest.png",
+      "bytes": 645830,
+      "sha256": "544a6825a4e62a2a54ebc82833c7ca0e05b527fd633f7e6ad8e46a44dedfb3c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/failure.png",
+      "bytes": 1458027,
+      "sha256": "9a8df0fb52f55464d89a115a365016f8eddb4190987393070c589fd091a8173a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/native-keyframes.json",
+      "bytes": 866450,
+      "sha256": "de019cbd881fc4b737bf63b5f26e053c9ae7f66e5af1db1dd71a6d844629832a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/page@392d68944a360beb5b66805fd5347b59.webm",
+      "bytes": 623022,
+      "sha256": "51b82d92ef67d9e96e4b687cf2664c6f6843647f76d408265733363d60161d20"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/page@971ce9ebfe2f2cb9edd60e73998dc48f.webm",
+      "bytes": 4247807,
+      "sha256": "6c582544f82969de50f67a7c29e2158179383df0576c49ea0a2a99e7cd7bcb65"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/progress.json",
+      "bytes": 245,
+      "sha256": "f208662b67620c926a2dcd3cb5cad7116e2340a97b6e87a8f9b4764ee9f1a066"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-process/process-receipt.json",
+      "bytes": 61530,
+      "sha256": "871d0eef2a70e544ac48bb72dfcc223978cff27d9bef0e2840f0b780ad410d23"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-process/stdout.txt",
+      "bytes": 513,
+      "sha256": "8516b2349c4ffb92c4ae2fe28074899b5caf3afa6b85c2f6b35f227859eb53d5"
+    },
+    {
+      "path": "tools/overhaul-root-round-035/seal-results052.py",
+      "bytes": 991,
+      "sha256": "c252a3b108cb1e19ba3d56bfe229e72185fd5aa6dfd6536e74b86e148184893f"
+    }
+  ],
+  "scope": "Exact one bounded052/053 public outcome; not gameplay approval."
+}

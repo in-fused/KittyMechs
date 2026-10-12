@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "status": "ROUTE_AND_STAGING_CANDIDATE_PUBLIC_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-138/exposure-planner.mjs",
+      "bytes": 9395,
+      "sha256": "2eb17b52894fc361ab7d7dc1631f1b9a4e0d043cc201458d1a898118a8e7e4b5"
+    },
+    {
+      "path": "tools/overhaul-coop-138/geometry-first-receipt.json",
+      "bytes": 1956,
+      "sha256": "9d229943bb2bd5b78ccb0097de3bab1250517f0a803de024a22167ec23a3c0ae"
+    },
+    {
+      "path": "tools/overhaul-coop-138/geometry-receipt.json",
+      "bytes": 3251,
+      "sha256": "c61ec102f71e763ecfed3df9052b594139420ac7008f4e04bbb98300be5cdfd5"
+    },
+    {
+      "path": "tools/overhaul-coop-138/HANDOFF.md",
+      "bytes": 6161,
+      "sha256": "1a6350fdfe3792e402cfd15f4b67e89f1e0b9d17b50b9b0dea509114ed1da89a"
+    },
+    {
+      "path": "tools/overhaul-coop-138/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-138/mission-capture.mjs",
+      "bytes": 47518,
+      "sha256": "8b567915703a95d3014b36b041922f466430fbbc2605eccbfe43f39781829ab8"
+    },
+    {
+      "path": "tools/overhaul-coop-138/protected-inputs.json",
+      "bytes": 4585,
+      "sha256": "def03c173b666e535fbd981b32bdb397574bb7adbdf284b2b97e0fa94d9b9862"
+    },
+    {
+      "path": "tools/overhaul-coop-138/validate-geometry.mjs",
+      "bytes": 2286,
+      "sha256": "a5503c1e0e6a2e8e4cb9521838a603a4200c7254eedb1486a3c517d9f98476be"
+    }
+  ]
+}

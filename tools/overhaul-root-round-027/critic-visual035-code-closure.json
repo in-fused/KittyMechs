@@ -1,0 +1,16 @@
+{
+  "schema": "critic035-integration-code",
+  "startedUTC": "2026-10-10T21:19:17Z",
+  "closedUTC": "2026-10-10T21:20:39.5348284Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "APPROVE_ONE_BUILD_THEN_CONDITIONAL_ONE_MATCHED_PUBLIC_CAPTURE",
+  "review": "docs/overhaul/critic/pounce-art-player-035-integration-code-review.md",
+  "reviewSHA256": "3E0CCC9800C8B9EC1C172DECE70F0C6EAF9474E388C414DEC9DA3196CF6A343E",
+  "buildSealSHA256": "3D7992F5665CF9989C9260CDFDE91E87E5C28538EF66958EE0E6178175C53FE4",
+  "captureSealSHA256": "566749DFAD57EF35D94736F1926DED06B123C10E835FAD4297AEF93BEF13713C",
+  "rowsVerified": 22,
+  "mismatches": 0,
+  "buildInclusiveSeconds": 180,
+  "captureInclusiveSeconds": 120,
+  "artNativeContactGate1Accepted": false
+}

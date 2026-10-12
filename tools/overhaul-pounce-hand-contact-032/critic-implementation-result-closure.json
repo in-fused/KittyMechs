@@ -1,0 +1,18 @@
+{
+  "schema": "critic032-small-result",
+  "startedUTC": "2026-10-10T21:24:35Z",
+  "closedUTC": "2026-10-10T21:28:14.3611100Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "ACCEPT_FAILURE_PRESERVATION_ONE_PREPARED_POSE_ONLY_DENY_COMPLETE_HAND_CONTACT",
+  "review": "docs/overhaul/critic/pounce-hand-contact-032-implementation-result-review.md",
+  "reviewSHA256": "87FF5A643B4577B635DC33477188F714B30BAF1CF0C72EB4E95F5B31E1C14F2F",
+  "resultSealSHA256": "4E5FC3FBA57D61C280C70AB3E3391B1193A3FC730EEAB99071D60E32AB0B5292",
+  "resultRowsVerified": 17,
+  "mismatches": 0,
+  "acceptedSparseClocks": 1,
+  "ownerRowsRecomputed": 11,
+  "maximumMatrixComponentResidual": 7.541850209236145E-06,
+  "exactRejectedWeightTupleRecorded": false,
+  "sourceContactReleaseNativeArtGate1Accepted": false,
+  "additionalJobGranted": false
+}

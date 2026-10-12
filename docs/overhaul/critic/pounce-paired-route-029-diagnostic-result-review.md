@@ -1,0 +1,11 @@
+# Route029 exact-triangle actual result
+
+Independent HIGH result review started2026-10-10 20:48:09 UTC; critic target21:08/cleanup21:13/hard21:16 unchanged.
+
+ACCEPT the exact intersection finding for all126 saved027 failed-clock candidate pairs. One root-only diagnostic returned exit0 in4.078 seconds inclusive, process start20:47:28.389026 UTC and closed20:47:32 UTC. The internal receipt spans20:47:29.790899–20:47:31.358576 UTC,126 rows/error null. All119 checked input rows matched before/after. Three result-seal rows matched size/SHA256; seal `19318352DA83383D66C604DD4D66D39FE6D78CE2579DF1E34BDC41231D8E9A66`; raw `DC89A1C2D08245285B7DD76F07BE321DFCF443412022676A05C49DA8510D745B`.
+
+Using the recorded exact rational points and original binary-rational triangle coordinates, I independently recomputed zero plane residual and nonnegative oriented interior products for BOTH triangles in every row. All126 constructive witnesses validate. There are zero separation or UNKNOWN results. This verifies nonempty intersections of those actual saved claw1/2/3 and tail0/1 surface triangles at2.4s/frame29. The prior126 BVH stop is therefore not merely a conservative false positive for these pairs. Geometry/source inputs and admission rules were unchanged.
+
+The evidence does not measure penetration depth, enclosed volume, force or continuous motion between clocks. It does not qualify a live/native pair, fullbody self-clearance, physical pin, support or art. The prior027 failure remains a failure even though its interpretation is now stronger.
+
+ONE separately frozen underlying trajectory decision is justified: coordinate the full victim tail's anticipatory path with incoming hands, under the corrected single pose owner, retaining tail geometry, fixed chains, intended core targets and existing geometric guards. Replacing BVH with a convenient waiver, removing tail, adjusting scalar gap/tolerance or retrying geometry constants would not address this measured cause. A median-plane elevation route is a candidate to inspect, not a guaranteed clearance fix; full-tail/body and whole-path evidence must still decide it. This result grants no authoring/runtime job by itself. Gate1 remains INCOMPLETE.

@@ -1,0 +1,15 @@
+{
+  "schema": "critic-initialization006-code-closure-v1",
+  "startUtc": "2026-10-10T17:00:29Z",
+  "requestedCutoffUtc": "2026-10-10T17:03:00Z",
+  "closedUtc": "2026-10-10T17:04:18.8042527Z",
+  "verdict": "APPROVE_ONE_PRIVATE_OBSERVATION_ONLY",
+  "reviewPath": "docs/overhaul/critic/identity57-initialization-006-code-review.md",
+  "reviewSha256": "1D0D9FB4611AF9DC845E7759E22F136592EE470B7233F12EA494A8F90D5E1505",
+  "sealSha256": "2D38F218FB0F7BB626C5423B333991DACC1A9AA93E15053E27A9F78F7D64E010",
+  "sealedRows": 14,
+  "protected005RowsExcludingRoster": 22,
+  "mismatches": 0,
+  "physicalJobs": 0,
+  "gate1": "INCOMPLETE"
+}

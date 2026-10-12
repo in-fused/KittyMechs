@@ -1,0 +1,27 @@
+{
+  "name": "Caracal",
+  "scale": 0.84,
+  "samples": 540,
+  "coreRadius": 1.6655966862093916,
+  "coreHeight": 2.4965896606445312,
+  "limbLengthError": 5.117692099165794e-07,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; turn/idle-walk-trot-gallop mixtures and mirrored reversal; local TRS blend, inverse(reference)*reaction quaternion at full additive weight; no post-animation aim, contact IK or carrier tilt",
+  "radiusCase": [
+    0.75,
+    0,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ],
+  "heightCase": [
+    0.25,
+    0,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "actualStartUTC": "2026-10-10T16:29:18Z",
+  "closedUTC": "2026-10-10T16:31:31.8056450Z",
+  "deadlineUTC": "2026-10-10T16:33:00Z",
+  "verdict": "ACCEPT_PARTIAL_PRESERVATION_SELECTED_POSES_DENY_COMPLETE_ANIMATION_RUNTIME",
+  "reviewSha": "8B3B4579A2D55B6EE799EFB46B539F91D73A34F459E515247AFC431C1E46530C",
+  "files": [
+    {
+      "sha256": "BAB4013648E2F46EF83EFCFE8A0549CAA0BBD2F9C58A405F9AFC9A1FCE5090CE",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/receipt.json"
+    },
+    {
+      "sha256": "8F3A6848382371F5FF474B7114278E496F2FBFC6CE5A1D46BA43E31EF113BAF9",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/first-source-failure.json"
+    },
+    {
+      "sha256": "992D61573BFC39E90CE96CEF698C2A0DBDA65C23D2A662224F959DD811682748",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/selected-pose-evidence.json"
+    },
+    {
+      "sha256": "8636C14AAD432356A970F461896D82D65A5FB75C005A6C997631EB5A978EA202",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json"
+    },
+    {
+      "sha256": "7D5EBEF61BF3B8B0F8B1398218888692CFD44AD31DEEB42F19049B25097B8DAF",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-animation-inventory.json"
+    },
+    {
+      "sha256": "41851AA447F3EEA6433443B0A3C9BBC82D4A7CD652B2FA57972993B0A5A38FC4",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/geometry-before-after.json"
+    },
+    {
+      "sha256": "873CE19ACA5860AD274B7FEBCA575552454F151FB415C0AA358CD5870063482F",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/quad.png"
+    },
+    {
+      "sha256": "81E268E48A82F3C0525C474461E5DFB8CC93500EFC5A144235A36023DDC9EEFB",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/movingR.png"
+    },
+    {
+      "sha256": "FA392F1150DC4ADF3D2DB26E5F620AC86F7B68C31462744A4D9B91EBE9D81BE5",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/upright.png"
+    },
+    {
+      "sha256": "99A12B58924FBEC3A68A2C70FF0CFF26B93DB68AF544A2888D60856EC629F25A",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/pounce.png"
+    }
+  ],
+  "protectedMismatches": 0,
+  "jobsByCritic": 0,
+  "retryAuthorized": false,
+  "gate1": "INCOMPLETE"
+}

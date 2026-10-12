@@ -1,0 +1,320 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.temporary.glb",
+      "bytes": 5441344,
+      "sha256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "bytes": 82335308,
+      "sha256": "0371ebfe572daf1b406974e259a2d0555fd2c4f93bfb7842def84646b1b7f59a"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author-receipt.json",
+      "bytes": 6049,
+      "sha256": "ff3802d0790780c2264058a2e76ac505b4a1f786acd2174d07d0fff6fdd8483e"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/authored-motion-records.json",
+      "bytes": 3082,
+      "sha256": "65cf306e84a47701b997bf3b3916ad007de9ecc5ffff9446ede70d396fca71d9"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/intentional-weight-ledger121.json",
+      "bytes": 618766,
+      "sha256": "344a043fd456ccbaddc2104afae7f4f8044a08db5059905d79a32c66fbbfdc5e"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/preservation.json",
+      "bytes": 376,
+      "sha256": "20efcca64f0bfb04b2ffea0513140f74c87cbf62318e747aadceffc7c749fe80"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "bytes": 10918,
+      "sha256": "f5db7d376f7c664b7328e8ab71499df7cc4e6cf910659e6c9774c039ffd6a1d0"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "bytes": 8762,
+      "sha256": "3da424fa62207bc861b5f729020cb1a0de1b86513cba4e267ddb57cd68067b60"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/weight_ledger121.py",
+      "bytes": 3718,
+      "sha256": "eaaf297b9104a4cf677b51d38a0b3e6271b664411b31a8aa96880d111fb20598"
+    },
+    {
+      "path": "tools/overhaul-anatomy-121/source-seal.json",
+      "bytes": 1024,
+      "sha256": "6d20177d032d74df9818503a2640ed18e3cda829832683b2fa16903148794dd1"
+    },
+    {
+      "path": "public/assets/models/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": "public/assets/models/Pounce_Motion106.glb",
+      "bytes": 6354480,
+      "sha256": "f2377834c70f65d1896a46dfbe530c3435130c25a4aea097a75dc251d9cc8ca1"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime106Manifest.json",
+      "bytes": 250899,
+      "sha256": "6f5d4800fa72608ecf1d1095c5e57d5503246061fd46316cf8bacad79707b74f"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime106Asset.ts",
+      "bytes": 235,
+      "sha256": "d73d150ae6e1c006d513b57cc05d6b289116c5009b7335d20c160ecaa820a854"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4458,
+      "sha256": "e9c18ea9638628e442258387d77a5583a0ca72828bc290e671a8885a1d56324d"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10244,
+      "sha256": "10ea777a33cdbce0a2d2044506b98adeb25ce0418d642fa375eaf8a78ccd0f5c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/HANDOFF.md",
+      "bytes": 5087,
+      "sha256": "4ac4564630d373baeec12c449da38f6cf3a50a5515006a054adfb9669bffc31d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/optimize-validate.mjs",
+      "bytes": 13416,
+      "sha256": "82f8afecc0744d5c866a4773ac40dbf166580a6328ff7475b47c519e1e2314ab"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/protected-inputs.json",
+      "bytes": 3320,
+      "sha256": "c4eb3cdefb3fd3b32c4ef74e1848935ec3020b256bb297b6b35e10503ae11a49"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "661e06d412c0825ef1f09d34a33ddb2936c0d6d09c457902033a1ed411f38f45"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/source-seal.json",
+      "bytes": 1251,
+      "sha256": "aaf19e311e0416dfe10b4c053080bd5b8adae98019d557e538e27f14fa7f0f82"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/output/Pounce_Anatomy121.glb",
+      "bytes": 4406232,
+      "sha256": "8baeb033b3e3df7f732e9e6ce5aa23bd0ae5ae769afc4d3452f33d424363c941"
+    },
+    {
+      "path": "tools/overhaul-anatomy-asset-124/output/receipt.json",
+      "bytes": 183446,
+      "sha256": "9d280c95665829d245246b1221dae6db4ccb6cc8f7d6e80883c7074948833738"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/deliver-validate.mjs",
+      "bytes": 12436,
+      "sha256": "d15c50f408aeffd36dcbfbea832e8707b4fab8f592539609a6601b02486055ca"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/HANDOFF.md",
+      "bytes": 4317,
+      "sha256": "2e1538e1e071fe229dfaf17057c6c8af9ebd2c623c28621da94e916224909d8a"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/protected-inputs.json",
+      "bytes": 5075,
+      "sha256": "7b14e642e1604920d1702f6ea5b83d302f14c14410d0eb55ac4c5f200cdb13a2"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/route-proposal.json",
+      "bytes": 1021,
+      "sha256": "eff0257d658e73de6f91851c30050ddb37de2cb91b733a6d0f7bcb65945dc23b"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/source-seal.json",
+      "bytes": 1277,
+      "sha256": "3b646ddd8d48c6a9795f5097a9cc95597ba51a7b9616029d6217ee900e5abeed"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-126/output/receipt.json",
+      "bytes": 1757,
+      "sha256": "b8554a4c242810d5b699cc898662da178707526298e8acf5155c855dda581410"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/deliver-validate.mjs",
+      "bytes": 11989,
+      "sha256": "640a7284e683288a827087a3ff3d0e485524df8e339242a3f736b8d3ea29b000"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/HANDOFF.md",
+      "bytes": 4401,
+      "sha256": "2e17811fc529a9696f7d5e20fd993dbcc7fd63fc87d6f0af3cc2e1e2eae59b96"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/protected-inputs.json",
+      "bytes": 6647,
+      "sha256": "b25f450c4db1a589109b35c39a5e70c7e2674e41b8b548681da8a2d0843995a8"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/route-proposal.json",
+      "bytes": 1021,
+      "sha256": "a64ebe9bb55c9b6687fdf49261a1e0ac2c3924c7ce1d728da934758134793312"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/source-seal.json",
+      "bytes": 1294,
+      "sha256": "772b4d4ff75d215dc844a489aff337e6d523c71ffbf13a24296a19c7a06df0a8"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/output/identity57Runtime121Manifest.json",
+      "bytes": 243021,
+      "sha256": "4e51891e171a33b1f25f039fcccdfabc979d64c1a434412ff9b808595004142d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/output/Pounce_Anatomy121.glb",
+      "bytes": 5441344,
+      "sha256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/output/receipt.json",
+      "bytes": 1275,
+      "sha256": "78231de1b98c136f67e423cff4c9abd426b3805155c9f8b5435e5a47d2f4629d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-delivery-127/output/validation.json",
+      "bytes": 1016,
+      "sha256": "df2145100195cb300d96d77a4e4f3a37159843d881106c81ddb0681aa702a55e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/batch-validate.mjs",
+      "bytes": 11370,
+      "sha256": "2caadc831a343767d321994d8b989d9d7c5cd6abda3f775cc65975c341556d0b"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/HANDOFF.md",
+      "bytes": 3462,
+      "sha256": "6d0c735289eda3bc876f179f8590398265582e105506373245e946ec060b6a71"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/protected-inputs.json",
+      "bytes": 8842,
+      "sha256": "6d4d32a9572860282ceb57828896a1f30410bafdccaa4f24bf027fd2328cc85e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/read-only-catalog.mjs",
+      "bytes": 6170,
+      "sha256": "7fd95283620deb4a82f6691474fde21ffb144d0504aff9164fb896eba26f6f9d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "aad264286462f708b6467cd40394f8ca55f45f646f4970f116f63c13f46851b7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-129/source-seal.json",
+      "bytes": 1455,
+      "sha256": "225f7a2d943dbada90c131edc6decf0ccc80d749439e83181d7c8af34b72324d"
+    },
+    {
+      "path": "docs/overhaul/critic/anatomy129-batch-source-review.md",
+      "bytes": 2094,
+      "sha256": "a69ae8d0a22557db6f1c5612d224ba8b5c5549af8195a9aba0e3b73c6a16630e"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/batch-validate.mjs",
+      "bytes": 11379,
+      "sha256": "706e1cdd80cb170fe0a56b6c56c6eaf8291459e9c1b7e3e59a1afb2dc67cc1cb"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/HANDOFF.md",
+      "bytes": 4139,
+      "sha256": "144978e107a375e6c34cd9491ea1a9ab410d7042eeb8cd55f29494952106a9cc"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/protected-inputs.json",
+      "bytes": 10584,
+      "sha256": "c15cb34a99d94a816088c997bd0ec508a196adf3809a6b6e9d8b5bc5dde5c857"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/read-only-catalog.mjs",
+      "bytes": 6170,
+      "sha256": "7fd95283620deb4a82f6691474fde21ffb144d0504aff9164fb896eba26f6f9d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "f8b1c4cd9caae734f43570c0e58aa94edf5fbf9cc5a2aeb02ee3c4a1f8306f53"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/source-inventory.json",
+      "bytes": 12965,
+      "sha256": "6d309782a0ec902c2267d8e27ea76506c4288bd9d2da4fee5b7569b00da3226c"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/source-seal.json",
+      "bytes": 1637,
+      "sha256": "5d05cd3574e303308f977b5373ccaf862f1910352321745c95874b114e4ddc97"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-130/output/receipt.json",
+      "bytes": 736,
+      "sha256": "20c59f8e135d9f0fb9c8bb8d4f1347ce1bb083bd37578d248128923dc86fd31c"
+    }
+  ]
+}

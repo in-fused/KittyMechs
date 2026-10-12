@@ -1,0 +1,90 @@
+{
+  "scope": "Closed ONE039 CPU observation; sampled browser CPU, not actual IAB/GPU/lag resolution; all410 inputs unchanged.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/analysis.json",
+      "bytes": 15916,
+      "sha256": "50b73cab64bcd0f4f3b874aa3b7c98670c608fcd8db84c1f9e40cb092c7c2744"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/backward.png",
+      "bytes": 1347204,
+      "sha256": "cd17c8a955a67aa4172289e5f7f8a03ed5d881bd242119467e510f416a3cde45"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/cpu.json",
+      "bytes": 724049,
+      "sha256": "68b0111646464f8bacc9568db2640e78e6db92d75b8d9bb6ef5dd2692d3380a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/evidence.json",
+      "bytes": 5576551,
+      "sha256": "0061b6b4b124673def0b00e6c9f0cc23e9834c9f7549c4b189231226540db2bb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/forward.png",
+      "bytes": 1310072,
+      "sha256": "41a4cef2843b68fba13006c2e59d107ceee7d1055196f70cc6dd9389404563de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/left.png",
+      "bytes": 1179533,
+      "sha256": "c8e36c7e4d6b6ae74633567ffa4983c2d5690109d93889fcbae45dcbee21542d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/page@d185742111629cf0e34955a2a7a0c52f.webm",
+      "bytes": 4324333,
+      "sha256": "0ec463067b55c946d1de56b9beeae888ff208408432619be8c713a4d3fa42e93"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/quadruped.png",
+      "bytes": 952074,
+      "sha256": "5876314467a756b5909ce7a9f00f3fae6482dd0dacea2f6475a6c5df784e7a00"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/rest.png",
+      "bytes": 1340993,
+      "sha256": "45fd752f59b17ce03ece6ecafba671ccc972660d2515ce3a04a3d57e55199106"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/right.png",
+      "bytes": 1205781,
+      "sha256": "4cf3ba4e415945e63810d0ba36a71f96ca5bb52367fec8790a64c435bd1d42e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu/upright.png",
+      "bytes": 1388530,
+      "sha256": "1df4e23c781c71e6d4220cf75226da63bcacefbb715a47508f2f861cae3d702d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu-process/process-receipt.json",
+      "bytes": 61130,
+      "sha256": "a8ae4221e0d2ed560b5b1e8fa72d656bf19c0c390df81127abefafd6b545f7cc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cpu-process/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/steady058-cleanup.json",
+      "bytes": 321,
+      "sha256": "822509087a81dd61ba873557074575bbf5417420c0c4163d230d700179e92e22"
+    },
+    {
+      "path": "tools/overhaul-steady-cpu-058/close.py",
+      "bytes": 1000,
+      "sha256": "7a5da96c50e0a1b79ab5d468f1bd87278f9dfa0b349b12efa5d85cc18e88c1d2"
+    },
+    {
+      "path": "tools/overhaul-steady-cpu-058/analyze.py",
+      "bytes": 1456,
+      "sha256": "76b44e1ccbed3bcc12830e566c218f384daff06be366cbbabc183b698b04171e"
+    },
+    {
+      "path": "tools/overhaul-steady-cpu-058/cleanup.ps1",
+      "bytes": 1659,
+      "sha256": "6192ada6ba53d96ff29b5516563caf9b781c6bb0f8bba400f4aeaafeecc32c8b"
+    }
+  ]
+}

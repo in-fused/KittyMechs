@@ -1,0 +1,56 @@
+{
+  "writer": "CLOSED",
+  "scope": "Read inputs; animation keys/assets/164 support affine/authored guard unchanged by171; shared168 separately owned",
+  "files": [
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "src/game/entities/felineMotion.ts",
+      "bytes": 16781,
+      "sha256": "23044cf553acd15ea074d354869175a42549b7535c2d231db58b8c2f08cedc8f"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/evidence.json",
+      "bytes": 1261366,
+      "sha256": "87c83376d87858d2c7caf91527b607592448629a4c456fd3d0c3e7abd10cee59"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/summary.json",
+      "bytes": 18854,
+      "sha256": "8e52132b7d38a7b63bf82dc071580c4717d33d767ee71a8f8ecb7d02aad71ed5"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    }
+  ]
+}

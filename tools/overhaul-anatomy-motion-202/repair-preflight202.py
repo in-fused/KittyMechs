@@ -1,0 +1,8 @@
+import pathlib,json,hashlib
+root=pathlib.Path(__file__).resolve().parents[2];folder=root/'tools/overhaul-anatomy-motion-202'
+def row(p):return {'path':p.relative_to(root).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+old=json.loads((folder/'first-author-failure/source-seal.json').read_text());checks=[dict(r,match=row(root/r['path'])['sha256']==r['sha256']) for r in old['files']]
+protected=json.loads((folder/'protected-inputs202.json').read_text())['files'];inputs=[dict(r,match=row(root/r['path'])['sha256']==r['sha256']) for r in protected]
+if not all(r['match'] for r in checks+inputs):raise RuntimeError('202_IMMUTABLE_FIRST_FAILURE_OR_OLD_INPUT_CHANGED')
+paths=[folder/'author202.py',folder/'static-source-check202.json',folder/'first-author-matrix-correction202.json',folder/'repair-preflight202.py',folder/'bundle-preflight202.json',folder/'browser-bundle202.js']
+seal={'writer':'CLOSED','scope':'SOLE_ROOT_APPROVED_EVALUATION_SLOT_PROTOCOL_REPAIR_BEFORE_SECOND_AUTHOR','repairJobsConsumed':0,'repairBudgetTotal':1,'files':[row(p) for p in paths],'firstFailureArchiveVerified':checks,'protectedBeforeRepairedAuthor':inputs,'protocol':'Explicit unique compatible OBJECT action slot on OLD/reference and candidate; independent root fcurve versus actual reference basis before same old20um guard; candidate view_layer.update. No curve/geometry/rest/length/threshold change.'};path=folder/'repair-source-seal202.json';path.write_text(json.dumps(seal,indent=2),encoding='utf8');print(json.dumps({'seal':row(path),'author':row(folder/'author202.py'),'oldArchiveMatch':len(checks),'oldInputMatch':len(inputs)}))

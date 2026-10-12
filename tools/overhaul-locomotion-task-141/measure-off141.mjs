@@ -1,0 +1,22 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {NodeIO} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {MeshoptDecoder} from 'meshoptimizer';
+import {Matrix4,Quaternion,Vector3} from 'three';
+const input='public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb',data=await readFile(input);await MeshoptDecoder.ready;
+const doc=await new NodeIO().registerExtensions(ALL_EXTENSIONS).registerDependencies({'meshopt.decoder':MeshoptDecoder}).readBinary(data);
+const root=doc.getRoot(),nodes=new Map(root.listNodes().map(n=>[n.getName(),n]));
+function sample(channel,time){const s=channel.getSampler(),ts=s.getInput().getArray(),vs=s.getOutput().getArray(),w=s.getOutput().getElementSize();let i=0;while(i+1<ts.length&&ts[i+1]<=time)i++;const a=Array.from(vs.slice(i*w,(i+1)*w));if(i+1===ts.length||s.getInterpolation()==='STEP')return a;if(s.getInterpolation()!=='LINEAR')throw Error('UNSUPPORTED_INTERPOLATION:'+s.getInterpolation());const u=Math.max(0,Math.min(1,(time-ts[i])/(ts[i+1]-ts[i]))),b=Array.from(vs.slice((i+1)*w,(i+2)*w));return channel.getTargetPath()==='rotation'?new Quaternion().fromArray(a).slerp(new Quaternion().fromArray(b),u).toArray():a.map((v,k)=>v+(b[k]-v)*u);}
+function pose(animation,time){const overrides=new Map();for(const c of animation?.listChannels()??[]){const n=c.getTargetNode();if(!overrides.has(n))overrides.set(n,{});overrides.get(n)[c.getTargetPath()]=sample(c,time);}const cache=new Map();function visit(n){if(cache.has(n))return cache.get(n);const o=overrides.get(n)??{},m=new Matrix4().compose(new Vector3().fromArray(o.translation??n.getTranslation()),new Quaternion().fromArray(o.rotation??n.getRotation()),new Vector3().fromArray(o.scale??n.getScale()));if(n.getParentNode())m.premultiply(visit(n.getParentNode()));cache.set(n,m);return m;}for(const n of root.listNodes())visit(n);return cache;}
+const clips=[];
+for(const name of ['FelineIdle','FelineWalk','FelineTrot','FelineGallop','FelineUprightIdle','FelineUprightWalkLong','FelineUprightStride','FelineTransformUp','FelineTransformDown']){
+ const animation=root.listAnimations().find(a=>a.getName()===name);if(!animation){clips.push({name,missing:true});continue;}
+ const channels=animation.listChannels(),start=Math.min(...channels.map(c=>c.getSampler().getInput().getArray()[0])),end=Math.max(...channels.map(c=>c.getSampler().getInput().getArray().at(-1)));
+ const rows=Array.from({length:121},(_,i)=>{const phase=i/120,world=pose(animation,start+(end-start)*phase);return{phase,limbs:Object.fromEntries(['FL','FR','HL','HR'].map(limb=>{const chain=[limb+'_upper',limb+'_lower',...(nodes.has(limb+'_hock')?[limb+'_hock']:[]),limb+'_paw'].map(n=>nodes.get(n));if(chain.some(n=>!n))throw Error('MISSING_CHAIN:'+limb);const points=chain.map(n=>new Vector3().setFromMatrixPosition(world.get(n))),lengths=points.slice(1).map((p,j)=>p.distanceTo(points[j])),distance=points[0].distanceTo(points.at(-1));return[limb,{paw:points.at(-1).toArray(),lengths,reachRatio:distance/lengths.reduce((a,b)=>a+b,0)}];}))};});
+ const translationChanges=channels.filter(c=>c.getTargetPath()==='translation'&&/^(FL|FR|HL|HR)_/.test(c.getTargetNode().getName())).map(c=>{const times=c.getSampler().getInput().getArray(),values=Array.from(times,t=>sample(c,t)),first=values[0];return{bone:c.getTargetNode().getName(),maxDeviation:Math.max(...values.flatMap(v=>v.map((x,k)=>Math.abs(x-first[k]))))};}).filter(c=>c.maxDeviation>2e-5);
+ clips.push({name,start,end,channels:channels.length,translationChanges,limbSummary:Object.fromEntries(['FL','FR','HL','HR'].map(limb=>[limb,{minY:Math.min(...rows.map(r=>r.limbs[limb].paw[1])),maxY:Math.max(...rows.map(r=>r.limbs[limb].paw[1])),minReachRatio:Math.min(...rows.map(r=>r.limbs[limb].reachRatio)),maxReachRatio:Math.max(...rows.map(r=>r.limbs[limb].reachRatio))}])),rows});
+}
+const receipt={writer:'CLOSED',input,inputSHA256:createHash('sha256').update(data).digest('hex'),bytes:data.length,method:'Actual decoded glTF LINEAR quaternion/vector interpolation and parent world matrices;121 phases/clip, no browser globals or source mutations. Paw pivot rather than skin/sole provenance.',jointNames:root.listSkins()[0].listJoints().map(n=>n.getName()),clips};
+await writeFile('tools/overhaul-locomotion-task-141/off-measurements141.json',JSON.stringify(receipt,null,2));
+process.stdout.write(JSON.stringify({...receipt,clips:clips.map(({rows,...row})=>row)})+'\n');

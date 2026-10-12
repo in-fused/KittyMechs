@@ -1,0 +1,2676 @@
+{
+  "writer": "CLOSED",
+  "status": "SCOPED_CPU_GEOMETRY_PASS",
+  "rows": [
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 546.6510355374905,
+          "top": 367.0475918376513,
+          "right": 903.6827508057386,
+          "bottom": 854.9836301576944,
+          "areaFraction": 0.1344202474557088,
+          "heightFraction": 0.5421511536889367,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 546.6510355374905,
+        "top": 367.0475918376513,
+        "right": 903.6827508057386,
+        "bottom": 854.9836301576944,
+        "areaFraction": 0.1344202474557088,
+        "heightFraction": 0.5421511536889367,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 546.4272268590398,
+          "top": 489.4522580026649,
+          "right": 893.5727731409602,
+          "bottom": 834.6573766461577,
+          "areaFraction": 0.09246637306389693,
+          "heightFraction": 0.38356124293721416,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 546.4272268590398,
+        "top": 489.4522580026649,
+        "right": 893.5727731409602,
+        "bottom": 834.6573766461577,
+        "areaFraction": 0.09246637306389693,
+        "heightFraction": 0.38356124293721416,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 554.8368048329527,
+          "top": 523.7631754289703,
+          "right": 910.8193206326854,
+          "bottom": 854.332520813104,
+          "areaFraction": 0.09080008272848354,
+          "heightFraction": 0.3672992726490375,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 554.8368048329527,
+        "top": 523.7631754289703,
+        "right": 910.8193206326854,
+        "bottom": 854.332520813104,
+        "areaFraction": 0.09080008272848354,
+        "heightFraction": 0.3672992726490375,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 426.68372192879787,
+          "top": 455.4677597609955,
+          "right": 1013.3162780712021,
+          "bottom": 789.9793348736823,
+          "areaFraction": 0.1514161885552294,
+          "heightFraction": 0.37167952790298536,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 426.68372192879787,
+        "top": 455.4677597609955,
+        "right": 1013.3162780712021,
+        "bottom": 789.9793348736823,
+        "areaFraction": 0.1514161885552294,
+        "heightFraction": 0.37167952790298536,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 443.1701463777113,
+          "top": 494.2554944786511,
+          "right": 996.8298536222884,
+          "bottom": 770.7805232303494,
+          "areaFraction": 0.1181333074571478,
+          "heightFraction": 0.3072500319463315,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 443.1701463777113,
+        "top": 494.2554944786511,
+        "right": 996.8298536222884,
+        "bottom": 770.7805232303494,
+        "areaFraction": 0.1181333074571478,
+        "heightFraction": 0.3072500319463315,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 441.21292507648377,
+          "top": 571.9754767705498,
+          "right": 1022.7083341070311,
+          "bottom": 854.6532748186798,
+          "areaFraction": 0.12683321126531777,
+          "heightFraction": 0.31408644227570004,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 441.21292507648377,
+        "top": 571.9754767705498,
+        "right": 1022.7083341070311,
+        "bottom": 854.6532748186798,
+        "areaFraction": 0.12683321126531777,
+        "heightFraction": 0.31408644227570004,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 504.7403482947489,
+          "top": 330.0512243145348,
+          "right": 998.6072181300765,
+          "bottom": 854.9839744364813,
+          "areaFraction": 0.20003618377837645,
+          "heightFraction": 0.5832586112466072,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 504.7403482947489,
+        "top": 330.0512243145348,
+        "right": 998.6072181300765,
+        "bottom": 854.9839744364813,
+        "areaFraction": 0.20003618377837645,
+        "heightFraction": 0.5832586112466072,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 527.4701998906547,
+          "top": 487.0331539416899,
+          "right": 992.6678307418367,
+          "bottom": 854.4287419173911,
+          "areaFraction": 0.13187620147490217,
+          "heightFraction": 0.40821731997300137,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 527.4701998906547,
+        "top": 487.0331539416899,
+        "right": 992.6678307418367,
+        "bottom": 854.4287419173911,
+        "areaFraction": 0.13187620147490217,
+        "heightFraction": 0.40821731997300137,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 512.238063548562,
+          "top": 510.3468676837536,
+          "right": 982.9745975915923,
+          "bottom": 854.9570252652566,
+          "areaFraction": 0.12517020924069383,
+          "heightFraction": 0.38290017509055885,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 512.238063548562,
+        "top": 510.3468676837536,
+        "right": 982.9745975915923,
+        "bottom": 854.9570252652566,
+        "areaFraction": 0.12517020924069383,
+        "heightFraction": 0.38290017509055885,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 548.2502556496792,
+          "top": 310.982122860738,
+          "right": 907.2271393458467,
+          "bottom": 854.6760409605743,
+          "areaFraction": 0.15059687376854827,
+          "heightFraction": 0.6041043534442626,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 548.2502556496792,
+        "top": 310.982122860738,
+        "right": 907.2271393458467,
+        "bottom": 854.6760409605743,
+        "areaFraction": 0.15059687376854827,
+        "heightFraction": 0.6041043534442626,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 559.2282638397713,
+          "top": 401.9349403361309,
+          "right": 889.4810318342411,
+          "bottom": 854.7688468691374,
+          "areaFraction": 0.11539324928570555,
+          "heightFraction": 0.5031487850366738,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 559.2282638397713,
+        "top": 401.9349403361309,
+        "right": 889.4810318342411,
+        "bottom": 854.7688468691374,
+        "areaFraction": 0.11539324928570555,
+        "heightFraction": 0.5031487850366738,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 570.8209108584866,
+          "top": 392.5736303958834,
+          "right": 898.0094150098794,
+          "bottom": 853.5862839091075,
+          "areaFraction": 0.1163873769273581,
+          "heightFraction": 0.51223628168136,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 570.8209108584866,
+        "top": 392.5736303958834,
+        "right": 898.0094150098794,
+        "bottom": 853.5862839091075,
+        "areaFraction": 0.1163873769273581,
+        "heightFraction": 0.51223628168136,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 437.56696046965317,
+          "top": 407.06378190709484,
+          "right": 1002.4330395303468,
+          "bottom": 828.3639789126087,
+          "areaFraction": 0.18362514690586604,
+          "heightFraction": 0.4681113300061265,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 437.56696046965317,
+        "top": 407.06378190709484,
+        "right": 1002.4330395303468,
+        "bottom": 828.3639789126087,
+        "areaFraction": 0.18362514690586604,
+        "heightFraction": 0.4681113300061265,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 465.22542082078854,
+          "top": 441.32610577269236,
+          "right": 974.7745791792112,
+          "bottom": 838.4289994082308,
+          "areaFraction": 0.1561292015691997,
+          "heightFraction": 0.44122543737282044,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 465.22542082078854,
+        "top": 441.32610577269236,
+        "right": 974.7745791792112,
+        "bottom": 838.4289994082308,
+        "areaFraction": 0.1561292015691997,
+        "heightFraction": 0.44122543737282044,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 473.60490648840715,
+          "top": 447.4744785832115,
+          "right": 993.7615570814081,
+          "bottom": 854.0962594491082,
+          "areaFraction": 0.16319986388377006,
+          "heightFraction": 0.45180197873988515,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 473.60490648840715,
+        "top": 447.4744785832115,
+        "right": 993.7615570814081,
+        "bottom": 854.0962594491082,
+        "areaFraction": 0.16319986388377006,
+        "heightFraction": 0.45180197873988515,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 502.9147329246377,
+          "top": 274.24659605433266,
+          "right": 992.2899692957354,
+          "bottom": 854.4702175945195,
+          "areaFraction": 0.2190949629161445,
+          "heightFraction": 0.6446929128224297,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 502.9147329246377,
+        "top": 274.24659605433266,
+        "right": 992.2899692957354,
+        "bottom": 854.4702175945195,
+        "areaFraction": 0.2190949629161445,
+        "heightFraction": 0.6446929128224297,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 529.0696889697695,
+          "top": 382.53686682666813,
+          "right": 969.5800311460639,
+          "bottom": 854.4929390787942,
+          "areaFraction": 0.16041784790120678,
+          "heightFraction": 0.5243956358356956,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 529.0696889697695,
+        "top": 382.53686682666813,
+        "right": 969.5800311460639,
+        "bottom": 854.4929390787942,
+        "areaFraction": 0.16041784790120678,
+        "heightFraction": 0.5243956358356956,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 524.2348146751432,
+          "top": 373.02455696283465,
+          "right": 959.3780661214528,
+          "bottom": 853.679723932087,
+          "areaFraction": 0.16138414520020777,
+          "heightFraction": 0.5340612966325026,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 45,
+            "right": 1126,
+            "bottom": 855
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 524.2348146751432,
+        "top": 373.02455696283465,
+        "right": 959.3780661214528,
+        "bottom": 853.679723932087,
+        "areaFraction": 0.16138414520020777,
+        "heightFraction": 0.5340612966325026,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 45,
+          "right": 1126,
+          "bottom": 855
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 374.45839667604264,
+          "top": 292.9665186531629,
+          "right": 660.0194081053514,
+          "bottom": 683.5715001668514,
+          "areaFraction": 0.1512879144834735,
+          "heightFraction": 0.5425069187690118,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 374.45839667604264,
+        "top": 292.9665186531629,
+        "right": 660.0194081053514,
+        "bottom": 683.5715001668514,
+        "areaFraction": 0.1512879144834735,
+        "heightFraction": 0.5425069187690118,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 373.1417814872319,
+          "top": 391.56180640213194,
+          "right": 650.8582185127681,
+          "bottom": 667.7259013169261,
+          "areaFraction": 0.10402466969688398,
+          "heightFraction": 0.38356124293721405,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 373.1417814872319,
+        "top": 391.56180640213194,
+        "right": 650.8582185127681,
+        "bottom": 667.7259013169261,
+        "areaFraction": 0.10402466969688398,
+        "heightFraction": 0.38356124293721405,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 0,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 382.425640309324,
+          "top": 418.86300108875736,
+          "right": 667.2256136076228,
+          "bottom": 683.6480023993075,
+          "areaFraction": 0.10228239109027058,
+          "heightFraction": 0.367756946264653,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 382.425640309324,
+        "top": 418.86300108875736,
+        "right": 667.2256136076228,
+        "bottom": 683.6480023993075,
+        "areaFraction": 0.10228239109027058,
+        "heightFraction": 0.367756946264653,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 353.01999156770796,
+          "top": 299.67433160392017,
+          "right": 704.5126075406874,
+          "bottom": 511.69921325048495,
+          "areaFraction": 0.1010812449833339,
+          "heightFraction": 0.29447900228689555,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 353.01999156770796,
+        "top": 299.67433160392017,
+        "right": 704.5126075406874,
+        "bottom": 511.69921325048495,
+        "areaFraction": 0.1010812449833339,
+        "heightFraction": 0.29447900228689555,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 353.0723839330567,
+          "top": 351.4799638496693,
+          "right": 693.2203195115153,
+          "bottom": 522.6956968118157,
+          "areaFraction": 0.07899126262156404,
+          "heightFraction": 0.2377996291140922,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 353.0723839330567,
+        "top": 351.4799638496693,
+        "right": 693.2203195115153,
+        "bottom": 522.6956968118157,
+        "areaFraction": 0.07899126262156404,
+        "heightFraction": 0.2377996291140922,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 1.5707963267948966,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 353.163968281079,
+          "top": 424.68819073516386,
+          "right": 699.2073379280698,
+          "bottom": 596.6238023338797,
+          "areaFraction": 0.080698212890538,
+          "heightFraction": 0.23879946055377196,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 353.163968281079,
+        "top": 424.68819073516386,
+        "right": 699.2073379280698,
+        "bottom": 596.6238023338797,
+        "areaFraction": 0.080698212890538,
+        "heightFraction": 0.23879946055377196,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 376.9478909836855,
+          "top": 342.3491924792803,
+          "right": 686.7323135675572,
+          "bottom": 683.8811366231758,
+          "areaFraction": 0.1435021648635034,
+          "heightFraction": 0.47434992242207713,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 376.9478909836855,
+        "top": 342.3491924792803,
+        "right": 686.7323135675572,
+        "bottom": 683.8811366231758,
+        "areaFraction": 0.1435021648635034,
+        "heightFraction": 0.47434992242207713,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 7.5,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 385.12532330161883,
+          "top": 406.21730724059717,
+          "right": 679.6211463592076,
+          "bottom": 631.5410806070266,
+          "areaFraction": 0.09000231946070454,
+          "heightFraction": 0.312949685231152,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 385.12532330161883,
+        "top": 406.21730724059717,
+        "right": 679.6211463592076,
+        "bottom": 631.5410806070266,
+        "areaFraction": 0.09000231946070454,
+        "heightFraction": 0.312949685231152,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineWalk",
+      "yaw": 2.6,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 380.8856931925384,
+          "top": 463.6482767860989,
+          "right": 685.8239942293292,
+          "bottom": 682.4912796492429,
+          "areaFraction": 0.09051325613996944,
+          "heightFraction": 0.30394861508769994,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 380.8856931925384,
+        "top": 463.6482767860989,
+        "right": 685.8239942293292,
+        "bottom": 682.4912796492429,
+        "areaFraction": 0.09051325613996944,
+        "heightFraction": 0.30394861508769994,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.9406534571529441,
+          -0.02051424479221046,
+          -1.996062928349335
+        ],
+        "max": [
+          0.8701381142761342,
+          1.6083777190377584,
+          1.467043665172448
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 376.144889587296,
+          "top": 248.54246588179794,
+          "right": 663.3284545614283,
+          "bottom": 683.9301247587824,
+          "areaFraction": 0.1695911729899547,
+          "heightFraction": 0.6047050817735895,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 376.144889587296,
+        "top": 248.54246588179794,
+        "right": 663.3284545614283,
+        "bottom": 683.9301247587824,
+        "areaFraction": 0.1695911729899547,
+        "heightFraction": 0.6047050817735895,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 384.2502717470981,
+          "top": 321.4864475845081,
+          "right": 648.4579584333117,
+          "bottom": 683.8617846327413,
+          "areaFraction": 0.12985887249572842,
+          "heightFraction": 0.5032990792336572,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 384.2502717470981,
+        "top": 321.4864475845081,
+        "right": 648.4579584333117,
+        "bottom": 683.8617846327413,
+        "areaFraction": 0.12985887249572842,
+        "heightFraction": 0.5032990792336572,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 0,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 395.5267951158444,
+          "top": 313.92913259756557,
+          "right": 657.2983829937647,
+          "bottom": 683.0820240251634,
+          "areaFraction": 0.1310678962656356,
+          "heightFraction": 0.512712349204997,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 395.5267951158444,
+        "top": 313.92913259756557,
+        "right": 657.2983829937647,
+        "bottom": 683.0820240251634,
+        "areaFraction": 0.1310678962656356,
+        "heightFraction": 0.512712349204997,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 353.01336858120396,
+          "top": 305.56819935032075,
+          "right": 691.145536420946,
+          "bottom": 571.6255379742732,
+          "areaFraction": 0.12201951046900686,
+          "heightFraction": 0.36952408142215626,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 353.01336858120396,
+        "top": 305.56819935032075,
+        "right": 691.145536420946,
+        "bottom": 571.6255379742732,
+        "areaFraction": 0.12201951046900686,
+        "heightFraction": 0.36952408142215626,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 7.5,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 354.53982614752215,
+          "top": 378.81240233896006,
+          "right": 669.4601738524776,
+          "bottom": 629.401429717517,
+          "areaFraction": 0.10703611061347351,
+          "heightFraction": 0.34804031580355127,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 354.53982614752215,
+        "top": 378.81240233896006,
+        "right": 669.4601738524776,
+        "bottom": 629.401429717517,
+        "areaFraction": 0.10703611061347351,
+        "heightFraction": 0.34804031580355127,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 1.5707963267948966,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 360.3161083816331,
+          "top": 424.34663521707273,
+          "right": 688.9012972397427,
+          "bottom": 683.47131521077,
+          "areaFraction": 0.1154846624261152,
+          "heightFraction": 0.359895388880135,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 360.3161083816331,
+        "top": 424.34663521707273,
+        "right": 688.9012972397427,
+        "bottom": 683.47131521077,
+        "areaFraction": 0.1154846624261152,
+        "heightFraction": 0.359895388880135,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": -0.5,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.7,
+        "radius": 7.5,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 378.96816498652737,
+          "top": 305.16138555261034,
+          "right": 681.3131614885028,
+          "bottom": 683.8335918980953,
+          "areaFraction": 0.15528652194949133,
+          "heightFraction": 0.5259336199242847,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 378.96816498652737,
+        "top": 305.16138555261034,
+        "right": 681.3131614885028,
+        "bottom": 683.8335918980953,
+        "areaFraction": 0.15528652194949133,
+        "heightFraction": 0.5259336199242847,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": 0,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.2,
+        "radius": 7.5,
+        "opticalLimited": false,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 389.97614673425966,
+          "top": 376.88433620746287,
+          "right": 668.6437136879048,
+          "bottom": 675.2894144457537,
+          "areaFraction": 0.11278729535492163,
+          "heightFraction": 0.41445149755318167,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 389.97614673425966,
+        "top": 376.88433620746287,
+        "right": 668.6437136879048,
+        "bottom": 675.2894144457537,
+        "areaFraction": 0.11278729535492163,
+        "heightFraction": 0.41445149755318167,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 720,
+      "name": "FelineUprightStride",
+      "yaw": 2.6,
+      "pitch": 0.55,
+      "result": {
+        "design": "BODY_CENTERED_SAFE_BOOM087",
+        "constrained": false,
+        "projectedBody": true,
+        "nativeEmpty": true,
+        "chosenBias": 0,
+        "boomElevation": 0.15,
+        "radius": 6,
+        "opticalLimited": true,
+        "candidates": 1,
+        "nativeQueries": 3,
+        "scope": "HUD-aware completed-envelope optical composition and unchanged native sphere/path clearance; not skin/contact/quality certification",
+        "usableProjection": {
+          "pass": true,
+          "contained": true,
+          "useful": true,
+          "left": 358.38898115156417,
+          "top": 298.4185431612152,
+          "right": 706.5998867858096,
+          "bottom": 682.9502886051415,
+          "areaFraction": 0.181610985414153,
+          "heightFraction": 0.5340718686721199,
+          "blockedBy": [],
+          "layoutRevision": 0,
+          "usableRect": {
+            "left": 353,
+            "top": 36,
+            "right": 710,
+            "bottom": 684
+          }
+        },
+        "occlusionLimits": {
+          "layoutUnavailable": false,
+          "bodyTooSmall": false
+        }
+      },
+      "projection": {
+        "pass": true,
+        "contained": true,
+        "useful": true,
+        "left": 358.38898115156417,
+        "top": 298.4185431612152,
+        "right": 706.5998867858096,
+        "bottom": 682.9502886051415,
+        "areaFraction": 0.181610985414153,
+        "heightFraction": 0.5340718686721199,
+        "blockedBy": [],
+        "layoutRevision": 0,
+        "usableRect": {
+          "left": 353,
+          "top": 36,
+          "right": 710,
+          "bottom": 684
+        }
+      },
+      "worldBounds": {
+        "min": [
+          -0.8990971886474247,
+          -0.02318741578957438,
+          -1.7911052139649695
+        ],
+        "max": [
+          0.8753027085767778,
+          2.469750745432056,
+          1.4077496980718476
+        ]
+      }
+    }
+  ],
+  "fixtureProvenance": "Saved277 failure-guest PNG opaque HUD footprints plus retained CSS; DOM cached layout/browser pixels UNRUN",
+  "sourceGeometry": "Actual264 numerical fixture and weighted complete envelope at .8 scale; not actualGLTFLoader or runtime composer",
+  "modalRejected": true,
+  "nativeObstructionPreserved": true,
+  "contactQualified": false,
+  "qualityApproved": false
+}

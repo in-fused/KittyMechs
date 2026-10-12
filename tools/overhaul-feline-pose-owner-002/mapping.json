@@ -1,0 +1,12 @@
+{
+  "kind": "exact-inverse-reconstructed-preimage",
+  "current": "src/game/entities/Actors.tsx",
+  "preimage": "tools/overhaul-feline-pose-owner-002/preimage/Actors.tsx",
+  "changes": [
+    "two new import lines",
+    "roster candidate-or-legacy branch"
+  ],
+  "legacyActorBody": "unchanged",
+  "observedPreMutationDiskCopy": false,
+  "sourceConversion": "unscaled GLTF export [x,z,-y], then .8, then separate Ry(pi) mount"
+}

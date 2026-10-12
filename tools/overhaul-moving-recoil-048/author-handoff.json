@@ -1,0 +1,29 @@
+{
+  "round": "048",
+  "stage": "AUTHOR_SOURCE_FROZEN_ROOT_ONE_BLENDER_ATTEMPT",
+  "frozenUTC": "2026-10-11T00:46:57.4093203Z",
+  "files": [
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author.py",
+      "bytes": 9424,
+      "sha256": "ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-moving-recoil-048/author.py"
+  ],
+  "inclusiveCapSeconds": 120,
+  "attempts": 1,
+  "automaticRetry": false,
+  "sourceMasterSHA256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463",
+  "sourceModelSHA256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+  "authorWriterClosed": true,
+  "runtimeStage": "Waiting root author receipt and actual exportedGLB contract. No shipping changes yet",
+  "bounds": "four head-only quaternion NLA tracks; no meshes/materials/skins; sourceIdle basis guards; readable motion >.035component; source unchanged SHA guards; refuse output overwrite; nonzero failure"
+}

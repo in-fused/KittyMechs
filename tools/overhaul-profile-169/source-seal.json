@@ -1,0 +1,102 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_GENUINE_FAILURE_STOP",
+  "scope": "Read-only failed169 originalmainV8profiles/guarderror afterOFFtoggle and independentreview. No gamepatch, no benchmark/IAB/GPU/worker qualification.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-observation/process-receipt.json",
+      "bytes": 65923,
+      "sha256": "a34871c65d351ebe00434dd1a706e91957309be8a4e923547a222ae2704e5646"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-observation/stdout.txt",
+      "bytes": 479,
+      "sha256": "88f8a41e0fb9cf5ffbf856d05dd3a9240cea928295052c90673887e42828b359"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/evidence.json",
+      "bytes": 1261366,
+      "sha256": "87c83376d87858d2c7caf91527b607592448629a4c456fd3d0c3e7abd10cee59"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/failure.png",
+      "bytes": 930286,
+      "sha256": "90939f99aacdd53962acc6d326363f8e8aad6c775a1ab7d66f10bcd89ea15df6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-forward.cpuprofile",
+      "bytes": 300051,
+      "sha256": "1dd65f65743381f5db5c49eae2d553c0eba402479115638513ee969ec12a6dbb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-forward.png",
+      "bytes": 956741,
+      "sha256": "1ecaa78f3d0fc7ab3f237f6b71aacf17ad67930420d5d9e4a5b0c091b6cde728"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-idle.cpuprofile",
+      "bytes": 176031,
+      "sha256": "50dd9b659ebee5bf7a0047d33fe286f78832c27016b8d521414db2e415e96646"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-idle.png",
+      "bytes": 1038384,
+      "sha256": "4c5cfb1b0583f58ea7ba543ebd16ccd00a558e3c3fff1504b7b1c832a245959a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-reverse.cpuprofile",
+      "bytes": 283413,
+      "sha256": "230a415d30e09c9d56a3379adaeeb8a7ea2b6b12929af7d167757051095c681a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/on-reverse.png",
+      "bytes": 990519,
+      "sha256": "9d015656cb1bedf2de16c816044bf3b09899e8d599ff685cc4e05d49c619e586"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/summary.json",
+      "bytes": 18854,
+      "sha256": "8e52132b7d38a7b63bf82dc071580c4717d33d767ee71a8f8ecb7d02aad71ed5"
+    },
+    {
+      "path": "docs/overhaul/critic/profile169-failure-review.md",
+      "bytes": 4894,
+      "sha256": "1c17f2d730f001987c907a0128fbe1c8ef5db0da9be4f15fbc837ff7d662dd41"
+    },
+    {
+      "path": "tools/overhaul-profile-169/HANDOFF.md",
+      "bytes": 2157,
+      "sha256": "938c5483aabffbc8b755a69e41b70e3dbe6111154a894f0c4fc9a549545a1878"
+    },
+    {
+      "path": "tools/overhaul-profile-169/launch.py",
+      "bytes": 346,
+      "sha256": "4fbec489462a3b80488cc7d92fafcfde9ce465f17221739ccdeb1211e5127d0f"
+    },
+    {
+      "path": "tools/overhaul-profile-169/prepare.py",
+      "bytes": 1773,
+      "sha256": "61bea2d59daa0be047f69b9eab8728bf5f2d90116d579cb0a87d241cf1bc62db"
+    },
+    {
+      "path": "tools/overhaul-profile-169/profile-seal.json",
+      "bytes": 103593,
+      "sha256": "9d9bbc03d5ab2ff9f0bccd4a2b45f86d142cc0bee3cc0601190d53cb8edd994e"
+    },
+    {
+      "path": "tools/overhaul-profile-169/profile.mjs",
+      "bytes": 4930,
+      "sha256": "316d7ed05c12eb187c3524f5c121f78ca749051c2cd3609f86daa3abd2b46370"
+    },
+    {
+      "path": "tools/overhaul-profile-169/seal.py",
+      "bytes": 1133,
+      "sha256": "84f8bf5272df9537943afcef7087e32934398772e13a7dba5c09006920a8d411"
+    },
+    {
+      "path": "tools/overhaul-profile-169/summarize.py",
+      "bytes": 1873,
+      "sha256": "9f23a830170d638691c62f7730ac630e3c08f05f5738793526b5177585099bb1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Performance085 stored bounds type compatibility — source only
+
+The one084 build failed with TS2322 at restoration of row.previous in both animatedEnemyBounds078.ts and animatedEnemyBounds081.ts. The installed declaration gives SkinnedMesh.boundingSphere type Sphere, while the installed runtime constructor initializes it to null (SkinnedMesh.js:97; SkinnedMesh.d.ts:111).
+
+Both helpers now store previous with type SkinnedMesh['boundingSphere'] instead of Sphere|null. This narrows the stored static type to the installed unsound library contract. It does not establish runtime non-nullness: an initial null is still copied from the mesh and restored unchanged on failure. No non-null assertion, runtime guard, null conversion, state behavior, pose work, sphere arithmetic, or fail-open logic changed. Actors.tsx is byte unchanged. Original078 remains unused by the current081 Actor integration.
+
+Exact current preimages were copied before editing to tools/overhaul-performance-085/preimages. Each postimage has exactly one replacement, previous:Sphere|null to previous:SkinnedMesh['boundingSphere']; reversing that replacement reconstructs its preimage exactly, including line endings. These are solely TypeScript field annotations, which erase; all runtime source statements remain byte identical. No compiler/transpiler was run to claim an emitted-artifact comparison.
+
+The source seal pins both preimages/postimages, unchanged Actor, installed runtime/declaration,081 source seal and containment result,084 build seal/failure receipt/stdout, and084 baseline evidence. Existing081 containment status is PASS_REVIEW_REQUIRED with10,740,111 actual loaded vertices checked. This type erasure proof requests independent approval to reuse prior containment and baseline; it does not approve reuse or establish performance acceptance.
+
+Independent source critic approval is required before ANY new build/capture. No fixture, baseline, build, capture, jobs, services, assets, or other source edits were performed. Root must stop the whole candidate at the first new build/capture failure, without another repair loop. Frozen045/live8799 is unaffected. Writer CLOSED; source correction complete, candidate unqualified, broader user goal incomplete.

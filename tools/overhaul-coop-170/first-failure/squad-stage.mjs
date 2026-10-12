@@ -1,0 +1,24 @@
+import {geometry170,certify170,plan170} from './planner.mjs';
+import {actorHullRadius} from '../../shared/config.ts';
+import {terrainHeight} from '../../shared/world.ts';
+import {squadPairDistance168,SQUAD_ARRIVAL168} from '../../shared/squadPlacement168.ts';
+const distance=(a,b)=>Math.hypot(a.x-b.x,a.z-b.z);
+/** Source-only reservation; retains every current actor. It never admits an
+ * actor, mutates authority, or replaces a current occupied position. */
+export function reserve170(g,reservations=[]){for(const r of reservations){if(r.id===g.moverId)continue;const owner=g.snapshot.actors.find(a=>a.id===r.id);if(!owner||owner.hp<=0)throw Error('170 living reserved peer missing');g.parked=[...g.parked,{...owner,id:r.id+':future-arrival-space170',position:{...owner.position,...r.point},plannedArrival170:r.arrival}];}return g;}
+// The additional occupancy row is an observer-only future-space reservation.
+function endpoint(g,p){return certify170(g,p,p,{endpoint:true});}
+const points=(o,r)=>{const out=[{x:o.x,z:o.z}];for(const radius of [r,r/2])for(let i=0;i<16;i++)out.push({x:o.x+radius*Math.cos(i*Math.PI/8),z:o.z+radius*Math.sin(i*Math.PI/8)});return out;};
+export function planSquadStage170(s,names,objective,{hostReach=4,guestReach=10,guard=()=>{},now=Date.now}={}){const began=now(),check=()=>{guard();if(now()-began>2000)throw Error('170 original2s staging CPU bound');},actors=names.map(n=>s.actors.find(a=>a.name===n));if(actors.some(a=>!a||a.hp<=0||a.downed||!a.grounded||Math.hypot(a.velocity.x,a.velocity.z)>.12))throw Error('170 actual living grounded neutral-rest squad required');
+ const [h,b]=actors,baseH=geometry170(s,h.id),baseB=geometry170(s,b.id),pair=squadPairDistance168(actorHullRadius(h),actorHullRadius(b)),separation=Math.ceil(pair),hosts=points(objective,Math.min(3,hostReach-1.1-.2)).sort((a,b)=>distance(a,h.position)-distance(b,h.position)),assessed=[];
+ for(const hp of hosts){check();if(!endpoint(baseH,hp).clear)continue;const guests=[];for(let i=0;i<16;i++){const p={x:hp.x+separation*Math.cos(i*Math.PI/8),z:hp.z+separation*Math.sin(i*Math.PI/8)};if(distance(p,objective)+1.1<guestReach)guests.push(p);}guests.sort((a,c)=>distance(a,b.position)-distance(c,b.position));
+  for(const bp of guests){check();if(distance(hp,bp)<=pair||!endpoint(baseB,bp).clear)continue;const reservations=[{id:h.id,point:hp,arrival:1.1},{id:b.id,point:bp,arrival:1.1}],gh=reserve170(geometry170(s,h.id),reservations),gb=reserve170(geometry170(s,b.id),reservations);const hc=endpoint(gh,hp),bc=endpoint(gb,bp);if(!hc.clear||!bc.clear)continue;
+   const hostPath=plan170(gh,h.position,hp,check);assessed.push({hp,bp,pair,hostRejection:gh.rejection});if(!hostPath)continue;const guestPath=plan170(gb,b.position,bp,check);if(!guestPath){assessed.at(-1).guestRejection=gb.rejection;continue;}
+   return {contract:'170_CURRENT_OCCUPANCY_PLUS_TWO_COMPLETE_FUTURE_ARRIVAL_RESERVATIONS',tick:s.tick,publication:s.publication,objective,goals:[hp,bp],reservations,paths:[hostPath,guestPath],pairEnvelope:pair,hostReach,guestReach,assessed,plannerMs:now()-began};
+  }
+ }return {goals:null,paths:null,tick:s.tick,publication:s.publication,assessed,rejection:'NO_CURRENT_COMPLETE_SQUAD_STAGE',plannerMs:now()-began};}
+export function finalExtraction170(s,hostName,guestName,objective,guard=()=>{}){const began=Date.now(),check=()=>{guard();if(Date.now()-began>2000)throw Error('170 original2s final staging CPU bound');};check();const h=s.actors.find(a=>a.name===hostName),b=s.actors.find(a=>a.name===guestName),center={...objective,y:objective.y+1};if(!h||!b||h.hp<=0||b.hp<=0||h.downed||b.downed||!h.grounded||!b.grounded||Math.hypot(h.velocity.x,h.velocity.z)>.12||Math.hypot(b.velocity.x,b.velocity.z)>.12)throw Error('170 parked alive squad missing');if(Math.hypot(h.position.x-center.x,h.position.y-center.y,h.position.z-center.z)>=4.5)return {point:null,rejection:'ACTUAL_PARKED_HOST_OUTSIDE_3D_EXTRACTION'};
+ const dy=terrainHeight(objective.x,objective.z,s.seed)+1-center.y,horizontal=Math.sqrt(4.5**2-dy**2)-SQUAD_ARRIVAL168-.2,g=geometry170(s,b.id),pair=squadPairDistance168(actorHullRadius(b),actorHullRadius(h),0),candidates=points(objective,horizontal).sort((a,c)=>distance(a,b.position)-distance(c,b.position));
+ for(const point of candidates){check();const certificate=endpoint(g,point);if(!certificate.clear||distance(point,h.position)<=pair)continue;const floor=certificate.terrain.height+1,worst3D=Math.hypot(distance(point,objective)+1.1,floor-center.y);if(worst3D>=4.5)continue;const path=plan170(g,b.position,point,check);if(path)return {point,path,certificate,hostParkedAt:{...h.position},peerFutureArrival:0,pairEnvelope:pair,worst3D,tick:s.tick,publication:s.publication};}return {point:null,rejection:'NO_COMPLETE_GUEST_ARRIVAL_DISK_WITH_ACTUAL_PARKED_HOST',hostParkedAt:h.position,pairEnvelope:pair};}
+
+

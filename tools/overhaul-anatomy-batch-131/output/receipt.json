@@ -1,0 +1,20 @@
+{
+  "writer": "CLOSED",
+  "startedUTC": "2026-10-11T10:26:20.448Z",
+  "closedUTC": "2026-10-11T10:26:22.709Z",
+  "status": "EXACT_ATTRIBUTE_BATCH_BROWSER_UNADMITTED",
+  "error": null,
+  "witness": {
+    "sourceSHA256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738",
+    "candidateSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+    "candidateBytes": 7646404,
+    "sourceRenderableParts": 255,
+    "candidateRenderableParts": 1,
+    "candidatePrimitives": 5,
+    "shaderVertexTriangleBytesExact": true,
+    "new121OriginalBINPrefixExact": true,
+    "all57RestAnd45AnimationsExact": true,
+    "publicMounted": false,
+    "browserValidation": "PENDING"
+  }
+}

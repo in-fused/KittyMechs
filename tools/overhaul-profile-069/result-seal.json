@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/cpu-profile.json",
+      "bytes": 744236,
+      "sha256": "a52b0dd7d27b490fcbe9f9781dedd960858ea512a3fc89989f98ef884c785378"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/evidence.json",
+      "bytes": 3570694,
+      "sha256": "293fd791ef2216faee60036311fb0e68d3c0bdd334768d1a754d1d3faab0490f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/idle.png",
+      "bytes": 891153,
+      "sha256": "4f641529b4883696e054c6d79c04631a07cd0f1a96bb37c1c80691a8f5f09dfb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/quad-arc.png",
+      "bytes": 864493,
+      "sha256": "677c4c8f621c4d77903599fd8d326bac5c3d9cbf4e2438df27c714ce34efe173"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/quad-rest.png",
+      "bytes": 1039054,
+      "sha256": "ad8ce6e47bad9c66b35a96df09b91dafa547f5a015a7369236e14bc74f8cff8a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/upright-reverse.png",
+      "bytes": 1071469,
+      "sha256": "a0b570bdae291333aa15dffc24f9344eba3e938a5fcc6123b631f31c41b2e9b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-process/process-receipt.json",
+      "bytes": 62412,
+      "sha256": "08826393f68a246fa9cd752c586460dd539b5c93ea7f6146bbf3e0be3fe3f4d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-process/stdout.txt",
+      "bytes": 77,
+      "sha256": "df3b8b039230a1699f3068cee8282dd94ba1eea2c598cb427f26aa2315ded50e"
+    },
+    {
+      "path": "tools/overhaul-profile-069/summary.json",
+      "bytes": 12160,
+      "sha256": "ce65d4a079a79add066ed218fa38f81bc245e87430c26abf7b79a5c1ae8b0ea1"
+    },
+    {
+      "path": "tools/overhaul-profile-069/run-seal.json",
+      "bytes": 97836,
+      "sha256": "544becde8b21bc67167ae57e23b4b4ea9259201ae86bf63be5bc3e9b2cd433aa"
+    },
+    {
+      "path": "tools/overhaul-profile-069/summarize.py",
+      "bytes": 1835,
+      "sha256": "8b34cff453759f0d6c3ac267ae8b8d9d9296eee345dbfd913ec2228833946414"
+    }
+  ],
+  "scope": "Sampled browser main-thread CPU only. Includes CDP observation/screenshot overhead; not GPU time or actual user IAB diagnosis."
+}

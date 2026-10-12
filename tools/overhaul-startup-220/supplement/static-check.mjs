@@ -1,0 +1,15 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {transform} from 'esbuild';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {startupSelectedAsset220} from '../selected-asset.mjs';
+const sha=b=>createHash('sha256').update(b).digest('hex'),normalize=s=>s.replace(/\r\n|\r/g,'\n');
+const rawParent=await readFile('tools/overhaul-startup-220/preimage/GameCanvas211.tsx'),rawCandidate=await readFile('tools/overhaul-startup-220/GameCanvas220.tsx');
+const parent=normalize(rawParent.toString('utf8')),candidate=normalize(rawCandidate.toString('utf8'));
+const undo=candidate.replace('// Private binding defaults to the exact retained57 individual loader key.\nconst selectedPounceURL220 = IDENTITY57_ASSET_URL034;\n\n','').replace('  // Start the selected detailed rig before the fallback hook can suspend.\n  // preload and the later useGLTF consume the same individual cache key.\n  if(initialPublicPounce)useGLTF.preload(selectedPounceURL220);\n\n','').replace('  useGLTF(selectedPounceURL220);','  useGLTF(IDENTITY57_ASSET_URL034);');
+const operands={parentRawSHA256:sha(rawParent),candidateRawSHA256:sha(rawCandidate),parentDoubleCRLF:(rawParent.toString().match(/\r\r\n/g)??[]).length,candidateDoubleCRLF:(rawCandidate.toString().match(/\r\r\n/g)??[]).length,parentNormalizedSHA256:sha(Buffer.from(parent)),undoNormalizedSHA256:sha(Buffer.from(undo)),scope:'Only CR/LF representation normalized; all other source tokens and unchanged blank-line count retained.'};
+await writeFile('tools/overhaul-startup-220/supplement/operands.json',JSON.stringify(operands,null,2)+'\n');
+assert.equal(undo===parent,true,'All unchanged source tokens must match after EOL-only normalization');
+await transform(candidate,{loader:'tsx',format:'esm',jsx:'automatic',sourcefile:'GameCanvas220.tsx'});
+const fiber=await readFile('node_modules/@react-three/fiber/dist/events-9ce18a08.esm.js','utf8');assert(fiber.includes('suspend(loadingFn(extensions, onProgress), [loader, ...keys]'));assert(fiber.includes('preload(loadingFn(extensions), [loader, ...keys])'));assert.equal(startupSelectedAsset220(),null);assert.throws(()=>startupSelectedAsset220({contract:{publicURL:'/assets/private/Pounce_Anatomy221.glb',sha256:'5147c2c2e46f4b2328d5d97ac091da70204244cb68882592d6328cec53489473'},qualification:{privateOnly:true,packedFromSHA256:'PENDING',allArrayLoaderReceiptSHA256:'PENDING'}}));
+await writeFile('tools/overhaul-startup-220/supplement/static-receipt.json',JSON.stringify({writer:'CLOSED',status:'PASS',tsxTransform:'PASS',exact211TokensApartFromDeclaredPreloadScheduling:'PASS_AFTER_EOL_ONLY_NORMALIZATION',installedIndividualLoaderCacheKeyEquality:'PASS_PRIMARY_SOURCE',missingOptionalProofRejected:'PASS',candidateChanged:false,initialFailedCheckPreserved:true,buildRun:false,captureRun:false,KHRAvailability:'UNQUALIFIED',operands},null,2)+'\n');console.log(JSON.stringify({status:'PASS',actualBuild:false,actualCapture:false,candidateChanged:false,operands}));

@@ -1,0 +1,31 @@
+{
+  "packet": "coop-play-045",
+  "closedUTC": "2026-10-11T00:29:13.6588143Z",
+  "review": "docs/overhaul/critic/coop-play-045-result-review.md",
+  "reviewSHA256": "d052a58de081ef4fe7d8895ed5fc142b13248bf46c9a8168a5bcb70f9a269bde",
+  "verdict": "ACCEPT_FAILURE_PRESERVATION_AND_COMMITTED_PARITY_ONLY_DENY_MISSION_AND_GENERAL_GUEST_VISUAL_READINESS",
+  "sourceReviewSHA256": "6cafff439dfa69bec1139233a287bc77e7c232e7bd9957d1a0b1a0991d8352d3",
+  "resultSeal": "tools/overhaul-root-round-033/coop045-result-seal.json",
+  "resultSealSHA256": "68779e7e837dfc0a5f6a1cdedd89bd8b73ca4c844fd95a9fff6d85a64815f446",
+  "verifiedResultRows": 12,
+  "verifiedResultBytes": 7793622,
+  "inputRows": 412,
+  "inputMismatches": 0,
+  "rootProcessExit": 1,
+  "rootInclusiveSeconds": 50.125,
+  "missionStarted": false,
+  "completedRequiredObjectives": 0,
+  "nativePublicationComparisons": 197,
+  "nativePublicationMismatches": 0,
+  "guestOwnPixelsCaptured": false,
+  "genuineFailure": "MissionGuest ordinary readiness missing at declared20s bound; native connected/admitted, visual receipt absent",
+  "cause": "UNKNOWN specific guest visual load/registration/generation lifecycle",
+  "actualPixels": [
+    ".sites-runtime/overhaul-20261010/coop-play-045-public/failure.png",
+    ".sites-runtime/overhaul-20261010/coop-play-045-motion/staging.png"
+  ],
+  "implementationEdits": 0,
+  "reviewerHeavyJobs": 0,
+  "writersClosed": true,
+  "fullGoal": "INCOMPLETE"
+}

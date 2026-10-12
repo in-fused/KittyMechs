@@ -1,0 +1,101 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10252,
+      "sha256": "8fa2de3d7aaea5b31ad496ee74b4c8645a1dde51731c44bf12ebd1e6c7dbec63"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4741,
+      "sha256": "a0b0df85f17ddf64c15f80ac5c25b5ee5f415da15645e6f356c26e68e5f9444d"
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6057,
+      "sha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c"
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900"
+    },
+    {
+      "path": "node_modules/three/src/objects/BatchedMesh.js",
+      "bytes": 47215,
+      "sha256": "b4d1675b3f56258d7d52715b82d42ec856a2380960ad79d9827203358183651b"
+    },
+    {
+      "path": "node_modules/three/src/renderers/WebGLRenderer.js",
+      "bytes": 102861,
+      "sha256": "35cea4871231c3fddc3517dcd03fc876bdb8f9e73f1a77042b35e3de0498c4cd"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/early-review085.md",
+      "bytes": 2743,
+      "sha256": "f8f7e6df36beb2de671b9995f1a3c53443925caf8d74fb1d23a136e144887758"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile169-public/summary.json",
+      "bytes": 18854,
+      "sha256": "8e52132b7d38a7b63bf82dc071580c4717d33d767ee71a8f8ecb7d02aad71ed5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/playability172-public/evidence.json",
+      "bytes": 5612939,
+      "sha256": "ccb59ee6ac05fd2d0e9d3a6b88c211f6c3ae3a20dc6633a79bf16b1425f44ae6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop173-public/evidence.json",
+      "bytes": 1630093,
+      "sha256": "709abafa20c186217d4d61b3d9ec72e8d2e1127906826ed66a25c16c8f07e082"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "public/assets/overhaul/city-v2/Rainline_Modular_City_v2.glb",
+      "bytes": 574656,
+      "sha256": "60fdf81c28f3b7193129111b72179bdf96cc3a9c254c1241e2bb5606aa9f5870"
+    },
+    {
+      "path": "public/assets/overhaul/dressing-v1/Rainline_Dressing_v1.glb",
+      "bytes": 42928,
+      "sha256": "53ab93a0cfc5a3f54c6ac0602d91905114030b231abb54b635f562142a10a4af"
+    },
+    {
+      "path": "public/assets/overhaul/dressing-v2/Rainline_Dressing_v2.glb",
+      "bytes": 40680,
+      "sha256": "c1c6cd591bc73264218d74e54c3944a5e5529c9f329176d41f4ac269fb304af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-061/receipt.json",
+      "bytes": 77526,
+      "sha256": "0f85163eac0dbc7047caf84ae725b094f38b1ca3ceccc3ee0bfbb9b4bb612215"
+    }
+  ],
+  "snapshot": "read-only inputs; protected source baseline preserved separately in preimages178.json"
+}

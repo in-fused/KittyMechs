@@ -1,0 +1,63 @@
+{
+  "closedUtc": "2026-10-10T15:49:01.7476652Z",
+  "activeJobs": 0,
+  "oneAttempt": true,
+  "exitCode": 0,
+  "status": "CONSTRUCTED_STATIC_SOURCE_ONLY",
+  "sourceStart": "2026-10-10T15:47:49.067041Z",
+  "sourceEnd": "2026-10-10T15:47:57.521471Z",
+  "toolChunk": "178d0e",
+  "toolWallSeconds": 9.7957615,
+  "protectedAndFrozen": [
+    {
+      "path": "assets/source/overhaul-feline-anatomy-complete-source-002/author.py",
+      "expected": "a0ab6ab46e52a0d279f901a52e47a381ee612470b8192770555995b8064e6518",
+      "actual": "a0ab6ab46e52a0d279f901a52e47a381ee612470b8192770555995b8064e6518",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-feline-anatomy-complete-source-002/CONTRACT.md",
+      "expected": "ac368ba8c771352203c816321fa08ed17f428077b051f8367c5e150650d0c166",
+      "actual": "ac368ba8c771352203c816321fa08ed17f428077b051f8367c5e150650d0c166",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-feline-anatomy-complete-source-002/design.json",
+      "expected": "556c8623bd644ecab32ce9fcf7c10eecac1efce86848d6728bf5ddd293ce8810",
+      "actual": "556c8623bd644ecab32ce9fcf7c10eecac1efce86848d6728bf5ddd293ce8810",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/feline-anatomy-complete-source-002.md",
+      "expected": "170834400948a31feed872e215610d50755368b419c954eb575bcb64d5e5b422",
+      "actual": "170834400948a31feed872e215610d50755368b419c954eb575bcb64d5e5b422",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend",
+      "expected": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+      "actual": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.raw.glb",
+      "expected": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+      "actual": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/Pounce_CompleteAssembly_001.blend",
+      "expected": "13e4d09f7de269cb5df894f311ddb38b803aae64a2ac8b21a0dcf043823f7b7c",
+      "actual": "13e4d09f7de269cb5df894f311ddb38b803aae64a2ac8b21a0dcf043823f7b7c",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/Pounce_CompleteAssembly_001.raw.glb",
+      "expected": "b7b4726a61e10569486b07aa646067506c1c17fb4dad23e00f2c4cdaf029698f",
+      "actual": "b7b4726a61e10569486b07aa646067506c1c17fb4dad23e00f2c4cdaf029698f",
+      "matches": true
+    }
+  ],
+  "motionNativeArtRuntimeGate1": "UNQUALIFIED",
+  "retry": false
+}

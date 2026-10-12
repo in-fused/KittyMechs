@@ -1,0 +1,341 @@
+{
+  "frozenUTC": "2026-10-10T21:51:49.486772+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-028/receipt.json",
+      "bytes": 69138,
+      "sha256": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/evidence.json",
+      "bytes": 1272294,
+      "sha256": "03b8bc7261a0a619991593f447f553d38ddfa5bea2881d67a954c659cad9e66c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player036-test-process/process-receipt.json",
+      "bytes": 5500,
+      "sha256": "408e51d58aa706527a32b9c6acc8088c66fc1a45b990714076732bc0ed1f156e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player036-test-process/stdout.txt",
+      "bytes": 16860,
+      "sha256": "4054556f8a943bcb6e168e51986cb87fda48931fe6327b1952fc81a7b506819a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/source036-fixture-supplement/manifest.json",
+      "bytes": 939,
+      "sha256": "5849da992e452720bd3aecaf76d756f1be15bc13a435c21ab8f628f4f2171963"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/source036-frozen/files/src/game/input.ts",
+      "bytes": 16446,
+      "sha256": "a00f8f514a13169f10e8816ef29e70b65622bfd7f4eb18173b5d9b76aae40f8b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/source036-frozen/files/tests/jump-network.test.ts",
+      "bytes": 23499,
+      "sha256": "fc41a54e5aac74b4ff3e1c1f3c3a6d1773f11c6ef1e24c94bf417f2e7480c77c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/source036-frozen/manifest.json",
+      "bytes": 9646,
+      "sha256": "d36cd88b433c8ea95040068704db241788791ea7bfe15a45e449ce88418f1a2b"
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-art-detail-034-material-result-review.md",
+      "bytes": 2236,
+      "sha256": "05fd5acfb7aaf3d99c3c346632cc77f43fc9d79e67369afe7178533c508e80ff"
+    },
+    {
+      "path": "docs/overhaul/input-correction-037-implementation.md",
+      "bytes": 4149,
+      "sha256": "56ae38c2b0a7ccb9b50b7b2dc9def462f16166a34d0cc8b4f97c2a8fa5fb3c95"
+    },
+    {
+      "path": "docs/overhaul/next-bounded-player-work-036.md",
+      "bytes": 2341,
+      "sha256": "7c5fa3d3ff1d572ecc3a8f3d3ecc254d5816ef4fdfcad76bbe68a1b89b5a2cd9"
+    },
+    {
+      "path": "docs/overhaul/pounce-art-player-035-contract.md",
+      "bytes": 2086,
+      "sha256": "b3b79b001884a16aa1a4eaaac1b6e25376b6d5f65b000e7ff6083d59fa05a06d"
+    },
+    {
+      "path": "docs/overhaul/strike-intent-036-implementation.md",
+      "bytes": 5048,
+      "sha256": "055c84ca0539e4d5ce9214c27bf425c2ae2550216b3531abe674b2600c5446cd"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": "shared/inputProtocol.ts",
+      "bytes": 834,
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "bytes": 12849,
+      "sha256": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 175845,
+      "sha256": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 7772,
+      "sha256": "0a0cf2a27739625ef378d6d79685949c89d5047fd2660f3743f19e598efc4ddb"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 9153,
+      "sha256": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 3670,
+      "sha256": "d76aab8c8e0d917a2f18487795f7a508ce4fc4da46a61d7779094c0fa153629d"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Actor.tsx",
+      "bytes": 4111,
+      "sha256": "7e42fa2e64518d62b0458db1232591bd3b854a33a130efa26dace178a7dcf23f"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4142,
+      "sha256": "7ff3f26cacb709b02f7ea0bbf63071bb165a1303f7157d364f033b40210e46b7"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 16456,
+      "sha256": "8decf3f9a2b32c80efecd67a315bccb0d6c8feddfee7bf54e3fd46b2b0429e83"
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10932,
+      "sha256": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3087,
+      "sha256": "e6f8c17fe7b3f54c0e46c1cff9f1dbbbd9f4fbba4608bd183427977c2bef2a94"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 3133,
+      "sha256": "dc980bf404bd7cdb980104fa03fbdb04ae16a749c3e0d2bf0a35d361678489f1"
+    },
+    {
+      "path": "tests/chassis.test.ts",
+      "bytes": 4152,
+      "sha256": "7472c72a75735ab34f1d556642ab5e8e43cbd785843fde45502504fa29a5f457"
+    },
+    {
+      "path": "tests/city-authority.test.ts",
+      "bytes": 24819,
+      "sha256": "34d38f19fd12f1f2b132402bdd2807f0b1225e63c821e7db7b88b2b29de33c76"
+    },
+    {
+      "path": "tests/city-presentation.test.ts",
+      "bytes": 5210,
+      "sha256": "aa013281f2ef3b187feb68511fab96a95c084be41b3070fe6ca5c4bc1e335a5e"
+    },
+    {
+      "path": "tests/city-rubble-presentation.test.ts",
+      "bytes": 7870,
+      "sha256": "b7744d1107049a2eca74442f25329ddb66885db9903c9b10f4737d162832540f"
+    },
+    {
+      "path": "tests/climb-admission.test.ts",
+      "bytes": 4682,
+      "sha256": "9d8989ec85380b4c8483b96d554eeb2a6dd91f67574467befa868185094ca16b"
+    },
+    {
+      "path": "tests/cover-state.test.ts",
+      "bytes": 5154,
+      "sha256": "1afca311a8a8a7087f88355302471888dde8ac9f8228dc1cfea69d1f1e5c6f32"
+    },
+    {
+      "path": "tests/feline-strike-authority.test.ts",
+      "bytes": 21244,
+      "sha256": "90e82f7d99622e99d8ea3d3c20baec7d84e9a3f889c1c6d704c3815370713b61"
+    },
+    {
+      "path": "tests/feline-strike-input.test.ts",
+      "bytes": 5920,
+      "sha256": "ef710d4831a52c6f7aad3126c6b32d2ade744c1ea03ba15b834e26d0cdf1c225"
+    },
+    {
+      "path": "tests/feline-strike-presentation.test.ts",
+      "bytes": 8121,
+      "sha256": "e15ff8796a481a6bef5d187e398641a20c5de1bd3dd3e5ae57bc1fb0c380968e"
+    },
+    {
+      "path": "tests/jump-delivery.test.ts",
+      "bytes": 7925,
+      "sha256": "b6d5cced967537a6317e866691e1a8e82a6236cede155686236e3aab5eb9acb0"
+    },
+    {
+      "path": "tests/jump-input.test.ts",
+      "bytes": 7542,
+      "sha256": "ec41302a0066ea6c14e0695660a00b41979890bbabc8b1863bd13e828f0e4c05"
+    },
+    {
+      "path": "tests/jump-network.test.ts",
+      "bytes": 23532,
+      "sha256": "6b7af1f12c729f5069faeb0082ad84a069244a42d18fb5f0bd49c78e6f503f89"
+    },
+    {
+      "path": "tests/jump-prehook.test.ts",
+      "bytes": 3856,
+      "sha256": "34ce7186a6a7b6102d60f73bbd0ae3b15ba2b7e757f14c9c151ec9e75d8c4ba5"
+    },
+    {
+      "path": "tests/jump-transport.test.ts",
+      "bytes": 3301,
+      "sha256": "592dec4f1abd672d59efe0d6c17c7f4074a7ad0f042ca7e75d7ef8425eb46cf5"
+    },
+    {
+      "path": "tests/overhaul-view-aim.test.ts",
+      "bytes": 3610,
+      "sha256": "0378c197852b1ac0b6a4c3fa2e77d67a71bbacdb733d05aabfbba3a2efa57418"
+    },
+    {
+      "path": "tests/overhaul-view-input.test.ts",
+      "bytes": 2491,
+      "sha256": "b735d8709c767f245a06772512f8491e207601751bfbcace4d273a329192f872"
+    },
+    {
+      "path": "tests/simulation.test.ts",
+      "bytes": 8346,
+      "sha256": "e0962c2f5bc172792cbf0d1d4474d74ff62f8409394960fecf1f9036e66e854c"
+    },
+    {
+      "path": "tests/strike-intent-036.test.ts",
+      "bytes": 113,
+      "sha256": "3dadca95e667c4a27f024378d3edb451c9eefc44b836940babd93027bdcbe77e"
+    },
+    {
+      "path": "tools/overhaul-art-player-035.mjs",
+      "bytes": 12885,
+      "sha256": "751063f670cbab2cbc23ea1f1498a7b4553cbc312744a26dd16c0274d7fdc254"
+    },
+    {
+      "path": "tools/overhaul-art-player-036.mjs",
+      "bytes": 15672,
+      "sha256": "21d343cb6c7c9c446ae026606af9986165a7114b3f8433bb0056963223765bf8"
+    },
+    {
+      "path": "tools/overhaul-art-player-037.mjs",
+      "bytes": 15685,
+      "sha256": "f6ba3986536bbff49cad5bfab4186a7e3b26dd107eeaa20aa36ec608e03b0f6d"
+    },
+    {
+      "path": "tools/overhaul-input-correction-037/implementation-seal.json",
+      "bytes": 8072,
+      "sha256": "73e478cc0f66d4ff802426161aef82164b02723402d3d2e1b55b628a8c9ff2e8"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pounce-art-detail-034/result-seal.json",
+      "bytes": 2730,
+      "sha256": "8518c675fef927cc7995b07e6af0be50053cc7f24af4f24bc5e106230dedb7bb"
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/final-result-seal.json",
+      "bytes": 4011,
+      "sha256": "4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    },
+    {
+      "path": "tools/overhaul-root-round-028/freeze-player036.py",
+      "bytes": 1721,
+      "sha256": "189c14238c882c6185930bbb37c495536717b1bf331ac0263647abfe548016ea"
+    },
+    {
+      "path": "tools/overhaul-root-round-029/freeze-player037.py",
+      "bytes": 1924,
+      "sha256": "4e8860fc66279d8054b7977fa35416e401fa9124966653d8bb71c98fc222dd25"
+    },
+    {
+      "path": "tools/overhaul-strike-intent-036/contract.ts",
+      "bytes": 8673,
+      "sha256": "524f6f85c6a2bc1faca1320cf8547094935f45df02258f7b59d62b8b7a0f3b6a"
+    },
+    {
+      "path": "tools/overhaul-strike-intent-036/implementation-seal.json",
+      "bytes": 6689,
+      "sha256": "d063ccaa61aa1e80ad4ca344eef5edd15bbccafc5d97489291243d99d7c1051e"
+    }
+  ],
+  "command": [
+    "node",
+    "tools/overhaul-art-player-037.mjs"
+  ],
+  "inclusiveCapSeconds": 150,
+  "scope": "ONE conditional pause037 and strike-intent036 integrated validation; first genuine failure closes packet"
+}

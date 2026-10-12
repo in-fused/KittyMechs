@@ -1,0 +1,211 @@
+{
+  "sourceSealSHA": "403e91fa4e694b53dc5a01aaec3ba70f063643df9b8f865817d1fb30692e86b5",
+  "loaderClocks": 12,
+  "defaultPoseDifferences": 0,
+  "jobs": 0,
+  "sourceEditsAfterFreeze": 0,
+  "loaderMaxMatrix": 2.5332767095154196E-07,
+  "stages": [
+    {
+      "name": "compile",
+      "pid": 348472,
+      "at": "2026-10-10T19:33:13.012Z",
+      "end": "2026-10-10T19:33:15.914Z",
+      "code": 0,
+      "timeout": false
+    },
+    {
+      "name": "author",
+      "pid": 347560,
+      "at": "2026-10-10T19:33:15.916Z",
+      "end": "2026-10-10T19:34:00.096Z",
+      "code": 0,
+      "timeout": false
+    },
+    {
+      "name": "graft",
+      "pid": 349844,
+      "at": "2026-10-10T19:34:00.098Z",
+      "end": "2026-10-10T19:34:00.718Z",
+      "code": 0,
+      "timeout": false
+    },
+    {
+      "name": "actual-loader",
+      "pid": 344464,
+      "at": "2026-10-10T19:34:00.719Z",
+      "end": "2026-10-10T19:34:03.1Z",
+      "code": 0,
+      "timeout": false
+    },
+    {
+      "name": "retained-pose-manifest",
+      "pid": 170008,
+      "at": "2026-10-10T19:34:03.101Z",
+      "end": "2026-10-10T19:34:03.581Z",
+      "code": 0,
+      "timeout": false
+    }
+  ],
+  "schema": "art-bridge019-closure",
+  "retainedBoneMatrixMaxDelta": 0,
+  "asset": {
+    "clips": 43,
+    "vertices": 30025,
+    "pads": 20,
+    "materials": 4,
+    "bones": 57,
+    "bytes": 4191736,
+    "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.raw.glb",
+    "triangles": 48492,
+    "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+  },
+  "overallSeconds": 50.954,
+  "loaderMaxVertex": 2.66859409681075E-07,
+  "status": "SOURCE_ART_BRIDGE_READBACK_ONLY",
+  "all22Match": true,
+  "startUTC": "2026-10-10T19:33:13.0110000Z",
+  "inputRows": [
+    {
+      "actual": "0440eef72af0ada36ec886e792c4f56222d28f6bc996477409ea21a4e705ade6",
+      "match": true,
+      "expected": "0440eef72af0ada36ec886e792c4f56222d28f6bc996477409ea21a4e705ade6",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/author.py"
+    },
+    {
+      "actual": "69083a97fd15bed2ee2a7ca08fe39860afb50c8bb8f9148adb18f4da20be6a18",
+      "match": true,
+      "expected": "69083a97fd15bed2ee2a7ca08fe39860afb50c8bb8f9148adb18f4da20be6a18",
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source_helpers.py"
+    },
+    {
+      "actual": "e30619c9f77ec43b6c7418a79338d59e8912c7aa8f0e323fe88b7d18787a3988",
+      "match": true,
+      "expected": "e30619c9f77ec43b6c7418a79338d59e8912c7aa8f0e323fe88b7d18787a3988",
+      "path": "tools/overhaul-pounce-art-bridge-019/graft.mjs"
+    },
+    {
+      "actual": "ce902aa355fe20ea64e67daaf34b7681cd6e910625a0e5454563d9e596c79d81",
+      "match": true,
+      "expected": "ce902aa355fe20ea64e67daaf34b7681cd6e910625a0e5454563d9e596c79d81",
+      "path": "tools/overhaul-pounce-art-bridge-019/finish.ts"
+    },
+    {
+      "actual": "cf23fb101833a855bfe8362fd065a0fd9320d450169d86e173c1731e62e0a9d2",
+      "match": true,
+      "expected": "cf23fb101833a855bfe8362fd065a0fd9320d450169d86e173c1731e62e0a9d2",
+      "path": "tools/overhaul-pounce-art-bridge-019/run.mjs"
+    },
+    {
+      "actual": "53b3602e971eec1ad82667c1e777f1bb6ba54a0f9a1ae041e76c29c6ea97b763",
+      "match": true,
+      "expected": "53b3602e971eec1ad82667c1e777f1bb6ba54a0f9a1ae041e76c29c6ea97b763",
+      "path": "tools/overhaul-pounce-art-bridge-019/protected-inputs.json"
+    },
+    {
+      "actual": "cfffe0b81dd009593fe0dd321651fd45cd60cdcaa05b11e512950bd67fa70f32",
+      "match": true,
+      "expected": "cfffe0b81dd009593fe0dd321651fd45cd60cdcaa05b11e512950bd67fa70f32",
+      "path": "docs/overhaul/pounce-art-bridge-019.md"
+    },
+    {
+      "actual": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "match": true,
+      "expected": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend"
+    },
+    {
+      "actual": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "match": true,
+      "expected": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    },
+    {
+      "actual": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "match": true,
+      "expected": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source-profile.json"
+    },
+    {
+      "actual": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "match": true,
+      "expected": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "actual": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "match": true,
+      "expected": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "actual": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "match": true,
+      "expected": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend"
+    },
+    {
+      "actual": "d72113b364fac8b018e1c167c4cab5507b189dd6bc273b4c15660cb3136a18c8",
+      "match": true,
+      "expected": "d72113b364fac8b018e1c167c4cab5507b189dd6bc273b4c15660cb3136a18c8",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.raw.glb"
+    },
+    {
+      "actual": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "match": true,
+      "expected": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json"
+    },
+    {
+      "actual": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6",
+      "match": true,
+      "expected": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6",
+      "path": "src/game/entities/identity57Runtime005Manifest.json"
+    },
+    {
+      "actual": "3dd0e07a604992c0bffd77d4bcef041fdd880ea2bb8c804e966378560d407361",
+      "match": true,
+      "expected": "3dd0e07a604992c0bffd77d4bcef041fdd880ea2bb8c804e966378560d407361",
+      "path": ".sites-runtime/overhaul-20261010/feline57-contract-017/packet.json"
+    },
+    {
+      "actual": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "match": true,
+      "expected": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "path": "tools/overhaul-feline57-contract-013/export.ts"
+    },
+    {
+      "actual": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "match": true,
+      "expected": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "path": "shared/feline57Contract013.ts"
+    },
+    {
+      "actual": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "match": true,
+      "expected": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "path": "shared/feline57Evaluator013.ts"
+    },
+    {
+      "actual": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f",
+      "match": true,
+      "expected": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f",
+      "path": "shared/feline57Profile013.ts"
+    },
+    {
+      "actual": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "match": true,
+      "expected": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "path": "shared/feline57Occupancy013.ts"
+    }
+  ],
+  "runtimeActivation": false,
+  "artApproval": "PENDING_INDEPENDENT_RESULT",
+  "endUTC": "2026-10-10T19:34:03.9650000Z",
+  "native": false,
+  "maxInverseBindDelta": 0,
+  "exactOriginalChannelSets": 43,
+  "closedUTC": "2026-10-10T19:36:30.1283215Z",
+  "retainedBoneClocks": 15,
+  "repairRuns": 0
+}

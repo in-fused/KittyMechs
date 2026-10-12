@@ -1,0 +1,21 @@
+# CLOSED — DENY_SOURCE_INTEGRATION194_196
+
+194/196 remain unadmitted. Retain playable062. The animation-only package addresses resource preservation, but its delivered mixed transition fails the unchanged source-floor budget, and the viewed motion does not yet establish convincing feline locomotion. No author, package, runtime integration or gameplay retry is authorized by this review.
+
+I viewed the eight-step side and front boards for Walk, Gallop, UprightStride, R-up and R-down, and full-size Walk-side-02, Gallop-side-03, UprightStride-front-03, R-up-side-04 and R-down-side-04. These are actual sequential source images; GIF playback was not assumed. Forelimb advance/retraction and hind recovery are readable improvements over a static pose. Gallop has more extension, but the relatively rigid thorax and long lower-limb rods convey stepping/bounding more clearly than a compressed feline launch and landing. Upright arms alternate visibly, yet resemble cross-body pumping. In both R sequences, forepaws rise toward the face while the trunk tilts around the hind limbs; this does not convincingly communicate the forelimb unload, hind load transfer and eventual forepaw return. Sparse previews cannot prove continuous lift, planting, balance or absence of sliding.
+
+196's merge receipt records exact retained scene/rest/resources, original binary prefix and 39 unchanged animation arrays, with five active primitives. Its 9,397,620-byte output adds 1,751,216 bytes of animation data. This packaging result is useful and separate from motion admission; it does not rescue the rejected194 serializer that normalized a retained claw rest scale.
+
+The actual browser GLTFLoader used cubic interpolants. At 128 phases per gait, loaded full-pad normal minima stayed within 10 mm: Walk 0.432, Trot 5.202, Gallop 4.979, UprightWalk 1.194 and UprightStride 6.597 mm. Mixed R instead produced HR gap -12.272705 mm at phase 0.1, stance 0.5, exceeding the retained budget. The sampler marks this hind foot loaded under both gait duties at that phase; it is not an unloaded forelimb mistakenly tested as planted. The mounted .8/Ry(pi) basis and current skin sampling distinguish this counterexample from the earlier source-floor basis failure. These are source-plane normal measurements, not persistent material-point tangential contact or native support. The separate 20 micrometre pose/replay guard cannot be substituted for the 10 mm interpolation criterion, or vice versa.
+
+One bounded next design is a **phase-conditioned R transition** coordinating pelvis/thorax motion and hind-chain trajectories with the currently loaded gait, while forelimbs deliberately unload and return. A phase-independent additive arc layered over rotation-blended gaits does not guarantee the blended weighted paw remains clear, even when each gait and sparse master preview passes. Author the intermediate transition task/trajectory against the actual delivered cubic/blend evaluator, including the saved phase-0.1/stance-0.5 counterexample and both directions; improve the visible forepaw gesture and load transfer together. Preserve fixed chain geometry, native stride contracts and the existing budget. More key density, a global mount/floor offset or a relaxed threshold would not address that ownership problem. This is a proposed distinct design, not permission to repeat either closed packet.
+
+The private browser decode was one direct tool run, not an externally supervised, presealed gameplay job. No public integration, native gameplay contact, reverse/turn/start-stop quality, retained combat/climb appearance, performance gain or affected-human Lowest/IAB lag is accepted. Full goal remains incomplete.
+
+Bindings (SHA256):
+
+- 194 seal: `8c203285e639142da3e80e40de9b485c32dfce2a7a5aeac8722fecf0e1c7263e`; HANDOFF: `86d6c2ff61aed9fbd221fdb5bfa8784da489517a3189e1e4debef4f40b47a2ac`.
+- 196 seal: `a1925217b42ead06214a44ce4da7c7036dfa9a756a880351fc9d08a271225167`; HANDOFF: `30bec542ac7f0eb99688b1d09494fe9eb931b847dcfd6b1a33fb3790b1020554`.
+- Actual browser evidence: `9bb0280dc7d36f7951a5d3deb24ffa311631d41ba7ebe9520bdbab350c8d76cf`; unadmitted package: `10181e036b0c090af14278bc3ce7730c0ea2e64337218436ecd3046e44b970ac`.
+
+Reviewer writer CLOSED. No production or packet bytes changed.

@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/evidence.json",
+      "bytes": 1261636,
+      "sha256": "1a450602e9e4e28d44e81b01bcc0e100ccf3524ad970c9a8b0831c9abb2a9441"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/final-idle.png",
+      "bytes": 943527,
+      "sha256": "6be2fdf9826837aca16505128f58d1ae4c8c7c61f1dc631f41ca0664c5665c31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/idle.png",
+      "bytes": 1058601,
+      "sha256": "bdebf4053b39f4ba83befc58f0727fc1b802ed8f3343c893e5f9805e9a86596a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/moving-R-down.png",
+      "bytes": 971047,
+      "sha256": "234ed781f454f0446ea37783373bb0ca6781841334ca2e38292695dcba3c54de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/moving-R-up.png",
+      "bytes": 986084,
+      "sha256": "990caf9344285a7c98dee4775b363dc9507c73234a66254f96b2585214d1dd22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/page@45d02ee1fdffbc51471c29ea5930d7b5.webm",
+      "bytes": 4901286,
+      "sha256": "0a34e12de3093ddb5c2d2299c61ecda1da38edf1c2328dd7393ac12825ef0ef2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-forward.png",
+      "bytes": 960976,
+      "sha256": "64f554b2819e79a51b632769b2d8e17210a4b67dbe1de325eab6f61ee38e65e5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-return.png",
+      "bytes": 958174,
+      "sha256": "347595cb0e0a91d6b8aa6a793bf3c02736c5b0180599702e142bc5a6e8c28e9e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-reverse.png",
+      "bytes": 1041476,
+      "sha256": "58b473b71fcf3db84347d820a8da717eff0b0616b5c8b846d23b31e350c69b1c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/quad-stop.png",
+      "bytes": 1049760,
+      "sha256": "92f1c9d90ef6e36fd12c9e738ffac190cd9de519aa343bfea031ebee20563db1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-forward.png",
+      "bytes": 962426,
+      "sha256": "6d44f7792c7faea375445544e4800b81a483643d406c82846339810a584a99b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-reverse.png",
+      "bytes": 976259,
+      "sha256": "754a0eef4d575cbdd15c25c3fa2762723de55dcc6774a4de899fc78842bbeda7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/contact099-candidate/upright-stop.png",
+      "bytes": 966787,
+      "sha256": "d805522a127b7c17039bada2879324aa1f5ba3633f99c16d87e6b55ca632a46c"
+    },
+    {
+      "path": "tools/overhaul-contact-integration-099/extract-review.py",
+      "bytes": 1678,
+      "sha256": "75b7b78f1be2d58a65e251309a150301f1770ce1f7845bd073f2e83f58b53437"
+    },
+    {
+      "path": "docs/overhaul/critic/contact099-source-review.md",
+      "bytes": 6186,
+      "sha256": "0a0779cafa1475659400f7a1852e719ea10640e48b4c75b98b71d1ba0da5a720"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "protected": [],
+  "command": [
+    "python",
+    "tools/overhaul-contact-integration-099/extract-review.py"
+  ],
+  "scope": "One critic-approved savedvideo derivation30; originalinputs protected, no gameplay rerun"
+}

@@ -1,0 +1,13 @@
+# Failed material passage: source reassessment
+
+Root readonly reassessment, 2026-10-10. No native replay, candidate edit or destruction approval. Original denied receipts and source remain intact.
+
+The repaired bonded-material-001 run retained all sixteen leaves and exhausted all twenty-eight interfaces. Its first crossing stopped on leaf 7 at the exact position/rotation saved in `bonded-material-001/frozen-route.json`. The healthy full Pounce hull did not cross; a usable breach is still unproved.
+
+One tempting explanation is ruled out by ownership: `Simulation.advanceStep` disables autostep onto **dynamic** bodies when rubble exists, but `OverhaulBondedOwner.advance` converts a sleeping, actually supported detached component into a **Fixed** body. The failed receipt reports all sixteen components settled. The dynamic-body switch alone therefore does not explain this particular obstruction. Enabling it globally would neither establish the frozen route nor qualify safe stepping onto moving material.
+
+The collider's recorded half extents are local axes. Its quaternion rotates those axes; using twice the center Y, or one unrotated half extent, as its world height is incorrect. A straight horizontal shape cast also cannot establish whether the character controller's upward/forward/downward autostep sequence has full-hull headroom, sufficient landing width and real support. The recorded cast establishes an obstacle, not that every legal traversal path is impossible.
+
+The next justified identification is narrowly bounded: recover the exact failed material/whole-wreck poses and intact structural masks in a separate isolated native fixture; preserve the original full hull, skin, autostep height/width, gravity and owned filters. Capture the actual controller request and its complete collision sequence at the failed approach, plus upward/forward/downward full-hull clearance and owned support. Compare a declared single-fragment control with the full retained wreck field to distinguish local contact geometry from another obstruction. Do not overwrite the original failing route or call a reconstructed fixture exact private-state replay.
+
+Only an identified representation/controller ownership defect warrants one separately bounded correction. Do not shrink the pawn, remove/move/freeze debris to force passage, add weapon energy, alter the partition, inject movement, or waive remaining supports. Character wake and dynamic stepping still need honest reaction, support retirement and active-body budget qualification; neither is admitted by this source inspection. Rendering, guest agreement, cascade and ordinary playable destruction remain incomplete.

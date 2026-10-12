@@ -1,0 +1,397 @@
+{
+  "status": "PASS_COMPILED_LAMP_NAVIGATION_SOURCE_ONLY",
+  "scope": "retained compiled geometry/NPC+mission source admission checks; no world simulation/browser/native replay",
+  "cases": [
+    {
+      "label": "FAILED_CONTINUOUS_NATIVE_HULL_SEGMENT",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "a": {
+          "x": -2.8386400980165742,
+          "z": 18.0238562306319
+        },
+        "b": {
+          "x": -2.8386400924050856,
+          "z": 12.023856217758475
+        },
+        "band": {
+          "minY": -0.03,
+          "maxY": 2.6
+        },
+        "radius": 1.75,
+        "stat": {
+          "clippedTriangles": 124,
+          "testedTriangles": 1
+        }
+      }
+    },
+    {
+      "label": "FAILED_EXISTING_PLANNER_SEGMENT",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "radius": 2.85
+      }
+    },
+    {
+      "label": "FAILED_ENTIRE_ARRIVAL_REGION",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "point": {
+          "x": -2.8386400924050856,
+          "z": 12.023856217758475
+        },
+        "radius": 3.95
+      }
+    },
+    {
+      "label": "CLEAR_CONTINUOUS_LAMP_BYPASS",
+      "actual": false,
+      "expected": false,
+      "operands": {
+        "bypassA": {
+          "x": -8,
+          "z": 18.0238562306319
+        },
+        "bypassB": {
+          "x": -8,
+          "z": 12.023856217758475
+        },
+        "band": {
+          "minY": -0.03,
+          "maxY": 2.6
+        },
+        "radius": 2.85
+      }
+    },
+    {
+      "label": "CLEAR_LAMP_BYPASS_ARRIVAL",
+      "actual": false,
+      "expected": false,
+      "operands": {
+        "point": {
+          "x": -8,
+          "z": 12.023856217758475
+        },
+        "radius": 3.95
+      }
+    },
+    {
+      "label": "BODY_BAND_EXCLUDES_OVERHEAD_ARM",
+      "actual": false,
+      "expected": false,
+      "operands": {}
+    },
+    {
+      "label": "SAME_ARM_INCLUDED_AT_ACTUAL_HEIGHT",
+      "actual": true,
+      "expected": true,
+      "operands": {}
+    },
+    {
+      "label": "ENTIRE_MESH_ABOVE_BODY_BAND",
+      "actual": false,
+      "expected": false,
+      "operands": {}
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.5:0",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.5,
+          "rotation": 0
+        },
+        "left": {
+          "x": 16.95,
+          "z": -7.5
+        },
+        "right": {
+          "x": 16.95,
+          "z": -9
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.5:1.5707963267948966",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.5,
+          "rotation": 1.5707963267948966
+        },
+        "left": {
+          "x": 18.5,
+          "z": -8.95
+        },
+        "right": {
+          "x": 17,
+          "z": -8.95
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.5:-0.73",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.5,
+          "rotation": -0.73
+        },
+        "left": {
+          "x": 15.962436827377209,
+          "z": -7.91558187823288
+        },
+        "right": {
+          "x": 16.962741279882756,
+          "z": -9.033343481750185
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.9:0",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.9,
+          "rotation": 0
+        },
+        "left": {
+          "x": 16.91,
+          "z": -6.3
+        },
+        "right": {
+          "x": 16.91,
+          "z": -9
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.9:1.5707963267948966",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.9,
+          "rotation": 1.5707963267948966
+        },
+        "left": {
+          "x": 19.7,
+          "z": -8.91
+        },
+        "right": {
+          "x": 17,
+          "z": -8.91
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:0.9:-0.73",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 0.9,
+          "rotation": -0.73
+        },
+        "left": {
+          "x": 15.132386289278976,
+          "z": -7.048047380819183
+        },
+        "right": {
+          "x": 16.93293430378896,
+          "z": -9.060018267150333
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:1.4:0",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 1.4,
+          "rotation": 0
+        },
+        "left": {
+          "x": 16.86,
+          "z": -4.800000000000001
+        },
+        "right": {
+          "x": 16.86,
+          "z": -9
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:1.4:1.5707963267948966",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 1.4,
+          "rotation": 1.5707963267948966
+        },
+        "left": {
+          "x": 21.2,
+          "z": -8.86
+        },
+        "right": {
+          "x": 17,
+          "z": -8.86
+        }
+      }
+    },
+    {
+      "label": "SCALE_YAW_PIVOT_CORRESPONDENCE:1.4:-0.73",
+      "actual": true,
+      "expected": true,
+      "operands": {
+        "p": {
+          "kind": "lamp",
+          "x": 17,
+          "y": 2,
+          "z": -9,
+          "scale": 1.4,
+          "rotation": -0.73
+        },
+        "left": {
+          "x": 14.094823116656187,
+          "z": -5.9636292590520625
+        },
+        "right": {
+          "x": 16.895675583671718,
+          "z": -9.093361748900518
+        }
+      }
+    },
+    {
+      "label": "CACHE_INITIAL_BLOCK",
+      "actual": true,
+      "expected": true,
+      "operands": {}
+    },
+    {
+      "label": "CACHE_MUTATED_PLACEMENT_RECOMPILES",
+      "actual": false,
+      "expected": false,
+      "operands": {}
+    },
+    {
+      "label": "CACHE_MUTATED_VERTICAL_BAND_RECOMPILES",
+      "actual": false,
+      "expected": false,
+      "operands": {}
+    }
+  ],
+  "failure": null,
+  "nativeGeometry": {
+    "vertices": 716,
+    "triangles": 752,
+    "prop": {
+      "kind": "lamp",
+      "x": -2.5,
+      "y": -0.08,
+      "z": 12,
+      "scale": 0.9,
+      "rotation": 0
+    },
+    "descriptorTranslation": {
+      "x": -2.5,
+      "y": -0.08,
+      "z": 12
+    },
+    "descriptorRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  },
+  "NPC": {
+    "oldTargetWalkable": true,
+    "candidateTargetWalkable": false,
+    "candidateBypassWalkable": true,
+    "route": [
+      {
+        "x": -9,
+        "y": 0.92,
+        "z": 15
+      },
+      {
+        "x": -9,
+        "y": 0.92,
+        "z": 12
+      },
+      {
+        "x": -9,
+        "y": 0.92,
+        "z": 9
+      },
+      {
+        "x": -9,
+        "y": 0.92,
+        "z": 6
+      }
+    ]
+  },
+  "missionCertificate": {
+    "clear": false,
+    "blocker": {
+      "kind": "RETAINED_LAMP_TRIMESH",
+      "owner": "lamp",
+      "prop": {
+        "kind": "lamp",
+        "x": -2.5,
+        "y": -0.08,
+        "z": 12,
+        "scale": 0.9,
+        "rotation": 0
+      }
+    },
+    "terrain": {
+      "clear": true,
+      "height": -0.08,
+      "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+      "radius": 2.85
+    }
+  }
+}

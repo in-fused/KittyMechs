@@ -1,0 +1,20 @@
+{
+  "writer": "CLOSED",
+  "inventory": {
+    "commands": [
+      "node node_modules/tsx/dist/cli.mjs tools/overhaul-render-181/extract-source181.mts",
+      "node node_modules/tsx/dist/cli.mjs tools/overhaul-render-181/correspondence181.mts"
+    ],
+    "exitCode": 0,
+    "combinedToolWallSeconds": 2.75147,
+    "note": "Elapsed is tool receipt across sequential extraction/inventory; individual PID/time not recorded."
+  },
+  "fixture": {
+    "command": "node node_modules/tsx/dist/cli.mjs tools/overhaul-render-181/check-foliage181.mts",
+    "exitCode": 0,
+    "toolWallSeconds": 1.1599231,
+    "checks": 179
+  },
+  "typesReceipt": "tools/overhaul-render-181/types-process181.json",
+  "candidateRepairs": 0
+}

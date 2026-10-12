@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "scope": "One private263 integration of unchanged-pose optimization256; corrected retained receipt identity after unexecuted258 rejection; actual cost/gameplay approval pending.",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-integration-263/binding.json",
+      "bytes": 257503,
+      "sha256": "f572826a0dd543980fe8de47f3e7d679f312833f056b03e8e14b928a385828c5"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-263/build263.mjs",
+      "bytes": 2065,
+      "sha256": "2992f951455d2c91df57bea9226e7cd63fd43352e1a5ed265340604e8876864d"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-263/plugin263.mjs",
+      "bytes": 2566,
+      "sha256": "5e9bbae332bfb50de9859abbabf1b39a5aded2add916e3f72bdfa1104d8ca56d"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-263/prepare263.py",
+      "bytes": 3084,
+      "sha256": "9996f608c6f2330ff5c69dfc38d8f6db4f35846250e5c332d0d1d3820d80653f"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-263/supervise263.py",
+      "bytes": 7232,
+      "sha256": "f92ade04df6fd1c9c41b2e2379a3f0b3f8db1563090dcf0d2759720548a7c2e8"
+    }
+  ]
+}

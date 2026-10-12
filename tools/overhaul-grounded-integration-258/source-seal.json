@@ -1,0 +1,31 @@
+{
+  "writer": "CLOSED",
+  "scope": "One private258 integration of unchanged-pose ownership optimization256; actual cost/gameplay approval pending; original221 asset resource caveat retained.",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-integration-258/binding.json",
+      "bytes": 257490,
+      "sha256": "5e1dbdb94749a84193b74f11f24d84234e9d323604af9d5194637f7104fcd238"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-258/build258.mjs",
+      "bytes": 2065,
+      "sha256": "b90602f75881f439474941a41d3e94c234f0f01dc2e77e5e63e05d083cc03878"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-258/plugin258.mjs",
+      "bytes": 2566,
+      "sha256": "f184f00c61aba51404aae8d57817b7766d30f13ca0bec2c038582fd7813fab21"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-258/prepare258.py",
+      "bytes": 3035,
+      "sha256": "89a1080ac0db75052c50fb57239303a71781dec1ebfdda57fa50965c3739f5a8"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-258/supervise258.py",
+      "bytes": 7232,
+      "sha256": "80e785907c8255dd3e6cf5482c0967156c7ed043c0a9d0c29f93317e39bc8f0a"
+    }
+  ]
+}

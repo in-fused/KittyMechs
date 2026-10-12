@@ -1,0 +1,37 @@
+
+ RUN  v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web
+
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > ON57 moves decoded joints, preserves source transforms, integrates once and never queries/executes contact 238ms
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > OFF25 uses actual measured clocks/strides and live movingR source joints without a second owner 103ms
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > temporary unsupported action exits, source bookkeeping does not catch up, fatal binding remains fatal across reset 394ms
+ × tests/source-presentation154.test.ts > 154 actual authored source presentation > real dispatch state switches visible owner and current registry, retains history without sticky temporary failure 204ms
+   → Visual envelope: skin weights must sum exactly to one
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/source-presentation154.test.ts > 154 actual authored source presentation > real dispatch state switches visible owner and current registry, retains history without sticky temporary failure
+Error: Visual envelope: skin weights must sum exactly to one
+ ❯ fail src/game/camera/visualEnvelope.ts:18:44
+     16| // This is an attached inverse consistency check, not a visual/collisi…
+     17| const INVERSE_ARITHMETIC_ERROR=1e-8;
+     18| function fail(message:string):never {throw new Error(`Visual envelope:…
+       |                                            ^
+     19| function finiteMatrix(matrix:Matrix4,label:string,computedInverse=fals…
+     20|   const e=matrix.elements;for(let i=0;i<16;i++)if(!Number.isFinite(e[i…
+ ❯ src/game/camera/visualEnvelope.ts:94:20
+ ❯ SkinnedMesh.traverse node_modules/three/build/three.core.js:14200:3
+ ❯ Group.traverse node_modules/three/build/three.core.js:14206:18
+ ❯ Group.traverse node_modules/three/build/three.core.js:14206:18
+ ❯ Group.traverse node_modules/three/build/three.core.js:14206:18
+ ❯ Group.traverse node_modules/three/build/three.core.js:14206:18
+ ❯ Module.prepareVisualEnvelope src/game/camera/visualEnvelope.ts:58:8
+ ❯ tests/source-presentation154.test.ts:70:53
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 3 passed (4)
+   Start at  09:32:15
+   Duration  2.23s (transform 740ms, setup 0ms, import 990ms, tests 944ms, environment 0ms)
+

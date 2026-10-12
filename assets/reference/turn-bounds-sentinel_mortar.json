@@ -1,0 +1,56 @@
+{
+  "name": "Sentinel_Mortar",
+  "scale": 0.8,
+  "turnStyle": {
+    "arc": 0.52,
+    "duty": 0.78,
+    "duration": 1.1,
+    "lift": 0.19,
+    "lead": 0.035,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.3,
+      "FR": 0.55,
+      "HL": 0.8
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.3127810955047607,
+      "coreRadius": 1.7492207640446829,
+      "sideExtent": 1.0344358682632446,
+      "floor": 0.011999928392469883,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.5429349605209386e-07,
+      "frames": 67,
+      "pawLift": {
+        "FL": 0.15151972770690916,
+        "FR": 0.15198873281478884,
+        "HL": 0.1504994630813599,
+        "HR": 0.15049945116043092
+      },
+      "stanceCancellationError": 4.829079890377306e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.3127810955047607,
+      "coreRadius": 1.7492207640446829,
+      "sideExtent": 1.0344361066818237,
+      "floor": 0.01199986319988966,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.5429349605209386e-07,
+      "frames": 67,
+      "pawLift": {
+        "FL": 0.15198878049850467,
+        "FR": 0.1515197515487671,
+        "HL": 0.15049948692321777,
+        "HR": 0.15049939155578615
+      },
+      "stanceCancellationError": 4.88612688348751e-07
+    }
+  ]
+}

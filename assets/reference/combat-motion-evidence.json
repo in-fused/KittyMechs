@@ -1,0 +1,1615 @@
+[
+  {
+    "name": "Pounce_Quadruped",
+    "bytes": 2138444,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.095999804784708,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0960000869064475,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.169279828169998,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9343464122053715,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.095999957581038,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.2560000221017853,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0960010927326542,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9343463941657388,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.095999957581038,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0960000272933486,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0959999601712,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.095999957581038,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.095999957581038,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformDown",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0960000483913235,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformUp",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.184000555926284,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.0960003989300735,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.184000435263645,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAir",
+        "duration": 1,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840007546922395,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840006373255805,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.2560000282522017,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840006373255805,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightIdle",
+        "duration": 2,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840007468763796,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840006373255805,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightPulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840006373255805,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightWalk",
+        "duration": 0.949999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1840007555135577,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.096000071371803,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 3.642612421694835e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 3.642612421694835e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 4.5150344363253936e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 3.642612421694835e-7
+      },
+      {
+        "name": "FelineUprightPulse",
+        "maxLimbLengthError": 5.369475603034246e-7
+      },
+      {
+        "name": "FelineUprightMissile",
+        "maxLimbLengthError": 5.369475603034246e-7
+      },
+      {
+        "name": "FelineUprightAbility",
+        "maxLimbLengthError": 6.639129755958706e-7
+      },
+      {
+        "name": "FelineUprightHit",
+        "maxLimbLengthError": 8.261434737422135e-7
+      }
+    ]
+  },
+  {
+    "name": "Bastion_Quadruped",
+    "bytes": 2243640,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.364549893079538,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645502209262204,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3903903389943375,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.181688650054281,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645499885715644,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.4169250942011937,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.364550686091988,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.1816886631429084,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645499885715644,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645501533122375,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645500718355223,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645499885715644,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645499885715644,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformDown",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.364550133392379,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformUp",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1858248536032923,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3645503612638246,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1858244302820706,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAir",
+        "duration": 1,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.185825095550121,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.185824554732663,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.4169250130129956,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.185824554732663,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightIdle",
+        "duration": 2,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1858250872503,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.185824554732663,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightPulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.185824554732663,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightWalk",
+        "duration": 0.949999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.1858250964223593,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.364550203313577,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 3.0756647084739797e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 3.3860554726761194e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 4.825317028167575e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 3.644018106152558e-7
+      },
+      {
+        "name": "FelineUprightPulse",
+        "maxLimbLengthError": 3.156900969525367e-7
+      },
+      {
+        "name": "FelineUprightMissile",
+        "maxLimbLengthError": 3.156900969525367e-7
+      },
+      {
+        "name": "FelineUprightAbility",
+        "maxLimbLengthError": 3.598291740125603e-7
+      },
+      {
+        "name": "FelineUprightHit",
+        "maxLimbLengthError": 3.0375253967651616e-7
+      }
+    ]
+  },
+  {
+    "name": "Lynx_Quadruped",
+    "bytes": 2074964,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.642330203958721,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.64233042290086,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.4743948600372363,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.4743949889670698,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423302792890393,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.828837902553922,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.642331294880484,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.4743950104394306,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423302792890393,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.642330356691399,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423304147178515,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423302792890393,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423302792890393,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformDown",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.642330517192879,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformUp",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710344653063245,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6423306369317996,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710343363610288,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAir",
+        "duration": 1,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710345296801517,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710344102565194,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.8288377501111337,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710344102565194,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightIdle",
+        "duration": 2,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.471034537354073,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710344102565194,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightPulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710344102565194,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightWalk",
+        "duration": 0.949999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4710345288736897,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.642330405649893,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 2.7821002479555546e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 2.7821002479555546e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 3.052096952949057e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 2.7821002479555546e-7
+      },
+      {
+        "name": "FelineUprightPulse",
+        "maxLimbLengthError": 3.713737821708918e-7
+      },
+      {
+        "name": "FelineUprightMissile",
+        "maxLimbLengthError": 3.9361667947268586e-7
+      },
+      {
+        "name": "FelineUprightAbility",
+        "maxLimbLengthError": 5.423698116180375e-7
+      },
+      {
+        "name": "FelineUprightHit",
+        "maxLimbLengthError": 3.9361667947268586e-7
+      }
+    ]
+  },
+  {
+    "name": "Caracal_Quadruped",
+    "bytes": 2144756,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6408025082812188,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802936063974,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.4820416375870376,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.482041717423387,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802559883479,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.610273553566941,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6408037373382753,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.4820420753190184,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802559883479,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802840544499,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6408024079001637,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802559883479,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802559883479,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformDown",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.640802823493695,
+        "finite": true
+      },
+      {
+        "name": "FelineTransformUp",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.469883347158427,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6408031430155523,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.469882887306027,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightAir",
+        "duration": 1,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.469883490650217,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4698829387969066,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.6102735836863298,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4698829387969066,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightIdle",
+        "duration": 2,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.469883488672201,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4698829387969066,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightPulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4698829387969066,
+        "finite": true
+      },
+      {
+        "name": "FelineUprightWalk",
+        "duration": 0.949999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 3.4698834908580514,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.6408029111765168,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 3.279084069829352e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 3.199962302913306e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 3.69770851715856e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 3.992162004307076e-7
+      },
+      {
+        "name": "FelineUprightPulse",
+        "maxLimbLengthError": 4.6439239476114835e-7
+      },
+      {
+        "name": "FelineUprightMissile",
+        "maxLimbLengthError": 4.6439239476114835e-7
+      },
+      {
+        "name": "FelineUprightAbility",
+        "maxLimbLengthError": 4.6439239476114835e-7
+      },
+      {
+        "name": "FelineUprightHit",
+        "maxLimbLengthError": 4.6439239476114835e-7
+      }
+    ]
+  },
+  {
+    "name": "Sentinel_Scout",
+    "bytes": 1762608,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337500931630809,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501847136978,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.8210404359423764,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.5716564599168643,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501236498325,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.348750347277302,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.933750346328862,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.5716564452596626,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501236498325,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501804867359,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.933749937592968,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501236498325,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501236498325,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337503197572494,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9337501836121795,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 4.052424169564972e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 4.612493378353122e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 4.2965964486274544e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 4.052424169564972e-7
+      }
+    ]
+  },
+  {
+    "name": "Sentinel_Mortar",
+    "bytes": 1765840,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3122261841941762,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226311858225,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.1692795244098555,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9343464122053715,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226208310636,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.592226427142552,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226690010816,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.9343463941657388,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226208310636,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3122262942213085,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3122259704318355,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226208310636,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226208310636,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.3122264498896077,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.312226307262191,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 4.686125072428382e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 4.686125072428382e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 4.650541706174849e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 4.686125072428382e-7
+      }
+    ]
+  },
+  {
+    "name": "Sentinel_Anchor",
+    "bytes": 1890524,
+    "bones": [
+      "root",
+      "pelvis",
+      "spine",
+      "chest",
+      "head",
+      "weapon_L",
+      "weapon_R",
+      "FL_upper",
+      "FL_lower",
+      "FL_paw",
+      "FR_upper",
+      "FR_lower",
+      "FR_paw",
+      "launcher",
+      "tail_0",
+      "tail_1",
+      "tail_2",
+      "tail_3",
+      "tail_4",
+      "HL_upper",
+      "HL_lower",
+      "HL_paw",
+      "HR_upper",
+      "HR_lower",
+      "HR_paw"
+    ],
+    "clips": [
+      {
+        "name": "FelineAbility",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.750999838768267,
+        "finite": true
+      },
+      {
+        "name": "FelineAir",
+        "duration": 1.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7510001140647122,
+        "finite": true
+      },
+      {
+        "name": "FelineClimb",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.815679044221061,
+        "finite": true
+      },
+      {
+        "name": "FelineCling",
+        "duration": 1.5,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.548577775033866,
+        "finite": true
+      },
+      {
+        "name": "FelineCombatBase",
+        "duration": 0.10000000149011612,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7509999443251125,
+        "finite": true
+      },
+      {
+        "name": "FelineDeath",
+        "duration": 1.0499999523162842,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 1.6485000290085932,
+        "finite": true
+      },
+      {
+        "name": "FelineGallop",
+        "duration": 0.5166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7510006465662262,
+        "finite": true
+      },
+      {
+        "name": "FelineGrab",
+        "duration": 0.30000001192092896,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.548577622077059,
+        "finite": true
+      },
+      {
+        "name": "FelineHit",
+        "duration": 0.3333333432674408,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7509999443251125,
+        "finite": true
+      },
+      {
+        "name": "FelineIdle",
+        "duration": 2.0166666507720947,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.75100003582252,
+        "finite": true
+      },
+      {
+        "name": "FelineMantle",
+        "duration": 0.8999999761581421,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7509998899703336,
+        "finite": true
+      },
+      {
+        "name": "FelineMissile",
+        "duration": 0.4333333373069763,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7509999443251125,
+        "finite": true
+      },
+      {
+        "name": "FelinePulse",
+        "duration": 0.21666666865348816,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7509999443251125,
+        "finite": true
+      },
+      {
+        "name": "FelineTrot",
+        "duration": 0.699999988079071,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7510002725069955,
+        "finite": true
+      },
+      {
+        "name": "FelineWalk",
+        "duration": 1.1666666269302368,
+        "rootTranslation": 0,
+        "rootRotation": 0,
+        "finalBodyHeight": 2.7510000936754917,
+        "finite": true
+      }
+    ],
+    "layers": [
+      {
+        "name": "FelinePulse",
+        "maxLimbLengthError": 4.893054953436504e-7
+      },
+      {
+        "name": "FelineMissile",
+        "maxLimbLengthError": 4.893054953436504e-7
+      },
+      {
+        "name": "FelineAbility",
+        "maxLimbLengthError": 6.63235226294745e-7
+      },
+      {
+        "name": "FelineHit",
+        "maxLimbLengthError": 4.893054953436504e-7
+      }
+    ]
+  }
+]

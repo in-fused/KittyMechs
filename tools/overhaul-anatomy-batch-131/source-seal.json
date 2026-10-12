@@ -1,0 +1,45 @@
+{
+  "writer": "CLOSED",
+  "status": "COMPATIBLE_SUBGROUP_BATCH_SOURCE_UNRUN",
+  "predecessorSeal": {
+    "path": "tools/overhaul-anatomy-batch-130/source-seal.json",
+    "sha256": "5d05cd3574e303308f977b5373ccaf862f1910352321745c95874b114e4ddc97"
+  },
+  "files": [
+    {
+      "path": "tools/overhaul-anatomy-batch-131/batch-validate.mjs",
+      "bytes": 11861,
+      "sha256": "59eb428e655ceef7bb41ace3c782693f803b01a5ae91132f6e51629ab2caef24"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/HANDOFF.md",
+      "bytes": 3724,
+      "sha256": "0e72101d3a24d1ea2aa0c839ae8102c9f8135215b93c7343201fe9f8b073f4c3"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/identity57Runtime121Asset.proposed.ts",
+      "bytes": 237,
+      "sha256": "a507c3aa042cba52c61cc28d32c8a24057bf7f3d6b7a31d5b01e515bc591f8f7"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/protected-inputs.json",
+      "bytes": 12324,
+      "sha256": "3a0960498c1a7612a2a16bddc01eefdc3fd180fa2ab9977a4663cbe7f026603d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/read-only-catalog.mjs",
+      "bytes": 6170,
+      "sha256": "7fd95283620deb4a82f6691474fde21ffb144d0504aff9164fb896eba26f6f9d"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/route-proposal.json",
+      "bytes": 1015,
+      "sha256": "a0683a29422df7f5a1e58a701967f0c0eebec2dc69c00bc331bee5b63b39781f"
+    },
+    {
+      "path": "tools/overhaul-anatomy-batch-131/source-inventory.json",
+      "bytes": 13981,
+      "sha256": "e01b46c4bdcaae5de8b8f9413e70e5877e7c6c6820db2281bf2541b9c9e32f01"
+    }
+  ]
+}

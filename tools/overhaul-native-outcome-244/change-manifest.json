@@ -1,0 +1,38 @@
+{
+  "writer": "CLOSED",
+  "scope": "Small source/reference manifest; no source snapshot, junction traversal or historical archive reconstruction",
+  "references": [
+    {
+      "path": "docs/overhaul/player-integration-245-handoff.md",
+      "sha256": "dbd96750babdefb5aca3860295f30170d7629c12cb647345a63a4ee4ae47424f"
+    },
+    {
+      "path": "docs/overhaul/critic/program242-actual-review.md",
+      "sha256": "5bc2c6556daffa81567c861a63b37fa853e956f120ad87d23a451da27ffa7146"
+    },
+    {
+      "path": "docs/overhaul/control243-diagnosis.md",
+      "sha256": "a9543bd1032b8d30ddca1cbfbbddabb6530829646886af4ac6cd62ab1fe1c6af"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/shaderStartup240.tsx",
+      "sha256": "9990474faab199d9db8a095589ff3b3f0af493c6a8501780c774577e34fc1225"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/private241/output-seal.json",
+      "sha256": "0640fdc820fc21f4e5ff6ac6b0492e7bc34726973a5e68d250f88d7cd221807b"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public242/output-seal.json",
+      "sha256": "115b68514df683e02fae801a02606628f2918b2046f68772191168ba5a2f3fa1"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/supervisor242/output-seal.json",
+      "sha256": "0605a07a762de2fd2c0aacefc553233849bf0aa11823cd7d878a59b572d491e9"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/review244/output-seal.json",
+      "sha256": "a3cd3bb72307988736b5181408d99e3b68c305e469d68fb810ec9608adc866b2"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "status": "VERIFIED",
+  "identity": {
+    "session": 9510,
+    "command": "\"C:\\Program Files\\nodejs\\node.exe\" --import tsx server/index.ts --production",
+    "build": "062",
+    "receipt": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c",
+    "oldSession70124Terminal": true,
+    "pid": 370280,
+    "port": 8799
+  },
+  "health": {
+    "rooms": 0,
+    "players": 0
+  },
+  "indexMatch": true,
+  "served": [
+    {
+      "url": "/assets/areaEffectDiagnostics-BfsyCFWI.js",
+      "bytes": 483,
+      "sha256": "f364055ae59aa17214c88738a0839a3bb234b02a81273b04d4f0904843561ed6",
+      "match": true
+    },
+    {
+      "url": "/assets/GameCanvas-cBN1NuI3.js",
+      "bytes": 3835716,
+      "sha256": "e91d4ff3bf1fb4a70bcf2f834b60addd80cebe62ca36bdb353352ac4827fccaa",
+      "match": true
+    },
+    {
+      "url": "/assets/index-BPDA3YLm.css",
+      "bytes": 27491,
+      "sha256": "db22b472773318fdffc05ad5a26599406d6f21988604a9a321ad485e734b7ef2",
+      "match": true
+    },
+    {
+      "url": "/assets/index-jFb_gY9P.js",
+      "bytes": 1640007,
+      "sha256": "c48a23e888105ced19a495af4a0e0706499b54257f78e310a424564147cde859",
+      "match": true
+    },
+    {
+      "url": "/assets/pawContact-BYvNuLVX.js",
+      "bytes": 19927,
+      "sha256": "3f966610fd9e3bb59d960b77db17387d520bcf8cc3a60286da6e375ca38fc062",
+      "match": true
+    },
+    {
+      "url": "/assets/physics-DsFk-bdi.js",
+      "bytes": 2260627,
+      "sha256": "d7340c1ff0c4c0d12b52eb185ac0b22f42deddfc1d69306951ce38c3d63157fe",
+      "match": true
+    },
+    {
+      "url": "/assets/streamingDiagnostics-C6TwIMw1.js",
+      "bytes": 972,
+      "sha256": "0023b3f9ce60fcd2e2c027873cfdb34dc85655f8dc41b8c6a2238dbeb1f24998",
+      "match": true
+    },
+    {
+      "url": "/assets/surfaceDiagnostics-BIgXvuMZ.js",
+      "bytes": 754,
+      "sha256": "730da78f93165a73e9b83c329db3603fdf9ccfbebe25a00fe8a640eeffd66bf9",
+      "match": true
+    },
+    {
+      "url": "/assets/terrain.worker-Bh35Bed5.js",
+      "bytes": 101636,
+      "sha256": "6779d37a533649cfcadb42f8a838b5a9f16aee1aed8997c8dd98ec645fd4d788",
+      "match": true
+    },
+    {
+      "url": "/assets/terrainCache-nLWI2-xH.js",
+      "bytes": 6045,
+      "sha256": "701e4108a5f55b7ffe4ddf61eb410ebac4323f76877319bb4518e82a2736d07f",
+      "match": true
+    },
+    {
+      "url": "/assets/three-Bjr22og3.js",
+      "bytes": 1248455,
+      "sha256": "22a3c153ee3fc766e6e85ee483e3f3d9a0dd765cc7bd83f6f8b5dd917194b283",
+      "match": true
+    },
+    {
+      "url": "/assets/training.worker-C4YaaTvI.js",
+      "bytes": 6873797,
+      "sha256": "c18fcdcb13d7945741838c956a408043387fccb6856fcad5266caf0578bd0652",
+      "match": true
+    },
+    {
+      "url": "/assets/models/Forest_Fir.glb",
+      "bytes": 1833764,
+      "sha256": "62d04a5e41628541ee75e9d927e8feb041ca0f5186d26232dccd4e33c8cbf9f1",
+      "match": true
+    },
+    {
+      "url": "/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "match": true
+    }
+  ],
+  "seconds": 33.21900000004098
+}

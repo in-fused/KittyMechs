@@ -1,0 +1,13 @@
+{
+  "status": "CLOSED_UNRUN_CODEGATE_DENY",
+  "closedUTC": "2026-10-10T13:33:32.4028991Z",
+  "reason": "Reconstructed Anatomy versus retained RigidDetails both part=None; old pair filter skipped changed distal skin against retained armor",
+  "authorSHA": "7d1b42454645c6de926f3b07005d2e6e74442cfb3f05f6816510f314f0e4a01e",
+  "contractSHA": "f4ba95b11ecf7d29a3df98e64f179cdd66036200585377944f32c8476decca24",
+  "sealSHA": "e9928d7e8d1f53f459afbea9ac2c03e145c2adc6235bcf0f478b5af8b3327065",
+  "jobs": 0,
+  "sourceGeometryExecution": "NOT_RUN",
+  "geometryFailure": "NONE_OBSERVED",
+  "admitted": false,
+  "protectedMasterCurrentSHA": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400"
+}

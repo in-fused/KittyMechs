@@ -1,0 +1,11 @@
+{
+  "writer": "CLOSED",
+  "startedUTC": "2026-10-11T09:53:56.028Z",
+  "closedUTC": "2026-10-11T09:53:57.016Z",
+  "status": "FIRST_ACTUAL_FAILURE_STOP",
+  "error": {
+    "message": "ReferenceError: self is not defined",
+    "stack": "ReferenceError: self is not defined\n    at GLTFParser.loadImageSource (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3377:15)\n    at GLTFParser.loadTextureImage (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3326:24)\n    at GLTFParser.loadTexture (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3305:15)\n    at file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3004:37\n    at GLTFParser._invokeOne (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:2911:19)\n    at GLTFParser.getDependency (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3002:24)\n    at GLTFParser.assignTexture (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3466:15)\n    at GLTFParser.loadMaterial (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:3658:26)\n    at file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:2996:38\n    at GLTFParser._invokeOne (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/node_modules/three/examples/jsm/loaders/GLTFLoader.js:2911:19)"
+  },
+  "witness": null
+}

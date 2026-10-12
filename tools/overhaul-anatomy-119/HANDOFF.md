@@ -1,0 +1,25 @@
+# Anatomy119 author SOURCE packet — CLOSED / UNRUN
+
+ONE new isolated candidate from saved106;106/112 unchanged. No jobs, tests, Blender, runtime/public edits or agents. Source syntax, reach, skin preservation and appearance have NOT been executed or qualified. Independent source gate precedes any execution; proposed root cap is ONE180s author job, first failure stops, followed only by ONE passive actual-view gate before any graft. No automatic rerun or tiny-curve retry.
+
+`author.py` derives the closed112 author harness but replaces its choreography with `anatomy119.py`, loaded as the only desired-pose owner.004 strict two-link annulus and fixed-length solver and027 detached single owner/readback/key replay remain. Every local pose basis is additionally rejected if joint translation or scale departs from unchanged rest by more than the existing2e-5 source guard. All57 rests/ancestry/inverse-bind source topology/native hull/stride distances stay fixed. No clamp, bone scaling, planted certificate or loosened contact/release threshold.
+
+Absolute armature tasks now own pelvis, midpoint spine and ribcage orientations; inherited child position still supplies each exact fixed joint pivot. Gallop uses distinct gather/hind propulsion/fore extension/fore load tasks, so chest flex no longer cancels. Head retains inherited fixed pivot/local translation but its orientation maps the actual source muzzle axis to horizontal anatomical forward -Y; this is deliberate gaze counterrotation rather than accumulated63° upright torso tilt. Upright fore goals are sternum-relative ready/retract actions with transported original elbow poles, inward palm/claw-ready frames and independent finger closure. Front support is explicitly zero upright. Neutral additive transition tasks stage haunch/rib transfer and counterrotated head with exact rest endpoints; live quad/upright stance tasks continue to own travel. Actual fluid R remains unqualified.
+
+Footfall metadata (phase = positive modulo(distance/nativeDistance + limb offset), stance iff phase<duty; negative distance reverses phase):
+
+| Kind | Native distance | Duty | FL / FR / HL / HR offsets |
+|---|---:|---:|---|
+| walk | .7777777777777777 | .72 | 0 / .5 / .75 / .25 |
+| trot | 1.3548387096774195 | .62 | 0 / .5 / .54 / .04 |
+| gallop | 2.4358974358974357 | .26 | .52 / .45 / .94 / .87 |
+| upright | 1.0625 | .64 | .5 / 0 / 0 / .5 |
+| uprightFast | 2.1533333333333333 | .64 | .5 / 0 / 0 / .5 |
+
+Upright fore offsets describe gesture clocks, NOT foot contacts. Gallop touchdowns HL.06/HR.13/FL.48/FR.55 with actual unsupported intervals. Future selected-clip companion must consume exported duties/offsets and release any correction when an active authored contributor is swinging/unloaded; current067 hardcoded offsets cannot be declared compatible. No runtime companion is integrated here.
+
+`weight_ledger119.py` intentionally changes weights only on AnatomicalChassis cervical vertices Y<-1.05, CervicalLayer_0..2 and the four ChestFlankGuard/HaunchFlankGuard parts. Neck weights bridge chest→head using actual vertex positions; flank plates become rigid chest/pelvis respectively. Every other chassis vertex retains its exact weights. All mesh vertices/faces/UV/material slots/object matrices/parents/modifiers, all rests and all untouched mesh weights are hashed before/after and compared without excluding edited parts. Full per-vertex before/after weight rows and changed IDs are saved in the intentional ledger, and an exact edited-baseline fingerprint governs author/export preservation. There is no new shape/bone geometry here; if leveling exposes cervical/shoulder gaps/intersections, the passive gate rejects this source output and reports the structural blocker rather than continuing geometry edits.
+
+Existing106 combat/climb/native source actions remain and their source transform contracts are not replaced. Neck/armor skin under those retained actions is NOT qualified by retaining their curves: the passive gate must inspect affected extreme combat/climb neck/torso poses in addition to upright gait and gathered/extended gallop. Render side/three-quarter views at actual resolution with functional level gaze, elbows/wrists, spine curvature, shoulder/haunch separation and cervical/plate continuity visible. Reject appearance before any integration work. Changed skin weights require explicit geometry/skin admission; an old immutable mesh/BIN-prefix graft cannot silently omit them. Any later public packet requires exact exported skin/rest/pose verification and ordinary critic gameplay authority.
+
+Known unverified limits: new absolute body tasks and sternum targets may fail original strict reach or local translation guards; source fails before output on those conditions. Blender group removal/addition and Float32 convex weights need actual author readback. No passive observer source/job is included; root must independently prepare that one output-bound gate after source acceptance. No geometry/material quality, full sole contact, native contact, fluidity, performance or gameplay success claimed. Writer CLOSED.

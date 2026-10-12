@@ -1,0 +1,41 @@
+{
+  "name": "Caracal",
+  "scale": 0.84,
+  "samples": 648,
+  "coreRadius": 1.651758221753244,
+  "coreHeight": 3.2805938720703125,
+  "coreFloor": 0.5821048021316528,
+  "floor": -0.05382871255278587,
+  "limbLengthError": 1.1715233219122821e-06,
+  "maxHindReach": 0.9471947282125989,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; idle-longwalk, longwalk-stride, gait-turn and mirrored turn mixtures, including Lynx double release phases; local TRS blend plus full-weight inverse(reference)*reaction additive; procedural aim/contact/carrier handled by independent production composition",
+  "radiusCase": [
+    0.72,
+    "TurnLeft",
+    "TurnRight",
+    0,
+    "Missile",
+    0.2
+  ],
+  "heightCase": [
+    0.96,
+    "Idle",
+    "WalkLong",
+    0.15,
+    "CombatBase",
+    0
+  ],
+  "floorCase": [
+    0.5,
+    "Stride",
+    "TurnLeft",
+    0.5,
+    "Hit",
+    0.2
+  ],
+  "floorBone": [
+    "HR_paw"
+  ]
+}

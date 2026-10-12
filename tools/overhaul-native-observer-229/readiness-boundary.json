@@ -1,0 +1,124 @@
+{
+  "writer": "CLOSED",
+  "rawEvidenceSHA256": "ea4318287ff1e9e4cd54d457d6bf0a2b52c009bbc062a7a6c17bee2d18af7f26",
+  "submission": {
+    "label": "guest-submit",
+    "wallMs": 22286,
+    "deadlineWallMs": 42286
+  },
+  "rows": [
+    {
+      "wallMs": 23266,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING"
+    },
+    {
+      "wallMs": 23847,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 24585,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 25173,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 25737,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 26295,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 26958,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 27775,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 28401,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 36147,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": "CURRENT_NATIVE_OWNER_61_45_CONTRACT_MISSING",
+      "sceneReady": false,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 38244,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": null,
+      "sceneReady": true,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 40138,
+      "beforeDeadline": true,
+      "diagnosticsReady": false,
+      "nativeFault": null,
+      "sceneReady": true,
+      "nativeACK": 0
+    },
+    {
+      "wallMs": 41246,
+      "beforeDeadline": true,
+      "diagnosticsReady": true,
+      "nativeFault": null,
+      "sceneReady": true,
+      "nativeACK": 56
+    }
+  ],
+  "firstPreDeadlineQualifiedRow": {
+    "wallMs": 41246,
+    "beforeDeadline": true,
+    "diagnosticsReady": true,
+    "nativeFault": null,
+    "sceneReady": true,
+    "nativeACK": 56
+  },
+  "remainingMs": 1040,
+  "canvasClickCompletion": "UNOBSERVED",
+  "completeReadiness": "FAILED_ORIGINAL20S_NO_WAIVER",
+  "motionCases": 0
+}

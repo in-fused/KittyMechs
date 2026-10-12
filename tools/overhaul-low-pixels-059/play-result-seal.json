@@ -1,0 +1,96 @@
+{
+  "scope": "ONE041 Low ordinary movement/two stances and actual report/resize/resume. Buffer area confirmed; no causal speedup/IAB lag/60FPS/GPUtime or fullcamera/gait/contact/mission acceptance. Report spacing overlap found in actual PNG;060source only repair remains unbuilt.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/analysis.json",
+      "bytes": 337015,
+      "sha256": "ce59f83060dfa584d5c83284db6ba0132afea36089c40facf8e16c3c42842ff2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/backward.png",
+      "bytes": 1065559,
+      "sha256": "19f2125a4163be59c35db3746dd1f46513f13345d9d4aa64f0c7207aa732d99b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/evidence.json",
+      "bytes": 4065728,
+      "sha256": "db7228ef7b2f7b14244a37191195332189d129d41bcfbc816503cfbab57ffed4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/forward.png",
+      "bytes": 973873,
+      "sha256": "3b8922f12a6ae46a6c6e3f6a558e7c375c88d27824352ad4178e6ef61e614e1e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/page@c7b92c2a6f2b5658d179e31f636a2cb3.webm",
+      "bytes": 3388482,
+      "sha256": "2d610d27f2cd23d921acd65259fb94d7967f03a9b6bfde81b9ffbc8d33ea469f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/quadruped.png",
+      "bytes": 1039880,
+      "sha256": "0717fb4bf72d364b915d59aa89cad3bdda789a9bc2486633423952390f64fb30"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/report-1440.png",
+      "bytes": 159303,
+      "sha256": "20c706a444de512c42040f873e047b4ca9de743bb48813c2d3771f6447618b82"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/report-1920.png",
+      "bytes": 209651,
+      "sha256": "6605dbeed674dc45c2e2ff97b82317fb640da3a30adcc2beecfa2873d1b80719"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/report-3840.png",
+      "bytes": 531327,
+      "sha256": "3c248d8ba1a2d36fd34fc6174c516417387f5ff304f669440fc56722fbe53c36"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/report-restored.png",
+      "bytes": 159448,
+      "sha256": "40911ac4d9bd78de904ce6c18f886b4141e1075df4d240c49c533a1d5870f420"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/rest.png",
+      "bytes": 1064170,
+      "sha256": "43c63bcbef0b20fb56ff8bb0ea95eae682cb38151925006d6d70a1b0acfa2708"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/resumed.png",
+      "bytes": 1061855,
+      "sha256": "58323a564766a7fb172e62338ad2210c94822ed6a47bdcade990fb349850185b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play/upright.png",
+      "bytes": 963646,
+      "sha256": "e0f3fa90323e66b348a712e246c817f08314de12ab487360c7534ff9b67783c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play-process/process-receipt.json",
+      "bytes": 61654,
+      "sha256": "db0aab451bed1607a3d0702f4ccfc483133b1eb4961ed7137bf0a7a740af32a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-play-process/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/low059-cleanup.json",
+      "bytes": 328,
+      "sha256": "50c68eb1969587dd9070b0a8b6da201b5aaefceedae032608920c5df6a41ae61"
+    },
+    {
+      "path": "tools/overhaul-low-pixels-059/close-play.py",
+      "bytes": 2107,
+      "sha256": "2d5cd665796d1d261f297431950cd1b5e62cf689671062530a2219e8d0c1faef"
+    },
+    {
+      "path": "tools/overhaul-low-pixels-059/cleanup.ps1",
+      "bytes": 1674,
+      "sha256": "2d400bed6b3578ef8fec5d29f00c27556863804b0edf5484bf9599d118b83b30"
+    }
+  ],
+  "inputsVerified": 413
+}

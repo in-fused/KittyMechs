@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-moving-r-065/curve-results.json",
+      "bytes": 39212,
+      "sha256": "3691c3b1649b2f5d17e6ec36994182729942f8cf8ae39e808658bcfb15a196f4"
+    },
+    {
+      "path": "tools/overhaul-moving-r-065/run-seal.json",
+      "bytes": 2999,
+      "sha256": "99a194122b31727348a629fe048d35d5a35a126e3a8142cf9d116dda09655811"
+    },
+    {
+      "path": "tools/overhaul-moving-r-065/close.py",
+      "bytes": 894,
+      "sha256": "d3089bf32d2ae7b7150449c7d0277e0287a1146dc5f737c4729b81c979200cfd"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-r-065-source-review.md",
+      "bytes": 2553,
+      "sha256": "26fadf2f1dd577c7d60c7791aee58c8dc6be3e2b4c8f116d7e026e8ff6a09313"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r065-curve/process-receipt.json",
+      "bytes": 2063,
+      "sha256": "a9656077695b03f48f20405b1230f1c803eab49562360b4d309eb19363dcaf28"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r065-curve/stdout.txt",
+      "bytes": 146,
+      "sha256": "f33677d969fba9e08e305d1c743707ed7af4aaa27d38abad9cd7019c9e2d17b4"
+    }
+  ],
+  "scope": "ONE065 CPU actual curve readback, no game/asset/build change. Asynchronous observations not native pad contact/exact boundary jumps. All14 inputs remain unchanged."
+}

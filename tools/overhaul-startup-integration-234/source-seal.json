@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "scope": "PRIVATE234_SOURCE_ONLY_UNADMITTED; independent gate pending; no build/GPU/public mutation",
+  "files": [
+    {
+      "path": "tools/overhaul-startup-integration-234/binding.json",
+      "bytes": 208181,
+      "sha256": "cfee55321565905ca859de8f756c989fdd95b5d8a57f0c6fc120e628752831be"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/build234.mjs",
+      "bytes": 2037,
+      "sha256": "accab75c1602e90a2a1e64c71e248b78c045b94a6fc2f77d9e24ed1330d91ca8"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/HANDOFF.md",
+      "bytes": 1558,
+      "sha256": "e48b18062a65e4f861f2114dfa9b4d6ade592786eda71ec4e8d05a05da8ab7ba"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/plugin234.mjs",
+      "bytes": 2215,
+      "sha256": "1784e28780785fe5ca88d680c5e431ed488db43f48539bf6a6bdc26fe3b0e96f"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/prepare234.py",
+      "bytes": 2709,
+      "sha256": "29967b0aefdce0f64c5b888c766f5e7d90cdaa2479f50031006853e11ecd3b65"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/run-build226-preimage.py",
+      "bytes": 7601,
+      "sha256": "524de29049391cadd132807efe3e9598555e7848ea30fd3a26b653fa69dbc9b4"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/seal234.py",
+      "bytes": 1136,
+      "sha256": "38dd9fc16d2c9f4bcf8f36273762161e2ee9ca5076ab8b2e05da127a03046574"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/supervise234.py",
+      "bytes": 7656,
+      "sha256": "2338ff1c70cc2386e0d6a259402d01f17d05a69dbe9b0fb24f559a89f4179b6f"
+    }
+  ]
+}

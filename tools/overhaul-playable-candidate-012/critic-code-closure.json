@@ -1,0 +1,13 @@
+{
+  "task": "playableCandidate012IndependentCodeGate",
+  "startUtc": "2026-10-10T18:29:12Z",
+  "closedUtc": "2026-10-10T18:30:01.4197029Z",
+  "deadlineUtc": "2026-10-10T18:34:00Z",
+  "verdict": "APPROVE_CONDITIONAL_ONE_CHECKS_BUILD_OBSERVATION",
+  "reviewPath": "docs/overhaul/critic/playable-candidate-012-code-review.md",
+  "reviewSha256": "C403D764E011A1D217002BC2B863ECDCAEE88E0AFD66852363C5D291D7465A0D",
+  "verifiedRows": 33,
+  "unchangedAssertionLines": 37,
+  "jobsExecutedByCritic": 0,
+  "gate1": "INCOMPLETE"
+}

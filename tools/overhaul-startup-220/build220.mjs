@@ -1,0 +1,14 @@
+import {build} from 'vite';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {createHash} from 'node:crypto';
+import {createStartupPlugin220} from './candidate-plugin.mjs';
+import {proveEntry220} from './prove-entry.mjs';
+if(process.env.KITTYMECH_220_BUILD_APPROVED!=='1')throw Error('220 private build not approved');
+const root=process.cwd(),out=resolve(root,'.sites-runtime/overhaul-20261011/startup220-private/dist'),sha=b=>createHash('sha256').update(b).digest('hex');
+const binding=JSON.parse(await readFile('tools/overhaul-startup-220/binding.json','utf8')),seal=JSON.parse(await readFile('tools/overhaul-startup-220/source-seal.json','utf8')),rows=[...binding.files,...seal.files];
+const check=async()=>{for(const row of rows){const bytes=await readFile(row.path);if(bytes.length!==row.bytes||sha(bytes)!==row.sha256)throw Error('220 protected source identity changed '+row.path);}};
+await check();const plugin=await createStartupPlugin220();
+await build({configFile:resolve(root,'vite.config.ts'),publicDir:false,plugins:[plugin],build:{outDir:out,emptyOutDir:false,rollupOptions:{output:{entryFileNames:'assets/index-jFb_gY9P.js'}}}});
+await check();await proveEntry220(out);await mkdir(resolve(out,'..'),{recursive:true});
+await writeFile(resolve(out,'../build-receipt.json'),JSON.stringify({status:'PRIVATE_BUILD_UNADMITTED',candidateSHA:sha(await readFile('tools/overhaul-startup-220/GameCanvas220.tsx')),out,selectedAsset:'RETAINED57_DEFAULT; optional221 proof not bound',publicAssetsCopied:false,productionChanges:[],worker208Included:false},null,2)+'\n');

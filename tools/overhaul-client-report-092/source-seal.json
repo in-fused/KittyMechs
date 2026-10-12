@@ -1,0 +1,52 @@
+{
+  "writer": "CLOSED",
+  "status": "UNRUN_UNADMITTED",
+  "scope": "Absolute2s requestdeadline and phase-separated renderer/callback evidence only; no simulation input/performance/gait approval",
+  "files": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10246,
+      "sha256": "7535625ad2be69be127cc695b654598b2243534060177877fee2dc2e89753e46"
+    },
+    {
+      "path": "src/game/rendering/clientReport092.ts",
+      "bytes": 3230,
+      "sha256": "cb3e9dcc3c99940989def9021e9ff8e29ebfad3e1eea4ed20512865af120f8be"
+    },
+    {
+      "path": "shared/clientDiagnostics092.ts",
+      "bytes": 2268,
+      "sha256": "54953df5f151bac2fa75ffdd90fa9ddf8ff815cbd3a923c594e123efbedb1010"
+    },
+    {
+      "path": "server/index.ts",
+      "bytes": 8885,
+      "sha256": "e891ae9bd107112168b47b6b53a90c47d182229bad32b2d7ce2016a8966e9924"
+    },
+    {
+      "path": "server/clientReports092.ts",
+      "bytes": 2588,
+      "sha256": "97a6026f7fdd5239221327f738938eda0bdb133ea278e377cf6497543868fce4"
+    },
+    {
+      "path": "tests/client-reports092.test.ts",
+      "bytes": 4801,
+      "sha256": "a1bb26b97759178a1ea319826cb9b3d6d27acceb29a5f2e2d953debf7254c7bb"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/preimages/GameCanvas.tsx",
+      "bytes": 9641,
+      "sha256": "6dfa3bab7ba1046a7697bb4420699951696003bc57dd7681880a014e03ec1ba2"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/preimages/server-index.ts",
+      "bytes": 8519,
+      "sha256": "82dd81dc310005ad8932a10a378c790f19d95ff3afb264344779b30021f89cdd"
+    },
+    {
+      "path": "tools/overhaul-client-report-092/handoff.md",
+      "bytes": 2919,
+      "sha256": "5c136a15967e3914136b3f2bf75f4b39b03a095475c85d8e21e784cea105a78e"
+    }
+  ]
+}

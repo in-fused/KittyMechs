@@ -1,0 +1,3459 @@
+{
+  "provenance": "DECODED_ACTUAL_SKIN_NUMERICAL_FIXTURE_CURRENT_CLIENT_PLANE_NO_NATIVE_CONTACT_OR_GAMEPLAY_CERTIFICATE",
+  "records": [
+    {
+      "name": "ON57",
+      "poses": 22,
+      "maxError": 8.881784197001252e-16,
+      "completeFootVertices": 12557,
+      "cached": {
+        "groups": 60,
+        "vertices": 4928,
+        "meshes": 4,
+        "skeletons": 1
+      },
+      "mutations": "inverse values/order/mesh bind/geometry attribute/stale attached inverse rejected"
+    },
+    {
+      "name": "OFF25",
+      "poses": 22,
+      "maxError": 1.3322676295501878e-15,
+      "completeFootVertices": 3536,
+      "cached": {
+        "groups": 24,
+        "vertices": 1674,
+        "meshes": 6,
+        "skeletons": 1
+      },
+      "mutations": "inverse values/order/mesh bind/geometry attribute/stale attached inverse rejected"
+    },
+    {
+      "name": "ON57",
+      "index": 0,
+      "phase": 0,
+      "nativeYaw": 0,
+      "root": [
+        0,
+        -0.08,
+        0
+      ],
+      "body": [
+        0,
+        -1.5381244863767343e-9,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0,
+        "nativeYaw": 0,
+        "signedDistance": 0,
+        "height": -1.5381244863767343e-9,
+        "targetHeight": -7.152557358516153e-8,
+        "requestedHeight": -7.152557358516153e-8,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "queries": 4,
+        "soleSamples": 9856,
+        "reason": null,
+        "basis": {
+          "frameClock": 0.016666666666666666,
+          "time": 0.016666666666666666,
+          "life": 1,
+          "root": [
+            0,
+            -0.08,
+            0
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              0.29120004567466906,
+              -0.07999972434754717,
+              -0.9862398606215989
+            ],
+            "gap": 3.0994415282816186e-7,
+            "requested": -3.0994415282816186e-7,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.29120004567466906,
+              -0.0800000342917,
+              -0.9862398606215989
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.29120004567466884,
+              -0.07999972434754717,
+              -0.986239860621599
+            ],
+            "gap": 3.0994415282816186e-7,
+            "requested": -3.0994415282816186e-7,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.29120004567466884,
+              -0.0800000342917,
+              -0.986239860621599
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              0.46880001928101817,
+              -0.07999984692959693,
+              0.44576038974218873
+            ],
+            "gap": 7.152557358516153e-8,
+            "requested": -7.152557358516153e-8,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.46880001928101817,
+              -0.07999991845517052,
+              0.44576038974218873
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.46880001928101817,
+              -0.07999984692959693,
+              0.44576038974218857
+            ],
+            "gap": 7.152557358516153e-8,
+            "requested": -7.152557358516153e-8,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.46880001928101817,
+              -0.07999991845517052,
+              0.44576038974218857
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 12,
+      "phase": 0.2094045161514979,
+      "nativeYaw": 0,
+      "root": [
+        0,
+        -0.08,
+        -0.25
+      ],
+      "body": [
+        0,
+        0.002311528637549331,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0,
+        "nativeYaw": 0,
+        "signedDistance": 0.05,
+        "height": 0.002311528637549331,
+        "targetHeight": 0.00039331912994387325,
+        "requestedHeight": 0.00039331912994387325,
+        "margin": 0.12,
+        "authoredLoad": 0.7242517821516712,
+        "suspension": false,
+        "queries": 1,
+        "soleSamples": 6157,
+        "reason": null,
+        "basis": {
+          "frameClock": 0.21666666666666665,
+          "time": 0.21666666666666665,
+          "life": 1,
+          "root": [
+            0,
+            -0.08,
+            -0.25
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.3608973725260916,
+              -0.10158743403137303,
+              -0.888073057497149
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.39143884681119445,
+              -0.07866441733185348,
+              -1.2684972065215718
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.7242517821516712,
+            "sole": [
+              0.4912785164570531,
+              -0.08039328333521144,
+              0.11808000861313994
+            ],
+            "gap": -0.00039331912994387325,
+            "requested": 0.00039331912994387325,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.4912785164570531,
+              -0.07999996420526756,
+              0.11808000861313994
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.3356624954762992,
+              -0.07877668363896521,
+              0.5698421262849838
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 24,
+      "phase": 0.9581190967697004,
+      "nativeYaw": 3.141592653589793,
+      "root": [
+        -5.510910596163089e-17,
+        -0.08,
+        0.04999999999999999
+      ],
+      "body": [
+        0,
+        0.005150599672006384,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0.30732972248362017,
+        "nativeYaw": 3.141592653589793,
+        "signedDistance": -0.05,
+        "height": 0.005150599672006384,
+        "targetHeight": 0.007603096961975111,
+        "requestedHeight": 0.007603096961975111,
+        "margin": 0.12,
+        "authoredLoad": 1.315312457137392,
+        "suspension": false,
+        "queries": 2,
+        "soleSamples": 7393,
+        "reason": null,
+        "basis": {
+          "frameClock": 0.41666666666666663,
+          "time": 0.41666666666666663,
+          "life": 1,
+          "root": [
+            -5.510910596163089e-17,
+            -0.08,
+            0.04999999999999999
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 0.6987953210559282,
+            "sole": [
+              -0.007918201353079413,
+              -0.08760299901302934,
+              -0.8614245130544214
+            ],
+            "gap": -0.007603096961975111,
+            "requested": 0.007603096961975111,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.007918201353079413,
+              -0.07999990205105423,
+              -0.8614245130544214
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.6897669984648925,
+              -0.11269165991633079,
+              -0.816918888827465
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.4160737622219725,
+              -0.07504420014024314,
+              0.145712546717919
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.6165171360814639,
+            "sole": [
+              -0.03559945155970479,
+              -0.08281428570088785,
+              0.7461188777250808
+            ],
+            "gap": -0.0028142213821412297,
+            "requested": 0.0028142213821412297,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.03559945155970479,
+              -0.08000006431874662,
+              0.7461188777250808
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 36,
+      "phase": 0.4733047681268807,
+      "nativeYaw": 3.141592653589793,
+      "root": [
+        -1.592040838891559e-16,
+        -0.08,
+        0.8999999999999999
+      ],
+      "body": [
+        0,
+        0.00550994081976095,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0.7171026857951137,
+        "nativeYaw": 3.141592653589793,
+        "signedDistance": -0.1,
+        "height": 0.00550994081976095,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 0.6166666666666669,
+          "time": 0.6166666666666669,
+          "life": 1,
+          "root": [
+            -1.592040838891559e-16,
+            -0.08,
+            0.8999999999999999
+          ],
+          "probeHeight": 1.6,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.5,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.3666666531935334,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.5789343366156259,
+              0.5776908752920173,
+              -0.004522875503720103
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.7877881919762639,
+              0.5520692591041176,
+              0.15378694917014557
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.803048553159564,
+              -0.07820405023182889,
+              1.3110694131376506
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.04088539233252719,
+              -0.3110243495893401,
+              1.2878084174086357
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 48,
+      "phase": 0.015435123167254039,
+      "nativeYaw": 1.5707963267948966,
+      "root": [
+        -0.1000000000000003,
+        -0.08,
+        2.0000000000000004
+      ],
+      "body": [
+        0,
+        0.012358967701793986,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.1268756491066076,
+        "nativeYaw": 1.5707963267948966,
+        "signedDistance": 0.1,
+        "height": 0.012358967701793986,
+        "targetHeight": 0.0018465757369993876,
+        "requestedHeight": 0.0018465757369993876,
+        "margin": 0.12,
+        "authoredLoad": 0.3352752261145149,
+        "suspension": false,
+        "queries": 2,
+        "soleSamples": 7389,
+        "reason": null,
+        "basis": {
+          "frameClock": 0.8166666666666675,
+          "time": 0.8166666666666675,
+          "life": 1,
+          "root": [
+            -0.1000000000000003,
+            -0.08,
+            2.0000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.7166666388511658,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.3993067846681997,
+              1.293629681643147,
+              1.429504711969491
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.7221531951374761,
+              1.2843470750776094,
+              2.1319198075984684
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.0057296592527423225,
+            "sole": [
+              -0.146616047433761,
+              -0.08119224426861943,
+              1.7074653603923922
+            ],
+            "gap": -0.0011923551559446775,
+            "requested": 0.0011923551559446775,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.146616047433761,
+              -0.07999988911267475,
+              1.7074653603923922
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.32954556686177255,
+            "sole": [
+              0.5194684648127785,
+              -0.081846461008195,
+              2.838507347750048
+            ],
+            "gap": -0.0018465757369993876,
+            "requested": 0.0018465757369993876,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.5194684648127785,
+              -0.07999988527119561,
+              2.838507347750048
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 60,
+      "phase": 0.5727104550636655,
+      "nativeYaw": 1.5707963267948966,
+      "root": [
+        -1.3000000000000005,
+        -0.08,
+        2.0000000000000004
+      ],
+      "body": [
+        0,
+        0.004135173496512504,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.5366486124181025,
+        "nativeYaw": 1.5707963267948966,
+        "signedDistance": 0.1,
+        "height": 0.004135173496512504,
+        "targetHeight": 0.0016145944595335484,
+        "requestedHeight": 0.0016145944595335484,
+        "margin": 0.12,
+        "authoredLoad": 0.2272632082969746,
+        "suspension": false,
+        "queries": 2,
+        "soleSamples": 7389,
+        "reason": null,
+        "basis": {
+          "frameClock": 1.016666666666668,
+          "time": 1.016666666666668,
+          "life": 1,
+          "root": [
+            -1.3000000000000005,
+            -0.08,
+            2.0000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.7166666388511658,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -1.774015896678165,
+              1.266280613555976,
+              1.6084053792711828
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -1.8461674182231897,
+              1.3085634260353978,
+              2.380337128374088
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.10519205137759723,
+            "sole": [
+              -0.2515230845985591,
+              -0.08161455607743856,
+              1.543530103229241
+            ],
+            "gap": -0.0016145944595335484,
+            "requested": 0.0016145944595335484,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.2515230845985591,
+              -0.07999996161790501,
+              1.543530103229241
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.12207115691937737,
+            "sole": [
+              -1.3526217980053379,
+              -0.0809745532632397,
+              2.2424474943153294
+            ],
+            "gap": -0.0009746789932249464,
+            "requested": 0.0009746789932249464,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -1.3526217980053379,
+              -0.07999987427001476,
+              2.2424474943153294
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 72,
+      "phase": 0.1299857869600769,
+      "nativeYaw": 0,
+      "root": [
+        -2.4000000000000012,
+        -0.08,
+        1.9000000000000004
+      ],
+      "body": [
+        0,
+        0.0019745275289858853,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.536648579852272,
+        "nativeYaw": 0,
+        "signedDistance": 0.1,
+        "height": 0.0019745275289858853,
+        "targetHeight": 0.0028579473495482007,
+        "requestedHeight": 0.0028579473495482007,
+        "margin": 0.12,
+        "authoredLoad": 0.35720537885755255,
+        "suspension": false,
+        "queries": 2,
+        "soleSamples": 7389,
+        "reason": null,
+        "basis": {
+          "frameClock": 1.2166666666666672,
+          "time": 1.2166666666666672,
+          "life": 1,
+          "root": [
+            -2.4000000000000012,
+            -0.08,
+            1.9000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.7166666388511658,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -2.932711519350004,
+              1.314790215756827,
+              1.4718863142781973
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -2.884126118934876,
+              1.245014518832827,
+              2.249236012392931
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.35479089888021215,
+            "sole": [
+              -2.312722363628576,
+              -0.08056698251627785,
+              1.6588130698280532
+            ],
+            "gap": -0.0005669832229613732,
+            "requested": 0.0005669832229613732,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -2.312722363628576,
+              -0.07999999929331647,
+              1.6588130698280532
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.0024144799773403746,
+            "sole": [
+              -1.3160916017646422,
+              -0.08285804570209238,
+              2.33890829515049
+            ],
+            "gap": -0.0028579473495482007,
+            "requested": 0.0028579473495482007,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -1.3160916017646422,
+              -0.08000009835254418,
+              2.33890829515049
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "index": 84,
+      "phase": 0.6795589112920459,
+      "nativeYaw": 0,
+      "root": [
+        -2.4000000000000012,
+        -0.08,
+        0.6999999999999997
+      ],
+      "body": [
+        0,
+        0.0012537307574146217,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.1268756165407772,
+        "nativeYaw": 0,
+        "signedDistance": 0.1,
+        "height": 0.0012537307574146217,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 1.4166666666666665,
+          "time": 1.4166666666666665,
+          "life": 1,
+          "root": [
+            -2.4000000000000012,
+            -0.08,
+            0.6999999999999997
+          ],
+          "probeHeight": 1.6,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.5,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.3666666531935334,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -3.1784487218214066,
+              0.4756435380153441,
+              0.2612897132022475
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -3.3311368757148867,
+              0.5720403042627488,
+              0.5862338381284256
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -1.5962355846100318,
+              -0.22692467550345718,
+              0.6834015419125496
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -2.2683140349523576,
+              -0.06908309423438362,
+              1.205027073940597
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "unloaded": 142,
+      "recovery": 111,
+      "suspension": 1
+    },
+    {
+      "name": "OFF25",
+      "index": 0,
+      "phase": 0,
+      "nativeYaw": 0,
+      "root": [
+        0,
+        -0.08,
+        0
+      ],
+      "body": [
+        0,
+        -0.00045721052724651,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0,
+        "nativeYaw": 0,
+        "signedDistance": 0,
+        "height": -0.00045721052724651,
+        "targetHeight": -0.02766187191009517,
+        "requestedHeight": -0.02766187191009517,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "queries": 4,
+        "soleSamples": 3348,
+        "reason": null,
+        "basis": {
+          "frameClock": 2.616666666666666,
+          "time": 2.616666666666666,
+          "life": 1,
+          "root": [
+            0,
+            -0.08,
+            0
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              0.4519622713947198,
+              -0.05233779405682926,
+              -1.1885642142879886
+            ],
+            "gap": 0.027662110328674383,
+            "requested": -0.027662110328674383,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.4519622713947198,
+              -0.07999990438550353,
+              -1.1885642142879886
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.7160633720402925,
+              -0.052337802947689194,
+              -1.1885642112128507
+            ],
+            "gap": 0.02766211032867405,
+            "requested": -0.02766211032867405,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.7160633720402925,
+              -0.07999991327636335,
+              -1.1885642112128507
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              0.6269966812369604,
+              -0.05233813187968983,
+              0.42234398960703856
+            ],
+            "gap": 0.02766187191009517,
+            "requested": -0.02766187191009517,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.6269966812369604,
+              -0.080000003789785,
+              0.42234398960703856
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.5387227464110181,
+              -0.05233811663948662,
+              0.42234408372402776
+            ],
+            "gap": 0.02766187191009517,
+            "requested": -0.02766187191009517,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.5387227464110181,
+              -0.07999998854958168,
+              0.42234408372402776
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 12,
+      "phase": 0.18073922979026857,
+      "nativeYaw": 0,
+      "root": [
+        0,
+        -0.08,
+        -0.25
+      ],
+      "body": [
+        0,
+        -0.007567562701242992,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0,
+        "nativeYaw": 0,
+        "signedDistance": 0.05,
+        "height": -0.007567562701242992,
+        "targetHeight": -0.023764204978942938,
+        "requestedHeight": -0.023764204978942938,
+        "margin": 0.12,
+        "authoredLoad": 1.4534685316973905,
+        "suspension": false,
+        "queries": 2,
+        "soleSamples": 2512,
+        "reason": null,
+        "basis": {
+          "frameClock": 2.816666666666665,
+          "time": 2.816666666666665,
+          "life": 1,
+          "root": [
+            0,
+            -0.08,
+            -0.25
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.6269967696390016,
+              0.09133054739307622,
+              -1.3356289993279808
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 0.7753567628732769,
+            "sole": [
+              -0.7160632160565261,
+              -0.056235890664927846,
+              -1.5288438336710424
+            ],
+            "gap": 0.023764204978942938,
+            "requested": -0.023764204978942938,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.7160632160565261,
+              -0.08000009564387067,
+              -1.5288438336710424
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.6781117688241137,
+            "sole": [
+              0.6269966217074728,
+              -0.05239310437876976,
+              0.024750539185552478
+            ],
+            "gap": 0.02760679721832271,
+            "requested": -0.02760679721832271,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.6269966217074728,
+              -0.07999990159709247,
+              0.024750539185552478
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.6290143352842342,
+              0.07907878894797238,
+              0.4383937960512202
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 24,
+      "phase": 0.9638521540419464,
+      "nativeYaw": 3.141592653589793,
+      "root": [
+        -5.510910596163089e-17,
+        -0.08,
+        0.04999999999999999
+      ],
+      "body": [
+        0,
+        -0.014635999873426762,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0.2356194490192345,
+        "nativeYaw": 3.141592653589793,
+        "signedDistance": -0.05,
+        "height": -0.014635999873426762,
+        "targetHeight": -0.02328736782073959,
+        "requestedHeight": -0.02328736782073959,
+        "margin": 0.12,
+        "authoredLoad": 0.37319570293841914,
+        "suspension": false,
+        "queries": 1,
+        "soleSamples": 2091,
+        "reason": null,
+        "basis": {
+          "frameClock": 3.0166666666666644,
+          "time": 3.0166666666666644,
+          "life": 1,
+          "root": [
+            -5.510910596163089e-17,
+            -0.08,
+            0.04999999999999999
+          ],
+          "probeHeight": 1.3,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.393057001688761,
+              -0.045997331943772535,
+              -0.9986392264664515
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -1.052809968017751,
+              -0.01721828086226218,
+              -1.2678994925687155
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.7149650924100017,
+              0.004645893641138099,
+              -0.03932545677883509
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.37319570293841914,
+            "sole": [
+              -0.3684344888979819,
+              -0.05671268605408275,
+              0.8230638127416344
+            ],
+            "gap": 0.02328736782073959,
+            "requested": -0.02328736782073959,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -0.3684344888979819,
+              -0.08000005387482245,
+              0.8230638127416344
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 36,
+      "phase": 0.5295749039676436,
+      "nativeYaw": 3.141592653589793,
+      "root": [
+        -1.592040838891559e-16,
+        -0.08,
+        0.8999999999999999
+      ],
+      "body": [
+        0,
+        -0.014038689851902505,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0.5497787143782137,
+        "nativeYaw": 3.141592653589793,
+        "signedDistance": -0.1,
+        "height": -0.014038689851902505,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 3.2166666666666637,
+          "time": 3.2166666666666637,
+          "life": 1,
+          "root": [
+            -1.592040838891559e-16,
+            -0.08,
+            0.8999999999999999
+          ],
+          "probeHeight": 1.6,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.5,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.04558136252898032,
+              0.8289560964431139,
+              -0.4621407591325961
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -1.1346315096612216,
+              0.9320158825847904,
+              0.36123792228842766
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              1.1289931189901456,
+              0.012658031732938113,
+              1.369932476591362
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.163591996733858,
+              -0.19632037357840615,
+              1.4975535708434344
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 48,
+      "phase": 0.0893698022053695,
+      "nativeYaw": 1.5707963267948966,
+      "root": [
+        -0.1000000000000003,
+        -0.08,
+        2.0000000000000004
+      ],
+      "body": [
+        0,
+        -0.01652594576468597,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 0.8639379797371934,
+        "nativeYaw": 1.5707963267948966,
+        "signedDistance": 0.1,
+        "height": -0.01652594576468597,
+        "targetHeight": -0.02751967906951902,
+        "requestedHeight": -0.02751967906951902,
+        "margin": 0.12,
+        "authoredLoad": 0.22362474826857912,
+        "suspension": false,
+        "queries": 1,
+        "soleSamples": 2093,
+        "reason": null,
+        "basis": {
+          "frameClock": 3.416666666666663,
+          "time": 3.416666666666663,
+          "life": 1,
+          "root": [
+            -0.1000000000000003,
+            -0.08,
+            2.0000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              0.05801643074275542,
+              1.83112453037871,
+              1.1629398119618548
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -0.8545062259028037,
+              1.8311237973996826,
+              2.2772377531793504
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.22362474826857912,
+            "sole": [
+              0.405357520497882,
+              -0.052480421246798525,
+              1.48841901295356
+            ],
+            "gap": 0.02751967906951902,
+            "requested": -0.02751967906951902,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              0.405357520497882,
+              -0.08000010031631755,
+              1.48841901295356
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              0.4260285228157985,
+              -0.04824242108771748,
+              3.042134574916694
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 60,
+      "phase": 0.6670725049080721,
+      "nativeYaw": 1.5707963267948966,
+      "root": [
+        -1.3000000000000005,
+        -0.08,
+        2.0000000000000004
+      ],
+      "body": [
+        0,
+        -0.020966359571254953,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.1780972450961724,
+        "nativeYaw": 1.5707963267948966,
+        "signedDistance": 0.1,
+        "height": -0.020966359571254953,
+        "targetHeight": -0.027645564079284757,
+        "requestedHeight": -0.027645564079284757,
+        "margin": 0.12,
+        "authoredLoad": 0.6337829656975018,
+        "suspension": false,
+        "queries": 1,
+        "soleSamples": 2091,
+        "reason": null,
+        "basis": {
+          "frameClock": 3.6166666666666623,
+          "time": 3.6166666666666623,
+          "life": 1,
+          "root": [
+            -1.3000000000000005,
+            -0.08,
+            2.0000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -1.391464980284051,
+              1.819903936785983,
+              1.216606555530846
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -1.9873763878099722,
+              1.8199037538999474,
+              2.52836682062966
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.11820148247458617,
+              0.025617852718566536,
+              1.7132079672678249
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.6337829656975018,
+            "sole": [
+              -1.3772926184882301,
+              -0.05235447772665003,
+              2.744292563810087
+            ],
+            "gap": 0.027645564079284757,
+            "requested": -0.027645564079284757,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -1.3772926184882301,
+              -0.08000004180593479,
+              2.744292563810087
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 72,
+      "phase": 0.24477520761077476,
+      "nativeYaw": 0,
+      "root": [
+        -2.4000000000000012,
+        -0.08,
+        1.9000000000000004
+      ],
+      "body": [
+        0,
+        -0.02361173998140322,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.439896632895321,
+        "nativeYaw": 0,
+        "signedDistance": 0.1,
+        "height": -0.02361173998140322,
+        "targetHeight": -0.027547812461853116,
+        "requestedHeight": -0.027547812461853116,
+        "margin": 0.12,
+        "authoredLoad": 0.951648434563997,
+        "suspension": false,
+        "queries": 1,
+        "soleSamples": 2093,
+        "reason": null,
+        "basis": {
+          "frameClock": 3.8166666666666615,
+          "time": 3.8166666666666615,
+          "life": 1,
+          "root": [
+            -2.4000000000000012,
+            -0.08,
+            1.9000000000000004
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -2.734126340398313,
+              1.8140341466006924,
+              1.093572437950718
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -2.866650917478937,
+              1.8140335440747828,
+              2.5285043346707297
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.951648434563997,
+            "sole": [
+              -1.9347661980262356,
+              -0.05245220485066726,
+              1.2378462235727565
+            ],
+            "gap": 0.027547812461853116,
+            "requested": -0.027547812461853116,
+            "surface": {
+              "worldKey": "ground067-world:1",
+              "generation": 164,
+              "life": 1,
+              "ownerKey": "ground067-world:1:owner:1",
+              "colliderHandle": 0,
+              "shapePoseKey": "2:1,30,0.10000000149011612,30:0,-0.18000000715255737,0,0,0,0,1"
+            },
+            "surfacePoint": [
+              -1.9347661980262356,
+              -0.08000001731252038,
+              1.2378462235727565
+            ],
+            "surfaceNormal": [
+              0,
+              1,
+              0
+            ],
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -1.8370444110445254,
+              0.1148856771072142,
+              2.6975348830392707
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "index": 84,
+      "phase": 0.774177765963806,
+      "nativeYaw": 0,
+      "root": [
+        -2.4000000000000012,
+        -0.08,
+        0.6999999999999997
+      ],
+      "body": [
+        0,
+        -0.013174903667273745,
+        0
+      ],
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": 1.1257373675363427,
+        "nativeYaw": 0,
+        "signedDistance": 0.1,
+        "height": -0.013174903667273745,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 4.016666666666661,
+          "time": 4.016666666666661,
+          "life": 1,
+          "root": [
+            -2.4000000000000012,
+            -0.08,
+            0.6999999999999997
+          ],
+          "probeHeight": 1.6,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.5,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -2.8750750430317034,
+              0.8574676316895284,
+              -0.27331236851621754
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -3.5640776517904578,
+              0.9009518139874475,
+              0.9289749035651238
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -1.8441626174024193,
+              0.18951466600988698,
+              0.4647735198112475
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -2.143847219144579,
+              0.0757471720075682,
+              1.3222535809479306
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "unloaded": 142,
+      "recovery": 111,
+      "suspension": 0
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-forward",
+      "originalMountRequest": -0.3078465816877453,
+      "reconstructionError": 1.7763568394002505e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -0.000001932312797787035,
+        "nativeYaw": -0.000001932312797787035,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 1.4285761798901788,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 101,
+          "time": 4.81305178110942,
+          "root": [
+            -1.2526412230681143,
+            0.22786563957442385,
+            13.379315428300997
+          ],
+          "probeHeight": 1.3000000000000003,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -0.8605803860977292,
+              0.3175297037390894,
+              12.452986657853502
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 0.9853715649467272,
+            "sole": [
+              -1.5206113100168706,
+              0.22785019596354827,
+              12.456924212602877
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.12325477541351339,
+            "sole": [
+              -1.0086617189501526,
+              0.22784258383525371,
+              14.083363073019408
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.3199498395299384,
+            "sole": [
+              -1.7446660008902433,
+              0.2278367602112482,
+              13.6944775945411
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-stop",
+      "originalMountRequest": -0.30784133439579064,
+      "reconstructionError": 2.220446049250313e-16,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 102,
+          "time": 5.551035558344186,
+          "root": [
+            -1.2500995767421317,
+            0.2278410676915792,
+            13.374702565714836
+          ],
+          "probeHeight": 1.3000000000000003,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.8580995325172156,
+              0.22784136208405495,
+              12.579342821907131
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.6420995678568846,
+              0.22784136208405495,
+              12.579342795731325
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.781299521039607,
+              0.22784117394798525,
+              13.820462956302094
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.7188996622103145,
+              0.22784117394798525,
+              13.820462924997956
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-stop",
+      "originalMountRequest": -0.30796729352534513,
+      "reconstructionError": 0,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 103,
+          "time": 5.813433413776281,
+          "root": [
+            -1.2500987165157098,
+            0.2279671461381687,
+            13.374626046684217
+          ],
+          "probeHeight": 1.3000000000000003,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.9588986238006658,
+              0.22796737019669033,
+              12.388386200086767
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.541298743374568,
+              0.22796737019669033,
+              12.388386180641877
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.7752858155947329,
+              0.22796723254952736,
+              13.82182580360719
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.7249116472984578,
+              0.22796723254952736,
+              13.821825771901544
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-reverse",
+      "originalMountRequest": -0.307948443223532,
+      "reconstructionError": 1.7798229048217483e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 104,
+          "time": 6.527401043139489,
+          "root": [
+            -1.250027006653624,
+            0.22794816534989848,
+            13.374598271523107
+          ],
+          "probeHeight": 1.3000000000000003,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0,
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.8019362233371851,
+              0.22794848634332643,
+              12.515878538249936
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "FR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.6981177326290349,
+              0.22794848634332643,
+              12.515878508328669
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -0.7812269871290678,
+              0.2279483627768013,
+              13.820358823175669
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 1,
+            "sole": [
+              -1.718827055943849,
+              0.2279483627768013,
+              13.820358791871538
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-moving-R-up",
+      "originalMountRequest": -0.34935852686705826,
+      "reconstructionError": 7.147801729532276e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -6.262911916987081,
+        "nativeYaw": -6.262911916987081,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 105,
+          "time": 11.052104351807767,
+          "root": [
+            -12.200273303150452,
+            -0.05981730977942101,
+            23.492487644857384
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.5268157406776045,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.38543767089865416,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.72137296480516,
+              0.6083934172005419,
+              22.53180354729256
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.908738060565874,
+              0.6218766929162307,
+              22.871765390265598
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -11.454986709615453,
+              -0.07500938909990408,
+              23.949422514292163
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -12.478904545492139,
+              -0.16166118488437456,
+              23.688002620087342
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-upright-forward",
+      "originalMountRequest": -0.019363723300617443,
+      "reconstructionError": 1.831026719408895e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -6.283185010090578,
+        "nativeYaw": -6.283185010090578,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0.22920753565303786,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 106,
+          "time": 12.167425243415959,
+          "root": [
+            -12.200292222308194,
+            -0.05988331473574782,
+            18.069580466447757
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 1,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -11.800118950668335,
+              1.3298605529470175,
+              17.53544946878878
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.574775680712978,
+              1.2848621575463535,
+              17.584014478577327
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "stance",
+            "load": 0.1386152427888448,
+            "sole": [
+              -11.956242140844466,
+              -0.06048110745406543,
+              18.0359816217603
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.09059229286419306,
+            "sole": [
+              -12.692304129098675,
+              -0.060873946347439326,
+              19.11260884716983
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "savedPhase": "on-moving-R-down",
+      "originalMountRequest": -0.012180752666153276,
+      "reconstructionError": 3.9968028886505635e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -3.141595240748435,
+        "nativeYaw": -3.141595240748435,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 4928,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 107,
+          "time": 15.736898860511834,
+          "root": [
+            -12.200335310787981,
+            -0.059899955929758386,
+            17.828332167433878
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": 0.8282397230788402,
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": {
+            "time": 0.596434449933252,
+            "weight": 1
+          }
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.582228266341486,
+              1.0647048264872643,
+              18.616507857910825
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -11.892297728546316,
+              0.9703378300036583,
+              18.570493878447568
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -12.6023599586914,
+              -0.08027678652768598,
+              17.191742648664935
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -11.820390088186656,
+              -0.07319979374299564,
+              17.616003563052406
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "savedPhase": "off-forward",
+      "originalMountRequest": -0.04725969558081392,
+      "reconstructionError": 2.0380985511143445e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -1.0799089181666268,
+        "nativeYaw": -1.0799089181666268,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0.9011066225912525,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 108,
+          "time": 23.80930016189095,
+          "root": [
+            -12.195194625004238,
+            -0.05982917847800984,
+            29.30636086538834
+          ],
+          "probeHeight": 1.3000000000000003,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": "quadruped",
+          "uprightClips": [],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "stance",
+            "load": 0.5241672961126096,
+            "sole": [
+              -12.646499634639056,
+              -0.037121135965412444,
+              30.795504933308393
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          },
+          {
+            "limb": "FR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -11.326785133997141,
+              0.07469563023036763,
+              30.05919398872667
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -12.866365294866135,
+              0.05611746270624429,
+              28.644127157577277
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.3769393264786429,
+            "sole": [
+              -11.699844711187927,
+              -0.03244635087086767,
+              29.02354099288775
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "savedPhase": "off-upright-forward",
+      "originalMountRequest": -0.047532921892271096,
+      "reconstructionError": 4.027524346742929e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -6.296485128942022,
+        "nativeYaw": -6.296485128942022,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0.9813336934768936,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 109,
+          "time": 32.18526592864647,
+          "root": [
+            -12.902364695618266,
+            -0.05999775600530999,
+            22.270686324554223
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": "upright",
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.210798603178443,
+              1.8372418415632996,
+              21.89728341810957
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -13.649933564725927,
+              1.8372410767090366,
+              21.826122084927356
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -12.455964416851183,
+              0.14406363860216387,
+              22.60779216660307
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.9813336934768936,
+            "sole": [
+              -13.359920954152317,
+              -0.0324671753834862,
+              22.77465372383797
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "savedPhase": "off-moving-R-up",
+      "originalMountRequest": -0.19949600354906752,
+      "reconstructionError": 3.985994439185401e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -6.074264131101689,
+        "nativeYaw": -6.074264131101689,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0.1482303375135849,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "UNKNOWN_OR_INCOMPATIBLE_FOOTPRINT_SUPPORT",
+        "basis": {
+          "frameClock": 110,
+          "time": 30.781894277149604,
+          "root": [
+            -13.573312953509983,
+            -0.059865156275216824,
+            28.728596763192765
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": "upright",
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -14.448447947109722,
+              0.2645609753194659,
+              27.701914213801402
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -14.408085591139026,
+              0.23360975117509564,
+              29.095814980615398
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -12.565201940245492,
+              -0.009088867682619295,
+              28.647457967056138
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "stance",
+            "load": 0.1482303375135849,
+            "sole": [
+              -13.632966704203048,
+              -0.03478731223402487,
+              29.190579695052488
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": "UNKNOWN_CURRENT_FOOTPRINT_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OFF25",
+      "savedPhase": "off-moving-R-down",
+      "originalMountRequest": -0.1791020066765301,
+      "reconstructionError": 1.790180836524724e-15,
+      "coordination": {
+        "policy": "FINAL_SOURCE_ROLE_FOOTPRINT_SUPPORT_AFFINE164",
+        "contactQualified": false,
+        "visualYaw": -3.1548953925715213,
+        "nativeYaw": -3.1548953925715213,
+        "signedDistance": 0,
+        "height": 0,
+        "targetHeight": 0,
+        "requestedHeight": 0,
+        "margin": 0.12,
+        "authoredLoad": 0,
+        "suspension": false,
+        "queries": 0,
+        "soleSamples": 1674,
+        "reason": "SOURCE_RECOVERY_OR_LOAD_TRANSFER",
+        "basis": {
+          "frameClock": 111,
+          "time": 35.66429298700633,
+          "root": [
+            -12.890361449770582,
+            -0.05989996129879804,
+            22.18719362944228
+          ],
+          "probeHeight": 1.9,
+          "margin": 0.12
+        },
+        "foreRoleBasis": {
+          "stance": "quadruped",
+          "uprightClips": [
+            "FelineUprightStride"
+          ],
+          "arc": null
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -13.742708556081213,
+              1.667699008787544,
+              22.419421973135908
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "FR",
+            "role": "unloaded",
+            "load": 0,
+            "sole": [
+              -12.404395860250926,
+              1.6837432879612697,
+              22.94642160817643
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HL",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -13.6154953210716,
+              -0.027950642796286673,
+              22.079056590930833
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          },
+          {
+            "limb": "HR",
+            "role": "swing",
+            "load": 0,
+            "sole": [
+              -11.93075922548129,
+              -0.03960252517156404,
+              21.666137077495073
+            ],
+            "gap": null,
+            "requested": null,
+            "surface": null,
+            "surfacePoint": null,
+            "surfaceNormal": null,
+            "reason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "ON57",
+      "relativeCpuSample": {
+        "poses": 20,
+        "completeFootVertices": 12557,
+        "cached": {
+          "groups": 60,
+          "vertices": 4928,
+          "meshes": 4,
+          "skeletons": 1
+        },
+        "fullSkinMedianMs": 4.978200000000015,
+        "currentAffineMedianMs": 0.10780000000022483,
+        "maxError": 5.551115123125783e-17,
+        "limits": "Node actual skin-domain sample, no rendering/worker/real human FPS or standalone performance acceptance"
+      }
+    },
+    {
+      "name": "OFF25",
+      "relativeCpuSample": {
+        "poses": 20,
+        "completeFootVertices": 3536,
+        "cached": {
+          "groups": 24,
+          "vertices": 1674,
+          "meshes": 6,
+          "skeletons": 1
+        },
+        "fullSkinMedianMs": 1.4651000000003478,
+        "currentAffineMedianMs": 0.03789999999980864,
+        "maxError": 5.273559366969494e-16,
+        "limits": "Node actual skin-domain sample, no rendering/worker/real human FPS or standalone performance acceptance"
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-preview-209\\preview209.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T21:25:00.292072+00:00",
+  "protectedBefore": [
+    {
+      "path": "tools/overhaul-preview-209/assemble-preview209.py",
+      "bytes": 2031,
+      "sha256": "a604ce2f80efa7612ec3712f258a4616aec7831de68ac20c49a118abe57fe24d",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/preview209.py",
+      "bytes": 8665,
+      "sha256": "68234d975954f417a825bca9682b43af5d723203656160044bf15975decbee9f",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/READINESS.md",
+      "bytes": 2406,
+      "sha256": "fb74b11b3dc078235db2b90f066e5c79c4022ef061dea2f76ee2730556b3ddc6",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/run-preview209.py",
+      "bytes": 2559,
+      "sha256": "0be1659aebeb2aaf4145155e5d9b9d1051862176cebde696b0b2216572133c69",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/final-source-seal209.json",
+      "bytes": 11446,
+      "sha256": "48563ddb42edc1ab8bd83fbf503fb4d29a04777200954d5dbfadc59951ab64a7",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/preview202.py",
+      "bytes": 8361,
+      "sha256": "bc4e032458e43ecad35cf2e8340df1bb7c4ff8de6e3069ea07246bfc1d02d2dd",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/authored-motion-records202.json",
+      "bytes": 12074,
+      "sha256": "d5d2b3494f36f7cf48dc289ab254c84481701d6537b34f1e7f8afcd979d90d91",
+      "match": true
+    }
+  ],
+  "pid": 372080,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "assemblyPID": 369580,
+  "assemblyExitCode": 0,
+  "elapsedSeconds": 36.34399999980815,
+  "closedUTC": "2026-10-11T21:25:36.642624+00:00",
+  "protectedAfter": [
+    {
+      "path": "tools/overhaul-preview-209/assemble-preview209.py",
+      "bytes": 2031,
+      "sha256": "a604ce2f80efa7612ec3712f258a4616aec7831de68ac20c49a118abe57fe24d",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/preview209.py",
+      "bytes": 8665,
+      "sha256": "68234d975954f417a825bca9682b43af5d723203656160044bf15975decbee9f",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/READINESS.md",
+      "bytes": 2406,
+      "sha256": "fb74b11b3dc078235db2b90f066e5c79c4022ef061dea2f76ee2730556b3ddc6",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-preview-209/run-preview209.py",
+      "bytes": 2559,
+      "sha256": "0be1659aebeb2aaf4145155e5d9b9d1051862176cebde696b0b2216572133c69",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/final-source-seal209.json",
+      "bytes": 11446,
+      "sha256": "48563ddb42edc1ab8bd83fbf503fb4d29a04777200954d5dbfadc59951ab64a7",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/preview202.py",
+      "bytes": 8361,
+      "sha256": "bc4e032458e43ecad35cf2e8340df1bb7c4ff8de6e3069ea07246bfc1d02d2dd",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/authored-motion-records202.json",
+      "bytes": 12074,
+      "sha256": "d5d2b3494f36f7cf48dc289ab254c84481701d6537b34f1e7f8afcd979d90d91",
+      "match": true
+    }
+  ]
+}

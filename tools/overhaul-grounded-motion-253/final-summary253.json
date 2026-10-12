@@ -1,0 +1,98 @@
+{
+  "status": "PASS_NUMERIC_SOURCE_CANDIDATE_ONLY",
+  "counts": {
+    "frames": 960,
+    "fulfilled": 555,
+    "touch": 759,
+    "release": 1304,
+    "independentChecks": 160
+  },
+  "caseFailures": [],
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "direction": 1,
+      "fulfilled": 72
+    },
+    {
+      "name": "FelineWalk",
+      "direction": -1,
+      "fulfilled": 61
+    },
+    {
+      "name": "FelineTrot",
+      "direction": 1,
+      "fulfilled": 62
+    },
+    {
+      "name": "FelineTrot",
+      "direction": -1,
+      "fulfilled": 89
+    },
+    {
+      "name": "FelineGallop",
+      "direction": 1,
+      "fulfilled": 49
+    },
+    {
+      "name": "FelineGallop",
+      "direction": -1,
+      "fulfilled": 49
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": 1,
+      "fulfilled": 32
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": -1,
+      "fulfilled": 61
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": 1,
+      "fulfilled": 19
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": -1,
+      "fulfilled": 61
+    },
+    {
+      "name": "MOVING_R",
+      "direction": 1,
+      "fulfilled": 29
+    },
+    {
+      "name": "MOVING_R",
+      "direction": -1,
+      "fulfilled": 29
+    },
+    {
+      "name": "STOP_IDLE_START",
+      "direction": null,
+      "fulfilled": 194
+    }
+  ],
+  "regression": {
+    "raw": [
+      0,
+      0.3826834261417389,
+      0,
+      0.9238795042037964
+    ],
+    "norm": 0.9999999714657157,
+    "rawSelfAngle": 0.0006756837614867681,
+    "normalizedSelfAngle": 0
+  },
+  "maxNormalizedFirstReleaseAngle": 5.960464477539063e-08,
+  "maxLocalNormalizedStepAngle": 0.42334003903481726,
+  "maxIndependentMaterialDifference": 8.950904515044787e-16,
+  "maxIndependentMinimumDifference": 2.220446049250313e-16,
+  "maxFulfilledSamePointError": 1.6000153981486187e-07,
+  "releaseOperands": 141,
+  "maxReleaseFixedChildDifference": 1.2572522051753398e-07,
+  "maxReleaseMatrixElementDifference": 2.5968971451018064e-07,
+  "samePointSourcePolicy": "no native/contact/art acceptance"
+}

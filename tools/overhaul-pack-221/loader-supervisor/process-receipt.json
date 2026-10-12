@@ -1,0 +1,80 @@
+{
+  "nodePID": 374268,
+  "exitCode": 1,
+  "failure": null,
+  "elapsedSeconds": 25.687999999849126,
+  "capSeconds": 30,
+  "ownedPIDCreationTimes": {
+    "374268": 134362318075742353,
+    "373060": 134362318075931431,
+    "358816": 134362318091005668,
+    "368096": 134362318090386306,
+    "374736": 134362318093804263,
+    "357904": 134362318094110207,
+    "366792": 134362318094644300,
+    "307948": 134362318099740759,
+    "372948": 134362318099929038,
+    "340748": 134362318101487536,
+    "372448": 134362318183613355
+  },
+  "ownedAfter": {
+    "374268": {
+      "creationBefore": 134362318075742353,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "373060": {
+      "creationBefore": 134362318075931431,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "358816": {
+      "creationBefore": 134362318091005668,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "368096": {
+      "creationBefore": 134362318090386306,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "374736": {
+      "creationBefore": 134362318093804263,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "357904": {
+      "creationBefore": 134362318094110207,
+      "creationAfter": 134362318094110207,
+      "originalIdentityAbsent": false
+    },
+    "366792": {
+      "creationBefore": 134362318094644300,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "307948": {
+      "creationBefore": 134362318099740759,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "372948": {
+      "creationBefore": 134362318099929038,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "340748": {
+      "creationBefore": 134362318101487536,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    },
+    "372448": {
+      "creationBefore": 134362318183613355,
+      "creationAfter": null,
+      "originalIdentityAbsent": true
+    }
+  },
+  "inclusiveBoundObserved": true,
+  "protectedMatch": true,
+  "finalOriginalIdentitiesAbsent": false
+}

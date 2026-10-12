@@ -1,0 +1,66 @@
+{
+  "name": "Sentinel_Anchor",
+  "scale": 1.05,
+  "clips": [
+    {
+      "clip": "FelineCombatBase",
+      "duration": 0.1,
+      "radius": 2.1745068820220825,
+      "height": 2.750999927520752,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.877546310424805e-07
+    },
+    {
+      "clip": "FelinePulse",
+      "duration": 0.21666666666666667,
+      "radius": 2.1745068820220825,
+      "height": 2.750999927520752,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.877546310424805e-07
+    },
+    {
+      "clip": "FelineMissile",
+      "duration": 0.43333333333333335,
+      "radius": 2.1745068820220825,
+      "height": 2.750999927520752,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 1.877546310424805e-07
+    },
+    {
+      "clip": "FelineAbility",
+      "duration": 0.7,
+      "radius": 2.175564766442477,
+      "height": 2.750999927520752,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 3.1331529638507704e-07
+    },
+    {
+      "clip": "FelineHit",
+      "duration": 0.3333333333333333,
+      "radius": 2.175662652109352,
+      "height": 2.750999927520752,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 2.2565298314316205e-07
+    },
+    {
+      "clip": "FelineDeath",
+      "duration": 1.05,
+      "radius": 2.1745068820220825,
+      "height": 2.750999927520752,
+      "floor": 0.009204670786857605,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pawPlantError": 2.099160590506893e-07
+    }
+  ]
+}

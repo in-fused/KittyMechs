@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "sourceTask274.ts",
+    "nativeOwner274.ts",
+    "preparation274.ts",
+    "NativeActor274.typecheck.tsx",
+    "owner274.test.ts"
+  ]
+}

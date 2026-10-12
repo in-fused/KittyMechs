@@ -1,0 +1,34 @@
+{
+  "maxExternalSeconds": 60,
+  "hardDeadlineUTC": "2026-10-10T20:42:00Z",
+  "actualStartUTC": "2026-10-10T20:03:57Z",
+  "schema": "pose-owner027-diagnostic-seal",
+  "frozenUTC": "2026-10-10T20:08:26.7915354Z",
+  "files": [
+    {
+      "sha256": "2158f42e8d78809252d45e695b0319b3a33ce9174ce06a307b2cccdc91ba1ee2",
+      "bytes": 8604,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/diagnostic.py"
+    },
+    {
+      "sha256": "e61147c0776b74bc1a8538750db7f55e2a7cbb92677cff138ab529589266bff4",
+      "bytes": 606368,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/clocks.json"
+    },
+    {
+      "sha256": "1572735bd5b5412e14b11315840e3d979bac9ba5ff5e41af39c83afdf50341c0",
+      "bytes": 9291,
+      "path": "tools/overhaul-pounce-pose-owner-027/protected-inputs.json"
+    },
+    {
+      "sha256": "daf66cb009a2758ce13094e5d456ea2313e9b197e43391c36fe056d74b78fed4",
+      "bytes": 364,
+      "path": "tools/overhaul-pounce-pose-owner-027/command.ps1"
+    },
+    {
+      "sha256": "49902a4eb930b80de67fb11148ed6d705db4a9de8c1c5e8366d590d27bd734d4",
+      "bytes": 3131,
+      "path": "docs/overhaul/pounce-pose-owner-027.md"
+    }
+  ]
+}

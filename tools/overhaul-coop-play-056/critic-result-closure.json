@@ -1,0 +1,41 @@
+{
+  "closedUTC": "2026-10-11T02:12:06.3175220Z",
+  "status": "DENY_FULL_MISSION_AND_ORDINARY_PRESENTATION",
+  "retain": "038 LIMITED startup/checkpoint only",
+  "reviewPath": "docs/overhaul/critic/coop-play-056-result-review.md",
+  "reviewSHA256": "a1acd6230aa7c89b77622168a8a80ffa7ebb70351434c7ce71fe7e85b8103041",
+  "rawResultSealSHA256": "922127575286f9a1219b081f85d2d24db22806132d579ea94f766664f37aff35",
+  "verifiedRawRows": 10,
+  "inputRows": 415,
+  "inputMismatch": 0,
+  "processSeconds": 135.875,
+  "exitCode": 1,
+  "completedObjectives": 0,
+  "successfulRevives": 0,
+  "publicationComparisons": 727,
+  "publicationMismatch": 0,
+  "viewedFailurePNGs": 2,
+  "viewedBoards": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/host-travel.png",
+      "sha256": "1d195b406ac212fba01e9b438e55b15b3114061fb2f91cf7ee0f02f1a2eb1420"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/guest-travel.png",
+      "sha256": "813156623969c8fdd6b4b7718cb843a5d3722d71a497c2968c8799d1da9436f7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/host-rescue.png",
+      "sha256": "4e8f385105ebcfede9b1483c9c5b89bc69093b62426a97abe5f2c3ff4c4d8b3d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/guest-rescue.png",
+      "sha256": "21653c6e277c2e63007ae9554d208d3ca9d83e9294f92ccbadf167dfdf43f19b"
+    }
+  ],
+  "boardClockAlignment": "approximate video offsets; not certified native event alignment",
+  "controlCause": "UNKNOWN; neutral receipt follows deliberate short-tap release",
+  "heavyJobsByReviewer": 0,
+  "writersClosed": true,
+  "fullGoal": "ACTIVE INCOMPLETE"
+}

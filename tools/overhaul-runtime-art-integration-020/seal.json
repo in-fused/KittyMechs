@@ -1,0 +1,123 @@
+{
+  "frozenUTC": "2026-10-10T19:37:54.659875+00:00",
+  "scope": "Exact019asset permitted only for ordinary020 functional/art review; default005 remains; public019selector and currentCameraRig016 in fresh complete-source candidate. No source18/nativeprofile/contact promotion.",
+  "rows": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10797,
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Actor.tsx",
+      "bytes": 4111,
+      "sha256": "7e42fa2e64518d62b0458db1232591bd3b854a33a130efa26dace178a7dcf23f"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 44995,
+      "sha256": "97356326d471b5a1fbead40bdbd3441e548ba80cdaafeab84f29aa86166784ee"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 8376,
+      "sha256": "0acb09714ecc984aa871a3f50d2404ce484d41908f02fe987824acb06bf1f017"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11098,
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-player-020.mjs",
+      "bytes": 11031,
+      "sha256": "3c329f2058f60e5114a2cdf85327935cef4c46737bad2896729a9cca8e7db119"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-browser-audio.mjs",
+      "bytes": 3140,
+      "sha256": "7714a65f1f7d577f398d538da81e42c63a2c7d3f4d99f3c9625d7fe67b629397"
+    },
+    {
+      "path": "tools/overhaul-runtime-art-integration-020/run-stage.py",
+      "bytes": 1687,
+      "sha256": "abbd7729c665f562ec105540d46981bec89dbd7fe815b899520dca72a674181e"
+    },
+    {
+      "path": "tools/overhaul-build-receipt.py",
+      "bytes": 1345,
+      "sha256": "cf95a283f24a72fb7fb0f466ed5e2e94c1242f97c56210a4578cd0f78b1639b2"
+    },
+    {
+      "path": "tools/overhaul-freeze-build.py",
+      "bytes": 2245,
+      "sha256": "169e33c7d8e96033a103f5fb39f4494d468da97294d83200b07d2fdcfa70ac8b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 368,
+      "sha256": "8cf594e1698f132ec8191f958c9017811c9d3f75abeeaf6ec44b9953e2fd0c96"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 553,
+      "sha256": "d0e0125a09e2e7c834bf90262afdd365877cc606bdb9c9cd9e2ec3a8eb5e6d83"
+    },
+    {
+      "path": "index.html",
+      "bytes": 451,
+      "sha256": "6f84e5501643d7df0993f9255c018c0ce40b2180389fe5dd97a1cf6708bbd8b1"
+    }
+  ],
+  "source019critic": "docs/overhaul/critic/pounce-art-bridge-019-result-review.md",
+  "firstAttemptOnly": true
+}

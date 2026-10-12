@@ -1,0 +1,81 @@
+{
+  "writer": "CLOSED",
+  "status": "REMOTE_FRESH_PAIR_CATCHUP_CANDIDATE_PUBLIC_UNRUN",
+  "files": [
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 10588,
+      "sha256": "1a661a7259c01cd4b4f269bdae42234d8579ce28674a995fdb6cbd1458632d1e"
+    },
+    {
+      "path": "tests/render-timeline-low-frame-144.test.ts",
+      "bytes": 3772,
+      "sha256": "f4b75a75e420467baa50e18ec828e1a2cacdaa3cde7522ec08321fc30de6bfd1"
+    },
+    {
+      "path": "tools/overhaul-render-timeline-144/HANDOFF.md",
+      "bytes": 4289,
+      "sha256": "44d5118a9962db5558db7cb4c2fa0374af44ba9ec49e3cf466c31fa42f5aa605"
+    },
+    {
+      "path": "docs/overhaul/render-timeline144-causal.md",
+      "bytes": 1750,
+      "sha256": "9a6e84c0254973bc264a06d41a17a8fde9a898a9e91c811a94fb07f2307dd15a"
+    },
+    {
+      "path": "src/game/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 17878,
+      "sha256": "be5cf8888a46aed18c85828ecd67bb3ed3f713551ac39930d84baad898855dbe"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "tests/motion.test.ts",
+      "bytes": 24305,
+      "sha256": "50ba57404221bead6576d0339791afedd406758fd9a4f22983187b6c062a0f8f"
+    },
+    {
+      "path": "tests/displayed-motion-rate.test.ts",
+      "bytes": 10853,
+      "sha256": "932e910e77c7481738ff20e920057a5dc99af628c2387c8ba8fcbb59bf416669"
+    },
+    {
+      "path": "tests/displayed-yaw-reaction.test.ts",
+      "bytes": 6420,
+      "sha256": "6cb611bcdfdee5d4689395aa2130043caa044af67c3928b64c4d0268e0ab3f89"
+    },
+    {
+      "path": "tests/airborne-presentation.test.ts",
+      "bytes": 5523,
+      "sha256": "129d31a8848e58f1fcd2dbb6e16b6a170bd7b86e3b3f5a06adbbccdfa6647ab8"
+    },
+    {
+      "path": "tests/feline-strike-presentation.test.ts",
+      "bytes": 8121,
+      "sha256": "e15ff8796a481a6bef5d187e398641a20c5de1bd3dd3e5ae57bc1fb0c380968e"
+    },
+    {
+      "path": "tests/turn-presentation.test.ts",
+      "bytes": 4227,
+      "sha256": "a859a3873f33cf143022d31a99ea3c963a9320734c0d0f1e136f203bd18602d3"
+    },
+    {
+      "path": "tests/quadruped-travel.test.ts",
+      "bytes": 9244,
+      "sha256": "8bfb014fe8fa5fba64762483ec3ac5426e0da454da2549de3963a0414cec4b02"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "candidate": "058C source preparation only",
+  "Bstatus": "FIRST_AUTHOR_FAILURE_STOP / RETAINED019_EXPORT_MESH_REQUIRED",
+  "BrootProcess": "23.766s exit1 reported by root, not independently rerun",
+  "BsourceOwnerRows": 459,
+  "BsourceClocks": 153,
+  "stages": {
+    "detached-solver-evaluation": 153,
+    "owned-key-current-evaluation": 153,
+    "owned-key-same-clock-replay": 153
+  },
+  "maxBReadbackResidual": 1.1920928955078125e-06,
+  "BgeometryFingerprint": "211a59bb6e84c7bf0b600f913329d104f4a114dea4a330809d5a65efb5781b9d",
+  "BmaterialsIdentical": true,
+  "savedBMasterSHA256": "e392a26aa45a5348b33efcfa34845b8be8a840c4d1ff8550b74d28afaa71414d",
+  "savedBMasterBytes": 77650342,
+  "BarchiveSealSHA256": "d363e24e713ffaadd947c835ef99415dd3a41962a5126e069f20faea63a25e3c",
+  "BarchiveMatch": true,
+  "causalSourceBoundary": {
+    "019saveLine": 48,
+    "019exportCreateLine": 50,
+    "transientMergedMesh": "Pounce_ArtBridge019_Export",
+    "034CloneSavedMaster": true
+  },
+  "BlenderExecutedByPreparer": false,
+  "nativeContactAdmission": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "RESTORED_EXACT062",
+  "utc": "2026-10-11T18:26:31.019612+00:00",
+  "runtimeRowsMatched": 248,
+  "frozenRowsMatched": 437,
+  "restored": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "restoredSHA256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48",
+      "candidateSHA256": "e7b9e55e4c375652f05a60533d27ebce9fb0c7bac19d021d19834130a6d3a092"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "restoredSHA256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603",
+      "candidateSHA256": "dc4c27bdc35ef2d657dcf82c0b0042884b8ae9e95236547057ab8a01c3a2f0a6"
+    }
+  ],
+  "removedHelperCandidateSHA256": "e613bc7000ccff37835d85bccbae184338dffebfbd06200163e90f325f3823dd",
+  "preservedCandidateOverlay": "handoff-068",
+  "serverUnchanged": {
+    "PID": 370280,
+    "session": 9510,
+    "port": 8799,
+    "receiptSHA256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+  }
+}

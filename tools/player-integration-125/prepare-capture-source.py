@@ -1,0 +1,16 @@
+from pathlib import Path
+r=Path(__file__).resolve().parents[2];h=Path(__file__).resolve().parent
+source=(r/'tools/player-lag-109/capture.mjs').read_text()
+source=source.replace('motion106 contact/moving-R','anatomy121 actualnewskin/footfall/contact/moving-R').replace('Motion110','Anatomy125')
+source=source.replace('>50000','>60000').replace('50s work bound','60s work bound').replace('70000','80000').replace('70s inclusive cleanup','80s inclusive cleanup')
+source=source.replace("await page.waitForTimeout(110)","await page.waitForTimeout(200)")
+source=source.replace("await segment('quad-forward',['KeyW'],2600);", "await segment('quad-forward',['KeyW'],2600);await segment('quad-gallop',['KeyW','ShiftLeft'],2300);await segment('gallop-recover',[],450);")
+source=source.replace("['KeyW','KeyS']","['KeyW','KeyS','ShiftLeft']")
+source=source.replace("if(sample.feline.enabled&&(!owner||owner.firstFailure||sample.feline.fallbacks.length))", "if(sample.feline.enabled&&(!owner||owner.firstFailure||sample.feline.fallbacks.length||owner.assetSHA256!=='735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738'||owner.browserClipContract128?.expected!==45||owner.browserClipContract128?.loaded!==45||owner.browserClipContract128?.passed!==true))")
+source=source.replace("{owner:owner?.firstFailure,fallbacks:","{owner:owner?.firstFailure,browserContract:owner?.browserClipContract128,assetSHA:owner?.assetSHA256,fallbacks:")
+source=source.replace("owner.browserClipContract128?.expected!==45", "owner.browserClipContract128?.required!==true||owner.browserClipContract128?.expected!==45")
+source=source.replace("const output=resolve(process.argv[2]),receipt=process.env.KITTYMECH_BUILD_RECEIPT;", "const output=resolve(process.argv[2]),receipt=process.env.KITTYMECH_BUILD_RECEIPT,expectedAsset=process.env.KITTYMECH_ASSET_SHA;\nif(!/^[a-f0-9]{64}$/.test(expectedAsset??''))throw Error('Exact frozen asset hash required');")
+source=source.replace("owner.assetSHA256!=='735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738'", "owner.assetSHA256!==expectedAsset")
+source=source.replace("const evidence={receipt,", "const evidence={receipt,expectedAsset,")
+(h/'capture.mjs').write_text(source)
+print('Finite plainURL motion capture source prepared; NO browser invocation or receipt yet')

@@ -1,0 +1,19 @@
+# Source029 result: preserved partial trajectory, failure stop
+
+Actual start20:38:32 UTC; frozen full author20:51:50.2929644. Cleanup21:10/hard21:13 unchanged. No self jobs. Root ran one saved-triangle diagnostic and one unchanged full author after independent preflights; no repairs or retries.
+
+The diagnostic closed20:47:32 UTC, exit0,4.078s inclusive. All126 saved027 claw/tail pairs were constructively exact triangle intersections; no separation/unknown rows. Independent review B8B23D1305231356350B54BDE2898458CBB5E6E208033E801D7AE686C6595111 verified rational witness points on both triangles. This establishes surface intersection only, not depth/native contact.
+
+The full author closed20:57:34.993 UTC, exit1,147.407s inclusive, without timeout. First genuine stop is CROSS_BODY_NONCLAW_SURFACE_CANDIDATES at Impact2.4s/frame29, local progress0.8737997256515775: six candidates, all FR_BearingPad_0 against029Victim__AnatomicalChassis. The prior tail pairs are absent from this CURRENT failing list. These six were not independently exact-classified; they are conservative BVH candidates with depth/intersection status unresolved. No guard waiver or second diagnostic is authorized.
+
+Seventy-seven prior sampled assemblies were accepted by the existing source gates:19 Prepare,44 Approach,14 Impact. Last accepted clock2.3666666666666663/frame27. Three PNGs replay that accepted clock, not the failed frame and not a completed pin. Both full current bodies, complete tails, requests, actual matrices, source pads and preserved editable master/raw GLB remain in full-author. No contact-progress1, Pin/Claw/Release/Escape or TailRecover completion was reached.
+
+The validated single writer continued to correspond:470 raw owner rows (158 solver evaluation,156 keyed current evaluation,156 keyed replay), maximum reported matrix component residual7.541850209236145e-6. Failed-clock requested-to-actual paw translations are FL2.7314279645418166e-7 and FR4.924151790695877e-7 source units. All57 source rest matrices/parents/lengths match before/after. Independent full-result recomputation remains separate. The source floor/pad witnesses are geometric only, not force/COM/loaded native support.
+
+Measured tail elevation1.4711277529897475 radians came from actual tail0 direction[.01512966025620699,.2999999523162842,.029999971389770508], source-X rotation only. Complete-body-derived source roots were4.454653382301331 initially and3.036086082458496 at approach/contact; these are measured source assembly placements, not admitted native spacing.
+
+Forty-nine clips actually exported:43 retained actual004 capabilities (original paired roles archived with explicit identities), four complete new Prepare/Approach roles and two partial Impact roles. Forty-seven complete action records are export bookkeeping, not qualified animation. Original TransformDown/Down/Death identities remain retained. New complete paired family/uprightpair/death/down, arbitrary canceled R, native climb, art/runtime/play and Gate1 remain denied/unobserved. No public asset or shipping runtime was changed.
+
+All12 frozen author and126 protected inputs match after execution. The result seal preserves actual outputs, root process evidence, compact analysis and this decision. Independent full-result review is pending at this seal; its exact verdict will be preserved in the final closure without changing these sealed bytes.
+
+Future action requires separate authorization: first classify the six current bearing-pad/chassis candidates using their preserved actual triangles. If genuine, coordinate the complete distal wrist/pad/digit/claw approach and orientation with actual victim geometry and fixed-chain support transitions. Do not move the roots by trial, change tolerances, exempt bearing pads or assume the old rest-horizontal paw orientation is suitable for torso contact. No successor or further job is authorized in029.

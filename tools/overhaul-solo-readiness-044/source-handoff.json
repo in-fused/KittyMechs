@@ -1,0 +1,102 @@
+{
+  "packet": "solo-readiness-044",
+  "owner": "/root/extraction_structure_039",
+  "status": "FROZEN_WRITERS_CLOSED_SOURCE_ONLY_ROOT_VALIDATION_PENDING",
+  "sourceFrozenUTC": "2026-10-11T00:03:18.1002979Z",
+  "ownedPaths": [
+    "src/game/Session.tsx",
+    "src/game/GameCanvas.tsx",
+    "src/game/camera/visualRegistry.ts",
+    "tests/solo-visual-readiness-044.test.ts",
+    "docs/overhaul/solo-readiness-044.md"
+  ],
+  "files": [
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 7047,
+      "sha256": "b3c567c66c7e57f1274f90469258fe8215912fc78c2b0c8fd9529532b9bf490e"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2434,
+      "sha256": "2b0c29d74ebd61be0c7bec5ed3d1508aad526e02f8dcaec3dea97e6cdacc8dfe"
+    },
+    {
+      "path": "tests/solo-visual-readiness-044.test.ts",
+      "bytes": 2475,
+      "sha256": "0368e6d9a87a4a2b6ddfd683a0c7e2a51db03a8474a54461fdb4c629504e6aab"
+    },
+    {
+      "path": "docs/overhaul/solo-readiness-044.md",
+      "bytes": 2254,
+      "sha256": "5c0218608fb5118a714e3c26645a11d724a59413b9ecbbda6e2d5e00e10aef73"
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools/overhaul-solo-readiness-044/src__game__camera__visualRegistry.ts.preimage",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "tools/overhaul-solo-readiness-044/src__game__entities__Actors.tsx.preimage",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "tools/overhaul-solo-readiness-044/src__game__entities__identity57Runtime034Actor.tsx.preimage",
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2"
+    },
+    {
+      "path": "tools/overhaul-solo-readiness-044/src__game__GameCanvas.tsx.preimage",
+      "bytes": 6898,
+      "sha256": "50fb2955b0ae01709bb85724249e75b248c49defb74388e4bdf28fd11daff007"
+    },
+    {
+      "path": "tools/overhaul-solo-readiness-044/src__game__Session.tsx.preimage",
+      "bytes": 5339,
+      "sha256": "403da521956553f73aeb92fe47adbab039f2c1aaa3adece43232fdde7d08fe9d"
+    }
+  ],
+  "baseline": "Verified035 candidate; source preimages copied before044. Existing043 physicscap/timing and042motion/assets unchanged.",
+  "evidence": {
+    "path": ".sites-runtime/overhaul-20261010/player044-lifecycle/evidence.json",
+    "bytes": 484744,
+    "sha256": "6f272e0827b23e04364fb4dee11e42a33b13fa3e32e66d60f83b1ad6e1b8a8de",
+    "cause": "Prototype034 exactGLB HTTP200/noerrors. InitialnativeCPUplay ownerdiagnostics empty, camera visualFrameClock-1; publicESCpause permitsactualowner commit+complete nativeTick260 modequad nofirstFailure/missingbindings, retainedonresume."
+  },
+  "change": "Local Session delays publicphysics.step until actual currentgeneration localvisual owner completes its firstfinite visualframe. Startup readinesslatchesonce so laterdeath/rigswitch/fallback cannotfreezephysics. SceneReady+LoadingOverlay nowwaitactualcompletion, preservecancel.",
+  "preserved": "No asset/roster/NPCpreload/animation/nativequery/frequency/mission/collision changes. Initialasset/rosterproposal canceled beforefreeze; Actors.tsx and034Actor exact035 restored.",
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/solo-visual-readiness-044.test.ts",
+    "tests/camera-visual-registry.test.ts",
+    "tests/session-authority.test.ts",
+    "tests/local-authority-043.test.ts"
+  ],
+  "rootBuildCommand": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "rootBrowserAcceptance": [
+    "OnefreshpublicSoloLowdeployment aftertests/build",
+    "Actualselectedlocalmodelpixels+registeredownercompletedbeforeanypublicpause",
+    "OverlayremainsPreparingwhilelocalownerpending; cancelavailable",
+    "Actualmovement+fire afterstartup;13actors retained",
+    "Nativepause/resume and remaining20FPS/KCCclockslowdown honestlyrecorded"
+  ],
+  "jobsExecuted": [],
+  "implementationOrdinal": 1,
+  "implementationMaximum": 1,
+  "technicalRepairsUsed": 0,
+  "technicalRepairMaximum": 1
+}

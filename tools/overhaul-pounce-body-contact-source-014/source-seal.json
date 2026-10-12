@@ -1,0 +1,45 @@
+{
+  "hardStopUTC": "2026-10-10T19:25:00Z",
+  "actualStartUTC": "2026-10-10T18:52:09Z",
+  "execution": "UNRUN_REQUIRES_INDEPENDENT_PREFLIGHT_AND_ROOT_SERIAL_GRANT",
+  "cleanupAimUTC": "2026-10-10T19:22:00Z",
+  "schema": "source014-frozen-inputs",
+  "files": [
+    {
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "bytes": 28647,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "bytes": 29034,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "bytes": 20304,
+      "path": "tools/overhaul-pounce-body-contact-source-014/preimages/source004.author.py"
+    },
+    {
+      "sha256": "aefb262b589571816f3b6a09e1b87dac773d08ee0c988b30ec68855a0b762f88",
+      "bytes": 29108,
+      "path": "tools/overhaul-pounce-body-contact-source-014/preimages/source004.source_helpers.py"
+    },
+    {
+      "sha256": "04faaf7e49cc1ab894991f7628c6b3e9196f9e9b05f18b8d8963d4be93ba6a2d",
+      "bytes": 1633,
+      "path": "tools/overhaul-pounce-body-contact-source-014/protected-inputs.json"
+    },
+    {
+      "sha256": "f14fcaf917213fbd7a497dbaac4208b12dbca49d7d23c928767d9b2ef22aa66f",
+      "bytes": 254,
+      "path": "tools/overhaul-pounce-body-contact-source-014/command.ps1"
+    },
+    {
+      "sha256": "6d269ce906937b71491b9359c9099c47c0aa88408db36ff528f0cce0100e4700",
+      "bytes": 4894,
+      "path": "docs/overhaul/pounce-body-contact-source-014.md"
+    }
+  ],
+  "frozenUTC": "2026-10-10T19:09:30.5084806Z"
+}

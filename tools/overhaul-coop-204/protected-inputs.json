@@ -1,0 +1,445 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop201-public/evidence.json",
+      "bytes": 1844521,
+      "sha256": "9cf9ef19dd33bbf3bd372e32802f5427e86ebaf8f7d95867ffce8dcf527d2bb9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop201-public/native-keyframes.json",
+      "bytes": 1903355,
+      "sha256": "17d3d81c5b878ca96fb1b22b826970ff42df83d57a6f841a78cde34e0e06eab7"
+    },
+    {
+      "path": "docs/overhaul/coop201-handoff.md",
+      "bytes": 4268,
+      "sha256": "ac9134ea168a4e4deae10806083636d486ff4fdd18216de85eb762e9c77adb43"
+    },
+    {
+      "path": "docs/overhaul/critic/coop201-actual-review.md",
+      "bytes": 4589,
+      "sha256": "117237c4bf1c3bfdcb2f8b7353567976f442cce570f6795af07e17254cf65147"
+    },
+    {
+      "path": "shared/buildingSurfaces.ts",
+      "bytes": 7282,
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "path": "shared/characterRubbleImpulse.ts",
+      "bytes": 9992,
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/cityFracture.ts",
+      "bytes": 3220,
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "path": "shared/cityNavigation.ts",
+      "bytes": 4136,
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "path": "shared/cityRubble.ts",
+      "bytes": 7731,
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "path": "shared/cityRubbleImpact.ts",
+      "bytes": 7392,
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": "shared/data/rainlineStreetPopulation030.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "shared/data/structuralPropCollision.json",
+      "bytes": 1268872,
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "path": "shared/data/workshopRoofPatches.json",
+      "bytes": 11533,
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "path": "shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": "shared/inputProtocol.ts",
+      "bytes": 834,
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44"
+    },
+    {
+      "path": "shared/layout.ts",
+      "bytes": 156,
+      "sha256": "b5472164d7997db81e278502837c9a355ee257855a4229bf495e9c0a53acf510"
+    },
+    {
+      "path": "shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": "shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": "shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": "shared/overhaulCornerClimb.ts",
+      "bytes": 10325,
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": "shared/overhaulGantryPortal.ts",
+      "bytes": 2415,
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "path": "shared/overhaulRuinImpact.ts",
+      "bytes": 6604,
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "path": "shared/overhaulRuins.ts",
+      "bytes": 25874,
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "path": "shared/pairedCombat.ts",
+      "bytes": 6552,
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": "shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation030.ts",
+      "bytes": 672,
+      "sha256": "4dc8b99a63f6ddd87f6d9432bfe2d1fdb47e95da639c7c88f9914fde792e2825"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 181567,
+      "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a"
+    },
+    {
+      "path": "shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": "shared/structuralPropCollision.ts",
+      "bytes": 3777,
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "path": "shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": "shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "shared/workshopGeometry.ts",
+      "bytes": 2947,
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10674,
+      "sha256": "ef5037c5968a467e5bd0ea3b3c70cd829967ec8fa288c53a65543ddbb63e41fc"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "tools/overhaul-coop-156/aim-feedback.mjs",
+      "bytes": 5338,
+      "sha256": "d14faaa97c0ef0896aef9d0c5719e29d335acae36de2d2f3fc8b1d2f7b254263"
+    },
+    {
+      "path": "tools/overhaul-coop-201/controller.mjs",
+      "bytes": 8206,
+      "sha256": "08f438ef15fdd7b61842d697a2e8b216683be134fb340b35e3164d5b729a1d81"
+    },
+    {
+      "path": "tools/overhaul-coop-201/current-occupancy.mjs",
+      "bytes": 1407,
+      "sha256": "aa14a18adb15adb7dedc4d4ce6d8131c92c33f1690928309e5b455417d349bcd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/exposure-search.mjs",
+      "bytes": 4237,
+      "sha256": "457a4160e861e3cebc4aab6957dec3f2f5f5d2e5b44a9c22d43fbef8d258107b"
+    },
+    {
+      "path": "tools/overhaul-coop-201/geometry-source.mjs",
+      "bytes": 11064,
+      "sha256": "e667cbb6e431a093b35d8b536b0b852e2d84841a6c4497833f730f2c28a172cd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/HANDOFF.md",
+      "bytes": 3606,
+      "sha256": "d973d82da33d929ece05cd0dfd9e587818d8853eabe78ac266828562f1a51744"
+    },
+    {
+      "path": "tools/overhaul-coop-201/interaction-separation.mjs",
+      "bytes": 3566,
+      "sha256": "f02b328040ca38c0f17069e13010f656880a27591005133b16f6fdbd4fbfeaee"
+    },
+    {
+      "path": "tools/overhaul-coop-201/lifecycle-adapter.mjs",
+      "bytes": 2962,
+      "sha256": "fb8cf223a104f22b63deca8136f67ad438f1fe173c62994d273aa5d8e56f70e3"
+    },
+    {
+      "path": "tools/overhaul-coop-201/mission-capture.mjs",
+      "bytes": 57096,
+      "sha256": "0e123ee1b2f53edbcb037ce43ce03970e79eece165f39e2a8d0ab21388f7d56c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/motion-scheduler.mjs",
+      "bytes": 14921,
+      "sha256": "b9c3616cf32a8c86581657f16ca3f71bbf75621d120ebcaeeb721f93fc5478e6"
+    },
+    {
+      "path": "tools/overhaul-coop-201/phased-stage.mjs",
+      "bytes": 2878,
+      "sha256": "7980f9e8499d3c294b1bf82b2eccdfce6a0b47fcba608a56abe9a978d10c44fe"
+    },
+    {
+      "path": "tools/overhaul-coop-201/planner.mjs",
+      "bytes": 7933,
+      "sha256": "5fb14521bd5b641c5165d499d7d06fef0fb0a88781c0774b278e91b139772ed6"
+    },
+    {
+      "path": "tools/overhaul-coop-201/planning-read.mjs",
+      "bytes": 2326,
+      "sha256": "ae43ed56cd8dd7495f8cf9843ca02224a722d105b9ef5e472b9aee1c3f0e57c0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/controller.mjs",
+      "bytes": 8206,
+      "sha256": "2bcc236d6146d00a08f5d281ea250b82f161e1cd385c6b6874d9585867fb0088"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/current-occupancy.mjs",
+      "bytes": 1394,
+      "sha256": "36989c1ee5d4cb4fafee3fd59702b62f7ae43bc9fa202fe6d8769cdee1ca8939"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/exposure-search.mjs",
+      "bytes": 4237,
+      "sha256": "054042bf375ca12b1e239eded457482627c4b941b46a0665682073edaac981a8"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/geometry-source.mjs",
+      "bytes": 10995,
+      "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/interaction-separation.mjs",
+      "bytes": 3566,
+      "sha256": "68dfaec8f2d25b6893e2229743ef54c897b087f19a131295f8662165031a7e5c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/lifecycle-adapter.mjs",
+      "bytes": 2678,
+      "sha256": "b23df30f76caf2045a6824198b6224a1cc37517b09294adbf41abea36eb16430"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/mission-capture.mjs",
+      "bytes": 55316,
+      "sha256": "dae9537c5f39be4f9148643f2216a84309e5f37e69bffd9c77bd01d097c5d7e0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/motion-scheduler.mjs",
+      "bytes": 10754,
+      "sha256": "b3b5bde2cc5959373ee597ea00dcd0df4a81030a2905296bd8eb704d43116974"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/phased-stage.mjs",
+      "bytes": 2860,
+      "sha256": "c44740a3c981fc60dc1e9ce311d5a9c0f8ff9fdad29276ff220168fc872deeeb"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planner.mjs",
+      "bytes": 7933,
+      "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planning-read.mjs",
+      "bytes": 2326,
+      "sha256": "8a3dfd64059060eada299734b8b4751859b1d8a0568c120099adefd4dd3d7687"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/terrain-base.mjs",
+      "bytes": 2604,
+      "sha256": "277cf56eb7b1956640ab2acab094b64bd3aa221c825b44bd45f78e4ea132f293"
+    },
+    {
+      "path": "tools/overhaul-coop-201/prep-corrupted-preimages/mission-capture.mjs",
+      "bytes": 56777,
+      "sha256": "873145363bd6cc479f607fb1a8d5aa3fa1e5b220114be239b83dae4f4d8b8232"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protected-inputs.json",
+      "bytes": 4048,
+      "sha256": "74e900a7c4e23bc306355f7ea1e107fd35e862f1091e7a728341cf80c46226d0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protocol-fixture-receipt.json",
+      "bytes": 41895,
+      "sha256": "41ba91905355e5b6cbb840553c90d53158ec1450b5e36db6f10e4d06ad3945b3"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protocol-fixture.mjs",
+      "bytes": 5527,
+      "sha256": "1b888f40a49c18c0737f6e4d6e7cb7211615db0efc4ee2815a14c494f8557b24"
+    },
+    {
+      "path": "tools/overhaul-coop-201/root-static-correction203.json",
+      "bytes": 1754,
+      "sha256": "3ce76e3a7e825d1eb4c5637921919fc34e8d52830771e7ab64bae66efad0bb63"
+    },
+    {
+      "path": "tools/overhaul-coop-201/selector-byte-check.json",
+      "bytes": 1555,
+      "sha256": "98fc04ce7bccd7712c77c4c7c104f4f2188bcf40e6d61dbd61fe2edfc8512c1f"
+    },
+    {
+      "path": "tools/overhaul-coop-201/source-seal.json",
+      "bytes": 6558,
+      "sha256": "2045aa6f91aebca672cd23a56fcb44edd7998c7af3127bfd78d037c81eb03e48"
+    },
+    {
+      "path": "tools/overhaul-coop-201/static-receipt.json",
+      "bytes": 1982,
+      "sha256": "99d584f13034e8891344b9b08d0b4c337547c6c7d82b6741d3bc89ec3476bafe"
+    },
+    {
+      "path": "tools/overhaul-coop-201/terrain-base.mjs",
+      "bytes": 2617,
+      "sha256": "0dfa317aded9173a6d30d80266da7f681ed4021f634929e1bc21b94a50fb63ab"
+    },
+    {
+      "path": "tools/overhaul-coop-204/command-envelope.mjs",
+      "bytes": 5924,
+      "sha256": "324e267531b2785edaa8bb511207019f1c8d81249f190f334ff53fbd57d352d5"
+    },
+    {
+      "path": "tools/overhaul-coop-204/controller.mjs",
+      "bytes": 10771,
+      "sha256": "80d5102a5d524d4ee1f3ad05b1b48e102e7da985039f7c3f34d10a3880ef838c"
+    },
+    {
+      "path": "tools/overhaul-coop-204/fixture204.mjs",
+      "bytes": 4811,
+      "sha256": "38f9e195329c1fd27fdbe67e519cbaa4af5ef55bc990c269390643b6afac7d1a"
+    },
+    {
+      "path": "tools/overhaul-coop-204/geometry204.mjs",
+      "bytes": 7978,
+      "sha256": "0d7f5397fb6d12c613d8328bbe738ea2bb6ada9fb8f708df862100db22e9ad69"
+    },
+    {
+      "path": "tools/overhaul-coop-204/mission-capture.mjs",
+      "bytes": 57264,
+      "sha256": "d3ba30b016a91ee3301b2c63b0bcb9c53cc176027dc88b9fc891bdcc960847f1"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    }
+  ]
+}

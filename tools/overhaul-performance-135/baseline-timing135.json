@@ -1,0 +1,16 @@
+{
+  "writer": "CLOSED",
+  "fixture": "REAL_RAPIER_TWO_HUMANS_TWELVE_NPCS_2048_TRIANGLE_FLOOR",
+  "warmupTicks": 30,
+  "ticks": 150,
+  "actors": 14,
+  "queries": 2100,
+  "stageMs": {
+    "validation": 198.21949999999975,
+    "classification": 27.96170000000319,
+    "controller": 100.57730000000112,
+    "queries": 2100
+  },
+  "totalMeasuredMs": 376.9519,
+  "limits": "Wall timings; small synthetic native scene, not district replay or client/GPU certification."
+}

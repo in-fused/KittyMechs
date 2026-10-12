@@ -1,0 +1,13 @@
+{
+  "closedUtc": "2026-10-10T18:41:52.440537+00:00",
+  "status": "ACCEPT_FUNCTIONAL_OPTIONAL_CHECKPOINT_DENY_FULLQUALITY",
+  "jobs": 0,
+  "sourceRowsMatched": 33,
+  "runtimeServer": {
+    "port": 8799,
+    "session": 89579,
+    "state": "idle service retained"
+  },
+  "sourceSealSha256": "7b3141874a8cf788f29ff24a66a10ea53bcceca70db5dd57424c1efa06a6df8d",
+  "resultSha256": "eb766b027689d5fc8d6c31c941c7e3a3d104993ccd26a9903dd50ebae52c7fe4"
+}

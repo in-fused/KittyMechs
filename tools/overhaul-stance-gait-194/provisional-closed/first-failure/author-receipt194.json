@@ -1,0 +1,73 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_AUTHOR_FAILURE_STOP",
+  "error": {
+    "message": "Scene.frame_set(): error with argument 1, \"frame\" -  Function.frame expected an int type, not float",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-stance-gait-194\\author194.py\", line 91, in <module>\n    write_pose(desired);validate_evaluated(RIG,desired,emit,'detached194');key_owned(RIG,action,frame,desired,emit);RIG.animation_data.action=None;first=first or {n:m.copy() for n,m in desired.items()};last=desired\n                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"027-single-owner\", line 33, in key_owned\nTypeError: Scene.frame_set(): error with argument 1, \"frame\" -  Function.frame expected an int type, not float\n",
+    "clock": {
+      "name": "FelineWalk",
+      "frame": 1.0,
+      "phase": 0.0
+    }
+  },
+  "recordsCompleted": 0,
+  "evaluatedRows": 2,
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/choreography174.py",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-motion-174/author174.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "match": true
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "match": true
+    }
+  ]
+}

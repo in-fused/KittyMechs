@@ -1,0 +1,41 @@
+{
+  "packet": "solo-timing-043",
+  "closedUTC": "2026-10-11T00:00:35.4027415Z",
+  "reviewer": "/root/architecture",
+  "status": "ACCEPT_BOUNDED_CATCHUP_IMPROVEMENT_DENY_FULL_PREVIEW_PLAYABILITY",
+  "report": "docs/overhaul/critic/solo-timing-043-result-review.md",
+  "reportSHA256": "584289b3cb33372f3f48cf5fe2cf9a7bcb7d2a360c067e83a566f73f9ce809d6",
+  "sourceSealSHA256": "9164f7f3f0e96622a8bd25fa542b2c0b86eab88fc17ebcf2f8f1f6abaf8077fc",
+  "resultSeal": "tools/overhaul-root-round-032/player043-result-seal.json",
+  "resultSealSHA256": "f1b7b35b54428bfa5d2b7b88b5bc66f3e9596e899248cd837c8fd82e56f943d3",
+  "verifiedResultRows": 13,
+  "verifiedResultBytes": 14262452,
+  "resultMismatches": [],
+  "tests": "28PASS",
+  "testSeconds": 6.844,
+  "buildSeconds": 26.437,
+  "actualPNGsViewed": 5,
+  "observedActorCount": 13,
+  "maximumNativeTicksPerFrame": 2,
+  "pauseBeforeTick": 980,
+  "pauseAfterTick": 980,
+  "observedCumulativeDroppedWallSeconds": 14.031866666714361,
+  "accepted": [
+    "bounded catch-up anti-spiral effect",
+    "observed SoloLow active-frame improvement",
+    "retained13actors and actual fixed-step receipts",
+    "limited pause receipt"
+  ],
+  "denied": [
+    "preview self visibility",
+    "full Solo playability",
+    "60native ticks per wall second under overload",
+    "underlying KCC optimization",
+    "full gait/contact/art/mission/Gate1"
+  ],
+  "blocker": "PreviewON localPounce present but no self render/owner/visual bounds; standardOFF actualself visible",
+  "reviewerHeavyJobs": [],
+  "implementationEdits": [],
+  "reviewerActiveHeavyJobs": 0,
+  "writersClosed": true
+}

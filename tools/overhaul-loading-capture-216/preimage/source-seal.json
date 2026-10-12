@@ -1,0 +1,61 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_ONLY_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-capture-213/binding.json",
+      "bytes": 154364,
+      "sha256": "9e847e4b89dcaa67b745efed218b12780667da943956ae1e8bf8005a0965055f"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/capture.mjs",
+      "bytes": 15478,
+      "sha256": "04a0713ce1aae5ce29c52c2fbdf7338ae2f607dbb11777cab4f9f217045bdc3b"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/entry-mapping.json",
+      "bytes": 1590,
+      "sha256": "aaa9c6f0168fde420ab2995ab93fa21c354386d500f7c7e99bcf3d84280d5ced"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/HANDOFF.md",
+      "bytes": 2377,
+      "sha256": "f79d3ab805fe271aa25a252c1079a9591b97e2b6d339546b55cebd02a5327208"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/preimage/capture.mjs",
+      "bytes": 14707,
+      "sha256": "c48e7bb317aae4213acc4da0cb2ccef202274a159ac62270c53eb84a1b4e9780"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/preimage/supervise.py",
+      "bytes": 4839,
+      "sha256": "6194d93f376c29b020d4a9a1f5dfedaff49fb28b36800830f29606ef600bd6f9"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/prepare213.py",
+      "bytes": 6538,
+      "sha256": "6c0cb943faf3d398e0c32df6fb0b4e8cc8941f9e3bb37ae06a1dd59adc1cfb9f"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/seal.py",
+      "bytes": 552,
+      "sha256": "1b036930f3a101c0da3aa9329ed955f7544e42d1109734b473c08d459c68176d"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/static-receipt.json",
+      "bytes": 1486,
+      "sha256": "509a8b069050a6191b8263627a6b78f84af3cf5e68ff957ea7a5c26ef342bbe0"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/supervise.py",
+      "bytes": 4839,
+      "sha256": "301fdc09a583f6a18940db7fde2e940573722301bc746550c43b712112c435c0"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-213/preimage/source-seal.json",
+      "bytes": 1595,
+      "sha256": "f15f99e09ee1891d7cb21f71c4fc84b42fc8b6a6ea1e13b8ea671355b7efd503"
+    }
+  ]
+}

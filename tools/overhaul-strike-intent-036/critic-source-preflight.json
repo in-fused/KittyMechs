@@ -1,0 +1,228 @@
+{
+  "packet": "036",
+  "timeUTC": "2026-10-10T21:45:38.6649863Z",
+  "status": "PASS_SOURCE_PREFLIGHT_ONLY",
+  "sealSHA": "d063ccaa61aa1e80ad4ca344eef5edd15bbccafc5d97489291243d99d7c1051e",
+  "rows": [
+    {
+      "path": "shared/inputProtocol.ts",
+      "expectedBytes": 834,
+      "actualBytes": 834,
+      "expectedSHA": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44",
+      "actualSHA": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44",
+      "ok": true
+    },
+    {
+      "path": "shared/types.ts",
+      "expectedBytes": 7772,
+      "actualBytes": 7772,
+      "expectedSHA": "0a0cf2a27739625ef378d6d79685949c89d5047fd2660f3743f19e598efc4ddb",
+      "actualSHA": "0a0cf2a27739625ef378d6d79685949c89d5047fd2660f3743f19e598efc4ddb",
+      "ok": true
+    },
+    {
+      "path": "shared/protocol.ts",
+      "expectedBytes": 12849,
+      "actualBytes": 12849,
+      "expectedSHA": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc",
+      "actualSHA": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc",
+      "ok": true
+    },
+    {
+      "path": "shared/simulation.ts",
+      "expectedBytes": 175845,
+      "actualBytes": 175845,
+      "expectedSHA": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92",
+      "actualSHA": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92",
+      "ok": true
+    },
+    {
+      "path": "src/game/input.ts",
+      "expectedBytes": 16446,
+      "actualBytes": 16446,
+      "expectedSHA": "a00f8f514a13169f10e8816ef29e70b65622bfd7f4eb18173b5d9b76aae40f8b",
+      "actualSHA": "a00f8f514a13169f10e8816ef29e70b65622bfd7f4eb18173b5d9b76aae40f8b",
+      "ok": true
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "expectedBytes": 1870,
+      "actualBytes": 1870,
+      "expectedSHA": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3",
+      "actualSHA": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3",
+      "ok": true
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "expectedBytes": 9153,
+      "actualBytes": 9153,
+      "expectedSHA": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "actualSHA": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "ok": true
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "expectedBytes": 10932,
+      "actualBytes": 10932,
+      "expectedSHA": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35",
+      "actualSHA": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35",
+      "ok": true
+    },
+    {
+      "path": "tests/chassis.test.ts",
+      "expectedBytes": 4152,
+      "actualBytes": 4152,
+      "expectedSHA": "7472c72a75735ab34f1d556642ab5e8e43cbd785843fde45502504fa29a5f457",
+      "actualSHA": "7472c72a75735ab34f1d556642ab5e8e43cbd785843fde45502504fa29a5f457",
+      "ok": true
+    },
+    {
+      "path": "tests/city-authority.test.ts",
+      "expectedBytes": 24819,
+      "actualBytes": 24819,
+      "expectedSHA": "34d38f19fd12f1f2b132402bdd2807f0b1225e63c821e7db7b88b2b29de33c76",
+      "actualSHA": "34d38f19fd12f1f2b132402bdd2807f0b1225e63c821e7db7b88b2b29de33c76",
+      "ok": true
+    },
+    {
+      "path": "tests/cover-state.test.ts",
+      "expectedBytes": 5154,
+      "actualBytes": 5154,
+      "expectedSHA": "1afca311a8a8a7087f88355302471888dde8ac9f8228dc1cfea69d1f1e5c6f32",
+      "actualSHA": "1afca311a8a8a7087f88355302471888dde8ac9f8228dc1cfea69d1f1e5c6f32",
+      "ok": true
+    },
+    {
+      "path": "tests/climb-admission.test.ts",
+      "expectedBytes": 4682,
+      "actualBytes": 4682,
+      "expectedSHA": "9d8989ec85380b4c8483b96d554eeb2a6dd91f67574467befa868185094ca16b",
+      "actualSHA": "9d8989ec85380b4c8483b96d554eeb2a6dd91f67574467befa868185094ca16b",
+      "ok": true
+    },
+    {
+      "path": "tests/city-presentation.test.ts",
+      "expectedBytes": 5210,
+      "actualBytes": 5210,
+      "expectedSHA": "aa013281f2ef3b187feb68511fab96a95c084be41b3070fe6ca5c4bc1e335a5e",
+      "actualSHA": "aa013281f2ef3b187feb68511fab96a95c084be41b3070fe6ca5c4bc1e335a5e",
+      "ok": true
+    },
+    {
+      "path": "tests/city-rubble-presentation.test.ts",
+      "expectedBytes": 7870,
+      "actualBytes": 7870,
+      "expectedSHA": "b7744d1107049a2eca74442f25329ddb66885db9903c9b10f4737d162832540f",
+      "actualSHA": "b7744d1107049a2eca74442f25329ddb66885db9903c9b10f4737d162832540f",
+      "ok": true
+    },
+    {
+      "path": "tests/jump-transport.test.ts",
+      "expectedBytes": 3301,
+      "actualBytes": 3301,
+      "expectedSHA": "592dec4f1abd672d59efe0d6c17c7f4074a7ad0f042ca7e75d7ef8425eb46cf5",
+      "actualSHA": "592dec4f1abd672d59efe0d6c17c7f4074a7ad0f042ca7e75d7ef8425eb46cf5",
+      "ok": true
+    },
+    {
+      "path": "tests/jump-prehook.test.ts",
+      "expectedBytes": 3856,
+      "actualBytes": 3856,
+      "expectedSHA": "34ce7186a6a7b6102d60f73bbd0ae3b15ba2b7e757f14c9c151ec9e75d8c4ba5",
+      "actualSHA": "34ce7186a6a7b6102d60f73bbd0ae3b15ba2b7e757f14c9c151ec9e75d8c4ba5",
+      "ok": true
+    },
+    {
+      "path": "tests/jump-network.test.ts",
+      "expectedBytes": 23499,
+      "actualBytes": 23499,
+      "expectedSHA": "fc41a54e5aac74b4ff3e1c1f3c3a6d1773f11c6ef1e24c94bf417f2e7480c77c",
+      "actualSHA": "fc41a54e5aac74b4ff3e1c1f3c3a6d1773f11c6ef1e24c94bf417f2e7480c77c",
+      "ok": true
+    },
+    {
+      "path": "tests/jump-input.test.ts",
+      "expectedBytes": 7542,
+      "actualBytes": 7542,
+      "expectedSHA": "ec41302a0066ea6c14e0695660a00b41979890bbabc8b1863bd13e828f0e4c05",
+      "actualSHA": "ec41302a0066ea6c14e0695660a00b41979890bbabc8b1863bd13e828f0e4c05",
+      "ok": true
+    },
+    {
+      "path": "tests/feline-strike-presentation.test.ts",
+      "expectedBytes": 8121,
+      "actualBytes": 8121,
+      "expectedSHA": "e15ff8796a481a6bef5d187e398641a20c5de1bd3dd3e5ae57bc1fb0c380968e",
+      "actualSHA": "e15ff8796a481a6bef5d187e398641a20c5de1bd3dd3e5ae57bc1fb0c380968e",
+      "ok": true
+    },
+    {
+      "path": "tests/simulation.test.ts",
+      "expectedBytes": 8346,
+      "actualBytes": 8346,
+      "expectedSHA": "e0962c2f5bc172792cbf0d1d4474d74ff62f8409394960fecf1f9036e66e854c",
+      "actualSHA": "e0962c2f5bc172792cbf0d1d4474d74ff62f8409394960fecf1f9036e66e854c",
+      "ok": true
+    },
+    {
+      "path": "tests/strike-intent-036.test.ts",
+      "expectedBytes": 113,
+      "actualBytes": 113,
+      "expectedSHA": "3dadca95e667c4a27f024378d3edb451c9eefc44b836940babd93027bdcbe77e",
+      "actualSHA": "3dadca95e667c4a27f024378d3edb451c9eefc44b836940babd93027bdcbe77e",
+      "ok": true
+    },
+    {
+      "path": "tools/overhaul-strike-intent-036/contract.ts",
+      "expectedBytes": 8673,
+      "actualBytes": 8673,
+      "expectedSHA": "524f6f85c6a2bc1faca1320cf8547094935f45df02258f7b59d62b8b7a0f3b6a",
+      "actualSHA": "524f6f85c6a2bc1faca1320cf8547094935f45df02258f7b59d62b8b7a0f3b6a",
+      "ok": true
+    },
+    {
+      "path": "docs/overhaul/strike-intent-036-implementation.md",
+      "expectedBytes": 5048,
+      "actualBytes": 5048,
+      "expectedSHA": "055c84ca0539e4d5ce9214c27bf425c2ae2550216b3531abe674b2600c5446cd",
+      "actualSHA": "055c84ca0539e4d5ce9214c27bf425c2ae2550216b3531abe674b2600c5446cd",
+      "ok": true
+    },
+    {
+      "path": "tools/overhaul-art-player-035.mjs",
+      "expectedBytes": 12885,
+      "actualBytes": 12885,
+      "expectedSHA": "751063f670cbab2cbc23ea1f1498a7b4553cbc312744a26dd16c0274d7fdc254",
+      "actualSHA": "751063f670cbab2cbc23ea1f1498a7b4553cbc312744a26dd16c0274d7fdc254",
+      "ok": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-035/evidence.json",
+      "expectedBytes": 1272294,
+      "actualBytes": 1272294,
+      "expectedSHA": "03b8bc7261a0a619991593f447f553d38ddfa5bea2881d67a954c659cad9e66c",
+      "actualSHA": "03b8bc7261a0a619991593f447f553d38ddfa5bea2881d67a954c659cad9e66c",
+      "ok": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-028/receipt.json",
+      "expectedBytes": 69138,
+      "actualBytes": 69138,
+      "expectedSHA": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7",
+      "actualSHA": "2319ac8151041dae74df4fcd2b3e83a2051f39010496961d8ec077b60000fec7",
+      "ok": true
+    },
+    {
+      "path": "tools/overhaul-pounce-hand-contact-032/final-result-seal.json",
+      "expectedBytes": 4011,
+      "actualBytes": 4011,
+      "expectedSHA": "4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292",
+      "actualSHA": "4e5fc3fba57d61c280c70ab3e3391b1193a3fc730eeab99071d60e32ab0b5292",
+      "ok": true
+    }
+  ],
+  "mismatches": 0,
+  "criticJobs": 0,
+  "approvedSequence": "ONE_ROOT_TEST90_THEN_BUILD180_THEN_CAPTURE150_CONDITIONAL_STOP_FIRST_GENUINE_FAILURE",
+  "gameplayArtAcceptance": "PENDING_ACTUAL_CAPTURE"
+}

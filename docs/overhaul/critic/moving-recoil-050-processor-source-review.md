@@ -1,0 +1,11 @@
+# Recoil050 source-clock packaging gate
+
+Permit **one unchanged30-second root-supervised Python postprocess**. Any first new failure stops this final packet; no further asset-pipeline attempts, Blender job or threshold relaxation are authorized here.
+
+Compared with preserved049, the deliberate change is an explicit source-clock origin: actual NLA frame1 is1/60seconds; measured last−first is the clip span. Raw head times/values/accessors and every BIN byte stay unchanged. The manifest records sourceTimeOrigin, sourceTimeEnd and span. Future playback clones the head track and shifts by−origin exactly once before action creation, using span for its event duration. This is a named source→event coordinate mapping, not changing geometry, slowing recoil, or pretending049's event-zero contract passed.
+
+The exact048 raw/master and034 model remain hash-bound. Orphan skin removal still requires zero node mesh/skin references and zero mesh/material/image/texture payload. Four actual named head rotations,21/29samples, finite60Hz spacing/source origin/span, unit quaternions, actual034 Idle endpoints1e−5, nonidentity motion and final strict-zero-render-assets/skins remain mandatory. The written derivative is read back against actual raw values and exact BIN. No replaced animation samples or fabricated runtime curves are allowed.
+
+Processor pass permits runtime implementation preparation only. Its head layer still requires independent source/tests and ordinary matched pixels: correct idle-reference additive composition, lower/root gait unchanged, critical modes/stop/retrigger lifecycle, no double time shift, and asset manifest truehash. F-only footage cannot qualify Missile/Q presentation. Full head/armor/native contact, finished art and mission remain separate and incomplete.
+
+Independently checked both frozen050 processor/handoff rows, zero SHA mismatches. Additional049 root result seal15rows also matches, without reopening049's failure. Processor SHA256 `e6e024ef258354ef1311d39742a8ce40a48a3e61c7b0334e59a1e048dce98cb2`; seal `afd830a3db18fe248bbebfe7293ef62a35702c26530c6d12026100f914ce6234`. Root pre-run sealed receipt determines chronology; reviewer performs no source/native job or implementation edit.

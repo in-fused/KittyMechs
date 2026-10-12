@@ -1,0 +1,17 @@
+
+ RUN  v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web
+
+stderr | tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > real decoded both-rig heading, event alignment and current native-plane mount through start/stop/reverse/strafe/R/reset
+using deprecated parameters for the initialization function; pass a single object instead
+
+ ✓ tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > real decoded both-rig heading, event alignment and current native-plane mount through start/stop/reverse/strafe/R/reset 979ms
+ ✓ tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > ON57 moves decoded joints, preserves source transforms, integrates once and never queries/executes contact 217ms
+ ✓ tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > OFF25 uses actual measured clocks/strides and live movingR source joints without a second owner 67ms
+ ✓ tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > temporary unsupported action exits, source bookkeeping does not catch up, fatal binding remains fatal across reset 379ms
+ ✓ tests/source-presentation155.test.ts > 155 actual source checkpoint lifecycle regression > real dispatch state switches visible owner and current registry, retains history without sticky temporary failure 257ms
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  10:10:05
+   Duration  3.20s (transform 790ms, setup 0ms, import 1.05s, tests 1.91s, environment 0ms)
+

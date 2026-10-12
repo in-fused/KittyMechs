@@ -1,0 +1,79 @@
+{
+  "candidate": "058C",
+  "status": "FIRST_EXPORT_PRECONDITION_FAILURE_PRESERVED_NO_RETRY_NO_GRAFT",
+  "createdUTC": "2026-10-11T03:01:15.680300+00:00",
+  "files": [
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058c/export-receipt.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/source-output/export-receipt.json",
+      "bytes": 5794,
+      "sha256": "77f6ca84c0cff8d9510d8f8482f642163a80cd9087935c0b19e749558d7f3868"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058c/export_saved.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/source-output/export_saved.py",
+      "bytes": 7213,
+      "sha256": "e62a576947f9daef216398faa897cea1cb6fa99536305c10946daebee474242b"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/graft_verify.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/graft_verify.py",
+      "bytes": 12015,
+      "sha256": "028b3ab733e7b33a02d2fbec9c9872657b862b3e3fa261fa97d117c2e8ed769e"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/launch.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/launch.py",
+      "bytes": 1190,
+      "sha256": "3b9c42abb82883349a64c1850d8c09d0f8b9c24f7f0c8bf618e9c12e90da3988"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/protected-inputs.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/protected-inputs.json",
+      "bytes": 5069,
+      "sha256": "56b3e2e8f984d8f7b085d0fc3fd5789cd2c2fb9e73af93b9965e74a204e18de8"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/run-seal.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/run-seal.json",
+      "bytes": 6271,
+      "sha256": "275e6d129280374551f5b5828f0fc29e8ff361fdb64fbac7e85efddb58d78d8d"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/seal.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/seal.py",
+      "bytes": 982,
+      "sha256": "eadee4e0320e01bf37c19493ee7b7c6c97f960f9da73ed13bdc5ebf5968c8145"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058c/source-preflight.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/tools/source-preflight.json",
+      "bytes": 1086,
+      "sha256": "4afa5a979f8132fafb7e84baf2d85ac31b885b0ffc21f24a8b5a3ce8def96c67"
+    },
+    {
+      "originalPath": ".sites-runtime/overhaul-20261010/gait058c-export/process-receipt.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/root-process/process-receipt.json",
+      "bytes": 3901,
+      "sha256": "a0b4d5b25e1367c2db5cc88ded15447d9a6c0c6eb724f0a3d9541b4846cb45d9"
+    },
+    {
+      "originalPath": ".sites-runtime/overhaul-20261010/gait058c-export/stdout.txt",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/root-process/stdout.txt",
+      "bytes": 683,
+      "sha256": "a128822abbe3a7a4d1a940ede2d4163675b01959466beb41a29ae579fee7c47f"
+    },
+    {
+      "originalPath": "docs/overhaul/gait-058c-export-handoff.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/gait-058c-export-handoff.md",
+      "bytes": 5440,
+      "sha256": "9123d0a5631dd33d5ea97b7470200eeb300d45fef868dc539c8a281447b580a2"
+    },
+    {
+      "originalPath": "docs/overhaul/critic/gait-058c-source-review.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-c/gait-058c-source-review.md",
+      "bytes": 2727,
+      "sha256": "07419aa9c190ba6c77130186957c15538ee039328603ffc3bc1f6aca24ee0a40"
+    }
+  ]
+}

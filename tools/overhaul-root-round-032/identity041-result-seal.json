@@ -1,0 +1,111 @@
+{
+  "frozenUTC": "2026-10-10T23:28:10.113515+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-033/playable-checkpoint.json",
+      "bytes": 555,
+      "sha256": "6a7f539f495714da88f75af672aede96431c65ecec17815845ad5a1d67cde7de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-033/receipt.json",
+      "bytes": 70825,
+      "sha256": "8bf62ae872c2d29451700c2987827685ada56a7a9a696b893b609a13b38e58ef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-build-process/process-receipt.json",
+      "bytes": 11449,
+      "sha256": "5823d422dd55a3815618757257aa342530118e91d07cdead8d84c23da187e2d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "cb79e60358e7fa8358452c93ae0c4b81261bf68999d251406c47a9b44e3cbba9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-public-process/process-receipt.json",
+      "bytes": 70943,
+      "sha256": "c44fa15a8bb545db2bf294cc4336ee3894910e722e168de8141dec41013a020d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-public-process/stdout.txt",
+      "bytes": 1204,
+      "sha256": "8ffd26ddfceebcb299ab9f6f572b276e05174b628e365ef52848ac5e2da65169"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-test-process/process-receipt.json",
+      "bytes": 11573,
+      "sha256": "a7eafb74b04683a039b5fe2fbbab7fc6b66fd368a561460d24945b6c17e0c304"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/identity041-test-process/stdout.txt",
+      "bytes": 233,
+      "sha256": "012d8b833a37eb301d76b96882e948f6442a0eabfd8ccf09b39168e0ac3a63bc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/receipt.json",
+      "bytes": 1127,
+      "sha256": "d967b6dec3afbbba14e05d72cf82c82e90e1fd6f9514ef246c240b11f547ff1b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/stdout.txt",
+      "bytes": 3454,
+      "sha256": "704b751dd885844c87fc15f2f2a5b84d7bf45ea80d04c02a0c456aac3fed4f87"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/video-01.png",
+      "bytes": 9389509,
+      "sha256": "8f60d52110cb2a160e353bd4bec54941349071cf41628d2e87b9a45c215d87d0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/video-02.png",
+      "bytes": 13817300,
+      "sha256": "17777927e08ed8a18e382a7fba2d67fed80762377fcb05553f1475bceb15a231"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/video-03.png",
+      "bytes": 13364472,
+      "sha256": "380ed50696304682ad47d346d194a22773c0a63117890a544b4ef94c431b31aa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/video-04.png",
+      "bytes": 13372914,
+      "sha256": "bd314bc1a90044293d4a3c44932042ac64ba976c18a7aa15c45bcbac163458ff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-motion/video-05.png",
+      "bytes": 10734301,
+      "sha256": "6084d725e24f65c1974acdd75631f80fa2fab53f8cdad7905d5bd9a6967566b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-public/evidence.json",
+      "bytes": 2571374,
+      "sha256": "fcf90074a8b2235e21047ab6b84dd90d105ba47a97f8beb8fa820b8113604eb3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-public/failure.png",
+      "bytes": 1305514,
+      "sha256": "e4d9c7bab32ec89b60bb5106430710f9f6e55c92f43270bc8d066853cf87b869"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-public/native-keyframes.json",
+      "bytes": 6644292,
+      "sha256": "9ff49258acbcaa496f2aca73e6e219cf518cc037b5a778f265bb64428cff5a91"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-public/page@e15438cf720e2951ad94eeebb88c17eb.webm",
+      "bytes": 18504673,
+      "sha256": "fc970a256dbd9d0f886d64b366c18b047cbfa7151a8d77c0b99bedeaafc8d77c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/mission-identity-041-public/progress.json",
+      "bytes": 2542919,
+      "sha256": "d232b02a9305ae07f27204124f7e18a913a8acbd5f85b3ff2f0988f606a3e577"
+    },
+    {
+      "path": "tools/overhaul-mission-identity-041/source-handoff.json",
+      "bytes": 6691,
+      "sha256": "f2ea9932e69a8bcef9c221b56cfddd0f1d6da364cb89ed7d1053f7e685008256"
+    }
+  ],
+  "scope": "041 actual sourceidentity test/build/public first attempt and originalpixels/nativehistory preserved. No automatic retry; independent actual mission/art/contact/fullscope acceptance remains required."
+}

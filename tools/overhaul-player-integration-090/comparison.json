@@ -1,0 +1,1750 @@
+{
+  "baseline": {
+    "receipt": "2dfc9912c42a7f8dbe4658b4debe97440290a314cf265dc49410bbb389b911ed",
+    "status": "CAPTURED_INDEPENDENT_REVIEW_REQUIRED",
+    "elapsedMs": 55489,
+    "renderer": {
+      "width": 1214,
+      "height": 758,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "phases": [
+      {
+        "phase": "prototype-idle",
+        "samples": 2,
+        "nativeTimeSpan": 0.3000000000000025,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.999995161502845,
+          "y": 0.9400999545413652,
+          "z": 21.999997316777968
+        },
+        "nativeEnd": {
+          "x": -7.999995161463268,
+          "y": 0.9400999441949535,
+          "z": 21.999997316877728
+        },
+        "sampledDisplacement": 1.0732406388519006e-10,
+        "sampledFPSMedian": 14.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-quad-forward",
+        "samples": 10,
+        "nativeTimeSpan": 2.116666666666772,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.999995161364125,
+          "y": 0.9400999906519428,
+          "z": 21.99999731707725
+        },
+        "nativeEnd": {
+          "x": -7.998069199475601,
+          "y": 0.9401163099336555,
+          "z": 7.178170361803627
+        },
+        "sampledDisplacement": 14.821827080404255,
+        "sampledFPSMedian": 54.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineIdle",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "recovery": 2,
+          "stance": 16,
+          "swing": 22
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-quad-reverse",
+        "samples": 9,
+        "nativeTimeSpan": 1.916666666666762,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.998064277727224,
+          "y": 0.9400999714361388,
+          "z": 4.672364894082552
+        },
+        "nativeEnd": {
+          "x": -7.998042628544008,
+          "y": 0.94298475378484,
+          "z": 18.22592995913887
+        },
+        "sampledDisplacement": 13.55356506507361,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineTrot",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "recovery": 5,
+          "stance": 17,
+          "swing": 14
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-stop",
+        "samples": 2,
+        "nativeTimeSpan": 0.23333333333334494,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.998015534664812,
+          "y": 0.9400999815497199,
+          "z": 22.25335151307822
+        },
+        "nativeEnd": {
+          "x": -7.997991321037907,
+          "y": 0.9400999408989447,
+          "z": 22.25442427368593
+        },
+        "sampledDisplacement": 0.001073033839721596,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 6,
+          "swing": 2
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-moving-R-up",
+        "samples": 5,
+        "nativeTimeSpan": 1.0333333333333634,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.997987238516899,
+          "y": 0.940099919725908,
+          "z": 22.254469490344253
+        },
+        "nativeEnd": {
+          "x": -7.9979910989621015,
+          "y": 0.9400999187072739,
+          "z": 17.969074782927027
+        },
+        "sampledDisplacement": 4.285394707418964,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle",
+          "FelineTransformUp",
+          "FelineUprightStride"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "recovery": 2,
+          "stance": 8,
+          "swing": 4,
+          "unloaded": 6
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-upright-forward",
+        "samples": 8,
+        "nativeTimeSpan": 1.483333333333249,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.998012840755755,
+          "y": 0.9401961634447799,
+          "z": 14.9696588413906
+        },
+        "nativeEnd": {
+          "x": -7.998027588078117,
+          "y": 0.9400999462358596,
+          "z": 7.755022217531195
+        },
+        "sampledDisplacement": 7.214636623874478,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineUprightStride"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 6,
+          "swing": 10,
+          "unloaded": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-upright-reverse",
+        "samples": 8,
+        "nativeTimeSpan": 1.5166666666665805,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.998046532890746,
+          "y": 0.9399999951619248,
+          "z": 6.1568968546460106
+        },
+        "nativeEnd": {
+          "x": -7.998119686763119,
+          "y": 0.9400999564967788,
+          "z": 12.87930678239788
+        },
+        "sampledDisplacement": 6.722409928149903,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineUprightStride",
+          "FelineUprightWalkLong"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8,
+          "swing": 8,
+          "unloaded": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-moving-R-down",
+        "samples": 5,
+        "nativeTimeSpan": 0.9333333333332803,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.99811554766922,
+          "y": 0.9400999862663594,
+          "z": 14.316888411075315
+        },
+        "nativeEnd": {
+          "x": -7.990507206265733,
+          "y": 0.9633243587340258,
+          "z": 8.247560321714236
+        },
+        "sampledDisplacement": 6.069332858162116,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineTransformDown",
+          "FelineUprightWalkLong"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "recovery": 2,
+          "stance": 6,
+          "swing": 8,
+          "unloaded": 4
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-pitch-up",
+        "samples": 4,
+        "nativeTimeSpan": 0.7499999999999574,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990500550855719,
+          "y": 0.9400000253698818,
+          "z": 4.3210649335640205
+        },
+        "nativeEnd": {
+          "x": -7.990477743663092,
+          "y": 0.9402197589005664,
+          "z": 3.3324979633323615
+        },
+        "sampledDisplacement": 0.9885669704947511,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 2,
+        "opticalLimited": 0,
+        "constrained": 2,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineIdle",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 11,
+          "swing": 5
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-pitch-down",
+        "samples": 6,
+        "nativeTimeSpan": 1.1999999999999318,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.99046205888129,
+          "y": 0.9400998896089005,
+          "z": 3.332401930295344
+        },
+        "nativeEnd": {
+          "x": -7.990459362231471,
+          "y": 0.9401441913723102,
+          "z": 3.3323248100073495
+        },
+        "sampledDisplacement": 7.716742020163526e-05,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 2,
+        "opticalLimited": 0,
+        "constrained": 2,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 24
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-level",
+        "samples": 2,
+        "nativeTimeSpan": 0.2833333333333172,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990459283450741,
+          "y": 0.9401173812583875,
+          "z": 3.3323252370075016
+        },
+        "nativeEnd": {
+          "x": -7.990459149340264,
+          "y": 0.9401000161741832,
+          "z": 3.3323257362025407
+        },
+        "sampledDisplacement": 5.168958376237439e-07,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-yaw",
+        "samples": 5,
+        "nativeTimeSpan": 0.9333333333332803,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990464786114023,
+          "y": 0.9400000127933891,
+          "z": 3.332282686910287
+        },
+        "nativeEnd": {
+          "x": -7.990468912891744,
+          "y": 0.9401791793424491,
+          "z": 3.3322971986556063
+        },
+        "sampledDisplacement": 1.5087115250115225e-05,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 20
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-yaw-return",
+        "samples": 4,
+        "nativeTimeSpan": 0.7333333333332916,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990474877495653,
+          "y": 0.9400999942480849,
+          "z": 3.3323025000536757
+        },
+        "nativeEnd": {
+          "x": -7.990474877495653,
+          "y": 0.9401000239630958,
+          "z": 3.3323025000536757
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-idle",
+        "samples": 2,
+        "nativeTimeSpan": 0.19999999999998863,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990474877495653,
+          "y": 0.9400999424141628,
+          "z": 3.3323025000536757
+        },
+        "nativeEnd": {
+          "x": -7.990474877495653,
+          "y": 0.9401000263787137,
+          "z": 3.3323025000536757
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 45.5,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-quad-forward",
+        "samples": 11,
+        "nativeTimeSpan": 2.2499999999998757,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.990474877495653,
+          "y": 0.9400999883691111,
+          "z": 3.3323025000536757
+        },
+        "nativeEnd": {
+          "x": -12.980162679765709,
+          "y": 0.9400999672563143,
+          "z": -11.699311056614487
+        },
+        "sampledDisplacement": 15.838130902386578,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-quad-reverse",
+        "samples": 9,
+        "nativeTimeSpan": 1.8166666666665634,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -13.701632152903112,
+          "y": 0.9400999500959683,
+          "z": -14.230924028412073
+        },
+        "nativeEnd": {
+          "x": -10.160802044638768,
+          "y": 0.9399998989739783,
+          "z": -1.8052019731584998
+        },
+        "sampledDisplacement": 12.920373309235549,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-stop",
+        "samples": 2,
+        "nativeTimeSpan": 0.23333333333332007,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -9.474907406688072,
+          "y": 0.940043803179064,
+          "z": 0.6018960629844976
+        },
+        "nativeEnd": {
+          "x": -9.473402652227815,
+          "y": 0.9400999994451508,
+          "z": 0.6071750875271853
+        },
+        "sampledDisplacement": 0.00548929741478464,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-moving-R-up",
+        "samples": 5,
+        "nativeTimeSpan": 0.8999999999999488,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -9.473343377822927,
+          "y": 0.9402455027503988,
+          "z": 0.6073901642552446
+        },
+        "nativeEnd": {
+          "x": -10.519683154027588,
+          "y": 0.9400999227638335,
+          "z": -3.058602787453975
+        },
+        "sampledDisplacement": 3.812391801644959,
+        "sampledFPSMedian": 55,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-upright-forward",
+        "samples": 8,
+        "nativeTimeSpan": 1.549999999999912,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -11.23057786906851,
+          "y": 0.9400000604747715,
+          "z": -5.553384482760276
+        },
+        "nativeEnd": {
+          "x": -13.29587519141627,
+          "y": 0.9402221487454466,
+          "z": -12.803099669415797
+        },
+        "sampledDisplacement": 7.538157819873535,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-upright-reverse",
+        "samples": 8,
+        "nativeTimeSpan": 1.666666666666572,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -13.75701294596787,
+          "y": 0.9400922429541919,
+          "z": -14.421608263060744
+        },
+        "nativeEnd": {
+          "x": -11.713748027269174,
+          "y": 0.9400999458613609,
+          "z": -7.250739075259599
+        },
+        "sampledDisplacement": 7.456292405514999,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-moving-R-down",
+        "samples": 5,
+        "nativeTimeSpan": 0.9333333333332803,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -11.319459901064546,
+          "y": 0.9400999404553244,
+          "z": -5.867027287620413
+        },
+        "nativeEnd": {
+          "x": -12.9457699879173,
+          "y": 0.9400998616894453,
+          "z": -11.586117450047578
+        },
+        "sampledDisplacement": 5.94582851960685,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-pitch-up",
+        "samples": 4,
+        "nativeTimeSpan": 0.6999999999999602,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -14.125973787075635,
+          "y": 0.9399998800928683,
+          "z": -15.727794166554059
+        },
+        "nativeEnd": {
+          "x": -14.327458106888697,
+          "y": 0.9402229354256219,
+          "z": -16.434907450216752
+        },
+        "sampledDisplacement": 0.7352585443657003,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 3,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-pitch-down",
+        "samples": 7,
+        "nativeTimeSpan": 1.3333333333332575,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -14.327469703172728,
+          "y": 0.9401942516216463,
+          "z": -16.434948180753743
+        },
+        "nativeEnd": {
+          "x": -14.327470921773141,
+          "y": 0.9400999335759065,
+          "z": -16.434946123236628
+        },
+        "sampledDisplacement": 2.391310027125716e-06,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 3,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-level",
+        "samples": 2,
+        "nativeTimeSpan": 0.2833333333333172,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -14.327472013618209,
+          "y": 0.9401590024118872,
+          "z": -16.434943285437317
+        },
+        "nativeEnd": {
+          "x": -14.327472776248444,
+          "y": 0.9401005246492372,
+          "z": -16.434942312650815
+        },
+        "sampledDisplacement": 1.2360899858468224e-06,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-yaw",
+        "samples": 4,
+        "nativeTimeSpan": 0.6333333333332973,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -14.327473359133483,
+          "y": 0.9401000287818119,
+          "z": -16.43494047509647
+        },
+        "nativeEnd": {
+          "x": -14.327473359133483,
+          "y": 0.9401000165145473,
+          "z": -16.43494047509647
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-yaw-return",
+        "samples": 5,
+        "nativeTimeSpan": 0.8833333333332831,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -14.327473359133483,
+          "y": 0.9400999527626067,
+          "z": -16.43494047509647
+        },
+        "nativeEnd": {
+          "x": -14.327473359133483,
+          "y": 0.9400999262417412,
+          "z": -16.43494047509647
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      }
+    ]
+  },
+  "candidate": {
+    "receipt": "35823bc5812a27e49b629abf272a6631d6e0710e5be7efa7f821035fcb37b9e1",
+    "status": "CAPTURED_INDEPENDENT_REVIEW_REQUIRED",
+    "elapsedMs": 54141,
+    "renderer": {
+      "width": 1214,
+      "height": 758,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    "phases": [
+      {
+        "phase": "prototype-idle",
+        "samples": 2,
+        "nativeTimeSpan": 0.2666666666666657,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.999995161601788,
+          "y": 0.9400999804073945,
+          "z": 21.999997316528567
+        },
+        "nativeEnd": {
+          "x": -7.999995161562171,
+          "y": 0.9400999845255865,
+          "z": 21.99999731661835
+        },
+        "sampledDisplacement": 9.813623899693874e-11,
+        "sampledFPSMedian": 6.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-quad-forward",
+        "samples": 11,
+        "nativeTimeSpan": 2.216666666666776,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.999995161483136,
+          "y": 0.9400999204389519,
+          "z": 21.9999973168478
+        },
+        "nativeEnd": {
+          "x": -7.999776815396693,
+          "y": 0.9402078242473363,
+          "z": 6.163204521880193
+        },
+        "sampledDisplacement": 15.836792796472805,
+        "sampledFPSMedian": 55,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 24,
+          "swing": 20
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-quad-reverse",
+        "samples": 9,
+        "nativeTimeSpan": 1.783333333333422,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.999982629024393,
+          "y": 0.9400999146109098,
+          "z": 3.027024207761219
+        },
+        "nativeEnd": {
+          "x": -8.000020736013632,
+          "y": 0.9399999901215051,
+          "z": 15.563969032672407
+        },
+        "sampledDisplacement": 12.536944824969103,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineTrot",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 19,
+          "swing": 17
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-stop",
+        "samples": 2,
+        "nativeTimeSpan": 0.25000000000001243,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -8.000265502425016,
+          "y": 0.9400999322860298,
+          "z": 18.068620751911016
+        },
+        "nativeEnd": {
+          "x": -8.000272103638045,
+          "y": 0.940099718547499,
+          "z": 18.072124422350402
+        },
+        "sampledDisplacement": 0.00350367665800385,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 4,
+          "swing": 4
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-moving-R-up",
+        "samples": 5,
+        "nativeTimeSpan": 0.9000000000000448,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -8.00032098515533,
+          "y": 0.9401000123724953,
+          "z": 18.07230722819172
+        },
+        "nativeEnd": {
+          "x": -8.000340434730372,
+          "y": 0.9401000204524462,
+          "z": 14.354368200077829
+        },
+        "sampledDisplacement": 3.7179390281647624,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle",
+          "FelineTransformUp",
+          "FelineUprightStride"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8,
+          "swing": 8,
+          "unloaded": 4
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-upright-forward",
+        "samples": 8,
+        "nativeTimeSpan": 1.6499999999999435,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -8.000394847394375,
+          "y": 0.9400998593554687,
+          "z": 11.436903653218565
+        },
+        "nativeEnd": {
+          "x": -8.000405625494587,
+          "y": 0.9401481541171234,
+          "z": 3.4113861746333214
+        },
+        "sampledDisplacement": 8.02551747859248,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineUprightStride"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8,
+          "swing": 8,
+          "unloaded": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-upright-reverse",
+        "samples": 8,
+        "nativeTimeSpan": 1.5666666666665776,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -8.000414219310509,
+          "y": 0.9401000066062989,
+          "z": 1.8151992724921229
+        },
+        "nativeEnd": {
+          "x": -8.000406260914323,
+          "y": 0.9400000089225796,
+          "z": 8.778588299773787
+        },
+        "sampledDisplacement": 6.963389027286212,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineUprightStride",
+          "FelineUprightWalkLong"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8,
+          "swing": 8,
+          "unloaded": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-moving-R-down",
+        "samples": 5,
+        "nativeTimeSpan": 0.9666666666666117,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -8.000383868427866,
+          "y": 0.9401079546150141,
+          "z": 10.29839305115786
+        },
+        "nativeEnd": {
+          "x": -7.996200376974912,
+          "y": 0.94009989553153,
+          "z": 3.9813297605902562
+        },
+        "sampledDisplacement": 6.317064675831452,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineTransformDown",
+          "FelineUprightWalkLong"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 6,
+          "swing": 8,
+          "unloaded": 6
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-pitch-up",
+        "samples": 4,
+        "nativeTimeSpan": 0.7833333333332888,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996108530414139,
+          "y": 0.9402068744674762,
+          "z": -0.07128831084662579
+        },
+        "nativeEnd": {
+          "x": -7.996260247929682,
+          "y": 0.9400743613368104,
+          "z": -1.3131073728139881
+        },
+        "sampledDisplacement": 1.2418190712353006,
+        "sampledFPSMedian": 54.5,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 3,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineGallop",
+          "FelineIdle",
+          "FelineWalk"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 9,
+          "swing": 7
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-pitch-down",
+        "samples": 7,
+        "nativeTimeSpan": 1.366666666666589,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996259518019306,
+          "y": 0.9401296385475871,
+          "z": -1.3131610456684113
+        },
+        "nativeEnd": {
+          "x": -7.996257163615038,
+          "y": 0.9400999620774383,
+          "z": -1.3131922602622386
+        },
+        "sampledDisplacement": 3.1303260010075165e-05,
+        "sampledFPSMedian": 55,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 5,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 28
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-level",
+        "samples": 2,
+        "nativeTimeSpan": 0.2666666666666515,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996257257527365,
+          "y": 0.9401174782177987,
+          "z": -1.3131918494869244
+        },
+        "nativeEnd": {
+          "x": -7.996255477758627,
+          "y": 0.940059991560629,
+          "z": -1.313195095998896
+        },
+        "sampledDisplacement": 3.702352865699442e-06,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 2,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 8
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-yaw",
+        "samples": 4,
+        "nativeTimeSpan": 0.7499999999999574,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996255361376081,
+          "y": 0.9400999489334209,
+          "z": -1.3132505999852169
+        },
+        "nativeEnd": {
+          "x": -7.996255361376081,
+          "y": 0.9401000253819075,
+          "z": -1.3132505999852169
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 55.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "prototype-yaw-return",
+        "samples": 4,
+        "nativeTimeSpan": 0.7499999999999574,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996255361376081,
+          "y": 0.9400999148964911,
+          "z": -1.3132505999852169
+        },
+        "nativeEnd": {
+          "x": -7.996255361376081,
+          "y": 0.9400999913449778,
+          "z": -1.3132505999852169
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [
+          "FelineIdle"
+        ],
+        "ownerAssetSHA256": [
+          "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+        ],
+        "footModes": {
+          "stance": 16
+        },
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-idle",
+        "samples": 3,
+        "nativeTimeSpan": 0.4499999999999744,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996255361376081,
+          "y": 0.9400999660319213,
+          "z": -1.3132505999852169
+        },
+        "nativeEnd": {
+          "x": -7.996255361376081,
+          "y": 0.9400999165335816,
+          "z": -1.3132505999852169
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 38,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-quad-forward",
+        "samples": 11,
+        "nativeTimeSpan": 2.216666666666544,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.996255361376081,
+          "y": 0.9400999300086551,
+          "z": -1.3132505999852169
+        },
+        "nativeEnd": {
+          "x": -7.935025574048959,
+          "y": 0.9401174131214765,
+          "z": -3.8300130543735165
+        },
+        "sampledDisplacement": 2.517507167551811,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-quad-reverse",
+        "samples": 9,
+        "nativeTimeSpan": 1.8333333333332291,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.924951859067969,
+          "y": 0.9399999651778677,
+          "z": -3.8299067491512275
+        },
+        "nativeEnd": {
+          "x": -7.980816674734578,
+          "y": 0.9400999268692436,
+          "z": 8.964111126666872
+        },
+        "sampledDisplacement": 12.794139841520513,
+        "sampledFPSMedian": 57,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-stop",
+        "samples": 2,
+        "nativeTimeSpan": 0.2499999999999858,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.991732936915705,
+          "y": 0.9400532590990229,
+          "z": 11.463629283184169
+        },
+        "nativeEnd": {
+          "x": -7.991771365861135,
+          "y": 0.9400893159437151,
+          "z": 11.472482584088034
+        },
+        "sampledDisplacement": 0.008853384306480453,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-moving-R-up",
+        "samples": 5,
+        "nativeTimeSpan": 0.8999999999999488,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.991777362037178,
+          "y": 0.9401858251695563,
+          "z": 11.472781271043964
+        },
+        "nativeEnd": {
+          "x": -7.975768007814139,
+          "y": 0.9402858793219826,
+          "z": 7.836061736997522
+        },
+        "sampledDisplacement": 3.6367547715975586,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 1,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-upright-forward",
+        "samples": 8,
+        "nativeTimeSpan": 1.6166666666665748,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.962682644439582,
+          "y": 0.9400999630525808,
+          "z": 5.16243629759208
+        },
+        "nativeEnd": {
+          "x": -7.930867275146255,
+          "y": 0.9400314687664837,
+          "z": -2.6976005523835056
+        },
+        "sampledDisplacement": 7.860101239850375,
+        "sampledFPSMedian": 55.5,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 8,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-upright-reverse",
+        "samples": 8,
+        "nativeTimeSpan": 1.5333333333332462,
+        "nativeStances": [
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.923007136815748,
+          "y": 0.9400081124781314,
+          "z": -3.8298999447766846
+        },
+        "nativeEnd": {
+          "x": -7.95238293788875,
+          "y": 0.940100013408915,
+          "z": 2.898577125276802
+        },
+        "sampledDisplacement": 6.72854119552851,
+        "sampledFPSMedian": 55.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 1,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-moving-R-down",
+        "samples": 5,
+        "nativeTimeSpan": 0.9166666666666146,
+        "nativeStances": [
+          "quadruped",
+          "upright"
+        ],
+        "nativeStart": {
+          "x": -7.959705329562119,
+          "y": 0.9401021309272215,
+          "z": 4.577763068954823
+        },
+        "nativeEnd": {
+          "x": -7.932999761773452,
+          "y": 0.9347889433588312,
+          "z": -1.5322836453566424
+        },
+        "sampledDisplacement": 6.110105075890205,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-pitch-up",
+        "samples": 4,
+        "nativeTimeSpan": 0.6666666666666288,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.911248653456049,
+          "y": 0.9400002593710992,
+          "z": -3.8299804774256927
+        },
+        "nativeEnd": {
+          "x": -7.907706941993325,
+          "y": 0.9400999573113991,
+          "z": -3.829972358910368
+        },
+        "sampledDisplacement": 0.0035417207675759966,
+        "sampledFPSMedian": 55.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 3,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-pitch-down",
+        "samples": 7,
+        "nativeTimeSpan": 1.3333333333332575,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.907655928666177,
+          "y": 0.9400999087225541,
+          "z": -3.8299941698778106
+        },
+        "nativeEnd": {
+          "x": -7.907612697511984,
+          "y": 0.9400999191599153,
+          "z": -3.82995047015776
+        },
+        "sampledDisplacement": 6.14703036057993e-05,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 5,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-level",
+        "samples": 2,
+        "nativeTimeSpan": 0.2666666666666515,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.907612697511984,
+          "y": 0.9400999536261265,
+          "z": -3.82995047015776
+        },
+        "nativeEnd": {
+          "x": -7.907612697511984,
+          "y": 0.9400999861060013,
+          "z": -3.82995047015776
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 2,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-yaw",
+        "samples": 4,
+        "nativeTimeSpan": 0.7333333333332916,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.907626739542536,
+          "y": 0.940100021172479,
+          "z": -3.829881602723865
+        },
+        "nativeEnd": {
+          "x": -7.9076228642399125,
+          "y": 0.9400999868590629,
+          "z": -3.829884032488269
+        },
+        "sampledDisplacement": 4.574027271851244e-06,
+        "sampledFPSMedian": 56.0,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 0,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      },
+      {
+        "phase": "standard-yaw-return",
+        "samples": 5,
+        "nativeTimeSpan": 0.8499999999999517,
+        "nativeStances": [
+          "quadruped"
+        ],
+        "nativeStart": {
+          "x": -7.9076228642399125,
+          "y": 0.9400999536006607,
+          "z": -3.829884032488269
+        },
+        "nativeEnd": {
+          "x": -7.9076228642399125,
+          "y": 0.9400999528221332,
+          "z": -3.829884032488269
+        },
+        "sampledDisplacement": 0.0,
+        "sampledFPSMedian": 56,
+        "clearFalse": 0,
+        "projectedFalse": 0,
+        "opticalLimited": 1,
+        "constrained": 0,
+        "ownerClips": [],
+        "ownerAssetSHA256": [],
+        "footModes": {},
+        "sourceSwingIKNonzero": 0,
+        "fallbacks": 0
+      }
+    ]
+  },
+  "scope": "Read-only sampled diagnostics and native witness, not visual contact/gait or net FPS/IAB approval. Phases differ in exact native timing and position. Standard flag-off may retain stale inactive owner diagnostics; only selected prototype phases identify active source ownership."
+}

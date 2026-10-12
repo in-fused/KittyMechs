@@ -1,0 +1,70 @@
+{
+  "writer": "CLOSED",
+  "source": ".sites-runtime/shader-startup-238/public242/evidence.json",
+  "sourceSHA256": "f84af4afcc2fe7f0eb7c9d0bba88c33525a7d5a28aa52bf6cc811ea4b80eefec",
+  "scope": "Retained242 last300 instrumented RAF samples, mixed idle/movement cold session; no new game execution or isolated GPU timing",
+  "limitations": "Not a matched affected-human/IAB benchmark. Neither HUD nor inverse median proves stable60FPS. Public severe Lowest lag unresolved.",
+  "rows": [
+    {
+      "pilot": "Program242Host",
+      "event": "failure",
+      "sampleCount": 300,
+      "pagePerformanceIntervalMs": [
+        19390.2,
+        25531.6
+      ],
+      "RAFMedianMs": 18.099999999998545,
+      "RAFP95Ms": 36.099999999998545,
+      "RAFMaxMs": 36.70000000000073,
+      "lastHUD": {
+        "fps": 52,
+        "calls": 113,
+        "triangles": 663807,
+        "geometries": 149,
+        "textures": 98,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ownerCosts": [
+        {
+          "actor": "908d45c5-f820-4829-a151-86a80c162b09",
+          "costMs": 1.9000000953674316,
+          "maxCostMs": 18.299999952316284
+        },
+        {
+          "actor": "8f7da67a-7f8e-4057-9ac6-7401d9323be4",
+          "costMs": 1.9000000953674316,
+          "maxCostMs": 17.09999990463257
+        }
+      ]
+    },
+    {
+      "pilot": "Program242Guest",
+      "event": "failure",
+      "sampleCount": 300,
+      "pagePerformanceIntervalMs": [
+        12598.2,
+        18576.5
+      ],
+      "RAFMedianMs": 18.0,
+      "RAFP95Ms": 35.899999999999636,
+      "RAFMaxMs": 53.19999999999891,
+      "lastHUD": {
+        "fps": 54,
+        "calls": 90,
+        "triangles": 681685,
+        "geometries": 135,
+        "textures": 94,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ownerCosts": [
+        {
+          "actor": "8f7da67a-7f8e-4057-9ac6-7401d9323be4",
+          "costMs": 1.7999999523162842,
+          "maxCostMs": 13.5
+        }
+      ]
+    }
+  ]
+}

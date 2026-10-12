@@ -1,0 +1,42 @@
+{
+  "writer": "CLOSED",
+  "kind": "RUNTIME_AUTHORED_BODY_AND_PAW_TASKS_FROM_RETAINED_SOURCE_CLIPS",
+  "sourceAssetsChanged": false,
+  "nativeContact": "UNQUALIFIED",
+  "rigs": {
+    "OFF25": {
+      "asset": "/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb?rev=dee43000",
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b",
+      "scale": 0.8,
+      "chains": "upper/lower/paw",
+      "contactReserve": 0.98,
+      "metadata": "locomotionTasks143.offGaits143; source constants and actual Float32 track intervals verified against packet141",
+      "distances": {"FelineWalk":0.8228571428571428,"FelineTrot":1.6,"FelineGallop":3.0181818181818185,"FelineUprightWalkLong":1.3142857142857143,"FelineUprightStride":2.0771929824561406},
+      "offsetAdaptation": "original (phase-offset) converted to plus using wrap(-offset); unchanged duties .70/.55/.44/.70/.57"
+    },
+    "ON57": {
+      "asset": "/assets/models/Pounce_Anatomy121Batched.glb",
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "scale": 0.8,
+      "chains": "fore upper/lower/paw; hind upper/lower/hock/paw with source terminal segment and pole",
+      "contactReserve": "unchanged geometric strict reach sum minus 1e-5",
+      "metadata": "actual retained identity57Runtime121Manifest measuredGait; unchanged five native distances/duties/offsets",
+      "transition": "neutral106 additive arc remains additive in source pose and each endpoint sample"
+    }
+  },
+  "bodyTask": {
+    "authority": "visual mount only; native carrier/root/hull untouched",
+    "law": "intersect each currently declared ground-stance endpoint's exact fixed-chain inner/outer reach intervals along world vertical; project the mean measured support-plane gap correction onto that feasible set",
+    "emptyIntersection": "truthful firstFailure143 with atomic source restoration; no bone scaling, target clamping or body-drop constant",
+    "admission": "same .03m touch proximity after constrained body load; unchanged reach reserves"
+  },
+  "pawTask": {
+    "law": "sample actual per-clip endpoints in current mount frame, blend endpoint vectors by actual selected weights before the single fixed-chain solve",
+    "events": "actual positive source contributors; any authored swing/unload immediately releases contact, including band changes and moving R; valid common stance preserves its world lease across band name changes",
+    "movingR": "live quad/upright body and forelimb source tasks coexist with distance-clocked hind travel; OFF static whole Transform clip relinquishes travelling locomotion ownership",
+    "recovery": "authored source endpoint recovery retained; no procedural reach-recovery arc",
+    "skin": "cached maximum20 actual skin witness vertices; same-frame attached bind inverse refresh before source/final samples; current subset minimum defines the frame marker; full-foot envelope and native certificate remain unqualified"
+  },
+  "restoration": "restore pre-solve source chain rotations before each mixer sample; old idle/combat/air/climb/pair actions retain ownership and clear leases",
+  "gate": "independent source review then ONE ordinary oblique two-mode movement/reversal/movingR gameplay gate before shipping"
+}

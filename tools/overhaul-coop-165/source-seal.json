@@ -1,0 +1,97 @@
+{
+  "writer": "CLOSED",
+  "candidate": "preventiveArrivalRegion165",
+  "publicCandidate": "UNRUN_REQUIRES_INDEPENDENT_GATE",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-165/checks-receipt.json",
+      "bytes": 496,
+      "sha256": "9d32f986e8a600626f31cbb2fd66abe125afb1d04ac193ef4c16c2b49f1d78fc"
+    },
+    {
+      "path": "tools/overhaul-coop-165/controller.mjs",
+      "bytes": 8075,
+      "sha256": "7abbf39dbcc89b72a5d7a7944d9f05e3d1a1030a82ca15959efb69524b28e86a"
+    },
+    {
+      "path": "tools/overhaul-coop-165/exposure-search.mjs",
+      "bytes": 4275,
+      "sha256": "dd0c480127d42e48b3095d6609d510bb4abfc6f9bbd58f248a1cf4db6e8837b8"
+    },
+    {
+      "path": "tools/overhaul-coop-165/geometry-source.mjs",
+      "bytes": 10989,
+      "sha256": "8692edd49c57a9a05b364b25ed0ee2b5ce9cdc18cc3da8c4f8983a8206c51cc2"
+    },
+    {
+      "path": "tools/overhaul-coop-165/HANDOFF.md",
+      "bytes": 5903,
+      "sha256": "046f44b33b968aa16d14e4d78a8e1bfd8e786232479405f749f1dd97815403f2"
+    },
+    {
+      "path": "tools/overhaul-coop-165/lifecycle-adapter.mjs",
+      "bytes": 2672,
+      "sha256": "348171611a16e88e2010b12a62628be631a47cb5bf89704f9dc0789a841d52bf"
+    },
+    {
+      "path": "tools/overhaul-coop-165/mission-capture.mjs",
+      "bytes": 50189,
+      "sha256": "c5c76011953159c540f64832fe33de1e681e6e994b923f2d087eaa46734e6847"
+    },
+    {
+      "path": "tools/overhaul-coop-165/planner-receipt.json",
+      "bytes": 1582,
+      "sha256": "304e1289d9708980a77f1d4a389b26a49db32ee978aa9a81ff41fecc003d749a"
+    },
+    {
+      "path": "tools/overhaul-coop-165/planner.mjs",
+      "bytes": 7460,
+      "sha256": "d891bec6eaa60197b2543e96993216052db3832760068ae0295279e1aca51252"
+    },
+    {
+      "path": "tools/overhaul-coop-165/planner.test.mjs",
+      "bytes": 4215,
+      "sha256": "480872ff2ca56dc1a5b948856218a65a9de11f89438673634bf121e5c5982552"
+    },
+    {
+      "path": "tools/overhaul-coop-165/planning-read.mjs",
+      "bytes": 2267,
+      "sha256": "889b6f2180966891984f46da9db39d35ce8d01b71ff8b5bcd23f35bc149470c9"
+    },
+    {
+      "path": "tools/overhaul-coop-165/preimages/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-coop-165/preimages/exposure-planner.mjs",
+      "bytes": 10987,
+      "sha256": "b18c84bc70d859aa3b33e0b16f4ef0ae1897fe1e967068814223f36534208223"
+    },
+    {
+      "path": "tools/overhaul-coop-165/preimages/mission-capture.mjs",
+      "bytes": 49242,
+      "sha256": "beb5d5662fc8327f147be674d89b8dfb97e392229d2ab89ea192638493545353"
+    },
+    {
+      "path": "tools/overhaul-coop-165/preimages/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "tools/overhaul-coop-165/protected-inputs.json",
+      "bytes": 5553,
+      "sha256": "141fe99228e0fe9e90ff88badcdf5c8fa3447cab1bc5be04ef362df8eb973d47"
+    },
+    {
+      "path": "tools/overhaul-coop-165/terrain-base.mjs",
+      "bytes": 2598,
+      "sha256": "7551e5010e23206ebb4ff3c4b29ba36e2c274c99b4c31b4fc949ed5bd9b1b290"
+    },
+    {
+      "path": "tools/overhaul-coop-165/vitest.config.mjs",
+      "bytes": 149,
+      "sha256": "43650b483ac75935e3a54880c756f23b8dd33f2b524cf45819ad5e4be3cea404"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "utc": "2026-10-11T05:59:50.724763+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/cpu-profile.json",
+      "bytes": 840764,
+      "sha256": "0a09f6a6d1272a3c2cd420ef318321a2a88c64db065b29dc89a4a0521c970305"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/evidence.json",
+      "bytes": 1893117,
+      "sha256": "21d320af067c1b15fd7bb7febc9d8304c8ad49c7b1c65a06551ddecaffc89a50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/page@b4b15f0b111ebeaaa432993088305b1b.webm",
+      "bytes": 4822507,
+      "sha256": "70d7d18641d3f16dc1d105cb84596a60bc157f1d102faddbfbcacd1dc7915b99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-backpedal.png",
+      "bytes": 1175869,
+      "sha256": "e7ef0fe625b68c4555b16ca7a6daef4b9c656bf76fb16b565d1fc479c3911abb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-idle.png",
+      "bytes": 1067132,
+      "sha256": "9e2625c2be96877b6e80ead60dc07f4d03adb7249cb037bece82206828ccfccc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/prototype-sweep.png",
+      "bytes": 1195801,
+      "sha256": "e45b4c06dbca58be3c99890f2cdb87f638fd9e492699ff67da534750530b9f4c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-backpedal.png",
+      "bytes": 1314534,
+      "sha256": "48085d289ef53ec89d813443b9612ff708c4131f95b4b13072b5ff84658cdb9d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-idle.png",
+      "bytes": 1458291,
+      "sha256": "57c4e34082a692c04434f6f2d45187ee4f0048e785b6c1928bc6f07a28b25b98"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/standard-sweep.png",
+      "bytes": 1352146,
+      "sha256": "41724179980d754c40ced045108e94b71da274f794cf357c22381c4cc3e7579f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline-process/process-receipt.json",
+      "bytes": 68175,
+      "sha256": "d3bb68cd10e1f03ac5e1133bfbd1b7040440c32565d0575e353dbc4fdbd7a7c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline-process/stdout.txt",
+      "bytes": 81,
+      "sha256": "b849199751cf220f028c1567aaf9d7919ac4855f78802ebfa7c18c103c607334"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/process-receipt.json",
+      "bytes": 87913,
+      "sha256": "550da97fd0d1e4f7fa023b748062cd84b208fa8a69e299ea43ab59610a1dd42c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/stdout.txt",
+      "bytes": 409,
+      "sha256": "514024e928f4299a0e6e0c95f041987f919c929675d43440bfe35c4c2043d9d4"
+    },
+    {
+      "path": "docs/overhaul/critic/performance083-source-review.md",
+      "bytes": 2191,
+      "sha256": "021cb323d52b7c0b9d8567a792e7dbf51196abe33338839efcedb37fd5ff5e9d"
+    },
+    {
+      "path": "docs/overhaul/critic/performance084-result-review.md",
+      "bytes": 2766,
+      "sha256": "3e991ba7d51cfccf4f714850f295643be2d1f9dc63b9d78bb33870fcef81d8ac"
+    },
+    {
+      "path": "docs/overhaul/performance-077-diagnosis.md",
+      "bytes": 6709,
+      "sha256": "cc2b3184fbac9a1ce2dffd2c73c4dcc8ec0f4644f131674b39d86f4075a837fc"
+    },
+    {
+      "path": "docs/overhaul/performance-081-source-handoff.md",
+      "bytes": 3431,
+      "sha256": "52e99b03e8ae144f904159628197470fc9f5a2089c916ba37314fe41e42602c3"
+    },
+    {
+      "path": "tools/overhaul-performance-081/containment-result.json",
+      "bytes": 2731,
+      "sha256": "0bc5f1fba8c369c00a873c2ae7a68257b8ae09c0efe8236b5e25fa42b6d790f0"
+    },
+    {
+      "path": "tools/overhaul-performance-081/source-seal.json",
+      "bytes": 10298,
+      "sha256": "3bcc8ee43033cf396733cd4ea00ae5d707d006828ccc3eb0067853f0243cf4b4"
+    }
+  ],
+  "scope": "084 CLOSED baseline completed six prototype-on/off phases67samples; build stopped TS2322 nullable savedSphere declaration mismatch15.235s exit2. No freeze046/candidate/swap. Unqualifiedperformance/camera/userlag; fullgoal INCOMPLETE. Distinct085type-only source mustreceive newgatebeforeONEbuild/candidate, nofixture/baseline reruns."
+}

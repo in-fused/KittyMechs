@@ -1,0 +1,107 @@
+{
+  "sealedUTC": "2026-10-10T19:14:33.4083545Z",
+  "files": [
+    {
+      "sha256": "394f64f6d6b9e175a34403df1664b633944aa4c195165da417c35538a7b0e8f4",
+      "bytes": 4781,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/actual-action-records.json"
+    },
+    {
+      "sha256": "903ea5b9fcc89c8f49ddb70ce3705243152027f063329cbfa28a3aa74d905946",
+      "bytes": 2014918,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/actual-animation-inventory.json"
+    },
+    {
+      "sha256": "90d5e621d6b5a0b6e71caab88c03c6658334945091887ac667b4181c5610a5ba",
+      "bytes": 464,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/actual-author-ground.json"
+    },
+    {
+      "sha256": "343186ba2f6d9911cc1c09c2f16be3bedacb3ee2aacdc3473217da333b2fdeba",
+      "bytes": 5467900,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/actual-full-geometry.json"
+    },
+    {
+      "sha256": "b4f95ea16ef56f2c7179b2dad066efa2e1254681777e9150ae2f0e2bccee6b0e",
+      "bytes": 71820,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/current-pair-request.json"
+    },
+    {
+      "sha256": "2389f5952ebca4f26ce21eb95018b7f27bddca9867ae037d883b0ec17a93790d",
+      "bytes": 9761249,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/export-actual-attributes.json"
+    },
+    {
+      "sha256": "891c28c7ded3ed05d0401be740fb67cd0266aec67430b981824cd75a7018e9bf",
+      "bytes": 317258,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/export-readback.json"
+    },
+    {
+      "sha256": "b8d43e22fb99e2a0d51f410b3a37a562641aade733ecfcf990df691421b5f423",
+      "bytes": 8073,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/export-source-offsets.json"
+    },
+    {
+      "sha256": "531b6a4271c190fa01ccf334d3e16d69cc811be8c479d0861dd4a80fb6c82876",
+      "bytes": 399738,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json"
+    },
+    {
+      "sha256": "532b07172276d4ec37693473ae1d38c0318af17b57bc3afeba22d3581c97f5e5",
+      "bytes": 101554,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/fixed-rest-verification.json"
+    },
+    {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/matching-clock-two-body-assembly.json"
+    },
+    {
+      "sha256": "88452b402518678ead63de19a193f274d8e6dd834831620f46e46a9f99b9fee3",
+      "bytes": 505,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/pair-root-design.json"
+    },
+    {
+      "sha256": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "bytes": 63438571,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend"
+    },
+    {
+      "sha256": "d72113b364fac8b018e1c167c4cab5507b189dd6bc273b4c15660cb3136a18c8",
+      "bytes": 3105312,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.raw.glb"
+    },
+    {
+      "sha256": "494feb35d81af4d8141c26de01e190651af3fd05bc99700674ff5371c18d6f2b",
+      "bytes": 213897,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/receipt.json"
+    },
+    {
+      "sha256": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "bytes": 245958,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json"
+    },
+    {
+      "sha256": "9af92f6f6a6f96f530b5a1f3019e26101256d836e7d4f9ba82240884815489fe",
+      "bytes": 6261,
+      "path": ".sites-runtime/overhaul-20261010/pounce-body-contact-source-014/blender-stdout.txt"
+    },
+    {
+      "sha256": "79210e73c1658ab849502c2758b28d6a9b4053dd9671e4a0a1c0f8b90ace6e05",
+      "bytes": 621,
+      "path": ".sites-runtime/overhaul-20261010/pounce-body-contact-source-014/process-receipt.json"
+    },
+    {
+      "sha256": "f2b860831dce1c942c7d8adc55e1541175b76973d5b32b1a53a6cf47b6d1bae2",
+      "bytes": 3250,
+      "path": "docs/overhaul/pounce-body-contact-source-014-RESULT.md"
+    },
+    {
+      "sha256": "46140c4cee289d4f991d578c99038310db1381eb6b424ec24e07d7c77795cf9b",
+      "bytes": 3465,
+      "path": "tools/overhaul-pounce-body-contact-source-014/postrun-input-verification.json"
+    }
+  ],
+  "status": "FIRST_SOURCE_FAILURE_STOP",
+  "schema": "source014-result-seal"
+}

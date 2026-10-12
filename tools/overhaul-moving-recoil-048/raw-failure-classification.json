@@ -1,0 +1,99 @@
+{
+  "bytes": 108260,
+  "sha256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010",
+  "meshes": 0,
+  "materials": 0,
+  "skins": 1,
+  "images": 0,
+  "textures": 0,
+  "skinData": [
+    {
+      "inverseBindMatrices": 137,
+      "joints": [
+        56,
+        55,
+        25,
+        23,
+        0,
+        11,
+        10,
+        9,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        8,
+        7,
+        22,
+        21,
+        20,
+        13,
+        12,
+        15,
+        14,
+        17,
+        16,
+        19,
+        18,
+        24,
+        37,
+        36,
+        35,
+        34,
+        27,
+        26,
+        29,
+        28,
+        31,
+        30,
+        33,
+        32,
+        49,
+        48,
+        47,
+        46,
+        39,
+        38,
+        41,
+        40,
+        43,
+        42,
+        45,
+        44,
+        54,
+        53,
+        52,
+        51,
+        50
+      ],
+      "name": "Pounce_Identity003_Rig"
+    }
+  ],
+  "nodeMeshBindings": [],
+  "nodeSkinBindings": [],
+  "animations": [
+    {
+      "name": "FelinePulseMoving048",
+      "channels": 171,
+      "samplers": 171
+    },
+    {
+      "name": "FelineMissileMoving048",
+      "channels": 171,
+      "samplers": 171
+    },
+    {
+      "name": "FelineUprightPulseMoving048",
+      "channels": 171,
+      "samplers": 171
+    },
+    {
+      "name": "FelineUprightMissileMoving048",
+      "channels": 171,
+      "samplers": 171
+    }
+  ],
+  "classification": "Only residual field skins[1]: armature joint/inverseBindMatrices metadata with no node skin/mesh binding and no meshes/materials/images/textures. Strict animation-only guard rejected it before head-channel/endpoints/motion admission. No waiver/retry/admission."
+}

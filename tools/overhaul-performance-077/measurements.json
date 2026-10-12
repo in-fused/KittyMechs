@@ -1,0 +1,54 @@
+{
+  "status": "RETAINED_EVIDENCE_DIAGNOSIS_NO_GAME_EDITS",
+  "recordedRafIntervals": 1150,
+  "profileSeconds": 23.761599,
+  "rendererInclusiveMs": 5307.259,
+  "renderBufferDirectInclusiveMs": 3467.099,
+  "legacyActorInclusiveMs": 2836.789,
+  "legacyWorldGetterUnionMs": 820.557,
+  "assetsHeaderOnly": [
+    {
+      "asset": "public/assets/models/Sentinel_Scout.glb",
+      "role": "scout",
+      "recordedRosterCount": 5,
+      "sourcePrimitiveDrawsPerActor": 6,
+      "sourceSkinnedPrimitiveDrawsPerActor": 6,
+      "sourceTrianglesPerActor": 15192,
+      "jsonChunkSHA256": "c1ddf907a8d50ca54b83eaf7e10a26b7a916e19bdba606f6d2160bde51286dc4"
+    },
+    {
+      "asset": "public/assets/models/Sentinel_Mortar.glb",
+      "role": "mortar",
+      "recordedRosterCount": 2,
+      "sourcePrimitiveDrawsPerActor": 6,
+      "sourceSkinnedPrimitiveDrawsPerActor": 6,
+      "sourceTrianglesPerActor": 15556,
+      "jsonChunkSHA256": "deb3146f44bb28ba4041ab0cb8dda52d4628b9da9776c660607ee921f85944ae"
+    },
+    {
+      "asset": "public/assets/models/Sentinel_Anchor.glb",
+      "role": "anchor",
+      "recordedRosterCount": 5,
+      "sourcePrimitiveDrawsPerActor": 6,
+      "sourceSkinnedPrimitiveDrawsPerActor": 6,
+      "sourceTrianglesPerActor": 16236,
+      "jsonChunkSHA256": "c8618011691cc4c6dbec309dc6839f3ae5acc351bfcef1b97c7775a402133e6a"
+    }
+  ],
+  "sourceBotPrimitiveDrawTotal": 72,
+  "sourceBotTriangleTotal": 188252,
+  "observedCallsRange": [
+    113,
+    195
+  ],
+  "observedTrianglesRange": [
+    795290,
+    1159719
+  ],
+  "limits": "Source totals include all active-scene primitive nodes and assume submitted once each. Profile lacks mesh identity, GPU timestamps and per-actor visibility; no measured avoidable fraction. Current SkinnedMesh.frustumCulled=false bypasses ordinary mesh frustum rejection.",
+  "recordedAliveBotRange": [
+    12,
+    12
+  ],
+  "sourceBotTotalsScope": "All12 roster bot models; actual per-mesh submission attribution is unavailable."
+}

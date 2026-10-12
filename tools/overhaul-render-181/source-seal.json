@@ -1,0 +1,105 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_UNADMITTED",
+  "productionAllowlist": [
+    "src/game/world/FoliageInstances.tsx",
+    "src/game/world/spatialFoliage181.ts"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-render-181/check-foliage181.mts",
+      "bytes": 6851,
+      "sha256": "7b8cf5300971027275269cf2bc833c429e5c91e1ca5eba9f4b418a7b2983b4fe"
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.json",
+      "bytes": 978680,
+      "sha256": "c2a6299fa9e40b1f478d5cfb5c7fc78a5f1d3b694dfd340ba64722c9be37ea46"
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.mts",
+      "bytes": 6110,
+      "sha256": "7860b9a7f912a3a042fc842be32580d3a97751a2a49c04176f424efa88f5d5bb"
+    },
+    {
+      "path": "tools/overhaul-render-181/extract-source181.mts",
+      "bytes": 1335,
+      "sha256": "60e7fa3dd48464a9f685851eaafe01c9019ed9a4dd503e95897311d3268a3037"
+    },
+    {
+      "path": "tools/overhaul-render-181/extraction-source181.ts",
+      "bytes": 1430,
+      "sha256": "e2df936a51bca6d1ec154ff7e579ff02eb5a13d052215141293037992521d549"
+    },
+    {
+      "path": "tools/overhaul-render-181/foliage-fixture181.json",
+      "bytes": 89267,
+      "sha256": "2918fab4e0689474ab7324a001d0818bda2d8f9190a10fc55569f38959da9837"
+    },
+    {
+      "path": "tools/overhaul-render-181/HANDOFF.md",
+      "bytes": 5162,
+      "sha256": "3dcf28c7b4ca80ee5074ca2da2344e21b55b613ac1fae194e116b77d48c070e3"
+    },
+    {
+      "path": "tools/overhaul-render-181/identity-source181.ts",
+      "bytes": 3052,
+      "sha256": "2b931cbe7ac736e3729c3b98e4cb3228776206d2d9d5e5abab2d4a99de62791a"
+    },
+    {
+      "path": "tools/overhaul-render-181/preimages/FoliageInstances.tsx",
+      "bytes": 4421,
+      "sha256": "c74de98c75c1a37d55a10b0138ccaa68bda12bee943644185ec9aed2ef525a73"
+    },
+    {
+      "path": "tools/overhaul-render-181/preimages181.json",
+      "bytes": 375,
+      "sha256": "92e6ece1724e53d1547fc2042207f9dcdf6b78ea78541ed237c868578a5ff564"
+    },
+    {
+      "path": "tools/overhaul-render-181/protected-inputs181.json",
+      "bytes": 4465,
+      "sha256": "f2e858bda9cdfc110e666033a8a4f6dae3a38c0094115d223c5021dba81984d0"
+    },
+    {
+      "path": "tools/overhaul-render-181/read-inputs181.json",
+      "bytes": 1999,
+      "sha256": "d35933172ad42701f52cafc4a8d4de54944a7b4d9aab871398e76619cf4ff8b9"
+    },
+    {
+      "path": "tools/overhaul-render-181/terminal-receipts181.json",
+      "bytes": 731,
+      "sha256": "fb4d7a55a89ee75d1ca3780bdf5c0f3018420cf5f021c9d3470927a5bab9dba8"
+    },
+    {
+      "path": "tools/overhaul-render-181/types-process181.json",
+      "bytes": 345,
+      "sha256": "5c96e4a08db8079aa3f6a7d3837cffcff290039bf63fdca530a6b5c5a0c4addb"
+    },
+    {
+      "path": "tools/overhaul-render-181/types-stdout181.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-render-181/types181.py",
+      "bytes": 992,
+      "sha256": "8113697ab0fe459a5cdd63ff8270fd24648670eaaff89d903af644e2db40e909"
+    },
+    {
+      "path": "docs/overhaul/render-181-handoff.md",
+      "bytes": 5162,
+      "sha256": "3dcf28c7b4ca80ee5074ca2da2344e21b55b613ac1fae194e116b77d48c070e3"
+    },
+    {
+      "path": "src/game/world/FoliageInstances.tsx",
+      "bytes": 4921,
+      "sha256": "06b6236c406519684b4b60bd9357d1ccdcdab2057f661d60407e7bf2faaab6e7"
+    },
+    {
+      "path": "src/game/world/spatialFoliage181.ts",
+      "bytes": 788,
+      "sha256": "ab9e3c14da58003383154759ca38a83929c46d0498c259a01a5eca252ebbf256"
+    }
+  ]
+}

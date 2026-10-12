@@ -1,0 +1,372 @@
+{
+  "status": "VERIFIED_DIRECT_PROJECT_SOURCE_ADMISSION_NOT_CLI_CANONICAL",
+  "verifiedUTC": "2026-10-10T10:08:56.897Z",
+  "sourceOwnership": "Original project geometry and deterministic weather maps. Existing unchanged BarlowCondensed SemiBold font, OFL1.1. No external generation/download.",
+  "closedSourceWriter": "2026-10-10T09:46:30.555125+00:00",
+  "criticSourceOnly": true,
+  "font": {
+    "path": "public/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+    "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "licensePath": "public/assets/fonts/barlowcondensed/OFL.txt",
+    "licenseSHA256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  "selected": [
+    {
+      "id": "street001:west-loading:00",
+      "cluster": "west-loading",
+      "module": "freight_service_cart",
+      "worldPositionXYZ": [
+        -51.2,
+        -0.08,
+        26.6
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:01",
+      "cluster": "west-loading",
+      "module": "repair_trolley",
+      "worldPositionXYZ": [
+        -53,
+        -0.08,
+        26
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:02",
+      "cluster": "west-loading",
+      "module": "generator_skid",
+      "worldPositionXYZ": [
+        -59.8,
+        -0.08,
+        24.3
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:03",
+      "cluster": "west-loading",
+      "module": "hydraulic_manifold",
+      "worldPositionXYZ": [
+        -60.5,
+        -0.08,
+        26.2
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:04",
+      "cluster": "west-loading",
+      "module": "cable_reel",
+      "worldPositionXYZ": [
+        -58.8,
+        -0.08,
+        25.9
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:05",
+      "cluster": "west-loading",
+      "module": "stacked_industrial_cases",
+      "worldPositionXYZ": [
+        -56.6,
+        -0.08,
+        23.5
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:06",
+      "cluster": "west-loading",
+      "module": "covered_machine_pallet",
+      "worldPositionXYZ": [
+        -54.7,
+        -0.08,
+        23.5
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:07",
+      "cluster": "west-loading",
+      "module": "security_fence",
+      "worldPositionXYZ": [
+        -60.8,
+        -0.08,
+        23.2
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:08",
+      "cluster": "west-loading",
+      "module": "service_bollard",
+      "worldPositionXYZ": [
+        -49,
+        -0.08,
+        25
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    },
+    {
+      "id": "street001:west-loading:09",
+      "cluster": "west-loading",
+      "module": "inspection_hatch",
+      "worldPositionXYZ": [
+        -55,
+        -0.08,
+        28.7
+      ],
+      "yawRadians": 0,
+      "scaleXYZ": [
+        1,
+        1,
+        1
+      ],
+      "purpose": "warehouse loading/service sequence; sample board mapping",
+      "admission": "PENDING",
+      "solidProxyRequired": true,
+      "loadBearing": false,
+      "decorOwner": "module",
+      "navCarve": "PENDING",
+      "climbPolicy": "PENDING_ACTUAL_GEOMETRY",
+      "destructionPolicy": "PENDING_MODULE_SUPPORT_AND_DAMAGE_OWNER"
+    }
+  ],
+  "checked": [
+    {
+      "path": "tools/overhaul-rainline-street-population-001/audit.py",
+      "bytes": 2622,
+      "sha256": "a02f72582a576f4489c54e5d866e28ec021f0b0f03ce515eb6af4b7da56988e2"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/author.py",
+      "bytes": 26222,
+      "sha256": "8e43b6d09210bc9bbe382d198070bf003d4fac3b632b0fd48783eaebdaa73e8e"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/bounds.py",
+      "bytes": 2802,
+      "sha256": "a8094c072852105485924509626ffb741ff1215f8d6b61460e36de46455b7d6e"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/placement.py",
+      "bytes": 5123,
+      "sha256": "0067bdcb104876a067e3b921aa7f24bcda11f4bffdfb2e15ad22ab1db593b8a0"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/recipe.json",
+      "bytes": 961,
+      "sha256": "fce2ae9c40ed7ee9fecc35d84ba10eddb110509b9c3eac3482fa17105626bdbf"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/__pycache__/audit.cpython-312.pyc",
+      "bytes": 5957,
+      "sha256": "df190997498de875f4d4ce485d2a2c134bff8c841781847405071f250d75a867"
+    },
+    {
+      "path": "tools/overhaul-rainline-street-population-001/__pycache__/author.cpython-312.pyc",
+      "bytes": 56454,
+      "sha256": "26b15ff0d458b6e64f88d2054b855141c2ed81b997ba58edfde7d728201ea85c"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/manifest.json",
+      "bytes": 50246,
+      "sha256": "2386ecad7c2f231eb2418c4ca0aa3fbd68930a88ee374ff8c39e1a35ed1c9822"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/placement-proposal.json",
+      "bytes": 22455,
+      "sha256": "b436edcfd0d72d18956b6168d4b4e642e3a624cfc2d85bcb2aa2a63863b6070e"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/Rainline_StreetPopulation_001.blend",
+      "bytes": 12373314,
+      "sha256": "bba9cc6e235548575bbcb73eb9ac1195c37467094bee8da61f5f2a921cf06deb"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/Rainline_StreetPopulation_001.glb",
+      "bytes": 5140368,
+      "sha256": "387db23d0128df59c215b927ecfcadffb0492faa2bcee1c54a9264f98fcad70a"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/review-module-silhouettes.png",
+      "bytes": 4739989,
+      "sha256": "4e14b54538de1d440511f9184bb2eec5568c168125022f19d7b993868d025a25"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/review-west-loading-sample.png",
+      "bytes": 3516624,
+      "sha256": "df534b10a7f112da4c66d9bd031467fce7ee7cdadf4af6b1cf51b95045771ca3"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/weather-instrument.png",
+      "bytes": 77143,
+      "sha256": "8ea1d4b3ce22a6ddf55c84158a93d29459995818212e470bae31bd206bfeea28"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/weather-mineral.png",
+      "bytes": 77102,
+      "sha256": "12c865063ab22251d9b9315ad205a1f0df71dc0fce90978fd159ee48cab0b15c"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/weather-painted.png",
+      "bytes": 77058,
+      "sha256": "34645dd37e1606a884edbe23f9f65ce91844c8ef1032c88106fbd8978a8326d6"
+    },
+    {
+      "path": "assets/source/overhaul-rainline-street-population-001/weather-rubber.png",
+      "bytes": 77140,
+      "sha256": "a20d92d66b3f264d5273cc1e825521a1ea6bcbb901bbe641feb56ebebb4ab16d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/rainline-street-population-001/blender-job.log",
+      "bytes": 28016,
+      "sha256": "d7543cf2e8dc417fea64b7c7111f82f064dd1b61723e3f6c1b6760bdff43405e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/rainline-street-population-001/exact-exported-bounds.json",
+      "bytes": 9718,
+      "sha256": "ea437a2acdbc131bf1382a4533602f0faa2e42e8229f0ba1bf58a14c245a0f68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/rainline-street-population-001/frozen-before-execution.json",
+      "bytes": 1754,
+      "sha256": "d9e3708df3eaf1e6a0d6f0872d3d3a98e79f48d265f4e09a3320a9831e302771"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/rainline-street-population-001/job-receipt.json",
+      "bytes": 2351,
+      "sha256": "d14254df2c2d7ab9936b1959ff97e468457b7ed6ed2a40b30bce2034eacd3e4c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/rainline-street-population-001/static-audit.json",
+      "bytes": 2547,
+      "sha256": "6b98feb7f109e0a651ca098ce928b6a25fe3dd199d7f08a5a264f76331f04a39"
+    },
+    {
+      "path": "docs/overhaul/rainline-street-population-001.md",
+      "bytes": 7459,
+      "sha256": "4bd6b38e96d0b0962e56e6b95dd7a662b121c72f8f2a6279fe901b10e64e20f1"
+    }
+  ]
+}

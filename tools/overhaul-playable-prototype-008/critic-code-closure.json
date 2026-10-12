@@ -1,0 +1,16 @@
+{
+  "schema": "critic-public-feline008-code-v1",
+  "startUtc": "2026-10-10T17:39:57Z",
+  "reportCutoffUtc": "2026-10-10T17:47:00Z",
+  "closedUtc": "2026-10-10T17:42:29.7270655Z",
+  "verdict": "APPROVE_ONE_CONDITIONAL_INTEGRATED_UI_OBSERVATION",
+  "reviewPath": "docs/overhaul/critic/public-feline-prototype-008-code-review.md",
+  "reviewSha256": "4830F10265C8034A6B7CC200724901B6A502C78B0892822ECBDFD21FDE1E6B81",
+  "sourceSealSha256": "89A0261B23E47FEC99C71EBDD3D85D6BA16E62C1537763BFDA171F92985EF103",
+  "sourceRows": 13,
+  "preimages": 4,
+  "mismatches": 0,
+  "legacyActorTailExact": true,
+  "criticJobs": 0,
+  "gate1": "INCOMPLETE"
+}

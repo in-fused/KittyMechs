@@ -1,0 +1,19 @@
+{
+  "closedUTC": "2026-10-11T01:28:19Z",
+  "decision": "ACCEPT_TESTED_SQUAD_RULE_AND_LIMITED_CHECKPOINT_DENY_FULL_MISSION_DEPENDABLE_GUEST_STARTUP_GATE1",
+  "candidate": "037 LIMITED FUNCTIONAL CHECKPOINT; preserve036 fallback",
+  "technical": {"testsPassed": 27, "files": 3, "testSeconds": 12.141, "buildSeconds": 27.89, "sealedInputs": 397},
+  "public": {"status": "FIRST_GENUINE_FAILURE_STOP", "elapsedSeconds": 50.281, "phase": "two-client-staging", "cause": "Guest ordinary20s readiness missing; actual underlying cause UNKNOWN", "requiredObjectiveProgress": 0, "nativePublicationComparisons": 100, "worldMismatches": 0, "errors": [], "guestVisualFrameClock": -1, "guestVisualCorners": 0, "guestFitAvailable": false},
+  "verifiedTechnicalRows": 5,
+  "verifiedPrepublicRows": {"owned": 13, "protected": 401},
+  "verifiedPublicRows": 10,
+  "hashMismatches": [],
+  "technicalResultSealSHA256": "596ef8efef4011a1877fbd665f364b1896d1e10683f9bc905e89ae5d2664d21c",
+  "publicResultSealSHA256": "f90d4218858c13134f9709a595d9b23d0c6900bbdd5800d6f421fb1c12f0b550",
+  "reviewedPixels": ["failure.png", "failure-guest.png"],
+  "originalVideoScope": "Both own videos preserved; PNGs inspected, no new derived-video job by reviewer",
+  "cleanupLimit": "Recorded cleanupFailure null; no independent historical tree proof",
+  "reviewerHeavyJobs": [],
+  "fullGoal": "INCOMPLETE",
+  "nextAttemptAuthorized": false
+}

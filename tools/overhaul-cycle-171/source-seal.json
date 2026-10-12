@@ -1,0 +1,96 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_COMPLETE_NOT_GAMEPLAY_ACCEPTED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "bytes": 1660,
+      "sha256": "d4d72cd4baa55f48b3c650df3f780c48e60d4b9ae7182a53ee3d4de155d2d81b"
+    },
+    {
+      "path": "tests/source-cycle171.test.ts",
+      "bytes": 10558,
+      "sha256": "5fd8a2ce9234272648e07a9424db1705346be470758fc41328209bfee1305149"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/cases171.json",
+      "bytes": 13858,
+      "sha256": "385065d1530ba5060ce8973b659e441b83fe2d3d2f939e60a9d54aa8397010dc"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/counterexample-receipt171.txt",
+      "bytes": 1081,
+      "sha256": "d736de761665e1f1a411337d30df5a222adc6ced9f1be17f626c7d0c9c25dfdf"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/HANDOFF.md",
+      "bytes": 3653,
+      "sha256": "634391ee2a8a5186d389f17bc9729e83f261e86cafe0852ca1db436197be2b4e"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/original-clock-counterexample171.json",
+      "bytes": 1292,
+      "sha256": "4e5023455aedb11431e60c1e0b88736be6a7ec98e90e739998fc81aa68def590"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/preimages/Actors.tsx",
+      "bytes": 49497,
+      "sha256": "afab093b1dfebb26382bc8210aabd7afea5cac4300fc77f1b9f4d24eb91e1e80"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/preimages/Identity57Runtime005.ts",
+      "bytes": 20470,
+      "sha256": "af3cb0a5c99b7537736ff90af95360c02adaeb922698c5b9a596c28c38fa53a3"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/preimages/sourcePresentation154.ts",
+      "bytes": 3318,
+      "sha256": "b0b7896d2feb846ebc7a9dd6e07c0ea1f7393eafe8a477aef1cae0d4ba2d7a94"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/protected-inputs171.json",
+      "bytes": 2069,
+      "sha256": "3cffb623513eb9ad73b5fac957c875bb59fb9cd0437e71012575dde2c88e3f51"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/reproduce171.mts",
+      "bytes": 1681,
+      "sha256": "5eb732d8f158c1cf2f33d3f8031c6229b26782a6c7cc6044969987e58afd9718"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/source-diff171.patch",
+      "bytes": 7082,
+      "sha256": "aedf1271c4635a8ba7008dbb41b70725f02ad4de1a1b730ddc27cc9531947e5f"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/terminal-receipts171.json",
+      "bytes": 1092,
+      "sha256": "276f46fa26ceada8cffdb966effce29a1b835a54801c76c15e62b0bef2c8f080"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/test-receipt171.txt",
+      "bytes": 240,
+      "sha256": "177031ab40a23ad55e76dcb136012f1f19bbbf702b251bf96bea9e4685b6eca6"
+    },
+    {
+      "path": "tools/overhaul-cycle-171/typecheck171.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "batch_id": "batch-002",
+  "status": "reviewed_direction_accepted_with_corrections",
+  "critique_path": "docs/art/batch-002-critique.md",
+  "created_utc": "2026-09-26T15:07:57.620Z",
+  "critic_author": "root",
+  "critic_evidence_path": "docs/art/batch-001-critique.md",
+  "authorized_batch_credits": 4,
+  "authorized_cumulative_spend_before_review": 8,
+  "credit_floor": 10,
+  "quoted_batch_credits": 4,
+  "cumulative_before": 4,
+  "balance_before": {
+    "credits": 106,
+    "subscription_plan_type": "plus",
+    "pricing_url": "https://higgsfield.ai/mcp-pricing",
+    "free_trial": {
+      "status": "active",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": "2026-09-29T02:37:34Z",
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      }
+    ]
+  },
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Original KittyMech game production concept comparison sheet. Use the two supplied earlier concepts only as continuity references for ivory ceramic/enamel armor, recessed dark-plum mechanisms, practical joints and tiny protected cat pilots. Substantially revise their silhouettes as specified; do not preserve their similar body proportions. TWO complete 4.5-meter-tall bipedal mechs ONLY, shown side by side at exactly the same scale on a shared ground baseline, near-orthographic three-quarter front view, generous separation and margins, both feet entirely visible. Left POUNCE: agile but weighty athletic skirmisher, narrow waist and compact chest, small low rounded shoulders, longer-looking legs, subtly digitigrade-looking shin/calf armor arranged around conventional biped hips/knees/ankles, compact integrated right forearm pulse cannon, visible left hand, short broad triangular feline ears close to cockpit, segmented mechanical balancing tail extending clearly to the left behind the hips, forward-ready lean. Ivory and burnt-orange panels. Right BASTION: mobile heavy protector, torso at least 1.35 times Pounce torso width, broad squat chest, shorter-looking thick limbs, massive paw-shaped left forearm shield carried outside the torso so it does not hide the cockpit or legs, low broad stable stance, compact triangular feline ears, compact right pulse emitter. Ivory and deep petrol-teal panels. The two outlines must look substantially different even as black silhouettes: tall slender springy Pounce against broad low blocky Bastion. No long rabbit ears, no antenna blades, no wings. A tiny cute ginger/white cat in Pounce and tiny cute tuxedo cat in Bastion; each visible seated cat from ears to paws is about one-eighth of its entire mech height, not one-eighth of chest height. Both cats protected behind small transparent chest canopies, cockpit is not the entire chest. Premium stylized 3D-rendered material appearance, grounded mechanical heft, simple broad shapes, restrained edge wear, no line-art outlines. Clean warm-gray studio background, neutral soft daylight, minimal shadows; identical lighting for both. Small unobtrusive labels POUNCE and BASTION only. No invented stats, exploded views, extra diagrams, extra cats, cropped feet, giant heads, florid tiny greebles, huge shoulder weapons, neon glow, military camouflage or copied commercial IP. Modeling-reference clarity takes priority over dynamic spectacle.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c"
+          },
+          {
+            "role": "image",
+            "value": "50d58da9-ad9b-4cb9-b8f0-007168b65506"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Create one original premium stylized 3D game environment concept for KittyMech, titled internally Rainline Reach but with NO text or UI in the image. A navigable coastal storm-energy repair settlement, viewed at actual third-person gameplay camera height about five meters above the ground with a moderate wide-angle lens, not an aerial map and not an enclosed arena. Show a legible connected district: foreground lower dark basalt harbor piers with sturdy repair rails and shallow tide channels; middle level warm ivory and petrol-teal industrial workshops, compact wind collectors, storm shutters and rain-streaked ceramic panels; upper level a wooded stone aqueduct and leafy terraces inspired by humid island forests. Broad continuous switchback ramps, service streets and bridges visibly connect all three elevations, with at least two readable route choices from the foreground and clear sightlines to a modest energy-relay landmark. Traversable road surfaces approximately eight meters wide, natural slope transitions and generous turning space; no impossible stairs required of mechs, no giant empty plazas or contained circular battle pit. One small original orange/ivory feline bipedal mech in the lower middle foreground seen from behind, another teal/ivory mech in the middle distance, each roughly four meters tall relative to building doors and railings; they establish believable scale without dominating frame. Some wet ground and soft reflected light, a clearing coastal rainfront with warm sunlight breaking through at the horizon, restrained mist allowing clear visibility, moody but readable contrast, no visual clutter covering paths. Express dynamic environment potential through closed storm shutters, a simple lift bridge and drainage architecture; do not depict huge explosions, physical flooding simulations or destruction spectacle. High-quality stylized hard-surface PBR environment language, clear broad material groups, cozy repair settlement fused with dramatic rocky coast, grounded machines and lush vegetation, original design, realistic perspective, fine craft, no hyperdense megacity, no expensive raytraced showcase look, no brand logos. A painterly design sensibility with convincing 3D lighting, readable gameplay spaces and obvious connected routes is the priority."
+      }
+    }
+  ],
+  "cost_preflight": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          },
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            },
+            "medias[1].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          }
+        },
+        "isError": false
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e.png"
+    },
+    {
+      "index": 2,
+      "job_id": "98b98ca4-54cd-4cc2-8df2-be7cb8b7b351",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_98b98ca4-54cd-4cc2-8df2-be7cb8b7b351.png"
+    }
+  ],
+  "originals": [
+    {
+      "index": 1,
+      "path": "Art/Concepts/batch-002/pounce-bastion-comparison-002.png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 5406231,
+      "sha256": "08B5B49CE4C0BF9573E88812CF8B1DA8E1C8E0C0D36C76963634A5A1C006E780"
+    },
+    {
+      "index": 2,
+      "path": "Art/Concepts/batch-002/rainline-reach-concept-001.png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 7115886,
+      "sha256": "452D1E4520F22E8454E0F74EE1E0623B1F0CDAA31621EE06A2DC01509783DEF5"
+    }
+  ],
+  "submission": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Submitted 2/2 image generations.\n- index 1: dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e (pending)\n- index 2: 98b98ca4-54cd-4cc2-8df2-be7cb8b7b351 (pending)\nWait for the complete requested set with jobs_wait, then show it together with show_generation_by_ids using the collected indexed jobs. This includes jobs submitted across separate calls. job_display accepts only one id and cannot display a group; do not pass ids or call it once per job."
+      }
+    ],
+    "structuredContent": {
+      "jobs": [
+        {
+          "index": 1,
+          "job_id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+          "status": "pending",
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            },
+            "medias[1].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "job_id": "98b98ca4-54cd-4cc2-8df2-be7cb8b7b351",
+          "status": "pending"
+        }
+      ],
+      "submitted_count": 2,
+      "failed_count": 0
+    },
+    "isError": false
+  },
+  "completed_utc": "2026-09-26T15:10:30.979Z",
+  "gallery": {
+    "items": [
+      {
+        "id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Original KittyMech game production concept comparison sheet. Use the two supplied earlier concepts only as continuity references for ivory ceramic/enamel armor, recessed dark-plum mechanisms, practical joints and tiny protected cat pilots. Substantially revise their silhouettes as specified; do not preserve their similar body proportions. TWO complete 4.5-meter-tall bipedal mechs ONLY, shown side by side at exactly the same scale on a shared ground baseline, near-orthographic three-quarter front view, generous separation and margins, both feet entirely visible. Left POUNCE: agile but weighty athletic skirmisher, narrow waist and compact chest, small low rounded shoulders, longer-looking legs, subtly digitigrade-looking shin/calf armor arranged around conventional biped hips/knees/ankles, compact integrated right forearm pulse cannon, visible left hand, short broad triangular feline ears close to cockpit, segmented mechanical balancing tail extending clearly to the left behind the hips, forward-ready lean. Ivory and burnt-orange panels. Right BASTION: mobile heavy protector, torso at least 1.35 times Pounce torso width, broad squat chest, shorter-looking thick limbs, massive paw-shaped left forearm shield carried outside the torso so it does not hide the cockpit or legs, low broad stable stance, compact triangular feline ears, compact right pulse emitter. Ivory and deep petrol-teal panels. The two outlines must look substantially different even as black silhouettes: tall slender springy Pounce against broad low blocky Bastion. No long rabbit ears, no antenna blades, no wings. A tiny cute ginger/white cat in Pounce and tiny cute tuxedo cat in Bastion; each visible seated cat from ears to paws is about one-eighth of its entire mech height, not one-eighth of chest height. Both cats protected behind small transparent chest canopies, cockpit is not the entire chest. Premium stylized 3D-rendered material appearance, grounded mechanical heft, simple broad shapes, restrained edge wear, no line-art outlines. Clean warm-gray studio background, neutral soft daylight, minimal shadows; identical lighting for both. Small unobtrusive labels POUNCE and BASTION only. No invented stats, exploded views, extra diagrams, extra cats, cropped feet, giant heads, florid tiny greebles, huge shoulder weapons, neon glow, military camouflage or copied commercial IP. Modeling-reference clarity takes priority over dynamic spectacle.",
+          "aspect_ratio": "16:9",
+          "input_images": [
+            {
+              "id": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c.png"
+            },
+            {
+              "id": "50d58da9-ad9b-4cb9-b8f0-007168b65506",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_50d58da9-ad9b-4cb9-b8f0-007168b65506.png"
+            }
+          ],
+          "width": 2752,
+          "height": 1536,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e_min.webp"
+        },
+        "createdAt": 1790435281.886636
+      },
+      {
+        "id": "98b98ca4-54cd-4cc2-8df2-be7cb8b7b351",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Create one original premium stylized 3D game environment concept for KittyMech, titled internally Rainline Reach but with NO text or UI in the image. A navigable coastal storm-energy repair settlement, viewed at actual third-person gameplay camera height about five meters above the ground with a moderate wide-angle lens, not an aerial map and not an enclosed arena. Show a legible connected district: foreground lower dark basalt harbor piers with sturdy repair rails and shallow tide channels; middle level warm ivory and petrol-teal industrial workshops, compact wind collectors, storm shutters and rain-streaked ceramic panels; upper level a wooded stone aqueduct and leafy terraces inspired by humid island forests. Broad continuous switchback ramps, service streets and bridges visibly connect all three elevations, with at least two readable route choices from the foreground and clear sightlines to a modest energy-relay landmark. Traversable road surfaces approximately eight meters wide, natural slope transitions and generous turning space; no impossible stairs required of mechs, no giant empty plazas or contained circular battle pit. One small original orange/ivory feline bipedal mech in the lower middle foreground seen from behind, another teal/ivory mech in the middle distance, each roughly four meters tall relative to building doors and railings; they establish believable scale without dominating frame. Some wet ground and soft reflected light, a clearing coastal rainfront with warm sunlight breaking through at the horizon, restrained mist allowing clear visibility, moody but readable contrast, no visual clutter covering paths. Express dynamic environment potential through closed storm shutters, a simple lift bridge and drainage architecture; do not depict huge explosions, physical flooding simulations or destruction spectacle. High-quality stylized hard-surface PBR environment language, clear broad material groups, cozy repair settlement fused with dramatic rocky coast, grounded machines and lush vegetation, original design, realistic perspective, fine craft, no hyperdense megacity, no expensive raytraced showcase look, no brand logos. A painterly design sensibility with convincing 3D lighting, readable gameplay spaces and obvious connected routes is the priority.",
+          "aspect_ratio": "16:9",
+          "input_images": [],
+          "width": 2752,
+          "height": 1536,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_98b98ca4-54cd-4cc2-8df2-be7cb8b7b351.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_98b98ca4-54cd-4cc2-8df2-be7cb8b7b351_min.webp"
+        },
+        "createdAt": 1790435281.314543
+      }
+    ],
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e.png"
+      },
+      {
+        "index": 2,
+        "job_id": "98b98ca4-54cd-4cc2-8df2-be7cb8b7b351",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_98b98ca4-54cd-4cc2-8df2-be7cb8b7b351.png"
+      }
+    ],
+    "all_found": true
+  },
+  "balance_after": {
+    "credits": 102,
+    "subscription_plan_type": "plus",
+    "pricing_url": "https://higgsfield.ai/mcp-pricing",
+    "free_trial": {
+      "status": "active",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": "2026-09-29T02:37:34Z",
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      }
+    ]
+  },
+  "actual_batch_total_credit_debit": 4,
+  "actual_cumulative_total_credit_debit": 8,
+  "model_note": "Explicit nano_banana_pro requested; nano_banana_2 reported by backend result metadata."
+}

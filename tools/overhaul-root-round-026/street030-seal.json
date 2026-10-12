@@ -1,0 +1,82 @@
+{
+  "frozenUTC": "2026-10-10T20:49:58.241209+00:00",
+  "files": [
+    {
+      "path": "shared/rainlineStreetPopulation030.ts",
+      "bytes": 672,
+      "sha256": "4dc8b99a63f6ddd87f6d9432bfe2d1fdb47e95da639c7c88f9914fde792e2825"
+    },
+    {
+      "path": "shared/data/rainlineStreetPopulation030.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": "shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6058,
+      "sha256": "e62910f9380aacf2a712754d4902834e7103e30aff1662731d5b3786aa79952c"
+    },
+    {
+      "path": "tools/overhaul-root-round-026/plan-street030.ts",
+      "bytes": 2134,
+      "sha256": "99141659ebbc50e8f7d63e4506bc22c7475671273da30b5a419229551bbd70b9"
+    },
+    {
+      "path": "tools/overhaul-root-round-026/street030-plan.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "tools/overhaul-street-player-030.mjs",
+      "bytes": 12668,
+      "sha256": "b8156a3f48e539224f7125c4c0096362b0911e49a57664182732b7ffba658523"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "docs/overhaul/rainline-street-030-plan.md",
+      "bytes": 1646,
+      "sha256": "8385f82aac8829023ece90caff2c6f54bba56d6d1a42498f9c6f7fd52b6d2df0"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/ATTRIBUTION.md",
+      "bytes": 611,
+      "sha256": "10d04a1c7021cfe0930cad1085e9dc73da60415bfdef7f21709aa15e8a0774db"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/Rainline_StreetPopulation_001.glb",
+      "bytes": 5140368,
+      "sha256": "387db23d0128df59c215b927ecfcadffb0492faa2bcee1c54a9264f98fcad70a"
+    },
+    {
+      "path": "public/assets/overhaul/rainline-street-v1/source-lock.json",
+      "bytes": 11885,
+      "sha256": "4dc5925ea1eb3902960edc8015bb79a6ddec3f1505d495b5e129deed929cdef1"
+    }
+  ],
+  "commands": [
+    "npm.cmd run build",
+    "node tools/overhaul-street-player-030.mjs"
+  ],
+  "buildCapSeconds": 180,
+  "captureCapSeconds": 120,
+  "scope": "One root serial build then fresh ordinary route capture, independent review required"
+}

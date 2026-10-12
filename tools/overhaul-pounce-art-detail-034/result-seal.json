@@ -1,0 +1,66 @@
+{
+  "closedUTC": "2026-10-10T21:16:31.871609+00:00",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author-receipt.json",
+      "bytes": 536,
+      "sha256": "a504b43683e9c09f340182bcb17b4818ab2f91a37f80b6c61acbb5cae08eb37b"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/material-provenance.json",
+      "bytes": 1313,
+      "sha256": "1ef7273fad7ff122275f3d1e7db9357a35a405046c2705f19e0a5b9e1a59b00b"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce034_DeepTealCeramic.png",
+      "bytes": 403267,
+      "sha256": "a690bb6f8fb69e01d9765e32be0dab35f026078ae8b6d37206930d7753967fc7"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce034_Graphite.png",
+      "bytes": 364661,
+      "sha256": "79f6823699b9d41a65b13bd1063fdf0c47893b0d55097fb35e38155cb8681ab1"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce034_Gunmetal.png",
+      "bytes": 392640,
+      "sha256": "ad9021bea1c7c80df3ff21f10cdefa10f0bb8c2f1a08700b0be1de44cf451518"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce034_MetalRough.png",
+      "bytes": 282347,
+      "sha256": "009c9589ae55b62ab8d30ede8b3377d3b3923f08028ec526f41f300d40e183b4"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce034_Normal.png",
+      "bytes": 347732,
+      "sha256": "16819733a6e903a9d61793df783334bea757e33fb39d364e8aec93fae9c45c34"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "bytes": 77650342,
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-detail-034-author-process/process-receipt.json",
+      "bytes": 1306,
+      "sha256": "1a4fd99924ce5f01495cf3943ca3623c36c4411006aee8af2d34d93475113536"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-detail-034-author-process/stdout.txt",
+      "bytes": 255,
+      "sha256": "1025dff0e5d0a49319e6f16c4acbceb60b65ac36479a6d36963eac85ec6aeb95"
+    }
+  ],
+  "scope": "Actual material-only author outputs; original geometry/clips retained, no art/gameplay admission"
+}

@@ -1,0 +1,13 @@
+# Runtime art integration020 — bounded consumer gate
+
+Review began 2026-10-10 19:35:55 UTC alongside the sequential019 result closure; actual closure is in the critic receipt. Critic hard20:00, review target19:53. No jobs or implementation by critic.
+
+**APPROVE one conditional full-source compile/build/freeze and one ordinary public two-client observation, after root freezes exact020 input lineage.** This is an observation permission, not quality admission. Preserve first genuine failure; no same-packet repair/retry.
+
+Direct005 owner preimage diff introduces an optional explicit asset contract. Original005 remains the constructor default and exported original URL. Only catalog, expected names/parents, diagnostic asset identity and scale switch to the passed contract; playback/unsupported-state logic is retained. The staged019 wrapper passes the actual new manifest/URL, clones per-actor materials/skeletons, refreshes attached matrices before envelope007 sampling, retains the single mixer and sticky public008 legacy fallback, unregisters camera/diagnostics on teardown and disposes owned resources. Source018 is not imported or activated.
+
+Prerequisites: freeze the exact new raw SHA `4C050FD8F2E25F79548D51BDF8A419BBA702B3893ADFDC08E03749F60B71043E` and generated manifest, copied public bytes, owner005 modification/preimage, staged-to-src019 wrapper, actual public Actors selector/preimage, corrected CameraRig016, public008 fallback/envelope dependencies and ordinary script. Private005 selection must retain its previous branch. Build from the complete verified editable source including index.html, not the incomplete isolated016 package. Require matching frozen build/server receipt before observation. This gate inspected the pending wrapper and owner diff; final selector/copy hashes were not yet frozen at inspection.
+
+Camera016 uses the current rendered vertical envelope center for selected prototype actors/pairs, with existing fitting/clearance and legacy fallback behavior. Actual perspective may change camera-derived aim; outcome-based public input observation must assess it. Read-only renderer metadata can identify actual capture GPU/backend; no hardware or60FPS assumption follows.
+
+Narrow019 source acceptance permits mounting for this observation, not finished art. Retained43 curves include unqualified capabilities and old native pair spacing. Conservative visual envelopes do not qualify actual support/paw restraint/full-body native collision. Actual normal camera motion, public fallback/reset and matching-client evidence must determine functional checkpoint quality. Full feline art/gait/contact, source018 and Gate1 remain unaccepted.

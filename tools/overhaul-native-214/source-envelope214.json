@@ -1,0 +1,2430 @@
+{
+  "source": "actual209 primary72 full weighted skin poses, existing JSON only",
+  "scale": 0.8,
+  "rootComposition": "native hull lower boundary + displayed carrier xz; source model PI mounting; unchanged rig root keys; NO global mount correction",
+  "minimum": [
+    -0.9017926537405728,
+    -0.0019843351410842036,
+    -2.0147250940882557
+  ],
+  "maximum": [
+    0.9195195463751848,
+    2.5031344572700687,
+    1.5528103150656154
+  ],
+  "samples": [
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8530026354911899,
+        -3.3435952604549124e-07,
+        -1.9852531823747375
+      ],
+      "sourceNativeScaleMax": [
+        0.8604487496826263,
+        1.648049092580611,
+        1.4600441490231102
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1637010535098,
+      "sourcePlaneVerticalOverHeight": -0.951950907419389,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.14285714285714285,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8302181422599676,
+        -1.668046581214215e-05,
+        -1.9967635539770805
+      ],
+      "sourceNativeScaleMax": [
+        0.8830743938822242,
+        1.6690545868549238,
+        1.45902765080856
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.183319737377382,
+      "sourcePlaneVerticalOverHeight": -0.9309454131450763,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.2857142857142857,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8297268403362621,
+        2.775119310618676e-06,
+        -1.9995585204580484
+      ],
+      "sourceNativeScaleMax": [
+        0.8475984834481743,
+        1.643683847860714,
+        1.4661346982780685
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1717866989831265,
+      "sourcePlaneVerticalOverHeight": -0.956316152139286,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.42857142857142855,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8474180887381003,
+        -3.589285619588767e-08,
+        -2.001188270354216
+      ],
+      "sourceNativeScaleMax": [
+        0.8630600374759084,
+        1.626600399349892,
+        1.46447220150338
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1793639259405975,
+      "sourcePlaneVerticalOverHeight": -0.973399600650108,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.5714285714285714,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8975656269656804,
+        3.121479151546591e-10,
+        -1.9903343816674905
+      ],
+      "sourceNativeScaleMax": [
+        0.8424512815614466,
+        1.6605355492036886,
+        1.4580393367492448
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1833586525255093,
+      "sourcePlaneVerticalOverHeight": -0.9394644507963115,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.7142857142857143,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8354459260964657,
+        6.272428470437824e-06,
+        -1.9653972383159435
+      ],
+      "sourceNativeScaleMax": [
+        0.8225761713507045,
+        1.667353474188953,
+        1.4622237304657126
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1355927045696514,
+      "sourcePlaneVerticalOverHeight": -0.932646525811047,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0.8571428571428571,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.864013655027462,
+        -1.8635187858549382e-05,
+        -1.9717720411711537
+      ],
+      "sourceNativeScaleMax": [
+        0.8434561102517416,
+        1.6179839379382164,
+        1.467492989990708
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1527667264286143,
+      "sourcePlaneVerticalOverHeight": -0.9820160620617837,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineWalk",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8530026354911899,
+        -3.3435952604549124e-07,
+        -1.9852531823747375
+      ],
+      "sourceNativeScaleMax": [
+        0.8604487496826263,
+        1.648049092580611,
+        1.4600441490231102
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1637010535098,
+      "sourcePlaneVerticalOverHeight": -0.951950907419389,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.826827433012213,
+        1.280032596098768e-07,
+        -2.006017726179056
+      ],
+      "sourceNativeScaleMax": [
+        0.7881191638168131,
+        1.664540257817808,
+        1.4789390328999794
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.16973517317809,
+      "sourcePlaneVerticalOverHeight": -0.9354597421821922,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.14285714285714285,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8234484958258528,
+        -1.0232937442811521e-05,
+        -2.003247153150057
+      ],
+      "sourceNativeScaleMax": [
+        0.8425171539881282,
+        1.648277687596567,
+        1.4648986063868243
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1732082991209247,
+      "sourcePlaneVerticalOverHeight": -0.9517223124034331,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.2857142857142857,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.893701900125339,
+        -1.418052151397342e-10,
+        -1.9879415129999949
+      ],
+      "sourceNativeScaleMax": [
+        0.8651848544604672,
+        1.6209401724846324,
+        1.4635566510492772
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.179590453593599,
+      "sourcePlaneVerticalOverHeight": -0.9790598275153677,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.42857142857142855,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8406601868489383,
+        -1.7669576801715436e-08,
+        -1.9810784281280975
+      ],
+      "sourceNativeScaleMax": [
+        0.8404221694899058,
+        1.652425026367286,
+        1.4605979404241456
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1520644247204554,
+      "sourcePlaneVerticalOverHeight": -0.9475749736327141,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.5714285714285714,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8178949616513478,
+        -3.119526390676919e-10,
+        -1.9802981561026056
+      ],
+      "sourceNativeScaleMax": [
+        0.8231807656293413,
+        1.6585384013050275,
+        1.4635815211288943
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1445762658309655,
+      "sourcePlaneVerticalOverHeight": -0.9414615986949726,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.7142857142857143,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8590395335720734,
+        -1.545953892678753e-08,
+        -1.9676912130216686
+      ],
+      "sourceNativeScaleMax": [
+        0.8495523275284627,
+        1.631886887184345,
+        1.464658104761637
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1470346131449327,
+      "sourcePlaneVerticalOverHeight": -0.968113112815655,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0.8571428571428571,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.857262411836109,
+        6.210727418465289e-10,
+        -1.9853875117073807
+      ],
+      "sourceNativeScaleMax": [
+        0.8980163291879472,
+        1.6303334101997842,
+        1.4617876011929067
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.179035772797643,
+      "sourcePlaneVerticalOverHeight": -0.9696665898002159,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineTrot",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineTrot",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.826827433012213,
+        1.280032596098768e-07,
+        -2.006017726179056
+      ],
+      "sourceNativeScaleMax": [
+        0.7881191638168131,
+        1.664540257817808,
+        1.4789390328999794
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.16973517317809,
+      "sourcePlaneVerticalOverHeight": -0.9354597421821922,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.9017926537405728,
+        4.812256458250341e-07,
+        -1.8583644446608039
+      ],
+      "sourceNativeScaleMax": [
+        0.885652970822357,
+        1.6706642738287447,
+        1.4001264784970555
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0656109022562603,
+      "sourcePlaneVerticalOverHeight": -0.9293357261712554,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.14285714285714285,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8890983350627982,
+        5.540595777314694e-10,
+        -1.9731481445395014
+      ],
+      "sourceNativeScaleMax": [
+        0.9195195463751848,
+        1.5898403551826927,
+        1.4264102178045768
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1768853429764516,
+      "sourcePlaneVerticalOverHeight": -1.0101596448173074,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.2857142857142857,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7992689252115247,
+        -2.331818696466037e-10,
+        -2.0096863390811417
+      ],
+      "sourceNativeScaleMax": [
+        0.8288579284111202,
+        1.6300336233378077,
+        1.5528103150656154
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1739007905098466,
+      "sourcePlaneVerticalOverHeight": -0.9699663766621924,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.42857142857142855,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8369409901831564,
+        -3.9004800840569676e-08,
+        -2.0147250940882557
+      ],
+      "sourceNativeScaleMax": [
+        0.7973672740464891,
+        1.6901948031511183,
+        1.4696724584749692
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1816478693404426,
+      "sourcePlaneVerticalOverHeight": -0.9098051968488818,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.5714285714285714,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8908907577539174,
+        1.930302445662946e-11,
+        -1.9825708561485371
+      ],
+      "sourceNativeScaleMax": [
+        0.8836890967118788,
+        1.6194940255722192,
+        1.4331819959350514
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.173539404266896,
+      "sourcePlaneVerticalOverHeight": -0.9805059744277809,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.7142857142857143,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8781230005357143,
+        -2.426439895709953e-08,
+        -1.9219079933254102
+      ],
+      "sourceNativeScaleMax": [
+        0.889063588806433,
+        1.6339003328394606,
+        1.364546239832122
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.117584567319444,
+      "sourcePlaneVerticalOverHeight": -0.9660996671605395,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0.8571428571428571,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8656777118019012,
+        0.023328997802627788,
+        -1.8604023008389359
+      ],
+      "sourceNativeScaleMax": [
+        0.8480911155152223,
+        1.67851314232489,
+        1.3876257317762803
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0519489812559626,
+      "sourcePlaneVerticalOverHeight": -0.9214868576751101,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineGallop",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineGallop",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.9017926537405728,
+        4.812256458250341e-07,
+        -1.8583644446608039
+      ],
+      "sourceNativeScaleMax": [
+        0.885652970822357,
+        1.6706642738287447,
+        1.4001264784970555
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0656109022562603,
+      "sourcePlaneVerticalOverHeight": -0.9293357261712554,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448968762837,
+        2.3532835109058015e-07,
+        -1.6591787503363393
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128208518115,
+        2.4997066773695815,
+        0.9198501100280275
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566643929442,
+      "sourcePlaneVerticalOverHeight": -1.3002933226304183,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.14285714285714285,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7676150592740677,
+        -2.2129748381005676e-10,
+        -1.6069328710284165
+      ],
+      "sourceNativeScaleMax": [
+        0.7676114980699552,
+        2.488663608429686,
+        0.9206941128205401
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.7808610645460132,
+      "sourcePlaneVerticalOverHeight": -1.3113363915703138,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.2857142857142857,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7474271648435542,
+        -0.0019843351410842036,
+        -1.6104774360627336
+      ],
+      "sourceNativeScaleMax": [
+        0.7770246482232173,
+        2.480588275155638,
+        0.9332448199953043
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.7881288756724474,
+      "sourcePlaneVerticalOverHeight": -1.319411724844362,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.42857142857142855,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7457340415550263,
+        5.273738164918162e-10,
+        -1.7341977015084915
+      ],
+      "sourceNativeScaleMax": [
+        0.7799825340455055,
+        2.490753877900474,
+        0.9304792200160517
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9015294952572739,
+      "sourcePlaneVerticalOverHeight": -1.309246122099526,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.5714285714285714,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7601739894952537,
+        1.9002916948340776e-10,
+        -1.7521564207531708
+      ],
+      "sourceNativeScaleMax": [
+        0.775700525852133,
+        2.5031344572700687,
+        0.9123218245960649
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9161846019091788,
+      "sourcePlaneVerticalOverHeight": -1.2968655427299312,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.7142857142857143,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7734780118050608,
+        1.1545130650103541e-10,
+        -1.6687261199287307
+      ],
+      "sourceNativeScaleMax": [
+        0.7565570554783765,
+        2.477507414908377,
+        0.9309829629213395
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8392702623807917,
+      "sourcePlaneVerticalOverHeight": -1.3224925850916227,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0.8571428571428571,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7791011230776173,
+        6.829952506337555e-10,
+        -1.6293854224504436
+      ],
+      "sourceNativeScaleMax": [
+        0.7434537495528258,
+        2.486465354904976,
+        0.9331570056650161
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8060718188584903,
+      "sourcePlaneVerticalOverHeight": -1.3135346450950238,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightWalkLong",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448968762837,
+        2.3532835109058015e-07,
+        -1.6591787503363393
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128208518115,
+        2.4997066773695815,
+        0.9198501100280275
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566643929442,
+      "sourcePlaneVerticalOverHeight": -1.3002933226304183,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448968762837,
+        -2.1782682781829044e-07,
+        -1.6591787503363393
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128208518115,
+        2.4997066773695815,
+        0.9198501100280275
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566643929442,
+      "sourcePlaneVerticalOverHeight": -1.3002933226304183,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.14285714285714285,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7676172559227237,
+        1.6186145670310514e-09,
+        -1.6069328378318375
+      ],
+      "sourceNativeScaleMax": [
+        0.7676092722843757,
+        2.488664957946213,
+        0.9206940964451278
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.7808619814271445,
+      "sourcePlaneVerticalOverHeight": -1.3113350420537868,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.2857142857142857,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7474572106637742,
+        -0.0015069762072005277,
+        -1.6107092265142033
+      ],
+      "sourceNativeScaleMax": [
+        0.7770194880715119,
+        2.4808559345151324,
+        0.9332127923565725
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.7883353984140942,
+      "sourcePlaneVerticalOverHeight": -1.3191440654848674,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.42857142857142855,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7458372859183175,
+        1.8676430540987e-10,
+        -1.7335571693239704
+      ],
+      "sourceNativeScaleMax": [
+        0.7799449473331541,
+        2.4909354754309483,
+        0.9303430043684809
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9009299251116685,
+      "sourcePlaneVerticalOverHeight": -1.3090645245690515,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.5714285714285714,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7601879753309593,
+        -4.1669645858832816e-10,
+        -1.7517686689062477
+      ],
+      "sourceNativeScaleMax": [
+        0.7756483771490857,
+        2.503118241897337,
+        0.9126177850070283
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9158089347154579,
+      "sourcePlaneVerticalOverHeight": -1.2968817581026628,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.7142857142857143,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7734684034194812,
+        -4.4135687465862716e-10,
+        -1.6689207167236273
+      ],
+      "sourceNativeScaleMax": [
+        0.7565964593403045,
+        2.477398034714498,
+        0.9309579812439636
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.839442776983722,
+      "sourcePlaneVerticalOverHeight": -1.322601965285502,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0.8571428571428571,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7789922892254295,
+        -3.321732125471932e-11,
+        -1.630386232865825
+      ],
+      "sourceNativeScaleMax": [
+        0.7437958055605183,
+        2.4862940559936293,
+        0.933136821715153
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8069278499683077,
+      "sourcePlaneVerticalOverHeight": -1.3137059440063705,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:FelineUprightStride",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448968762837,
+        -2.1782682781829044e-07,
+        -1.6591787503363393
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128208518115,
+        2.4997066773695815,
+        0.9198501100280275
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566643929442,
+      "sourcePlaneVerticalOverHeight": -1.3002933226304183,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8511675362050455,
+        -1.7800918858217052e-07,
+        -1.990930970587924
+      ],
+      "sourceNativeScaleMax": [
+        0.8705552266395883,
+        1.651334925629793,
+        1.4603209995073971
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.17294098683689,
+      "sourcePlaneVerticalOverHeight": -0.9486650743702072,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.14285714285714285,
+        "stance": 0.14285714285714285,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.6863360651894777
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.17080679195337956
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.07142857142857145
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.0714285714285714
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8542000173652995,
+        -2.7387809034551402e-11,
+        -1.9747618589196283
+      ],
+      "sourceNativeScaleMax": [
+        0.8943915664952602,
+        1.8089051916845027,
+        1.4266866150624642
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1678608520063163,
+      "sourcePlaneVerticalOverHeight": -1.9910948083154971,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.2857142857142857,
+        "stance": 0.2857142857142857,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.5719467209912313
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.14233899329448296
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.1428571428571429
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.1428571428571428
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8300817024425057,
+        4.7017084670031295e-11,
+        -1.9408426573022741
+      ],
+      "sourceNativeScaleMax": [
+        0.8420943528861686,
+        1.9254387540125308,
+        1.3882275017940673
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1156543005810113,
+      "sourcePlaneVerticalOverHeight": -1.874561245987469,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.42857142857142855,
+        "stance": 0.42857142857142855,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.457557376792985
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.11387119463558637
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.21428571428571436
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.2142857142857142
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7860767367512098,
+        4.811831766371455e-10,
+        -1.9262383623320571
+      ],
+      "sourceNativeScaleMax": [
+        0.7700158963588324,
+        2.0600777464168205,
+        1.3218022150571391
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.080459291738513,
+      "sourcePlaneVerticalOverHeight": -1.7399222535831793,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.5714285714285714,
+        "stance": 0.5714285714285714,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.3431680325947388
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.08540339597668978
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.2857142857142858
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.2857142857142856
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.786770022205296,
+        3.8082702269459645e-10,
+        -1.8830405385649478
+      ],
+      "sourceNativeScaleMax": [
+        0.7959202335144245,
+        2.2069692690811977,
+        1.2264609879277373
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0443411378722054,
+      "sourcePlaneVerticalOverHeight": -1.593030730918802,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.7142857142857143,
+        "stance": 0.7142857142857143,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.2287786883964925
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.056935597317793185
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.3571428571428573
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.357142857142857
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8020116798391442,
+        1.8994191636201307e-10,
+        -1.7798774379203903
+      ],
+      "sourceNativeScaleMax": [
+        0.7896816453057414,
+        2.298552375196184,
+        1.1469299569057712
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9522260188350269,
+      "sourcePlaneVerticalOverHeight": -1.501447624803816,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0.8571428571428571,
+        "stance": 0.8571428571428571,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.1143893441982463
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.028467798658896603
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.4285714285714287
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.4285714285714284
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7942136812071923,
+        1.1643705964681228e-10,
+        -1.700382248705552
+      ],
+      "sourceNativeScaleMax": [
+        0.7638676340653352,
+        2.3980831312275273,
+        1.0491617220040774
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8767192552775784,
+      "sourcePlaneVerticalOverHeight": -1.4019168687724726,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-up",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.5000000000000002
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.4999999999999998
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448971553707,
+        2.1331744020497423e-08,
+        -1.6591787771750923
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128259878274,
+        2.4997066763736093,
+        0.9198501392155507
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566888045003,
+      "sourcePlaneVerticalOverHeight": -1.3002933236263905,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0,
+        "stance": 1,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.5000000000000002
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.4999999999999998
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7792448971553707,
+        2.1331744020497423e-08,
+        -1.6591787771750923
+      ],
+      "sourceNativeScaleMax": [
+        0.7523128259878274,
+        2.4997066763736093,
+        0.9198501392155507
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8330566888045003,
+      "sourcePlaneVerticalOverHeight": -1.3002933236263905,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.14285714285714285,
+        "stance": 0.8571428571428572,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.11438934419824622
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.02846779865889658
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.42857142857142877
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.42857142857142844
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.7844164320230433,
+        1.2873331567408997e-10,
+        -1.6926539634172781
+      ],
+      "sourceNativeScaleMax": [
+        0.7844752054604562,
+        2.4058950063680626,
+        1.033906840320054
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8656041348191865,
+      "sourcePlaneVerticalOverHeight": -1.3941049936319372,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.2857142857142857,
+        "stance": 0.7142857142857143,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.2287786883964925
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.056935597317793185
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.3571428571428573
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.357142857142857
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.783154791232434,
+        2.5328716554695596e-11,
+        -1.7734644646378415
+      ],
+      "sourceNativeScaleMax": [
+        0.8043209816553818,
+        2.295562706922388,
+        1.1527972118276641
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9473336768166525,
+      "sourcePlaneVerticalOverHeight": -1.5044372930776118,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.42857142857142855,
+        "stance": 0.5714285714285714,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.3431680325947388
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.08540339597668978
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.2857142857142858
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.2857142857142856
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.778953271464625,
+        4.969246698155461e-10,
+        -1.8888807298154207
+      ],
+      "sourceNativeScaleMax": [
+        0.7983828093439373,
+        2.186630644909929,
+        1.2426288153616274
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0506792829996487,
+      "sourcePlaneVerticalOverHeight": -1.6133693550900707,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.5714285714285714,
+        "stance": 0.4285714285714286,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.457557376792985
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.11387119463558637
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.21428571428571438
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.21428571428571422
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8061588377055409,
+        4.4420792738586456e-10,
+        -1.9168749314267004
+      ],
+      "sourceNativeScaleMax": [
+        0.763358386955169,
+        2.08300842500275,
+        1.3075928971061277
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0794955095750667,
+      "sourcePlaneVerticalOverHeight": -1.71699157499725,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.7142857142857143,
+        "stance": 0.2857142857142857,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.5719467209912313
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.14233899329448296
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.1428571428571429
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.1428571428571428
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8453255552305667,
+        -8.663724598845235e-11,
+        -1.9087758766798324
+      ],
+      "sourceNativeScaleMax": [
+        0.8211238891178518,
+        1.9395019363653754,
+        1.3819826234756505
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.087582487405163,
+      "sourcePlaneVerticalOverHeight": -1.8604980636346244,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0.8571428571428571,
+        "stance": 0.1428571428571429,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.6863360651894775
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.17080679195337956
+          },
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 0.07142857142857148
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.07142857142857142
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8796369458786364,
+        2.5525065394660373e-10,
+        -1.948950515477354
+      ],
+      "sourceNativeScaleMax": [
+        0.871256140290075,
+        1.7698042331218422,
+        1.4374402113057254
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.1382631429115873,
+      "sourcePlaneVerticalOverHeight": -2.0301957668781574,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:R-down",
+        "phi": 0,
+        "stance": 0,
+        "fade": 1,
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615
+          }
+        ]
+      },
+      "sourceNativeScaleMin": [
+        -0.8511675362050455,
+        -1.7800918858217052e-07,
+        -1.990930970587924
+      ],
+      "sourceNativeScaleMax": [
+        0.8705552266395883,
+        1.651334925629793,
+        1.4603209995073971
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.17294098683689,
+      "sourcePlaneVerticalOverHeight": -0.9486650743702072,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0,
+        "stance": 0,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.5910399287970679,
+        1.9826210651517628e-07,
+        -2.0072464307250097
+      ],
+      "sourceNativeScaleMax": [
+        0.5910399287970679,
+        1.6519519914017573,
+        1.4785574390819172
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0924546425408446,
+      "sourcePlaneVerticalOverHeight": -0.9480480085982428,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.14285714285714285,
+        "stance": 0.14285714285714285,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.6242851901384565,
+        1.1510386085239466e-07,
+        -2.014181660970839
+      ],
+      "sourceNativeScaleMax": [
+        0.6214613145256448,
+        1.8012105411121242,
+        1.4489565911103268
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.108710450018555,
+      "sourcePlaneVerticalOverHeight": -1.9987894588878756,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.2857142857142857,
+        "stance": 0.2857142857142857,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7006990977890607,
+        2.6681687744639637e-08,
+        -2.000854924132682
+      ],
+      "sourceNativeScaleMax": [
+        0.7027331674010346,
+        1.943967992594082,
+        1.4026433147704775
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.120673084657673,
+      "sourcePlaneVerticalOverHeight": -1.8560320074059178,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.42857142857142855,
+        "stance": 0.42857142857142855,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7531092216143501,
+        -6.41331281223817e-08,
+        -1.9773909245139532
+      ],
+      "sourceNativeScaleMax": [
+        0.7651038588340758,
+        2.0779614309936036,
+        1.3373090302916442
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.120249698302759,
+      "sourcePlaneVerticalOverHeight": -1.7220385690063962,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.5714285714285714,
+        "stance": 0.5714285714285714,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7822307641864508,
+        -1.5764426835110368e-07,
+        -1.9327673311450404
+      ],
+      "sourceNativeScaleMax": [
+        0.7982589178610274,
+        2.210407707096237,
+        1.2485629096608983
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.091125738994712,
+      "sourcePlaneVerticalOverHeight": -1.5895922929037627,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.7142857142857143,
+        "stance": 0.7142857142857143,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7940086458142765,
+        -2.5531393909455913e-07,
+        -1.8409712462157986
+      ],
+      "sourceNativeScaleMax": [
+        0.7991000690997005,
+        2.317280888136798,
+        1.161243212435839
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0069220338190763,
+      "sourcePlaneVerticalOverHeight": -1.4827191118632017,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0.8571428571428571,
+        "stance": 0.8571428571428571,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.791501934626468,
+        -3.4924618869114354e-07,
+        -1.756246447429212
+      ],
+      "sourceNativeScaleMax": [
+        0.7745885135247645,
+        2.4209786978297103,
+        1.055098984272865
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9263636459986389,
+      "sourcePlaneVerticalOverHeight": -1.3790213021702895,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-up",
+        "phi": 0,
+        "stance": 1,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7811469324192697,
+        -4.382396871453059e-07,
+        -1.7130026445997837
+      ],
+      "sourceNativeScaleMax": [
+        0.7501847222592586,
+        2.500185254400507,
+        0.9231710659175469
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8827024699707302,
+      "sourcePlaneVerticalOverHeight": -1.2998147455994928,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0,
+        "stance": 1,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7811469324192697,
+        -4.382396871453059e-07,
+        -1.7130026445997837
+      ],
+      "sourceNativeScaleMax": [
+        0.7501847222592586,
+        2.500185254400507,
+        0.9231710659175469
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.8827024699707302,
+      "sourcePlaneVerticalOverHeight": -1.2998147455994928,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.14285714285714285,
+        "stance": 0.8571428571428572,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7915021848066669,
+        -3.48715576560521e-07,
+        -1.768504756393532
+      ],
+      "sourceNativeScaleMax": [
+        0.7745611002381083,
+        2.4182635531066325,
+        1.0447727206879625
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 1.9375460722109998,
+      "sourcePlaneVerticalOverHeight": -1.3817364468933673,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.2857142857142857,
+        "stance": 0.7142857142857143,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7940223440842304,
+        -2.571808512801671e-07,
+        -1.834991798879682
+      ],
+      "sourceNativeScaleMax": [
+        0.7991076820035679,
+        2.320729995162691,
+        1.1629347299405968
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.001441477883579,
+      "sourcePlaneVerticalOverHeight": -1.4792700048373089,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.42857142857142855,
+        "stance": 0.5714285714285714,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7822660377958702,
+        -1.5901925289399377e-07,
+        -1.9324462429003249
+      ],
+      "sourceNativeScaleMax": [
+        0.7982588040519882,
+        2.2031359591788213,
+        1.2564092377905585
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.090828926513619,
+      "sourcePlaneVerticalOverHeight": -1.5968640408211785,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.5714285714285714,
+        "stance": 0.4285714285714286,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7530829536718242,
+        -6.321545526627448e-08,
+        -1.9775382286142666
+      ],
+      "sourceNativeScaleMax": [
+        0.7651039344239381,
+        2.0842572878778314,
+        1.3323609219382178
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.120387105247964,
+      "sourcePlaneVerticalOverHeight": -1.7157427121221684,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.7142857142857143,
+        "stance": 0.2857142857142857,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.7006934646501454,
+        2.7247065943758475e-08,
+        -2.001469192227839
+      ],
+      "sourceNativeScaleMax": [
+        0.702730093554576,
+        1.9430530882769153,
+        1.4021602346973165
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.12125163802515,
+      "sourcePlaneVerticalOverHeight": -1.8569469117230846,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0.8571428571428571,
+        "stance": 0.1428571428571429,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.6242851094170376,
+        1.1505331395239571e-07,
+        -2.0141159736672956
+      ],
+      "sourceNativeScaleMax": [
+        0.6214665319947308,
+        1.8004487348776352,
+        1.4496777405153125
+      ],
+      "retainedPounceHull": {
+        "height": 3.8,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.10864768352174,
+      "sourcePlaneVerticalOverHeight": -1.9995512651223646,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    },
+    {
+      "case": {
+        "label": "preview:Idle-R-down",
+        "phi": 0,
+        "stance": 0,
+        "fade": 0,
+        "items": []
+      },
+      "sourceNativeScaleMin": [
+        -0.5910399287970679,
+        1.9826210651517628e-07,
+        -2.0072464307250097
+      ],
+      "sourceNativeScaleMax": [
+        0.5910399287970679,
+        1.6519519914017573,
+        1.4785574390819172
+      ],
+      "retainedPounceHull": {
+        "height": 2.6,
+        "outerRadius": 1.75,
+        "border": 0.12
+      },
+      "AABBcornerRadialUpperBound": 2.0924546425408446,
+      "sourcePlaneVerticalOverHeight": -0.9480480085982428,
+      "clockAlignedNativeFit": "NOT_MEASURED_SOURCE_BOUNDS_ONLY"
+    }
+  ],
+  "contactQualified": false,
+  "headPad": {
+    "completePadVertexCounts": {
+      "FL": 3136,
+      "FR": 3149,
+      "HL": 3136,
+      "HR": 3136
+    },
+    "headSkinVertexCount": 1867,
+    "worstForeToHeadSkinVerticalClearance": 0.6466165682981679,
+    "maximumLoadedSourcePlaneGap": 1.9982512114418037e-05
+  },
+  "inputs": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/decoded-catalog.json",
+      "bytes": 2225757,
+      "sha256": "8e9d99e9a78fa6847fd521fde6127d575b931b64a8f1f070632de9631156b5f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    }
+  ]
+}

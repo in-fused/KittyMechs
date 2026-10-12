@@ -1,0 +1,13 @@
+{
+  "closedUTC": "2026-10-10T19:08:08.778302+00:00",
+  "status": "SOURCE_CORRESPONDENCE_ACCEPTED_ONLY",
+  "activeJobs": 0,
+  "criticVerdict": "ACCEPT source evaluator/current conservative bounds; DENY native/runtime/art/contact/Gate1",
+  "criticReview": "docs/overhaul/critic/feline57-contract-017-result-review.md",
+  "criticReviewSHA256": "f5e9b049288a4b0200e457d95c324da5807222bf752686b24355c6885e7771ff",
+  "firstAttemptUTC": [
+    "2026-10-10T19:05:42.179Z",
+    "2026-10-10T19:05:52.788Z"
+  ],
+  "nativeActivation": false
+}

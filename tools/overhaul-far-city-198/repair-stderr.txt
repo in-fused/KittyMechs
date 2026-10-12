@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\assets\source\overhaul-far-city-198\author198.py", line 23, in <module>
+    if len(modules)!=29:raise RuntimeError('198_IMPORT_ROOT_HIERARCHY_CHANGED')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 198_IMPORT_ROOT_HIERARCHY_CHANGED
+
+Error: script failed, file: 'C:\Users\Taylor\Documents\GitHub\KittyMech-Web\assets\source\overhaul-far-city-198\author198.py', exiting.

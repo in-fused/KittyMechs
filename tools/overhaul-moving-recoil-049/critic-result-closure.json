@@ -1,0 +1,22 @@
+{
+  "packet": "moving-recoil-049",
+  "closedUTC": "2026-10-11T00:58:00.8354617Z",
+  "review": "docs/overhaul/critic/moving-recoil-049-result-review.md",
+  "reviewSHA256": "c064bf70ef9ed671333ea8fbf624a075d3fa131b1b0627765bd1afbd70407f79",
+  "verdict": "ACCEPT_FIRST_FAILURE_PRESERVATION_ONLY_DENY_DERIVATIVE_RUNTIME",
+  "sourceSealSHA256": "02d38405f6152f8b811649109396bf1c735fa20a6d53eb7c5f600f4f68aa8fcf",
+  "verifiedRows": 11,
+  "mismatches": 0,
+  "rootInputRows": 10,
+  "rootExitCode": 1,
+  "rootSeconds": 0.625,
+  "firstFailure": "ACTUAL60HZ_MONOTONIC_TIMING sourceframe1 origin not event0",
+  "rawOriginSeconds": 0.01666666753590107,
+  "newGLBExists": false,
+  "laterSourceGuards": "UNREACHED",
+  "shippingChanges": 0,
+  "candidateTestsBuildCapture": "UNRUN",
+  "reviewerHeavyJobs": 0,
+  "writersClosed": true,
+  "fullGoal": "INCOMPLETE"
+}

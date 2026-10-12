@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "sha256": "4b1b4eb2475eacad3e74ed5cf76c1d172a08de77a6d47dd50addf48222784beb",
+      "bytes": 10236
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "sha256": "45f4f3429069db60c98a28bbe4dafed8ae8b02ab701e23c4deb0ee634885ed41",
+      "bytes": 4395
+    },
+    {
+      "path": "tests/camera-moving-fit-057.test.ts",
+      "sha256": "84b887aa0020af804649ae9e36fc69505f7eb4e2fcaf9b99060301299a4e5bc4",
+      "bytes": 2876
+    },
+    {
+      "path": "docs/overhaul/camera-057.md",
+      "sha256": "c0c2e22922e2f5a0ee01f1a787b75d014c93fc181023616b0bac8f124bfa7fba",
+      "bytes": 3345
+    },
+    {
+      "path": "tools/overhaul-camera-057/source-handoff.json",
+      "sha256": "ffcd3c1ab802de320b03f74b1b260c99d7d93be98914b048344d11188ea6b47c",
+      "bytes": 3521
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages.json",
+      "sha256": "a91ddb4ce07265eff61a5cd1a2a58162eb04272923b9a9ccae0a514fdf84e7af",
+      "bytes": 320
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages/CameraRig.tsx",
+      "sha256": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "bytes": 9153
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages/framing.ts",
+      "sha256": "d76aab8c8e0d917a2f18487795f7a508ce4fc4da46a61d7779094c0fa153629d",
+      "bytes": 3670
+    }
+  ],
+  "writersClosed": true,
+  "packet": "057"
+}

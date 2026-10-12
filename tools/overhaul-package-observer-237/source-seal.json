@@ -1,0 +1,81 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE237_PRECOMPILED_BYTE_OBSERVER_SOURCE_ONLY; explicit package scripts boundary; independent gate pending",
+  "files": [
+    {
+      "path": "tools/overhaul-package-observer-237/binding.json",
+      "bytes": 233942,
+      "sha256": "93133f8f57e18cadc05d3946ec8b2852725f25f0ac39e4483732d9e053242aee"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/boundary.json",
+      "bytes": 747,
+      "sha256": "ee18a0beba40a37207e17854fa8ae7b254d73e8987b94a0e625d5d339e772872"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/capture.mjs",
+      "bytes": 21948,
+      "sha256": "bd42dea2a8dd64431a1ec43490a88a2c0bce43564e37ba4328abb9aa4e43d8bc"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/capture.mjs.235-preimage",
+      "bytes": 21942,
+      "sha256": "f32af8de0c650064820c49b7151bbfa6c4f3446cafb49187da31d067e3582ec6"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/guards.mjs",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/guards.mjs.235-preimage",
+      "bytes": 2526,
+      "sha256": "f6369c8f55d7cf7e101267690428cf81815f6bd54ac99cfeb7b3768e1f9feba3"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/HANDOFF.md",
+      "bytes": 1127,
+      "sha256": "94f70d720374ed3edfcc53c480ce6620ba419f080e13bea8994aa5bfc6cc9ed4"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/network-classification.mjs",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/network-classification.mjs.235-preimage",
+      "bytes": 351,
+      "sha256": "1b6c6ef73a54abf12dddca16c1711ce22b02a8cfaa6b01b2cd6d34ce78c479f5"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/package-before-build.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/package-concurrent-current.json",
+      "bytes": 2287,
+      "sha256": "a951b2b35d6a86bbf07ffb08eff3ce30f227dbaecce67e4b1d39c4fa445184f3"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/prepare237.py",
+      "bytes": 3398,
+      "sha256": "0feed3cd527afbd7d0ab9865f8087ae713a3e5175597ffa49f5122a427508d2a"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/seal237.py",
+      "bytes": 1148,
+      "sha256": "387078837589593edf17a2e8e57e33d34c14ac2d1d2fca6f8d073c3d750554a6"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/supervise.py",
+      "bytes": 5281,
+      "sha256": "1e5cc687adc1c1055b2c0728135a6810a58109d62cc4a96e72be2ddefd612a38"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/supervise.py.235-preimage",
+      "bytes": 5279,
+      "sha256": "3e2a9e48a6292d20d120fe0cf5dd128b41a77b1519648bd424deba13b34e5105"
+    }
+  ]
+}

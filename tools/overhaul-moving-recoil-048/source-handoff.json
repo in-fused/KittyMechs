@@ -1,0 +1,86 @@
+{
+  "round": "048",
+  "status": "CLOSED_FIRST_AUTHOR_FAILURE_NO_RUNTIME_CANDIDATE",
+  "frozenUTC": "2026-10-11T00:50:07.1640558Z",
+  "files": [
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author.py",
+      "bytes": 9424,
+      "sha256": "ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author-receipt.json",
+      "bytes": 3094,
+      "sha256": "68d9c00adca0df20f29320f6bb56d985f56aa86f1ee45ebcd4beb2df0b64dd6e"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.blend",
+      "bytes": 516462,
+      "sha256": "316e063e47156cf04be38cd48f0e7fc1525a52a454a5a8fda94d0cbe17fdb751"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.raw.glb",
+      "bytes": 108260,
+      "sha256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/raw-failure-classification.json",
+      "bytes": 1846,
+      "sha256": "0a938c4ae46f812c18f9518c4417606f7fd6f2b1a370f6479e7353800a0bbe25"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/rejected-unbound-movingRecoil048.ts.txt",
+      "bytes": 2044,
+      "sha256": "994774e4227fd049e303a824ddd4f18758336bb622753f0154259259afa19df7"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/preimages/identity57Runtime005.ts",
+      "bytes": 10988,
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-048/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2"
+    },
+    {
+      "path": "docs/overhaul/moving-recoil-048.md",
+      "bytes": 1436,
+      "sha256": "11c9a2fac0e9369941db5c2162c0a35cd6b0f33b96047563dc972fa254fc4560"
+    }
+  ],
+  "ownedPaths": [
+    "assets/source/overhaul-moving-recoil-048/author.py",
+    "assets/source/overhaul-moving-recoil-048/author-receipt.json",
+    "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.blend",
+    "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.raw.glb",
+    "tools/overhaul-moving-recoil-048/raw-failure-classification.json",
+    "tools/overhaul-moving-recoil-048/rejected-unbound-movingRecoil048.ts.txt",
+    "tools/overhaul-moving-recoil-048/preimages/identity57Runtime005.ts",
+    "tools/overhaul-moving-recoil-048/preimages/identity57Runtime034Actor.tsx",
+    "docs/overhaul/moving-recoil-048.md"
+  ],
+  "productionRestoration": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "preimageMatch": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "preimageMatch": true
+    }
+  ],
+  "rootAuthorAttempts": 1,
+  "rootAuthorExitCode": 1,
+  "rootAuthorInclusiveSeconds": 9.015,
+  "automaticRetry": false,
+  "failure": "ANIMATION_ONLY_EXPORT_HAS_RENDER_ASSET: onlyskins[1] residualjoint/inverseBindMetadata, no meshes/materials/images/textures or node binding. Strictguard stopped before laterhead/endpoints/motion admission",
+  "shippingChanges": [],
+  "authorJobsExecuted": [],
+  "rootTestCommand": [],
+  "rootCaptureCommand": [],
+  "writersClosed": true,
+  "immutable": "Preserve original034, closed047, original048author-source seal/raw/blend/firstfailure unchanged. Original036 remains live."
+}

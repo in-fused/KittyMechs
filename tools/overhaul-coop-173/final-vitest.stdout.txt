@@ -1,0 +1,9 @@
+ RUN v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web
+ tools/overhaul-coop-173/phased.test.mjs (6 tests | 1 failed) 222ms
+ FAIL explicit interaction separation proves actual4.2 pair native-physical safe but normal blocked, then continuous3m-bounded departure to full normal endpoint
+ AssertionError: expected [Function] to throw an error
+ at tools/overhaul-coop-173/phased.test.mjs:41:300
+ Test Files 1 failed (1)
+ Tests 1 failed | 5 passed (6)
+ Start at 12:52:40
+ Duration 960ms (transform343ms,setup0ms,import493ms,tests222ms,environment0ms)

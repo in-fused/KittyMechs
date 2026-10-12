@@ -1,0 +1,16 @@
+import {AnimationClip,AnimationUtils} from 'three';
+
+/** Head is a terminal branch of chest in the actual57-joint rig. Neither
+ * forelimb nor hindlimb descends from it. Spine/chest recoil would disturb
+ * quadruped support, so only the authored head rotation is admitted here. */
+export function movingRecoilClip047(source:AnimationClip,reference:AnimationClip):AnimationClip|null {
+ const track=source.tracks.find(t=>t.name==='head.quaternion');
+ if(!track)return null;
+ const idle=reference.tracks.find(t=>t.name===track.name&&t.ValueTypeName==='quaternion');
+ if(track.ValueTypeName!=='quaternion'||!idle)throw new Error('047 recoil requires matching actual idle head quaternion');
+ const clip=new AnimationClip(source.name+':MovingHead047',source.duration,[track.clone()]);
+ // Three performs conjugate(reference)*authored rotation, preserving actual
+ // quaternion interpolation. No guessed angles, rig offsets or source edits.
+ AnimationUtils.makeClipAdditive(clip,0,reference,60);
+ return clip;
+}

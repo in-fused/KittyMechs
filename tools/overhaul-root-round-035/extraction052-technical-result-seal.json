@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction052-test/process-receipt.json",
+      "bytes": 37834,
+      "sha256": "8315a0c44226b056e8f3579ba906a1be7e7fe855df1a8d258e3bd9d8d6e6580e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction052-test/stdout.txt",
+      "bytes": 235,
+      "sha256": "a34e64a21d8d5620ebc4c29f7299827bc0cbed711254c95998a3adc562ea1a1b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction052-build/process-receipt.json",
+      "bytes": 37713,
+      "sha256": "50372e8b088c43d8e137d6dc44dd7e77e6c3cebb2274620f8ab6d1373995985f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction052-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "f6063c30c849d4cf020ef764b9a0431abeb36fe0fa43073e93139ad32a8d43d6"
+    },
+    {
+      "path": "tools/overhaul-root-round-035/seal-results052.py",
+      "bytes": 991,
+      "sha256": "c252a3b108cb1e19ba3d56bfe229e72185fd5aa6dfd6536e74b86e148184893f"
+    }
+  ],
+  "scope": "Exact one bounded052/053 technical outcome; not gameplay approval."
+}

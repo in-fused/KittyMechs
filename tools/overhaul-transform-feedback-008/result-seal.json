@@ -1,0 +1,35 @@
+{
+  "sealedUtc": "2026-10-10T17:54:43.6021894Z",
+  "rows": [
+    {
+      "path": "tools/overhaul-transform-feedback-008/result.md",
+      "bytes": 3078,
+      "sha256": "5a4a36970e42ba586c07b263290be4f63f456db54d23969dda6b3c26cfab6ef1"
+    },
+    {
+      "path": "tools/overhaul-transform-feedback-008/closure.json",
+      "bytes": 3606,
+      "sha256": "dd135abe581bc4cfd408a13d8b8d2ca8eb063461b718e7442226e90c96d94ebd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/transform-feedback-008/compile1-receipt.json",
+      "bytes": 246,
+      "sha256": "fa28934bed521c3ca72c306784ec67d4587caa2bd7c82be28192214cb6a08fdc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/transform-feedback-008/compile1-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/transform-feedback-008/native1-receipt.json",
+      "bytes": 314,
+      "sha256": "979e76a5deeb950354b5af6a98daaa3c4474d8c3b7f15495edec9e46189d60e6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/transform-feedback-008/native1-stdout.txt",
+      "bytes": 5364,
+      "sha256": "20f97aca0e7505f13f53feb41b443c8be58f7a4d598898633e373b9523b7b616"
+    }
+  ]
+}

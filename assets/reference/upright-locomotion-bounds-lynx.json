@@ -1,0 +1,87 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "profile": {
+    "strides": [
+      1.4,
+      1.6
+    ],
+    "duties": [
+      0.68,
+      0.46
+    ],
+    "lift": [
+      0.2,
+      0.26
+    ],
+    "shift": 0.05,
+    "lower": 0.055,
+    "wave": 0.02,
+    "lead": 0.045,
+    "arc": 0.44,
+    "turnDuty": 0.68
+  },
+  "coreIncludes": "source-tagged physical pelvis/spine/chest/head/weapons/launcher; cosmetic appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineUprightWalkLong",
+      "duration": 1.2,
+      "height": 3.108438014984131,
+      "sideExtent": 0.6846251487731934,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3134580177036916,
+      "floor": 0.01322372816503048,
+      "limbLengthError": 5.248345584396575e-07,
+      "maxSupportReach": 0.9370700035033293,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03040003776550293,
+      "pelvisLateralRange": 0.07599999755620956
+    },
+    {
+      "clip": "FelineUprightStride",
+      "duration": 0.9,
+      "height": 3.0854480266571045,
+      "sideExtent": 0.6845556497573853,
+      "coreHeight": 3.0854480266571045,
+      "coreRadius": 1.3134444523016284,
+      "floor": 0.013223635032773018,
+      "limbLengthError": 5.304746985279607e-07,
+      "maxSupportReach": 0.9600323347395645,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.030297279357910156,
+      "pelvisLateralRange": 0.07587141543626785
+    },
+    {
+      "clip": "FelineUprightTurnLeft",
+      "duration": 1.1,
+      "height": 3.108438014984131,
+      "sideExtent": 0.7614450454711914,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3141338740954058,
+      "floor": 0.013223662041127682,
+      "limbLengthError": 5.248345584396575e-07,
+      "maxSupportReach": 0.8739911576231787,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03033125400543213,
+      "pelvisLateralRange": 0.0759139135479927
+    },
+    {
+      "clip": "FelineUprightTurnRight",
+      "duration": 1.1,
+      "height": 3.108438014984131,
+      "sideExtent": 0.7614448666572571,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3141341057169076,
+      "floor": 0.01322368998080492,
+      "limbLengthError": 4.531424004516893e-07,
+      "maxSupportReach": 0.8739911535944722,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03033125400543213,
+      "pelvisLateralRange": 0.0759139135479927
+    }
+  ]
+}

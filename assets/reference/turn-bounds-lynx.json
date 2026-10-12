@@ -1,0 +1,56 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "turnStyle": {
+    "arc": 0.72,
+    "duty": 0.68,
+    "duration": 0.85,
+    "lift": 0.24,
+    "lead": 0.06,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.08,
+      "FR": 0.5,
+      "HL": 0.58
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.3097894191741943,
+      "coreRadius": 1.6347360447596835,
+      "sideExtent": 0.9469518661499023,
+      "floor": 0.013223664835095406,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.585141188151454e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.18222737073898315,
+        "FR": 0.18162001729011534,
+        "HL": 0.18121056616306305,
+        "HR": 0.18235705196857455
+      },
+      "stanceCancellationError": 4.741597257777549e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.3097894191741943,
+      "coreRadius": 1.6347360447596835,
+      "sideExtent": 0.9469518661499023,
+      "floor": 0.013223684392869473,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.585141188151454e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.18161998331546783,
+        "FR": 0.18222735941410065,
+        "HL": 0.182357017993927,
+        "HR": 0.18121056616306305
+      },
+      "stanceCancellationError": 4.565206087162269e-07
+    }
+  ]
+}

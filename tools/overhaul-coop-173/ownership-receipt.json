@@ -1,0 +1,20 @@
+{
+  "writer": "CLOSED",
+  "scope": "PUBLIC_CONTROL_ADAPTER_SOURCE_FIXTURE_NOT_BROWSER_NATIVE_ACK",
+  "events": [
+    "Mission165Host:up:KeyW",
+    "Mission165Guest:up:KeyW",
+    "Mission165Host:native-neutral-ACK-rest",
+    "Mission165Guest:native-neutral-ACK-rest",
+    "Mission165Guest:press:KeyW",
+    "Mission165Host:up:KeyW",
+    "Mission165Guest:up:KeyW",
+    "Mission165Host:native-neutral-ACK-rest",
+    "Mission165Guest:native-neutral-ACK-rest",
+    "Mission165Guest:press:KeyW",
+    "Mission165Guest:up:KeyW",
+    "Mission165Guest:native-neutral-ACK-rest",
+    "Mission165Host:up:KeyW",
+    "Mission165Guest:up:KeyW"
+  ]
+}

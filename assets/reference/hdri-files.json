@@ -1,0 +1,69 @@
+{
+  "tonemapped": {
+    "size": 5810210,
+    "md5": "573782f6c586d243c35684a79725e7a1",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/kloetzle_blei.jpg"
+  },
+  "hdri": {
+    "8k": {
+      "hdr": {
+        "size": 104812062,
+        "md5": "72d4358d5f37327ed29fb9722c842e92",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/8k/kloetzle_blei_8k.hdr"
+      },
+      "exr": {
+        "size": 88094882,
+        "md5": "6c6596f70c944dbc28fcb2853dffbe88",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/8k/kloetzle_blei_8k.exr"
+      }
+    },
+    "16k": {
+      "hdr": {
+        "size": 399116482,
+        "md5": "67417c1c642ae777b2356ceec83ca355",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/16k%2B/kloetzle_blei_16k.hdr"
+      },
+      "exr": {
+        "size": 333068181,
+        "md5": "8025f4354bbf27dec255a2d50ebcee66",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/16k%2B/kloetzle_blei_16k.exr"
+      }
+    },
+    "4k": {
+      "hdr": {
+        "size": 26756407,
+        "md5": "b7dc839f99ee445a28a77b048ac29652",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/kloetzle_blei_4k.hdr"
+      },
+      "exr": {
+        "size": 22311829,
+        "md5": "9c19c09fd461b2a8415df9ddc10ce2cd",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/kloetzle_blei_4k.exr"
+      }
+    },
+    "2k": {
+      "hdr": {
+        "size": 6699771,
+        "md5": "741198f3f71a98d2f755dcb1f60c1196",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kloetzle_blei_2k.hdr"
+      },
+      "exr": {
+        "size": 5563018,
+        "md5": "dd7b01f72fd9d8002fd1fe09e5a53c62",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/2k/kloetzle_blei_2k.exr"
+      }
+    },
+    "1k": {
+      "hdr": {
+        "size": 1659025,
+        "md5": "affe7b705ffbb04f5d08970eaae49be5",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloetzle_blei_1k.hdr"
+      },
+      "exr": {
+        "size": 1410910,
+        "md5": "45f6392c88362ae2ebb491d509386fc2",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/1k/kloetzle_blei_1k.exr"
+      }
+    }
+  }
+}

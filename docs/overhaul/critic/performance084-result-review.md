@@ -1,0 +1,13 @@
+# 084 independent completed-baseline/compiler-stop review
+
+**DENY net-performance qualification and promotion. Keep045 LIMITED.** The completed public baseline is useful evidence; the candidate never built, froze or ran. The first compiler failure remains preserved. No timing comparison can establish savings or user-lag resolution.
+
+Baseline returned `CAPTURED_INDEPENDENT_REVIEW_REQUIRED`: root42.125s, capture40.419s,67 samples, no page errors/cleanup failure. All six prototype-on/standard-off idle/sweep/backpedal phases completed. These are model-selection phases, not quadruped/upright stance validation: the observer issues no R action. I viewed prototype-backpedal, standard-idle and standard-backpedal PNGs; own bodies/district are visible, with stiff unfinished presentation. Screenshot counters and one instrumented baseline cannot qualify rendering performance or gameplay.
+
+The single build stopped exit2 after15.235s with both errors: `animatedEnemyBounds078.ts(37,62)` and `animatedEnemyBounds081.ts(41,62)`, `Sphere | null` not assignable to `Sphere`. Root reports all inputs unchanged. No046 freeze/candidate/server swap occurred. Installed Three's SkinnedMesh constructor initializes `boundingSphere=null`, while installed @types declares `boundingSphere: Sphere`. The intentional prior-sphere restoration can legitimately restore null when culling is disabled; this is a declaration compatibility failure, not observed lost geometry or failed runtime containment.081's prior sampled containment PASS remains distinct from compilation success.
+
+A distinct source-only085 correction using `previous: SkinnedMesh['boundingSphere']` is technically reasonable if its emitted runtime statements, fail-open restoration and all bounds/geometry guards are unchanged. It must not add a non-null assertion/check that discards the original nullable value or weaken containment. It is not approved for execution by this result review; exact frozen source requires a new gate. Both erroneous legacy helper files must be preserved byte-exact outside the active TypeScript compilation set if unused: archiving078 alone leaves081's known compiler error. Do not modify their closed bytes or silently exclude current code to evade validation.
+
+Runtime-equivalent identity/type-only changes can justify reusing the prior081 containment and complete084 baseline without repeat fixture/baseline jobs. A distinct bounded build and candidate observation would still require source approval, exact hashes and first-failure stop; candidate net cost and visible NPC preservation remain mandatory for any retention. Actual Lowest/IAB lag, camera crowding, full presentation and full goal remain unresolved/INCOMPLETE.
+
+No reviewer jobs or game edits. Review writer CLOSED.

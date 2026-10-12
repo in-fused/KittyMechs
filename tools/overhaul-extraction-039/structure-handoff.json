@@ -1,0 +1,87 @@
+{
+  "task": "rainline-extraction-039-structure",
+  "status": "source-candidate-frozen-root-validation-required",
+  "authoredAt": "2026-10-10T22:31:39.7224355Z",
+  "owned": [
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": "tests/overhaul-support.test.ts",
+      "bytes": 10758,
+      "sha256": "4fb0362f631a73fc49f97d18d71b3bb907feeb4ab925b30028c0830f099c939f"
+    },
+    {
+      "path": "tests/rainline-extraction-039.test.ts",
+      "bytes": 11108,
+      "sha256": "18719fa0e6d675fceaceac5fa83011e01bb7162bfc499458c64391799f003bac"
+    },
+    {
+      "path": "docs/overhaul/extraction-039-structure.md",
+      "bytes": 5325,
+      "sha256": "bfe8c9286611ad27eda66adac8afe02873712fd46a88641e432c1ce61f0b9dea"
+    }
+  ],
+  "baseline": {
+    "path": "tools/overhaul-extraction-039/legacy031-district.json",
+    "sha256": "7d38f7477823e8f758967efe67e606fb5293f8bceab5d7655ad3cce391712d2c",
+    "blocks": 1193,
+    "structures": 197,
+    "buildings": 21
+  },
+  "appended": {
+    "prefix": "7734:overhaul:extraction039:",
+    "blocks": 135,
+    "structures": 15,
+    "buildings": 3,
+    "blockIndices": [
+      1193,
+      1327
+    ],
+    "structureIndices": [
+      197,
+      211
+    ],
+    "buildingIndices": [
+      21,
+      23
+    ],
+    "banksPerParcel": [
+      2,
+      16,
+      8,
+      4,
+      15
+    ],
+    "support": "foundation -> sixteen posts -> eight two-post bearing beams -> four two-beam roof slabs -> fifteen facade cells"
+  },
+  "validation": {
+    "specialistHeavyJobs": "none",
+    "rootRequired": [
+      "focused tests",
+      "build",
+      "native ordinary traversal/destruction",
+      "two-client capture",
+      "critic acceptance"
+    ],
+    "testPaths": [
+      "tests/rainline-extraction-039.test.ts",
+      "tests/overhaul-support.test.ts"
+    ]
+  },
+  "decisions": [
+    "Append after full legacy street admission; never mutate original lots.",
+    "Keep original <=1200 legacy block budget and separately bound appended pocket <=150.",
+    "Preserve all actor/NPC/mission/road/grading rules; actual native solids retain contact eligibility.",
+    "Do not claim art/traversal/performance/network acceptance from compiler assertions.",
+    "Final halls center +/-28,-112 size20x10, pump center-50,-112 size12x10; six-metre flush forecourts and five-by-four-metre portals. Initial candidate superseded before root jobs due immutable legacy core prop collisions.",
+    "Require full native Pounce/Bastion wall/corner/roof hull clearance against actual old and new cuboid/convex solids."
+  ]
+}

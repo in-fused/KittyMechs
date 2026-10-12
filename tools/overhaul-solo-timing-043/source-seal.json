@@ -1,0 +1,58 @@
+{
+  "packet": "solo-timing-043",
+  "frozenUTC": "2026-10-10T23:51:47.1864307Z",
+  "status": "WRITERS_CLOSED",
+  "handoff": "tools\\overhaul-solo-timing-043\\source-handoff.json",
+  "handoffSHA256": "ce5a7cfde7669c22726f959c5216204fa5a95222f05bb6a27e484a74c09ff7f0",
+  "files": [
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5339,
+      "sha256": "403da521956553f73aeb92fe47adbab039f2c1aaa3adece43232fdde7d08fe9d"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 6898,
+      "sha256": "50fb2955b0ae01709bb85724249e75b248c49defb74388e4bdf28fd11daff007"
+    },
+    {
+      "path": "src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    },
+    {
+      "path": "src/game/localAuthorityTiming043.ts",
+      "bytes": 1634,
+      "sha256": "3029bf9b51c68e313b97d85eed8261f4adf26ae975a268465af78c6d84a5859d"
+    },
+    {
+      "path": "tests/local-authority-043.test.ts",
+      "bytes": 3832,
+      "sha256": "3aea4cccc79c40b42185cf2ef43dabb15e3b23d7c7acdc6e68f7901be76a1df7"
+    },
+    {
+      "path": "docs/overhaul/solo-performance-043.md",
+      "bytes": 2704,
+      "sha256": "da93cd5fca27b4078c7ef7a5c3aababeb17dd057b7521a49e4c7620e2d48096e"
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools\\overhaul-solo-timing-043\\Session.preimage.tsx",
+      "bytes": 4002,
+      "sha256": "1e973cca3d0aae317a683ff9d23a505234cba3baa45e9add223659aea961cb56"
+    },
+    {
+      "path": "tools\\overhaul-solo-timing-043\\GameCanvas.preimage.tsx",
+      "bytes": 6879,
+      "sha256": "b48724f9f0268398a1dfaea7146ba64788d20dca71b1d07b10962db54e6c5d51"
+    },
+    {
+      "path": "tools\\overhaul-solo-timing-043\\diagnostics.preimage.ts",
+      "bytes": 3688,
+      "sha256": "5cbc77b8cb821d549a978a96533648fbb81ffddd498c59641616d4de1e468a10"
+    }
+  ],
+  "executedJobs": [],
+  "rootAcceptance": "Pending root serial tests/build/actualSoloLow and independentcritic"
+}

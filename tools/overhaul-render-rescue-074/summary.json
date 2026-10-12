@@ -1,0 +1,461 @@
+{
+  "status": "ACTUAL_PLAY_REVIEW_REQUIRED",
+  "errors": [],
+  "durationMs": 12434.417,
+  "sampleCount": 7515,
+  "selfTop": [
+    {
+      "name": "(idle)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 6451.464
+    },
+    {
+      "name": "(program)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 710.985
+    },
+    {
+      "name": "onBeforeRender",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 44090,
+      "sampledMs": 290.892
+    },
+    {
+      "name": "w",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3788,
+      "column": 2374,
+      "sampledMs": 212.08
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 389693,
+      "sampledMs": 116.789
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 88859,
+      "sampledMs": 111.665
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 88859,
+      "sampledMs": 109.467
+    },
+    {
+      "name": "W",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 36944,
+      "sampledMs": 101.389
+    },
+    {
+      "name": "",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 93.181
+    },
+    {
+      "name": "Mo",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 54275,
+      "sampledMs": 82.314
+    },
+    {
+      "name": "bindVertexArray",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 81.772
+    },
+    {
+      "name": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 78.136
+    },
+    {
+      "name": "g",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 8689,
+      "sampledMs": 75.438
+    },
+    {
+      "name": "C2",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 2,
+      "column": 85207,
+      "sampledMs": 74.808
+    },
+    {
+      "name": "renderBufferDirect",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 25562,
+      "sampledMs": 66.521
+    },
+    {
+      "name": "bufferSubData",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 63.018
+    },
+    {
+      "name": "texSubImage2D",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 62.371
+    },
+    {
+      "name": "hr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 34381,
+      "sampledMs": 61.853
+    },
+    {
+      "name": "C2",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 2,
+      "column": 85207,
+      "sampledMs": 53.975
+    },
+    {
+      "name": "b",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3587,
+      "column": 14771,
+      "sampledMs": 51.779
+    },
+    {
+      "name": "l",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 10176,
+      "sampledMs": 49.703
+    },
+    {
+      "name": "E",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3788,
+      "column": 8522,
+      "sampledMs": 46.757
+    },
+    {
+      "name": "i.onmessage",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 121641,
+      "sampledMs": 46.574
+    },
+    {
+      "name": "Ab",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14107,
+      "sampledMs": 46.557
+    },
+    {
+      "name": "wasm-function[339]",
+      "url": "wasm://wasm/005fc9d6",
+      "line": 1,
+      "column": 977352,
+      "sampledMs": 45.152
+    }
+  ],
+  "inclusiveTop": [
+    {
+      "name": "(root)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 12433.448
+    },
+    {
+      "name": "(idle)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 6451.464
+    },
+    {
+      "name": "mR",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14570,
+      "sampledMs": 4441.194
+    },
+    {
+      "name": "Ab",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3851,
+      "column": 14107,
+      "sampledMs": 4426.587
+    },
+    {
+      "name": "render",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 28913,
+      "sampledMs": 2310.099
+    },
+    {
+      "name": "Ll",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 31758,
+      "sampledMs": 1948.239
+    },
+    {
+      "name": "fr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 33634,
+      "sampledMs": 1927.449
+    },
+    {
+      "name": "qt",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 33900,
+      "sampledMs": 1894.421
+    },
+    {
+      "name": "renderBufferDirect",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 25562,
+      "sampledMs": 1492.209
+    },
+    {
+      "name": "W",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 36944,
+      "sampledMs": 1110.346
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 35862,
+      "sampledMs": 908.038
+    },
+    {
+      "name": "present",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 19764,
+      "sampledMs": 882.623
+    },
+    {
+      "name": "(program)",
+      "url": "",
+      "line": 0,
+      "column": 0,
+      "sampledMs": 710.985
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 392256,
+      "sampledMs": 589.302
+    },
+    {
+      "name": "step",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 222033,
+      "sampledMs": 561.424
+    },
+    {
+      "name": "step",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 214772,
+      "sampledMs": 435.828
+    },
+    {
+      "name": "i.onmessage",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 121641,
+      "sampledMs": 433.154
+    },
+    {
+      "name": "d4",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 116464,
+      "sampledMs": 370.585
+    },
+    {
+      "name": "D4",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 114663,
+      "sampledMs": 361.15
+    },
+    {
+      "name": "_o",
+      "url": "http://localhost:8799/assets/index-BAgy91Cy.js",
+      "line": 42,
+      "column": 107323,
+      "sampledMs": 358.118
+    },
+    {
+      "name": "hr",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3840,
+      "column": 34381,
+      "sampledMs": 352.365
+    },
+    {
+      "name": "onBeforeRender",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 48,
+      "column": 44090,
+      "sampledMs": 348.377
+    },
+    {
+      "name": "g",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 8689,
+      "sampledMs": 305.429
+    },
+    {
+      "name": "setValue",
+      "url": "http://localhost:8799/assets/three-BJhnfouV.js",
+      "line": 3737,
+      "column": 14740,
+      "sampledMs": 266.782
+    },
+    {
+      "name": "",
+      "url": "http://localhost:8799/assets/GameCanvas-D0-dQQKF.js",
+      "line": 237,
+      "column": 528371,
+      "sampledMs": 234.147
+    }
+  ],
+  "observedFrames": [
+    {
+      "label": "intact",
+      "performance": {
+        "fps": 17,
+        "calls": 92,
+        "triangles": 887052,
+        "geometries": 129,
+        "textures": 81,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 0,
+      "facadeCell24": 75
+    },
+    {
+      "label": "firing-position",
+      "performance": {
+        "fps": 56,
+        "calls": 94,
+        "triangles": 966590,
+        "geometries": 134,
+        "textures": 81,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 0,
+      "facadeCell24": 75
+    },
+    {
+      "label": "public-aim-shot",
+      "performance": {
+        "fps": 56,
+        "calls": 94,
+        "triangles": 979345,
+        "geometries": 134,
+        "textures": 81,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 0,
+      "facadeCell24": 75
+    },
+    {
+      "label": "public-aim-shot",
+      "performance": {
+        "fps": 56,
+        "calls": 94,
+        "triangles": 979345,
+        "geometries": 134,
+        "textures": 81,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 0,
+      "facadeCell24": 53
+    },
+    {
+      "label": "public-aim-shot",
+      "performance": {
+        "fps": 56,
+        "calls": 94,
+        "triangles": 999485,
+        "geometries": 134,
+        "textures": 81,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 1,
+      "facadeCell24": 0
+    },
+    {
+      "label": "removed-ruin",
+      "performance": {
+        "fps": 55,
+        "calls": 96,
+        "triangles": 999257,
+        "geometries": 137,
+        "textures": 90,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 1,
+      "facadeCell24": 0
+    },
+    {
+      "label": "upright-reverse",
+      "performance": {
+        "fps": 56,
+        "calls": 97,
+        "triangles": 1056691,
+        "geometries": 138,
+        "textures": 90,
+        "chunks": 9,
+        "bodies": 0
+      },
+      "ruins": 1,
+      "facadeCell24": 0
+    }
+  ],
+  "scope": "Different route/mode/weather/recorder from069; no causal before/after FPS claim, no GPU/IAB qualification."
+}

@@ -1,0 +1,26 @@
+{
+  "writer": "CLOSED",
+  "receipts": [
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-presentation154.test.ts --reporter=verbose",
+      "exitCode": 1,
+      "result": "FIRST_FIXTURE_PROVIDER_MISMATCH_3PASS_1FAIL",
+      "seconds": 2.23,
+      "output": "tools/overhaul-locomotion-154/first-fixture-provider-failure154.txt"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-presentation154.test.ts --reporter=verbose",
+      "exitCode": 0,
+      "result": "CORRECTED_FIXTURE_4PASS",
+      "seconds": 2.07,
+      "output": "tools/overhaul-locomotion-154/test-receipt154.txt"
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "execSession": 42531,
+      "exitCode": 0,
+      "result": "FINAL_SHARED_TYPECHECK_TERMINAL_PASS",
+      "stdoutBytes": 0
+    }
+  ]
+}

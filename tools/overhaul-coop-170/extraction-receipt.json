@@ -1,0 +1,43 @@
+{
+  "writer": "CLOSED",
+  "scope": "HYPOTHETICAL_PARKED_HOST_SOURCE_GEOMETRY_ONLY",
+  "positive": {
+    "point": {
+      "x": -9.224586983568287,
+      "z": 14.956414504036118
+    },
+    "path": [
+      {
+        "x": -9.224586983568287,
+        "z": 14.956414504036118
+      }
+    ],
+    "certificate": {
+      "clear": true,
+      "terrain": {
+        "clear": true,
+        "height": -0.08,
+        "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+        "radius": 3.95
+      },
+      "allBlocks": 1370,
+      "allActorOccupancy": 14,
+      "completeArrivalRadius": 1.1,
+      "clearance": 2.85
+    },
+    "hostParkedAt": {
+      "x": -8,
+      "y": 0.94,
+      "z": 9.3
+    },
+    "peerFutureArrival": 0,
+    "pairEnvelope": 5.699999999999999,
+    "worst3D": 4.300000000000001
+  },
+  "jointFuturePacking": {
+    "maximumCenterSpan": 6.7999111106721495,
+    "required": 6.799999999999999,
+    "status": "STRICT_FULL_TWO_FUTURE_DISKS_INFEASIBLE"
+  },
+  "centeredHostResult": "INFEASIBLE_NO_UNSAFE_STAGE_RETRY"
+}

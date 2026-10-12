@@ -1,0 +1,2 @@
+using deprecated parameters for the initialization function; pass a single object instead
+{"status":"FIRST_REMAINING_FIXTURE_FAILURE","counts":{"frames":71,"fulfilled":71,"touch":103,"release":36,"independentChecks":12},"firstFailure":"AssertionError [ERR_ASSERTION]: RELEASE_ROTATION_DISCONTINUITY:HL_lower","maxSamePointError":9.229378145691308e-8,"maxMinDifference":3.469446951953614e-18}

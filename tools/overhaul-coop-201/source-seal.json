@@ -1,0 +1,174 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_READY_ACTUAL_APPROVAL_PENDING",
+  "files": [
+    {
+      "path": "docs/overhaul/coop201-handoff.md",
+      "bytes": 4268,
+      "sha256": "ac9134ea168a4e4deae10806083636d486ff4fdd18216de85eb762e9c77adb43"
+    },
+    {
+      "path": "tools/overhaul-coop-201/HANDOFF.md",
+      "bytes": 3606,
+      "sha256": "d973d82da33d929ece05cd0dfd9e587818d8853eabe78ac266828562f1a51744"
+    },
+    {
+      "path": "tools/overhaul-coop-201/controller.mjs",
+      "bytes": 8206,
+      "sha256": "08f438ef15fdd7b61842d697a2e8b216683be134fb340b35e3164d5b729a1d81"
+    },
+    {
+      "path": "tools/overhaul-coop-201/current-occupancy.mjs",
+      "bytes": 1407,
+      "sha256": "aa14a18adb15adb7dedc4d4ce6d8131c92c33f1690928309e5b455417d349bcd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/exposure-search.mjs",
+      "bytes": 4237,
+      "sha256": "457a4160e861e3cebc4aab6957dec3f2f5f5d2e5b44a9c22d43fbef8d258107b"
+    },
+    {
+      "path": "tools/overhaul-coop-201/geometry-source.mjs",
+      "bytes": 11064,
+      "sha256": "e667cbb6e431a093b35d8b536b0b852e2d84841a6c4497833f730f2c28a172cd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/interaction-separation.mjs",
+      "bytes": 3566,
+      "sha256": "f02b328040ca38c0f17069e13010f656880a27591005133b16f6fdbd4fbfeaee"
+    },
+    {
+      "path": "tools/overhaul-coop-201/lifecycle-adapter.mjs",
+      "bytes": 2962,
+      "sha256": "fb8cf223a104f22b63deca8136f67ad438f1fe173c62994d273aa5d8e56f70e3"
+    },
+    {
+      "path": "tools/overhaul-coop-201/mission-capture.mjs",
+      "bytes": 57096,
+      "sha256": "0e123ee1b2f53edbcb037ce43ce03970e79eece165f39e2a8d0ab21388f7d56c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/motion-scheduler.mjs",
+      "bytes": 14921,
+      "sha256": "b9c3616cf32a8c86581657f16ca3f71bbf75621d120ebcaeeb721f93fc5478e6"
+    },
+    {
+      "path": "tools/overhaul-coop-201/phased-stage.mjs",
+      "bytes": 2878,
+      "sha256": "7980f9e8499d3c294b1bf82b2eccdfce6a0b47fcba608a56abe9a978d10c44fe"
+    },
+    {
+      "path": "tools/overhaul-coop-201/planner.mjs",
+      "bytes": 7933,
+      "sha256": "5fb14521bd5b641c5165d499d7d06fef0fb0a88781c0774b278e91b139772ed6"
+    },
+    {
+      "path": "tools/overhaul-coop-201/planning-read.mjs",
+      "bytes": 2326,
+      "sha256": "ae43ed56cd8dd7495f8cf9843ca02224a722d105b9ef5e472b9aee1c3f0e57c0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/controller.mjs",
+      "bytes": 8206,
+      "sha256": "2bcc236d6146d00a08f5d281ea250b82f161e1cd385c6b6874d9585867fb0088"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/current-occupancy.mjs",
+      "bytes": 1394,
+      "sha256": "36989c1ee5d4cb4fafee3fd59702b62f7ae43bc9fa202fe6d8769cdee1ca8939"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/exposure-search.mjs",
+      "bytes": 4237,
+      "sha256": "054042bf375ca12b1e239eded457482627c4b941b46a0665682073edaac981a8"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/geometry-source.mjs",
+      "bytes": 10995,
+      "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/interaction-separation.mjs",
+      "bytes": 3566,
+      "sha256": "68dfaec8f2d25b6893e2229743ef54c897b087f19a131295f8662165031a7e5c"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/lifecycle-adapter.mjs",
+      "bytes": 2678,
+      "sha256": "b23df30f76caf2045a6824198b6224a1cc37517b09294adbf41abea36eb16430"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/mission-capture.mjs",
+      "bytes": 55316,
+      "sha256": "dae9537c5f39be4f9148643f2216a84309e5f37e69bffd9c77bd01d097c5d7e0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/motion-scheduler.mjs",
+      "bytes": 10754,
+      "sha256": "b3b5bde2cc5959373ee597ea00dcd0df4a81030a2905296bd8eb704d43116974"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/phased-stage.mjs",
+      "bytes": 2860,
+      "sha256": "c44740a3c981fc60dc1e9ce311d5a9c0f8ff9fdad29276ff220168fc872deeeb"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planner.mjs",
+      "bytes": 7933,
+      "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/planning-read.mjs",
+      "bytes": 2326,
+      "sha256": "8a3dfd64059060eada299734b8b4751859b1d8a0568c120099adefd4dd3d7687"
+    },
+    {
+      "path": "tools/overhaul-coop-201/preimages/terrain-base.mjs",
+      "bytes": 2604,
+      "sha256": "277cf56eb7b1956640ab2acab094b64bd3aa221c825b44bd45f78e4ea132f293"
+    },
+    {
+      "path": "tools/overhaul-coop-201/prep-corrupted-preimages/mission-capture.mjs",
+      "bytes": 56777,
+      "sha256": "873145363bd6cc479f607fb1a8d5aa3fa1e5b220114be239b83dae4f4d8b8232"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protected-inputs.json",
+      "bytes": 4048,
+      "sha256": "74e900a7c4e23bc306355f7ea1e107fd35e862f1091e7a728341cf80c46226d0"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protocol-fixture-receipt.json",
+      "bytes": 41895,
+      "sha256": "41ba91905355e5b6cbb840553c90d53158ec1450b5e36db6f10e4d06ad3945b3"
+    },
+    {
+      "path": "tools/overhaul-coop-201/protocol-fixture.mjs",
+      "bytes": 5527,
+      "sha256": "1b888f40a49c18c0737f6e4d6e7cb7211615db0efc4ee2815a14c494f8557b24"
+    },
+    {
+      "path": "tools/overhaul-coop-201/root-static-correction203.json",
+      "bytes": 1754,
+      "sha256": "3ce76e3a7e825d1eb4c5637921919fc34e8d52830771e7ab64bae66efad0bb63"
+    },
+    {
+      "path": "tools/overhaul-coop-201/selector-byte-check.json",
+      "bytes": 1555,
+      "sha256": "98fc04ce7bccd7712c77c4c7c104f4f2188bcf40e6d61dbd61fe2edfc8512c1f"
+    },
+    {
+      "path": "tools/overhaul-coop-201/static-receipt.json",
+      "bytes": 1982,
+      "sha256": "99d584f13034e8891344b9b08d0b4c337547c6c7d82b6741d3bc89ec3476bafe"
+    },
+    {
+      "path": "tools/overhaul-coop-201/terrain-base.mjs",
+      "bytes": 2617,
+      "sha256": "0dfa317aded9173a6d30d80266da7f681ed4021f634929e1bc21b94a50fb63ab"
+    }
+  ],
+  "parentArchive": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\coop201-source-initial",
+  "parentSealSHA256": "cfab5008d83a72391ff915620ba36236887b49c626e83fc15798b5de6b6eb909",
+  "closedUTC": "2026-10-11T20:13:04.155304+00:00"
+}

@@ -1,0 +1,189 @@
+{
+  "writer": "CLOSED",
+  "scope": "Static forensic read after terminal failure;not Blender rerun or captured imported numeric operands",
+  "guard": "199_IMPORTED_SHADER_TRIANGLES_CHANGED:transit_wall__glazing",
+  "node": {
+    "mesh": 0,
+    "name": "transit_wall__glazing"
+  },
+  "parent": "transit_wall",
+  "material": {
+    "doubleSided": true,
+    "name": "RainlineIdentity_glazing",
+    "pbrMetallicRoughness": {
+      "baseColorTexture": {
+        "index": 0
+      },
+      "metallicFactor": 0.18000000715255737,
+      "roughnessFactor": 0.23000000417232513
+    }
+  },
+  "sourceAttributeAccessors": {
+    "POSITION": {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.4999999701976776,
+        0.25999999046325684,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.020000003278255463,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    "NORMAL": {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC3"
+    },
+    "TEXCOORD_0": {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC2"
+    },
+    "COLOR_0": {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 96,
+      "type": "VEC3"
+    }
+  },
+  "firstSourceTriangleIndices": [
+    2,
+    5,
+    11
+  ],
+  "rawSourceAttributeFirstTriangle": {
+    "POSITION": [
+      [
+        -0.5,
+        -0.020000003278255463,
+        0.3700000047683716
+      ],
+      [
+        -0.5,
+        0.25999999046325684,
+        0.3700000047683716
+      ],
+      [
+        -0.5,
+        0.25999999046325684,
+        -0.3700000047683716
+      ]
+    ],
+    "NORMAL": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "TEXCOORD_0": [
+      [
+        0.375,
+        1.0
+      ],
+      [
+        0.625,
+        1.0
+      ],
+      [
+        0.625,
+        0.75
+      ]
+    ],
+    "COLOR_0": [
+      [
+        0.05780543386936188,
+        0.15592649579048157,
+        0.18447503447532654
+      ],
+      [
+        0.05780543386936188,
+        0.15592649579048157,
+        0.18447503447532654
+      ],
+      [
+        0.05780543386936188,
+        0.15592649579048157,
+        0.18447503447532654
+      ]
+    ]
+  },
+  "reconstructedExpectedComparatorFirstTriangle": [
+    [
+      -0.5,
+      -0.3700000047683716,
+      -0.020000003278255463,
+      -1.0,
+      -0.0,
+      0.0,
+      0.375,
+      0.0,
+      0.05780543386936188,
+      0.15592649579048157,
+      0.18447503447532654
+    ],
+    [
+      -0.5,
+      -0.3700000047683716,
+      0.25999999046325684,
+      -1.0,
+      -0.0,
+      0.0,
+      0.625,
+      0.0,
+      0.05780543386936188,
+      0.15592649579048157,
+      0.18447503447532654
+    ],
+    [
+      -0.5,
+      0.3700000047683716,
+      0.25999999046325684,
+      -1.0,
+      -0.0,
+      0.0,
+      0.625,
+      0.25,
+      0.05780543386936188,
+      0.15592649579048157,
+      0.18447503447532654
+    ]
+  ],
+  "actualImportedOperandsSaved": false,
+  "actualObservedValues": "UNKNOWN;only failing node name saved, not either sorted triangle tuple list",
+  "confirmedComparatorSchemaDefect": {
+    "sourceColorComponents": 3,
+    "expectedTupleComponents": 11,
+    "actualCodeTupleComponents": 12,
+    "actualColorAPI": "Blender color_attributes.data.color has RGBA4",
+    "consequence": "Every compared shader vertex differs in tuple length;guard cannot prove imported geometry mismatch",
+    "primaryImporter": {
+      "path": "D:\\KittyMechTools\\blender-4.5.14-windows-x64\\4.5\\scripts\\addons_core\\io_scene_gltf2\\blender\\imp\\mesh.py",
+      "sha256": "7c8204165da0b3cf0caf24af665642a7f29572cb4e056939ffca48ee1fb09b93",
+      "rgbToRgbaLines": [
+        261,
+        262
+      ],
+      "byteColorLine": 348
+    }
+  },
+  "nextBoundary": "Source-component-aware color correspondence:sourceVEC3 has implicit alpha1;compare same declared components without changing geometry/tolerances. Not implemented or authorized to rerun here. BYTE_COLOR conversion still requires truthful numeric validation."
+}

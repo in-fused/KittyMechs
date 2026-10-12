@@ -1,0 +1,41 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "samples": 648,
+  "coreRadius": 1.4677143854978243,
+  "coreHeight": 3.111736297607422,
+  "coreFloor": 0.5524152517318726,
+  "floor": -0.06865054368972778,
+  "limbLengthError": 8.918037526006728e-07,
+  "maxHindReach": 0.9600322760573078,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; idle-longwalk, longwalk-stride, gait-turn and mirrored turn mixtures, including Lynx double release phases; local TRS blend plus full-weight inverse(reference)*reaction additive; procedural aim/contact/carrier handled by independent production composition",
+  "radiusCase": [
+    0.72,
+    "TurnLeft",
+    "TurnRight",
+    0,
+    "Missile",
+    0.2
+  ],
+  "heightCase": [
+    0.96,
+    "Idle",
+    "WalkLong",
+    0.15,
+    "CombatBase",
+    0
+  ],
+  "floorCase": [
+    0,
+    "Stride",
+    "TurnLeft",
+    0.5,
+    "Missile",
+    0.2
+  ],
+  "floorBone": [
+    "HR_paw"
+  ]
+}

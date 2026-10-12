@@ -1,0 +1,215 @@
+{
+  "batch_id": "batch-001",
+  "status": "reviewed_refinements_requested",
+  "independent_critic": "root",
+  "critique_path": "docs/art/batch-001-critique.md",
+  "created_utc": "2026-09-26T15:03:35.537Z",
+  "purpose": "Pounce and Bastion original first silhouette concepts for independent critique; no further generation before critic response",
+  "authorized_batch_credit_ceiling": 8,
+  "authorized_trial_sprint_credit_ceiling": 100,
+  "quoted_batch_credits": 4,
+  "model": "nano_banana_pro",
+  "resolution": "2k",
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Original premium stylized hard-surface 3D game character design for KittyMech, an optimistic coastal repair-world co-op action game. One entire 4.5-meter bipedal feline industrial mech with one tiny adorable 0.5-meter adult housecat pilot clearly seated behind a small transparent protected cockpit in the upper torso. The pilot is a rounded cute kitty with simple plush fur, button nose and expressive ears; no human anatomy. Mechanically believable limbs with visible shoulder, elbow, hip, knee and ankle articulation; clear gaps for movement; hands and feet distinct from armor. Large clean ceramic/enamel armor panels over recessed dark plum mechanics, restrained metal edges, subtle service wear, high craftsmanship. Feline character through ear-shaped antenna fins, broad paw-inspired feet and face-like cockpit arrangement; no branded design, no text, no logo. Full body three-quarter front standing view at a near-orthographic 70mm perspective; both feet entirely in frame with generous margin, all major joints readable. Grounded lightly active pose, weapons lowered, neutral light warm-gray studio background and ground plane, soft daylight key and restrained rim light. Production concept render for later human modeling, sharp details, organized 3-level shape hierarchy, avoid tiny greebles, busy backgrounds, exploded parts, floating components, dramatic bloom, holograms, huge human eyes or extra limbs. Design A: POUNCE, an agile but weighty mid-range skirmisher. Athletic narrow-waisted silhouette, compact shoulders, tapered forearms, strong spring-ready thighs, broad but streamlined feet and twin compact rear calf thrusters, all still a straightforward biped joint layout. Ivory armor with bold burnt-orange forearm/shin panels and tiny teal signal lights; dark plum flexible recesses. One integrated short forearm pulse cannon on right arm; other articulated mechanical hand visible. Slight forward-ready attitude, powerful and nimble rather than spindly. Small ginger-and-white cat behind the clear cockpit, curious confident expression. Cat ears on the mech are short swept-back wedges. Primary design priority: unmistakably feline, visually legible from gameplay distance, controlled modular shapes that a small team can model."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Original premium stylized hard-surface 3D game character design for KittyMech, an optimistic coastal repair-world co-op action game. One entire 4.5-meter bipedal feline industrial mech with one tiny adorable 0.5-meter adult housecat pilot clearly seated behind a small transparent protected cockpit in the upper torso. The pilot is a rounded cute kitty with simple plush fur, button nose and expressive ears; no human anatomy. Mechanically believable limbs with visible shoulder, elbow, hip, knee and ankle articulation; clear gaps for movement; hands and feet distinct from armor. Large clean ceramic/enamel armor panels over recessed dark plum mechanics, restrained metal edges, subtle service wear, high craftsmanship. Feline character through ear-shaped antenna fins, broad paw-inspired feet and face-like cockpit arrangement; no branded design, no text, no logo. Full body three-quarter front standing view at a near-orthographic 70mm perspective; both feet entirely in frame with generous margin, all major joints readable. Grounded lightly active pose, weapons lowered, neutral light warm-gray studio background and ground plane, soft daylight key and restrained rim light. Production concept render for later human modeling, sharp details, organized 3-level shape hierarchy, avoid tiny greebles, busy backgrounds, exploded parts, floating components, dramatic bloom, holograms, huge human eyes or extra limbs. Design B: BASTION, a mobile defensive protector, hefty but capable of agile repositioning. Broad trapezoid torso and wide lower center of mass, low rounded shoulder shells, stout but properly articulated limbs using a normal biped joint layout, broad paw feet with stable readable soles; absolutely not a quadruped. Warm ivory major armor, deep petrol-teal shoulder and shin panels, burnt-orange small service markings, dark plum mechanics. Left forearm carries a thick compact folded shield plate, right forearm a compact short-range pulse emitter; fingers visible beyond gauntlets, no giant shield hiding the body. Small black-and-white tuxedo kitty sits behind the clear protected upper torso cockpit, serene alert expression. Mech ear fins short broad triangles. Strong appealing defender silhouette distinct from a slim skirmisher by mass and shape even in grayscale; no tank treads, no military realism."
+      }
+    }
+  ],
+  "cost_preflight": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          }
+        },
+        "isError": false
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c.png"
+    },
+    {
+      "index": 2,
+      "job_id": "50d58da9-ad9b-4cb9-b8f0-007168b65506",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_50d58da9-ad9b-4cb9-b8f0-007168b65506.png"
+    }
+  ],
+  "originals": [
+    {
+      "index": 1,
+      "path": "Art/Concepts/batch-001/pounce-concept-001.png",
+      "width": 1792,
+      "height": 2400,
+      "bytes": 6265771,
+      "sha256": "91BDB147040BDA5D4842D8DD091B1C564051795D64AA0DE167A97362C8DF7333"
+    },
+    {
+      "index": 2,
+      "path": "Art/Concepts/batch-001/bastion-concept-001.png",
+      "width": 1792,
+      "height": 2400,
+      "bytes": 5922442,
+      "sha256": "FBDD8DC659D09EEEE0EA6FF550F9F3278D02E37A131FB41AEB38C47B4E679684"
+    }
+  ],
+  "submission": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Submitted 2/2 image generations.\n- index 1: 7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c (pending)\n- index 2: 50d58da9-ad9b-4cb9-b8f0-007168b65506 (pending)\nWait for the complete requested set with jobs_wait, then show it together with show_generation_by_ids using the collected indexed jobs. This includes jobs submitted across separate calls. job_display accepts only one id and cannot display a group; do not pass ids or call it once per job."
+      }
+    ],
+    "structuredContent": {
+      "jobs": [
+        {
+          "index": 1,
+          "job_id": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "job_id": "50d58da9-ad9b-4cb9-b8f0-007168b65506",
+          "status": "pending"
+        }
+      ],
+      "submitted_count": 2,
+      "failed_count": 0
+    },
+    "isError": false
+  },
+  "completed_utc": "2026-09-26T15:05:53.433Z",
+  "gallery": {
+    "items": [
+      {
+        "id": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Original premium stylized hard-surface 3D game character design for KittyMech, an optimistic coastal repair-world co-op action game. One entire 4.5-meter bipedal feline industrial mech with one tiny adorable 0.5-meter adult housecat pilot clearly seated behind a small transparent protected cockpit in the upper torso. The pilot is a rounded cute kitty with simple plush fur, button nose and expressive ears; no human anatomy. Mechanically believable limbs with visible shoulder, elbow, hip, knee and ankle articulation; clear gaps for movement; hands and feet distinct from armor. Large clean ceramic/enamel armor panels over recessed dark plum mechanics, restrained metal edges, subtle service wear, high craftsmanship. Feline character through ear-shaped antenna fins, broad paw-inspired feet and face-like cockpit arrangement; no branded design, no text, no logo. Full body three-quarter front standing view at a near-orthographic 70mm perspective; both feet entirely in frame with generous margin, all major joints readable. Grounded lightly active pose, weapons lowered, neutral light warm-gray studio background and ground plane, soft daylight key and restrained rim light. Production concept render for later human modeling, sharp details, organized 3-level shape hierarchy, avoid tiny greebles, busy backgrounds, exploded parts, floating components, dramatic bloom, holograms, huge human eyes or extra limbs. Design A: POUNCE, an agile but weighty mid-range skirmisher. Athletic narrow-waisted silhouette, compact shoulders, tapered forearms, strong spring-ready thighs, broad but streamlined feet and twin compact rear calf thrusters, all still a straightforward biped joint layout. Ivory armor with bold burnt-orange forearm/shin panels and tiny teal signal lights; dark plum flexible recesses. One integrated short forearm pulse cannon on right arm; other articulated mechanical hand visible. Slight forward-ready attitude, powerful and nimble rather than spindly. Small ginger-and-white cat behind the clear cockpit, curious confident expression. Cat ears on the mech are short swept-back wedges. Primary design priority: unmistakably feline, visually legible from gameplay distance, controlled modular shapes that a small team can model.",
+          "aspect_ratio": "3:4",
+          "input_images": [],
+          "width": 1792,
+          "height": 2400,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c_min.webp"
+        },
+        "createdAt": 1790435021.865199
+      },
+      {
+        "id": "50d58da9-ad9b-4cb9-b8f0-007168b65506",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Original premium stylized hard-surface 3D game character design for KittyMech, an optimistic coastal repair-world co-op action game. One entire 4.5-meter bipedal feline industrial mech with one tiny adorable 0.5-meter adult housecat pilot clearly seated behind a small transparent protected cockpit in the upper torso. The pilot is a rounded cute kitty with simple plush fur, button nose and expressive ears; no human anatomy. Mechanically believable limbs with visible shoulder, elbow, hip, knee and ankle articulation; clear gaps for movement; hands and feet distinct from armor. Large clean ceramic/enamel armor panels over recessed dark plum mechanics, restrained metal edges, subtle service wear, high craftsmanship. Feline character through ear-shaped antenna fins, broad paw-inspired feet and face-like cockpit arrangement; no branded design, no text, no logo. Full body three-quarter front standing view at a near-orthographic 70mm perspective; both feet entirely in frame with generous margin, all major joints readable. Grounded lightly active pose, weapons lowered, neutral light warm-gray studio background and ground plane, soft daylight key and restrained rim light. Production concept render for later human modeling, sharp details, organized 3-level shape hierarchy, avoid tiny greebles, busy backgrounds, exploded parts, floating components, dramatic bloom, holograms, huge human eyes or extra limbs. Design B: BASTION, a mobile defensive protector, hefty but capable of agile repositioning. Broad trapezoid torso and wide lower center of mass, low rounded shoulder shells, stout but properly articulated limbs using a normal biped joint layout, broad paw feet with stable readable soles; absolutely not a quadruped. Warm ivory major armor, deep petrol-teal shoulder and shin panels, burnt-orange small service markings, dark plum mechanics. Left forearm carries a thick compact folded shield plate, right forearm a compact short-range pulse emitter; fingers visible beyond gauntlets, no giant shield hiding the body. Small black-and-white tuxedo kitty sits behind the clear protected upper torso cockpit, serene alert expression. Mech ear fins short broad triangles. Strong appealing defender silhouette distinct from a slim skirmisher by mass and shape even in grayscale; no tank treads, no military realism.",
+          "aspect_ratio": "3:4",
+          "input_images": [],
+          "width": 1792,
+          "height": 2400,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_50d58da9-ad9b-4cb9-b8f0-007168b65506.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_50d58da9-ad9b-4cb9-b8f0-007168b65506_min.webp"
+        },
+        "createdAt": 1790435021.899801
+      }
+    ],
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_7ac6c5e3-9931-4e62-9fd9-bf2bcc5bf04c.png"
+      },
+      {
+        "index": 2,
+        "job_id": "50d58da9-ad9b-4cb9-b8f0-007168b65506",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150341_50d58da9-ad9b-4cb9-b8f0-007168b65506.png"
+      }
+    ],
+    "all_found": true
+  },
+  "balance": {
+    "total_before_reported_by_root": 110,
+    "total_after_verified": 106,
+    "observed_total_credit_debit": 4,
+    "trial_credits_after_reported": 100,
+    "trial_ends_at": "2026-09-29T02:37:34Z",
+    "note": "API total decreased by 4 while reported trial_credits remained 100. Do not claim specific trial debit; no top-up or purchase made."
+  },
+  "model_note": "Submitted explicit nano_banana_pro; result metadata reports nano_banana_2. Both identifiers preserved without assuming their alias relationship."
+}

@@ -1,0 +1,7 @@
+{
+  "session": 2816,
+  "terminal": true,
+  "exitCode": 1,
+  "failure": "Root guard looked for Pounce_Anatomy121Batched.glb under public, but compiled frozen assets reside in dist. No gameplay observation began.",
+  "repair": "Compare all served assets against frozen dist, source receipt bytes unchanged."
+}

@@ -1,0 +1,33 @@
+{
+  "writer": "CLOSED",
+  "actualPack": "UNRUN",
+  "actualDecoder": "UNRUN",
+  "actualNativeFixture": "UNRUN",
+  "productionEdited": false,
+  "protectedBeforeAfter": "MATCH",
+  "commands": [
+    {
+      "command": "python tools/overhaul-native-214/prepare-static214.py",
+      "first": {
+        "exitCode": 1,
+        "seconds": 1.0137371,
+        "error": "STATIC_PROVIDER_KEY_FAILURE"
+      },
+      "corrected": {
+        "exitCode": 0,
+        "seconds": 1.2479305
+      }
+    },
+    {
+      "command": "node tools/overhaul-native-214/static-syntax214.mjs",
+      "exitCode": 0,
+      "seconds": 1.5289375,
+      "scope": "syntax only, no types/model/import execution"
+    },
+    {
+      "command": "node --check tools/overhaul-native-214/pack214.mjs",
+      "exitCode": 0,
+      "seconds": 0.4460234
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "packet": "motion-performance-042",
+  "sourceFrozenUTC": "2026-10-10T23:37:09.5114199Z",
+  "owner": "/root/extraction_structure_039",
+  "status": "SOURCE_FROZEN_WRITERS_CLOSED_NO_RUNTIME_JOBS",
+  "ownedPaths": [
+    "src/game/entities/identity57Runtime005.ts",
+    "src/game/entities/shareSkinPalettes042.ts",
+    "src/game/entities/identity57Runtime005Actor.tsx",
+    "src/game/entities/identity57Runtime007Actor.tsx",
+    "src/game/entities/identity57Runtime008Actor.tsx",
+    "src/game/entities/identity57Runtime034Actor.tsx",
+    "src/game/camera/weightedVisualEnvelope007.ts",
+    "tests/feline-runtime-042.test.ts",
+    "tools/overhaul-motion-performance-042/README.md"
+  ],
+  "files": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "bytes": 10988
+    },
+    {
+      "path": "src/game/entities/shareSkinPalettes042.ts",
+      "sha256": "da3e168e3239417fcd8c428d5e5f4d4732caa159a5c09c8242fdf5f35538fbd2",
+      "bytes": 1606
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Actor.tsx",
+      "sha256": "23c543d870741ffb090a8bd565c0e39a9cbaaf66b7000b300e14a313671db960",
+      "bytes": 3352
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed",
+      "bytes": 3644
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "sha256": "f3d97325119271d1de7ab08c65bd12d32021018fce61e82190179586dfaaffec",
+      "bytes": 3917
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "bytes": 4177
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "bytes": 11235
+    },
+    {
+      "path": "tests/feline-runtime-042.test.ts",
+      "sha256": "64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339",
+      "bytes": 8376
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/README.md",
+      "sha256": "a152549fcea62b9c6694d9eb0566f57e61fd98015f2c2eb47ed6ee1e6505ba9d",
+      "bytes": 5779
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__camera__weightedVisualEnvelope007.ts",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323",
+      "bytes": 11098
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime005.ts",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128",
+      "bytes": 10797
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime005Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "69b57f81d1331faac4636d1491c2579f7543f1a901d3f1084caa4a4b5c826804",
+      "bytes": 3314
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime007Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd",
+      "bytes": 3609
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime008Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "931bea30565fe732a72da62c13f160bad523cfc8acac0a1d2c6f5b3c67cc4220",
+      "bytes": 3882
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime034Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "7ff3f26cacb709b02f7ea0bbf63071bb165a1303f7157d364f033b40210e46b7",
+      "bytes": 4142
+    }
+  ],
+  "readOnlyDependencies": [
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "bytes": 9521
+    },
+    {
+      "path": "src/game/runtime.ts",
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9",
+      "bytes": 3231
+    },
+    {
+      "path": "node_modules/three/src/animation/AnimationAction.js",
+      "sha256": "0ab97bfbc7425105350f980c201d7dfd3cfd62c654feaa77b2b9e2ce4ba9f373",
+      "bytes": 19559
+    },
+    {
+      "path": "node_modules/three/examples/jsm/utils/SkeletonUtils.js",
+      "sha256": "0761b1e003917b215d25dd81439d854b36034b5a57ce84c2cfe3b02428d7b253",
+      "bytes": 11062
+    },
+    {
+      "path": "node_modules/three/src/renderers/webgl/WebGLObjects.js",
+      "sha256": "6cc2fd61bc05896e420facedc2736dc96625010973c2b5ae3d42ae8d8fa0f336",
+      "bytes": 1578
+    },
+    {
+      "path": "node_modules/three/src/objects/Skeleton.js",
+      "sha256": "35751767022ca5e02032351f68212ef163a142e3a13b67b908c9d7f9122ba5cf",
+      "bytes": 7898
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-026/playable-root/src/game/entities/identity57Runtime005.ts",
+      "sha256": "fbded0fcf886db3ee6c1d6b10ccc7c3866f95e406b78229a0a4cc99ada8ffa51",
+      "bytes": 10452
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-026/playable-root/src/game/entities/renderTimeline.ts",
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "bytes": 9521
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-026/playable-root/src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323",
+      "bytes": 11098
+    }
+  ],
+  "causes": [
+    "Full-body .333s Pulse refreshes at .16s native firing interval and zeroes gait weights while travelling; Missile/Hit similarly replace movement",
+    "SkeletonUtils clone creates permesh palettes; renderer updates/uploads each Skeleton identity independently although orderedowners/inverses are identical",
+    "Weighted sample emits same8aggregateAABBcorners repeatedNtimes, multiplying fit projections with no geometry benefit"
+  ],
+  "changes": [
+    "Moving travel above existing .08m/s threshold retains gait under reaction windows; stationary/critical transform/pair/strike/air/prior landing preserved; no invented overlay/contact",
+    "Exact finite inverse elements and orderedboneowners dedup cloned palettes before rendering in034/008/007/005; distinctbindings remain distinct; meshdata/TRS unchanged",
+    "8weightedaggregatecorners; everymesh/weight/padding/validation retained"
+  ],
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/feline-runtime-042.test.ts",
+    "tests/camera-visual-envelope.test.ts",
+    "tests/camera-visual-registry.test.ts",
+    "tests/camera-framing.test.ts"
+  ],
+  "rootBuildCommand": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "sourceChecksExecuted": [
+    "Targeted static source/library review only"
+  ],
+  "heavyJobsExecuted": false,
+  "runtimeClaims": "NONE. No test, build, browser, rendering, Blender or measurements executed by author.",
+  "meaningfulTests": [
+    "Real Three mixer actualfoot joint motion under each active reaction, stationary reaction retained",
+    "Transform/air/landing selection retained",
+    "3cloned equivalent palettes become1 with exact skin/geometry/TRS and posedvertex preservation",
+    "Different owner, inverse and ordering never share",
+    "Every posed weightedvertex contained,8uniqueaggregatecorners,identical camera fit/probe results versus old repeatedcorners"
+  ],
+  "rootResponsibilities": [
+    "UI/CameraRig first-person/selfvisibility fixes",
+    "Actual stableport public W/noF versus W+F owner/phase/feet observation",
+    "Actual frame/renderer/GPU/server/browser cost measurement and independent critic acceptance"
+  ],
+  "limitations": [
+    "Moving full-body recoil is limited; ordinary muzzle/projectile remains; no additive upperbody claim",
+    "Weighted permesh validation remains; FPS benefit not quantified",
+    "Earlier images/art/contact denials remain; static fixtures do not prove actualasset/planted gait/fullactions/nativecontact"
+  ],
+  "preserved": "No frozen026/031/032/033 or sourceGLB/art mutation, no renderTimeline/runtime/publication edits; closed041 capture remains unchanged",
+  "technicalRepairMaximum": 1,
+  "acceptance": "Root+independentcritic actualtests/build/browsermeasure and visibleplayerexperience determine outcome; no60FPS or fullart/contact proof."
+}

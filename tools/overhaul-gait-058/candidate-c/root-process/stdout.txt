@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-gait-058c\launch.py", line 13, in <module>
+    run(['D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe','--background','--factory-startup','--python-exit-code','1','--python','assets/source/overhaul-pounce-gait-058c/export_saved.py'],120)
+  File "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-gait-058c\launch.py", line 12, in run
+    if code:raise RuntimeError(f'FIRST_FAILURE exit{code}; no downstream stage')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: FIRST_FAILURE exit1; no downstream stage

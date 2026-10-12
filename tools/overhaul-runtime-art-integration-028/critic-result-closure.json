@@ -1,0 +1,15 @@
+{
+  "closedUTC": "2026-10-10T20:26:53.0535413Z",
+  "verdict": "ACCEPT_FUNCTIONAL_PUBLIC_PREVIEW_SEQUENCE_ONLY",
+  "quality": "DENY_FINISHED_GAIT_CONTACT_ART_PERFORMANCE",
+  "review": "docs/overhaul/critic/runtime-art-player-028-result-review.md",
+  "reviewSHA256": "38C0B458C16AB9FC516E946D830F5085F94A0FC5B96B17B0E2AA03816DDA756E",
+  "captureSealSHA256": "2B20520C4485F21B833819E727842ACEF569E7C60D013C2E0376F72A44BE2131",
+  "captureMatches": 3,
+  "viewed": [
+    "runtime-art-motion-028/full.png",
+    "runtime-art-motion-028/detail.png"
+  ],
+  "sameRequest": "ACTUAL_UNIQUE_REQUEST1_LIFE1_CONFIRMED",
+  "gate1": "INCOMPLETE"
+}

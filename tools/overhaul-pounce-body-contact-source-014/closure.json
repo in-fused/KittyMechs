@@ -1,0 +1,131 @@
+{
+  "inheritedCompleteActions": 30,
+  "closedUTC": "2026-10-10T19:16:06.5019578Z",
+  "hashes": [
+    {
+      "path": "tools/overhaul-pounce-body-contact-source-014/source-seal.json",
+      "bytes": 1767,
+      "sha256": "22ef708df599dbcf13b2f7228412eb8acfa55526a04211f6d0a72d9d48cc7f58"
+    },
+    {
+      "path": "tools/overhaul-pounce-body-contact-source-014/result-seal.json",
+      "bytes": 4539,
+      "sha256": "ce7e6da7f4fffd0b60aca77ebd0180e9e471ef248ce13c3cf8f8d4698348f194"
+    },
+    {
+      "path": "docs/overhaul/pounce-body-contact-source-014-RESULT.md",
+      "bytes": 3250,
+      "sha256": "f2b860831dce1c942c7d8adc55e1541175b76973d5b32b1a53a6cf47b6d1bae2"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend",
+      "bytes": 63438571,
+      "sha256": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.raw.glb",
+      "bytes": 3105312,
+      "sha256": "d72113b364fac8b018e1c167c4cab5507b189dd6bc273b4c15660cb3136a18c8"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json",
+      "bytes": 399738,
+      "sha256": "531b6a4271c190fa01ccf334d3e16d69cc811be8c479d0861dd4a80fb6c82876"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/receipt.json",
+      "bytes": 213897,
+      "sha256": "494feb35d81af4d8141c26de01e190651af3fd05bc99700674ff5371c18d6f2b"
+    },
+    {
+      "path": "docs/overhaul/critic/pounce-body-contact-source-014-result-review.md",
+      "bytes": 3150,
+      "sha256": "e9f3c26cfe522639be6dbb941cff55d441762499a0afc76cfffb03263d0876fb"
+    }
+  ],
+  "repairs": 0,
+  "nextAction": "Separate authorized body/tail-aware coordinated choreography design; no scalar-gap repair or rerun in014",
+  "authorExecutedHeavyJobs": 0,
+  "newCompleteActions": 0,
+  "actualStartUTC": "2026-10-10T18:52:09Z",
+  "observedInitialSourcePrerequisites": {
+    "attackerHindPadFacets": 10,
+    "victimPadFacets": 20,
+    "fixedRestBones": 57,
+    "fixedRestMatches": true,
+    "loadOrNativeSupportProven": false
+  },
+  "status": "CLOSED_FIRST_SOURCE_FAILURE_STOP",
+  "hardStopUTC": "2026-10-10T19:25:00Z",
+  "oneRootProcess": {
+    "startUTC": "2026-10-10T15:11:24.181213-04:00",
+    "endUTC": "2026-10-10T15:12:04.044779-04:00",
+    "seconds": 39.85900000017136,
+    "pid": 344800,
+    "exitCode": 1,
+    "timedOut": false,
+    "command": [
+      "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+      "--background",
+      "--factory-startup",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-body-contact-source-014\\author.py"
+    ],
+    "firstAttempt": true,
+    "stdoutSHA256": "9af92f6f6a6f96f530b5a1f3019e26101256d836e7d4f9ba82240884815489fe"
+  },
+  "firstFailure": {
+    "frame": 1,
+    "beat": "Impact",
+    "gate": "CROSS_BODY_NONCLAW_SURFACE_CANDIDATES",
+    "firstAttacker": "FelineFaceChassis",
+    "penetrationDepth": "UNMEASURED",
+    "combinedBVHTriangles": [
+      6877,
+      47148
+    ],
+    "actualContactRequests": 0,
+    "firstVictim": "014Victim__TailInterlockingShell_4",
+    "candidateCount": 951,
+    "clockSeconds": 0
+  },
+  "selectedPairPNGs": 0,
+  "inputVerification": {
+    "path": "tools/overhaul-pounce-body-contact-source-014/postrun-input-verification.json",
+    "protectedRows": 7,
+    "frozenRows": 7,
+    "allMatch": true
+  },
+  "remaining": [
+    "whole-body and victim-tail clearance coordinated reachable approach",
+    "genuine completed claw/pin contact trajectory",
+    "new death/down/upright completion",
+    "upright pair choreography",
+    "native scene alignment/load/contact and ordinary play",
+    "independent source art review"
+  ],
+  "critic": {
+    "closedUTC": "2026-10-10T19:15:26.7936085Z",
+    "deny": "completed pair/death/down/contact/art/native/runtime",
+    "resultSHA256": "e9f3c26cfe522639be6dbb941cff55d441762499a0afc76cfffb03263d0876fb",
+    "accept": "failure preservation and initial source geometry prerequisites ONLY",
+    "resultPath": "docs/overhaul/critic/pounce-body-contact-source-014-result-review.md"
+  },
+  "cleanupAimUTC": "2026-10-10T19:22:00Z",
+  "rootSourceAttempts": 1,
+  "cleanup": {
+    "timedOut": false,
+    "writerClosed": true,
+    "nativeWorldsAllocated": 0,
+    "noNativeWorldDisposalClaim": true,
+    "rootProcessExitObserved": true,
+    "activeAuthorJobs": 0
+  },
+  "retries": 0,
+  "partialNewActions": 2,
+  "exportedAnimations": 32,
+  "schema": "source014-author-closure",
+  "sourceFramesAccepted": 0
+}

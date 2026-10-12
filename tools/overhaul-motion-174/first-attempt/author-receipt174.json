@@ -1,0 +1,45 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_AND_PRIVATE_EXPORT_UNADMITTED",
+  "error": null,
+  "recordsCompleted": 6,
+  "evaluatedRows": 651,
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/critic/playability172-actual-review.md",
+      "match": true
+    }
+  ]
+}

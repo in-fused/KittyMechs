@@ -1,0 +1,9 @@
+# Closed single source author attempt
+
+The unchanged frozen Blender command completed once, exit 0, tool chunk 178d0e, 9.7957615 seconds. Actual source timestamps were 2026-10-10T15:47:49.067041Z to 15:47:57.521471Z. No process remains active and the heavy slot was released immediately after completion.
+
+The receipt reports CONSTRUCTED_STATIC_SOURCE_ONLY, no static source issues and no execution error. The generated geometry has 49,380 triangles and four materials; the rig has 57 bones including separate hind hocks. Actual GLB readback contains 59 nodes, one skin, four material primitives and direct exported source-vertex ownership for all 20 pad facets. This is neutral source construction/export evidence, not locomotion, continuous clearance, native support, force, art or runtime admission. No clips or motion circuit were executed. A future hind motion adapter requires the explicitly authored three-link chain.
+
+The full, paw and sole images were actually inspected. Bent forelimbs and digitigrade hind anatomy are visible; broad smooth shoulder/torso surfaces, sparse panel finish and blunt paw forms remain visual risks for independent review. Numerical construction success cannot approve appearance. No public/shared/src/runtime files changed.
+
+All four frozen owned files and all four protected master/raw inputs match their frozen SHA-256 values. The assembly001 inputs were separately rehashed after execution as requested. The new master SHA-256 is 960a5983276f05dfabd7014f5c57900ed0572d6fe9699dd64b2e8cde37da8fba, raw GLB 6f92e9311db1951eb222573541d2a00113124dba09dcadba111deb8261d8660d, receipt bdf36397a24a2bab3832adfe93e82a20a0ec209eca1b31f48c932e208880175c. Frozen preflight limits remain: this is not a whole-assembly interference certificate; mounted joins and dynamic source poses require subsequent qualification.

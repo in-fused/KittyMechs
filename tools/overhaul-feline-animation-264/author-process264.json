@@ -1,0 +1,17 @@
+{
+  "job": "author",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-animation-264\\author264.py"
+  ],
+  "capInclusiveCleanup": 180,
+  "pid": 372372,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 25.562999999849126
+}

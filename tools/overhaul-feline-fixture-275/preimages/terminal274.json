@@ -1,0 +1,28 @@
+{
+  "scope": "one scoped type15 and coherent decoded-owner numeric suite30; no browser/native game/build",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-runtime-274\\tsconfig274.json"
+      ],
+      "cap": 15,
+      "exit": 0,
+      "seconds": 5.375
+    },
+    {
+      "name": "suite",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-runtime-274\\owner274.test.ts"
+      ],
+      "cap": 30,
+      "exit": 1,
+      "seconds": 4.266000000061467
+    }
+  ]
+}

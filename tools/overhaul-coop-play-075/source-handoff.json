@@ -1,0 +1,129 @@
+{
+  "packet": "075-coop-public-control",
+  "status": "FROZEN_SOURCE_ONLY_UNRUN",
+  "writersClosed": true,
+  "owned": [
+    "tools/overhaul-coop-play-075/mission-capture.mjs",
+    "docs/overhaul/coop-play-075-source-handoff.md"
+  ],
+  "files": [
+    {
+      "path": "tools/overhaul-coop-play-075/mission-capture.mjs",
+      "bytes": 37138,
+      "sha256": "755e2d98aeea5f9b40b9e268bff4c3bc7053eb84a63c9055587c9b6960fd8aac"
+    },
+    {
+      "path": "docs/overhaul/coop-play-075-source-handoff.md",
+      "bytes": 3587,
+      "sha256": "06b1a6a62b8ba9099fd7e2f7e69372e4996dc077876670ba335aa1be199116c5"
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-coop-play-056/mission-capture.mjs",
+      "bytes": 31978,
+      "sha256": "d66c4a63fe094bee895349d640ef610c174505fe934de5999918f5814bffce3f"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/result-seal.json",
+      "bytes": 2233,
+      "sha256": "922127575286f9a1219b081f85d2d24db22806132d579ea94f766664f37aff35"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/final-result-seal.json",
+      "bytes": 2741,
+      "sha256": "4a327db4d7ff15af790ada763cc103e00fafe39f4f6ddfb1669b4a83ca820b0b"
+    },
+    {
+      "path": "docs/overhaul/coop-play-056-control-audit.md",
+      "bytes": 5168,
+      "sha256": "e931850a548381cfde834c6271bd5cf46e3e286b2939b600246ed69fdfb17490"
+    },
+    {
+      "path": "tools/overhaul-render-rescue-074/capture.mjs",
+      "bytes": 5341,
+      "sha256": "17adcf8b96003b8c07d510b84c829ce006becefd9f3f8c769dbe0999c90a2310"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    }
+  ],
+  "rootSyntaxCommand": [
+    "node",
+    "--check",
+    "tools/overhaul-coop-play-075/mission-capture.mjs"
+  ],
+  "rootCaptureCommand": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-coop-play-075/mission-capture.mjs",
+    ".sites-runtime/overhaul-20261010/coop075-public"
+  ],
+  "requiredEnvironment": {
+    "KITTYMECH_BUILD_RECEIPT": "Exact immutable candidate build receipt SHA256 supplied by root (045 expected 2dfc9912c42a7f8dbe4658b4debe97440290a314cf265dc49410bbb389b911ed)"
+  },
+  "defaultOutput": ".sites-runtime/overhaul-20261010/coop075-public",
+  "origin": "http://localhost:8799",
+  "bounds": {
+    "workMs": 420000,
+    "cleanupMs": 30000,
+    "inclusiveMs": 450000,
+    "parentMs": 480000,
+    "readinessMs": 20000,
+    "deliveryAckMs": 1500,
+    "maxSentSlice": 20,
+    "maxDeliveryReceipts": 1200,
+    "maxNativeFramesPerPage": 9000,
+    "maxKeyframeBytes": 18000000,
+    "maxCombinedJsonBytes": 30000000
+  },
+  "fullRequiredObjectives": [
+    "relay-west",
+    "relay-east",
+    "core",
+    "extraction"
+  ],
+  "truth": {
+    "checkpoint": "West relay via normal interaction",
+    "extraction": "Both humans alive within actual 4.5m 3D center-adjusted reach on both pages",
+    "parity": "Exact room/publication epoch/sequence, same tick/time and full explicit shared-world selector",
+    "revive": "Organic successful revive only; otherwise REVIVE_UNTESTED",
+    "failure": "First genuine failure releases both pages and stops; no automatic capture retry"
+  },
+  "risks": [
+    "Current presented native LOS/range eligibility does not prove unqueried restoration shape fit",
+    "Keyboard aim can overshoot live targets; native impacts decide damage",
+    "ACK is delivery evidence, not successful movement/combat/interaction",
+    "Original readiness, evidence and overall bounds may stop before mission completion",
+    "No author syntax/capture/build/native/test job; root and independent critic gate actual execution"
+  ]
+}

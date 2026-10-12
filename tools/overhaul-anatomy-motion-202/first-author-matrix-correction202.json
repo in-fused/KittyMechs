@@ -1,0 +1,10 @@
+{
+  "scope": "READ_ONLY_SAVED_OPERANDS_CORRECTION_NO_REPAIRED_JOB",
+  "immutableFailureSeal": "8470a5ad8a7ca9695bb1027ac5fa177ca6a1c00b117aaca95dabb181a92d12d7",
+  "rootDesiredReferenceZ": 0,
+  "rootActualCandidateZ": 0.03999999910593033,
+  "maximumActualCandidateVersusSavedRestMatrixResidual": 0.5204908773303032,
+  "maximumReferenceVersusCandidateMatrixResidual": 0.5204907730221748,
+  "correction": "The initial candidate-stale/rest caption is contradicted by the saved matrices. Candidate RIG is animated; OLD reference clone is at rest. Explicit candidate depsgraph update remains good protocol but is not a demonstrated cause. The reference clone's Blender4.5 action slot binding/evaluation requires explicit operands and binding before any sole permitted repair run. First archive caption remains unchanged for audit.",
+  "noThresholdCurveGeometryOrRestChange": true
+}

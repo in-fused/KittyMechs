@@ -1,0 +1,61 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_FIRST_AUTHOR_FAILURE_NO_RETRY",
+  "files": [
+    {
+      "path": "tools/overhaul-feline-animation-261/author261.py",
+      "bytes": 14696,
+      "sha256": "18471fba24b2be442c37ef86f12975106e3ca072a92326f2633b955f33badb16"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/run261.py",
+      "bytes": 1016,
+      "sha256": "a2534f90d618f0e5af86a825f86795a2d4f1100318cdba92649812211bb3bdd8"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/preview261.py",
+      "bytes": 4773,
+      "sha256": "a2603c57c9c4ac0ca8846e1b14743c0c0cf1505dd3747933367908d5bca0a7e8"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/author-process261.json",
+      "bytes": 455,
+      "sha256": "d770e8fd803ce7a46502ed0dd9f312c2a0b222264735a00df14af20eaac1d336"
+    },
+    {
+      "path": "tools/overhaul-feline-animation-261/HANDOFF.md",
+      "bytes": 5750,
+      "sha256": "df027536f2a0825b89d3826d549395335dc9688b5e7492938a4463b1fa363276"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-261/author-receipt261.json",
+      "bytes": 4274,
+      "sha256": "d6ed4d7ff761ac18c8ab41b43e017b792f4193e444331aba86fd09cc26c1ee73"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/animation261/author-stdout261.txt",
+      "bytes": 647,
+      "sha256": "3749688f83c7bf14c9577de8c5f90af33cc76865602151d717c89c5892d41430"
+    }
+  ],
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": "tools/overhaul-pack-221/output/Pounce_Anatomy221.glb",
+      "bytes": 6441480,
+      "sha256": "5147c2c2e46f4b2328d5d97ac091da70204244cb68882592d6328cec53489473"
+    }
+  ],
+  "exportExists": false,
+  "masterExists": false,
+  "previewExecuted": false
+}

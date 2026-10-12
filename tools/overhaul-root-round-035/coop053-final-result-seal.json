@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/evidence.json",
+      "bytes": 269176,
+      "sha256": "2d7999e3834acd5177111edd06d7a9ff1a755c322bae3796bb4a8510e0f8f8d0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/failure-guest.png",
+      "bytes": 645830,
+      "sha256": "544a6825a4e62a2a54ebc82833c7ca0e05b527fd633f7e6ad8e46a44dedfb3c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/failure.png",
+      "bytes": 1458027,
+      "sha256": "9a8df0fb52f55464d89a115a365016f8eddb4190987393070c589fd091a8173a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/native-keyframes.json",
+      "bytes": 866450,
+      "sha256": "de019cbd881fc4b737bf63b5f26e053c9ae7f66e5af1db1dd71a6d844629832a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/page@392d68944a360beb5b66805fd5347b59.webm",
+      "bytes": 623022,
+      "sha256": "51b82d92ef67d9e96e4b687cf2664c6f6843647f76d408265733363d60161d20"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/page@971ce9ebfe2f2cb9edd60e73998dc48f.webm",
+      "bytes": 4247807,
+      "sha256": "6c582544f82969de50f67a7c29e2158179383df0576c49ea0a2a99e7cd7bcb65"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-public/progress.json",
+      "bytes": 245,
+      "sha256": "f208662b67620c926a2dcd3cb5cad7116e2340a97b6e87a8f9b4764ee9f1a066"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-motion/derivative-receipt.json",
+      "bytes": 1411,
+      "sha256": "8a33d8bc50fcb6f6578ccdaf285ecfd26244c79e557484f171fb3f9eedab034a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-motion/guest-startup.png",
+      "bytes": 136883,
+      "sha256": "4546d944d4e60b19372bb0f1fb8831618756abc1392e79403d6700543e0fc214"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-motion/host-startup.png",
+      "bytes": 1716165,
+      "sha256": "29812f8051ab793ddcbadf3d4eaf2f6be256dd01ab8f9a9160575bbdd6238c9c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-motion/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-process/process-receipt.json",
+      "bytes": 61530,
+      "sha256": "871d0eef2a70e544ac48bb72dfcc223978cff27d9bef0e2840f0b780ad410d23"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-053-process/stdout.txt",
+      "bytes": 513,
+      "sha256": "8516b2349c4ffb92c4ae2fe28074899b5caf3afa6b85c2f6b35f227859eb53d5"
+    },
+    {
+      "path": "tools/overhaul-root-round-035/derive053.py",
+      "bytes": 2118,
+      "sha256": "66fc59c9b644f81c794f430c5a0266b8b82266fcdb6db3c991cf80bda3004956"
+    },
+    {
+      "path": "tools/overhaul-root-round-035/extraction052-public-result-seal.json",
+      "bytes": 2238,
+      "sha256": "f90d4218858c13134f9709a595d9b23d0c6900bbdd5800d6f421fb1c12f0b550"
+    }
+  ],
+  "scope": "ONE053 failed actual public mission, both own videos/PNGs/startup boards, nativeparity100. Noobjective or counterexample observed."
+}

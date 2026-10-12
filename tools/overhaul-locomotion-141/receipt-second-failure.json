@@ -1,0 +1,48 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_ACTUAL_FAILURE_STOP",
+  "rows": [
+    {
+      "label": "baseline",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 6.594232857142856,
+      "locomotionMsPerTick": 4.834875714285778,
+      "poseSHA": "0e01922624c48f45b150fd7e2bab48518eecd7eef3578161f071b9c47aff908f"
+    },
+    {
+      "label": "nonmutating-candidate",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 5.689759999999998,
+      "locomotionMsPerTick": 4.1611957142855704,
+      "poseSHA": "f22534b501341f1b05b5e83a9de85928186a4be3ecba91ab3a78d3d2b595b538"
+    },
+    {
+      "label": "nonmutating-candidate",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 5.81123285714286,
+      "locomotionMsPerTick": 4.331928571428391,
+      "poseSHA": "8cb2db90cd40cfd46325196b7d0cdfa72e7898d8de67d423078bd405b0d2c6af"
+    },
+    {
+      "label": "baseline",
+      "actors": 14,
+      "ticks": 70,
+      "totalMsPerTick": 5.574571428571426,
+      "locomotionMsPerTick": 4.17977000000006,
+      "poseSHA": "ee1a0219b13782caaa5b4c2f25280bbcc35289e331e8a187ca84f3e5b18738e7"
+    }
+  ],
+  "semanticRows": [],
+  "bounds": "ONE isolated process,20s wall; no public/native production edits",
+  "sourceHashes": {
+    "../../shared/simulation.ts": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328",
+    "../../shared/ownedCharacterMotion.ts": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5",
+    "./baseline.ts": "c84c37486635a3b86f94485ac13b1667ebb90d3b27297ee25a251f0cfd5b9af5",
+    "./nonmutating-candidate.ts": "d383e20c94b7f55a5a857cc0863348d258b71daf2438c60e980dc13236e91170"
+  },
+  "failure": "Error: DISTRICT_NATIVE_POSE_CHANGED",
+  "elapsedMs": 3601.7021
+}

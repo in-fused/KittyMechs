@@ -1,0 +1,206 @@
+{
+  "inspectedUTC": "2026-10-10T22:35:16.110Z",
+  "status": "VERIFIED_OUTPUT_BYTES_NOT_GAMEPLAY_APPROVAL",
+  "glb": {
+    "path": "public/assets/overhaul/extraction039/Rainline_Extraction039.glb",
+    "bytes": 226112,
+    "sha256": "d9670597e19fa6fc1e1bcd71b5799fd084fad08aa131cff06385fc4e97f36400"
+  },
+  "editable": {
+    "path": "assets/source/overhaul-extraction-art-039/Rainline_Extraction039.blend",
+    "bytes": 903621,
+    "sha256": "db79fd613f7ef43f03d311fa840cfdd11973904a707e90161a3e4bf7de6e1dae"
+  },
+  "materials": [
+    "Rainline_ochre_enamel",
+    "Rainline_blue_steel",
+    "Rainline_graphite_glass",
+    "Rainline_limestone"
+  ],
+  "triangles": 2916,
+  "modules": [
+    {
+      "module": "freight_ground",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "freight_upper",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "freight_label",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "utility_ground",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "utility_upper",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "utility_label",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "transit_ground",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "transit_upper",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "transit_label",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "foundation",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "column",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "beam",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "slab",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "module": "roof",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "provenance": "Original local procedural Blender geometry/materials; no external input"
+}

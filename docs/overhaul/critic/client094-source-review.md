@@ -1,0 +1,23 @@
+# Client094 independent source and design review
+
+Writer CLOSED. Source-only review; reviewer jobs 0, game edits 0. APPROVE ONE focused final092 test stage. DENY frozen093 combined build/play admission. Live047 remains the limited checkpoint; full goal remains INCOMPLETE.
+
+Final092 source seal SHA256 `5ff72a963846c7ec74b9c23d31e27a20529043603208e9f1965d5e520d3980d4`: all9 rows match current sizes/hashes. Foot093 seal `49caf9bf52ba258877d5b8dac204bc5d4ee212bf52c871d65daf409845653d2b`: all7 rows match. Candidate feet SHA `f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4`. Original two092 UNRUN seals and093 preimage are preserved.
+
+## 092: focused tests admitted
+
+The final request handler has an absolute2s deadline, bounded4KiB body, enabled-only loopback admission and same-origin POST. Its store is capped8 clients/20 reports/10-minute expiry. Client collection has a512-spacing ring, one in-flight request,1.5s abort, at most20 reports, hidden-window resets and phase/quality/resolution/prototype/renderer separation. No world, callsign or input fields are retained. Five focused tests exercise remote/disabled/cross-origin rejection, headless/replay provenance, malformed timings/field stripping, a continuously dripping Readable with the absolute deadline, and hidden/phase window resets. This is sufficient to permit ONE root command `node node_modules/vitest/vitest.mjs run tests/client-reports092.test.ts`, preserving first failure. No test ran during this review.
+
+Reports measure callback spacing, not GPU execution/native time. Tail p95 is limited to512 samples; playing/paused/loading provenance must be retained. Browser/renderer fields remain self-reported, and headless samples cannot establish actual IAB performance. This admission does not approve a combined build, transport in an actual client, lag improvement, or gameplay. Root wrappers and later frozen integration require their own bounded source gate.
+
+## 091 and 093: valid direction, concrete witness blocker
+
+091 correctly identifies that a post-IK joint quaternion blend breaks the endpoint constraint. Preserved090 records include FL reverse rigid-marker error .41608977m and FR moving-R-up .63083514m despite current fixed support leases and nearly unchanged chain lengths. Lease validity is not a planted-foot claim. These are final rigid-marker readings, not complete skinned-foot measurements.
+
+093 moves interpolation into world task space before the fixed-length solve, removes the final quaternion blend, distinguishes touch/release from stance, and requires full task authority plus a1e-4m rigid endpoint residual before naming a plant. Source normal-direction release and actual lease/reach failures remain explicit. That underlying approach is appropriate for a bounded visual experiment; full native pad forces/COM certification is not an implementation prerequisite.
+
+However, `movingRFfeet067.ts` skinWitness reads `applyBoneTransform` plus localToWorld and labels its result CURRENT_FINAL_BONE_BIND_SKIN_SUBSET. The solver and owner propagate current matrices using updateWorldMatrix. Installed Three's SkinnedMesh refreshes an attached bindMatrixInverse only in its updateMatrixWorld override (SkinnedMesh.js288–298); applyBoneTransform consumes that inverse at345. Actor034 calls owner.step before completeCameraVisual. completeCameraVisual merely marks the clock; the actual inverse refresh occurs later in cameraVisual via updateMatrixWorld. Therefore, a translated/rotated current actor can combine current bones/mesh world matrices with the prior attached inverse in the recorded skin witness. A later camera/render refresh cannot retroactively correct the stored point array. The constructor's initial refresh does not establish per-frame freshness.
+
+This is a concrete provenance/evaluation defect, not evidence of actual skin penetration or failure of the new rigid endpoint solve. DENY this frozen093 candidate before build/play. Preserve it unchanged. A distinct bounded correction must establish the attached bind-pair lifecycle before sampling, or explicitly withhold the current-skin claim; it must not alter geometry, reach limits or support tolerances. The at most20 extremal indices remain only a subset even with a correct bind pair. Actual ordinary movement/R imagery and matching source/task/skin telemetry remain required before any contact or presentation verdict.
+
+No095 mutable wrappers were reviewed here. No combined test/build/freeze/capture is authorized by this review. No full gait, foot-floor/claw contact, art, wall/pair/coop, actual user lag or Gate1 approval.

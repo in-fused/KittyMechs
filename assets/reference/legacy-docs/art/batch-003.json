@@ -1,0 +1,350 @@
+{
+  "batch_id": "batch-003",
+  "status": "reviewed_modeling_references_accepted_with_manual_corrections",
+  "critique_path": "docs/art/batch-003-critique.md",
+  "created_utc": "2026-09-26T15:14:39.500Z",
+  "critic_author": "root",
+  "critic_evidence_path": "docs/art/batch-002-critique.md",
+  "authorized_batch_credits": 4,
+  "authorized_cumulative_spend_before_review": 12,
+  "credit_floor": 10,
+  "quoted_batch_credits": 4,
+  "cumulative_before": 8,
+  "balance_before": {
+    "credits": 102,
+    "subscription_plan_type": "plus",
+    "pricing_url": "https://higgsfield.ai/mcp-pricing",
+    "free_trial": {
+      "status": "active",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": "2026-09-29T02:37:34Z",
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      }
+    ]
+  },
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Original KittyMech production construction sheet based on the supplied approved comparison image. Render ONLY the named mech in exactly THREE equally sized views arranged horizontally on one plain light-gray sheet: FRONT orthographic, RIGHT SIDE orthographic, BACK orthographic. All views at identical scale, full feet visible on one shared ground line, consistent three-dimensional armor, dimensions and attachment locations between views. Neutral relaxed A-pose about 20 degrees arm abduction, straight but unlocked legs and flat soles. No perspective, no action pose, no cropped feet, no inset portraits, no extra mech, no artist signature, no logo. Tiny neutral labels FRONT / RIGHT / BACK only. Simple clean high-quality 3D PBR product-render style, enamel/ceramic armor, recessed dark plum mechanics, restrained metal edges and subtle service wear, soft even lighting without dramatic bloom. Feet have three rounded paw toes, safe broad contact patches. Protected tiny kitty pilot inside a transparent compact upper-chest cockpit; pilot is about one-eighth of full mech height. Mechanical hip, knee, ankle, shoulder, elbow and wrist joints are structurally believable, with motion clearance. Cockpit back is a closed service hatch with hinge and compact ventilation; show resolved rear armor and joints rather than inventing a cape. All mechs use a compatible conventional biped skeleton: overall 4.5m including short ears; shoulder joints at3.55m, hip joints at2.25m, knee joints at1.20m, ankle joints at0.35m; apparent limb differences come from armor thickness and coverage rather than incompatible anatomy. Do not print these measurements. Show distinct armor parts and material boundaries suitable for manual/procedural modeling; avoid microgreebles. NAMED SUBJECT POUNCE ONLY, the LEFT ivory-and-orange agile mech in the supplied comparison. Keep narrow waist, compact chest, small shoulders, slim springy silhouette, longer-looking shin armor with subtle digitigrade-like backward calf contours while actual knee and ankle remain normal biped joints. Important corrective requirement: two SHORT TRIANGULAR FELINE EAR SENSOR FINS are clearly visible above the cockpit at front and rear; ears are broad cat triangles, NOT rabbit antennas. A long articulated segmented mechanical balance tail attaches to rear pelvis, with dark flexible joints and ivory segments, tapering rounded tip; tail emerges visibly behind hips and curves gently without obscuring legs. Integrated compact pulse cannon mounted securely on the mech RIGHT forearm (front view viewer-left); right hand retained beneath the barrel; left hand free. Match orange upper forearm panels and selected shin/thigh inset panels, ivory main shells and dark plum joints. Tiny ginger-and-white kitty protected behind clear chest canopy. Same tail base, cannon mount, ear shape, cockpit canopy frame, foot/toe arrangement and armor segmentation in all three views. Back view must clearly resolve tail root and compact calf-thruster vent recesses. Do not include Bastion, shield, oversized shoulder shells or huge head.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "nano_banana_pro",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "Original KittyMech production construction sheet based on the supplied approved comparison image. Render ONLY the named mech in exactly THREE equally sized views arranged horizontally on one plain light-gray sheet: FRONT orthographic, RIGHT SIDE orthographic, BACK orthographic. All views at identical scale, full feet visible on one shared ground line, consistent three-dimensional armor, dimensions and attachment locations between views. Neutral relaxed A-pose about 20 degrees arm abduction, straight but unlocked legs and flat soles. No perspective, no action pose, no cropped feet, no inset portraits, no extra mech, no artist signature, no logo. Tiny neutral labels FRONT / RIGHT / BACK only. Simple clean high-quality 3D PBR product-render style, enamel/ceramic armor, recessed dark plum mechanics, restrained metal edges and subtle service wear, soft even lighting without dramatic bloom. Feet have three rounded paw toes, safe broad contact patches. Protected tiny kitty pilot inside a transparent compact upper-chest cockpit; pilot is about one-eighth of full mech height. Mechanical hip, knee, ankle, shoulder, elbow and wrist joints are structurally believable, with motion clearance. Cockpit back is a closed service hatch with hinge and compact ventilation; show resolved rear armor and joints rather than inventing a cape. All mechs use a compatible conventional biped skeleton: overall 4.5m including short ears; shoulder joints at3.55m, hip joints at2.25m, knee joints at1.20m, ankle joints at0.35m; apparent limb differences come from armor thickness and coverage rather than incompatible anatomy. Do not print these measurements. Show distinct armor parts and material boundaries suitable for manual/procedural modeling; avoid microgreebles. NAMED SUBJECT BASTION ONLY, the RIGHT ivory-and-petrol-teal defender in the supplied comparison. Keep very wide low trapezoid chest, shoulders and torso about1.35x the slim Pounce comparison, compact broad triangular cat ear sensors, squat powerful proportions created with deeper armor and wider stance around the SAME compatible biped joint-center heights. Large rounded shoulder shells, thick ivory thighs, deep petrol-teal shin and forearm inset panels, tiny orange maintenance accents and dark plum joints. The iconic very broad paw-shaped shield is rigidly attached to the LEFT outer forearm (front view viewer-right), carrying a simple recessed petrol-teal paw pad with three rounded toe pads. Park shield laterally so it does not hide knees or cockpit, show its genuine thickness and attachment bracket in side/back views; not a handheld loose shield. Compact short-range pulse emitter on the RIGHT forearm, fingers retained. Broad three-toe rounded feet planted securely, no tail. Tiny black-and-white tuxedo kitty protected behind compact clear chest canopy. Same shield size/mount, weapon mount, ear shape, armor edges, canopy frame, feet and vents across all three views. Back view shows closed cockpit service hatch and sturdy spine armor with unobstructed hip rotation. Do not include Pounce, a tail, rabbit ears, wings, spikes or tank treads.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e"
+          }
+        ]
+      }
+    }
+  ],
+  "cost_preflight": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          },
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Cost preflight for nano_banana_pro: 2 credits (2 exact). No job submitted."
+          }
+        ],
+        "structuredContent": {
+          "cost": {
+            "credits": 2,
+            "credits_exact": 2
+          },
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        },
+        "isError": false
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "53f3d360-2ff5-41a3-a577-2accb389490e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151547_53f3d360-2ff5-41a3-a577-2accb389490e.png"
+    },
+    {
+      "index": 2,
+      "job_id": "4c952ba2-4aed-4b2c-bc42-e0b9eb58913e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151546_4c952ba2-4aed-4b2c-bc42-e0b9eb58913e.png"
+    }
+  ],
+  "originals": [
+    {
+      "index": 1,
+      "path": "Art/Concepts/batch-003/pounce-construction-001.png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 5561977,
+      "sha256": "7326D021939B532E58824B2C3130C852431EF8FA5D3DDEC033D87B33A34E4DAA"
+    },
+    {
+      "index": 2,
+      "path": "Art/Concepts/batch-003/bastion-construction-001.png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 5646234,
+      "sha256": "293D25B1992B5D0173D1DB6AB2818284693EE554500B81934851967C9CA9749F"
+    }
+  ],
+  "submission": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Submitted 2/2 image generations.\n- index 1: 53f3d360-2ff5-41a3-a577-2accb389490e (pending)\n- index 2: 4c952ba2-4aed-4b2c-bc42-e0b9eb58913e (pending)\nWait for the complete requested set with jobs_wait, then show it together with show_generation_by_ids using the collected indexed jobs. This includes jobs submitted across separate calls. job_display accepts only one id and cannot display a group; do not pass ids or call it once per job."
+      }
+    ],
+    "structuredContent": {
+      "jobs": [
+        {
+          "index": 1,
+          "job_id": "53f3d360-2ff5-41a3-a577-2accb389490e",
+          "status": "pending",
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "job_id": "4c952ba2-4aed-4b2c-bc42-e0b9eb58913e",
+          "status": "pending",
+          "adjustments": {
+            "medias[0].role": {
+              "requested": "image",
+              "used": "image_references",
+              "reason": "Nano Banana Pro backend expects schema-key media roles"
+            }
+          }
+        }
+      ],
+      "submitted_count": 2,
+      "failed_count": 0
+    },
+    "isError": false
+  },
+  "completed_utc": "2026-09-26T15:18:37.498Z",
+  "gallery": {
+    "items": [
+      {
+        "id": "53f3d360-2ff5-41a3-a577-2accb389490e",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Original KittyMech production construction sheet based on the supplied approved comparison image. Render ONLY the named mech in exactly THREE equally sized views arranged horizontally on one plain light-gray sheet: FRONT orthographic, RIGHT SIDE orthographic, BACK orthographic. All views at identical scale, full feet visible on one shared ground line, consistent three-dimensional armor, dimensions and attachment locations between views. Neutral relaxed A-pose about 20 degrees arm abduction, straight but unlocked legs and flat soles. No perspective, no action pose, no cropped feet, no inset portraits, no extra mech, no artist signature, no logo. Tiny neutral labels FRONT / RIGHT / BACK only. Simple clean high-quality 3D PBR product-render style, enamel/ceramic armor, recessed dark plum mechanics, restrained metal edges and subtle service wear, soft even lighting without dramatic bloom. Feet have three rounded paw toes, safe broad contact patches. Protected tiny kitty pilot inside a transparent compact upper-chest cockpit; pilot is about one-eighth of full mech height. Mechanical hip, knee, ankle, shoulder, elbow and wrist joints are structurally believable, with motion clearance. Cockpit back is a closed service hatch with hinge and compact ventilation; show resolved rear armor and joints rather than inventing a cape. All mechs use a compatible conventional biped skeleton: overall 4.5m including short ears; shoulder joints at3.55m, hip joints at2.25m, knee joints at1.20m, ankle joints at0.35m; apparent limb differences come from armor thickness and coverage rather than incompatible anatomy. Do not print these measurements. Show distinct armor parts and material boundaries suitable for manual/procedural modeling; avoid microgreebles. NAMED SUBJECT POUNCE ONLY, the LEFT ivory-and-orange agile mech in the supplied comparison. Keep narrow waist, compact chest, small shoulders, slim springy silhouette, longer-looking shin armor with subtle digitigrade-like backward calf contours while actual knee and ankle remain normal biped joints. Important corrective requirement: two SHORT TRIANGULAR FELINE EAR SENSOR FINS are clearly visible above the cockpit at front and rear; ears are broad cat triangles, NOT rabbit antennas. A long articulated segmented mechanical balance tail attaches to rear pelvis, with dark flexible joints and ivory segments, tapering rounded tip; tail emerges visibly behind hips and curves gently without obscuring legs. Integrated compact pulse cannon mounted securely on the mech RIGHT forearm (front view viewer-left); right hand retained beneath the barrel; left hand free. Match orange upper forearm panels and selected shin/thigh inset panels, ivory main shells and dark plum joints. Tiny ginger-and-white kitty protected behind clear chest canopy. Same tail base, cannon mount, ear shape, cockpit canopy frame, foot/toe arrangement and armor segmentation in all three views. Back view must clearly resolve tail root and compact calf-thruster vent recesses. Do not include Bastion, shield, oversized shoulder shells or huge head.",
+          "aspect_ratio": "16:9",
+          "input_images": [
+            {
+              "id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e.png"
+            }
+          ],
+          "width": 2752,
+          "height": 1536,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151547_53f3d360-2ff5-41a3-a577-2accb389490e.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151547_53f3d360-2ff5-41a3-a577-2accb389490e_min.webp"
+        },
+        "createdAt": 1790435747.511602
+      },
+      {
+        "id": "4c952ba2-4aed-4b2c-bc42-e0b9eb58913e",
+        "type": "image",
+        "status": "completed",
+        "model": "nano_banana_2",
+        "params": {
+          "prompt": "Original KittyMech production construction sheet based on the supplied approved comparison image. Render ONLY the named mech in exactly THREE equally sized views arranged horizontally on one plain light-gray sheet: FRONT orthographic, RIGHT SIDE orthographic, BACK orthographic. All views at identical scale, full feet visible on one shared ground line, consistent three-dimensional armor, dimensions and attachment locations between views. Neutral relaxed A-pose about 20 degrees arm abduction, straight but unlocked legs and flat soles. No perspective, no action pose, no cropped feet, no inset portraits, no extra mech, no artist signature, no logo. Tiny neutral labels FRONT / RIGHT / BACK only. Simple clean high-quality 3D PBR product-render style, enamel/ceramic armor, recessed dark plum mechanics, restrained metal edges and subtle service wear, soft even lighting without dramatic bloom. Feet have three rounded paw toes, safe broad contact patches. Protected tiny kitty pilot inside a transparent compact upper-chest cockpit; pilot is about one-eighth of full mech height. Mechanical hip, knee, ankle, shoulder, elbow and wrist joints are structurally believable, with motion clearance. Cockpit back is a closed service hatch with hinge and compact ventilation; show resolved rear armor and joints rather than inventing a cape. All mechs use a compatible conventional biped skeleton: overall 4.5m including short ears; shoulder joints at3.55m, hip joints at2.25m, knee joints at1.20m, ankle joints at0.35m; apparent limb differences come from armor thickness and coverage rather than incompatible anatomy. Do not print these measurements. Show distinct armor parts and material boundaries suitable for manual/procedural modeling; avoid microgreebles. NAMED SUBJECT BASTION ONLY, the RIGHT ivory-and-petrol-teal defender in the supplied comparison. Keep very wide low trapezoid chest, shoulders and torso about1.35x the slim Pounce comparison, compact broad triangular cat ear sensors, squat powerful proportions created with deeper armor and wider stance around the SAME compatible biped joint-center heights. Large rounded shoulder shells, thick ivory thighs, deep petrol-teal shin and forearm inset panels, tiny orange maintenance accents and dark plum joints. The iconic very broad paw-shaped shield is rigidly attached to the LEFT outer forearm (front view viewer-right), carrying a simple recessed petrol-teal paw pad with three rounded toe pads. Park shield laterally so it does not hide knees or cockpit, show its genuine thickness and attachment bracket in side/back views; not a handheld loose shield. Compact short-range pulse emitter on the RIGHT forearm, fingers retained. Broad three-toe rounded feet planted securely, no tail. Tiny black-and-white tuxedo kitty protected behind compact clear chest canopy. Same shield size/mount, weapon mount, ear shape, armor edges, canopy frame, feet and vents across all three views. Back view shows closed cockpit service hatch and sturdy spine armor with unobstructed hip rotation. Do not include Pounce, a tail, rabbit ears, wings, spikes or tank treads.",
+          "aspect_ratio": "16:9",
+          "input_images": [
+            {
+              "id": "dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_150801_dfc3a4ee-adf8-4a67-a468-24bd9eb52b4e.png"
+            }
+          ],
+          "width": 2752,
+          "height": 1536,
+          "resolution": "2k",
+          "batch_size": 1,
+          "input_image": null,
+          "application": null,
+          "surface": null
+        },
+        "results": {
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151546_4c952ba2-4aed-4b2c-bc42-e0b9eb58913e.png",
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151546_4c952ba2-4aed-4b2c-bc42-e0b9eb58913e_min.webp"
+        },
+        "createdAt": 1790435746.422317
+      }
+    ],
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "53f3d360-2ff5-41a3-a577-2accb389490e",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151547_53f3d360-2ff5-41a3-a577-2accb389490e.png"
+      },
+      {
+        "index": 2,
+        "job_id": "4c952ba2-4aed-4b2c-bc42-e0b9eb58913e",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3JqYmlg1yVwKHUeMJ7U0OUHJr9P/hf_20260926_151546_4c952ba2-4aed-4b2c-bc42-e0b9eb58913e.png"
+      }
+    ],
+    "all_found": true
+  },
+  "balance_after": {
+    "credits": 98,
+    "subscription_plan_type": "plus",
+    "pricing_url": "https://higgsfield.ai/mcp-pricing",
+    "free_trial": {
+      "status": "active",
+      "eligible": false,
+      "offered_kind": null,
+      "kind": "mcp",
+      "trial_credits": 100,
+      "ends_at": "2026-09-29T02:37:34Z",
+      "unlim_available": false,
+      "unlim_remaining": null,
+      "unlim_expires_at": null
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      }
+    ]
+  },
+  "actual_batch_total_credit_debit": 4,
+  "actual_cumulative_total_credit_debit": 12
+}

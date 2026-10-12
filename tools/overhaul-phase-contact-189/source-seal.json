@@ -1,0 +1,48 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_UNINTEGRATED_SOURCE_PROPOSAL",
+  "productionNewUnusedPath": "src/game/entities/phaseSourceFeet189.ts",
+  "productionCallersModified": [],
+  "files": [
+    {
+      "path": "tools/overhaul-phase-contact-189/candidate-phaseSourceFeet189.ts",
+      "bytes": 9472,
+      "sha256": "1fee071e570819f96de6307a4926e9e3b8dea355f4a1aa1247b6018f72a6ecd8"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/closure-receipt189.json",
+      "bytes": 718,
+      "sha256": "381bdcec9a7b7a30295c8f0fc36b3a1a633ee92f0b028b26ee33f9624ece0a72"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/HANDOFF.md",
+      "bytes": 4210,
+      "sha256": "b9952983c877b5b340a3427613aedeef9c50ea79614ccfa861cb796ffb97f567"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/preimages/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/preimages/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/preimages/sourceCoordination164-188-observed.ts",
+      "bytes": 20146,
+      "sha256": "649c322b311ba6c65ce84c1dad37b7c832bde1f4c0a53bec6eb0c9191ffaac91"
+    },
+    {
+      "path": "tools/overhaul-phase-contact-189/read-inputs189.json",
+      "bytes": 1471,
+      "sha256": "c31343de21ef1765f1cce9ac1b30bbebe8bdf04e4ced97294d644d439131758e"
+    },
+    {
+      "path": "src/game/entities/phaseSourceFeet189.ts",
+      "bytes": 9472,
+      "sha256": "1fee071e570819f96de6307a4926e9e3b8dea355f4a1aa1247b6018f72a6ecd8"
+    }
+  ]
+}

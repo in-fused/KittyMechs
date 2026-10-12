@@ -1,0 +1,98 @@
+{
+  "packet": "renderer-report",
+  "writersClosed": true,
+  "handoff": {
+    "path": "tools/overhaul-renderer-report/source-handoff.json",
+    "bytes": 3912,
+    "sha256": "c232e19f6cdd7b1636ef28a68e303cd334fbb815ea53ff3b37cf86c68c12be73"
+  },
+  "files": [
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 8760,
+      "sha256": "e50f5dff67246df171a63626d66c6ea128c72dbe9e83b2f2869269a3975c3875"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 4349,
+      "sha256": "ec83534c1a5912d224d3c46ed6cb85e0639d78ad370f4eb758626023b185ed08"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "src/game/rendering/rendererReport.ts",
+      "bytes": 1566,
+      "sha256": "73d4f2c91133532dde213c0dd6bb80f56f27a76d480907122a983bb91f7221ab"
+    },
+    {
+      "path": "tests/renderer-report.test.ts",
+      "bytes": 1993,
+      "sha256": "a42543db50cf9cd23cbcbf12591aa5663d9f7569f232dfefdcf0dbd49aa8e106"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/README.md",
+      "bytes": 2111,
+      "sha256": "35a5a3e8b05ecadbb38c6399b6bc163c62e08e758d1bf521ba6d6dcdd6c551ef"
+    }
+  ],
+  "protected": [
+    {
+      "path": "tools/overhaul-renderer-report/preimages.json",
+      "bytes": 705,
+      "sha256": "e4ad1f09aa1ebe1033722e20f68a3443be5057a150d9a591018a0823996eedf0"
+    },
+    {
+      "path": "tools/overhaul-camera-058/source-handoff.json",
+      "bytes": 5769,
+      "sha256": "e413b23d2d3b4448d2e20388a23121ef110a27996928d59a8bd2dfaa47c3576e"
+    },
+    {
+      "path": "tools/overhaul-camera-058/source-seal.json",
+      "bytes": 4838,
+      "sha256": "3431100e6525d9b476d4847c316472f0239ded5d4df89178f96747ca96d490b7"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/world/Objectives.tsx",
+      "bytes": 4271,
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Asset.ts",
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/preimages/src__game__GameCanvas.tsx",
+      "bytes": 7925,
+      "sha256": "b77c772963c7ee37fe496ca95e889edefaca63c8af285f39ae20f454b6c19f5c"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/preimages/src__ui__Settings.tsx",
+      "bytes": 3389,
+      "sha256": "5d99752710a52f0ed48ded80d89dd2a696175896ca4ec6edfd6daf1ee100f1c2"
+    },
+    {
+      "path": "tools/overhaul-renderer-report/preimages/src__state__store.ts",
+      "bytes": 3087,
+      "sha256": "e6f8c17fe7b3f54c0e46c1cff9f1dbbbd9f4fbba4608bd183427977c2bef2a94"
+    }
+  ]
+}

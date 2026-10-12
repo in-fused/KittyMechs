@@ -1,0 +1,9 @@
+# Contract013 first executed failure — closed
+
+Root executed the frozen command once,19:00:54.228→19:00:56.719UTC (2.491s overall). Focused compiler child351552 exited2 at19:00:56.716. Three TS18048 diagnostics at `shared/feline57Profile013.ts:14` columns430/464/489 report `chain` possibly undefined in the subsequent parent-chain loop. No timeout, stderr or native/source-loader execution occurred.
+
+This is a TypeScript control-flow narrowing failure, not a measured hierarchy, pose, skin, occupancy or source geometry failure. The preceding branch throws through the local `fail` arrow annotated with a `never` **return**, but its variable lacks an explicit function type that TypeScript uses for this control-flow termination. A separately reviewed explicit `(reason:string)=>never` declaration could address that literal typing issue without changing the branch algorithm. No correction or rerun is made here, and this is not evidence that all other code checks would pass.
+
+Math tests and actual GLTFLoader export/readback are UNRUN. No packet, offline geometry, occupancy catalog, sampled pose or profile qualification was emitted. The actual-source interchange and evaluator remain preserved experimental implementation, incomplete and unadmitted. Existing checkpoint026 gameplay and every protected source input remain untouched; no existing consumer or default imported the modules. Current whole-workspace compilation would include these new shared files and must not be called passing while this diagnostic remains unresolved.
+
+All12 frozen rows are verified again at closure. Original source seal and process receipts are preserved; no source code/contract/input modifications follow the first executed failure. Jobs0. No native, Blender, browser, rendered art, paired contact or complete body/profile approval follows this packet. Future014 source authoring is a separately owned task and must not infer acceptance from this stopped attempt.

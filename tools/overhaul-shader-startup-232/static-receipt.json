@@ -1,0 +1,38 @@
+{
+  "writer": "CLOSED_STATIC_RESULTS",
+  "initialChecks": {
+    "tsc": "FAILED private-copy relative typecheck setup/callback annotation/test defines type; preserved tool outputs in first-static-failure.txt",
+    "rootVitest": "exit1; zero collected tests because root config includes tests/*.test.ts; first-fixture-setup-failure.json preserved"
+  },
+  "setupCorrection": "scoped virtual typecheck tree + exact relative-import-only compile adapter; pinned fixture config; callback this type annotation; test material typing",
+  "preRepair": {
+    "tscExit": 0,
+    "tscObservedWaitSeconds": 9.3066441,
+    "fixtureExit": 0,
+    "testsPassed": 11,
+    "receipt": "final-fixture-receipt.json"
+  },
+  "oneSourceRepair": "root review identified routine mounted handoff + true deployment rearm; retire stale queue then fresh actual signature in same 20s lifetime/max4 queues; synchronous single pinned R3F render lease; epoch-bound211 cached admission; post-admission tree does not revoke local draw",
+  "final": {
+    "tscExit": 0,
+    "tscInitialWaitSeconds": 10.0095154,
+    "tscTerminalWaitSeconds": 9.2e-06,
+    "fixtureExit": 0,
+    "fixtureObservedSeconds": 2.2030795,
+    "testsPassed": 13,
+    "testsFailed": 0,
+    "receipt": "repaired-fixture-receipt.json"
+  },
+  "sourcePreimageExact": true,
+  "actualShaderGPUJobs": 0,
+  "actualBuilds": 0,
+  "actualBrowsers": 0,
+  "claimsExcluded": [
+    "GPU completion",
+    "visible pixels",
+    "KHR gain",
+    "startup deadline pass",
+    "human lag fixed",
+    "sustained FPS"
+  ]
+}

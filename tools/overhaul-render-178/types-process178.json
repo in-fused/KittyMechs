@@ -1,0 +1,16 @@
+{
+  "writer": "CLOSED",
+  "job": "types",
+  "command": [
+    "node",
+    "node_modules/typescript/bin/tsc",
+    "--noEmit"
+  ],
+  "capSeconds": 60,
+  "startedUTC": "2026-10-11T17:18:18.392594+00:00",
+  "pid": 369972,
+  "exitCode": 2,
+  "status": "TERMINAL",
+  "elapsedSeconds": 14.063000000081956,
+  "closedUTC": "2026-10-11T17:18:32.445188+00:00"
+}

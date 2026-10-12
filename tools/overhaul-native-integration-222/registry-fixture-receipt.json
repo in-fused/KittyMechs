@@ -1,0 +1,246 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "scope": "Actual ThreeGroup and original canonical registry module loaded with private implementation; lifecycle/map ownership only, no nativeworld/React/gameplay/contact/pixel qualification",
+  "contactQualified": false,
+  "rows": [
+    {
+      "stage": "STANDARD_REPLACES_NATIVE",
+      "inspection": {
+        "actor": "fixture-actor",
+        "winningProvider": {
+          "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+          "name": "",
+          "rootVisible": true,
+          "effectiveVisible": true,
+          "ancestors": [
+            {
+              "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+              "name": "",
+              "visible": true
+            },
+            {
+              "uuid": "feca0550-9afd-4a30-a870-fd34eeee4273",
+              "name": "",
+              "visible": true
+            },
+            {
+              "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+              "name": "",
+              "visible": true
+            }
+          ],
+          "generation": 7,
+          "frameClock": 2,
+          "kind": "standard-or-unlabelled"
+        },
+        "roots": [
+          {
+            "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+            "name": "native222:fixture-actor:source-fixture",
+            "rootVisible": true,
+            "effectiveVisible": true,
+            "ancestors": [
+              {
+                "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+                "name": "native222:fixture-actor:source-fixture",
+                "visible": true
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+            "name": "",
+            "rootVisible": true,
+            "effectiveVisible": true,
+            "ancestors": [
+              {
+                "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+                "name": "",
+                "visible": true
+              },
+              {
+                "uuid": "feca0550-9afd-4a30-a870-fd34eeee4273",
+                "name": "",
+                "visible": true
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "visibleRootCount": 2,
+        "duplicateVisibleRoots": true,
+        "scope": "CURRENT_WINNER_AND_NAMED_NATIVE_ROOTS_READONLY_NOT_PIXEL_PROOF"
+      }
+    },
+    {
+      "stage": "HIDDEN_STANDARD_WINNER_READONLY",
+      "inspection": {
+        "actor": "fixture-actor",
+        "winningProvider": {
+          "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+          "name": "",
+          "rootVisible": true,
+          "effectiveVisible": false,
+          "ancestors": [
+            {
+              "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+              "name": "",
+              "visible": true
+            },
+            {
+              "uuid": "feca0550-9afd-4a30-a870-fd34eeee4273",
+              "name": "",
+              "visible": false
+            },
+            {
+              "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+              "name": "",
+              "visible": true
+            }
+          ],
+          "generation": 7,
+          "frameClock": 2,
+          "kind": "standard-or-unlabelled"
+        },
+        "roots": [
+          {
+            "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+            "name": "native222:fixture-actor:source-fixture",
+            "rootVisible": true,
+            "effectiveVisible": true,
+            "ancestors": [
+              {
+                "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+                "name": "native222:fixture-actor:source-fixture",
+                "visible": true
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+            "name": "",
+            "rootVisible": true,
+            "effectiveVisible": false,
+            "ancestors": [
+              {
+                "uuid": "54577bed-5cb0-48b0-8d06-461b1a241ca6",
+                "name": "",
+                "visible": true
+              },
+              {
+                "uuid": "feca0550-9afd-4a30-a870-fd34eeee4273",
+                "name": "",
+                "visible": false
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "visibleRootCount": 1,
+        "duplicateVisibleRoots": false,
+        "scope": "CURRENT_WINNER_AND_NAMED_NATIVE_ROOTS_READONLY_NOT_PIXEL_PROOF"
+      }
+    },
+    {
+      "stage": "STANDARD_UNMOUNT_LOST_OWNER_DESPITE_NATIVE_CLEANUP_REF",
+      "oldRefWouldSkipReregistration": true,
+      "inspection": {
+        "actor": "fixture-actor",
+        "winningProvider": null,
+        "roots": [
+          {
+            "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+            "name": "native222:fixture-actor:source-fixture",
+            "rootVisible": true,
+            "effectiveVisible": true,
+            "ancestors": [
+              {
+                "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+                "name": "native222:fixture-actor:source-fixture",
+                "visible": true
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "visibleRootCount": 1,
+        "duplicateVisibleRoots": false,
+        "scope": "CURRENT_WINNER_AND_NAMED_NATIVE_ROOTS_READONLY_NOT_PIXEL_PROOF"
+      }
+    },
+    {
+      "stage": "FRESH_NATIVE_WINNER_COMPLETED",
+      "inspection": {
+        "actor": "fixture-actor",
+        "winningProvider": {
+          "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+          "name": "native222:fixture-actor:source-fixture",
+          "rootVisible": true,
+          "effectiveVisible": true,
+          "ancestors": [
+            {
+              "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+              "name": "native222:fixture-actor:source-fixture",
+              "visible": true
+            },
+            {
+              "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+              "name": "",
+              "visible": true
+            }
+          ],
+          "generation": 7,
+          "frameClock": 3,
+          "kind": "named-native222"
+        },
+        "roots": [
+          {
+            "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+            "name": "native222:fixture-actor:source-fixture",
+            "rootVisible": true,
+            "effectiveVisible": true,
+            "ancestors": [
+              {
+                "uuid": "8d268b55-d84e-4c4a-b97f-8f82c9f8bbad",
+                "name": "native222:fixture-actor:source-fixture",
+                "visible": true
+              },
+              {
+                "uuid": "8ac073a7-1e7d-4ddb-b920-796090453573",
+                "name": "",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "visibleRootCount": 1,
+        "duplicateVisibleRoots": false,
+        "scope": "CURRENT_WINNER_AND_NAMED_NATIVE_ROOTS_READONLY_NOT_PIXEL_PROOF"
+      }
+    }
+  ],
+  "restorationAndGenerationNegatives": true
+}

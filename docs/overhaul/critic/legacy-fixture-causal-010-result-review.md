@@ -1,0 +1,13 @@
+# Legacy fixture causal010 actual result review
+
+ACCEPT preserved first-child setup failure and stopped comparison only. DENY causal baseline/current conclusions,008 qualification, or a build/browser/retry grant.
+
+Review start2026-10-10 18:16:43 UTC; requested close18:20, hard18:22. ONE root command ran18:15:39.885–18:15:41.899 UTC,2014ms, status FIRST_PROBE_FAILURE_STOP. Only baseline020 child PID341388 started18:15:39.942 and closed18:15:41.896, exit1, timeout false, spawn/kill error null. These receipts establish normal child return, not an audited native world disposal or process-tree census.
+
+The original failure is setup/import: baseline020/shared/buildingGrip.ts:7 imports `../src/game/entities/felineMotion`, which the isolated copied root lacks. runtime-errors.json retains ERR_MODULE_NOT_FOUND on the failed suite. Vitest JSON has zero total tests and zero assertions. No observer registry or observation rows initialized; no test Simulation/native world or collider query evidence was reached. run.mjs then reports ENOENT for observer-errors.json. That is a secondary missing-output stop; it must not replace the preserved original import cause. The second current008 child was never launched. Its directory retains preparation files only.
+
+This result demonstrates fail-closed behavior for this setup failure, not execution of the wrapped-error, AssertionError whitelist, timeout or deep-copy observation branches. The preflight missed the transitive source dependency. All158 frozen rows still match after the failed run; no source or expectation change occurred. Seal SHA2560a03c0c098838844b0cf77c10ca4ec76106a42efa055380670bdfe6b873b20c1. Result SHA2562a71c46257461fd70d752c300220e7ab00fe4b48072143eb9ff68a72e8f98b73; runtime error SHA2560ea39c170c6527ccdbadc657e8ebc272c582aa5edf06ef9d918f4912a74d5403; JSON assertion report SHA256790e4582a964ba40ce62159c5bc2adc4026315797c77a23c093b4cbd53f12219.
+
+One future underlying requirement is a dependency-complete provenance boundary: separately frozen recovered baseline/current roots must include their own reachable source modules and relevant asset/data dependencies. Do not redirect a historical missing module to current production, mock it, change tests, or infer fixture obsolescence. Such a new diagnostic would require a distinct authorization; this review grants none.
+
+The six legacy008 failures remain unexplained. No proof exists here of pre-existing interference, a new input regression, collider recipients, damage behavior or acceptable gameplay. Source art, public prototype behavior and full Gate1 remain incomplete. No critic job or implementation was performed.

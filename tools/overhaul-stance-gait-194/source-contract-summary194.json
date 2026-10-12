@@ -1,0 +1,513 @@
+{
+  "writer": "CLOSED",
+  "scope": "New194 authoredKEY evidence plus8phase source-master preview; NOT dense decoded candidate proof/native support",
+  "all5Gaits": [
+    {
+      "name": "FelineWalk",
+      "frames": [
+        1,
+        61
+      ],
+      "cycleStart": 0.016666666666666666,
+      "cycleEnd": 1.0166666666666666,
+      "nativeDistancePerCycle": 0.7777777777777777,
+      "sourceDuty": 0.72,
+      "sourceOffsets": {
+        "FL": 0,
+        "FR": 0.5,
+        "HL": 0.75,
+        "HR": 0.25
+      },
+      "unloadedLimbs": [],
+      "loadedLimbs": [
+        {
+          "limb": "FL",
+          "stanceKeySamples": 47,
+          "compensatedFKPawYRangeMetres": 9.183530447209876e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "FR",
+          "stanceKeySamples": 48,
+          "compensatedFKPawYRangeMetres": 9.183530469414336e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "HL",
+          "stanceKeySamples": 46,
+          "compensatedFKPawYRangeMetres": 9.889955876474232e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        },
+        {
+          "limb": "HR",
+          "stanceKeySamples": 47,
+          "compensatedFKPawYRangeMetres": 9.889955865372002e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        }
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "frames": [
+        1,
+        26
+      ],
+      "cycleStart": 0.016666666666666666,
+      "cycleEnd": 0.43333333333333335,
+      "nativeDistancePerCycle": 1.3548387096774195,
+      "sourceDuty": 0.62,
+      "sourceOffsets": {
+        "FL": 0,
+        "FR": 0.5,
+        "HL": 0.54,
+        "HR": 0.04
+      },
+      "unloadedLimbs": [],
+      "loadedLimbs": [
+        {
+          "limb": "FL",
+          "stanceKeySamples": 21,
+          "compensatedFKPawYRangeMetres": 8.736887280313965e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "FR",
+          "stanceKeySamples": 20,
+          "compensatedFKPawYRangeMetres": 7.752449304732068e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "HL",
+          "stanceKeySamples": 20,
+          "compensatedFKPawYRangeMetres": 8.736887291416195e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        },
+        {
+          "limb": "HR",
+          "stanceKeySamples": 20,
+          "compensatedFKPawYRangeMetres": 7.752449293629837e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        }
+      ]
+    },
+    {
+      "name": "FelineGallop",
+      "frames": [
+        1,
+        25
+      ],
+      "cycleStart": 0.016666666666666666,
+      "cycleEnd": 0.4166666666666667,
+      "nativeDistancePerCycle": 2.4358974358974357,
+      "sourceDuty": 0.26,
+      "sourceOffsets": {
+        "FL": 0.52,
+        "FR": 0.45,
+        "HL": 0.94,
+        "HR": 0.87
+      },
+      "unloadedLimbs": [],
+      "loadedLimbs": [
+        {
+          "limb": "FL",
+          "stanceKeySamples": 8,
+          "compensatedFKPawYRangeMetres": 5.2778130754660424e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "FR",
+          "stanceKeySamples": 7,
+          "compensatedFKPawYRangeMetres": 4.646105633554498e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 7.82310962677002e-08
+        },
+        {
+          "limb": "HL",
+          "stanceKeySamples": 8,
+          "compensatedFKPawYRangeMetres": 7.071046737028297e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        },
+        {
+          "limb": "HR",
+          "stanceKeySamples": 8,
+          "compensatedFKPawYRangeMetres": 6.52085001551228e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "frames": [
+        1,
+        37
+      ],
+      "cycleStart": 0.016666666666666666,
+      "cycleEnd": 0.6166666666666667,
+      "nativeDistancePerCycle": 1.0625,
+      "sourceDuty": 0.64,
+      "sourceOffsets": {
+        "FL": 0.5,
+        "FR": 0,
+        "HL": 0,
+        "HR": 0.5
+      },
+      "unloadedLimbs": [
+        "FL",
+        "FR"
+      ],
+      "loadedLimbs": [
+        {
+          "limb": "HL",
+          "stanceKeySamples": 26,
+          "compensatedFKPawYRangeMetres": 6.357828763459139e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        },
+        {
+          "limb": "HR",
+          "stanceKeySamples": 27,
+          "compensatedFKPawYRangeMetres": 6.357828763459139e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        }
+      ]
+    },
+    {
+      "name": "FelineUprightStride",
+      "frames": [
+        1,
+        25
+      ],
+      "cycleStart": 0.016666666666666666,
+      "cycleEnd": 0.4166666666666667,
+      "nativeDistancePerCycle": 2.1533333333333333,
+      "sourceDuty": 0.64,
+      "sourceOffsets": {
+        "FL": 0.5,
+        "FR": 0,
+        "HL": 0,
+        "HR": 0.5
+      },
+      "unloadedLimbs": [
+        "FL",
+        "FR"
+      ],
+      "loadedLimbs": [
+        {
+          "limb": "HL",
+          "stanceKeySamples": 18,
+          "compensatedFKPawYRangeMetres": 8.900960268842795e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        },
+        {
+          "limb": "HR",
+          "stanceKeySamples": 18,
+          "compensatedFKPawYRangeMetres": 8.900960302149485e-08,
+          "maximumKeyPadNormalResidualSourceMetres": 3.3527612686157227e-08
+        }
+      ]
+    }
+  ],
+  "clockProtocol": {
+    "plannedFrame": 14.2,
+    "published": {
+      "stage": "published-clock",
+      "plannedFrame": 14.2,
+      "canonicalFloat32Frame": 14.199999809265137,
+      "requestedInteger": 14,
+      "requestedFloat32Subframe": 0.19999980926513672,
+      "frameCurrent": 14,
+      "frameSubframe": 0.19999980926513672,
+      "frameCurrentFinal": 14.199999809265137
+    },
+    "storedCoordinateSet": [
+      14.199999809265137
+    ],
+    "storedCount": 570,
+    "totalRows": 1190
+  },
+  "45RawCatalogNameDurationTargetContractsPass": true,
+  "packagingFailure": {
+    "reason": "EXACT_RETAINED_GEOMETRY_SKIN_REST_MATERIAL_TEXTURE_PRESERVATION",
+    "firstDifference": {
+      "node": "FL_claw_1",
+      "component": "scaleY",
+      "retained": 0.9999998807907104,
+      "serialized": 1.0
+    },
+    "meshesSkinsMaterialsTexturesEqual": true,
+    "exactRestNodePreservation": false
+  },
+  "candidateNodeCount": 314,
+  "sourceMasterPreview": {
+    "writer": "CLOSED",
+    "status": "SOURCE_MASTER_PREVIEW_COMPLETE_UNADMITTED_PACKAGING_REJECTED",
+    "sourceFloorVisualBudgetMetInPreview": true,
+    "nativeContactQualified": false,
+    "all5AndMovingR": [
+      {
+        "name": "FelineWalk",
+        "poses": 8,
+        "loadedFeetCount": 24,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 9.02172178030014e-05,
+        "worst": {
+          "limb": "HL",
+          "wholePadSourceFloorGap": 9.02172178030014e-05,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineWalk",
+              "weight": 1,
+              "sourceLocalPhase": 0.7142857142857143,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.7142857142857143
+        }
+      },
+      {
+        "name": "FelineTrot",
+        "poses": 8,
+        "loadedFeetCount": 21,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.0005544442683458328,
+        "worst": {
+          "limb": "FR",
+          "wholePadSourceFloorGap": -0.0005544442683458328,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineTrot",
+              "weight": 1,
+              "sourceLocalPhase": 0.5314285714285714,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.5714285714285714
+        }
+      },
+      {
+        "name": "FelineGallop",
+        "poses": 8,
+        "loadedFeetCount": 9,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.0012109903618693352,
+        "worst": {
+          "limb": "FL",
+          "wholePadSourceFloorGap": 0.0012109903618693352,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineGallop",
+              "weight": 1,
+              "sourceLocalPhase": 0.15142857142857147,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.5714285714285714
+        }
+      },
+      {
+        "name": "FelineUprightWalkLong",
+        "poses": 8,
+        "loadedFeetCount": 11,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.0001160530373454094,
+        "worst": {
+          "limb": "HL",
+          "wholePadSourceFloorGap": -0.0001160530373454094,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineUprightWalkLong",
+              "weight": 1,
+              "sourceLocalPhase": 0.2857142857142857,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.2857142857142857
+        }
+      },
+      {
+        "name": "FelineUprightStride",
+        "poses": 8,
+        "loadedFeetCount": 11,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.0007865261286497116,
+        "worst": {
+          "limb": "HR",
+          "wholePadSourceFloorGap": 0.0007865261286497116,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineUprightStride",
+              "weight": 1,
+              "sourceLocalPhase": 0.0714285714285714,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.5714285714285714
+        }
+      },
+      {
+        "name": "R-up",
+        "poses": 8,
+        "loadedFeetCount": 12,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.009030088782310486,
+        "worst": {
+          "limb": "HL",
+          "wholePadSourceFloorGap": -0.009030088782310486,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineTrot",
+              "weight": 0.4285714285714286,
+              "sourceLocalPhase": 0.5714285714285714,
+              "role": "stance"
+            },
+            {
+              "clip": "FelineUprightStride",
+              "weight": 0.5714285714285714,
+              "sourceLocalPhase": 0.5714285714285714,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.5714285714285714
+        }
+      },
+      {
+        "name": "R-down",
+        "poses": 8,
+        "loadedFeetCount": 12,
+        "completeFootVertexCounts": [
+          2034
+        ],
+        "maxAbsLoadedSourceFloor": 0.008903338573873043,
+        "worst": {
+          "limb": "HL",
+          "wholePadSourceFloorGap": -0.008903338573873043,
+          "completeFootVertices": 2034,
+          "roles": [
+            {
+              "clip": "FelineTrot",
+              "weight": 0.5714285714285714,
+              "sourceLocalPhase": 0.5714285714285714,
+              "role": "stance"
+            },
+            {
+              "clip": "FelineUprightStride",
+              "weight": 0.4285714285714286,
+              "sourceLocalPhase": 0.5714285714285714,
+              "role": "stance"
+            }
+          ],
+          "sourceLoadedAllPositive": true,
+          "sourceForeUnloading": false,
+          "nativeContact": "UNQUALIFIED",
+          "phase": 0.5714285714285714
+        }
+      }
+    ]
+  },
+  "storedPrimitiveCount": 260,
+  "sceneRepresentation": [
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "storedMeshes": 256,
+      "storedPrimitives": 260,
+      "sceneReachableMeshes": 1,
+      "sceneReachablePrimitives": 5,
+      "sceneReachableNodes": 59
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/output/Pounce_Motion194.glb",
+      "bytes": 9228720,
+      "storedMeshes": 256,
+      "storedPrimitives": 260,
+      "sceneReachableMeshes": 1,
+      "sceneReachablePrimitives": 5,
+      "sceneReachableNodes": 59
+    }
+  ],
+  "rawSelectedSamplerKeyCosts": [
+    {
+      "name": "FelineGallop",
+      "channelCount": 171,
+      "summedInputKeyCount": 5643,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    },
+    {
+      "name": "FelineTransitionArc106",
+      "channelCount": 171,
+      "summedInputKeyCount": 7353,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "channelCount": 171,
+      "summedInputKeyCount": 5130,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    },
+    {
+      "name": "FelineUprightStride",
+      "channelCount": 171,
+      "summedInputKeyCount": 4617,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "channelCount": 171,
+      "summedInputKeyCount": 6669,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    },
+    {
+      "name": "FelineWalk",
+      "channelCount": 171,
+      "summedInputKeyCount": 11115,
+      "modes": [
+        "CUBICSPLINE"
+      ]
+    }
+  ],
+  "packagingPrimitiveGuardLimit": "Unreached hardcoded root.listMeshes()==5 would count retained orphan geometry incorrectly; actual active scene remains5. Do not use this uncompleted package validator for admission."
+}

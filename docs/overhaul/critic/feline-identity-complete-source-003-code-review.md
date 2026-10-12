@@ -1,0 +1,9 @@
+# Feline identity complete source003 — focused preflight
+
+High review started 2026-10-10 16:03:55 UTC; requested two-minute maximum / no later16:06:15. APPROVE ONE exact frozen factory-startup author attempt, conditional on root serial grant, cleanup16:25:30 and hard16:27:00. No retry, source repair or runtime enablement.
+
+Seal2D44DC5BB14E34D6ED08B73A45FA3BACBAEBD8172472DDFAF4CE4997CC1242FE verified; all six owned and six protected rows match. Author8487D2329CA95561997196279D4BBDC22B3D238562D9C0B1662081199F5B4F09, recipeFD0815EB093BD95AF3A44D238124B35BC82A49FB55ADA9F6AED3EF76EC44B1C6. Actual seal time16:03:24.2171459; budget plan is budget-plan.md.
+
+Selected flow writes only the new namespace, checks all six protected masters/raw after recipe extension, records actual current geometry/profile, saves editable master and renders three actual neutral views BEFORE export/readback. Above50k actual triangle count becomes a source issue, not a hidden geometry reduction. SOURCE_VERTEX pad mapping is reused as measured identity rather than coordinate equality. Recipe import occurs before the receipt try/finally; an import/syntax failure may preserve terminal evidence only. Failure inside entered preservation does not trigger a second render attempt.
+
+This is a separately authorized identity/anatomy revision, not a relabeled pass on source002. Full construction details and appearance were not accepted by this focused safety gate. Neutral claw/floor checks have declared scope and do not prove complete interpart/continuous clearance or loading. Zero clips and revised three-link hind rig remain unadapted; source003 is not mounted by the legacy motion owner. Actual full/paw/sole pixel review is mandatory. No source art/bind/motion/native/player/Gate1 qualification follows. Gate1 INCOMPLETE.

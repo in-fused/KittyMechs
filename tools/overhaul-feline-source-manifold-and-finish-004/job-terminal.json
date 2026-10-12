@@ -1,0 +1,11 @@
+{
+  "sessionId": 5309,
+  "launcherUTC": "2026-10-10T14:12:55Z",
+  "completionObservedByUTC": "2026-10-10T14:13:43Z",
+  "exitCode": 0,
+  "actualProcessRecord": "{\r\n  \"ProcessId\": 347352,\r\n  \"CreationDate\": \"2026-10-10T10:12:57.7464-04:00\",\r\n  \"ExecutablePath\": \"D:\\\\KittyMechTools\\\\blender-4.5.14-windows-x64\\\\blender.exe\",\r\n  \"CommandLine\": \"\\\"D:\\\\KittyMechTools\\\\blender-4.5.14-windows-x64\\\\blender.exe\\\" --background C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend --python-exit-code 1 --python C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-feline-source-manifold-and-finish-004/author.py\"\r\n}\r\n",
+  "stdout": "job-stdout.txt, captured tool chunks normalized to LF",
+  "forcedTermination": false,
+  "scriptElapsedSeconds": 35.804452,
+  "semanticStatus": "SOURCE_FAILURE_STOP"
+}

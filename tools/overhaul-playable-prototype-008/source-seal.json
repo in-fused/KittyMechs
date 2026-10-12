@@ -1,0 +1,70 @@
+{
+  "frozenUTC": "2026-10-10T17:39:23.906233+00:00",
+  "files": [
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "bytes": 3882,
+      "sha256": "931bea30565fe732a72da62c13f160bad523cfc8acac0a1d2c6f5b3c67cc4220"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45353,
+      "sha256": "ad561005b439685f050a4deaf0ec677d60761edc11e46260fc69161683c033bc"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 2802,
+      "sha256": "4d3e30a438a87c144053961177ccdb77a728eff4c450f75430322458eb702625"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 2882,
+      "sha256": "18b55ba22b1e386c32bd691e795bb7f60bca5c7bb9fb1507f6c5d0f1a4ada7b9"
+    },
+    {
+      "path": "docs/overhaul/public-feline-prototype-008.md",
+      "bytes": 2217,
+      "sha256": "2a14176a779c3ec64fd73b9db7487fd47e79f319b7f2355c765339c0cb9a6857"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10452,
+      "sha256": "fbded0fcf886db3ee6c1d6b10ccc7c3866f95e406b78229a0a4cc99ada8ffa51"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3609,
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11098,
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae"
+    }
+  ]
+}

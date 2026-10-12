@@ -1,0 +1,41 @@
+{
+  "packet": "motion-performance-042",
+  "correction": "b",
+  "sourceFrozenUTC": "2026-10-10T23:41:33.5536474Z",
+  "owner": "/root/extraction_structure_039",
+  "status": "WRITERS_CLOSED_SOURCE_ONLY_ROOT_ONCE_RERUN_PENDING",
+  "repairOrdinal": 1,
+  "repairMaximum": 1,
+  "ownedPaths": [
+    "tests/feline-runtime-042.test.ts"
+  ],
+  "files": [
+    {
+      "sha256": "9e70b6be0a2dc3522331fb746681c0b9cc828fb8aaea4511f2c3d1df4da95508",
+      "path": "tests/feline-runtime-042.test.ts",
+      "bytes": 8396
+    }
+  ],
+  "cause": "First root focused run40/41 passed. Quaternion object deep equality compares Three callback-bearing object state; the four numeric components serialize identically. This is a test assertion bug, not skin deformation.",
+  "change": "Only compare m.quaternion.toArray() against preserved before.rotation.toArray(); exact four numeric components. No tolerance, proxy or native/geometry waiver.",
+  "preserved": {
+    "originalSourceHandoff": "tools/overhaul-motion-performance-042/source-handoff.json",
+    "implementation": "All original042 implementation files remain byte-identical to originalsource seal",
+    "earlierCheckpoint": "Frozen026/031/032/033 assets/source unchanged",
+    "originalTestSHA256": "64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339",
+    "originalTest": "tools/overhaul-motion-performance-042/correction-b-test-preimage.ts",
+    "originalSourceSeal": "tools/overhaul-motion-performance-042/source-seal.json",
+    "originalFirstFailure": "Root-owned first042 test process result retained;40pass1fail at tests/feline-runtime-042.test.ts48 Quaternion deep equality"
+  },
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/feline-runtime-042.test.ts",
+    "tests/camera-visual-envelope.test.ts",
+    "tests/camera-visual-registry.test.ts",
+    "tests/camera-framing.test.ts"
+  ],
+  "jobsExecuted": [],
+  "acceptance": "Root runs once and owns actual test/build/browser/GPU/player validation. No new runtime claim."
+}

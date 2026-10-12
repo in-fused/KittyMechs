@@ -1,0 +1,119 @@
+{
+  "guarantee": "Exact initial public034 parsed GLTF prerequisite before World/Session render descent; stable initial branch retains late-actor loading",
+  "shippingChanged": false,
+  "files": [
+    {
+      "bytes": 7925,
+      "destination": "src/game/GameCanvas.tsx",
+      "sha256": "b77c772963c7ee37fe496ca95e889edefaca63c8af285f39ae20f454b6c19f5c",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/GameCanvas.tsx"
+    },
+    {
+      "bytes": 4192,
+      "destination": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "69dfb7b1727cc7c8edb4829ad2c5975d91c301f46489334890f3834d6c99871c",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 235,
+      "destination": "src/game/entities/identity57Runtime034Asset.ts",
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Asset.ts"
+    },
+    {
+      "bytes": 3388,
+      "sha256": "08d2008073b7de63a2dddbcbbf4dc786dccca99656bd4c842cd1318183ab8c6c",
+      "path": "docs/overhaul/startup-rig-055.md"
+    }
+  ],
+  "jobsExecuted": [],
+  "status": "CANDIDATE_ONLY_SHIPPING_UNCHANGED",
+  "adoption": [
+    {
+      "source": "tools/overhaul-startup-rig-055/candidate/src/game/GameCanvas.tsx",
+      "destination": "src/game/GameCanvas.tsx"
+    },
+    {
+      "source": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Actor.tsx",
+      "destination": "src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "source": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Asset.ts",
+      "destination": "src/game/entities/identity57Runtime034Asset.ts"
+    }
+  ],
+  "writersClosed": true,
+  "packet": "055",
+  "notProven": [
+    "Prior failure cause",
+    "GPU shader time",
+    "Guest20s readiness",
+    "Lag improvement"
+  ],
+  "protected": [
+    {
+      "bytes": 7047,
+      "sha256": "b3c567c66c7e57f1274f90469258fe8215912fc78c2b0c8fd9529532b9bf490e",
+      "path": "src/game/GameCanvas.tsx"
+    },
+    {
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "path": "src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48",
+      "path": "src/game/entities/identity57Runtime034Manifest.json"
+    },
+    {
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3",
+      "path": "src/game/entities/publicFelinePrototype008.ts"
+    },
+    {
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2",
+      "path": "src/game/entities/identity57Runtime005Control.ts"
+    },
+    {
+      "bytes": 7047,
+      "sha256": "b3c567c66c7e57f1274f90469258fe8215912fc78c2b0c8fd9529532b9bf490e",
+      "path": "tools/overhaul-startup-rig-055/preimages/GameCanvas.tsx"
+    },
+    {
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "path": "tools/overhaul-startup-rig-055/preimages/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 871,
+      "sha256": "6884781704003d0a6c901fb658a0f149583a7d4a4dcb3205a33348a28dada1b6",
+      "path": "tools/overhaul-startup-rig-055/preimages.json"
+    },
+    {
+      "bytes": 3944,
+      "sha256": "f6fd201abe94a03d64f8b8eff7957b65cc46475ac836233a8a155c9fa84785c1",
+      "path": "docs/overhaul/loading-diagnosis-054.md"
+    },
+    {
+      "bytes": 130374,
+      "sha256": "05a63cb1b7ce8ad6073bfde3bb3fdb5e3f3adb0f118fe63e498bf224344120c6",
+      "path": ".sites-runtime/overhaul-20261010/loading054-public/analysis.json"
+    }
+  ],
+  "rootBuildCommand": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "testsRun": false,
+  "assetURL": "/assets/models/Pounce_ArtDetail034.glb?sha=5295d87f683b",
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/solo-visual-readiness-044.test.ts",
+    "tests/feline-runtime-042.test.ts"
+  ]
+}

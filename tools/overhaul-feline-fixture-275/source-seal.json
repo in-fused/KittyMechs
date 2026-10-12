@@ -1,0 +1,91 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS_COHERENT_OWNER_NUMERIC_ONLY",
+  "files": [
+    {
+      "path": "tools/overhaul-feline-fixture-275/close275.py",
+      "bytes": 6525,
+      "sha256": "7446bb390b9fa299969cda1ce13d75bdd5acc304deb181990a10a7185e4dd069"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/HANDOFF.md",
+      "bytes": 4451,
+      "sha256": "be1d1702d3cb2663b5c18a15ce11ede39cc0f58e79dd48c2d152e9808f65d83b"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/owner275.json",
+      "bytes": 352342,
+      "sha256": "96fceadf21078756d61bec07b23d2f90be0a59b18eed28f95d73ad72910eef24"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/owner275.test.ts",
+      "bytes": 12807,
+      "sha256": "cc6927b822a8d442e2868807deb3f39193f91cc825fe851baa31c67f5c553c5c"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/preimages/owner274.json",
+      "bytes": 451513,
+      "sha256": "ec3528fd6ce7260767a4d4cb13c68dab3758e3439b2301f8095adc6aa672b55f"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/preimages/owner274.test.ts",
+      "bytes": 11934,
+      "sha256": "52769c5f82d37a58db37f82da753b44fd06d94a669ab64c1c7d418dbfe425368"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/preimages/terminal274.json",
+      "bytes": 947,
+      "sha256": "0528728f279dc27fad85704cd5e9fc3f68727d667169662f64f32f5fdc6cd18a"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/prepare275.py",
+      "bytes": 2385,
+      "sha256": "73c17ff967ace6cc730490fd1827743207ada40873db94955635aff7bb20e69f"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/protected-inputs275.json",
+      "bytes": 4601,
+      "sha256": "c1a2638cf6e3608bf10b467b1f0ce456a5fa364073d42f81384c9cc582732aef"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/run275.py",
+      "bytes": 1194,
+      "sha256": "e5e2d3c8b02b1d4a00092c160bb61d4b555f42c2805d9612d2a88a3fbfc29312"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/suite275.stderr",
+      "bytes": 90,
+      "sha256": "06210b38572a0a9d5c904cc541365ad69d7afaac6d4ed10f5d33268b0ae185d2"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/suite275.stdout",
+      "bytes": 449,
+      "sha256": "eb20eb53344c42d2a069914a914c481d63e584ce6ef000e40dd008fa5bef6570"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/summary275.json",
+      "bytes": 6362,
+      "sha256": "2d1157b2ccacf43423599ff277bc60b981660d09fbd8f4d26fd4ac7fffc798ee"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/terminal275.json",
+      "bytes": 974,
+      "sha256": "b6a2bb806ee68c16e2f4db9b9076a19c9eb51dd932815ec95a29d510cace3052"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/tsconfig275.json",
+      "bytes": 154,
+      "sha256": "8cf7d96d9ae02fffb3a2ec402e64cc0350d2690fa707c9402d2ce7cdd5e1ddb3"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/type275.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-feline-fixture-275/type275.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

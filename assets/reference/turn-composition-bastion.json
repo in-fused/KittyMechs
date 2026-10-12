@@ -1,0 +1,27 @@
+{
+  "name": "Bastion",
+  "scale": 0.95,
+  "samples": 540,
+  "coreRadius": 1.8621518684794007,
+  "coreHeight": 2.388369083404541,
+  "limbLengthError": 5.678576173673288e-07,
+  "rootTranslation": 0,
+  "rootRotation": 0,
+  "method": "source-tagged physical core; turn/idle-walk-trot-gallop mixtures and mirrored reversal; local TRS blend, inverse(reference)*reaction quaternion at full additive weight; no post-animation aim, contact IK or carrier tilt",
+  "radiusCase": [
+    0.75,
+    0,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ],
+  "heightCase": [
+    0.25,
+    0.5,
+    "Gallop",
+    0.5,
+    "CombatBase",
+    0
+  ]
+}

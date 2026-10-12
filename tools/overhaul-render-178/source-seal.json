@@ -1,0 +1,121 @@
+{
+  "writer": "CLOSED",
+  "status": "INCOMPLETE_REMAINING_TYPE_FAILURE_PRODUCTION_RESTORED",
+  "files": [
+    {
+      "path": "tools/overhaul-render-178/candidate/overhaulDistrictArt.tsx",
+      "bytes": 6895,
+      "sha256": "b3c017e1ba45f3abcb6edb6817142235e83f7d81ef73202fbd642ad1386704e4"
+    },
+    {
+      "path": "tools/overhaul-render-178/candidate/overhaulDressingArt.tsx",
+      "bytes": 5021,
+      "sha256": "2cc8386cd81760b11caea5b65725a3556a1044520e2ad2f2f711f9f7f69cedf7"
+    },
+    {
+      "path": "tools/overhaul-render-178/candidate/visibleInstances178.ts",
+      "bytes": 7231,
+      "sha256": "a199a68aea86649a9a14562f825266d44b9bef3fcb2df70c0c1f4c64064eaddb"
+    },
+    {
+      "path": "tools/overhaul-render-178/check178.mts",
+      "bytes": 9455,
+      "sha256": "3480e948925570421fead8a16efd6e1dfb205edc129094d957122eed2e0a2995"
+    },
+    {
+      "path": "tools/overhaul-render-178/first-failure/check178.mts",
+      "bytes": 9413,
+      "sha256": "b36d8823f04da2221820f69141137e6072b650f2df32788dfe34b1d348b3c769"
+    },
+    {
+      "path": "tools/overhaul-render-178/first-failure/fixture-process178.json",
+      "bytes": 381,
+      "sha256": "501b267b286b264c825c17925086282b9dddf9c066c06c0b4db85295d39f1d09"
+    },
+    {
+      "path": "tools/overhaul-render-178/first-failure/fixture-receipt178.json",
+      "bytes": 660,
+      "sha256": "333bc3e33b48fd6eab4b22031c7c96e613ba25794e5eb0ee8e9f208725f39ba5"
+    },
+    {
+      "path": "tools/overhaul-render-178/first-failure/fixture-stdout178.txt",
+      "bytes": 640,
+      "sha256": "af1f039b1785c56f7aacd801762f455bbe6a5c84e9fb2702845b81e6948dbcf9"
+    },
+    {
+      "path": "tools/overhaul-render-178/fixture-process178.json",
+      "bytes": 394,
+      "sha256": "3af0e090619d4f9ea79b59b40a848c3b73ae1b7738d9a2b8734b65b65f628cba"
+    },
+    {
+      "path": "tools/overhaul-render-178/fixture-receipt178.json",
+      "bytes": 1939,
+      "sha256": "c51c344caf2a706863f1cc2dc9f08cf6bf909b56fccfd512e7b6001ce927cd4d"
+    },
+    {
+      "path": "tools/overhaul-render-178/fixture-stdout178.txt",
+      "bytes": 1475,
+      "sha256": "5c76bd57c5672f43d501fa6e8c547b1763bcadbb2a5d94d25e7b5f7e6602d20f"
+    },
+    {
+      "path": "tools/overhaul-render-178/HANDOFF.md",
+      "bytes": 6391,
+      "sha256": "5efd2e86aec36c3b66ceecddb88f7a072c289b5a35efc33ab564f438c5a380d4"
+    },
+    {
+      "path": "tools/overhaul-render-178/inventory-process178.json",
+      "bytes": 316,
+      "sha256": "95c98ef5e1607763847c0ad74f2621823f3870a98c71ad71ba36a23a35001693"
+    },
+    {
+      "path": "tools/overhaul-render-178/inventory178.json",
+      "bytes": 11427,
+      "sha256": "e209d699ebb1d67a8f80266cd5b9ee5d39043684ef1949ecd2ca9345fd4f2fa9"
+    },
+    {
+      "path": "tools/overhaul-render-178/inventory178.mts",
+      "bytes": 2718,
+      "sha256": "4480a79490b1ee8302c223bcc7bc406884fb00fb528b55debbd0c694d7aeb6f2"
+    },
+    {
+      "path": "tools/overhaul-render-178/preimages/overhaulDistrictArt.tsx",
+      "bytes": 9005,
+      "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7"
+    },
+    {
+      "path": "tools/overhaul-render-178/preimages/overhaulDressingArt.tsx",
+      "bytes": 4480,
+      "sha256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b"
+    },
+    {
+      "path": "tools/overhaul-render-178/preimages178.json",
+      "bytes": 565,
+      "sha256": "17cafc67d12c00ecb404b580663ebd79e2081b4c1076e129ab35949c8b04f9a1"
+    },
+    {
+      "path": "tools/overhaul-render-178/read-inputs178.json",
+      "bytes": 3762,
+      "sha256": "ca7f698f9586705dc8aacf97ec4819ddf95bc3a2a57ae90c352a3ef4d6b38da6"
+    },
+    {
+      "path": "tools/overhaul-render-178/restoration178.json",
+      "bytes": 2656,
+      "sha256": "1861ced521ca12e6c75dadbb66c219f7284de2001df83a4fa6fa53e81414f09d"
+    },
+    {
+      "path": "tools/overhaul-render-178/run178.py",
+      "bytes": 1163,
+      "sha256": "1e7104f03c1b9d24ec5b02d5ff3314140b36dfee6c52d8641e88ba06687e1ce4"
+    },
+    {
+      "path": "tools/overhaul-render-178/types-process178.json",
+      "bytes": 364,
+      "sha256": "33bcd734d27bdf0d00eaed98059abf5ac15f770dd6f0a5236d9e4a4fc9265e91"
+    },
+    {
+      "path": "tools/overhaul-render-178/types-stdout178.txt",
+      "bytes": 102,
+      "sha256": "1ccca1ef2ed481a0777f739743443d8034b503d75310b78307c162477cf3b392"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "docs/overhaul/critic/contact185-source-review.md",
+      "bytes": 4044,
+      "sha256": "7e27613c01bb094b2f546173512e98fd4f8bd7d4a3518f2d07764c3071cee17b"
+    },
+    {
+      "path": "tools/overhaul-contact-185/constraint-counterexamples185.json",
+      "bytes": 18075,
+      "sha256": "04f35eb0a44ca7fae8e9bb432ca09b43b883829915daad7adeccf671844d4670"
+    },
+    {
+      "path": "docs/overhaul/critic/integration184-actual-review.md",
+      "bytes": 4556,
+      "sha256": "6fa4a9dc8bf09029967885bf43d46d6a139e4e3362a2c66ed9a93d0448130c6f"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    }
+  ],
+  "observedAPI": "preimages/sourceCoordination164-188-observed.ts",
+  "observedAPIStatus": "UNVERIFIED_DEPENDENCY_SOURCE_ONLY"
+}

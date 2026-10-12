@@ -1,0 +1,161 @@
+{
+  "writer": "CLOSED",
+  "status": "PRIVATE_INTEGRATION_SOURCE_ONLY_UNADMITTED_PROOF_PENDING",
+  "files": [
+    {
+      "path": "tools/overhaul-native-integration-222/actor-bridge222.tsx",
+      "bytes": 1557,
+      "sha256": "495322f21fe842e9783f11d994145d00a77c00066ea7692797358329a9da8cf1"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/ActorsCandidate222.tsx",
+      "bytes": 51866,
+      "sha256": "d8348754091c56d522a0e5edf61867a8b78d277eb27f3f8ccab956f697b14965"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/binding.json",
+      "bytes": 190026,
+      "sha256": "8289b2783c7c7822c2d020da9b0f15d10dc9b06d9a92fd9298ada2073b1e690b"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/build222.mjs",
+      "bytes": 1753,
+      "sha256": "5f6007d58a252d5c020ed1c8eae86d470982104f62dc52fdce72c450d9726f0b"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/close222.py",
+      "bytes": 1915,
+      "sha256": "0c5f62ec33dc7435a6cf7793d877c2de43b40db49698762916c06978c207ddde"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/compile-receipt.json",
+      "bytes": 459,
+      "sha256": "005ae520c989bad8471b1d9176bf3c8d9526b53c6c8a619ba763479b11d6e562"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/delivery-factory.mjs",
+      "bytes": 3065,
+      "sha256": "e98b18c7871eb17f6b9c550d02cab06c17a0e8ff2ad2d5aae947af9b43700861"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/delta-ledger.json",
+      "bytes": 609,
+      "sha256": "1f6e2ef63a9f80a02b0c0e9f091a75dc3c1f75de306c5d696f328194fbe8ee1f"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/HANDOFF.md",
+      "bytes": 4299,
+      "sha256": "97bad2b480baea7077bc830652440df74d733bc90644d59bdae145ab8a1bc303"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/NativeActor222.tsx",
+      "bytes": 5492,
+      "sha256": "dc64c71b9d82717598ce0745daefaabb5740949920cf2755a0fb8692536e34d5"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/nativeOwner218.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/plugin222.mjs",
+      "bytes": 1850,
+      "sha256": "01e47f58455aea557fe219e6970809c78709d99a6b83ddd738ab276b281c9793"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/ActorsCandidate218.tsx",
+      "bytes": 51866,
+      "sha256": "ab40ab7e628c1633f7d9cbcef726d699bd23917dd011522c0dc4ead2f35eba2f"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/NativeActor218.tsx",
+      "bytes": 5314,
+      "sha256": "6ff52b3e721a93b525842ddb274a43d41a81f041c8c54b345b397640d0d8c6e5"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/nativeBasis218.ts",
+      "bytes": 2269,
+      "sha256": "0f7137f3ec9c4ee20a569a78010492ab1ecb3ee92dfb5212c6a8bab4b8460b48"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/nativeOwner218.ts",
+      "bytes": 14060,
+      "sha256": "aef7def780ca830e7fbb8002eaedc4c36b9de719004b65a3553c897a158a17de"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/source-seal.json",
+      "bytes": 6841,
+      "sha256": "c9b169fa99ec072b51e33f780cb7c9fbfca812f34bd1534081ccb65d128a9b83"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/visualRegistry062.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/preimage/wiring218.tsx",
+      "bytes": 5620,
+      "sha256": "637f2a98f610890299bbf454b56db6ef8f25d1a35a1cee0f5dc98c2a7356cd9f"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/prepare222.py",
+      "bytes": 5497,
+      "sha256": "0380f5b97d6818f7f7687f306400c7fb72cd8611c543236ab8efa31e4175127b"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/registry-augmentation222.d.ts",
+      "bytes": 370,
+      "sha256": "e882a9a0a45b57ec0e3aebf079340c5e055778b3dd48ca751af9ea1abda5959f"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/registry-fixture-bundle.mjs",
+      "bytes": 16266,
+      "sha256": "eb9a833c5ef1b687d450cd9977c8417329bc4d5dd3f7683eb86267544afe8ce8"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/registry-fixture-receipt.json",
+      "bytes": 7691,
+      "sha256": "8bdf4a289de07acc64c1b166e0b1e46311f0f252086de299f76a9243f778a3d2"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/registry-fixture.ts",
+      "bytes": 3797,
+      "sha256": "841a4a3afab7e7a98c68fdc17a3c25a9f0b818a8670c8c4a91f85163ba6da365"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/static-receipt.json",
+      "bytes": 379,
+      "sha256": "02ada271285c551a5bff037dcabf76c51798f4e15b3ab16b5ba028f826edc175"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/static222.mjs",
+      "bytes": 2302,
+      "sha256": "28b4359ddd739a315f0cbb446914e44cddd26082a044d605c18bbc8966c136df"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/tsconfig222.json",
+      "bytes": 359,
+      "sha256": "e9754a87781a2f3de493595cd7915356d9b612e29016be1ac59dff16cd8bc51a"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/virtual-delivery222.d.ts",
+      "bytes": 109,
+      "sha256": "ecf2730b9a1adc1153e68e04ea66b323cd58175e5b699d2440efc6eb97c095c8"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/visualRegistry222.ts",
+      "bytes": 4584,
+      "sha256": "719bf9195b1f29d990918919f61e303a6cc454d843dfc55ddeb74ad0e192dd1a"
+    },
+    {
+      "path": "tools/overhaul-native-integration-222/wiring222.tsx",
+      "bytes": 5662,
+      "sha256": "20dab8fb6e5f0898a749f1872440a00c01c3e70613ce2d235ae431f79ec589ba"
+    }
+  ]
+}

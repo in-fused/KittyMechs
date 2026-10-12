@@ -1,0 +1,50 @@
+{
+  "status": "PASS_CPU_LOADER_AND_RUNTIME_CLOCK_ONLY",
+  "assetSHA256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+  "actions": 43,
+  "retainedActions": 38,
+  "joints": 57,
+  "skinnedMeshesChecked": 4,
+  "ranges": [
+    {
+      "name": "FelineWalk",
+      "first": 0.01666666753590107,
+      "last": 1.0166666507720947,
+      "duration": 1.0166666507720947,
+      "travelWrapPassed": true
+    },
+    {
+      "name": "FelineTrot",
+      "first": 0.01666666753590107,
+      "last": 0.4333333373069763,
+      "duration": 0.4333333373069763,
+      "travelWrapPassed": true
+    },
+    {
+      "name": "FelineGallop",
+      "first": 0.01666666753590107,
+      "last": 0.18333333730697632,
+      "duration": 0.18333333730697632,
+      "travelWrapPassed": true
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "first": 0.01666666753590107,
+      "last": 0.6166666746139526,
+      "duration": 0.6166666746139526,
+      "travelWrapPassed": true
+    },
+    {
+      "name": "FelineUprightStride",
+      "first": 0.01666666753590107,
+      "last": 0.30000001192092896,
+      "duration": 0.30000001192092896,
+      "travelWrapPassed": true
+    }
+  ],
+  "legacyClockPassed": true,
+  "invalidCycleStopped": true,
+  "nativeContactQualified": false,
+  "imagesMaterialsRendered": false,
+  "heavyJobs": 0
+}

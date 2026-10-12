@@ -1,0 +1,17 @@
+{
+  "job": "author",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-stance-gait-194\\author194.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T19:03:51.733497+00:00",
+  "pid": 364864,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 12.125,
+  "closedUTC": "2026-10-11T19:04:03.866051+00:00"
+}

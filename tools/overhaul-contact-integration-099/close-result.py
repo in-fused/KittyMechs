@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,hashlib,datetime
+r=Path(__file__).resolve().parents[2];h=Path(__file__).resolve().parent
+paths={p for n in ['contact099-syntax','contact099-tests','contact099-build','contact099-freeze','contact099-candidate-process','contact099-candidate','contact099-video-derive'] for p in (r/'.sites-runtime/overhaul-20261010'/n).rglob('*') if p.is_file()}
+for n in ['overhaul-foot-contact-098','overhaul-contact-integration-099','overhaul-contact-play-100']:
+ paths.update(p for p in (r/'tools'/n).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name!='result-seal.json')
+paths.update(r/p for p in ['docs/overhaul/player-recovery-100-handoff.md','docs/overhaul/resource-limit-handoff-20261010.md','docs/overhaul/critic/contact099-source-review.md','docs/overhaul/critic/contact100-play-review.md','.sites-runtime/overhaul-20261009/build-049/receipt.json','.sites-runtime/overhaul-20261009/build-049/playable-checkpoint.json','.sites-runtime/overhaul-20261009/build-048/receipt.json','.sites-runtime/overhaul-20261010/contact099-server-swap.json','.sites-runtime/overhaul-20261010/contact099-server-identity.json','.sites-runtime/overhaul-20261010/contact099-cleanup.json','.sites-runtime/overhaul-20261010/contact099-final-inventory.json','.sites-runtime/overhaul-20261010/live049-http-verification.json','.sites-runtime/overhaul-20261010/049-retention100.json','src/game/entities/movingRFfeet067.ts','tests/contact-skin098.test.ts'])
+def row(p):
+ b=p.read_bytes();return {'path':p.relative_to(r).as_posix(),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+rows=[row(p) for p in sorted(paths)];p=h/'result-seal.json';assert not p.exists();p.write_text(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'files':rows,'scope':'098-100 closed actual contact experiment and independent verdict; see current handoff. No source/marker refinement loop. Actual IAB lag/gait/fluidR/art/fullgoal incomplete. Source overlay048 separate; preserve048 rollback/rawvideo.'},indent=2));print(json.dumps({'files':len(rows),'bytes':sum(x['bytes'] for x in rows),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}))

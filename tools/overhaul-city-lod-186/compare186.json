@@ -1,0 +1,1742 @@
+{
+  "writer": "CLOSED",
+  "scope": "Real compiled geometry/index-only conservative simplification; saved-camera AABB eligibility, not actual GPU or pixel quality",
+  "sourceSHA256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad",
+  "views": [
+    {
+      "label": "off-quad",
+      "nearTriangles": 373028,
+      "farOriginal": 211572,
+      "farCandidate": 211572,
+      "farInstances": 806,
+      "camera": [
+        -7.999996323338238,
+        3.375932586910089,
+        32.262501158319544
+      ],
+      "savedTriangles": 0
+    },
+    {
+      "label": "on-quad",
+      "nearTriangles": 374060,
+      "farOriginal": 210540,
+      "farCandidate": 210540,
+      "farInstances": 800,
+      "camera": [
+        -7.999996465226836,
+        2.243316065952578,
+        31.887707682636794
+      ],
+      "savedTriangles": 0
+    },
+    {
+      "label": "on-upright",
+      "nearTriangles": 374108,
+      "farOriginal": 210492,
+      "farCandidate": 210492,
+      "farInstances": 799,
+      "camera": [
+        -7.999996460393799,
+        2.6878552404976883,
+        31.88770769498575
+      ],
+      "savedTriangles": 0
+    }
+  ],
+  "rows": [
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 58,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 504,
+      "instances": 7,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 621,
+      "candidateTriangles": 621,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 396,
+      "candidateTriangles": 396,
+      "instances": 58,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 591,
+      "candidateTriangles": 591,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 599,
+      "candidateTriangles": 599,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 252,
+      "candidateTriangles": 252,
+      "instances": 12,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 563,
+      "candidateTriangles": 563,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 252,
+      "candidateTriangles": 252,
+      "instances": 23,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 708,
+      "candidateTriangles": 708,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1039,
+      "candidateTriangles": 1039,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 792,
+      "candidateTriangles": 792,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 650,
+      "candidateTriangles": 650,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 575,
+      "candidateTriangles": 575,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1013,
+      "candidateTriangles": 1013,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 504,
+      "instances": 24,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 757,
+      "candidateTriangles": 757,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 504,
+      "instances": 32,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1017,
+      "candidateTriangles": 1017,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 562,
+      "candidateTriangles": 562,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 505,
+      "candidateTriangles": 505,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 624,
+      "candidateTriangles": 624,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 829,
+      "candidateTriangles": 829,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 624,
+      "candidateTriangles": 624,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 887,
+      "candidateTriangles": 887,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 605,
+      "candidateTriangles": 605,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1017,
+      "candidateTriangles": 1017,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 797,
+      "candidateTriangles": 797,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 756,
+      "candidateTriangles": 756,
+      "instances": 1,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 156,
+      "candidateTriangles": 156,
+      "instances": 7,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 2,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 72,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 72,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 72,
+      "instances": 58,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 72,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 12,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 23,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 216,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 216,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 216,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 24,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 32,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 216,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 72,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 144,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 288,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 432,
+      "candidateTriangles": 432,
+      "instances": 1,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 108,
+      "candidateTriangles": 108,
+      "instances": 7,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 2,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 58,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 12,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 23,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 64,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 24,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 32,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 36,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 48,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 8,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 1,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 3,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 7,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 2,
+      "errorWorld": 0,
+      "extremaExact": true,
+      "attributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ]
+    }
+  ]
+}

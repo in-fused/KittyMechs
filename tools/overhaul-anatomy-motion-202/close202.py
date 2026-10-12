@@ -1,0 +1,7 @@
+import pathlib,json,hashlib
+root=pathlib.Path(__file__).resolve().parents[2];folder=root/'tools/overhaul-anatomy-motion-202';source=root/'assets/source/overhaul-anatomy-motion-202'
+def row(p):return {'path':p.relative_to(root).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+protected=json.loads((folder/'protected-inputs202.json').read_text())['files'];checks=[dict(r,match=row(root/r['path'])['sha256']==r['sha256']) for r in protected]
+old=json.loads((folder/'first-author-failure/source-seal.json').read_text());archive=[dict(r,match=row(root/r['path'])['sha256']==r['sha256']) for r in old['files']]
+if not all(r['match'] for r in checks+archive):raise RuntimeError('202_IMMUTABLE_INPUT_OR_ARCHIVE_CHANGED_AT_CLOSE')
+paths=sorted([p for base in (source,folder) for p in base.rglob('*') if p.is_file() and p!=folder/'source-seal.json']+[root/'docs/overhaul/anatomy-motion202-design.md']);seal={'writer':'CLOSED','status':'INCOMPLETE_FIRST_REMAINING_PRIMARY_DELIVERY_FAILURE','files':[row(p) for p in paths],'protectedInputs':checks,'firstFailureArchiveVerified':archive,'productionChanges':[],'previewExecuted':False,'repairJobsUsed':1,'contactQualified':False};path=folder/'source-seal.json';path.write_text(json.dumps(seal,indent=2),encoding='utf8');print(json.dumps({'sourceSeal':row(path),'handoff':row(folder/'HANDOFF.md'),'files':len(paths),'bytes':sum(p.stat().st_size for p in paths),'oldProtectedMatch':len(checks),'firstArchiveMatch':len(archive)}))

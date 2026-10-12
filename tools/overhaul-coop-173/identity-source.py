@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('tools/overhaul-coop-173/motion-scheduler.mjs');t=p.read_text().replace('validate:async s=>{validateToken173(token,s);','validate:async (s,identity)=>{validateToken173(token,s);const activeBinding=token.bindings.find(r=>r.name===token.active);if(!identity||identity.generation!==activeBinding.generation||identity.localId!==activeBinding.id||identity.life!==activeBinding.life)throw Error(\'173 active current generation/life changed\');');p.write_text(t)
+p=Path('tools/overhaul-coop-173/mission-capture.mjs');t=p.read_text().replace('await motion173.validate(state.snapshot);','await motion173.validate(state.snapshot,state.identity);');p.write_text(t)

@@ -1,0 +1,54 @@
+{
+  "schema": "pose-owner027-full-author-seal",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/author.py",
+      "bytes": 21195,
+      "sha256": "eb3d07922a05c72f1d77b3c1b04f2d339250ce02bc8e03fc5f5f14d8ddf79799"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/source_helpers.py",
+      "bytes": 29013,
+      "sha256": "7cfe5af8ba801e5174c6666b3795b5ecaf3e5b00b766ddaea1c3004a22cbe7b7"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/wholebody_choreography.py",
+      "bytes": 11847,
+      "sha256": "cdfd84065da76492a0081700d5fcab69f724908f3268995c35352a45a20824a5"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264"
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/actual004-capability-allowlist.json",
+      "bytes": 1028,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5"
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-exact-diff.json",
+      "bytes": 1232,
+      "sha256": "9a42fd7f14bd59ea079fd451770bd7e091552ce3f05944571993ef02b615e221"
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-protected-inputs.json",
+      "bytes": 14802,
+      "sha256": "c93f676b9f4175230fe8697f33b024df2e796190454438467a9bbfe515afe899"
+    },
+    {
+      "path": "tools/overhaul-pounce-pose-owner-027/full-command.ps1",
+      "bytes": 361,
+      "sha256": "e8ca0919301b8735797949cdd8e4a4c95397f8dbf0ac173bafb60c1539c1116e"
+    },
+    {
+      "path": "docs/overhaul/pounce-pose-owner-027-full-author.md",
+      "bytes": 2592,
+      "sha256": "a8555739b934df6cbc16c1c1c99e1a7a6bfe00da38e4d6085b79f8304e02e173"
+    }
+  ],
+  "cleanupUTC": "2026-10-10T20:39:00Z",
+  "hardDeadlineUTC": "2026-10-10T20:42:00Z",
+  "externalCapSeconds": 300,
+  "frozenUTC": "2026-10-10T20:25:07.0153629Z"
+}

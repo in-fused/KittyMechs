@@ -1,0 +1,9 @@
+# Source021 — distinct literal import boundary gate
+
+Independent review started2026-10-10 19:46:00 UTC; decision19:47:46 UTC, within critic20:00 hard stop. APPROVE ONE unchanged root-serial command tools/overhaul-pounce-wholebody-source-021/command.ps1, conditional external300s cap and source cleanup19:53/hard19:56. This authoring permission approves no trajectory, source contact, art, runtime or Gate1.
+
+Verified source sealB41CA94C3446901CDDA32AD7BC20D52B604AA437972CE672C937B456CEF46421: all11 rows and35 protected input/failure files match. Actual author/helper inverse namespace comparisons match their018 preimages. Inspected choreography diff and full changed import function: identities now remain an immutable tuple, Blender receives a separate mutable destination list, and every returned Action must have the requested exact name before archival. This addresses the observed Action-versus-name mutation boundary without changing choreography, floor.018, dimensions, support, solver, guards or samples. Ground object naming and trailing line ending are namespace bookkeeping.
+
+Inherited018 code gate limits remain:198 sampled source clocks are not continuous/native qualification; both tails remain included in the full-body nonclaw candidate guard; requested foreclaw contact is scoped separately; fixed chain reach and current support checks may fail honestly. The43 imported identities are actual exported004 data, not43 complete qualified capabilities. Complete flags on imported data cannot erase004's failed death action or source/runtime unknowns.
+
+Preserve first genuine failure/current raw state and any reached artifacts; no correction/retry under021. External termination cannot certify source preservation or disposal. Existing018 import failure and020 ordinary failure remain independent immutable evidence. No compiler/native/browser/Blender execution performed by this reviewer.

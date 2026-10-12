@@ -1,0 +1,110 @@
+{
+  "repairRuns": 0,
+  "closureWriterCorrection": "initial PowerShell metadata used bare false instead of $false; null closure/old resultseal retained separately; source/process untouched",
+  "jobs": 0,
+  "mathTests": "UNRUN",
+  "sourceEditsAfterFreeze": 0,
+  "process": {
+    "start": "2026-10-10T19:00:54.228Z",
+    "end": "2026-10-10T19:00:56.719Z",
+    "status": "FIRST_FAILURE_STOP",
+    "receipts": [
+      {
+        "name": "compile",
+        "at": "2026-10-10T19:00:54.229Z",
+        "end": "2026-10-10T19:00:56.716Z",
+        "pid": 351552,
+        "code": 2,
+        "stdout": "shared/feline57Profile013.ts(14,430): error TS18048: 'chain' is possibly 'undefined'.\r\nshared/feline57Profile013.ts(14,464): error TS18048: 'chain' is possibly 'undefined'.\r\nshared/feline57Profile013.ts(14,489): error TS18048: 'chain' is possibly 'undefined'.\r\n",
+        "stderr": "",
+        "timedOut": false
+      }
+    ],
+    "native": false,
+    "activation": false
+  },
+  "schema": "feline57-contract013-closure",
+  "activation": false,
+  "all12RowsMatch": true,
+  "frozenRows": [
+    {
+      "path": "shared/feline57Contract013.ts",
+      "actual": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "expected": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657",
+      "match": true
+    },
+    {
+      "path": "shared/feline57Evaluator013.ts",
+      "actual": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "expected": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c",
+      "match": true
+    },
+    {
+      "path": "shared/feline57Profile013.ts",
+      "actual": "da22478a4e1d619b36884c456587b8991c1156b3165b400a81d1bc0a94bfcc70",
+      "expected": "da22478a4e1d619b36884c456587b8991c1156b3165b400a81d1bc0a94bfcc70",
+      "match": true
+    },
+    {
+      "path": "shared/feline57Occupancy013.ts",
+      "actual": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "expected": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e",
+      "match": true
+    },
+    {
+      "path": "tests/feline57-contract-013.test.ts",
+      "actual": "5b3725fd5ac7880d0e8a135dc662f5d256cc4d5ed6c1e9f5c1980a5a765757fc",
+      "expected": "5b3725fd5ac7880d0e8a135dc662f5d256cc4d5ed6c1e9f5c1980a5a765757fc",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/export.ts",
+      "actual": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "expected": "6ca79699981ca029460ecfb9febb4398c410e051ffb671a0efbfbd2a79347ff5",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-feline57-contract-013/run.mjs",
+      "actual": "5b07491d66c4500cbe351efda52f9e0fb79edc67070236a56b345342f6f773a3",
+      "expected": "5b07491d66c4500cbe351efda52f9e0fb79edc67070236a56b345342f6f773a3",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/feline57-contract-013.md",
+      "actual": "df24b8a9474424198509e2e4df4ec07258ff35004e92536d64c137f33c956e7e",
+      "expected": "df24b8a9474424198509e2e4df4ec07258ff35004e92536d64c137f33c956e7e",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb",
+      "actual": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "expected": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source-profile.json",
+      "actual": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "expected": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/export-readback.json",
+      "actual": "71d757b1a187f99b84f8ce1fbb7c0e831d3b14871175d1df7cc492866db7c616",
+      "expected": "71d757b1a187f99b84f8ce1fbb7c0e831d3b14871175d1df7cc492866db7c616",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/export-source-offsets.json",
+      "actual": "a7ecdb2f1a0186e3487f71ec482ffef8d13766e8aef2b30606cb888916ce34a5",
+      "expected": "a7ecdb2f1a0186e3487f71ec482ffef8d13766e8aef2b30606cb888916ce34a5",
+      "match": true
+    }
+  ],
+  "nextScope": "separately authorized literal TypeScript declaration correction only; not implemented",
+  "status": "COMPILER_FIRST_FAILURE_STOP",
+  "native": "UNRUN",
+  "actualLoaderReadback": "UNRUN",
+  "closedUTC": "2026-10-10T19:02:25.7802693Z",
+  "packetExport": "UNRUN",
+  "frozenSealSHA": "ee6adf4a45734d8fcdf37944dd6f2fb362e26157c7c6af49e8fa82af36573939"
+}

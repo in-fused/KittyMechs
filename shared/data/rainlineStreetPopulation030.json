@@ -1,0 +1,155 @@
+{
+  "placements": [
+    {
+      "id": "street001:population030:entry-west:0",
+      "module": "generator_skid",
+      "pivot": [
+        -18,
+        -0.08,
+        -2.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:entry-west:1",
+      "module": "repair_trolley",
+      "pivot": [
+        -18,
+        -0.08,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:entry-west:2",
+      "module": "cable_reel",
+      "pivot": [
+        -18,
+        -0.08,
+        2.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:entry-east:1",
+      "module": "covered_machine_pallet",
+      "pivot": [
+        9,
+        -0.08,
+        8
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:entry-east:2",
+      "module": "stacked_industrial_cases",
+      "pivot": [
+        9,
+        -0.08,
+        10.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:relay-west:0",
+      "module": "hydraulic_manifold",
+      "pivot": [
+        -13,
+        -0.08,
+        -43.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:relay-east:0",
+      "module": "generator_skid",
+      "pivot": [
+        10,
+        -0.08,
+        -28.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:relay-east:1",
+      "module": "repair_trolley",
+      "pivot": [
+        10,
+        -0.08,
+        -26
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:relay-east:2",
+      "module": "cable_reel",
+      "pivot": [
+        10,
+        -0.08,
+        -23.4
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-west:0",
+      "module": "covered_machine_pallet",
+      "pivot": [
+        -13,
+        -0.08,
+        -105.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-west:1",
+      "module": "stacked_industrial_cases",
+      "pivot": [
+        -13,
+        -0.08,
+        -103
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-west:2",
+      "module": "hydraulic_manifold",
+      "pivot": [
+        -13,
+        -0.08,
+        -100.4
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-east:0",
+      "module": "generator_skid",
+      "pivot": [
+        11,
+        -0.08,
+        -105.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-east:1",
+      "module": "repair_trolley",
+      "pivot": [
+        11,
+        -0.08,
+        -103
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "street001:population030:core-east:2",
+      "module": "cable_reel",
+      "pivot": [
+        11,
+        -0.08,
+        -100.4
+      ],
+      "yaw": 0
+    }
+  ],
+  "scope": "Conservative ground-space clearance against existing compiled blocks and facade approach centers; actual gameplay review still required."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "SOURCE_FROZEN_UNRUN",
+  "writer": "CLOSED",
+  "sourceOwned": [
+    "src/game/camera/CameraRig.tsx",
+    "src/game/camera/obstructionOrbit071.ts"
+  ],
+  "rootCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-camera-071/cover-check.ts"
+  ],
+  "rootInclusiveProcessLimitSeconds": 10,
+  "firstFailure": "STOP_PRESERVE",
+  "noChildJobs": true,
+  "actualPlayAcceptance": "Root combines070/071/rescue finite changes in ONE build/public ordinary sequence with camera diagnostics. Review actual wholebody readability/native safety/continuity and return; no allpitch or IAB qualification.",
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 12820,
+      "sha256": "77e931073a33a134a43df765c61247fc8d16c8a4ad5266373eb80f6c6f03db2d"
+    },
+    {
+      "path": "src/game/camera/obstructionOrbit071.ts",
+      "bytes": 5759,
+      "sha256": "600aa43e69359d3f387d5fc6ae51f6449d783660aebe12f86bb9fe69affd285e"
+    },
+    {
+      "path": "tools/overhaul-camera-071/cover-check.ts",
+      "bytes": 5566,
+      "sha256": "c16ccd5a2255c6b34ef2ac48ae590d11d7fcab639b11510bb5f53247845fba07"
+    },
+    {
+      "path": "tools/overhaul-camera-071/preimages/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "docs/overhaul/camera-071-source-handoff.md",
+      "bytes": 3935,
+      "sha256": "e667c22cc2c157ef79ddc714616ef16b06e90d0cb440814662f27bfbe4b24c4d"
+    },
+    {
+      "path": "src/game/camera/thirdPersonSight058.ts",
+      "bytes": 2610,
+      "sha256": "0f142e9399227e9326d60e97f5a7788e7867eeef74391e7ca385be47504886c7"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/visualOccluders058.ts",
+      "bytes": 2229,
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948"
+    },
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/upright-reverse.png",
+      "bytes": 1071469,
+      "sha256": "a0b570bdae291333aa15dffc24f9344eba3e938a5fcc6123b631f31c41b2e9b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/evidence.json",
+      "bytes": 3570694,
+      "sha256": "293fd791ef2216faee60036311fb0e68d3c0bdd334768d1a754d1d3faab0490f"
+    },
+    {
+      "path": "tools/overhaul-render-cost-070/source-seal.json",
+      "bytes": 3320,
+      "sha256": "3a1bfbf491f465fa152ee9adb7892bb950a4c61f96b0653399c6e31bfd31b081"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    }
+  ]
+}

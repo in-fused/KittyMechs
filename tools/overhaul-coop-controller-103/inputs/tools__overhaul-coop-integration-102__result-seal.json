@@ -1,0 +1,176 @@
+{
+  "utc": "2026-10-11T07:34:25.625675+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-049/receipt.json",
+      "bytes": 74053,
+      "sha256": "a7f4259eaa7f8398b9bd68bcf7302905195981ff283e6e04ae72e2a6da70abfe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop102-final-inventory.json",
+      "bytes": 284,
+      "sha256": "87a38fb9e911b7e8e3acbe5997e57c78c853e10cd722f8c9102c1432a05d1cb0"
+    },
+    {
+      "path": "docs/overhaul/coop-source-102-handoff.md",
+      "bytes": 6920,
+      "sha256": "42ae93d0915b41322e226eab8491a7bd2147d27d7f1dea920528561c36af10ff"
+    },
+    {
+      "path": "docs/overhaul/critic/coop102-source-review.md",
+      "bytes": 3760,
+      "sha256": "0783083194d65d2622b927528c6c9e6359ab8f52a3cbf46ed6d01f51ddd8e720"
+    },
+    {
+      "path": "docs/overhaul/resource-limit-handoff-20261010.md",
+      "bytes": 22142,
+      "sha256": "401d9734ead44fd2403b77f3ff7c04d475509b9e072f80fcbde0f2b8efafb473"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/author-source.ps1",
+      "bytes": 8055,
+      "sha256": "f49d78dd11aebc52de6b5da21a2249e2a2610269fef2deb5717e2521289507dc"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/controller.mjs",
+      "bytes": 7799,
+      "sha256": "e1450910a2064edec94d449026fa33470adfb1d9cc751887fb7455fa03698c8a"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/finish-source.ps1",
+      "bytes": 5913,
+      "sha256": "ad085065dfb24bba1b9ee33026db21be58d5bd2fa1ee3ccab274d1e80da1dfc1"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/HANDOFF.md",
+      "bytes": 3552,
+      "sha256": "df4dbdcf15e463b80d8a1c210e28c1eeeaf1ecf21e3152166f8c3ac227407856"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/.sites-runtime__overhaul-20261009__build-049__receipt.json",
+      "bytes": 74053,
+      "sha256": "a7f4259eaa7f8398b9bd68bcf7302905195981ff283e6e04ae72e2a6da70abfe"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__coopExtraction.ts",
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/shared__types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/src__game__camera__CameraRig.tsx",
+      "bytes": 10383,
+      "sha256": "6448b9944ec297e9ec8b235d32756451ee0f2a2eb2ce6c2c2915f6eb5f8a078d"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/src__game__input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/src__game__inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/src__game__Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/src__ui__Hud.tsx",
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/tools__overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/tools__overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/inputs/tools__overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/mission-capture.mjs",
+      "bytes": 41414,
+      "sha256": "69969bcf31f4bc0ce320b34ea594753579bc75d1eddf6c1f1a157e707f2aaf74"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/source-handoff.json",
+      "bytes": 8036,
+      "sha256": "d9747cf397a39d1db550289677fab86fa2f5ed060ebd94290bc06d43e5ea3fb4"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-101/source-seal.json",
+      "bytes": 4787,
+      "sha256": "7f85cf53ca25465b91db0d1adb9c5b09fa5dfc7be0da4e4514180d98c1fa5ae3"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-102/close-result.py",
+      "bytes": 1425,
+      "sha256": "d3a7fd0d383c1354ea40ab5131056997c82b7036e58e2c878477d890c4300960"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-102/launch.py",
+      "bytes": 673,
+      "sha256": "dc50360cd4fd6b429b03f26a7ebc774154ce8141e13583c852f61d0efc0d2157"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-102/preflight.py",
+      "bytes": 1670,
+      "sha256": "4025059562582f27986297378293be3be50d3204438e5c7021278e41247dd7b0"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-102/prepare.py",
+      "bytes": 2215,
+      "sha256": "16cffca00094e6a46c5e53a5aa24af44a73f1cd53d8f939c7942ed048a464ecf"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-102/recovery049.py",
+      "bytes": 2712,
+      "sha256": "5be27b8f777d29c0bb806f94d43701bf18c9cf1aa3aad486cb4f7f5041f7abca"
+    }
+  ],
+  "scope": "101-102 CLOSED source gate DENY beforejobs. Impossible failed-state ACK and partialbrowsercleanup rejected; allstagesUNRUN. Live049 unchangedLIMITED, fullgoalINCOMPLETE. Distinct source correction required."
+}

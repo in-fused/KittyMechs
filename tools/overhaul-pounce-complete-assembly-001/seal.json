@@ -1,0 +1,44 @@
+{
+  "sealedUtc": "2026-10-10T14:43:40.9566387Z",
+  "startUtc": "2026-10-10T14:32:07Z",
+  "hardDeadlineUtc": "2026-10-10T15:22:07Z",
+  "status": "FROZEN_UNRUN_WAITING_TEXT_GATE_AND_SERIAL_GRANT",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/author.py",
+      "bytes": 33179,
+      "sha256": "8862d191b434a4ffd37277c8ab40111d2ba93ad0286c4bf314cce819261434fa"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/CONTRACT.md",
+      "bytes": 7135,
+      "sha256": "778794ef2216a0ea56c3aa2dc1644b73b7d30babf0d9b268c0f09790f5e7d39f"
+    },
+    {
+      "path": "tools/overhaul-pounce-complete-assembly-001/design.json",
+      "bytes": 1077,
+      "sha256": "fb2203cd443c29b77b9dc67c0455800a22438a87e522336ed42d63d17e7af95b"
+    },
+    {
+      "path": "docs/overhaul/pounce-complete-assembly-001.md",
+      "bytes": 1059,
+      "sha256": "9b5c4f70b3a001bc8947d7710a0a97d8e99c031d0214dd52ff7d58df89dfeaa8"
+    }
+  ],
+  "protected": [
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend",
+      "sha256": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.raw.glb",
+      "sha256": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-reconciliation-001/reconciliation/reconciled-rest.json",
+      "sha256": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2"
+    }
+  ],
+  "jobs": 0,
+  "command": "& 'D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe' --background 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend' --python-exit-code 1 --python 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-pounce-complete-assembly-001/author.py'"
+}

@@ -1,0 +1,69 @@
+{
+  "writer": "CLOSED",
+  "protectedMatches": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.blend",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/anatomy121.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/critic/playability172-actual-review.md",
+      "match": true
+    }
+  ],
+  "additionalReadInputs": [
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/Pounce_Motion121.temporary.glb",
+      "bytes": 5441344,
+      "sha256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 20599,
+      "sha256": "9f14265669150fec5b5106cdb08f6566f95da03dafe0109dc9441b1093538603"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "bytes": 1660,
+      "sha256": "d4d72cd4baa55f48b3c650df3f780c48e60d4b9ae7182a53ee3d4de155d2d81b"
+    }
+  ],
+  "productionWritesBy174": []
+}

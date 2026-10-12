@@ -1,0 +1,35 @@
+{
+  "scope": "05510focused tests andbuildpass; no startup/performance/mission approval",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-test/process-receipt.json",
+      "bytes": 39342,
+      "sha256": "2f9dde4a603b6ab9e8b984334aac4fa0e77420559a7a4c89139b750389cb3a67"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-test/stdout.txt",
+      "bytes": 232,
+      "sha256": "9a1bd371ce1f6efbb430972bfc28fcdcf5d81e94e4a17de4d9d74b1b065e7646"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-build/process-receipt.json",
+      "bytes": 39233,
+      "sha256": "ec942d53e999f265c028933c220c0b5763bd086c356b7c5b41ca757909252059"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/startup055-build/stdout.txt",
+      "bytes": 2049,
+      "sha256": "e3c081b34e0f87159dfd34efd61f37b1db492a7bd9ec8f3f1593e49c80aecc0a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-038/receipt.json",
+      "bytes": 71531,
+      "sha256": "02aa67e8cc26074a035540dfd6a0e5babf750ac73cc676c833b67788e9ec1a9c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-038/playable-checkpoint.json",
+      "bytes": 471,
+      "sha256": "60c1dccea9653cd43aff153f46c4f5c6e88b3f83d01ff5255d8cc18cc415d5b8"
+    }
+  ]
+}

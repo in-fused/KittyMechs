@@ -1,0 +1,19 @@
+{
+  "job": "author",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-anatomy-motion-202\\author202.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T20:38:33.430148+00:00",
+  "pid": 372352,
+  "exitCode": 1,
+  "status": "TERMINAL",
+  "elapsedSeconds": 16.141000000061467,
+  "closedUTC": "2026-10-11T20:38:49.573534+00:00"
+}

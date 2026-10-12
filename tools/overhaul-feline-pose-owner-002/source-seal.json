@@ -1,0 +1,84 @@
+{
+  "packet": "feline-pose-owner002",
+  "startedUTC": "2026-10-10T13:20:07Z",
+  "hardDeadlineUTC": "2026-10-10T14:00:07Z",
+  "sealedUTC": "2026-10-10T13:42:46.2229885Z",
+  "codeFrozen": true,
+  "preparationCompiles": 2,
+  "lastCompileExit": 0,
+  "native": "UNRUN",
+  "source": "003_FAILED_NO_CATALOG_BINDER",
+  "admission": "DISABLED_UNQUALIFIED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 43456,
+      "sha256": "85DCA7F72E7AE83543219EF55CE3B4A27F65817B5910DFE410EFB5B61466B396"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner.ts",
+      "bytes": 18347,
+      "sha256": "69C12EA93A2EBF037FE92B05E57230C3E5F86831B00D988E9B4BF93B82F01D58"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative.ts",
+      "bytes": 11640,
+      "sha256": "E931ED39692303FB881C6E8FD6FABBC87D4B045A69878190E7420C005717DC77"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest.ts",
+      "bytes": 1836,
+      "sha256": "C1B486D855CAA805B424791195F87A5652D95E3511A08AD676CC235AA9A339B0"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor.tsx",
+      "bytes": 5708,
+      "sha256": "A2C3B480B82A0951DC950DA053B96CF96B2584AD7BF64FFFD47700649046868E"
+    },
+    {
+      "path": "tools/overhaul-feline-pose-owner-002/tsconfig.json",
+      "bytes": 248,
+      "sha256": "211303EFC0AA74ED3F08B527103EB15561F0E1316E110D0F8AED90B101772EA7"
+    },
+    {
+      "path": "tools/overhaul-feline-pose-owner-002/preimage/Actors.tsx",
+      "bytes": 43197,
+      "sha256": "C4E14D287F36B92E3675D93181F8B83B44BDAAEAB1E6F9A73748310E9D47AB37"
+    },
+    {
+      "path": "tools/overhaul-feline-pose-owner-002/mapping.json",
+      "bytes": 438,
+      "sha256": "FE9D8CF55A3C06D3541589136C8516A5F55D6BB247F57B55106E35CEFB5CF55D"
+    },
+    {
+      "path": "docs/overhaul/feline-pose-owner-002.md",
+      "bytes": 6555,
+      "sha256": "51EC38A7803CF3BEDA5DE59D89C73D61AE526C87EDEE0923771F96325D72E801"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-reconciliation-001/reconciliation/reconciled-rest.json",
+      "bytes": 167736,
+      "sha256": "9F0A71491DB0A93065B697ECE8C972DD21012293ED7219262C22547EB12E4DD2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-feline-pose-owner-002/preparation-compile-1.json",
+      "bytes": 261,
+      "sha256": "E666357266030C8DD4A7FE28E73D89C68FB8E9403BA1C4B8F7C38D7A6C4373B5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-feline-pose-owner-002/preparation-compile-1.txt",
+      "bytes": 331,
+      "sha256": "7DF619C7D1E894B31D22C545D9EE3B37095AA30AD6D2EB33A0B1774E65DC2E44"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-feline-pose-owner-002/preparation-compile-2.json",
+      "bytes": 384,
+      "sha256": "FACE799546780C4824578D8E0E8BAA5AFE52856147F62CE996D427DE8400A7C6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/overhaul-feline-pose-owner-002/preparation-compile-2.txt",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  ]
+}

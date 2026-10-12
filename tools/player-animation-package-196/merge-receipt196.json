@@ -1,0 +1,22 @@
+{
+  "status": "RAW_GLB_MERGE_PRESERVES_BASE_SCENE_AND_BINARY",
+  "baseSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+  "rawSHA256": "cb3e0ddf8674a0b9be3f326ece187e6dcd1cf1999d52fbe3e69f11153a5eba09",
+  "outputSHA256": "10181e036b0c090af14278bc3ce7730c0ea2e64337218436ecd3046e44b970ac",
+  "outputBytes": 9397620,
+  "baseBytes": 7646404,
+  "addedBytes": 1751216,
+  "selected": [
+    "FelineGallop",
+    "FelineTransitionArc106",
+    "FelineTrot",
+    "FelineUprightStride",
+    "FelineUprightWalkLong",
+    "FelineWalk"
+  ],
+  "retainedAnimations": 39,
+  "retainedNodes": 314,
+  "addedAccessors": 1032,
+  "addedBufferViews": 1032,
+  "gameAdmission": "UNADMITTED_PENDING_DECODE_AND_SOURCE_VISUAL_REVIEW"
+}

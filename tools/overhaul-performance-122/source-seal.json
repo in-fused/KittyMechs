@@ -1,0 +1,36 @@
+{
+  "writer": "CLOSED",
+  "execution": "UNRUN",
+  "files": [
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 11603,
+      "sha256": "3512e0dd45a4fcb3c6fced6c37e41e8590a9b5f454a743f20219b1af25f7dc1b"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 12029,
+      "sha256": "0e38081db857736d5bfa6cf6953e4e856050c2edfcfd34e4bf3988992b110e57"
+    },
+    {
+      "path": "tests/camera-envelope-skeleton122.test.ts",
+      "bytes": 6908,
+      "sha256": "42455e476b26cb14f891cd5b4e73de79a2322456a6b5b7b03f7cfaa7a765dea4"
+    },
+    {
+      "path": "tools/overhaul-performance-122/preimages/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "tools/overhaul-performance-122/preimages/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "tools/overhaul-performance-122/HANDOFF.md",
+      "bytes": 2984,
+      "sha256": "01f37f9f157cdad8986a155588e022c59a0bd2cbc41120ec4279434a1e7987df"
+    }
+  ]
+}

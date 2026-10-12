@@ -1,0 +1,36 @@
+{
+  "packet": "052",
+  "writersClosed": true,
+  "files": [
+    {
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8",
+      "path": "shared/coopExtraction.ts"
+    },
+    {
+      "bytes": 176991,
+      "sha256": "75db2735d0f0e71a462a3bd10d3496166dafcd7333b8ee90413fc5f7a42a591c",
+      "path": "shared/simulation.ts"
+    },
+    {
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff",
+      "path": "src/ui/Hud.tsx"
+    },
+    {
+      "bytes": 5932,
+      "sha256": "e12d539103ca71535320b3cca04d08606457f1b29a6ebfbb728a24be951a4de7",
+      "path": "tests/coop-extraction-052.test.ts"
+    },
+    {
+      "bytes": 2545,
+      "sha256": "6ba18223c352069ca6eaf9e05eeff35d451c3775ce0a763c52443e55b5d1ecc3",
+      "path": "docs/overhaul/squad-extraction-052.md"
+    },
+    {
+      "bytes": 3797,
+      "sha256": "b0e7126d29ed0b0d7a411d377b21066715c24bd2108a1f47dbecd5dd1a49f3e6",
+      "path": "tools/overhaul-squad-extraction-052/source-handoff.json"
+    }
+  ]
+}

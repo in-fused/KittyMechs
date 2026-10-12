@@ -1,0 +1,101 @@
+{
+  "writer": "CLOSED",
+  "scope": "exact source/retained evidence; actual frozen receipt/transitive closure/public identity required at root gate",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-151/source-seal.json",
+      "bytes": 2082,
+      "sha256": "842a57035d219a6ed4156b501dd80f25a7d0e7cad41f902fade6c922aa3400d9"
+    },
+    {
+      "path": "tools/overhaul-coop-151/exposure-planner.mjs",
+      "bytes": 10842,
+      "sha256": "d3788d5bfac3ef3d5e43a854808d005753dd3f4565f87c8c13ce3a6e088a6944"
+    },
+    {
+      "path": "tools/overhaul-coop-151/mission-capture.mjs",
+      "bytes": 47709,
+      "sha256": "24036b7f8b247bf0181e7c25a2e909f03cb3e4c56c7effec21830c3db7176e0f"
+    },
+    {
+      "path": "tools/overhaul-coop-151/planning-read.mjs",
+      "bytes": 3590,
+      "sha256": "f472cf31d9e0e629fce371e2c517abb803c87c08adda526468a6d29cd25e1ebd"
+    },
+    {
+      "path": "tools/overhaul-coop-151/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop151-public/evidence.json",
+      "bytes": 4514910,
+      "sha256": "e269927615fb778dfeb786b8adf062cf33a66086fd5eb5f8089d74d30f204adf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop151-public/native-keyframes.json",
+      "bytes": 5446369,
+      "sha256": "881f624e87f7a341e4052a56a306d5db95d58fbf4648ef60b56309723721a07a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/playability150-coop-review/summary.json",
+      "bytes": 198823,
+      "sha256": "fae263f17aec2f67f9680a930439ee21aef324a9a4a9f178ce928899fde446ba"
+    },
+    {
+      "path": "shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": "shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    }
+  ]
+}

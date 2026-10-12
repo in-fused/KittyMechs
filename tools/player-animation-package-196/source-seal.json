@@ -1,0 +1,122 @@
+{
+  "writer": "CLOSED",
+  "status": "REJECTED_MIXED_TRANSITION_SOURCE_FLOOR_BUDGET",
+  "closedUTC": "2026-10-11T19:15:07.014185+00:00",
+  "files": [
+    {
+      "path": "tools/player-animation-package-196/actual-loader-process196.json",
+      "sha256": "218bae8394c1a42d6db1b3506afccb0a590e4aef65c2d586ad0676a7b79338cf",
+      "bytes": 264
+    },
+    {
+      "path": "tools/player-animation-package-196/actual-loader-stdout196.txt",
+      "sha256": "44c8145a2f1febb7cb7ebfde9c66f494fe94af0c88566a4841ebe63721c73a72",
+      "bytes": 1696
+    },
+    {
+      "path": "tools/player-animation-package-196/actual-loader196-operands.json",
+      "sha256": "67112ffe80d4554ddbe4424a2a23d6b42ab7d646becd70c84655ce9153d4af97",
+      "bytes": 9177436
+    },
+    {
+      "path": "tools/player-animation-package-196/actual-loader196.mts",
+      "sha256": "cd042c84ac6b4b048dfe8781a6f231cd03631ec2f43caccb7dc7e2741b0d1640",
+      "bytes": 9819
+    },
+    {
+      "path": "tools/player-animation-package-196/browser-bundle196.js",
+      "sha256": "75f18d348d62338d1cd77dfe008a06f60e3c4d0894b28abd22cdb09ff71baa83",
+      "bytes": 1086731
+    },
+    {
+      "path": "tools/player-animation-package-196/browser-decode196-evidence.json",
+      "sha256": "9bb0280dc7d36f7951a5d3deb24ffa311631d41ba7ebe9520bdbab350c8d76cf",
+      "bytes": 755041
+    },
+    {
+      "path": "tools/player-animation-package-196/browser-decode196.mjs",
+      "sha256": "5b28a62df1e5ffac8de867e6c67a552536a7028bdfe674669439d86c8a7e75b1",
+      "bytes": 2331
+    },
+    {
+      "path": "tools/player-animation-package-196/browser-entry196.ts",
+      "sha256": "59a37ddfc1c1b64f0b7d69db470524896b471355fc23a880910cbeb7cf84526f",
+      "bytes": 4251
+    },
+    {
+      "path": "tools/player-animation-package-196/decode-process196.json",
+      "sha256": "6ea4bda5281c11802b11522df7582da8bead520c43f530a557daa147293c5a4f",
+      "bytes": 257
+    },
+    {
+      "path": "tools/player-animation-package-196/decode-stdout196.txt",
+      "sha256": "b075599b278800825060704c2e3f94bc5c192c1d09ff62ad221d4bb73f38d01e",
+      "bytes": 1773
+    },
+    {
+      "path": "tools/player-animation-package-196/decode196.mts",
+      "sha256": "b4514eba05512cf0c088989996b1661126b555de9bb41bb765595ad6a1525d6e",
+      "bytes": 9826
+    },
+    {
+      "path": "tools/player-animation-package-196/first-decode-failure/decode-process196.json",
+      "sha256": "332da3f7213497b0c073acc180d5aa5e6c55dbce9252f11cf43bfb2e710b0900",
+      "bytes": 257
+    },
+    {
+      "path": "tools/player-animation-package-196/first-decode-failure/decode-stdout196.txt",
+      "sha256": "1e1b6fb99d40fc7376bff5d007a8e655c577e507e6305bcfff51ca80a6e7b84e",
+      "bytes": 726
+    },
+    {
+      "path": "tools/player-animation-package-196/first-decode-failure/decode196.mts",
+      "sha256": "3831465a1e5fe84c3aaaf50d1cfd34ba51aba3734f8ea78b7a4ef11acdb5069b",
+      "bytes": 9515
+    },
+    {
+      "path": "tools/player-animation-package-196/first-decode-failure/validation196-operands.json",
+      "sha256": "f2ea295901fba45000b75981f9552590a6c4b6aff669bb2e4f6e6817276b54f6",
+      "bytes": 9176732
+    },
+    {
+      "path": "tools/player-animation-package-196/HANDOFF.md",
+      "sha256": "30bec542ac7f0eb99688b1d09494fe9eb931b847dcfd6b1a33fb3790b1020554",
+      "bytes": 3080
+    },
+    {
+      "path": "tools/player-animation-package-196/load-actual196.ts",
+      "sha256": "5645d34defc9de618ccea3745a38a4c496cbae6eb66ba25f6d6a2b0030e66752",
+      "bytes": 587
+    },
+    {
+      "path": "tools/player-animation-package-196/merge-receipt196.json",
+      "sha256": "8712a0fdd85ac091cad49fd2a6091bc81972ce58ce35f63b19a1d48775af103e",
+      "bytes": 753
+    },
+    {
+      "path": "tools/player-animation-package-196/merge196.py",
+      "sha256": "72a9ae1bd172fa5c1eeca109d7fec12c03d856c01b4ae2bdb32c73c7420c9a91",
+      "bytes": 3922
+    },
+    {
+      "path": "tools/player-animation-package-196/Pounce_Motion196.glb",
+      "sha256": "10181e036b0c090af14278bc3ce7730c0ea2e64337218436ecd3046e44b970ac",
+      "bytes": 9397620
+    },
+    {
+      "path": "tools/player-animation-package-196/run-actual-loader196.py",
+      "sha256": "35ec6e56e67e844d4b0477f7dc4395f80e9b681dc49c687cf2b41f9cbca191ed",
+      "bytes": 708
+    },
+    {
+      "path": "tools/player-animation-package-196/run-decode196.py",
+      "sha256": "f2caf01cb3be2772a624d08edc78aabf9d041e05a9fccd3a5077f0400d25f6e9",
+      "bytes": 687
+    },
+    {
+      "path": "tools/player-animation-package-196/validation196-operands.json",
+      "sha256": "65c9f1d2165024305e18695fcf163916cd6471b50dd9e1d672317d8df538499c",
+      "bytes": 9177439
+    }
+  ]
+}

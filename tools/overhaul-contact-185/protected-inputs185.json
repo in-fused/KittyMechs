@@ -1,0 +1,81 @@
+{
+  "writer": "CLOSED",
+  "scope": "Exact retained inputs used; no asset/native/support/source164 mutations",
+  "files": [
+    {
+      "path": "src/game/entities/sourceCoordination164.ts",
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3203,
+      "sha256": "18044eb1dab2b6c66348eab0047862150c58886ff6e44e67f770a41a20fadfe1"
+    },
+    {
+      "path": "src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": "src/game/entities/felineMotion.ts",
+      "bytes": 16781,
+      "sha256": "23044cf553acd15ea074d354869175a42549b7535c2d231db58b8c2f08cedc8f"
+    },
+    {
+      "path": "src/game/entities/sourceCycle171.ts",
+      "bytes": 1660,
+      "sha256": "d4d72cd4baa55f48b3c650df3f780c48e60d4b9ae7182a53ee3d4de155d2d81b"
+    },
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    },
+    {
+      "path": "docs/overhaul/critic/integration184-actual-review.md",
+      "bytes": 4556,
+      "sha256": "6fa4a9dc8bf09029967885bf43d46d6a139e4e3362a2c66ed9a93d0448130c6f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/evidence.json",
+      "bytes": 71503,
+      "sha256": "720bb277166e858f717805a6d6d106cd9a8e893ef6629cec022e981a78a725e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/play184-public/off-forward.png",
+      "bytes": 940236,
+      "sha256": "fd89307c457629cec24071122a38a73865518110aae725b2b8b22fbdd89f2c22"
+    }
+  ]
+}

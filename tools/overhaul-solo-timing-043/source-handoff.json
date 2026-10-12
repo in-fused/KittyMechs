@@ -1,0 +1,99 @@
+{
+  "packet": "solo-timing-043",
+  "owner": "/root/extraction_structure_039",
+  "status": "FROZEN_WRITERS_CLOSED_SOURCE_ONLY_ROOT_VALIDATION_PENDING",
+  "sourceFrozenUTC": "2026-10-10T23:51:47.1864307Z",
+  "ownedPaths": [
+    "src/game/Session.tsx",
+    "src/game/GameCanvas.tsx",
+    "src/debug/diagnostics.ts",
+    "src/game/localAuthorityTiming043.ts",
+    "tests/local-authority-043.test.ts",
+    "docs/overhaul/solo-performance-043.md"
+  ],
+  "files": [
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5339,
+      "sha256": "403da521956553f73aeb92fe47adbab039f2c1aaa3adece43232fdde7d08fe9d"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 6898,
+      "sha256": "50fb2955b0ae01709bb85724249e75b248c49defb74388e4bdf28fd11daff007"
+    },
+    {
+      "path": "src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    },
+    {
+      "path": "src/game/localAuthorityTiming043.ts",
+      "bytes": 1634,
+      "sha256": "3029bf9b51c68e313b97d85eed8261f4adf26ae975a268465af78c6d84a5859d"
+    },
+    {
+      "path": "tests/local-authority-043.test.ts",
+      "bytes": 3832,
+      "sha256": "3aea4cccc79c40b42185cf2ef43dabb15e3b23d7c7acdc6e68f7901be76a1df7"
+    },
+    {
+      "path": "docs/overhaul/solo-performance-043.md",
+      "bytes": 2704,
+      "sha256": "da93cd5fca27b4078c7ef7a5c3aababeb17dd057b7521a49e4c7620e2d48096e"
+    }
+  ],
+  "preimages": [
+    {
+      "path": "tools\\overhaul-solo-timing-043\\Session.preimage.tsx",
+      "bytes": 4002,
+      "sha256": "1e973cca3d0aae317a683ff9d23a505234cba3baa45e9add223659aea961cb56"
+    },
+    {
+      "path": "tools\\overhaul-solo-timing-043\\GameCanvas.preimage.tsx",
+      "bytes": 6879,
+      "sha256": "b48724f9f0268398a1dfaea7146ba64788d20dca71b1d07b10962db54e6c5d51"
+    },
+    {
+      "path": "tools\\overhaul-solo-timing-043\\diagnostics.preimage.ts",
+      "bytes": 3688,
+      "sha256": "5cbc77b8cb821d549a978a96533648fbb81ffddd498c59641616d4de1e468a10"
+    }
+  ],
+  "baseline": "Immutable build034 receipt d5b9b69c52cf15c0a30feba19cf0f8b140a3ed8dcb432809ae8156857d89ebce; no042 motion/assets edits",
+  "profile": {
+    "path": ".sites-runtime/overhaul-20261010/player043-profile/cpu-profile.json",
+    "bytes": 279670,
+    "sha256": "e9b125556bf0bdc8182e401e2b875f6d159d57c76c4c87ed7edafbeae2090c85",
+    "finding": "Root CDP ~13.4sec profile: advanceStep~12.32sec; moveLocomotion~12.18sec; native KCC ~12.11sec. Catchup provider clamps .5sec then fixed1/60 drains ~30ticks/frame."
+  },
+  "change": "Local authority pauses provider automatic loop; Session public provider.step admits min(max(delta,0),2/60) at priority-2. Native1/60 accumulator, before/afterhooks, guarded world ownership, allNPC and collision queries unchanged. Remote guests preserve automatic loop.",
+  "tradeoff": "Overload discards excess wall elapsed time and slows local game clock; no native tick/action skipped within admitted interval. Not an underlying KCC query optimization or60FPS claim.",
+  "diagnostics": "window.kittyMechDebug.localAuthorityTiming() for debug=1: detached max240frames with native ticks, physicsMs/simulationMs/providerOtherMs, admitted and dropped wall seconds, cumulative droppedwalltime, generation, stage totals. ProviderOther is native+bookkeeping, not pure native attribution.",
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/local-authority-043.test.ts",
+    "tests/session-authority.test.ts",
+    "tests/physics-failure.test.ts",
+    "tests/arena-failure.test.ts"
+  ],
+  "rootBuildCommand": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "rootBrowserAcceptance": [
+    "One actual SoloLow public deployment on candidate afterfocusedtests/build",
+    "All13 actors retained; ordinarymovement+fire, prototypeon/off asrootusercase",
+    "Nativeframes atmost2ticks; actualFPS/framecost and droppedwallseconds recorded",
+    "Pause doesnotadvancesimulation; resume hasno catchupburst",
+    "Report remaining KCC cost and worldclock slowdown honestly"
+  ],
+  "jobsExecuted": [],
+  "implementationOrdinal": 1,
+  "implementationMaximum": 1,
+  "technicalRepairsUsed": 0,
+  "technicalRepairMaximum": 1
+}

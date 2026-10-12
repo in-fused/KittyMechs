@@ -1,0 +1,539 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "counts": {
+    "frames": 71,
+    "fulfilled": 71,
+    "touch": 103,
+    "release": 36,
+    "independentChecks": 12
+  },
+  "firstFailure": "AssertionError [ERR_ASSERTION]: RELEASE_ROTATION_DISCONTINUITY:HL_lower",
+  "maxFirstReleaseRawAngle": 0.0005666143110921966,
+  "maxLocalRawStepAngle": 0.08797347293835754,
+  "maxFulfilledSamePointError": 9.229378145691308e-08,
+  "maxIndependentMinDifference": 3.469446951953614e-18,
+  "lastCase": {
+    "name": "FelineWalk",
+    "direction": 1,
+    "i": 70,
+    "phase": 0.7291666666666665,
+    "stance": 0,
+    "root": [
+      0.7518398074789774,
+      0,
+      -0.6593458151000688,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0.6593458151000688,
+      0,
+      0.7518398074789774,
+      0,
+      0,
+      0.02,
+      -0.5752314814814818,
+      1
+    ]
+  },
+  "lastFeet": [
+    {
+      "limb": "FL",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.9791666666666665,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "FL",
+        "meshUUID": "8a409347-613d-4445-a568-7c716d6d7182",
+        "geometryUUID": "28d7e1e7-bc15-4553-b971-2b680fddb9bc",
+        "vertexIndex": 953,
+        "groupIndex": 8
+      },
+      "lease": null,
+      "anchor": [
+        0.4867868265783574,
+        -2.9183744754135432e-08,
+        -0.9968570730584935
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "eventClock": {
+        "events": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "q": 0.9791666666666665,
+            "role": "recovery",
+            "duty": 0.72,
+            "direction": 1,
+            "loadedRemaining": -0.25916666666666655,
+            "peakRemaining": -0.6191666666666665,
+            "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+          }
+        ],
+        "direction": 1,
+        "signedAdvance": 0.010416666666666666,
+        "advance": 0.010416666666666666,
+        "remainingLoaded": null,
+        "toLoadPeak": null,
+        "acquisitionPossible": false,
+        "recoveryIncrement": 0.037202380952380945,
+        "bodyLoadedIncrement": 0.014467592592592593,
+        "bodyUnloadedIncrement": 0.037202380952380945,
+        "discontinuous": false
+      },
+      "touchSpan": 0.10999999999999999,
+      "finalState": "release",
+      "recoveryProgress": 0.8928571428571425
+    },
+    {
+      "limb": "FR",
+      "state": "release",
+      "sourceLoaded": true,
+      "roles": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.4791666666666665,
+          "role": "stance"
+        }
+      ],
+      "reason": "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "FR",
+        "meshUUID": "8a409347-613d-4445-a568-7c716d6d7182",
+        "geometryUUID": "28d7e1e7-bc15-4553-b971-2b680fddb9bc",
+        "vertexIndex": 3686,
+        "groupIndex": 8
+      },
+      "lease": null,
+      "anchor": [
+        -0.2795839810523718,
+        5.827749394171633e-10,
+        -1.463126356167661
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "eventClock": {
+        "events": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "q": 0.4791666666666665,
+            "role": "stance",
+            "duty": 0.72,
+            "direction": 1,
+            "loadedRemaining": 0.24083333333333345,
+            "peakRemaining": -0.11916666666666653,
+            "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+          }
+        ],
+        "direction": 1,
+        "signedAdvance": 0.010416666666666666,
+        "advance": 0.010416666666666666,
+        "remainingLoaded": 0.24083333333333345,
+        "toLoadPeak": -0.11916666666666653,
+        "acquisitionPossible": false,
+        "recoveryIncrement": 0.037202380952380945,
+        "bodyLoadedIncrement": 0.014467592592592593,
+        "bodyUnloadedIncrement": 0.037202380952380945,
+        "discontinuous": false
+      },
+      "touchSpan": 0.36,
+      "finalState": "release",
+      "recoveryProgress": 0.2930832356389216,
+      "preRelease": {
+        "current": {
+          "limb": "FR",
+          "hip": [
+            -0.6001249829457485,
+            1.2024685329196976,
+            -0.9223281867600901
+          ],
+          "target": [
+            -0.3204557890588705,
+            0.13760037350761872,
+            -1.2680531447876129
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.09222773163350907,
+          "maximum": 1.3365282712932784,
+          "distance": 1.1539864823914259,
+          "admitted": true
+        },
+        "observedStepProjection": {
+          "limb": "FR",
+          "hip": [
+            -0.6001249829457485,
+            1.2024685329196976,
+            -0.9223281867600901
+          ],
+          "target": [
+            0.13838541719013547,
+            -0.011443236923226963,
+            -1.6806870830179945
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.09222773163350907,
+          "maximum": 1.3365282712932784,
+          "distance": 1.6106171524001447,
+          "admitted": false
+        },
+        "anchor": [
+          -0.2795839810523718,
+          5.827749394171633e-10,
+          -1.463126356167661
+        ],
+        "material": [
+          -0.6291217245464502,
+          0.019982076345145545,
+          -1.2823948019559956
+        ],
+        "phase": 0.625,
+        "roles": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "q": 0.375,
+            "role": "stance"
+          }
+        ],
+        "horizon": 33.12,
+        "clock": {
+          "events": [
+            {
+              "clip": "FelineWalk",
+              "weight": 1,
+              "q": 0.375,
+              "role": "stance",
+              "duty": 0.72,
+              "direction": 1,
+              "loadedRemaining": 0.345,
+              "peakRemaining": -0.015000000000000013,
+              "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+            }
+          ],
+          "direction": 1,
+          "signedAdvance": 0.010416666666666666,
+          "advance": 0.010416666666666666,
+          "remainingLoaded": 0.345,
+          "toLoadPeak": -0.015000000000000013,
+          "acquisitionPossible": false,
+          "recoveryIncrement": 0.037202380952380945,
+          "bodyLoadedIncrement": 0.014467592592592593,
+          "bodyUnloadedIncrement": 0.037202380952380945,
+          "discontinuous": false
+        }
+      }
+    },
+    {
+      "limb": "HL",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.7291666666666665,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "HL",
+        "meshUUID": "8a409347-613d-4445-a568-7c716d6d7182",
+        "geometryUUID": "28d7e1e7-bc15-4553-b971-2b680fddb9bc",
+        "vertexIndex": 6800,
+        "groupIndex": 12
+      },
+      "lease": null,
+      "anchor": [
+        0.4305610168408181,
+        2.0783212484332125e-08,
+        0.31723072095626287
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "eventClock": {
+        "events": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "q": 0.7291666666666665,
+            "role": "recovery",
+            "duty": 0.72,
+            "direction": 1,
+            "loadedRemaining": -0.009166666666666545,
+            "peakRemaining": -0.36916666666666653,
+            "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+          }
+        ],
+        "direction": 1,
+        "signedAdvance": 0.010416666666666666,
+        "advance": 0.010416666666666666,
+        "remainingLoaded": null,
+        "toLoadPeak": null,
+        "acquisitionPossible": false,
+        "recoveryIncrement": 0.037202380952380945,
+        "bodyLoadedIncrement": 0.014467592592592593,
+        "bodyUnloadedIncrement": 0.037202380952380945,
+        "discontinuous": false
+      },
+      "touchSpan": 0.36,
+      "finalState": "release",
+      "recoveryProgress": 0
+    },
+    {
+      "limb": "HR",
+      "state": "touch",
+      "sourceLoaded": true,
+      "roles": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.22916666666666652,
+          "role": "stance"
+        }
+      ],
+      "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+      "weight": 0.6997662213664713,
+      "materialPoint": {
+        "limb": "HR",
+        "meshUUID": "8a409347-613d-4445-a568-7c716d6d7182",
+        "geometryUUID": "28d7e1e7-bc15-4553-b971-2b680fddb9bc",
+        "vertexIndex": 9703,
+        "groupIndex": 12
+      },
+      "lease": {
+        "worldKey": "ground067-world:1",
+        "generation": 2,
+        "life": 1,
+        "ownerKey": "ground067-world:1:owner:1",
+        "colliderHandle": 0,
+        "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+      },
+      "anchor": [
+        -0.43276791243578583,
+        1.6597151430985946e-08,
+        -0.08259068245797163
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "eventClock": {
+        "events": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "q": 0.22916666666666652,
+            "role": "stance",
+            "duty": 0.72,
+            "direction": 1,
+            "loadedRemaining": 0.49083333333333345,
+            "peakRemaining": 0.13083333333333347,
+            "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+          }
+        ],
+        "direction": 1,
+        "signedAdvance": 0.010416666666666666,
+        "advance": 0.010416666666666666,
+        "remainingLoaded": 0.49083333333333345,
+        "toLoadPeak": 0.13083333333333347,
+        "acquisitionPossible": true,
+        "recoveryIncrement": 0.037202380952380945,
+        "bodyLoadedIncrement": 0.014467592592592593,
+        "bodyUnloadedIncrement": 0.037202380952380945,
+        "discontinuous": false
+      },
+      "touchSpan": 0.36,
+      "request": {
+        "limb": "HR",
+        "hip": [
+          0.12646759507783206,
+          1.0760107045976037,
+          0.11129475456249657
+        ],
+        "target": [
+          -0.24816823748495037,
+          0.13005332112593562,
+          -0.058642162162052314
+        ],
+        "third": [
+          -0.016865534127596227,
+          -0.18399995733235402,
+          -0.1512461458683318
+        ],
+        "minimum": 0.16491572619780498,
+        "maximum": 1.2468974948319882,
+        "distance": 0.8419786521085021,
+        "admitted": true
+      },
+      "hip": [
+        0.12646759507783206,
+        1.0760107045976037,
+        0.11129475456249657
+      ],
+      "ankle": [
+        -0.24782332342376745,
+        0.13717475237341048,
+        -0.021004844306633852
+      ],
+      "twoSegmentEndpoint": [
+        -0.23095778929617122,
+        0.3211747097057645,
+        0.13024130156169794
+      ],
+      "minimum": 0.16491572631652915,
+      "maximum": 1.2468974957296401,
+      "distance": 0.8353976635246533,
+      "third": [
+        -0.016865534127596227,
+        -0.18399995733235402,
+        -0.1512461458683318
+      ],
+      "pole": [
+        -0.2075479441103157,
+        0.7880335648359231,
+        -0.20550698007079796
+      ],
+      "iterationError": 1.2736467244256025e-08,
+      "samePointWorld": [
+        -0.3161108659157686,
+        0.011274512339633508,
+        -0.031745766277543774
+      ],
+      "samePointError": 0.12775439819597384,
+      "normalGap": 0.011274465822426936,
+      "samePointTangentialError": 0.12725593111587452,
+      "finalState": "touch",
+      "recoveryProgress": null
+    }
+  ],
+  "clocks": [
+    {
+      "limb": "FL",
+      "events": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.9791666666666665,
+          "role": "recovery",
+          "duty": 0.72,
+          "direction": 1,
+          "loadedRemaining": -0.25916666666666655,
+          "peakRemaining": -0.6191666666666665,
+          "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+        }
+      ],
+      "direction": 1,
+      "signedAdvance": 0.010416666666666666,
+      "advance": 0.010416666666666666,
+      "remainingLoaded": null,
+      "toLoadPeak": null,
+      "acquisitionPossible": false,
+      "recoveryIncrement": 0.037202380952380945,
+      "bodyLoadedIncrement": 0.014467592592592593,
+      "bodyUnloadedIncrement": 0.037202380952380945,
+      "discontinuous": false
+    },
+    {
+      "limb": "FR",
+      "events": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.4791666666666665,
+          "role": "stance",
+          "duty": 0.72,
+          "direction": 1,
+          "loadedRemaining": 0.24083333333333345,
+          "peakRemaining": -0.11916666666666653,
+          "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+        }
+      ],
+      "direction": 1,
+      "signedAdvance": 0.010416666666666666,
+      "advance": 0.010416666666666666,
+      "remainingLoaded": 0.24083333333333345,
+      "toLoadPeak": -0.11916666666666653,
+      "acquisitionPossible": false,
+      "recoveryIncrement": 0.037202380952380945,
+      "bodyLoadedIncrement": 0.014467592592592593,
+      "bodyUnloadedIncrement": 0.037202380952380945,
+      "discontinuous": false
+    },
+    {
+      "limb": "HL",
+      "events": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.7291666666666665,
+          "role": "recovery",
+          "duty": 0.72,
+          "direction": 1,
+          "loadedRemaining": -0.009166666666666545,
+          "peakRemaining": -0.36916666666666653,
+          "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+        }
+      ],
+      "direction": 1,
+      "signedAdvance": 0.010416666666666666,
+      "advance": 0.010416666666666666,
+      "remainingLoaded": null,
+      "toLoadPeak": null,
+      "acquisitionPossible": false,
+      "recoveryIncrement": 0.037202380952380945,
+      "bodyLoadedIncrement": 0.014467592592592593,
+      "bodyUnloadedIncrement": 0.037202380952380945,
+      "discontinuous": false
+    },
+    {
+      "limb": "HR",
+      "events": [
+        {
+          "clip": "FelineWalk",
+          "weight": 1,
+          "q": 0.22916666666666652,
+          "role": "stance",
+          "duty": 0.72,
+          "direction": 1,
+          "loadedRemaining": 0.49083333333333345,
+          "peakRemaining": 0.13083333333333347,
+          "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+        }
+      ],
+      "direction": 1,
+      "signedAdvance": 0.010416666666666666,
+      "advance": 0.010416666666666666,
+      "remainingLoaded": 0.49083333333333345,
+      "toLoadPeak": 0.13083333333333347,
+      "acquisitionPossible": true,
+      "recoveryIncrement": 0.037202380952380945,
+      "bodyLoadedIncrement": 0.014467592592592593,
+      "bodyUnloadedIncrement": 0.037202380952380945,
+      "discontinuous": false
+    }
+  ],
+  "limits": "raw Float32 quaternion angleTo assumes unit inputs; prior/current q operands were not retained, so true rotation discontinuity vs metric artifact unresolved. Later gait/R/support/critical cases UNREACHED."
+}

@@ -1,0 +1,7 @@
+{
+  "closedUTC": "2026-10-10T18:57:00.108407+00:00",
+  "status": "DENY_UNRUN",
+  "reason": "Independent preflight found duplicate const otherVisual in one useFrame scope. Exact rejected source preserved. No compiler/build/browser execution.",
+  "activeJobs": 0,
+  "successor": "016 literal deletion of second duplicate only; separate seal, same design, independent preflight pending."
+}

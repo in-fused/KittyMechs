@@ -1,0 +1,16 @@
+{
+  "scopeStartedUtc": "2026-10-10T19:25:26Z",
+  "startedUtc": "2026-10-10T19:33:36Z",
+  "closedUtc": "2026-10-10T19:35:10.4156254Z",
+  "verdict": "APPROVE_ONE_ROOT_SERIAL_SOURCE_ATTEMPT_ONLY",
+  "review": "docs/overhaul/critic/pounce-wholebody-source-018-code-review.md",
+  "reviewSha256": "73DFCAC6A03BCAEA2447117A2BF3ED7193102E00DF5F5915BE8D0E661774CCB7",
+  "sealSha256": "F30BB0E0AFA138D2FE30EE87629BCAE503E5D1963C69EC1BB27FE64FD2521819",
+  "matchedFrozenRows": 9,
+  "matchedProtectedRows": 9,
+  "erratum": "43_IMPORTED_EXPORTED_IDENTITIES_NOT_43_QUALIFIED_COMPLETE_STATES",
+  "criticJobs": 0,
+  "nativeAdmission": false,
+  "runtimeAdmission": false,
+  "gate1": "INCOMPLETE"
+}

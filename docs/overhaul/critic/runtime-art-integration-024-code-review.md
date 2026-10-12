@@ -1,0 +1,9 @@
+# Public capture024 — navigation observer boundary
+
+Independent exact-diff review19:47–19:47:46 UTC, closed within critic20:00 hard stop. APPROVE ONE new capture command using tools/overhaul-runtime-art-player-024.mjs on the already frozen027/matching8800 server. No new compile/build, runtime change,020 rerun or playable/quality approval follows.024 cleanup19:55/hard19:58 and first genuine failure stop remain mandatory.
+
+All8 seal rows match sealCE06A8BBAE7C83CE3155D8E6D06E9A5E7EC46CD176C8E2A29550201620CA672D. Script SHA8F1618D8972489733E860E9C03F9FEDC94CE25A491193FEADC4C8162830D5A66. Actual complete diff against preserved020 script changes output/scope and one numeric navigation branch: ordinary J/L steering now compares the numeric desired yaw with actual camera.movementYaw. Peer attack targeting continues to compare actor.aimYaw. Public actions, success predicates, time/threshold guards, readbacks, frame capture and failure preservation are unchanged.
+
+This is justified by020's actual held-W movementYaw−1.60626 and failed low-speed upright route; numeric weapon ray alignment did not establish navigation alignment. The observer correction changes which public steering keys are issued and may alter the route; it does not prove a particular obstacle caused020 or hide that failed run. No pose/input injection, warp, native tolerance, geometry or animation change occurs.
+
+The stage runner refuses existing stage outputs and has a180s external capture timeout with tree termination. Author claims remain contingent on actual result: empty diagnostics, wrong source identity, errors or missing requested outcomes must fail. Changed camera/route and any new screenshots must remain attributed024, never merged into020 completion. Finished gait/pin contact/art, climb/full lifecycle and Gate1 remain denied or unqualified.

@@ -1,0 +1,49 @@
+{
+  "syntax": [
+    {
+      "exitCode": 0,
+      "path": "controller.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "exposure-search.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "geometry-source.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "lifecycle-adapter.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "mission-capture.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "planner.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "planning-read.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "squad-stage.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "staging.test.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "terrain-base.mjs"
+    },
+    {
+      "exitCode": 0,
+      "path": "vitest.config.mjs"
+    }
+  ],
+  "oldSealRowsMismatch": []
+}

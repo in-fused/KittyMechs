@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-moving-r-support-068/close.py",
+      "bytes": 886,
+      "sha256": "690872e051f167b69a53a53b4ccfc7024bc4535613fff7173171e3fb4335d346"
+    },
+    {
+      "path": "tools/overhaul-moving-r-support-068/test-seal.json",
+      "bytes": 4500,
+      "sha256": "d8e78b1c83545ae6afca4698a9852c4d9781dd14e131440408530bc3eedba726"
+    },
+    {
+      "path": "docs/overhaul/critic/moving-r-support-068-source-review.md",
+      "bytes": 1413,
+      "sha256": "2beb2fa74e2d20aca279bfca03d541abc8e938c6c9a5f2ca401d28d3badf8b16"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-provider-tests/process-receipt.json",
+      "bytes": 2653,
+      "sha256": "31771c3efd303c7029305224503b48f97551ee31dbc365d0de7c5e08545cdb94"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r067-provider-tests/stdout.txt",
+      "bytes": 1160,
+      "sha256": "014d73bd7c98d242c3829f2fd12a17768aeaf289175cfc0750f79c25d2716646"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r068-provider-tests/process-receipt.json",
+      "bytes": 2883,
+      "sha256": "783dfdc1f8d12937a19a90f1b50176b982e901a23cd663e90d4bb7acb9f7ec13"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/moving-r068-provider-tests/stdout.txt",
+      "bytes": 229,
+      "sha256": "abbbe3ee1865073912f2f4d6d795576251e3fc0f5a314799b125cf21f961738b"
+    }
+  ],
+  "scope": "Preserved0670-test importfailure and ONE068 actualfixedsupport fixture. No runtime/controller/renderedmovement admission."
+}

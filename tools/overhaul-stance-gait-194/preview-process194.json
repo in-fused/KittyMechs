@@ -1,0 +1,19 @@
+{
+  "job": "preview",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-stance-gait-194\\preview194.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T19:11:28.808888+00:00",
+  "pid": 366564,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 23.25,
+  "closedUTC": "2026-10-11T19:11:52.061770+00:00"
+}

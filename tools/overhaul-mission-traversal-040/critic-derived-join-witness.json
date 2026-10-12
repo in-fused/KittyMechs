@@ -1,0 +1,17 @@
+{
+  "scope": "DERIVED_READ_ONLY_HASH_RECONCILIATION_NOT_A_SECOND_RUN",
+  "room": "2BC2FF",
+  "tick": 652,
+  "time": 10.866666666666786,
+  "rawGuestSource": ".sites-runtime/overhaul-20261010/mission-traversal-040-public/native-keyframes.json",
+  "guestCanonicalSHA256": "a9552411ffa101516d95744c8d4240b4ae42918209541c2059201777a730d6f1",
+  "recordedGuestSHA256": "a9552411ffa101516d95744c8d4240b4ae42918209541c2059201777a730d6f1",
+  "derivedOperation": "Clone retained guest652 shared state; remove only actor id1299d100-1960-473e-95c3-aa728b185980 (MissionGuest); retain every other field/array order/value; recursively sort keys using frozen capture selector and hash JSON.stringify output.",
+  "derivedWithoutGuestWorldSHA256": "7f2b1b3a5d98aef7f0d204fb8b892f94dd7235709e88bdb17e0c6a116e75b558",
+  "recordedHostWorldSHA256": "7f2b1b3a5d98aef7f0d204fb8b892f94dd7235709e88bdb17e0c6a116e75b558",
+  "derivedWithoutGuestActorsSHA256": "e88c29ee84bee0ccc4a051ef95c52dcafde18ba12c5c9f9c9b7e56f21de511d4",
+  "recordedHostActorsSHA256": "e88c29ee84bee0ccc4a051ef95c52dcafde18ba12c5c9f9c9b7e56f21de511d4",
+  "worldEqualsRecordedHostHash": true,
+  "actorsEqualRecordedHostHash": true,
+  "limit": "Host652 full snapshot was not retained as a keyframe. This is a derived reconciliation against its recorded canonical hash, not a readback of two raw full snapshots or a proof of exact transport scheduling."
+}

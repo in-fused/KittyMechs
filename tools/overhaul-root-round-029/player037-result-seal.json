@@ -1,0 +1,76 @@
+{
+  "closedUTC": "2026-10-10T21:56:45.385140+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-037/evidence.json",
+      "bytes": 7755642,
+      "sha256": "c3d7a50781c67ad63f6fc3295e3f3a73fdd06d3cee67f41d6739e78b8fb6868e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-037/page@a57930a696f87584edb67c50787ee5f8.webm",
+      "bytes": 7482879,
+      "sha256": "cc2d8b65654fe9334f01a0c946b5d304addbba671f80bd92cce1ac15c59df0a2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-037/progress.json",
+      "bytes": 7738850,
+      "sha256": "0db60c70d69117c8bf218ca260b9413ff4d6f85abd274454a85472dc099a8d19"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-037/receipt.json",
+      "bytes": 1037,
+      "sha256": "d0c16b106fbf6719ad40a90b70b5b68036ec9ce58968b6b09ef42046a0b3457a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-037/stdout.txt",
+      "bytes": 3023,
+      "sha256": "b6b160a83bb2d9a7707357c668d11dbbafbe7a17c8ef66835204de3a6940ab81"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-037/video-01.png",
+      "bytes": 10708612,
+      "sha256": "db297c2d35cd5f4427147a9f46e90c8ea9cb3eb49768acc203b580bfc96eb0ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-037/video-02.png",
+      "bytes": 7528843,
+      "sha256": "2c8bc1aa6f4f35768cf68c5e44a12cfb315026573fc2eb5e6799d572b9a8a76b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-test-process/process-receipt.json",
+      "bytes": 7114,
+      "sha256": "08e33df3e63751f68b2dccb8803aa175a9ffbb56d87efd8a5fbcc423943405e0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-test-process/stdout.txt",
+      "bytes": 235,
+      "sha256": "21f3eef6c1052df96a40c276ec91b6ca996a6e3d9e6640bc7959b60a4d266048"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-build-process/process-receipt.json",
+      "bytes": 6782,
+      "sha256": "42d223abdb84e7ead5537ea2c051045c7d2bdb34f6dbac7d4fa2c9b163b63e59"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "d010a032a8263c0fabd726f1533de0338e313b76c2e19b7af12465cf23188126"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-capture-process/process-receipt.json",
+      "bytes": 6785,
+      "sha256": "30621206ba1813f81dcbfba94a8b29407b366b6c30699831f0dbbe3b75c2869e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player037-capture-process/stdout.txt",
+      "bytes": 941,
+      "sha256": "360c17bd60002f5afccb448efcd66c1441f6851b111f231cde8edd3290258bf5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-030/receipt.json",
+      "bytes": 70065,
+      "sha256": "534c36c78a17b1f7315e4bb36a62ca6bb048dead5f80aa0d7bb64b3d49b44c08"
+    }
+  ],
+  "scope": "Actual037 validation/build/fullcapture and originalvideo2Hzderivatives; independentqualityverdictpending"
+}

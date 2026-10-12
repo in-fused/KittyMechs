@@ -1,0 +1,198 @@
+{
+  "writer": "CLOSED",
+  "scope": "Retained assets only, authored flat source-floor, FK pivot tangential proxy, no native support/contact certification",
+  "rows": [
+    {
+      "rig": "OFF25",
+      "clip": "FelineWalk",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 0.8228571428571428,
+      "endpointDriftCm": [
+        -0.5785702470863407,
+        -0.30606527077401413
+      ],
+      "maximumInteriorPivotDriftCm": 0.3435166207005569,
+      "wholePadSourceFloorCm": [
+        2.7643228180651125,
+        3.3658612566056068
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "clip": "FelineTrot",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 1.6,
+      "endpointDriftCm": [
+        -1.2777760106209346,
+        -1.0396784560386063
+      ],
+      "maximumInteriorPivotDriftCm": 1.0658134089633453,
+      "wholePadSourceFloorCm": [
+        2.72931038023152,
+        3.779056609207032
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "clip": "FelineGallop",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 3.0181818181818185,
+      "endpointDriftCm": [
+        -5.037075451481576,
+        -1.7390892872188146
+      ],
+      "maximumInteriorPivotDriftCm": 2.7050001421107472,
+      "wholePadSourceFloorCm": [
+        2.3220586752931593,
+        6.061478626606098
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "clip": "FelineUprightWalkLong",
+      "limbs": [
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 1.3142857142857143,
+      "endpointDriftCm": [
+        -0.11944298848511892,
+        -0.11943874825072198
+      ],
+      "maximumInteriorPivotDriftCm": 0.0011662828521497026,
+      "wholePadSourceFloorCm": [
+        2.76119304047846,
+        2.807112333475259
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "clip": "FelineUprightStride",
+      "limbs": [
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 2.0771929824561406,
+      "endpointDriftCm": [
+        -0.042028472479996304,
+        -0.04200616945124469
+      ],
+      "maximumInteriorPivotDriftCm": 0.004698455327825646,
+      "wholePadSourceFloorCm": [
+        2.7386085064172505,
+        2.7662200476388676
+      ]
+    },
+    {
+      "rig": "ON57",
+      "clip": "FelineWalk",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 0.7777777187880921,
+      "endpointDriftCm": [
+        -0.017959103095777085,
+        -0.015615129881974
+      ],
+      "maximumInteriorPivotDriftCm": 0.0013870440238761272,
+      "wholePadSourceFloorCm": [
+        -0.1726245553656529,
+        2.2560566296065902e-05
+      ]
+    },
+    {
+      "rig": "ON57",
+      "clip": "FelineTrot",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 1.3548383374834434,
+      "endpointDriftCm": [
+        -0.09966600273285664,
+        -0.08548496068812028
+      ],
+      "maximumInteriorPivotDriftCm": 0.1216926351375408,
+      "wholePadSourceFloorCm": [
+        -0.5151698181816402,
+        -3.912749533745132e-05
+      ]
+    },
+    {
+      "rig": "ON57",
+      "clip": "FelineGallop",
+      "limbs": [
+        "FL",
+        "FR",
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 2.4358982851473603,
+      "endpointDriftCm": [
+        -0.18511601169851066,
+        -0.12074499479890477
+      ],
+      "maximumInteriorPivotDriftCm": 0.19564078434571308,
+      "wholePadSourceFloorCm": [
+        -0.4510423521229207,
+        2.6351021205558254e-05
+      ]
+    },
+    {
+      "rig": "ON57",
+      "clip": "FelineUprightWalkLong",
+      "limbs": [
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 1.0624996068891175,
+      "endpointDriftCm": [
+        -0.01671659619371102,
+        -0.016698837792955556
+      ],
+      "maximumInteriorPivotDriftCm": 0.00989237128024012,
+      "wholePadSourceFloorCm": [
+        -0.04925438055530143,
+        1.571005048009816e-05
+      ]
+    },
+    {
+      "rig": "ON57",
+      "clip": "FelineUprightStride",
+      "limbs": [
+        "HL",
+        "HR"
+      ],
+      "nativeDistancePerCycle": 2.1533341443921303,
+      "endpointDriftCm": [
+        -0.09169256556972039,
+        -0.09168877102471856
+      ],
+      "maximumInteriorPivotDriftCm": 0.06495040678538844,
+      "wholePadSourceFloorCm": [
+        -0.7295195769231697,
+        5.773884751497897e-06
+      ]
+    }
+  ]
+}

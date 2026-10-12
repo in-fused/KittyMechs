@@ -1,0 +1,110 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "docs/overhaul/coop116-causal-diagnosis.md",
+      "bytes": 5868,
+      "sha256": "587253168f1345993b95c3f16520a335294cac608f446c208514421f4f787196"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/mission-capture.mjs",
+      "bytes": 44760,
+      "sha256": "149155f4a3dd8b3e0c5258ff5260e599bf12dde615dc8eba4fb1e247bf63b756"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": "shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": "shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": "shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/receipt.json",
+      "bytes": 74687,
+      "sha256": "240028ed01ae67d4c0e391aea2a221106dd507883815e47ec076be23243e6fb0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop116-public/evidence.json",
+      "bytes": 6093690,
+      "sha256": "2146bff1ecff3c97a99945f3bbf7338e2b6f354d6dac77d6fdfd7b36c2875466"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop116-public/native-keyframes.json",
+      "bytes": 6429352,
+      "sha256": "131138254d1f5b9ea58fe66afe20aa2a489a5f5b44265f06da4b4973b0abea36"
+    }
+  ]
+}

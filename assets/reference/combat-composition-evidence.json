@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Pounce",
+    "scale": 0.8,
+    "samples": 512,
+    "quad": {
+      "coreRadius": 1.7605167904380388,
+      "coreHeight": 2.2097666263580322,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 1.464255642883077,
+      "coreHeight": 3.1863696575164795,
+      "radiusCase": [
+        "Walk",
+        0.25,
+        "Missile",
+        0.2
+      ],
+      "heightCase": [
+        "Idle",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Bastion",
+    "scale": 0.95,
+    "samples": 512,
+    "quad": {
+      "coreRadius": 1.8651459080405106,
+      "coreHeight": 2.4121153354644775,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 1.6898779072571097,
+      "coreHeight": 3.1883325576782227,
+      "radiusCase": [
+        "Walk",
+        0.25,
+        "Missile",
+        0.2
+      ],
+      "heightCase": [
+        "Idle",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Lynx",
+    "scale": 0.76,
+    "samples": 512,
+    "quad": {
+      "coreRadius": 1.6453884551983522,
+      "coreHeight": 2.382575035095215,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 1.4616141014377717,
+      "coreHeight": 3.114370822906494,
+      "radiusCase": [
+        "Walk",
+        0.25,
+        "Missile",
+        0.2
+      ],
+      "heightCase": [
+        "Idle",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Caracal",
+    "scale": 0.84,
+    "samples": 512,
+    "quad": {
+      "coreRadius": 1.6694890067244672,
+      "coreHeight": 2.5351243019104004,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 1.6439805406538228,
+      "coreHeight": 3.283235788345337,
+      "radiusCase": [
+        "Walk",
+        0.25,
+        "Missile",
+        0.2
+      ],
+      "heightCase": [
+        "Idle",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Sentinel_Scout",
+    "scale": 0.65,
+    "samples": 320,
+    "quad": {
+      "coreRadius": 1.428350059199288,
+      "coreHeight": 1.946162223815918,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 0,
+      "coreHeight": 0
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Sentinel_Mortar",
+    "scale": 0.8,
+    "samples": 320,
+    "quad": {
+      "coreRadius": 1.756460435005271,
+      "coreHeight": 2.3480169773101807,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 0,
+      "coreHeight": 0
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  },
+  {
+    "name": "Sentinel_Anchor",
+    "scale": 1.05,
+    "samples": 320,
+    "quad": {
+      "coreRadius": 2.1834348281684144,
+      "coreHeight": 2.807661533355713,
+      "radiusCase": [
+        "Gallop",
+        0.25,
+        "Pulse",
+        0.6
+      ],
+      "heightCase": [
+        "Gallop",
+        0.75,
+        "Pulse",
+        0.6
+      ]
+    },
+    "upright": {
+      "coreRadius": 0,
+      "coreHeight": 0
+    },
+    "method": "local-pose additive quaternion inverse(reference)*action, applied after base; full weight, source-tagged core armor; no post-animation aim or IK"
+  }
+]

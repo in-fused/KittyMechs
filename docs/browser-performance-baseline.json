@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-03T19:08:42.976Z",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 57,
+      "calls": 170,
+      "triangles": 813760,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 57,
+      "calls": 170,
+      "triangles": 813760,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 57,
+      "calls": 171,
+      "triangles": 813780,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 57,
+      "calls": 171,
+      "triangles": 813780,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 55,
+      "calls": 171,
+      "triangles": 813780,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 55,
+      "calls": 171,
+      "triangles": 813780,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 56,
+      "calls": 172,
+      "triangles": 813900,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 56,
+      "calls": 172,
+      "triangles": 813900,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 57,
+      "calls": 171,
+      "triangles": 813880,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    },
+    {
+      "fps": 57,
+      "calls": 171,
+      "triangles": 813880,
+      "geometries": 124,
+      "textures": 26,
+      "chunks": 9,
+      "bodies": 277
+    }
+  ],
+  "errors": [],
+  "note": "Short local sample, not a hardware qualification or long-session frame-time test."
+}

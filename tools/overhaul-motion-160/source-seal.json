@@ -1,0 +1,96 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "files": [
+    {
+      "path": "tools/overhaul-motion-160/exact-selected-poses160.json",
+      "bytes": 150382,
+      "sha256": "964355468fcf531d1234b818e9141248827d51e51b0416dff37b89b8b52ea73c"
+    },
+    {
+      "path": "tools/overhaul-motion-160/first-exact-selected-poses160.json",
+      "bytes": 192217,
+      "sha256": "e67d42fd93fe8df2b48f57289613c40d5c2502196405538e8fd21d8b6a935dfa"
+    },
+    {
+      "path": "tools/overhaul-motion-160/first-reconstruct-receipt160.txt",
+      "bytes": 8560,
+      "sha256": "26d1d595b257203825e65359ed3fe802049ce9c0c865f4bb8a6e6582b90b03d1"
+    },
+    {
+      "path": "tools/overhaul-motion-160/first-reconstruct160.mts",
+      "bytes": 7762,
+      "sha256": "a3e3123b0bb53d994ff9a3a1fae88fc840751f33eb06928587d59069656aef43"
+    },
+    {
+      "path": "tools/overhaul-motion-160/first-reconstructed160.json",
+      "bytes": 80092,
+      "sha256": "6f832db9aeaf272446d3d1af142ffec491bd1aaccfffbe51fbbd452a8d2f22d0"
+    },
+    {
+      "path": "tools/overhaul-motion-160/HANDOFF.md",
+      "bytes": 6810,
+      "sha256": "76390064101885580c98576728590864c805c62fc29d0b1005bcf8101e723fed"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/Actors.tsx",
+      "bytes": 49764,
+      "sha256": "28f71409af7a25be5d4cc8d76b06b03bc4fb2a4e530883a31fe2bc215206df45"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/Identity57Runtime005.ts",
+      "bytes": 20613,
+      "sha256": "ad8dfbfd6ea2ff15f76eaa53558f6e191c0b19d493c4231795455557850eeaab"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4741,
+      "sha256": "a0b0df85f17ddf64c15f80ac5c25b5ee5f415da15645e6f356c26e68e5f9444d"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/publicFelinePrototype008.ts",
+      "bytes": 2848,
+      "sha256": "9f77bafe483baabcf27072ef0e54f5e88c3f6578be9befd143b9a683044e1df6"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/sourceCoordination155.ts",
+      "bytes": 8349,
+      "sha256": "6707cdbe81a288cea85f63a057881dc1d470ff100f92c4e1a49e584e5e0562dc"
+    },
+    {
+      "path": "tools/overhaul-motion-160/preimages/sourcePresentation154.ts",
+      "bytes": 3318,
+      "sha256": "72b3c344236b1e65ae9c960b7dc04ac2f60094277b2270cd5ab96ec3bdfdfb5d"
+    },
+    {
+      "path": "tools/overhaul-motion-160/protected-inputs160.json",
+      "bytes": 5201,
+      "sha256": "14c92c2a36bdfcb0bda9c1fc9c5d35b3ba2d6d5666a15f5afde3c9389303f613"
+    },
+    {
+      "path": "tools/overhaul-motion-160/reconstruct-receipt160.txt",
+      "bytes": 480,
+      "sha256": "ca62966a458fac0b83ba51a7d34c97cfdc07abe167bf9e7bc5c383b064a1fcaf"
+    },
+    {
+      "path": "tools/overhaul-motion-160/reconstruct160.mts",
+      "bytes": 9362,
+      "sha256": "82dd41785aa1ee8a2b43bd6d40d5013699348d4206530b872d06070de757b248"
+    },
+    {
+      "path": "tools/overhaul-motion-160/reconstructed160.json",
+      "bytes": 80092,
+      "sha256": "6f832db9aeaf272446d3d1af142ffec491bd1aaccfffbe51fbbd452a8d2f22d0"
+    },
+    {
+      "path": "tools/overhaul-motion-160/terminal-receipts160.json",
+      "bytes": 1128,
+      "sha256": "c2bdfd26d67472c8576d4275058a4deaf537d9db1269f1926f203776a5e287d4"
+    },
+    {
+      "path": "assets/source/overhaul-motion-160/README.md",
+      "bytes": 726,
+      "sha256": "61b43e58bb3ccea3a8b20495996fe417880eb832582dcc9628f765fcaf091d73"
+    }
+  ]
+}

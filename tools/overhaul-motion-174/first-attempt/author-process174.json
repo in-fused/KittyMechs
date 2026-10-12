@@ -1,0 +1,17 @@
+{
+  "job": "author",
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-motion-174\\author174.py"
+  ],
+  "capSeconds": 180,
+  "startedUTC": "2026-10-11T16:36:55.768523+00:00",
+  "pid": 358284,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 64.125,
+  "closedUTC": "2026-10-11T16:37:59.890672+00:00"
+}

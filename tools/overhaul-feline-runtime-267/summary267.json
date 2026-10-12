@@ -1,0 +1,100 @@
+{
+  "status": "PASS_NUMERIC_COMPOSITION_ONLY",
+  "scope": "actual264 decoded numeric skin/chain composition with constructed native-distance trajectories/fixed Rapier surface, not actual browser/native ACK/art/quality",
+  "frames": 657,
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "direction": 1,
+      "frames": 48,
+      "fulfilled": 12
+    },
+    {
+      "name": "FelineWalk",
+      "direction": -1,
+      "frames": 48,
+      "fulfilled": 10
+    },
+    {
+      "name": "FelineTrot",
+      "direction": 1,
+      "frames": 48,
+      "fulfilled": 0
+    },
+    {
+      "name": "FelineTrot",
+      "direction": -1,
+      "frames": 48,
+      "fulfilled": 3
+    },
+    {
+      "name": "FelineGallop",
+      "direction": 1,
+      "frames": 48,
+      "fulfilled": 1
+    },
+    {
+      "name": "FelineGallop",
+      "direction": -1,
+      "frames": 48,
+      "fulfilled": 2
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": 1,
+      "frames": 48,
+      "fulfilled": 0
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "direction": -1,
+      "frames": 48,
+      "fulfilled": 3
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": 1,
+      "frames": 48,
+      "fulfilled": 0
+    },
+    {
+      "name": "FelineUprightStride",
+      "direction": -1,
+      "frames": 48,
+      "fulfilled": 1
+    },
+    {
+      "name": "MOVING_R",
+      "direction": 1,
+      "frames": 48,
+      "unloadedFore": 95
+    },
+    {
+      "name": "MOVING_R",
+      "direction": -1,
+      "frames": 48,
+      "unloadedFore": 95
+    },
+    {
+      "name": "IDLE_STOP_REVERSE_R_INTERRUPTION",
+      "frames": 80
+    }
+  ],
+  "schedule": {
+    "samples": 1569,
+    "hits": 15
+  },
+  "maxScheduleOrientationDifference": 5.960464477539063e-08,
+  "maxIndependentPadError": 4.440892098500626e-16,
+  "maxFrameOrientationChange": 0.18020780533291594,
+  "failure": null,
+  "pairedSchedulingCostMs": {
+    "samples": 480,
+    "baselineMedian": 1.0248999999998887,
+    "candidateMedian": 0.9358000000000857,
+    "pairedMedianDifference": 0.09509999999977481,
+    "baselineP95": 1.6574000000000524,
+    "candidateP95": 1.5597999999999956,
+    "scope": "first480 same264 gait frames WITHOUT preparation request; fixed order baseline then candidate, nonisolated, not actual owner/human FPS"
+  }
+}

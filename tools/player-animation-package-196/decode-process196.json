@@ -1,0 +1,12 @@
+{
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools\\player-animation-package-196\\decode196.mts"
+  ],
+  "pid": 366424,
+  "capSeconds": 30,
+  "elapsedSeconds": 1.9015617000404745,
+  "exitCode": 1,
+  "status": "TERMINAL"
+}

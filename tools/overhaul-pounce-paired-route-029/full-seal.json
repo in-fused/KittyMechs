@@ -1,0 +1,73 @@
+{
+  "startUTC": "2026-10-10T20:38:32Z",
+  "frozenUTC": "2026-10-10T20:51:50.2072134Z",
+  "cleanupUTC": "2026-10-10T21:10:00Z",
+  "nativeRuntimeArt": "UNQUALIFIED",
+  "hardUTC": "2026-10-10T21:13:00Z",
+  "schema": "paired-route029-full-author-seal",
+  "execution": "ONE_ROOT_SERIAL_AFTER_PREFLIGHT_ONLY",
+  "maxInclusiveSeconds": 300,
+  "files": [
+    {
+      "sha256": "2575ad799e65656f27cdb12b4033335300b255f222e6b5ca6c097420c6e5e328",
+      "path": "assets/source/overhaul-pounce-paired-route-029/author.py",
+      "bytes": 22127
+    },
+    {
+      "sha256": "232163063af573a7af818439c862bfce4b06dd665ebb22b35321e55117d6e10d",
+      "path": "assets/source/overhaul-pounce-paired-route-029/source_helpers.py",
+      "bytes": 29035
+    },
+    {
+      "sha256": "558851547da4fc4d0b1007d476821240a8a8c3fbe003859f82ab74beb2a522cb",
+      "path": "assets/source/overhaul-pounce-paired-route-029/wholebody_choreography.py",
+      "bytes": 13432
+    },
+    {
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "path": "assets/source/overhaul-pounce-paired-route-029/single_pose_owner.py",
+      "bytes": 2631
+    },
+    {
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "path": "tools/overhaul-pounce-paired-route-029/actual004-capability-allowlist.json",
+      "bytes": 1028
+    },
+    {
+      "sha256": "3a523c5840892e40e76ac3d0e6a0225d62a2d407a63ffca292b4ee3dd9568fa9",
+      "path": "tools/overhaul-pounce-paired-route-029/full-protected-inputs.json",
+      "bytes": 26580
+    },
+    {
+      "sha256": "4c82f40acf1112f1455b6ce0a6e78ff278e7091c40f8c4e6d3db4acde7cc1a87",
+      "path": "tools/overhaul-pounce-paired-route-029/full-preparation-verification.json",
+      "bytes": 15280
+    },
+    {
+      "sha256": "fd9fb3fd862b9ba98b477a4b3c9d29194baadc4b7e1ad903239e73c0a20aceeb",
+      "path": "tools/overhaul-pounce-paired-route-029/author-exact-diff.patch",
+      "bytes": 16542
+    },
+    {
+      "sha256": "c51f39aa2377aaca913843490d768a71d93095df95e338c9b63482a890a03827",
+      "path": "tools/overhaul-pounce-paired-route-029/choreography-exact-diff.patch",
+      "bytes": 7519
+    },
+    {
+      "sha256": "82d3261da733a2ee4329fa8d120f7eb7a26b5c143a6008fd6ce39694a31d5d91",
+      "path": "tools/overhaul-pounce-paired-route-029/full-exact-diff.json",
+      "bytes": 1400
+    },
+    {
+      "sha256": "f6a86f9f28dc37f5a6143252255cac18e9597522c74323035508c2a5812f2e24",
+      "path": "tools/overhaul-pounce-paired-route-029/full-command.ps1",
+      "bytes": 423
+    },
+    {
+      "sha256": "21e03a228e692ab418ac533b4b5f9747c677ae00c30d65a653f1ffeac546423c",
+      "path": "docs/overhaul/pounce-paired-route-029.md",
+      "bytes": 3940
+    }
+  ],
+  "protectedCount": 126
+}

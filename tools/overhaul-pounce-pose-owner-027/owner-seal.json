@@ -1,0 +1,33 @@
+{
+  "hardDeadlineUTC": "2026-10-10T20:42:00Z",
+  "frozenUTC": "2026-10-10T20:17:27.5871425Z",
+  "schema": "singlewriter027-threeclock-seal",
+  "files": [
+    {
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "bytes": 2631
+    },
+    {
+      "sha256": "c3ec9104fe261ef07f0d97cd59b2c4a6d2090ad4ee089eb0f4a89c1ded766c1c",
+      "path": "assets/source/overhaul-pounce-pose-owner-027/owner_validation.py",
+      "bytes": 11542
+    },
+    {
+      "sha256": "cb3ae0001011fc8052af068ab98b038147be6b4ee3fa627b386f073345608efb",
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-protected-inputs.json",
+      "bytes": 11893
+    },
+    {
+      "sha256": "e91bbc997ea3bf6554f1a1973c9a23d21f082496da57fd1f0b754e1faddb46e0",
+      "path": "tools/overhaul-pounce-pose-owner-027/owner-command.ps1",
+      "bytes": 358
+    },
+    {
+      "sha256": "847ab18a2e7aeb1756a04a7906e58cbf95bb831b832f6710d99c7db0371fa150",
+      "path": "docs/overhaul/pounce-pose-owner-027-single-writer.md",
+      "bytes": 2864
+    }
+  ],
+  "externalCapSeconds": 60
+}

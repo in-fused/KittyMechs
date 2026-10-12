@@ -1,0 +1,92 @@
+{
+  "checkedUTC": "2026-10-10T19:14:33.0399159Z",
+  "allMatch": true,
+  "protected": [
+    {
+      "matches": true,
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "bytes": 20304,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "aefb262b589571816f3b6a09e1b87dac773d08ee0c988b30ec68855a0b762f88",
+      "bytes": 29108,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "bytes": 75210396,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend"
+    },
+    {
+      "matches": true,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "bytes": 3313800,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    },
+    {
+      "matches": true,
+      "sha256": "851a977ae9d3d0ab20b0f804c5cda8f6956a9ddba7979ed566c7a140ef7b88de",
+      "bytes": 310556,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source-profile.json"
+    },
+    {
+      "matches": true,
+      "sha256": "8636c14aad432356a970f461896d82d65a5fb75c005a6c997631eb5a978ea202",
+      "bytes": 11251,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json"
+    },
+    {
+      "matches": true,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "bytes": 3313800,
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb"
+    }
+  ],
+  "frozenSource": [
+    {
+      "matches": true,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "bytes": 28647,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "bytes": 29034,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "bytes": 20304,
+      "path": "tools/overhaul-pounce-body-contact-source-014/preimages/source004.author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "aefb262b589571816f3b6a09e1b87dac773d08ee0c988b30ec68855a0b762f88",
+      "bytes": 29108,
+      "path": "tools/overhaul-pounce-body-contact-source-014/preimages/source004.source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "04faaf7e49cc1ab894991f7628c6b3e9196f9e9b05f18b8d8963d4be93ba6a2d",
+      "bytes": 1633,
+      "path": "tools/overhaul-pounce-body-contact-source-014/protected-inputs.json"
+    },
+    {
+      "matches": true,
+      "sha256": "f14fcaf917213fbd7a497dbaac4208b12dbca49d7d23c928767d9b2ef22aa66f",
+      "bytes": 254,
+      "path": "tools/overhaul-pounce-body-contact-source-014/command.ps1"
+    },
+    {
+      "matches": true,
+      "sha256": "6d269ce906937b71491b9359c9099c47c0aa88408db36ff528f0cce0100e4700",
+      "bytes": 4894,
+      "path": "docs/overhaul/pounce-body-contact-source-014.md"
+    }
+  ]
+}

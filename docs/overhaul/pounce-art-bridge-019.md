@@ -1,0 +1,27 @@
+# Art bridge019 — detailed geometry with actual43 retained actions
+
+Actual start2026-10-10 19:21:51UTC. Freeze aim19:40/cleanup19:46/hard19:49. New source/tool/runtime namespace only; checkpoint0268799, old004/014 assets and shared/runtime consumers remain unchanged. No source018 choreography duplication or motion/native/art promotion.
+
+One recipe: open original `Pounce_IdentityAnimation004.blend`; retain exactly the43 action names actually present in original004 rawGLB; remove incomplete/unexported actions only in this new in-memory copy. Preserve all57 rest matrices/parents/lengths and actual rig object world matrix. Invoke exactly the frozen014 `improve_body` function extracted by AST, never014's scene/job entry. This replaces its explicitly declared limb/hip surfaces and roughness separation exactly once. No new geometry/offset/weight/pose search. Bone names and rig name stay intact. The new editable master has original retained actions; no newly authored pair/down choreography.
+
+Copy source014 helpers to owned019 with only output mesh/file names changed. Regenerate actual new source-part offsets,20 explicit sole mappings, all weight slots/UV/material ownership, actual geometry/profile/rest evidence. New palette stays FelinePBR_. Three actual neutral views full/paw/sole are preserved before exporter/readback. A failure saves actual pose/geometry and a new failure master where possible. Imported helper/API errors before try may only leave terminal output; preservation is not guaranteed before input/rig availability.
+
+The geometry export's sampled animations are **not** assumed byte-equivalent to original. `graft.mjs` validates57 named bones, named parents, skin inverse binds (max2e−6 source-unit matrix coefficient difference) and actual nonbone ancestry/transform equivalence. Neutral exported-default bone TRS may differ from original saved diagnostic default, and is explicitly recorded; it is not called rest. Every retained source clip must explicitly override all57 bone translation/rotation/scale paths. Rest equality additionally comes from actual Blender data.bones before/after; inverse binds establish exported bind correspondence.
+
+Actual original43 GLB animation channel/sampler records are grafted by uniquely verified target node NAME, never old node index. Referenced original animation buffer views/accessors are copied into new binary storage with new offsets; decoded original input times/output values/interpolation/target-name/path/sampler relations must remain exact. This includes genuine TransformDown omitted by014 suffix filtering. There is no curve fabrication, alias,25-bone adaptation, old asset-hash reuse or source018 partial pair-action consumption.
+
+Source→GLTF [x,z,−y] is already exported. .8 scale and separate actorRyπ mount apply once outside that entire hierarchy; floor pivot retains actual rig ancestry, no actor-height correction. Actual original43 curves retain their prior source-only limitation: missing uprightDown/Death and unqualified supported pin/climb remain incomplete. Detailed geometry moving under these curves may expose new visible intrusions; readback math is not motion-clearance admission.
+
+## One frozen root command
+
+```
+node tools/overhaul-pounce-art-bridge-019/run.mjs
+```
+
+Root serial grant after High preflight only. Focused compiler→ONE factory Blender geometry author/export/three views→actual animation graft→ONE actualGLTFLoader new geometry/pad correspondence through accepted017 evaluator→same-clock retained-bone comparison/unique asset manifest. Stage timers20/90/20/60/20s bound individual processes; root external19:46 cleanup remains authoritative. First genuine failure stops following stages, no repair/rerun or altered recipe. Timers do not guarantee Windows descendant-tree cleanup.
+
+New actualGLTF correspondence uses original selected source-family start/mid/end samples and all new vertices/pads; source pose compatibility additionally samples TransformDown. Matrices compare2e−6; vertex/bone shader readback uses existing accepted017 budgets2e−5. Current conservative body/tail/claw regions are measured with the same shared math; selected samples are NOT shipping envelope/contact certification. Dense data stays offline; runtime is57 bone poses and20 pad facets.
+
+Outputs: editable `Pounce_ArtBridge019.blend`; geometry-only `Pounce_ArtBridge019.geometry.glb`; exact-retained-animation `Pounce_ArtBridge019.raw.glb`; regenerated source profile/pad/offset metadata; three actual views; `identity57Runtime019Manifest.json` and `asset-manifest.json` in new source directory. Manifest mirrors005 publicURL/hash/scale/jointNames/jointParents/clips including measuredGait. The new unique suggested URL is `/assets/models/Pounce_ArtBridge019.glb`. Root alone copies the source asset/manifest into public/runtime after result review; this task writes no existing or new runtime consumer/public model. Existing measuredGait is reused only after exact channel/units/frame equivalence; it remains measured source cadence, not native support. `restJointWorldHeads` derives actual new exported inverse-bind matrices, not original diagnostic default pose.
+
+All protected inputs and shared evaluator bytes are sealed before execution and checked afterward. Output hash identifies actual019 bytes. Native/profile/contact/full-art/two-client/Gate1 gates remain separate; passing data checks only makes this a reviewable art bridge, not a completed player experience.

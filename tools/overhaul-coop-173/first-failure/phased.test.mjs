@@ -1,0 +1,29 @@
+import {it,expect} from 'vitest';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {geometry173,plan173,certify173} from './planner.mjs';
+import {chooseActiveStage173,finalExtraction173} from './phased-stage.mjs';
+import {proveNeutral173,validateToken173,createMotionScheduler173} from './motion-scheduler.mjs';
+const input='.sites-runtime/overhaul-20261010/coop165-public/evidence.json',bytes=readFileSync(input),e=JSON.parse(bytes),r=e.failureReceipt.read,source={seed:7734,actors:r.occupancy,structures:r.structures,cover:r.cover,ruins:r.ruins},humans=source.actors.filter(a=>!a.bot),names=humans.map(a=>a.name),o={x:-8,y:-.08,z:12};
+const hypothetical=()=>{const s=structuredClone(source);for(let i=0;i<2;i++){const a=s.actors.find(a=>a.id===humans[i].id);a.position={x:-8,y:.92,z:i?15:22};a.velocity={x:0,y:0,z:0};a.grounded=true;}return s;};
+it('saved170 occupancy allows guest first, then a separately identified hypothetical fresh host read; invalid old origin stays rejected',()=>{
+ const s=hypothetical(),guest=chooseActiveStage173(s,names[1],o,{reach:10,cover:true});expect(guest.path).not.toBeNull();expect(guest.peerFutureArrival).toBe(0);expect(guest.nextGoal).toBe('UNCOMMITTED');
+ const beforeHost=plan173(geometry173(s,humans[0].id),s.actors.find(a=>a.id===humans[0].id).position,o);expect(beforeHost).toBeNull();
+ const after=structuredClone(s);after.actors.find(a=>a.id===humans[1].id).position={...guest.point,y:.92};
+ const host=chooseActiveStage173(after,names[0],o);expect(host.path).not.toBeNull();expect(after.actors.filter(a=>a.bot)).toEqual(source.actors.filter(a=>a.bot));
+ for(const [snapshot,i,leg] of [[s,1,guest],[after,0,host]]){const g=geometry173(snapshot,humans[i].id);expect(certify173(g,leg.point,leg.point,{endpoint:true}).clear).toBe(true);expect(leg.path.length).toBeLessThanOrEqual(12);}
+ const old=geometry173(source,r.actor.id);expect(plan173(old,r.actor.position,o)).toBeNull();expect(old.rejection.branch).toBe('CURRENT_ORIGIN_NOT_FULL_CLEAR');
+ writeFileSync(new URL('./geometry-receipt.json',import.meta.url),JSON.stringify({writer:'CLOSED',scope:'HYPOTHETICAL_SOURCE_GEOMETRY_NOT_NATIVE_PUBLIC_MOVEMENT',input,inputSha256:createHash('sha256').update(bytes).digest('hex'),npcCount:12,guest,host,hostSource:'SEPARATE_HYPOTHETICAL_POST_GUEST_READ',actual165BlockedOrigin:old.rejection},null,2));
+});
+const fixture=()=>{const s=hypothetical();s.tick=100;s.room='FIXTURE';s.publication={roomEpoch:'FIXTURE',sequence:100,kind:'broadcast'};const seen={};for(const name of names){const a=s.actors.find(a=>a.name===name);a.lastInput=20;const packet={generation:2,localId:a.id,input:{seq:20,jumpEpoch:a.jumpEpoch,forward:0,strafe:0,fire:false,interact:false,climb:false}};seen[name]={snapshot:s,input:{keys:[],input:packet.input,lastSent:packet},transport:{connection:'Connected'},settled:{neutral:packet,rest:{tick:99,position:a.position,velocity:a.velocity}}};}return {s,seen};};
+it('rejects stale/native unacked/held/restless proofs and displaced/lifechanged parked commitments',()=>{
+ const {s,seen}=fixture(),proofs=names.map(n=>proveNeutral173(seen[n],n,seen[n].settled)),token={active:names[1],state:'COMMITTED',room:s.room,epoch:s.publication.roomEpoch,tick:100,sequence:100,bindings:proofs};expect(validateToken173(token,s)).toBe(token);
+ for(const change of [x=>x.input.keys=['KeyF'],x=>x.snapshot.actors.find(a=>a.name===names[0]).lastInput=19,x=>x.input.lastSent.generation=3,x=>x.snapshot.actors.find(a=>a.name===names[0]).velocity.x=.2,x=>x.settled.rest=null]){const x=structuredClone(seen[names[0]]);change(x);expect(()=>proveNeutral173(x,names[0],x.settled)).toThrow();}
+ for(const change of [x=>x.actors.find(a=>a.name===names[0]).position.x+=1,x=>x.actors.find(a=>a.name===names[0]).jumpEpoch++,x=>x.publication.roomEpoch='NEW',x=>x.actors.find(a=>a.name===names[0]).hp--]){const x=structuredClone(s);change(x);expect(()=>validateToken173(token,x)).toThrow();}
+});
+it('owns public keyboard release-before-ACK handoff and one motion token; retired goal never leaks',async()=>{
+ const {seen}=fixture(),events=[],ps=names.map(name=>({name,page:{keyboard:{up:async k=>events.push(name+':up:'+k),down:async k=>events.push(name+':down:'+k),press:async k=>events.push(name+':press:'+k)}}}));let scheduler;
+ scheduler=createMotionScheduler173({pilots:()=>ps,read:async p=>seen[ps.find(x=>x.page===p).name],release:async p=>p.keyboard.up('KeyW'),controller:(p,name)=>({settle:async()=>{events.push(name+':native-neutral-ACK-rest');return seen[name].settled;}}),guard:()=>{},evidence:{}});for(const p of ps)p.page=scheduler.page(p.page,p.name);
+ await scheduler.run(names[1],{intent:'UNCOMMITTED'},async()=>{expect(events.slice(0,2).every(x=>x.includes(':up:'))).toBe(true);expect(events.filter(x=>x.includes('ACK-rest')).length).toBe(2);await expect(scheduler.run(names[0],{},async()=>{})).rejects.toThrow('concurrent');expect(()=>ps[0].page.keyboard.down('KeyW')).toThrow('ownership');scheduler.commit({point:{x:-15,z:12},path:[{x:-15,z:12}],endpoint:{clear:true}});await ps[1].page.keyboard.press('KeyW');});expect(scheduler.active()).toBeNull();expect(events.at(-1)).toContain(':up:');writeFileSync(new URL('./ownership-receipt.json',import.meta.url),JSON.stringify({writer:'CLOSED',scope:'PUBLIC_CONTROL_ADAPTER_SOURCE_FIXTURE_NOT_BROWSER_NATIVE_ACK',events},null,2));
+});
+it('retains valid parked-host guest disk and rejects invalid actual extraction/lifecycle',()=>{const s=hypothetical(),[h,b]=humans.map(a=>s.actors.find(q=>q.id===a.id));h.position={x:-8,y:.94,z:9.3};b.position={x:-15,y:.94,z:9.3};const result=finalExtraction173(s,names[0],names[1],o);expect(result.path).not.toBeNull();expect(result.worst3D).toBeLessThan(4.5);h.position={x:-8,y:.94,z:12};expect(finalExtraction173(s,names[0],names[1],o).point).toBeNull();h.hp=0;h.downed={at:1};expect(finalExtraction173(s,names[0],names[1],o).point).toBeNull();});

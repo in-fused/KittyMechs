@@ -1,0 +1,116 @@
+{
+  "checkedUTC": "2026-10-10T19:38:38.1018118Z",
+  "allMatch": true,
+  "files": [
+    {
+      "matches": true,
+      "sha256": "4e3dcff78257fd7a0c65edffa87829b68e600c66abf42d14d0c2fd29bd6a3e71",
+      "bytes": 20199,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "09ab9ff4e16a4d95b936b9ad3982db35429dea97761f3b60186e1282f07fe8fd",
+      "bytes": 29011,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "c57decfb6efeb6cf0fa605a215d3b21f99dca12ab09d522c0a30312f2289ab32",
+      "bytes": 11726,
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/wholebody_choreography.py"
+    },
+    {
+      "matches": true,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "bytes": 28647,
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "bytes": 29034,
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "bytes": 1028,
+      "path": "tools/overhaul-pounce-wholebody-source-018/actual004-capability-allowlist.json"
+    },
+    {
+      "matches": true,
+      "sha256": "4521f067704c08a05f63bc42bf521c4bdb3355a1cd3c82673e3bd1dbb3742133",
+      "bytes": 2055,
+      "path": "tools/overhaul-pounce-wholebody-source-018/protected-inputs.json"
+    },
+    {
+      "matches": true,
+      "sha256": "ef87d9afa67cc766ce10d1593a7288cb2ba1ee5e3a510bc8f98152435e1c354f",
+      "bytes": 251,
+      "path": "tools/overhaul-pounce-wholebody-source-018/command.ps1"
+    },
+    {
+      "matches": true,
+      "sha256": "f817cb9c7524bb08eb0126735eacace22df384a31f939aa2a0ff110b938625b2",
+      "bytes": 6478,
+      "path": "docs/overhaul/pounce-wholebody-source-018.md"
+    },
+    {
+      "matches": true,
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "bytes": 28647,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/author.py"
+    },
+    {
+      "matches": true,
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "bytes": 29034,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source_helpers.py"
+    },
+    {
+      "matches": true,
+      "sha256": "758238601c2dbcd4fdb256648c52b34a7cd418f959daa6c47a7aa311e4b6b6cd",
+      "bytes": 63438571,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/Pounce_BodyContact014.blend"
+    },
+    {
+      "matches": true,
+      "sha256": "bd7a2bcad2c9364c4063e21c403d6dd6b32323cc61f5a9d8a3a101f3d365782f",
+      "bytes": 245958,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/source-profile.json"
+    },
+    {
+      "matches": true,
+      "sha256": "531b6a4271c190fa01ccf334d3e16d69cc811be8c479d0861dd4a80fb6c82876",
+      "bytes": 399738,
+      "path": "assets/source/overhaul-pounce-body-contact-source-014/first-source-failure.json"
+    },
+    {
+      "matches": true,
+      "sha256": "a604c15092423b21b8d41ddb115f92b5e528db1c8860ea555efaaaf49d04433d",
+      "bytes": 75210396,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.blend"
+    },
+    {
+      "matches": true,
+      "sha256": "8636c14aad432356a970f461896d82d65a5fb75c005a6c997631eb5a978ea202",
+      "bytes": 11251,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/actual-action-records.json"
+    },
+    {
+      "matches": true,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "bytes": 3313800,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    },
+    {
+      "matches": true,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "bytes": 3313800,
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb"
+    }
+  ],
+  "frozenRows": 9,
+  "protectedRows": 9
+}

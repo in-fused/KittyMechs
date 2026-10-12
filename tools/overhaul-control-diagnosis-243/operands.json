@@ -1,0 +1,304 @@
+{
+  "laterFailure": {
+    "movementYaw": 0.6663300000905991,
+    "time": 24.03333333333325,
+    "lastInput": 989,
+    "aimYaw": 0.6663300000906003,
+    "velocity": {
+      "x": 0,
+      "y": 0,
+      "z": 1.6143087914650054E-20
+    },
+    "id": "908d45c5-f820-4829-a151-86a80c162b09",
+    "actorYaw": -3.136012859738499,
+    "wallMs": 28600,
+    "life": 1,
+    "inputYaw": 0.6663300000905991,
+    "lookYaw": 0.6663300000905991
+  },
+  "rawStatus": "FIRST_GENUINE_FAILURE_STOP",
+  "inputs": [
+    {
+      "sha256": "f84af4afcc2fe7f0eb7c9d0bba88c33525a7d5a28aa52bf6cc811ea4b80eefec",
+      "path": ".sites-runtime/shader-startup-238/public242/evidence.json",
+      "bytes": 2983626
+    },
+    {
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752",
+      "path": "src/game/input.ts",
+      "bytes": 17271
+    },
+    {
+      "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a",
+      "path": "shared/Simulation.ts",
+      "bytes": 181567
+    },
+    {
+      "sha256": "ef5037c5968a467e5bd0ea3b3c70cd829967ec8fa288c53a65543ddbb63e41fc",
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10674
+    },
+    {
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48",
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882
+    },
+    {
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff",
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18910
+    },
+    {
+      "sha256": "ec227e39bcf9f59adfaf36bf15b76cee2775216f92a752ca196dbaf49c576dbc",
+      "path": "src/ui/Hangar.tsx",
+      "bytes": 6787
+    },
+    {
+      "sha256": "e931850a548381cfde834c6271bd5cf46e3e286b2939b600246ed69fdfb17490",
+      "path": "docs/overhaul/coop-play-056-control-audit.md",
+      "bytes": 5168
+    },
+    {
+      "sha256": "26047f9656af066681ccc3da7d071d294a9d076fd8420c3f672c259a86529845",
+      "path": "tools/overhaul-program-observer-242/capture.mjs",
+      "bytes": 21961
+    }
+  ],
+  "ackRest": {
+    "movementYaw": 0.6663300000905991,
+    "time": 23.21666666666663,
+    "lastInput": 952,
+    "aimYaw": 0.6170411839653923,
+    "velocity": {
+      "x": 0,
+      "y": 0,
+      "z": 1.490802760813184E-15
+    },
+    "id": "908d45c5-f820-4829-a151-86a80c162b09",
+    "actorYaw": -3.136012859738499,
+    "wallMs": 27742,
+    "life": 1,
+    "inputYaw": 0.6663300000905991,
+    "lookYaw": 0.6663300000905991
+  },
+  "newActualJob": false,
+  "verdict": "WRONG_IDLE_LOOK_NATIVE_BODY_ORACLE",
+  "scope": "READ_ONLY_ACTUAL242_PACKET_AND_SOURCE_CONTROL_DIAGNOSIS",
+  "writer": "CLOSED",
+  "firstAxesNeutralPacket": {
+    "input": {
+      "seq": 940,
+      "jumpId": 0,
+      "jumpCancel": 0,
+      "jumpEpoch": 1,
+      "strikeId": 0,
+      "strikeCancel": 0,
+      "strikeEpoch": 1,
+      "strike": false,
+      "forward": 0,
+      "strafe": 0,
+      "yaw": 0.15883999981880187,
+      "pitch": 0.06791096040979026,
+      "fire": false,
+      "rocket": false,
+      "jump": false,
+      "boost": false,
+      "interact": false,
+      "stance": "quadruped",
+      "climb": false,
+      "stanceRequest": {
+        "seq": 0,
+        "life": 1
+      },
+      "aimYaw": 0.093950320606612,
+      "strikePitch": 0.06
+    },
+    "at": 24801.099999904633,
+    "source": "frame",
+    "generation": 1,
+    "localId": "908d45c5-f820-4829-a151-86a80c162b09",
+    "aim": {
+      "lookPitch": 0.06,
+      "lookYaw": 0.15883999981880187,
+      "cameraRay": {
+        "frameClock": 22.686399999856977,
+        "yaw": 0.09253000009059884,
+        "pitch": 0.059999999999999776,
+        "targetDistance": 180,
+        "reachable": true
+      }
+    }
+  },
+  "movementCases": [
+    {
+      "displacement": 4.787923203457939,
+      "strafe": 0,
+      "realizedYawDelta": 0,
+      "preYaw": 0,
+      "postYaw": 0,
+      "forward": 1,
+      "packetSeq": 647,
+      "name": "forward",
+      "packetYaw": 0
+    },
+    {
+      "displacement": 4.664800850116808,
+      "strafe": 0,
+      "realizedYawDelta": -3.136012859738499,
+      "preYaw": 0,
+      "postYaw": -3.136012859738499,
+      "forward": -1,
+      "packetSeq": 798,
+      "name": "reverse",
+      "packetYaw": 0
+    }
+  ],
+  "releasedLookACKAtEarlierRead": false,
+  "contactQualified": false,
+  "rawFailure": "Error: 227 publicturn delivered without correctly directed nativeyaw left-turn\n    at pulse (file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-program-observer-242/capture.mjs:45:144)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:472:9)\n    at async file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-program-observer-242/capture.mjs:52:206",
+  "runtimeChanged": false,
+  "releasedLookACKAtLaterRead": true,
+  "firstPostKeyupStableLookPacket": {
+    "input": {
+      "seq": 955,
+      "jumpId": 0,
+      "jumpCancel": 0,
+      "jumpEpoch": 1,
+      "strikeId": 0,
+      "strikeCancel": 0,
+      "strikeEpoch": 1,
+      "strike": false,
+      "forward": 0,
+      "strafe": 0,
+      "yaw": 0.6663300000905991,
+      "pitch": 0.06780969304963945,
+      "fire": false,
+      "rocket": false,
+      "jump": false,
+      "boost": false,
+      "interact": false,
+      "stance": "quadruped",
+      "climb": false,
+      "stanceRequest": {
+        "seq": 0,
+        "life": 1
+      },
+      "aimYaw": 0.6758446904391211,
+      "strikePitch": 0.06
+    },
+    "at": 25087.200000047684,
+    "source": "frame",
+    "generation": 1,
+    "localId": "908d45c5-f820-4829-a151-86a80c162b09",
+    "aim": {
+      "lookPitch": 0.06,
+      "lookYaw": 0.6663300000905991,
+      "cameraRay": {
+        "frameClock": 22.99029999995235,
+        "yaw": 0.6663300000906003,
+        "pitch": 0.059999999999999935,
+        "targetDistance": 180,
+        "reachable": true
+      }
+    }
+  },
+  "focusedKeyEdges": [
+    {
+      "kind": "keydown",
+      "code": "KeyJ",
+      "at": 24731.700000047684,
+      "focused": true,
+      "target": {
+        "tag": "BODY",
+        "id": "",
+        "role": null,
+        "editable": false
+      }
+    },
+    {
+      "kind": "keyup",
+      "code": "KeyJ",
+      "at": 25085.89999985695,
+      "focused": true,
+      "target": {
+        "tag": "BODY",
+        "id": "",
+        "role": null,
+        "editable": false
+      }
+    },
+    {
+      "kind": "keyup",
+      "code": "KeyJ",
+      "at": 25101.299999952316,
+      "focused": true,
+      "target": {
+        "tag": "BODY",
+        "id": "",
+        "role": null,
+        "editable": false
+      }
+    }
+  ],
+  "before": {
+    "movementYaw": 0,
+    "time": 22.74999999999999,
+    "lastInput": 932,
+    "aimYaw": -1.5990397522201681E-13,
+    "velocity": {
+      "x": 0,
+      "y": 0,
+      "z": 1.025205207378341E-12
+    },
+    "id": "908d45c5-f820-4829-a151-86a80c162b09",
+    "actorYaw": -3.136012859738499,
+    "wallMs": 27258,
+    "life": 1,
+    "inputYaw": 0,
+    "lookYaw": 0
+  },
+  "firstDeliveredLookPacket": {
+    "input": {
+      "seq": 939,
+      "jumpId": 0,
+      "jumpCancel": 0,
+      "jumpEpoch": 1,
+      "strikeId": 0,
+      "strikeCancel": 0,
+      "strikeEpoch": 1,
+      "strike": false,
+      "forward": 0,
+      "strafe": 0,
+      "yaw": 0.09253000009059906,
+      "pitch": 0.06791603146120904,
+      "fire": false,
+      "rocket": false,
+      "jump": false,
+      "boost": false,
+      "interact": false,
+      "stance": "quadruped",
+      "climb": false,
+      "stanceRequest": {
+        "seq": 0,
+        "life": 1
+      },
+      "aimYaw": 0.031253069443515906,
+      "strikePitch": 0.06
+    },
+    "at": 24766.299999952316,
+    "source": "frame",
+    "generation": 1,
+    "localId": "908d45c5-f820-4829-a151-86a80c162b09",
+    "aim": {
+      "lookPitch": 0.06,
+      "lookYaw": 0.09253000009059906,
+      "cameraRay": {
+        "frameClock": 22.654299999952343,
+        "yaw": 0.03078000009059931,
+        "pitch": 0.05999999999999984,
+        "targetDistance": 180,
+        "reachable": true
+      }
+    }
+  }
+}

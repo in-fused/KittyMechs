@@ -1,0 +1,630 @@
+{
+  "writer": "CLOSED",
+  "provenance": "ACTUAL_DECODED_RIG_CURRENT_RAPIER_FIXED_UNIT_FLOOR_NOT_PUBLIC_CONTACT",
+  "cases": [
+    {
+      "rig": "OFF25",
+      "tick": 20,
+      "phase": 0.625,
+      "name": "FelineWalk",
+      "stance": 0,
+      "root": [
+        0,
+        -0.1,
+        -0.12
+      ],
+      "body": [
+        0,
+        0.046117446283129714,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.6280193458464042,
+          "gap": -0.009755854780965967,
+          "skinSlip": 0.27837612052437494,
+          "requestedReach": 0.8598784768205543,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "FR",
+          "role": "swing",
+          "state": "recovery",
+          "weight": 0.43478262404751056,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.7732807925865561,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": -1.5920749163456094e-09,
+          "skinSlip": 0.08827387013573662,
+          "requestedReach": 0.8130609685293504,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.241545902248617,
+          "gap": -0.019892427278162983,
+          "skinSlip": 0.05797896914614736,
+          "requestedReach": 0.8304266858153014,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "tick": 28,
+      "phase": 0.875,
+      "name": "FelineWalk",
+      "stance": 0,
+      "root": [
+        0,
+        -0.1,
+        -0.168
+      ],
+      "body": [
+        0,
+        0.05452554298798698,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": 8.533452566794608e-08,
+          "skinSlip": 0.26410100529069586,
+          "requestedReach": 0.8908355659459944,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "FR",
+          "role": "stance",
+          "state": "recovery",
+          "weight": 0.04830918044972341,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.9080863408620229,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "swing",
+          "state": "recovery",
+          "weight": 0.6135265564022125,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.7269859854118439,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.6280193458464042,
+          "gap": -0.0066284669329323975,
+          "skinSlip": 0.08710174691280777,
+          "requestedReach": 0.8220028642135022,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "tick": 85,
+      "phase": 0.65625,
+      "name": "FelineUprightWalkLong",
+      "stance": 1,
+      "root": [
+        0,
+        -0.1,
+        0
+      ],
+      "body": [
+        0,
+        0.07117358171236281,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.3833329058697569,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "FR",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.41548048134255355,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": 8.580934351964942e-08,
+          "skinSlip": 0.09029156051000918,
+          "requestedReach": 0.8917446084942562,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.277777766739881,
+          "gap": -0.0008666340152657659,
+          "skinSlip": 0.2566012272836033,
+          "requestedReach": 0.8540025563796856,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "OFF25",
+      "tick": 94,
+      "phase": 0.9375,
+      "name": "FelineUprightWalkLong",
+      "stance": 1,
+      "root": [
+        0,
+        -0.1,
+        0
+      ],
+      "body": [
+        0,
+        0.0715791238691052,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.39181981648930714,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "FR",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.4066189815228413,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "swing",
+          "state": "source",
+          "weight": 0.5833333498901784,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 1.0297163482126326,
+          "reason": "CURRENT_TASK_UNREACHABLE_SOURCE_RETAINED",
+          "lease": null
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.6944444168497026,
+          "gap": -0.00024341312199127607,
+          "skinSlip": 0.2292475179331824,
+          "requestedReach": 0.8587715933442348,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:1",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:1:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "tick": 16,
+      "phase": 0.5,
+      "name": "FelineWalk",
+      "stance": 0,
+      "root": [
+        0,
+        -0.1,
+        -0.096
+      ],
+      "body": [
+        0,
+        0.06375400354354688,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "swing",
+          "state": "recovery",
+          "weight": 0.8928571578248271,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.6990230335517551,
+          "reason": "AUTHORED_RELEASE",
+          "lease": null
+        },
+        {
+          "limb": "FR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.5357142946948964,
+          "gap": -0.016828349412949115,
+          "skinSlip": 0.06799209965175602,
+          "requestedReach": 0.7442470424264632,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HL",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": 2.227976127729699e-08,
+          "skinSlip": 0.054676830449438454,
+          "requestedReach": 0.728228190828379,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "recovery",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.7108465925572038,
+          "reason": null,
+          "lease": null
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "tick": 24,
+      "phase": 0.75,
+      "name": "FelineWalk",
+      "stance": 0,
+      "root": [
+        0,
+        -0.1,
+        -0.14400000000000002
+      ],
+      "body": [
+        0,
+        0.07755267971667178,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "stance",
+          "state": "recovery",
+          "weight": 0.41666667365158605,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.8369645769226217,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "FR",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": 1.2694339464501943e-07,
+          "skinSlip": 0.006182685162868461,
+          "requestedReach": 0.7660641596117655,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HL",
+          "role": "swing",
+          "state": "recovery",
+          "weight": 0.523809515826759,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.7785555618207535,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.4761904841732413,
+          "gap": -0.011758081358182024,
+          "skinSlip": 0.07805591832492499,
+          "requestedReach": 0.721322677532459,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "tick": 39,
+      "phase": 0.21875,
+      "name": "FelineWalk",
+      "stance": 0,
+      "root": [
+        0,
+        -0.1,
+        -0.15
+      ],
+      "body": [
+        0,
+        0.09092194060857235,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.4761904841732413,
+          "gap": -0.004759630241575262,
+          "skinSlip": 0.10140938379935996,
+          "requestedReach": 0.7436474535636467,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "FR",
+          "role": "swing",
+          "state": "recovery",
+          "weight": 0.10714284217517292,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.813197747497251,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.35714286312993093,
+          "gap": -0.005846040770936391,
+          "skinSlip": 0.09740908671032524,
+          "requestedReach": 0.724626664979558,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": -3.308386952357537e-05,
+          "skinSlip": 0.10755407369195137,
+          "requestedReach": 0.7886739648855702,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    },
+    {
+      "rig": "ON57",
+      "tick": 80,
+      "phase": 0.5,
+      "name": "FelineUprightWalkLong",
+      "stance": 1,
+      "root": [
+        0,
+        -0.1,
+        0
+      ],
+      "body": [
+        0,
+        0.0995347476654487,
+        0
+      ],
+      "feet": [
+        {
+          "limb": "FL",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.2878411599061282,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "FR",
+          "role": "unloaded",
+          "state": "source",
+          "weight": 0,
+          "gap": null,
+          "skinSlip": null,
+          "requestedReach": 0.28637051862340546,
+          "reason": null,
+          "lease": null
+        },
+        {
+          "limb": "HL",
+          "role": "stance",
+          "state": "unqualified-correction",
+          "weight": 1,
+          "gap": 7.42459139558947e-08,
+          "skinSlip": 0.016180677999092983,
+          "requestedReach": 0.8144744959424731,
+          "reason": "FINAL_WEIGHTED_PAD_CONSTRAINT_UNMET",
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        },
+        {
+          "limb": "HR",
+          "role": "stance",
+          "state": "touch",
+          "weight": 0.07716049291691725,
+          "gap": -0.0004292344346485451,
+          "skinSlip": 9.00532798645042e-09,
+          "requestedReach": 0.7331671236233697,
+          "reason": null,
+          "lease": {
+            "worldKey": "ground067-world:2",
+            "generation": 1,
+            "life": 1,
+            "ownerKey": "ground067-world:2:owner:1",
+            "colliderHandle": 0,
+            "shapePoseKey": "2:1,50,0.05000000074505806,50:0,-0.05000000074505806,0,0,0,0,1"
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "The provisional corrections explicitly reject these constraints. No further source tuning or fixture invocation."
+}

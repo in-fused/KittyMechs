@@ -1,0 +1,137 @@
+{
+  "writer": "CLOSED",
+  "scope": "Scoped usable-playfield camera source, fixture initialization failure preserved and one corrected geometry check; actualpixels UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-player-camera-280/CameraRig280.tsx",
+      "bytes": 11126,
+      "sha256": "3cfb99fc53c00913c34f0b5df605ea710753b5ee324ea77c9bafa89fbd076cf9"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/canonical-alias280.json",
+      "bytes": 901,
+      "sha256": "bbaaf924dff82f6f4a27afc55e0902ef6ced9b0799b2c6c5229a1f9328233861"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry-final280.receipt.json",
+      "bytes": 296,
+      "sha256": "7799c8e67463ef0ed0b8ccc9df51554395c28f563708caa441737be91115b987"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry-final280.stderr",
+      "bytes": 90,
+      "sha256": "06210b38572a0a9d5c904cc541365ad69d7afaac6d4ed10f5d33268b0ae185d2"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry-final280.stdout",
+      "bytes": 99,
+      "sha256": "f64228e13dfea0f387793c77685d8d8f80bc0a43f0e26174115b5577e8c5f81c"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry280.json",
+      "bytes": 74788,
+      "sha256": "4f0dab4b364fb63af4963101c1b08fb289c47ae5d9ae8e1a3b5be3b79140b35c"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry280.stderr",
+      "bytes": 598,
+      "sha256": "879ce3d2ceb337cf7fc98e6b6d7415d4b062306ce9edb9bfd1e7ab96de9d308d"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry280.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/geometry280.ts",
+      "bytes": 4679,
+      "sha256": "d6c3114797e2f744d66f9313722ab93668967e70996e80252d0c7ed5d67d93e8"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/HANDOFF.md",
+      "bytes": 4352,
+      "sha256": "976ea39c047c961f0e311323ae468b5fef45684296089c2601c0cb32527fde15"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/playerOrbit280.ts",
+      "bytes": 7438,
+      "sha256": "193320aebf1edf31fa0a187731db9f507dd1f2bf7fac46dd6487fbdd5da9bf44"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/run280.py",
+      "bytes": 1365,
+      "sha256": "cf0667dc397658913bc66543397ba51b04803f6b3cfba57a4cadb26dad21d8de"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/terminal280.json",
+      "bytes": 400,
+      "sha256": "c20db72210e620ec21835e332a2e64a0a79090f276dfbece7206651c31ed5685"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/tsconfig280.json",
+      "bytes": 126,
+      "sha256": "41e4c0f37592e93cccb86ab0cad7b301241b8c26275411f696704087c62fd1a1"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/type280.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/type280.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/usablePlayfield280.ts",
+      "bytes": 6861,
+      "sha256": "291e6a793bc65542424bfafd08cb72831dedbec7cbc0d36b16664d2a8ae96a7f"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/preimages/geometry280.stderr",
+      "bytes": 598,
+      "sha256": "879ce3d2ceb337cf7fc98e6b6d7415d4b062306ce9edb9bfd1e7ab96de9d308d"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/preimages/geometry280.ts",
+      "bytes": 4640,
+      "sha256": "f9426ccb57627a4577f8be498cc891bb2001bb0ab7b500390d531a0d31bdb3e1"
+    },
+    {
+      "path": "tools/overhaul-player-camera-280/preimages/terminal280.json",
+      "bytes": 400,
+      "sha256": "c20db72210e620ec21835e332a2e64a0a79090f276dfbece7206651c31ed5685"
+    }
+  ],
+  "protectedOriginals": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10674,
+      "sha256": "ef5037c5968a467e5bd0ea3b3c70cd829967ec8fa288c53a65543ddbb63e41fc"
+    },
+    {
+      "path": "src/game/camera/playerOrbit087.ts",
+      "bytes": 6280,
+      "sha256": "7fad938e02e0703aabb7b7bf160e5463a27b640a3753aefad5ff7482c1e869f4"
+    },
+    {
+      "path": "src/ui/styles.css",
+      "bytes": 27643,
+      "sha256": "c16d7efef6e99e0d28b7031bc602cdfbe272e2536c6ef46af0eddac4e7c124f4"
+    },
+    {
+      "path": "assets/source/overhaul-feline-animation-264/Pounce_Feline264.glb",
+      "bytes": 6733164,
+      "sha256": "a1aa8bab5601a12448a169602827146b226b126e6012bf7a94cf44d0c13fa9d6"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public277/failure-guest.png",
+      "bytes": 1093138,
+      "sha256": "8b2ac9d731abf679948aa6ad19ba77e3122924824954cddf8c71c61ffd08488e"
+    }
+  ],
+  "actualPixels": "UNRUN",
+  "qualityApproved": false,
+  "contactQualified": false,
+  "publicApproved": false
+}

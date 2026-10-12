@@ -1,0 +1,116 @@
+{
+  "writer": "CLOSED",
+  "scope": "SMALL_ACTIVE_SOURCE_REFERENCES_ONLY; no snapshot/copy/archive reconstruction. Full goal ACTIVE_INCOMPLETE; reported human lag unresolved;237 actualUNRUN/storageFAIL.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261011/shader235-supervisor/output-seal.json",
+      "bytes": 803,
+      "sha256": "98019c71385f27bb066654e67ae18d35c4d2bd96f0b78d42f469abe202337eba"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/startup234-private/output-seal.json",
+      "bytes": 4358,
+      "sha256": "4981a4819e6b6352eaeb9f279db9f84469b0b285044bc2e32cd69f33ecd70b6a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/startup234-supervisor/output-seal.json",
+      "bytes": 1410,
+      "sha256": "b4d3cf2f8258571a9e69378e13e543324556583c33ab361b2aa3dd9478cf0751"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2728,
+      "sha256": "2d9ad04944e9ad14af8806fcdd2313b723c0a672431058fda960a900bc964ab4"
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "docs/overhaul/critic/package237-observer-source-review.md",
+      "bytes": 3305,
+      "sha256": "63d8fbd4e0edd1c39a03d1c9e41b8d15737b3dca07c9c4e81234c2ae60a39e63"
+    },
+    {
+      "path": "docs/overhaul/critic/shader235-observer-source-review.md",
+      "bytes": 4616,
+      "sha256": "44b66ff82d0cc75b7165e553cb8fdc5758f75a80165a8218687357c212fba7b5"
+    },
+    {
+      "path": "docs/overhaul/critic/shader235-prebrowser-review.md",
+      "bytes": 1898,
+      "sha256": "f9dab28ca349af034376c2ea151de359db8298b7f81dcd0911a3f3e1f1000bdc"
+    },
+    {
+      "path": "docs/overhaul/critic/startup234-source-review.md",
+      "bytes": 5634,
+      "sha256": "cf08494800e09c1427e56bffbdc30de7e1896009cf987df9e264c53789a01c04"
+    },
+    {
+      "path": "docs/overhaul/critic/startup236-outcome-review.md",
+      "bytes": 2042,
+      "sha256": "76321332cc27cd3e1a75fdac989ca64fb44f0f2cefb80277cb5f39adecef2042"
+    },
+    {
+      "path": "docs/overhaul/player-integration-236-handoff.md",
+      "bytes": 8307,
+      "sha256": "35a973ecfadb479f0bd1c39a845821cbe5e2cd67ff5aca994fa48f9413d4852f"
+    },
+    {
+      "path": "docs/overhaul/resource-limit-handoff-20261010.md",
+      "bytes": 2881,
+      "sha256": "0b4e463f6c7166d5c6138a9141d9943601212ecaa609a6ad3941c2f7ec470928"
+    },
+    {
+      "path": "docs/overhaul/storage236-report.md",
+      "bytes": 2124,
+      "sha256": "460cedc627317ea4a28e27db546f81c4e9862375e82fcfe9d3fcbcd6e8e87cbc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2287,
+      "sha256": "a951b2b35d6a86bbf07ffb08eff3ce30f227dbaecce67e4b1d39c4fa445184f3"
+    },
+    {
+      "path": "tools/overhaul-package-observer-237/source-seal.json",
+      "bytes": 3091,
+      "sha256": "8080f3f7ee2b70b46c3928baf39950fdf910d1b0b35eff457c40d4237059c479"
+    },
+    {
+      "path": "tools/overhaul-shader-capability-233/source-seal.json",
+      "bytes": 893,
+      "sha256": "60c00d09ae8fe04ae83cec36b9e73df258e5aaac63150220aa0110e993806962"
+    },
+    {
+      "path": "tools/overhaul-shader-observer-235/source-seal.json",
+      "bytes": 2467,
+      "sha256": "06e35081f0ae541c95fc0eca7166657896776379b37e7e4b56d70dfa88d8c41b"
+    },
+    {
+      "path": "tools/overhaul-shader-startup-232/source-seal.json",
+      "bytes": 3651,
+      "sha256": "0e481977bfab3af5fbc3dc828accaf53354551118b45b43883f745528886dda5"
+    },
+    {
+      "path": "tools/overhaul-startup-integration-234/source-seal.json",
+      "bytes": 1693,
+      "sha256": "7c8d67ab40640bd95442b082fd25ff7e02efeddb934587d71f5f94d5935cc39b"
+    },
+    {
+      "path": "tools/overhaul-startup-outcome-236/235-prebrowser-mismatch.json",
+      "bytes": 430,
+      "sha256": "c7cc621f1941780d05647bb3bc0515917259d34f722a1a9c6c47b982ceec695b"
+    },
+    {
+      "path": "tools/overhaul-startup-outcome-236/change-manifest236.py",
+      "bytes": 5346,
+      "sha256": "32571ff19aff1d5992a4735c500b76369f8c87dae2817b6bb6c94785fd9c7289"
+    },
+    {
+      "path": "tools/player-integration-193/plugin-usage-audit193.json",
+      "bytes": 1742,
+      "sha256": "63928cea46d603e393b4852515b8ef4cc7484054785a30875756466e45433d91"
+    }
+  ]
+}

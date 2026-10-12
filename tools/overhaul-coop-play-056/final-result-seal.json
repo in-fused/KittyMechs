@@ -1,0 +1,70 @@
+{
+  "scope": "056 closed first-failure normal mission, originals unchanged, bounded own-video derivatives, independent review and source-only control audit. Full overhaul incomplete.",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-play-056/result-seal.json",
+      "bytes": 2233,
+      "sha256": "922127575286f9a1219b081f85d2d24db22806132d579ea94f766664f37aff35"
+    },
+    {
+      "path": "docs/overhaul/critic/coop-play-056-result-review.md",
+      "bytes": 5547,
+      "sha256": "a1acd6230aa7c89b77622168a8a80ffa7ebb70351434c7ce71fe7e85b8103041"
+    },
+    {
+      "path": "docs/overhaul/coop-play-056-control-audit.md",
+      "bytes": 5168,
+      "sha256": "e931850a548381cfde834c6271bd5cf46e3e286b2939b600246ed69fdfb17490"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-cleanup-verification.json",
+      "bytes": 268,
+      "sha256": "5586a4a71ea187cb1251e29c9e48b77fa7c05d16bfded75ec29febef228578f5"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/finalize.py",
+      "bytes": 1257,
+      "sha256": "e8ecc3abb6a92ac138dd2d4fb85b9d9262211265eea7f8fcc06770acd48b4842"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/derive.py",
+      "bytes": 1358,
+      "sha256": "3cc34aff07e3eb8122a287d0a83bf15ce1c6915af0dc72a97e19dedd9265046a"
+    },
+    {
+      "path": "tools/overhaul-coop-play-056/cleanup.ps1",
+      "bytes": 1596,
+      "sha256": "066d17c49f5296355276fdc46d71cbcb7969154565ebb5ea19eadf9d5c726df5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/derivative-receipt.json",
+      "bytes": 2720,
+      "sha256": "790c69d9695bee1684aa627399a593c4d70b9d52fcfb64379ba4e914f46996fa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/guest-rescue.png",
+      "bytes": 1832713,
+      "sha256": "21653c6e277c2e63007ae9554d208d3ca9d83e9294f92ccbadf167dfdf43f19b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/guest-travel.png",
+      "bytes": 1770469,
+      "sha256": "813156623969c8fdd6b4b7718cb843a5d3722d71a497c2968c8799d1da9436f7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/host-rescue.png",
+      "bytes": 1878214,
+      "sha256": "4e8f385105ebcfede9b1483c9c5b89bc69093b62426a97abe5f2c3ff4c4d8b3d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/host-travel.png",
+      "bytes": 1750097,
+      "sha256": "1d195b406ac212fba01e9b438e55b15b3114061fb2f91cf7ee0f02f1a2eb1420"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-motion/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

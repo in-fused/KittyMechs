@@ -1,0 +1,55 @@
+{
+  "hardStopUTC": "2026-10-10T19:52:00Z",
+  "actualStartUTC": "2026-10-10T19:21:34Z",
+  "schema": "source018-frozen-inputs",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/author.py",
+      "sha256": "4e3dcff78257fd7a0c65edffa87829b68e600c66abf42d14d0c2fd29bd6a3e71",
+      "bytes": 20199
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/source_helpers.py",
+      "sha256": "09ab9ff4e16a4d95b936b9ad3982db35429dea97761f3b60186e1282f07fe8fd",
+      "bytes": 29011
+    },
+    {
+      "path": "assets/source/overhaul-pounce-wholebody-source-018/wholebody_choreography.py",
+      "sha256": "c57decfb6efeb6cf0fa605a215d3b21f99dca12ab09d522c0a30312f2289ab32",
+      "bytes": 11726
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.author.py",
+      "sha256": "a23ef74c450357e83687f0f38ec3310cfa044cab8ec91079ea0f0ddba24ef59f",
+      "bytes": 28647
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/preimages/source014.source_helpers.py",
+      "sha256": "057b6674d00697849dac887af9e79938df7b57b38ec773938e7fe7120b76692c",
+      "bytes": 29034
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/actual004-capability-allowlist.json",
+      "sha256": "a7528d82d0bcc120bc552040bb3c8ecbf677f49de414d404220aa66167c3e8e5",
+      "bytes": 1028
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/protected-inputs.json",
+      "sha256": "4521f067704c08a05f63bc42bf521c4bdb3355a1cd3c82673e3bd1dbb3742133",
+      "bytes": 2055
+    },
+    {
+      "path": "tools/overhaul-pounce-wholebody-source-018/command.ps1",
+      "sha256": "ef87d9afa67cc766ce10d1593a7288cb2ba1ee5e3a510bc8f98152435e1c354f",
+      "bytes": 251
+    },
+    {
+      "path": "docs/overhaul/pounce-wholebody-source-018.md",
+      "sha256": "f817cb9c7524bb08eb0126735eacace22df384a31f939aa2a0ff110b938625b2",
+      "bytes": 6478
+    }
+  ],
+  "cleanupAimUTC": "2026-10-10T19:49:00Z",
+  "frozenUTC": "2026-10-10T19:31:18.0536006Z",
+  "execution": "UNRUN_REQUIRES_INDEPENDENT_PREFLIGHT_AND_ROOT_SERIAL_GRANT"
+}

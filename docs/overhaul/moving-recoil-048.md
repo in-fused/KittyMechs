@@ -1,0 +1,7 @@
+# Moving recoil048 closed after one author failure
+
+The single root-owned Blender job failed exit1 at ANIMATION_ONLY_EXPORT_HAS_RENDER_ASSET. It preserved the editable animation-only Blend516462B, rawGLB108260B and first author-receipt3094B. No second attempt or guard relaxation was made. Original034 master/model and sealed author source remain unchanged.
+
+Raw GLB has zero meshes/materials/images/textures and one skins entry: 57 actual joint IDs plus an inverseBindMatrices accessor. No node binds a mesh or skin. This is residual skeleton metadata from the armature export, not mesh geometry or new skin weights; it still violates the declared strict standalone no-skins export guard and is not admitted. Four exported NLA animations are present with171 sampled channels each. The job stopped before filtering to the one authored head track and before exported idle-endpoint/motion checks, so those later gates have NOT passed.
+
+Identity57Runtime005.ts and034Actor.tsx remain byte-identical to036 preimages (7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae and0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2). The unbound helper draft was removed from shipping and retained as text in tools only. No public asset/manifest, runtime candidate, tests, build or browser playback was produced. Original036 remains live. Actual moving recoil and full movement/contact/art qualification remain incomplete.

@@ -1,0 +1,8 @@
+C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-motion-160\reconstruct160.mts:31
+  if(residual>2e-5)throw Error('160_ACTUAL_SOURCE_POSE_RECONSTRUCTION_MISMATCH:'+rig+':'+row.phase+':'+residual);
+                         ^
+
+Error: 160_ACTUAL_SOURCE_POSE_RECONSTRUCTION_MISMATCH:OFF25:off-moving-R-up:0.0001278505170785186
+    at <anonymous> (C:\Users\Taylor\Documents\GitHub\KittyMech-Web\tools\overhaul-motion-160\reconstruct160.mts:31:26)
+
+Node.js v24.13.0

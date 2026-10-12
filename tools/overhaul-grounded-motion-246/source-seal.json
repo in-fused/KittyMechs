@@ -1,0 +1,101 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_ONLY_PASSIVE_OBSERVATION_NOT_MOTION_UPGRADE",
+  "files": [
+    {
+      "path": "tools/overhaul-grounded-motion-246/contactObservation246.ts",
+      "bytes": 5380,
+      "sha256": "94656d71b2ef24ab791dc562f96cf363a67215c627832b8f3209136a9488e589"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/HANDOFF.md",
+      "bytes": 5794,
+      "sha256": "e7c53477bb73f861c706e6817b7634c95ebc65d3a0f445c98306756e3dea96e6"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/NativeActor246.tsx",
+      "bytes": 6250,
+      "sha256": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/NativeActor246.typecheck.tsx",
+      "bytes": 6243,
+      "sha256": "04eb39ea321f2fe268e751dd53a22cb7d8bcbd94fdd1346897654ce1ccf8c239"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/nativeOwner246.ts",
+      "bytes": 14425,
+      "sha256": "6a3b3000ea0b60d1b454d0fa4bc37158bef34b47e87985ecaf4e5a678f0bc009"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/observer246.test.ts",
+      "bytes": 2688,
+      "sha256": "5dc80a8b4bc4e146c0f6b4a8d391eec53c0e087507a3295a2d7141c649892d3b"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/preimages/NativeActor222.tsx",
+      "bytes": 5492,
+      "sha256": "dc64c71b9d82717598ce0745daefaabb5740949920cf2755a0fb8692536e34d5"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/preimages/nativeOwner230.ts",
+      "bytes": 14109,
+      "sha256": "d9fd180751f5985b07dea3486c88a6d0491932ef6b7bbd96ab619b5aeeb30db9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/protected-inputs246.json",
+      "bytes": 1947,
+      "sha256": "19c828d09681024c9548ea3c458d4bb0848d394bc4493eda4e31b2517a40d486"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/terminal-first246.json",
+      "bytes": 41,
+      "sha256": "478add7aff050b9af3bea7a6a0036d8c24d7041cf24a5dafc05599ee71aff19f"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/terminal-second246.json",
+      "bytes": 144,
+      "sha256": "accf96cb710fa2e5326d52a8739a31bb6119a0eb449fe37076efb1cc5acb1965"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/terminal246.json",
+      "bytes": 144,
+      "sha256": "3183a6fba374aa742a58ffe23f7192827700626baf1227ce2873c1d21400b012"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/test-first246.txt",
+      "bytes": 158,
+      "sha256": "457c423b0c64ba0fabac403fc029ab50a97d3871a824bf5e2fe62c23658313de"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/test-receipt246.txt",
+      "bytes": 158,
+      "sha256": "457c423b0c64ba0fabac403fc029ab50a97d3871a824bf5e2fe62c23658313de"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/tsconfig246.json",
+      "bytes": 145,
+      "sha256": "e59dc76265058863ba6a6c2fe6968e1b8097a51e02b992c08287633ea5241ed9"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/type-first246.txt",
+      "bytes": 181,
+      "sha256": "f88785e1aebf623b84b0e3c954143b2e8ddcaf748a9d3bb3a95b7dc65450bb49"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/type-receipt246.txt",
+      "bytes": 160,
+      "sha256": "ff4646744b6afbaedf324181fb9b8cb08a527417edb94922bb39309159449daa"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/type-second246.txt",
+      "bytes": 160,
+      "sha256": "ff4646744b6afbaedf324181fb9b8cb08a527417edb94922bb39309159449daa"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/visualRegistry246.typecheck.ts",
+      "bytes": 4604,
+      "sha256": "4415b7515ac129dc4fe29a67a063b7e0a8c519bdbfe72d68bc0e0b8b42795e25"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE distinct247 actual controls/R/steering +246 passivecontact observation, qualitypending; original242 failure unchanged",
+  "files": [
+    {
+      "path": "tools/overhaul-player-controls-247/binding.json",
+      "bytes": 252607,
+      "sha256": "9e1f6073920b22ce30333bb108b9752f652857f07f6081c2c4dec017e0e14493"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/capture247-R-request-preimage.mjs",
+      "bytes": 21822,
+      "sha256": "ba6416cd915e20a81dd2b0b8253bdc0b694a9e90a561c2bc195750196d98c47c"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/capture247.mjs",
+      "bytes": 21998,
+      "sha256": "514150d827ea239c8e4c4208cdf1a319eafbb4188f521da2c979593e30ea6c35"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/control-release247.mjs",
+      "bytes": 3165,
+      "sha256": "7fa7fab111de183899f2e93eb1e91634e348cd8fdebbc0d8aaa2dbe453d8a9da"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/control-release247.test.mjs",
+      "bytes": 1523,
+      "sha256": "4f61514ef6501de312a7464e3125abfedca75d49c8fc423df79fb30888b7b20d"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/HANDOFF.md",
+      "bytes": 3512,
+      "sha256": "4412affdb0c4bf950426f3c57678b3a0be1ef461307504907f870d6ccf3092d7"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/prepare247.py",
+      "bytes": 2785,
+      "sha256": "f0697ce5b4912ed05f9a950a455d0d20b4108145d450d69deb86dd965a479519"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/supervise247-path-preimage.py",
+      "bytes": 6701,
+      "sha256": "907956ee365433d9a5064103901dc047668cfbc2fe21a74d5aab66a037da94f8"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/supervise247.py",
+      "bytes": 6789,
+      "sha256": "63140649c610f65eb62a586a5e111439bb621f2b2746829759b9c13344e053aa"
+    }
+  ]
+}

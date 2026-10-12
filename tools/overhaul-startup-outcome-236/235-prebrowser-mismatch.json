@@ -1,0 +1,13 @@
+{
+  "writer": "CLOSED",
+  "scope": "Actual235 stopped before mkdir/browser due protected input mismatch; no shader/gameplay attempt",
+  "rows": [
+    {
+      "path": "package.json",
+      "expected": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4",
+      "actual": "a951b2b35d6a86bbf07ffb08eff3ce30f227dbaecce67e4b1d39c4fa445184f3",
+      "expectedBytes": 2002,
+      "actualBytes": 2287
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "sealedUtc": "2026-10-10T16:03:24.2171459Z",
+  "actualStart": "2026-10-10T15:57:03Z",
+  "hardDeadline": "2026-10-10T16:27:00Z",
+  "cleanupCutoff": "2026-10-10T16:25:30Z",
+  "files": [
+    {
+      "path": "assets/source/overhaul-feline-identity-complete-source-003/author.py",
+      "bytes": 30771,
+      "sha256": "8487d2329ca95561997196279d4bbdc22b3d238562d9c0b1662081199f5b4f09"
+    },
+    {
+      "path": "assets/source/overhaul-feline-identity-complete-source-003/identity_recipe.py",
+      "bytes": 12483,
+      "sha256": "fd0815eb093bd95af3a44d238124b35bc82a49fb55ada9f6aed3ef76ec44b1c6"
+    },
+    {
+      "path": "assets/source/overhaul-feline-identity-complete-source-003/CONTRACT.md",
+      "bytes": 7800,
+      "sha256": "fe2171cda20c3e97ec2d09a886b70bd18790b2e2aaf1d3b0437c29406e37cdfc"
+    },
+    {
+      "path": "tools/overhaul-feline-identity-complete-source-003/design.json",
+      "bytes": 990,
+      "sha256": "792c0b763c3ebeac73cad86da9b82482f674a5513741830f214a8431f095c704"
+    },
+    {
+      "path": "tools/overhaul-feline-identity-complete-source-003/budget-plan.md",
+      "bytes": 1700,
+      "sha256": "57d3fe643203fdd04425339c4169efa174c883f3879550455914c3a44c6ccaea"
+    },
+    {
+      "path": "docs/overhaul/feline-identity-complete-source-003.md",
+      "bytes": 1074,
+      "sha256": "f63378167cb8e0b3c9da8e89a051389e50901de3a6aa50e3e4e5c9a4c20881cf"
+    }
+  ],
+  "protected": [
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend",
+      "sha256": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.raw.glb",
+      "sha256": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/Pounce_CompleteAssembly_001.blend",
+      "sha256": "13e4d09f7de269cb5df894f311ddb38b803aae64a2ac8b21a0dcf043823f7b7c"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/Pounce_CompleteAssembly_001.raw.glb",
+      "sha256": "b7b4726a61e10569486b07aa646067506c1c17fb4dad23e00f2c4cdaf029698f"
+    },
+    {
+      "path": "assets/source/overhaul-feline-anatomy-complete-source-002/Pounce_Anatomy002.blend",
+      "sha256": "960a5983276f05dfabd7014f5c57900ed0572d6fe9699dd64b2e8cde37da8fba"
+    },
+    {
+      "path": "assets/source/overhaul-feline-anatomy-complete-source-002/Pounce_Anatomy002.raw.glb",
+      "sha256": "6f92e9311db1951eb222573541d2a00113124dba09dcadba111deb8261d8660d"
+    }
+  ],
+  "command": "& 'D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe' --background --factory-startup --python-exit-code 1 --python 'C:/Users/Taylor/Documents/GitHub/KittyMech-Web/assets/source/overhaul-feline-identity-complete-source-003/author.py'",
+  "executed": false
+}

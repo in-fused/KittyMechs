@@ -1,0 +1,11 @@
+# 207 private delivery and primary driver readiness
+
+202/206 CLOSED source files remain unchanged. First206 converter failed at its six-clip preservation check because pushing39 animations into doc.animations also mutated its alias six. Exact code/receipt/stdout/wrapper archived under first-converter-failure. Root approved the SOLE implementation repair: outside CLOSED206, convert207 uses doc.animations=[...six] and a fresh207 output/receipt folder. No other semantic change.
+
+Repaired converter hidden NodePID365828 TERMINAL0/.734s under15 cap. Private output/Pounce_Anatomy206.glb is18104360B SHAc276854828a906bccda5f94bfb999e7208022fd34a1142b370a87d689a08cac2. Actual receipt confirms15551220B exact202 binary prefix, unchanged scene/rest/skin/material/geometry JSON and original accessor/view prefix, exact six202 clips plus39 original delivered animations. Inputs/timing laws preserved; four changed-parent local channels analytically rebased. Four protected inputs and five first-failure rows verified before/after. No further repair remains.
+
+browser-entry207 is the exact CLOSED202 primary entry logic with only its relative sourceTask202 import corrected for the new location. Browser URLs keep the202 logical names and are fulfilled privately with the new206 candidate. browser-decode207 and run-primary207 write only .sites-runtime/overhaul-20261010/delivery206-primary. Bundle source preflight passed. No primary/browser/preview execution at this snapshot.
+
+Root approval required before python tools/overhaul-delivery-primary-207/run-primary207.py (30s). It must reach all39 complete delivered world-pose cases before the full original202 ordinary-band/R/idle/stop/complete-pad/head-skin/source-envelope/covariance matrix. The unchanged source10mm visual budget and unit-mixed2e-5 matrix guard remain. There are no world contact/native-support claims. Source numeric checks alone cannot replace composed temporal pixels and ordinary gameplay admission. Preview180 remains unapproved and unrun.
+
+readiness-seal207.json binds this conversion result and driver snapshot. Any later actual primary evidence/preview is separate output; no CLOSED202/206 receipt overwrite. No live assets/game/native/camera/runtime edits.

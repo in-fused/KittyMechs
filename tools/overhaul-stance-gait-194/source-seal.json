@@ -1,0 +1,1046 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_ART_COMPLETE_PACKAGING_REJECTED_QUALITY_UNADMITTED",
+  "closedUTC": "2026-10-11T19:16:30.809313+00:00",
+  "supersedesProvisionalSeal": "f0f4f15dedc514e58c192ddc1bf05790e6b82bfe77601ed8730584db272d2acc",
+  "files": [
+    {
+      "path": "assets/source/overhaul-stance-gait-194/author-receipt194.json",
+      "bytes": 1670,
+      "sha256": "0aaff1eed719b2169ef1f7235f3e974d0bab4caf02dc226c2304d1a4c38ff825"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/authored-motion-records194.json",
+      "bytes": 258484,
+      "sha256": "5307898d452ff565efa61492e0de7ac401d7957c331d12de49c5b65f5281f476"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/choreography194.py",
+      "bytes": 10048,
+      "sha256": "114ecae599ebc86b43f4a289fddb7f69c10cb6b665bf305bb5ac9b1e94a9b168"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/key-clock-operands194.json",
+      "bytes": 17212775,
+      "sha256": "4c2bc1db38a25398c229ab53f237fd4e8949ad0617f2bf34dd48b0a7e3dc9a38"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/Pounce_Motion194.blend",
+      "bytes": 83156108,
+      "sha256": "9cb217b7b90ec524160b5f72b4a0d442f0ebd5a17fb34a9076baecd5db2a630c"
+    },
+    {
+      "path": "assets/source/overhaul-stance-gait-194/preservation194.json",
+      "bytes": 4182,
+      "sha256": "46293735906d79bcb5706655763bbb9c791a56429ec86278e0c88aa53c03b835"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author-process194.json",
+      "bytes": 545,
+      "sha256": "369f2d54744a2b4c7f82538d7d1ec6b195f0d97a7aabaf7eed7fa52955adccf3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author-stdout194.txt",
+      "bytes": 25773,
+      "sha256": "7235c37b846b267578663b433246d0e8d8d1fe1f9d9723a05d8b40dd3bb89aa6"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/author194.py",
+      "bytes": 13370,
+      "sha256": "9ed98d0aafee927f86682355ab05ff8082272b5409e965aa327623e7a37bf5c0"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/baseline-summary194.json",
+      "bytes": 4743,
+      "sha256": "29401b0778ec0e608cde46af8be17f6fa8f6045533307261ff39d112441629f9"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-process194.json",
+      "bytes": 509,
+      "sha256": "4ca8712ee059ecef543d984e5c920f0b941404dee3a6a622dec5a2964503c04b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-receipt194.json",
+      "bytes": 2563,
+      "sha256": "5f0e248f6f6497a3d134c574c8330a381fa8bc712d6ca00d91abfe5110055509"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author-stdout194.txt",
+      "bytes": 582,
+      "sha256": "8b0593e1761d026f3306543450ac146ecaf07c5c3c2e1200124b2c2c168c22fa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/author194.py",
+      "bytes": 11110,
+      "sha256": "f004d0b6d27c30ec458e0aa0f8bef7ee1791b626457693b1c9ec3484783f183a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/validate-process194.json",
+      "bytes": 263,
+      "sha256": "daa00dd74ba61300e441be31adfc154122987c1c42ea634c17b8fab849331664"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/first-failure/validate-stdout194.txt",
+      "bytes": 903,
+      "sha256": "787061ca115e0a21a091f65728270e86c2bff8de5d40a59ce5d108fdd5e966b1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/HANDOFF.md",
+      "bytes": 7730,
+      "sha256": "86d6c2ff61aed9fbd221fdb5bfa8784da489517a3189e1e4debef4f40b47a2ac"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure-receipt194.json",
+      "bytes": 253,
+      "sha256": "ea258a7f0ea06089503e66a7d1900101e260e6c26a19065651e86c6e9cc4de81"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure-stdout194.txt",
+      "bytes": 21518,
+      "sha256": "863e87b43771b43d092ba5ebc6e4a4c32feadc0c5dd15a7b159a5e764a1352bd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measure194.mts",
+      "bytes": 4088,
+      "sha256": "da9dc10850f2047269caa5f3bfef2b6b4bbcfb52f1cb300ecd7ee35b3537e0e4"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measurement-inputs194.json",
+      "bytes": 765,
+      "sha256": "4a5d797e7cebe1bf55f3e857a1f4837f9bc2f45ed7c4447ae8e1c0de59340b0d"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/measurement194.json",
+      "bytes": 473327,
+      "sha256": "6fc805fa9aa797e74a433830b5f27c8e0151711d12082297924b98877f5dd3cb"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/output/Pounce_Motion194.glb",
+      "bytes": 9228720,
+      "sha256": "c2ebedcb5ce2e902cd2eff3d05ba9614a096f657bfda5e73ed81b4b0caf8dc17"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/output/Pounce_Motion194.raw.glb",
+      "bytes": 17071876,
+      "sha256": "cb3e0ddf8674a0b9be3f326ece187e6dcd1cf1999d52fbe3e69f11153a5eba09"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/package-validate194.mts",
+      "bytes": 10618,
+      "sha256": "b875294127909bd627ed25dccb669d3b7d1bf40c2868db80628d0eadc559b5c5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-00.png",
+      "bytes": 165377,
+      "sha256": "d18385b4d06fa25b85de1740480c5b1039120cf7303e5f2c24436ebe519ce218"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-01.png",
+      "bytes": 163125,
+      "sha256": "3b6b0624ca2b9db23ec0785052485296eb9e940591acfe5c72826ebaccf431a3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-02.png",
+      "bytes": 163969,
+      "sha256": "1aeead2f98cd961cf81fae7fd8d9f8c6560ec394d24e9a75b25e8d969ba37a2e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-03.png",
+      "bytes": 164152,
+      "sha256": "c3d05947e11a2ad867fee247c174dbe87f4e2d449e9c5300eceb03eb24d3000e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-04.png",
+      "bytes": 164293,
+      "sha256": "ec1d154936c83b58124602467a44fc2d838fcccc3d2ad9749f96c68770bcd527"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-05.png",
+      "bytes": 165738,
+      "sha256": "abe9c4218a038d824d12add96cc0c014f0a0c29c66197c550b1383fe63b17032"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-06.png",
+      "bytes": 167495,
+      "sha256": "90b162695177d0cf7c475c9f7a30739d209ff198dc4fce18d5320f7aa6749b6b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-07.png",
+      "bytes": 166912,
+      "sha256": "a49a905136dd82fb6b6bb7d8c7b0cb95635838f155b6bcbd20dfc9d75144b405"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-board.png",
+      "bytes": 627118,
+      "sha256": "04c42dfabc3109dc6f8c35f2ef27e7dccf91c35b1e904617838d56573258bacc"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-front-motion.gif",
+      "bytes": 532624,
+      "sha256": "a56f63629164fdd5a86ee4eaa062f82f13e5ca3f314d9e3c591c1121bec31c94"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-00.png",
+      "bytes": 172474,
+      "sha256": "9bf548fc8b008fef540ecfb81bf1473f8193b897b0c4979cb90b0cc9e4c0844e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-01.png",
+      "bytes": 175385,
+      "sha256": "e9538ab621096222e8f027802f7358600812abbdf2a841b02b8e8ad53baebcf0"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-02.png",
+      "bytes": 174172,
+      "sha256": "8ce7ddbbfe28d7283f9088614fa4a0c23862e9ea0f6cf95dfbea78ff7cf3697b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-03.png",
+      "bytes": 170461,
+      "sha256": "4d03f6377d256329e41a9c7a2393e25ea4ea032cf0a4e5caa4b018e34ce0dd29"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-04.png",
+      "bytes": 169621,
+      "sha256": "a0efec6f6137532276c7eca857a08df18660d8a33717e1080aedecf9b210a977"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-05.png",
+      "bytes": 169591,
+      "sha256": "d2e1ec2837f229f7a45986498f3e3a72b8bd26a777b538286f183253831c09de"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-06.png",
+      "bytes": 169193,
+      "sha256": "422f8c75f31527bfa6e07f4c62c79e7b0c938e1e1043eaf4ec69b8649c8819d7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-07.png",
+      "bytes": 172333,
+      "sha256": "e7f4da149738d95d141d7e86f626d0be32859a5a7c186b1cdac0dd101286075e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-board.png",
+      "bytes": 648628,
+      "sha256": "c15f5e6283d8397e024e0b3bbef943fcd196fb2f3a30d690f0833293930c6ab7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineGallop-side-motion.gif",
+      "bytes": 526632,
+      "sha256": "df75cd4696f9d8efce28bf381bb719dd7921a9ce0aa1fff696aa6e223b3db783"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-00.png",
+      "bytes": 163858,
+      "sha256": "948f6c2bd5470fce80b912bb2a9db296bc847d77edc32ed57414db89499631ce"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-01.png",
+      "bytes": 163292,
+      "sha256": "2b5fac14f8d8bb7450a186b50d61cef688f085008a5c8b1872c547c652dd5ad7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-02.png",
+      "bytes": 162912,
+      "sha256": "b4aba87e106aec302ef022535a12504badf84752940ac2faf7c2e2153aaa5ab1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-03.png",
+      "bytes": 164261,
+      "sha256": "9ee2702e9d7e6831ca57c6afed8f112d23e0452b7c0f9ae27be1a91e5b77f811"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-04.png",
+      "bytes": 164192,
+      "sha256": "13162c1b04ef98d7549bd1444888590864043d0f29c75655e612701e50614956"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-05.png",
+      "bytes": 163671,
+      "sha256": "f439d45f24c8d3c8fc318127404e9490bef76ad8097cc5043dd915559e7321eb"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-06.png",
+      "bytes": 163890,
+      "sha256": "8f1ad3d39b6c872121f8fe83a807926c9ea644a1d325cb5824a2a0055fd20ae5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-07.png",
+      "bytes": 164404,
+      "sha256": "85f342d6c6c4cc4980b1232c9cd7c151cd7321b30f6cb73d6104cea772e4ed14"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-board.png",
+      "bytes": 609721,
+      "sha256": "f7b0584267aaf14496cbf8124ddc26bd9faa8cb1cc41f4494dd3dccd5ebf2910"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-front-motion.gif",
+      "bytes": 529572,
+      "sha256": "5384ca37795a4ed81b5466dec1a51deb3efa6f29dc9344a3f41700ffc62481de"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-00.png",
+      "bytes": 175140,
+      "sha256": "62b895df7249025ccaed938f46d63896b2377852731b36119129689107626bee"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-01.png",
+      "bytes": 174078,
+      "sha256": "d3467054f9a187f4ba64298f1c36b50098f4ce1befaca2cb885e5d2f66466ed1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-02.png",
+      "bytes": 171764,
+      "sha256": "cd9279b415b23cefc1fb05109ea97979b1d11d305c242783a19870bac216dcbf"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-03.png",
+      "bytes": 174051,
+      "sha256": "e4a495b7298212dbe4d0a761566f409d9b8da12c4cd7af7bcc15f3dcbda164c6"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-04.png",
+      "bytes": 174961,
+      "sha256": "31e0789dc6ef8fc048115aaaa0bc47f43dd3986a442653ed1c95806343cfed33"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-05.png",
+      "bytes": 174644,
+      "sha256": "693be18bf3ba16c4826c9a91a8601a93bf53b20cf0368c12dac375c0e5f4325b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-06.png",
+      "bytes": 171173,
+      "sha256": "717c1409b74e5252fd9cfdb4b9cffd5679779063cb1ed5ea8b8939e870c3473c"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-07.png",
+      "bytes": 175273,
+      "sha256": "b577fd152ddb6be0923df794093b2035d00b24ea352b7003f8e8d5c77c7e77aa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-board.png",
+      "bytes": 663857,
+      "sha256": "6e60eab9315e3c407b9ff64e069c7a3acbbe9ddcf3c9970ccff133ce3cb02ac2"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineTrot-side-motion.gif",
+      "bytes": 539109,
+      "sha256": "5f3cb97ea9603dc9c61d88a4164d22ba6c29bf174b998177c5bc835d4969bccd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-00.png",
+      "bytes": 171778,
+      "sha256": "9096b3e07d4c1aab66e4e79613eb61314f39b3e9b8c8d56ab5035ef0590121fd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-01.png",
+      "bytes": 171115,
+      "sha256": "7482bbf2007253077100b28bce855c660cd0e2c38458198fc473e472cca64438"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-02.png",
+      "bytes": 170632,
+      "sha256": "849cd7708df7af5736260e95ef102cf4fa5f1431310e7b45b5057bb56a535b8c"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-03.png",
+      "bytes": 172258,
+      "sha256": "bac45386f7126fc22b7d723c1314ad41292aa88c505d5cc07858461db5325fdd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-04.png",
+      "bytes": 171818,
+      "sha256": "66a947bec620b39bfcfd24c1df4f82190fb09d452c1a4d7f544d0f125b701dae"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-05.png",
+      "bytes": 170848,
+      "sha256": "6d7a270d28cffb99dea7211fb36302679c60c6e1e53751497ff23189e4c47738"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-06.png",
+      "bytes": 172926,
+      "sha256": "70a136c1ec328f0a644d9d8ffa627029b617b1aa694632adb3656bd19d8a1160"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-07.png",
+      "bytes": 172819,
+      "sha256": "ceed3e1712f7ea9ef9c5ff2083374141a52a32577a151206a8f3e08016f9c6ab"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-board.png",
+      "bytes": 691333,
+      "sha256": "42b73a9468fa67c492bedf45b6290d3c8005270049f48cabae0ee858a428a6a4"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-front-motion.gif",
+      "bytes": 569785,
+      "sha256": "f655cc58bda21636dc45df6b76a9d83fb65199123f13e88298cb844c31ee6290"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-00.png",
+      "bytes": 175446,
+      "sha256": "af54d94d6aa5abb6e218c1d5d6033bfebb19136024e4f39e2535ef8cc7804451"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-01.png",
+      "bytes": 177565,
+      "sha256": "9d5c7ce113dcae9476184153f43c8b748c7c819d3636a19cb47f2f6a6632ed3c"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-02.png",
+      "bytes": 174271,
+      "sha256": "63988896a920cd4d55382100ad350c4ed3c2ab395e4e8dea2b19e8d71620f2d8"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-03.png",
+      "bytes": 175446,
+      "sha256": "588c3d637af70c4c4bbcde6636b79ce01762279a1cc7cffb12d4d1d6fed00d3d"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-04.png",
+      "bytes": 175526,
+      "sha256": "ea65775a3a04afac7a365117e3b62705276af52e1372e8348a80f2de3c56d963"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-05.png",
+      "bytes": 174967,
+      "sha256": "0a53af1677f9effde312cf31b9ceec2b445fc25d7465019214d3398b6f7bff20"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-06.png",
+      "bytes": 175354,
+      "sha256": "603e4495c9d9087c0c91e681a260dc616f5c2a8c5b1b41a382c2f183fb6eab01"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-07.png",
+      "bytes": 175593,
+      "sha256": "b2d0e57e1de467aed0256fc20a7a9230ad7c09d49b50219daf59dfc1eb3a8bfa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-board.png",
+      "bytes": 656432,
+      "sha256": "42054dccc7aa79ceac537b51ed871187e61a519db0123acf53c1cc15d917870a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightStride-side-motion.gif",
+      "bytes": 546305,
+      "sha256": "cf25f45e5d1ef8e6360433c9faf75853ddaa3a93d30b9abac1e277092ffcaf34"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-00.png",
+      "bytes": 171734,
+      "sha256": "2ada9c4bd42f85b31d3d0a3f474aecff808f06b6b52da1a025c5924a0d7a73fb"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-01.png",
+      "bytes": 170855,
+      "sha256": "2d828d04ddbfb755df4d11a123eb892457c10bfec728de3c7bb1d5fe704df8e5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-02.png",
+      "bytes": 170721,
+      "sha256": "f12a408c1faf78424d8c4cd6e014b0c3eee572a7f80cf13e45bab14f88b3e7ed"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-03.png",
+      "bytes": 171538,
+      "sha256": "2d4ac530fc71204dca08eed60c4a7867d1cf782a6d4d9e7921dd5d48f09c8e67"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-04.png",
+      "bytes": 171624,
+      "sha256": "36ee66f5810c9bf4463ec144944da6a9ef09955dd3f8648508021aa8449e6bf0"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-05.png",
+      "bytes": 170395,
+      "sha256": "6f2f9d85e32b96192eedba1272785aa697f15804c92170ac50178ae1cdafd816"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-06.png",
+      "bytes": 172528,
+      "sha256": "df41a56b02fff411e0304bcb5623bce2a059fb38a4557977ef2aff3d0f9eafd5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-07.png",
+      "bytes": 171309,
+      "sha256": "5654a67c61479cc4b2ce500792527f80f2ae6325ae367d02bcf94f450e28abcd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-board.png",
+      "bytes": 684487,
+      "sha256": "c5455da192223fee4206d721c0d0fb722924e68927754139dbf44cb12f643103"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-front-motion.gif",
+      "bytes": 566388,
+      "sha256": "1fe3c0fe91585ea25ac2d8b163112d6e87c83f51830b6fc7b230d2d29c07dfad"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-00.png",
+      "bytes": 176016,
+      "sha256": "815c81d81134c58f40314ed5827e886910c908e5f02abc6ffcb02b16cf1264a3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-01.png",
+      "bytes": 176623,
+      "sha256": "c4a560355a1b848cec37bce845080759582aaa58473b54521999b2ff3aa51a39"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-02.png",
+      "bytes": 173979,
+      "sha256": "823994943fd4cb8b181a573bf0c28bdc2ff484645c6dbecce1425be9322918f3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-03.png",
+      "bytes": 175360,
+      "sha256": "afc071eed96cff9743ac7c87daf85c4758cb34ff174b559a97cfbe74e40d3e08"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-04.png",
+      "bytes": 175345,
+      "sha256": "c95ba4c46c9443f09934a3445da3e2f8284a968112cc1a2e25bba62fca11dc1a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-05.png",
+      "bytes": 174977,
+      "sha256": "f140778744a1c7b6815b0cc57b775afd4ce14f07e4cc0a4d794426577d59d03b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-06.png",
+      "bytes": 174001,
+      "sha256": "90986a857cc5ddb14dedb8908946f7e02acc8ff3541dbd661e3483a79dd42b21"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-07.png",
+      "bytes": 175888,
+      "sha256": "6d7d0d78f66079d4a71a11edcc125eb29cfd1d92a1fde1d9f520f091e83c84ae"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-board.png",
+      "bytes": 644411,
+      "sha256": "20067297eeee465f750c60cf3d2e8a501a814ab9b5bd56ad3e81eb8d936f125a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineUprightWalkLong-side-motion.gif",
+      "bytes": 543357,
+      "sha256": "bb4123a983bfee7d6f10a3d631a98c0de590fa71878333616d3843928a8bce2e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-00.png",
+      "bytes": 163862,
+      "sha256": "9fcc0c6268b9eb1b28b39a4c5b40cf778c080cb57cd43182f271a16a14bac354"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-01.png",
+      "bytes": 163424,
+      "sha256": "e47672561ec497864280d83bea838da1e0e7bacda2811fed2ee456180c46f590"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-02.png",
+      "bytes": 163967,
+      "sha256": "63aeafd09b2d9aef2065955ec7cee29e3f9923b0ad30cacc93fe26a6fb00af65"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-03.png",
+      "bytes": 164496,
+      "sha256": "3cae11716f8334cf3c744aa1ca4498a65fe633ac3ceb01c6cb89540b6b2c06af"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-04.png",
+      "bytes": 163971,
+      "sha256": "b389a90d7fbb70443429e2b9bcbe52dc4560f16e3b3a66c653466b84a0be84bc"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-05.png",
+      "bytes": 163198,
+      "sha256": "be9c2511188a4f56d0494e712bbc5fe9de909679c0cd057434d4b3e937a45a99"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-06.png",
+      "bytes": 163271,
+      "sha256": "f2b79bd265e9f6b4e2f8d0534b9b11cabe42c64c944343b887f6ef355195ada3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-07.png",
+      "bytes": 164325,
+      "sha256": "f36cdce09648338e42dd288d87df5cbc20af0b92fccaacf5285e6cf6e087945a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-board.png",
+      "bytes": 606640,
+      "sha256": "b46de97b0d5d562cd3b290296595582f01a8ef29e4609090075ce70d774e7264"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-front-motion.gif",
+      "bytes": 528249,
+      "sha256": "1f7f8e24c8bb12df188be9cd7599dfd3bee8a188fd9ddbd8375c0b70b3363329"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-00.png",
+      "bytes": 173713,
+      "sha256": "1e1e69a6754c7cb5240cadc1f8339c9495e692edd264d937d3ff8af3d2024d03"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-01.png",
+      "bytes": 172790,
+      "sha256": "4d820ef9d61c69aaec4e4f14340d4ebbae796e044f0e697b3f7b4e68e0291252"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-02.png",
+      "bytes": 173187,
+      "sha256": "c2d644675500c5f6291637d58607a26f821b938750efad37fb8a6b524baed673"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-03.png",
+      "bytes": 172699,
+      "sha256": "f4269c9a99505fffab1d2b6be81bec68b7c327826c81c7ac69f38381ebabf0be"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-04.png",
+      "bytes": 172783,
+      "sha256": "115eb07d753a0f0cec4fcbc3a582118d052b5b7a0d53754c3e2db5fafd80b493"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-05.png",
+      "bytes": 174115,
+      "sha256": "2e3863fa67202d9b8eb2636166b9468bc66e0ee88dc2c53ac62453a2e7e330b6"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-06.png",
+      "bytes": 173446,
+      "sha256": "5b563b28426bb5086aaba8f1d66ef917bc51aa26a8ee830ceb1ff05dd812a460"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-07.png",
+      "bytes": 173750,
+      "sha256": "ce2ef0619956befeeb13d85882cb4ca51899cbb88a04fccce5b40451a2123f09"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-board.png",
+      "bytes": 651302,
+      "sha256": "5fde4ba64b22d345eea969bd7cc3782eee3bd279bcb909fb7e8c50ad7d03611a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/FelineWalk-side-motion.gif",
+      "bytes": 535703,
+      "sha256": "f72ac7519af84119b2b75ef4a222d4d175eaf2a59e1283bd35b73c14e0e5401e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-00.png",
+      "bytes": 171778,
+      "sha256": "c19cb54f6886efbd68759b8221d84ae2598b1fc3ecd61516a8d5dfb6e5a68cdd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-01.png",
+      "bytes": 169912,
+      "sha256": "b0bc40704148dbbbb59c77c179c0b0d832c5600e59f0f4041db048e5d6940347"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-02.png",
+      "bytes": 169556,
+      "sha256": "e809dc77497035b41e33c34555d5423b55b627b4930f2bb45f4cfba33c69ff2e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-03.png",
+      "bytes": 169848,
+      "sha256": "24551c72e30b8e575459549012793c3a8936cc9f20769f44f19ee0f2075352d2"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-04.png",
+      "bytes": 167423,
+      "sha256": "cfbebd34ba2145426a3020f703041f1c5b4f8ee74e004debaf1b28308a202d97"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-05.png",
+      "bytes": 166512,
+      "sha256": "3cb504c1dbc1487c2d1cdc69247f266e7ef62eb64e708492350da99ebc6fbc59"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-06.png",
+      "bytes": 165277,
+      "sha256": "c5b7a07c269a33a810b91f4a862b7dc9df47a23d58177a675bdf6480294d9703"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-07.png",
+      "bytes": 164895,
+      "sha256": "172f0fc386df9ba428b5cb2a0338eb696dc6205a8e1162b7b8accf83f34a55db"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-board.png",
+      "bytes": 658518,
+      "sha256": "e8b0511b9fb8902e5f0280e20fd41814358bdd20d451f37c3a3c3740e1d734b5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-front-motion.gif",
+      "bytes": 549439,
+      "sha256": "ee1c32caabf309a5769b20d78f6c6d33862acc83e7d3243ab61da456c94274f2"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-00.png",
+      "bytes": 175446,
+      "sha256": "d0bb50ab119733986cd0357012e547687e3905035ff1b7a389e0d289298861b2"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-01.png",
+      "bytes": 177031,
+      "sha256": "8b58a46540b6788e2943fc1bf885b315c12732fdcfc33ad8e50e356fc152ac86"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-02.png",
+      "bytes": 173332,
+      "sha256": "7a40e770fa58a90b75ff8c2c64f7e77d7b2a232eac945b20655f49c9223c2c26"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-03.png",
+      "bytes": 175615,
+      "sha256": "1df4195a97f66ba075ffb3e383a30cf4c844b8d7996585cf39009dc922fd4129"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-04.png",
+      "bytes": 176763,
+      "sha256": "8dce5a56e4d397e8add7c8618cfc4c3f73754410a1869f2c75573a49fcd7cc99"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-05.png",
+      "bytes": 177468,
+      "sha256": "aa3fbfe0c2a823e198b5ae7d3a09290eb780b20c6e9e68c89aff0b4d9036e939"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-06.png",
+      "bytes": 173903,
+      "sha256": "a28fc9f774b911ac52a02065f69522689b362d7f8d5241d26daa5fe4b2d27a1f"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-07.png",
+      "bytes": 175267,
+      "sha256": "de829d304e181c47b0f99d1fc62ee7afb17fd41502331dc6f66f7f01cc1a6246"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-board.png",
+      "bytes": 678137,
+      "sha256": "b69b14703e429ab43838fdc1b5d66a3976975cd1abf861555212af3017cc9900"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-down-side-motion.gif",
+      "bytes": 544330,
+      "sha256": "381f0f5da61db3998bad4b81a398618cf484f058d41180889c36529abee226c0"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-00.png",
+      "bytes": 163858,
+      "sha256": "3ba7aff0574525f2829841e068ea32adb33936c956da72c1b0f68a7cd855f259"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-01.png",
+      "bytes": 163482,
+      "sha256": "7ac4bbd7dc10d79dac9f66e6dd588606013ecfe9144e14590ecfce121e03f346"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-02.png",
+      "bytes": 166777,
+      "sha256": "cf3909a7ba926b8e0a4d55d50e40708beb44f640e6a8cbc8b5f4a85f2a731858"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-03.png",
+      "bytes": 167586,
+      "sha256": "373218a86b3742812e099bad4acf98bc88c1af0c3b0a26313250793e5bdc39f4"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-04.png",
+      "bytes": 169883,
+      "sha256": "6ac4fc74f12c545d81d149e316adbb0e8dd93ec026aafb8b1477d3c25b7211c6"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-05.png",
+      "bytes": 169875,
+      "sha256": "ee35011efd4882b1e439eb2e658a548bf2c9ff44234fb2258ffea4ac99f74339"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-06.png",
+      "bytes": 171591,
+      "sha256": "be327009ebd7144a941556bfb22d011bff7e4ec237ed3b80d009121f0be2bbd8"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-07.png",
+      "bytes": 172633,
+      "sha256": "d7ea80f8d34812d0a04622b54df0695ad4a3b720be59cedf25e40a0502114bac"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-board.png",
+      "bytes": 654876,
+      "sha256": "1c9c494f4baad8f01936d44b02dba033311025f8aca35d53d671ae3cf97d5f3e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-front-motion.gif",
+      "bytes": 546374,
+      "sha256": "2e6673827a50823e19956e4720fe567cbb39e67c7d9c639cb4b97a634d08c333"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-00.png",
+      "bytes": 175140,
+      "sha256": "e39a1705f66ce2e0f1d7b8d46db44498657f9c3bcfdbdab3f34571a587f9a341"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-01.png",
+      "bytes": 173221,
+      "sha256": "cf3791aec14f81fcbfdbc3ef3126804e3279347dc27a935ea03b1783abcfb304"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-02.png",
+      "bytes": 173115,
+      "sha256": "29cbf2dafc21971ba1d155562dff30d348897cdaf745056baff8d8b68fee0c2a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-03.png",
+      "bytes": 175465,
+      "sha256": "4f971020859075072e30875b7517a8a6bb488eb7e052683aeab0f9309f5c8995"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-04.png",
+      "bytes": 176560,
+      "sha256": "37a5982a451c8d72c5242144f9f981ac0121427a9c8eae9c8943a49a9a1a2cbd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-05.png",
+      "bytes": 175386,
+      "sha256": "3da9031dab1a11fcbf4f5a1546ea696278a2bbc0ca50443dac40f004327690f3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-06.png",
+      "bytes": 174847,
+      "sha256": "5a884d97d4602de0792cb29ce511fef0fc3a3b38775887baf0bd41b83c475b7d"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-07.png",
+      "bytes": 175484,
+      "sha256": "d58300f5a4c63f0c370f0019688b42922ba01c18938fd45aac4f958faa29bed9"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-board.png",
+      "bytes": 670557,
+      "sha256": "d629d0091d9767deae4dbba9b95042ffcefb6bb52b5e0f7ce672cafea144bb8a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview/R-up-side-motion.gif",
+      "bytes": 542250,
+      "sha256": "8519d7e6520febefc6630a15b55a12a2df241d75e77ba332837454eeed32a654"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview-process194.json",
+      "bytes": 535,
+      "sha256": "2e9c401b57798a6d5f7fda46570c201fbcdedb5173f1f8584aa72a5dd0b00546"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview-receipt194.json",
+      "bytes": 356865,
+      "sha256": "b535e7cb6c283592b3464bfb1cf615ccba69ce0c19280fb8aadf555439d101bd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview-stdout194.txt",
+      "bytes": 17586,
+      "sha256": "bd0dd497bd7006cf8f412c1497b574a7b530798c8ce79288e6b0171550cdb96f"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview-summary194.json",
+      "bytes": 5708,
+      "sha256": "27d8af6f47423d0119bf9f292a11a6bf94dc0544cad4b459dba36a100b84c316"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/preview194.py",
+      "bytes": 7248,
+      "sha256": "b7e9a30e525672cdda685f4d1b029a647956b2c3e7534e31ae071771ab16f023"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/protected-inputs194.json",
+      "bytes": 2745,
+      "sha256": "feca86b5b78bbc94b0c21cdbc1aa446e26ddb3c64a5a803e4fbc0b68c453d7b5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/author-process194.json",
+      "bytes": 497,
+      "sha256": "3bd58946de596596afaae152d1321dcda417e490a59f93793af18085804ef64b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/author-stdout194.txt",
+      "bytes": 501,
+      "sha256": "d0ff6d40ef35a4a3a7f8adaeee90542c2580af2e2c2ad0223723259b2510ebc1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/author194.py",
+      "bytes": 11801,
+      "sha256": "3805231af4146c96151abf08df84a50b69a1b199e7f617e70793bcf2af59362e"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/baseline-summary194.json",
+      "bytes": 4743,
+      "sha256": "29401b0778ec0e608cde46af8be17f6fa8f6045533307261ff39d112441629f9"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/author-process194.json",
+      "bytes": 509,
+      "sha256": "4ca8712ee059ecef543d984e5c920f0b941404dee3a6a622dec5a2964503c04b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/author-receipt194.json",
+      "bytes": 2563,
+      "sha256": "5f0e248f6f6497a3d134c574c8330a381fa8bc712d6ca00d91abfe5110055509"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/author-stdout194.txt",
+      "bytes": 582,
+      "sha256": "8b0593e1761d026f3306543450ac146ecaf07c5c3c2e1200124b2c2c168c22fa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/author194.py",
+      "bytes": 11110,
+      "sha256": "f004d0b6d27c30ec458e0aa0f8bef7ee1791b626457693b1c9ec3484783f183a"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/validate-process194.json",
+      "bytes": 263,
+      "sha256": "daa00dd74ba61300e441be31adfc154122987c1c42ea634c17b8fab849331664"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/first-failure/validate-stdout194.txt",
+      "bytes": 903,
+      "sha256": "787061ca115e0a21a091f65728270e86c2bff8de5d40a59ce5d108fdd5e966b1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/HANDOFF.md",
+      "bytes": 5502,
+      "sha256": "54ebef6ecb9ba75ec4ea7038d62e70e6823c9c64e300bc4086fd013e96c5d7fa"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/measure-receipt194.json",
+      "bytes": 253,
+      "sha256": "ea258a7f0ea06089503e66a7d1900101e260e6c26a19065651e86c6e9cc4de81"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/measure-stdout194.txt",
+      "bytes": 21518,
+      "sha256": "863e87b43771b43d092ba5ebc6e4a4c32feadc0c5dd15a7b159a5e764a1352bd"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/measure194.mts",
+      "bytes": 4088,
+      "sha256": "da9dc10850f2047269caa5f3bfef2b6b4bbcfb52f1cb300ecd7ee35b3537e0e4"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/measurement-inputs194.json",
+      "bytes": 765,
+      "sha256": "4a5d797e7cebe1bf55f3e857a1f4837f9bc2f45ed7c4447ae8e1c0de59340b0d"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/measurement194.json",
+      "bytes": 473327,
+      "sha256": "6fc805fa9aa797e74a433830b5f27c8e0151711d12082297924b98877f5dd3cb"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/package-validate194.mts",
+      "bytes": 10497,
+      "sha256": "02d6a443a0eea2cffb6ba09bd7c053def038fdde094e4c35ff04cfe861609df7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/preservation-receipt.json",
+      "bytes": 7513,
+      "sha256": "ba2090a26552c9f9b2907491713dadc07a7d21e48ee248b5706eadb43c6aa8b1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/protected-inputs194.json",
+      "bytes": 2745,
+      "sha256": "feca86b5b78bbc94b0c21cdbc1aa446e26ddb3c64a5a803e4fbc0b68c453d7b5"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/run-measure194.py",
+      "bytes": 679,
+      "sha256": "28f9edf56f66c9fc0973759be35a6b638cf2d03ade823e27088219bba165905b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/run-validate194.py",
+      "bytes": 690,
+      "sha256": "197163d1035efce9d1fb508fccada5700f136e935bae7d4e58eb710bf4879b45"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/run194.py",
+      "bytes": 1282,
+      "sha256": "23987b54f19a9b9754e9e3a6e32c5307369ff193d067a090147aaa788394f8b3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/source/author-receipt194.json",
+      "bytes": 2410,
+      "sha256": "6d99eeb8b02d360f170d4e30a6d513d003959cbe33769a4259ad9f0eeaea8667"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/source/choreography194.py",
+      "bytes": 10048,
+      "sha256": "114ecae599ebc86b43f4a289fddb7f69c10cb6b665bf305bb5ac9b1e94a9b168"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/source-seal.json",
+      "bytes": 5290,
+      "sha256": "f0f4f15dedc514e58c192ddc1bf05790e6b82bfe77601ed8730584db272d2acc"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/SPECIFICATION.md",
+      "bytes": 1240,
+      "sha256": "c5c1e37444bbe520b656cf681eff5442021b498787caf5c278c4ce53061ee658"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/validate-process194.json",
+      "bytes": 263,
+      "sha256": "daa00dd74ba61300e441be31adfc154122987c1c42ea634c17b8fab849331664"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/provisional-closed/validate-stdout194.txt",
+      "bytes": 903,
+      "sha256": "787061ca115e0a21a091f65728270e86c2bff8de5d40a59ce5d108fdd5e966b1"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run-measure194.py",
+      "bytes": 679,
+      "sha256": "28f9edf56f66c9fc0973759be35a6b638cf2d03ade823e27088219bba165905b"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run-validate194.py",
+      "bytes": 690,
+      "sha256": "197163d1035efce9d1fb508fccada5700f136e935bae7d4e58eb710bf4879b45"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/run194.py",
+      "bytes": 1306,
+      "sha256": "71f4a8097b0637e8b4ce15c7133612dabf1fbba8e6827b46f228fc5334a8f1f3"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/source-contract-summary194.json",
+      "bytes": 14987,
+      "sha256": "3111193d3f011211d9cdc92f6b94d52bc5fbb603829493f226ae90d1f8505605"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/SPECIFICATION.md",
+      "bytes": 1240,
+      "sha256": "c5c1e37444bbe520b656cf681eff5442021b498787caf5c278c4ce53061ee658"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/validate-process194.json",
+      "bytes": 263,
+      "sha256": "9bfa6410f35f66914a067ac0129e02778420b970c71fb1e79f4f06fb47cb99e7"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/validate-stdout194.txt",
+      "bytes": 786,
+      "sha256": "3f7885bcea1f537adf730a3c3d37698a5459c35f3c91a3cbfa8854b4856095c6"
+    },
+    {
+      "path": "tools/overhaul-stance-gait-194/validation194-operands.json",
+      "bytes": 10669383,
+      "sha256": "f1e3c18918781858d32450dd56792b2ed4a5ef1e6d79fe5d0f4d905b8667c034"
+    }
+  ],
+  "productionChanged": false,
+  "publicAssetWritten": false,
+  "remainingJobs": 0
+}

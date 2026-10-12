@@ -1,0 +1,39 @@
+// Copied only to isolated provenance trees. No simulation/source rewrite.
+import {afterEach,beforeEach,expect} from 'vitest';
+import {writeFileSync} from 'node:fs';
+import {Simulation} from './shared/simulation';
+const rows:object[]=[],counts=new Map<string,number>();
+let context='';
+const test=()=>expect.getState().currentTestName??'initialization';
+const actor=(a:Record<string,unknown>)=>JSON.parse(JSON.stringify({id:a.id,chassis:a.chassis,position:a.position,stance:a.stance,grounded:a.grounded,hp:a.hp,energy:a.energy,aimYaw:a.aimYaw,aimPitch:a.aimPitch,stanceChangedAt:a.stanceChangedAt,climb:a.climb,pair:a.pair}));
+const log=(sim:Simulation,kind:string,key:string,data:object,limit=6)=>{const id=`${test()}:${kind}:${key}`,n=counts.get(id)??0;counts.set(id,n+1);if(n<limit&&rows.length<1600)rows.push(JSON.parse(JSON.stringify({test:test(),kind,tick:sim.tick,time:sim.time,...data})));};
+const proto=Simulation.prototype as unknown as Record<string,(...args:unknown[])=>unknown>;
+function collider(sim:Simulation,c:Record<string,unknown>|undefined){if(!c)return null;const s=sim as unknown as Record<string,Map<unknown,unknown>>,handle=c.handle,parent=Reflect.apply(c.parent as ()=>Record<string,unknown>|null,c,[]),shape=c.shape as Record<string,unknown>;return {handle,translation:Reflect.apply(c.translation as ()=>unknown,c,[]),rotation:Reflect.apply(c.rotation as ()=>unknown,c,[]),shape:shape?.type,halfExtents:shape?.halfExtents,halfHeight:shape?.halfHeight,radius:shape?.radius,borderRadius:shape?.borderRadius,bodyType:parent?Reflect.apply(parent.bodyType as ()=>unknown,parent,[]):null,cell:s.colliderCell.get(handle),cover:s.colliderCover.get(handle),anchor:s.anchorSupports.get(handle)};}
+function wrap(name:string,observe:(sim:Simulation,args:unknown[],result:unknown,before:unknown)=>void,pre?:(sim:Simulation,args:unknown[])=>unknown){const original=proto[name];if(typeof original!=='function')throw new Error(`Missing observation method ${name}`);proto[name]=function(...args:unknown[]){const sim=this as unknown as Simulation,before=pre?.(sim,args),old=context;context=name;try{const result=original.apply(this,args);observe(sim,args,result,before);return result;}finally{context=old;}};}
+wrap('setInput',(s,args,_r)=>{const a=s.actors.get(String(args[0]));if(a)log(s,'input',String(args[0]),{input:args[1],actor:actor(a as unknown as Record<string,unknown>),stored:(s as unknown as {physics:Map<string,{input:unknown}>}).physics.get(a.id)?.input},8);});
+wrap('changeStance',(s,args,r,b)=>{const a=args[0] as Record<string,unknown>;log(s,'stance-query',String(a.id),{requested:args[2],before:b,after:actor(a),returnedCollider:r&&collider(s,r as Record<string,unknown>)},12);},(_s,args)=>actor(args[0] as Record<string,unknown>));
+const intersection=proto.solidIntersection;proto.solidIntersection=function(...args:unknown[]){const s=this as unknown as Simulation,r=intersection.apply(this,args);if(context==='changeStance')log(s,'headroom',String(r&&((r as Record<string,unknown>).handle)),{center:args[0],rotation:args[1],shape:args[2],flags:args[3],hit:collider(s,r as Record<string,unknown>|undefined)},10);return r;};
+for(const name of ['solidRay','solidRayNormal']){const original=proto[name];proto[name]=function(...args:unknown[]){const s=this as unknown as Simulation,r=original.apply(this,args);if(['lineOfSight','uprightAbility','advanceProjectiles'].includes(context)&&r)log(s,'ray-hit',`${context}:${(r as {collider:{handle:number}}).collider.handle}`,{context,ray:args[0],maxDistance:args[1],flags:args[3],hit:{timeOfImpact:(r as {timeOfImpact:number}).timeOfImpact,collider:collider(s,(r as {collider:Record<string,unknown>}).collider)}},6);return r;};}
+wrap('lineOfSight',(s,args,r)=>log(s,'visibility',JSON.stringify(args),{from:args[0],to:args[1],visible:r},2));
+wrap('shoot',(s,args,r)=>log(s,'shoot',String((args[0] as {id:string}).id),{actor:actor(args[0] as Record<string,unknown>),weapon:args[1],accepted:r,projectiles:s.projectiles.map(p=>({...p,position:{...p.position}}))},4));
+wrap('uprightAbility',(s,args)=>log(s,'ability',String((args[0] as {id:string}).id),{actor:actor(args[0] as Record<string,unknown>),actors:[...s.actors.values()].map(a=>actor(a as unknown as Record<string,unknown>)),fields:s.fields.map(f=>({...f,position:{...f.position}}))},4));
+wrap('fieldContains',(s,args,r)=>{const f=args[0] as {id:number;kind:string;position:unknown;radius:number},a=args[1] as Record<string,unknown>;log(s,'field-recipient',`${f.id}:${a.id}`,{field:f,actor:actor(a),contains:r},3);});
+wrap('advanceProjectiles',()=>{});
+wrap('damage',(s,args,_r,b)=>log(s,'damage',String((args[0] as {id:string}).id),{target:actor(args[0] as Record<string,unknown>),before:b,amount:args[1],owner:args[2],point:args[3]},6),(_s,args)=>actor(args[0] as Record<string,unknown>));
+wrap('step',(s)=>{const ps=(s as unknown as {physics:Map<string,{input:{stance:string;stanceRequest?:unknown}}>}).physics;for(const a of s.actors.values()){const p=ps.get(a.id);if(p&&p.input.stance!==a.stance)log(s,'pending-legacy-stance',a.id,{actor:actor(a as unknown as Record<string,unknown>),input:p.input},10);}});
+
+// Separate channel: errors in native/original methods or observations are NOT
+// expected assertions. Preserve the first raw failure and rethrow unchanged.
+const fatalErrors:object[]=[];
+const saveFatal=()=>writeFileSync('observer-errors.json',JSON.stringify({fatalErrors},null,2));
+saveFatal();
+function fatal(method:string,error:unknown){
+  if(!fatalErrors.length)fatalErrors.push({method,test:test(),name:error instanceof Error?error.name:typeof error,message:error instanceof Error?error.message:String(error),stack:error instanceof Error?error.stack:null,utc:new Date().toISOString()});
+  try{saveFatal();}catch(writeError){process.stderr.write(`OBSERVER_FATAL_REGISTRY_WRITE_FAILURE ${String(writeError)}\n`);}
+}
+for(const name of ['setInput','changeStance','solidIntersection','solidRay','solidRayNormal','lineOfSight','shoot','uprightAbility','fieldContains','advanceProjectiles','damage','step']){
+  const instrumented=proto[name];
+  proto[name]=function(...args:unknown[]){try{return instrumented.apply(this,args);}catch(error){fatal(name,error);throw error;}};
+}
+beforeEach(()=>{if(fatalErrors.length)throw new Error('OBSERVATION_STOP_AFTER_FIRST_FATAL');});
+afterEach(()=>{try{writeFileSync('observation.json',JSON.stringify({scope:'OBSERVATIONAL_UNCHANGED_LEGACY_FIXTURES',rows,counts:[...counts],fatalErrors},null,2));saveFatal();}catch(error){fatal('afterEach-receipt',error);throw error;}});

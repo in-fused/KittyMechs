@@ -1,0 +1,1188 @@
+{
+  "status": "MEASURED_REVIEW_REQUIRED",
+  "scope": "Existing058E actual Three CPU curves at saved063 clocks; mounted source-relative ankle heads only, no world/native/pad contact reconstruction",
+  "inputs": [
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb",
+      "expected": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+      "actual": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+      "bytes": 6093560,
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/observer063-play/evidence.json",
+      "expected": "681a41d4113281521639d362052abe4db8826a854ca6a31b664264550e40f0c8",
+      "actual": "681a41d4113281521639d362052abe4db8826a854ca6a31b664264550e40f0c8",
+      "bytes": 7079722,
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "expected": "52b9e9eb76776da7f751bcd3687f477cb3df7f04ab0387600f51e7954e8b2c53",
+      "actual": "52b9e9eb76776da7f751bcd3687f477cb3df7f04ab0387600f51e7954e8b2c53",
+      "bytes": 12094,
+      "match": true
+    },
+    {
+      "path": "src/game/entities/identity57Runtime058EManifest.json",
+      "expected": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027",
+      "actual": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027",
+      "bytes": 239878,
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-gait-runtime-064/recorded-analysis.json",
+      "expected": "7715515ce7872d90931ceeed805b2a73cd0ee91bc63dd95d26980a4bcc5b0024",
+      "actual": "7715515ce7872d90931ceeed805b2a73cd0ee91bc63dd95d26980a4bcc5b0024",
+      "bytes": 146938,
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "expected": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "actual": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "bytes": 5983484,
+      "match": true
+    }
+  ],
+  "samples": [
+    {
+      "observation": {
+        "index": 75,
+        "wallMs": 30149,
+        "segment": "upright",
+        "nativeTick": 1612,
+        "nativeTime": 26.866666666666422,
+        "ownerRenderTime": 26.794410437817323,
+        "ownerMode": "quad",
+        "gaitPhase": 0.9260040465759878,
+        "clip": "FelineWalk",
+        "clipTime": 0.9426706985885364,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.39201789165237594,
+          "y": 0.1938046601811942,
+          "z": -0.998494590189652
+        },
+        "FR": {
+          "x": -0.3920002604633905,
+          "y": 0.13757897831438382,
+          "z": -0.7646660982501403
+        },
+        "RL": {
+          "x": 0.36800385363256555,
+          "y": 0.12156608843344682,
+          "z": 0.8617677763101852
+        },
+        "RR": {
+          "x": -0.36800268174890255,
+          "y": 0.12157209535518312,
+          "z": 0.47288349850544653
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 76,
+        "wallMs": 30399,
+        "segment": "upright",
+        "nativeTick": 1627,
+        "nativeTime": 27.116666666666408,
+        "ownerRenderTime": 27.023306801365376,
+        "ownerMode": "transform",
+        "gaitPhase": 0.022530402863843113,
+        "clip": "FelineTransformUp",
+        "clipTime": 0.07505219848518939,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.39200045632429936,
+          "y": 0.13758037842686377,
+          "z": -0.7471128871164148
+        },
+        "FR": {
+          "x": -0.39200095456875583,
+          "y": 0.13757874667568937,
+          "z": -0.9194183815003577
+        },
+        "RL": {
+          "x": 0.368002087872323,
+          "y": 0.12157513894069433,
+          "z": 0.5125747412593571
+        },
+        "RR": {
+          "x": -0.36800274309296205,
+          "y": 0.12157381328708491,
+          "z": 0.6848777194941166
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 77,
+        "wallMs": 30634,
+        "segment": "upright",
+        "nativeTick": 1643,
+        "nativeTime": 27.38333333333306,
+        "ownerRenderTime": 27.279206893372805,
+        "ownerMode": "transform",
+        "gaitPhase": 0.022530402863843113,
+        "clip": "FelineTransformUp",
+        "clipTime": 0.33704513965757327,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.42293847837038445,
+          "y": 0.9107805430846698,
+          "z": -0.8167718811246613
+        },
+        "FR": {
+          "x": -0.42293852623442796,
+          "y": 0.9107805507087898,
+          "z": -0.816771964314023
+        },
+        "RL": {
+          "x": 0.3680008154599038,
+          "y": 0.12158179159855442,
+          "z": 0.663715335087422
+        },
+        "RR": {
+          "x": -0.36799714671715167,
+          "y": 0.13085443965768945,
+          "z": 0.5117772630106259
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 78,
+        "wallMs": 30846,
+        "segment": "upright",
+        "nativeTick": 1655,
+        "nativeTime": 27.583333333333048,
+        "ownerRenderTime": 27.487966753025816,
+        "ownerMode": "transform",
+        "gaitPhase": 0.022530402863843113,
+        "clip": "FelineTransformUp",
+        "clipTime": 0.5507754638640937,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.4320000417745452,
+          "y": 1.4286935404891898,
+          "z": -0.6210288820924916
+        },
+        "FR": {
+          "x": -0.4320000635276922,
+          "y": 1.4286935466860453,
+          "z": -0.6210289201848647
+        },
+        "RL": {
+          "x": 0.3679999280192382,
+          "y": 0.1218387360804834,
+          "z": 0.5065442631832986
+        },
+        "RR": {
+          "x": -0.36800022907565516,
+          "y": 0.12159527727051364,
+          "z": 0.6781947824072282
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 79,
+        "wallMs": 31051,
+        "segment": "upright",
+        "nativeTick": 1669,
+        "nativeTime": 27.816666666666368,
+        "ownerRenderTime": 27.715992108184846,
+        "ownerMode": "upright",
+        "gaitPhase": 0.19155482486881453,
+        "clip": "FelineUprightStride",
+        "clipTime": 0.0709405366990706,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.43200006738778607,
+          "y": 1.5481125082767664,
+          "z": -0.5047144114070361
+        },
+        "FR": {
+          "x": -0.432000067387786,
+          "y": 1.5481125082767664,
+          "z": -0.5047144114070362
+        },
+        "RL": {
+          "x": 0.3680470253590773,
+          "y": 0.11954887882975526,
+          "z": 0.33974737746884964
+        },
+        "RR": {
+          "x": -0.3687072534834384,
+          "y": 0.14150765005697907,
+          "z": 1.2164538899296429
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 85,
+        "wallMs": 32678,
+        "segment": "quadruped",
+        "nativeTick": 1763,
+        "nativeTime": 29.383333333332946,
+        "ownerRenderTime": 29.32327368642307,
+        "ownerMode": "upright",
+        "gaitPhase": 0.24069096846421686,
+        "clip": "FelineUprightWalkLong",
+        "clipTime": 0.1610812503180543,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.43200006738778607,
+          "y": 1.5430640627720094,
+          "z": -0.5047144114070361
+        },
+        "FR": {
+          "x": -0.432000067387786,
+          "y": 1.5430640627720094,
+          "z": -0.5047144114070362
+        },
+        "RL": {
+          "x": 0.3680089293528179,
+          "y": 0.12147131869255923,
+          "z": 0.5317492259757656
+        },
+        "RR": {
+          "x": -0.3680994049466376,
+          "y": 0.20108948099257082,
+          "z": 0.8243769746165005
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 86,
+        "wallMs": 32899,
+        "segment": "quadruped",
+        "nativeTick": 1780,
+        "nativeTime": 29.666666666666263,
+        "ownerRenderTime": 29.559456025762348,
+        "ownerMode": "transform",
+        "gaitPhase": 0.2501921233869986,
+        "clip": "FelineTransformDown",
+        "clipTime": 0.1461891000672759,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.4320000798476652,
+          "y": 1.5412453724634123,
+          "z": -0.5055864778430907
+        },
+        "FR": {
+          "x": -0.43200006286351345,
+          "y": 1.5412453676251163,
+          "z": -0.5055864481018109
+        },
+        "RL": {
+          "x": 0.3680003662567496,
+          "y": 0.1869955279868459,
+          "z": 0.5720849707453783
+        },
+        "RR": {
+          "x": -0.368001990895551,
+          "y": 0.12158138598469095,
+          "z": 0.6323481824448463
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 87,
+        "wallMs": 33131,
+        "segment": "quadruped",
+        "nativeTick": 1791,
+        "nativeTime": 29.849999999999586,
+        "ownerRenderTime": 29.773839046466005,
+        "ownerMode": "transform",
+        "gaitPhase": 0.2501921233869986,
+        "clip": "FelineTransformDown",
+        "clipTime": 0.36567646988791863,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.432000062558306,
+          "y": 1.3313960980725013,
+          "z": -0.6954765983910842
+        },
+        "FR": {
+          "x": -0.43200001679299543,
+          "y": 1.3313960850352808,
+          "z": -0.695476518250536
+        },
+        "RL": {
+          "x": 0.3680009375325065,
+          "y": 0.12159396430047811,
+          "z": 0.642576357995936
+        },
+        "RR": {
+          "x": -0.3679989346437682,
+          "y": 0.1689777851126873,
+          "z": 0.5469913391715338
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 88,
+        "wallMs": 33352,
+        "segment": "quadruped",
+        "nativeTick": 1807,
+        "nativeTime": 30.116666666666237,
+        "ownerRenderTime": 30.004246724478833,
+        "ownerMode": "transform",
+        "gaitPhase": 0.2501921233869986,
+        "clip": "FelineTransformDown",
+        "clipTime": 0.6015700358407113,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.398536378228901,
+          "y": 0.40060033565561176,
+          "z": -0.8164213666062115
+        },
+        "FR": {
+          "x": -0.3985363118815586,
+          "y": 0.4006003145491507,
+          "z": -0.8164212683648375
+        },
+        "RL": {
+          "x": 0.3679997552038885,
+          "y": 0.17246673136365118,
+          "z": 0.5513489750947538
+        },
+        "RR": {
+          "x": -0.36800131827805055,
+          "y": 0.12159121228178962,
+          "z": 0.6406849614060982
+        }
+      }
+    },
+    {
+      "observation": {
+        "index": 89,
+        "wallMs": 33562,
+        "segment": "quadruped",
+        "nativeTick": 1819,
+        "nativeTime": 30.316666666666226,
+        "ownerRenderTime": 30.221739318697722,
+        "ownerMode": "quad",
+        "gaitPhase": 0.5827975478692278,
+        "clip": "FelineGallop",
+        "clipTime": 0.11379959399001408,
+        "weight": 1
+      },
+      "ankles": {
+        "FL": {
+          "x": 0.3919353000530972,
+          "y": 0.17699591662505376,
+          "z": -0.26876293486294944
+        },
+        "FR": {
+          "x": -0.3922757379904658,
+          "y": 0.12938892705015753,
+          "z": -1.2486919079689451
+        },
+        "RL": {
+          "x": 0.36714746127724374,
+          "y": 0.11577040504773253,
+          "z": 0.1854245253946773
+        },
+        "RR": {
+          "x": -0.36802957332956576,
+          "y": 0.16085542568343789,
+          "z": 1.1634764625314267
+        }
+      }
+    }
+  ],
+  "nativeContactQualified": false,
+  "exactSwitchBoundary": false,
+  "geometrySkinLoaded": true,
+  "imagesMaterialsExcluded": true,
+  "bindGuard": {
+    "jointParents": 57,
+    "skinnedMeshes": 4,
+    "original034Equality": true,
+    "loadedBindSHA256": "773e5ec47cd3eaa644e11a0ca97587871b3dc743ed1a078132215f0b15b85707"
+  },
+  "coordinateFrame": {
+    "origin": "Zero outer actor root; source scene mounted under actual scale.8 Ry(pi)",
+    "x": "Mounted actor-local right",
+    "y": "Up",
+    "z": "Authority forward is negativeZ; forwardDelta=-deltaZ",
+    "ankles": {
+      "FL": "FL_paw",
+      "FR": "FR_paw",
+      "RL": "HL_paw",
+      "RR": "HR_paw"
+    },
+    "qualification": "Bone heads, not pad surfaces; no native position/yaw/pivot added"
+  },
+  "comparisons": [
+    {
+      "transform": "FelineTransformUp",
+      "pairs": [
+        {
+          "kind": "sampled-entry",
+          "from": {
+            "index": 75,
+            "wallMs": 30149,
+            "segment": "upright",
+            "nativeTick": 1612,
+            "nativeTime": 26.866666666666422,
+            "ownerRenderTime": 26.794410437817323,
+            "ownerMode": "quad",
+            "gaitPhase": 0.9260040465759878,
+            "clip": "FelineWalk",
+            "clipTime": 0.9426706985885364,
+            "weight": 1
+          },
+          "to": {
+            "index": 76,
+            "wallMs": 30399,
+            "segment": "upright",
+            "nativeTick": 1627,
+            "nativeTime": 27.116666666666408,
+            "ownerRenderTime": 27.023306801365376,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.07505219848518939,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.22889636354805276,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": -0.000017435328076575995,
+                "y": -0.05622428175433042,
+                "z": 0.25138170307323726
+              },
+              "euclidean": 0.257592567444758,
+              "forwardDelta": -0.25138170307323726,
+              "verticalDelta": -0.05622428175433042
+            },
+            "FR": {
+              "delta": {
+                "x": -6.941053653508611e-7,
+                "y": -2.3163869444786656e-7,
+                "z": -0.1547522832502174
+              },
+              "euclidean": 0.15475228325194737,
+              "forwardDelta": 0.1547522832502174,
+              "verticalDelta": -2.3163869444786656e-7
+            },
+            "RL": {
+              "delta": {
+                "x": -0.0000017657602425225072,
+                "y": 0.000009050507247504447,
+                "z": -0.3491930350508281
+              },
+              "euclidean": 0.3491930351725796,
+              "forwardDelta": 0.3491930350508281,
+              "verticalDelta": 0.000009050507247504447
+            },
+            "RR": {
+              "delta": {
+                "x": -6.134405949875799e-8,
+                "y": 0.0000017179319017901484,
+                "z": 0.21199422098867005
+              },
+              "euclidean": 0.2119942209956397,
+              "forwardDelta": -0.21199422098867005,
+              "verticalDelta": 0.0000017179319017901484
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R",
+          "from": {
+            "index": 76,
+            "wallMs": 30399,
+            "segment": "upright",
+            "nativeTick": 1627,
+            "nativeTime": 27.116666666666408,
+            "ownerRenderTime": 27.023306801365376,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.07505219848518939,
+            "weight": 1
+          },
+          "to": {
+            "index": 77,
+            "wallMs": 30634,
+            "segment": "upright",
+            "nativeTick": 1643,
+            "nativeTime": 27.38333333333306,
+            "ownerRenderTime": 27.279206893372805,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.33704513965757327,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.2559000920074297,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": 0.03093802204608509,
+                "y": 0.773200164657806,
+                "z": -0.06965899400824649
+              },
+              "euclidean": 0.7769478948302926,
+              "forwardDelta": 0.06965899400824649,
+              "verticalDelta": 0.773200164657806
+            },
+            "FR": {
+              "delta": {
+                "x": -0.030937571665672126,
+                "y": 0.7732018040331005,
+                "z": 0.10264641718633472
+              },
+              "euclidean": 0.7805987766207431,
+              "forwardDelta": -0.10264641718633472,
+              "verticalDelta": 0.7732018040331005
+            },
+            "RL": {
+              "delta": {
+                "x": -0.0000012724124192065034,
+                "y": 0.000006652657860095612,
+                "z": 0.15114059382806488
+              },
+              "euclidean": 0.1511405939798338,
+              "forwardDelta": -0.15114059382806488,
+              "verticalDelta": 0.000006652657860095612
+            },
+            "RR": {
+              "delta": {
+                "x": 0.000005596375810379417,
+                "y": 0.009280626370604533,
+                "z": -0.1731004564834907
+              },
+              "euclidean": 0.17334906429497401,
+              "forwardDelta": 0.1731004564834907,
+              "verticalDelta": 0.009280626370604533
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R",
+          "from": {
+            "index": 77,
+            "wallMs": 30634,
+            "segment": "upright",
+            "nativeTick": 1643,
+            "nativeTime": 27.38333333333306,
+            "ownerRenderTime": 27.279206893372805,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.33704513965757327,
+            "weight": 1
+          },
+          "to": {
+            "index": 78,
+            "wallMs": 30846,
+            "segment": "upright",
+            "nativeTick": 1655,
+            "nativeTime": 27.583333333333048,
+            "ownerRenderTime": 27.487966753025816,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.5507754638640937,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.2087598596530107,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": 0.009061563404160755,
+                "y": 0.51791299740452,
+                "z": 0.19574299903216963
+              },
+              "euclidean": 0.5537429967791647,
+              "forwardDelta": -0.19574299903216963,
+              "verticalDelta": 0.51791299740452
+            },
+            "FR": {
+              "delta": {
+                "x": -0.009061537293264255,
+                "y": 0.5179129959772555,
+                "z": 0.19574304412915833
+              },
+              "euclidean": 0.5537430109583358,
+              "forwardDelta": -0.19574304412915833,
+              "verticalDelta": 0.5179129959772555
+            },
+            "RL": {
+              "delta": {
+                "x": -8.874406656200762e-7,
+                "y": 0.0002569444819289779,
+                "z": -0.15717107190412338
+              },
+              "euclidean": 0.15717128193389995,
+              "forwardDelta": 0.15717107190412338,
+              "verticalDelta": 0.0002569444819289779
+            },
+            "RR": {
+              "delta": {
+                "x": -0.000003082358503492255,
+                "y": -0.009259162387175807,
+                "z": 0.16641751939660232
+              },
+              "euclidean": 0.16667490170908017,
+              "forwardDelta": -0.16641751939660232,
+              "verticalDelta": -0.009259162387175807
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R-first-to-last",
+          "from": {
+            "index": 76,
+            "wallMs": 30399,
+            "segment": "upright",
+            "nativeTick": 1627,
+            "nativeTime": 27.116666666666408,
+            "ownerRenderTime": 27.023306801365376,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.07505219848518939,
+            "weight": 1
+          },
+          "to": {
+            "index": 78,
+            "wallMs": 30846,
+            "segment": "upright",
+            "nativeTick": 1655,
+            "nativeTime": 27.583333333333048,
+            "ownerRenderTime": 27.487966753025816,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.5507754638640937,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.4646599516604404,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": 0.039999585450245845,
+                "y": 1.291113162062326,
+                "z": 0.12608400502392314
+              },
+              "euclidean": 1.2978714652883168,
+              "forwardDelta": -0.12608400502392314,
+              "verticalDelta": 1.291113162062326
+            },
+            "FR": {
+              "delta": {
+                "x": -0.03999910895893638,
+                "y": 1.291114800010356,
+                "z": 0.29838946131549304
+              },
+              "euclidean": 1.325750212576804,
+              "forwardDelta": -0.29838946131549304,
+              "verticalDelta": 1.291114800010356
+            },
+            "RL": {
+              "delta": {
+                "x": -0.0000021598530848265796,
+                "y": 0.0002635971397890735,
+                "z": -0.006030478076058499
+              },
+              "euclidean": 0.006036236736816453,
+              "forwardDelta": 0.006030478076058499,
+              "verticalDelta": 0.0002635971397890735
+            },
+            "RR": {
+              "delta": {
+                "x": 0.000002514017306887162,
+                "y": 0.000021463983428726685,
+                "z": -0.006682937086888385
+              },
+              "euclidean": 0.006682972028235332,
+              "forwardDelta": 0.006682937086888385,
+              "verticalDelta": 0.000021463983428726685
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "sampled-exit",
+          "from": {
+            "index": 78,
+            "wallMs": 30846,
+            "segment": "upright",
+            "nativeTick": 1655,
+            "nativeTime": 27.583333333333048,
+            "ownerRenderTime": 27.487966753025816,
+            "ownerMode": "transform",
+            "gaitPhase": 0.022530402863843113,
+            "clip": "FelineTransformUp",
+            "clipTime": 0.5507754638640937,
+            "weight": 1
+          },
+          "to": {
+            "index": 79,
+            "wallMs": 31051,
+            "segment": "upright",
+            "nativeTick": 1669,
+            "nativeTime": 27.816666666666368,
+            "ownerRenderTime": 27.715992108184846,
+            "ownerMode": "upright",
+            "gaitPhase": 0.19155482486881453,
+            "clip": "FelineUprightStride",
+            "clipTime": 0.0709405366990706,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.22802535515902989,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": 2.5613240861588338e-8,
+                "y": 0.11941896778757655,
+                "z": 0.11631447068545553
+              },
+              "euclidean": 0.16670316721132983,
+              "forwardDelta": -0.11631447068545553,
+              "verticalDelta": 0.11941896778757655
+            },
+            "FR": {
+              "delta": {
+                "x": -3.8600938001565055e-9,
+                "y": 0.11941896159072107,
+                "z": 0.11631450877782845
+              },
+              "euclidean": 0.166703189350515,
+              "forwardDelta": -0.11631450877782845,
+              "verticalDelta": 0.11941896159072107
+            },
+            "RL": {
+              "delta": {
+                "x": 0.00004709733983909725,
+                "y": -0.002289857250728139,
+                "z": -0.16679688571444895
+              },
+              "euclidean": 0.1668126096805247,
+              "forwardDelta": 0.16679688571444895,
+              "verticalDelta": -0.002289857250728139
+            },
+            "RR": {
+              "delta": {
+                "x": -0.0007070244077832522,
+                "y": 0.019912372786465432,
+                "z": 0.5382591075224147
+              },
+              "euclidean": 0.5386277650700219,
+              "forwardDelta": -0.5382591075224147,
+              "verticalDelta": 0.019912372786465432
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        }
+      ]
+    },
+    {
+      "transform": "FelineTransformDown",
+      "pairs": [
+        {
+          "kind": "sampled-entry",
+          "from": {
+            "index": 85,
+            "wallMs": 32678,
+            "segment": "quadruped",
+            "nativeTick": 1763,
+            "nativeTime": 29.383333333332946,
+            "ownerRenderTime": 29.32327368642307,
+            "ownerMode": "upright",
+            "gaitPhase": 0.24069096846421686,
+            "clip": "FelineUprightWalkLong",
+            "clipTime": 0.1610812503180543,
+            "weight": 1
+          },
+          "to": {
+            "index": 86,
+            "wallMs": 32899,
+            "segment": "quadruped",
+            "nativeTick": 1780,
+            "nativeTime": 29.666666666666263,
+            "ownerRenderTime": 29.559456025762348,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.1461891000672759,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.23618233933927613,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": 1.2459879128456919e-8,
+                "y": -0.0018186903085970485,
+                "z": -0.0008720664360546415
+              },
+              "euclidean": 0.0020169616524944446,
+              "forwardDelta": 0.0008720664360546415,
+              "verticalDelta": -0.0018186903085970485
+            },
+            "FR": {
+              "delta": {
+                "x": 4.524272567696386e-9,
+                "y": -0.0018186951468930346,
+                "z": -0.0008720366947746472
+              },
+              "euclidean": 0.0020169531562201034,
+              "forwardDelta": 0.0008720366947746472,
+              "verticalDelta": -0.0018186951468930346
+            },
+            "RL": {
+              "delta": {
+                "x": -0.00000856309606833694,
+                "y": 0.06552420929428668,
+                "z": 0.04033574476961277
+              },
+              "euclidean": 0.07694409907905507,
+              "forwardDelta": -0.04033574476961277,
+              "verticalDelta": 0.06552420929428668
+            },
+            "RR": {
+              "delta": {
+                "x": 0.00009741405108659729,
+                "y": -0.07950809500787986,
+                "z": -0.19202879217165425
+              },
+              "euclidean": 0.20783792648163082,
+              "forwardDelta": 0.19202879217165425,
+              "verticalDelta": -0.07950809500787986
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R",
+          "from": {
+            "index": 86,
+            "wallMs": 32899,
+            "segment": "quadruped",
+            "nativeTick": 1780,
+            "nativeTime": 29.666666666666263,
+            "ownerRenderTime": 29.559456025762348,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.1461891000672759,
+            "weight": 1
+          },
+          "to": {
+            "index": 87,
+            "wallMs": 33131,
+            "segment": "quadruped",
+            "nativeTick": 1791,
+            "nativeTime": 29.849999999999586,
+            "ownerRenderTime": 29.773839046466005,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.36567646988791863,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.21438302070365722,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": -1.728935922207242e-8,
+                "y": -0.20984927439091106,
+                "z": -0.18989012054799348
+              },
+              "euclidean": 0.2830105578315475,
+              "forwardDelta": 0.18989012054799348,
+              "verticalDelta": -0.20984927439091106
+            },
+            "FR": {
+              "delta": {
+                "x": 4.607051801164275e-8,
+                "y": -0.20984928258983548,
+                "z": -0.18989007014872517
+              },
+              "euclidean": 0.28301053009483323,
+              "forwardDelta": 0.18989007014872517,
+              "verticalDelta": -0.20984928258983548
+            },
+            "RL": {
+              "delta": {
+                "x": 5.712757569220628e-7,
+                "y": -0.06540156368636779,
+                "z": 0.0704913872505577
+              },
+              "euclidean": 0.09615820406734137,
+              "forwardDelta": -0.0704913872505577,
+              "verticalDelta": -0.06540156368636779
+            },
+            "RR": {
+              "delta": {
+                "x": 0.000003056251782818098,
+                "y": 0.04739639912799634,
+                "z": -0.0853568432733125
+              },
+              "euclidean": 0.09763303412895576,
+              "forwardDelta": 0.0853568432733125,
+              "verticalDelta": 0.04739639912799634
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R",
+          "from": {
+            "index": 87,
+            "wallMs": 33131,
+            "segment": "quadruped",
+            "nativeTick": 1791,
+            "nativeTime": 29.849999999999586,
+            "ownerRenderTime": 29.773839046466005,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.36567646988791863,
+            "weight": 1
+          },
+          "to": {
+            "index": 88,
+            "wallMs": 33352,
+            "segment": "quadruped",
+            "nativeTick": 1807,
+            "nativeTime": 30.116666666666237,
+            "ownerRenderTime": 30.004246724478833,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.6015700358407113,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.2304076780128277,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": -0.033463684329405,
+                "y": -0.9307957624168894,
+                "z": -0.12094476821512723
+              },
+              "euclidean": 0.939216804822373,
+              "forwardDelta": 0.12094476821512723,
+              "verticalDelta": -0.9307957624168894
+            },
+            "FR": {
+              "delta": {
+                "x": 0.03346370491143685,
+                "y": -0.9307957704861302,
+                "z": -0.1209447501143015
+              },
+              "euclidean": 0.9392168112217111,
+              "forwardDelta": 0.1209447501143015,
+              "verticalDelta": -0.9307957704861302
+            },
+            "RL": {
+              "delta": {
+                "x": -0.0000011823286180101533,
+                "y": 0.05087276706317306,
+                "z": -0.09122738290118226
+              },
+              "euclidean": 0.10445321355066434,
+              "forwardDelta": 0.09122738290118226,
+              "verticalDelta": 0.05087276706317306
+            },
+            "RR": {
+              "delta": {
+                "x": -0.0000023836342823435608,
+                "y": -0.04738657283089767,
+                "z": 0.09369362223456446
+              },
+              "euclidean": 0.10499515292513721,
+              "forwardDelta": -0.09369362223456446,
+              "verticalDelta": -0.04738657283089767
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "within-R-first-to-last",
+          "from": {
+            "index": 86,
+            "wallMs": 32899,
+            "segment": "quadruped",
+            "nativeTick": 1780,
+            "nativeTime": 29.666666666666263,
+            "ownerRenderTime": 29.559456025762348,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.1461891000672759,
+            "weight": 1
+          },
+          "to": {
+            "index": 88,
+            "wallMs": 33352,
+            "segment": "quadruped",
+            "nativeTick": 1807,
+            "nativeTime": 30.116666666666237,
+            "ownerRenderTime": 30.004246724478833,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.6015700358407113,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.4447906987164849,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": -0.03346370161876422,
+                "y": -1.1406450368078005,
+                "z": -0.3108348887631207
+              },
+              "euclidean": 1.1827126647637964,
+              "forwardDelta": 0.3108348887631207,
+              "verticalDelta": -1.1406450368078005
+            },
+            "FR": {
+              "delta": {
+                "x": 0.033463750981954865,
+                "y": -1.1406450530759655,
+                "z": -0.31083482026302667
+              },
+              "euclidean": 1.182712663847142,
+              "forwardDelta": 0.31083482026302667,
+              "verticalDelta": -1.1406450530759655
+            },
+            "RL": {
+              "delta": {
+                "x": -6.110528610880905e-7,
+                "y": -0.014528796623194729,
+                "z": -0.02073599565062456
+              },
+              "euclidean": 0.025319309771679416,
+              "forwardDelta": 0.02073599565062456,
+              "verticalDelta": -0.014528796623194729
+            },
+            "RR": {
+              "delta": {
+                "x": 6.726175004745372e-7,
+                "y": 0.000009826297098669556,
+                "z": 0.008336778961251956
+              },
+              "euclidean": 0.00833678477935602,
+              "forwardDelta": -0.008336778961251956,
+              "verticalDelta": 0.000009826297098669556
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        },
+        {
+          "kind": "sampled-exit",
+          "from": {
+            "index": 88,
+            "wallMs": 33352,
+            "segment": "quadruped",
+            "nativeTick": 1807,
+            "nativeTime": 30.116666666666237,
+            "ownerRenderTime": 30.004246724478833,
+            "ownerMode": "transform",
+            "gaitPhase": 0.2501921233869986,
+            "clip": "FelineTransformDown",
+            "clipTime": 0.6015700358407113,
+            "weight": 1
+          },
+          "to": {
+            "index": 89,
+            "wallMs": 33562,
+            "segment": "quadruped",
+            "nativeTick": 1819,
+            "nativeTime": 30.316666666666226,
+            "ownerRenderTime": 30.221739318697722,
+            "ownerMode": "quad",
+            "gaitPhase": 0.5827975478692278,
+            "clip": "FelineGallop",
+            "clipTime": 0.11379959399001408,
+            "weight": 1
+          },
+          "ownerRenderTimeDifference": 0.21749259421888922,
+          "ankleDifferences": {
+            "FL": {
+              "delta": {
+                "x": -0.006601078175803798,
+                "y": -0.223604419030558,
+                "z": 0.547658431743262
+              },
+              "euclidean": 0.5915845402836062,
+              "forwardDelta": -0.547658431743262,
+              "verticalDelta": -0.223604419030558
+            },
+            "FR": {
+              "delta": {
+                "x": 0.006260573891092802,
+                "y": -0.27121138749899315,
+                "z": -0.4322706396041076
+              },
+              "euclidean": 0.5103456841772243,
+              "forwardDelta": 0.4322706396041076,
+              "verticalDelta": -0.27121138749899315
+            },
+            "RL": {
+              "delta": {
+                "x": -0.0008522939266447649,
+                "y": -0.056696326315918644,
+                "z": -0.3659244497000765
+              },
+              "euclidean": 0.37029164547821264,
+              "forwardDelta": 0.3659244497000765,
+              "verticalDelta": -0.056696326315918644
+            },
+            "RR": {
+              "delta": {
+                "x": -0.00002825505151521357,
+                "y": 0.03926421340164826,
+                "z": 0.5227915011253285
+              },
+              "euclidean": 0.5242638962405025,
+              "forwardDelta": -0.5227915011253285,
+              "verticalDelta": 0.03926421340164826
+            }
+          },
+          "qualification": "Actual curve poses at sparse saved owner clocks; asynchronous native samples and sampled entry/exit, not exact boundary jump or world-contact slip"
+        }
+      ]
+    }
+  ],
+  "stableBindPreservedAfterSampling": true,
+  "error": null,
+  "elapsedMs": 670.3425
+}

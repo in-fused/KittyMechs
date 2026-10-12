@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-11T05:49:50.873871+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance079-containment/process-receipt.json",
+      "bytes": 67172,
+      "sha256": "8c032258cfe0e07ae706ed70208c4bbe68c1b230a44497863809c49d76e14b6e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance079-containment/stdout.txt",
+      "bytes": 1468,
+      "sha256": "6f7fb6f9b685eaae2c3e401ca845504c3d28b82d6430df353aa4f3227aa11064"
+    },
+    {
+      "path": "docs/overhaul/critic/performance079-result-review.md",
+      "bytes": 2021,
+      "sha256": "c78d0bb379444af2a1b9a81953ad464522d4a9d3969f90a0cd0232617ceeedbe"
+    },
+    {
+      "path": "docs/overhaul/critic/performance079-source-review.md",
+      "bytes": 3480,
+      "sha256": "5c7fbe932ae8da6974bb297d65aaae4b2b34843981d62332efbada977fb22328"
+    },
+    {
+      "path": "docs/overhaul/performance-077-diagnosis.md",
+      "bytes": 6709,
+      "sha256": "cc2b3184fbac9a1ce2dffd2c73c4dcc8ec0f4644f131674b39d86f4075a837fc"
+    },
+    {
+      "path": "docs/overhaul/performance-079-fixture-source-handoff.md",
+      "bytes": 2587,
+      "sha256": "eda9a8ce5ad5a65b76c3cca9103f90f01667264f80848c05b6e058af77a3b4a3"
+    },
+    {
+      "path": "tools/overhaul-performance-079/containment-result.json",
+      "bytes": 1789,
+      "sha256": "18d768a920c05ffb0433dde701536882ede5676152186c226a5ed31885a27c6d"
+    },
+    {
+      "path": "tools/overhaul-performance-079/source-seal.json",
+      "bytes": 8440,
+      "sha256": "82453ad4de94c644bbf6914c309e31d13dac55eb062672195e50aac51c000d62"
+    }
+  ],
+  "scope": "079 CLOSED corrected loader fixture stopped at attached skin inverse cache guard. Baseline/build/candidate UNRUN, live045 unchanged. One separately gated081 lifecycle correction permitted; if its fixture fails retire direction. Fullgoal/userlag INCOMPLETE."
+}

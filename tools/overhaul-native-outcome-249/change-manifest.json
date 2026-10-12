@@ -1,0 +1,50 @@
+{
+  "writer": "CLOSED",
+  "scope": "Small references only; active250 sources intentionally unsealed; no snapshot/archive/junction copy",
+  "references": [
+    {
+      "path": "docs/overhaul/player-integration-249-handoff.md",
+      "sha256": "221639004215b5be53e8f56df4a9317cb7cc8a597ec73184c6a2037ba4c0b7e3"
+    },
+    {
+      "path": "docs/overhaul/critic/player247-actual-review.md",
+      "sha256": "fe26cca930f321dc5b8b80047eed8f9787d673316b69b60dfc48acda641533ff"
+    },
+    {
+      "path": "tools/overhaul-grounded-motion-246/source-seal.json",
+      "sha256": "f661be626d8c7b66aba5ab2d3565a9555dc41552751338d26f748a14c17eebe6"
+    },
+    {
+      "path": "tools/overhaul-grounded-integration-248/source-seal.json",
+      "sha256": "3d7700149a050bec0709bdc1ea4893fe8e8c8465fd9e19c154cfc0d4bf6b3f6e"
+    },
+    {
+      "path": "tools/overhaul-player-controls-247/source-seal.json",
+      "sha256": "e38addf9bf05c73c547e73709283870cd95d3ddc9d94fa728cb18c37878d3ec4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/private248/output-seal.json",
+      "sha256": "1d1f75963eff6b661286c9c0e816c154d128ebfa6ccedb12e27d80f4fa2aa5f4"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/public247/output-seal.json",
+      "sha256": "fbdc4f63b28a82c6760c2f71d75368880b67db5f3372a3820e63e8f5278d383e"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/supervisor247/output-seal.json",
+      "sha256": "664e2f90d780afce111c994f21900ef509c5e8851a456ba624138cebe0d2be4c"
+    },
+    {
+      "path": ".sites-runtime/shader-startup-238/review249/output-seal.json",
+      "sha256": "f809c0464f7e1b579178a261780165075d0c75bfb1ff140100cec12451528b4d"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/capture251.mjs",
+      "sha256": "e438df5197af330e41751b46012616136b672a83807fa51c62fe63e1457cb9b7"
+    },
+    {
+      "path": "tools/overhaul-player-controls-251/packetRetention251.mjs",
+      "sha256": "ea57b1694c78f5c3774137ce30c9bd0ce74983307634e548079870d96e80416a"
+    }
+  ]
+}

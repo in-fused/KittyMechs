@@ -1,0 +1,838 @@
+{
+  "writer": "CLOSED",
+  "firstFailure": {
+    "chunk": "db1b5d",
+    "exitCode": 1,
+    "wallSeconds": 3.237257,
+    "vitestTests": 2,
+    "passed": 1,
+    "failed": 1,
+    "positiveInitialStage": "NO_PLAN_BEFORE_MOVEMENT"
+  },
+  "inputSha256": "5401aad4bedac002126c7c2b8d5c5b7e91cd780d1b2c7b7cd912b4fad11af852",
+  "hypotheticalPositions": [
+    {
+      "id": "301b8419-dc97-4465-841a-68f686a6584d",
+      "position": {
+        "x": -8,
+        "y": 0.92,
+        "z": 22
+      }
+    },
+    {
+      "id": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+      "position": {
+        "x": -8,
+        "y": 0.92,
+        "z": 15
+      }
+    }
+  ],
+  "plan": {
+    "goals": null,
+    "paths": null,
+    "assessed": [],
+    "rejection": "NO_CURRENT_COMPLETE_SQUAD_STAGE",
+    "plannerMs": 18
+  },
+  "details": [
+    {
+      "hp": {
+        "x": -8,
+        "z": 12
+      },
+      "bp": {
+        "x": -15,
+        "z": 12
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 15,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      }
+    },
+    {
+      "hp": {
+        "x": -8,
+        "z": 12
+      },
+      "bp": {
+        "x": -1,
+        "z": 12
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 15,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      }
+    },
+    {
+      "hp": {
+        "x": -8,
+        "z": 12
+      },
+      "bp": {
+        "x": -8,
+        "z": 19
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      }
+    },
+    {
+      "hp": {
+        "x": -8,
+        "z": 14.7
+      },
+      "bp": {
+        "x": -15,
+        "z": 14.7
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "STATIC_BLOCK",
+          "owner": "7734:overhaul:dressing:vista-spawn-crawler:wheel-0"
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "STATIC_BLOCK",
+          "owner": "7734:overhaul:dressing:vista-spawn-crawler:wheel-0"
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      }
+    },
+    {
+      "hp": {
+        "x": -8,
+        "z": 14.7
+      },
+      "bp": {
+        "x": -1,
+        "z": 14.7
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 15,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      }
+    },
+    {
+      "hp": {
+        "x": -8,
+        "z": 14.7
+      },
+      "bp": {
+        "x": -8,
+        "z": 21.7
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      }
+    },
+    {
+      "hp": {
+        "x": -10.7,
+        "z": 12
+      },
+      "bp": {
+        "x": -17.7,
+        "z": 12
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 15,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      }
+    },
+    {
+      "hp": {
+        "x": -10.7,
+        "z": 12
+      },
+      "bp": {
+        "x": -3.6999999999999993,
+        "z": 12
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 14,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": true,
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        },
+        "allBlocks": 1370,
+        "allActorOccupancy": 15,
+        "completeArrivalRadius": 1.1,
+        "clearance": 2.85
+      }
+    },
+    {
+      "hp": {
+        "x": -10.7,
+        "z": 12
+      },
+      "bp": {
+        "x": -10.7,
+        "z": 19
+      },
+      "baseHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "baseGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedHost": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "9e095aa3-9e3e-4cfb-8d5e-95728065ae3e",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 15
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      },
+      "reservedGuest": {
+        "clear": false,
+        "blocker": {
+          "kind": "PARKED_TEAMMATE",
+          "owner": "301b8419-dc97-4465-841a-68f686a6584d",
+          "position": {
+            "x": -8,
+            "y": 0.92,
+            "z": 22
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "terrain": {
+          "clear": true,
+          "height": -0.08,
+          "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+          "radius": 3.95
+        }
+      }
+    }
+  ]
+}

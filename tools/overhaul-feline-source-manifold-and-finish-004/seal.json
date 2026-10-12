@@ -1,0 +1,57 @@
+{
+  "namespace": "overhaul-feline-source-manifold-and-finish-004",
+  "startedUTC": "2026-10-10T13:57:17Z",
+  "hardDeadlineUTC": "2026-10-10T14:37:17Z",
+  "sealedUTC": "2026-10-10T14:09:04.8337131Z",
+  "status": "FROZEN_PENDING_HIGH_TEXT_GATE_AND_ROOT_SERIAL_GRANT",
+  "sourceJobsRun": 0,
+  "preparationChecks": [
+    {
+      "command": "python tools/overhaul-feline-source-manifold-and-finish-004/preparation_check.py",
+      "exitCode": 0,
+      "wallSeconds": 0.4293708
+    },
+    {
+      "command": "python tools/overhaul-feline-source-manifold-and-finish-004/preparation_check.py",
+      "exitCode": 0,
+      "wallSeconds": 0.3899873
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/source/overhaul-feline-source-manifold-and-finish-004/author.py",
+      "bytes": 70715,
+      "sha256": "7f535c273f4c304d85dc3c737b14b215633d929cebe4e5603729b723ef709d03"
+    },
+    {
+      "path": "assets/source/overhaul-feline-source-manifold-and-finish-004/CONTRACT.md",
+      "bytes": 9862,
+      "sha256": "ceea85cd56bb0989ec5796590485e6451713dd6fbb0304555d0d7e2ac10e9bc7"
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/source_owner.py",
+      "bytes": 2109,
+      "sha256": "115c9c7dd608736bb53e89171947077f73005be57c33e8df4b0205f6267d6af2"
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/panel_topology.py",
+      "bytes": 2534,
+      "sha256": "604d7e805adf9b5efb2dcad7ffb8f4ec76b6b682c6f2860d588e3f04e045320e"
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/preparation_check.py",
+      "bytes": 1267,
+      "sha256": "3d4b97e65aa32086af40134b5086146b5774a495245a87e660a0625b16cdf8e2"
+    },
+    {
+      "path": "tools/overhaul-feline-source-manifold-and-finish-004/preparation-check.json",
+      "bytes": 1489,
+      "sha256": "3d4d03886ae444618590d4a5abb2c0c0323c9d9762968b89967b8b3725849283"
+    },
+    {
+      "path": "docs/overhaul/feline-source-manifold-and-finish-004.md",
+      "bytes": 1684,
+      "sha256": "02f77aaf567ba75575e9c7a73f009a2ff2e40784c39e8d04e691d62ca8e8b968"
+    }
+  ]
+}

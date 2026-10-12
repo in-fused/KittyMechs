@@ -1,0 +1,12 @@
+{
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-contact-185/check185.mts"
+  ],
+  "pid": 359884,
+  "capSeconds": 60,
+  "elapsedSeconds": 1.384968200000003,
+  "exitCode": 0,
+  "status": "TERMINAL"
+}

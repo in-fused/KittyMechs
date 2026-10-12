@@ -1,0 +1,40 @@
+import {describe,expect,it} from 'vitest';
+import {AnimationMixer,AnimationClip,AnimationUtils,Bone,Group} from 'three';
+import {readAuthoredClips047} from '../tools/overhaul-moving-recoil-047/read-authored-clips';
+import manifest from '../src/game/entities/identity57Runtime034Manifest.json';
+
+const actual=readAuthoredClips047('public'+manifest.publicURL),clips=new Map(actual.clips.map(c=>[c.name,c]));
+const safeNames=['spine','chest','head','launcher'];
+describe('047 actual authored recoil suitability, no shipping fix admitted',()=>{
+ it('binds observations to the frozen034 GLB and actual terminal head parent',()=>{
+  expect(actual.sha256).toBe(manifest.sha256);expect(manifest.jointParents.head).toBe('chest');
+  expect(manifest.jointParents.FL_upper).toBe('chest');expect(manifest.jointParents.FR_upper).toBe('chest');
+  expect(manifest.jointParents.launcher).toBe('spine');
+ });
+ it.each(['Pulse','Missile'])('has no quadruped %s upper/body/weapon motion relative to idle in any TRS channel',suffix=>{
+  const source=clips.get('Feline'+suffix)!,idle=clips.get('FelineIdle')!;
+  const tracks=source.tracks.filter(t=>safeNames.some(name=>t.name.startsWith(name+'.')));expect(tracks).toHaveLength(12);
+  for(const track of tracks){const reference=idle.tracks.find(t=>t.name===track.name)!;expect(reference).toBeDefined();const size=track.getValueSize();
+   for(let i=0;i<track.values.length;i++)expect(track.values[i]).toBeCloseTo(reference.values[i%size],6);
+  }
+ });
+ it.each(['Pulse','Missile'])('produces identity quad %s but real upright head change through actual Three idle-reference additive mixing',suffix=>{
+  for(const prefix of ['Feline','FelineUpright']){
+   const source=clips.get(prefix+suffix)!,reference=clips.get(prefix+'Idle')!,head=new Bone();head.name='head';const root=new Group();root.add(head);
+   const base=new AnimationClip('actual-idle',reference.duration,[reference.tracks.find(t=>t.name==='head.quaternion')!.clone()]);
+   const recoil=new AnimationClip('actual-recoil',source.duration,[source.tracks.find(t=>t.name==='head.quaternion')!.clone()]);
+   AnimationUtils.makeClipAdditive(recoil,0,reference,60);const mixer=new AnimationMixer(root),a=mixer.clipAction(base),r=mixer.clipAction(recoil);a.play();a.paused=true;r.play();r.paused=true;r.setEffectiveWeight(0);mixer.update(0);const idle=head.quaternion.clone();let max=0;
+   for(const phase of [.1,.2,.35,.5,.7,.9]){r.time=phase*source.duration;r.setEffectiveWeight(1);mixer.update(0);max=Math.max(max,idle.angleTo(head.quaternion));}
+   if(prefix==='Feline')expect(max).toBeLessThan(1e-6);else expect(max).toBeGreaterThan(.02);
+   mixer.stopAllAction();mixer.uncacheRoot(root);
+  }
+ });
+ it.each(['Pulse','Missile'])('finds genuine quadruped %s recoil in root and weight-bearing limb tracks that the exact-gait contract excludes',suffix=>{
+  const source=clips.get('Feline'+suffix)!,idle=clips.get('FelineIdle')!;
+  for(const name of ['root.position','FR_upper.quaternion','FR_lower.quaternion','FR_paw.quaternion']){
+   const track=source.tracks.find(t=>t.name===name)!,reference=idle.tracks.find(t=>t.name===name)!,size=track.getValueSize();let delta=0;
+   for(let i=0;i<track.values.length;i++)delta=Math.max(delta,Math.abs(track.values[i]-reference.values[i%size]));
+   expect(delta).toBeGreaterThan(.001);
+  }
+ });
+});

@@ -1,0 +1,7 @@
+# Fixed-support068 fixture-only source review
+
+APPROVE ONE root serial fixture≤30seconds: `node node_modules/vitest/vitest.mjs run --config tools/overhaul-moving-r-support-068/ground-support.vitest.config.ts`. Preserve first failure and stop; no provider/runtime change, assertion waiver or automatic retest. This is query-behavior testing only, not integrated controller or gameplay approval.
+
+All22 envelope rows independently match size/SHA; seal SHA `d8e78b1c83545ae6afca4698a9852c4d9781dd14e131440408530bc3eedba726`. The exact inspected fixture diff changes only ../../../src to ../../src, which correctly resolves from tools/packet to the project src tree. Config changes only its selected new fixture path; test timeout20seconds remains. Provider source and all assertions/world geometry remain identical to the reviewed067 packet.
+
+067 stdout confirms module-resolution failure during collection with zero tests; no provider query ran and no native-query failure is established. The fresh068 generator verifies the original frozen rows and failed process before creating new paths. Original067 source/receipt remains preserved. Root must enforce the inclusive process-tree cap and retain actual query results before integrated admission. Point-only fixed-support, immutable mesh payload, local-frame/life/generation and moving-support limitations from067 remain in force. Reviewer jobs0; writer closed.

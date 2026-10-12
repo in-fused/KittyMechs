@@ -1,0 +1,71 @@
+{
+  "writer": "CLOSED",
+  "originalSources": [
+    {
+      "canonical": {
+        "path": "shared/navigation.ts",
+        "bytes": 12372,
+        "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+      },
+      "preimage": {
+        "path": "tools/overhaul-lamp-navigation-279/preimages/navigation.ts",
+        "bytes": 12372,
+        "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+      },
+      "unchanged": true
+    },
+    {
+      "canonical": {
+        "path": "tools/overhaul-coop-177/planner.mjs",
+        "bytes": 7933,
+        "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+      },
+      "preimage": {
+        "path": "tools/overhaul-lamp-navigation-279/preimages/planner.mjs",
+        "bytes": 7933,
+        "sha256": "94cbe74a05ad490ed38495ac06976500592698d2e6d55167a08bb3294333adcd"
+      },
+      "unchanged": true
+    },
+    {
+      "canonical": {
+        "path": "tools/overhaul-coop-177/geometry-source.mjs",
+        "bytes": 10995,
+        "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+      },
+      "preimage": {
+        "path": "tools/overhaul-lamp-navigation-279/preimages/geometry-source.mjs",
+        "bytes": 10995,
+        "sha256": "01fe4f45ffcc0b5be92c490f6085119bed03be8992745c5dfa7513e53805be56"
+      },
+      "unchanged": true
+    }
+  ],
+  "files": [
+    {
+      "path": "shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "path": "shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "tools/overhaul-coop-177/source-seal.json",
+      "bytes": 6466,
+      "sha256": "db5608299c149cc4299ff6cde3102be92ed4684943e7d3626bd7b6290cf870b7"
+    },
+    {
+      "path": "tools/overhaul-navigation-diagnosis-278/source-seal.json",
+      "bytes": 881,
+      "sha256": "4a2fce5ce46ee1d8d39efd97ce703c2ad6a475f68964476af1f149e11cef0cd9"
+    }
+  ]
+}

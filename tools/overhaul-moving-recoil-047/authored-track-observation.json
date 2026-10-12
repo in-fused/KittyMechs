@@ -1,0 +1,290 @@
+[
+  {
+    "clip": "FelineIdle",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.09142746,
+      0.0,
+      0.0,
+      0.99581176
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineIdle",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      0.00037812453,
+      0.0,
+      0.0,
+      0.99999994
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineIdle",
+    "bone": "head",
+    "keys": 2,
+    "first": [
+      0.039626073,
+      0.0,
+      0.0,
+      0.9992146
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineIdle",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560663,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.09142746,
+      0.0,
+      0.0,
+      0.99581176
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      0.00037812453,
+      0.0,
+      0.0,
+      0.99999994
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "head",
+    "keys": 2,
+    "first": [
+      0.039626073,
+      0.0,
+      0.0,
+      0.9992146
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelinePulse",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560663,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.09142746,
+      0.0,
+      0.0,
+      0.99581176
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      0.00037812453,
+      0.0,
+      0.0,
+      0.99999994
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "head",
+    "keys": 2,
+    "first": [
+      0.039626073,
+      0.0,
+      0.0,
+      0.9992146
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineMissile",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560663,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightIdle",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.30177635,
+      0.0,
+      0.0,
+      0.95337874
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightIdle",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      -0.19829875,
+      0.0,
+      0.0,
+      0.98014164
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightIdle",
+    "bone": "head",
+    "keys": 2,
+    "first": [
+      0.5560589,
+      0.0,
+      0.0,
+      0.8311429
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightIdle",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560656,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightPulse",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.30177635,
+      0.0,
+      0.0,
+      0.95337874
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightPulse",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      -0.19829875,
+      0.0,
+      0.0,
+      0.98014164
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightPulse",
+    "bone": "head",
+    "keys": 20,
+    "first": [
+      0.5560589,
+      0.0,
+      0.0,
+      0.8311429
+    ],
+    "maxFirstComponentDelta": 0.03312337026000023
+  },
+  {
+    "clip": "FelineUprightPulse",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560656,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightMissile",
+    "bone": "spine",
+    "keys": 2,
+    "first": [
+      -0.30177635,
+      0.0,
+      0.0,
+      0.95337874
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightMissile",
+    "bone": "chest",
+    "keys": 2,
+    "first": [
+      -0.19829875,
+      0.0,
+      0.0,
+      0.98014164
+    ],
+    "maxFirstComponentDelta": 0.0
+  },
+  {
+    "clip": "FelineUprightMissile",
+    "bone": "head",
+    "keys": 28,
+    "first": [
+      0.5560589,
+      0.0,
+      0.0,
+      0.8311429
+    ],
+    "maxFirstComponentDelta": 0.033180687576532364
+  },
+  {
+    "clip": "FelineUprightMissile",
+    "bone": "launcher",
+    "keys": 2,
+    "first": [
+      -0.008560656,
+      0.0,
+      0.0,
+      0.99996334
+    ],
+    "maxFirstComponentDelta": 0.0
+  }
+]

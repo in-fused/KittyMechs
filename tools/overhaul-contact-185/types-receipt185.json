@@ -1,0 +1,12 @@
+{
+  "command": [
+    "node",
+    "node_modules/typescript/bin/tsc",
+    "--noEmit"
+  ],
+  "pid": 361724,
+  "capSeconds": 60,
+  "elapsedSeconds": 14.013879799982533,
+  "exitCode": 0,
+  "status": "TERMINAL"
+}

@@ -1,0 +1,11 @@
+#032 diagnostic: six true saved pad/body surface intersections
+
+Independent HIGH result review started2026-10-10 21:11:46 UTC; critic hard21:42 and author cleanup21:33/hard21:36 remain unchanged. Read-only witness/hash analysis only; no author/native/render job or source mutation.
+
+**ACCEPT the exact saved-surface finding only. DENY source/contact/art/native/runtime/Gate1 admission.** The one root diagnostic returned exit0,21:09:36.898562–21:09:41.887191 UTC,4.984s inclusive; internal predicate receipt21:09:38.730017–21:09:40.327377 is a separate clock. Six exact intersections, zero separation/UNKNOWN, errornull. Root receipt retains176 after-input rows.
+
+Verified all three result-seal size/SHA rows. Seal SHA256 `7ED23A5D6AFCCE606F0E28DBA9C7D8D1941D6452B941AC234267BCA2CF95C206`. Independently reconstructed each rational witness from the stored exact point and each triangle's actual Float64 values: all six points have exactly zero plane residual and nonnegative oriented interior products on BOTH triangles. The previously verified source/index mapping therefore establishes six actual saved FR_BearingPad_0 versus victim029Victim__AnatomicalChassis surface intersections at Impact2.4/frame29, rather than merely conservative BVH overlap. It establishes no penetration depth, enclosed volume, load or native collision.
+
+The repeated failure is a complete distal hand/contact-pose problem: reaching a claw endpoint does not place the pad, digit and wrist surfaces correctly against the receiving body. A separately frozen small prototype may be useful if it derives the complete wrist orientation from current receiving geometry, coordinates actual digit/claw articulation, and validates the whole hand plus both complete bodies under the accepted single pose owner. Actual support identities and eventual player-readable restraint remain necessary; CAD/FEM or independently simulated forces for every pad are not required. Do not waive pad collisions, omit receiving geometry, change guard tolerances, stretch chains or iterate scalar root/target offsets.
+
+No implementation or additional execution grant follows this result. The future small-source packet requires its own preflight; full pair/art/ordinary-play admission remains denied. Exact review closure/hash is recorded separately in critic-diagnostic-result-closure.json.

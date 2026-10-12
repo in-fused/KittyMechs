@@ -1,0 +1,5974 @@
+{
+  "writer": "CLOSED",
+  "scope": "Actual authored source planar caps; uncertain/large/nonplanar components retained, saved-camera AABB eligibility not actual GPU/pixels",
+  "sourceSHA256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad",
+  "views": [
+    {
+      "label": "off-quad",
+      "nearTriangles": 373028,
+      "farOriginal": 211572,
+      "farCandidate": 177956,
+      "farInstances": 806,
+      "camera": [
+        -7.999996323338238,
+        3.375932586910089,
+        32.262501158319544
+      ],
+      "savedTriangles": 33616
+    },
+    {
+      "label": "on-quad",
+      "nearTriangles": 374060,
+      "farOriginal": 210540,
+      "farCandidate": 177052,
+      "farInstances": 800,
+      "camera": [
+        -7.999996465226836,
+        2.243316065952578,
+        31.887707682636794
+      ],
+      "savedTriangles": 33488
+    },
+    {
+      "label": "on-upright",
+      "nearTriangles": 374108,
+      "farOriginal": 210492,
+      "farCandidate": 177004,
+      "farInstances": 799,
+      "camera": [
+        -7.999996460393799,
+        2.6878552404976883,
+        31.88770769498575
+      ],
+      "savedTriangles": 33488
+    }
+  ],
+  "rows": [
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 58,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1008,
+      "candidateTriangles": 1008,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 96,
+      "candidateTriangles": 96,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_masonry",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 504,
+      "instances": 7,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 200,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.2639999985694885,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400001645088195,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 621,
+      "candidateTriangles": 509,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23649999871850014,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.2365000147372484,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 396,
+      "candidateTriangles": 324,
+      "instances": 58,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.07680000364780426,
+          "worldSpan": 0.8160000801086426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 280,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 591,
+      "candidateTriangles": 543,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 0.3599998950958252,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 0.3599998950958252,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 0.3599998950958252,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 0.3599998950958252,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06400001049041748,
+          "worldSpan": 1.1200000047683716,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06400001049041748,
+          "worldSpan": 1.1200000047683716,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 280,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 599,
+      "candidateTriangles": 487,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.060199993848800655,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03870001435279846,
+          "worldSpan": 0.06020025014877319,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23649999871850014,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.2365000147372484,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.025799924135208128,
+          "worldSpan": 0.23650003075599668,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 252,
+      "candidateTriangles": 228,
+      "instances": 12,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 563,
+      "candidateTriangles": 539,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 252,
+      "candidateTriangles": 220,
+      "instances": 23,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06880000326782465,
+          "worldSpan": 1.0320000410079955,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04299995899200439,
+          "worldSpan": 0.5589999794960022,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 708,
+      "candidateTriangles": 532,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.3189999982714653,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.319000019878149,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1039,
+      "candidateTriangles": 863,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.3189999982714653,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.319000019878149,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 792,
+      "candidateTriangles": 664,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 650,
+      "candidateTriangles": 650,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 312,
+      "candidateTriangles": 312,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 575,
+      "candidateTriangles": 543,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1013,
+      "candidateTriangles": 837,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.3189999982714653,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.319000019878149,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 456,
+      "instances": 24,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 757,
+      "candidateTriangles": 709,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05299994945526123,
+          "worldSpan": 0.3444999873638153,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 504,
+      "candidateTriangles": 456,
+      "instances": 32,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1017,
+      "candidateTriangles": 841,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.29150003790855405,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.29150003790855405,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.2914999984204769,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.2915000181645155,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.29150003790855405,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03179990649223328,
+          "worldSpan": 0.29150003790855405,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.06890006065368652,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 562,
+      "candidateTriangles": 562,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 505,
+      "candidateTriangles": 473,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 0.43199987411499025,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 624,
+      "candidateTriangles": 560,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 829,
+      "candidateTriangles": 765,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.5219998478889465,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 624,
+      "candidateTriangles": 560,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 887,
+      "candidateTriangles": 823,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.6119998216629028,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 605,
+      "candidateTriangles": 493,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06719999313354492,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043200016021728516,
+          "worldSpan": 0.06720027923583984,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.2639999985694885,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400001645088195,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.26400003433227537,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 1017,
+      "candidateTriangles": 841,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.3189999982714653,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.319000019878149,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03479989767074585,
+          "worldSpan": 0.31900004148483274,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.07540006637573242,
+          "axis": 1
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 797,
+      "candidateTriangles": 749,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05799994468688965,
+          "worldSpan": 0.3769999861717224,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 756,
+      "candidateTriangles": 756,
+      "instances": 1,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"loading_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"transit_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028800058364868163,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0287999153137207,
+          "worldSpan": 0.7680000007152558,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 156,
+      "candidateTriangles": 156,
+      "instances": 7,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_metal",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 2,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.1600000001490116,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 56,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.033599853515625,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_machine\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 40,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 0.9889999859035015,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099868774414062,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099868774414062,
+          "worldSpan": 0.989000017940998,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 1.1610001102089882,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 56,
+      "instances": 58,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.033599853515625,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 128,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03359999656677246,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 112,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 0.9199999868869781,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0280001163482666,
+          "worldSpan": 1.0800000429153442,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.02799999713897705,
+          "worldSpan": 0.9200000166893005,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.019999980926513672,
+          "worldSpan": 1.0800000429153442,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 128,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03359999656677246,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_entry\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 40,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 0.9889999859035015,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099868774414062,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099868774414062,
+          "worldSpan": 0.989000017940998,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 1.1610001102089882,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 112,
+      "instances": 12,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 0.9889999859035015,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030100125074386596,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099996924400328,
+          "worldSpan": 0.989000017940998,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 112,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 0.9889999859035015,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030100125074386596,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099996924400328,
+          "worldSpan": 0.989000017940998,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 112,
+      "instances": 23,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 0.9889999859035015,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030100125074386596,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.030099996924400328,
+          "worldSpan": 0.989000017940998,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.021499979496002197,
+          "worldSpan": 1.161000046133995,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 120,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 120,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 120,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 128,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03359999656677246,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 24,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.6094999715685844,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.7155000284314156,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.7154999494552612,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.7155001074075699,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.037099996209144594,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.7155000284314156,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03710015416145324,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 32,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.6094999715685844,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.7155000284314156,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.7155001074075699,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.7155001074075699,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.6095000505447388,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026499974727630615,
+          "worldSpan": 0.7155001074075699,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03709983825683594,
+          "worldSpan": 0.8215000063180923,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 216,
+      "candidateTriangles": 120,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 0.7820000648498535,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759979248046875,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 128,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03359999656677246,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7819999635219573,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180001378059387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7819999635219573,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180001378059387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7819999635219573,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9179999351501464,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 0.9180001378059387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04759999513626099,
+          "worldSpan": 0.7820000648498535,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.03399996757507324,
+          "worldSpan": 0.9180000364780426,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04760019779205322,
+          "worldSpan": 1.0540000081062317,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_corewest\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 72,
+      "candidateTriangles": 56,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.023999977111816406,
+          "worldSpan": 1.1039999842643737,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.033599853515625,
+          "worldSpan": 1.1040000200271607,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 144,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599822998046875,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 288,
+      "candidateTriangles": 192,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6669999688863754,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7829999446868896,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.7830001175403595,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.040599995851516725,
+          "worldSpan": 0.6670000553131104,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.028999972343444824,
+          "worldSpan": 0.7830000311136246,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.04060016870498657,
+          "worldSpan": 0.8990000069141387,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 432,
+      "candidateTriangles": 288,
+      "instances": 1,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.6670000120997428,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.7830000311136245,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.8990000501275062,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06089999377727508,
+          "worldSpan": 0.6669998824596405,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.7830000311136245,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.8990001797676086,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.6669999634847045,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.7830000513698905,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.8990000015124678,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06089999377727508,
+          "worldSpan": 0.66699999589473,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.7830000311136245,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.898999985307455,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.6669998824596405,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.7830000311136245,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.8990001797676086,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.06089999377727508,
+          "worldSpan": 0.6669998824596405,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.043499958515167234,
+          "worldSpan": 0.7830000311136245,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.060900253057479856,
+          "worldSpan": 0.8989999204874038,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_deck\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 108,
+      "candidateTriangles": 60,
+      "instances": 7,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.01879998207092285,
+          "worldSpan": 0.8648000717163086,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026319885253906248,
+          "worldSpan": 1.0151999843120574,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.01879998207092285,
+          "worldSpan": 1.1656000089645384,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026319885253906248,
+          "worldSpan": 0.8648000717163086,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.01879998207092285,
+          "worldSpan": 1.0152000403404235,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.026319885253906248,
+          "worldSpan": 1.1656000089645384,
+          "axis": 0
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_mineral",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 2,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 58,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_pump\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 8,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.032000064849853516,
+          "worldSpan": 1.1200000047683716,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.032000064849853516,
+          "worldSpan": 1.1200000047683716,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 12,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_east\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 23,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_warehouse\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 64,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_label_east\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_eastworks\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 24,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_west\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 32,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_freight\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_label_quay\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"residential_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_city\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_ground\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 32,
+      "instances": 36,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05440011024475098,
+          "worldSpan": 0.9859999716281891,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05440011024475098,
+          "worldSpan": 0.985999920964241,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_grid\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 16,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0464000940322876,
+          "worldSpan": 0.8409999758005142,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0464000940322876,
+          "worldSpan": 0.8409999325871468,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0464000940322876,
+          "worldSpan": 1.1019999861717225,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0464000940322876,
+          "worldSpan": 1.1019999861717225,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_upper\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 48,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_label_power\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"control_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 32,
+      "instances": 8,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05440011024475098,
+          "worldSpan": 0.9859999716281891,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.05440011024475098,
+          "worldSpan": 0.985999920964241,
+          "axis": 2
+        }
+      ]
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"loading_label_coreeast\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"loading_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 12,
+      "candidateTriangles": 12,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_label_rear\",\"x\":0,\"y\":-0.25,\"sx\":1,\"sy\":0.5},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.25,\"sx\":1,\"sy\":0.5}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 4,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"transit_upper\",\"x\":0,\"y\":-0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":0.3333333333333333},{\"module\":\"transit_upper\",\"x\":0,\"y\":0.33333333333333337,\"sx\":1,\"sy\":0.3333333333333333}]",
+      "originalTriangles": 36,
+      "candidateTriangles": 36,
+      "instances": 1,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"control_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 48,
+      "instances": 3,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_upper\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 24,
+      "candidateTriangles": 24,
+      "instances": 7,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": []
+    },
+    {
+      "material": "RainlineIdentity_glazing",
+      "key": "[{\"module\":\"residential_wall\",\"x\":0,\"y\":0,\"sx\":1,\"sy\":1}]",
+      "originalTriangles": 48,
+      "candidateTriangles": 16,
+      "instances": 2,
+      "extremaExact": true,
+      "sourceAttributesUntouched": [
+        "color",
+        "normal",
+        "uv"
+      ],
+      "components": [
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.3700000047683716,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.0059999823570251465,
+          "worldSpan": 0.3700000047683716,
+          "axis": 0
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.3699999898672104,
+          "axis": 2
+        },
+        {
+          "triangles": 12,
+          "retained": 4,
+          "worldThickness": 0.006000012159347534,
+          "worldSpan": 0.3699999898672104,
+          "axis": 2
+        }
+      ]
+    }
+  ]
+}

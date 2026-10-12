@@ -1,0 +1,390 @@
+{
+  "status": "PASS",
+  "scope": "READONLY_SOURCE_FIXTURE_NOT_PUBLIC_MOVEMENT_ACCEPTANCE",
+  "inputs": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop201-public/evidence.json",
+      "sha256": "9cf9ef19dd33bbf3bd372e32802f5427e86ebaf8f7d95867ffce8dcf527d2bb9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop201-public/native-keyframes.json",
+      "sha256": "17d3d81c5b878ca96fb1b22b826970ff42df83d57a6f841a78cde34e0e06eab7"
+    }
+  ],
+  "cases": [
+    {
+      "name": "201 nominal diagonal is clear but actual W ray is blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "Aligned native command full leg+arrival+motor tail is clear against saved whole world",
+      "status": "PASS"
+    },
+    {
+      "name": "Original actual blocked3712 origin remains rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual201 blocked W endpoint fails complete current-world recertification",
+      "status": "PASS"
+    },
+    {
+      "name": "Finite forward-region overshoot and transverse convergence departures rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Fixed60Hz native motor and initial cross velocity stay inside analytic tail bound",
+      "status": "PASS"
+    },
+    {
+      "name": "Released matching yaw send alone fails; current native ACK/rest accepts",
+      "status": "PASS"
+    }
+  ],
+  "operands": {
+    "savedWorldTick": 3201,
+    "plannedReadTick": 3219,
+    "origin": {
+      "x": -7.999995154947937,
+      "y": 0.9401000068918802,
+      "z": 21.999997332071207
+    },
+    "peer": {
+      "id": "2b0442c7-3835-443e-8f11-e7831e8cc00b",
+      "position": {
+        "x": -3.798676461530218,
+        "y": 0.9400999131034768,
+        "z": 17.063488915335956
+      },
+      "radius": 1.75
+    },
+    "target": {
+      "x": -9.033245267385743,
+      "z": 14.494474737780475
+    },
+    "actualSuccessfulPacket": {
+      "input": {
+        "seq": 2293,
+        "jumpId": 0,
+        "jumpCancel": 0,
+        "jumpEpoch": 1,
+        "strikeId": 0,
+        "strikeCancel": 0,
+        "strikeEpoch": 1,
+        "strike": false,
+        "forward": 1,
+        "strafe": 0,
+        "yaw": 0,
+        "pitch": 0.06781084248796103,
+        "fire": false,
+        "rocket": false,
+        "jump": false,
+        "boost": false,
+        "interact": false,
+        "stance": "quadruped",
+        "climb": false,
+        "stanceRequest": {
+          "seq": 0,
+          "life": 1
+        },
+        "aimYaw": 8.89233078646076e-14,
+        "strikePitch": 0.06
+      },
+      "at": 69882,
+      "source": "frame",
+      "generation": 1,
+      "localId": "eb73a342-e462-4d1e-8332-318af3811959",
+      "aim": {
+        "lookPitch": 0.06,
+        "lookYaw": 0,
+        "cameraRay": {
+          "frameClock": 66.68979999995244,
+          "yaw": 0,
+          "pitch": 0.059999999999999824,
+          "targetDistance": 180,
+          "reachable": true
+        }
+      }
+    },
+    "actualRequestedLeaseMs": 250,
+    "actualHeldMs": 302.40000009536743,
+    "old": {
+      "yaw": 0,
+      "desiredYaw": 0.13680540379643055,
+      "turnError": 0.13680540379643055,
+      "direction": {
+        "x": 0,
+        "z": -1
+      },
+      "distance": 7.576310131473065,
+      "along": 7.505522594290731,
+      "miss": 1.0332501124378055,
+      "initialSpeed": 0,
+      "transientRadius": 0,
+      "aligned": true,
+      "from": {
+        "x": -7.999995154947937,
+        "y": 0.9401000068918802,
+        "z": 21.999997332071207
+      },
+      "end": {
+        "x": -7.999995154947937,
+        "z": 13.394474737780476
+      },
+      "target": {
+        "x": -9.033245267385743,
+        "z": 14.494474737780475
+      },
+      "arrival": 1.1,
+      "baseClearance": 2.85
+    },
+    "desired": {
+      "yaw": 0.13680540379643055,
+      "desiredYaw": 0.13680540379643055,
+      "turnError": 0,
+      "direction": {
+        "x": -0.1363790677133897,
+        "z": -0.9906567265655781
+      },
+      "distance": 7.576310131473065,
+      "along": 7.576310131473065,
+      "miss": 0,
+      "initialSpeed": 0,
+      "transientRadius": 0,
+      "aligned": true,
+      "from": {
+        "x": -7.999995154947937,
+        "y": 0.9401000068918802,
+        "z": 21.999997332071207
+      },
+      "end": {
+        "x": -9.183262241870471,
+        "z": 13.404752338558339
+      },
+      "target": {
+        "x": -9.033245267385743,
+        "z": 14.494474737780475
+      },
+      "arrival": 1.1,
+      "baseClearance": 2.85
+    },
+    "oldCertificate": {
+      "tick": 3201,
+      "publication": {
+        "kind": "broadcast",
+        "roomEpoch": "d201a804-de82-4aee-97e3-8eec66204196",
+        "sequence": 610
+      },
+      "actor": {
+        "id": "eb73a342-e462-4d1e-8332-318af3811959",
+        "life": 1,
+        "hp": 220,
+        "position": {
+          "x": -7.999995154947937,
+          "y": 0.9401000068918802,
+          "z": 21.999997332071207
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "command": {
+        "yaw": 0,
+        "desiredYaw": 0.13680540379643055,
+        "turnError": 0.13680540379643055,
+        "direction": {
+          "x": 0,
+          "z": -1
+        },
+        "distance": 7.576310131473065,
+        "along": 7.505522594290731,
+        "miss": 1.0332501124378055,
+        "initialSpeed": 0,
+        "transientRadius": 0,
+        "aligned": true,
+        "from": {
+          "x": -7.999995154947937,
+          "y": 0.9401000068918802,
+          "z": 21.999997332071207
+        },
+        "end": {
+          "x": -7.999995154947937,
+          "z": 13.394474737780476
+        },
+        "target": {
+          "x": -9.033245267385743,
+          "z": 14.494474737780475
+        },
+        "arrival": 1.1,
+        "baseClearance": 2.85
+      },
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        },
+        "command": {
+          "clear": false,
+          "blocker": {
+            "kind": "PARKED_TEAMMATE",
+            "owner": "2b0442c7-3835-443e-8f11-e7831e8cc00b",
+            "position": {
+              "x": -3.798676461530218,
+              "y": 0.9400999131034768,
+              "z": 17.063488915335956
+            },
+            "velocity": {
+              "x": 1.3490686636310125e-55,
+              "y": 0,
+              "z": 3.537619816795863e-72
+            }
+          },
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          }
+        }
+      },
+      "speedCeiling": 7.6,
+      "duration": "REQUESTED_DELAY_IS_NOT_A_DELIVERED_DURATION_BOUND",
+      "scope": "SAVED_CURRENT_WORLD_COMMAND_REGION_NOT_FUTURE_NPC_PREDICTION"
+    },
+    "alignedCertificate": {
+      "tick": 3201,
+      "publication": {
+        "kind": "broadcast",
+        "roomEpoch": "d201a804-de82-4aee-97e3-8eec66204196",
+        "sequence": 610
+      },
+      "actor": {
+        "id": "eb73a342-e462-4d1e-8332-318af3811959",
+        "life": 1,
+        "hp": 220,
+        "position": {
+          "x": -7.999995154947937,
+          "y": 0.9401000068918802,
+          "z": 21.999997332071207
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "command": {
+        "yaw": 0.13680540379643055,
+        "desiredYaw": 0.13680540379643055,
+        "turnError": 0,
+        "direction": {
+          "x": -0.1363790677133897,
+          "z": -0.9906567265655781
+        },
+        "distance": 7.576310131473065,
+        "along": 7.576310131473065,
+        "miss": 0,
+        "initialSpeed": 0,
+        "transientRadius": 0,
+        "aligned": true,
+        "from": {
+          "x": -7.999995154947937,
+          "y": 0.9401000068918802,
+          "z": 21.999997332071207
+        },
+        "end": {
+          "x": -9.183262241870471,
+          "z": 13.404752338558339
+        },
+        "target": {
+          "x": -9.033245267385743,
+          "z": 14.494474737780475
+        },
+        "arrival": 1.1,
+        "baseClearance": 2.85
+      },
+      "certificates": {
+        "origin": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "NORMAL_PLANNING"
+        },
+        "endpoint": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 3.95
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": 1.1,
+          "clearance": 3.95,
+          "scope": "NORMAL_PLANNING"
+        },
+        "command": {
+          "clear": true,
+          "terrain": {
+            "clear": true,
+            "height": -0.08,
+            "method": "ANALYTIC_CONSTANT_BASE_AND_EQUAL_ROAD_PAD_BLEND",
+            "radius": 2.85
+          },
+          "allBlocks": 1370,
+          "allActorOccupancy": 14,
+          "completeArrivalRadius": null,
+          "clearance": 2.85,
+          "scope": "ACTUAL_PUBLIC_FORWARD_COMMAND_REGION_204"
+        }
+      },
+      "speedCeiling": 7.6,
+      "duration": "REQUESTED_DELAY_IS_NOT_A_DELIVERED_DURATION_BOUND",
+      "scope": "SAVED_CURRENT_WORLD_COMMAND_REGION_NOT_FUTURE_NPC_PREDICTION"
+    },
+    "failedOriginTick": 3712,
+    "motor": {
+      "rateMoving": 11,
+      "rateNeutral": 14,
+      "initialCrossVelocity": 0.12,
+      "integratedNative60HzTail": 0.009930109852186498,
+      "analyticBound": 0.010909090909090908
+    }
+  },
+  "elapsedMs": 98.57419999999996
+}

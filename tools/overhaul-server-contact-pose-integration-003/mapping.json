@@ -1,0 +1,27 @@
+{
+  "preimages": "direct disk copies before all003 mutations",
+  "historicalPacket002": "immutable except live Actors path intentionally forked",
+  "productionChanges": [
+    "optional ActorState.nativePose",
+    "Simulation original KCC postcall capture and snapshot publication",
+    "snapshotAdmission optional native sample parser",
+    "Actors imports new003 and pending event rerender"
+  ],
+  "newModules": [
+    "shared/felineNativePose003.ts",
+    "shared/felineNativePoseSource003.ts",
+    "src/game/entities/felinePoseOwner003.ts",
+    "src/game/entities/felinePoseOwnerNative003.ts",
+    "src/game/entities/felinePoseOwnerActor003.tsx",
+    "src/game/entities/felinePoseOwnerManifest003.ts",
+    "src/game/entities/felinePoseOwnerEvidence003.ts"
+  ],
+  "rootCoordinatedChange": "Simulation retained lamp helper import and syncChunks collider creation hook",
+  "rootOwnedDependencies": [
+    "shared/rainlineLampCollision.ts",
+    "shared/data/rainlineLampMeshCollision001.json"
+  ],
+  "source004": "source004 semantic tick0 plant interference; actual binder exists but no unadmitted asset consumed",
+  "native": "UNRUN",
+  "shipping": "legacy default"
+}

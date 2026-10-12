@@ -1,0 +1,7 @@
+tools/overhaul-grounded-motion-253/groundedFeet253.ts(59,8): error TS2367: This comparison appears to be unintentional because the types '"touch" | "plant"' and '"release"' have no overlap.
+tools/overhaul-grounded-motion-253/motion253.test.ts(25,9): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?
+tools/overhaul-grounded-motion-253/motion253.test.ts(34,308): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?
+tools/overhaul-grounded-motion-253/motion253.test.ts(39,171): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?
+tools/overhaul-grounded-motion-253/motion253.test.ts(41,70): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?
+tools/overhaul-grounded-motion-253/motion253.test.ts(42,57): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?
+tools/overhaul-grounded-motion-253/nativeOwner253.ts(130,16): error TS2551: Property 'setGroundContext250' does not exist on type 'SourceTask253'. Did you mean 'setGroundContext253'?

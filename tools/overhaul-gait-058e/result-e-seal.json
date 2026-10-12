@@ -1,0 +1,40 @@
+{
+  "scope": "Epostgraft SUCCESS allstrictdata and signedstanceguards; sourceassetonly, no nativecontact/movement/publicruntime admission. Frozen041Low live.",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/gait-verification.json",
+      "bytes": 8049,
+      "sha256": "34db3db70dd6cd1956be1aabf351d6825bb7fc8bb8c0c4214fa96f5b8fe6aa7f"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/graft-receipt.json",
+      "bytes": 17752,
+      "sha256": "b74a9f8c49fce4d328b4393fb25caed18de09c9cc1092a3d2906538eccb82ed3"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/identity57Runtime058EManifest.json",
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/gait058e-postgraft/process-receipt.json",
+      "bytes": 6151,
+      "sha256": "eb784b3207c1f21a42075262106b4d08c08120df2dd80cef8fdf8fdf1704cfae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/gait058e-postgraft/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-gait-058e/close-e.py",
+      "bytes": 876,
+      "sha256": "c108620ff0916d32df9de56f445e4d928f99cc40d7441204000216c2b2c864d7"
+    }
+  ]
+}

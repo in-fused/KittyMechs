@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "STATIC_PROTOCOL_ONLY; no actual Worker/codec/performance/browser job",
+  "cases": [
+    {
+      "name": "Only requested view copied; original GLB backing bytes not detached/mutated",
+      "status": "PASS"
+    },
+    {
+      "name": "Output byte count plus actual queue/decode receipt retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Wrong output length fails task and retires worker; no silent sync fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "Closed page owner rejects late decode",
+      "status": "PASS"
+    },
+    {
+      "name": "Foreign result cannot resolve another pending task",
+      "status": "PASS"
+    }
+  ]
+}

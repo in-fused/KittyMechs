@@ -1,0 +1,104 @@
+{
+  "status": "SOURCE_DIAGNOSIS_ONLY",
+  "writer": "CLOSED",
+  "gameEdits": false,
+  "jobs": false,
+  "candidate": "Conservative current-pose enemy model frustum bounds; no animation/contact/native tick culling",
+  "proposedFutureSourceScope": [
+    "src/game/entities/Actors.tsx",
+    "ONE new animated-bounds helper"
+  ],
+  "noMeasuredGPUOrAvoidableActorFraction": true,
+  "files": [
+    {
+      "path": "docs/overhaul/performance-077-diagnosis.md",
+      "bytes": 6709,
+      "sha256": "cc2b3184fbac9a1ce2dffd2c73c4dcc8ec0f4644f131674b39d86f4075a837fc"
+    },
+    {
+      "path": "tools/overhaul-performance-077/measurements.json",
+      "bytes": 2029,
+      "sha256": "569761c49c244b62b4017e16b4e878dd44a08d91c74722fffe43d745fa89ad64"
+    },
+    {
+      "path": "tools/overhaul-profile-069/summary.json",
+      "bytes": 12160,
+      "sha256": "ce65d4a079a79add066ed218fa38f81bc245e87430c26abf7b79a5c1ae8b0ea1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/cpu-profile.json",
+      "bytes": 744236,
+      "sha256": "a52b0dd7d27b490fcbe9f9781dedd960858ea512a3fc89989f98ef884c785378"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/profile069-play/evidence.json",
+      "bytes": 3570694,
+      "sha256": "293fd791ef2216faee60036311fb0e68d3c0bdd334768d1a754d1d3faab0490f"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 9641,
+      "sha256": "6dfa3bab7ba1046a7697bb4420699951696003bc57dd7681880a014e03ec1ba2"
+    },
+    {
+      "path": "src/game/rendering/renderPixelBudget059.ts",
+      "bytes": 693,
+      "sha256": "a0eff4cddbeb7c6ca8d1c03fefff70c6d8233e229a5135bf9771adba77e3ad58"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/rendering/modelPaths.ts",
+      "bytes": 596,
+      "sha256": "11d1d5f80b631c7edd8463005ce1de12f7747c2ffc7b6e3ba7c3d961bc4e1faf"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": "node_modules/three/src/renderers/WebGLRenderer.js",
+      "bytes": 102861,
+      "sha256": "35cea4871231c3fddc3517dcd03fc876bdb8f9e73f1a77042b35e3de0498c4cd"
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "bytes": 8670,
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc"
+    },
+    {
+      "path": "node_modules/three/src/math/Frustum.js",
+      "bytes": 7615,
+      "sha256": "2332e8d732aace16957af57f82733969416827a4cfad8d5bea338fee9f082077"
+    },
+    {
+      "path": "node_modules/three/src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js",
+      "bytes": 400,
+      "sha256": "4422467001348636551ce64f1e6631d8a5032b7ac2788596c2dc5269618c7602"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "writer": "CLOSED",
+  "candidate": "nativeSquadPlacement168",
+  "publicCandidate": "UNRUN_REQUIRES_INDEPENDENT_GATE",
+  "files": [
+    {
+      "path": "tools/overhaul-squad-168/checks-receipt.json",
+      "bytes": 529,
+      "sha256": "fac89afcae695167de1eb3677cd30b258b773eef7cdac12af666a4cc9aef4511"
+    },
+    {
+      "path": "tools/overhaul-squad-168/first-failure-receipt.json",
+      "bytes": 296,
+      "sha256": "b9ba9bc0f79440643a36655fe95d06a09e105612bc5dbc18585b24e62a39996e"
+    },
+    {
+      "path": "tools/overhaul-squad-168/first-native-placement-receipt.json",
+      "bytes": 3046,
+      "sha256": "10695ec58250c0b80ea1efd0e39b6d9efee32bbca4099ec82719ee33547ddd87"
+    },
+    {
+      "path": "tools/overhaul-squad-168/HANDOFF.md",
+      "bytes": 5134,
+      "sha256": "b147e173f3d1c47029ce4b262a4927705a39f98fc812e709156d45668406556d"
+    },
+    {
+      "path": "tools/overhaul-squad-168/native-placement-receipt.json",
+      "bytes": 3046,
+      "sha256": "10695ec58250c0b80ea1efd0e39b6d9efee32bbca4099ec82719ee33547ddd87"
+    },
+    {
+      "path": "tools/overhaul-squad-168/placement.test.ts",
+      "bytes": 3757,
+      "sha256": "44608cb764199422144982df19078a81f10578a086497c956de687d75822c218"
+    },
+    {
+      "path": "tools/overhaul-squad-168/preimages/first-fixture.test.ts",
+      "bytes": 3746,
+      "sha256": "3100c0b2927db55e8b9b6d992e7bb549eb6a934dcb9e43b8f7081f241f775031"
+    },
+    {
+      "path": "tools/overhaul-squad-168/preimages/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "tools/overhaul-squad-168/protected-inputs.json",
+      "bytes": 3831,
+      "sha256": "51115081c8fb28f388bc806314a02e7d2c5b648dacc17574da23a9a395bcdff0"
+    },
+    {
+      "path": "tools/overhaul-squad-168/vitest.config.mjs",
+      "bytes": 187,
+      "sha256": "ab238763bb757960e7b38cd33d0569dbf7e5b6b658e51574169f64f0748dca93"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 181567,
+      "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a"
+    },
+    {
+      "path": "shared/squadPlacement168.ts",
+      "bytes": 2227,
+      "sha256": "c3046aa4369ca3db801200ba924c526f1a0f9f2dcb3fb6ba96dc393b4791a9b2"
+    }
+  ]
+}

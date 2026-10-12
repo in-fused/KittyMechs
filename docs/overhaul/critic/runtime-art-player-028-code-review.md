@@ -1,0 +1,11 @@
+# Lightweight public visual observation028 preflight
+
+Independent HIGH review, 2026-10-10, focused start 20:20:49 UTC; critic hard close remains 20:45 UTC.
+
+APPROVE one unchanged root-serial observation of frozen playable027 at localhost8800, external 120 seconds inclusive/internal 110-second action guard, after the source027 job closes. All 13 frozen rows matched size/SHA256. Seal SHA256: `68BC90658278412A5F6F85FF0E7296ED4535F6F27644282F42A961C5158DDBE3`; capture script SHA256: `268C2AC9E5E890703D17165C5153FB73079C9BEF0AA5B4B3F6F59FB2C07A6F80`. No production/source/physics change is included.
+
+The two ordinary UI clients use public controls and outcome waits. Numeric navigation uses actual camera movement yaw; peer targeting retains weapon aim yaw. A single host video preserves visual evidence; omitted audio, guest video and active screenshots must remain explicit. Durable samples and the guard-bypassing first-failure sample retain failures. Native snapshot history is capped and received independently of page presentation. The external launcher's clock precedes hashes and reserves bounded cleanup; descendant termination remains unverified on timeout, rather than a disposal claim.
+
+The Air predicate fixes the inappropriate conjunction of delayed presented Air with the latest grounded authority snapshot. However, it checks actor/life/time and `processed>0`, not equality with one specific jump request. Landing likewise permits any prior flight in that life. This fresh sequence issues one Space, so a visual attempt is useful, but its Boolean success alone cannot certify the contract's SAME-request Air/landing claim. Actual postreceipt issued/processed request, life, native-history and owner clocks must confirm the unique request before that narrow outcome is accepted. No predicate or source edit is authorized here.
+
+A successful capture only supplies evidence for independent art/motion review. It cannot establish contact-bearing pin, paw support, continuous full-body clearance, all animations, native profile/climb, reliable performance, destruction, missions or Gate1. The public unsupported-action fallback remains an intentional observation; unexpected runtime/helper/outcome failures stop with no retry. Previous020/024 failures and their limited verdicts remain intact.

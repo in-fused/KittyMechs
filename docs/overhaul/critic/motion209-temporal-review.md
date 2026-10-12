@@ -1,0 +1,24 @@
+# Motion209 temporal source review
+
+Writer: CLOSED. Decision: APPROVE_ONE_BOUNDED_INTEGRATION_EXPERIMENT209_SOURCE_VISUAL. This admits one future integration/native-play experiment after a separate review of the actual runtime owner, lifecycle and asset routing. It does not admit runtime209 now, promote a playable checkpoint, or approve convincing feline movement. Retained062 remains unchanged.
+
+I inspected all eighteen chronological side/front boards: Walk, Trot, Gallop, UprightWalkLong, UprightStride, moving R up/down and idle R up/down. I also viewed full frames Gallop-side 00/03/06, UprightStride-front/side 03, R-up-side/front 04 and Idle-R-down-side 04. These are actual composed-pose renders, rather than hypothetical author curves. The eight-frame GIFs use the same sampled chronology at 125ms per frame; their one-second diagnostic loops do not establish runtime cadence or fluidity. No real-time GIF playback or native gameplay was inspected.
+
+The source makes a material visual improvement over the denied197 source. The shoulder carriers and separate forelimb lanes are legible. Upright forearms remain below the jaw and beside the torso instead of forming the previous crossed waist guard. Moving and idle R raise/lower the chest with the forepaws clear of the face; both directions have readable intermediate silhouettes. Walk and trot show alternating limb strokes and visible shoulder articulation.
+
+Gallop now has actual pelvic gather and changing back shape: side frames 00/06 have a raised hindquarter and inclined back, while frame03 extends the body and forelimb. Calling the entire trunk static would be inaccurate. However, chest compression and landing absorption remain restrained, and much of the most readable silhouette change comes from the pelvis, limb reach and tail. The eight sampled poses do not establish a convincing compressed launch, suspension and landing sequence. Upright gait still reads as a raised robot trunk with long hanging forearms; arm counter-motion, wrist articulation and waist balance are weak. R is better separated anatomically, but convincing support transfer and a deliberate paw placement sequence remain unproved. These weaknesses prevent full source-art/motion acceptance.
+
+I cannot establish or reject physical longitudinal slip from these camera-following source-plane renders. Visible normal-plane placement and the passing arithmetic are insufficient to prove a stable material-point plant, world tangential contact, native support, full pad clearance or runtime reversal continuity. Workbench MATERIAL previews also do not reproduce runtime PBR, lighting, camera occlusion, HUD or combat/climb presentation. The 1958 ordinary source cases and 195 retained-action cases are numerical coverage, not visual or gameplay approval. No CPU/GPU gain or affected-human Lowest-lag resolution is established.
+
+The next finite action should test this genuinely different anatomy and composed motion at actual distance-owned cadence in one native integration experiment, with complete owner/reset/critical-action dispatch reviewed first. Preserve062 as rollback. Judge side-readable forward/reverse, gallop and both moving/idle R directions from recorded native play; reject freezing, clipping, conspicuous sliding, abrupt support changes or unacceptable cost despite the source arithmetic. No further constant, key-count or tolerance adjustment is authorized by this review. Remaining art direction should concentrate on visible thorax/scapular loading and upright waist/arm counterbalance, rather than merely increasing limb stroke. Full district, co-op, contact, convincing feline motion and human performance remain incomplete.
+
+Exact evidence anchors (SHA256):
+
+- Final CLOSED preview seal: `01ac399b14cc1ae9887b9c98af2d7998ef99f8148aaaa4f22ebc3af806b69f99` (194 files and seven protected inputs).
+- HANDOFF: `6630b8322c608a8449f2e3a9c486c258d04a14292328bf6431062a2fa994e073`.
+- Actual preview receipt: `231d27de3ed32c32114cec495e0eb6738281a4a105322f39a6af679d48973588`; CLOSED, error null, 144 renders, contactQualified false. Reported decoded-matrix replay maximum is 3.4412369e-6 against unchanged 2e-5.
+- Chronology inventory: `ba5c3a636b0efa4c1d58d9357c2cff7af181fe0089f30e5af941ce78b92be2c8`.
+- Private GLB named by the handoff: `64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7`.
+- Gallop-side board: `1b61a02251760f71ea760c65c3a4cf9876e7aa8309b1ee2bdf31ce0adfe51ff5`; UprightStride-front: `f1ade6051513f6158ed86bf4cc1411c76742e01044b28b1a5bd03dcf4c6b0d77`; R-up-side: `83946b24d340cf89848f669a4fede07173e2162d00079b56b1e6409dca714120`; Idle-R-down-front: `0ee6ab06beb992981fc9ec507c0b68515048d58b2026afee9aa23f118e6a7c33`.
+
+Reviewer ran no authoring, rendering, browser, native, build or test job and changed only this review.

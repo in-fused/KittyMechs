@@ -1,0 +1,76 @@
+{
+  "writer": "CLOSED",
+  "scope": "One private actual codec qualification, no production/runtime changes",
+  "files": [
+    {
+      "path": "tools/overhaul-codec-210/entry.mjs",
+      "bytes": 606,
+      "sha256": "c8f0dacd5433204abd110146bea8d7e048f90f6c2f8ffc6ac2d63bf950e4e94f"
+    },
+    {
+      "path": "tools/overhaul-codec-210/first-preparation-failure.json",
+      "bytes": 521,
+      "sha256": "6cbb82672c4473713130527440419d2af0bb0640955467565198694f88e4695c"
+    },
+    {
+      "path": "tools/overhaul-codec-210/prepare.mjs",
+      "bytes": 2528,
+      "sha256": "caa5d09ea0e2c270006e0d139c884b2d56a87be3c88f6b70474d080add49f75b"
+    },
+    {
+      "path": "tools/overhaul-codec-210/run.mjs",
+      "bytes": 4466,
+      "sha256": "ecd56c9d5084cb63959056018dad60c09b09902d918153a4cacdf8067cde9d44"
+    },
+    {
+      "path": "tools/overhaul-codec-210/seal.py",
+      "bytes": 640,
+      "sha256": "5b0fb0043457be84e77b00c896491dcce90ef7195be0da12a3e036dff91cb935"
+    },
+    {
+      "path": "tools/overhaul-codec-210/supervise.py",
+      "bytes": 3632,
+      "sha256": "872d92fd556a4fe89ecd3aa89a3052ad860072e6d175f7e736f9f637cc10db4c"
+    },
+    {
+      "path": "tools/overhaul-codec-210/test-body.mjs",
+      "bytes": 4875,
+      "sha256": "ee984cd513aca1bd4f71f8613436af9198dee6fa444805b20ff5fee09a336bca"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/bundle/chunk-Z6SQIIX4.js",
+      "bytes": 21766,
+      "sha256": "72b4e98a38445dc0c577d09faeb83379fd64ea8f66e21e0e7a497ce8de9e533f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/bundle/main.js",
+      "bytes": 4963,
+      "sha256": "7ed4989442c0d2536d6930ab2bd4dc9d29a09de35240cb121cefb58e9f434be5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/bundle/test-body-2GCZ7P6B.js",
+      "bytes": 816532,
+      "sha256": "99e346552fc53ae26943fae1376b0bff74737f20842381b364d96d6b9d44f0c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/bundle/worker.js",
+      "bytes": 22371,
+      "sha256": "00b4b0cde30c8d7decebbbf7998021ce577f15d75bb55566ef975dcfc52f89e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/main-metafile.json",
+      "bytes": 153829,
+      "sha256": "ff743a2a2f6cffd7d607cc7ff6b3cb194cede96384db0883da1b45e586fc7bca"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/preflight.json",
+      "bytes": 445,
+      "sha256": "3a61e4eb4fe5443194a6d10c64bcf3b568177af9ea3eb67d4c323d968416d21c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261011/codec210-private/worker-metafile.json",
+      "bytes": 956,
+      "sha256": "0aea0bddf0907e3e787e670c9bd75fd3b16c0dba7f740a9d8a095acd8aaf7771"
+    }
+  ]
+}

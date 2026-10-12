@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Taylor\Documents\GitHub\KittyMech-Web\assets\source\overhaul-far-city-199\author199.py", line 57, in <module>
+    if sorted(actual)!=expected:raise RuntimeError('199_IMPORTED_SHADER_TRIANGLES_CHANGED:'+o.name)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 199_IMPORTED_SHADER_TRIANGLES_CHANGED:transit_wall__glazing
+
+Error: script failed, file: 'C:\Users\Taylor\Documents\GitHub\KittyMech-Web\assets\source\overhaul-far-city-199\author199.py', exiting.

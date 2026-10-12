@@ -1,0 +1,62 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "cosmeticExcluded": "tail, whiskers, antennae, sensor mast/lidar, ear tufts",
+  "clips": [
+    {
+      "clip": "FelineUprightIdle",
+      "duration": 2,
+      "height": 3.114370822906494,
+      "radius": 1.3063540291711286,
+      "floor": 0.013223753310739994,
+      "hindPawMin": 0.15868785500526428,
+      "hindPawMax": 0.15868797957897188,
+      "forePawMin": 1.8689912033081055,
+      "forePawMax": 2.186368408203125
+    },
+    {
+      "clip": "FelineUprightWalk",
+      "duration": 0.95,
+      "height": 3.114363193511963,
+      "radius": 1.3679301135888355,
+      "floor": 0.013223670423030853,
+      "hindPawMin": 0.15868778705596925,
+      "hindPawMax": 0.29539578914642334,
+      "forePawMin": 1.8689915657043457,
+      "forePawMax": 2.186368408203125
+    },
+    {
+      "clip": "FelineUprightAir",
+      "duration": 1,
+      "height": 3.1142635345458984,
+      "radius": 1.3063085658363884,
+      "floor": 0.37802380323410034,
+      "hindPawMin": 0.5234879374504089,
+      "hindPawMax": 0.5234881186485291,
+      "forePawMin": 1.8689915657043457,
+      "forePawMax": 2.186368045806885
+    },
+    {
+      "clip": "FelineTransformUp",
+      "duration": 0.7,
+      "height": 3.112048387527466,
+      "radius": 1.6339970714980692,
+      "floor": 0.013223765417933464,
+      "hindPawMin": 0.15868787765502929,
+      "hindPawMax": 0.15868807017803194,
+      "forePawMin": 0.1586880362033844,
+      "forePawMax": 2.2484343814849854
+    },
+    {
+      "clip": "FelineTransformDown",
+      "duration": 0.7,
+      "height": 3.112048387527466,
+      "radius": 1.6339970714980692,
+      "floor": 0.013223765417933464,
+      "hindPawMin": 0.15868787765502929,
+      "hindPawMax": 0.15868807017803194,
+      "forePawMin": 0.1586880362033844,
+      "forePawMax": 2.2484343814849854
+    }
+  ]
+}

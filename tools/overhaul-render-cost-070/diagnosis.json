@@ -1,0 +1,31 @@
+{
+  "status": "SOURCE_PROPOSAL_ONLY",
+  "owned": [
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637",
+      "preimage": "tools/overhaul-render-cost-070/preimages/overhaulIdentityArt.tsx"
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900",
+      "preimage": "tools/overhaul-render-cost-070/preimages/rainlineExtractionArt.tsx"
+    }
+  ],
+  "observedRafIntervals": 1150,
+  "batchedMeshSelfMs": 505.359,
+  "batchedMeshInclusiveMs": 611.268,
+  "scope": "All BatchedMesh sampled main-thread cost, not empty-batch attribution or GPU time. Dividing by observed rAF intervals only contextualizes magnitude; no forced FPS.",
+  "selfMsPerRecordedRafInterval": 0.43944260869565216,
+  "inclusiveMsPerRecordedRafInterval": 0.5315373913043479,
+  "evidence": {
+    "path": ".sites-runtime/overhaul-20261010/profile069-play/evidence.json",
+    "sha256": "293fd791ef2216faee60036311fb0e68d3c0bdd334768d1a754d1d3faab0490f"
+  },
+  "threeBundle": {
+    "path": ".sites-runtime/overhaul-20261009/build-043/playable-root/dist/assets/three-BJhnfouV.js",
+    "sha256": "ca3b113de4e31bf527a24811b36fff0c7f980426e1f3835454783e7a516f2384"
+  }
+}

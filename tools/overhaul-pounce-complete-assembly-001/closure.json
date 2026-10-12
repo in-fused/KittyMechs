@@ -1,0 +1,67 @@
+{
+  "closedUtc": "2026-10-10T14:59:34.5905348Z",
+  "status": "CLOSED_FIRST_SOURCE_AUDIT_AND_EXPORT_READBACK_FAILURE_UNADMITTED",
+  "jobs": 0,
+  "writers": "CLOSED_AFTER_RESULT_SEAL",
+  "heavySlot": "RELEASED_2026-10-10T14:57:28Z",
+  "execSession": 7130,
+  "exitCode": 1,
+  "sourceStarted": "2026-10-10T14:57:04.136324Z",
+  "sourceClosed": "2026-10-10T14:57:12.206163Z",
+  "firstAudit": "BodyBolt_0_-1_-0.065 versus DorsalSegment_0;15trianglepairs; frame/interface-classification limits explicit",
+  "preservationException": "ACTUAL_EXPORTED_PAD_FACETS_INCOMPLETE",
+  "missing": [
+    "export-readback.json",
+    "review-full.png",
+    "review-paw.png",
+    "review-sole.png"
+  ],
+  "motionNativeArtRuntimeGate1": "UNRUN_UNQUALIFIED",
+  "frozen": [
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/author.py",
+      "before": "8862d191b434a4ffd37277c8ab40111d2ba93ad0286c4bf314cce819261434fa",
+      "after": "8862d191b434a4ffd37277c8ab40111d2ba93ad0286c4bf314cce819261434fa",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-complete-assembly-001/CONTRACT.md",
+      "before": "778794ef2216a0ea56c3aa2dc1644b73b7d30babf0d9b268c0f09790f5e7d39f",
+      "after": "778794ef2216a0ea56c3aa2dc1644b73b7d30babf0d9b268c0f09790f5e7d39f",
+      "matches": true
+    },
+    {
+      "path": "tools/overhaul-pounce-complete-assembly-001/design.json",
+      "before": "fb2203cd443c29b77b9dc67c0455800a22438a87e522336ed42d63d17e7af95b",
+      "after": "fb2203cd443c29b77b9dc67c0455800a22438a87e522336ed42d63d17e7af95b",
+      "matches": true
+    },
+    {
+      "path": "docs/overhaul/pounce-complete-assembly-001.md",
+      "before": "9b5c4f70b3a001bc8947d7710a0a97d8e99c031d0214dd52ff7d58df89dfeaa8",
+      "after": "9b5c4f70b3a001bc8947d7710a0a97d8e99c031d0214dd52ff7d58df89dfeaa8",
+      "matches": true
+    }
+  ],
+  "protected": [
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.blend",
+      "before": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+      "after": "63fdc9b9ea96459d8943ab519ca6e7cc3f2d39dcb21f0b74915359e8109bd400",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-skinned-001/Pounce_Skinned_001.raw.glb",
+      "before": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+      "after": "2a12ec71e453c811faad006cbfa29b99dc395f995a13d20974e3f2982c429eab",
+      "matches": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-bind-reconciliation-001/reconciliation/reconciled-rest.json",
+      "before": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2",
+      "after": "9f0a71491db0a93065b697ece8c972dd21012293ed7219262c22547eb12e4dd2",
+      "matches": true
+    }
+  ],
+  "reruns": 0
+}

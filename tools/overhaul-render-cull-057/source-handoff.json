@@ -1,0 +1,19 @@
+{
+  "task": "render-cull-057",
+  "status": "SOURCE_ONLY_UNVERIFIED",
+  "changedFile": "src/game/world/rainlineStreetArt.tsx",
+  "changedLine": 34,
+  "change": "mesh.perObjectFrustumCulled=false -> true",
+  "preimage": "tools/overhaul-render-cull-057/rainlineStreetArt.tsx.preimage",
+  "preimageSha256": "e62910f9380aacf2a712754d4902834e7103e30aff1662731d5b3786aa79952c",
+  "candidateSha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c",
+  "exactTextChangeCount": 1,
+  "rationale": "Local Three BatchedMesh computes per-geometry indexed-position bounds, transforms them using each instance's current matrix every render and respects existing visible/active mask. Parent whole-batch frustum culling stays disabled, preventing stale global bounds from hiding moved native ruins.",
+  "geometryAndSimulationChanges": [],
+  "staticStreetMaximum": {"owners": 85, "uniqueGlbTriangles": 42835, "expandedIntactTriangles": 211832, "maximumFractionOfReported1940000Triangles": 0.1091917526},
+  "claimBoundary": "At most about11% of reported full triangle count even if every street triangle is culled; actual gain is smaller and camera-dependent. Does not resolve or establish the cause of severe Lowest-setting lag.",
+  "heavyJobsRun": [],
+  "testsRun": [],
+  "runtimeVerification": "PENDING_ROOT_BASELINE_AND_CANDIDATE_COMPARISON",
+  "writers": "CLOSED"
+}

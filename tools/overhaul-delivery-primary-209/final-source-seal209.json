@@ -1,0 +1,293 @@
+{
+  "writer": "CLOSED",
+  "status": "PRIMARY_SOURCE_PASS_UNADMITTED_CONTACT_UNQUALIFIED_PREVIEW_UNRUN",
+  "files": [
+    {
+      "path": "tools/overhaul-delivery-primary-207/READINESS.md",
+      "bytes": 2232,
+      "sha256": "c7afaf8e226dd7a4cd2ec174efd40fbc48ff9d60a133e45f0d095e8a8872a1fc"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/browser-bundle207.js",
+      "bytes": 1106210,
+      "sha256": "49d4a59b648207cded7c57976e477464c48ce8f88890ff8fe59f391f4fe10aba"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/browser-decode207.mjs",
+      "bytes": 3023,
+      "sha256": "5c9828f7ebba1801377d85706db8d76bd578a8b4b51adeadd939382594fcffb5"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/browser-entry207.ts",
+      "bytes": 15280,
+      "sha256": "1fd5fe2253731a348bee07e7fc0f2b1f9fc129a951a67f796e51cab03c82e8cc"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/bundle-preflight207.json",
+      "bytes": 3230,
+      "sha256": "d9dfa05e4a6344a4070e25ac1455dc2eb7d9e771a9ea7a7ddbfa83301ae2b48d"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/bundle207.mjs",
+      "bytes": 606,
+      "sha256": "14c2b81bdd04c2f825238570718c8fdc5557fd152079834257516d7f72061447"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/conversion206-receipt.json",
+      "bytes": 3086796,
+      "sha256": "bf2974190750221ea2f69eb965ba01051e0ccc87894b7e9429319d1e87434a23"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/convert207.mjs",
+      "bytes": 11460,
+      "sha256": "4b1c89ed0d86c45f47ca5acad9f791e14b0a5360991e0bb77cc18bdb8f1c2bdc"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/converter-process207.json",
+      "bytes": 1986,
+      "sha256": "d6248005e04c504bcb21ca90f010a43622a9fb442248d7f166fc6f4f3950a99b"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/converter-repair-process207.json",
+      "bytes": 3340,
+      "sha256": "c56ad9f569b3e9071ba84e4e442ddb4dc9ae3691109dfdee87e5af159752ec0e"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/converter-repair-stdout207.txt",
+      "bytes": 220,
+      "sha256": "0edc4931dc6871939442ca031d397315c4df83cfb2af8c721ee0d9586e5bdd02"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/converter-stdout207.txt",
+      "bytes": 374,
+      "sha256": "c87d4938c6bd408d43147825cc75668682ae34f4a8ff89fa5b6bfbb5d3ced76a"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/conversion206-receipt.json",
+      "bytes": 3086750,
+      "sha256": "3a79be2fff66904eb9f4d6655bb8c9f3cbe2603350dac624bdd7e3f286e98905"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/converter-process207.json",
+      "bytes": 1986,
+      "sha256": "d6248005e04c504bcb21ca90f010a43622a9fb442248d7f166fc6f4f3950a99b"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/converter-stdout207.txt",
+      "bytes": 374,
+      "sha256": "c87d4938c6bd408d43147825cc75668682ae34f4a8ff89fa5b6bfbb5d3ced76a"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/run-converter207.py",
+      "bytes": 2043,
+      "sha256": "8a68c5fff5021de28981cbca156251159682be999cfdd1051a96f2d2ec772030"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/first-converter-failure/source-seal.json",
+      "bytes": 1181,
+      "sha256": "480866ff023f1327e39bc4f7606a9daaa887bcbd75edea92cf1890f3dc672a71"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/output/Pounce_Anatomy206.glb",
+      "bytes": 18104360,
+      "sha256": "c276854828a906bccda5f94bfb999e7208022fd34a1142b370a87d689a08cac2"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/prepare207.mjs",
+      "bytes": 2066,
+      "sha256": "740d740900f3c432ca8c4f9b85e13e82d1c72b53c3ce8de3f7411ce1f4d47c3d"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/run-converter-repair207.py",
+      "bytes": 2700,
+      "sha256": "4f454eaa830e42197640e0e9626a8721e001aaa8e2b4edbf05e74271c0079a8f"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/run-converter207.py",
+      "bytes": 2043,
+      "sha256": "8a68c5fff5021de28981cbca156251159682be999cfdd1051a96f2d2ec772030"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/run-primary207.py",
+      "bytes": 1267,
+      "sha256": "c94c83dff29248bb3401240bb7f37677a24f40f4e43b53d1419ff88d7af411ae"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-207/seal-readiness207.mjs",
+      "bytes": 1456,
+      "sha256": "ad896fe9cfeb8a80c0964bfcaf17746c5e1b0b10c473d8b01d8d2a6e9de89d2f"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/conversion209-receipt.json",
+      "bytes": 9826820,
+      "sha256": "138d5dde8ebc03688c140866a9d489bb646bb151103f289e5d24033f2928d721"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/convert209.mjs",
+      "bytes": 6898,
+      "sha256": "ea6258aad8a381fe1174ce96b3340f8cdda82b47821405b30ddd8cbde3466486"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/converter-process209.json",
+      "bytes": 5160,
+      "sha256": "763e6c191970a2641ea43af77c8b214686aa24de4a135b51b7cfef7d0525e04c"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/converter-stdout209.txt",
+      "bytes": 4707312,
+      "sha256": "0138b6b2d3ec9d1721705128b217214a43de6c232989e99570d5b88fb02ca69e"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209-receipt.json",
+      "bytes": 2450837,
+      "sha256": "97f68d7068099057deb585e9ef22763a1818b4b3a4ffa78c90bcd4891779ab3b"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/fixture209.mjs",
+      "bytes": 5571,
+      "sha256": "57f4c3fbd7b1d07cb94860fd08e0073aa187a84ed5403eb064e170c385c14cc0"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/HANDOFF.md",
+      "bytes": 3799,
+      "sha256": "8e3e24f42b03062a8af2c4d4d923756f632cefff1c9bcc891b301a0adc0b8554"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/run-converter209.py",
+      "bytes": 1743,
+      "sha256": "40d333cbfe8ab67a74b156214dff2e33676a06055030e8892b003fbdaffd5d7e"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/sampler-inventory209.json",
+      "bytes": 9028187,
+      "sha256": "b2c67e64d28e3cb51450f3fee5e6a6db2deeeba8c7bea12387ac141d5514dcef"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/source-seal209.json",
+      "bytes": 2302,
+      "sha256": "9d8b3e4b51e126283f7f109094efc33c8f3cc7a345ffd770f2471c1a92988e97"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/browser-decode209.mjs",
+      "bytes": 3105,
+      "sha256": "76f6542b12322d750a334c0cff56e93699c47938d15666a04b13414771ca4c4d"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/protected-before-readiness209.json",
+      "bytes": 2551,
+      "sha256": "2be36e250b3d535725807470ce942f38c2d4b58a570214d1460f984733b2ed29"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/READINESS.md",
+      "bytes": 2482,
+      "sha256": "4f5a144db4b3b49c48931e6838bd9886ead3ed3fd92f61bbb74fe67c898ccb95"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/run-primary209.py",
+      "bytes": 1274,
+      "sha256": "1cd44563d40e1fbc635612f17580e00851f8d7ab73d6b1d5583665d2207e31d4"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/verify-primary209.py",
+      "bytes": 955,
+      "sha256": "345e88931886247f81603ffeec4331cd8c752dba83a9795a50fcc5d1fbdbf356"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/PRIMARY-HANDOFF.md",
+      "bytes": 3575,
+      "sha256": "2b6b0806d391c82171beebf3a6aa2f2f495d5bda5414642220d73a65923b0f12"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/readiness-seal209.json",
+      "bytes": 8686,
+      "sha256": "cc32cc6d24fbb9ae3ccc88750a156ba1f15f531b24078f99f57bc86f3e755f5b"
+    },
+    {
+      "path": "tools/overhaul-delivery-primary-209/track-primary209.py",
+      "bytes": 3060,
+      "sha256": "c9ab2f6adeb90bf9eba1c14509ded278baf7ab6136147e2885520c240eee1890"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/decoded-catalog.json",
+      "bytes": 2225757,
+      "sha256": "8e9d99e9a78fa6847fd521fde6127d575b931b64a8f1f070632de9631156b5f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/evidence.json",
+      "bytes": 31440119,
+      "sha256": "0a232a1805ab7a78ca9841b632fd235f6eb3a3bd031041f989a2a6a83755cdcf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/owned-process-identities209.json",
+      "bytes": 2225,
+      "sha256": "6829f35b285c76eae48ab3dba3c31f7b80e0a216430b0bcebec0bab9b6ed52cd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/process-receipt.json",
+      "bytes": 385,
+      "sha256": "ddf029f876cfd54f3b41ca1685af7f7134f7e77af8511ed147bfab0105ee0604"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/protected-after.json",
+      "bytes": 9581,
+      "sha256": "9336f4dbd155e0169f6a268d07436a097b584b1d7e7873a7970394a1e10432bb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/protected-before.json",
+      "bytes": 9582,
+      "sha256": "8c8b10a3b69eaef571147683b1004c0cd9dd2f1b1dd90e31a3b73c3651578f22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/protected-readiness.json",
+      "bytes": 9585,
+      "sha256": "94b6fac9e00321d773f2b44b0b0d572517e32f2484a9b4e08beed25a040ade18"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/stdout.txt",
+      "bytes": 124,
+      "sha256": "9ec06cc5db7e748303cd4c98757fbb415f24a9fbd1c86dc732f7ca01357f04f7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/delivery209-primary/tracked-wrapper-stdout.txt",
+      "bytes": 345,
+      "sha256": "433a8f482a3a3576d6ea1e44df14c3911be5b509154de1fb4b4c2b84333c2515"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "tools/overhaul-delivery-206/source-seal.json",
+      "bytes": 2775,
+      "sha256": "7838a1577f6c14c6678e1cd76eb1d90783248566b219e79617ab09413ac3a4a0"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/source-seal.json",
+      "bytes": 30595,
+      "sha256": "0c394fc0b849181963440bb9156298d6153af037e88c6deed2870e7cd1f74ab8"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    }
+  ],
+  "productionChanges": [],
+  "primary": {
+    "pid": 366308,
+    "exitCode": 0,
+    "elapsedSeconds": 26.922,
+    "capSeconds": 30,
+    "ownedBrowserIdentitiesRemaining": 0,
+    "completeActionCases": 195,
+    "ordinaryPoseCases": 1958
+  }
+}

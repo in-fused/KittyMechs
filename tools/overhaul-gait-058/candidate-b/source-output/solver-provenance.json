@@ -1,0 +1,22 @@
+{
+  "source": "assets\\source\\overhaul-pounce-identity57-animation-source-004\\author.py",
+  "sourceSHA256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+  "functions": [
+    "trans",
+    "rotation",
+    "ease",
+    "chain_bone",
+    "solve_two",
+    "parent_base",
+    "parameters",
+    "pose",
+    "key_pose"
+  ],
+  "extractedUTF8SHA256": "2637db5724e5d1ef44fa15c3c6da36ec63ac449cf4468688c6111f5be16dd872",
+  "instrumentedUTF8SHA256": "9bd4871e21c924e806f503a9e0f8fa665abfcdcdfa72189e903f807118b311ba",
+  "singleOwnerSource": "assets\\source\\overhaul-pounce-pose-owner-027\\single_pose_owner.py",
+  "singleOwnerSHA256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+  "originalGaitCorrection": "source front -Y; stance begins negative/front and retracts toward positive/back; swing returns toward negative/front",
+  "ownershipCorrection": "detach/update before manual solve; all57 solved matrices captured before write; attach only for key insertion without intervening evaluation; actual current and forced same-clock replay checks from retained027",
+  "restAnatomyChanges": false
+}

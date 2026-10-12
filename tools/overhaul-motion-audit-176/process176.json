@@ -1,0 +1,50 @@
+{
+  "writer": "CLOSED",
+  "command": [
+    "node",
+    "node_modules/tsx/dist/cli.mjs",
+    "tools/overhaul-motion-audit-176/audit176.mts"
+  ],
+  "capSeconds": 30,
+  "startedUTC": "2026-10-11T16:58:04.313445+00:00",
+  "pid": 356924,
+  "exitCode": 1,
+  "status": "TERMINAL",
+  "elapsedSeconds": 1.4690000000409782,
+  "closedUTC": "2026-10-11T16:58:05.773911+00:00",
+  "inputMatchesAfter": [
+    {
+      "path": "tools/overhaul-motion-174/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-motion-174/validate174.mts",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-motion-174/decoded-receipt174.json",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-174/authored-motion-records174.json",
+      "match": true
+    },
+    {
+      "path": "public/assets/overhaul/pounce-motion-174/Pounce_Motion174.glb",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/critic/motion174-failure-review.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "match": true
+    }
+  ],
+  "all174RowsMatchAfter": true
+}

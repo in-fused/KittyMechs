@@ -1,0 +1,106 @@
+{
+  "scope": "ONE040 ordinary movement/pitch completed; observer FIRSTFAILURE wrong postplay settings locator. No retry/no rAF aggregate retained. Sampled FPS not actualIAB/GPUtime. Upward .75 view constrained/obstructed; level/downward self visible. Gait034 unchanged.",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/analysis.json",
+      "bytes": 28662,
+      "sha256": "b6e7d673ebe54475ed7be812cbfa85674aef626cb51df3898cbace7be15e2457"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/backward.png",
+      "bytes": 1091508,
+      "sha256": "b25e8d658619f5f81d4cd99e592862a707a04472c2ce1746d4aa3f768e9f749c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/evidence.json",
+      "bytes": 6993062,
+      "sha256": "bb6af177c0a3a24d91567b34e66124b698a21d1e26793bd9a5fc14fb95030b4e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/failure.png",
+      "bytes": 941638,
+      "sha256": "6638802d45719467a3c181674b7fd76b7ed9c8925879f9b6ad81e0498cd8b536"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/forward.png",
+      "bytes": 995119,
+      "sha256": "3ed91d7f507c7214e12ee50c365943115bc7f13ca510515a4b4dd2a2bd09a232"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/left.png",
+      "bytes": 777662,
+      "sha256": "f940ba46630904fcb5f974520dde820fa3536b8721f84e03d626d6c98e9a51ee"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/level-again.png",
+      "bytes": 947566,
+      "sha256": "f5f80b7a7c89afa3b693a7bafa6c592e26d9e73fe582792704626da24ec76546"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/level-view.png",
+      "bytes": 947769,
+      "sha256": "dc16b0871647a857f24771d390fc58a5e56407a93e6d327ceb91f868b800a1d3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/look-down.png",
+      "bytes": 2096427,
+      "sha256": "514b89e21a096b5528b516a30fd379db2d04a4276de8d603e14793a2e57c5954"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/look-up.png",
+      "bytes": 748548,
+      "sha256": "35bd095fc73b698ed6eafe65e67a107a47eecfef5a5b6ec46b02ea96d23b77e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/page@64fb2a73e0b02a975f499147c7d960f5.webm",
+      "bytes": 5303540,
+      "sha256": "88f99eaae03963c2278dc2cb37f63c721d49582c009693f59bb39df186fee2aa"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/quadruped.png",
+      "bytes": 990816,
+      "sha256": "a0fa2fc3ab08b6d451d06d3fc0fd9df746cdaf68c32590495120f09eb2fbb6c9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/rest.png",
+      "bytes": 1076573,
+      "sha256": "c2f274b53dcac8a96233e0524983c9e386ba0beecfe97ad9750eaeb5aa970f75"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/right.png",
+      "bytes": 1008809,
+      "sha256": "a680b09e00e0098984547b696fe38d76d3e76799a46bc4310765490f175a1ebf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play/upright.png",
+      "bytes": 1060474,
+      "sha256": "4107574fc3f67a61a3a84c1edb65744d7be580251495266e4177b0d5cac4e5d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play-process/process-receipt.json",
+      "bytes": 61483,
+      "sha256": "e39e065ace8c8ecfb39eb270691f6e878efa0a24be02fcbff5a89046392edd0c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-play-process/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/camera058-cleanup.json",
+      "bytes": 331,
+      "sha256": "6959f86dc9f19162e9d2b59d6cd447e0cd4e5458b40362eba54473580e78d9c6"
+    },
+    {
+      "path": "tools/overhaul-camera-058/close-play.py",
+      "bytes": 1905,
+      "sha256": "a8c31ef9d3bb5aea7de8e3c71c7f385abcef832e2e32cac8c6c09d56a9311e51"
+    },
+    {
+      "path": "tools/overhaul-camera-058/cleanup.ps1",
+      "bytes": 1683,
+      "sha256": "db9bcf533a623655e2716afc54c207f2b761b54e1fca831974a758db3336d214"
+    }
+  ],
+  "inputsVerified": 412
+}

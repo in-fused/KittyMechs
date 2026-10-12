@@ -1,0 +1,35 @@
+{
+  "execution": "ONE_ROOT_SERIAL_AFTER_PREFLIGHT",
+  "protectedCount": 171,
+  "files": [
+    {
+      "bytes": 5680,
+      "sha256": "72af2c82a2b646ae508e17b93afbfb0a62cdffeb500db207c7e82f13908e256d",
+      "path": "assets/source/overhaul-pounce-hand-contact-032/triangle_diagnostic.py"
+    },
+    {
+      "bytes": 203785,
+      "sha256": "e53540a2c85e99ce74340e513bc0263784eafd1b98aa4fb7420012f674b876fa",
+      "path": "assets/source/overhaul-pounce-hand-contact-032/triangle-input.json"
+    },
+    {
+      "bytes": 36259,
+      "sha256": "530a67f487f5537b69cc03a7245aa5bbe935e5e1d8f8db5de6e7697f309a4ed7",
+      "path": "tools/overhaul-pounce-hand-contact-032/protected-inputs.json"
+    },
+    {
+      "bytes": 238,
+      "sha256": "988df516c82685df19078841086e2a3eac9887b1f3c8050b948d25214987b342",
+      "path": "tools/overhaul-pounce-hand-contact-032/diagnostic-command.ps1"
+    },
+    {
+      "bytes": 1307,
+      "sha256": "3c77f19328cac55fe6a1ca36a758165b5bb2fcb335fb0b21c64b5bad9cb6e637",
+      "path": "docs/overhaul/pounce-hand-contact-032-diagnostic.md"
+    }
+  ],
+  "schema": "handcontact032-diagnostic-seal",
+  "hardUTC": "2026-10-10T21:36:00Z",
+  "frozenUTC": "2026-10-10T21:08:13.9056139Z",
+  "capSeconds": 60
+}

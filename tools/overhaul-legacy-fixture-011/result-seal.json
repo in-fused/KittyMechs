@@ -1,0 +1,95 @@
+{
+  "sealedUtc": "2026-10-10T18:29:02.4384622Z",
+  "rows": [
+    {
+      "path": "tools/overhaul-legacy-fixture-011/result.md",
+      "bytes": 4800,
+      "sha256": "95bc571717f3023d7b8fd3e0cfea21c4fa77cc00885f7321a5e4f6990d916e16"
+    },
+    {
+      "path": "tools/overhaul-legacy-fixture-011/closure.json",
+      "bytes": 101699,
+      "sha256": "43396e6e7400a5afc9f8b235441d8f11e110c94198e4090672c2764e2bf537fe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/result.json",
+      "bytes": 1603,
+      "sha256": "f95f8a0ecc430bdcdb8722f8c3d3d0ad2545be80c02941d4affb4371887a08f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/causal-witnesses.json",
+      "bytes": 105733,
+      "sha256": "8ab6345ccce2c59bef271dffb3bd8818662bcf1b2aa5abdc0e45cbfaf477f784"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/stdout.txt",
+      "bytes": 153,
+      "sha256": "f769d5d419fecadfeb1fc2403f762abe885441d6e21553be4291ae2b9b38d4a6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/receipt.json",
+      "bytes": 623,
+      "sha256": "a0df95f3e818d06d0f0891990bf39fa8c5e8f5102025934859f1ed9e471ecbe8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/vitest-report.json",
+      "bytes": 12586,
+      "sha256": "a11bdb244708f4dc8d31f85159894296b446c95381a01513d562a12c0e6bb443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/runtime-errors.json",
+      "bytes": 17120,
+      "sha256": "49f3ec7421de51c7eb072b52c61dfbe0b306976c3f5cecbffdd232f8a959e236"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/observer-errors.json",
+      "bytes": 23,
+      "sha256": "9e438908496d387bae6a65b5bcdb544c0fa289c6db9f2d9e77c1d39e570e5751"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/baseline020/observation.json",
+      "bytes": 632377,
+      "sha256": "afe51229720109090150acfe5967a8024273d8ff496b7b57ba386a2b9125f1ae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/stdout.txt",
+      "bytes": 152,
+      "sha256": "17fd795f2e360ca3a94c9ecefead40a4aa919c0b675565f9db9a2633ec24482d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/receipt.json",
+      "bytes": 621,
+      "sha256": "13efb6e1cf1c5e3afa8c6627e9d55141521dd59c4021cd851f85e02c0f4f51c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/vitest-report.json",
+      "bytes": 12555,
+      "sha256": "77c4a2aad36d7c6c9fb21bea96a340e859416c78b5dc69441e45db8cf178f32f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/runtime-errors.json",
+      "bytes": 17084,
+      "sha256": "12f3e14a071b3d58a5d03e7be8f94f25c3015148cbb6952965e0116c82578a8c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/observer-errors.json",
+      "bytes": 23,
+      "sha256": "9e438908496d387bae6a65b5bcdb544c0fa289c6db9f2d9e77c1d39e570e5751"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/current008/observation.json",
+      "bytes": 660895,
+      "sha256": "d01fed73682d46a2db7399a57d5a8b4de12cb101cf13466da35290bead35eede"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/critic-preflight-closure.json",
+      "bytes": 705,
+      "sha256": "1dbc4a07871ba4945510bdf2b35bf452dbab0995bc3f0efa07b1ab7b5efbc723"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/legacy-fixture-011/critic-result-closure.json",
+      "bytes": 650,
+      "sha256": "7d01e9e893124b3b776906e5cc4b95647aa7a231a3697e53806ad4ccbda9090f"
+    }
+  ]
+}

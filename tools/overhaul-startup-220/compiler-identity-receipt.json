@@ -1,0 +1,12 @@
+{
+  "writer": "CLOSED",
+  "status": "PASS",
+  "scope": "Actual installed TSX compiler output identity of raw parent and reversed candidate, retaining decoded strings/template literals/JSX text; no whitespace stripping or new candidate changes",
+  "parentCompiledSHA256": "836084bec78e77a9a727e8d023f4725884730ec37b72a53a477e94ce1e8732b5",
+  "reversedCandidateCompiledSHA256": "836084bec78e77a9a727e8d023f4725884730ec37b72a53a477e94ce1e8732b5",
+  "equal": true,
+  "initialFailedSealSHA256": "5708c1d217ba0072ab4cc99d9bc1a05d45e20c8849afb2c7aeabd29d8a10be33",
+  "supplementSealSHA256": "6feea10565fe772d19130ed9c156fa416e42c0c2c45e728ad4a0bd2edbfbac50",
+  "actualBuild": false,
+  "actualCapture": false
+}

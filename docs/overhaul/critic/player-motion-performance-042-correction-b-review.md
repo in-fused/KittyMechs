@@ -1,0 +1,7 @@
+# 042 correction B source review
+
+Reviewed 2026-10-10 at 23:45 UTC. APPROVE one repeated four-file focused test, then one build only if it passes; the subsequent candidate observation remains conditional on an immutable build receipt. No third technical repair is authorized by this review.
+
+The preserved first run passed 40/41 tests and failed the palette-preservation assertion because the actual Three Quaternion carries its Object3D change callback, while the cloned reference Quaternion does not. Its four numeric components are identical. The sole changed assertion at test line 48 compares both `toArray()` results with exact equality; it introduces no tolerance or altered geometry, weights, transforms, skinning, world rules, or test expectations about the pose. All other original sealed implementation/dependency rows match. Current test SHA256 is `9e70b6be0a2dc3522331fb746681c0b9cc828fb8aaea4511f2c3d1df4da95508`; preserved original test is `64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339`.
+
+The healthy single-client Medium/PVP baseline establishes the moving-fire clip-selection defect under that configuration. It does not reproduce or disprove the user's persistent severe lag in Solo/Lowest with preview both enabled and disabled. That report needs a distinct configuration-matched observation. No general FPS improvement, planted-contact quality, camera regression repair, or complete game approval follows from this correction.

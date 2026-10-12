@@ -1,0 +1,11 @@
+# Source004 closure and next playable observation
+
+Source004 one Blender attempt18868 ran16:25:52.145297-16:26:50.862814UTC, exit1.43 actual completed/exported actions and four actual selected poses survive. UprightDeath t0 failed beforecommit: raised FL hip[-.47,-.340893,2.325454], rest-floor target[-.58,-.95,.19], requested2.223348 versus1.670662 fixedchain. UprightDown/UprightPairs were unreached. Geometry/rest/material/bind/weights fingerprint remainsAC38E4DC3D3E1C6054550CA6E5495E58749F4A13DCCB160674BDA56DD38EF14B; six protected003inputs match. No repair/retry.
+
+IndependentHigh critic closed16:31:31.805645UTC. Review identity57-animation-source-004-result-review.md SHA8B3B4579A2D55B6EE799EFB46B539F91D73A34F459E515247AFC431C1E46530C: accepts partial action/export preservation and actualselectedposes only, denies completeanimation/runtime/art. Root viewed allfour actualPNGs16:33:33UTC: real lowforwardguard/upright articulatedhocks visible; stills cannot provefluidgait/pairedcontact.
+
+Writerclosed16:32UTC. RESULT84e5779628a44432c3ed8fa01e1a7ab6891ce0dc6a43ec13ab03f4c696b6c52e, closure29dd492a6f0ee96a7329c7b7e87b2ffabf5cfabe96dc110bd2930eb2386d4420, outputsealdb5cd3109c9f5076f44125d00922e6a0695c361a7036e9cf1e3fb1c8c8f8333f. Recovery018 subsequentlyverified917files578040132B/zero mismatches. Source004 assets remain failedcandidate evidence, no fullsource promotion.
+
+Runtime005 is a distinct bounded observation of existing supportedactions on actual57rig in normalcamera. PrivatePouncehuman selection only; shipping legacy preserved. One mixer/stateowner, actualdistancephase/stance timeline, measuredexport axis/floor boundary, no legacy25boneIK or stretching. Known missingactions explicitunsupported. Root publicinput twohuman capture will attemptquadpair, quadtravel, movingR/uprighttravel/jump/landing/Rreturn/repeater. Firstactualfailure stops. No climbing/fullnative/profile/completeart/pinrestraint or Gate1 claim from actiondelivery alone.
+
+ParallelHigh design005 measures sourcebody extents and proposes a sharednewnativeprofile; no physicsmutation ornewsourcejob. RootMedium owns integration/serialjobs. Independentcritic gatescode/actualplay. Fullfourmech/threemapprototype remainsACTIVE/INCOMPLETE.

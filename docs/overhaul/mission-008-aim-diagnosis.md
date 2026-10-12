@@ -1,0 +1,11 @@
+# Mission008 recorded aim diagnosis
+
+Source: `.sites-runtime/overhaul-20261009/mission-008/evidence.json`; ordinary two-browser keyboard run. Diagnosis does not establish a production weapon defect.
+
+At snapshot53.3667 host position was(-9.747,.940,-34.242), bot-0(-13.479,.940,-61.892), velocity(-.028,0,.027). Target yaw was about+.134. Accepted pulse/rocket shots at52.517–52.95 had yaw−.287 to−.304. Their floor impacts were(-.239,-.08,-66.473) and(3.944,-.08,-78.011); a surviving pulse at53.3667 was(4.230,.079,-78.832), velocity(31.358,-5.795,-100.040). They missed east of the westbound target, without a nearby cover contact. Current camera lookYaw was+.08816 and crosshair aimYaw+.08750, while authority actor aimYaw remained−.11859. Steering IJKL from delayed actor aimYaw amplified rather than measured the local camera correction. Fire was gated from the pre-turn read.
+
+Bot-0 was genuinely wounded, not respawned: HP15.8 at48.8667, last hit47.4333; HP47.3 at56.6833, then95 at60.2333. `shared/simulation.ts` applies ordinary regeneration to all live actors after7seconds, +14HP/s. That predicts every recorded value. Guest normal pulse impacts hit bot-0 at80.95/81.1667 and killed it at81.6. It remained dead at86.5. Bot-2 remained95HP, firing at86; guest fell during the subsequent threat, so rescue and mission completion remain unproved.
+
+One controller correction is in `tools/overhaul-pilot-aim.ts` and `tools/overhaul-mission-play.mjs`: current camera look angles drive released IJKL pulses; a fresh post-pulse snapshot gates normal F/Q against the accepted barrel ray and predicted native hull. Lead is distance/105 (normal pulse speed) plus bounded measured snapshot delay. Each6.5simulation-second engagement has a20wall-second watchdog. Evidence now records read/control clocks, exact angles, target geometry, HP and exit reason. Source weapon rules, NPC regeneration, encounters and lifecycle are unchanged. Root's optional lifecycle branch remains intact.
+
+Qualification status: new pure regression source written; native/tests/browser execution deferred during the artist's exclusive quiet window. Ordinary verification must retain misses, damage, downing and failure evidence.

@@ -1,0 +1,60 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-capture-216/binding.json",
+      "bytes": 166855,
+      "sha256": "b12d5e1c862104fd9f642ff7939a7ff075d5628ad7309828fd22e3793251dc1e"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/capture.mjs",
+      "bytes": 15600,
+      "sha256": "cc83278c8eabc2f0d748f1b1f5a3f0a1c80abb66bfadc8400ff9515dd6a6247c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/entry-identity.json",
+      "bytes": 1269,
+      "sha256": "56a4fcc17b469b48b99fd7ebb03a8a2d2229e1828d4a7a348c456eb4c0aac79c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/HANDOFF.md",
+      "bytes": 2954,
+      "sha256": "f0f123e8ca40c4819a6c84e28c07cad132ede7489c2f81a4894544ba6c9fc025"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/preimage/capture.mjs",
+      "bytes": 15478,
+      "sha256": "04a0713ce1aae5ce29c52c2fbdf7338ae2f607dbb11777cab4f9f217045bdc3b"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/preimage/entry-mapping.json",
+      "bytes": 1590,
+      "sha256": "aaa9c6f0168fde420ab2995ab93fa21c354386d500f7c7e99bcf3d84280d5ced"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/preimage/supervise.py",
+      "bytes": 4839,
+      "sha256": "301fdc09a583f6a18940db7fde2e940573722301bc746550c43b712112c435c0"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/prepare216.py",
+      "bytes": 6537,
+      "sha256": "0756f397b546e62db1e57f7e366c0c3ecd7c609a085b8397efef2426905c7357"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/seal.py",
+      "bytes": 548,
+      "sha256": "7babfde2c81988ddd4e61b446c1c6140de25067db12dd422347c5bdeae98db3a"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/static-receipt.json",
+      "bytes": 1097,
+      "sha256": "8a2bc2bf352407a45a8b6709cecdde55e82a073394c26e83268ab65c7a5049b5"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-216/supervise.py",
+      "bytes": 4839,
+      "sha256": "765568b303658965e4750bd55a5c2ec1e6a1d058bd74227165cc5ac9f15a1618"
+    }
+  ]
+}

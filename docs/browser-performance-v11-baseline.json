@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-04T12:54:05.738Z",
+  "port": 8790,
+  "label": "candidate",
+  "browser": "Headless Microsoft Edge",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "preset": "medium",
+  "cameraDistance": 10,
+  "reducedFlashes": false,
+  "renderer": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "samples": [
+    {
+      "fps": 60,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298532,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298532,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298632,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298532,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 243,
+      "triangles": 1298512,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298532,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    },
+    {
+      "fps": 60,
+      "calls": 244,
+      "triangles": 1298632,
+      "geometries": 146,
+      "textures": 57,
+      "chunks": 9,
+      "bodies": 284
+    }
+  ],
+  "errors": [],
+  "source": "2f09d6f495342a2e83eeebc49f72602a9bd47851b41d4cf69242025cbe0c89e6",
+  "candidateAverage": {
+    "fps": 60,
+    "calls": 243.6,
+    "triangles": 1298544,
+    "geometries": 146,
+    "textures": 57
+  },
+  "baselineAverage": {
+    "fps": 60,
+    "calls": 243.5,
+    "triangles": 1298536,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaselineAverage": {
+    "fps": 57,
+    "calls": 243.5,
+    "triangles": 1298554,
+    "geometries": 146,
+    "textures": 57
+  },
+  "historicalBaseline": "docs/browser-performance-upright-baseline.json",
+  "settledRAF": {
+    "durationMs": 10115.899999856949,
+    "samples": 607,
+    "p50": 16.700000047683716,
+    "p95": 18.100000143051147,
+    "p99": 19.299999952316284,
+    "maximum": 31,
+    "over50": 0,
+    "over100": 0
+  },
+  "note": "Independent critic, fresh medium1440×900 Pounce Rainline solo page, camera10, normal flashes, four-second warmup and ten one-second samples. All CPU/GPU probes closed; RAF-only observer and screenshot after sampling. Same-machine frozen v10 comparison, no FPS gain/long-session/hardware guarantee. Separate upright routes use one browser-authority PvP page, normal R/movement/turn/jump, no video/contact queries; diagnostic/video peer evidence is excluded from quiet metrics.",
+  "reviewedFingerprint": "2f09d6f495342a2e83eeebc49f72602a9bd47851b41d4cf69242025cbe0c89e6",
+  "matchedBaselineArtifact": ".sites-runtime/critic/upright-motion/profile/v10-baseline-performance-report.json",
+  "matchedBaselineSource": "6cf28cca9ac31b7f16053d02eeb3935867f7ebb5",
+  "matchedUprightRAF": [
+    {
+      "chassis": "Pounce",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "method": "One fresh quiet browser-authority PvP page; ordinary R, side/reverse/short movement, aimed pulse turns, upright jump/down. RAF-only observer; periodic performance and raw snapshot at stage boundaries. No video/contact queries or screenshot during measurement. Controlled diagnostic excludes arbitrary network and long-session guarantees.",
+      "baseline": {
+        "durationMs": 21604.599999904633,
+        "samples": 1296,
+        "p50": 16.700000047683716,
+        "p95": 17.700000047683716,
+        "p99": 18.59999990463257,
+        "maximum": 28.40000009536743,
+        "over50": 0,
+        "over100": 0
+      },
+      "candidate": {
+        "durationMs": 21637.5,
+        "samples": 1298,
+        "p50": 16.700000047683716,
+        "p95": 17.59999990463257,
+        "p99": 18.300000190734863,
+        "maximum": 31.5,
+        "over50": 0,
+        "over100": 0
+      },
+      "baselineReport": ".sites-runtime/critic/upright-motion/profile/v10-baseline-Pounce-moving-report.json",
+      "candidateReport": ".sites-runtime/critic/upright-motion/profile/candidate-Pounce-moving-report.json"
+    },
+    {
+      "chassis": "Lynx",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "preset": "medium",
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "method": "One fresh quiet browser-authority PvP page; ordinary R, side/reverse/short movement, aimed pulse turns, upright jump/down. RAF-only observer; periodic performance and raw snapshot at stage boundaries. No video/contact queries or screenshot during measurement. Controlled diagnostic excludes arbitrary network and long-session guarantees.",
+      "baseline": {
+        "durationMs": 21637.599999904633,
+        "samples": 1298,
+        "p50": 16.700000047683716,
+        "p95": 17.600000143051147,
+        "p99": 18,
+        "maximum": 26.90000009536743,
+        "over50": 0,
+        "over100": 0
+      },
+      "candidate": {
+        "durationMs": 21623.799999952316,
+        "samples": 1297,
+        "p50": 16.700000047683716,
+        "p95": 17.700000047683716,
+        "p99": 18.5,
+        "maximum": 28,
+        "over50": 0,
+        "over100": 0
+      },
+      "baselineReport": ".sites-runtime/critic/upright-motion/profile/v10-baseline-Lynx-moving-report.json",
+      "candidateReport": ".sites-runtime/critic/upright-motion/profile/candidate-Lynx-moving-report.json"
+    }
+  ]
+}

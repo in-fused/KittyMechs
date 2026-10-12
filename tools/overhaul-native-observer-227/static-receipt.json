@@ -1,0 +1,40 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_BINDING_SYNTAX_AND_BRIEF_GUARDS_PASS_AFTER_ONE_METADATA_CORRECTION",
+  "nodeSyntax": "PASS",
+  "pythonSyntax": "PASS",
+  "briefGuards": "PASS",
+  "protectedRows": 991,
+  "actualBuild": false,
+  "actualGameplay": false,
+  "firstPreparationFailurePreserved": true,
+  "vendorPreloadDifference": {
+    "module": [
+      "/assets/index-jFb_gY9P.js"
+    ],
+    "styles": [
+      "/assets/index-BPDA3YLm.css"
+    ],
+    "retainedPreload": [
+      "/assets/three-Bjr22og3.js",
+      "/assets/physics-DsFk-bdi.js"
+    ],
+    "candidatePreload": [
+      "/assets/three-CMCxhyzx.js",
+      "/assets/physics-Cl8Hwzdy.js"
+    ],
+    "candidateEntryImports": [
+      "/assets/three-CMCxhyzx.js",
+      "/assets/physics-Cl8Hwzdy.js",
+      "/assets/GameCanvas-C39kb7CY.js",
+      "/assets/pawContact-CV45DCsz.js",
+      "/assets/streamingDiagnostics-C6TwIMw1.js",
+      "/assets/terrainCache-BFDC79VK.js",
+      "/assets/areaEffectDiagnostics-BfsyCFWI.js",
+      "/assets/surfaceDiagnostics-BIgXvuMZ.js"
+    ],
+    "legacyPreloadOverhead": "Retained realHTML preloads oldvendor paths; no aliases/HTML transformation. Candidate graph uses its own exact vendor paths. Extra oldpreload downloads/parsing are potential observer overhead, not qualification."
+  },
+  "nativeInspectorPixelScope": "UNQUALIFIED",
+  "allOtherCasesUnreachedUntilActualGate": true
+}

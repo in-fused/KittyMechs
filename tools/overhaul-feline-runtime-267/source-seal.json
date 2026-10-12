@@ -1,0 +1,126 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_NUMERIC_ONLY_INTEGRATION_COST_UNVERIFIED",
+  "files": [
+    {
+      "path": "tools/overhaul-feline-runtime-267/close267.py",
+      "bytes": 8524,
+      "sha256": "24edd4dfef04390c8da05627d5e425675a5a16b43f90fa945cee7368cc756354"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/closure-first-failure267.json",
+      "bytes": 279,
+      "sha256": "47fcab6567239fcc9ae19959f97f70d70f901664969f39f641d1d9c30dd3db61"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/composed267.json",
+      "bytes": 31265,
+      "sha256": "bf420e6f16930ede56aaaa4671592c5ec8fabebb012103edda6c6fb26c11c155"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/composed267.test.ts",
+      "bytes": 8578,
+      "sha256": "1f3021dcba0643ab5fa0d032280254c585626e578fe727e31ac3c516c0aa0e56"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/HANDOFF.md",
+      "bytes": 6174,
+      "sha256": "d0fd7827512ca09c4a7ed8fb6d4367b6ffb7538aacd3d069e429c0eb339655a1"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/NativeActor267.tsx",
+      "bytes": 6262,
+      "sha256": "6dedc4de46b895a95da24980e42e960a81fb4cb8df23e2cd3c199a84e6a0d49d"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/NativeActor267.typecheck.tsx",
+      "bytes": 6255,
+      "sha256": "29b0036d9216ca2466a3f513ca8a7d8965d83831c9ce8bfb8240b17390eaebd6"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/nativeOwner267.ts",
+      "bytes": 15335,
+      "sha256": "5f1d124d5ae2da954399c4d1729c65cffdacea9a5efd445ca96d792773bbf4c7"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/NativeActor256.tsx",
+      "bytes": 6250,
+      "sha256": "3e23e5fbcf2837041447f173eeef8f95710ff09b89238c0650a8130db99cc2f9"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/nativeOwner256.ts",
+      "bytes": 14983,
+      "sha256": "be1b3c5c55fa246738d9c181ea0e55e35298c6ff9a8ab59ef1703da2704b89ac"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preimages/sourceTask256.ts",
+      "bytes": 13112,
+      "sha256": "6e82e605b0a703ab722330e0bf521ec04225825a28e3de13cacd727c786cc7db"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/preparation267.ts",
+      "bytes": 2336,
+      "sha256": "8010fa987fa936355746d6424199efe5395f4c36c055dce4b402b5682cef7a1e"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/prepare267.py",
+      "bytes": 8602,
+      "sha256": "36a9d7c5018803c0012a7df37825cdb108c77d52e98a1e4aa7c0b09499e944d0"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/protected-inputs267.json",
+      "bytes": 2801,
+      "sha256": "b4d792189dc2e600c236dfe0183abbcee9eb779a50dda7d0b109ab3de86f9d37"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/run267.py",
+      "bytes": 1165,
+      "sha256": "a1e9ec923b7ea5472ef399265f3734ea100e89561a656b92c25b0c052078ce7c"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/sourceTask267.ts",
+      "bytes": 15832,
+      "sha256": "1cef268d853238bd825fc0d31fb02cfa2aa2d69599f386151bc460de1e322326"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/suite267.stderr",
+      "bytes": 90,
+      "sha256": "06210b38572a0a9d5c904cc541365ad69d7afaac6d4ed10f5d33268b0ae185d2"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/suite267.stdout",
+      "bytes": 960,
+      "sha256": "c8c5a2dccce4c701793dc32545eab4ca7e4bdf86307cc60c765a30f2f70a35f6"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/summary267.json",
+      "bytes": 2399,
+      "sha256": "3315d7627e793cd82d56a8993248b820b0dbb47df83c8fb82a69359cd407cfcf"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/terminal267.json",
+      "bytes": 964,
+      "sha256": "c96aa667a95a04996691fd94d6f5db89408695fbd6b8353931e1960f046693b6"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/tsconfig267.json",
+      "bytes": 164,
+      "sha256": "62688f3785af2548c4a074df678960fd978ce29cc80cf7ed97d5cbd828b2c4e5"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/type267.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/type267.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/overhaul-feline-runtime-267/visualRegistry267.typecheck.ts",
+      "bytes": 4604,
+      "sha256": "4415b7515ac129dc4fe29a67a063b7e0a8c519bdbfe72d68bc0e0b8b42795e25"
+    }
+  ]
+}

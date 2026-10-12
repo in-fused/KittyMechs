@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-play/evidence.json",
+      "bytes": 64497,
+      "sha256": "774fbf3891400753663d6e1327ce53274338e52147e1eb2de79c0997546880de"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-play/failure.png",
+      "bytes": 1063346,
+      "sha256": "3f50e21682fb982c8d5ebbc1ff08901d510c7ad5334558a04d4865658ce3b7d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-play/page@17875f03a66be0547cfd9a26c98a7583.webm",
+      "bytes": 848764,
+      "sha256": "46d31497a024437e6b792582a414f2e608c36c9f5adf01916a3f11c34de3674a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-play-process/process-receipt.json",
+      "bytes": 62178,
+      "sha256": "048cc188f3daebbb85e5d2b46db0fff34a2bdcc6fc4add092101671b3328f14a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-play-process/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-build/process-receipt.json",
+      "bytes": 67020,
+      "sha256": "245f550339d01297b37292bb6163feaa92d36bfdaaba027e7c1e87e9d0595563"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/integrated062-build/stdout.txt",
+      "bytes": 2050,
+      "sha256": "8b3fbd2bc936a7b474fa292eb6f50456e0f873d84736ba39b6783b4790f79563"
+    },
+    {
+      "path": "tools/overhaul-integrated-062/close.py",
+      "bytes": 966,
+      "sha256": "592bfc8a9d527d2df0e0d798478296ef79be823e58c788a3420cb117b6e5b50d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/live042-http-verification.json",
+      "bytes": 849,
+      "sha256": "8944a5abd9dbcc382595f379a1ebf9ad9169e17372c40b6477034b74c5a59062"
+    }
+  ],
+  "scope": "First062 observation failed before gameplay on observer response shape. Actual correct058E asset in diagnostics[], no game pageerrors. No movement/UI quality approval."
+}

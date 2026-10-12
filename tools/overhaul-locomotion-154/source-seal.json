@@ -1,0 +1,101 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_CANDIDATE_UNSHIPPED_CONTACT_UNQUALIFIED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 48404,
+      "sha256": "3db375708d70441a00dead04ed235704490c541f197593ace23fb0c859bef42e"
+    },
+    {
+      "path": "src/game/entities/Identity57Runtime005.ts",
+      "bytes": 19442,
+      "sha256": "b6315ccbc323feb73e36b889d42a11903f45a26d3a914bb3912e6ff16c9f78c3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4741,
+      "sha256": "a0b0df85f17ddf64c15f80ac5c25b5ee5f415da15645e6f356c26e68e5f9444d"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 2848,
+      "sha256": "9f77bafe483baabcf27072ef0e54f5e88c3f6578be9befd143b9a683044e1df6"
+    },
+    {
+      "path": "src/game/entities/sourcePresentation154.ts",
+      "bytes": 3234,
+      "sha256": "64ab59169547843af97000e107003e4f9ce464e26feefc2afbbea930c506c2c7"
+    },
+    {
+      "path": "tests/source-presentation154.test.ts",
+      "bytes": 11518,
+      "sha256": "fc583bf7fdd57e4d50ebac992eee236687254c9f297eadee6ad70304e0131dfa"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/first-fixture-provider-failure154.txt",
+      "bytes": 2539,
+      "sha256": "37e5664df3889760145185378d7e923047538b1b12268557ac89bcfb23c56281"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/first-fixture-source-cases154.json",
+      "bytes": 108255,
+      "sha256": "39a6994914f0691bfe69622873d8336d3cde229e1928d83f2140246923880318"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/HANDOFF.md",
+      "bytes": 6211,
+      "sha256": "b42103f272032ad553cb35121f6a8a64dae46eed27095d564d3d04a0fe3c5c79"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/preimages/Actors.tsx",
+      "bytes": 48242,
+      "sha256": "8a08dbef29a9ae619e816eee1d1133ebae8a6548fe0aa8330d3207ffa97b852c"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/preimages/Identity57Runtime005.ts",
+      "bytes": 19400,
+      "sha256": "d6935561e0eb9afa1eda22a422c951f2ba54a042d9b2c4d12b3a79edd4b9cf73"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/preimages/identity57Runtime034Actor.tsx",
+      "bytes": 4465,
+      "sha256": "d3575eeaef01112ed2a2561599fcaebeb46e5aaa6519b5eeb2f2c7f229cd6aa5"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/preimages/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/protected-inputs154.json",
+      "bytes": 5584,
+      "sha256": "f09e73659d1d480e470335ca76da35a4689601bc9de2d7caed5a211f6041d864"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/source-cases154.json",
+      "bytes": 108255,
+      "sha256": "39a6994914f0691bfe69622873d8336d3cde229e1928d83f2140246923880318"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/source-diff154.patch",
+      "bytes": 59699,
+      "sha256": "def66a80b28da2e77613cd85f5f5ba1eacdf436287751c264216066a9ccb8698"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/terminal-receipts154.json",
+      "bytes": 884,
+      "sha256": "6141ccd7f5c2dcdfbbfbdc3290ac445ae292b1159d63b0d22191824131b82055"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/test-receipt154.txt",
+      "bytes": 1043,
+      "sha256": "1894c1aef1d8383ac2391d81ddbf1e2deb77e4b91ef7e06852e33d306cbec3c4"
+    },
+    {
+      "path": "tools/overhaul-locomotion-154/typecheck154.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

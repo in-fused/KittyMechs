@@ -1,0 +1,45 @@
+{
+  "scope": "SOURCE_ONLY_ONE_BOUNDED_CANDIDATE",
+  "writer": "CLOSED",
+  "jobsRun": [],
+  "ownedGameFiles": [
+    "src/game/entities/movingRFfeet067.ts"
+  ],
+  "inputsAndOutputs": [
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "sha256": "f665944a4fe366a45eab1d82916947f0d2709521b85733686c79d3d43cd1bce4",
+      "bytes": 19274
+    },
+    {
+      "path": "tools/overhaul-foot-contact-093/preimages/movingRFfeet067.ts",
+      "sha256": "7d2f017354391143d497f797f12acfa649e703cbcf709b21160499f7dbbd5a61",
+      "bytes": 15768
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "ac76f154f8b1745183b95c44ac723168e3827efebf86cf53b5b1e1f4bc449dce",
+      "bytes": 13855
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd",
+      "bytes": 6909
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239",
+      "bytes": 4440
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc",
+      "bytes": 8670
+    },
+    {
+      "path": "tools/overhaul-foot-contact-091/diagnosis.md",
+      "sha256": "56081d5b46497fce0420a2d619714fc0168a0bc8cbc23705094e39b661ff341b",
+      "bytes": 10088
+    }
+  ]
+}

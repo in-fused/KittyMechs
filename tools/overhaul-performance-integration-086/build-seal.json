@@ -1,0 +1,3357 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/receipt.json",
+      "bytes": 73403,
+      "sha256": "2dfc9912c42a7f8dbe4658b4debe97440290a314cf265dc49410bbb389b911ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-baseline/evidence.json",
+      "bytes": 1893117,
+      "sha256": "21d320af067c1b15fd7bb7febc9d8304c8ad49c7b1c65a06551ddecaffc89a50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/process-receipt.json",
+      "bytes": 87913,
+      "sha256": "550da97fd0d1e4f7fa023b748062cd84b208fa8a69e299ea43ab59610a1dd42c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance084-build/stdout.txt",
+      "bytes": 409,
+      "sha256": "514024e928f4299a0e6e0c95f041987f919c929675d43440bfe35c4c2043d9d4"
+    },
+    {
+      "path": "docs/overhaul/critic/performance085-source-review.md",
+      "bytes": 2743,
+      "sha256": "f8f7e6df36beb2de671b9995f1a3c53443925caf8d74fb1d23a136e144887758"
+    },
+    {
+      "path": "docs/overhaul/performance-085-type-handoff.md",
+      "bytes": 2248,
+      "sha256": "9f057bf56f0f88cc0b820aa7d591175f04aff248fc644db7e412d5ee55caf327"
+    },
+    {
+      "path": "node_modules/@types/three/src/objects/SkinnedMesh.d.ts",
+      "bytes": 6438,
+      "sha256": "5a6bae49831f960e7f0bc66f49b2c40077b136d9573871f865507fde09580436"
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "bytes": 8670,
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "server/arenaDiagnostics.ts",
+      "bytes": 3529,
+      "sha256": "45166af7c085670fcb92a5caae00dc47f6ca02c55330dd31f20d536bc5ff94b5"
+    },
+    {
+      "path": "server/arenaRooms.ts",
+      "bytes": 8019,
+      "sha256": "032b380992fa1b79d04593bb0013db03ef3be13b62e76ea3f000cd6252c2d087"
+    },
+    {
+      "path": "server/index.ts",
+      "bytes": 8519,
+      "sha256": "82dd81dc310005ad8932a10a378c790f19d95ff3afb264344779b30021f89cdd"
+    },
+    {
+      "path": "shared/areaGeometry.ts",
+      "bytes": 3743,
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "path": "shared/building-grip-profiles.json",
+      "bytes": 1679642,
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "path": "shared/buildingGrip.ts",
+      "bytes": 25300,
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "path": "shared/buildingSurfaces.ts",
+      "bytes": 7282,
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "path": "shared/buildingVault.ts",
+      "bytes": 2730,
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "path": "shared/characterRubbleImpulse.ts",
+      "bytes": 9992,
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/cityFracture.ts",
+      "bytes": 3220,
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "path": "shared/cityFractureCatalog.ts",
+      "bytes": 835,
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "path": "shared/cityNavigation.ts",
+      "bytes": 4136,
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "path": "shared/cityRubble.ts",
+      "bytes": 7731,
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "path": "shared/cityRubbleAdmission.ts",
+      "bytes": 2303,
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "path": "shared/cityRubbleImpact.ts",
+      "bytes": 7392,
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": "shared/coopExtraction.ts",
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8"
+    },
+    {
+      "path": "shared/coverState.ts",
+      "bytes": 2035,
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "path": "shared/data/city-fracture-shapes-v2.json",
+      "bytes": 319760,
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "path": "shared/data/city-fracture-v1.json",
+      "bytes": 164581,
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "path": "shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "path": "shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": "shared/data/rainlineStreetPopulation030.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": "shared/data/structuralPropCollision.json",
+      "bytes": 1268872,
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "path": "shared/data/workshopCollision.json",
+      "bytes": 731536,
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "path": "shared/data/workshopRoofPatches.json",
+      "bytes": 11533,
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "path": "shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": "shared/experimental/pounceMotionV6.ts",
+      "bytes": 13506,
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "path": "shared/feline57Contract013.ts",
+      "bytes": 2717,
+      "sha256": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657"
+    },
+    {
+      "path": "shared/feline57Evaluator013.ts",
+      "bytes": 6465,
+      "sha256": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c"
+    },
+    {
+      "path": "shared/feline57Occupancy013.ts",
+      "bytes": 5633,
+      "sha256": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e"
+    },
+    {
+      "path": "shared/feline57Profile013.ts",
+      "bytes": 4476,
+      "sha256": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f"
+    },
+    {
+      "path": "shared/felineContactFrame004.ts",
+      "bytes": 5760,
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "path": "shared/felineNativePose003.ts",
+      "bytes": 4357,
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "path": "shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": "shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "path": "shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": "shared/felineStrike.ts",
+      "bytes": 7685,
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "path": "shared/foliage.ts",
+      "bytes": 1001,
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "path": "shared/inputProtocol.ts",
+      "bytes": 834,
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44"
+    },
+    {
+      "path": "shared/layout.ts",
+      "bytes": 156,
+      "sha256": "b5472164d7997db81e278502837c9a355ee257855a4229bf495e9c0a53acf510"
+    },
+    {
+      "path": "shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": "shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": "shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": "shared/overhaulBondedMaterial.ts",
+      "bytes": 6238,
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "path": "shared/overhaulBondedOwner.ts",
+      "bytes": 13419,
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "path": "shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": "shared/overhaulCornerClimb.ts",
+      "bytes": 10325,
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": "shared/overhaulEncounter.ts",
+      "bytes": 4490,
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": "shared/overhaulGantryPortal.ts",
+      "bytes": 2415,
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "path": "shared/overhaulRoofLocal.ts",
+      "bytes": 1966,
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "path": "shared/overhaulRuinImpact.ts",
+      "bytes": 6604,
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "path": "shared/overhaulRuins.ts",
+      "bytes": 25874,
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "path": "shared/overhaulRuinSurfaces.ts",
+      "bytes": 7669,
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "path": "shared/overhaulSupport.ts",
+      "bytes": 11165,
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "path": "shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": "shared/ownedCharacterQuery.ts",
+      "bytes": 2232,
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "path": "shared/pairedCombat.ts",
+      "bytes": 6552,
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "bytes": 12849,
+      "sha256": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc"
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": "shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "path": "shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": "shared/rainlineStreetPopulation030.ts",
+      "bytes": 672,
+      "sha256": "4dc8b99a63f6ddd87f6d9432bfe2d1fdb47e95da639c7c88f9914fde792e2825"
+    },
+    {
+      "path": "shared/roadGeometry.ts",
+      "bytes": 1530,
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "path": "shared/scenery.ts",
+      "bytes": 495,
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": "shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": "shared/streaming.ts",
+      "bytes": 1651,
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "path": "shared/structuralPropCollision.ts",
+      "bytes": 3777,
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "path": "shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": "shared/supplies.ts",
+      "bytes": 1876,
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "path": "shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "shared/vertical-navigation.ts",
+      "bytes": 3081,
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "path": "shared/weather.ts",
+      "bytes": 1925,
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "path": "shared/workshopCollision.ts",
+      "bytes": 1597,
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "path": "shared/workshopGeometry.ts",
+      "bytes": 2947,
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "path": "shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": "src/app/App.tsx",
+      "bytes": 1266,
+      "sha256": "ca3389a4260e5fecd1cd82ee4b2b7d000b159f22018a27fda4ca2b7304afca97"
+    },
+    {
+      "path": "src/debug/contactSnapshot.ts",
+      "bytes": 667,
+      "sha256": "dd9ed81bbb4bf870048c577f31cfc149b387f91bfd509abd482e7964974d616b"
+    },
+    {
+      "path": "src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    },
+    {
+      "path": "src/game/audio.ts",
+      "bytes": 3322,
+      "sha256": "ffc71bdfeffa7c14ed55d268dc2cc81b50ed29aaccca21cd1cabf9e1441d5e3c"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/obstructionOrbit071.ts",
+      "bytes": 5759,
+      "sha256": "600aa43e69359d3f387d5fc6ae51f6449d783660aebe12f86bb9fe69affd285e"
+    },
+    {
+      "path": "src/game/camera/obstructionOrbit073.ts",
+      "bytes": 6348,
+      "sha256": "a73eaf9272ee05344899a3e66464fac297a838b58b7a94d65a35dcd24cad09a6"
+    },
+    {
+      "path": "src/game/camera/pairFraming.ts",
+      "bytes": 3190,
+      "sha256": "2c4eb4167cdf526c7b40fbac8b48cbdbc3e8412ca697ff7828527360d87aa249"
+    },
+    {
+      "path": "src/game/camera/thirdPersonSight058.ts",
+      "bytes": 2610,
+      "sha256": "0f142e9399227e9326d60e97f5a7788e7867eeef74391e7ca385be47504886c7"
+    },
+    {
+      "path": "src/game/camera/viewAim.ts",
+      "bytes": 1113,
+      "sha256": "4c456fa05550729204b34f7abfa79bdd965d88424ecce4350e89c3784a542c6c"
+    },
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "src/game/camera/visualOccluders058.ts",
+      "bytes": 2229,
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/effects/areaEffectDiagnostics.ts",
+      "bytes": 1290,
+      "sha256": "85e1f15edc336749e1706b2e885e6b33fedc4cb4aa51cff7c7e69435266e1062"
+    },
+    {
+      "path": "src/game/effects/AreaEffects.tsx",
+      "bytes": 15818,
+      "sha256": "67318b03876b86a59341b021323a5d494a1b4a13497ad8100f77c9fc54774251"
+    },
+    {
+      "path": "src/game/effects/areaPresentation.ts",
+      "bytes": 5937,
+      "sha256": "a9101ec17c60fc3e1bcc3bbb929041623f7413272d1a6b5858037c77a7d89d15"
+    },
+    {
+      "path": "src/game/effects/areaTimeline.ts",
+      "bytes": 2971,
+      "sha256": "8f5541a2e808ebee81e27c64d3d0c12606f385166f2640d66757551858a51733"
+    },
+    {
+      "path": "src/game/effects/CombatEffects.tsx",
+      "bytes": 5372,
+      "sha256": "e87b4e210318e7b0969c3403b7075814fb504bd8523f4aea117ec33c6a461718"
+    },
+    {
+      "path": "src/game/effects/combatParticles.ts",
+      "bytes": 1757,
+      "sha256": "24cf12080fe66df6887db15760cf793c6845e28e8aca722c06b78a32c5c320ea"
+    },
+    {
+      "path": "src/game/effects/CoverDebris.tsx",
+      "bytes": 3461,
+      "sha256": "dc801bb294672755385a7651f25e06f465526528906d047fbf2a3bc57b034cf3"
+    },
+    {
+      "path": "src/game/effects/effectClock.ts",
+      "bytes": 757,
+      "sha256": "a7049765ef59ba1edcfbd0d014cc5604161729d4bbe4f9ae69987efadc64ca31"
+    },
+    {
+      "path": "src/game/effects/EmpEffects.tsx",
+      "bytes": 3636,
+      "sha256": "4ff14c323ccdb375c70d7301615f9cb80a8f506a4b21e2abc1253aa3fbf553d4"
+    },
+    {
+      "path": "src/game/effects/empOrigin.ts",
+      "bytes": 524,
+      "sha256": "91a6befb6fe55572729679ec1f92d72a50734ada648be5c0ed11b54a409d8601"
+    },
+    {
+      "path": "src/game/effects/Weather.tsx",
+      "bytes": 2271,
+      "sha256": "f39caf3b8554ed48039127f06a052f65d125f7dfaf2c7680a8e32f16aa0e1ccf"
+    },
+    {
+      "path": "src/game/effects/WeatherSky.tsx",
+      "bytes": 2834,
+      "sha256": "b3a21a4c061f5ffeb044d256d757b314fb0adb1e192436a678b4284ebe59b917"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45494,
+      "sha256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds078.ts",
+      "bytes": 8209,
+      "sha256": "6363d0eaecce98f8738e263061bb845c748b7cb42a1b527fa11ac0e9095d7168"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds081.ts",
+      "bytes": 8767,
+      "sha256": "c00469a9f00f3e1ee5c4a628ce53240db4ae96046d54aef248bd0cb37614046c"
+    },
+    {
+      "path": "src/game/entities/climbingContact.ts",
+      "bytes": 5307,
+      "sha256": "dc1611b00838c99157e783159deb1c52ff253dbe8afbfdbaecb9c0dc303ddbdd"
+    },
+    {
+      "path": "src/game/entities/felineMotion.ts",
+      "bytes": 16781,
+      "sha256": "23044cf553acd15ea074d354869175a42549b7535c2d231db58b8c2f08cedc8f"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner.ts",
+      "bytes": 18347,
+      "sha256": "69c12ea93a2ebf037fe92b05e57230c3e5f86831b00d988e9b4bf93b82f01d58"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner003.ts",
+      "bytes": 19229,
+      "sha256": "1b6707741031a7719bfd4597edadc0a6324f185fedd3a992630eefe6f7d92ac3"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwner004.ts",
+      "bytes": 19231,
+      "sha256": "e048c35abbd793d5ea1be71d28c7d57de71253083f965cc4029ea407efc34926"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor.tsx",
+      "bytes": 5708,
+      "sha256": "a2c3b480b82a0951dc950da053b96cf96b2584ad7bf64fffd47700649046868e"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor003.tsx",
+      "bytes": 7459,
+      "sha256": "f4fb1e80bd507ecebdb6a395beb83aca83b0f8bb4fa20e02e0812d14f82489e5"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerActor004.tsx",
+      "bytes": 7461,
+      "sha256": "447c13dbe988952f3fada2f784ad0a3f51a69c102c48724590445fdeb310f429"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerEvidence003.ts",
+      "bytes": 2269,
+      "sha256": "e0bfa3fe52be03e08d60630887316ec3b5e2784f00fbf52a16c0d40c130b48eb"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerEvidence004.ts",
+      "bytes": 2271,
+      "sha256": "8544a5f9257edd47b4cb5f36f0b2678bc2ff4235d239824ab9fc9b106088e3d3"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest.ts",
+      "bytes": 1836,
+      "sha256": "c1b486d855caa805b424791195f87a5652d95e3511a08ad676cc235aa9a339b0"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest003.ts",
+      "bytes": 3529,
+      "sha256": "2a30907c7f4eb38d2e0700cb558939a747c4de36f571b6aadb7c694ba53cd043"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerManifest004.ts",
+      "bytes": 4061,
+      "sha256": "6947d2d21cab519dc33d86dfefe6bbe43ae758a1133d1cd1e00e67075467c75b"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative.ts",
+      "bytes": 11640,
+      "sha256": "e931ed39692303fb881c6e8fd6fabbc87d4b045a69878190e7420c005717dc77"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative003.ts",
+      "bytes": 12586,
+      "sha256": "dfcc5ca99084305c7dc091a9a70a6d3bc60440c1b06340eee5cff7a422e9abb9"
+    },
+    {
+      "path": "src/game/entities/felinePoseOwnerNative004.ts",
+      "bytes": 12783,
+      "sha256": "fa60f514adc1bfeca2d990744cc89ca5bd9b72744f82376e704f5586cd754755"
+    },
+    {
+      "path": "src/game/entities/felineStrikeMotion.ts",
+      "bytes": 7845,
+      "sha256": "cb08155af8c8a83681e79c602eeef22e485a7bdb4e1052f4d2a795488452d9b0"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Actor.tsx",
+      "bytes": 3352,
+      "sha256": "23c543d870741ffb090a8bd565c0e39a9cbaaf66b7000b300e14a313671db960"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime006Actor.tsx",
+      "bytes": 3516,
+      "sha256": "1e31e8a11e9c668a0c617559c46e8e0f32d95d41c193aaad0afe7371cda10498"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3644,
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "bytes": 3917,
+      "sha256": "f3d97325119271d1de7ab08c65bd12d32021018fce61e82190179586dfaaffec"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Actor.tsx",
+      "bytes": 4111,
+      "sha256": "7e42fa2e64518d62b0458db1232591bd3b854a33a130efa26dace178a7dcf23f"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Asset.ts",
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime058EAsset.ts",
+      "bytes": 244,
+      "sha256": "0c4f0760aac19a5a558e91dd4d914c40ca5e2d3f680e8b0a9adea1ff7d65f2c3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime058EManifest.json",
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": "src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": "src/game/entities/practicalFelineAssetProfile002.ts",
+      "bytes": 2374,
+      "sha256": "a1ffc3383841175de74b8e9e8136cadba06f3a841b7b12008e89605c7bcd1c54"
+    },
+    {
+      "path": "src/game/entities/practicalFelineAssetProfiles002.json",
+      "bytes": 100837,
+      "sha256": "00474752411799d823a9de15a390b83c7c051ba72cdd679b5e3e49a4b5eed2e9"
+    },
+    {
+      "path": "src/game/entities/practicalFelineContact001.ts",
+      "bytes": 7610,
+      "sha256": "779059feba7018bf512c47d71cac1826fa6de6dbef2069e5dde200715da91db7"
+    },
+    {
+      "path": "src/game/entities/practicalFelineContact002.ts",
+      "bytes": 7726,
+      "sha256": "3f92d5e0ea64c4dcf43b8df4a646e79e4dbb0d650f8a9836008a637c1e9a8783"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionActor001.tsx",
+      "bytes": 5517,
+      "sha256": "bf44048429733e88a5cf3ce15802b6ec34e755c1c8d475690cbd197e9cfab30b"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionActor002.tsx",
+      "bytes": 5692,
+      "sha256": "ef4f88344d627bde571789ed372a29b2855c0f3dccc8cbf4668284c460127d50"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionControl001.ts",
+      "bytes": 1630,
+      "sha256": "795e953faa1892932cc136964f15ca07a9b753482d626e90985d3bc5e18d0135"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionControl002.ts",
+      "bytes": 1630,
+      "sha256": "41526615f836d3b2d7997cb9a125322ff60562e1a861a1d9412abf39e50b204e"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionOwner001.ts",
+      "bytes": 20759,
+      "sha256": "40ea2993fcda0bbbeddc4aa900672da2b9b2bd879bddfcb107c5a0f2fbe876a7"
+    },
+    {
+      "path": "src/game/entities/practicalFelineMotionOwner002.ts",
+      "bytes": 22030,
+      "sha256": "2b5f11043451319bf88cc5792e97cc95b8f7478acbbb8e443e5ae3cc3ecb3d66"
+    },
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8"
+    },
+    {
+      "path": "src/game/entities/shareSkinPalettes042.ts",
+      "bytes": 1606,
+      "sha256": "da3e168e3239417fcd8c428d5e5f4d4732caa159a5c09c8242fdf5f35538fbd2"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 9641,
+      "sha256": "6dfa3bab7ba1046a7697bb4420699951696003bc57dd7681880a014e03ec1ba2"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    },
+    {
+      "path": "src/game/jumpOutbox.ts",
+      "bytes": 1911,
+      "sha256": "5344836be28416726a4849cddc5bfe05597bc598a607b9e91498cfcfcfc8969b"
+    },
+    {
+      "path": "src/game/localAuthorityTiming043.ts",
+      "bytes": 1634,
+      "sha256": "3029bf9b51c68e313b97d85eed8261f4adf26ae975a268465af78c6d84a5859d"
+    },
+    {
+      "path": "src/game/network.ts",
+      "bytes": 12948,
+      "sha256": "8a44b5b8175259e3b353ca100a4ac1cc2c0cb6a647e06e7b3dd2e6d8ba93e917"
+    },
+    {
+      "path": "src/game/networkReceipt.ts",
+      "bytes": 2596,
+      "sha256": "4a452f7206b514638fd15dc2a196013432ff24502a0ace1e2ed8433f6ddb039a"
+    },
+    {
+      "path": "src/game/physicsGuard.ts",
+      "bytes": 911,
+      "sha256": "096989ac15f6275bd265af54e6f5c8409c892d842870357c8dfce81b77893878"
+    },
+    {
+      "path": "src/game/rendering/cityTextures.ts",
+      "bytes": 2046,
+      "sha256": "3607181d44c90bff0d4078fabf2e62331a5cc139afb0a399bbfdc9621f090860"
+    },
+    {
+      "path": "src/game/rendering/materials.ts",
+      "bytes": 2547,
+      "sha256": "796a590ba759bebfb3dce8f8dd76912c1bca6da4afeba7ca335520c004412e8c"
+    },
+    {
+      "path": "src/game/rendering/modelPaths.ts",
+      "bytes": 596,
+      "sha256": "11d1d5f80b631c7edd8463005ce1de12f7747c2ffc7b6e3ba7c3d961bc4e1faf"
+    },
+    {
+      "path": "src/game/rendering/rendererReport.ts",
+      "bytes": 1566,
+      "sha256": "73d4f2c91133532dde213c0dd6bb80f56f27a76d480907122a983bb91f7221ab"
+    },
+    {
+      "path": "src/game/rendering/renderPixelBudget059.ts",
+      "bytes": 693,
+      "sha256": "a0eff4cddbeb7c6ca8d1c03fefff70c6d8233e229a5135bf9771adba77e3ad58"
+    },
+    {
+      "path": "src/game/rendering/surfaceDiagnostics.ts",
+      "bytes": 1714,
+      "sha256": "5377995d96087dccd946bebfc26e7f966f2caed2a8761534284610450c0b7f1b"
+    },
+    {
+      "path": "src/game/rendering/surfaceMaterials.ts",
+      "bytes": 2318,
+      "sha256": "01aea7336fbc8887b01faf830f0ded356d7e09dacf19c65010d51c58729f1c8d"
+    },
+    {
+      "path": "src/game/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": "src/game/sessionAuthority.ts",
+      "bytes": 3398,
+      "sha256": "f1343c1307e3ca18adf790aacddd0c612f7f23854033bbaa205df643aa992007"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10932,
+      "sha256": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35"
+    },
+    {
+      "path": "src/game/stanceRequest.ts",
+      "bytes": 2291,
+      "sha256": "2e4b6c8e4ccaebf5493a9e0b4d2b45ed5b7f204105e870ee7dee5fd5644ffa7f"
+    },
+    {
+      "path": "src/game/world/buildingContacts.ts",
+      "bytes": 765,
+      "sha256": "32b558340f577dea108bb0e4f50ba424ae2cc47961b4930f71958846bc9bbad9"
+    },
+    {
+      "path": "src/game/world/cityAtlas.ts",
+      "bytes": 341,
+      "sha256": "a97b5dd3ae98eeff8d6f049cdd3c94b1e5a054beceb7b87cc503e26db89e1d65"
+    },
+    {
+      "path": "src/game/world/CityDebris.tsx",
+      "bytes": 1819,
+      "sha256": "5d449f7f0e58c6934f93b51c8a6402b449336eb089809515db3e3db509447420"
+    },
+    {
+      "path": "src/game/world/CityDistrict.tsx",
+      "bytes": 8012,
+      "sha256": "12cdcb324ddfbfdaae39f7509ffe7f9b49047b75af8fc98279fffa3c7b0db711"
+    },
+    {
+      "path": "src/game/world/cityFractureGeometry.ts",
+      "bytes": 1789,
+      "sha256": "c43383bf3db70df2e6b149fcc4f79b264beb323c4fdc6365288f43822af8fda1"
+    },
+    {
+      "path": "src/game/world/cityFractureRenderer.ts",
+      "bytes": 8743,
+      "sha256": "6fe1c51a3fb5a75d61ec97cc79ef4003eceeab9fb6e09fe2af8fb58434ce76c1"
+    },
+    {
+      "path": "src/game/world/cityFragments.ts",
+      "bytes": 5472,
+      "sha256": "3501422a14277b08a624c1dbc3243e95072b03064d618a6f553425bc81eb046c"
+    },
+    {
+      "path": "src/game/world/cityGeometry.ts",
+      "bytes": 10442,
+      "sha256": "54a741c46fad398edaa0572314e213f75785bc211d626cc401ae09a7b9edcafb"
+    },
+    {
+      "path": "src/game/world/cityPresentation.ts",
+      "bytes": 5508,
+      "sha256": "ba8cd4e862c7fc9e6542f934d960aa559da79bb6c3c84db54468f08cd762f86e"
+    },
+    {
+      "path": "src/game/world/FarTerrain.tsx",
+      "bytes": 2337,
+      "sha256": "eca1b74a1a7627004b8828bc4bbb760880c021f313ac2e20da7342c79a9a85a9"
+    },
+    {
+      "path": "src/game/world/FoliageInstances.tsx",
+      "bytes": 4421,
+      "sha256": "c74de98c75c1a37d55a10b0138ccaa68bda12bee943644185ec9aed2ef525a73"
+    },
+    {
+      "path": "src/game/world/guestCollisionTiles.ts",
+      "bytes": 9092,
+      "sha256": "865f5fa9fa4cbfe7038dfd94b71cfa02bc95b8df3170ada484f792126e0603b1"
+    },
+    {
+      "path": "src/game/world/Landmarks.tsx",
+      "bytes": 1786,
+      "sha256": "d0509291c719853a0123f9ba792e61b1140720d03984b835320ac998f51d66ed"
+    },
+    {
+      "path": "src/game/world/Objectives.tsx",
+      "bytes": 4271,
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66"
+    },
+    {
+      "path": "src/game/world/overhaulDistrictArt.tsx",
+      "bytes": 9005,
+      "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7"
+    },
+    {
+      "path": "src/game/world/overhaulDressingArt.tsx",
+      "bytes": 4480,
+      "sha256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b"
+    },
+    {
+      "path": "src/game/world/overhaulFragmentGeometry.ts",
+      "bytes": 3649,
+      "sha256": "e7b7df0dc0574a292d59d901cc6988302c2a89d43cdc2ee915937c66d6c66a32"
+    },
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": "src/game/world/overhaulRuinCollision.tsx",
+      "bytes": 2380,
+      "sha256": "e8c02adeef371812fc78a94d208ef217cf8e7221d9c4eef9f330756ffc8ea3ca"
+    },
+    {
+      "path": "src/game/world/overhaulRuinCollisionOwner.ts",
+      "bytes": 4737,
+      "sha256": "cc7d17c8a919b301d75f3be561e2438a6126201dc6008b8a65f7b7ec53c792e5"
+    },
+    {
+      "path": "src/game/world/propPresentation.ts",
+      "bytes": 1385,
+      "sha256": "b3b43b526c1468199bd000c4602372e81dcf356904d62453d2ad1c6b18b7943c"
+    },
+    {
+      "path": "src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": "src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6057,
+      "sha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c"
+    },
+    {
+      "path": "src/game/world/ServiceClimb.tsx",
+      "bytes": 1563,
+      "sha256": "2970a68dd2235cd1282d9adaa4b032595abbe0d2eff5cc7e087eddfc9b760eb5"
+    },
+    {
+      "path": "src/game/world/streamingDiagnostics.ts",
+      "bytes": 2212,
+      "sha256": "24a0e4aab78e73605d34e2a52782495dbe5a2cca01e10b140397ed1ab9fb002d"
+    },
+    {
+      "path": "src/game/world/Supplies.tsx",
+      "bytes": 3490,
+      "sha256": "279b1602c3a18366b534d5b59077eb817fe31ac1f81a5eb8aca1fc89f0d19a09"
+    },
+    {
+      "path": "src/game/world/terrain.worker.ts",
+      "bytes": 403,
+      "sha256": "f555328f9a18450b7c6ba5860c50360e6acebd3a01d111921837e20b5af3f341"
+    },
+    {
+      "path": "src/game/world/terrainCache.ts",
+      "bytes": 698,
+      "sha256": "9d9748990ff0297e49951e464187832fd6eff9f632371a5d79ab4f00c357d555"
+    },
+    {
+      "path": "src/game/world/terrainScheduler.ts",
+      "bytes": 8868,
+      "sha256": "b03e156c344ed7f5a5f647d8264c23ccbfb3680e946d4680c3c9c628150b61d5"
+    },
+    {
+      "path": "src/game/world/terrainSubscription.ts",
+      "bytes": 984,
+      "sha256": "b5b88e3dac91c666a3d45b45a702f80c788682c3955d0691c828198ad5f26466"
+    },
+    {
+      "path": "src/game/world/World.tsx",
+      "bytes": 15225,
+      "sha256": "03102a2b82afe822c0e96f27369950792e207c7f47cc8690601274e92e659660"
+    },
+    {
+      "path": "src/game/world/worldWindow.ts",
+      "bytes": 772,
+      "sha256": "3e94b2eb8b23503a73947243e0da2fd7b6bf8ecc4bbeeca57950bb204c774cef"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 197,
+      "sha256": "5a4868fae85ad9d2b4a1adf648053e8579e676836dcb17f6a5713b4d4b740be0"
+    },
+    {
+      "path": "src/overhaul/benchmark/authority.ts",
+      "bytes": 3753,
+      "sha256": "59724e8ff419e244d58f5c26b55f44ff15ca14ca9680fa4406565eb17adfadac"
+    },
+    {
+      "path": "src/overhaul/benchmark/candidate-r3f.tsx",
+      "bytes": 1364,
+      "sha256": "7e02edda714cb3ff6ed2b9b3c479cb06c827e053305d1d00a1bb13bbafc97fe7"
+    },
+    {
+      "path": "src/overhaul/benchmark/candidate-three.ts",
+      "bytes": 1059,
+      "sha256": "9f27249da58c01bc60bb7f6bbe1dcfec5dffaaa6abab256f087d4411b824d37b"
+    },
+    {
+      "path": "src/overhaul/benchmark/content.ts",
+      "bytes": 7852,
+      "sha256": "e3f5d50bce38ba71d68e387ea9f45e5d4c21026db7c49e7dc486f55d30153a8e"
+    },
+    {
+      "path": "src/overhaul/benchmark/district.ts",
+      "bytes": 4213,
+      "sha256": "f6dc3eca45a867a5265a76d872cfc8bc0b6921a25160c1ebdd8a965e6c26c2a9"
+    },
+    {
+      "path": "src/overhaul/benchmark/main.ts",
+      "bytes": 5357,
+      "sha256": "c8f50db9d03fbb7c05ee4e58b29ab656641fced7d74c9a982de32f6414a79881"
+    },
+    {
+      "path": "src/overhaul/benchmark/runtime.ts",
+      "bytes": 12663,
+      "sha256": "1c8dc2636e7b618f78db2c72e9a5d37475590d7fffe02bf015df9b280629d927"
+    },
+    {
+      "path": "src/overhaul/benchmark/style.css",
+      "bytes": 1082,
+      "sha256": "79437cf9151a8e5d6f1c5d8f5fe2c87f191ab77884669f7bd98e5efea114e018"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": "src/ui/Hangar.tsx",
+      "bytes": 6787,
+      "sha256": "ec227e39bcf9f59adfaf36bf15b76cee2775216f92a752ca196dbaf49c576dbc"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 4559,
+      "sha256": "42f577cf52d51e240d80e0b04a1402f8821835500124f45fc29b587fd7ae71b7"
+    },
+    {
+      "path": "src/ui/styles.css",
+      "bytes": 27643,
+      "sha256": "c16d7efef6e99e0d28b7031bc602cdfbe272e2536c6ef46af0eddac4e7c124f4"
+    },
+    {
+      "path": "src/ui/TacticalMap.tsx",
+      "bytes": 5404,
+      "sha256": "51ce8a1c5c62c28bbcb2f5cc846d5597d62b98e83dda3699d57481d3ba9c7154"
+    },
+    {
+      "path": "src/ui/TouchControls.tsx",
+      "bytes": 3597,
+      "sha256": "b80ec2c7e711ab698fe17b5080b316d65f848dc1e33be1b13a388accfa717329"
+    },
+    {
+      "path": "tools/overhaul-performance-081/containment-result.json",
+      "bytes": 2731,
+      "sha256": "0bc5f1fba8c369c00a873c2ae7a68257b8ae09c0efe8236b5e25fa42b6d790f0"
+    },
+    {
+      "path": "tools/overhaul-performance-081/source-seal.json",
+      "bytes": 10298,
+      "sha256": "3bcc8ee43033cf396733cd4ea00ae5d707d006828ccc3eb0067853f0243cf4b4"
+    },
+    {
+      "path": "tools/overhaul-performance-083/capture.mjs",
+      "bytes": 5984,
+      "sha256": "ba3229b78ae94da6cfbb2edb3c5e8a71dfa6c93de97f2ff2676d80ec7231184c"
+    },
+    {
+      "path": "tools/overhaul-performance-083/source-seal.json",
+      "bytes": 11453,
+      "sha256": "2107d35054f63028a3189e59fcd7270dcefbf68998dca0279a891ce05743d85b"
+    },
+    {
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds078.ts",
+      "bytes": 8191,
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b"
+    },
+    {
+      "path": "tools/overhaul-performance-085/preimages/animatedEnemyBounds081.ts",
+      "bytes": 8749,
+      "sha256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb"
+    },
+    {
+      "path": "tools/overhaul-performance-085/source-seal.json",
+      "bytes": 5639,
+      "sha256": "a232412f5f895440f36bc4d691cf2a3731f7c33c5867102f0a113389d782a829"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-084/build-seal.json",
+      "bytes": 147839,
+      "sha256": "a590657c0a35fb22d0ff4aa8d86a9070fa4b4d03d46af590f7110bed55190072"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/freeze046.py",
+      "bytes": 2329,
+      "sha256": "3edb962f26f0374903afe21c640750b56a947693a655413acb1a1133f876dac9"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/launch.py",
+      "bytes": 535,
+      "sha256": "c76527c25395253821139e21e71773cd9b738947093d982dd3a55fbf3ef6530b"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-086/prepare.py",
+      "bytes": 2897,
+      "sha256": "e42d2dfbc95e011d16bbb9dbca3c0b988a633a41de1e261682057650ab5ad9d3"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 368,
+      "sha256": "8cf594e1698f132ec8191f958c9017811c9d3f75abeeaf6ec44b9953e2fd0c96"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 553,
+      "sha256": "d0e0125a09e2e7c834bf90262afdd365877cc606bdb9c9cd9e2ec3a8eb5e6d83"
+    }
+  ],
+  "protected": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/GameCanvas-CMTN2kqQ.js",
+      "bytes": 3805051,
+      "sha256": "ea8c90f7471f89146100d463251e81a3fce98e83f0e071f7137fb854fe05bd6d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/areaEffectDiagnostics-BfsyCFWI.js",
+      "bytes": 483,
+      "sha256": "f364055ae59aa17214c88738a0839a3bb234b02a81273b04d4f0904843561ed6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/chassis-bastion.webp",
+      "bytes": 15684,
+      "sha256": "89a1247cd3fde6fa50aa088416fe434a4dd4dc237cb2457b50a7c3e2731f3635"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/chassis-caracal.webp",
+      "bytes": 17076,
+      "sha256": "6d78db39ea18d25d161d6de835c11358f2cc94c03f6704400ef4b7f873dde216"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/chassis-lynx.webp",
+      "bytes": 18994,
+      "sha256": "070311a8feb78f6b684f73823b7d835bbfd725e673509da2bbd890d7a6708d41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/chassis-pounce.webp",
+      "bytes": 16224,
+      "sha256": "538139441cf2cbe70db03bcda617f5df3d975d91b9bb3c323855b93a23076dd9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/coastal-overcast.hdr",
+      "bytes": 1659025,
+      "sha256": "e66b454a6eb364a998d7d145a3574a88557095730026be0f547e327c27a6de55"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/rainline-key-art.webp",
+      "bytes": 249492,
+      "sha256": "6de7aaae424b01d4dfa8f4719dd54954ad0a463d4add6a3c340c854d1ea1ed31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/rainline-menu.mp4",
+      "bytes": 1474046,
+      "sha256": "8c0213daeadfeeae085779879f636313c3e7983031ecabc8c68c673fecb487c4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/theater-ember.webp",
+      "bytes": 289848,
+      "sha256": "6b969c300f06b03c62c4ecc9afc14fb7c927096d9b7bf83869481e6563941559"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/theater-frostline.webp",
+      "bytes": 286458,
+      "sha256": "4c46d463c7ab986b1d4324fbd94db8af2160fb8b82b7e5811fac9f344b5dcff8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/art/theater-rainline.webp",
+      "bytes": 197010,
+      "sha256": "3a2bf477fa558e81c7f00b6a682e20181ac0894ba1493a5d8b5f9f067841419b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Boost.wav",
+      "bytes": 24044,
+      "sha256": "7454e082060e9e949d0bd932fc979a299b119ef5c0fce0201cf40b4ad9597b62"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Danger.wav",
+      "bytes": 31244,
+      "sha256": "af0b80e10ee2fda68fe7de8b4680f216f0bd9eda23d0bd24a6fff0722a30a946"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Impact.wav",
+      "bytes": 10604,
+      "sha256": "71464007dd5878131cf841fddac8bd02e1b6c8676d04e7561c0b9f4b6d50aae0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Objective.wav",
+      "bytes": 33644,
+      "sha256": "add34633371f63613c4e8ed572d9e481cf3850cba4413fab30c765afd975ec67"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Pulse.wav",
+      "bytes": 8684,
+      "sha256": "23f0a4223a69dcbb86277a37f9790a0abd1ed29cacd58072e31c7813197441ce"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/audio/S_Repair.wav",
+      "bytes": 36044,
+      "sha256": "3cdfe3f277389b16d2fe7c9d2e898b729757a81a4102d7515314617229775c05"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlow/Barlow-Bold.ttf",
+      "bytes": 108220,
+      "sha256": "84e6a4d61e7c3e21f3c50ea6a4f7e5303a3467864c038be6ea3759bab8d547f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlow/Barlow-Medium.ttf",
+      "bytes": 103536,
+      "sha256": "f8906f762cb73dca441da034bc363b2d8e2e68bc10d5c05e58717646c20cc4b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlow/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlow/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlow/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/BarlowCondensed-Bold.ttf",
+      "bytes": 109912,
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/BarlowCondensed-Medium.ttf",
+      "bytes": 103360,
+      "sha256": "262bd143292ce479ee0cd09a42b47ab173fca8e9c6eb5ed0b5c8a845bc371d17"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/barlowcondensed/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/fonts/manifest.json",
+      "bytes": 3859,
+      "sha256": "3a64bda94af2f4392db33e5a05a35cb784e58ae58f899961722957023d577ac6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/index-BPDA3YLm.css",
+      "bytes": 27491,
+      "sha256": "db22b472773318fdffc05ad5a26599406d6f21988604a9a321ad485e734b7ef2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/index-C6sKDA6J.js",
+      "bytes": 1629565,
+      "sha256": "72f8cb37013d4bbae5aab0b03ea3b06faa9e28245081f676400adb4424caffb3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Anchor.glb",
+      "bytes": 214956,
+      "sha256": "bfb8a04b01b0c0f9587be57b50eadd3d40ded29bd5a3b17b62b3e67fbfb704c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Bastion.glb",
+      "bytes": 499264,
+      "sha256": "0c550157107981e09f982b1b957eb93d91f015bd9138ab6f42d483e3252e434b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Bastion_Quadruped.glb",
+      "bytes": 1122604,
+      "sha256": "a5f72f08571d22fd0ea891e1769387d22bbf54d26ac2932f37462977359d3da9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Caracal_Quadruped.glb",
+      "bytes": 1123064,
+      "sha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/City_Coolant_Higgsfield.glb",
+      "bytes": 1096008,
+      "sha256": "12e814d2763fa557a25e130a6dc8155daa40aed1d208aa70a6a5c455c1df3e2b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Coastal_Basalt.glb",
+      "bytes": 142712,
+      "sha256": "d73310edd64c1ab8f60715813492b426ef28feb0d51a5842a0be2cc6122ba60c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Factory_Workshop.glb",
+      "bytes": 3961572,
+      "sha256": "bd0141d52e41a87c45470d7457e67a3a0136fd95daf175025bb193c169af3834"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Forest_Fern.glb",
+      "bytes": 464424,
+      "sha256": "4aaa22ad5aa5ab86a51b3f38db5ce2e8a8f91ed4cc20a36b0dcfdf34d21bfd2b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Forest_Fir.glb",
+      "bytes": 1833764,
+      "sha256": "62d04a5e41628541ee75e9d927e8feb041ca0f5186d26232dccd4e33c8cbf9f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Lynx_Quadruped.glb",
+      "bytes": 1085704,
+      "sha256": "1f3a69c7f814fa28728cced3d15ad148546f0de92fd1466b6b40c913e9fbcb76"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Mortar.glb",
+      "bytes": 140908,
+      "sha256": "5775e1c4cdc874c0b11c92df28dfb22d06284a449cb5f6467abf633d9df4d2a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pine_Evergreen.glb",
+      "bytes": 478516,
+      "sha256": "cf5c87dd50541645da061753a21bd80d5f5504d9baf3218e17483ab32711e5ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Feline.glb",
+      "bytes": 611732,
+      "sha256": "d8619cb437a6324be61f5e9b6c434059ce18059547d865fe6146ff5e88e488e8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Feline_LOD1.glb",
+      "bytes": 404600,
+      "sha256": "01b8e4e067a6f51a3a309dc13f9cbcb8a480fffb984b32c151ab926da12ceabf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Feline_LOD2.glb",
+      "bytes": 256080,
+      "sha256": "34b1544162d3050c1dbd649ebf1647bc0ac19f36b62d1d72b413b92ca349750f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Pounce_Quadruped.glb",
+      "bytes": 1094816,
+      "sha256": "511b7aa14ce7ebf5b4a384250b4c0112c5eaad66565f029f15faf358be8f21e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainBasaltCluster.glb",
+      "bytes": 10488,
+      "sha256": "2dc17b56d48170cf7ac8456f13872ecbe948f33aa5c5864aece70dafe3bd62f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainCargoCover.glb",
+      "bytes": 40464,
+      "sha256": "2104f993fd5f171ef4622aef41f2065bad59825d5e14605d6bfc9f20bbb75272"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainCedar.glb",
+      "bytes": 39156,
+      "sha256": "801cfc186928aca4aa3cf853c93ed56e34562853b0239ea52ab4a02f86375443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainDockCrane.glb",
+      "bytes": 64924,
+      "sha256": "61cc2658564f5863c16b7b90351ee0705c3e45d5a628e20bd6ec98849042e7c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainFern.glb",
+      "bytes": 8388,
+      "sha256": "609682cb678dd4621adc6e7edfafc7ce36db87c7cd2753f3b68e4c33c7a5a519"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainLamp.glb",
+      "bytes": 13208,
+      "sha256": "ff8af8bb7d30c65c61dd24ba653c3f6f1264d76ba8ad06e5782565134e1d2441"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainPipeBank.glb",
+      "bytes": 50640,
+      "sha256": "8d406c625d1ec0c6fd2364d597a28641c5792c285396e1feb09dff70bac3a28d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainRetainingWall.glb",
+      "bytes": 19624,
+      "sha256": "2ed4ad0f19dcc79a963e5c942d4c68eb1cce72db9387ce4ff182aab61230c21f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainStormTower.glb",
+      "bytes": 39372,
+      "sha256": "17d521fb1452b060e06f287c56c5d8fc676e0f975b7d14aa78cf4fedd0b8a2bc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/SM_RainWorkshop.glb",
+      "bytes": 174440,
+      "sha256": "d50aea57d4bd52267c1b873dc0559b37b568ba31b1734d2bcc56c7222171faa3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Scout.glb",
+      "bytes": 162376,
+      "sha256": "eb749fad3aa1465537d40bbf78bd5ade3da47196c58e059d6bfffbf04095f4c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/city-v1/Rainline_Modular_City_v1.glb",
+      "bytes": 42944,
+      "sha256": "b35ec348477d32ee309ea0b5a5b60c09717cf01c60626d80b75ced7ad53e7630"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/city-v2/Rainline_Modular_City_v2.glb",
+      "bytes": 574656,
+      "sha256": "60fdf81c28f3b7193129111b72179bdf96cc3a9c254c1241e2bb5606aa9f5870"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/city-v3/Rainline_Identity_v3.glb",
+      "bytes": 82316,
+      "sha256": "4ac4db70d4138aff98311f8f2e8a9825cd0d778319942994d7ff3c2bcceb5dad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "bytes": 2184328,
+      "sha256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/dressing-v1/Rainline_Dressing_v1.glb",
+      "bytes": 42928,
+      "sha256": "53ab93a0cfc5a3f54c6ac0602d91905114030b231abb54b635f562142a10a4af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/dressing-v2/Rainline_Dressing_v2.glb",
+      "bytes": 40680,
+      "sha256": "c1c6cd591bc73264218d74e54c3944a5e5529c9f329176d41f4ac269fb304af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/extraction039/Rainline_Extraction039.glb",
+      "bytes": 226112,
+      "sha256": "d9670597e19fa6fc1e1bcd71b5799fd084fad08aa131cff06385fc4e97f36400"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v1/Pounce_Overhaul_v1.glb",
+      "bytes": 991860,
+      "sha256": "79a810f0a2772fd3a97f2a331f4ed60328b30139a6cf703905bea8e592001040"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v1/pounce-contract.json",
+      "bytes": 19727,
+      "sha256": "e0466837223b30424a4826426d646f5a06d0f32cf7d4f2f5b5fe044c3f8e7be1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v2/CONTACT-CONTRACT.md",
+      "bytes": 6002,
+      "sha256": "01763fb9c8209dab9500172f2a0fdfc0ab41a541ef83b102d607abae93c536d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v2/Pounce_Overhaul_v2.glb",
+      "bytes": 1521276,
+      "sha256": "a8777cf8220a4e4174ea48791b87808712d6bfc7d3e926677edcef6cb1db7d26"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v2/animation-contact-manifest.json",
+      "bytes": 96590,
+      "sha256": "caee42c9332d45a324351945cd2b60f8f578aa2f04fa2132e92f8e6c58b3d613"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/pounce-v3/animation-contact-manifest.json",
+      "bytes": 28034,
+      "sha256": "b1407455fa4573637e660da45e18cda8b5c9188fc3212f828ac79fae2c688f64"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/rainline-street-v1/ATTRIBUTION.md",
+      "bytes": 611,
+      "sha256": "10d04a1c7021cfe0930cad1085e9dc73da60415bfdef7f21709aa15e8a0774db"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/rainline-street-v1/Rainline_StreetPopulation_001.glb",
+      "bytes": 5140368,
+      "sha256": "387db23d0128df59c215b927ecfcadffb0492faa2bcee1c54a9264f98fcad70a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/overhaul/rainline-street-v1/source-lock.json",
+      "bytes": 11885,
+      "sha256": "4dc5925ea1eb3902960edc8015bb79a6ddec3f1505d495b5e129deed929cdef1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/pawContact-Cs88E36d.js",
+      "bytes": 19927,
+      "sha256": "9a1d64978caa617dd38e9911088de8b3484e0127aee95199e1a6457dec52a243"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/physics-CEFJ-CQz.js",
+      "bytes": 2260627,
+      "sha256": "af944d1578b87938410bf0607a7e430a97c5c1c1d2d0b15168489c114913eca8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/streamingDiagnostics-C6TwIMw1.js",
+      "bytes": 972,
+      "sha256": "0023b3f9ce60fcd2e2c027873cfdb34dc85655f8dc41b8c6a2238dbeb1f24998"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/surfaceDiagnostics-BIgXvuMZ.js",
+      "bytes": 754,
+      "sha256": "730da78f93165a73e9b83c329db3603fdf9ccfbebe25a00fe8a640eeffd66bf9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/terrain.worker-Bh35Bed5.js",
+      "bytes": 101636,
+      "sha256": "6779d37a533649cfcadb42f8a838b5a9f16aee1aed8997c8dd98ec645fd4d788"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/terrainCache-DOvnslHD.js",
+      "bytes": 6045,
+      "sha256": "115accf92d19aae7454b7301393d1384b58285ddfe469091e292c7a88de1edba"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/City_Asphalt_Service.webp",
+      "bytes": 461274,
+      "sha256": "d3a77c63a73a8be9f00039d3144c0487eb945c67f016c0acac0bf4621d56d970"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/City_Concrete_Cast.webp",
+      "bytes": 382512,
+      "sha256": "c6ec4ea63906f108029c2cef8843c157e62e8575be6d1be4b72985411f1a866a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/City_District_Signs.webp",
+      "bytes": 371064,
+      "sha256": "69c617244e9c3e5d58a41edc55b841598f913ee5326d4405b9333e3794a5db5e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/City_Facade_Windows.webp",
+      "bytes": 300644,
+      "sha256": "2a3fe165bac23f58adfdeba53426dcff0fecf54f2eef182424ad500be1d9d82b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/armor-albedo.webp",
+      "bytes": 287000,
+      "sha256": "a50bbe115fdbd59172af6759d83a385214e645dc95eeb51f929266e687f1c493"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/concrete_moss_diff.webp",
+      "bytes": 124022,
+      "sha256": "8f6fd885f087c8937a7db224b4dc45c836833f6f3b45afd678cbe5b0ae75efa0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/concrete_moss_nor_dx.webp",
+      "bytes": 235788,
+      "sha256": "6aa55eb8e3b4b149c4ddc8d64fd4cf13c47bb9cf6a689489a96bffd4557a1c9c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/concrete_moss_rough.webp",
+      "bytes": 12862,
+      "sha256": "da46ec4c13bb32810016da53fa2143f84c0927b76ca30f209496f7bc1d87f2b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/ember-ground.webp",
+      "bytes": 477764,
+      "sha256": "7d4c9394bd5e5655427c615cf15f3d4f4280bdbcf19b32f2b9c6586490f1f3d1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/feline-albedo-v1.webp",
+      "bytes": 8726,
+      "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/feline-normal-v1.webp",
+      "bytes": 5614,
+      "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/feline-orm-v1.webp",
+      "bytes": 3992,
+      "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/forest_ground_04_diff.webp",
+      "bytes": 366418,
+      "sha256": "ece75e8c2719da6a8edce98f60b0e500295df5a9a51e918b4b47229665514151"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/forest_ground_04_nor_gl.webp",
+      "bytes": 424396,
+      "sha256": "5a5feecd9e09b26e6803df85e38de567f9e2053ed14c25c5a5a1a77165ac2e5e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/forest_ground_04_rough.webp",
+      "bytes": 152830,
+      "sha256": "839f94f7645c58699dd78fda850bd5e10a95d09900bdbbe4f6ab77c9565fdc0b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/frost-ground.webp",
+      "bytes": 402776,
+      "sha256": "346b5570aaefe750b4a51536369a3bba65fa0d79035c63e9e34b9e78c8e3d328"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_ground_diff.webp",
+      "bytes": 422420,
+      "sha256": "cf63d01eb28a134f841727fef982ea65fb9db9e3d5e2147501d8e391b4aed321"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_ground_nor_gl.webp",
+      "bytes": 497008,
+      "sha256": "b07a25b1b9f947672604c4c5bb7f46140ef152d98acfd07ad58097f42201efc0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_ground_rough.webp",
+      "bytes": 296932,
+      "sha256": "3510f0a6e73c657ef5933e7b173b68cc4cd6caf912c52fedba466aeb9b837e30"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_tile_floor_diff.webp",
+      "bytes": 428732,
+      "sha256": "f8d7797d281655e8aaf92226b9351aa24c4ed8d40b810017abc769d55ca191d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_tile_floor_nor_dx.webp",
+      "bytes": 325004,
+      "sha256": "602a26d642ff18206198a4aef5e5c650521f4d53b4d744f8cc936639817e6c41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/rock_tile_floor_rough.webp",
+      "bytes": 135960,
+      "sha256": "66fb332afb53954100e812b5c4741ae54f556b1ad3f72226f058c37a285a4e40"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/supply-coolant.webp",
+      "bytes": 13144,
+      "sha256": "b65042f08e3ac87c65073f2816fb1d1c4836396e8a249cb186d27608396b2a5a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/supply-energy.webp",
+      "bytes": 12832,
+      "sha256": "07ec5902855d26538c57419da0aae4c97930fccfae467c3d32c9217735c5a5a9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/textures/supply-repair.webp",
+      "bytes": 9272,
+      "sha256": "9ba94f40bfa619406bc287c0a52e9d7fb794d8499c78571be90b83cc4c2ac0e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/assets/three-BJhnfouV.js",
+      "bytes": 1248437,
+      "sha256": "ca3b113de4e31bf527a24811b36fff0c7f980426e1f3835454783e7a516f2384"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/dist/index.html",
+      "bytes": 700,
+      "sha256": "2c9af3870a594cb81ab9b7d11815a6f709cc4e1c7afdcdc4e0984d51ec8af865"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/index.html",
+      "bytes": 451,
+      "sha256": "6f84e5501643d7df0993f9255c018c0ce40b2180389fe5dd97a1cf6708bbd8b1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlow/Barlow-Bold.ttf",
+      "bytes": 108220,
+      "sha256": "84e6a4d61e7c3e21f3c50ea6a4f7e5303a3467864c038be6ea3759bab8d547f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlow/Barlow-Medium.ttf",
+      "bytes": 103536,
+      "sha256": "f8906f762cb73dca441da034bc363b2d8e2e68bc10d5c05e58717646c20cc4b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlow/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlow/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlow/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/BarlowCondensed-Bold.ttf",
+      "bytes": 109912,
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/BarlowCondensed-Medium.ttf",
+      "bytes": 103360,
+      "sha256": "262bd143292ce479ee0cd09a42b47ab173fca8e9c6eb5ed0b5c8a845bc371d17"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/barlowcondensed/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/fonts/manifest.json",
+      "bytes": 3859,
+      "sha256": "3a64bda94af2f4392db33e5a05a35cb784e58ae58f899961722957023d577ac6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Anchor.glb",
+      "bytes": 214956,
+      "sha256": "bfb8a04b01b0c0f9587be57b50eadd3d40ded29bd5a3b17b62b3e67fbfb704c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Bastion.glb",
+      "bytes": 499264,
+      "sha256": "0c550157107981e09f982b1b957eb93d91f015bd9138ab6f42d483e3252e434b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Bastion_Quadruped.glb",
+      "bytes": 1122604,
+      "sha256": "a5f72f08571d22fd0ea891e1769387d22bbf54d26ac2932f37462977359d3da9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Caracal_Quadruped.glb",
+      "bytes": 1123064,
+      "sha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/City_Coolant_Higgsfield.glb",
+      "bytes": 1096008,
+      "sha256": "12e814d2763fa557a25e130a6dc8155daa40aed1d208aa70a6a5c455c1df3e2b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Coastal_Basalt.glb",
+      "bytes": 142712,
+      "sha256": "d73310edd64c1ab8f60715813492b426ef28feb0d51a5842a0be2cc6122ba60c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Factory_Workshop.glb",
+      "bytes": 3961572,
+      "sha256": "bd0141d52e41a87c45470d7457e67a3a0136fd95daf175025bb193c169af3834"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Forest_Fern.glb",
+      "bytes": 464424,
+      "sha256": "4aaa22ad5aa5ab86a51b3f38db5ce2e8a8f91ed4cc20a36b0dcfdf34d21bfd2b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Forest_Fir.glb",
+      "bytes": 1833764,
+      "sha256": "62d04a5e41628541ee75e9d927e8feb041ca0f5186d26232dccd4e33c8cbf9f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Lynx_Quadruped.glb",
+      "bytes": 1085704,
+      "sha256": "1f3a69c7f814fa28728cced3d15ad148546f0de92fd1466b6b40c913e9fbcb76"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Mortar.glb",
+      "bytes": 140908,
+      "sha256": "5775e1c4cdc874c0b11c92df28dfb22d06284a449cb5f6467abf633d9df4d2a8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pine_Evergreen.glb",
+      "bytes": 478516,
+      "sha256": "cf5c87dd50541645da061753a21bd80d5f5504d9baf3218e17483ab32711e5ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Feline.glb",
+      "bytes": 611732,
+      "sha256": "d8619cb437a6324be61f5e9b6c434059ce18059547d865fe6146ff5e88e488e8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Feline_LOD1.glb",
+      "bytes": 404600,
+      "sha256": "01b8e4e067a6f51a3a309dc13f9cbcb8a480fffb984b32c151ab926da12ceabf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Feline_LOD2.glb",
+      "bytes": 256080,
+      "sha256": "34b1544162d3050c1dbd649ebf1647bc0ac19f36b62d1d72b413b92ca349750f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Pounce_Quadruped.glb",
+      "bytes": 1094816,
+      "sha256": "511b7aa14ce7ebf5b4a384250b4c0112c5eaad66565f029f15faf358be8f21e7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainBasaltCluster.glb",
+      "bytes": 10488,
+      "sha256": "2dc17b56d48170cf7ac8456f13872ecbe948f33aa5c5864aece70dafe3bd62f9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainCargoCover.glb",
+      "bytes": 40464,
+      "sha256": "2104f993fd5f171ef4622aef41f2065bad59825d5e14605d6bfc9f20bbb75272"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainCedar.glb",
+      "bytes": 39156,
+      "sha256": "801cfc186928aca4aa3cf853c93ed56e34562853b0239ea52ab4a02f86375443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainDockCrane.glb",
+      "bytes": 64924,
+      "sha256": "61cc2658564f5863c16b7b90351ee0705c3e45d5a628e20bd6ec98849042e7c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainFern.glb",
+      "bytes": 8388,
+      "sha256": "609682cb678dd4621adc6e7edfafc7ce36db87c7cd2753f3b68e4c33c7a5a519"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainLamp.glb",
+      "bytes": 13208,
+      "sha256": "ff8af8bb7d30c65c61dd24ba653c3f6f1264d76ba8ad06e5782565134e1d2441"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainPipeBank.glb",
+      "bytes": 50640,
+      "sha256": "8d406c625d1ec0c6fd2364d597a28641c5792c285396e1feb09dff70bac3a28d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainRetainingWall.glb",
+      "bytes": 19624,
+      "sha256": "2ed4ad0f19dcc79a963e5c942d4c68eb1cce72db9387ce4ff182aab61230c21f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainStormTower.glb",
+      "bytes": 39372,
+      "sha256": "17d521fb1452b060e06f287c56c5d8fc676e0f975b7d14aa78cf4fedd0b8a2bc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/SM_RainWorkshop.glb",
+      "bytes": 174440,
+      "sha256": "d50aea57d4bd52267c1b873dc0559b37b568ba31b1734d2bcc56c7222171faa3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Scout.glb",
+      "bytes": 162376,
+      "sha256": "eb749fad3aa1465537d40bbf78bd5ade3da47196c58e059d6bfffbf04095f4c2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/city-v1/Rainline_Modular_City_v1.glb",
+      "bytes": 42944,
+      "sha256": "b35ec348477d32ee309ea0b5a5b60c09717cf01c60626d80b75ced7ad53e7630"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/city-v2/Rainline_Modular_City_v2.glb",
+      "bytes": 574656,
+      "sha256": "60fdf81c28f3b7193129111b72179bdf96cc3a9c254c1241e2bb5606aa9f5870"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/city-v3/Rainline_Identity_v3.glb",
+      "bytes": 82316,
+      "sha256": "4ac4db70d4138aff98311f8f2e8a9825cd0d778319942994d7ff3c2bcceb5dad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "bytes": 2184328,
+      "sha256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/dressing-v1/Rainline_Dressing_v1.glb",
+      "bytes": 42928,
+      "sha256": "53ab93a0cfc5a3f54c6ac0602d91905114030b231abb54b635f562142a10a4af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/dressing-v2/Rainline_Dressing_v2.glb",
+      "bytes": 40680,
+      "sha256": "c1c6cd591bc73264218d74e54c3944a5e5529c9f329176d41f4ac269fb304af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/extraction039/Rainline_Extraction039.glb",
+      "bytes": 226112,
+      "sha256": "d9670597e19fa6fc1e1bcd71b5799fd084fad08aa131cff06385fc4e97f36400"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v1/Pounce_Overhaul_v1.glb",
+      "bytes": 991860,
+      "sha256": "79a810f0a2772fd3a97f2a331f4ed60328b30139a6cf703905bea8e592001040"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v1/pounce-contract.json",
+      "bytes": 19727,
+      "sha256": "e0466837223b30424a4826426d646f5a06d0f32cf7d4f2f5b5fe044c3f8e7be1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v2/CONTACT-CONTRACT.md",
+      "bytes": 6002,
+      "sha256": "01763fb9c8209dab9500172f2a0fdfc0ab41a541ef83b102d607abae93c536d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v2/Pounce_Overhaul_v2.glb",
+      "bytes": 1521276,
+      "sha256": "a8777cf8220a4e4174ea48791b87808712d6bfc7d3e926677edcef6cb1db7d26"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v2/animation-contact-manifest.json",
+      "bytes": 96590,
+      "sha256": "caee42c9332d45a324351945cd2b60f8f578aa2f04fa2132e92f8e6c58b3d613"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/pounce-v3/animation-contact-manifest.json",
+      "bytes": 28034,
+      "sha256": "b1407455fa4573637e660da45e18cda8b5c9188fc3212f828ac79fae2c688f64"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/rainline-street-v1/ATTRIBUTION.md",
+      "bytes": 611,
+      "sha256": "10d04a1c7021cfe0930cad1085e9dc73da60415bfdef7f21709aa15e8a0774db"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/rainline-street-v1/Rainline_StreetPopulation_001.glb",
+      "bytes": 5140368,
+      "sha256": "387db23d0128df59c215b927ecfcadffb0492faa2bcee1c54a9264f98fcad70a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/public/assets/overhaul/rainline-street-v1/source-lock.json",
+      "bytes": 11885,
+      "sha256": "4dc5925ea1eb3902960edc8015bb79a6ddec3f1505d495b5e129deed929cdef1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/server/arenaDiagnostics.ts",
+      "bytes": 3529,
+      "sha256": "45166af7c085670fcb92a5caae00dc47f6ca02c55330dd31f20d536bc5ff94b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/server/arenaRooms.ts",
+      "bytes": 8019,
+      "sha256": "032b380992fa1b79d04593bb0013db03ef3be13b62e76ea3f000cd6252c2d087"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/server/index.ts",
+      "bytes": 8519,
+      "sha256": "82dd81dc310005ad8932a10a378c790f19d95ff3afb264344779b30021f89cdd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/areaGeometry.ts",
+      "bytes": 3743,
+      "sha256": "6621649841bd5d34654eff0946ff5bd8002d6bc48ab0ada87f00962ed53fc6ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/building-grip-profiles.json",
+      "bytes": 1679642,
+      "sha256": "42c8f158ace9fd52a8a6d08a05c8868061022787ead9d9429e4dbced7462c3f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/buildingGrip.ts",
+      "bytes": 25300,
+      "sha256": "d19be22b04bbafc6ccdcfc2c6defd97298d142113bcb745a3557e006ac52947b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/buildingSurfaces.ts",
+      "bytes": 7282,
+      "sha256": "2695798c7e5bf5f86e55e78c381752e5d214b7eb6a31a60a7f6bf7194e32613b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/buildingVault.ts",
+      "bytes": 2730,
+      "sha256": "9582e8e723c99b8c60dd609ac93479e524de8724150c76b02b9fa9ab859a38b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/characterRubbleImpulse.ts",
+      "bytes": 9992,
+      "sha256": "3ae02f0d5024f11be96b300d73d771fca5590399c3db6b6335bc4092e6db15f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityFracture.ts",
+      "bytes": 3220,
+      "sha256": "1fc996cddae23cf70b2b703639abc84d256cee78f4d79a49e135294a8f4d9fdc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityFractureCatalog.ts",
+      "bytes": 835,
+      "sha256": "65ad275687f173656f9ab7c01df6a2b2c221e2c1f737a570392800b0baedebcc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityNavigation.ts",
+      "bytes": 4136,
+      "sha256": "2d0f9a2b2966f25ec69151b5a4a94c50f9f5bd2409be576f217367110c0e0c08"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityRubble.ts",
+      "bytes": 7731,
+      "sha256": "c51f17f4f4b5e0d27325985655077eed3be41adcdc2680a9eaf3b34f9a428ad2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityRubbleAdmission.ts",
+      "bytes": 2303,
+      "sha256": "c8890a08dafa1e08e481fdf24b642a96e44fdbe828d31a17038d2eaf2a4ed83a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/cityRubbleImpact.ts",
+      "bytes": 7392,
+      "sha256": "357e802257ca23cb27d7cae3dab27dee88f12061564b60e1c4427d540843e481"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/coopExtraction.ts",
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/coverState.ts",
+      "bytes": 2035,
+      "sha256": "61b0017c1ee47d7911dea1ea86c97d1f8a553fe1d9421f6987a2e4c7a18845e6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/city-fracture-shapes-v2.json",
+      "bytes": 319760,
+      "sha256": "041139ae806a061bfff7923a50056bb43e7115e9313eb207b8925e51e064902c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/city-fracture-v1.json",
+      "bytes": 164581,
+      "sha256": "c34cc110d58ba67a6faa43dfddfc2e543b47ac91fa043ddf5a49f41f33910eb8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/rainlineLampMeshCollision001.json",
+      "bytes": 49691,
+      "sha256": "57f27d8648cd556ae159c29fbc2b35e2b99e985b1edfb388d6ccc035fa1d2443"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/rainlineStreetAdmission001.json",
+      "bytes": 63104,
+      "sha256": "591221ed05e2384c483370c3d9d4680cd8b892a411f415d5a4a909eda82020b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/rainlineStreetPopulation030.json",
+      "bytes": 2909,
+      "sha256": "ad6edc82ad76e53dcc6a7adecf30d93c63e20d68334623b534f90871ed845adf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/structuralPropCollision.json",
+      "bytes": 1268872,
+      "sha256": "2c32208f75ec7fd7f6e2adef8517b7d9dd4288ae37bb2432e3088b5600876ff7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/workshopCollision.json",
+      "bytes": 731536,
+      "sha256": "9a727740b9e31da85ccfb0622cdb19ffa2724e31ffd5fd63894243e725fe6061"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/data/workshopRoofPatches.json",
+      "bytes": 11533,
+      "sha256": "14ed5c9f2609f7a43b3475671bc9999bf520e42f50be3d37590928eb7859392a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/encounters.ts",
+      "bytes": 5414,
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/experimental/pounceMotionV6.ts",
+      "bytes": 13506,
+      "sha256": "1a2b8e2d1b530944650b2662cb6d0a5f82e37abb85e5ebbf8d5c63142fc094a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/feline57Contract013.ts",
+      "bytes": 2717,
+      "sha256": "4ae626d3de925f671654d499d839b0aa3ba9cfd860374b93ebd846229f50a657"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/feline57Evaluator013.ts",
+      "bytes": 6465,
+      "sha256": "a5b33a1ee9fb4229af76056876acc258e73cf22d40c9f5d8eac435e7ab96748c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/feline57Occupancy013.ts",
+      "bytes": 5633,
+      "sha256": "5401a4460aad97ff8d5223061573f9cb40f2298e103dc8d0d4b3b5c7f9a5b02e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/feline57Profile013.ts",
+      "bytes": 4476,
+      "sha256": "ad50434757f4cb3cc7d98600ea98398237c6bb0b2592993d06172ec817a2364f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineContactFrame004.ts",
+      "bytes": 5760,
+      "sha256": "286a9d48e48f06ef06428afce1677dce7186a8fd03b848b8d091b12a084731cc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineNativePose003.ts",
+      "bytes": 4357,
+      "sha256": "e4d104d0bb15b1f245b84bd92ab63b25193639321d87dabdf098c203c657e2f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineNativePose004.ts",
+      "bytes": 5050,
+      "sha256": "bcce8d45a14eab703387e0b23abdff728a01256901f3fcd722970c34a938bedc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineNativePoseSource003.ts",
+      "bytes": 5049,
+      "sha256": "633612151f27f6508a6c7c14d54f7bfef97de0f20c28d24192bfc897199e13f4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineNativePoseSource004.ts",
+      "bytes": 5976,
+      "sha256": "909439b93905733fd433b7fd5570e1037d0d9cb51be625f525b496203b00b6b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/felineStrike.ts",
+      "bytes": 7685,
+      "sha256": "e5c644bfe20196d44e01acac49f201dbe2af1a38ab2062a4d4a6c931aa6b38ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/foliage.ts",
+      "bytes": 1001,
+      "sha256": "bf7c2add631bde875cebc23dac0a810cd4f861a39427270d68ef192d669e33af"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/inputProtocol.ts",
+      "bytes": 834,
+      "sha256": "f53a3448222831ce06d400d664896c47e9f69b9001c5986911904ff098269b44"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/layout.ts",
+      "bytes": 156,
+      "sha256": "b5472164d7997db81e278502837c9a355ee257855a4229bf495e9c0a53acf510"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/maps.ts",
+      "bytes": 9120,
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/navigation.ts",
+      "bytes": 12372,
+      "sha256": "b32842aede2c0c25ba102fb8b7ed3636d77c202f771dabd77eb9eafcef1bb527"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulBondedMaterial.ts",
+      "bytes": 6238,
+      "sha256": "e38bfc65250dc200739659915c12c33fced063de51b26d54c0c3434e1a523701"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulBondedOwner.ts",
+      "bytes": 13419,
+      "sha256": "d01da5977f432655ca75209de5b3d26bd24a9651db8f4d887562fd3660b321ef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulCornerClimb.ts",
+      "bytes": 10325,
+      "sha256": "e375084d6948aa3de6bf93c9e9994e1a59b3d3b535e5f5de0f7e932ca37cc9b5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulDressing.ts",
+      "bytes": 13788,
+      "sha256": "f102153cfc95cc736fe62367d9786a9bba041ab264e15db53e484c3d7a856380"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulEncounter.ts",
+      "bytes": 4490,
+      "sha256": "0cd02e8b7f05b41df480531bbc4ad788003c5c3b65a81e99be546abb624f694a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulGantryPortal.ts",
+      "bytes": 2415,
+      "sha256": "9c0be8612dd58cfd11a642eb8eefa360171017125b1a91bb5a09a30c021a02b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulRoofLocal.ts",
+      "bytes": 1966,
+      "sha256": "e57ecff44b5a65483e60683afddc8152ee53d2618c2c80c9cbdfc9c2e3e38b41"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulRuinImpact.ts",
+      "bytes": 6604,
+      "sha256": "f932888a7d8a5722e09756ef6aa612c94f4f230e59c39f12bbd1f49275ebdccc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulRuinSurfaces.ts",
+      "bytes": 7669,
+      "sha256": "75171b5cf91ecb354f287e8c1bd2eade5fbc1707c799cadda5051a418c5d5ad1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulRuins.ts",
+      "bytes": 25874,
+      "sha256": "b5ae3de5f9234df7cff216d56a2598d52f96a46686d3c6769eee5916a87f1fd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/overhaulSupport.ts",
+      "bytes": 11165,
+      "sha256": "eccb47f402e180f73cfa4ac331b701bcd740cc91c44a9dab778ee0e0cb4683f0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/ownedCharacterQuery.ts",
+      "bytes": 2232,
+      "sha256": "b74258daa0f86abb53377ad9c73b40c1fdaa5fbf410701970c57fac9d57b7deb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/pairedCombat.ts",
+      "bytes": 6552,
+      "sha256": "6aa9d2e63b6942ea1a5f4b437b0deb32cc3fa30e85b97d129607d1a416595c3d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/protocol.ts",
+      "bytes": 12849,
+      "sha256": "c2679d20bfe8d884b95556590558050954b0edee2ec6ea3c002ed21cade639dc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/rainlineLampCollision.ts",
+      "bytes": 748,
+      "sha256": "97497643d638006d81af385be1b6b22c67e1973af864d63add8493fac1d9eaa1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/rainlineStreetPopulation002.ts",
+      "bytes": 2287,
+      "sha256": "06d38b9b576ca9a35c880a4056ed62d8e1d1717a356995a7872ac33f55dec20f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/rainlineStreetPopulation030.ts",
+      "bytes": 672,
+      "sha256": "4dc8b99a63f6ddd87f6d9432bfe2d1fdb47e95da639c7c88f9914fde792e2825"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/roadGeometry.ts",
+      "bytes": 1530,
+      "sha256": "6baacee900ded8ff6684b1cd64d4e25d2dabc85ed58a6e41da0c22d48dafc507"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/scenery.ts",
+      "bytes": 495,
+      "sha256": "d4c2f2d2d38ebb43a02f935e9d930c5d2157870bacb8036720504b8159a2a3b8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/streaming.ts",
+      "bytes": 1651,
+      "sha256": "c1eaa71cc62cd7244dbfcf2b285e922e00804da802becb93089199905da1a192"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/structuralPropCollision.ts",
+      "bytes": 3777,
+      "sha256": "a73c8d8b25f36abd1e9b3a67bb8a74bbf89259b1c117c83192a8ed60e36b3e96"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/structuralPropNavigation.ts",
+      "bytes": 4668,
+      "sha256": "388707b4c2cecf3f3ea4e3cee1f7723f5350ad0b3daf773fbd628c5ce5cdec07"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/supplies.ts",
+      "bytes": 1876,
+      "sha256": "c7671d50e6c77d9fe2052ad454e97e750883dc13d02b7b328f228f4b99bfba68"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/traversal.ts",
+      "bytes": 4846,
+      "sha256": "ee4028d177acc35f9958e48a582f53e2aea5930ec91f7cfb2154c82d8a97e6b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/vertical-navigation.ts",
+      "bytes": 3081,
+      "sha256": "7f7911297df32bdeb6ee21991ccc14c2d213839eb6ca036b740576df8eef4319"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/weather.ts",
+      "bytes": 1925,
+      "sha256": "0362257af8fa82a1543e531af3ce52c6b8e6e8d7e99838ef666f5ff8c6a7452a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/workshopCollision.ts",
+      "bytes": 1597,
+      "sha256": "635b95627a621b4e7af095fd6a994e552124c8c151eed7bbfeb55d36e0b43c7e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/workshopGeometry.ts",
+      "bytes": 2947,
+      "sha256": "6b91cb378b68669f44f4ffab9c150dbba63af284299e8f7b8070c808cbbbe5e2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/app/App.tsx",
+      "bytes": 1266,
+      "sha256": "ca3389a4260e5fecd1cd82ee4b2b7d000b159f22018a27fda4ca2b7304afca97"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/debug/contactSnapshot.ts",
+      "bytes": 667,
+      "sha256": "dd9ed81bbb4bf870048c577f31cfc149b387f91bfd509abd482e7964974d616b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/debug/diagnostics.ts",
+      "bytes": 3859,
+      "sha256": "97fe7c6ca489648f4ae413557cabbb2ca80ff290bd43b73f1f0c56c9b769ee36"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/GameCanvas.tsx",
+      "bytes": 9641,
+      "sha256": "6dfa3bab7ba1046a7697bb4420699951696003bc57dd7681880a014e03ec1ba2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/audio.ts",
+      "bytes": 3322,
+      "sha256": "ffc71bdfeffa7c14ed55d268dc2cc81b50ed29aaccca21cd1cabf9e1441d5e3c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/pairFraming.ts",
+      "bytes": 3190,
+      "sha256": "2c4eb4167cdf526c7b40fbac8b48cbdbc3e8412ca697ff7828527360d87aa249"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/thirdPersonSight058.ts",
+      "bytes": 2610,
+      "sha256": "0f142e9399227e9326d60e97f5a7788e7867eeef74391e7ca385be47504886c7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/viewAim.ts",
+      "bytes": 1113,
+      "sha256": "4c456fa05550729204b34f7abfa79bdd965d88424ecce4350e89c3784a542c6c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/visualOccluders058.ts",
+      "bytes": 2229,
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/AreaEffects.tsx",
+      "bytes": 15818,
+      "sha256": "67318b03876b86a59341b021323a5d494a1b4a13497ad8100f77c9fc54774251"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/CombatEffects.tsx",
+      "bytes": 5372,
+      "sha256": "e87b4e210318e7b0969c3403b7075814fb504bd8523f4aea117ec33c6a461718"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/CoverDebris.tsx",
+      "bytes": 3461,
+      "sha256": "dc801bb294672755385a7651f25e06f465526528906d047fbf2a3bc57b034cf3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/EmpEffects.tsx",
+      "bytes": 3636,
+      "sha256": "4ff14c323ccdb375c70d7301615f9cb80a8f506a4b21e2abc1253aa3fbf553d4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/Weather.tsx",
+      "bytes": 2271,
+      "sha256": "f39caf3b8554ed48039127f06a052f65d125f7dfaf2c7680a8e32f16aa0e1ccf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/WeatherSky.tsx",
+      "bytes": 2834,
+      "sha256": "b3a21a4c061f5ffeb044d256d757b314fb0adb1e192436a678b4284ebe59b917"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/areaEffectDiagnostics.ts",
+      "bytes": 1290,
+      "sha256": "85e1f15edc336749e1706b2e885e6b33fedc4cb4aa51cff7c7e69435266e1062"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/areaPresentation.ts",
+      "bytes": 5937,
+      "sha256": "a9101ec17c60fc3e1bcc3bbb929041623f7413272d1a6b5858037c77a7d89d15"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/areaTimeline.ts",
+      "bytes": 2971,
+      "sha256": "8f5541a2e808ebee81e27c64d3d0c12606f385166f2640d66757551858a51733"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/combatParticles.ts",
+      "bytes": 1757,
+      "sha256": "24cf12080fe66df6887db15760cf793c6845e28e8aca722c06b78a32c5c320ea"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/effectClock.ts",
+      "bytes": 757,
+      "sha256": "a7049765ef59ba1edcfbd0d014cc5604161729d4bbe4f9ae69987efadc64ca31"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/effects/empOrigin.ts",
+      "bytes": 524,
+      "sha256": "91a6befb6fe55572729679ec1f92d72a50734ada648be5c0ed11b54a409d8601"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/climbingContact.ts",
+      "bytes": 5307,
+      "sha256": "dc1611b00838c99157e783159deb1c52ff253dbe8afbfdbaecb9c0dc303ddbdd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felineMotion.ts",
+      "bytes": 16781,
+      "sha256": "23044cf553acd15ea074d354869175a42549b7535c2d231db58b8c2f08cedc8f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwner.ts",
+      "bytes": 18347,
+      "sha256": "69c12ea93a2ebf037fe92b05e57230c3e5f86831b00d988e9b4bf93b82f01d58"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwner003.ts",
+      "bytes": 19229,
+      "sha256": "1b6707741031a7719bfd4597edadc0a6324f185fedd3a992630eefe6f7d92ac3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwner004.ts",
+      "bytes": 19231,
+      "sha256": "e048c35abbd793d5ea1be71d28c7d57de71253083f965cc4029ea407efc34926"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerActor.tsx",
+      "bytes": 5708,
+      "sha256": "a2c3b480b82a0951dc950da053b96cf96b2584ad7bf64fffd47700649046868e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerActor003.tsx",
+      "bytes": 7459,
+      "sha256": "f4fb1e80bd507ecebdb6a395beb83aca83b0f8bb4fa20e02e0812d14f82489e5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerActor004.tsx",
+      "bytes": 7461,
+      "sha256": "447c13dbe988952f3fada2f784ad0a3f51a69c102c48724590445fdeb310f429"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerEvidence003.ts",
+      "bytes": 2269,
+      "sha256": "e0bfa3fe52be03e08d60630887316ec3b5e2784f00fbf52a16c0d40c130b48eb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerEvidence004.ts",
+      "bytes": 2271,
+      "sha256": "8544a5f9257edd47b4cb5f36f0b2678bc2ff4235d239824ab9fc9b106088e3d3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerManifest.ts",
+      "bytes": 1836,
+      "sha256": "c1b486d855caa805b424791195f87a5652d95e3511a08ad676cc235aa9a339b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerManifest003.ts",
+      "bytes": 3529,
+      "sha256": "2a30907c7f4eb38d2e0700cb558939a747c4de36f571b6aadb7c694ba53cd043"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerManifest004.ts",
+      "bytes": 4061,
+      "sha256": "6947d2d21cab519dc33d86dfefe6bbe43ae758a1133d1cd1e00e67075467c75b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerNative.ts",
+      "bytes": 11640,
+      "sha256": "e931ed39692303fb881c6e8fd6fabbc87d4b045a69878190e7420c005717dc77"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerNative003.ts",
+      "bytes": 12586,
+      "sha256": "dfcc5ca99084305c7dc091a9a70a6d3bc60440c1b06340eee5cff7a422e9abb9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felinePoseOwnerNative004.ts",
+      "bytes": 12783,
+      "sha256": "fa60f514adc1bfeca2d990744cc89ca5bd9b72744f82376e704f5586cd754755"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/felineStrikeMotion.ts",
+      "bytes": 7845,
+      "sha256": "cb08155af8c8a83681e79c602eeef22e485a7bdb4e1052f4d2a795488452d9b0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime005Actor.tsx",
+      "bytes": 3352,
+      "sha256": "23c543d870741ffb090a8bd565c0e39a9cbaaf66b7000b300e14a313671db960"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime006Actor.tsx",
+      "bytes": 3516,
+      "sha256": "1e31e8a11e9c668a0c617559c46e8e0f32d95d41c193aaad0afe7371cda10498"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3644,
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime008Actor.tsx",
+      "bytes": 3917,
+      "sha256": "f3d97325119271d1de7ab08c65bd12d32021018fce61e82190179586dfaaffec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime019Actor.tsx",
+      "bytes": 4111,
+      "sha256": "7e42fa2e64518d62b0458db1232591bd3b854a33a130efa26dace178a7dcf23f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime034Asset.ts",
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime034Manifest.json",
+      "bytes": 239804,
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime058EAsset.ts",
+      "bytes": 244,
+      "sha256": "0c4f0760aac19a5a558e91dd4d914c40ca5e2d3f680e8b0a9adea1ff7d65f2c3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/identity57Runtime058EManifest.json",
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineAssetProfile002.ts",
+      "bytes": 2374,
+      "sha256": "a1ffc3383841175de74b8e9e8136cadba06f3a841b7b12008e89605c7bcd1c54"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineAssetProfiles002.json",
+      "bytes": 100837,
+      "sha256": "00474752411799d823a9de15a390b83c7c051ba72cdd679b5e3e49a4b5eed2e9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineContact001.ts",
+      "bytes": 7610,
+      "sha256": "779059feba7018bf512c47d71cac1826fa6de6dbef2069e5dde200715da91db7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineContact002.ts",
+      "bytes": 7726,
+      "sha256": "3f92d5e0ea64c4dcf43b8df4a646e79e4dbb0d650f8a9836008a637c1e9a8783"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionActor001.tsx",
+      "bytes": 5517,
+      "sha256": "bf44048429733e88a5cf3ce15802b6ec34e755c1c8d475690cbd197e9cfab30b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionActor002.tsx",
+      "bytes": 5692,
+      "sha256": "ef4f88344d627bde571789ed372a29b2855c0f3dccc8cbf4668284c460127d50"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionControl001.ts",
+      "bytes": 1630,
+      "sha256": "795e953faa1892932cc136964f15ca07a9b753482d626e90985d3bc5e18d0135"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionControl002.ts",
+      "bytes": 1630,
+      "sha256": "41526615f836d3b2d7997cb9a125322ff60562e1a861a1d9412abf39e50b204e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionOwner001.ts",
+      "bytes": 20759,
+      "sha256": "40ea2993fcda0bbbeddc4aa900672da2b9b2bd879bddfcb107c5a0f2fbe876a7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/practicalFelineMotionOwner002.ts",
+      "bytes": 22030,
+      "sha256": "2b5f11043451319bf88cc5792e97cc95b8f7478acbbb8e443e5ae3cc3ecb3d66"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/renderTimeline.ts",
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/entities/shareSkinPalettes042.ts",
+      "bytes": 1606,
+      "sha256": "da3e168e3239417fcd8c428d5e5f4d4732caa159a5c09c8242fdf5f35538fbd2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/jumpOutbox.ts",
+      "bytes": 1911,
+      "sha256": "5344836be28416726a4849cddc5bfe05597bc598a607b9e91498cfcfcfc8969b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/localAuthorityTiming043.ts",
+      "bytes": 1634,
+      "sha256": "3029bf9b51c68e313b97d85eed8261f4adf26ae975a268465af78c6d84a5859d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/network.ts",
+      "bytes": 12948,
+      "sha256": "8a44b5b8175259e3b353ca100a4ac1cc2c0cb6a647e06e7b3dd2e6d8ba93e917"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/networkReceipt.ts",
+      "bytes": 2596,
+      "sha256": "4a452f7206b514638fd15dc2a196013432ff24502a0ace1e2ed8433f6ddb039a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/physicsGuard.ts",
+      "bytes": 911,
+      "sha256": "096989ac15f6275bd265af54e6f5c8409c892d842870357c8dfce81b77893878"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/cityTextures.ts",
+      "bytes": 2046,
+      "sha256": "3607181d44c90bff0d4078fabf2e62331a5cc139afb0a399bbfdc9621f090860"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/materials.ts",
+      "bytes": 2547,
+      "sha256": "796a590ba759bebfb3dce8f8dd76912c1bca6da4afeba7ca335520c004412e8c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/modelPaths.ts",
+      "bytes": 596,
+      "sha256": "11d1d5f80b631c7edd8463005ce1de12f7747c2ffc7b6e3ba7c3d961bc4e1faf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/renderPixelBudget059.ts",
+      "bytes": 693,
+      "sha256": "a0eff4cddbeb7c6ca8d1c03fefff70c6d8233e229a5135bf9771adba77e3ad58"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/rendererReport.ts",
+      "bytes": 1566,
+      "sha256": "73d4f2c91133532dde213c0dd6bb80f56f27a76d480907122a983bb91f7221ab"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/surfaceDiagnostics.ts",
+      "bytes": 1714,
+      "sha256": "5377995d96087dccd946bebfc26e7f966f2caed2a8761534284610450c0b7f1b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/rendering/surfaceMaterials.ts",
+      "bytes": 2318,
+      "sha256": "01aea7336fbc8887b01faf830f0ded356d7e09dacf19c65010d51c58729f1c8d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/runtime.ts",
+      "bytes": 3231,
+      "sha256": "1b8cd05a1b12f85f8e58e29af6241291c302a9145d73494beb63bede3c2e26b9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/sessionAuthority.ts",
+      "bytes": 3398,
+      "sha256": "f1343c1307e3ca18adf790aacddd0c612f7f23854033bbaa205df643aa992007"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/snapshotAdmission.ts",
+      "bytes": 10932,
+      "sha256": "9bc4b63a31b6caa90678a6db19a09220e77bdc26658dad29e47eb2867967ba35"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/stanceRequest.ts",
+      "bytes": 2291,
+      "sha256": "2e4b6c8e4ccaebf5493a9e0b4d2b45ed5b7f204105e870ee7dee5fd5644ffa7f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/CityDebris.tsx",
+      "bytes": 1819,
+      "sha256": "5d449f7f0e58c6934f93b51c8a6402b449336eb089809515db3e3db509447420"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/CityDistrict.tsx",
+      "bytes": 8012,
+      "sha256": "12cdcb324ddfbfdaae39f7509ffe7f9b49047b75af8fc98279fffa3c7b0db711"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/FarTerrain.tsx",
+      "bytes": 2337,
+      "sha256": "eca1b74a1a7627004b8828bc4bbb760880c021f313ac2e20da7342c79a9a85a9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/FoliageInstances.tsx",
+      "bytes": 4421,
+      "sha256": "c74de98c75c1a37d55a10b0138ccaa68bda12bee943644185ec9aed2ef525a73"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/Landmarks.tsx",
+      "bytes": 1786,
+      "sha256": "d0509291c719853a0123f9ba792e61b1140720d03984b835320ac998f51d66ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/Objectives.tsx",
+      "bytes": 4271,
+      "sha256": "34033efb6f6ecc8dbb36024a108b945dd371ef0d93b5bc24566683b308dd8b66"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/ServiceClimb.tsx",
+      "bytes": 1563,
+      "sha256": "2970a68dd2235cd1282d9adaa4b032595abbe0d2eff5cc7e087eddfc9b760eb5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/Supplies.tsx",
+      "bytes": 3490,
+      "sha256": "279b1602c3a18366b534d5b59077eb817fe31ac1f81a5eb8aca1fc89f0d19a09"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/World.tsx",
+      "bytes": 15225,
+      "sha256": "03102a2b82afe822c0e96f27369950792e207c7f47cc8690601274e92e659660"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/buildingContacts.ts",
+      "bytes": 765,
+      "sha256": "32b558340f577dea108bb0e4f50ba424ae2cc47961b4930f71958846bc9bbad9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityAtlas.ts",
+      "bytes": 341,
+      "sha256": "a97b5dd3ae98eeff8d6f049cdd3c94b1e5a054beceb7b87cc503e26db89e1d65"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityFractureGeometry.ts",
+      "bytes": 1789,
+      "sha256": "c43383bf3db70df2e6b149fcc4f79b264beb323c4fdc6365288f43822af8fda1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityFractureRenderer.ts",
+      "bytes": 8743,
+      "sha256": "6fe1c51a3fb5a75d61ec97cc79ef4003eceeab9fb6e09fe2af8fb58434ce76c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityFragments.ts",
+      "bytes": 5472,
+      "sha256": "3501422a14277b08a624c1dbc3243e95072b03064d618a6f553425bc81eb046c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityGeometry.ts",
+      "bytes": 10442,
+      "sha256": "54a741c46fad398edaa0572314e213f75785bc211d626cc401ae09a7b9edcafb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/cityPresentation.ts",
+      "bytes": 5508,
+      "sha256": "ba8cd4e862c7fc9e6542f934d960aa559da79bb6c3c84db54468f08cd762f86e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/guestCollisionTiles.ts",
+      "bytes": 9092,
+      "sha256": "865f5fa9fa4cbfe7038dfd94b71cfa02bc95b8df3170ada484f792126e0603b1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulDistrictArt.tsx",
+      "bytes": 9005,
+      "sha256": "c8da0b2f1ede9479b2169bbbe7f2b174112b612d78e40c519a7b6d9045d37ec7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulDressingArt.tsx",
+      "bytes": 4480,
+      "sha256": "fa369cbbe196d401d72436fe417f1b8a4d1efc8c74806d9f13647935e092bb7b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulFragmentGeometry.ts",
+      "bytes": 3649,
+      "sha256": "e7b7df0dc0574a292d59d901cc6988302c2a89d43cdc2ee915937c66d6c66a32"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulRuinCollision.tsx",
+      "bytes": 2380,
+      "sha256": "e8c02adeef371812fc78a94d208ef217cf8e7221d9c4eef9f330756ffc8ea3ca"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/overhaulRuinCollisionOwner.ts",
+      "bytes": 4737,
+      "sha256": "cc7d17c8a919b301d75f3be561e2438a6126201dc6008b8a65f7b7ec53c792e5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/propPresentation.ts",
+      "bytes": 1385,
+      "sha256": "b3b43b526c1468199bd000c4602372e81dcf356904d62453d2ad1c6b18b7943c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/rainlineExtractionArt.tsx",
+      "bytes": 9779,
+      "sha256": "5a5b5d90315c82ea268581f80931bb32c5acc227f35fc571dda3c81c46519900"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/rainlineStreetArt.tsx",
+      "bytes": 6057,
+      "sha256": "e073d9ad49f2f42cc8600989ebe1f49d9645a0a7e40d3d8348f8947e0498241c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/streamingDiagnostics.ts",
+      "bytes": 2212,
+      "sha256": "24a0e4aab78e73605d34e2a52782495dbe5a2cca01e10b140397ed1ab9fb002d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/terrain.worker.ts",
+      "bytes": 403,
+      "sha256": "f555328f9a18450b7c6ba5860c50360e6acebd3a01d111921837e20b5af3f341"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/terrainCache.ts",
+      "bytes": 698,
+      "sha256": "9d9748990ff0297e49951e464187832fd6eff9f632371a5d79ab4f00c357d555"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/terrainScheduler.ts",
+      "bytes": 8868,
+      "sha256": "b03e156c344ed7f5a5f647d8264c23ccbfb3680e946d4680c3c9c628150b61d5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/terrainSubscription.ts",
+      "bytes": 984,
+      "sha256": "b5b88e3dac91c666a3d45b45a702f80c788682c3955d0691c828198ad5f26466"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/game/world/worldWindow.ts",
+      "bytes": 772,
+      "sha256": "3e94b2eb8b23503a73947243e0da2fd7b6bf8ecc4bbeeca57950bb204c774cef"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/main.tsx",
+      "bytes": 197,
+      "sha256": "5a4868fae85ad9d2b4a1adf648053e8579e676836dcb17f6a5713b4d4b740be0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/authority.ts",
+      "bytes": 3753,
+      "sha256": "59724e8ff419e244d58f5c26b55f44ff15ca14ca9680fa4406565eb17adfadac"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/candidate-r3f.tsx",
+      "bytes": 1364,
+      "sha256": "7e02edda714cb3ff6ed2b9b3c479cb06c827e053305d1d00a1bb13bbafc97fe7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/candidate-three.ts",
+      "bytes": 1059,
+      "sha256": "9f27249da58c01bc60bb7f6bbe1dcfec5dffaaa6abab256f087d4411b824d37b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/content.ts",
+      "bytes": 7852,
+      "sha256": "e3f5d50bce38ba71d68e387ea9f45e5d4c21026db7c49e7dc486f55d30153a8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/district.ts",
+      "bytes": 4213,
+      "sha256": "f6dc3eca45a867a5265a76d872cfc8bc0b6921a25160c1ebdd8a965e6c26c2a9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/main.ts",
+      "bytes": 5357,
+      "sha256": "c8f50db9d03fbb7c05ee4e58b29ab656641fced7d74c9a982de32f6414a79881"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/runtime.ts",
+      "bytes": 12663,
+      "sha256": "1c8dc2636e7b618f78db2c72e9a5d37475590d7fffe02bf015df9b280629d927"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/overhaul/benchmark/style.css",
+      "bytes": 1082,
+      "sha256": "79437cf9151a8e5d6f1c5d8f5fe2c87f191ab77884669f7bd98e5efea114e018"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/state/store.ts",
+      "bytes": 3303,
+      "sha256": "ac89636c1ec1ecb259e25b87e0c962a353f11d28a177194d261c4dd0dfd4591e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/Hangar.tsx",
+      "bytes": 6787,
+      "sha256": "ec227e39bcf9f59adfaf36bf15b76cee2775216f92a752ca196dbaf49c576dbc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/Hud.tsx",
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/Settings.tsx",
+      "bytes": 4559,
+      "sha256": "42f577cf52d51e240d80e0b04a1402f8821835500124f45fc29b587fd7ae71b7"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/TacticalMap.tsx",
+      "bytes": 5404,
+      "sha256": "51ce8a1c5c62c28bbcb2f5cc846d5597d62b98e83dda3699d57481d3ba9c7154"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/TouchControls.tsx",
+      "bytes": 3597,
+      "sha256": "b80ec2c7e711ab698fe17b5080b316d65f848dc1e33be1b13a388accfa717329"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/src/ui/styles.css",
+      "bytes": 27643,
+      "sha256": "c16d7efef6e99e0d28b7031bc602cdfbe272e2536c6ef46af0eddac4e7c124f4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/tsconfig.json",
+      "bytes": 368,
+      "sha256": "8cf594e1698f132ec8191f958c9017811c9d3f75abeeaf6ec44b9953e2fd0c96"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-045/playable-root/vite.config.ts",
+      "bytes": 553,
+      "sha256": "d0e0125a09e2e7c834bf90262afdd365877cc606bdb9c9cd9e2ec3a8eb5e6d83"
+    }
+  ],
+  "command": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "scope": "086 type-only085 compile compatibility correction runtimeequivalence mandatory; reused passed081fixture and completed084baseline, no reruns; firstfailureFINALSTOP;  conservative enemy animated culling; reused081containment/084baseline plus ONEcandidate normal capture; no animation/contact/physics throttling, firstfailure stop. Fullgoal/userlag unresolved."
+}

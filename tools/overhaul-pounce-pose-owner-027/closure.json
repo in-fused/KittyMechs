@@ -1,0 +1,69 @@
+{
+  "maxMatrixComponentResidual": 7.867813110351562E-06,
+  "qualifiedCapabilityCount": "UNKNOWN/not inferred fromexport",
+  "nextDecision": "separately authorized wholebody hand/tail anticipation and travel geometry, retain measured singlewriter and allguards; no gap/tolerance/omission workaround",
+  "status": "CLOSED_FIRST_GENUINE_FULL_TRAJECTORY_FAILURE_STOP",
+  "boneCount": 57,
+  "newPartialRoles": 2,
+  "nextSuccessorAuthorized": false,
+  "nativeWorldCleanup": "NOT_APPLICABLE no nativeworld job; observed Blender process exits only",
+  "fixedRestUnchanged": true,
+  "resultSealSHA256": "75e767f8c1f9220ef81f5e21126a50cf229993e917a10003c5c5e2cb93f2cdc5",
+  "outputRowsMatched": 29,
+  "newCompleteRoles": 4,
+  "selfExecutedJobs": 0,
+  "actualStartUTC": "2026-10-10T20:03:57Z",
+  "criticReview": "docs/overhaul/critic/pounce-pose-owner-027-full-author-result-review.md",
+  "observedJobs": [
+    {
+      "receipt": ".sites-runtime/overhaul-20261010/pose-owner-027-process/process-receipt.json",
+      "exitCode": 0,
+      "startUTC": "2026-10-10T16:13:37.100514-04:00",
+      "failure": null,
+      "elapsedSeconds": 29.781999999890104,
+      "endUTC": "2026-10-10T16:14:06.207038-04:00",
+      "pid": 344432
+    },
+    {
+      "receipt": ".sites-runtime/overhaul-20261010/pose-owner-027-validation-process/process-receipt.json",
+      "exitCode": 0,
+      "startUTC": "2026-10-10T16:21:38.791924-04:00",
+      "failure": null,
+      "elapsedSeconds": 16.187999999849126,
+      "endUTC": "2026-10-10T16:21:54.983146-04:00",
+      "pid": 352536
+    },
+    {
+      "receipt": ".sites-runtime/overhaul-20261010/pose-owner-027-full-process/process-receipt.json",
+      "exitCode": 1,
+      "startUTC": "2026-10-10T16:27:47.337215-04:00",
+      "failure": null,
+      "elapsedSeconds": 117.57799999997951,
+      "endUTC": "2026-10-10T16:29:44.922533-04:00",
+      "pid": 349360
+    }
+  ],
+  "activeOwnedJobs": 0,
+  "activeOwnedWritersAfterClosure": 0,
+  "nativeRuntimeChanges": 0,
+  "remaining": [
+    "complete tail-aware incoming hand path and full pair family",
+    "native support/load/contact/pin and runtime separation",
+    "upright/death/down/newstate completion",
+    "finished art and fullGate1"
+  ],
+  "ownerMatrixChecks": 470,
+  "criticSHA256": "04720575a9fc05acc5200d36c8baa8f86d58a792f6844eb671f86aebd052e45c",
+  "resultSeal": "tools/overhaul-pounce-pose-owner-027/full-result-seal.json",
+  "closedUTC": "2026-10-10T20:35:32.0433445Z",
+  "retries": 0,
+  "hardDeadlineUTC": "2026-10-10T20:42:00Z",
+  "ownerRepair": "ACCEPTED bounded actual action/solver ownership and selected point correspondence",
+  "acceptedAssemblyRows": 77,
+  "inheritedActualIdentities": 43,
+  "actualExportedClips": 49,
+  "hashMismatches": 0,
+  "sourceInputRowsMatched": 80,
+  "fullTrajectory": "DENIED:126 left claw/victim tail BVH candidates atImpact2.4s/frame29; depthUNKNOWN",
+  "schema": "poseowner027-final-closure"
+}

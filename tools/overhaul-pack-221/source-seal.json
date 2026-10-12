@@ -1,0 +1,219 @@
+{
+  "writer": "CLOSED",
+  "status": "PACK_PASS_BROWSER_SOURCE_READY_UNRUN",
+  "closedUTC": "2026-10-11T22:28:37.152976+00:00",
+  "files": [
+    {
+      "path": "tools/overhaul-pack-221/adapt-supervisor221.py",
+      "bytes": 3454,
+      "sha256": "148d3f46659efb330bc0294d54b4d5e6380217b8090821b007679875f73fd18e"
+    },
+    {
+      "path": "tools/overhaul-pack-221/browser-equivalence221.mjs",
+      "bytes": 4965,
+      "sha256": "1244b254bebf15df29325d92c0307bb0ae80c63590d38476a937944eb1b1e188"
+    },
+    {
+      "path": "tools/overhaul-pack-221/bundle-preparation-failure221.json",
+      "bytes": 295,
+      "sha256": "577f56c1236f215aff7d18a7567a0e77112dfe3937e1ccaadf5ffc14cd864596"
+    },
+    {
+      "path": "tools/overhaul-pack-221/bundle-summary221.json",
+      "bytes": 243,
+      "sha256": "40c1b3602f55c400911713317d142316697c4fb12a1b6bb8a88fef19e39f016c"
+    },
+    {
+      "path": "tools/overhaul-pack-221/check-observer221.mjs",
+      "bytes": 751,
+      "sha256": "462e09b6f7eeaadb9d6398e55d9102ca5eee8bb807e681e6b4bc646ae2690751"
+    },
+    {
+      "path": "tools/overhaul-pack-221/close221.py",
+      "bytes": 2339,
+      "sha256": "0632dca946718afb9448b67b3b4970ee60fceeb2537b9915b719a9cdb925d133"
+    },
+    {
+      "path": "tools/overhaul-pack-221/equivalence-bundle221.js",
+      "bytes": 1009752,
+      "sha256": "aa7d8195a179eb525eb92f2c6e135f4cbabc400202daa81a2abbd47e4a6f83dd"
+    },
+    {
+      "path": "tools/overhaul-pack-221/equivalence-entry221-pretype.ts",
+      "bytes": 13868,
+      "sha256": "1ad5a445374a41c124d05f75b16205fa316a5c1968d8d02457b5b7855bd16da5"
+    },
+    {
+      "path": "tools/overhaul-pack-221/equivalence-entry221.ts",
+      "bytes": 14325,
+      "sha256": "7971e42069f8f0262cb3237843d984420e36986f858308164101fc5512e26fc9"
+    },
+    {
+      "path": "tools/overhaul-pack-221/equivalence-first-bundle221.js",
+      "bytes": 1009469,
+      "sha256": "40728fa487d9aba2fd68ffb0bb639658520ddef6802de2cd771bdbba47ceb00c"
+    },
+    {
+      "path": "tools/overhaul-pack-221/esbuild-first-metafile221.json",
+      "bytes": 160682,
+      "sha256": "81b06c003902139ad209e38e9728fbaa1e04666e9bef5c4bbc0b9f2b87cfb904"
+    },
+    {
+      "path": "tools/overhaul-pack-221/esbuild-metafile221-final.json",
+      "bytes": 160682,
+      "sha256": "fd93005aaf37dc441d527dc2ee27e8b700e23a495a0ee4ce0420457a4abff6c8"
+    },
+    {
+      "path": "tools/overhaul-pack-221/esbuild-metafile221.json",
+      "bytes": 160682,
+      "sha256": "81b06c003902139ad209e38e9728fbaa1e04666e9bef5c4bbc0b9f2b87cfb904"
+    },
+    {
+      "path": "tools/overhaul-pack-221/HANDOFF.md",
+      "bytes": 5222,
+      "sha256": "3d5265ad926fbc28e87b5de983a8709ad0e3218431227bc7d434ef72e80a9753"
+    },
+    {
+      "path": "tools/overhaul-pack-221/loader-source-seal221.json",
+      "bytes": 2956,
+      "sha256": "607876607b60aec4b2551a8a3757f9cbaa1ea341a3c1f506b4a13f5d57f27263"
+    },
+    {
+      "path": "tools/overhaul-pack-221/observer-type-first-receipt221.json",
+      "bytes": 470,
+      "sha256": "faa903e8969ab9411ad82c46dd3690cfc744fcb53a4981d49a3dca6ec73ef400"
+    },
+    {
+      "path": "tools/overhaul-pack-221/observer-type-receipt221.json",
+      "bytes": 59,
+      "sha256": "5647a982dbb5bd5d47687bcd16627b4bd2e0f21b319190564094eeda1345efb2"
+    },
+    {
+      "path": "tools/overhaul-pack-221/output/Pounce_Anatomy221.glb",
+      "bytes": 6441480,
+      "sha256": "5147c2c2e46f4b2328d5d97ac091da70204244cb68882592d6328cec53489473"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack-source-seal221.json",
+      "bytes": 2352,
+      "sha256": "584f8e9587dc8d969ef0aef97f7bf447ce34e6c9baf9c8b4b35d0ded0dd50ce5"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack221-live.json",
+      "bytes": 314,
+      "sha256": "a9b4976b44e7bc980e3ddbe2968645860079bece40f89f211d42038edfda95f1"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack221-process-receipt.json",
+      "bytes": 464,
+      "sha256": "44d428a8092f3969edc3e3e78f6f7c9dacbb2aaab5e219d2566f449ded37061a"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack221-receipt.json",
+      "bytes": 3203721,
+      "sha256": "3036164a008a9b13b4b98560a393662f62c8cdd3bfffcf5312c187f7f0db3c14"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack221-stdout.txt",
+      "bytes": 420,
+      "sha256": "6cdd7a56148cbd1a061bffb5f1e533069e9ba7a8371adb512608b16fedcdb41b"
+    },
+    {
+      "path": "tools/overhaul-pack-221/pack221.mjs",
+      "bytes": 2090,
+      "sha256": "c7e486aafe6132a55371e4355244e19b2eca2e08e0ce5da504bfdeb9ef0cdead"
+    },
+    {
+      "path": "tools/overhaul-pack-221/prepare-browser-bundle221.mjs",
+      "bytes": 1454,
+      "sha256": "b0084e92a1703ba1a442188572ca5fdb0c0035ed216a5fa34db48dda81b5631e"
+    },
+    {
+      "path": "tools/overhaul-pack-221/prepare221.py",
+      "bytes": 1433,
+      "sha256": "d5082bb9d1bf4a2b8e86f1a5ccb38f58f0d625c6c7993762105c7be5a56dbc19"
+    },
+    {
+      "path": "tools/overhaul-pack-221/protected-after221.json",
+      "bytes": 15969,
+      "sha256": "2130c25b60607d26a1f32db24d484826fbf802a55b4dc05007f1be0921a33798"
+    },
+    {
+      "path": "tools/overhaul-pack-221/protected-before221.json",
+      "bytes": 15969,
+      "sha256": "2130c25b60607d26a1f32db24d484826fbf802a55b4dc05007f1be0921a33798"
+    },
+    {
+      "path": "tools/overhaul-pack-221/protected-inputs221.json",
+      "bytes": 1558,
+      "sha256": "890778a29292bfe7171c23530263ca6aed8e459c91254013d76062106170a7bb"
+    },
+    {
+      "path": "tools/overhaul-pack-221/run-loader221-draft.py",
+      "bytes": 4084,
+      "sha256": "63744917364c15a8540db42465b84a6585f8b7bf2cd9b17f61559f72266b03db"
+    },
+    {
+      "path": "tools/overhaul-pack-221/run-loader221.py",
+      "bytes": 6831,
+      "sha256": "7d2323f3fc7865519791d4f71b355c295df5d6998bf09717dc7838918126011c"
+    },
+    {
+      "path": "tools/overhaul-pack-221/run-pack221.py",
+      "bytes": 2410,
+      "sha256": "fd7e4c3769d441c26e5d64103edd9d32137354965e2da7ede8ad5940847585e4"
+    },
+    {
+      "path": "tools/overhaul-pack-221/supervisor-diff221.txt",
+      "bytes": 7530,
+      "sha256": "331c9a3746ae507472a9bf2634a4d165f10aa1174d1a7205ded0328da3e85858"
+    },
+    {
+      "path": "tools/overhaul-pack-221/supervisor219-preimage.py",
+      "bytes": 4839,
+      "sha256": "76cd6cfd951b0cd0ffaa789c544a4feceb4640a7aa5c8a829c5a3f204331f65c"
+    }
+  ],
+  "protectedInputs": [
+    {
+      "path": "tools/overhaul-delivery-209/output/Pounce_Anatomy209.glb",
+      "bytes": 18399512,
+      "sha256": "64cc5c99ffb7ca038c20e56b50e0281643559cd44db2fd92deab48ca134864e7"
+    },
+    {
+      "path": "tools/overhaul-native-214/pack214.mjs",
+      "bytes": 7990,
+      "sha256": "e20755b7c776968b14e61782ad29cdd92af525c6b79521c291d1efdb5b615bfe"
+    },
+    {
+      "path": "tools/overhaul-native-214/source-seal.json",
+      "bytes": 9474,
+      "sha256": "b867aead417e6cb5098fdbaf0e0a44e21a5d09be62e65ad6dcfe3adc6f9fa618"
+    },
+    {
+      "path": "tools/overhaul-native-wiring-218/source-seal.json",
+      "bytes": 6841,
+      "sha256": "c9b169fa99ec072b51e33f780cb7c9fbfca812f34bd1534081ccb65d128a9b83"
+    },
+    {
+      "path": "tools/overhaul-delivery-206/convert206.mjs",
+      "bytes": 11447,
+      "sha256": "3583ded03cd29f292bfae28e7c4bd6423edf33026a95eec6a9a6e82e4edd2008"
+    },
+    {
+      "path": "tools/overhaul-delivery-209/convert209.mjs",
+      "bytes": 6898,
+      "sha256": "ea6258aad8a381fe1174ce96b3340f8cdda82b47821405b30ddd8cbde3466486"
+    },
+    {
+      "path": "assets/source/overhaul-anatomy-motion-202/Pounce_Anatomy202.blend",
+      "bytes": 84561157,
+      "sha256": "7f83683dc332e6075c1965ed4d393ae1a4be72d747c92771fc5cff0fffa55857"
+    },
+    {
+      "path": "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+      "bytes": 12361,
+      "sha256": "b7865b6a5cdbf87dfe14f8e4e1d1c64cc849b2e4535eb15b522da33a1c5eeabb"
+    }
+  ]
+}

@@ -1,0 +1,2831 @@
+{
+  "writer": "CLOSED",
+  "scope": "Static raw GLB schema only;not imported correspondence",
+  "sourceSHA": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad",
+  "rootNames": [
+    "transit_wall",
+    "transit_deck",
+    "residential_wall",
+    "residential_deck",
+    "loading_wall",
+    "loading_deck",
+    "control_wall",
+    "control_deck",
+    "loading_ground",
+    "loading_upper",
+    "transit_ground",
+    "transit_upper",
+    "control_ground",
+    "control_upper",
+    "residential_ground",
+    "residential_upper",
+    "loading_label_machine",
+    "loading_label_entry",
+    "loading_label_warehouse",
+    "loading_label_eastworks",
+    "loading_label_freight",
+    "loading_label_corewest",
+    "loading_label_coreeast",
+    "transit_label_west",
+    "transit_label_east",
+    "transit_label_rear",
+    "control_label_pump",
+    "control_label_grid",
+    "control_label_power",
+    "control_label_city",
+    "residential_label_quay",
+    "residential_label_east"
+  ],
+  "primitives": [
+    {
+      "mesh": "Cube.139",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.138",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.155",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.179",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.180",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.178",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.196",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.195",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.119",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.118",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.135",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 72
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.159",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.160",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.158",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.176",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.175",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.001",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.004",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.006",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.065",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.037",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.040",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 792
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 792
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 792
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 792
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.042",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.097",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.084",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.081",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.133",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.120",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 504
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.115",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.181",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.161",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.154",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.223",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.208",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 624
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.205",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.286",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.245",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.248",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.299",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.352",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.311",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.314",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 312
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.365",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.377",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.380",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1519
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1519
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1519
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1519
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.382",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.414",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.417",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1451
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1451
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1451
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1451
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.419",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.451",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.454",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1586
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1586
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1586
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1586
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.456",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.488",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.491",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1506
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1506
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1506
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1506
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.493",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.525",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.528",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1518
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1518
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1518
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1518
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.530",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.562",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.565",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1467
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1467
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1467
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1467
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.567",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.599",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 96
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.602",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1513
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1513
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1513
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1513
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.604",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 144
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.652",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.639",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1236
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1236
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1236
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1236
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.636",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.687",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.674",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1402
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1402
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1402
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1402
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.671",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.722",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 24
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.709",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1352
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1352
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1352
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1352
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.706",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.759",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.744",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1432
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1432
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1432
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1432
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.741",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.800",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.785",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1214
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1214
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1214
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1214
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.782",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.841",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.826",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1387
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1387
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1387
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1387
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.823",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.882",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.867",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1175
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1175
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1175
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1175
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.864",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 288
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.946",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.905",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.908",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1040
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1040
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1040
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1040
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.959",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    },
+    {
+      "mesh": "Cube.1013",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 48
+        }
+      },
+      "material": "RainlineIdentity_glazing"
+    },
+    {
+      "mesh": "Cube.972",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1008
+        }
+      },
+      "material": "RainlineIdentity_masonry"
+    },
+    {
+      "mesh": "Cube.975",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1295
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1295
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1295
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 1295
+        }
+      },
+      "material": "RainlineIdentity_metal"
+    },
+    {
+      "mesh": "Cube.1026",
+      "attributes": {
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        },
+        "COLOR_0": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": null,
+          "count": 216
+        }
+      },
+      "material": "RainlineIdentity_mineral"
+    }
+  ]
+}

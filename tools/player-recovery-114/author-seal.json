@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/Pounce_Motion106.blend",
+      "bytes": 81470460,
+      "sha256": "6cb7ab21acdca61aaa59e7511d990841aa17f372670670a8e01994051671df29"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/author.py",
+      "bytes": 13262,
+      "sha256": "13dea23636ad246532738c1d7e430a16b17fc49adc68e437ef9a5dbf9c1a74a5"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-106/preservation.json",
+      "bytes": 376,
+      "sha256": "f0f07f24e31e1c2af12f1928db7f049de1bdd5021cd1f7d71daa458096c5a79f"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "bytes": 77650342,
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "bytes": 8552,
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "bytes": 10162,
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/geometry-material-preservation.json",
+      "bytes": 55347,
+      "sha256": "71a91b0f8946ea1ae135910b42d53ce3569924c057ff2528b3bf24c119f73522"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "bytes": 20304,
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "bytes": 2631,
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source-profile.json",
+      "bytes": 274354,
+      "sha256": "24f188efeb11b7603ed17ab2bb882a73bcc70bd4fc64af025a1079e8c1fe484f"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-112/author.py",
+      "bytes": 13622,
+      "sha256": "f3a595099d67592cede287aa26da0b3c903f4e72962a88858061aa9bc0a9fd65"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-motion-112/choreography112.py",
+      "bytes": 7522,
+      "sha256": "3aa9874f15535a4f8fc72644505cb1e6077b850258de540b1664738e19ccdf11"
+    },
+    {
+      "path": "tools/overhaul-motion-112/HANDOFF.md",
+      "bytes": 7459,
+      "sha256": "2aa432bd36219f018bec16a5c6c005b5863f74ce60d03fb4f2ade3898894308e"
+    },
+    {
+      "path": "tools/overhaul-motion-112/footfall-metadata.json",
+      "bytes": 2415,
+      "sha256": "986004516d1678dfd49eceb011994bfada358da4a86e50ed70f5a5c258313668"
+    },
+    {
+      "path": "tools/overhaul-motion-112/footfall-companion-proposal.ts",
+      "bytes": 1214,
+      "sha256": "77a98743e6599285de8381945fdc31a78dbd155ded2d5001fde2ad184129fa6e"
+    },
+    {
+      "path": "tools/overhaul-motion-112/protected-inputs.json",
+      "bytes": 2054,
+      "sha256": "2e330f1dca0233a8b3154e85b5b27ae0c15a3fc95d074c2837a194b8a0fc87ac"
+    },
+    {
+      "path": "docs/overhaul/critic/motion110-play-review.md",
+      "bytes": 3866,
+      "sha256": "08a688fe15358395a8842821455ffa41a978b13e3f364698fdc85c46653797df"
+    },
+    {
+      "path": "tools/overhaul-motion-112/source-seal.json",
+      "bytes": 3463,
+      "sha256": "c2e12c3e7ec453f4e8ab743e4437837ac23ceab390685960418b412fed9ee8e0"
+    },
+    {
+      "path": "docs/overhaul/critic/motion112-source-review.md",
+      "bytes": 4060,
+      "sha256": "4b635b3accb0ceadb85d9c355aee83dbd89f54eaf06612f42097af27d6143fde"
+    },
+    {
+      "path": "tools/player-recovery-114/prepare-author.py",
+      "bytes": 1522,
+      "sha256": "f2ff06741830afe2daa11656a2ee278fc6e48f6f421cf24bafea41be530b0b32"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-motion-112\\author.py"
+  ],
+  "scope": "ONE180s inclusive source-author/export; first failure STOP, no public/runtime mutation or replay"
+}

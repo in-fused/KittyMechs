@@ -1,0 +1,6 @@
+{
+  "stage": "draft copy before freeze",
+  "error": "Assumed loft-specific owner path absent; loft actually references closed audit owner",
+  "sourceExecution": false,
+  "resolution": "Copied identical preserved audit owner into new namespace; no source geometry or job"
+}

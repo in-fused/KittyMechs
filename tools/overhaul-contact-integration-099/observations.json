@@ -1,0 +1,299 @@
+{
+  "receipt": "a7f4259eaa7f8398b9bd68bcf7302905195981ff283e6e04ae72e2a6da70abfe",
+  "scope": "Read-only sampled native/marker/task/skin-subset evidence. Not complete foot envelope, visible gait/contact/fluidR/performance/IAB/fullscope approval. Phase requests differ from achieved stance; video clock separate.",
+  "phases": [
+    {
+      "phase": "idle",
+      "samples": 3,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 0.31666666666666554,
+      "sampledDisplacementMeters": 1.248412955336142e-10,
+      "ownerClips": [
+        "FelineIdle"
+      ],
+      "footModes": {
+        "stance": 12
+      },
+      "plantedMarkerMaxError": 4.7230999481003783e-07,
+      "allTaskMaxError": 4.7230999481003783e-07,
+      "plantedSkinSubsetMinNormalGap": 1.6778876191225756e-08,
+      "plantedSkinSubsetMaxNormalGap": 3.751932164119953e-07,
+      "maxTranslationLengthError": 4.172325106521768e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "quad-forward",
+      "samples": 21,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 2.533333333333456,
+      "sampledDisplacementMeters": 18.623160714037493,
+      "ownerClips": [
+        "FelineGallop",
+        "FelineIdle",
+        "FelineTrot"
+      ],
+      "footModes": {
+        "free": 4,
+        "release": 22,
+        "stance": 24,
+        "swing": 8,
+        "touch": 26
+      },
+      "plantedMarkerMaxError": 4.864835405416128e-07,
+      "allTaskMaxError": 4.864835405416128e-07,
+      "plantedSkinSubsetMinNormalGap": -7.971454483887697e-05,
+      "plantedSkinSubsetMaxNormalGap": 8.914095886360107e-05,
+      "maxTranslationLengthError": 4.768371579810804e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "quad-reverse",
+      "samples": 18,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 2.250000000000112,
+      "sampledDisplacementMeters": 16.46290463592275,
+      "ownerClips": [
+        "FelineGallop",
+        "FelineTrot",
+        "FelineWalk"
+      ],
+      "footModes": {
+        "free": 6,
+        "release": 23,
+        "stance": 15,
+        "swing": 4,
+        "touch": 24
+      },
+      "plantedMarkerMaxError": 2.58953456919539e-07,
+      "allTaskMaxError": 3.207599168204894e-07,
+      "plantedSkinSubsetMinNormalGap": -8.663303370226583e-05,
+      "plantedSkinSubsetMaxNormalGap": 8.648030304080068e-05,
+      "maxTranslationLengthError": 4.768371579810804e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "quad-stop",
+      "samples": 4,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 0.3833333333333524,
+      "sampledDisplacementMeters": 0.009123000876559564,
+      "ownerClips": [
+        "FelineIdle",
+        "FelineWalk"
+      ],
+      "footModes": {
+        "release": 1,
+        "stance": 9,
+        "swing": 5,
+        "touch": 1
+      },
+      "plantedMarkerMaxError": 5.136317956734822e-07,
+      "allTaskMaxError": 5.136317956734822e-07,
+      "plantedSkinSubsetMinNormalGap": -2.8083587391702913e-07,
+      "plantedSkinSubsetMaxNormalGap": 3.743051018301191e-07,
+      "maxTranslationLengthError": 4.172325106521768e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "moving-R-up",
+      "samples": 9,
+      "nativeStances": [
+        "quadruped",
+        "upright"
+      ],
+      "nativeSeconds": 1.0166666666667172,
+      "sampledDisplacementMeters": 4.722736820600269,
+      "ownerClips": [
+        "FelineIdle",
+        "FelineTransformUp",
+        "FelineUprightStride",
+        "FelineWalk"
+      ],
+      "footModes": {
+        "release": 8,
+        "stance": 9,
+        "swing": 8,
+        "touch": 3,
+        "unloaded": 8
+      },
+      "plantedMarkerMaxError": 4.853340565515846e-07,
+      "allTaskMaxError": 4.853340565515846e-07,
+      "plantedSkinSubsetMinNormalGap": -1.3102496438932576e-05,
+      "plantedSkinSubsetMaxNormalGap": 1.329140693748232e-05,
+      "maxTranslationLengthError": 4.172325106521768e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "upright-forward",
+      "samples": 15,
+      "nativeStances": [
+        "upright"
+      ],
+      "nativeSeconds": 1.799999999999903,
+      "sampledDisplacementMeters": 8.754941880705791,
+      "ownerClips": [
+        "FelineUprightStride"
+      ],
+      "footModes": {
+        "free": 2,
+        "release": 7,
+        "stance": 12,
+        "swing": 2,
+        "touch": 7,
+        "unloaded": 30
+      },
+      "plantedMarkerMaxError": 1.2686710713660038e-07,
+      "allTaskMaxError": 1.9594241151670103e-07,
+      "plantedSkinSubsetMinNormalGap": -2.760639604884596e-05,
+      "plantedSkinSubsetMaxNormalGap": 2.761090087152751e-05,
+      "maxTranslationLengthError": 2.9802322099037326e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "upright-reverse",
+      "samples": 15,
+      "nativeStances": [
+        "upright"
+      ],
+      "nativeSeconds": 1.7999999999998977,
+      "sampledDisplacementMeters": 8.104418863929741,
+      "ownerClips": [
+        "FelineUprightStride",
+        "FelineUprightWalkLong"
+      ],
+      "footModes": {
+        "free": 2,
+        "release": 5,
+        "stance": 14,
+        "swing": 4,
+        "touch": 5,
+        "unloaded": 30
+      },
+      "plantedMarkerMaxError": 1.7874371963259678e-07,
+      "allTaskMaxError": 3.013802038545941e-07,
+      "plantedSkinSubsetMinNormalGap": -2.7942273551628816e-05,
+      "plantedSkinSubsetMaxNormalGap": 2.7941839901776677e-05,
+      "maxTranslationLengthError": 2.9802322099037326e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "upright-stop",
+      "samples": 4,
+      "nativeStances": [
+        "upright"
+      ],
+      "nativeSeconds": 0.38333333333331154,
+      "sampledDisplacementMeters": 0.00581651837241293,
+      "ownerClips": [
+        "FelineUprightIdle",
+        "FelineUprightWalkLong"
+      ],
+      "footModes": {
+        "stance": 8,
+        "unloaded": 8
+      },
+      "plantedMarkerMaxError": 7.13504620176738e-08,
+      "allTaskMaxError": 7.13504620176738e-08,
+      "plantedSkinSubsetMinNormalGap": -9.667569570714907e-07,
+      "plantedSkinSubsetMaxNormalGap": 9.869739766577013e-07,
+      "maxTranslationLengthError": 2.3841858043383013e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "moving-R-down",
+      "samples": 9,
+      "nativeStances": [
+        "quadruped",
+        "upright"
+      ],
+      "nativeSeconds": 1.0333333333332746,
+      "sampledDisplacementMeters": 6.8399167676855805,
+      "ownerClips": [
+        "FelineGallop",
+        "FelineTransformDown",
+        "FelineUprightIdle",
+        "FelineUprightWalkLong"
+      ],
+      "footModes": {
+        "release": 3,
+        "stance": 8,
+        "swing": 10,
+        "touch": 3,
+        "unloaded": 12
+      },
+      "plantedMarkerMaxError": 8.694837023404776e-08,
+      "allTaskMaxError": 2.7953088729958296e-07,
+      "plantedSkinSubsetMinNormalGap": -9.913318444726427e-05,
+      "plantedSkinSubsetMaxNormalGap": 9.89039235150535e-05,
+      "maxTranslationLengthError": 2.7274453329173554e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "quad-return",
+      "samples": 13,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 1.5666666666665776,
+      "sampledDisplacementMeters": 5.807347707103392,
+      "ownerClips": [
+        "FelineGallop",
+        "FelineIdle",
+        "FelineWalk"
+      ],
+      "footModes": {
+        "free": 4,
+        "release": 7,
+        "stance": 20,
+        "swing": 10,
+        "touch": 11
+      },
+      "plantedMarkerMaxError": 6.414842243789583e-07,
+      "allTaskMaxError": 6.414842243789583e-07,
+      "plantedSkinSubsetMinNormalGap": -8.444149592452821e-05,
+      "plantedSkinSubsetMaxNormalGap": 8.429669972800924e-05,
+      "maxTranslationLengthError": 4.172325106521768e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    },
+    {
+      "phase": "final-idle",
+      "samples": 6,
+      "nativeStances": [
+        "quadruped"
+      ],
+      "nativeSeconds": 0.649999999999963,
+      "sampledDisplacementMeters": 8.077550454076092e-05,
+      "ownerClips": [
+        "FelineIdle"
+      ],
+      "footModes": {
+        "stance": 24
+      },
+      "plantedMarkerMaxError": 6.436139341683044e-07,
+      "allTaskMaxError": 6.436139341683044e-07,
+      "plantedSkinSubsetMinNormalGap": -1.3789230884908577e-07,
+      "plantedSkinSubsetMaxNormalGap": 4.101739097678303e-07,
+      "maxTranslationLengthError": 4.172325106521768e-07,
+      "clockMismatches": 0,
+      "fallbacks": 0
+    }
+  ]
+}

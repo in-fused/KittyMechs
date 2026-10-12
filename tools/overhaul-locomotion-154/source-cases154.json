@@ -1,0 +1,3818 @@
+{
+  "provenance": "ACTUAL_DECODED_SOURCE_FK_NO_BROWSER_NATIVE_CONTACT_OR_QUALITY_CERTIFICATE",
+  "cases": [
+    {
+      "rig": "ON57",
+      "time": 1.1,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.03857143149683573,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineWalk",
+            "time": 0.05523809838613279,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineWalk",
+            "weight": 1,
+            "phase": 0.03857143149683573,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.36651305544420637,
+              1.103461832306771,
+              -0.6051671863918325
+            ],
+            "lower": [
+              0.3938036399230929,
+              0.5084610910271795,
+              -0.42544202525057084
+            ],
+            "paw": [
+              0.3919947825794639,
+              0.1375718588691785,
+              -1.0359942493470928
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.3854032633863321,
+              1.1128152100106288,
+              -0.5989732156000284
+            ],
+            "lower": [
+              -0.4262099471235669,
+              0.6661802010886622,
+              -0.16778446647319945
+            ],
+            "paw": [
+              -0.39200608835705353,
+              0.13758304295877766,
+              -0.6471083753852409
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.3315273626502585,
+              1.0593300537929704,
+              0.6419790882860896
+            ],
+            "lower": [
+              0.3946478374609692,
+              0.5698703095167206,
+              0.42035595127177355
+            ],
+            "paw": [
+              0.3680053364806929,
+              0.1635682182513947,
+              0.9011497365899601
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.35633045308834294,
+              1.0479190602500932,
+              0.633884106349105
+            ],
+            "lower": [
+              -0.39351230255263336,
+              0.7376279169017155,
+              0.19228588409563868
+            ],
+            "paw": [
+              -0.36799234284844895,
+              0.12156937939200702,
+              0.5904419314831622
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.2000000000000002,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.9715619863283564,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.42148416485550827,
+            "weight": 0.721040072108957
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.9882286375771805,
+            "weight": 0.27895992789104296
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.721040072108957,
+            "phase": 0.9715619863283564,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.27895992789104296,
+            "phase": 0.9715619863283564,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.3687599090847108,
+              1.1159311323015422,
+              -0.5178394007902382
+            ],
+            "lower": [
+              0.3914417969895497,
+              0.49470243272910774,
+              -0.49269243549287856
+            ],
+            "paw": [
+              0.3920334053977511,
+              0.13764503152126933,
+              -1.1114377687824226
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.383187445290662,
+              1.1196655929250068,
+              -0.5259096000863905
+            ],
+            "lower": [
+              -0.43037770302573114,
+              0.6913786043487425,
+              -0.07711653937066476
+            ],
+            "paw": [
+              -0.3918931512618444,
+              0.1354408310955557,
+              -0.5240935804978377
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.33963241096434116,
+              1.0634786596790897,
+              0.7127490996453741
+            ],
+            "lower": [
+              0.3878601371004594,
+              0.5660078485680121,
+              0.5057010378058895
+            ],
+            "paw": [
+              0.36816032041508434,
+              0.12129782582437246,
+              1.0011452920644885
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.3482715265593314,
+              1.0589132552967921,
+              0.7232985854971985
+            ],
+            "lower": [
+              -0.4105361259193828,
+              0.9010273004150834,
+              0.20961853717545098
+            ],
+            "paw": [
+              -0.3667680206149855,
+              0.10864359775632643,
+              0.4064896154346187
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.3000000000000003,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.9185865585159494,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineGallop",
+            "time": 0.3841012810184762,
+            "weight": 0.8421020632929289
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.39941106976921464,
+            "weight": 0.15789793670707108
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineGallop",
+            "weight": 0.8421020632929289,
+            "phase": 0.9185865585159494,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.4358982851473603,
+              "sourceDuty": 0.26,
+              "sourceOffsets": {
+                "FL": 0.52,
+                "FR": 0.45,
+                "HL": 0.94,
+                "HR": 0.87
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0.5,
+                0.7083333333333334
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.15789793670707108,
+            "phase": 0.9185865585159494,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.031864498522753554,
+              1.1085685695056717,
+              -0.4935409974096097
+            ],
+            "lower": [
+              0.42137186075137456,
+              0.7691982195751021,
+              -0.1468651101178397
+            ],
+            "paw": [
+              0.13614428443941218,
+              0.1416699798549398,
+              -0.3344540600002128
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.6294554860214789,
+              1.1090028023152283,
+              -0.13554713676447677
+            ],
+            "lower": [
+              -0.5049266726700077,
+              0.8014093656219998,
+              0.3907142081270722
+            ],
+            "paw": [
+              -0.5132385193268499,
+              0.1480021800845791,
+              0.10205198438311958
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.5928468385790048,
+              1.0856692195444302,
+              0.5978689902971431
+            ],
+            "lower": [
+              0.4416559950093084,
+              0.9327880231934095,
+              0.10144111612608564
+            ],
+            "paw": [
+              0.4144605259611873,
+              0.11429213774640284,
+              0.22377427043037618
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.009111950492802612,
+              1.0857815838435072,
+              0.9310200923730795
+            ],
+            "lower": [
+              -0.3415101880536224,
+              1.0335921275031914,
+              0.5073933335821015
+            ],
+            "paw": [
+              -0.2556885085754564,
+              0.21050354769809265,
+              0.5297731121711872
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.4000000000000004,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.9775912291793198,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineGallop",
+            "time": 0.40770314864637675,
+            "weight": 0.0009125614899051126
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.42399634939546027,
+            "weight": 0.9990874385100948
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineGallop",
+            "weight": 0.0009125614899051126,
+            "phase": 0.9775912291793198,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.4358982851473603,
+              "sourceDuty": 0.26,
+              "sourceOffsets": {
+                "FL": 0.52,
+                "FR": 0.45,
+                "HL": 0.94,
+                "HR": 0.87
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0.5,
+                0.7083333333333334
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.9990874385100948,
+            "phase": 0.9775912291793198,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5991660825697117,
+              1.1207574400166178,
+              -0.26449794322800046
+            ],
+            "lower": [
+              -0.611029351712731,
+              0.49914917596510555,
+              -0.2876160520383741
+            ],
+            "paw": [
+              -1.2271765426209125,
+              0.14011387441926387,
+              -0.3299536115638873
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.6620390832033582,
+              1.1221382021733797,
+              0.48486774684478107
+            ],
+            "lower": [
+              -0.19929033271110969,
+              0.7143295117422885,
+              0.5662780558526676
+            ],
+            "paw": [
+              -0.6150533292532867,
+              0.1372649465078266,
+              0.4993894253801886
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.6244204909349096,
+              1.0656416808576858,
+              -0.1493332261538532
+            ],
+            "lower": [
+              0.4269064000999372,
+              0.5655002822469842,
+              -0.20865333043874545
+            ],
+            "paw": [
+              0.9202376077667078,
+              0.12077967031711781,
+              -0.15385814417779994
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5884174162168969,
+              1.0639554584592295,
+              0.5377219669140936
+            ],
+            "lower": [
+              0.06077442124925403,
+              0.9481713292601253,
+              0.5670300806209567
+            ],
+            "paw": [
+              0.19319354782029777,
+              0.12104723062920886,
+              0.5324220845089158
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.5000000000000004,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.02239553998945576,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.025998142601032545,
+            "weight": 0.19927459061227615
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.03906220714992233,
+            "weight": 0.8007254093877239
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615,
+            "phase": 0.022395539989455766,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239,
+            "phase": 0.02239553998945576,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.36709109415355856,
+              1.108246822698711,
+              0.8234867521005121
+            ],
+            "lower": [
+              -0.39311630495983607,
+              0.5031619851352144,
+              0.6811250561192053
+            ],
+            "paw": [
+              -0.3920485477552551,
+              0.13524933190875627,
+              1.2934772673717707
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.38486077720080086,
+              1.1162607869248349,
+              0.8206350094830573
+            ],
+            "lower": [
+              0.42756128896744994,
+              0.6763241746531976,
+              0.382794589144047
+            ],
+            "paw": [
+              0.3918934342012362,
+              0.13527274043006043,
+              0.8479047168119926
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.3334686466336523,
+              1.0620040184884372,
+              -0.41982264303593053
+            ],
+            "lower": [
+              -0.392790644813299,
+              0.558132162385581,
+              -0.23203033440601847
+            ],
+            "paw": [
+              -0.3679280300661897,
+              0.14009165566935664,
+              -0.7189929312814712
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3544516046518552,
+              1.0522081089765938,
+              -0.4161024149391062
+            ],
+            "lower": [
+              0.3966708322243008,
+              0.7796131638322887,
+              0.04928085753613737
+            ],
+            "paw": [
+              0.36749357807106153,
+              0.11365287584322992,
+              -0.30628678491224354
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.6000000000000005,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.02239553998945576,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.38333330154419004,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.37599995136261,
+              1.1276139854028036,
+              0.8219999072780431
+            ],
+            "lower": [
+              -0.4078831244527549,
+              0.6133432061984034,
+              0.4733157640094336
+            ],
+            "paw": [
+              -0.39200001396951967,
+              0.13760023542942013,
+              1.0059998921510886
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.3759999513626098,
+              1.1276139854028036,
+              0.8219999072780433
+            ],
+            "lower": [
+              0.4078831244527549,
+              0.6133432061984034,
+              0.4733157640094338
+            ],
+            "paw": [
+              0.3920000139695194,
+              0.13760023542942013,
+              1.0059998921510889
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.3439999818801878,
+              1.0716141389138323,
+              -0.41799990384864644
+            ],
+            "lower": [
+              -0.39203385675249264,
+              0.7169057363361063,
+              -0.012356377955251241
+            ],
+            "paw": [
+              -0.36799990825728823,
+              0.1216002026722276,
+              -0.42600031925441795
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.34399998188018815,
+              1.0716141389138323,
+              -0.41799990384864627
+            ],
+            "lower": [
+              0.39203385675249275,
+              0.7169057363361063,
+              -0.012356377955251074
+            ],
+            "paw": [
+              0.36799990825728857,
+              0.1216002026722276,
+              -0.4260003192544178
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.7000000000000006,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.06569320354329089,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.15666666179895392,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.044038835882877485,
+            "weight": 0.5768320576871657
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.04294394824351129,
+            "weight": 0.19999999999999987
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.08235986997792381,
+            "weight": 0.2231679423128344
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.5768320576871657,
+            "phase": 0.06569320354329089,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.19999999999999987,
+            "phase": 0.06569320354329089,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.2231679423128344,
+            "phase": 0.06569320354329089,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.37567686184947907,
+              1.264304720376806,
+              0.8661467645858598
+            ],
+            "lower": [
+              -0.5322857968486305,
+              0.6726725986235548,
+              0.754267380902084
+            ],
+            "paw": [
+              -0.2806279996598168,
+              0.3950436339154408,
+              1.3624832946814283
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.3762850025243825,
+              1.2685767164352084,
+              0.8599032057755902
+            ],
+            "lower": [
+              0.5844543649180378,
+              0.8073062609603872,
+              0.49800958854007804
+            ],
+            "paw": [
+              0.2846612694448211,
+              0.3237305342328706,
+              0.9299990861555072
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.3399521405978062,
+              1.0608832664642305,
+              -0.36217582676710613
+            ],
+            "lower": [
+              -0.4029361232224892,
+              0.5896116934507412,
+              -0.10409021490541226
+            ],
+            "paw": [
+              -0.372672825063174,
+              0.05520757250287148,
+              -0.5534339914469973
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3479803204585018,
+              1.0572873332093726,
+              -0.35323591131013476
+            ],
+            "lower": [
+              0.3977298467378756,
+              0.7140255378870484,
+              0.06193685083155004
+            ],
+            "paw": [
+              0.3770231416828852,
+              0.05220750342878941,
+              -0.30531751174875543
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.8000000000000007,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.10154411009182662,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.3666666531935335,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.058976713722729904,
+            "weight": 0.36052003605447847
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.05728431047561598,
+            "weight": 0.5000000000000001
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.11821077592546189,
+            "weight": 0.13947996394552145
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.36052003605447847,
+            "phase": 0.10154411009182662,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.5000000000000001,
+            "phase": 0.10154411009182662,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.13947996394552145,
+            "phase": 0.10154411009182662,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.3815476776414277,
+              1.5065284173197044,
+              0.8343741402628226
+            ],
+            "lower": [
+              -0.7244130967808586,
+              0.9974537391857196,
+              0.7325986785233348
+            ],
+            "paw": [
+              -0.24684956059840296,
+              0.8500084941667542,
+              1.2430191757742852
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.3703325812987267,
+              1.509637172681293,
+              0.8213258151276712
+            ],
+            "lower": [
+              0.783054076419019,
+              1.046753445624223,
+              0.7716102333035462
+            ],
+            "paw": [
+              0.19647992259245028,
+              0.7267410531006888,
+              1.024313974917529
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.34196343505393745,
+              1.032863281391533,
+              -0.30593722796947015
+            ],
+            "lower": [
+              -0.4132542776530706,
+              0.6798031439496481,
+              0.0977189849957163
+            ],
+            "paw": [
+              -0.37599228916861704,
+              -0.003020533992891289,
+              -0.2340721166998898
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.34579093205712635,
+              1.031538134589561,
+              -0.2876057980415053
+            ],
+            "lower": [
+              0.39710244785578686,
+              0.5397038153513425,
+              -0.06820120317272976
+            ],
+            "paw": [
+              0.3842145943025432,
+              -0.016777726708370577,
+              -0.5122608142048093
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 1.9000000000000008,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.1321338867162254,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.5766666445881129,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.07172245407785922,
+            "weight": 0.1442080144217913
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.06952022079490368,
+            "weight": 0.8000000000000002
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.14880055203705958,
+            "weight": 0.055791985578208546
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.1442080144217913,
+            "phase": 0.1321338867162254,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.8000000000000002,
+            "phase": 0.1321338867162254,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.055791985578208546,
+            "phase": 0.1321338867162254,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.38671188657462785,
+              1.7242117713044876,
+              0.7648038079157137
+            ],
+            "lower": [
+              -0.8679516962664351,
+              1.3550841557758182,
+              0.6261498694778019
+            ],
+            "paw": [
+              -0.2907611883408848,
+              1.2739863119326802,
+              1.0391997904460368
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.36503801056199103,
+              1.7241748504524095,
+              0.7454154880719175
+            ],
+            "lower": [
+              0.8823449182766298,
+              1.4665159512107218,
+              0.9758009219814736
+            ],
+            "paw": [
+              0.23891469814493227,
+              1.1616160741960133,
+              0.9177495277787888
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.3444752506292952,
+              1.0466636619951275,
+              -0.2486071414890702
+            ],
+            "lower": [
+              -0.4181673192959435,
+              0.8437535607493096,
+              0.24744637681011633
+            ],
+            "paw": [
+              -0.3730623318943962,
+              0.06609096758940933,
+              0.035657439618419134
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3430231191715926,
+              1.0482563894765677,
+              -0.22239141213044705
+            ],
+            "lower": [
+              0.3878287849776006,
+              0.5112694769244133,
+              -0.2704508641038029
+            ],
+            "paw": [
+              0.3792854855877919,
+              0.029668375560713472,
+              -0.7490919671357759
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 2.000000000000001,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.15999765331104587,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.08066572713181007,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1,
+            "phase": 0.15999765331104587,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.39051369242632505,
+              1.8311919319386476,
+              0.7202659607244277
+            ],
+            "lower": [
+              -0.9216219976118267,
+              1.5623809970900455,
+              0.5393335811400821
+            ],
+            "paw": [
+              -0.3252070488089779,
+              1.5348694863542596,
+              0.9315938843327243
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.36108480418831834,
+              1.827810380519178,
+              0.6959336594740579
+            ],
+            "lower": [
+              0.8755037908787986,
+              1.7906090725843136,
+              1.0438721615216013
+            ],
+            "paw": [
+              0.2825284801175162,
+              1.4540896262160319,
+              0.8306321260250479
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.3465989887839632,
+              1.0442411398575266,
+              -0.19056962447042627
+            ],
+            "lower": [
+              -0.41911231094873713,
+              0.9258071968673368,
+              0.3322949415949408
+            ],
+            "paw": [
+              -0.36805791532142756,
+              0.12089449500550367,
+              0.15831348971620673
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3406533405295813,
+              1.0483662876224868,
+              -0.15877354460127868
+            ],
+            "lower": [
+              0.37299747288812957,
+              0.5826453491681358,
+              -0.43214158531141084
+            ],
+            "paw": [
+              0.36804925297631697,
+              0.12205979689895771,
+              -0.9127397122223952
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 2.100000000000001,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.1939046725726008,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.4366666503250598,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.0974602817097774,
+            "weight": 0.2884160288435829
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.09422853447012293,
+            "weight": 0.5999999999999999
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.21057133685792148,
+            "weight": 0.11158397115641722
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.2884160288435829,
+            "phase": 0.1939046725726008,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.5999999999999999,
+            "phase": 0.19390467257260083,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.11158397115641722,
+            "phase": 0.1939046725726008,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.3887707310038488,
+              1.5889183192052432,
+              0.9651772717174724
+            ],
+            "lower": [
+              -0.7419514651832265,
+              1.1141650074566185,
+              0.7729677321358583
+            ],
+            "paw": [
+              -0.28695188573868385,
+              1.0354790101624665,
+              1.3180547321627025
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.36287040523476266,
+              1.5877661645237895,
+              0.9419800367580173
+            ],
+            "lower": [
+              0.805073789747855,
+              1.1603105320478735,
+              1.0358406381776217
+            ],
+            "paw": [
+              0.1681645516100866,
+              0.8593338835119448,
+              1.1545670820007858
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.34487107170032677,
+              1.0175511830593273,
+              -0.132625016852789
+            ],
+            "lower": [
+              -0.42053460788016783,
+              0.727529546041682,
+              0.317746568803197
+            ],
+            "paw": [
+              -0.3730700317532969,
+              0.0638563234233647,
+              -0.021230131940894376
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3423429198019861,
+              1.0199225428981669,
+              -0.0998354717364234
+            ],
+            "lower": [
+              0.3886384021772561,
+              0.48160912055351945,
+              -0.07249446730017348
+            ],
+            "paw": [
+              0.3867789015812376,
+              -0.027832205745712518,
+              -0.525924084485513
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 2.200000000000001,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.15060700901876567,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.1566666617989539,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.07941958842793245,
+            "weight": 0.5768320576871657
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.07690946951634833,
+            "weight": 0.19999999999999984
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.16727367402992,
+            "weight": 0.2231679423128344
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.5768320576871657,
+            "phase": 0.15060700901876567,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.19999999999999984,
+            "phase": 0.15060700901876567,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.2231679423128344,
+            "phase": 0.15060700901876567,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.3815927176589008,
+              1.249172351787129,
+              1.0515124246552834
+            ],
+            "lower": [
+              -0.5249670614583611,
+              0.6862485864217713,
+              0.8287287846836963
+            ],
+            "paw": [
+              -0.31573450593785346,
+              0.40321979616755277,
+              1.4503818702947269
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.3702047492966018,
+              1.2523598502888411,
+              1.0343576523181006
+            ],
+            "lower": [
+              0.5721493136686909,
+              0.8008414632236909,
+              0.6569699741203185
+            ],
+            "paw": [
+              0.2682568559839295,
+              0.28137208618452014,
+              1.0418560443252498
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.34115866740055123,
+              1.0444421749156578,
+              -0.18971990712727138
+            ],
+            "lower": [
+              -0.4128020234921249,
+              0.5945769590797911,
+              0.10210293056445557
+            ],
+            "paw": [
+              -0.37611980179236276,
+              0.06415728713883631,
+              -0.33354736575011223
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.3464175144411484,
+              1.042821232006356,
+              -0.1656306873142445
+            ],
+            "lower": [
+              0.3888578928681863,
+              0.6308909422578517,
+              0.18248472563411924
+            ],
+            "paw": [
+              0.3809772997692822,
+              0.02908109934736386,
+              -0.23192591326568907
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "ON57",
+      "time": 2.300000000000001,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.1954113198289016,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.09808805140457998,
+            "weight": 0.19927459061227615
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.21207798408896514,
+            "weight": 0.8007254093877239
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615,
+            "phase": 0.1954113198289016,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239,
+            "phase": 0.1954113198289016,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.38045850759255556,
+              1.0914541862294476,
+              1.1121555248582657
+            ],
+            "lower": [
+              -0.4177721307255721,
+              0.5387577842830924,
+              0.8289485809989126
+            ],
+            "paw": [
+              -0.3920077466457004,
+              0.13747658697940457,
+              1.4194108590199463
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.3712467037117781,
+              1.093367742754232,
+              1.0911892083442691
+            ],
+            "lower": [
+              0.39826496619397295,
+              0.7306083547877407,
+              0.5864641583879272
+            ],
+            "paw": [
+              0.39210069481902654,
+              0.14036577603750355,
+              0.9888469808795108
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.33999423252653793,
+              1.038631051241762,
+              -0.15162706233525453
+            ],
+            "lower": [
+              -0.41432078827469604,
+              0.791120291155715,
+              0.3236474467019418
+            ],
+            "paw": [
+              -0.3738244018199603,
+              0.1128030204622942,
+              0.019219328886156878
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.34745609876688455,
+              1.0362993951583632,
+              -0.12422856834206453
+            ],
+            "lower": [
+              0.3788573857492207,
+              0.6645031430652704,
+              0.26750293777654605
+            ],
+            "paw": [
+              0.3683548392804696,
+              0.11842813383346934,
+              -0.17844913630634046
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 1,
+      "distance": 0.03,
+      "yaw": 0,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.03645833333333326,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineWalk",
+            "time": 0.05859374938881948,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineWalk",
+            "weight": 1,
+            "phase": 0.03645833333333326,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.5840000629425051,
+              1.3541527840491165,
+              -0.7028256390334746
+            ],
+            "lower": [
+              0.5840000629425051,
+              0.6673516491872941,
+              -0.590909355899256
+            ],
+            "paw": [
+              0.5839999685606531,
+              0.14397199061385735,
+              -1.0599951455054524
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.5840000629425048,
+              1.3541527840491165,
+              -0.7028256390334748
+            ],
+            "lower": [
+              -0.5840000629425048,
+              0.7687459606377547,
+              -0.3266341188129973
+            ],
+            "paw": [
+              -0.5840000813949386,
+              0.14398389104244258,
+              -0.6485662041378141
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.5839999675750731,
+              1.2799997943176178,
+              0.778800002840868
+            ],
+            "lower": [
+              0.584000015258789,
+              0.7456038547879628,
+              0.402989915067957
+            ],
+            "paw": [
+              0.5839999846231761,
+              0.1439841926203499,
+              0.793074658708478
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.5839999675750733,
+              1.2799997943176178,
+              0.7788000028408679
+            ],
+            "lower": [
+              -0.5839999675750733,
+              0.7132490495999045,
+              0.4538295031427811
+            ],
+            "paw": [
+              -0.5840000213224472,
+              0.26928194652249904,
+              1.016861766971373
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.08,
+      "yaw": 0,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.09429488686621923,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.0811015056884372,
+            "weight": 0.721040072108957
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.12510578360314667,
+            "weight": 0.27895992789104296
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.721040072108957,
+            "phase": 0.09429488686621923,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.27895992789104296,
+            "phase": 0.09429488686621923,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.5840000629425051,
+              1.3369168588582319,
+              -0.6249678849479089
+            ],
+            "lower": [
+              0.5840000629425051,
+              0.6516857148168294,
+              -0.5038089876226497
+            ],
+            "paw": [
+              0.5840001075651139,
+              0.14337213899430779,
+              -0.9891800612978712
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.5840000629425048,
+              1.3369168588582319,
+              -0.624967884947909
+            ],
+            "lower": [
+              -0.584000028560635,
+              0.8529890718616635,
+              -0.12493274983593294
+            ],
+            "paw": [
+              -0.5839999831184438,
+              0.19198139207526543,
+              -0.36375610495768956
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.5839999675750731,
+              1.2799997943176178,
+              0.858800002840868
+            ],
+            "lower": [
+              0.5839999808769191,
+              0.6504033885481717,
+              0.6843848481406524
+            ],
+            "paw": [
+              0.5839999665382856,
+              0.18023371865841153,
+              1.22572831040939
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.5839999675750733,
+              1.2799997943176178,
+              0.8588000028408679
+            ],
+            "lower": [
+              -0.5839999675750732,
+              0.8125435371194085,
+              0.4024044180335516
+            ],
+            "paw": [
+              -0.5840000328359402,
+              0.17452021497742998,
+              0.7295714661149305
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 6,
+      "distance": 0.12,
+      "yaw": 0.5,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.13724016209056122,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineGallop",
+            "time": 0.08528674628051418,
+            "weight": 0.8421020632929289
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.11044744320912715,
+            "weight": 0.15789793670707108
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineGallop",
+            "weight": 0.8421020632929289,
+            "phase": 0.13724016209056122,
+            "gait": {
+              "nativeDistancePerCycle": 3.0181818181818185,
+              "sourceDuty": 0.44,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.92,
+                "HL": 0.54,
+                "HR": 0.45999999999999996
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.5166666507720947,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.15789793670707108,
+            "phase": 0.13724016209056122,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              0.15743021449195738,
+              1.280914009833089,
+              -0.6999505681064141
+            ],
+            "lower": [
+              0.24744596087712933,
+              0.6108629616935506,
+              -0.5351775983208884
+            ],
+            "paw": [
+              -0.004027574737230255,
+              0.14306439617784578,
+              -0.9954969107724843
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.8675863282704872,
+              1.280914009833089,
+              -0.1399814786642165
+            ],
+            "lower": [
+              -0.8301026106684419,
+              0.5894602083280741,
+              -0.07136800953408147
+            ],
+            "paw": [
+              -1.0795246254590554,
+              0.11690786605735298,
+              -0.5279319309758409
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.8715020323572391,
+              1.2799997943176178,
+              0.6071493258370908
+            ],
+            "lower": [
+              0.6817925356586989,
+              0.760160913775744,
+              0.259888505193726
+            ],
+            "paw": [
+              0.9891201699126604,
+              0.4389306172873144,
+              0.8224479457673157
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -0.15351434301961564,
+              1.2799997943176178,
+              1.1671183238361238
+            ],
+            "lower": [
+              -0.26880694278662226,
+              0.6725615137358639,
+              0.9560766355583102
+            ],
+            "paw": [
+              0.03589234978802436,
+              0.34061679538403733,
+              1.5138249979384715
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 4,
+      "distance": -0.08,
+      "yaw": 1.5,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.08728057247019816,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineGallop",
+            "time": 0.06030695230784554,
+            "weight": 0.0009125614899051126
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.07630839094087036,
+            "weight": 0.9990874385100948
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineGallop",
+            "weight": 0.0009125614899051126,
+            "phase": 0.08728057247019816,
+            "gait": {
+              "nativeDistancePerCycle": 3.0181818181818185,
+              "sourceDuty": 0.44,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.92,
+                "HL": 0.54,
+                "HR": 0.45999999999999996
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.5166666507720947,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.9990874385100948,
+            "phase": 0.08728057247019815,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.6921181658031182,
+              1.3349049025957849,
+              -0.4845481167476257
+            ],
+            "lower": [
+              -0.5974196835656499,
+              0.6455513251915087,
+              -0.4778325884931873
+            ],
+            "paw": [
+              -1.088260511236358,
+              0.14372321278434586,
+              -0.5126405879549982
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -0.7747392262557489,
+              1.3349049025957849,
+              0.680526153175576
+            ],
+            "lower": [
+              -0.25124990222021004,
+              0.8779562392009304,
+              0.7176492693238166
+            ],
+            "paw": [
+              -0.45169348501819956,
+              0.20446679544065516,
+              0.7034347736035368
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              0.7882347722831575,
+              1.2799997943176178,
+              -0.37956902302333473
+            ],
+            "lower": [
+              0.7007485711236154,
+              0.6326050329453855,
+              -0.3857730933135706
+            ],
+            "paw": [
+              1.2749715772793897,
+              0.20514509914273088,
+              -0.3450521502026791
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.7056137253225774,
+              1.2799997943176178,
+              0.7855050566427971
+            ],
+            "lower": [
+              0.241028292436392,
+              0.8218652666258535,
+              0.7525590530043927
+            ],
+            "paw": [
+              0.47323859152253833,
+              0.14369179046808545,
+              0.7690262800494323
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 2,
+      "distance": 0.04,
+      "yaw": 3.141592653589793,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.1281919985474509,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.1042645315703959,
+            "weight": 0.19927459061227615
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.16408746066014834,
+            "weight": 0.8007254093877239
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615,
+            "phase": 0.1281919985474509,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239,
+            "phase": 0.1281919985474509,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5840000629425051,
+              1.3391048618731194,
+              0.9245457369429615
+            ],
+            "lower": [
+              -0.5840000629425051,
+              0.6667058507645534,
+              0.7453791074102617
+            ],
+            "paw": [
+              -0.5840000069774598,
+              0.14378755631670925,
+              1.2149791785793633
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5840000629425048,
+              1.3391048618731194,
+              0.9245457369429618
+            ],
+            "lower": [
+              0.584000053440352,
+              0.8072864407256648,
+              0.4757803800155149
+            ],
+            "paw": [
+              0.5840000542341621,
+              0.16551531778114825,
+              0.762307267882868
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.5839999675750731,
+              1.2799997943176178,
+              -0.5588000028408682
+            ],
+            "lower": [
+              -0.584000005756636,
+              0.7025972595899654,
+              -0.25315552086121157
+            ],
+            "paw": [
+              -0.5839999796250361,
+              0.1594923230074038,
+              -0.7212893934552758
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5839999675750733,
+              1.2799997943176178,
+              -0.5588000028408678
+            ],
+            "lower": [
+              0.5839999675750732,
+              0.8321136334268373,
+              -0.08318439573267156
+            ],
+            "paw": [
+              0.5840000245044431,
+              0.26143177221505676,
+              -0.5172746184122734
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 0,
+      "distance": 0,
+      "yaw": 3.141592653589793,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.1281919985474509,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.2,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5840000629425051,
+              1.3459592923445138,
+              0.9237352310769547
+            ],
+            "lower": [
+              -0.584000062942505,
+              0.7201429002683182,
+              0.6194737445163152
+            ],
+            "paw": [
+              -0.5840000980373504,
+              0.14400015758517049,
+              1.0219998332622449
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5840000629425048,
+              1.3459592923445138,
+              0.9237352310769549
+            ],
+            "lower": [
+              0.584000062942505,
+              0.7201429002683182,
+              0.6194737445163154
+            ],
+            "paw": [
+              0.5840001232150882,
+              0.1440001554367022,
+              1.0219998301871034
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.5839999675750731,
+              1.2799997943176178,
+              -0.5588000028408682
+            ],
+            "lower": [
+              -0.584000015258789,
+              0.727999893813525,
+              -0.20935990648713187
+            ],
+            "paw": [
+              -0.5840000278476593,
+              0.14399989238402222,
+              -0.6253602265337431
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5839999675750733,
+              1.2799997943176178,
+              -0.5588000028408678
+            ],
+            "lower": [
+              0.5840000152587891,
+              0.727999893813525,
+              -0.20935990648713154
+            ],
+            "paw": [
+              0.5840000026699202,
+              0.14399990088182502,
+              -0.6253603206507449
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.06,
+      "yaw": 3.141592653589793,
+      "stance": 0.2,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.16761367663817084,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.1312026777615115,
+            "weight": 0.5768320576871656
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.1508523049781323,
+            "weight": 0.2
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.20942238886373285,
+            "weight": 0.22316794231283438
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.5768320576871656,
+            "phase": 0.16761367663817084,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.2,
+            "phase": 0.16761367663817084,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.22316794231283438,
+            "phase": 0.16761367663817084,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5901680007008867,
+              1.5317921020966636,
+              0.9178401433959559
+            ],
+            "lower": [
+              -0.6687262268665944,
+              0.8693330827881177,
+              0.7198556835893131
+            ],
+            "paw": [
+              -0.6453171391843612,
+              0.4800434299802388,
+              1.3045550705632827
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5778270833293131,
+              1.5293395267272265,
+              0.9202406904396145
+            ],
+            "lower": [
+              0.6519901302183069,
+              1.0317603134175068,
+              0.4394746331209468
+            ],
+            "paw": [
+              0.6385211019997803,
+              0.5411219346807075,
+              0.9425256028339546
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.5906218030288618,
+              1.2754455961300635,
+              -0.5093410285733599
+            ],
+            "lower": [
+              -0.5882307927295458,
+              0.7075338611890987,
+              -0.18641257619642393
+            ],
+            "paw": [
+              -0.5851977352603612,
+              0.21840679582606182,
+              -0.7106813447357371
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5773727462771375,
+              1.2752751033446514,
+              -0.5128902243208557
+            ],
+            "lower": [
+              0.5821060486493727,
+              0.748845691165194,
+              -0.12602857575519616
+            ],
+            "paw": [
+              0.5856804166605891,
+              0.1557661720665945,
+              -0.5289627798544309
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.06,
+      "yaw": 3.141592653589793,
+      "stance": 0.5,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.20229173583959037,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.15489935110561015,
+            "weight": 0.3605200360544785
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.1820625574326205,
+            "weight": 0.5
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.2493021555372397,
+            "weight": 0.13947996394552148
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.3605200360544785,
+            "phase": 0.20229173583959037,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.5,
+            "phase": 0.20229173583959037,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.13947996394552148,
+            "phase": 0.20229173583959037,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.6014335865850893,
+              1.8495210585419983,
+              0.8048655749987564
+            ],
+            "lower": [
+              -0.7947648933077405,
+              1.2100758269110934,
+              0.6100476730474699
+            ],
+            "paw": [
+              -0.7092077507120232,
+              1.0529292515118056,
+              1.2897187035852986
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5665373211679727,
+              1.845293569462159,
+              0.8119635397749242
+            ],
+            "lower": [
+              0.75133422914251,
+              1.298080574992072,
+              0.4238534756954949
+            ],
+            "paw": [
+              0.6797176980143228,
+              1.0924663056668997,
+              1.0921061946083759
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.6021778082700434,
+              1.2666131899365556,
+              -0.4645729389412482
+            ],
+            "lower": [
+              -0.5948448791255259,
+              0.750242918735584,
+              -0.06442273571371127
+            ],
+            "paw": [
+              -0.5856542488332135,
+              0.19560101550528386,
+              -0.5187355443765035
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5657813625808635,
+              1.2663203095442013,
+              -0.4743325161503668
+            ],
+            "lower": [
+              0.5777048828792624,
+              0.7045370168861151,
+              -0.1410613865392129
+            ],
+            "paw": [
+              0.5862603861235832,
+              0.18742729272080438,
+              -0.637686470806885
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.06,
+      "yaw": 3.141592653589793,
+      "stance": 0.8,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.23324516262777029,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.17605085901496703,
+            "weight": 0.14420801442179138
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.20992064080399522,
+            "weight": 0.8
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.28489859508676213,
+            "weight": 0.05579198557820858
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.14420801442179138,
+            "phase": 0.23324516262777029,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.8,
+            "phase": 0.23324516262777029,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.05579198557820858,
+            "phase": 0.23324516262777029,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.6140071372100279,
+              2.155485407174842,
+              0.6016782080108112
+            ],
+            "lower": [
+              -0.9148041343413282,
+              1.5498928289921903,
+              0.43736111700527525
+            ],
+            "paw": [
+              -0.7419245713558158,
+              1.6479405874653061,
+              1.1115028800415954
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5539299316583061,
+              2.152708455055211,
+              0.6134928614829164
+            ],
+            "lower": [
+              0.8449601215246105,
+              1.5885774415403573,
+              0.32839793908515835
+            ],
+            "paw": [
+              0.6865301443840502,
+              1.6720362004868679,
+              1.0080320796711457
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.6142024283710941,
+              1.2569486555408975,
+              -0.41950942908645344
+            ],
+            "lower": [
+              -0.6011281678168316,
+              0.7642959136748759,
+              0.009366475175245692
+            ],
+            "paw": [
+              -0.5848198330404613,
+              0.1679337452088161,
+              -0.3883752302250985
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5536847050535572,
+              1.256753800010809,
+              -0.4357461881953244
+            ],
+            "lower": [
+              0.5715014743994432,
+              0.7105031537318623,
+              -0.07782847622922423
+            ],
+            "paw": [
+              0.584990116099045,
+              0.2605459330774002,
+              -0.6359223620483467
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.06,
+      "yaw": 3.141592653589793,
+      "stance": 1,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.2621302977629054,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.23591726173694155,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1,
+            "phase": 0.2621302977629054,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.622662309588166,
+              2.3343575010463806,
+              0.4394232444359823
+            ],
+            "lower": [
+              -0.9893873952534433,
+              1.7580807120592912,
+              0.3066107758029838
+            ],
+            "paw": [
+              -0.7558642171729654,
+              2.020180840278884,
+              0.9154936158123685
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5452508436108097,
+              2.3343575036454784,
+              0.45367670584837866
+            ],
+            "lower": [
+              0.9027455439325902,
+              1.7779803715802653,
+              0.2371966967142257
+            ],
+            "paw": [
+              0.684136218319948,
+              2.0201802117014926,
+              0.8597055406667838
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.6218515110972846,
+              1.2508332209519326,
+              -0.36947526573212874
+            ],
+            "lower": [
+              -0.6046645860215414,
+              0.7482082754634294,
+              0.04751992106320757
+            ],
+            "paw": [
+              -0.5839991555325659,
+              0.14391331403512808,
+              -0.33785371730163893
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5459710259228436,
+              1.2508332228658987,
+              -0.3898368304297323
+            ],
+            "lower": [
+              0.5655590121906846,
+              0.7724854897365343,
+              0.05469895302639305
+            ],
+            "paw": [
+              0.5840214640043824,
+              0.3218400212499546,
+              -0.5026969068231698
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": 0.06,
+      "yaw": 3.141592653589793,
+      "stance": 0.6,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.29547105676271856,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.218571885877969,
+            "weight": 0.2884160288435828
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.26592394404186775,
+            "weight": 0.6
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.3564583708152289,
+            "weight": 0.11158397115641719
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.2884160288435828,
+            "phase": 0.29547105676271856,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.6,
+            "phase": 0.29547105676271856,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.11158397115641719,
+            "phase": 0.29547105676271856,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.6052380823318269,
+              1.9607909946035584,
+              0.9067061160747285
+            ],
+            "lower": [
+              -0.8356399275508946,
+              1.3392597981420074,
+              0.6949628940535673
+            ],
+            "paw": [
+              -0.7272156072749014,
+              1.2398915762612497,
+              1.3822313341269532
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5627231313973791,
+              1.9567256952240493,
+              0.9153299630388776
+            ],
+            "lower": [
+              0.7830378936276688,
+              1.3759977417080145,
+              0.6015818540448754
+            ],
+            "paw": [
+              0.6754628025982672,
+              1.339033133035285,
+              1.2951444918024673
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.6059017070620888,
+              1.263766363007697,
+              -0.28964691233370854
+            ],
+            "lower": [
+              -0.5953229090399688,
+              0.7563573564271882,
+              0.12173660391566332
+            ],
+            "paw": [
+              -0.5843213618068722,
+              0.20432613926901988,
+              -0.3357049159684098
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5620390024841088,
+              1.2634839562974334,
+              -0.3014113251882923
+            ],
+            "lower": [
+              0.5710085836656152,
+              0.8100157347603063,
+              0.16879969089146613
+            ],
+            "paw": [
+              0.5836097851113643,
+              0.24251656973463165,
+              -0.26926202326955967
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 3,
+      "distance": -0.06,
+      "yaw": 3.141592653589793,
+      "stance": 0.2,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.2560493786719986,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.1916337396868534,
+            "weight": 0.5768320576871656
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.23044443470010584,
+            "weight": 0.2
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.3111234426116444,
+            "weight": 0.22316794231283438
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.5768320576871656,
+            "phase": 0.2560493786719986,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.2,
+            "phase": 0.2560493786719986,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.22316794231283438,
+            "phase": 0.2560493786719986,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5910929246992236,
+              1.5396073084002335,
+              1.0969004780607392
+            ],
+            "lower": [
+              -0.6701272658272354,
+              0.8975330425596423,
+              0.840550355195957
+            ],
+            "paw": [
+              -0.6496702072738357,
+              0.4687256159825313,
+              1.3970334717183723
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5769005281889044,
+              1.5367818959997046,
+              1.0996582173937548
+            ],
+            "lower": [
+              0.6505517401241022,
+              1.005399324431938,
+              0.6564547469308522
+            ],
+            "paw": [
+              0.6305147794545333,
+              0.6254484657973843,
+              1.2473892806803266
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.5916093473448643,
+              1.2742973844768357,
+              -0.32907610503823487
+            ],
+            "lower": [
+              -0.5882043693434379,
+              0.7659155475323388,
+              0.08122689326052357
+            ],
+            "paw": [
+              -0.5846647214101782,
+              0.2696037141196531,
+              -0.43624221806154806
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5763834688804228,
+              1.2741014548452634,
+              -0.33315482109096445
+            ],
+            "lower": [
+              0.5804085124187955,
+              0.7577921373888533,
+              0.06712102787517271
+            ],
+            "paw": [
+              0.5844627251960259,
+              0.16775737847212513,
+              -0.34025423934795934
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rig": "OFF25",
+      "speed": 2,
+      "distance": 0.04,
+      "yaw": 3.141592653589793,
+      "stance": 0,
+      "source": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.29696080474925135,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineTrot",
+            "time": 0.21958988031637897,
+            "weight": 0.19927459061227615
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.3581715809392494,
+            "weight": 0.8007254093877239
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615,
+            "phase": 0.29696080474925135,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239,
+            "phase": 0.29696080474925135,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.5840000629425051,
+              1.3396515493768186,
+              1.2042824198093784
+            ],
+            "lower": [
+              -0.584000062942505,
+              0.7082696571576438,
+              0.9117452348806865
+            ],
+            "paw": [
+              -0.5840000069774597,
+              0.14354734503784738,
+              1.330142772810286
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              0.5840000629425048,
+              1.3396515493768186,
+              1.204282419809379
+            ],
+            "lower": [
+              0.584000053440352,
+              0.8240021406799385,
+              0.7370277969072865
+            ],
+            "paw": [
+              0.5840000542341621,
+              0.29545263011304335,
+              1.200280732766275
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.5839999675750731,
+              1.2799997943176178,
+              -0.2788000028408682
+            ],
+            "lower": [
+              -0.584000005756636,
+              0.705578554041516,
+              0.032411323800191516
+            ],
+            "paw": [
+              -0.5839999796250361,
+              0.17964629345963068,
+              -0.45493615318289
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              0.5839999675750733,
+              1.2799997943176178,
+              -0.2788000028408679
+            ],
+            "lower": [
+              0.5839999675750732,
+              0.7878509706540906,
+              0.15085308606604708
+            ],
+            "paw": [
+              0.5840000245044431,
+              0.13828240873834974,
+              -0.1527466341260061
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

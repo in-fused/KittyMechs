@@ -1,0 +1,3686 @@
+{
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "scope": "actual decoded 61 rig; constructed fixed Rapier floor/carrier cases, not native trajectory or browser gameplay",
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "direction": 1,
+      "fulfilled": 71,
+      "maxPointError": 9.229378145691308e-8,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY",
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT"
+      ],
+      "frames": [
+        {
+          "name": "FelineWalk",
+          "direction": 1,
+          "i": 0,
+          "phase": 0,
+          "stance": 0,
+          "root": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.02,
+            -0.008101851851851851,
+            1
+          ],
+          "diagnostic": {
+            "phase": 0,
+            "stance": 0,
+            "travelWeight": 1,
+            "requestedTravelWeight": 1,
+            "idleClocks": {},
+            "positive": [
+              {
+                "name": "FelineWalk",
+                "weight": 1
+              }
+            ],
+            "sourceFrame": {
+              "matrix": [
+                -0.8,
+                0,
+                -9.797174393178826e-17,
+                0,
+                0,
+                0.8,
+                0,
+                0,
+                9.797174393178826e-17,
+                0,
+                -0.8,
+                0,
+                0,
+                0.02,
+                -0.008101851851851851,
+                1
+              ],
+              "planePoint": [
+                0,
+                0.02,
+                -0.008101851851851851
+              ],
+              "planeNormal": [
+                0,
+                1,
+                0
+              ],
+              "uniformScale": 0.8
+            },
+            "feet": [
+              {
+                "limb": "FL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.25,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FL",
+                    "hip": [
+                      0.38707395556124585,
+                      1.1406107087459114,
+                      -0.6423798504263498
+                    ],
+                    "ankle": [
+                      0.39199970848651966,
+                      0.15759961076900952,
+                      -0.9096575940753394
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.39199970848651966,
+                      0.15759961076900952,
+                      -0.9096575940753394
+                    ],
+                    "minimum": 0.09222772414370849,
+                    "maximum": 1.3365281627540133,
+                    "distance": 1.01871118283728,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      0.7516450330360327,
+                      0.6480577189756292,
+                      -0.5349015927481483
+                    ],
+                    "padNormal": -3.34359525742734e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": -3.34359525742734e-7,
+                "ankle": [
+                  0.39199959764486647,
+                  0.15759961272658352,
+                  -0.909657699753733
+                ],
+                "elbow": [
+                  0.7516449316228399,
+                  0.6480576608732274,
+                  -0.5349016944897147
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.7253059945457627
+              },
+              {
+                "limb": "FR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.75,
+                    "role": "recovery"
+                  }
+                ],
+                "desiredHeight": 0.005827052291137211,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FR",
+                    "hip": [
+                      -0.3642181444541356,
+                      1.1398271526450598,
+                      -0.6097762059461358
+                    ],
+                    "ankle": [
+                      -0.3919996122213857,
+                      0.1825204109456653,
+                      -0.5288629434568469
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.3919996122213857,
+                      0.1825204109456653,
+                      -0.5288629434568469
+                    ],
+                    "minimum": 0.09222771411597135,
+                    "maximum": 1.3365280174359628,
+                    "distance": 0.9611217215842511,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      -0.7608692532528456,
+                      0.7576981666305624,
+                      -0.32043678158659056
+                    ],
+                    "padNormal": 0.0058270571522150705
+                  }
+                ],
+                "sourceLoaded": false,
+                "finalPadGap": 0.0058270571522150705,
+                "ankle": [
+                  -0.39199959278931396,
+                  0.18252044197097217,
+                  -0.5288629910955611
+                ],
+                "elbow": [
+                  -0.7608692321011865,
+                  0.7576981561989272,
+                  -0.3204368139137841
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.7872081691782636
+              },
+              {
+                "limb": "HL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HL",
+                    "hip": [
+                      0.3440065209209973,
+                      1.0455084921485265,
+                      0.6060617591248919
+                    ],
+                    "ankle": [
+                      0.3679998923032326,
+                      0.14160022872620143,
+                      0.3278981552200195
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.38399986965744815,
+                      0.32560024842009827,
+                      0.48789819373470833
+                    ],
+                    "minimum": 0.16491571302522356,
+                    "maximum": 1.246897395236521,
+                    "distance": 0.7306366918770405,
+                    "third": [
+                      -0.01599997735421553,
+                      -0.18400001969389682,
+                      -0.16000003851468877
+                    ],
+                    "pole": [
+                      0.42800078414965087,
+                      0.9069509401586351,
+                      0.08990410403874072
+                    ],
+                    "padNormal": 3.1165387920494884e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 3.1165387920494884e-7,
+                "ankle": [
+                  0.36799989486608264,
+                  0.14160032152628446,
+                  0.3278982344406531
+                ],
+                "elbow": [
+                  0.42800078798531827,
+                  0.9069509862560969,
+                  0.08990409145352318
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.40166185090824125
+              },
+              {
+                "limb": "HR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.5,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HR",
+                    "hip": [
+                      -0.3437026203026326,
+                      1.0475420631492647,
+                      0.5861621656587509
+                    ],
+                    "ankle": [
+                      -0.36799998520676214,
+                      0.14160014815498875,
+                      0.7167871258694769
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.38399995060636144,
+                      0.325600181820592,
+                      0.8767871719269602
+                    ],
+                    "minimum": 0.1649157229302389,
+                    "maximum": 1.2468974701265223,
+                    "distance": 0.7792861150529937,
+                    "third": [
+                      0.01599996539959928,
+                      -0.1840000336656033,
+                      -0.16000004605748336
+                    ],
+                    "pole": [
+                      -0.3700075541027775,
+                      0.6318566432626301,
+                      0.24092934697474405
+                    ],
+                    "padNormal": 1.6823068547367815e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 1.6823068547367815e-7,
+                "ankle": [
+                  -0.3679999794774994,
+                  0.14160018072008168,
+                  0.7167871528423516
+                ],
+                "elbow": [
+                  -0.37000755461390034,
+                  0.6318567208076685,
+                  0.24092926716859575
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.39634649169097735
+              }
+            ],
+            "contactQualified": false,
+            "policy": "PHASE_CONDITIONED_SOURCE_TASKS_NOT_NATIVE_CONTACT",
+            "grounded250": {
+              "policy": "CURRENT_CLIENT_LEASE_SAME_MATERIAL_ORDINARY_TASK",
+              "contactQualified": false,
+              "feet": [
+                {
+                  "limb": "FL",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0,
+                  "materialPoint": {
+                    "limb": "FL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 953,
+                    "groupIndex": 8
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    0.4867868265783574,
+                    -2.9183744754135432e-8,
+                    -0.9968570730584935
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.25,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.47,
+                        "peakRemaining": 0.10999999999999999,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0,
+                    "advance": 0,
+                    "remainingLoaded": 0.47,
+                    "toLoadPeak": 0.10999999999999999,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0,
+                    "bodyLoadedIncrement": 0,
+                    "bodyUnloadedIncrement": 0,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.10999999999999999,
+                  "request": {
+                    "limb": "FL",
+                    "hip": [
+                      0.38707396414808726,
+                      1.1406106988681497,
+                      -0.642379784888008
+                    ],
+                    "target": [
+                      0.39199962526397236,
+                      0.1575995838133592,
+                      -0.9096575993276903
+                    ],
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "minimum": 0.09222771857973679,
+                    "maximum": 1.3365280821231083,
+                    "distance": 1.018711217446016,
+                    "admitted": true
+                  },
+                  "hip": [
+                    0.38707396414808726,
+                    1.1406106988681497,
+                    -0.642379784888008
+                  ],
+                  "ankle": [
+                    0.39199962526397236,
+                    0.1575995838133592,
+                    -0.9096575993276903
+                  ],
+                  "twoSegmentEndpoint": [
+                    0.39199962526397236,
+                    0.1575995838133592,
+                    -0.9096575993276903
+                  ],
+                  "minimum": 0.09222771857973679,
+                  "maximum": 1.3365280821231083,
+                  "distance": 1.018711217446016,
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "pole": [
+                    0.7516449316228399,
+                    0.6480576608732274,
+                    -0.5349016944897147
+                  ],
+                  "iterationError": 1.8032029959354004e-7,
+                  "samePointWorld": [
+                    0.4867867195264811,
+                    0.019999624067396443,
+                    -0.9968570729497095
+                  ],
+                  "samePointError": 0.019999653251427704,
+                  "normalGap": 0.01999965296827466,
+                  "samePointTangentialError": 1.0705193158003747e-7,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "FR",
+                  "state": "source",
+                  "sourceLoaded": false,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery"
+                    }
+                  ],
+                  "reason": "LIFECYCLE_RESET",
+                  "weight": 0,
+                  "materialPoint": null,
+                  "lease": null,
+                  "anchor": null,
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.75,
+                        "role": "recovery",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": -0.030000000000000027,
+                        "peakRemaining": -0.39,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0,
+                    "advance": 0,
+                    "remainingLoaded": null,
+                    "toLoadPeak": null,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0,
+                    "bodyLoadedIncrement": 0,
+                    "bodyUnloadedIncrement": 0,
+                    "discontinuous": false
+                  },
+                  "touchSpan": null,
+                  "request": {
+                    "limb": "FR",
+                    "hip": [
+                      -0.36421815336382585,
+                      1.139827140577921,
+                      -0.6097761423533397
+                    ],
+                    "target": [
+                      -0.39199959278931396,
+                      0.18252044197097217,
+                      -0.5288629910955611
+                    ],
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "minimum": 0.09222771130057023,
+                    "maximum": 1.3365279766362694,
+                    "distance": 0.9611216684794657,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.36421815336382585,
+                    1.139827140577921,
+                    -0.6097761423533397
+                  ],
+                  "ankle": [
+                    -0.39199959278931396,
+                    0.18252044197097217,
+                    -0.5288629910955611
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.39199959278931396,
+                    0.18252044197097217,
+                    -0.5288629910955611
+                  ],
+                  "minimum": 0.09222771130057023,
+                  "maximum": 1.3365279766362694,
+                  "distance": 0.9611216684794657,
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "pole": [
+                    -0.7608692321011865,
+                    0.7576981561989272,
+                    -0.3204368139137841
+                  ],
+                  "finalState": "source",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HL",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0,
+                  "materialPoint": {
+                    "limb": "HL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 6800,
+                    "groupIndex": 12
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    0.4305610168408181,
+                    2.0783212484332125e-8,
+                    0.31723072095626287
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.72,
+                        "peakRemaining": 0.36,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0,
+                    "advance": 0,
+                    "remainingLoaded": 0.72,
+                    "toLoadPeak": 0.36,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0,
+                    "bodyLoadedIncrement": 0,
+                    "bodyUnloadedIncrement": 0,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "HL",
+                    "hip": [
+                      0.34400652090566797,
+                      1.045508493550824,
+                      0.6060617577316844
+                    ],
+                    "target": [
+                      0.3679998944946057,
+                      0.1416003692765977,
+                      0.3278982473834847
+                    ],
+                    "third": [
+                      -0.015999978946886872,
+                      -0.1839999667772306,
+                      -0.15999993933173795
+                    ],
+                    "minimum": 0.16491571232695673,
+                    "maximum": 1.2468973899570541,
+                    "distance": 0.7306366080296938,
+                    "admitted": true
+                  },
+                  "hip": [
+                    0.34400652090566797,
+                    1.045508493550824,
+                    0.6060617577316844
+                  ],
+                  "ankle": [
+                    0.3679998944946057,
+                    0.1416003692765977,
+                    0.3278982473834847
+                  ],
+                  "twoSegmentEndpoint": [
+                    0.38399987344149256,
+                    0.3256003360538283,
+                    0.48789818671522267
+                  ],
+                  "minimum": 0.16491571232695673,
+                  "maximum": 1.2468973899570541,
+                  "distance": 0.7306366080296938,
+                  "third": [
+                    -0.015999978946886872,
+                    -0.1839999667772306,
+                    -0.15999993933173795
+                  ],
+                  "pole": [
+                    0.42800078798531827,
+                    0.9069509862560969,
+                    0.08990409145352318
+                  ],
+                  "iterationError": 3.0531992421151904e-8,
+                  "samePointWorld": [
+                    0.43056101204179825,
+                    0.020000389642668745,
+                    0.3172307530162911
+                  ],
+                  "samePointError": 0.02000036885948253,
+                  "normalGap": 0.02000036885945626,
+                  "samePointTangentialError": 3.241721768542471e-8,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HR",
+                  "state": "source",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "LIFECYCLE_RESET",
+                  "weight": 0,
+                  "materialPoint": null,
+                  "lease": null,
+                  "anchor": null,
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.5,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.21999999999999997,
+                        "peakRemaining": -0.14,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0,
+                    "advance": 0,
+                    "remainingLoaded": 0.21999999999999997,
+                    "toLoadPeak": -0.14,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0,
+                    "bodyLoadedIncrement": 0,
+                    "bodyUnloadedIncrement": 0,
+                    "discontinuous": false
+                  },
+                  "touchSpan": null,
+                  "request": {
+                    "limb": "HR",
+                    "hip": [
+                      -0.34370262029811427,
+                      1.0475420634981185,
+                      0.5861621641579676
+                    ],
+                    "target": [
+                      -0.3679999794774994,
+                      0.14160018072008168,
+                      0.7167871528423516
+                    ],
+                    "third": [
+                      0.01599996014402255,
+                      -0.18400007735344093,
+                      -0.15999986338120664
+                    ],
+                    "minimum": 0.1649157223646476,
+                    "maximum": 1.2468974658501901,
+                    "distance": 0.7792859866586362,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.34370262029811427,
+                    1.0475420634981185,
+                    0.5861621641579676
+                  ],
+                  "ankle": [
+                    -0.3679999794774994,
+                    0.14160018072008168,
+                    0.7167871528423516
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.38399993962152196,
+                    0.3256002580735226,
+                    0.8767870162235583
+                  ],
+                  "minimum": 0.1649157223646476,
+                  "maximum": 1.2468974658501901,
+                  "distance": 0.7792859866586362,
+                  "third": [
+                    0.01599996014402255,
+                    -0.18400007735344093,
+                    -0.15999986338120664
+                  ],
+                  "pole": [
+                    -0.37000755461390034,
+                    0.6318567208076685,
+                    0.24092926716859575
+                  ],
+                  "finalState": "source",
+                  "recoveryProgress": null
+                }
+              ],
+              "load": [
+                {
+                  "bone": "pelvis",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "currentSupportLevers": true
+                },
+                {
+                  "bone": "FL_scapula202",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "currentSupportLevers": true
+                },
+                {
+                  "bone": "FR_scapula202",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "currentSupportLevers": false
+                }
+              ],
+              "costMs": 8.255499999999984,
+              "clocks": [
+                {
+                  "limb": "FL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.47,
+                      "peakRemaining": 0.10999999999999999,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0,
+                  "advance": 0,
+                  "remainingLoaded": 0.47,
+                  "toLoadPeak": 0.10999999999999999,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0,
+                  "bodyLoadedIncrement": 0,
+                  "bodyUnloadedIncrement": 0,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "FR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": -0.030000000000000027,
+                      "peakRemaining": -0.39,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0,
+                  "advance": 0,
+                  "remainingLoaded": null,
+                  "toLoadPeak": null,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0,
+                  "bodyLoadedIncrement": 0,
+                  "bodyUnloadedIncrement": 0,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.72,
+                      "peakRemaining": 0.36,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0,
+                  "advance": 0,
+                  "remainingLoaded": 0.72,
+                  "toLoadPeak": 0.36,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0,
+                  "bodyLoadedIncrement": 0,
+                  "bodyUnloadedIncrement": 0,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.21999999999999997,
+                      "peakRemaining": -0.14,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0,
+                  "advance": 0,
+                  "remainingLoaded": 0.21999999999999997,
+                  "toLoadPeak": -0.14,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0,
+                  "bodyLoadedIncrement": 0,
+                  "bodyUnloadedIncrement": 0,
+                  "discontinuous": false
+                }
+              ]
+            },
+            "costMs": 20.933299999999917
+          }
+        },
+        {
+          "name": "FelineWalk",
+          "direction": 1,
+          "i": 24,
+          "phase": 0.25,
+          "stance": 0,
+          "root": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.02,
+            -0.20254629629629634,
+            1
+          ],
+          "diagnostic": {
+            "phase": 0.25,
+            "stance": 0,
+            "travelWeight": 1,
+            "requestedTravelWeight": 1,
+            "idleClocks": {},
+            "positive": [
+              {
+                "name": "FelineWalk",
+                "weight": 1
+              }
+            ],
+            "sourceFrame": {
+              "matrix": [
+                -0.8,
+                0,
+                -9.797174393178826e-17,
+                0,
+                0,
+                0.8,
+                0,
+                0,
+                9.797174393178826e-17,
+                0,
+                -0.8,
+                0,
+                0,
+                0.02,
+                -0.20254629629629634,
+                1
+              ],
+              "planePoint": [
+                0,
+                0.02,
+                -0.20254629629629634
+              ],
+              "planeNormal": [
+                0,
+                1,
+                0
+              ],
+              "uniformScale": 0.8
+            },
+            "feet": [
+              {
+                "limb": "FL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.5,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FL",
+                    "hip": [
+                      0.3861194332551766,
+                      1.2256464999530488,
+                      -0.8154338636958516
+                    ],
+                    "ankle": [
+                      0.39200000773197585,
+                      0.15759984578000497,
+                      -0.9096568385385326
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.39200000773197585,
+                      0.15759984578000497,
+                      -0.9096568385385326
+                    ],
+                    "minimum": 0.09222771733600466,
+                    "maximum": 1.3365280640994277,
+                    "distance": 1.072210896062251,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      0.7198878764385694,
+                      0.7313706229488001,
+                      -0.6383409330687482
+                    ],
+                    "padNormal": 2.2889592623001485e-8
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 2.2889592623001485e-8,
+                "ankle": [
+                  0.39200001363662573,
+                  0.1575999273765324,
+                  -0.909656825938914
+                ],
+                "elbow": [
+                  0.7198879086809014,
+                  0.7313706717382775,
+                  -0.6383409133675714
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.710177953658144
+              },
+              {
+                "limb": "FR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FR",
+                    "hip": [
+                      -0.3641060941092467,
+                      1.0851238184814176,
+                      -0.8152886506777184
+                    ],
+                    "ankle": [
+                      -0.39199986019624217,
+                      0.15759934531224007,
+                      -1.2985456236637067
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.39199986019624217,
+                      0.15759934531224007,
+                      -1.2985456236637067
+                    ],
+                    "minimum": 0.09222772848091795,
+                    "maximum": 1.33652822560716,
+                    "distance": 1.0462394622904723,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      -0.7336387892338185,
+                      0.5851891483845646,
+                      -0.839431740737422
+                    ],
+                    "padNormal": -4.2380229558633186e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": -4.2380229558633186e-7,
+                "ankle": [
+                  -0.3919998813996844,
+                  0.15759951209111378,
+                  -1.298545559461122
+                ],
+                "elbow": [
+                  -0.7336388450892366,
+                  0.5851892061468451,
+                  -0.8394316674358963
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.743348800111994
+              },
+              {
+                "limb": "HL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.25,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HL",
+                    "hip": [
+                      0.35682888986425454,
+                      1.064439847364333,
+                      0.4008595104106576
+                    ],
+                    "ankle": [
+                      0.36800006389578926,
+                      0.14159998323400874,
+                      0.3278980685632026
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.38400004900228996,
+                      0.3256000640310554,
+                      0.4878980803447871
+                    ],
+                    "minimum": 0.16491573260597897,
+                    "maximum": 1.2468975432830145,
+                    "distance": 0.7444449005675621,
+                    "third": [
+                      -0.015999985106500712,
+                      -0.18400008079704666,
+                      -0.1600000117815845
+                    ],
+                    "pole": [
+                      0.39673792402117086,
+                      0.7762867970136125,
+                      -0.05526231812198085
+                    ],
+                    "padNormal": 1.3468918269992373e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 1.3468918269992373e-7,
+                "ankle": [
+                  0.36800007637199555,
+                  0.14160014508164978,
+                  0.3278982091916205
+                ],
+                "elbow": [
+                  0.3967379283060772,
+                  0.7762869203161324,
+                  -0.055262378819656066
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.38702797328331984
+              },
+              {
+                "limb": "HR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.75,
+                    "role": "recovery"
+                  }
+                ],
+                "desiredHeight": 0.005827052291137211,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HR",
+                    "hip": [
+                      -0.3311711215583766,
+                      1.0644389946871775,
+                      0.40086488127224085
+                    ],
+                    "ankle": [
+                      -0.3679998707111155,
+                      0.16660008633783216,
+                      0.7086922699490001
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.383999807360854,
+                      0.34076873151336406,
+                      0.8793419217896424
+                    ],
+                    "minimum": 0.1649157126952054,
+                    "maximum": 1.2468973927413147,
+                    "distance": 0.869154645703493,
+                    "third": [
+                      0.01599993664973849,
+                      -0.17416864517553193,
+                      -0.17064965184064232
+                    ],
+                    "pole": [
+                      -0.3923346407622014,
+                      0.5622714143370361,
+                      0.2091394966259747
+                    ],
+                    "padNormal": 0.005827126336955202
+                  }
+                ],
+                "sourceLoaded": false,
+                "finalPadGap": 0.005827126336955202,
+                "ankle": [
+                  -0.36799987656396566,
+                  0.16660024502034168,
+                  0.7086924232768892
+                ],
+                "elbow": [
+                  -0.39233464185245615,
+                  0.562271406938892,
+                  0.20913960102851564
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.40204459687521343
+              }
+            ],
+            "contactQualified": false,
+            "policy": "PHASE_CONDITIONED_SOURCE_TASKS_NOT_NATIVE_CONTACT",
+            "grounded250": {
+              "policy": "CURRENT_CLIENT_LEASE_SAME_MATERIAL_ORDINARY_TASK",
+              "contactQualified": false,
+              "feet": [
+                {
+                  "limb": "FL",
+                  "state": "plant",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 1,
+                  "materialPoint": {
+                    "limb": "FL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 953,
+                    "groupIndex": 8
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    0.4867868265783574,
+                    -2.9183744754135432e-8,
+                    -0.9968570730584935
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": true,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.5,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.21999999999999997,
+                        "peakRemaining": -0.14,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.21999999999999997,
+                    "toLoadPeak": -0.14,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.10999999999999999,
+                  "request": {
+                    "limb": "FL",
+                    "hip": [
+                      0.38686236071386376,
+                      1.2283968505573692,
+                      -0.8143914867987075
+                    ],
+                    "target": [
+                      0.38998581644910285,
+                      0.13627845505449704,
+                      -0.909795174357045
+                    ],
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "minimum": 0.09222771135340697,
+                    "maximum": 1.3365279774019592,
+                    "distance": 1.0962819935451036,
+                    "admitted": true
+                  },
+                  "hip": [
+                    0.38686236071386376,
+                    1.2283968505573692,
+                    -0.8143914867987075
+                  ],
+                  "ankle": [
+                    0.3919996383360483,
+                    0.1375997121800147,
+                    -0.9096577974412478
+                  ],
+                  "twoSegmentEndpoint": [
+                    0.3919996383360483,
+                    0.1375997121800147,
+                    -0.9096577974412478
+                  ],
+                  "minimum": 0.09222771108872195,
+                  "maximum": 1.3365279735662463,
+                  "distance": 1.0949613959665583,
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "pole": [
+                    0.7198879086809014,
+                    0.7313706717382775,
+                    -0.6383409133675714
+                  ],
+                  "iterationError": 8.63628236997163e-9,
+                  "samePointWorld": [
+                    0.4867868281611399,
+                    -3.685397246832888e-8,
+                    -0.9968570694187435
+                  ],
+                  "samePointError": 8.63628236997163e-9,
+                  "normalGap": -7.593338224614855e-8,
+                  "samePointTangentialError": 3.969002391823608e-9,
+                  "finalState": "plant",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "FR",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0,
+                  "materialPoint": {
+                    "limb": "FR",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 3686,
+                    "groupIndex": 8
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    -0.2795839810523718,
+                    5.827749394171633e-10,
+                    -1.463126356167661
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.72,
+                        "peakRemaining": 0.36,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.72,
+                    "toLoadPeak": 0.36,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "FR",
+                    "hip": [
+                      -0.3638875836691789,
+                      1.0844978824693932,
+                      -0.8153589549912063
+                    ],
+                    "target": [
+                      -0.3910101699268081,
+                      0.15681164474100928,
+                      -1.2983486523638066
+                    ],
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "minimum": 0.09222771260413545,
+                    "maximum": 1.3365279955270284,
+                    "distance": 1.046239187817022,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.3638875836691789,
+                    1.0844978824693932,
+                    -0.8153589549912063
+                  ],
+                  "ankle": [
+                    -0.3908785941832858,
+                    0.1568458943526008,
+                    -1.2982874663773083
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.3908785941832858,
+                    0.1568458943526008,
+                    -1.2982874663773083
+                  ],
+                  "minimum": 0.0922277131517847,
+                  "maximum": 1.336528003463345,
+                  "distance": 1.0461771708535827,
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "pole": [
+                    -0.7336388450892366,
+                    0.5851892061468451,
+                    -0.8394316674358963
+                  ],
+                  "iterationError": 3.950293560859264e-9,
+                  "samePointWorld": [
+                    -0.2784627087895092,
+                    0.01924609937483245,
+                    -1.4628682371338153
+                  ],
+                  "samePointError": 0.01928046149957869,
+                  "normalGap": 0.019246098131207673,
+                  "samePointTangentialError": 0.0011505985064732811,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HL",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0.7769633058984913,
+                  "materialPoint": {
+                    "limb": "HL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 6800,
+                    "groupIndex": 12
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    0.4305610168408181,
+                    2.0783212484332125e-8,
+                    0.31723072095626287
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.25,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.47,
+                        "peakRemaining": 0.10999999999999999,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.47,
+                    "toLoadPeak": 0.10999999999999999,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "HL",
+                    "hip": [
+                      0.35683720443457323,
+                      1.0647007524480128,
+                      0.4009285169171745
+                    ],
+                    "target": [
+                      0.3680851136610419,
+                      0.12608277787340688,
+                      0.3279377906200133
+                    ],
+                    "third": [
+                      -0.015999978513584992,
+                      -0.18399997354868006,
+                      -0.15999990356700924
+                    ],
+                    "minimum": 0.16491573195689005,
+                    "maximum": 1.2468975383753722,
+                    "distance": 0.7601061582356997,
+                    "admitted": true
+                  },
+                  "hip": [
+                    0.35683720443457323,
+                    1.0647007524480128,
+                    0.4009285169171745
+                  ],
+                  "ankle": [
+                    0.3681764492191089,
+                    0.12612562274038774,
+                    0.32798502139089586
+                  ],
+                  "twoSegmentEndpoint": [
+                    0.3841764277326939,
+                    0.3101255962890678,
+                    0.48798492495790513
+                  ],
+                  "minimum": 0.1649157319579813,
+                  "maximum": 1.246897538383623,
+                  "distance": 0.7600723107729914,
+                  "third": [
+                    -0.015999978513584992,
+                    -0.18399997354868006,
+                    -0.15999990356700924
+                  ],
+                  "pole": [
+                    0.3967379283060772,
+                    0.7762869203161324,
+                    -0.055262378819656066
+                  ],
+                  "iterationError": 6.29803315793254e-11,
+                  "samePointWorld": [
+                    0.43073757782676,
+                    0.004525663158521778,
+                    0.3173175467209586
+                  ],
+                  "samePointError": 0.004529917372796871,
+                  "normalGap": 0.004525642375309294,
+                  "samePointTangentialError": 0.000196754911429834,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HR",
+                  "state": "source",
+                  "sourceLoaded": false,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery"
+                    }
+                  ],
+                  "reason": "LIFECYCLE_RESET",
+                  "weight": 0,
+                  "materialPoint": null,
+                  "lease": null,
+                  "anchor": null,
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.75,
+                        "role": "recovery",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": -0.030000000000000027,
+                        "peakRemaining": -0.39,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": null,
+                    "toLoadPeak": null,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": null,
+                  "request": {
+                    "limb": "HR",
+                    "hip": [
+                      -0.3311626097293863,
+                      1.0641941902758525,
+                      0.4008066471642633
+                    ],
+                    "target": [
+                      -0.36799987656396566,
+                      0.16660024502034168,
+                      0.7086924232768892
+                    ],
+                    "third": [
+                      0.015999922542147826,
+                      -0.17416851100618488,
+                      -0.17064942520608706
+                    ],
+                    "minimum": 0.16491571229812155,
+                    "maximum": 1.2468973897390363,
+                    "distance": 0.8689833522002588,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.3311626097293863,
+                    1.0641941902758525,
+                    0.4008066471642633
+                  ],
+                  "ankle": [
+                    -0.36799987656396566,
+                    0.16660024502034168,
+                    0.7086924232768892
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.3839997991061135,
+                    0.34076875602652656,
+                    0.8793418484829763
+                  ],
+                  "minimum": 0.16491571229812155,
+                  "maximum": 1.2468973897390363,
+                  "distance": 0.8689833522002588,
+                  "third": [
+                    0.015999922542147826,
+                    -0.17416851100618488,
+                    -0.17064942520608706
+                  ],
+                  "pole": [
+                    -0.39233464185245615,
+                    0.562271406938892,
+                    0.20913960102851564
+                  ],
+                  "finalState": "source",
+                  "recoveryProgress": null
+                }
+              ],
+              "load": [
+                {
+                  "bone": "pelvis",
+                  "delta": [
+                    -0.00014677710696387475,
+                    -0.00009252550655953505,
+                    0.00036750902477838943,
+                    0.9999999174163112
+                  ],
+                  "currentSupportLevers": true
+                },
+                {
+                  "bone": "FL_scapula202",
+                  "delta": [
+                    0.0012917888312950051,
+                    -0.002259466966825041,
+                    0.005488378553717025,
+                    0.9999815517255777
+                  ],
+                  "currentSupportLevers": true
+                },
+                {
+                  "bone": "FR_scapula202",
+                  "delta": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "currentSupportLevers": true
+                }
+              ],
+              "costMs": 2.5208999999999833,
+              "clocks": [
+                {
+                  "limb": "FL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.21999999999999997,
+                      "peakRemaining": -0.14,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.21999999999999997,
+                  "toLoadPeak": -0.14,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "FR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.72,
+                      "peakRemaining": 0.36,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.72,
+                  "toLoadPeak": 0.36,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.47,
+                      "peakRemaining": 0.10999999999999999,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.47,
+                  "toLoadPeak": 0.10999999999999999,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": -0.030000000000000027,
+                      "peakRemaining": -0.39,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": null,
+                  "toLoadPeak": null,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                }
+              ]
+            },
+            "costMs": 3.4192999999999074
+          }
+        },
+        {
+          "name": "FelineWalk",
+          "direction": 1,
+          "i": 48,
+          "phase": 0.5,
+          "stance": 0,
+          "root": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.02,
+            -0.396990740740741,
+            1
+          ],
+          "diagnostic": {
+            "phase": 0.5,
+            "stance": 0,
+            "travelWeight": 1,
+            "requestedTravelWeight": 1,
+            "idleClocks": {},
+            "positive": [
+              {
+                "name": "FelineWalk",
+                "weight": 1
+              }
+            ],
+            "sourceFrame": {
+              "matrix": [
+                -0.8,
+                0,
+                -9.797174393178826e-17,
+                0,
+                0,
+                0.8,
+                0,
+                0,
+                9.797174393178826e-17,
+                0,
+                -0.8,
+                0,
+                0,
+                0.02,
+                -0.396990740740741,
+                1
+              ],
+              "planePoint": [
+                0,
+                0.02,
+                -0.396990740740741
+              ],
+              "planeNormal": [
+                0,
+                1,
+                0
+              ],
+              "uniformScale": 0.8
+            },
+            "feet": [
+              {
+                "limb": "FL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.75,
+                    "role": "recovery"
+                  }
+                ],
+                "desiredHeight": 0.005827052291137211,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FL",
+                    "hip": [
+                      0.3642181431741831,
+                      1.1398271450747868,
+                      -0.9986650951149485
+                    ],
+                    "ankle": [
+                      0.39199961209938444,
+                      0.18252043217100666,
+                      -0.9177518282743693
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.39199961209938444,
+                      0.18252043217100666,
+                      -0.9177518282743693
+                    ],
+                    "minimum": 0.09222771411598478,
+                    "maximum": 1.3365280174361587,
+                    "distance": 0.9611216933027249,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      0.7608692644272471,
+                      0.7576981788868881,
+                      -0.709325661643881
+                    ],
+                    "padNormal": 0.00582706600872103
+                  }
+                ],
+                "sourceLoaded": false,
+                "finalPadGap": 0.00582706600872103,
+                "ankle": [
+                  0.3919995926671938,
+                  0.18252046319609672,
+                  -0.9177518759131719
+                ],
+                "elbow": [
+                  0.7608692432753827,
+                  0.757698168455013,
+                  -0.7093256939712247
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.7872081815318499
+              },
+              {
+                "limb": "FR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.25,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "FR",
+                    "hip": [
+                      -0.38707395682584955,
+                      1.1406107200003726,
+                      -1.0312687394984863
+                    ],
+                    "ankle": [
+                      -0.3919997083658527,
+                      0.15759961093277225,
+                      -1.2985464661210744
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.3919997083658527,
+                      0.15759961093277225,
+                      -1.2985464661210744
+                    ],
+                    "minimum": 0.09222772414372492,
+                    "maximum": 1.3365281627542518,
+                    "distance": 1.0187111890654224,
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "pole": [
+                      -0.7516450300753071,
+                      0.6480577286862701,
+                      -0.9237904745624055
+                    ],
+                    "padNormal": -3.342065255070874e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": -3.342065255070874e-7,
+                "ankle": [
+                  -0.3919995975242043,
+                  0.15759961289033497,
+                  -1.2985465717994773
+                ],
+                "elbow": [
+                  -0.7516449286620297,
+                  0.6480576705838638,
+                  -0.9237905763040773
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.7253059904055625
+              },
+              {
+                "limb": "HL",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.5,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HL",
+                    "hip": [
+                      0.3437026188395998,
+                      1.0475420632101071,
+                      0.19727327680235027
+                    ],
+                    "ankle": [
+                      0.3679999851926724,
+                      0.1416001483312646,
+                      0.32789825366842196
+                    ],
+                    "twoSegmentEndpoint": [
+                      0.3839999505939741,
+                      0.325600181996725,
+                      0.4878982997259015
+                    ],
+                    "minimum": 0.1649157229302398,
+                    "maximum": 1.2468974701265292,
+                    "distance": 0.7792861212326021,
+                    "third": [
+                      -0.015999965401301736,
+                      -0.18400003366546042,
+                      -0.16000004605747956
+                    ],
+                    "pole": [
+                      0.37000755409410674,
+                      0.6318566335420635,
+                      -0.1479595299932099
+                    ],
+                    "padNormal": 1.6840574429526963e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 1.6840574429526963e-7,
+                "ankle": [
+                  0.3679999794634089,
+                  0.14160018089635662,
+                  0.32789828064129545
+                ],
+                "elbow": [
+                  0.37000755460524015,
+                  0.6318567110870211,
+                  -0.1479596097992432
+                ],
+                "sourceSide": -1,
+                "elbowOutboard": 0.3963464928617074
+              },
+              {
+                "limb": "HR",
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0,
+                    "role": "stance"
+                  }
+                ],
+                "desiredHeight": 0,
+                "corrections": [
+                  {
+                    "pass": 0,
+                    "limb": "HR",
+                    "hip": [
+                      -0.34400652238353,
+                      1.0455084922327043,
+                      0.21717287029133114
+                    ],
+                    "ankle": [
+                      -0.3679998923111314,
+                      0.1416002266661721,
+                      -0.060990718477483996
+                    ],
+                    "twoSegmentEndpoint": [
+                      -0.3839998696603695,
+                      0.3256002518954464,
+                      0.09900931367202159
+                    ],
+                    "minimum": 0.16491571302522468,
+                    "maximum": 1.2468973952365294,
+                    "distance": 0.7306366870372837,
+                    "third": [
+                      0.015999977349238092,
+                      -0.18400002522927425,
+                      -0.1600000321495056
+                    ],
+                    "pole": [
+                      -0.42800078456240587,
+                      0.906950937910272,
+                      -0.2989847843394814
+                    ],
+                    "padNormal": 3.0746781802498897e-7
+                  }
+                ],
+                "sourceLoaded": true,
+                "finalPadGap": 3.0746781802498897e-7,
+                "ankle": [
+                  -0.3679998948739745,
+                  0.14160031946619395,
+                  -0.06099063925690973
+                ],
+                "elbow": [
+                  -0.4280007883980782,
+                  0.9069509840076122,
+                  -0.29898479692466695
+                ],
+                "sourceSide": 1,
+                "elbowOutboard": 0.40166185014161093
+              }
+            ],
+            "contactQualified": false,
+            "policy": "PHASE_CONDITIONED_SOURCE_TASKS_NOT_NATIVE_CONTACT",
+            "grounded250": {
+              "policy": "CURRENT_CLIENT_LEASE_SAME_MATERIAL_ORDINARY_TASK",
+              "contactQualified": false,
+              "feet": [
+                {
+                  "limb": "FL",
+                  "state": "release",
+                  "sourceLoaded": false,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery"
+                    }
+                  ],
+                  "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+                  "weight": 0,
+                  "materialPoint": {
+                    "limb": "FL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 953,
+                    "groupIndex": 8
+                  },
+                  "lease": null,
+                  "anchor": [
+                    0.4867868265783574,
+                    -2.9183744754135432e-8,
+                    -0.9968570730584935
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.75,
+                        "role": "recovery",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": -0.030000000000000027,
+                        "peakRemaining": -0.39,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": null,
+                    "toLoadPeak": null,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.10999999999999999,
+                  "finalState": "release",
+                  "recoveryProgress": 0.07440476190476189
+                },
+                {
+                  "limb": "FR",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0.7769633058984913,
+                  "materialPoint": {
+                    "limb": "FR",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 3686,
+                    "groupIndex": 8
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    -0.2795839810523718,
+                    5.827749394171633e-10,
+                    -1.463126356167661
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.25,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.47,
+                        "peakRemaining": 0.10999999999999999,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.47,
+                    "toLoadPeak": 0.10999999999999999,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "FR",
+                    "hip": [
+                      -0.3873483494889495,
+                      1.1446508039648362,
+                      -1.0313891318947292
+                    ],
+                    "target": [
+                      -0.3911084372111916,
+                      0.14140497275278707,
+                      -1.299938153357994
+                    ],
+                    "third": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "minimum": 0.09222771853636721,
+                    "maximum": 1.3365280814946143,
+                    "distance": 1.038573499100045,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.3873483494889495,
+                    1.1446508039648362,
+                    -1.0313891318947292
+                  ],
+                  "ankle": [
+                    -0.388795974324473,
+                    0.14406664263666202,
+                    -1.3005448647394742
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.388795974324473,
+                    0.14406664263666202,
+                    -1.3005448647394742
+                  ],
+                  "minimum": 0.09222771691207264,
+                  "maximum": 1.3365280579559713,
+                  "distance": 1.036154220201637,
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "pole": [
+                    -0.7516449286620297,
+                    0.6480576705838638,
+                    -0.9237905763040773
+                  ],
+                  "iterationError": 8.097546334074139e-9,
+                  "samePointWorld": [
+                    -0.276379934057129,
+                    0.0064666522232502376,
+                    -1.465125976937813
+                  ],
+                  "samePointError": 0.007488790543967006,
+                  "normalGap": 0.006466621348714949,
+                  "samePointTangentialError": 0.0037768241118892177,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HL",
+                  "state": "plant",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 1,
+                  "materialPoint": {
+                    "limb": "HL",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 6800,
+                    "groupIndex": 12
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    0.4305610168408181,
+                    2.0783212484332125e-8,
+                    0.31723072095626287
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": true,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0.5,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.21999999999999997,
+                        "peakRemaining": -0.14,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.21999999999999997,
+                    "toLoadPeak": -0.14,
+                    "acquisitionPossible": false,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "HL",
+                    "hip": [
+                      0.3437685706544792,
+                      1.0482298202444038,
+                      0.1966076164589714
+                    ],
+                    "target": [
+                      0.3677493400136798,
+                      0.12141363555394769,
+                      0.32853001264560305
+                    ],
+                    "third": [
+                      -0.015999978946886872,
+                      -0.1839999667772306,
+                      -0.15999993933173795
+                    ],
+                    "minimum": 0.1649157223646486,
+                    "maximum": 1.2468974658501975,
+                    "distance": 0.7991201685632285,
+                    "admitted": true
+                  },
+                  "hip": [
+                    0.3437685706544792,
+                    1.0482298202444038,
+                    0.1966076164589714
+                  ],
+                  "ankle": [
+                    0.36799990605200056,
+                    0.12160005430426317,
+                    0.3278982709221071
+                  ],
+                  "twoSegmentEndpoint": [
+                    0.38399988499888743,
+                    0.30560002108149376,
+                    0.48789821025384505
+                  ],
+                  "minimum": 0.164915722371698,
+                  "maximum": 1.2468974659034964,
+                  "distance": 0.7987288571799525,
+                  "third": [
+                    -0.015999978946886872,
+                    -0.1839999667772306,
+                    -0.15999993933173795
+                  ],
+                  "pole": [
+                    0.37000755460524015,
+                    0.6318567110870211,
+                    -0.1479596097992432
+                  ],
+                  "iterationError": 4.6686596183290685e-9,
+                  "samePointWorld": [
+                    0.43056101639927336,
+                    1.758143039037001e-8,
+                    0.31723071758728494
+                  ],
+                  "samePointError": 4.6686596183290685e-9,
+                  "normalGap": -1.9878994639199325e-8,
+                  "samePointTangentialError": 3.3977895836264064e-9,
+                  "finalState": "plant",
+                  "recoveryProgress": null
+                },
+                {
+                  "limb": "HR",
+                  "state": "touch",
+                  "sourceLoaded": true,
+                  "roles": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance"
+                    }
+                  ],
+                  "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+                  "weight": 0,
+                  "materialPoint": {
+                    "limb": "HR",
+                    "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                    "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                    "vertexIndex": 9703,
+                    "groupIndex": 12
+                  },
+                  "lease": {
+                    "worldKey": "ground067-world:1",
+                    "generation": 2,
+                    "life": 1,
+                    "ownerKey": "ground067-world:1:owner:1",
+                    "colliderHandle": 0,
+                    "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+                  },
+                  "anchor": [
+                    -0.43276791243578583,
+                    1.6597151430985946e-8,
+                    -0.08259068245797163
+                  ],
+                  "contactQualified": false,
+                  "fulfilled": false,
+                  "eventClock": {
+                    "events": [
+                      {
+                        "clip": "FelineWalk",
+                        "weight": 1,
+                        "q": 0,
+                        "role": "stance",
+                        "duty": 0.72,
+                        "direction": 1,
+                        "loadedRemaining": 0.72,
+                        "peakRemaining": 0.36,
+                        "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                      }
+                    ],
+                    "direction": 1,
+                    "signedAdvance": 0.010416666666666666,
+                    "advance": 0.010416666666666666,
+                    "remainingLoaded": 0.72,
+                    "toLoadPeak": 0.36,
+                    "acquisitionPossible": true,
+                    "recoveryIncrement": 0.037202380952380945,
+                    "bodyLoadedIncrement": 0.014467592592592593,
+                    "bodyUnloadedIncrement": 0.037202380952380945,
+                    "discontinuous": false
+                  },
+                  "touchSpan": 0.36,
+                  "request": {
+                    "limb": "HR",
+                    "hip": [
+                      -0.3438987233994448,
+                      1.044582195175643,
+                      0.21768793065047798
+                    ],
+                    "target": [
+                      -0.36637364758345414,
+                      0.14182821889670869,
+                      -0.06432385824435255
+                    ],
+                    "third": [
+                      0.015999978941915072,
+                      -0.18399997231262483,
+                      -0.15999993296665355
+                    ],
+                    "minimum": 0.16491571232695273,
+                    "maximum": 1.246897389957024,
+                    "distance": 0.7300510457325498,
+                    "admitted": true
+                  },
+                  "hip": [
+                    -0.3438987233994448,
+                    1.044582195175643,
+                    0.21768793065047798
+                  ],
+                  "ankle": [
+                    -0.36614161643652016,
+                    0.14177861208617365,
+                    -0.06473528570253412
+                  ],
+                  "twoSegmentEndpoint": [
+                    -0.38214159537843523,
+                    0.3257785843987985,
+                    0.09526464726411943
+                  ],
+                  "minimum": 0.16491571231354496,
+                  "maximum": 1.2468973898556506,
+                  "distance": 0.7301565643326968,
+                  "third": [
+                    0.015999978941915072,
+                    -0.18399997231262483,
+                    -0.15999993296665355
+                  ],
+                  "pole": [
+                    -0.4280007883980782,
+                    0.9069509840076122,
+                    -0.29898479692466695
+                  ],
+                  "iterationError": 1.7632272243218838e-10,
+                  "samePointWorld": [
+                    -0.4309096293394917,
+                    0.02017863055877468,
+                    -0.0863353089962221
+                  ],
+                  "samePointError": 0.020607083864272475,
+                  "normalGap": 0.020178613961623248,
+                  "samePointTangentialError": 0.004180364096217255,
+                  "finalState": "touch",
+                  "recoveryProgress": null
+                }
+              ],
+              "load": [
+                {
+                  "bone": "pelvis",
+                  "delta": [
+                    0.0021523591082034926,
+                    0.0008673586593914381,
+                    0.0011094026979028774,
+                    0.9999966921269688
+                  ],
+                  "currentSupportLevers": true
+                },
+                {
+                  "bone": "FL_scapula202",
+                  "delta": [
+                    0.004356878825495403,
+                    -0.0023455844316441184,
+                    0.008975004251464228,
+                    0.9999474811905188
+                  ],
+                  "currentSupportLevers": false
+                },
+                {
+                  "bone": "FR_scapula202",
+                  "delta": [
+                    0.002052632013653165,
+                    -0.0032397648823100627,
+                    0.004505378438283316,
+                    0.9999824959420299
+                  ],
+                  "currentSupportLevers": true
+                }
+              ],
+              "costMs": 1.6597000000000435,
+              "clocks": [
+                {
+                  "limb": "FL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.75,
+                      "role": "recovery",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": -0.030000000000000027,
+                      "peakRemaining": -0.39,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": null,
+                  "toLoadPeak": null,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "FR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.25,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.47,
+                      "peakRemaining": 0.10999999999999999,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.47,
+                  "toLoadPeak": 0.10999999999999999,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HL",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.5,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.21999999999999997,
+                      "peakRemaining": -0.14,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.21999999999999997,
+                  "toLoadPeak": -0.14,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                },
+                {
+                  "limb": "HR",
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.72,
+                      "peakRemaining": 0.36,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.72,
+                  "toLoadPeak": 0.36,
+                  "acquisitionPossible": true,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                }
+              ]
+            },
+            "costMs": 2.3595000000000255
+          }
+        }
+      ]
+    }
+  ],
+  "firstFailure": {
+    "reason": "AssertionError [ERR_ASSERTION]: RELEASE_ROTATION_DISCONTINUITY:HL_lower",
+    "operands": null,
+    "last": {
+      "name": "FelineWalk",
+      "direction": 1,
+      "i": 70,
+      "phase": 0.7291666666666665,
+      "stance": 0,
+      "root": [
+        0.7518398074789774,
+        0,
+        -0.6593458151000688,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.6593458151000688,
+        0,
+        0.7518398074789774,
+        0,
+        0,
+        0.02,
+        -0.5752314814814818,
+        1
+      ],
+      "diagnostic": {
+        "phase": 0.7291666666666665,
+        "stance": 0,
+        "travelWeight": 1,
+        "requestedTravelWeight": 1,
+        "idleClocks": {},
+        "positive": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ],
+        "sourceFrame": {
+          "matrix": [
+            -0.601471845983182,
+            0,
+            0.527476652080055,
+            0,
+            0,
+            0.8,
+            0,
+            0,
+            -0.527476652080055,
+            0,
+            -0.601471845983182,
+            0,
+            0,
+            0.02,
+            -0.5752314814814818,
+            1
+          ],
+          "planePoint": [
+            0,
+            0.02,
+            -0.5752314814814818
+          ],
+          "planeNormal": [
+            0,
+            1,
+            0
+          ],
+          "uniformScale": 0.8
+        },
+        "feet": [
+          {
+            "limb": "FL",
+            "roles": [
+              {
+                "clip": "FelineWalk",
+                "weight": 1,
+                "q": 0.9791666666666665,
+                "role": "recovery"
+              }
+            ],
+            "desiredHeight": 0.002174096625936244,
+            "corrections": [
+              {
+                "pass": 0,
+                "limb": "FL",
+                "hip": [
+                  -0.13050755945059292,
+                  1.0887641982795384,
+                  -1.2745796965774188
+                ],
+                "ankle": [
+                  -0.4362692722612581,
+                  0.16133459078820533,
+                  -1.6672171999522216
+                ],
+                "twoSegmentEndpoint": [
+                  -0.4362692722612581,
+                  0.16133459078820533,
+                  -1.6672171999522216
+                ],
+                "minimum": 0.09222772412815679,
+                "maximum": 1.3365281625286436,
+                "distance": 1.052511335297078,
+                "third": [
+                  0,
+                  0,
+                  0
+                ],
+                "pole": [
+                  0.12314125334121231,
+                  0.5877038667496766,
+                  -1.5422974752857554
+                ],
+                "padNormal": 0.0026133195029374723
+              },
+              {
+                "pass": 1,
+                "limb": "FL",
+                "hip": [
+                  -0.13050755945059292,
+                  1.0887641982795384,
+                  -1.2745796965774188
+                ],
+                "ankle": [
+                  -0.4362692722612581,
+                  0.1608953679112041,
+                  -1.6672171999522216
+                ],
+                "twoSegmentEndpoint": [
+                  -0.4362692722612581,
+                  0.1608953679112041,
+                  -1.6672171999522216
+                ],
+                "minimum": 0.09222772329897942,
+                "maximum": 1.3365281505125304,
+                "distance": 1.0528983808736772,
+                "third": [
+                  0,
+                  0,
+                  0
+                ],
+                "pole": [
+                  0.12314125334121231,
+                  0.5877038667496766,
+                  -1.5422974752857554
+                ],
+                "padNormal": 0.002174089629671215
+              }
+            ],
+            "sourceLoaded": false,
+            "finalPadGap": 0.002174089629671215,
+            "ankle": [
+              -0.43626927527339776,
+              0.16089543433483633,
+              -1.6672171615630613
+            ],
+            "elbow": [
+              0.12289687925177842,
+              0.5875910352888355,
+              -1.5423176912195253
+            ],
+            "sourceSide": -1,
+            "elbowOutboard": 0.7425276794468383
+          },
+          {
+            "limb": "FR",
+            "roles": [
+              {
+                "clip": "FelineWalk",
+                "weight": 1,
+                "q": 0.4791666666666665,
+                "role": "stance"
+              }
+            ],
+            "desiredHeight": 0,
+            "corrections": [
+              {
+                "pass": 0,
+                "limb": "FR",
+                "hip": [
+                  -0.6961147269343053,
+                  1.2281272402316628,
+                  -0.7816900564133358
+                ],
+                "ankle": [
+                  -0.7716441574401085,
+                  0.1576057676612368,
+                  -0.8605809051530829
+                ],
+                "twoSegmentEndpoint": [
+                  -0.7716441574401085,
+                  0.1576057676612368,
+                  -0.8605809051530829
+                ],
+                "minimum": 0.09222772920019129,
+                "maximum": 1.3365282360305886,
+                "distance": 1.0760783819600512,
+                "third": [
+                  0,
+                  0,
+                  0
+                ],
+                "pole": [
+                  -0.8340656466182452,
+                  0.7291694453151758,
+                  -0.4366063578744054
+                ],
+                "padNormal": 0.00000582383095607971
+              }
+            ],
+            "sourceLoaded": true,
+            "finalPadGap": 0.00000582383095607971,
+            "ankle": [
+              -0.7716441518143773,
+              0.15760582297972658,
+              -0.860580930275305
+            ],
+            "elbow": [
+              -0.8340656233775777,
+              0.7291694798483651,
+              -0.4366063933014205
+            ],
+            "sourceSide": 1,
+            "elbowOutboard": 0.7060009412857853
+          },
+          {
+            "limb": "HL",
+            "roles": [
+              {
+                "clip": "FelineWalk",
+                "weight": 1,
+                "q": 0.7291666666666665,
+                "role": "recovery"
+              }
+            ],
+            "desiredHeight": 0.000211351720411947,
+            "corrections": [
+              {
+                "pass": 0,
+                "limb": "HL",
+                "hip": [
+                  0.6462061683099747,
+                  1.064216382315988,
+                  -0.3407350912826056
+                ],
+                "ankle": [
+                  0.8717925883108075,
+                  0.1481216710664611,
+                  -0.1392725143249386
+                ],
+                "twoSegmentEndpoint": [
+                  0.991539157425346,
+                  0.32913953139610475,
+                  -0.02699911938834504
+                ],
+                "minimum": 0.1649157170799276,
+                "maximum": 1.246897425893393,
+                "distance": 0.8706452263638076,
+                "third": [
+                  -0.11974656911453851,
+                  -0.18101786032964365,
+                  -0.11227339493659355
+                ],
+                "pole": [
+                  0.5571726168298313,
+                  0.5655665203552869,
+                  -0.530717525495145
+                ],
+                "padNormal": 0.00036822503565134626
+              },
+              {
+                "pass": 1,
+                "limb": "HL",
+                "hip": [
+                  0.6462061683099747,
+                  1.064216382315988,
+                  -0.3407350912826056
+                ],
+                "ankle": [
+                  0.8717925883108075,
+                  0.1479647977512217,
+                  -0.1392725143249386
+                ],
+                "twoSegmentEndpoint": [
+                  0.991539157425346,
+                  0.32898265808086535,
+                  -0.02699911938834504
+                ],
+                "minimum": 0.16491571689935194,
+                "maximum": 1.2468974245280942,
+                "distance": 0.8707776769557438,
+                "third": [
+                  -0.11974656911453851,
+                  -0.18101786032964365,
+                  -0.11227339493659355
+                ],
+                "pole": [
+                  0.5571726168298313,
+                  0.5655665203552869,
+                  -0.530717525495145
+                ],
+                "padNormal": 0.00021135172318159472
+              }
+            ],
+            "sourceLoaded": false,
+            "finalPadGap": 0.00021135172318159472,
+            "ankle": [
+              0.8717925983370028,
+              0.14796482698271535,
+              -0.13927247969203468
+            ],
+            "elbow": [
+              0.5572047129313183,
+              0.565546772698769,
+              -0.5306806627093742
+            ],
+            "sourceSide": -1,
+            "elbowOutboard": 0.40203895635863834
+          },
+          {
+            "limb": "HR",
+            "roles": [
+              {
+                "clip": "FelineWalk",
+                "weight": 1,
+                "q": 0.22916666666666652,
+                "role": "stance"
+              }
+            ],
+            "desiredHeight": 0,
+            "corrections": [
+              {
+                "pass": 0,
+                "limb": "HR",
+                "hip": [
+                  0.1303229037907416,
+                  1.0639544617594958,
+                  0.11446633779632723
+                ],
+                "ankle": [
+                  0.062381861645806835,
+                  0.14159710250520705,
+                  0.05403386077985828
+                ],
+                "twoSegmentEndpoint": [
+                  0.15584833955680266,
+                  0.3255972092461644,
+                  0.18487730475376868
+                ],
+                "minimum": 0.16491572649937333,
+                "maximum": 1.2468974971120916,
+                "distance": 0.7421459994353972,
+                "third": [
+                  -0.09346647791099584,
+                  -0.1840001067409574,
+                  -0.1308434439739104
+                ],
+                "pole": [
+                  -0.20754796882034662,
+                  0.7880336331509017,
+                  -0.20550701443673983
+                ],
+                "padNormal": -0.0000032268167066379153
+              }
+            ],
+            "sourceLoaded": true,
+            "finalPadGap": -0.0000032268167066379153,
+            "ankle": [
+              0.06238195423936281,
+              0.14159727321169222,
+              0.05403397272115909
+            ],
+            "elbow": [
+              -0.2075479441103157,
+              0.7880335648359231,
+              -0.20550698007079796
+            ],
+            "sourceSide": 1,
+            "elbowOutboard": 0.3873344409090036
+          }
+        ],
+        "contactQualified": false,
+        "policy": "PHASE_CONDITIONED_SOURCE_TASKS_NOT_NATIVE_CONTACT",
+        "grounded250": {
+          "policy": "CURRENT_CLIENT_LEASE_SAME_MATERIAL_ORDINARY_TASK",
+          "contactQualified": false,
+          "feet": [
+            {
+              "limb": "FL",
+              "state": "release",
+              "sourceLoaded": false,
+              "roles": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.9791666666666665,
+                  "role": "recovery"
+                }
+              ],
+              "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+              "weight": 0,
+              "materialPoint": {
+                "limb": "FL",
+                "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                "vertexIndex": 953,
+                "groupIndex": 8
+              },
+              "lease": null,
+              "anchor": [
+                0.4867868265783574,
+                -2.9183744754135432e-8,
+                -0.9968570730584935
+              ],
+              "contactQualified": false,
+              "fulfilled": false,
+              "eventClock": {
+                "events": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.9791666666666665,
+                    "role": "recovery",
+                    "duty": 0.72,
+                    "direction": 1,
+                    "loadedRemaining": -0.25916666666666655,
+                    "peakRemaining": -0.6191666666666665,
+                    "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                  }
+                ],
+                "direction": 1,
+                "signedAdvance": 0.010416666666666666,
+                "advance": 0.010416666666666666,
+                "remainingLoaded": null,
+                "toLoadPeak": null,
+                "acquisitionPossible": false,
+                "recoveryIncrement": 0.037202380952380945,
+                "bodyLoadedIncrement": 0.014467592592592593,
+                "bodyUnloadedIncrement": 0.037202380952380945,
+                "discontinuous": false
+              },
+              "touchSpan": 0.10999999999999999,
+              "finalState": "release",
+              "recoveryProgress": 0.8928571428571425
+            },
+            {
+              "limb": "FR",
+              "state": "release",
+              "sourceLoaded": true,
+              "roles": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.4791666666666665,
+                  "role": "stance"
+                }
+              ],
+              "reason": "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT",
+              "weight": 0,
+              "materialPoint": {
+                "limb": "FR",
+                "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                "vertexIndex": 3686,
+                "groupIndex": 8
+              },
+              "lease": null,
+              "anchor": [
+                -0.2795839810523718,
+                5.827749394171633e-10,
+                -1.463126356167661
+              ],
+              "contactQualified": false,
+              "fulfilled": false,
+              "eventClock": {
+                "events": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.4791666666666665,
+                    "role": "stance",
+                    "duty": 0.72,
+                    "direction": 1,
+                    "loadedRemaining": 0.24083333333333345,
+                    "peakRemaining": -0.11916666666666653,
+                    "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                  }
+                ],
+                "direction": 1,
+                "signedAdvance": 0.010416666666666666,
+                "advance": 0.010416666666666666,
+                "remainingLoaded": 0.24083333333333345,
+                "toLoadPeak": -0.11916666666666653,
+                "acquisitionPossible": false,
+                "recoveryIncrement": 0.037202380952380945,
+                "bodyLoadedIncrement": 0.014467592592592593,
+                "bodyUnloadedIncrement": 0.037202380952380945,
+                "discontinuous": false
+              },
+              "touchSpan": 0.36,
+              "finalState": "release",
+              "recoveryProgress": 0.2930832356389216,
+              "preRelease": {
+                "current": {
+                  "limb": "FR",
+                  "hip": [
+                    -0.6001249829457485,
+                    1.2024685329196976,
+                    -0.9223281867600901
+                  ],
+                  "target": [
+                    -0.3204557890588705,
+                    0.13760037350761872,
+                    -1.2680531447876129
+                  ],
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "minimum": 0.09222773163350907,
+                  "maximum": 1.3365282712932784,
+                  "distance": 1.1539864823914259,
+                  "admitted": true
+                },
+                "observedStepProjection": {
+                  "limb": "FR",
+                  "hip": [
+                    -0.6001249829457485,
+                    1.2024685329196976,
+                    -0.9223281867600901
+                  ],
+                  "target": [
+                    0.13838541719013547,
+                    -0.011443236923226963,
+                    -1.6806870830179945
+                  ],
+                  "third": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "minimum": 0.09222773163350907,
+                  "maximum": 1.3365282712932784,
+                  "distance": 1.6106171524001447,
+                  "admitted": false
+                },
+                "anchor": [
+                  -0.2795839810523718,
+                  5.827749394171633e-10,
+                  -1.463126356167661
+                ],
+                "material": [
+                  -0.6291217245464502,
+                  0.019982076345145545,
+                  -1.2823948019559956
+                ],
+                "phase": 0.625,
+                "roles": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.375,
+                    "role": "stance"
+                  }
+                ],
+                "horizon": 33.12,
+                "clock": {
+                  "events": [
+                    {
+                      "clip": "FelineWalk",
+                      "weight": 1,
+                      "q": 0.375,
+                      "role": "stance",
+                      "duty": 0.72,
+                      "direction": 1,
+                      "loadedRemaining": 0.345,
+                      "peakRemaining": -0.015000000000000013,
+                      "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                    }
+                  ],
+                  "direction": 1,
+                  "signedAdvance": 0.010416666666666666,
+                  "advance": 0.010416666666666666,
+                  "remainingLoaded": 0.345,
+                  "toLoadPeak": -0.015000000000000013,
+                  "acquisitionPossible": false,
+                  "recoveryIncrement": 0.037202380952380945,
+                  "bodyLoadedIncrement": 0.014467592592592593,
+                  "bodyUnloadedIncrement": 0.037202380952380945,
+                  "discontinuous": false
+                }
+              }
+            },
+            {
+              "limb": "HL",
+              "state": "release",
+              "sourceLoaded": false,
+              "roles": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.7291666666666665,
+                  "role": "recovery"
+                }
+              ],
+              "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+              "weight": 0,
+              "materialPoint": {
+                "limb": "HL",
+                "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                "vertexIndex": 6800,
+                "groupIndex": 12
+              },
+              "lease": null,
+              "anchor": [
+                0.4305610168408181,
+                2.0783212484332125e-8,
+                0.31723072095626287
+              ],
+              "contactQualified": false,
+              "fulfilled": false,
+              "eventClock": {
+                "events": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.7291666666666665,
+                    "role": "recovery",
+                    "duty": 0.72,
+                    "direction": 1,
+                    "loadedRemaining": -0.009166666666666545,
+                    "peakRemaining": -0.36916666666666653,
+                    "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                  }
+                ],
+                "direction": 1,
+                "signedAdvance": 0.010416666666666666,
+                "advance": 0.010416666666666666,
+                "remainingLoaded": null,
+                "toLoadPeak": null,
+                "acquisitionPossible": false,
+                "recoveryIncrement": 0.037202380952380945,
+                "bodyLoadedIncrement": 0.014467592592592593,
+                "bodyUnloadedIncrement": 0.037202380952380945,
+                "discontinuous": false
+              },
+              "touchSpan": 0.36,
+              "finalState": "release",
+              "recoveryProgress": 0
+            },
+            {
+              "limb": "HR",
+              "state": "touch",
+              "sourceLoaded": true,
+              "roles": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.22916666666666652,
+                  "role": "stance"
+                }
+              ],
+              "reason": "CURRENT_FIXED_SUPPORT_TOUCH",
+              "weight": 0.6997662213664713,
+              "materialPoint": {
+                "limb": "HR",
+                "meshUUID": "3e26a327-c1fc-44da-9057-7c7550131407",
+                "geometryUUID": "a3ebdb1d-32c7-4dca-bb51-896a98191f6c",
+                "vertexIndex": 9703,
+                "groupIndex": 12
+              },
+              "lease": {
+                "worldKey": "ground067-world:1",
+                "generation": 2,
+                "life": 1,
+                "ownerKey": "ground067-world:1:owner:1",
+                "colliderHandle": 0,
+                "shapePoseKey": "2:1,100,0.10000000149011612,100:0,-0.10000000149011612,0,0,0,0,1"
+              },
+              "anchor": [
+                -0.43276791243578583,
+                1.6597151430985946e-8,
+                -0.08259068245797163
+              ],
+              "contactQualified": false,
+              "fulfilled": false,
+              "eventClock": {
+                "events": [
+                  {
+                    "clip": "FelineWalk",
+                    "weight": 1,
+                    "q": 0.22916666666666652,
+                    "role": "stance",
+                    "duty": 0.72,
+                    "direction": 1,
+                    "loadedRemaining": 0.49083333333333345,
+                    "peakRemaining": 0.13083333333333347,
+                    "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                  }
+                ],
+                "direction": 1,
+                "signedAdvance": 0.010416666666666666,
+                "advance": 0.010416666666666666,
+                "remainingLoaded": 0.49083333333333345,
+                "toLoadPeak": 0.13083333333333347,
+                "acquisitionPossible": true,
+                "recoveryIncrement": 0.037202380952380945,
+                "bodyLoadedIncrement": 0.014467592592592593,
+                "bodyUnloadedIncrement": 0.037202380952380945,
+                "discontinuous": false
+              },
+              "touchSpan": 0.36,
+              "request": {
+                "limb": "HR",
+                "hip": [
+                  0.12646759507783206,
+                  1.0760107045976037,
+                  0.11129475456249657
+                ],
+                "target": [
+                  -0.24816823748495037,
+                  0.13005332112593562,
+                  -0.058642162162052314
+                ],
+                "third": [
+                  -0.016865534127596227,
+                  -0.18399995733235402,
+                  -0.1512461458683318
+                ],
+                "minimum": 0.16491572619780498,
+                "maximum": 1.2468974948319882,
+                "distance": 0.8419786521085021,
+                "admitted": true
+              },
+              "hip": [
+                0.12646759507783206,
+                1.0760107045976037,
+                0.11129475456249657
+              ],
+              "ankle": [
+                -0.24782332342376745,
+                0.13717475237341048,
+                -0.021004844306633852
+              ],
+              "twoSegmentEndpoint": [
+                -0.23095778929617122,
+                0.3211747097057645,
+                0.13024130156169794
+              ],
+              "minimum": 0.16491572631652915,
+              "maximum": 1.2468974957296401,
+              "distance": 0.8353976635246533,
+              "third": [
+                -0.016865534127596227,
+                -0.18399995733235402,
+                -0.1512461458683318
+              ],
+              "pole": [
+                -0.2075479441103157,
+                0.7880335648359231,
+                -0.20550698007079796
+              ],
+              "iterationError": 1.2736467244256025e-8,
+              "samePointWorld": [
+                -0.3161108659157686,
+                0.011274512339633508,
+                -0.031745766277543774
+              ],
+              "samePointError": 0.12775439819597384,
+              "normalGap": 0.011274465822426936,
+              "samePointTangentialError": 0.12725593111587452,
+              "finalState": "touch",
+              "recoveryProgress": null
+            }
+          ],
+          "load": [
+            {
+              "bone": "pelvis",
+              "delta": [
+                -0.005519733453794687,
+                -0.00684285329503329,
+                -0.01930229441603076,
+                0.9997750393621859
+              ],
+              "currentSupportLevers": true
+            },
+            {
+              "bone": "FL_scapula202",
+              "delta": [
+                0.0018921336876847844,
+                -0.001018655670305028,
+                0.0038977232490230392,
+                0.9999900949130484
+              ],
+              "currentSupportLevers": false
+            },
+            {
+              "bone": "FR_scapula202",
+              "delta": [
+                0.0068593992258134924,
+                -0.007952582105217052,
+                0.012020636109656082,
+                0.9998725965780034
+              ],
+              "currentSupportLevers": false
+            }
+          ],
+          "costMs": 0.39069999999992433,
+          "clocks": [
+            {
+              "limb": "FL",
+              "events": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.9791666666666665,
+                  "role": "recovery",
+                  "duty": 0.72,
+                  "direction": 1,
+                  "loadedRemaining": -0.25916666666666655,
+                  "peakRemaining": -0.6191666666666665,
+                  "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                }
+              ],
+              "direction": 1,
+              "signedAdvance": 0.010416666666666666,
+              "advance": 0.010416666666666666,
+              "remainingLoaded": null,
+              "toLoadPeak": null,
+              "acquisitionPossible": false,
+              "recoveryIncrement": 0.037202380952380945,
+              "bodyLoadedIncrement": 0.014467592592592593,
+              "bodyUnloadedIncrement": 0.037202380952380945,
+              "discontinuous": false
+            },
+            {
+              "limb": "FR",
+              "events": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.4791666666666665,
+                  "role": "stance",
+                  "duty": 0.72,
+                  "direction": 1,
+                  "loadedRemaining": 0.24083333333333345,
+                  "peakRemaining": -0.11916666666666653,
+                  "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                }
+              ],
+              "direction": 1,
+              "signedAdvance": 0.010416666666666666,
+              "advance": 0.010416666666666666,
+              "remainingLoaded": 0.24083333333333345,
+              "toLoadPeak": -0.11916666666666653,
+              "acquisitionPossible": false,
+              "recoveryIncrement": 0.037202380952380945,
+              "bodyLoadedIncrement": 0.014467592592592593,
+              "bodyUnloadedIncrement": 0.037202380952380945,
+              "discontinuous": false
+            },
+            {
+              "limb": "HL",
+              "events": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.7291666666666665,
+                  "role": "recovery",
+                  "duty": 0.72,
+                  "direction": 1,
+                  "loadedRemaining": -0.009166666666666545,
+                  "peakRemaining": -0.36916666666666653,
+                  "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                }
+              ],
+              "direction": 1,
+              "signedAdvance": 0.010416666666666666,
+              "advance": 0.010416666666666666,
+              "remainingLoaded": null,
+              "toLoadPeak": null,
+              "acquisitionPossible": false,
+              "recoveryIncrement": 0.037202380952380945,
+              "bodyLoadedIncrement": 0.014467592592592593,
+              "bodyUnloadedIncrement": 0.037202380952380945,
+              "discontinuous": false
+            },
+            {
+              "limb": "HR",
+              "events": [
+                {
+                  "clip": "FelineWalk",
+                  "weight": 1,
+                  "q": 0.22916666666666652,
+                  "role": "stance",
+                  "duty": 0.72,
+                  "direction": 1,
+                  "loadedRemaining": 0.49083333333333345,
+                  "peakRemaining": 0.13083333333333347,
+                  "clock": "SIGNED_UNWRAPPED_DISTANCE_PHASE"
+                }
+              ],
+              "direction": 1,
+              "signedAdvance": 0.010416666666666666,
+              "advance": 0.010416666666666666,
+              "remainingLoaded": 0.49083333333333345,
+              "toLoadPeak": 0.13083333333333347,
+              "acquisitionPossible": true,
+              "recoveryIncrement": 0.037202380952380945,
+              "bodyLoadedIncrement": 0.014467592592592593,
+              "bodyUnloadedIncrement": 0.037202380952380945,
+              "discontinuous": false
+            }
+          ]
+        },
+        "costMs": 1.146900000000187
+      }
+    }
+  },
+  "counts": {
+    "frames": 71,
+    "fulfilled": 71,
+    "touch": 103,
+    "release": 36,
+    "independentChecks": 12
+  },
+  "maxSamePointError": 9.229378145691308e-8,
+  "maxMinDifference": 3.469446951953614e-18,
+  "caseFailures": [],
+  "maxFirstReleaseAngle": 0.0005666143110921966,
+  "maxLocalStepAngle": 0.08797347293835754,
+  "maxPadStep": 0
+}

@@ -1,0 +1,186 @@
+{
+  "basisUpdate": [
+    {
+      "clock": 1.9333333333333331,
+      "stage": "basis-written-before-update",
+      "maxComputedVsActualBasisComponent": 9.685756197086448E-08,
+      "FLevaluatedResidual": null,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": null,
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 1.9333333333333331,
+      "stage": "basis-written-after-update",
+      "maxComputedVsActualBasisComponent": 9.685756197086448E-08,
+      "FLevaluatedResidual": 2.653076323086747E-07,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": null,
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 1.9333333333333331,
+      "stage": "after-key-update",
+      "maxComputedVsActualBasisComponent": 9.685756197086448E-08,
+      "FLevaluatedResidual": 2.653076323086747E-07,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 1.9333333333333331,
+      "stage": "after-frame-replay",
+      "maxComputedVsActualBasisComponent": 9.685756197086448E-08,
+      "FLevaluatedResidual": 2.653076323086747E-07,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.233333333333333,
+      "stage": "basis-written-before-update",
+      "maxComputedVsActualBasisComponent": 1.7881393432617188E-07,
+      "FLevaluatedResidual": null,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.233333333333333,
+      "stage": "basis-written-after-update",
+      "maxComputedVsActualBasisComponent": 1.0903670191764832,
+      "FLevaluatedResidual": 0.9612383730043186,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.233333333333333,
+      "stage": "after-key-update",
+      "maxComputedVsActualBasisComponent": 1.0903670191764832,
+      "FLevaluatedResidual": 0.9612383730043186,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.233333333333333,
+      "stage": "after-frame-replay",
+      "maxComputedVsActualBasisComponent": 1.0903670191764832,
+      "FLevaluatedResidual": 0.9612383730043186,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.533333333333333,
+      "stage": "basis-written-before-update",
+      "maxComputedVsActualBasisComponent": 2.384185791015625E-07,
+      "FLevaluatedResidual": null,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.533333333333333,
+      "stage": "basis-written-after-update",
+      "maxComputedVsActualBasisComponent": 1.2619990706443787,
+      "FLevaluatedResidual": 1.5567910099019562,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.533333333333333,
+      "stage": "after-key-update",
+      "maxComputedVsActualBasisComponent": 1.2619990706443787,
+      "FLevaluatedResidual": 1.5567910099019562,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    },
+    {
+      "clock": 2.533333333333333,
+      "stage": "after-frame-replay",
+      "maxComputedVsActualBasisComponent": 1.2619990706443787,
+      "FLevaluatedResidual": 1.5567910099019562,
+      "activeAction": "027DiagnosticImpactAttacker",
+      "slot": "OBPounce_Wholebody021_Rig",
+      "drivers": 0,
+      "unmutedTracks": 0,
+      "constraints": 0
+    }
+  ],
+  "keyModes": [
+    {
+      "clock": 1.9333333333333331,
+      "role": "victim",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    },
+    {
+      "clock": 1.9333333333333331,
+      "role": "attacker",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    },
+    {
+      "clock": 2.233333333333333,
+      "role": "victim",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    },
+    {
+      "clock": 2.233333333333333,
+      "role": "attacker",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    },
+    {
+      "clock": 2.533333333333333,
+      "role": "victim",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    },
+    {
+      "clock": 2.533333333333333,
+      "role": "attacker",
+      "modesBefore": [
+        "QUATERNION"
+      ],
+      "maxBasisChange": 0.0
+    }
+  ]
+}

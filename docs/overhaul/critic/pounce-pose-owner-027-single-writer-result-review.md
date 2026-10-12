@@ -1,0 +1,11 @@
+# Pose-owner027 three-clock result
+
+Independent HIGH actual-result review started 2026-10-10 20:23:21 UTC within the unchanged critic hard close 20:45 UTC.
+
+ACCEPT the limited single-writer repair at the three selected clocks. One root attempt returned exit0 in 16.188 seconds, 20:21:38.792–20:21:54.983 UTC. The source receipt covers 20:21:40.617349–20:21:53.473147 UTC, error null, 71 raw rows. All six output-seal files matched size/SHA256; seal `89FA46DCA4AD27E64CF67CCA5B8A9277A96189B01B1D8242EB1F52B7D665D5C5`. The process records all 111 checked input rows matching. No export, rendering or native simulation occurred.
+
+Independent recomputation across 18 checks, each containing 57 desired/evaluated bone matrices, gives maximum component residual 7.390975952e-6; attacker checks remain below 9.54e-7. The detached solver, keyed current evaluation and same-clock replay agree under the unchanged 2e-5 bound at 1.933333, 2.233333 and 2.533333 seconds. The final row reports all 57 rest bones unchanged. This supports the action-owner correction rather than a geometry/solver-limit adjustment.
+
+At full-contact frame37, the two selected evaluated claw vertices have current victim-core nearest-surface distances 3.781491e-7 and 4.470348e-8 source units. Returned current `021Victim__AnatomicalChassis` triangles 2087/2133, root transform, triangle vertices and clock are recorded. Historical target residuals are separately 8.607920e-7/6.462708e-7. The historical/current-target distinction was material: here both happened to agree at this selected clock. Intermediate-clock claw distance is intentionally nonzero during approach. These facts certify two selected point correspondences, not claw volume, whole-paw bearing, force or a complete restrained pose.
+
+DENY full choreography, continuous clearance, native paired contact/support, ordinary gameplay, art, runtime mounting and Gate1 admission from this diagnostic. Fresh sparse actions do not reproduce the entire 81-key historical path or planned 198-clock family. A separately frozen full-author attempt may test this ownership mechanism without changing geometry/targets/bounds; this result grants no such job by itself. Preserve all earlier failures and the new raw evidence.

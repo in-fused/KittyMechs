@@ -1,0 +1,1003 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_DECODED_FAILURE_STOP",
+  "sourceSHA256": "735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738",
+  "candidateSHA256": "e0500deedec7fd777c1aa731c3272191894cb2dca3030af4416e9b6654840e43",
+  "checks": [
+    "EXACT_DECODED_GEOMETRY_INDEX_WEIGHTS_UV_NORMALS_PRESERVED",
+    "EXACT_DECODED_JOINT_REST_ANCESTRY_INVERSES_PRESERVED",
+    "EXACT45_ACTION_NAME_SET",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineAir",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineClimb",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineCling",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineCombatBase",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineDeath",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineDown",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineGallop",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineGrab",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineHit",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineIdle",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineLandingRecovery",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineMantle",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineMissile",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairClawAttacker",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairClawVictim",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairEscapeAttacker",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairEscapeVictim",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairImpactAttacker",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairImpactVictim",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairPinAttacker",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairPinVictim",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairReleaseAttacker",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePairReleaseVictim",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelinePulse",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineRearLaunch",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTransformDown",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTransformUp",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTransitionArc106",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTransitionBase106",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTrot",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTurnLeft",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineTurnRight",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightAir",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightCombatBase",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightHit",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightIdle",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightMissile",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightPulse",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightRearLaunch",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightStride",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightTurnLeft",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightTurnRight",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightWalk",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineUprightWalkLong",
+    "UNCHANGED_DURATION_CHANNEL_TARGET_CONTRACT:FelineWalk",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:1:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:1:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:1:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:1:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:2:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:2:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:2:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:2:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:3:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:3:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:3:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:3:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:4:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:4:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:4:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:4:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:5:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:5:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:5:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:5:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:6:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:6:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:6:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:6:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:7:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:7:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:7:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:7:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:8:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:8:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:8:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:8:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:9:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:9:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:9:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:9:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:10:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:10:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:10:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:10:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:11:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:11:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:11:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:11:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:12:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:12:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:12:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:12:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:13:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:13:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:13:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:13:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:14:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:14:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:14:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:14:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:15:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:15:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:15:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:15:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:16:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:16:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:16:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:16:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:17:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:17:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:17:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:17:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:18:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:18:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:18:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:18:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:19:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:19:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:19:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:19:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:20:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:20:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:20:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:20:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:21:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:21:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:21:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:21:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:22:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:22:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:22:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:22:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:23:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:23:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:23:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:23:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:24:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:24:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:24:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:24:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:25:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:25:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:25:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:25:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:26:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:26:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:26:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:26:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:27:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:27:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:27:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:27:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:28:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:28:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:28:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:28:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:29:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:29:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:29:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:29:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:30:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:30:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:30:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:30:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:31:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:31:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:31:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:31:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:32:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:32:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:32:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:32:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:33:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:33:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:33:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:33:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:34:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:34:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:34:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:34:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:35:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:35:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:35:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:35:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:36:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:36:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:36:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:36:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:37:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:37:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:37:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:37:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:38:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:38:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:38:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:38:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:39:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:39:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:39:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:39:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:40:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:40:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:40:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:40:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:41:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:41:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:41:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:41:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:42:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:42:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:42:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:42:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:43:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:43:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:43:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:43:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:44:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:44:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:44:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:44:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:45:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:45:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:45:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:45:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:46:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:46:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:46:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:46:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:47:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:47:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:47:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:47:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:48:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:48:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:48:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:48:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:49:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:49:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:49:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:49:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:50:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:50:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:50:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:50:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:51:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:51:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:51:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:51:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:52:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:52:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:52:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:52:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:53:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:53:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:53:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:53:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:54:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:54:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:54:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:54:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:55:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:55:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:55:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:55:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:56:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:56:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:56:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:56:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:57:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:57:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:57:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:57:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:58:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:58:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:58:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:58:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:59:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:59:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:59:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:59:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:60:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:60:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:60:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:60:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:61:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:61:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:61:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineWalk:61:HR",
+    "ACTUAL_NATIVE_STRIDE_INTENT_UNCHANGED:FelineWalk",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:1:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:1:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:1:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:1:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:2:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:2:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:2:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:2:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:3:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:3:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:3:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:3:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:4:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:4:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:4:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:4:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:5:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:5:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:5:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:5:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:6:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:6:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:6:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:6:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:7:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:7:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:7:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:7:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:8:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:8:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:8:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:8:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:9:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:9:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:9:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:9:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:10:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:10:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:10:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:10:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:11:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:11:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:11:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:11:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:12:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:12:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:12:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:12:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:13:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:13:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:13:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:13:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:14:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:14:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:14:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:14:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:15:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:15:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:15:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:15:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:16:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:16:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:16:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:16:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:17:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:17:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:17:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:17:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:18:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:18:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:18:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:18:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:19:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:19:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:19:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:19:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:20:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:20:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:20:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:20:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:21:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:21:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:21:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:21:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:22:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:22:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:22:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:22:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:23:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:23:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:23:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:23:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:24:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:24:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:24:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:24:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:25:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:25:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:25:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:25:HR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:26:FL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:26:FR",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:26:HL",
+    "ACTUAL_SKIN_SOURCE_PAD_HEIGHT:FelineTrot:26:HR"
+  ],
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "frame": 1,
+      "phase": 0,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -1.253952121981622e-7,
+          "ankle": [
+            0.3919999717065092,
+            0.13759989532319195,
+            -1.095999972096863
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": -8.960790377071648e-8,
+          "ankle": [
+            -0.39200009440734496,
+            0.13759998530108175,
+            -0.7071113367362589
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 0.005826965339471586,
+          "ankle": [
+            0.36799997054568834,
+            0.14660017962385394,
+            0.9112390980199442
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": -1.0513395827006777e-7,
+          "ankle": [
+            -0.3679999675638718,
+            0.1215999554407339,
+            0.5304441878541442
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 8,
+      "phase": 0.11666666666666667,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 7.834513718850411e-8,
+          "ankle": [
+            0.3919999684834537,
+            0.1376000794438157,
+            -1.005259250231249
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 2.196433921096419e-7,
+          "ankle": [
+            -0.39200008908617323,
+            0.13760026078142373,
+            -0.6163703105889559
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 0.10329404352789759,
+          "ankle": [
+            0.36800000445065223,
+            0.2321684242069188,
+            0.5865154448074206
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": -9.243856647148108e-8,
+          "ankle": [
+            -0.36800003251158264,
+            0.12159997788540755,
+            0.6211849864679544
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 16,
+      "phase": 0.25,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -5.399429715141624e-8,
+          "ankle": [
+            0.3919999790402679,
+            0.13759997479893837,
+            -0.9015557955140496
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 0.005827159862380582,
+          "ankle": [
+            -0.39200007147902216,
+            0.1625207350620027,
+            -0.5207615347820895
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -2.1172188712642592e-7,
+          "ankle": [
+            0.3679999584101116,
+            0.1215998819632356,
+            0.33600028512242414
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 3.564614510162545e-8,
+          "ankle": [
+            -0.36799994800040126,
+            0.12160008681244577,
+            0.7248887870389586
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 24,
+      "phase": 0.38333333333333336,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 3.211997299263497e-7,
+          "ankle": [
+            0.39200001510735333,
+            0.13760033280401768,
+            -0.7978519632362526
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 0.09557226959919843,
+          "ankle": [
+            -0.3920000932453708,
+            0.23438165422479762,
+            -0.9171478597277524
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 5.2353835263557746e-8,
+          "ankle": [
+            0.3679999125728963,
+            0.12160013250983043,
+            0.43970384594846346
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 8.462024662578282e-8,
+          "ankle": [
+            -0.367999921115114,
+            0.12160014499976371,
+            0.8285924007511061
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 32,
+      "phase": 0.5166666666666667,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -2.0768709989640866e-7,
+          "ankle": [
+            0.3919999878916672,
+            0.13759983076562166,
+            -0.6941482878734049
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": -5.2198425894156575e-9,
+          "ankle": [
+            -0.39200005479779276,
+            0.13760005628376076,
+            -1.0830371199765976
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -1.530814878400455e-7,
+          "ankle": [
+            0.3680000242449828,
+            0.12159995124548681,
+            0.5434076644682165
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 0.017832468674064322,
+          "ankle": [
+            -0.36799995271756747,
+            0.1667207827523087,
+            0.9046901698750471
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 40,
+      "phase": 0.65,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 1.2077484066660982e-7,
+          "ankle": [
+            0.3919999795458672,
+            0.13760012652527764,
+            -0.5904445010918818
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 2.2560566297069595e-7,
+          "ankle": [
+            -0.39200007043658913,
+            0.13760029622297637,
+            -0.979333242865439
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 3.6685228443564255e-8,
+          "ankle": [
+            0.3679999898184831,
+            0.12160012588787694,
+            0.647111271879302
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 0.08055320378120573,
+          "ankle": [
+            -0.3679999835971887,
+            0.20377826723873302,
+            0.4498378867126902
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 48,
+      "phase": 0.7833333333333333,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 0.03568967865608421,
+          "ankle": [
+            0.39200001185393685,
+            0.20546260124436988,
+            -0.5489730037349975
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 1.2404765628581949e-7,
+          "ankle": [
+            -0.3920000188850404,
+            0.13760019710320276,
+            -0.8756298152288524
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 1.3764642417535278e-7,
+          "ankle": [
+            0.3679999062442488,
+            0.12160017611884141,
+            0.7508148153115028
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 3.0475257081774565e-8,
+          "ankle": [
+            -0.36799996800127105,
+            0.1216000697225394,
+            0.36192564891434603
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "frame": 56,
+      "phase": 0.9166666666666666,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 0.06080136603733607,
+          "ankle": [
+            0.3920000116349163,
+            0.19993966125138146,
+            -1.0364135554971652
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 1.1347732785556286e-7,
+          "ankle": [
+            -0.3920000594518087,
+            0.1376001638710555,
+            -0.7719262200839172
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -2.1899459818480738e-8,
+          "ankle": [
+            0.36799993414678556,
+            0.121600050725087,
+            0.8545188904006698
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 3.8231459782711585e-8,
+          "ankle": [
+            -0.3679999668706067,
+            0.12160009283794429,
+            0.4656292729050091
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineWalk",
+      "actualStanceMarkerStride": 0.7777625912990609,
+      "intent": 0.7777777777777777,
+      "residual": -0.000015186478716788798
+    },
+    {
+      "name": "FelineTrot",
+      "frame": 1,
+      "phase": 0,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -7.869268439930632e-7,
+          "ankle": [
+            0.39199993628046925,
+            0.13759929623694078,
+            -1.2359997410057995
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": -8.315664833460912e-7,
+          "ankle": [
+            -0.3919999445473593,
+            0.13759923254530282,
+            -0.5585806969135984
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -4.894880800809104e-7,
+          "ankle": [
+            0.36799989526131766,
+            0.12159958757585276,
+            0.9276130032857111
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": -5.598356630030082e-7,
+          "ankle": [
+            -0.3679999186590885,
+            0.12159952943014377,
+            0.25019367096208106
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineTrot",
+      "frame": 8,
+      "phase": 0.28,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -3.283787348498657e-7,
+          "ankle": [
+            0.39199996165638795,
+            0.13759971820572126,
+            -0.8566447775885934
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": 0.096413407395529,
+          "ankle": [
+            -0.39199996105559365,
+            0.25824513687512135,
+            -0.6594014689605061
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": 0.10313765511053455,
+          "ankle": [
+            0.3679999519944537,
+            0.23154298228115028,
+            0.5628212538179834
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": -1.7879071542194203e-7,
+          "ankle": [
+            -0.36799992409911064,
+            0.12159989701801902,
+            0.6295486908966212
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineTrot",
+      "frame": 16,
+      "phase": 0.6,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": -7.11218182720616e-7,
+          "ankle": [
+            0.39199994646108544,
+            0.13759935032835957,
+            -0.42309673851573326
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": -9.399223156823094e-7,
+          "ankle": [
+            -0.3919999768687977,
+            0.13759913291384024,
+            -1.1005162007630591
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -4.187375572794333e-7,
+          "ankle": [
+            0.3679999514360237,
+            0.12159968081333994,
+            0.3856774026737142
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 0.0008249745434754947,
+          "ankle": [
+            -0.3679999515610415,
+            0.13224756568253063,
+            1.0612749252715388
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    },
+    {
+      "name": "FelineTrot",
+      "frame": 24,
+      "phase": 0.92,
+      "skin": [
+        {
+          "limb": "FL",
+          "minY": 0.030558655365808957,
+          "ankle": [
+            0.3919999693053537,
+            0.1696953987008093,
+            -1.2545287442725979
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "FR",
+          "minY": -5.781523416802797e-7,
+          "ankle": [
+            -0.39199995313396074,
+            0.13759942540512227,
+            -0.6669679600177176
+          ],
+          "vertices": 3149
+        },
+        {
+          "limb": "HL",
+          "minY": -4.7636673469568513e-7,
+          "ankle": [
+            0.3679999016956709,
+            0.12159959831112716,
+            0.8192259615696308
+          ],
+          "vertices": 3136
+        },
+        {
+          "limb": "HR",
+          "minY": 0.005560068003761194,
+          "ankle": [
+            -0.36799982125174946,
+            0.12859854726815595,
+            0.15521871360222333
+          ],
+          "vertices": 3136
+        }
+      ],
+      "sourceFloorY": 0,
+      "nativeContact": "UNQUALIFIED"
+    }
+  ],
+  "limits": "Source-floor skin/marker measurements at scale.8; not native planted contact or browser quality acceptance",
+  "error": "Error: ACTUAL_NATIVE_STRIDE_INTENT_UNCHANGED:FelineTrot\n    at check (C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-motion-174\\validate174.mts:9:62)\n    at <anonymous> (C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-motion-174\\validate174.mts:23:519)"
+}

@@ -1,0 +1,27 @@
+# Street qualified runner001 — distinct representation/ownership correction
+
+Actual start2026-10-10 12:35:18 UTC; inclusive hard deadline12:55:18 UTC; target frozen code12:45:18. This is a NEW copy of the UNRUN denied street-native-qualification001. All83 original sealed inputs and prior results remain immutable. No scene/physics/test-plan candidate is introduced: the same ten original owners, hull factories, placements, masses, materials, frozen shooter positions,50 public pulse requests,480host+120guest=600 total steps, deadlines, energy/contact/work/nav/guest gates and first-failure STOP remain unchanged.
+
+Only fixture numeric representation and outer startup ownership change. Friction is exactly `Math.fround(.85)` (known native .8500000238418579), preserving source .85. Positive native mass must be finite and itself exactly float32, and lie within four ordered float32 bit-pattern ULPs of `Math.fround(factoryMass)`. This is a fixed allocation/readback representation ceiling for source rounding and native density/volume division/product/readback rounding; the known cart239.99998474121094 lies one ULP below240. It changes no gameplay/shape/distance/energy/solver tolerance or source input. Raw actual/factory/bits/ULP distances precede validation. Actual native before/after impact mass remains strictly equal, with explicit float32 bit identity for principal inertia/frame, local COM and world inverse inertia. The repeated descriptor/native ruin-mass guard now uses the same representation contract.
+
+The C# runtime compiler and old PowerShell launcher are absent. Existing Python312's standard library `ctypes` implements a small external owner. Its kernel job is exclusive, noninheritable, KILL_ON_JOB_CLOSE, with no breakaway flags. `STARTUPINFOEX` supplies JOB_LIST and a restricted inherited stdio HANDLE_LIST at `CreateProcessW`: Node is created already assigned to that job and suspended/hidden. There is no CreateProcess→Assign interval with an unowned suspended child. The recorded actual Job PID list must contain the new PID before Resume. A killed outer owner closes the only inherited-excluded job handle, invoking kernel kill-on-close for atomic-owned descendants.
+
+The independent deadline thread begins before output-file startup and before process creation; no production input hash, source parsing/compilation or Node/Vitest/native startup runs before this thread. All source/executable verification occurs inside the already-owned Node fixture before allocation. There is no Add-Type phase. At178 seconds the watchdog terminates the actual job; at180 it terminates the outer owner itself if cleanup/durable I/O is stuck. Calls through ctypes release the GIL; filesystem/native-worker blocking cannot stop the separate deadline thread. Observed OS errors/exit identity/PIDs/job accounting/handle close returns are durable external rows. Native successful cleanup still requires actual fixture return rows; externally killed or missing closure stays UNKNOWN.
+
+The clock begins at the outer script's initial built-in time import, includes its standard-library/kernel bootstrap, output startup, owned child startup/hashes/native execution and cleanup. The independent thread exists only after standard-library/API/job initialization; no worker is created during that bootstrap. Interpreter/OS initialization and the concrete WinAPI/timer/termination behavior remain unexecuted and unverified, not represented as proven hard real-time behavior. Unsupported JOB_LIST or ownership API failures stop without a fallback spawn. The independent code gate must assess this bootstrap boundary honestly. Normal externally owned startup can no longer stall on the previous source-hash/runtime-compiler prefix.
+
+Microsoft's primary contract specifies JOB_LIST handles assigned to the new child and attribute storage lifetime, and CreateProcess's extended-startup requirement: [UpdateProcThreadAttribute](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute), [CreateProcessW](https://learn.microsoft.com/en-us/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessw). The code retains attribute buffers/job arrays until deletion and records actual ownership before Resume. These documents justify the intended creation contract; they are not an execution receipt.
+
+Future exact focused compile (root separate serial grant):
+
+```powershell
+node node_modules/typescript/bin/tsc -p tools/overhaul-street-qualified-runner-001/tsconfig.json
+```
+
+Future exact ONE native job (after HIGH frozen-code approval and another root serial grant):
+
+```powershell
+& 'C:/Users/Taylor/AppData/Local/Programs/Python/Python312/python.exe' -I -B tools/overhaul-street-qualified-runner-001/owned_runner.py
+```
+
+One Node/Vitest invocation/worker, no compiler/native/launcher execution yet. Namespace/output changes only accompany the new copy. Exact-diff ledger verifies the unchanged fixture after inverse namespace/representation substitutions, unchanged helper/config copies and unchanged83 prior inputs. Both executable hashes and the fixed design fingerprint are sealed. The128MiB/32MiB reserve logging policy, actual-world-step budget and independent cleanup are copied unchanged. No retry, scene/spawn/shot search, repair or automatic extension follows the first genuine failure. Any completed run still requires independent result review; street/provider/art/ordinary two-client/full four-mech/three-map admission remains denied.

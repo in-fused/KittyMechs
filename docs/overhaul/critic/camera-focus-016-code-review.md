@@ -1,0 +1,11 @@
+# Camera focus016 independent literal correction gate
+
+APPROVE ONE conditional root sequence: verify a complete isolated copy of frozen026, overlay ONLY CameraRig016, run ONE wholecompile then ONE Vite build/freeze027 if compilation passes, then ONE unchanged camera-focus-player016 public two-client observation on8800. First failure stops; no retry or other repair is granted. Mutable013/014 source must not enter this build.
+
+Actual review start2026-10-10 18:57:12 UTC; camera cleanup19:19/hard19:22, overall critic hard19:29 unchanged. Three sealed inputs match seal86ceea114910bd7cceaa33b69371e673df2aafd95cca009a221f42daf92ec1a6. CameraRig0168376 bytes SHA0acb09714ecc984aa871a3f50d2404ce484d41908f02fe987824acb06bf1f017 is exactly its8491-byte rejected015 preimage with the SECOND115-byte otherVisual declaration removed. No additional camera code changes. The015 rejected source/seal/preimage remain preserved and unrun.
+
+Player016 script8669530063944bae8d9e51741dcee8a7ee2b60f12a47bd2b183b02d4d117fa71 is exactly015 after inverse output/scope namespace substitutions; actions, origin8800, firstfailure handler and cumulative180-second bound are retained.016 therefore fixes a known compile blocker without a gameplay retry or geometry/physics mutation.
+
+The intended current visual-envelope midpoint can improve focus for the smaller selected prototype. It preserves legacy fallback focus and the existing fitting/clearance/aim algorithms. Actual camera-derived shot direction can change with perspective; unchanged algorithms do not mean identical shots. Envelope center is neither physical COM nor support evidence. Beam occlusion, camera transition/fallback discontinuity, ordinary framing and performance still require actual capture.
+
+Required source lineage is frozen026 complete src/shared/server/config/assets plus this one sealed CameraRig overlay, verified before jobs and recorded in build receipt. Ancestor node_modules resolution is the existing environment, not an independent package-install certification. No new source014 admission,013 profile activation, native/contact/art/fullscope/Gate1 acceptance follows. No critic job/source edit occurred; optional026 remains the accepted functional preview.

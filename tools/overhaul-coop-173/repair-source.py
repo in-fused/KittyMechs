@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('tools/overhaul-coop-173/mission-capture.mjs');t=p.read_text().replace('motion173.validate(state.snapshot);','await motion173.validate(state.snapshot);');t=t.replace('()=>goOwned173(p,name,target,rescue,arrival,rescueName,stage));','()=>goOwned173(p,name,target,rescue,arrival,rescueName,stage),{downedPhase:rescue||plannedExposure});');p.write_text(t)
+p=Path('tools/overhaul-coop-173/phased.test.mjs');t=p.read_text().replace('x=>x.input.lastSent.generation=3','x=>x.input.lastSent={...x.input.lastSent,generation:3}').replace('proveNeutral173,validateToken173','proveNeutral173,proveDowned173,validateToken173');p.write_text(t)

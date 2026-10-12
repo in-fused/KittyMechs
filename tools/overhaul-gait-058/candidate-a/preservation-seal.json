@@ -1,0 +1,42 @@
+{
+  "createdUTC": "2026-10-11T02:48:55.160151+00:00",
+  "status": "CANDIDATE_A_PRESERVED_UNEXECUTED_DENIED",
+  "files": [
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058/author.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/author.py",
+      "sha256": "54a2e8ec00bce9463aaf184508a4f8c9eb5fdd2ba250c4e11e2cde5c04c7e3d6",
+      "bytes": 7897
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058/graft_verify.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/graft_verify.py",
+      "sha256": "f9ecea95cdddc9414d2cd18b225ca2f390fb7608518153db3f24fc431dfaa705",
+      "bytes": 11617
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058/protected-inputs.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/protected-inputs.json",
+      "sha256": "93768966efaede2c1c8a0a819750075a5c49526f69a63e088241b8bfac31a371",
+      "bytes": 2465
+    },
+    {
+      "originalPath": "docs/overhaul/gait-058-author-handoff.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/gait-058-author-handoff.md",
+      "sha256": "948b5a995a2812a6a2e7f7f775d1c4ac83805d3789f2de3ad0ba94f7fd079818",
+      "bytes": 5221
+    },
+    {
+      "originalPath": "docs/overhaul/gait-058-diagnosis.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/gait-058-diagnosis.md",
+      "sha256": "82e0c46995131fbb994b539ff5ba1b0eb839202c90b65e6573a793a76fa4d028",
+      "bytes": 7731
+    },
+    {
+      "originalPath": "docs/overhaul/critic/gait-058-source-review.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-a/gait-058-source-review.md",
+      "sha256": "a2ace4b61dacfb60cbf1a1db163310707f0c615415131379cd6fba78658c38e5",
+      "bytes": 3369
+    }
+  ]
+}

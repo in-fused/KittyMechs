@@ -1,0 +1,1118 @@
+{
+  "writer": "CLOSED",
+  "method": "Pure arithmetic on already-persisted operands; no decoder rerun",
+  "details": [
+    {
+      "limb": "FL",
+      "maxActualKeyMarkerAgainstDeclaredSourceZ": 4.4579087887797186e-07,
+      "maxActualStanceKeyFloorResidual": 9.90948570615477e-07,
+      "worstFloorSample": {
+        "phase": 0.0625,
+        "time": 0.04270833439659327,
+        "stanceTravel": 0.0625,
+        "sourceCarrierZ": -0.08467741935483872,
+        "markerDrift": 8.193337845807669e-05,
+        "materialPointDrift": 8.418742985827343e-05,
+        "skinFloorError": -0.000630143911808774,
+        "lowestPointCompensatedZ": -1.3748556590635121,
+        "skinExtremaCompensatedZ": [
+          -1.427919309120036,
+          -1.1439118878852583
+        ]
+      },
+      "sourceKeyOperands": [
+        {
+          "phase": 0,
+          "actualMarkerZ": -1.2359997410057995,
+          "declaredMarkerZ": -1.2359999656677247,
+          "residual": 2.2466192528547424e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMarkerZ": -1.1818064955733163,
+          "declaredMarkerZ": -1.1818064689636232,
+          "residual": -2.6609693115631217e-08
+        },
+        {
+          "phase": 0.08,
+          "actualMarkerZ": -1.1276127065091752,
+          "declaredMarkerZ": -1.1276128768920899,
+          "residual": 1.7038291466597855e-07
+        },
+        {
+          "phase": 0.12,
+          "actualMarkerZ": -1.0734192799002336,
+          "declaredMarkerZ": -1.0734193801879883,
+          "residual": 1.0028775476733642e-07
+        },
+        {
+          "phase": 0.16,
+          "actualMarkerZ": -1.0192260544204466,
+          "declaredMarkerZ": -1.019225788116455,
+          "residual": -2.6630399152516304e-07
+        },
+        {
+          "phase": 0.2,
+          "actualMarkerZ": -0.9650322651055034,
+          "declaredMarkerZ": -0.965032196044922,
+          "residual": -6.906058147571059e-08
+        },
+        {
+          "phase": 0.24,
+          "actualMarkerZ": -0.9108389194589475,
+          "declaredMarkerZ": -0.9108386993408204,
+          "residual": -2.2011812705891032e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMarkerZ": -0.8566447775885934,
+          "declaredMarkerZ": -0.8566451072692871,
+          "residual": 3.296806937447272e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMarkerZ": -0.8024517170967426,
+          "declaredMarkerZ": -0.8024516105651855,
+          "residual": -1.0653155702033956e-07
+        },
+        {
+          "phase": 0.36,
+          "actualMarkerZ": -0.7482580396754142,
+          "declaredMarkerZ": -0.7482580661773682,
+          "residual": 2.6501954075719425e-08
+        },
+        {
+          "phase": 0.4,
+          "actualMarkerZ": -0.6940642805034003,
+          "declaredMarkerZ": -0.6940645217895508,
+          "residual": 2.412861505041164e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMarkerZ": -0.639870814125328,
+          "declaredMarkerZ": -0.6398709297180176,
+          "residual": 1.1559268964234093e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMarkerZ": -0.5856775500065892,
+          "declaredMarkerZ": -0.5856774330139161,
+          "residual": -1.1699267310483208e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMarkerZ": -0.5314841088181146,
+          "declaredMarkerZ": -0.5314838409423829,
+          "residual": -2.678757317076119e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMarkerZ": -0.47729033513327856,
+          "declaredMarkerZ": -0.47729029655456545,
+          "residual": -3.85787131129689e-08
+        },
+        {
+          "phase": 0.6,
+          "actualMarkerZ": -0.42309673851573326,
+          "declaredMarkerZ": -0.4230967521667481,
+          "residual": 1.3651014818538698e-08
+        },
+        {
+          "phase": 0.64,
+          "actualMarkerZ": -0.3707255416766436,
+          "declaredMarkerZ": -0.3707258224487305,
+          "residual": 2.80772086858061e-07
+        },
+        {
+          "phase": 0.68,
+          "actualMarkerZ": -0.35620826328836186,
+          "declaredMarkerZ": -0.3562084197998047,
+          "residual": 1.5651144286144003e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMarkerZ": -0.42022018817796425,
+          "declaredMarkerZ": -0.42022037506103516,
+          "residual": 1.868830709073066e-07
+        },
+        {
+          "phase": 0.76,
+          "actualMarkerZ": -0.5645999238191083,
+          "declaredMarkerZ": -0.5646001815795899,
+          "residual": 2.5776048162562404e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMarkerZ": -0.7628213539488142,
+          "declaredMarkerZ": -0.7628211498260499,
+          "residual": -2.0412276435788357e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMarkerZ": -0.9725981238423927,
+          "declaredMarkerZ": -0.9725982666015626,
+          "residual": 1.427591698188735e-07
+        },
+        {
+          "phase": 0.88,
+          "actualMarkerZ": -1.1484949904910713,
+          "declaredMarkerZ": -1.148494815826416,
+          "residual": -1.7466465518367613e-07
+        },
+        {
+          "phase": 0.92,
+          "actualMarkerZ": -1.2545287442725979,
+          "declaredMarkerZ": -1.2545291900634767,
+          "residual": 4.4579087887797186e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMarkerZ": -1.2767810669210635,
+          "declaredMarkerZ": -1.2767813682556153,
+          "residual": 3.013345517555166e-07
+        },
+        {
+          "phase": 1,
+          "actualMarkerZ": -1.2359997410057995,
+          "declaredMarkerZ": -1.2359999656677247,
+          "residual": 2.2466192528547424e-07
+        }
+      ],
+      "sourceStanceKeyFloorOperands": [
+        {
+          "phase": 0,
+          "actualMinY": -7.869268439930632e-07,
+          "desiredMinY": 0.0,
+          "residual": -7.869268439930632e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMinY": -3.837871289970318e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.837871289970318e-07
+        },
+        {
+          "phase": 0.08,
+          "actualMinY": -9.90948570615477e-07,
+          "desiredMinY": 0.0,
+          "residual": -9.90948570615477e-07
+        },
+        {
+          "phase": 0.12,
+          "actualMinY": -4.324176952428399e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.324176952428399e-07
+        },
+        {
+          "phase": 0.16,
+          "actualMinY": -2.6428080782125996e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.6428080782125996e-07
+        },
+        {
+          "phase": 0.2,
+          "actualMinY": -2.796608549113233e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.796608549113233e-07
+        },
+        {
+          "phase": 0.24,
+          "actualMinY": -6.374763784379456e-07,
+          "desiredMinY": 0.0,
+          "residual": -6.374763784379456e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMinY": -3.283787348498657e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.283787348498657e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMinY": -4.7634749790470554e-08,
+          "desiredMinY": 0.0,
+          "residual": -4.7634749790470554e-08
+        },
+        {
+          "phase": 0.36,
+          "actualMinY": -2.6770209033723236e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.6770209033723236e-07
+        },
+        {
+          "phase": 0.4,
+          "actualMinY": -4.850913525398376e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.850913525398376e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMinY": -3.366213259924783e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.366213259924783e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMinY": -4.866732267721358e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.866732267721358e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMinY": -2.7668377365619445e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.7668377365619445e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMinY": -5.736204217073049e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.736204217073049e-07
+        },
+        {
+          "phase": 0.6,
+          "actualMinY": -7.11218182720616e-07,
+          "desiredMinY": 0.0,
+          "residual": -7.11218182720616e-07
+        },
+        {
+          "phase": 1,
+          "actualMinY": -7.869268439930632e-07,
+          "desiredMinY": 0.0,
+          "residual": -7.869268439930632e-07
+        }
+      ]
+    },
+    {
+      "limb": "FR",
+      "maxActualKeyMarkerAgainstDeclaredSourceZ": 4.0533548717469614e-07,
+      "maxActualStanceKeyFloorResidual": 9.399223156823094e-07,
+      "worstFloorSample": {
+        "phase": 0.5800000000000001,
+        "time": 0.25833333600312475,
+        "stanceTravel": 0.08000000000000007,
+        "sourceCarrierZ": -0.10838709677419366,
+        "markerDrift": -0.0007935380073598175,
+        "materialPointDrift": 0.002787245606983957,
+        "skinFloorError": -0.0006368316835114029,
+        "lowestPointCompensatedZ": -1.374826905519659,
+        "skinExtremaCompensatedZ": [
+          -1.4278899671322225,
+          -1.1438826415184815
+        ]
+      },
+      "sourceKeyOperands": [
+        {
+          "phase": 0,
+          "actualMarkerZ": -0.5585806969135984,
+          "declaredMarkerZ": -0.5585806369781494,
+          "residual": -5.993544893723168e-08
+        },
+        {
+          "phase": 0.04,
+          "actualMarkerZ": -0.5043873167522732,
+          "declaredMarkerZ": -0.5043870925903321,
+          "residual": -2.241619411202933e-07
+        },
+        {
+          "phase": 0.08,
+          "actualMarkerZ": -0.45019359999885433,
+          "declaredMarkerZ": -0.45019350051879886,
+          "residual": -9.94800554710018e-08
+        },
+        {
+          "phase": 0.12,
+          "actualMarkerZ": -0.39599995367816443,
+          "declaredMarkerZ": -0.3960000038146973,
+          "residual": 5.013653286978226e-08
+        },
+        {
+          "phase": 0.16,
+          "actualMarkerZ": -0.35521851552657824,
+          "declaredMarkerZ": -0.35521860122680665,
+          "residual": 8.570022841380975e-08
+        },
+        {
+          "phase": 0.2,
+          "actualMarkerZ": -0.377470727512802,
+          "declaredMarkerZ": -0.37747077941894536,
+          "residual": 5.190614338346222e-08
+        },
+        {
+          "phase": 0.24,
+          "actualMarkerZ": -0.4835049566205762,
+          "declaredMarkerZ": -0.4835051536560059,
+          "residual": 1.9703542969429222e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMarkerZ": -0.6594014689605061,
+          "declaredMarkerZ": -0.6594017028808594,
+          "residual": 2.339203533097134e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMarkerZ": -0.8691788617214122,
+          "declaredMarkerZ": -0.869178867340088,
+          "residual": 5.618675746887902e-09
+        },
+        {
+          "phase": 0.36,
+          "actualMarkerZ": -1.0673998915687108,
+          "declaredMarkerZ": -1.067399787902832,
+          "residual": -1.0366587877008726e-07
+        },
+        {
+          "phase": 0.4,
+          "actualMarkerZ": -1.2117798292960564,
+          "declaredMarkerZ": -1.2117795944213867,
+          "residual": -2.3487466971339188e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMarkerZ": -1.2757917486635932,
+          "declaredMarkerZ": -1.2757915496826173,
+          "residual": -1.989809759184169e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMarkerZ": -1.261274098365236,
+          "declaredMarkerZ": -1.2612741470336915,
+          "residual": 4.866845548789911e-08
+        },
+        {
+          "phase": 0.52,
+          "actualMarkerZ": -1.2089033787007288,
+          "declaredMarkerZ": -1.208903217315674,
+          "residual": -1.613850548753959e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMarkerZ": -1.1547095473810554,
+          "declaredMarkerZ": -1.1547096252441407,
+          "residual": 7.786308531265718e-08
+        },
+        {
+          "phase": 0.6,
+          "actualMarkerZ": -1.1005162007630591,
+          "declaredMarkerZ": -1.100516128540039,
+          "residual": -7.222302000897685e-08
+        },
+        {
+          "phase": 0.64,
+          "actualMarkerZ": -1.0463228195026106,
+          "declaredMarkerZ": -1.0463225364685058,
+          "residual": -2.8303410481989033e-07
+        },
+        {
+          "phase": 0.68,
+          "actualMarkerZ": -0.9921292711533127,
+          "declaredMarkerZ": -0.9921290397644044,
+          "residual": -2.313889083671583e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMarkerZ": -0.9379355550489773,
+          "declaredMarkerZ": -0.9379354476928712,
+          "residual": -1.0735610611600777e-07
+        },
+        {
+          "phase": 0.76,
+          "actualMarkerZ": -0.8837420968381058,
+          "declaredMarkerZ": -0.8837419509887696,
+          "residual": -1.4584933616390572e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMarkerZ": -0.8295486899693247,
+          "declaredMarkerZ": -0.8295483589172363,
+          "residual": -3.3105208840922273e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMarkerZ": -0.775354796355721,
+          "declaredMarkerZ": -0.775354814529419,
+          "residual": 1.817369799095303e-08
+        },
+        {
+          "phase": 0.88,
+          "actualMarkerZ": -0.7211616754770888,
+          "declaredMarkerZ": -0.7211612701416016,
+          "residual": -4.0533548717469614e-07
+        },
+        {
+          "phase": 0.92,
+          "actualMarkerZ": -0.6669679600177176,
+          "declaredMarkerZ": -0.6669677257537843,
+          "residual": -2.3426393336301032e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMarkerZ": -0.6127743422626666,
+          "declaredMarkerZ": -0.6127741813659668,
+          "residual": -1.608966997412864e-07
+        },
+        {
+          "phase": 1,
+          "actualMarkerZ": -0.5585806969135984,
+          "declaredMarkerZ": -0.5585806369781494,
+          "residual": -5.993544893723168e-08
+        }
+      ],
+      "sourceStanceKeyFloorOperands": [
+        {
+          "phase": 0,
+          "actualMinY": -8.315664833460912e-07,
+          "desiredMinY": 0.0,
+          "residual": -8.315664833460912e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMinY": -4.980141150388168e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.980141150388168e-07
+        },
+        {
+          "phase": 0.08,
+          "actualMinY": -6.482203856270768e-07,
+          "desiredMinY": 0.0,
+          "residual": -6.482203856270768e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMinY": -2.660278805837607e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.660278805837607e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMinY": -5.101901576383405e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.101901576383405e-07
+        },
+        {
+          "phase": 0.6,
+          "actualMinY": -9.399223156823094e-07,
+          "desiredMinY": 0.0,
+          "residual": -9.399223156823094e-07
+        },
+        {
+          "phase": 0.64,
+          "actualMinY": -8.748245488663514e-07,
+          "desiredMinY": 0.0,
+          "residual": -8.748245488663514e-07
+        },
+        {
+          "phase": 0.68,
+          "actualMinY": -3.8697595777618943e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.8697595777618943e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMinY": -3.2377147142492735e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.2377147142492735e-07
+        },
+        {
+          "phase": 0.76,
+          "actualMinY": -7.517386757943667e-07,
+          "desiredMinY": 0.0,
+          "residual": -7.517386757943667e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMinY": -6.784980789240752e-07,
+          "desiredMinY": 0.0,
+          "residual": -6.784980789240752e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMinY": -6.231585901583098e-07,
+          "desiredMinY": 0.0,
+          "residual": -6.231585901583098e-07
+        },
+        {
+          "phase": 0.88,
+          "actualMinY": -5.369711972274399e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.369711972274399e-07
+        },
+        {
+          "phase": 0.92,
+          "actualMinY": -5.781523416802797e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.781523416802797e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMinY": -6.636327597175917e-07,
+          "desiredMinY": 0.0,
+          "residual": -6.636327597175917e-07
+        },
+        {
+          "phase": 1,
+          "actualMinY": -8.315664833460912e-07,
+          "desiredMinY": 0.0,
+          "residual": -8.315664833460912e-07
+        }
+      ]
+    },
+    {
+      "limb": "HL",
+      "maxActualKeyMarkerAgainstDeclaredSourceZ": 9.055144103431445e-07,
+      "maxActualStanceKeyFloorResidual": 7.040628711915686e-07,
+      "worstFloorSample": {
+        "phase": 0.5,
+        "time": 0.2250000024214387,
+        "stanceTravel": 0.040000000000000036,
+        "sourceCarrierZ": -0.05419354838709683,
+        "markerDrift": -0.0008797314857726946,
+        "materialPointDrift": 0.0022838518465563284,
+        "skinFloorError": -0.0006227381092847577,
+        "lowestPointCompensatedZ": 0.05716683707083326,
+        "skinExtremaCompensatedZ": [
+          0.004062062251673777,
+          0.28808286700554225
+        ]
+      },
+      "sourceKeyOperands": [
+        {
+          "phase": 0,
+          "actualMarkerZ": 0.9276130032857111,
+          "declaredMarkerZ": 0.9276128768920899,
+          "residual": 1.2639362112487618e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMarkerZ": 0.9818065078863117,
+          "declaredMarkerZ": 0.9818063735961915,
+          "residual": 1.3429012024612774e-07
+        },
+        {
+          "phase": 0.08,
+          "actualMarkerZ": 1.0360002223323805,
+          "declaredMarkerZ": 1.035999870300293,
+          "residual": 3.5203208748058046e-07
+        },
+        {
+          "phase": 0.12,
+          "actualMarkerZ": 1.076782178402594,
+          "declaredMarkerZ": 1.0767812728881836,
+          "residual": 9.055144103431445e-07
+        },
+        {
+          "phase": 0.16,
+          "actualMarkerZ": 1.0545292583913741,
+          "declaredMarkerZ": 1.0545291900634766,
+          "residual": 6.832789756217039e-08
+        },
+        {
+          "phase": 0.2,
+          "actualMarkerZ": 0.9484948052817298,
+          "declaredMarkerZ": 0.948494815826416,
+          "residual": -1.0544686235292033e-08
+        },
+        {
+          "phase": 0.24,
+          "actualMarkerZ": 0.7725984131302057,
+          "declaredMarkerZ": 0.7725982189178467,
+          "residual": 1.9421235897265632e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMarkerZ": 0.5628212538179834,
+          "declaredMarkerZ": 0.562821102142334,
+          "residual": 1.516756493735727e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMarkerZ": 0.3646001271446011,
+          "declaredMarkerZ": 0.36460011005401616,
+          "residual": 1.7090584947254683e-08
+        },
+        {
+          "phase": 0.36,
+          "actualMarkerZ": 0.2202201006903158,
+          "declaredMarkerZ": 0.22022032737731934,
+          "residual": -2.266870035294577e-07
+        },
+        {
+          "phase": 0.4,
+          "actualMarkerZ": 0.15620821990681366,
+          "declaredMarkerZ": 0.15620837211608887,
+          "residual": -1.522092752115345e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMarkerZ": 0.17072547835861013,
+          "declaredMarkerZ": 0.17072577476501466,
+          "residual": -2.964064045318793e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMarkerZ": 0.22309655670752737,
+          "declaredMarkerZ": 0.22309670448303223,
+          "residual": -1.4777550486066993e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMarkerZ": 0.27729013069390296,
+          "declaredMarkerZ": 0.27729024887084963,
+          "residual": -1.181769466729321e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMarkerZ": 0.33148372498027556,
+          "declaredMarkerZ": 0.33148381710052494,
+          "residual": -9.212024937310659e-08
+        },
+        {
+          "phase": 0.6,
+          "actualMarkerZ": 0.3856774026737142,
+          "declaredMarkerZ": 0.3856773614883423,
+          "residual": 4.118537189068405e-08
+        },
+        {
+          "phase": 0.64,
+          "actualMarkerZ": 0.4398710129326395,
+          "declaredMarkerZ": 0.4398709297180176,
+          "residual": 8.321462191540618e-08
+        },
+        {
+          "phase": 0.68,
+          "actualMarkerZ": 0.4940643109849164,
+          "declaredMarkerZ": 0.4940644264221192,
+          "residual": -1.1543720279671987e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMarkerZ": 0.5482580124743915,
+          "declaredMarkerZ": 0.5482580184936524,
+          "residual": -6.019260867518028e-09
+        },
+        {
+          "phase": 0.76,
+          "actualMarkerZ": 0.6024516708553231,
+          "declaredMarkerZ": 0.6024515628814697,
+          "residual": 1.0797385341376753e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMarkerZ": 0.6566452321358645,
+          "declaredMarkerZ": 0.6566451072692872,
+          "residual": 1.2486657730015338e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMarkerZ": 0.7108388678410806,
+          "declaredMarkerZ": 0.7108386516571046,
+          "residual": 2.161839760539408e-07
+        },
+        {
+          "phase": 0.88,
+          "actualMarkerZ": 0.7650321198670029,
+          "declaredMarkerZ": 0.7650321960449219,
+          "residual": -7.617791897285286e-08
+        },
+        {
+          "phase": 0.92,
+          "actualMarkerZ": 0.8192259615696308,
+          "declaredMarkerZ": 0.8192256927490235,
+          "residual": 2.688206073298005e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMarkerZ": 0.8734195786904201,
+          "declaredMarkerZ": 0.8734192848205566,
+          "residual": 2.9386986344359656e-07
+        },
+        {
+          "phase": 1,
+          "actualMarkerZ": 0.9276130032857111,
+          "declaredMarkerZ": 0.9276128768920899,
+          "residual": 1.2639362112487618e-07
+        }
+      ],
+      "sourceStanceKeyFloorOperands": [
+        {
+          "phase": 0,
+          "actualMinY": -4.894880800809104e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.894880800809104e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMinY": -3.9438098840827163e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.9438098840827163e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMinY": -5.62965914788216e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.62965914788216e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMinY": -3.0286828379445796e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.0286828379445796e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMinY": -9.447497258466275e-08,
+          "desiredMinY": 0.0,
+          "residual": -9.447497258466275e-08
+        },
+        {
+          "phase": 0.6,
+          "actualMinY": -4.187375572794333e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.187375572794333e-07
+        },
+        {
+          "phase": 0.64,
+          "actualMinY": -4.6888746708419193e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.6888746708419193e-07
+        },
+        {
+          "phase": 0.68,
+          "actualMinY": -3.7453189760672245e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.7453189760672245e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMinY": -3.4348411807362533e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.4348411807362533e-07
+        },
+        {
+          "phase": 0.76,
+          "actualMinY": -4.562235114222851e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.562235114222851e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMinY": -7.040628711915686e-07,
+          "desiredMinY": 0.0,
+          "residual": -7.040628711915686e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMinY": -4.075277874604488e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.075277874604488e-07
+        },
+        {
+          "phase": 0.88,
+          "actualMinY": -5.40884204520628e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.40884204520628e-07
+        },
+        {
+          "phase": 0.92,
+          "actualMinY": -4.7636673469568513e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.7636673469568513e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMinY": -3.4314998938536623e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.4314998938536623e-07
+        },
+        {
+          "phase": 1,
+          "actualMinY": -4.894880800809104e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.894880800809104e-07
+        }
+      ]
+    },
+    {
+      "limb": "HR",
+      "maxActualKeyMarkerAgainstDeclaredSourceZ": 9.086857210016674e-07,
+      "maxActualStanceKeyFloorResidual": 5.598356630030082e-07,
+      "worstFloorSample": {
+        "phase": 0.0625,
+        "time": 0.04270833439659327,
+        "stanceTravel": 0.10250000000000004,
+        "sourceCarrierZ": -0.13887096774193555,
+        "markerDrift": 0.00015328646699372395,
+        "materialPointDrift": 0.00015094312713112568,
+        "skinFloorError": -0.0006029989357598502,
+        "lowestPointCompensatedZ": 0.06817661559583377,
+        "skinExtremaCompensatedZ": [
+          0.00414793722565604,
+          0.2881677803909708
+        ]
+      },
+      "sourceKeyOperands": [
+        {
+          "phase": 0,
+          "actualMarkerZ": 0.25019367096208106,
+          "declaredMarkerZ": 0.2501934766769409,
+          "residual": 1.9428514014263598e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMarkerZ": 0.30438720109268325,
+          "declaredMarkerZ": 0.3043870449066162,
+          "residual": 1.5618606702405557e-07
+        },
+        {
+          "phase": 0.08,
+          "actualMarkerZ": 0.3585808762149638,
+          "declaredMarkerZ": 0.3585805892944336,
+          "residual": 2.869205302236111e-07
+        },
+        {
+          "phase": 0.12,
+          "actualMarkerZ": 0.41277436929791933,
+          "declaredMarkerZ": 0.412774133682251,
+          "residual": 2.356156683092081e-07
+        },
+        {
+          "phase": 0.16,
+          "actualMarkerZ": 0.4669678769967375,
+          "declaredMarkerZ": 0.4669676780700684,
+          "residual": 1.989266690816116e-07
+        },
+        {
+          "phase": 0.2,
+          "actualMarkerZ": 0.5211614805943174,
+          "declaredMarkerZ": 0.5211612224578858,
+          "residual": 2.5813643167449385e-07
+        },
+        {
+          "phase": 0.24,
+          "actualMarkerZ": 0.5753551525479474,
+          "declaredMarkerZ": 0.5753547668457032,
+          "residual": 3.8570224425438226e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMarkerZ": 0.6295486908966212,
+          "declaredMarkerZ": 0.6295483112335205,
+          "residual": 3.7966310073578313e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMarkerZ": 0.6837421033570574,
+          "declaredMarkerZ": 0.6837418556213379,
+          "residual": 2.477357194941021e-07
+        },
+        {
+          "phase": 0.36,
+          "actualMarkerZ": 0.7379356120117244,
+          "declaredMarkerZ": 0.7379354476928711,
+          "residual": 1.6431885330181473e-07
+        },
+        {
+          "phase": 0.4,
+          "actualMarkerZ": 0.7921292616031216,
+          "declaredMarkerZ": 0.7921289443969727,
+          "residual": 3.172061489031819e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMarkerZ": 0.8463228310704014,
+          "declaredMarkerZ": 0.8463225364685059,
+          "residual": 2.94601895545199e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMarkerZ": 0.9005169418583284,
+          "declaredMarkerZ": 0.9005160331726074,
+          "residual": 9.086857210016674e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMarkerZ": 0.9547098348921064,
+          "declaredMarkerZ": 0.9547096252441407,
+          "residual": 2.0964796565436927e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMarkerZ": 1.0089034738379967,
+          "declaredMarkerZ": 1.0089031219482423,
+          "residual": 3.5188975444633286e-07
+        },
+        {
+          "phase": 0.6,
+          "actualMarkerZ": 1.0612749252715388,
+          "declaredMarkerZ": 1.0612741470336915,
+          "residual": 7.782378472764861e-07
+        },
+        {
+          "phase": 0.64,
+          "actualMarkerZ": 1.0757923237402693,
+          "declaredMarkerZ": 1.0757915496826171,
+          "residual": 7.740576521975129e-07
+        },
+        {
+          "phase": 0.68,
+          "actualMarkerZ": 1.0117799763215702,
+          "declaredMarkerZ": 1.0117795944213868,
+          "residual": 3.8190018347705745e-07
+        },
+        {
+          "phase": 0.72,
+          "actualMarkerZ": 0.8674000080700728,
+          "declaredMarkerZ": 0.8673997879028321,
+          "residual": 2.2016724066098448e-07
+        },
+        {
+          "phase": 0.76,
+          "actualMarkerZ": 0.669179056793846,
+          "declaredMarkerZ": 0.6691787719726563,
+          "residual": 2.8482118974437753e-07
+        },
+        {
+          "phase": 0.8,
+          "actualMarkerZ": 0.4594019327426617,
+          "declaredMarkerZ": 0.4594016551971436,
+          "residual": 2.7754551812364525e-07
+        },
+        {
+          "phase": 0.84,
+          "actualMarkerZ": 0.28350539939468555,
+          "declaredMarkerZ": 0.28350508213043213,
+          "residual": 3.1726425342437636e-07
+        },
+        {
+          "phase": 0.88,
+          "actualMarkerZ": 0.177470764412137,
+          "declaredMarkerZ": 0.1774707317352295,
+          "residual": 3.2676907485429396e-08
+        },
+        {
+          "phase": 0.92,
+          "actualMarkerZ": 0.15521871360222333,
+          "declaredMarkerZ": 0.15521855354309083,
+          "residual": 1.6005913250349835e-07
+        },
+        {
+          "phase": 0.96,
+          "actualMarkerZ": 0.19600011720202437,
+          "declaredMarkerZ": 0.19599995613098145,
+          "residual": 1.6107104292006902e-07
+        },
+        {
+          "phase": 1,
+          "actualMarkerZ": 0.25019367096208106,
+          "declaredMarkerZ": 0.2501934766769409,
+          "residual": 1.9428514014263598e-07
+        }
+      ],
+      "sourceStanceKeyFloorOperands": [
+        {
+          "phase": 0,
+          "actualMinY": -5.598356630030082e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.598356630030082e-07
+        },
+        {
+          "phase": 0.04,
+          "actualMinY": -8.954621324303025e-08,
+          "desiredMinY": 0.0,
+          "residual": -8.954621324303025e-08
+        },
+        {
+          "phase": 0.08,
+          "actualMinY": -4.546406563582517e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.546406563582517e-07
+        },
+        {
+          "phase": 0.12,
+          "actualMinY": -3.5413957021925013e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.5413957021925013e-07
+        },
+        {
+          "phase": 0.16,
+          "actualMinY": -2.25177676128549e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.25177676128549e-07
+        },
+        {
+          "phase": 0.2,
+          "actualMinY": -3.004376224052807e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.004376224052807e-07
+        },
+        {
+          "phase": 0.24,
+          "actualMinY": -4.161016061467182e-07,
+          "desiredMinY": 0.0,
+          "residual": -4.161016061467182e-07
+        },
+        {
+          "phase": 0.28,
+          "actualMinY": -1.7879071542194203e-07,
+          "desiredMinY": 0.0,
+          "residual": -1.7879071542194203e-07
+        },
+        {
+          "phase": 0.32,
+          "actualMinY": -2.2739350197080455e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.2739350197080455e-07
+        },
+        {
+          "phase": 0.36,
+          "actualMinY": -2.0393128793809445e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.0393128793809445e-07
+        },
+        {
+          "phase": 0.4,
+          "actualMinY": -1.2600321419413418e-07,
+          "desiredMinY": 0.0,
+          "residual": -1.2600321419413418e-07
+        },
+        {
+          "phase": 0.44,
+          "actualMinY": -2.333273637807054e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.333273637807054e-07
+        },
+        {
+          "phase": 0.48,
+          "actualMinY": -1.7292595322349058e-07,
+          "desiredMinY": 0.0,
+          "residual": -1.7292595322349058e-07
+        },
+        {
+          "phase": 0.52,
+          "actualMinY": -2.2020879397559312e-07,
+          "desiredMinY": 0.0,
+          "residual": -2.2020879397559312e-07
+        },
+        {
+          "phase": 0.56,
+          "actualMinY": -9.817538935454062e-08,
+          "desiredMinY": 0.0,
+          "residual": -9.817538935454062e-08
+        },
+        {
+          "phase": 0.96,
+          "actualMinY": -3.9127495337493157e-07,
+          "desiredMinY": 0.0,
+          "residual": -3.9127495337493157e-07
+        },
+        {
+          "phase": 1,
+          "actualMinY": -5.598356630030082e-07,
+          "desiredMinY": 0.0,
+          "residual": -5.598356630030082e-07
+        }
+      ]
+    }
+  ]
+}

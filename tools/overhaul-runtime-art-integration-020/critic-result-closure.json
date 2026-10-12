@@ -1,0 +1,13 @@
+{
+  "closedUTC": "2026-10-10T19:46:00.4467425Z",
+  "verdict": "ACCEPT_PARTIAL_DELIVERY_DENY_COMPLETE_PLAY_ART_CONTACT_GATE1",
+  "review": "docs/overhaul/critic/runtime-art-integration-020-result-review.md",
+  "reviewSHA256": "05AB0F54851CEC95FF667D219BD3996FFCB67A80ABBE537DED647B9879AF01E3",
+  "frozenInputs": 23,
+  "captureFiles": 11,
+  "inputMismatchCount": 0,
+  "captureMismatchCount": 0,
+  "captureSealSHA256": "B31761057100ED996FFA901CD3864F16C57BF16E05731AEE1505CD66FA5AD786",
+  "firstFailurePreserved": true,
+  "noRetryAuthorized": true
+}

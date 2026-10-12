@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "sha256": "e392a26aa45a5348b33efcfa34845b8be8a840c4d1ff8550b74d28afaa71414d",
+      "bytes": 77650342,
+      "path": "assets/source/overhaul-pounce-gait-058/Pounce_Gait058.blend"
+    },
+    {
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a",
+      "bytes": 10162,
+      "path": "assets/source/overhaul-pounce-gait-058/author.py"
+    },
+    {
+      "sha256": "71a91b0f8946ea1ae135910b42d53ce3569924c057ff2528b3bf24c119f73522",
+      "bytes": 55347,
+      "path": "assets/source/overhaul-pounce-gait-058/geometry-material-preservation.json"
+    },
+    {
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463",
+      "bytes": 77650342,
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend"
+    },
+    {
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea",
+      "bytes": 8552,
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py"
+    },
+    {
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "bytes": 20304,
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py"
+    },
+    {
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "bytes": 2631,
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py"
+    },
+    {
+      "sha256": "24f188efeb11b7603ed17ab2bb882a73bcc70bd4fc64af025a1079e8c1fe484f",
+      "bytes": 274354,
+      "path": "assets/source/overhaul-pounce-art-bridge-019/source-profile.json"
+    },
+    {
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+      "bytes": 6093560,
+      "path": "public/assets/models/Pounce_Gait058E.glb"
+    },
+    {
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027",
+      "bytes": 239878,
+      "path": "src/game/entities/identity57Runtime058EManifest.json"
+    },
+    {
+      "sha256": "ac76f154f8b1745183b95c44ac723168e3827efebf86cf53b5b1e1f4bc449dce",
+      "bytes": 13855,
+      "path": "src/game/entities/identity57Runtime005.ts"
+    },
+    {
+      "sha256": "282973c14b956985e72f2714c62079a3651f440eb15f8347288c2ead5dda5ccd",
+      "bytes": 19890,
+      "path": "src/game/entities/movingRFfeet067.ts"
+    }
+  ],
+  "writer": "CLOSED"
+}

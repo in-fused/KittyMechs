@@ -1,0 +1,14 @@
+{
+  "writer": "CLOSED",
+  "scope": "PREJOB_SOURCE_IDENTITY_OPERAND_PRECISION_CORRECTION_ONLY_NO_BROWSER_JOB",
+  "oldCIMRoundedFILETIME": 134362153569448000,
+  "actualNativeFILETIME": 134362153569448006,
+  "delta100nsTicks": 6,
+  "oldSHA256": "7d2323f3fc7865519791d4f71b355c295df5d6998bf09717dc7838918126011c",
+  "candidateSHA256": "bc58a2feb920d56b3f43a68a2b004e16bc1e6528c4c62003ab08338e44fa7cbf",
+  "exactInversePatch": true,
+  "syntaxPASS": true,
+  "actualLoaderAttempts": 0,
+  "driverUnchanged": "tools/overhaul-pack-221/browser-equivalence221.mjs",
+  "capSeconds": 30
+}

@@ -1,0 +1,258 @@
+{
+  "pngMeaning": "3 actual last-acceptedframe27 views, not failingframe29/fullpin",
+  "priorAssemblyRows": 77,
+  "phaseCounts": [
+    {
+      "Name": "Approach",
+      "Count": 44
+    },
+    {
+      "Name": "Impact",
+      "Count": 14
+    },
+    {
+      "Name": "Prepare",
+      "Count": 19
+    }
+  ],
+  "actualExportedClips": 49,
+  "owner": {
+    "rows": 470,
+    "scope": "reported raw owner guard, independent recomputation reserved critic",
+    "stages": {
+      "owned-key-current-evaluation": 156,
+      "solver-detached-evaluated": 158,
+      "owned-key-same-clock-replay": 156
+    },
+    "maximumReportedMatrixComponentResidual": 7.541850209236145E-06
+  },
+  "clipMeaning": "43 actual004 retained capabilities (paired originals archived),4complete newPrepare/Approach,2partialImpact; exported is not qualified",
+  "diagnostic": "126 constructive exact triangle intersections; no depth/native admission",
+  "protectedAfterMismatch": 0,
+  "completeActionRecords": 47,
+  "status": "FIRST_SOURCE_FAILURE_STOP",
+  "failure": {
+    "frame": 29,
+    "clock": 2.4,
+    "classification": "UNKNOWN conservative BVH candidates; not newly exact-classified; no depth",
+    "kind": "CROSS_BODY_NONCLAW_SURFACE_CANDIDATES",
+    "wholeTailAndHandCorridor": {
+      "victimFullTailBounds": {
+        "min": [
+          -0.06134785711765289,
+          0.9272676706314087,
+          1.2029697895050049
+        ],
+        "max": [
+          0.11977459490299225,
+          1.0927315950393677,
+          2.7112741470336914
+        ]
+      },
+      "attackerLeftHandBounds": {
+        "min": [
+          -0.645875096321106,
+          0.8158218860626221,
+          1.1114462614059448
+        ],
+        "max": [
+          -0.2958751320838928,
+          1.219341516494751,
+          1.3961453437805176
+        ]
+      },
+      "attackerRightHandBounds": {
+        "min": [
+          0.2958751618862152,
+          0.8006141185760498,
+          1.1114463806152344
+        ],
+        "max": [
+          0.6458752155303955,
+          1.2041339874267578,
+          1.3961455821990967
+        ]
+      },
+      "tailPose": "measured source-X median elevation; complete visible tail included in unchanged cross guard",
+      "scope": "current geometry bounds diagnostic; not a continuous clearance or force certificate"
+    },
+    "progress": 0.8737997256515775,
+    "candidates": [
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14436,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14438,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14439,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14389,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14388,
+        "victimCombinedTriangle": 2038
+      },
+      {
+        "attacker": "FR_BearingPad_0",
+        "victim": "029Victim__AnatomicalChassis",
+        "attackerCombinedTriangle": 14391,
+        "victimCombinedTriangle": 2038
+      }
+    ],
+    "requestedCurrentClawTargets": [
+      {
+        "limb": "FL",
+        "actualCurrentVictimShoulderWorldSource": [
+          -0.4699999690055847,
+          -0.7900000810623169,
+          1.2220001220703125
+        ],
+        "lateralTargetContract": "ankle X equals current victim shoulder X; actual geometry/ray selects Y",
+        "clawObject": "FL_Claw_3",
+        "clawVertex": 48,
+        "actualVictimObject": "029Victim__AnatomicalChassis",
+        "victimCombinedBVHTriangle": 1993,
+        "queryGeometry": "actual current union of victim core mesh triangles; combined triangle index",
+        "surfaceWorldSource": [
+          -0.3432999849319458,
+          0.7784748077392578,
+          1.194000005722046
+        ],
+        "normalWorldSource": [
+          -0.9590548276901245,
+          0.11617263406515121,
+          0.25829777121543884
+        ],
+        "rayOriginWorldSource": [
+          -0.3432999849319458,
+          4.036086082458496,
+          1.194000005722046
+        ],
+        "rayDirectionWorldSource": [
+          0,
+          -1,
+          0
+        ],
+        "rayDistanceSource": 3.2576112747192383,
+        "requestedAnkleWorldSource": [
+          -0.4699999690055847,
+          1.0463787317276,
+          1.2999999523162842
+        ],
+        "clawOffsetSource": [
+          0.12669998407363892,
+          -0.2679039239883423,
+          -0.10599999874830246
+        ],
+        "releasedWithdrawalSource": 0
+      },
+      {
+        "limb": "FR",
+        "actualCurrentVictimShoulderWorldSource": [
+          0.4699999690055847,
+          -0.7900000810623169,
+          1.2220001220703125
+        ],
+        "lateralTargetContract": "ankle X equals current victim shoulder X; actual geometry/ray selects Y",
+        "clawObject": "FR_Claw_0",
+        "clawVertex": 54,
+        "actualVictimObject": "029Victim__AnatomicalChassis",
+        "victimCombinedBVHTriangle": 2034,
+        "queryGeometry": "actual current union of victim core mesh triangles; combined triangle index",
+        "surfaceWorldSource": [
+          0.3432999849319458,
+          0.7788002490997314,
+          1.194000005722046
+        ],
+        "normalWorldSource": [
+          0.9608573913574219,
+          0.11697596311569214,
+          0.2511369585990906
+        ],
+        "rayOriginWorldSource": [
+          0.3432999849319458,
+          4.036086082458496,
+          1.194000005722046
+        ],
+        "rayDirectionWorldSource": [
+          0,
+          -1,
+          0
+        ],
+        "rayDistanceSource": 3.2572858333587646,
+        "requestedAnkleWorldSource": [
+          0.4699999690055847,
+          1.0467041730880737,
+          1.2999999523162842
+        ],
+        "clawOffsetSource": [
+          -0.12669998407363892,
+          -0.2679039239883423,
+          -0.10599999874830246
+        ],
+        "releasedWithdrawalSource": 0
+      }
+    ],
+    "ownerAnkleResiduals": {
+      "FL": {
+        "requested": [
+          -0.47087517380714417,
+          -1.931754231452942,
+          1.3014461994171143
+        ],
+        "residual": 2.7314279645418166E-07,
+        "actual": [
+          -0.4708751142024994,
+          -1.9317543506622314,
+          1.3014464378356934
+        ]
+      },
+      "FR": {
+        "requested": [
+          0.47087517380714417,
+          -1.9469621181488037,
+          1.3014461994171143
+        ],
+        "residual": 4.924151790695877E-07,
+        "actual": [
+          0.47087520360946655,
+          -1.9469619989395142,
+          1.3014466762542725
+        ]
+      }
+    },
+    "beat": "Impact",
+    "count": 6
+  },
+  "rest57Exact": true,
+  "lastAccepted": {
+    "beat": "Impact",
+    "clockSeconds": 2.3666666666666663,
+    "frame": 27
+  },
+  "nextDecision": "No successor authorized. Future separately bounded primitive classification of6 pad/chassis candidates; if true, plan entire distal wrist/pad/digit/claw orientation and surface approach from actual meshes, not root gap/tolerance tuning.",
+  "process": {
+    "startUTC": "2026-10-10T16:55:07.594252-04:00",
+    "endUTC": "2026-10-10T16:57:34.993384-04:00",
+    "exitCode": 1,
+    "elapsedSeconds": 147.4069999998901,
+    "failure": null,
+    "inclusiveBoundObserved": true
+  }
+}

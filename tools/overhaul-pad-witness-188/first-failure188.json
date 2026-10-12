@@ -1,0 +1,74 @@
+{
+  "status": "FIRST_FAILURE",
+  "checks": 26,
+  "error": "AssertionError [ERR_ASSERTION]: ON57: actual pad argmin switches across finite plane tilt",
+  "records": [
+    {
+      "rig": "OFF25",
+      "input": {
+        "name": "FelineWalk",
+        "phase": 0.625,
+        "root": [
+          0,
+          -0.1,
+          -0.12
+        ],
+        "body": [
+          0,
+          0.046117446283129714,
+          0
+        ]
+      },
+      "scope": "Actual decoded rig with source counterexample pose operands plus explicit hypothetical plane/weighted-bone perturbation; not a185 corrected-pose replay or public contact",
+      "identity": {
+        "limb": "HL",
+        "meshUUID": "6f386953-c109-4412-883f-f9a59b74eff9",
+        "geometryUUID": "81e3ac6e-25e1-4306-bf80-b737a89bfbe5",
+        "vertexIndex": 287,
+        "skinIndices": [
+          21,
+          0,
+          0,
+          0
+        ],
+        "skinWeights": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "tieGap": 1.4563653711699538e-16,
+      "before": [
+        0.6339144247767249,
+        0.21034852502981005,
+        0.7594995107328786
+      ],
+      "after": [
+        0.6351124431522317,
+        0.21034852006574478,
+        0.7589943774651072
+      ],
+      "renewedIdentity": {
+        "limb": "HL",
+        "meshUUID": "6f386953-c109-4412-883f-f9a59b74eff9",
+        "geometryUUID": "81e3ac6e-25e1-4306-bf80-b737a89bfbe5",
+        "vertexIndex": 269,
+        "skinIndices": [
+          21,
+          0,
+          0,
+          0
+        ],
+        "skinWeights": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "threeError": 1.2412670766236366e-16,
+      "legacyMinimumExact": true
+    }
+  ]
+}

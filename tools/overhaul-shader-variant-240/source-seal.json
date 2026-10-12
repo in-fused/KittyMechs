@@ -1,0 +1,67 @@
+{
+  "writer": "CLOSED",
+  "scope": "SOURCE_ONLY_UNADMITTED_PROGRAM_FENCE",
+  "parentSeal232": "0e481977bfab3af5fbc3dc828accaf53354551118b45b43883f745528886dda5",
+  "files": [
+    {
+      "path": "tools/overhaul-shader-variant-240/dependencies.json",
+      "bytes": 2617,
+      "sha256": "929c357f10ef14782675f506949aee5997f079b21aaac0b42d1c4b7a1bcaac57"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/fixture-receipt.json",
+      "bytes": 7068,
+      "sha256": "f91bb2950ac11b0e695b1ff8275ae88b8f1174a2a0f802454c5d44989959d04c"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/fixture240.test.ts",
+      "bytes": 11221,
+      "sha256": "5d54e03e7d10294ea6f8bd103c6dfa9718339ea3c4d299842d04d9c4afd6ca2e"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/HANDOFF.md",
+      "bytes": 5748,
+      "sha256": "ebddca7066044847f8d01467671fdc11288a6c2243fad3633cb02af7393f1eea"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/pre-binding-fixture-receipt.json",
+      "bytes": 7072,
+      "sha256": "cfa6af70bb239c5a38f4c3a778a94a8e893f2fb864e4fdb37adf2761866fc9a6"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/preimage/fixture232.test.ts",
+      "bytes": 7828,
+      "sha256": "91d0b1d8c7a9b02492c61e96f7ab2dfb002c111cb07e0f809f2b9fad5df21342"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/preimage/shaderStartup232.tsx",
+      "bytes": 15226,
+      "sha256": "1f3f4a02f0cd8553bc1d413b3f32e7d00d87ec69e86111b08873add2dd890c8b"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/registry-types240.d.ts",
+      "bytes": 287,
+      "sha256": "78f8efabe142692ff732a5e4fbd22a725fabcc949476f1a2d868f2503bbf2dc6"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/shaderStartup240.tsx",
+      "bytes": 15632,
+      "sha256": "9990474faab199d9db8a095589ff3b3f0af493c6a8501780c774577e34fc1225"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/static-receipt.json",
+      "bytes": 1061,
+      "sha256": "131e3b0b7bb71e2b0a1480a2db77b61d0d4f2652c1efd1d005420c22072a991d"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/tsconfig240.json",
+      "bytes": 161,
+      "sha256": "7dc5bb62c0b99c5c9f2d0c9fd3366c0fbf73bf91ea2a404bff0d039de0a78eee"
+    },
+    {
+      "path": "tools/overhaul-shader-variant-240/vitest.config.mjs",
+      "bytes": 197,
+      "sha256": "7bde7dbb0ea4adb497c368e5a8bc932f8694f888c6d5b999aeac310aa0bed611"
+    }
+  ]
+}

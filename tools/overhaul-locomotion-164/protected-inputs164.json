@@ -1,0 +1,61 @@
+{
+  "writer": "CLOSED",
+  "scope": "external read inputs; no source/asset/old seal mutations by164",
+  "files": [
+    {
+      "path": "docs/overhaul/critic/playability163-design-review.md",
+      "bytes": 5529,
+      "sha256": "d8b51acc66ef331febe9c36a023eca88514bb9c9387a81bbe8a495a1b60bcef7"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime121Manifest.json",
+      "bytes": 252701,
+      "sha256": "0d7d9ff828a3fc54107761d847f2377948059067e2984235d5617e1bb132c710"
+    },
+    {
+      "path": "src/game/entities/authoredFootfalls123.ts",
+      "bytes": 3660,
+      "sha256": "3c95b5ee976e98751f5e8679cbf4880bf87b6928e1269f5e39dee0f1388d7d9d"
+    },
+    {
+      "path": "src/game/entities/groundSupport067.ts",
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 21661,
+      "sha256": "1cd4f18663a7fa254c7c6e409986d0592bf3393c3e688f23eb6a0a7c2a8ae321"
+    },
+    {
+      "path": "src/game/entities/locomotionTasks143.ts",
+      "bytes": 18005,
+      "sha256": "8f36060c50a66e645c948d5958697a111728c45dfc3772abbe468b0061d53df2"
+    },
+    {
+      "path": "tools/overhaul-locomotion-143/load-rig143.ts",
+      "bytes": 2884,
+      "sha256": "c51758b1b3d8ef9285f5ebc2f9487a144bcd553f4e21c925c88da39221639b27"
+    },
+    {
+      "path": "tools/overhaul-motion-160/source-seal.json",
+      "bytes": 3570,
+      "sha256": "497db30914cd631f375577bd6020f748baa4f2f1518f8a2a3a31c3e6efab83be"
+    },
+    {
+      "path": "tools/overhaul-locomotion-155/source-seal.json",
+      "bytes": 5073,
+      "sha256": "210db53611d60202ff00f83fba550c8f192896ac3b108e33ba13b1f1ef5c0664"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "public/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    }
+  ]
+}

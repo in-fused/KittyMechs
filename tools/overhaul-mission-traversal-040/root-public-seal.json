@@ -1,0 +1,82 @@
+{
+  "packet": "040-public-root",
+  "files": [
+    {
+      "path": "tools/overhaul-mission-traversal-040/native-diagnostic.mjs",
+      "bytes": 10632,
+      "sha256": "149c69c8fee6a10c968e5361870e4e5649ee71b2ad27d822d5eca0df1926257c"
+    },
+    {
+      "path": "tools/overhaul-mission-traversal-040/mission-capture.mjs",
+      "bytes": 27751,
+      "sha256": "2cb3ab33185f218a2b77b2db22e15a96f9a0b7adf2be1f06e4f9898590546842"
+    },
+    {
+      "path": "docs/overhaul/mission-traversal-040.md",
+      "bytes": 9652,
+      "sha256": "4122ce1557cf4cff6f7d40d7a0f44f9d5e80d308a18088875fa6447987a04983"
+    },
+    {
+      "path": "tools/overhaul-mission-play.mjs",
+      "bytes": 24236,
+      "sha256": "8684024d2cb5bfc3367f3c7339702045d7e3a34b2000d7cea477be48a017e945"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "tools/overhaul-extraction-039/critic-result-closure.json",
+      "bytes": 3302,
+      "sha256": "e35ae7c4c7dd278af7b1e1da0d09e058ac29f32c46f38073fe50595429a6954a"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/extraction039b-test-process/stdout.txt",
+      "bytes": 3551,
+      "sha256": "f848dba4f909e68b88c0c0dfe94220a0851a234a5f13057d9b82dc5cdc454e8c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/receipt.json",
+      "bytes": 70825,
+      "sha256": "457c1f10ff23bdeae812c0ab19d9e7df1c383e733a6b3a72b0f559e95b9350f2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-root/shared/simulation.ts",
+      "bytes": 175845,
+      "sha256": "580af48de45052c28f9e03863c501beed6a22115b580db31faa5e76f7f164c92"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-root/shared/world.ts",
+      "bytes": 13695,
+      "sha256": "e21b5a602bbc0414a9be62a86015b6606ee019d63c5a53b6692b98df9e329dec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-root/shared/ownedCharacterMotion.ts",
+      "bytes": 11622,
+      "sha256": "173f583e99d87023410638602256c89affa0b9ac7305493d2d7b9570fae99a2e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-032/playable-root/shared/rainlineStreetAdmission.ts",
+      "bytes": 4129,
+      "sha256": "9038d447a42ae9a22c0bc0b269b37340267ccd95dca85658cfdbb4fb6e586935"
+    }
+  ],
+  "command": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-mission-traversal-040/mission-capture.mjs"
+  ],
+  "sealedUTC": "2026-10-10T23:09:25.3137893Z"
+}

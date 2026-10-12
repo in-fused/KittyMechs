@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_SOURCE_READY_NOT_AUTHORED",
+  "bones": {
+    "old": 57,
+    "new": 61,
+    "added": [
+      "lumbar202",
+      "thorax202",
+      "FL_scapula202",
+      "FR_scapula202"
+    ]
+  },
+  "geometry": {
+    "centralPlates": 4,
+    "DorsalKeel": "retained intact",
+    "ledger": "scoped axial/scapular reweight +4 plate meshes; untouched fingerprints exact",
+    "baselineVertices": 30025,
+    "baselineIndices": 145476,
+    "maxVertices": 33027,
+    "maxIndices": 160023,
+    "maxSourceMeshes": 275,
+    "maxDeliveredPrimitives": 5
+  },
+  "implemented": [
+    "called event/axial/scapular/limb author",
+    "39 complete world-retargets +6 new actions",
+    "61-bind source profile/editable master/packed export",
+    "actual primary45 catalog/rest/bind/action comparison",
+    "61 source composer/idle/R/covariance",
+    "independent complete pads/head skin/dynamic envelope",
+    "144 composed temporal preview",
+    "tracked bounded processes/output hashes"
+  ],
+  "jobState": "first author180 root approved after preflight; decoder30/preview180 pending",
+  "noAuthorDecodeRenderExecutedAtReadiness": true,
+  "sourceContactQualified": false,
+  "nativeEnvelopeAdmission": "UNADMITTED",
+  "repairBudget": 1,
+  "preflightCorrection": "AST found one accidental excess indent in ordinary202 task call; corrected before Blender execution"
+}

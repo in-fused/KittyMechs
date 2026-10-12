@@ -1,0 +1,71 @@
+{
+  "writer": "CLOSED",
+  "oldSealRowsVerified": true,
+  "files": [
+    {
+      "path": "tools/overhaul-coop-151/source-seal.json",
+      "bytes": 2082,
+      "sha256": "842a57035d219a6ed4156b501dd80f25a7d0e7cad41f902fade6c922aa3400d9"
+    },
+    {
+      "path": "tools/overhaul-coop-153/source-seal.json",
+      "bytes": 2272,
+      "sha256": "ffc534583f0b814b1b67d45d64cab1ed55ea908d36408f1b9cfae8d9bd43c222"
+    },
+    {
+      "path": "tools/overhaul-coop-156/source-seal.json",
+      "bytes": 1719,
+      "sha256": "9da60b7087d7c78746a05e3b38162edc73841165870280712bb0947fa178fc05"
+    },
+    {
+      "path": "tools/overhaul-coop-159/source-seal.json",
+      "bytes": 1534,
+      "sha256": "5a2dfa04d30801448cef1069f282e4c79fd9f68dfcdad516dd33de2d551ebf0d"
+    },
+    {
+      "path": "tools/overhaul-coop-159/mission-capture.mjs",
+      "bytes": 49242,
+      "sha256": "beb5d5662fc8327f147be674d89b8dfb97e392229d2ab89ea192638493545353"
+    },
+    {
+      "path": "tools/overhaul-coop-153/exposure-planner.mjs",
+      "bytes": 10987,
+      "sha256": "b18c84bc70d859aa3b33e0b16f4ef0ae1897fe1e967068814223f36534208223"
+    },
+    {
+      "path": "tools/overhaul-coop-153/exposure-search.mjs",
+      "bytes": 4228,
+      "sha256": "d91db291448ce938d93a46b7f31707f6e89118bc416720c0f1267a88d745840f"
+    },
+    {
+      "path": "tools/overhaul-coop-153/planning-read.mjs",
+      "bytes": 3590,
+      "sha256": "f472cf31d9e0e629fce371e2c517abb803c87c08adda526468a6d29cd25e1ebd"
+    },
+    {
+      "path": "tools/overhaul-coop-156/aim-feedback.mjs",
+      "bytes": 5338,
+      "sha256": "d14faaa97c0ef0896aef9d0c5719e29d335acae36de2d2f3fc8b1d2f7b254263"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "docs/overhaul/critic/playability159-gameplay-review.md",
+      "bytes": 4100,
+      "sha256": "78d2f6f0f07c9554d43850bb5fb239a41d6a2a1cbe2d9e5f50ec60f849213ba0"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop159-public/evidence.json",
+      "bytes": 5217904,
+      "sha256": "2114624a3d5c1124a0c3a612985fa505165e9f1733aae89f0def784a7b2bc6c8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop159-public/native-keyframes.json",
+      "bytes": 6255969,
+      "sha256": "0ce4ae72409f09d74f5c6237979989320489c970afacfdc69ff1459f1723ed31"
+    }
+  ]
+}

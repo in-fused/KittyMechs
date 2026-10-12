@@ -1,0 +1,26 @@
+{
+  "schema": "critic-paired-route029-full-result-closure",
+  "reviewStartUTC": "2026-10-10T20:58:57Z",
+  "windowStartUTC": "2026-10-10T20:40:01Z",
+  "closedUTC": "2026-10-10T21:02:36.9139325Z",
+  "hardUTC": "2026-10-10T21:16:00Z",
+  "verdict": "ACCEPT_PARTIAL_SOURCE_OWNER_EVIDENCE_ONLY_DENY_COMPLETE_PAIR_ART_NATIVE_RUNTIME_GATE1",
+  "review": "docs/overhaul/critic/pounce-paired-route-029-full-result-review.md",
+  "reviewSHA256": "32355608BBBC173FFC675297A60C85AB0F5CB9452984394E125A60D0C6048D8C",
+  "resultSealSHA256": "1D244DCF7EA063F4D06D9341620D97D3977CD59471D56875EAF57F733192263F",
+  "resultRowsVerified": 30,
+  "protectedInputRowsVerified": 138,
+  "mismatches": 0,
+  "ownerRowsRecomputed": 470,
+  "bonesPerRow": 57,
+  "maximumMatrixComponentResidual": 7.541850209236145E-06,
+  "viewedImages": [
+    "pair-side.png",
+    "pair-front.png",
+    "selected-source-detail.png"
+  ],
+  "newCandidatesExactClassified": false,
+  "newJobGranted": false,
+  "implementationWrites": false,
+  "gateCountChanged": false
+}

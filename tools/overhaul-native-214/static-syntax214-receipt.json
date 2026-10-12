@@ -1,0 +1,19 @@
+{
+  "scope": "STATIC_SYNTAX_ONLY_NO_IMPORT_OR_MODEL_EXECUTION",
+  "fullTypecheck": "UNRUN",
+  "nativeFixture": "UNRUN",
+  "rows": [
+    {
+      "path": "tools/overhaul-native-214/nativeOwner214.ts",
+      "diagnostics": []
+    },
+    {
+      "path": "tools/overhaul-native-214/NativeActor214.tsx",
+      "diagnostics": []
+    },
+    {
+      "path": "tools/overhaul-native-214/native-owner-fixture214.ts",
+      "diagnostics": []
+    }
+  ]
+}

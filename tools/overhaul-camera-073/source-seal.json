@@ -1,0 +1,121 @@
+{
+  "status": "SOURCE_FROZEN_UNRUN",
+  "writer": "CLOSED",
+  "ownedSource": [
+    "src/game/camera/CameraRig.tsx",
+    "src/game/camera/obstructionOrbit073.ts"
+  ],
+  "rootCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-camera-073/cover-check.ts"
+  ],
+  "rootInclusiveSeconds": 10,
+  "firstFailure": "STOP_PRESERVE_EXCLUDE_CAMERA_NO_FURTHER_ITERATION_THIS_MILESTONE",
+  "old071HelperUnchanged": true,
+  "fixture072OnlySymbolsImportOutputChanged": true,
+  "maximumHelperNativeCallbacks": 71,
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 12820,
+      "sha256": "4758837bb96702ef5cc77e79010f5d2abfada81ace4901490b8474bfcd9f1e07"
+    },
+    {
+      "path": "src/game/camera/obstructionOrbit073.ts",
+      "bytes": 6348,
+      "sha256": "a73eaf9272ee05344899a3e66464fac297a838b58b7a94d65a35dcd24cad09a6"
+    },
+    {
+      "path": "tools/overhaul-camera-073/cover-check.ts",
+      "bytes": 5727,
+      "sha256": "77daf9ff7f5b1f7fe4afdfbdf71b18070847aa48df04a1b4d71fef41768a1cb2"
+    },
+    {
+      "path": "tools/overhaul-camera-073/preimages/CameraRig.tsx",
+      "bytes": 12820,
+      "sha256": "77e931073a33a134a43df765c61247fc8d16c8a4ad5266373eb80f6c6f03db2d"
+    },
+    {
+      "path": "tools/overhaul-camera-073/preimages/obstructionOrbit071.ts",
+      "bytes": 5759,
+      "sha256": "600aa43e69359d3f387d5fc6ae51f6449d783660aebe12f86bb9fe69affd285e"
+    },
+    {
+      "path": "tools/overhaul-camera-073/preimages/cover-check.ts",
+      "bytes": 5727,
+      "sha256": "2619455fb13cc9a48e0821c11680ed97ba5acfe3265cee2ce49e2d55c28da618"
+    },
+    {
+      "path": "src/game/camera/obstructionOrbit071.ts",
+      "bytes": 5759,
+      "sha256": "600aa43e69359d3f387d5fc6ae51f6449d783660aebe12f86bb9fe69affd285e"
+    },
+    {
+      "path": "tools/overhaul-camera-071/source-seal.json",
+      "bytes": 3766,
+      "sha256": "d0ddda02af8b69625f287cd55f4b81fdc6a43c768c208087ea06731b55d45552"
+    },
+    {
+      "path": "tools/overhaul-camera-071/cover-result.json",
+      "bytes": 239,
+      "sha256": "f02e3710bd6453df4cc0b6b0e1a28767bb49efe672c284e7d53895867083e8c6"
+    },
+    {
+      "path": "tools/overhaul-camera-072/cover-check.ts",
+      "bytes": 5727,
+      "sha256": "2619455fb13cc9a48e0821c11680ed97ba5acfe3265cee2ce49e2d55c28da618"
+    },
+    {
+      "path": "tools/overhaul-camera-072/cover-result.json",
+      "bytes": 254,
+      "sha256": "d7bb983f2debde4ace41166f3b9759c47bd8a8e1926ff4e3f3a03a2830233fac"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/visualOccluders058.ts",
+      "bytes": 2229,
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb",
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9"
+    },
+    {
+      "path": "docs/overhaul/camera-073-source-handoff.md",
+      "bytes": 3057,
+      "sha256": "be6c079802d51d5103aa470bf4f51ffbe0196eec3a70db135f0ac975bcc22779"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    }
+  ]
+}

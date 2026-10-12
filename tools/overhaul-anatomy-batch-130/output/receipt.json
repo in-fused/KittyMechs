@@ -1,0 +1,11 @@
+{
+  "writer": "CLOSED",
+  "startedUTC": "2026-10-11T10:18:58.493Z",
+  "closedUTC": "2026-10-11T10:18:58.868Z",
+  "status": "FIRST_ACTUAL_FAILURE_STOP",
+  "error": {
+    "message": "AssertionError [ERR_ASSERTION]: ATTRIBUTE_LAYOUT_CHANGED\n+ actual - expected\n\n  [\n    'JOINTS_0',\n    'NORMAL',\n    'POSITION',\n    'TEXCOORD_0',\n+   'TEXCOORD_1',\n    'WEIGHTS_0'\n  ]\n",
+    "stack": "AssertionError [ERR_ASSERTION]: ATTRIBUTE_LAYOUT_CHANGED\n+ actual - expected\n\n  [\n    'JOINTS_0',\n    'NORMAL',\n    'POSITION',\n    'TEXCOORD_0',\n+   'TEXCOORD_1',\n    'WEIGHTS_0'\n  ]\n\n    at file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web/tools/overhaul-anatomy-batch-130/batch-validate.mjs:30:244"
+  },
+  "witness": null
+}

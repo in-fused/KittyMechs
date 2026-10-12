@@ -1,0 +1,15 @@
+{
+  "schema": "critic032-diagnostic-result",
+  "startedUTC": "2026-10-10T21:11:46Z",
+  "closedUTC": "2026-10-10T21:12:25.2805483Z",
+  "hardUTC": "2026-10-10T21:42:00Z",
+  "verdict": "ACCEPT_SIX_EXACT_SAVED_SURFACE_INTERSECTIONS_ONLY",
+  "review": "docs/overhaul/critic/pounce-hand-contact-032-diagnostic-result-review.md",
+  "reviewSHA256": "419B51A01ADC27F1415DC3330A35E50879EBAC3C03400EB2D78BB6AAA58508B1",
+  "resultSealSHA256": "7ED23A5D6AFCCE606F0E28DBA9C7D8D1941D6452B941AC234267BCA2CF95C206",
+  "resultRowsVerified": 3,
+  "exactRationalWitnessesIndependentlyVerified": 6,
+  "mismatches": 0,
+  "depthVolumeNativeSupportQualified": false,
+  "additionalJobGranted": false
+}

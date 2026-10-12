@@ -1,0 +1,9 @@
+{
+  "inclusiveSeconds": 2.5554639,
+  "attempt": 2,
+  "repairs": 1,
+  "command": "npx tsx tools/overhaul-pad-witness-188/check188.mts",
+  "repair": "Adjacent hull branch comparator only; preserved first-failure source/receipt/data",
+  "writer": "CLOSED",
+  "exitCode": 1
+}

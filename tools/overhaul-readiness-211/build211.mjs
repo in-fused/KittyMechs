@@ -1,0 +1,13 @@
+import {build} from 'vite';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {createHash} from 'node:crypto';
+const root=process.cwd(),folder=resolve(root,'tools/overhaul-readiness-211'),out=resolve(root,'.sites-runtime/overhaul-20261011/readiness211-private/dist');
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const original=resolve(root,'src/game/GameCanvas.tsx'),candidate=await readFile(folder+'/GameCanvas211.tsx','utf8'),before=await readFile(original);
+if(sha(before)!=='8fa2de3d7aaea5b31ad496ee74b4c8645a1dde51731c44bf12ebd1e6c7dbec63')throw Error('211_FROZEN_SOURCE_CHANGED');
+const clean=id=>id.split('?')[0].replaceAll('\\','/');
+await build({configFile:resolve(root,'vite.config.ts'),publicDir:false,plugins:[{name:'private-readiness211',enforce:'pre',resolveId(source,importer){if(source==='./rendering/deploymentReadiness211'&&clean(importer??'')===clean(original))return folder+'/deploymentReadiness211.ts';},load(id){if(clean(id)===clean(original))return candidate;}}],build:{outDir:out,emptyOutDir:false}});
+if(sha(await readFile(original))!==sha(before))throw Error('211_PRODUCTION_SOURCE_MUTATED');
+await mkdir(resolve(root,'.sites-runtime/overhaul-20261011/readiness211-private'),{recursive:true});
+await writeFile(resolve(root,'.sites-runtime/overhaul-20261011/readiness211-private/build-receipt.json'),JSON.stringify({status:'PRIVATE_BUILD_UNADMITTED',sourceSHA:sha(before),candidateSHA:sha(Buffer.from(candidate)),out,publicAssetsCopied:false,productionChanges:[],worker208Included:false},null,2));

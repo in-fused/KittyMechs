@@ -1,0 +1,30 @@
+{
+  "createdUTC": "2026-10-10T14:43:35.889810+00:00",
+  "sourceSealSha256": "fac876d8860e5f1cf57360c1baca1407e1c2abd7fb39dd190864cc9eab27b553",
+  "files": [
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10274,
+      "sha256": "ca7f3a71aa0ffabac3c87712cff33a1f4c09a2eb6afa9ceaf6c891b71cf46f90",
+      "preservedPath": "tools/overhaul-facade-rhythm-001/frozen-inputs/src/game/world/overhaulIdentityArt.tsx"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59",
+      "preservedPath": "tools/overhaul-facade-rhythm-001/frozen-inputs/src/game/world/rainlineFacadeRhythm001.ts"
+    },
+    {
+      "path": "tools/overhaul-facade-rhythm-001/preimage/src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 9400,
+      "sha256": "c12459c0e6ef97a2a5eee505204b9225adc247c8f1f47abeb0a8074a712d0537",
+      "preservedPath": "tools/overhaul-facade-rhythm-001/frozen-inputs/tools/overhaul-facade-rhythm-001/preimage/src/game/world/overhaulIdentityArt.tsx"
+    },
+    {
+      "path": "docs/overhaul/rainline-facade-rhythm-001.md",
+      "bytes": 2764,
+      "sha256": "64a0e4a598a33d4b6277cf8c9630ae2ace16d73d42ea43405fccb257b2016b05",
+      "preservedPath": "tools/overhaul-facade-rhythm-001/frozen-inputs/docs/overhaul/rainline-facade-rhythm-001.md"
+    }
+  ]
+}

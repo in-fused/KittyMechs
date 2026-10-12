@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "sha256": "0c30cfef63bd1413faf6c9da012a3284ecae7845d9b8e9d72b4edebc2a5c69ca",
+      "bytes": 20304
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/source_helpers.py",
+      "sha256": "aefb262b589571816f3b6a09e1b87dac773d08ee0c988b30ec68855a0b762f88",
+      "bytes": 29108
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea",
+      "bytes": 8552
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.blend",
+      "sha256": "c8145d625dc62fda13093cce006143fe72a9362811f6648d8e2165474c983463",
+      "bytes": 77650342
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "bytes": 5983484
+    },
+    {
+      "path": "public/assets/models/Pounce_ArtDetail034.glb",
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595",
+      "bytes": 5983484
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Manifest.json",
+      "sha256": "9cad9a1570cc5dacbd3d5b25c0a1f9fe223ef753051eef3f8f51f42ea9362f48",
+      "bytes": 239804
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "bytes": 10988
+    },
+    {
+      "path": "src/game/entities/renderTimeline.ts",
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "bytes": 9521
+    },
+    {
+      "path": "tools/overhaul-identity57-runtime-005/inventory.py",
+      "sha256": "130f7361c39874670060719b9291c6e168191f5dc8130545ad35d6146d508501",
+      "bytes": 5159
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a",
+      "bytes": 10162
+    },
+    {
+      "path": "tools/overhaul-gait-058/graft_verify.py",
+      "sha256": "5a472a4dcb92d2481d5bf21989de699c58befa2e334e6072ecade9fb8f019ca0",
+      "bytes": 11824
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "sha256": "61fce28d8b0369ccc034e076bd69ddc1516aa19e6334394e33c8c31ba4013264",
+      "bytes": 2631
+    },
+    {
+      "path": "tools/overhaul-gait-058/seal.py",
+      "bytes": 1068,
+      "sha256": "442a34948bcfffbea99c703c7b0e4833b764e2319f01e519c5cb60a7af5ef535"
+    },
+    {
+      "path": "tools/overhaul-gait-058/launch.py",
+      "bytes": 1229,
+      "sha256": "5526c437f7d87d879765aae60e011ac9aedae7328aba61bed19ba7a7552cbecd"
+    },
+    {
+      "path": "tools/overhaul-gait-058/graft_verify.py",
+      "bytes": 11824,
+      "sha256": "5a472a4dcb92d2481d5bf21989de699c58befa2e334e6072ecade9fb8f019ca0"
+    },
+    {
+      "path": "tools/overhaul-gait-058/protected-inputs.json",
+      "bytes": 2739,
+      "sha256": "e2f81a19cdf4564cc78b014dfc736fcc29199e64da4f14cb41ed16ba07d6fd52"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-gait-058/author.py",
+      "bytes": 10162,
+      "sha256": "75011f0a4de05cff8e54e7a9100f44c1b0eb025bfb8dd5208a97fe9f4498126a"
+    },
+    {
+      "path": "docs/overhaul/gait-058-author-handoff.md",
+      "bytes": 7467,
+      "sha256": "70b0a634ebaeeee9502213ce96a5d75b92bd8f4362ec33cf572c8159cb0ab316"
+    },
+    {
+      "path": "docs/overhaul/critic/gait-058b-source-review.md",
+      "bytes": 3289,
+      "sha256": "402ed169edf86c8a8ad428e77211dbf5c699baf7418f9e45acbb34031e5dcefa"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "command": [
+    "python",
+    "tools/overhaul-gait-058/launch.py"
+  ],
+  "scope": "ONE critic-approved058B author120s plus conditionalgraft40s under180root. Firstfailure stop; no retry; no publication."
+}

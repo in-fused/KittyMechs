@@ -1,0 +1,33 @@
+{
+  "scope": "STATIC_SOURCE_SYNTAX_AND_TYPE_ONLY_NO_MODEL_OR_REACT_EXECUTION",
+  "rows": [
+    {
+      "file": "ActorsCandidate218.tsx",
+      "syntaxDiagnostics": []
+    },
+    {
+      "file": "NativeActor218.tsx",
+      "syntaxDiagnostics": []
+    },
+    {
+      "file": "wiring218.tsx",
+      "syntaxDiagnostics": []
+    },
+    {
+      "file": "nativeOwner218.ts",
+      "syntaxDiagnostics": []
+    },
+    {
+      "file": "nativeBasis218.ts",
+      "syntaxDiagnostics": []
+    }
+  ],
+  "typeDiagnostics": [
+    {
+      "file": "C:/Users/Taylor/Documents/GitHub/KittyMech-Web/src/game/rendering/materials.ts",
+      "line": 21,
+      "code": 2339,
+      "text": "Property 'kittyMechDebug' does not exist on type 'Window & typeof globalThis'."
+    }
+  ]
+}

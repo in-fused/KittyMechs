@@ -1,0 +1,13 @@
+# Anatomy126 exact-byte delivery source review — CLOSED
+
+APPROVE ONE `node tools/overhaul-anatomy-delivery-126/deliver-validate.mjs` job under root's 90-second inclusive supervisor. First actual failure stops; no retry or guard relaxation. This approves delivery validation only, not routing, build, public gameplay, anatomy quality, contact or human-client performance. Reviewer ran no jobs and edited no game source.
+
+The CLOSED126 source seal SHA `3b646ddd8d48c6a9795f5097a9cc95597ba51a7b9616029d6217ee900e5abeed` has six matching rows; all26 protected rows also match. Delivery script SHA is `d15c50f408aeffd36dcbfbea832e8707b4fab8f592539609a6601b02486055ca`. Reviewed its delta against124 and the handoff. Existing123 test acceptance is reused, not rerun or upgraded into gameplay approval.
+
+124 remains a terminal failure: DECODED_RESOURCE_CHANGED, no publication or route/build/capture. Retained causal inspection identifies225 changed index primitives, all cyclic-only, and39 normalized rest scales; vertex attributes,45 animation streams and inverse binds did not change in that comparison. Those observations explain the strict preservation rejection; they do not waive it or admit the failed candidate.
+
+126 removes the mutating NodeIO writer, accessor deduplication and compression entirely. It decodes the original full121 export read-only, retains the existing clocks/stride/reference/neutral and actual Three loader gates, then exclusively writes/copies the original byte buffer with exact SHA checks. Raw source and proposed public asset must both be5,441,344 bytes with SHA `735b63d670f7610da797c59c76bb8e5208e8427dec04641e8870bd0e8fe07738`. This deliberately trades transfer size for exact resources; there is no optimization or old-BIN graft claim. Two decodes of the same bytes provide decoder consistency, not independent authored-skin correspondence.
+
+Blender weight-ledger to exported split-vertex mapping remains NOT ESTABLISHED. Byte-exact delivery preserves the actual exported weights, materials, index order and near-unit rest scales; it does not prove every intended original-vertex weight edit exported correctly. Manifest and loader results require separate result/route assessment, followed by independent actual gameplay rejection authority. Changed skin in retained combat/climb and convincing gallop/R/contact remain unqualified. Early fresh-output rejection can still be terminal-only before the normal receipt try/finally; preserve actual output and partial files honestly.
+
+Live052 and prior124 failure evidence remain preserved. Full goal and affected human-client Lowest lag remain unresolved. Writer CLOSED.

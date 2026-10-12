@@ -1,0 +1,224 @@
+{
+  "name": "Sentinel_Anchor",
+  "scale": 1.05,
+  "gaitStyle": {
+    "strides": [
+      0.64,
+      0.94,
+      1.32
+    ],
+    "duties": [
+      0.78,
+      0.65,
+      0.54
+    ],
+    "lifts": [
+      0.17,
+      0.22,
+      0.27
+    ],
+    "spring": 0.035
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher armor; source-tagged tail/whisker/antenna/tuft cosmetics excluded",
+  "clips": [
+    {
+      "clip": "FelineAbility",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1755399871600427,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.3378267893225946e-07
+    },
+    {
+      "clip": "FelineAir",
+      "height": 2.7746007442474365,
+      "coreRadius": 2.178620721935994,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.5407500267028809,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.9618039283075818e-07
+    },
+    {
+      "clip": "FelineClimb",
+      "height": 2.8156800270080566,
+      "coreRadius": 2.1695974737525465,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.11619958281517029,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 9.999488257250722e-07
+    },
+    {
+      "clip": "FelineCling",
+      "height": 2.551677703857422,
+      "coreRadius": 2.1695974737525465,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.16464929282665253,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 9.825215036063374e-07
+    },
+    {
+      "clip": "FelineCombatBase",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745068820220825,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 7.157454429140842e-08
+    },
+    {
+      "clip": "FelineDeath",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745068820220825,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.009204670786857605,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.3252014370589437e-07
+    },
+    {
+      "clip": "FelineGallop",
+      "height": 2.8039042949676514,
+      "coreRadius": 2.1831789332345073,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.015750041231513023,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.4945529012175847e-07
+    },
+    {
+      "clip": "FelineGrab",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745066437599014,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.015750177204608917,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 9.825215036063374e-07
+    },
+    {
+      "clip": "FelineHit",
+      "height": 2.750999927520752,
+      "coreRadius": 2.175662652109352,
+      "sideExtent": 1.4133691787719727,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.5678078057468348e-07
+    },
+    {
+      "clip": "FelineIdle",
+      "height": 2.7758066654205322,
+      "coreRadius": 2.178741997690876,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574990525841713,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.4289328192095284e-07
+    },
+    {
+      "clip": "FelineMantle",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745066437599014,
+      "sideExtent": 1.3883159160614014,
+      "floor": -0.05222132056951523,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.1868387357893972e-06
+    },
+    {
+      "clip": "FelineMissile",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745068820220825,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.588542970805019e-07
+    },
+    {
+      "clip": "FelinePulse",
+      "height": 2.750999927520752,
+      "coreRadius": 2.1745068820220825,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574992761015892,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 8.988053691316722e-08
+    },
+    {
+      "clip": "FelineTrot",
+      "height": 2.7702672481536865,
+      "coreRadius": 2.1781918490033365,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.015750041231513023,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.9351877626759836e-07
+    },
+    {
+      "clip": "FelineWalk",
+      "height": 2.7752912044525146,
+      "coreRadius": 2.178736517646752,
+      "sideExtent": 1.3883159160614014,
+      "floor": 0.01574992947280407,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.638248131598854e-07
+    },
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.750999689102173,
+      "coreRadius": 2.1758130771647033,
+      "sideExtent": 1.402707576751709,
+      "floor": 0.01574980840086937,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.524718740350764e-07,
+      "frames": 79,
+      "pawLift": {
+        "FL": 0.16799703910946845,
+        "FR": 0.16799688264727594,
+        "HL": 0.16606959700584414,
+        "HR": 0.16606976911425594
+      },
+      "stanceCancellationError": 6.45110146239183e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.750999689102173,
+      "coreRadius": 2.1758130771647033,
+      "sideExtent": 1.402707576751709,
+      "floor": 0.015749767422676086,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.524718740350764e-07,
+      "frames": 79,
+      "pawLift": {
+        "FL": 0.16799683570861818,
+        "FR": 0.16799699217081068,
+        "HL": 0.16606976911425594,
+        "HR": 0.16606962829828262
+      },
+      "stanceCancellationError": 6.80565575643722e-07
+    }
+  ],
+  "turnStyle": {
+    "arc": 0.44,
+    "duty": 0.82,
+    "duration": 1.3,
+    "lift": 0.16,
+    "lead": 0.026,
+    "offsets": {
+      "FL": 0,
+      "HL": 0.25,
+      "FR": 0.5,
+      "HR": 0.75
+    }
+  }
+}

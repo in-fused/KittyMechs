@@ -1,0 +1,106 @@
+{
+  "rootBuildCommand": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "limits": [
+    "056 per-frame cause unobserved",
+    "Tests unrun",
+    "No full presentation/mission/performance claim"
+  ],
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "sha256": "4b1b4eb2475eacad3e74ed5cf76c1d172a08de77a6d47dd50addf48222784beb",
+      "bytes": 10236
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "sha256": "45f4f3429069db60c98a28bbe4dafed8ae8b02ab701e23c4deb0ee634885ed41",
+      "bytes": 4395
+    },
+    {
+      "path": "tests/camera-moving-fit-057.test.ts",
+      "sha256": "84b887aa0020af804649ae9e36fc69505f7eb4e2fcaf9b99060301299a4e5bc4",
+      "bytes": 2876
+    },
+    {
+      "path": "docs/overhaul/camera-057.md",
+      "sha256": "c0c2e22922e2f5a0ee01f1a787b75d014c93fc181023616b0bac8f124bfa7fba",
+      "bytes": 3345
+    }
+  ],
+  "packet": "057",
+  "owned": [
+    "src/game/camera/CameraRig.tsx",
+    "src/game/camera/framing.ts",
+    "tests/camera-moving-fit-057.test.ts",
+    "docs/overhaul/camera-057.md"
+  ],
+  "rootTestCommand": [
+    "node",
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/camera-moving-fit-057.test.ts",
+    "tests/camera-framing.test.ts",
+    "tests/camera-clearance.test.ts"
+  ],
+  "writersClosed": true,
+  "protected": [
+    {
+      "path": "tools/overhaul-camera-057/preimages/CameraRig.tsx",
+      "sha256": "ad42671f188b9b5ef09dc566faab0339b1e08854429db4d779815cdf5f71d324",
+      "bytes": 9153
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages/framing.ts",
+      "sha256": "d76aab8c8e0d917a2f18487795f7a508ce4fc4da46a61d7779094c0fa153629d",
+      "bytes": 3670
+    },
+    {
+      "path": "tools/overhaul-camera-057/preimages.json",
+      "sha256": "a91ddb4ce07265eff61a5cd1a2a58162eb04272923b9a9ccae0a514fdf84e7af",
+      "bytes": 320
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "sha256": "2b0c29d74ebd61be0c7bec5ed3d1508aad526e02f8dcaec3dea97e6cdacc8dfe",
+      "bytes": 2434
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "bytes": 11235
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e",
+      "bytes": 791
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086",
+      "bytes": 785
+    },
+    {
+      "path": "docs/overhaul/critic/coop-play-056-result-review.md",
+      "sha256": "a1acd6230aa7c89b77622168a8a80ffa7ebb70351434c7ce71fe7e85b8103041",
+      "bytes": 5547
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-public/failure.png",
+      "sha256": "3cb2f0dd72f5e103ae9b7905fe7bbfe1bbf6189a1208ed50275b9026e9a7b81e",
+      "bytes": 1331473
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop056-public/failure-guest.png",
+      "sha256": "d683ffe198b185922365793b93b7d30dcf9abbc353350cf0363474aebb9a4714",
+      "bytes": 1318903
+    }
+  ],
+  "correction": "Bypass lag only when cleared intended pose fits same current corners; no override of explicit steep look/clearance",
+  "status": "SOURCE_CANDIDATE_UNRUN",
+  "sourceCause": "Ideal camera fit invalidated by later rendered position smoothing and native clearance",
+  "jobsExecuted": []
+}

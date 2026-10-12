@@ -1,0 +1,46 @@
+{
+  "writersClosed": true,
+  "packet": "055",
+  "files": [
+    {
+      "bytes": 7925,
+      "sha256": "b77c772963c7ee37fe496ca95e889edefaca63c8af285f39ae20f454b6c19f5c",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/GameCanvas.tsx"
+    },
+    {
+      "bytes": 4192,
+      "sha256": "69dfb7b1727cc7c8edb4829ad2c5975d91c301f46489334890f3834d6c99871c",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 235,
+      "sha256": "544b1d82dedc598019c1a5d0b62b3c6cf424cf8f456d522301f0019336a4715b",
+      "path": "tools/overhaul-startup-rig-055/candidate/src/game/entities/identity57Runtime034Asset.ts"
+    },
+    {
+      "bytes": 3388,
+      "sha256": "08d2008073b7de63a2dddbcbbf4dc786dccca99656bd4c842cd1318183ab8c6c",
+      "path": "docs/overhaul/startup-rig-055.md"
+    },
+    {
+      "bytes": 4298,
+      "sha256": "f7b528775bfaeb3b1da86fdf293a7a802c67cf23f744fe48f4f546df4cd8d30a",
+      "path": "tools/overhaul-startup-rig-055/source-handoff.json"
+    },
+    {
+      "bytes": 871,
+      "sha256": "6884781704003d0a6c901fb658a0f149583a7d4a4dcb3205a33348a28dada1b6",
+      "path": "tools/overhaul-startup-rig-055/preimages.json"
+    },
+    {
+      "bytes": 7047,
+      "sha256": "b3c567c66c7e57f1274f90469258fe8215912fc78c2b0c8fd9529532b9bf490e",
+      "path": "tools/overhaul-startup-rig-055/preimages/GameCanvas.tsx"
+    },
+    {
+      "bytes": 4177,
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "path": "tools/overhaul-startup-rig-055/preimages/identity57Runtime034Actor.tsx"
+    }
+  ]
+}

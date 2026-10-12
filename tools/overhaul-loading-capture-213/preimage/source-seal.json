@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "status": "STATIC_UNRUN_REQUIRES_ROOT_ACTUAL_GATE",
+  "files": [
+    {
+      "path": "tools/overhaul-loading-capture-212/assemble.py",
+      "bytes": 2302,
+      "sha256": "1279e81c1342ad28a59dc1ff3673dc023faaab3f162dfb843c274b6334a8189c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/binding.json",
+      "bytes": 152266,
+      "sha256": "42ac522a8b649f637006ae5e4d404ed89f6f79727a8cd8fb7e8bb29fa4ffda34"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/capture.mjs",
+      "bytes": 14707,
+      "sha256": "c48e7bb317aae4213acc4da0cb2ccef202274a159ac62270c53eb84a1b4e9780"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/HANDOFF.md",
+      "bytes": 3357,
+      "sha256": "e43191cc4550074c1a58a9c919e0ae67cc2098c3f8117921c4ab81f34f77998c"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/prepare.py",
+      "bytes": 2690,
+      "sha256": "df8eb613f478396640d9cae792424bc77bfe63a255e0ef685d1521d40f055a65"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/seal.py",
+      "bytes": 507,
+      "sha256": "e4afc66ba39fc44ba6556ff37943ebf19376325fdfcdaeff1786fe28733845df"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/static-receipt.json",
+      "bytes": 469,
+      "sha256": "0b4edb63eeb3172e21f4e73336c40d6d54a33b7531321712ed4fcdb218d61750"
+    },
+    {
+      "path": "tools/overhaul-loading-capture-212/supervise.py",
+      "bytes": 4839,
+      "sha256": "6194d93f376c29b020d4a9a1f5dfedaff49fb28b36800830f29606ef600bd6f9"
+    }
+  ]
+}

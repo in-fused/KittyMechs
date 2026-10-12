@@ -1,0 +1,112 @@
+{
+  "repairs": 1,
+  "writer": "CLOSED",
+  "status": "SOURCE_INCOMPLETE_ON57_WITNESS_UNREACHED",
+  "files": [
+    {
+      "bytes": 6121,
+      "sha256": "a7786531b5b6445ef3f2ad5c475edb963f9856af7dc4cd0abd6b7bc494815fb6",
+      "path": "tools/overhaul-pad-witness-188/author188.py"
+    },
+    {
+      "bytes": 6069,
+      "sha256": "299710f9157e6f4806d8f223691bf046f186b4f0c70913dde7602fb59d263e57",
+      "path": "tools/overhaul-pad-witness-188/check188.mts"
+    },
+    {
+      "bytes": 6019,
+      "sha256": "760e5d4f31cfcec0e4997d9a6d8e99ec2575ef1257a81f802664b55a78d7f0bf",
+      "path": "tools/overhaul-pad-witness-188/first-check188.mts"
+    },
+    {
+      "bytes": 1731,
+      "sha256": "46772c08681a74ca6ab8ed7694503f3eb955e2f9643f4147a6b752b6afabfac2",
+      "path": "tools/overhaul-pad-witness-188/first-failure188.json"
+    },
+    {
+      "bytes": 173,
+      "sha256": "b9a422633aaab29e5f1c9bc9c011691dd25bd38709cada6484827421fb348d4f",
+      "path": "tools/overhaul-pad-witness-188/first-first-failure188.json"
+    },
+    {
+      "bytes": 166,
+      "sha256": "609901b5995a0810101333e2c6bcd17071c30e9d43d3f20dbf95fd9a5d9bb58b",
+      "path": "tools/overhaul-pad-witness-188/first-fixture-receipt.json"
+    },
+    {
+      "bytes": 558,
+      "sha256": "78545b5b1cd3be3ed64a1dd375a5647052238ffb1614b78691674cb0123c8e40",
+      "path": "tools/overhaul-pad-witness-188/first-fixture-stderr.txt"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-pad-witness-188/first-fixture-stdout.txt"
+    },
+    {
+      "bytes": 281,
+      "sha256": "bad744b34f7004bd31d250bd5b9001bdf45307a642295be70e95f6c8a822fe3f",
+      "path": "tools/overhaul-pad-witness-188/fixture-receipt.json"
+    },
+    {
+      "bytes": 552,
+      "sha256": "ea27bd6d5dc0da91e8349b3be103db4b59ccc75e158c6b90956c3224e6ee3c7a",
+      "path": "tools/overhaul-pad-witness-188/fixture-stderr.txt"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-pad-witness-188/fixture-stdout.txt"
+    },
+    {
+      "bytes": 466,
+      "sha256": "8998d7af2399639bf558cf10eac7d79b7ed1331fb0598be228c9aec509eca6cd",
+      "path": "tools/overhaul-pad-witness-188/forensic-notes.json"
+    },
+    {
+      "bytes": 4241,
+      "sha256": "116f79339b5c9ff461f32351783c17077ea188ea6e5d8d15fedf0292c8a3695f",
+      "path": "tools/overhaul-pad-witness-188/HANDOFF.md"
+    },
+    {
+      "bytes": 15106,
+      "sha256": "eb27d0188349e849039fd05b07e98ce1ee32eaf65f4a6bae5c21ebc370c89340",
+      "path": "tools/overhaul-pad-witness-188/legacy164.ts"
+    },
+    {
+      "bytes": 15016,
+      "sha256": "e77913f574768d5eefa9f2ebb724c4da40912d2ea5c0c742b805ac925e500c18",
+      "path": "tools/overhaul-pad-witness-188/preimages/sourceCoordination164.ts"
+    },
+    {
+      "bytes": 2484,
+      "sha256": "91da3d116eb3d7370ca8a883d723c1a17c7f6d023ee8343664a9591270bbe1d8",
+      "path": "tools/overhaul-pad-witness-188/protected-inputs.json"
+    },
+    {
+      "bytes": 20146,
+      "sha256": "649c322b311ba6c65ce84c1dad37b7c832bde1f4c0a53bec6eb0c9191ffaac91",
+      "path": "tools/overhaul-pad-witness-188/sourceCoordination164.candidate.ts"
+    },
+    {
+      "bytes": 132,
+      "sha256": "3c4d499918780784d146eed197bc6ccd55937d5e0b739e6328d8485a0747c6e5",
+      "path": "tools/overhaul-pad-witness-188/types-receipt.json"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-pad-witness-188/types-stderr.txt"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "tools/overhaul-pad-witness-188/types-stdout.txt"
+    },
+    {
+      "bytes": 20146,
+      "sha256": "649c322b311ba6c65ce84c1dad37b7c832bde1f4c0a53bec6eb0c9191ffaac91",
+      "path": "src/game/entities/sourceCoordination164.ts"
+    }
+  ]
+}

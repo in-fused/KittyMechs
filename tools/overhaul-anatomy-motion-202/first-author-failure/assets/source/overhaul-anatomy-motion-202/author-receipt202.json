@@ -1,0 +1,49 @@
+{
+  "writer": "CLOSED",
+  "error": {
+    "message": "202_EVALUATED_SOURCE_REPLAY",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-anatomy-motion-202\\author202.py\", line 108, in <module>\n    CURRENT={'name':name,'frame':f,'owner':'COMPLETE_CRITICAL_ORIGINAL_SOURCE'};old=source_world202(source,f);RIG.animation_data.action=action;frame202(f);desired=retarget_complete_world_pose202(old,OLDREST,REST,lambda x:None);verify202(desired,'complete-world-retarget');compat.append({'name':name,'frame':f,'oldWorld':{n:rows(m) for n,m in old.items()},'maxResidual':evaluated[-1]['maxResidual']})\n                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-anatomy-motion-202\\author202.py\", line 39, in verify202\n    if row['maxResidual']>2e-5:emit({'stage':stage,'desired':{n:rows(m) for n,m in desired.items()},'actual':{n:rows(m) for n,m in actual.items()},'residual':residual});raise RuntimeError('202_EVALUATED_SOURCE_REPLAY')\n                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 202_EVALUATED_SOURCE_REPLAY\n",
+    "clock": {
+      "name": "FelineAir",
+      "frame": 1.0,
+      "owner": "COMPLETE_CRITICAL_ORIGINAL_SOURCE"
+    }
+  },
+  "status": "FIRST_AUTHOR_FAILURE_STOP",
+  "records": 0,
+  "evaluated": 1,
+  "protectedAfter": [
+    {
+      "path": "assets/source/overhaul-phase-transition-197/Pounce_Motion197.blend",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.raw.glb",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-phase-transition-197/output/Pounce_Motion197.glb",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-pose-owner-027/single_pose_owner.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-identity57-animation-source-004/author.py",
+      "match": true
+    },
+    {
+      "path": "assets/source/overhaul-pounce-anatomy-121/author.py",
+      "match": true
+    },
+    {
+      "path": "docs/overhaul/motion-design-reassessment-197.md",
+      "match": true
+    }
+  ]
+}

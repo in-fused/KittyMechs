@@ -1,0 +1,45 @@
+{
+  "task": "extraction039-technical-repair2",
+  "status": "source-only-root-validation-required",
+  "sealedAt": "2026-10-10T22:39:47.2935919Z",
+  "changed": [
+    {
+      "path": "tests/overhaul-support.test.ts",
+      "bytes": 13308,
+      "sha256": "d37830cadd794cfc39755fe3363885763871b2f4ccec9e565a0384b53ba5df42"
+    },
+    {
+      "path": "tests/overhaul-density-clearance.test.ts",
+      "bytes": 6549,
+      "sha256": "50eef548169d1f371a868324548ea1644c4cfe43ef8ced501d6b7bc1144c0933"
+    },
+    {
+      "path": "tools/overhaul-extraction-039/structure-correction-b-handoff.md",
+      "bytes": 2698,
+      "sha256": "d6214680ca50ebf5b33e537645cfe3d2565a2b35bd034bbf2fc4b1f99fd5a5bf"
+    }
+  ],
+  "preservedParent": {
+    "path": "tools/overhaul-extraction-039/structure-handoff.json",
+    "sha256": "017f3ae0acab147f5cdd8f7358c07a1eedb857d31f6210b4887173bd75c6bf4b"
+  },
+  "rootFirstRun": {
+    "path": ".sites-runtime/overhaul-20261010/extraction039-test-process/stdout.txt",
+    "sha256": "aa588badc4934c1d6d9f0edda2b91c6c69822825f1db257c7af8b43b864d632a",
+    "passed": 41,
+    "total": 43,
+    "ordinaryNativeClimbsPassed": 24
+  },
+  "specialistHeavyJobs": "none",
+  "geometryChanged": false,
+  "thresholds": {
+    "radius": 2.05,
+    "height": 3.8,
+    "entryClearance": 4.5,
+    "densityPenetration": -1E-05,
+    "densityTimeoutMs": 30000,
+    "routeStepMax": 0.25,
+    "routeCenterlineErrorMax": 0.05
+  },
+  "required": "Root run exact new harness; retain/report any actual legacy obstruction without waiver."
+}

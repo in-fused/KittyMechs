@@ -1,0 +1,143 @@
+{
+  "packet": "motion-performance-042",
+  "sealedUTC": "2026-10-10T23:37:09.5521526Z",
+  "status": "SOURCE_ONLY_WRITERS_CLOSED",
+  "ownedPaths": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "bytes": 10988
+    },
+    {
+      "path": "src/game/entities/shareSkinPalettes042.ts",
+      "sha256": "da3e168e3239417fcd8c428d5e5f4d4732caa159a5c09c8242fdf5f35538fbd2",
+      "bytes": 1606
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Actor.tsx",
+      "sha256": "23c543d870741ffb090a8bd565c0e39a9cbaaf66b7000b300e14a313671db960",
+      "bytes": 3352
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed",
+      "bytes": 3644
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "sha256": "f3d97325119271d1de7ab08c65bd12d32021018fce61e82190179586dfaaffec",
+      "bytes": 3917
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "bytes": 4177
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "bytes": 11235
+    },
+    {
+      "path": "tests/feline-runtime-042.test.ts",
+      "sha256": "64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339",
+      "bytes": 8376
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/README.md",
+      "sha256": "a152549fcea62b9c6694d9eb0566f57e61fd98015f2c2eb47ed6ee1e6505ba9d",
+      "bytes": 5779
+    }
+  ],
+  "files": [
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "7f0ee662f0c8e48873525d17841b6851e70cbe2cff6f731850cda1bb97f8bdae",
+      "bytes": 10988
+    },
+    {
+      "path": "src/game/entities/shareSkinPalettes042.ts",
+      "sha256": "da3e168e3239417fcd8c428d5e5f4d4732caa159a5c09c8242fdf5f35538fbd2",
+      "bytes": 1606
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Actor.tsx",
+      "sha256": "23c543d870741ffb090a8bd565c0e39a9cbaaf66b7000b300e14a313671db960",
+      "bytes": 3352
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "sha256": "45f54a4c63a7d96471e28d89b3c29682ade9ec80023425789fd123c2214bf1ed",
+      "bytes": 3644
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "sha256": "f3d97325119271d1de7ab08c65bd12d32021018fce61e82190179586dfaaffec",
+      "bytes": 3917
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "sha256": "0f7ac7421716d754200251cfd4738fa8e4438bc2db99e83ecc8f5238dc8fadd2",
+      "bytes": 4177
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff",
+      "bytes": 11235
+    },
+    {
+      "path": "tests/feline-runtime-042.test.ts",
+      "sha256": "64e43efadbc6241a2621f089cdfcc99b4288079c462638ee2371a2585fc35339",
+      "bytes": 8376
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/README.md",
+      "sha256": "a152549fcea62b9c6694d9eb0566f57e61fd98015f2c2eb47ed6ee1e6505ba9d",
+      "bytes": 5779
+    }
+  ],
+  "handoff": {
+    "path": "tools/overhaul-motion-performance-042/source-handoff.json",
+    "sha256": "875126d1185b0f3acf22deb66415ab90dce889ea2df0b2ed882f2a22b89167b4",
+    "bytes": 9356
+  },
+  "preimages": [
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__camera__weightedVisualEnvelope007.ts",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323",
+      "bytes": 11098
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime005.ts",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "049a2095896c3fd27ab698c724eae29a36067d600cf2f7178b6c9cb12db50128",
+      "bytes": 10797
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime005Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "69b57f81d1331faac4636d1491c2579f7543f1a901d3f1084caa4a4b5c826804",
+      "bytes": 3314
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime007Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd",
+      "bytes": 3609
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime008Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "931bea30565fe732a72da62c13f160bad523cfc8acac0a1d2c6f5b3c67cc4220",
+      "bytes": 3882
+    },
+    {
+      "path": "tools/overhaul-motion-performance-042/preimages/src__game__entities__identity57Runtime034Actor.tsx",
+      "provenance": "Immutable frozen033 source copy; baseline owner/envelope matches inspected pre-repair current source hashes",
+      "sha256": "7ff3f26cacb709b02f7ea0bbf63071bb165a1303f7157d364f033b40210e46b7",
+      "bytes": 4142
+    }
+  ],
+  "runtimeJobs": "NONE"
+}

@@ -1,0 +1,34 @@
+{
+  "writer": "CLOSED",
+  "sourceOnly": true,
+  "aliases": [
+    {
+      "canonical": "shared/lampNavigation279.ts",
+      "source": "shared/lampNavigation279.ts",
+      "mode": "new canonical module, same tested algorithm; JSON import adapted relative canonical shared path"
+    },
+    {
+      "canonical": "shared/navigation.ts",
+      "source": "tools/overhaul-lamp-navigation-279/navigation279.ts"
+    },
+    {
+      "canonical": "tools/overhaul-coop-177/planner.mjs",
+      "source": "tools/overhaul-lamp-navigation-279/planner279.mjs"
+    },
+    {
+      "canonical": "tools/overhaul-coop-177/geometry-source.mjs",
+      "source": "tools/overhaul-lamp-navigation-279/geometry-source279.mjs"
+    }
+  ],
+  "mustBindAuthoritativeNPC": "server/Simulation import of canonical shared/navigation.ts must also resolve candidate; client-only overlay does not upgrade retained062 server NPCs",
+  "noChanges": [
+    "native colliders",
+    "propCollider",
+    "terrain",
+    "arrival",
+    "hulls",
+    "search limits",
+    "pulse limits"
+  ],
+  "canonicalSourceReplacement": "Navigation/planner/geometry-source copy contents must load under canonical source paths so original relative imports keep ownership"
+}

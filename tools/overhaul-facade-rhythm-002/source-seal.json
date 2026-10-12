@@ -1,0 +1,26 @@
+{
+  "sealedUTC": "2026-10-10T14:45:14.320938+00:00",
+  "hardDeadlineUTC": "2026-10-10T15:16:12Z",
+  "literalDiffVerified": true,
+  "from": "recipe.map(f=>({block,index,module,piece:f.piece}))",
+  "to": "recipe.map(f=>({...whole,piece:f.piece}))",
+  "files": [
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10264,
+      "sha256": "dd3a06bc603f68589f21053c06fb2f3b10ae4b80fdbe33333b9ecdfb351c7cdf"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": "docs/overhaul/rainline-facade-rhythm-002.md",
+      "bytes": 1685,
+      "sha256": "c1552020cc693da6045a32aa673ea8dc7ebca6760d68ef774f5816defc62f2d8"
+    }
+  ],
+  "status": "FROZEN_PENDING_NARROW_CODE_GATE",
+  "prior001Closure": "tools\\overhaul-facade-rhythm-001\\closure.json"
+}

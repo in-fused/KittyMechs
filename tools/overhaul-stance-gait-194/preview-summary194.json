@@ -1,0 +1,202 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_MASTER_PREVIEW_COMPLETE_UNADMITTED_PACKAGING_REJECTED",
+  "sourceFloorVisualBudgetMetInPreview": true,
+  "nativeContactQualified": false,
+  "all5AndMovingR": [
+    {
+      "name": "FelineWalk",
+      "poses": 8,
+      "loadedFeetCount": 24,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 9.02172178030014e-05,
+      "worst": {
+        "limb": "HL",
+        "wholePadSourceFloorGap": 9.02172178030014e-05,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineWalk",
+            "weight": 1,
+            "sourceLocalPhase": 0.7142857142857143,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.7142857142857143
+      }
+    },
+    {
+      "name": "FelineTrot",
+      "poses": 8,
+      "loadedFeetCount": 21,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.0005544442683458328,
+      "worst": {
+        "limb": "FR",
+        "wholePadSourceFloorGap": -0.0005544442683458328,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineTrot",
+            "weight": 1,
+            "sourceLocalPhase": 0.5314285714285714,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.5714285714285714
+      }
+    },
+    {
+      "name": "FelineGallop",
+      "poses": 8,
+      "loadedFeetCount": 9,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.0012109903618693352,
+      "worst": {
+        "limb": "FL",
+        "wholePadSourceFloorGap": 0.0012109903618693352,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineGallop",
+            "weight": 1,
+            "sourceLocalPhase": 0.15142857142857147,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.5714285714285714
+      }
+    },
+    {
+      "name": "FelineUprightWalkLong",
+      "poses": 8,
+      "loadedFeetCount": 11,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.0001160530373454094,
+      "worst": {
+        "limb": "HL",
+        "wholePadSourceFloorGap": -0.0001160530373454094,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineUprightWalkLong",
+            "weight": 1,
+            "sourceLocalPhase": 0.2857142857142857,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.2857142857142857
+      }
+    },
+    {
+      "name": "FelineUprightStride",
+      "poses": 8,
+      "loadedFeetCount": 11,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.0007865261286497116,
+      "worst": {
+        "limb": "HR",
+        "wholePadSourceFloorGap": 0.0007865261286497116,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineUprightStride",
+            "weight": 1,
+            "sourceLocalPhase": 0.0714285714285714,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.5714285714285714
+      }
+    },
+    {
+      "name": "R-up",
+      "poses": 8,
+      "loadedFeetCount": 12,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.009030088782310486,
+      "worst": {
+        "limb": "HL",
+        "wholePadSourceFloorGap": -0.009030088782310486,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineTrot",
+            "weight": 0.4285714285714286,
+            "sourceLocalPhase": 0.5714285714285714,
+            "role": "stance"
+          },
+          {
+            "clip": "FelineUprightStride",
+            "weight": 0.5714285714285714,
+            "sourceLocalPhase": 0.5714285714285714,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.5714285714285714
+      }
+    },
+    {
+      "name": "R-down",
+      "poses": 8,
+      "loadedFeetCount": 12,
+      "completeFootVertexCounts": [
+        2034
+      ],
+      "maxAbsLoadedSourceFloor": 0.008903338573873043,
+      "worst": {
+        "limb": "HL",
+        "wholePadSourceFloorGap": -0.008903338573873043,
+        "completeFootVertices": 2034,
+        "roles": [
+          {
+            "clip": "FelineTrot",
+            "weight": 0.5714285714285714,
+            "sourceLocalPhase": 0.5714285714285714,
+            "role": "stance"
+          },
+          {
+            "clip": "FelineUprightStride",
+            "weight": 0.4285714285714286,
+            "sourceLocalPhase": 0.5714285714285714,
+            "role": "stance"
+          }
+        ],
+        "sourceLoadedAllPositive": true,
+        "sourceForeUnloading": false,
+        "nativeContact": "UNQUALIFIED",
+        "phase": 0.5714285714285714
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Actual completed skill-read commands in this thread initial200 session records; not a claim that every plugin instruction or optional external tool executed",
+  "session": "C:\\Users\\Taylor\\.codex\\sessions\\2026\\10\\09\\rollout-2026-10-09T18-59-49-01a122e4-e90d-7f61-84f9-ece50f7dc278.jsonl",
+  "records": [
+    {
+      "line": 25,
+      "timestampUTC": "2026-10-09T23:00:16.760Z",
+      "status": "completed",
+      "command": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -Command Get-Content -LiteralPath 'C:\\Users\\Taylor\\.codex\\plugins\\cache\\openai-curated-remote\\game-studio\\0.1.2\\skills\\game-studio\\SKILL.md'; Get-Content -LiteralPath 'C:\\Users\\Taylor\\.codex\\plugins\\cache\\openai-curated-remote\\game-studio\\0.1.2\\skills\\game-playtest\\SKILL.md'",
+      "cwd": "file:///C:/Users/Taylor/Documents/GitHub/KittyMech-Web",
+      "executionId": "exec-ea29fe48-0350-4017-b1bd-c15ef60069e0"
+    }
+  ],
+  "currentAvailableSkillRoots": [
+    "C:/Users/Taylor/.codex/plugins/cache/openai-curated-remote/game-studio/0.1.2/skills",
+    "C:/Users/Taylor/.codex/plugins/cache/openai-curated-remote/game-development-studio/1.0.2/skills"
+  ],
+  "actualPlayEvidence": [
+    "tools/player-integration-184/play184.mjs",
+    ".sites-runtime/overhaul-20261010/play184-public/evidence.json",
+    ".sites-runtime/overhaul-20261010/gpu192-public/evidence.json"
+  ],
+  "assetWorkflowRecord": [
+    "docs/overhaul/extraction-039-art.md",
+    "docs/overhaul/player-integration-175-handoff.md"
+  ],
+  "limitation": "Companion game-dev CLI is unavailable; local Blender and existing Playwright were used. X post returned403; official OpenAI source independently verifies Game Studio plugin contents."
+}

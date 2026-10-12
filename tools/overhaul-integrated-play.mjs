@@ -1,0 +1,53 @@
+import {chromium} from '@playwright/test';
+import {mkdir, writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+const output=resolve('.sites-runtime/overhaul-20261009/'+(process.argv[2]??'baseline-001'));
+await mkdir(output,{recursive:true});
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const results={scope:'Fresh current working-tree local baseline. Ordinary UI and inputs; no actor teleport or state mutation.',events:[],errors:[],status:'RUNNING'};
+const context=await browser.newContext({viewport:{width:1440,height:900},recordVideo:{dir:output,size:{width:1440,height:900}}});
+const page=await context.newPage();
+page.on('pageerror',e=>results.errors.push(e.message));
+const sample=async(label)=>{const state=await page.evaluate(()=>({snapshot:window.kittyMechDebug?.snapshot(),camera:window.kittyMechDebug?.camera(),performance:window.kittyMechDebug?.performance(),loading:!!document.querySelector('.loading-overlay')}));results.events.push({label,at:new Date().toISOString(),...state});return state;};
+const frames=async(p)=>p.evaluate(()=>{window.overhaulFrames=[];let last;const step=t=>{if(last!==undefined)window.overhaulFrames.push(t-last);last=t;window.overhaulRAF=requestAnimationFrame(step);};window.overhaulRAF=requestAnimationFrame(step);});
+try{
+  await page.goto('http://localhost:8790/?debug=1&overhaul=1');
+  await page.getByLabel('Pilot callsign').fill('OverhaulBaseline');
+  await page.getByRole('button',{name:'Select Pounce',exact:true}).click();
+  await page.locator('summary').click();
+  await page.getByRole('button',{name:'Host on arena server',exact:true}).click();
+  await page.waitForFunction(()=>window.kittyMechDebug?.snapshot()?.actors.some(a=>a.name==='OverhaulBaseline'),{},{timeout:60000});
+  await sample('first actor observed');
+  await page.waitForFunction(()=>!document.querySelector('.loading-overlay'),{},{timeout:60000});
+  await page.waitForTimeout(2500);
+  await sample('scene ready');
+  results.gpu=await page.evaluate(()=>{const gl=document.querySelector('canvas')?.getContext('webgl2');const ext=gl?.getExtension('WEBGL_debug_renderer_info');return {renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):null,userAgent:navigator.userAgent};});
+  await page.mouse.click(720,450);
+  await frames(page);
+  await page.keyboard.down('KeyW');await page.waitForTimeout(2500);await page.keyboard.up('KeyW');
+  await sample('quadruped forward');await page.screenshot({path:resolve(output,'quad.png')});
+  await page.keyboard.press('Space');await page.waitForTimeout(450);await sample('jump');
+  await page.keyboard.down('KeyW');await page.waitForTimeout(1600);await page.keyboard.up('KeyW');
+  await page.keyboard.press('KeyR');await page.waitForTimeout(300);await sample('transformation');
+  await page.keyboard.down('KeyD');await page.waitForTimeout(2300);await page.keyboard.up('KeyD');
+  await sample('upright strafe');await page.screenshot({path:resolve(output,'upright.png')});
+  await page.keyboard.press('KeyR');await page.waitForTimeout(800);
+  await page.keyboard.down('KeyC');await page.keyboard.down('KeyW');await page.waitForTimeout(2500);await page.keyboard.up('KeyW');await page.keyboard.up('KeyC');await sample('claw approach');
+  await page.keyboard.press('Space');await page.waitForTimeout(180);await page.keyboard.press('ShiftLeft');await page.waitForTimeout(1200);await sample('leap ability');
+  results.frameIntervals=await page.evaluate(()=>{cancelAnimationFrame(window.overhaulRAF);return window.overhaulFrames;});
+  await page.keyboard.down('Tab');
+  const link=await page.getByLabel('Squad invite').inputValue();await page.keyboard.up('Tab');
+  const guestContext=await browser.newContext({viewport:{width:1440,height:900},recordVideo:{dir:output,size:{width:1440,height:900}}});
+  const guest=await guestContext.newPage();guest.on('pageerror',e=>results.errors.push('guest: '+e.message));
+  const url=new URL(link);url.searchParams.set('debug','1');url.searchParams.set('overhaul','1');
+  await guest.goto(url.toString());await guest.getByLabel('Pilot callsign').fill('OverhaulGuest');await guest.getByRole('button',{name:'JOIN SQUAD',exact:false}).click();
+  for(let i=0;i<12;i++){await page.keyboard.press(i%2?'KeyA':'KeyD',{delay:100});await page.waitForTimeout(500);await sample('active host during guest load '+i);}
+  await guest.waitForFunction(()=>window.kittyMechDebug?.snapshot()?.actors.some(a=>a.name==='OverhaulGuest'),{},{timeout:60000});
+  await guest.waitForFunction(()=>!document.querySelector('.loading-overlay'),{},{timeout:60000});
+  results.guest=await guest.evaluate(()=>({snapshot:window.kittyMechDebug?.snapshot(),performance:window.kittyMechDebug?.performance()}));
+  await page.screenshot({path:resolve(output,'host-two-client.png')});await guest.screenshot({path:resolve(output,'guest-two-client.png')});
+  await guest.mouse.click(720,450);await guest.keyboard.down('KeyW');await guest.waitForTimeout(1500);await guest.keyboard.up('KeyW');
+  await sample('after guest movement');results.guestAfterMovement=await guest.evaluate(()=>window.kittyMechDebug?.snapshot());
+  await guestContext.close();results.status='PASS_BOUNDED_BASELINE';
+}catch(e){results.status='FAILED';results.failure=String(e);await page.screenshot({path:resolve(output,'failure.png')}).catch(()=>{});}
+finally{await context.close();await browser.close();await writeFile(resolve(output,'evidence.json'),JSON.stringify(results,null,2));console.log(JSON.stringify({status:results.status,failure:results.failure,output,errors:results.errors,events:results.events.length}));}

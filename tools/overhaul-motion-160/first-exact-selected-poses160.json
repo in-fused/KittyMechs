@@ -1,0 +1,6315 @@
+[
+  {
+    "phase": "on-forward",
+    "wall": 1791729519727,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -1.253916272828753,
+        "y": 1.227919960769281,
+        "z": 13.378684275704632
+      },
+      "velocity": {
+        "x": 1.0871844787678078e-15,
+        "y": 0,
+        "z": -7.599999100882179
+      },
+      "yaw": -7.922274484710738e-7,
+      "aimYaw": 0.0007851900589932214,
+      "aimPitch": 0.0640771164558828,
+      "stance": "quadruped",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 294,
+        "localPosition": {
+          "x": 0,
+          "y": 0.30000001192092896,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 294,
+        "time": 4.899999999999988,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -1.2539162635803223,
+            "y": 1.5279200077056885,
+            "z": 13.378684043884277
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.1800000000000002,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 294,
+          "time": 4.899999999999988,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 1.8119741312796797e-17,
+            "y": -0.0061111111111111106,
+            "z": -0.12666665168136965
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -1.2470840215682983,
+              "y": 1.527829647064209,
+              "z": 13.378116607666016
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": -0.006832233164459467,
+            "y": 0.00009030906949192286,
+            "z": 0.0005680350586771965
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 4.05e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -0.2608965337276459,
+                  "y": 0.20782966911792755,
+                  "z": 12.261070251464844
+                },
+                "witness2": {
+                  "x": -0.26089656352996826,
+                  "y": 0.2278296947479248,
+                  "z": 12.261070251464844
+                },
+                "normal1": {
+                  "x": 3.725283477251651e-7,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": -3.725283477251651e-7,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 1.8119742042553794e-17,
+                "y": -0.0061111110262572765,
+                "z": -0.12666665017604828
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 4.05e-321,
+              "toi": 0.00047425340744666755,
+              "raw": {
+                "witness1": {
+                  "x": -0.04518245533108711,
+                  "y": 1.844718337059021,
+                  "z": 12.077923774719238
+                },
+                "witness2": {
+                  "x": -0.05886709690093994,
+                  "y": 1.8447164297103882,
+                  "z": 12.092875480651855
+                },
+                "normal1": {
+                  "x": -0.6751517653465271,
+                  "y": -0.00009214268357027322,
+                  "z": 0.7376788854598999
+                },
+                "normal2": {
+                  "x": 0.6751517653465271,
+                  "y": 0.00009214268357027322,
+                  "z": -0.7376788854598999
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 8.663166538303013e-12,
+                "y": 3.7441054701048415e-7,
+                "z": -0.0004742532910313457
+              },
+              "remaining": {
+                "x": 2.305151847181719e-9,
+                "y": 0.00009962558397091925,
+                "z": -0.1261923909187317
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.517e-321,
+              "toi": 0.00408531678840518,
+              "raw": {
+                "witness1": {
+                  "x": -2.455265760421753,
+                  "y": 1.8447136878967285,
+                  "z": 12.078210830688477
+                },
+                "witness2": {
+                  "x": -2.441249370574951,
+                  "y": 1.844713807106018,
+                  "z": 12.09283447265625
+                },
+                "normal1": {
+                  "x": 0.6921057105064392,
+                  "y": -0.000013626250620291103,
+                  "z": 0.7217961549758911
+                },
+                "normal2": {
+                  "x": -0.6921057105064392,
+                  "y": 0.000013626250620291103,
+                  "z": -0.7217961549758911
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -0.003016886068508029,
+                "y": 0.000004739744326798245,
+                "z": -0.0032289207447320223
+              },
+              "remaining": {
+                "x": -0.059900153428316116,
+                "y": 0.0000866735281306319,
+                "z": -0.05469381809234619
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 10.819799999952327,
+      "renderTime": 4.81305178110942,
+      "nativeTick": 288,
+      "mode": "quad",
+      "stance": 0,
+      "speed": 0.08764433283866926,
+      "phase": 0.6377872855946847,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineWalk",
+          "time": 0.9044539382478917,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -0.9999999495420292,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 5.700000047683716,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -0.000001932312797787035,
+        "nativeYaw": -0.000001932312797787035,
+        "signedDistance": 0.0015162469539297709,
+        "height": -0.004944098098415211,
+        "targetHeight": 0,
+        "requestedHeight": -0.3078465816877453,
+        "margin": 0.12,
+        "authoredLoad": 1.4285761798901788,
+        "suspension": false,
+        "soleSamples": 3695,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": "SOURCE_MOUNT_OUTSIDE_NATIVE_BORDER_MARGIN",
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.6377872855946847,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineWalk",
+            "time": 0.9044539382478917,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineWalk",
+            "weight": 1,
+            "phase": 0.8877872855946847,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.0166666507720947,
+              "nativeDistancePerCycle": 0.7777777187880921,
+              "sourceDuty": 0.72,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.75,
+                "HR": 0.25
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.7166666666666667
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.8900907509889473,
+              1.3246140963952486,
+              12.75341483646146
+            ],
+            "lower": [
+              -0.8684149273126284,
+              0.7914604501356011,
+              13.07333520887653
+            ],
+            "paw": [
+              -0.8605848805130203,
+              0.45150028790025926,
+              12.44508224350108
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -1.6419617427556428,
+              1.3326041803794886,
+              12.742005556360718
+            ],
+            "lower": [
+              -1.68721259209454,
+              0.8370446795738624,
+              13.115428726403678
+            ],
+            "paw": [
+              -1.6446430659002806,
+              0.3605066920102377,
+              12.58492375828713
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.9183437778358916,
+              1.275311439942255,
+              13.979946488368254
+            ],
+            "lower": [
+              -0.8692675166193631,
+              0.8028805176100593,
+              13.720963183021134
+            ],
+            "paw": [
+              -0.8846302627194451,
+              0.3444994100961593,
+              14.21136245571151
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -1.6061132712775865,
+              1.2655643427937102,
+              13.994853941421638
+            ],
+            "lower": [
+              -1.6605483185221186,
+              1.0462944814468182,
+              13.503295616964245
+            ],
+            "paw": [
+              -1.6206336066311027,
+              0.34449384630208185,
+              13.822476186881396
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-stop",
+    "wall": 1791729520470,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -1.2500865042500273,
+        "y": 1.227898716383752,
+        "z": 13.374686765856655
+      },
+      "velocity": {
+        "x": 7.74089080750003e-20,
+        "y": 0,
+        "z": -0.017623563749277822
+      },
+      "yaw": -3.33875096121183e-8,
+      "aimYaw": 4.82720262544655e-7,
+      "aimPitch": 0.06487598223611714,
+      "stance": "quadruped",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 339,
+        "localPosition": {
+          "x": 0,
+          "y": 0.30000001192092896,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 339,
+        "time": 5.649999999999985,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -1.2500865459442139,
+            "y": 1.5278987884521484,
+            "z": 13.374687194824219
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.1800000000000002,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 339,
+          "time": 5.649999999999985,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 1.2901484679166716e-21,
+            "y": -0.0061111111111111106,
+            "z": -0.0002937260624879637
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -1.2500602006912231,
+              "y": 1.527864933013916,
+              "z": 13.374661445617676
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": -0.00002627305730129592,
+            "y": 0.00003377350731170736,
+            "z": 0.000024977554858196527
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 4.05e-321,
+              "toi": 0.000003255868477936019,
+              "raw": {
+                "witness1": {
+                  "x": -0.26089659333229065,
+                  "y": 0.20782969892024994,
+                  "z": 12.261070251464844
+                },
+                "witness2": {
+                  "x": -0.26089656352996826,
+                  "y": 0.22786200046539307,
+                  "z": 12.261070251464844
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": -0.0000011156088248753804
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0.0000011156088248753804
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 6.865707907552005e-25,
+                "y": -0.0000032521140838071005,
+                "z": -1.563104774504609e-7
+              },
+              "remaining": {
+                "x": 1.289461988741777e-21,
+                "y": -0.006107858847826719,
+                "z": -0.00029356975574046373
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 4.05e-321,
+              "toi": 0.00011483200069051236,
+              "raw": {
+                "witness1": {
+                  "x": -0.04517900571227074,
+                  "y": 1.8446907997131348,
+                  "z": 12.077926635742188
+                },
+                "witness2": {
+                  "x": -0.05873692035675049,
+                  "y": 1.8446904420852661,
+                  "z": 12.09266185760498
+                },
+                "normal1": {
+                  "x": -0.6770985722541809,
+                  "y": 0,
+                  "z": 0.7358923554420471
+                },
+                "normal2": {
+                  "x": 0.6770985722541809,
+                  "y": 0,
+                  "z": -0.7358923554420471
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 4.7812008757845335e-22,
+                "y": 0.00003377350731170736,
+                "z": -0.00010885539813898504
+              },
+              "remaining": {
+                "x": 8.120284752081301e-22,
+                "y": 0.00006297390791587532,
+                "z": -0.00018487760098651052
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.517e-321,
+              "toi": 0.000026625149985193275,
+              "raw": {
+                "witness1": {
+                  "x": -2.4549713134765625,
+                  "y": 2.7079803943634033,
+                  "z": 12.077934265136719
+                },
+                "witness2": {
+                  "x": -2.4413950443267822,
+                  "y": 2.707980155944824,
+                  "z": 12.092673301696777
+                },
+                "normal1": {
+                  "x": 0.677477240562439,
+                  "y": 0,
+                  "z": 0.7355437278747559
+                },
+                "normal2": {
+                  "x": -0.677477240562439,
+                  "y": 0,
+                  "z": -0.7355437278747559
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -0.000026560363039607182,
+                "y": 0.00003377350731170736,
+                "z": -0.00011071166227338836
+              },
+              "remaining": {
+                "x": -0.00013326876796782017,
+                "y": 0,
+                "z": -0.00000931394151848508
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 11.548000000000009,
+      "renderTime": 5.551035558344186,
+      "nativeTick": 333,
+      "mode": "quad",
+      "stance": 0,
+      "speed": 0.0021408018148368043,
+      "phase": 0.6571201677300125,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "time": 0.6843687645209433,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -1.0000000447789357,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 8.5,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": 0.0000543763663010176,
+        "height": -0.0008897886583954936,
+        "targetHeight": 0,
+        "requestedHeight": -0.30784133439579064,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "soleSamples": 4928,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": "SOURCE_MOUNT_OUTSIDE_NATIVE_BORDER_MARGIN",
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.6571201677300125,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.6843687645209433,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.8740996042786189,
+              1.3463302563839439,
+              12.742702670990495
+            ],
+            "lower": [
+              -0.8420575247543941,
+              0.8351693061256078,
+              13.09591568316298
+            ],
+            "paw": [
+              -0.8580995307949939,
+              0.36455159678218685,
+              12.558702768788553
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -1.6260995070038382,
+              1.3463302563839439,
+              12.742702645883092
+            ],
+            "lower": [
+              -1.6581416101138686,
+              0.8351693061256078,
+              13.095915655915967
+            ],
+            "paw": [
+              -1.642099568200866,
+              0.36455159678218685,
+              12.558702742612745
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.9060996151615466,
+              1.2903304098949726,
+              13.982702481048785
+            ],
+            "lower": [
+              -0.8581135969944651,
+              0.9393308851515625,
+              13.573839850310558
+            ],
+            "paw": [
+              -0.8820996582916302,
+              0.3485514981359892,
+              13.990702923680615
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -1.5940995789219223,
+              1.2903304098949726,
+              13.982702458078178
+            ],
+            "lower": [
+              -1.6420855697871934,
+              0.9393308851515625,
+              13.573839824135684
+            ],
+            "paw": [
+              -1.6180995363260682,
+              0.3485514981359892,
+              13.99070289910741
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-stop",
+    "wall": 1791729520717,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -1.2500997392684277,
+        "y": 1.227975099341311,
+        "z": 13.374543329932909
+      },
+      "velocity": {
+        "x": 2.3375464774437896e-21,
+        "y": 0,
+        "z": -0.0005321855118046153
+      },
+      "yaw": -3.33875096121183e-8,
+      "aimYaw": -1.740161101092838e-8,
+      "aimPitch": 0.06492034317925573,
+      "stance": "quadruped",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 354,
+        "localPosition": {
+          "x": 0,
+          "y": 0.30000001192092896,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 354,
+        "time": 5.899999999999984,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -1.250099778175354,
+            "y": 1.527975082397461,
+            "z": 13.374543190002441
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.1800000000000002,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 354,
+          "time": 5.899999999999984,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 3.895910795739649e-23,
+            "y": -0.0061111111111111106,
+            "z": -0.000008869758530076921
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -1.2501001358032227,
+              "y": 1.528050422668457,
+              "z": 13.374552726745605
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 4.4020262635058316e-7,
+            "y": -0.00007526995614171028,
+            "z": -0.000008924784197006375
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:5",
+                "revision": "native-type:6",
+                "handle": 1.517e-321,
+                "position": {
+                  "x": -2.5,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.517e-321,
+              "toi": 0.0001583869889145717,
+              "raw": {
+                "witness1": {
+                  "x": -2.2389018535614014,
+                  "y": 0.2078290432691574,
+                  "z": 12.230070114135742
+                },
+                "witness2": {
+                  "x": -2.2389004230499268,
+                  "y": 0.22789597511291504,
+                  "z": 12.230070114135742
+                },
+                "normal1": {
+                  "x": 0.00007272801303770393,
+                  "y": 1,
+                  "z": -0.000009091001629712991
+                },
+                "normal2": {
+                  "x": -0.00007272801303770393,
+                  "y": -1,
+                  "z": 0.000009091001629712991
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 1.009736042226106e-24,
+                "y": -0.00015838681429158896,
+                "z": -2.2988503189935727e-7
+              },
+              "remaining": {
+                "x": 3.7949371846894434e-23,
+                "y": -0.005952724255621433,
+                "z": -0.000008639874067739584
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 11.81259999990464,
+      "renderTime": 5.813433413776281,
+      "nativeTick": 348,
+      "mode": "quad",
+      "stance": 0,
+      "speed": 0.0008589767726602103,
+      "phase": 0.6571201677300125,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "time": 0.9467666199530382,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -0.9999999188875884,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 6,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": 0.000014602605135223577,
+        "height": -0.0006300842434684381,
+        "targetHeight": 0,
+        "requestedHeight": -0.30796729352534513,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "soleSamples": 4928,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": "SOURCE_MOUNT_OUTSIDE_NATIVE_BORDER_MARGIN",
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.6571201677300125,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.9467666199530382,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.874098744052197,
+              1.3426201067330492,
+              12.742626151959875
+            ],
+            "lower": [
+              -0.8419805259356081,
+              0.8330055187703093,
+              13.098059684044811
+            ],
+            "paw": [
+              -0.8580986769641176,
+              0.36493731287635695,
+              12.558626288427932
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -1.6260986467774163,
+              1.3426201067330492,
+              12.742626126852471
+            ],
+            "lower": [
+              -1.6582168886280861,
+              0.8330055187703093,
+              13.098059656792712
+            ],
+            "paw": [
+              -1.6420987015789013,
+              0.36493731287635695,
+              12.558626262252124
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.9060987549351247,
+              1.286620260244078,
+              13.982625962018165
+            ],
+            "lower": [
+              -0.8581407623695154,
+              0.9374663884150773,
+              13.572182818584505
+            ],
+            "paw": [
+              -0.8820988178173824,
+              0.34893724666137016,
+              13.990626431669689
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -1.5940987186955002,
+              1.286620260244078,
+              13.982625939047558
+            ],
+            "lower": [
+              -1.6420566838537605,
+              0.9374663884150773,
+              13.572182792411503
+            ],
+            "paw": [
+              -1.618098656347474,
+              0.34893724666137016,
+              13.990626407096485
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-reverse",
+    "wall": 1791729521431,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -1.250026253901767,
+        "y": 1.228055725540944,
+        "z": 13.374600057687855
+      },
+      "velocity": {
+        "x": 1.2962069092130924e-25,
+        "y": 0,
+        "z": -2.9510537824197604e-8
+      },
+      "yaw": -3.33875096121183e-8,
+      "aimYaw": 3.3017630849056468e-9,
+      "aimPitch": 0.06502493591979147,
+      "stance": "quadruped",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 396,
+        "localPosition": {
+          "x": 0,
+          "y": 0.30000001192092896,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 396,
+        "time": 6.599999999999982,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -1.2500262260437012,
+            "y": 1.5280556678771973,
+            "z": 13.374600410461426
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.1800000000000002,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 396,
+          "time": 6.599999999999982,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 2.1603448486884874e-27,
+            "y": -0.0061111111111111106,
+            "z": -4.9184229706996e-10
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:1",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -1.2500262260437012,
+              "y": 1.5279889106750488,
+              "z": 13.374600410461426
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 2.160344892754317e-27,
+            "y": 0.00006684411346213892,
+            "z": -2.8453106892811775e-7
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:6",
+                "revision": "native-type:6",
+                "handle": 4.05e-321,
+                "position": {
+                  "x": 0,
+                  "y": -0.07999999821186066,
+                  "z": 12
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 4.05e-321,
+              "toi": 0.000033155884011648595,
+              "raw": {
+                "witness1": {
+                  "x": -0.26098036766052246,
+                  "y": 0.2078293114900589,
+                  "z": 12.261146545410156
+                },
+                "witness2": {
+                  "x": -0.26098036766052246,
+                  "y": 0.22795820236206055,
+                  "z": 12.26114559173584
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": -0.00004597625229507685
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0.00004597625229507685
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 1.1720968900297669e-29,
+                "y": -0.000033155884011648595,
+                "z": -2.6684943317534238e-12
+              },
+              "remaining": {
+                "x": 2.148623875705771e-27,
+                "y": -0.006077955011278391,
+                "z": -4.891738125678557e-10
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 12.522200000047691,
+      "renderTime": 6.527401043139489,
+      "nativeTick": 390,
+      "mode": "quad",
+      "stance": 0,
+      "speed": 0.0000310758143846273,
+      "phase": 0.6571201677300125,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineIdle",
+          "time": 0.4440675508604357,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -0.9999999744267919,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 5.900000095367432,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -3.33875096121183e-8,
+        "nativeYaw": -3.33875096121183e-8,
+        "signedDistance": -8.26616667076517e-7,
+        "height": -0.0002497070157158442,
+        "targetHeight": 0,
+        "requestedHeight": -0.307948443223532,
+        "margin": 0.12,
+        "authoredLoad": 4,
+        "suspension": false,
+        "soleSamples": 4928,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": "SOURCE_MOUNT_OUTSIDE_NATIVE_BORDER_MARGIN",
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.6571201677300125,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.4440675508604357,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -0.8740270341901113,
+              1.3543220773977018,
+              12.742598376798766
+            ],
+            "lower": [
+              -0.8421243322114436,
+              0.8404254195899211,
+              13.091831886467029
+            ],
+            "paw": [
+              -0.8580269712786919,
+              0.3652987948262641,
+              12.558598513223096
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -1.6260269369153306,
+              1.3543220773977018,
+              12.742598351691363
+            ],
+            "lower": [
+              -1.6579296622140727,
+              0.8404254195899211,
+              13.091831859229321
+            ],
+            "paw": [
+              -1.6420269875401554,
+              0.3652987948262641,
+              12.55859848704729
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -0.906027045073039,
+              1.2983222309087306,
+              13.982598186857055
+            ],
+            "lower": [
+              -0.8579983471936652,
+              0.9440597091951011,
+              13.576564587283249
+            ],
+            "paw": [
+              -0.8820271211011528,
+              0.34929878493971034,
+              13.990598759378868
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -1.5940270088334145,
+              1.2983222309087306,
+              13.982598163886449
+            ],
+            "lower": [
+              -1.6420556795998869,
+              0.9440597091951011,
+              13.576564561105526
+            ],
+            "paw": [
+              -1.6180269333395392,
+              0.34929878493971034,
+              13.990598734805666
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-moving-R-up",
+    "wall": 1791729525944,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.200279382604178,
+        "y": 0.9400999824795129,
+        "z": 23.017635853124784
+      },
+      "velocity": {
+        "x": -0.00003952728724513869,
+        "y": 0,
+        "z": -4.855905801108585
+      },
+      "yaw": -6.275601557140129,
+      "aimYaw": -5.226871065141316e-7,
+      "aimPitch": 0.059636233840137706,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 669,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 669,
+        "time": 11.150000000000134,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.200279235839844,
+            "y": 1.8400999307632446,
+            "z": 23.017635345458984
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 669,
+          "time": 11.150000000000134,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": -6.587881207523114e-7,
+            "y": -0.0061111111111111106,
+            "z": -0.08093176335180974
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.200278282165527,
+              "y": 1.8400999307632446,
+              "z": 23.098567962646484
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": -6.587881102859683e-7,
+            "y": 4.6733475755900145e-8,
+            "z": -0.08093176037073135
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.0013274872908368707,
+              "raw": {
+                "witness1": {
+                  "x": -11.720378875732422,
+                  "y": -0.0800018310546875,
+                  "z": 21.99999237060547
+                },
+                "witness2": {
+                  "x": -11.720378875732422,
+                  "y": -0.059988975524902344,
+                  "z": 21.99999237060547
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -1.0775131009665984e-8,
+                "y": -0.00009995326399803162,
+                "z": -0.0013237190432846546
+              },
+              "remaining": {
+                "x": -6.480129854935512e-7,
+                "y": -0.006011157762259245,
+                "z": -0.07960803806781769
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 17.046799999952302,
+      "renderTime": 11.052104351807767,
+      "nativeTick": 663,
+      "mode": "transform",
+      "stance": 0.5268157406776045,
+      "speed": 4.820637348480984,
+      "phase": 0.5166869546210677,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineGallop",
+          "time": 0.24734144315418186,
+          "weight": 0.11280074571684047
+        },
+        {
+          "name": "FelineTransitionArc106",
+          "time": 0.38543767089865416,
+          "weight": 1
+        },
+        {
+          "name": "FelineTrot",
+          "time": 0.42361956832671466,
+          "weight": 0.36038351360555504
+        },
+        {
+          "name": "FelineUprightStride",
+          "time": 0.22334144380238236,
+          "weight": 0.5268157406776045
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -1.000000051068708,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 5.200000047683716,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -5.65691070567165,
+        "nativeYaw": -6.262911916987081,
+        "signedDistance": 0.10894640361593845,
+        "height": -0.039499595104267836,
+        "targetHeight": 0,
+        "requestedHeight": -0.34935852686705826,
+        "margin": 0.12,
+        "authoredLoad": 0.5324528140942123,
+        "suspension": false,
+        "soleSamples": 4928,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": "SOURCE_MOUNT_OUTSIDE_NATIVE_BORDER_MARGIN",
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.5166869546210677,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineGallop",
+            "time": 0.24734144315418186,
+            "weight": 0.11280074571684047
+          },
+          {
+            "name": "FelineTransitionArc106",
+            "time": 0.38543767089865416,
+            "weight": 1
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.42361956832671466,
+            "weight": 0.36038351360555504
+          },
+          {
+            "name": "FelineUprightStride",
+            "time": 0.22334144380238236,
+            "weight": 0.5268157406776045
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineGallop",
+            "weight": 0.11280074571684047,
+            "phase": 0.5766869546210678,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.4358982851473603,
+              "sourceDuty": 0.26,
+              "sourceOffsets": {
+                "FL": 0.52,
+                "FR": 0.45,
+                "HL": 0.94,
+                "HR": 0.87
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0.5,
+                0.7083333333333334
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.36038351360555504,
+            "phase": 0.9766869546210677,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4333333373069763,
+              "nativeDistancePerCycle": 1.3548383374834434,
+              "sourceDuty": 0.62,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.54,
+                "HR": 0.04
+              },
+              "unloadedLimbs": [],
+              "exportStanceSamplePhase": [
+                0,
+                0.6
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          },
+          {
+            "name": "FelineUprightStride",
+            "weight": 0.5268157406776045,
+            "phase": 0.5166869546210677,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -12.192832718016183,
+              1.4343188759269554,
+              22.86291337431943
+            ],
+            "lower": [
+              -11.947198659911296,
+              0.9668740431652849,
+              22.53392827663622
+            ],
+            "paw": [
+              -12.621095562738235,
+              0.7478510808542832,
+              22.62463619206592
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -12.803889275520895,
+              1.4338623755858784,
+              23.301220923328657
+            ],
+            "lower": [
+              -13.077853529235073,
+              0.9851414034044705,
+              23.63388456201707
+            ],
+            "paw": [
+              -12.852755897224686,
+              0.7635804676708653,
+              22.993120911346953
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -11.566041965369923,
+              0.9405953615106595,
+              23.779417787770214
+            ],
+            "lower": [
+              -11.597396973133197,
+              0.41603288726963006,
+              23.650875155157056
+            ],
+            "paw": [
+              -11.320631756289144,
+              0.012266590055571541,
+              24.077997383225245
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -12.120426297522831,
+              0.9420116293044453,
+              24.186848592132623
+            ],
+            "lower": [
+              -12.471702928466305,
+              0.7724842762372934,
+              23.811965460746695
+            ],
+            "paw": [
+              -12.397773655433465,
+              -0.0741200135229145,
+              23.855078542763934
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-upright-forward",
+    "wall": 1791729527061,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.200292203825917,
+        "y": 0.9401000200816618,
+        "z": 17.667939239276574
+      },
+      "velocity": {
+        "x": -2.197524768458582e-10,
+        "y": 0,
+        "z": -4.863999955000194
+      },
+      "yaw": -6.283185180518062,
+      "aimYaw": -1.0192204520294372e-8,
+      "aimPitch": 0.062064290139824146,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 735,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 735,
+        "time": 12.250000000000188,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.200292587280273,
+            "y": 1.8401000499725342,
+            "z": 17.667940139770508
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 735,
+          "time": 12.250000000000188,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": -3.662541280764303e-12,
+            "y": -0.0061111111111111106,
+            "z": -0.0810666659166699
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.200292587280273,
+              "y": 1.8401000499725342,
+              "z": 17.749006271362305
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": -3.6625411904689376e-12,
+            "y": -7.24758137948811e-8,
+            "z": -0.08106666803359985
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.001331273466348648,
+              "raw": {
+                "witness1": {
+                  "x": -12.136066436767578,
+                  "y": -0.08001014590263367,
+                  "z": 18.135765075683594
+                },
+                "witness2": {
+                  "x": -12.136066436767578,
+                  "y": -0.059939026832580566,
+                  "z": 18.13576316833496
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -5.997592965887102e-14,
+                "y": -0.0001000724732875824,
+                "z": -0.0013275068486109376
+              },
+              "remaining": {
+                "x": -3.6025652946913844e-12,
+                "y": -0.006011038552969694,
+                "z": -0.07973916083574295
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 18.15570000004766,
+      "renderTime": 12.167425243415959,
+      "nativeTick": 729,
+      "mode": "upright",
+      "stance": 1,
+      "speed": 4.976232933795837,
+      "phase": 0.07771802201760503,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineUprightStride",
+          "time": 0.04775387550332872,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -0.9999999877533247,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 3.5,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -6.283185010090578,
+        "nativeYaw": -6.283185010090578,
+        "signedDistance": 0.10698900807661048,
+        "height": -0.018892984672951026,
+        "targetHeight": -0.019363723300617443,
+        "requestedHeight": -0.019363723300617443,
+        "margin": 0.12,
+        "authoredLoad": 0.22920753565303786,
+        "suspension": false,
+        "soleSamples": 2461,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.07771802201760503,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.04775387550332872,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1,
+            "phase": 0.07771802201760503,
+            "gait": {
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.4166666567325592,
+              "nativeDistancePerCycle": 2.1533341443921303,
+              "sourceDuty": 0.64,
+              "sourceOffsets": {
+                "FL": 0.5,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ],
+              "exportStanceSamplePhase": [
+                0,
+                0.625
+              ],
+              "measurement": "Actual raw exported world paw Z slope per normalized continuous stance interval, scale .8 mounted Ry(pi); authored footfall only, native contact unqualified"
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -11.817230641155247,
+              1.7639052238302466,
+              17.784353496382433
+            ],
+            "lower": [
+              -11.229103589074578,
+              1.569695022588213,
+              17.843182375235745
+            ],
+            "paw": [
+              -11.886496186659416,
+              1.4510725696724536,
+              17.590003474033676
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -12.569108627637993,
+              1.763579214836731,
+              17.797887984139226
+            ],
+            "lower": [
+              -13.130012504793957,
+              1.7108764036953594,
+              17.533915881753707
+            ],
+            "paw": [
+              -12.49376207553483,
+              1.4060768075591827,
+              17.646249647188057
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -11.856729418219532,
+              0.9803386595153716,
+              18.683121427222837
+            ],
+            "lower": [
+              -11.789282847204635,
+              0.9100832216930461,
+              18.150967995895254
+            ],
+            "paw": [
+              -11.83221749134273,
+              0.042235682128853314,
+              18.163979433512772
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -12.544501729320553,
+              0.980736495319854,
+              18.665433536223006
+            ],
+            "lower": [
+              -12.587797507730428,
+              0.44532308955438415,
+              18.72970023357044
+            ],
+            "paw": [
+              -12.56827635049916,
+              0.041838808810726685,
+              19.240607468112135
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "on-moving-R-down",
+    "wall": 1791729530386,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.20033549812231,
+        "y": 0.940099860570843,
+        "z": 17.067472084578593
+      },
+      "velocity": {
+        "x": -3.258536612127132e-27,
+        "y": 0,
+        "z": 0.02271324442468911
+      },
+      "yaw": -3.141608992898425,
+      "aimYaw": -4.648112813095259e-9,
+      "aimPitch": 0.06274876529350874,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 933,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 933,
+        "time": 15.550000000000352,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.200335502624512,
+            "y": 1.840099811553955,
+            "z": 17.067472457885742
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 933,
+          "time": 15.550000000000352,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": -5.430894353545221e-29,
+            "y": -0.0061111111111111106,
+            "z": 0.0003785540737448185
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:9",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.200346946716309,
+              "y": 1.8400999307632446,
+              "z": 17.06709098815918
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 0.000011274134521954693,
+            "y": -7.3225237429142e-8,
+            "z": 0.00038014838355593383
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.00010014682629844174,
+              "raw": {
+                "witness1": {
+                  "x": -12.734007835388184,
+                  "y": -0.07999996095895767,
+                  "z": 18.007492065429688
+                },
+                "witness2": {
+                  "x": -12.73397159576416,
+                  "y": -0.059999942779541016,
+                  "z": 18.007497787475586
+                },
+                "normal1": {
+                  "x": 0.0018448777263984084,
+                  "y": 0.9999982714653015,
+                  "z": 0.0002608918002806604
+                },
+                "normal2": {
+                  "x": -0.0018448777263984084,
+                  "y": -0.9999982714653015,
+                  "z": -0.0002608918002806604
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -8.882939975265597e-31,
+                "y": -0.00009995523578254506,
+                "z": 0.000006191748525452567
+              },
+              "remaining": {
+                "x": -5.342065035131109e-29,
+                "y": -0.006011155899614096,
+                "z": 0.00037236232310533524
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "actor": "local",
+      "candidate": "PENDING_SUPPORTED_ACTION_OBSERVATION",
+      "assetSHA256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4",
+      "frameClock": 21.484200000047633,
+      "renderTime": 15.491430106213915,
+      "nativeTick": 927,
+      "mode": "upright",
+      "stance": 1,
+      "speed": 0.05755611127957734,
+      "phase": 0.006579079722137449,
+      "supportedState": true,
+      "browserClipContract128": {
+        "required": true,
+        "expected": 45,
+        "loaded": 45,
+        "passed": true
+      },
+      "unsupportedStates": [
+        "wall/grab/climb/corner/mantle surface alignment",
+        "upright down/death",
+        "upright/cross-stance/Scout paired roles",
+        "upright or dive unpaired strike",
+        "arbitrary canceled-R causal foot replanning"
+      ],
+      "missingClips": [],
+      "missingBones": [],
+      "firstFailure": null,
+      "activeClips": [
+        {
+          "name": "FelineUprightIdle",
+          "time": 0.8914297247441892,
+          "weight": 1
+        }
+      ],
+      "queryCount": 1,
+      "contactPolicy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+      "presentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "reason": null,
+        "fatal": null,
+        "disposed": false
+      },
+      "pivot": {
+        "offsetY": -0.9999999641573941,
+        "basis": "REPLICATED_HULL_LOWER_BOUNDARY"
+      },
+      "lastOwnerMs": 3.6000001430511475,
+      "maxOwnerMs": 12.899999856948853,
+      "coordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -3.141608992898425,
+        "nativeYaw": -3.141608992898425,
+        "signedDistance": 0.0010935661143119694,
+        "height": -0.021123179408209958,
+        "targetHeight": -0.05348808334360666,
+        "requestedHeight": -0.05348808334360666,
+        "margin": 0.12,
+        "authoredLoad": 2,
+        "suspension": false,
+        "soleSamples": 2461,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePose154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.006579079722137449,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightIdle",
+            "time": 0.8914297247441892,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightIdle",
+            "weight": 1,
+            "phase": null,
+            "gait": null
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -12.576358505004666,
+              1.7674481507834578,
+              17.338213668888834
+            ],
+            "lower": [
+              -12.585024739437506,
+              1.3644393029153714,
+              16.86431425069242
+            ],
+            "paw": [
+              -12.6323623640568,
+              1.4634484205003064,
+              17.570212664813873
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -11.824358507012397,
+              1.7674481507834578,
+              17.338225956048895
+            ],
+            "lower": [
+              -11.81567678620648,
+              1.3644393029153714,
+              16.864326821306076
+            ],
+            "paw": [
+              -11.76836222939656,
+              1.4634484205003064,
+              17.570226781978732
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -12.54434422291021,
+              0.9788391771544609,
+              16.460792846299107
+            ],
+            "lower": [
+              -12.59234385090766,
+              0.6273107846233752,
+              16.869199615266037
+            ],
+            "paw": [
+              -12.568344031512757,
+              0.04058600150150629,
+              16.449499437444132
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -11.856344116190526,
+              0.9788391771544609,
+              16.46080408774519
+            ],
+            "lower": [
+              -11.80918557529393,
+              0.657149856764372,
+              16.893197784399792
+            ],
+            "paw": [
+              -11.8323434344492,
+              0.10734438658502576,
+              16.449509649611453
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "phase": "off-forward",
+    "wall": 1791729540948,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.187667989271626,
+        "y": 0.9400000646785323,
+        "z": 28.740400959349124
+      },
+      "velocity": {
+        "x": 0.08987736696347763,
+        "y": 0,
+        "z": -6.757298303145432
+      },
+      "yaw": -0.4366683723206813,
+      "aimYaw": -0.013299999999946355,
+      "aimPitch": 0.07506493544206023,
+      "stance": "quadruped",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 1434,
+        "localPosition": {
+          "x": 0,
+          "y": 0.30000001192092896,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 1434,
+        "time": 23.899999999999924,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:10",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.187667846679688,
+            "y": 1.2400000095367432,
+            "z": 28.740400314331055
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.1800000000000002,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 1434,
+          "time": 23.899999999999924,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 0.0014979561160579605,
+            "y": -0.0061111111111111106,
+            "z": -0.1126216383857572
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:10",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.1800000000000002,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.189166069030762,
+              "y": 1.2401657104492188,
+              "z": 28.853023529052734
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 0.0014979561092332006,
+            "y": -0.00016571205924265087,
+            "z": -0.11262163519859314
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.003059494774788618,
+              "raw": {
+                "witness1": {
+                  "x": -12.739968299865723,
+                  "y": -0.08001083135604858,
+                  "z": 30.109050750732422
+                },
+                "witness2": {
+                  "x": -12.739969253540039,
+                  "y": -0.05993497371673584,
+                  "z": 30.109050750732422
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0.000040630318835610524,
+                "y": -0.00016575679183006287,
+                "z": -0.00305473105981946
+              },
+              "remaining": {
+                "x": 0.0014573257649317384,
+                "y": -0.005945354234427214,
+                "z": -0.10956690460443497
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "probes": 0,
+      "carrierSettle": 0,
+      "clearance": 0,
+      "frameClock": 32.05009999990459,
+      "renderTime": 23.80930016189095,
+      "renderElapsed": 0.021099999904632568,
+      "cosmeticDt": 0.021099999904632568,
+      "yawDelta": 0.2511919833710623,
+      "yawRate": 3,
+      "reactionSpeed": 3.159622284669528,
+      "reactionStrafe": -2.8564628063689073,
+      "bodyLeanBefore": -0.014173584004413934,
+      "bodyLeanTarget": -0.03389347117143693,
+      "bodyLean": -0.01921726391187896,
+      "terrainRoll": 0,
+      "bodyRoll": 0,
+      "tailYaw": -0.06292523777409936,
+      "grounded": true,
+      "alive": true,
+      "stance": "quadruped",
+      "stanceAmount": 0,
+      "transitionWeight": 0,
+      "climbing": false,
+      "climb": null,
+      "climbWeight": 0,
+      "contactAllowed": false,
+      "resetting": false,
+      "strikeId": null,
+      "strikeLife": null,
+      "strikeKind": null,
+      "strikeStage": null,
+      "strikeWeight": 0,
+      "strikeBodyPitch": 0,
+      "strikeBodyRoll": 0,
+      "position": {
+        "x": -12.19519462500424,
+        "y": -0.05982917847800984,
+        "z": 29.30636086538834
+      },
+      "paws": [
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        }
+      ],
+      "pair": null,
+      "sourceCoordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -2.95765240387259,
+        "nativeYaw": -1.0799089181666268,
+        "signedDistance": -0.10481324647117785,
+        "height": -0.04169042805508004,
+        "targetHeight": -0.04725969558081392,
+        "requestedHeight": -0.04725969558081392,
+        "margin": 0.12,
+        "authoredLoad": 0.9257013485229453,
+        "suspension": false,
+        "soleSamples": 1255,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePresentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.620793454345876,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineWalk",
+            "time": 0.4430791249773439,
+            "weight": 0.20304253125726202
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.09920885979394829,
+            "weight": 0.796957468742738
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.20304253125726202,
+            "phase": 0.37079345434587596,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.796957468742738,
+            "phase": 0.12079345434587596,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -12.634819588077901,
+              1.2309003525552855,
+              30.136253376159658
+            ],
+            "lower": [
+              -12.668035532664653,
+              0.5591550493493773,
+              29.957714490074707
+            ],
+            "paw": [
+              -12.581881570160878,
+              0.037526370318166524,
+              30.420800620848098
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -11.486522881431947,
+              1.2309003525552855,
+              29.922620589412272
+            ],
+            "lower": [
+              -11.581966474192152,
+              0.7705482870463843,
+              29.40960233730109
+            ],
+            "paw": [
+              -11.521837872615102,
+              0.1493431613259394,
+              29.732799619663314
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -12.906301971967757,
+              1.178480187784528,
+              28.677009018265704
+            ],
+            "lower": [
+              -12.875929035986132,
+              0.5466283241052756,
+              28.84026651351375
+            ],
+            "paw": [
+              -12.982763254817348,
+              0.13076500505914623,
+              28.266022277635255
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -11.758005452839091,
+              1.178480187784528,
+              28.46337626640463
+            ],
+            "lower": [
+              -11.676136878204565,
+              0.7025972682954644,
+              28.903427702618814
+            ],
+            "paw": [
+              -11.72721579404846,
+              0.042201256493440864,
+              28.62887327033242
+            ]
+          }
+        ]
+      },
+      "id": "local"
+    }
+  },
+  {
+    "phase": "off-upright-forward",
+    "wall": 1791729549317,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.887430206089656,
+        "y": 0.939999980958552,
+        "z": 21.957559950521123
+      },
+      "velocity": {
+        "x": 0.06468929191423052,
+        "y": 0,
+        "z": -4.863569756789017
+      },
+      "yaw": -6.296485216422683,
+      "aimYaw": -0.012771943467722861,
+      "aimPitch": 0.04194925474002957,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 1935,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 1935,
+        "time": 32.24999999999945,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.887430191040039,
+            "y": 1.8399999141693115,
+            "z": 21.95755958557129
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 1935,
+          "time": 32.24999999999945,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": 0.0010781548652371753,
+            "y": -0.0061111111111111106,
+            "z": -0.08105949594648362
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.888508796691895,
+              "y": 1.8404288291931152,
+              "z": 22.038619995117188
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 0.0010781548917293549,
+            "y": -0.00042880495311692357,
+            "z": -0.08105949312448502
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.005705053452402353,
+              "raw": {
+                "witness1": {
+                  "x": -13.999996185302734,
+                  "y": -0.07999999821186066,
+                  "z": 21.60664939880371
+                },
+                "witness2": {
+                  "x": -13.99999713897705,
+                  "y": -0.059999942779541016,
+                  "z": 21.606651306152344
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0.00007566030399175361,
+                "y": -0.0004288516938686371,
+                "z": -0.005688409321010113
+              },
+              "remaining": {
+                "x": 0.0010024945950135589,
+                "y": -0.0056822593323886395,
+                "z": -0.07537108659744263
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "probes": 0,
+      "carrierSettle": 0,
+      "clearance": 0,
+      "frameClock": 40.42070000004771,
+      "renderTime": 32.18526592864647,
+      "renderElapsed": 0.018900000095367433,
+      "cosmeticDt": 0.018900000095367433,
+      "yawDelta": -3.688839989024473e-8,
+      "yawRate": -0.0000019517671801116246,
+      "reactionSpeed": 4.863999511496186,
+      "reactionStrafe": 8.665421243753135e-7,
+      "bodyLeanBefore": 2.8644306139129905e-7,
+      "bodyLeanTarget": 6.984279325679943e-8,
+      "bodyLean": 2.360862916157198e-7,
+      "terrainRoll": 0,
+      "bodyRoll": 0,
+      "tailYaw": 5.165071303940574e-9,
+      "grounded": true,
+      "alive": true,
+      "stance": "upright",
+      "stanceAmount": 1,
+      "transitionWeight": 0,
+      "climbing": false,
+      "climb": null,
+      "climbWeight": 0,
+      "contactAllowed": false,
+      "resetting": false,
+      "strikeId": null,
+      "strikeLife": null,
+      "strikeKind": null,
+      "strikeStage": null,
+      "strikeWeight": 0,
+      "strikeBodyPitch": 0,
+      "strikeBodyRoll": 0,
+      "position": {
+        "x": -12.902364695618267,
+        "y": -0.05999775600530988,
+        "z": 22.27068632455422
+      },
+      "paws": [
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        }
+      ],
+      "pair": null,
+      "sourceCoordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -6.296485128942022,
+        "nativeYaw": -6.296485128942022,
+        "signedDistance": 0.09129290205448486,
+        "height": -0.04566595544755799,
+        "targetHeight": -0.047532921892271096,
+        "requestedHeight": -0.047532921892271096,
+        "margin": 0.12,
+        "authoredLoad": 0.9813336934768936,
+        "suspension": false,
+        "soleSamples": 417,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePresentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.8098664984959145,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightStride",
+            "time": 0.7288798293376011,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightStride",
+            "weight": 1,
+            "phase": 0.8098664984959145,
+            "gait": {
+              "nativeDistancePerCycle": 2.0771929824561406,
+              "sourceDuty": 0.57,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 0.8999999761581421,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -12.354230575684973,
+              2.2317994706187068,
+              22.254777686264816
+            ],
+            "lower": [
+              -11.99921680214287,
+              1.6745483521689843,
+              22.473084338412942
+            ],
+            "paw": [
+              -12.21012321587455,
+              1.9176228948323428,
+              21.848263499726713
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -13.522228545631465,
+              2.231799474336907,
+              22.25253339566565
+            ],
+            "lower": [
+              -13.890482509441101,
+              1.6560078406742038,
+              22.38320342252566
+            ],
+            "paw": [
+              -13.649304871156493,
+              1.9176221607419603,
+              21.77710151918446
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -12.364759047146011,
+              1.1482752600381336,
+              23.097059979833897
+            ],
+            "lower": [
+              -12.344044643334431,
+              0.7961152277560778,
+              22.54718138479276
+            ],
+            "paw": [
+              -12.327528789537679,
+              0.21473882219307894,
+              22.966515403518223
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -13.53224900739397,
+              1.1482752594982188,
+              23.06254528689764
+            ],
+            "lower": [
+              -13.510201028618251,
+              0.6084103813276551,
+              22.695295856172955
+            ],
+            "paw": [
+              -13.49784603199312,
+              0.03820565941070431,
+              23.12983728839059
+            ]
+          }
+        ]
+      },
+      "id": "local"
+    }
+  },
+  {
+    "phase": "off-moving-R-up",
+    "wall": 1791729547670,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -13.580206775327705,
+        "y": 0.9400999011822204,
+        "z": 29.324917664622795
+      },
+      "velocity": {
+        "x": -0.0038340791733928875,
+        "y": 0,
+        "z": -0.8148887237457914
+      },
+      "yaw": -4.966831372505022,
+      "aimYaw": -0.013299841220045988,
+      "aimPitch": 0.0745761905796826,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 1836,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 1836,
+        "time": 30.599999999999543,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -13.580206871032715,
+            "y": 1.840099811553955,
+            "z": 29.32491683959961
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 1836,
+          "time": 30.599999999999543,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": -0.00006390131955654813,
+            "y": -0.0061111111111111106,
+            "z": -0.013581478729096522
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -13.580206871032715,
+              "y": 1.2400999069213867,
+              "z": 29.32491683959961
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": -0.00006390131602529436,
+                "y": -0.0061111110262572765,
+                "z": -0.013581478968262672
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -13.578628540039062,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -13.57862663269043,
+                  "y": -0.08000004291534424,
+                  "z": 27.574918746948242
+                },
+                "normal1": {
+                  "x": -9.527153110866493e-7,
+                  "y": 0,
+                  "z": 1
+                },
+                "normal2": {
+                  "x": 9.527153110866493e-7,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.003854654263705015,
+                "y": -0.0061111110262572765,
+                "z": -0.0011059253010898829
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14.350698471069336,
+                  "y": -0.07999999821186066,
+                  "z": 29.36093521118164
+                },
+                "witness2": {
+                  "x": -14.350698471069336,
+                  "y": -0.6598985195159912,
+                  "z": 29.36093521118164
+                },
+                "normal1": {
+                  "x": -3.1575578418596706e-7,
+                  "y": 1,
+                  "z": -0.0000011329183280395227
+                },
+                "normal2": {
+                  "x": 3.1575578418596706e-7,
+                  "y": -1,
+                  "z": 0.0000011329183280395227
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.003854653099551797,
+                "y": -0.0061111110262572765,
+                "z": 0.00010000372276408598
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -12.45303726196289,
+                  "y": -0.07999999821186066,
+                  "z": 30.453035354614258
+                },
+                "witness2": {
+                  "x": -12.343244552612305,
+                  "y": -0.08000016212463379,
+                  "z": 30.562828063964844
+                },
+                "normal1": {
+                  "x": -0.7071067690849304,
+                  "y": -1.8942053259252134e-7,
+                  "z": -0.7071068286895752
+                },
+                "normal2": {
+                  "x": 0.7071067690849304,
+                  "y": 1.8942053259252134e-7,
+                  "z": 0.7071068286895752
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0038546512369066477,
+                "y": 0.00010000139445764944,
+                "z": 0.00009999667963711545
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0018066165503114462,
+                "y": 0.00010000084148487076,
+                "z": -0.001948038232512772
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -13.578628540039062,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -13.57862663269043,
+                  "y": -0.08000004291534424,
+                  "z": 27.574918746948242
+                },
+                "normal1": {
+                  "x": -9.527153110866493e-7,
+                  "y": 0,
+                  "z": 1
+                },
+                "normal2": {
+                  "x": 9.527153110866493e-7,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0022312821820378304,
+                "y": 0,
+                "z": -0.0005960260168649256
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14.350698471069336,
+                  "y": -0.07999999821186066,
+                  "z": 29.36093521118164
+                },
+                "witness2": {
+                  "x": -14.350698471069336,
+                  "y": -0.6598985195159912,
+                  "z": 29.36093521118164
+                },
+                "normal1": {
+                  "x": -3.1575578418596706e-7,
+                  "y": 1,
+                  "z": -0.0000011329183280395227
+                },
+                "normal2": {
+                  "x": 3.1575578418596706e-7,
+                  "y": -1,
+                  "z": 0.0000011329183280395227
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.002231281716376543,
+                "y": 0,
+                "z": 0.00010000215115724131
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -12.45303726196289,
+                  "y": -0.07999999821186066,
+                  "z": 30.453035354614258
+                },
+                "witness2": {
+                  "x": -12.343244552612305,
+                  "y": -0.08000016212463379,
+                  "z": 30.562828063964844
+                },
+                "normal1": {
+                  "x": -0.7071067690849304,
+                  "y": -1.8942053259252134e-7,
+                  "z": -0.7071068286895752
+                },
+                "normal2": {
+                  "x": 0.7071067690849304,
+                  "y": 1.8942053259252134e-7,
+                  "z": 0.7071068286895752
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.002231281716376543,
+                "y": 0.0001000008123810403,
+                "z": 0.00010000203474191949
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0009949292289093137,
+                "y": 0.00010000047768699005,
+                "z": -0.001136350561864674
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -13.578628540039062,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -13.57862663269043,
+                  "y": -0.08000004291534424,
+                  "z": 27.574918746948242
+                },
+                "normal1": {
+                  "x": -9.527153110866493e-7,
+                  "y": 0,
+                  "z": 1
+                },
+                "normal2": {
+                  "x": 9.527153110866493e-7,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0012604274088516831,
+                "y": 0,
+                "z": -0.0002910817274823785
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14.350698471069336,
+                  "y": -0.07999999821186066,
+                  "z": 29.36093521118164
+                },
+                "witness2": {
+                  "x": -14.350698471069336,
+                  "y": -0.6598985195159912,
+                  "z": 29.36093521118164
+                },
+                "normal1": {
+                  "x": -3.1575578418596706e-7,
+                  "y": 1,
+                  "z": -0.0000011329183280395227
+                },
+                "normal2": {
+                  "x": 3.1575578418596706e-7,
+                  "y": -1,
+                  "z": 0.0000011329183280395227
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0012604270596057177,
+                "y": 0,
+                "z": 0.00010000119073083624
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -12.45303726196289,
+                  "y": -0.07999999821186066,
+                  "z": 30.453035354614258
+                },
+                "witness2": {
+                  "x": -12.343244552612305,
+                  "y": -0.08000016212463379,
+                  "z": 30.562828063964844
+                },
+                "normal1": {
+                  "x": -0.7071067690849304,
+                  "y": -1.8942053259252134e-7,
+                  "z": -0.7071068286895752
+                },
+                "normal2": {
+                  "x": 0.7071067690849304,
+                  "y": 1.8942053259252134e-7,
+                  "z": 0.7071068286895752
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0012604270596057177,
+                "y": 0.00010000050679082051,
+                "z": 0.00010000107431551442
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0005095023661851883,
+                "y": 0.00010000030306400731,
+                "z": -0.0006509236991405487
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -13.578628540039062,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -13.57862663269043,
+                  "y": -0.08000004291534424,
+                  "z": 27.574918746948242
+                },
+                "normal1": {
+                  "x": -9.527153110866493e-7,
+                  "y": 0,
+                  "z": 1
+                },
+                "normal2": {
+                  "x": 9.527153110866493e-7,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0006798107642680407,
+                "y": 0,
+                "z": -0.00010871083941310644
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14.350698471069336,
+                  "y": -0.07999999821186066,
+                  "z": 29.36093521118164
+                },
+                "witness2": {
+                  "x": -14.350698471069336,
+                  "y": -0.6598985195159912,
+                  "z": 29.36093521118164
+                },
+                "normal1": {
+                  "x": -3.1575578418596706e-7,
+                  "y": 1,
+                  "z": -0.0000011329183280395227
+                },
+                "normal2": {
+                  "x": 3.1575578418596706e-7,
+                  "y": -1,
+                  "z": 0.0000011329183280395227
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.000679810531437397,
+                "y": 0,
+                "z": 0.00010000064503401518
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -12.45303726196289,
+                  "y": -0.07999999821186066,
+                  "z": 30.453035354614258
+                },
+                "witness2": {
+                  "x": -12.343244552612305,
+                  "y": -0.08000016212463379,
+                  "z": 30.562828063964844
+                },
+                "normal1": {
+                  "x": -0.7071067690849304,
+                  "y": -1.8942053259252134e-7,
+                  "z": -0.7071068286895752
+                },
+                "normal2": {
+                  "x": 0.7071067690849304,
+                  "y": 1.8942053259252134e-7,
+                  "z": 0.7071068286895752
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.0006798104732297361,
+                "y": 0.00010000032489188015,
+                "z": 0.00010000052861869335
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.00021919430582784116,
+                "y": 0.00010000020120060071,
+                "z": -0.00036061566788703203
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14.350698471069336,
+                  "y": -0.07999999821186066,
+                  "z": 29.36093521118164
+                },
+                "witness2": {
+                  "x": -14.350698471069336,
+                  "y": -0.6598985195159912,
+                  "z": 29.36093521118164
+                },
+                "normal1": {
+                  "x": -3.1575578418596706e-7,
+                  "y": 1,
+                  "z": -0.0000011329183280395227
+                },
+                "normal2": {
+                  "x": 3.1575578418596706e-7,
+                  "y": -1,
+                  "z": 0.0000011329183280395227
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.00033257491304539144,
+                "y": 0,
+                "z": 3.5551784094423056e-7
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -12.45303726196289,
+                  "y": -0.07999999821186066,
+                  "z": 30.453035354614258
+                },
+                "witness2": {
+                  "x": -12.343244552612305,
+                  "y": -0.08000016212463379,
+                  "z": 30.562828063964844
+                },
+                "normal1": {
+                  "x": -0.7071067690849304,
+                  "y": -1.8942053259252134e-7,
+                  "z": -0.7071068286895752
+                },
+                "normal2": {
+                  "x": 0.7071067690849304,
+                  "y": 1.8942053259252134e-7,
+                  "z": 0.7071068286895752
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.000332574883941561,
+                "y": 0.00010000009933719411,
+                "z": 3.5540455201044097e-7
+              }
+            },
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0,
+              "raw": {
+                "witness1": {
+                  "x": -14,
+                  "y": -0.07999999821186066,
+                  "z": 28
+                },
+                "witness2": {
+                  "x": -14.107928276062012,
+                  "y": -0.08000051975250244,
+                  "z": 27.656389236450195
+                },
+                "normal1": {
+                  "x": 0.2996642291545868,
+                  "y": 0,
+                  "z": 0.9540446996688843
+                },
+                "normal2": {
+                  "x": -0.2996642291545868,
+                  "y": 0,
+                  "z": -0.9540446996688843
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "remaining": {
+                "x": 0.00009539906022837386,
+                "y": 0.00010000003385357559,
+                "z": -0.00023682044411543757
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "probes": 0,
+      "carrierSettle": 0,
+      "clearance": 0,
+      "frameClock": 38.74590000009536,
+      "renderTime": 30.49999999999955,
+      "renderElapsed": 0.02890000009536743,
+      "cosmeticDt": 0.02890000009536743,
+      "yawDelta": 0,
+      "yawRate": 0,
+      "reactionSpeed": 0,
+      "reactionStrafe": 0,
+      "bodyLeanBefore": -0.00007419770742300025,
+      "bodyLeanTarget": 0,
+      "bodyLean": -0.00004950794942359057,
+      "terrainRoll": 0,
+      "bodyRoll": 0,
+      "tailYaw": 0.00000792127190777449,
+      "grounded": true,
+      "alive": true,
+      "stance": "quadruped",
+      "stanceAmount": 0,
+      "transitionWeight": 0,
+      "climbing": false,
+      "climb": null,
+      "climbWeight": 0,
+      "contactAllowed": false,
+      "resetting": false,
+      "strikeId": null,
+      "strikeLife": null,
+      "strikeKind": null,
+      "strikeStage": null,
+      "strikeWeight": 0,
+      "strikeBodyPitch": 0,
+      "strikeBodyRoll": 0,
+      "position": {
+        "x": -13.579832335173004,
+        "y": -0.05998935810119299,
+        "z": 29.324943551131888
+      },
+      "paws": [
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        }
+      ],
+      "pair": null,
+      "sourceCoordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -4.725684785944013,
+        "nativeYaw": -4.725684785944013,
+        "signedDistance": -0.00009126796380515281,
+        "height": -0.047597313456300555,
+        "targetHeight": -0.047652294927200564,
+        "requestedHeight": -0.047652294927200564,
+        "margin": 0.12,
+        "authoredLoad": 0.006154587300824979,
+        "suspension": false,
+        "soleSamples": 1674,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePresentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.052105260443953694,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineIdle",
+            "time": 0.48503339695930464,
+            "weight": 0.995587877529156
+          },
+          {
+            "name": "FelineWalk",
+            "time": 0.06078946844746895,
+            "weight": 0.00441211238968778
+          },
+          {
+            "name": "FelineTrot",
+            "time": 0.036473681689624476,
+            "weight": 8.129967952082298e-9
+          },
+          {
+            "name": "FelineGallop",
+            "time": 0.026921050401185264,
+            "weight": 1.951188264269688e-9
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineIdle",
+            "weight": 0.995587877529156,
+            "phase": null,
+            "gait": null
+          },
+          {
+            "name": "FelineWalk",
+            "weight": 0.00441211238968778,
+            "phase": 0.038367654321314754,
+            "gait": {
+              "nativeDistancePerCycle": 0.8228571428571428,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.25,
+                "HR": 0.75
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 1.1666666269302368,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 8.129967952082298e-9,
+            "phase": 0.028985874913840217,
+            "gait": {
+              "nativeDistancePerCycle": 1.6,
+              "sourceDuty": 0.55,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.5,
+                "HL": 0.5,
+                "HR": 0
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.699999988079071,
+              "unloadedLimbs": []
+            }
+          },
+          {
+            "name": "FelineGallop",
+            "weight": 1.951188264269688e-9,
+            "phase": 0.020508766418178365,
+            "gait": {
+              "nativeDistancePerCycle": 3.0181818181818185,
+              "sourceDuty": 0.44,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0.92,
+                "HL": 0.54,
+                "HR": 0.45999999999999996
+              },
+              "cycleStart": 0.01666666753590107,
+              "cycleEnd": 0.5166666507720947,
+              "unloadedLimbs": []
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -14.306972214586445,
+              1.2268450850425632,
+              28.731223384891187
+            ],
+            "lower": [
+              -13.993221232329628,
+              0.6057459409386232,
+              28.73539520277738
+            ],
+            "paw": [
+              -14.405084984546484,
+              0.036267220945999545,
+              28.729918785178373
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -14.322501259610634,
+              1.2268450850425632,
+              29.89912027367377
+            ],
+            "lower": [
+              -14.007630334134966,
+              0.6063130535726751,
+              29.90330698298474
+            ],
+            "paw": [
+              -14.418850586905188,
+              0.0363694055994801,
+              29.897839216353464
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -12.823333995963212,
+              1.1724131227601242,
+              28.75095080801139
+            ],
+            "lower": [
+              -13.172857956673967,
+              0.6204858825058197,
+              28.74630328384241
+            ],
+            "paw": [
+              -12.757003556403498,
+              0.03640815985874635,
+              28.75183271652288
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -12.838863038451503,
+              1.1724131227601242,
+              29.918847506075966
+            ],
+            "lower": [
+              -13.188183669000214,
+              0.6203571467124204,
+              29.914202780670053
+            ],
+            "paw": [
+              -12.771490201029426,
+              0.03687778499888894,
+              29.919743370190933
+            ]
+          }
+        ]
+      },
+      "id": "local"
+    }
+  },
+  {
+    "phase": "off-moving-R-down",
+    "wall": 1791729552565,
+    "actor": {
+      "id": "local",
+      "name": "Playable158",
+      "hp": 220,
+      "position": {
+        "x": -12.879833767228982,
+        "y": 0.9400380255257428,
+        "z": 21.395653702743026
+      },
+      "velocity": {
+        "x": -0.02012135507011667,
+        "y": 0,
+        "z": 1.512794634132272
+      },
+      "yaw": -3.1549064845159474,
+      "aimYaw": -0.01329997291707881,
+      "aimPitch": 0.07827570391818878,
+      "stance": "upright",
+      "grounded": true,
+      "nativePose": {
+        "version": 2,
+        "nativeStepTick": 2130,
+        "localPosition": {
+          "x": 0,
+          "y": 0.8999999761581421,
+          "z": 0
+        },
+        "localRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "worldId": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd",
+        "actorId": "local",
+        "life": 1,
+        "tick": 2130,
+        "time": 35.49999999999927,
+        "phase": "current-native-readback",
+        "enabled": true,
+        "hull": {
+          "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+          "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+          "handle": 1.082217858644e-312,
+          "position": {
+            "x": -12.879834175109863,
+            "y": 1.8400380611419678,
+            "z": 21.395652770996094
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "shapeType": 14
+        },
+        "shape": {
+          "kind": "RoundCylinder",
+          "halfHeight": 1.7799999999999998,
+          "radius": 1.63,
+          "borderRadius": 0.12
+        },
+        "movement": {
+          "life": 1,
+          "tick": 2130,
+          "time": 35.49999999999927,
+          "phase": "locomotion-query-before-world-step",
+          "computed": true,
+          "grounded": true,
+          "requested": {
+            "x": -0.00033535591783527785,
+            "y": -0.0061111111111111106,
+            "z": 0.025213243902204533
+          },
+          "hullAtQuery": {
+            "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:12",
+            "revision": "{\"kind\":\"RoundCylinder\",\"halfHeight\":1.7799999999999998,\"radius\":1.63,\"borderRadius\":0.12}",
+            "handle": 1.082217858644e-312,
+            "position": {
+              "x": -12.879498481750488,
+              "y": 1.840117335319519,
+              "z": 21.370439529418945
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "shapeType": 14
+          },
+          "delta": {
+            "x": -0.00033535592956468463,
+            "y": -0.00007930750143714249,
+            "z": 0.025213243439793587
+          },
+          "contacts": [
+            {
+              "support": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "supportQuery": {
+                "id": "feline-native:d73a5b59-ca67-4f59-be14-105ccc1f46dd:owner:2",
+                "revision": "native-type:6",
+                "handle": 1.507e-321,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0,
+                  "w": 1
+                },
+                "shapeType": 6
+              },
+              "reportedHandle": 1.507e-321,
+              "toi": 0.0004982564132660627,
+              "raw": {
+                "witness1": {
+                  "x": -14.041296005249023,
+                  "y": -0.08000003546476364,
+                  "z": 21.505481719970703
+                },
+                "witness2": {
+                  "x": -14.041296005249023,
+                  "y": -0.059999704360961914,
+                  "z": 21.50547981262207
+                },
+                "normal1": {
+                  "x": 0,
+                  "y": 1,
+                  "z": 0
+                },
+                "normal2": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0
+                }
+              },
+              "frame": {
+                "status": "UNKNOWN",
+                "binding": "worldWitness1/worldWitness2/worldNormal1/worldNormal2",
+                "checks": [],
+                "reason": "Surface audit disabled; raw accessor provenance only, excluded from pose qualification"
+              },
+              "applied": {
+                "x": -0.000006440177912736544,
+                "y": -0.00011735782754840329,
+                "z": 0.00048419536324217916
+              },
+              "remaining": {
+                "x": -0.0003289157466497272,
+                "y": -0.005993753205984831,
+                "z": 0.024729048833251
+              }
+            }
+          ]
+        }
+      },
+      "climb": null,
+      "strike": null,
+      "pair": null,
+      "downed": null
+    },
+    "owner": {
+      "probes": 0,
+      "carrierSettle": 0,
+      "clearance": 0,
+      "frameClock": 43.650299999952395,
+      "renderTime": 35.399999999999274,
+      "renderElapsed": 0.024399999856948854,
+      "cosmeticDt": 0.024399999856948854,
+      "yawDelta": 0,
+      "yawRate": 0,
+      "reactionSpeed": 0.3066567242692412,
+      "reactionStrafe": -0.0000014079006920305432,
+      "bodyLeanBefore": -3.4443937825921966e-7,
+      "bodyLeanTarget": 2.5342212456549777e-8,
+      "bodyLean": -2.3743656766150915e-7,
+      "terrainRoll": 0,
+      "bodyRoll": 0,
+      "tailYaw": 3.798985082584146e-8,
+      "grounded": true,
+      "alive": true,
+      "stance": "upright",
+      "stanceAmount": 1,
+      "transitionWeight": 0,
+      "climbing": false,
+      "climb": null,
+      "climbWeight": 0,
+      "contactAllowed": false,
+      "resetting": false,
+      "strikeId": null,
+      "strikeLife": null,
+      "strikeKind": null,
+      "strikeStage": null,
+      "strikeWeight": 0,
+      "strikeBodyPitch": 0,
+      "strikeBodyRoll": 0,
+      "position": {
+        "x": -12.87930609126236,
+        "y": -0.05990001275390888,
+        "z": 21.35366514393771
+      },
+      "paws": [
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        },
+        {
+          "support": 0,
+          "weight": 0,
+          "planted": false,
+          "valid": false,
+          "slip": 0,
+          "soleError": 0,
+          "reach": 0,
+          "requestedReach": 0,
+          "ikClamped": false,
+          "plannedReach": 0,
+          "authoredReach": 0,
+          "ikApplied": false,
+          "ikRejected": false,
+          "leaseRetired": false,
+          "releasePose": false,
+          "authoredFallback": false,
+          "legacyRawFallback": false,
+          "partialClearance": false,
+          "fallbackCasts": 0,
+          "casts": 0,
+          "surface": null,
+          "clearance": 0
+        }
+      ],
+      "pair": null,
+      "sourceCoordination155": {
+        "policy": "SOURCE_EVENT_AND_SOLE_MOUNT155",
+        "contactQualified": false,
+        "visualYaw": -3.9099744479546676,
+        "nativeYaw": -3.1549119562021843,
+        "signedDistance": 0.0006458804053300779,
+        "height": -0.04738851442583585,
+        "targetHeight": -0.047738823659223543,
+        "requestedHeight": -0.047738823659223543,
+        "margin": 0.12,
+        "authoredLoad": 0.49430375893057876,
+        "suspension": false,
+        "soleSamples": 836,
+        "queries": 1,
+        "surface": {
+          "worldKey": "ground067-world:1",
+          "generation": 1,
+          "life": 1,
+          "ownerKey": "ground067-world:1:owner:1",
+          "colliderHandle": 2.2620475135445e-311,
+          "shapePoseKey": "2:6:0,0,0,0,0,0,1"
+        },
+        "reason": null,
+        "soleProvenance": "CURRENT_ATTACHED_SKIN_IDENTICAL_WEIGHT_CONVEX_VERTICES_EXACT_FOOT_FAMILY_PLANE_EXTREMA_NOT_NATIVE_CONTACT"
+      },
+      "sourcePresentation154": {
+        "policy": "CONTACT_UNQUALIFIED_SOURCE_PRESENTATION",
+        "status": "source",
+        "phase": 0.5303907893052799,
+        "contactQualified": false,
+        "clips": [
+          {
+            "name": "FelineUprightWalkLong",
+            "time": 0.6364689724573396,
+            "weight": 1
+          }
+        ],
+        "footfalls": [
+          {
+            "name": "FelineUprightWalkLong",
+            "weight": 1,
+            "phase": 0.5303907893052799,
+            "gait": {
+              "nativeDistancePerCycle": 1.3142857142857143,
+              "sourceDuty": 0.7,
+              "sourceOffsets": {
+                "FL": 0,
+                "FR": 0,
+                "HL": 0,
+                "HR": 0.5
+              },
+              "cycleStart": 0,
+              "cycleEnd": 1.2000000476837158,
+              "unloadedLimbs": [
+                "FL",
+                "FR"
+              ]
+            }
+          }
+        ],
+        "markerProvenance": "CURRENT_SOURCE_FK_JOINT_PIVOTS_NO_SKIN_OR_CONTACT_CERTIFICATE",
+        "paws": [
+          {
+            "limb": "FL",
+            "upper": [
+              -13.306379750796602,
+              2.2675978567183313,
+              20.965811353066304
+            ],
+            "lower": [
+              -13.440046568168597,
+              1.701723022808195,
+              20.583528496523943
+            ],
+            "paw": [
+              -13.706430969602462,
+              1.95341974413742,
+              21.183241891556264
+            ]
+          },
+          {
+            "limb": "FR",
+            "upper": [
+              -12.4646616064663,
+              2.267597857309935,
+              21.775585926388775
+            ],
+            "lower": [
+              -12.08786900903172,
+              1.6979547273584372,
+              21.90883509126879
+            ],
+            "paw": [
+              -12.678400100829002,
+              1.9534195959700482,
+              22.191640061269897
+            ]
+          },
+          {
+            "limb": "HL",
+            "upper": [
+              -12.729978880734148,
+              1.1840739771448627,
+              20.369245181097327
+            ],
+            "lower": [
+              -12.895267119928592,
+              0.5740662495396724,
+              20.53472270252025
+            ],
+            "paw": [
+              -12.567807543818164,
+              0.03668912941194313,
+              20.19105376326208
+            ]
+          },
+          {
+            "limb": "HR",
+            "upper": [
+              -11.89284352708315,
+              1.1840739770663173,
+              21.183756366384667
+            ],
+            "lower": [
+              -12.233934468369494,
+              0.7496875905204907,
+              21.532723190390104
+            ],
+            "paw": [
+              -12.184663596048606,
+              0.03667563862755996,
+              21.47528922390682
+            ]
+          }
+        ]
+      },
+      "id": "local"
+    }
+  }
+]

@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "status": "ASSET_APPROVE_RELEASE_INTEGRATION_PENDING",
+  "baselineCommit": "4be35aec937362f37e777c20b13a1d93ccca3ce6",
+  "provenance": "Original fitted armor/UV derivative of the owner-authored feline rig. Higgsfield generated the independent style reference; the actual shipping geometry is authored, skinning-preserved Blender work. No new external catalog mesh or provider generation is required during play.",
+  "shipping": {
+    "chassis": "Caracal",
+    "source": ".sites-runtime/caracal-art-next/author-10/Caracal_Quadruped.external-candidate.glb",
+    "privateSha256": "fed899bc2ba2a5fdf4a66629519f0cf3cdb766e67d1195d5ba54eccb8b1a5bbe",
+    "shippingSha256": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4",
+    "bytes": 1123064,
+    "changedJSONFields": [
+      "images[0].uri",
+      "images[1].uri",
+      "images[2].uri"
+    ],
+    "unchangedBINAndChunkTailSha256": "2e12d46ab9948423dd0482800339a09c838e8ecd1cedd63dff4e83fb00a034ce",
+    "previousPublicSha256": "ae14144c50df9f4c3f8024698a6af4dcc9eddd9eea5ecf103e9c2048b8f2312a",
+    "destinations": [
+      "public/assets/models/Caracal_Quadruped.glb",
+      "assets/runtime/models/Caracal_Quadruped.glb"
+    ],
+    "model": "public/assets/models/Caracal_Quadruped.glb",
+    "cacheRevision": "feline-caracal-art-15",
+    "triangles": 20684,
+    "exportedVertices": 34476,
+    "actualPrimitives": 4,
+    "materials": 4,
+    "uriContract": [
+      "../textures/feline-albedo-v1.webp",
+      "../textures/feline-normal-v1.webp",
+      "../textures/feline-orm-v1.webp"
+    ],
+    "unrelatedShippingModelsUnchanged": 28,
+    "unrelatedRawRuntimeModelsUnchanged": 29,
+    "atlasUnchanged": true
+  },
+  "editableSource": {
+    "path": "assets/source/caracal-art-v1/Caracal_Quadruped.art-v1.blend",
+    "bytes": 34129554,
+    "sha256": "61df383827df9ac93fd5e3c86fe010a570cea43e9538f2be85f21ce53977bae8",
+    "inventory": "assets/source/caracal-art-v1/inventory.json",
+    "inventorySha256": "7625fe2382a8e4a4c869ba4a89ef410eb6a3ee83a0645db25f4c4bd2030e96d4",
+    "sourceCheckpoint": "The frozen source README captures its earlier private-pending checkpoint; independent admission is recorded here separately. Original sources remain preserved.",
+    "dependencies": "assets/source/caracal-art-v1/README.md"
+  },
+  "preservation": {
+    "retainedJoints": 25,
+    "retainedAnimations": 32,
+    "exactDecodedBindHierarchyTRSChannelsAndPawBounds": true,
+    "sourcePawExtremaExact": true,
+    "rigidOneBoneInfluences": true,
+    "physicalArmorRemainsPhysical": true,
+    "newDecodedDegenerateOrOpposedTriangles": 0,
+    "inheritedDecodedTriangles": {
+      "degenerate": 8,
+      "opposed": 4
+    },
+    "sourceAndShippingProofTransfer": "Complete BIN/chunk tail and every JSON value other than three relative image URI fields are identical; private decode/pose/runtime proof transfers to exact staged shipping geometry."
+  },
+  "surfaces": {
+    "sharedMaps": [
+      {
+        "kind": "albedo",
+        "path": "public/assets/textures/feline-albedo-v1.webp",
+        "bytes": 8726,
+        "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21"
+      },
+      {
+        "kind": "normal",
+        "path": "public/assets/textures/feline-normal-v1.webp",
+        "bytes": 5614,
+        "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22"
+      },
+      {
+        "kind": "orm",
+        "path": "public/assets/textures/feline-orm-v1.webp",
+        "bytes": 3992,
+        "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c"
+      }
+    ],
+    "linearNormalAndORM": true,
+    "sRGBAlbedo": true,
+    "uv0": true,
+    "flipY": false,
+    "paintAlbedoOnlyOffset": [
+      0,
+      0.25
+    ],
+    "paintLinear": [
+      1,
+      0.76,
+      0.64,
+      1
+    ],
+    "silverAlbedoOnlyOffset": null,
+    "normalORMUVTransforms": "Unchanged; white paint/steel recolor is albedo-only. Mixed-metal role coordinates remain unshifted.",
+    "actualGPUCost": "Shared transport files do not imply shared parser GPU allocation: +3 textures in the scoped fresh single-role profile, +6 in the combined four-role lifecycle."
+  },
+  "independentAssetReview": {
+    "reviewer": "/root/critic",
+    "decision": "APPROVE_ASSET_PAIR_ONLY",
+    "finalReleaseApprovalPending": true,
+    "recordedAt": "2026-10-04T22:01:22.263Z",
+    "baselineSource": "4be35aec937362f37e777c20b13a1d93ccca3ce6",
+    "models": [
+      {
+        "chassis": "Lynx",
+        "candidateModelSha256": "c9e00de61e45ee8aa21e739daf8ecafba1c8e1bed1dfcd07ce190eec4354e01f",
+        "candidatePath": ".sites-runtime/lynx-art-next/draft/run-recon-006/Lynx_Quadruped.external-candidate.glb",
+        "bytes": 1085724,
+        "triangles": 17176,
+        "vertices": 31578,
+        "primitives": 5,
+        "judgment": "APPROVE bounded recon derivative: restored fitted teal body guards and visible joint/mast/weapon distinctions; exact preserved rig/paws and no new normalized topology defects."
+      },
+      {
+        "chassis": "Caracal",
+        "candidateModelSha256": "fed899bc2ba2a5fdf4a66629519f0cf3cdb766e67d1195d5ba54eccb8b1a5bbe",
+        "candidatePath": ".sites-runtime/caracal-art-next/author-10/Caracal_Quadruped.external-candidate.glb",
+        "bytes": 1123084,
+        "triangles": 20684,
+        "vertices": 34476,
+        "primitives": 4,
+        "judgment": "APPROVE bounded medic derivative: fitted ivory/orange full-body guards and six retained readable spine cells; exact preserved rig/paws and no new normalized topology defects."
+      }
+    ],
+    "evidence": {
+      "detailedReviewPath": ".sites-runtime/critic/recon-medic-art/asset-admission.json",
+      "detailedReviewSha256": "1b24bc375a8152145fd19dee4ca220c72185b8c06f6d568342ce294fa4ee75a8",
+      "privateEvidence": {
+        "appearance": [
+          "appearance-review-002.json",
+          "appearance-review-003.json"
+        ],
+        "decoded": [
+          "lynx-recon006-decoded-final.json",
+          "caracal-author10-decoded-final.json"
+        ],
+        "classification": [
+          "lynx-baseline-decoded-classification-final.json",
+          "lynx-recon006-decoded-classification-final.json",
+          "caracal-baseline-decoded-classification-final.json",
+          "caracal-author10-decoded-classification-final.json"
+        ],
+        "paired": ".sites-runtime/critic/recon-medic-art/paired-classified-production-review.json",
+        "runtime": ".sites-runtime/critic/recon-medic-art/private-runtime-audit.json"
+      },
+      "profiles": [
+        {
+          "chassis": "lynx",
+          "before": ".sites-runtime/recon-medic-art/profile-lynx-baseline-001/baseline-report.json",
+          "beforeSha256": "6ef507008b9f14fce8eb1986163c9d903260cc8d41beb8226d9da6105b704082",
+          "after": ".sites-runtime/recon-medic-art/profile-lynx-candidate-001/candidate-report.json",
+          "afterSha256": "3082f945ac8ace8c6c078d0f0f2a1532c22ed5d762d9f3425f49b06531743085",
+          "delta": {
+            "fps": 0.10000000000000142,
+            "calls": -4,
+            "triangles": 3336,
+            "geometries": -2,
+            "textures": 3
+          }
+        },
+        {
+          "chassis": "caracal",
+          "before": ".sites-runtime/recon-medic-art/profile-caracal-baseline-001/baseline-report.json",
+          "beforeSha256": "a5e39aeabe62473571cdb377f59c75a9e9d8c7596e59ddbac9aae010bc94a040",
+          "after": ".sites-runtime/recon-medic-art/profile-caracal-candidate-001/candidate-report.json",
+          "afterSha256": "10b71ace741b076a5f7f398fd4bf71e03b41f982ea1d27f4fb0a02fb2641b4b1",
+          "delta": {
+            "fps": 0.10000000000000142,
+            "calls": -6,
+            "triangles": 8704,
+            "geometries": -3,
+            "textures": 3
+          }
+        }
+      ],
+      "resources": [
+        {
+          "label": "baseline",
+          "path": ".sites-runtime/recon-medic-art/roster-baseline-001/report.json",
+          "sha256": "106f7069db6bac5fcad54a6dec3f08174cd3e1cca9aac0cfe516d7b7a5d2d8f9",
+          "captureOwner": "/root",
+          "active": {
+            "calls": 175,
+            "triangles": 1173404,
+            "geometries": 126,
+            "textures": 59
+          },
+          "retired": {
+            "calls": 133,
+            "triangles": 1068476,
+            "geometries": 123,
+            "textures": 56
+          },
+          "identicalCycles": 3
+        },
+        {
+          "label": "candidate",
+          "path": ".sites-runtime/recon-medic-art/roster-candidate-001/report.json",
+          "sha256": "b1739cab603b29fb8a5df5078ad06ae3dadaff5f0c458f18c3dffa73087c2bbd",
+          "captureOwner": "/root",
+          "active": {
+            "calls": 165,
+            "triangles": 1185444,
+            "geometries": 121,
+            "textures": 65
+          },
+          "retired": {
+            "calls": 133,
+            "triangles": 1068476,
+            "geometries": 118,
+            "textures": 62
+          },
+          "identicalCycles": 3
+        }
+      ],
+      "resourceDelta": {
+        "active": {
+          "calls": -10,
+          "triangles": 12040,
+          "geometries": -5,
+          "textures": 6
+        },
+        "retired": {
+          "calls": 0,
+          "triangles": 0,
+          "geometries": -5,
+          "textures": 6
+        }
+      }
+    },
+    "judgment": "The exact final private recon and medic pair improves full-body role coverage/readability and passes preserved rig/sole/material/cell gates, source-classified paired actual callback no-worsening, and ordinary rendered dedicated/PeerJS action/contact evidence. Matched short profiles show no material pacing change in this scope; draw calls and geometry count fall, triangles and actual GPU texture allocations rise. Repeated roster join/retire counts plateau for three cycles. This is sufficient for controlled staging and final compiled integration qualification, not publication.",
+    "remainingGates": [
+      "Root-only JSON texture-URI staging must prove every other JSON field and BIN unchanged.",
+      "Cache revision and final compiled source/payload closure plus meaningful final regression and exact fingerprint required before final four-area approval.",
+      "Fresh public/native/frozen/served-byte and live-service postrelease proof remains required after a later approved release."
+    ],
+    "limits": [
+      "Only the exact listed private SHAs are approved; recon003/004/005 and Caracal08 appearance/topology denials remain unchanged.",
+      "Small seams and relief remain subdued at ordinary distance and dark light. These original fitted derivatives remain below requested key-art/AAA fidelity.",
+      "Paired CPU inherits unsupported step/edge paw overlap and one coastal Lynx physical head point outside its1.65m cylinder. No universal obstacle-contact, all-core-cylinder or traversal-vertex guarantee.",
+      "Named Lynx changed-part IDs are unavailable in its source tags; its whole physical sampler includes every actual changed limb/knuckle/waist vertex.",
+      "The contact-eligible body samples are every20frames; they do not establish exhaustive triangle clearance through all air/form/traversal states.",
+      "The four matched one-pilot profiles use fresh Microsoft Edge/GTX1070Ti, medium1440x900 camera10, normal flashes and serial short ordinary S/W recrosses. All retain one >100ms moving RAF gap; no generic FPS gain or hitch-free claim.",
+      "Roster cost uses one rendered Pounce and three ordinary validated idle WebSocket guests, camera14. It is a resource plateau, not four active rendered clients or crowd/phone timing.",
+      "Atlas files/URLs are unchanged, but GPU texture allocation is +3 per new model/+6 in the mixed roster and remains cached after actor retirement. Texture counts are not measured VRAM bytes; no zero-cost sharing claim.",
+      "Profile report reviewer fields inherited an older runner label; these are root-captured reports independently inspected here, not critic-operated profiles.",
+      "The Lynx dedicated quad-landed static capture has displayed airborne state and remains excluded from own-frame landing proof; other qualified own-frame landed records are retained separately.",
+      "No tracked/public/original Unreal files were modified by critic."
+    ],
+    "shippingApprovalTransfer": "221f492060365b9d73390a34d10581058097c2c7fccbe1e59d8e5f3a17e68dd4"
+  },
+  "sourceClassifiedProduction": {
+    "receipt": ".sites-runtime/critic/recon-medic-art/paired-classified-production-review.json",
+    "sha256": "878191747a0db400d379d0c19e8c52454d88b3d2e545bd0487d4910b1bd4c192",
+    "framesPerModel": 12510,
+    "fixtures": 6,
+    "scope": "Actual current Actor callback with real Rapier/mixer/aim/carrier/IK; exact contact/rigid measures, no new sampled physical point containments or physical central hull excess. Existing failures remain documented, not waived."
+  },
+  "actualRenderedRuntime": {
+    "solo": ".sites-runtime/recon-medic-art/private-caracal-runtime-001/receipt.json",
+    "dedicated": ".sites-runtime/recon-medic-art/caracal-dedicated-runtime-001/report.json",
+    "peer": ".sites-runtime/recon-medic-art/caracal-peer-runtime-001/report.json",
+    "scope": "Ordinary menu/keyboard/mouse host + rendered late observer, complete forms, pulse/missile/ability and jump. Recorded video/contact overhead excludes timing qualification. Private response substitution preserves all production source/simulation."
+  },
+  "quietCost": {
+    "settings": {
+      "quality": "medium",
+      "volume": 0,
+      "sensitivity": 1,
+      "cameraDistance": 10,
+      "reducedFlashes": false,
+      "invertY": false
+    },
+    "renderer": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Ti (0x00001B82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)"
+    },
+    "scenario": "Fresh one-pilot selected chassis Rainline dedicated-server PVP, stationary quadruped at authored spawn. No NPCs, no combat/actions during profile. Then two ordinary S/W 3.2-second recross cycles at the same settings.",
+    "baseline": {
+      "average": {
+        "fps": 57,
+        "calls": 132,
+        "triangles": 1093364,
+        "geometries": 104,
+        "textures": 50
+      },
+      "settledRAF": {
+        "durationMs": 10085.5,
+        "samples": 575,
+        "p50": 17.5,
+        "p95": 18.5,
+        "p99": 19,
+        "maximum": 21.899999856948853,
+        "over50": 0,
+        "over100": 0
+      },
+      "movingRAF": {
+        "durationMs": 13880.799999952316,
+        "samples": 780,
+        "p50": 17.600000143051147,
+        "p95": 18.700000047683716,
+        "p99": 19.299999952316284,
+        "maximum": 165.20000004768372,
+        "over50": 1,
+        "over100": 1
+      }
+    },
+    "candidate": {
+      "average": {
+        "fps": 57.1,
+        "calls": 126,
+        "triangles": 1102068,
+        "geometries": 101,
+        "textures": 53
+      },
+      "settledRAF": {
+        "durationMs": 10087.799999952316,
+        "samples": 574,
+        "p50": 17.5,
+        "p95": 18.5,
+        "p99": 19.100000143051147,
+        "maximum": 19.700000047683716,
+        "over50": 0,
+        "over100": 0
+      },
+      "movingRAF": {
+        "durationMs": 13889,
+        "samples": 783,
+        "p50": 17.5,
+        "p95": 18.600000143051147,
+        "p99": 19.700000047683716,
+        "maximum": 171.89999985694885,
+        "over50": 1,
+        "over100": 1
+      }
+    }
+  },
+  "designReference": "assets/reference/higgsfield-recon-medic-concept.json",
+  "limits": [
+    "Incremental fitted body and role readability improvement, far below title illustration/commercial AAA fidelity.",
+    "Existing narrow half-step/edge paw overlap and Lynx coastal head cylinder excess remain; no arbitrary terrain, universal hull, climb or floor guarantee.",
+    "Both matched baseline and candidate retain one moving frame gap above100ms; no hitch-free, timing gain, physical-phone, eight-player combat or VRAM claim.",
+    "Lynx dedicated quad-landed latest-packet capture is excluded as own-frame landed proof; separate solo and PeerJS captures show actual own-frame grounded/contactAllowed.",
+    "No animation, movement constants, weapons, HP, collider, atlas image or unrelated model was changed. Final all-four staged source/build review and public verification remain separate."
+  ]
+}

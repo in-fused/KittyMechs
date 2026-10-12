@@ -1,0 +1,34 @@
+{
+  "writer": "CLOSED",
+  "retainedIndex": {
+    "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/index.html",
+    "bytes": 700,
+    "sha256": "df633f509ada4562a9c41110acee2cc52a6507bbb4cf00cbd518d2901b8e25f7"
+  },
+  "candidateIndex": {
+    "path": ".sites-runtime/overhaul-20261011/entry215-private/dist/index.html",
+    "bytes": 700,
+    "sha256": "df633f509ada4562a9c41110acee2cc52a6507bbb4cf00cbd518d2901b8e25f7"
+  },
+  "canonicalModule": "/assets/index-jFb_gY9P.js",
+  "styles": [
+    "/assets/index-BPDA3YLm.css"
+  ],
+  "preloads": [
+    "/assets/three-Bjr22og3.js",
+    "/assets/physics-DsFk-bdi.js"
+  ],
+  "sameRequestPaths": true,
+  "aliasMappings": [],
+  "buildReceipt": {
+    "path": ".sites-runtime/overhaul-20261011/entry215-private/build-process-receipt.json",
+    "bytes": 4892,
+    "sha256": "af5349024e4abf01251c9492fe93b80e154d15c88fea8604fbcb7f22fada43c9"
+  },
+  "entryProof": {
+    "path": ".sites-runtime/overhaul-20261011/entry215-private/entry-proof.json",
+    "bytes": 6773,
+    "sha256": "a0d52b33222d7a2fb31a019e19cc7d171f03272d4f4f87df34ad0668da4594c4"
+  },
+  "document": "Real retained server network response unchanged, exact existing metadata injection verified before deployment"
+}

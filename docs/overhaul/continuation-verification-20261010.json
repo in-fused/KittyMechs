@@ -1,0 +1,40 @@
+{
+  "createdUTC": "2026-10-10T06:03:28.123287+00:00",
+  "scope": "Continuation feedback and stable navigation heap only; full source motion/material and Gate1 incomplete.",
+  "checks": [
+    {
+      "command": "npx vitest run tests/overhaul-coop-native.test.ts tests/overhaul-coop.test.ts",
+      "exitCode": 0,
+      "testsPassed": 17
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "stage": "afterheap"
+    },
+    {
+      "command": "npx vitest run tests/navigation-spatial-index.test.ts tests/navigation-open-set.test.ts",
+      "exitCode": 0,
+      "testsPassed": 5
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "session": 11763
+    }
+  ],
+  "frozenBuild": "build-013",
+  "ordinaryRuns": {
+    "mission-018": {
+      "session": 78248,
+      "exitCode": 0,
+      "status": "RESCUE_COMPLETE_REVIEW_REQUIRED"
+    },
+    "mission-019": {
+      "session": 40874,
+      "exitCode": 0,
+      "status": "RESCUE_COMPLETE_REVIEW_REQUIRED"
+    }
+  },
+  "independentReview": "017 bounded revive accepted;018/019 pending service threadlimit."
+}

@@ -1,0 +1,13 @@
+
+ RUN  v4.1.11 C:/Users/Taylor/Documents/GitHub/KittyMech-Web
+
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > ON57 moves decoded joints, preserves source transforms, integrates once and never queries/executes contact 237ms
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > OFF25 uses actual measured clocks/strides and live movingR source joints without a second owner 96ms
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > temporary unsupported action exits, source bookkeeping does not catch up, fatal binding remains fatal across reset 338ms
+ ✓ tests/source-presentation154.test.ts > 154 actual authored source presentation > real dispatch state switches visible owner and current registry, retains history without sticky temporary failure 232ms
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  09:33:04
+   Duration  2.07s (transform 666ms, setup 0ms, import 913ms, tests 907ms, environment 0ms)
+

@@ -1,0 +1,175 @@
+import {retainPacket251} from './packetRetention251.mjs';
+import {chromium} from '@playwright/test';
+
+import {readFile,writeFile,mkdir,realpath} from 'node:fs/promises';
+
+import {createHash} from 'node:crypto';
+
+import {resolve,relative,dirname} from 'node:path';
+
+import {isOptionalTelemetryAbort219} from '../overhaul-program-observer-242/network-classification.mjs';
+
+import {ready219227,nativeFault227} from '../overhaul-program-observer-242/guards.mjs';
+
+import {wrappedYaw,releasedPacket247,edgeWindow247,steering247,idleLook247} from '../overhaul-player-controls-247/control-release247.mjs';
+
+const started=Date.now(),sha=b=>createHash('sha256').update(b).digest('hex'),origin='http://localhost:8799',out=resolve(process.env.KITTYMECH_251_OUTPUT??'.sites-runtime/PENDING251'),packedSHA=process.env.KITTYMECH_251_PACKED_SHA;
+
+if(process.env.KITTYMECH_251_ACTUAL_APPROVED!=='1')throw Error('247 writer OPEN: root source gate absent');
+
+if(!/^[a-f0-9]{64}$/.test(packedSHA??'')||!process.env.KITTYMECH_251_OUTPUT||!out.startsWith(resolve('.sites-runtime')+'/')&&!out.startsWith(resolve('.sites-runtime')+'\\'))throw Error('247 pending candidate/output binding');
+
+const criticPath=process.env.KITTYMECH_251_CRITIC_PATH,criticSHA=process.env.KITTYMECH_251_CRITIC_SHA;if(criticPath!=='docs/overhaul/critic/player-controls251-observer-source-review.md'||!/^[a-f0-9]{64}$/.test(criticSHA??'')||sha(await readFile(criticPath))!==criticSHA)throw Error('227 exact independent observer critic required');
+
+const binding=JSON.parse(await readFile('tools/overhaul-player-controls-251/binding.json','utf8')),source=JSON.parse(await readFile('tools/overhaul-player-controls-251/source-seal.json','utf8')),rows=[...binding.files,...source.files];
+
+const verify=async()=>{const result=[];for(const row of rows){const b=await readFile(row.path);result.push({path:row.path,match:b.length===row.bytes&&sha(b)===row.sha256});}return result;};
+
+const parentOutput=await realpath(dirname(out));if(!parentOutput.toLowerCase().startsWith('d:\\codexstorage\\kittymech-web\\.sites-runtime\\'))throw Error('247 output parent must be owner-created D run junction');
+
+const before=await verify();if(before.some(x=>!x.match))throw Error('227 source/build/protected changed');
+
+if(binding.output!==out||binding.delivery?.asset?.sha256!==packedSHA)throw Error('247 exact output/candidate binding missing');
+
+const delivery=binding.delivery,files=new Map(binding.outputs.map(row=>['/'+relative(resolve(binding.dist),resolve(row.path)).replaceAll('\\','/'),row]));
+
+files.set(new URL(origin+delivery.url).pathname,delivery.asset);
+
+const rawIndex=await readFile(binding.retainedIndex.path,'utf8'),injection='<meta name="kittymech-arena" content="same-origin"/><meta name="kittymech-client-report" content="local"/>',expectedHTML=rawIndex.replace('</head>',injection+'</head>');if(rawIndex.split('</head>').length!==2)throw Error('227 server metadata boundary changed');
+
+// Runtime storage receipt is intentionally outside immutable source bindings:
+
+// root runs storage:clean after source approval, then writes one fresh receipt.
+
+const storagePath=process.env.KITTYMECH_251_STORAGE_PATH,storageSHA=process.env.KITTYMECH_251_STORAGE_SHA;
+
+if(storagePath!=='.sites-runtime/shader-startup-238/storage251.json'||!/^[a-f0-9]{64}$/.test(storageSHA??''))throw Error('247 exact external storage receipt path/hash required');
+
+const storageBytes=await readFile(storagePath);if(sha(storageBytes)!==storageSHA)throw Error('247 external storage receipt SHA mismatch');
+
+const storage=JSON.parse(storageBytes);
+
+if(storage.writer!=='CLOSED'||storage.passed!==true||!Number.isFinite(storage.at)||Date.now()-storage.at<0||Date.now()-storage.at>60000||!Number.isFinite(storage.scratchGiB)||storage.scratchGiB<0||storage.scratchGiB>48||!Number.isFinite(storage.historyGiB)||storage.historyGiB<0||storage.historyGiB>2||!Number.isFinite(storage.cFreeGiB)||storage.cFreeGiB<30||!Number.isFinite(storage.dFreeGiB)||storage.dFreeGiB<100||!Number.isSafeInteger(storage.deletedCount)||storage.deletedCount<0)throw Error('247 fresh CLOSED passing storage budgets receipt required');
+
+await mkdir(out,{recursive:false});
+
+const evidence={writer:'OPEN',status:'RUNNING',bounds:{readinessMs:20000,workMs:100000,cleanupMs:30000,childMs:140000,supervisorMs:150000},mode:'PVP',scope:'ONE candidate250 distinct idle LOOK, aligned movement steering and both R transitions observation; render/contact/motion require independent temporal critic; no contact/FPS/co-op approval',critic:{path:criticPath,sha256:criticSHA,scope:'SOURCE_REVIEW_ONLY'},actualTemporalCritic:{status:'PENDING_REQUIRED',scope:'Actual motion/contact/render/stance-camera-momentum quality; assertions never constitute approval'},buildSeal:binding.buildSeal,packedSHA,storagePrerequisite:{path:storagePath,sha256:storageSHA,...storage},protectedBefore:before,events:[],network:[],errors:[],cleanup:[],cases:[],profiles:'CPU_PROFILING_EXCLUDED_TO_LIMIT_STARTUP_OBSERVER_COST',inspectorGap:'Winner+namednative roots only; unregistered/unlabelled standard root census incomplete'};
+
+const owned=[],keys=['KeyW','KeyS','KeyA','KeyD','KeyJ','KeyL','KeyR','KeyF','KeyQ','KeyE','ShiftLeft','Space','Tab'];let phase='browser-start',pulseCount=0;
+
+const guard=()=>{if(Date.now()-started>100000)throw Error('247100s work bound');if(evidence.errors.length)throw Error(evidence.errors[0].error);const bad=evidence.network.find(row=>(row.type==='requestfailed'&&!isOptionalTelemetryAbort219(row,origin))||row.type==='http-error');if(bad)throw Error('227 fatal network '+JSON.stringify(bad));};
+
+const init=()=>{const frames=[],longTasks=[];let previous=null,closed=false,raf,observer;const push=(rows,row)=>{if(rows.length<5000)rows.push(row);};const tick=at=>{if(closed)return;if(previous!==null)push(frames,{at,ms:at-previous});previous=at;raf=requestAnimationFrame(tick);};raf=requestAnimationFrame(tick);const supported=PerformanceObserver.supportedEntryTypes.includes('longtask');if(supported){observer=new PerformanceObserver(list=>list.getEntries().forEach(e=>push(longTasks,{at:e.startTime,ms:e.duration})));observer.observe({type:'longtask',buffered:true});}window.__nativeProbe227={read:()=>({at:performance.now(),frames,longTasks,longTaskSupported:supported,scope:'Instrumented RAF/longtasks, no GPU/FPS/human gain claim'}),close:()=>{closed=true;cancelAnimationFrame(raf);observer?.disconnect();}};window.addEventListener('pagehide',()=>window.__nativeProbe227.close(),{once:true});};
+
+const read=async(o,label,{startup=false,failure=false,resources=false}={})=>{if(!failure)guard();const r=await o.page.evaluate(async({name,startup,resources})=>{
+
+ const d=window.kittyMechDebug,localReadiness=window.__deploymentReadiness211?.rows?.at(-1)??null;
+
+ // Do not ask the async native/input diagnostic for every pending-asset poll.
+
+ const input=(!startup||localReadiness?.scene.ready)&&d?await d.input():null,snapshot=d?.snapshot(),actor=snapshot?.actors.find(a=>a.name===name)??null;
+
+ const native=window.__nativeIntegration222?.read()??null;
+
+ const shader=window.__shaderStartup232?.read()??null;
+
+ if(native?.registry?.rows)native.registry.rows=native.registry.rows.map(row=>({...row,diagnostic:Object.fromEntries(['actor','assetSHA256','status','mode','generation','life','frameClock','renderTime','phase','stance','visualYaw','contactQualified','policy','firstFailure','fatal','currentReason','browserClipContract','actorPresent','activeClips','placement','costMs','maxCostMs','sourceTasks','grounded246','grounded250'].map(key=>[key,row.diagnostic[key]]))}));
+
+ return {name,actor,actors:snapshot?.actors.filter(a=>!a.bot)??[],tick:snapshot?.tick,time:snapshot?.time,mode:snapshot?.mode,input,camera:(!startup||localReadiness?.scene.ready)?d?.camera():null,transport:d?.transport(),native,shader,localReadiness,overlay:!!document.querySelector('.loading-overlay'),performance:d?.performance(),resources:resources?performance.getEntriesByType('resource').filter(x=>x.name.includes('/assets/')).map(x=>({name:x.name,startTime:x.startTime,responseEnd:x.responseEnd,duration:x.duration,decodedBodySize:x.decodedBodySize})):undefined,telemetry:resources?window.__nativeProbe227?.read():undefined};
+
+ },{name:o.name,startup,resources});evidence.events.push({pilot:o.name,label,wallMs:Date.now()-started,...r});if(!failure){guard();if(r.shader?.fatal)throw Error('235 shader owner fatal '+r.shader.fatal);const fault=nativeFault227(r,packedSHA);if(fault)throw Error(fault+' '+o.name);}return r;};
+
+const ready=async(o,deadline)=>{let timer;try{return await Promise.race([(async()=>{while(Date.now()<deadline){const r=await read(o,'readiness',{startup:true});if(ready219227(r)&&!nativeFault227(r,packedSHA,true)){const remaining=deadline-Date.now();if(remaining<=0)break;evidence.events.push({pilot:o.name,label:'canvas-input-admission-start',wallMs:Date.now()-started,remainingMs:remaining,shader:r.shader});await o.page.locator('canvas').click({position:{x:720,y:450},timeout:remaining});evidence.events.push({pilot:o.name,label:'canvas-input-admission-complete',wallMs:Date.now()-started,deadlineWallMs:deadline-started});return r;}await o.page.waitForTimeout(Math.min(500,Math.max(1,deadline-Date.now())));}throw Error('227 unchanged20s readiness missing '+o.name);})(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('227 unchanged20s readiness missing '+o.name)),Math.max(1,deadline-Date.now()));})]);}finally{clearTimeout(timer);}};
+
+const healthy=async(o,label,{active=false}={})=>{const r=await read(o,label);const currentActive=()=>{const row=r.localReadiness,a=r.actor;return !!(row&&row.scene.ready&&!row.blocked&&row.scene.localId===row.localId&&row.scene.generation===row.generation&&a?.id===row.localId&&a.hp>0&&!a.downed&&a.nativePose?.enabled&&a.nativePose.actorId===a.id&&a.nativePose.life===a.jumpEpoch&&a.nativePose.tick===r.tick&&r.input?.sent?.some(s=>s.localId===a.id&&s.generation===row.generation&&s.input.jumpEpoch===a.jumpEpoch&&s.input.seq<=a.lastInput&&r.input.at-s.at<=1000)&&r.input.native?.tick===r.tick&&r.input.mountedAt!==null&&r.input.phase==='playing'&&r.transport?.phase==='playing'&&r.camera?.bodySight?.owner===a.id&&r.camera.frameClock>0&&r.camera.preferredDistance>0&&!r.overlay);};if(!(active?currentActive():ready219227(r)))throw Error('227 healthy current local/input/native readiness lost '+o.name);const fault=nativeFault227(r,packedSHA,true);if(fault)throw Error(fault+' '+o.name);return r;};
+
+const image=async(o,label)=>{await o.page.screenshot({path:out+'/'+o.label+'-'+label+'.png',timeout:1500});};
+
+const make=async(label,name)=>{const o={label,name};owned.push(o);o.browser=await chromium.launch({channel:'msedge',headless:true,args:['--disable-background-timer-throttling','--disable-renderer-backgrounding']});o.context=await o.browser.newContext({viewport:{width:1440,height:900},recordVideo:{dir:out,size:{width:960,height:600}}});await o.context.addInitScript(init);o.page=await o.context.newPage();o.page.setDefaultTimeout(5000);
+
+ o.page.on('pageerror',e=>evidence.errors.push({pilot:name,error:String(e)}));o.page.on('console',m=>{if(m.type()==='error'||/shader.*(?:error|failed)|THREE.WebGLProgram/i.test(m.text()))evidence.errors.push({pilot:name,error:'console '+m.text()});});o.page.on('requestfailed',r=>{const row={pilot:name,type:'requestfailed',method:r.method(),url:r.url(),error:r.failure(),wallMs:Date.now()-started};if(isOptionalTelemetryAbort219(row,origin))row.optionalTelemetry={initiator:'UNKNOWN',rendererReportDelivery:'UNAVAILABLE'};evidence.network.push(row);});o.page.on('response',r=>{if(r.status()>=400)evidence.network.push({pilot:name,type:'http-error',url:r.url(),status:r.status()});});
+
+ await o.page.route('**/*',async route=>{const request=route.request(),url=new URL(request.url());if(url.origin!==origin||url.pathname==='/'||url.pathname==='/index.html')return route.continue();const row=files.get(url.pathname);if(row){if(url.pathname===new URL(origin+delivery.url).pathname&&url.search!==new URL(origin+delivery.url).search)throw Error('227 private asset query/cache identity differs');return route.fulfill({contentType:url.pathname.endsWith('.js')?'text/javascript':url.pathname.endsWith('.css')?'text/css':url.pathname.endsWith('.glb')?'model/gltf-binary':'application/octet-stream',body:await readFile(row.path)});}return route.continue();});return o;};
+
+const goto=async(o,url)=>{const response=await o.page.goto(url);if(!response||response.status()!==200||sha(await response.body())!==sha(Buffer.from(expectedHTML)))throw Error('227 real retained document identity differs');evidence.network.push({pilot:o.name,type:'real-document',url:response.url(),status:200,server:await response.serverAddr(),sha256:sha(Buffer.from(expectedHTML))});};
+
+const settings=async p=>{await p.getByRole('button',{name:'Open settings',exact:true}).click();await p.getByLabel('Graphics quality',{exact:true}).selectOption('low');await p.getByRole('checkbox',{name:'Pounce feline prototype',exact:true}).setChecked(true);await p.getByRole('button',{name:'Close settings',exact:true}).click();};
+
+const sameLife=(a,b)=>a.actor.id===b.actor.id&&a.actor.jumpEpoch===b.actor.jumpEpoch&&a.localReadiness.generation===b.localReadiness.generation;
+
+const matches=(input,key,pre)=>key==='KeyW'?input.forward>0:key==='KeyR'?((input.stanceRequest?.seq??0)>(pre.input.input.stanceRequest?.seq??0)&&input.stanceRequest?.life===pre.actor.jumpEpoch):key==='KeyJ'?wrappedYaw(input.yaw,pre.input.input.yaw)>0:key==='KeyL'?wrappedYaw(input.yaw,pre.input.input.yaw)<0:false;
+
+const pulse=async(o,key,delay,label,{extraKey=null,steer=false}={})=>{
+
+ if(++pulseCount>20)throw Error('24720 finite public pulse cap');
+
+ const pre=await healthy(o,label+' before'),mark=pre.input.at,samples=[pre];let observedPacket=null;
+
+ const sample=async(tag,pixels=false)=>{const r=await healthy(o,label+' '+tag,{active:true});if(!sameLife(pre,r))throw Error('247 lifecycle changed during control');samples.push(r);observedPacket=retainPacket251(observedPacket,r.input.sent,pre,mark,input=>matches(input,key,pre)&&(!extraKey||matches(input,extraKey,pre)));if(pixels)await image(o,label+'-'+tag);return r;};
+
+ const hold=async(ms,tag)=>{const until=Date.now()+ms;let i=0;while(Date.now()<until){await o.page.waitForTimeout(Math.min(120,until-Date.now()));await sample(tag+'-'+i++,i===2);}};
+
+ try{await o.page.keyboard.down(key);if(extraKey){if(extraKey==='KeyR')await hold(300,'moving-before-R');await o.page.keyboard.down(extraKey);if(extraKey==='KeyR')await o.page.keyboard.up(extraKey);}await hold(delay,'held');
+
+ if(steer){await o.page.keyboard.up(extraKey);await hold(450,'look-released-moving');}
+
+ }finally{await o.page.keyboard.up(key);if(extraKey)await o.page.keyboard.up(extraKey);}
+
+ const limit=Math.min(started+100000,Date.now()+3000);let post,packet,neutral,edges;
+
+ while(Date.now()<limit){post=await sample('ACK-release');edges=edgeWindow247(post.input.controlEvents,mark,[key,extraKey].filter(Boolean));packet=observedPacket;neutral=releasedPacket247(post,pre,packet,edges,[key,extraKey].filter(Boolean));
+
+ if(packet&&neutral&&post.actor.lastInput>=neutral.input.seq&&Math.hypot(post.actor.velocity.x,post.actor.velocity.z)<.04)break;await o.page.waitForTimeout(120);}
+
+ if(!packet||!neutral||post.actor.lastInput<neutral.input.seq||Math.hypot(post.actor.velocity.x,post.actor.velocity.z)>=.04)throw Error('247 actual public edges/post-keyup stable-look packet/nativeACK/rest missing '+label);
+
+ const displacement=Math.hypot(post.actor.position.x-pre.actor.position.x,post.actor.position.z-pre.actor.position.z);
+
+ if(key==='KeyW'&&displacement<=0)throw Error('247 movement has no actual displacement '+label);
+
+ const look=key==='KeyJ'||key==='KeyL'?idleLook247(pre,post,key):null;if(look&&!look.pass)throw Error('247 idle LOOK/camera/aim/body contract missing '+JSON.stringify(look));
+
+ const steering=steer?steering247(samples):null;if(steering&&!steering.pass)throw Error('247 movement travel/shortest-arc convergence missing '+JSON.stringify(steering));
+
+ evidence.cases.push({name:label,pilot:o.name,status:'ACTUAL_PUBLIC_NATIVE_WITNESS_REQUIRES_INDEPENDENT_TEMPORAL_QUALITY_REVIEW',requestedDelayMs:delay,actualHeldDuration:'From recorded actual edges only',preActor:pre.actor,postActor:post.actor,packet,neutral,edges,displacement,look,steering,sampleEventLabels:samples.map(r=>({tick:r.tick,time:r.time,frameClock:r.camera?.frameClock})),extraKey});return post;
+
+};
+
+const watch=async(o,label,millis)=>{const until=Math.min(started+100000,Date.now()+millis);let i=0;while(Date.now()<until){await healthy(o,label+' temporal sample '+i);if(i===2)await image(o,label+'-middle');i++;await o.page.waitForTimeout(120);}await image(o,label+'-end');};
+
+const transform=async(o,moving,target)=>{const label=(moving?'moving':'idle')+'R-'+target;await pulse(o,moving?'KeyW':'KeyR',moving?900:500,label,{extraKey:moving?'KeyR':null});await watch(o,label,800);const r=await healthy(o,label+' completed');if(r.actor.stance!==target)throw Error('247 native stance target not realized '+label);evidence.cases.push({name:label+'-continuity',pilot:o.name,status:'TEMPORAL_NATIVE_CAMERA_STANCE_MOMENTUM_AND_PIXELS_RECORDED_CRITIC_PENDING',target,qualityApproval:false});};
+
+let host,guest,invite;
+
+try{
+
+ host=await make('host','Controls251Host');guest=await make('guest','Controls251Guest');phase='host-deployment';await goto(host,origin+'/?debug=1');await settings(host.page);await host.page.getByLabel('Pilot callsign').fill(host.name);await host.page.getByRole('button',{name:'PVP',exact:true}).click();await host.page.getByRole('button',{name:'Select Pounce',exact:true}).click();await host.page.getByLabel('Select theater').selectOption('7734');await host.page.locator('summary').click();const hostSubmit=Date.now(),hostDeadline=hostSubmit+20000;evidence.events.push({label:'host-submit',wallMs:hostSubmit-started,deadlineWallMs:hostDeadline-started});await host.page.getByRole('button',{name:'Host on arena server',exact:true}).click({timeout:20000});host.initial=await ready(host,hostDeadline);await image(host,'ready');
+
+ await host.page.getByRole('button',{name:'COPY INVITE Ã¢â€ â€”',exact:true}).waitFor({state:'visible',timeout:5000});await host.page.keyboard.down('Tab');try{invite=new URL(await host.page.getByLabel('Squad invite').inputValue({timeout:10000}));}finally{await host.page.keyboard.up('Tab');}invite.searchParams.set('debug','1');phase='guest-deployment';await goto(guest,invite.toString());await settings(guest.page);await guest.page.getByLabel('Pilot callsign').fill(guest.name);const guestSubmit=Date.now(),guestDeadline=guestSubmit+20000;evidence.events.push({label:'guest-submit',wallMs:guestSubmit-started,deadlineWallMs:guestDeadline-started});await guest.page.getByRole('button',{name:'JOIN SQUAD',exact:false}).click({timeout:20000});guest.initial=await ready(guest,guestDeadline);await image(guest,'ready');
+
+ phase='host-guest-idleR-both';for(const o of [host,guest]){await transform(o,false,'upright');await transform(o,false,'quadruped');}
+
+ phase='host-movingR-both';await transform(host,true,'upright');await transform(host,true,'quadruped');
+
+ phase='idle-LOOK-release';for(const o of [host,guest]){await pulse(o,'KeyJ',350,'idle-J-look');await pulse(o,'KeyL',350,'idle-L-look');}
+
+ phase='aligned-movement-steering';for(const lookKey of ['KeyJ','KeyL']){await pulse(host,'KeyW',600,'align-W-'+lookKey);await pulse(host,'KeyW',600,'W-'+lookKey+'-steer',{extraKey:lookKey,steer:true});}
+
+ evidence.cases.push({name:'paired-actions',status:'INCOMPLETE_NO_FINITE_RESERVE_ATTEMPT',attempts:0},{name:'air-landing-return',status:'INCOMPLETE_PRIORITY_R_LOOK_STEERING'},{name:'leave-rejoin-lifecycle',status:'INCOMPLETE_NOT_REPEATED_IN_DISTINCT_SCENARIO'},{name:'co-op-checkpoint',status:'INCOMPLETE_PVP_CONTROLS_PROBE'},{name:'native-ground-contact-or-human-lag',status:'INCOMPLETE_REQUIRES_INDEPENDENT_TEMPORAL_CRITIC_AND_MATCHED_MEASUREMENT'});
+
+ await read(host,'final',{resources:true});await read(guest,'final',{resources:true});evidence.status='FINITE_CONTROLS247_OBSERVATION_COMPLETED_QUALITY_UNADMITTED';
+
+}catch(e){evidence.status='FIRST_GENUINE_FAILURE_STOP';evidence.failure=String(e.stack??e);evidence.unfinishedPhase=phase;process.exitCode=1;}
+
+finally{
+
+ const cleanupStart=Date.now(),deadline=Math.min(cleanupStart+30000,started+138000);const close=async(label,ms,fn)=>{let timer;try{await Promise.race([fn(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('227 bounded '+label)),Math.min(ms,Math.max(1,deadline-Date.now())));})]);evidence.cleanup.push({label,status:'CLOSED',requestedCapMs:ms});}catch(e){evidence.cleanup.push({label,status:'FAILED',error:String(e),requestedCapMs:ms});}finally{clearTimeout(timer);}};
+
+ for(const o of owned)if(o.page)await close(o.label+' PUBLIC_KEYS_RELEASE',1500,async()=>{for(const key of keys)await o.page.keyboard.up(key);await o.page.evaluate(()=>window.__nativeProbe227?.close());});
+
+ for(const o of owned){if(o.page&&evidence.failure){await close(o.label+' FAILURE_READ',1500,()=>read(o,'failure',{failure:true,resources:true}));await close(o.label+' FAILURE_PIXELS',1500,()=>image(o,'failure'));}if(o.context)await close(o.label+' CONTEXT_CLOSE',5000,()=>o.context.close());if(o.browser)await close(o.label+' BROWSER_CLOSE',5000,()=>o.browser.close());}
+
+ evidence.protectedAfter=await verify();evidence.writer='CLOSED';evidence.elapsedMs=Date.now()-started;evidence.pulseCount=pulseCount;evidence.endUTC=new Date().toISOString();evidence.allLaterCasesUnreached=evidence.failure?'Every planned case after unfinishedPhase remains INCOMPLETE':null;await writeFile(out+'/evidence.json',JSON.stringify(evidence,null,2)+'\n');console.log(JSON.stringify({status:evidence.status,elapsedMs:evidence.elapsedMs,failure:evidence.failure,cleanup:evidence.cleanup}));if(evidence.protectedAfter.some(x=>!x.match)||evidence.cleanup.some(x=>x.status!=='CLOSED')||evidence.elapsedMs>140000)process.exitCode=1;
+
+}
+

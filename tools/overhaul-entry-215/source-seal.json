@@ -1,0 +1,56 @@
+{
+  "writer": "CLOSED",
+  "scope": "Fixed private entry identity only; source211 unchanged",
+  "files": [
+    {
+      "path": "tools/overhaul-entry-215/assemble.py",
+      "bytes": 1515,
+      "sha256": "e99b075be77c47abaa2781530fa20951ac8d1476c03b4da89d06f2847627671e"
+    },
+    {
+      "path": "tools/overhaul-entry-215/binding.json",
+      "bytes": 156610,
+      "sha256": "3bfb3a803f2e8a3be4b767fb7e09b78a57fe6b635da351a26c702f615396b91f"
+    },
+    {
+      "path": "tools/overhaul-entry-215/build215.mjs",
+      "bytes": 1734,
+      "sha256": "50fb4d6d395804cb7c050705ca04d01e4c6c8883e681dfbbed57b882c242a2ec"
+    },
+    {
+      "path": "tools/overhaul-entry-215/HANDOFF.md",
+      "bytes": 1909,
+      "sha256": "4c6540dac0464d50d57c29ce069f169359803c7ce73bd7f13c1bfd0d56cc678a"
+    },
+    {
+      "path": "tools/overhaul-entry-215/preimage/build211.mjs",
+      "bytes": 1589,
+      "sha256": "dec2b58ef1db41da75f1a04f6adacf47a0e5014fd55e2b08ecff86a79cbf6ec7"
+    },
+    {
+      "path": "tools/overhaul-entry-215/prepare215.py",
+      "bytes": 2876,
+      "sha256": "341863b6d3812be964d7e967fbb740b8c953d026a4ef9151e48b003813bc5292"
+    },
+    {
+      "path": "tools/overhaul-entry-215/prove-entry.mjs",
+      "bytes": 3120,
+      "sha256": "2eabe9c6c3b64a094c39be116feaa5ac671147f0837ce93c600fd254957abd33"
+    },
+    {
+      "path": "tools/overhaul-entry-215/seal.py",
+      "bytes": 523,
+      "sha256": "4997c02632f1faaf2fb95f4223148a9e35ed6ebb813fb84fceafe64a002f43bb"
+    },
+    {
+      "path": "tools/overhaul-entry-215/static-receipt.json",
+      "bytes": 764,
+      "sha256": "ba56a9f2f746d59233a6cb11a979c6b2e86328beb45e7ca657620fe71c20905e"
+    },
+    {
+      "path": "tools/overhaul-entry-215/supervise.py",
+      "bytes": 4213,
+      "sha256": "75132890f89b3e4d56e7a3b47e50501fba70e4c1cbcf7a1896a70f663d03106d"
+    }
+  ]
+}

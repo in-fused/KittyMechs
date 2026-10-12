@@ -1,0 +1,11 @@
+# Independent040 native classification and public observation gate
+
+**Permit ONE unchanged public two-client CO-OP mission observation on exact frozen032/8805, under root's 180-second inclusive supervisor.** This is permission to observe, not promotion, route certification or qualification retry. No production change is supported by this diagnostic. No automatic capture retry follows a missing outcome.
+
+Root's single diagnostic completed exit0 in 7.219 seconds inclusive (23:10:22.354–23:10:29.585 UTC); the script reports 6.903 seconds. All twelve comparisons are present. The immutable-input receipt reports all fourteen rows unchanged. Evidence SHA `c2ae04afd23328f66b4f2b868596ea2e0ad4b3d0bc49d78567ce1f6d349e3553`.
+
+On mission-spine-4, Pounce and Bastion in both stances reached the shipping Simulation endpoint, with final distances .0451–.2783m and maximum lateral deviations below .000841m. Three of the four corresponding synthetic prescribed-sample cases exceeded .05m, while Bastion quadruped did not. Those are different motion/terrain fixtures and error metrics. This supports a concrete synthetic-versus-production distinction for this leg; it does not erase the original039 route failure.
+
+The eight remaining production fixtures are invalid from actual initial overlap. Relay-link-1 intersects retained `west-relay-maintenance:2:solid` by approximately .724–.888m. West-return-2 intersects retained `machine-shop-forecourt:4:solid` by approximately .119m. Their unfinished endpoints are not valid tests of whether an ordinary player can traverse the route from a legal approach. They also do not justify deleting a prop or waiving overlap. All eleven synthetic failures remain recorded. No valid initial production case demonstrates sustained input stall.
+
+Root confirmed empty healthy032 authority and the actual immutable broadcast code's single shared snapshot JSON for all members. The frozen public script uses ordinary deployment/keys, settled position checks and causal objective progress; its native same-tick evidence can independently expose blocked motion, encounters, organic revival, checkpoint/ruin lifecycle or completion. Only observed outcomes may qualify those features. Finite time/storage exhaustion remains incomplete; unchanged contact/art/full Gate1 denials remain. Critic heavy jobs and implementation edits: zero.

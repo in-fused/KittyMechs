@@ -1,0 +1,57 @@
+{
+  "scope": "PURE_EXISTING_RECEIPT_ADMISSION_CHECKS_NO_BROWSER_NATIVE_OR_BUILD_JOB",
+  "status": "PASS",
+  "positive": {
+    "actorAssetURL": "/assets/private/Pounce_Anatomy221.glb?sha=5147c2c2e46f",
+    "assetSHA256": "5147c2c2e46f4b2328d5d97ac091da70204244cb68882592d6328cec53489473",
+    "clips": 45,
+    "bones": 61,
+    "retirement": {
+      "scope": "ASSET_VALUE_ADMISSION_ONLY_WITH_EXPLICIT_FAILED_CLEANUP_AND_LATER_NATIVE_RETIREMENT",
+      "originalJobExitCode": 1,
+      "originalCleanupOperation": "UNKNOWN_CONTEXT_OR_BROWSER_OPERATION",
+      "originalCleanupTimeoutPreserved": true,
+      "originalCleanupDeadlinePassed": false,
+      "laterOwnedRetirement": {
+        "absent": 10,
+        "sameIdentitySignaledExited": 1
+      },
+      "rawEvidenceSHA256": "4ec83d8df252390f3cc991689229bf04861a2cb0effe8f3bd0a0baf7ef2d6232",
+      "closureSHA256": "b68c881274d231ac6f14a507ba8447eed67a611f61a67d2e97bf4a13493fa1a0",
+      "independentAssetCriticSHA256": "1103848b5e641b58b7cfbf61a3efe5155e101af3a3509dee1ec043145132f3e0",
+      "nativeGameplayContactArtPerformanceAccepted": false
+    }
+  },
+  "negativeCases": [
+    {
+      "name": "no timeout",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    },
+    {
+      "name": "other cleanup error",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    },
+    {
+      "name": "two errors",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    },
+    {
+      "name": "connected",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    },
+    {
+      "name": "different path",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    },
+    {
+      "name": "different hash",
+      "rejected": true,
+      "error": "Error: 225 only exact immutable timeout-only value proof admitted"
+    }
+  ]
+}

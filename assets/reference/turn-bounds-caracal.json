@@ -1,0 +1,56 @@
+{
+  "name": "Caracal",
+  "scale": 0.84,
+  "turnStyle": {
+    "arc": 0.52,
+    "duty": 0.78,
+    "duration": 1.1,
+    "lift": 0.19,
+    "lead": 0.035,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.3,
+      "FR": 0.55,
+      "HL": 0.8
+    }
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher; source-tagged appendages excluded",
+  "clips": [
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.4558773040771484,
+      "coreRadius": 1.6603858877838888,
+      "sideExtent": 1.0404657125473022,
+      "floor": 0.013229851610958576,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.342171923748083e-07,
+      "frames": 67,
+      "pawLift": {
+        "FL": 0.1590955889225006,
+        "FR": 0.15958806931972505,
+        "HL": 0.15802456140518187,
+        "HR": 0.15802457392215727
+      },
+      "stanceCancellationError": 4.561402920771367e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.4558773040771484,
+      "coreRadius": 1.6603858877838888,
+      "sideExtent": 1.0404655933380127,
+      "floor": 0.013229843229055405,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.924642650459219e-07,
+      "frames": 67,
+      "pawLift": {
+        "FL": 0.15958803176879885,
+        "FR": 0.1590955764055252,
+        "HL": 0.15802456140518187,
+        "HR": 0.15802458643913267
+      },
+      "stanceCancellationError": 4.098234372361218e-07
+    }
+  ]
+}

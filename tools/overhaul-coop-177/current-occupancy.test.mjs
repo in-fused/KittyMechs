@@ -1,0 +1,35 @@
+import {it,expect} from 'vitest';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {validateToken173} from '../overhaul-coop-173/motion-scheduler.mjs';
+import {validateToken177,proveNeutral177,createMotionScheduler177} from './motion-scheduler.mjs';
+import {certifyCurrentOccupancy177} from './current-occupancy.mjs';
+import {planInteractionSeparation177,validateInteractionSeparation177} from './interaction-separation.mjs';
+const path='.sites-runtime/overhaul-20261010/coop173-public/evidence.json',bytes=readFileSync(path),e=JSON.parse(bytes),saved=e.planning173.filter(p=>p.read?.occupancy&&p.target),motion=e.motion173[0],names=motion.bindings.map(b=>b.name),prior=motion.rebindings[0].previous.bindings;
+const snapshot=p=>({seed:7734,room:motion.room,tick:p.read.tick,time:p.read.actor.nativePose.time,publication:p.read.publication,actors:structuredClone(p.read.occupancy),structures:structuredClone(p.read.structures),cover:structuredClone(p.read.cover),ruins:structuredClone(p.read.ruins)});
+const token=s=>({...structuredClone(motion),state:'COMMITTED',tick:s.tick,sequence:s.publication.sequence,bindings:structuredClone(prior),currentOccupancy:[]});
+it('all ten exact saved reads retain every NPC and actual nm drift yet recertify full origin/corridor/arrival without a rebind',()=>{
+ expect(createHash('sha256').update(bytes).digest('hex')).toBe('709abafa20c186217d4d61b3d9ec72e8d2e1127906826ed66a25c16c8f07e082');const receipts=[];
+ for(const p of saved){const s=snapshot(p),t=token(s);expect(s.actors.filter(a=>a.bot)).toHaveLength(12);expect(()=>validateToken173(t,s)).toThrow('displacement');expect(validateToken177(t,s)).toBe(t);const proof=certifyCurrentOccupancy177(t,s,p.target);expect(proof.certificates.origin.clear).toBe(true);expect(proof.certificates.corridor.clear).toBe(true);expect(proof.certificates.endpoint.clear).toBe(true);expect(proof.certificates.endpoint.allActorOccupancy).toBe(14);receipts.push(proof);}
+ expect(saved).toHaveLength(10);writeFileSync(new URL('./saved-read-receipt.json',import.meta.url),JSON.stringify({writer:'CLOSED',scope:'EXACT_SAVED_READ_GEOMETRY_COMPARISON_NOT_PUBLIC_RERUN;TOKEN_CLOCK_FROM_EACH_READ',input:path,sha256:createHash('sha256').update(bytes).digest('hex'),baseline:'BIT_EQUAL_173_REJECTS',candidate:'CURRENT_ALL_OCCUPANCY_CERTIFICATES_PASS',receipts},null,2));
+});
+it('real blocking peer geometry requires bounded rebind, while changed life/enabled state never inherits the old certificate',()=>{
+ const p=saved[0],s=snapshot(p),t=token(s),peer=s.actors.find(a=>a.name!==t.active&&!a.bot),active=s.actors.find(a=>a.name===t.active);
+ for(const position of [{...active.position,x:active.position.x+3},{...peer.position,x:p.target.x+4,z:p.target.z}]){const changed=structuredClone(s);changed.actors.find(a=>a.id===peer.id).position=position;let error;try{certifyCurrentOccupancy177(t,changed,p.target);}catch(e){error=e;}expect(error?.rebindRequired177).toBe(true);expect(error.geometryReceipt177.parked[0].position).toEqual(position);}
+ for(const change of [a=>a.jumpEpoch++,a=>a.nativePose.enabled=false,a=>a.downed={at:1},a=>a.hp=0]){const changed=structuredClone(s);change(changed.actors.find(a=>a.id===peer.id));expect(()=>validateToken177(t,changed)).toThrow();}
+ const restless=structuredClone(s);restless.actors.find(a=>a.id===peer.id).velocity.x=.13;let restError;try{validateToken177(t,restless);}catch(e){restError=e;}expect(restError?.rebindRequired177).toBe(true);
+});
+it('actual enabled/rest contracts retain neutral native ACK and key ownership independently of coordinates',()=>{
+ const s=snapshot(saved[0]),peer=prior.find(p=>p.name!==motion.active),actor=s.actors.find(a=>a.id===peer.id),packet=peer.packet;
+ const observed={snapshot:s,transport:{connection:'Connected'},input:{input:packet.input,lastSent:packet,sent:[packet],keys:[]}};const settled={neutral:packet,rest:peer.rest};expect(proveNeutral177(observed,peer.name,settled).id).toBe(actor.id);
+ for(const change of [x=>x.input.keys=['KeyF'],x=>x.input.input={...x.input.input,forward:1},x=>x.snapshot.actors.find(a=>a.id===peer.id).lastInput=packet.input.seq-1,x=>x.input.lastSent={...x.input.lastSent,generation:77},x=>x.snapshot.actors.find(a=>a.id===peer.id).nativePose.enabled=false]){const invalid=structuredClone(observed);change(invalid);expect(()=>proveNeutral177(invalid,peer.name,settled)).toThrow();}
+});
+it('one public owner validates both fresh admitted geometry reads and native neutral evidence before keyboard press',async()=>{
+ const p=saved[0],s=snapshot(p),events=[],ps=names.map(name=>({name,page:{keyboard:{up:async k=>events.push(name+':up:'+k),press:async k=>events.push(name+':press:'+k),down:async k=>events.push(name+':down:'+k)}}})),inputs=new Map(prior.map(b=>[b.name,{input:b.packet.input,lastSent:b.packet,sent:[b.packet],keys:[]}])) ;
+ const observed=page=>({snapshot:s,transport:{connection:'Connected'},input:inputs.get(ps.find(p=>p.page===page).name)}),scheduler=createMotionScheduler177({pilots:()=>ps,read:async page=>observed(page),release:async page=>page.keyboard.up('KeyW'),controller:(_page,name)=>({settle:async()=>({neutral:prior.find(b=>b.name===name).packet,rest:prior.find(b=>b.name===name).rest})}),guard:()=>{},evidence:{}});for(const x of ps)x.page=scheduler.page(x.page,x.name);
+ await scheduler.run(motion.active,{intent:'UNCOMMITTED'},async()=>{scheduler.commit({target:p.target,path:p.path,endpoint:p.endpoint});const identity={generation:p.read.identity.generation,localId:p.read.identity.localId,life:p.read.identity.life},proofs=await scheduler.validate(s,identity,p.target);expect(proofs).toHaveLength(2);expect(events.filter(x=>x.includes('press')).length).toBe(0);expect(()=>ps.find(x=>x.name!==motion.active).page.keyboard.press('KeyW')).toThrow('ownership');await ps.find(x=>x.name===motion.active).page.keyboard.press('KeyW');});expect(scheduler.active()).toBeNull();writeFileSync(new URL('./ownership-receipt.json',import.meta.url),JSON.stringify({writer:'CLOSED',scope:'SOURCE_PUBLIC_API_ORDER_FIXTURE;INPUT_OBSERVATION_ADAPTER_NOT_NEW_NATIVE_PROOF',events},null,2));
+});
+it('physical interaction departure certifies actual parked drift using one current peer frame, while real blockers/life changes still reject',()=>{
+ const s=snapshot(saved[0]),[a,p]=s.actors.filter(a=>!a.bot);a.position={x:-8,y:.92,z:9.3};p.position={x:-12.2,y:.92,z:9.3};const plan=planInteractionSeparation177(s,a.name,p.name),current=structuredClone(s);const cp=current.actors.find(q=>q.id===p.id);cp.position.x+=prior[0].position.x-motion.bindings[0].position.x;const proof=validateInteractionSeparation177(plan,current);expect(proof.physical.clear).toBe(true);expect(proof.endpoint.clear).toBe(true);
+ const blocked=structuredClone(current);blocked.actors.find(q=>q.id===p.id).position.x=-10;expect(()=>validateInteractionSeparation177(plan,blocked)).toThrow();const changed=structuredClone(current);changed.actors.find(q=>q.id===p.id).jumpEpoch++;expect(()=>validateInteractionSeparation177(plan,changed)).toThrow();
+});

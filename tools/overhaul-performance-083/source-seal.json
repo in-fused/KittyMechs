@@ -1,0 +1,306 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45494,
+      "sha256": "307a24125d6bf4d4750c3f898bac17c36707f865cab397dcf511f65ee3571cb9"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds078.ts",
+      "bytes": 8191,
+      "sha256": "8b94ec3c5cd7c853f3ce4ef12bcdf9926c5b89d4d0daa6e376ae41cbc6267e3b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/containment-check.ts",
+      "bytes": 8308,
+      "sha256": "16a06efaffe4fdc3c89c3b6030c1c633ccea0d1ee003095c6dcfd90b1a0ac95b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/input-pins.json",
+      "bytes": 1302,
+      "sha256": "bd2730f4ac8f7b5476418237b86dc35233e8b38a93330aa598b7a02439a0ff4c"
+    },
+    {
+      "path": "tools/overhaul-performance-078/preimages/Actors.tsx",
+      "bytes": 44997,
+      "sha256": "486bbde5ebdfb2173abf884d94981ed1a92172e3a37b3c96e4dd4409de75e1f1"
+    },
+    {
+      "path": "docs/overhaul/performance-078-source-handoff.md",
+      "bytes": 6129,
+      "sha256": "814a275a6a6f352df8d0be96701c3c2864d67620982e8f9e79b11f1f02526459"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11235,
+      "sha256": "86ff4f2322fd3c970cbdecf8cee30883ff63eaf5e4e1187b3eb67e8070c139ff"
+    },
+    {
+      "path": "src/game/camera/visualEnvelope.ts",
+      "bytes": 10665,
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": "public/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": "public/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": "node_modules/three/src/objects/SkinnedMesh.js",
+      "bytes": 8670,
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc"
+    },
+    {
+      "path": "node_modules/three/src/math/Frustum.js",
+      "bytes": 7615,
+      "sha256": "2332e8d732aace16957af57f82733969416827a4cfad8d5bea338fee9f082077"
+    },
+    {
+      "path": "node_modules/three/src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js",
+      "bytes": 400,
+      "sha256": "4422467001348636551ce64f1e6631d8a5032b7ac2788596c2dc5269618c7602"
+    },
+    {
+      "path": "src/game/entities/pawContact.ts",
+      "bytes": 28023,
+      "sha256": "c4f210aafc26068b96da2fca8ddac81bb66563cafab98452d1d1562f2afd4f71"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239"
+    },
+    {
+      "path": "src/game/entities/movingRFfeet067.ts",
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8"
+    },
+    {
+      "path": "tools/overhaul-performance-077/source-seal.json",
+      "bytes": 3706,
+      "sha256": "e484001bc6e4f06f8c936164e9ab81d7e69e140cbaa6613574ed05af12acbba9"
+    },
+    {
+      "path": "tools/overhaul-performance-079/containment-check.ts",
+      "bytes": 10546,
+      "sha256": "596d82cd0d27858f5f4987de8502127759155316b177d5b2e896b35e0310a101"
+    },
+    {
+      "path": "tools/overhaul-performance-079/input-pins.json",
+      "bytes": 1302,
+      "sha256": "bd2730f4ac8f7b5476418237b86dc35233e8b38a93330aa598b7a02439a0ff4c"
+    },
+    {
+      "path": "docs/overhaul/performance-079-fixture-source-handoff.md",
+      "bytes": 2587,
+      "sha256": "eda9a8ce5ad5a65b76c3cca9103f90f01667264f80848c05b6e058af77a3b4a3"
+    },
+    {
+      "path": "tools/overhaul-performance-078/containment-result.json",
+      "bytes": 1769,
+      "sha256": "f35186cc9565ebfdb660f1f7db629d5a1f56a66e50f6abf34276769b5e63699b"
+    },
+    {
+      "path": "tools/overhaul-performance-078/source-seal.json",
+      "bytes": 4376,
+      "sha256": "3867563789f634e42584acee279513b599c68e8094192dbf11ed4a94500df526"
+    },
+    {
+      "path": "node_modules/@react-three/drei/core/Gltf.js",
+      "bytes": 1625,
+      "sha256": "2f4e4415df8d1b48c3b607682d149af655d0e6597dd8d7e76e9598fd6b26590f"
+    },
+    {
+      "path": "node_modules/three-stdlib/package.json",
+      "bytes": 1592,
+      "sha256": "a9e0fc21ca2978776b273b04b6b6c82e3edb69a74452c1c6d03551c2ac63b364"
+    },
+    {
+      "path": "node_modules/three-stdlib/index.js",
+      "bytes": 23796,
+      "sha256": "d07c7c8fcedc65e462fc068bb0d787e0b63bd98db14e605e0bd7933b00ea0152"
+    },
+    {
+      "path": "node_modules/three-stdlib/index.cjs",
+      "bytes": 35550,
+      "sha256": "33d4088a01b9e64f0685cefd2641a24ddd50c1f291ce66c33814a4b903badb59"
+    },
+    {
+      "path": "node_modules/three/package.json",
+      "bytes": 4635,
+      "sha256": "aa42494664dba4cf76d89c6975ee38321a402f09a048672e190bad6f13beec93"
+    },
+    {
+      "path": "node_modules/three/build/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "node_modules/three/build/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "node_modules/three/build/three.cjs",
+      "bytes": 2006834,
+      "sha256": "2980c5831824f46d79a39a93feb70dd851538ce5b5480a6463883b319022c51f"
+    },
+    {
+      "path": "node_modules/three-stdlib/loaders/GLTFLoader.js",
+      "bytes": 99777,
+      "sha256": "2799720aedc03a4e3436ab37ffdd6b0246d874ed412a945b31d04d9da23f4078"
+    },
+    {
+      "path": "node_modules/three-stdlib/loaders/GLTFLoader.cjs",
+      "bytes": 99703,
+      "sha256": "1eb9d517c8a859ca486f4210429afec5626bf3bf020b23a8c1ddbb2b6181ed44"
+    },
+    {
+      "path": "node_modules/three-stdlib/libs/MeshoptDecoder.js",
+      "bytes": 21758,
+      "sha256": "7c67a585ae0d27c4d18f49fa291a31158fcc60260780435448fcff199385d3dd"
+    },
+    {
+      "path": "node_modules/three-stdlib/libs/MeshoptDecoder.cjs",
+      "bytes": 21858,
+      "sha256": "16d06414c2861ba04f0e7c3955862ecf59e188f452b83bb1a943f8799f427e20"
+    },
+    {
+      "path": "node_modules/three-stdlib/utils/BufferGeometryUtils.js",
+      "bytes": 22947,
+      "sha256": "f55168115dae8aa3e03b12523ae9f2a85ff68ca37dee6358a72e5f769fda49d6"
+    },
+    {
+      "path": "node_modules/three-stdlib/utils/BufferGeometryUtils.cjs",
+      "bytes": 23274,
+      "sha256": "ac1ab2e16dbf9c7b6c5dd813b8c4e8852e41bae3fc3458078bd75c772e4b717d"
+    },
+    {
+      "path": "node_modules/three-stdlib/_polyfill/constants.js",
+      "bytes": 176,
+      "sha256": "64dcf53815b90bb3617f8f0328967a90ed4f55a87d139a67f2c61fd9406a7904"
+    },
+    {
+      "path": "node_modules/three-stdlib/_polyfill/constants.cjs",
+      "bytes": 273,
+      "sha256": "f733188c09fef502fe6160b798b39742aca878e5fbee32cdc03198f033ba3258"
+    },
+    {
+      "path": "node_modules/three-stdlib/_polyfill/LoaderUtils.js",
+      "bytes": 382,
+      "sha256": "edf4fca30756a9dfd1e79305720ec88b236bf62839b6b864b8b880ff849d9ba9"
+    },
+    {
+      "path": "node_modules/three-stdlib/_polyfill/LoaderUtils.cjs",
+      "bytes": 478,
+      "sha256": "22736b7c9a04ff2b5657043f86f70da56f537a2fd0aa091f96e32698a611f0e8"
+    },
+    {
+      "path": "src/game/entities/animatedEnemyBounds081.ts",
+      "bytes": 8749,
+      "sha256": "b1b3a52f77fcc3af95829b559db61b8425e918468c3edd9dbe0c6ef130b83ecb"
+    },
+    {
+      "path": "tools/overhaul-performance-081/excluded-Actors078.tsx",
+      "bytes": 45494,
+      "sha256": "d707e7ea81e5f59b52f9e5c00b00d1bd50e4e4068b517520dfa78ea36929ec46"
+    },
+    {
+      "path": "tools/overhaul-performance-081/containment-check.ts",
+      "bytes": 10614,
+      "sha256": "cbef3d7c72a7e1280404a61124776dc746e4e000fde033f21cb44c5a54186318"
+    },
+    {
+      "path": "tools/overhaul-performance-081/input-pins.json",
+      "bytes": 1304,
+      "sha256": "4d3ffc308343d8185389da9ca90b1b1dc938a8f2b2238236aef715d05db4a7db"
+    },
+    {
+      "path": "docs/overhaul/performance-081-source-handoff.md",
+      "bytes": 3431,
+      "sha256": "52e99b03e8ae144f904159628197470fc9f5a2089c916ba37314fe41e42602c3"
+    },
+    {
+      "path": "tools/overhaul-performance-079/containment-result.json",
+      "bytes": 1789,
+      "sha256": "18d768a920c05ffb0433dde701536882ede5676152186c226a5ed31885a27c6d"
+    },
+    {
+      "path": "tools/overhaul-performance-079/source-seal.json",
+      "bytes": 8440,
+      "sha256": "82453ad4de94c644bbf6914c309e31d13dac55eb062672195e50aac51c000d62"
+    },
+    {
+      "path": "node_modules/three/src/core/Object3D.js",
+      "bytes": 38829,
+      "sha256": "cfed8e6018386737493550ffc71df046538d687843c0ff5a3206eaa5994b07f1"
+    },
+    {
+      "path": "node_modules/three/src/renderers/WebGLRenderer.js",
+      "bytes": 102861,
+      "sha256": "35cea4871231c3fddc3517dcd03fc876bdb8f9e73f1a77042b35e3de0498c4cd"
+    },
+    {
+      "path": "tools/overhaul-performance-081/source-seal.json",
+      "bytes": 10298,
+      "sha256": "3bcc8ee43033cf396733cd4ea00ae5d707d006828ccc3eb0067853f0243cf4b4"
+    },
+    {
+      "path": "tools/overhaul-performance-083/capture.mjs",
+      "bytes": 5984,
+      "sha256": "ba3229b78ae94da6cfbb2edb3c5e8a71dfa6c93de97f2ff2676d80ec7231184c"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-084/prepare.py",
+      "bytes": 2614,
+      "sha256": "d51317125929346d7b7a84e6adc6a6e50ee6a13221af790f50c9fbdab0d276b5"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-084/launch.py",
+      "bytes": 550,
+      "sha256": "e03a7c0eda80fc27a769be38525d7e3afe980ac41ef5232f327350ae4c9f1a75"
+    },
+    {
+      "path": "tools/overhaul-performance-integration-084/freeze046.py",
+      "bytes": 2329,
+      "sha256": "c42121d7c31d2ec44a5289ec025236e24a3c2a5f8b1fc1158825e49d9e0a1037"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "docs/overhaul/critic/performance082-result-review.md",
+      "bytes": 2674,
+      "sha256": "2d63962b5c2889da45cffc82c5ea02f62266695f6a9944b7d2d5248503af12b4"
+    }
+  ],
+  "scope": "One observer-only public Escape pause transition and paused UI assertion, unchanged phase sequence and timing. No game edits; 081 fixture PASS reused, no fixture rerun. First failure closes sequence; original082 failure preserved. Userlag/camera unqualified."
+}

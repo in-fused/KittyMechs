@@ -1,0 +1,95 @@
+{
+  "status": "SOURCE_FROZEN_UNRUN",
+  "writer": "CLOSED",
+  "ownedGameSource": [
+    "src/game/camera/CameraRig.tsx",
+    "src/game/camera/playerOrbit087.ts"
+  ],
+  "noChildJobs": true,
+  "rootGate": "Independent source review; ONE build; ONE <=80s actual public view observation, images/video decide",
+  "nativeHelperQueryBound": 20,
+  "additionalExistingFocusAimDebugQueries": true,
+  "notPromoted": true,
+  "files": [
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10383,
+      "sha256": "6448b9944ec297e9ec8b235d32756451ee0f2a2eb2ce6c2c2915f6eb5f8a078d"
+    },
+    {
+      "path": "src/game/camera/playerOrbit087.ts",
+      "bytes": 6280,
+      "sha256": "7fad938e02e0703aabb7b7bf160e5463a27b640a3753aefad5ff7482c1e869f4"
+    },
+    {
+      "path": "tools/overhaul-camera-087/preimages/CameraRig.tsx",
+      "bytes": 11217,
+      "sha256": "8c5579319b0397c7a945c19c5688063a91fff8e32c6ae1e2a5686c3c89906a2f"
+    },
+    {
+      "path": "docs/overhaul/camera-087-source-handoff.md",
+      "bytes": 5007,
+      "sha256": "8bcb5ae52af05da3d9f74f759373d42c59ede20d0ec7fbdf2959c16c0d3f9aa9"
+    },
+    {
+      "path": "src/game/camera/framing.ts",
+      "bytes": 4987,
+      "sha256": "25eb1fcc0c90782023243061a0274c229fb70b5830cb80b1b856b9f77d85b594"
+    },
+    {
+      "path": "src/game/camera/felineFraming034.ts",
+      "bytes": 785,
+      "sha256": "dc5f0b1cc577113c0bc4cf303ec248b92648d6e4c3a3c6a90db1b0b6d7612086"
+    },
+    {
+      "path": "src/game/camera/clearance.ts",
+      "bytes": 791,
+      "sha256": "8b75ee9bffb49f914d9419fa180f6e63a6763176be8831dbad617b74b7b5828e"
+    },
+    {
+      "path": "src/game/camera/thirdPersonSight058.ts",
+      "bytes": 2610,
+      "sha256": "0f142e9399227e9326d60e97f5a7788e7867eeef74391e7ca385be47504886c7"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 2915,
+      "sha256": "7a9b924900bacd30b55c35bff4db56ed91edd80442d009eff2d151315c4c15d9"
+    },
+    {
+      "path": "src/game/camera/pairFraming.ts",
+      "bytes": 3190,
+      "sha256": "2c4eb4167cdf526c7b40fbac8b48cbdbc3e8412ca697ff7828527360d87aa249"
+    },
+    {
+      "path": "src/game/camera/viewAim.ts",
+      "bytes": 1113,
+      "sha256": "4c456fa05550729204b34f7abfa79bdd965d88424ecce4350e89c3784a542c6c"
+    },
+    {
+      "path": "docs/overhaul/camera-073-source-handoff.md",
+      "bytes": 3057,
+      "sha256": "be6c079802d51d5103aa470bf4f51ffbe0196eec3a70db135f0ac975bcc22779"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": "node_modules/three/src/cameras/PerspectiveCamera.js",
+      "bytes": 10657,
+      "sha256": "d320931296a1e5d0c16cea851debc60f9002d4bec9e32b473dad2e564d5460be"
+    },
+    {
+      "path": "node_modules/three/src/math/Quaternion.js",
+      "bytes": 21716,
+      "sha256": "55779e1df34ecb631773bf97fefdf4b81e762cf2c13273ba5d4d2c91cde0c67f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/performance082-baseline/failure.png",
+      "bytes": 783444,
+      "sha256": "98b382f12784e5e2f05eed2951fd10bb5ad66599022b8cb95d7c298e394ede17"
+    }
+  ]
+}

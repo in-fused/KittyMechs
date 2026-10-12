@@ -1,0 +1,164 @@
+{
+  "frozenUtc": "2026-10-10T18:28:49.113144+00:00",
+  "scope": "012 fixture correction + exact frozen008 source/prep2 inherited inputs; no asset/native qualification",
+  "rows": [
+    {
+      "path": "src/game/entities/publicFelinePrototype008.ts",
+      "bytes": 1746,
+      "sha256": "9e2554131f25e2d9c76367dc8cb88ccc4d64c65d1254503d671b4c3877e4b7d3"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime008Actor.tsx",
+      "bytes": 3882,
+      "sha256": "931bea30565fe732a72da62c13f160bad523cfc8acac0a1d2c6f5b3c67cc4220"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 45353,
+      "sha256": "ad561005b439685f050a4deaf0ec677d60761edc11e46260fc69161683c033bc"
+    },
+    {
+      "path": "src/ui/Settings.tsx",
+      "bytes": 2802,
+      "sha256": "4d3e30a438a87c144053961177ccdb77a728eff4c450f75430322458eb702625"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 2882,
+      "sha256": "18b55ba22b1e386c32bd691e795bb7f60bca5c7bb9fb1507f6c5d0f1a4ada7b9"
+    },
+    {
+      "path": "docs/overhaul/public-feline-prototype-008.md",
+      "bytes": 2217,
+      "sha256": "2a14176a779c3ec64fd73b9db7487fd47e79f319b7f2355c765339c0cb9a6857"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 10452,
+      "sha256": "fbded0fcf886db3ee6c1d6b10ccc7c3866f95e406b78229a0a4cc99ada8ffa51"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Manifest.json",
+      "bytes": 239540,
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005Control.ts",
+      "bytes": 1600,
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime007Actor.tsx",
+      "bytes": 3609,
+      "sha256": "5f14954237b1db6509582bd78b5e7efda8002580cc1803f057c6dc05b2a1ebcd"
+    },
+    {
+      "path": "src/game/camera/weightedVisualEnvelope007.ts",
+      "bytes": 11098,
+      "sha256": "fc53b5777f00a9b83f28f6938cfad8056cdfe780b133807f766de9bb64aeb323"
+    },
+    {
+      "path": "src/game/camera/visualRegistry.ts",
+      "bytes": 1828,
+      "sha256": "4bae6557ecb87ab96b6852cc24acde85b304ecbb115e82a4a43af391ba665f0f"
+    },
+    {
+      "path": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "bytes": 3313800,
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae"
+    },
+    {
+      "path": "tools/overhaul-playable-prototype-008/source-seal.json",
+      "sha256": "89a0261b23e47fec99c71ebdd3d85d6ba16e62c1537763bfda171f92985ef103"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 7280,
+      "sha256": "0ba142df218358b1a5caf79eb1f6ef659942508fff3bd1c19b56fde29bfad359"
+    },
+    {
+      "path": "shared/stanceFeedback.ts",
+      "bytes": 2491,
+      "sha256": "968f498aefaa9e0fe89ca22a35cf0e841c71c68cb4bfd44c4754bce79c0a175d"
+    },
+    {
+      "path": "shared/protocol.ts",
+      "bytes": 10870,
+      "sha256": "1189d00cd2db6b579d96805bdd5880b44dc5521a9bfbac055508104fe1336c9d"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 175245,
+      "sha256": "4dd54a727a6aa9566dca64f8eb6e6ee4a3b94c24621577480a41e2832cbe5298"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 15958,
+      "sha256": "10dfd8799751219202afdc1d4250b14a5d55bf3a349a303c81c47a4c7fbd44fe"
+    },
+    {
+      "path": "src/game/stanceRequest.ts",
+      "bytes": 2291,
+      "sha256": "2e4b6c8e4ccaebf5493a9e0b4d2b45ed5b7f204105e870ee7dee5fd5644ffa7f"
+    },
+    {
+      "path": "src/game/snapshotAdmission.ts",
+      "bytes": 10716,
+      "sha256": "fa0b7b249985f8851ba69a1399509910ab70d25552362271a1bbf583d22bbd68"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18492,
+      "sha256": "80fb95973f2a04b7982cf187f60e8abcb865137da942f0468404140d42015cec"
+    },
+    {
+      "path": "tests/transform-feedback-008.test.ts",
+      "bytes": 6697,
+      "sha256": "5e3ffe25f4cd42e0457814784db14768dbcf8e8b88fae9baacb2675079bb414e"
+    },
+    {
+      "path": "docs/overhaul/transform-feedback-008.md",
+      "bytes": 4910,
+      "sha256": "2b921016711fbbd31ae976283e24c8a3f21375b2b7f2266c0eeb040b301f2c95"
+    },
+    {
+      "path": "tools/overhaul-transform-feedback-008/seal.json",
+      "sha256": "bc991a9864f2f842cc2455a70387d9a8c1b6dd6723e806fc5f8be93778a7ae3b"
+    },
+    {
+      "path": "tools/overhaul-public-prototype-player-008.mjs",
+      "bytes": 10641,
+      "sha256": "83eaa2584935c58ea09a1463f07d6d38f1234b607af3e02ae2feed7ac543f0fb"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-browser-audio.mjs",
+      "bytes": 3140,
+      "sha256": "7714a65f1f7d577f398d538da81e42c63a2c7d3f4d99f3c9625d7fe67b629397"
+    },
+    {
+      "path": "tools/overhaul-playable-prototype-008/observation-prep2-seal.json",
+      "sha256": "111fd5a842bb70b249278b266ad0d25ba7f1538742be556ea5a46bd11f894e05"
+    },
+    {
+      "path": "tests/stance.test.ts",
+      "sha256": "97488619dcfb08bf5647ba99fa1707f702c49cebfe94876ea29532d6b7690966"
+    },
+    {
+      "path": "tools/overhaul-playable-candidate-012/stance.test.ts.preimage",
+      "sha256": "303e20a8048aba6344d0516ec1ea1e8126a5057a29d9592103f0c6b29e81806e"
+    },
+    {
+      "path": "tools/overhaul-playable-candidate-012/preimage-seal.json",
+      "sha256": "f9534e7c5071f8608aecbadbdb71e3c6fd91473ef7c230da75c0d7be17296540"
+    },
+    {
+      "path": "docs/overhaul/playable-candidate-012.md",
+      "sha256": "e5d64dc4a8ae64ffee945865c21131f2bedc66962e858353e7c20f386d960cbb"
+    }
+  ]
+}

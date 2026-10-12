@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/critic",
+  "model": "gpt-6.1-sol",
+  "reviewedAt": "2026-10-04T22:38:34.882Z",
+  "fingerprint": "54550058bd6d9ca802f660ebba24bc6bd050a0ecbabcd853437c5aa4495e9dcd",
+  "areas": {
+    "mechs": "APPROVE",
+    "maps": "APPROVE",
+    "enemyTactics": "APPROVE",
+    "integration": "APPROVE"
+  },
+  "report": "docs/critical-review.md",
+  "scope": "Bounded Lynx recon and Caracal medic fitted-art local source/build gate. Native/frozen release and fresh public HTTPS/WSS/served payload checks remain required after publication.",
+  "baselineCommit": "4be35aec937362f37e777c20b13a1d93ccca3ce6",
+  "coveredFiles": 327,
+  "runtimeFingerprint": "aa7d670bf1b0dd7601dd3608eeef2c1452ff778eba7ca57bb5da5fb1e63c525c",
+  "evidence": ".sites-runtime/critic/recon-medic-art/final-file-audit.json",
+  "assetPairDecision": ".sites-runtime/critic/recon-medic-art/asset-pair-decision.json",
+  "publicVerificationPending": true
+}

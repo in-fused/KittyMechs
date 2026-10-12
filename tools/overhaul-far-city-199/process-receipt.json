@@ -1,0 +1,17 @@
+{
+  "writer": "CLOSED",
+  "status": "TERMINAL",
+  "pid": 358816,
+  "exitCode": 1,
+  "inclusiveSeconds": 1.625,
+  "capSeconds": 173,
+  "sourceMasterBefore": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf",
+  "sourceMasterAfter": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf",
+  "outputs": [
+    {
+      "path": "assets/source/overhaul-far-city-199/preview199.py",
+      "bytes": 3054,
+      "sha256": "bb3079e0209c463387074f40418cb9b3dcffa3652bcfc737fdd14e40e85a5b29"
+    }
+  ]
+}

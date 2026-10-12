@@ -1,0 +1,394 @@
+{
+  "name": "Lynx",
+  "scale": 0.76,
+  "gaitStyle": {
+    "strides": [
+      0.86,
+      1.24,
+      1.85
+    ],
+    "duties": [
+      0.67,
+      0.52,
+      0.4
+    ],
+    "lifts": [
+      0.23,
+      0.34,
+      0.37
+    ],
+    "spring": 0.055
+  },
+  "coreIncludes": "physical pelvis/spine/chest/head/weapon/launcher armor; source-tagged tail/whisker/antenna/tuft cosmetics excluded",
+  "clips": [
+    {
+      "clip": "FelineAbility",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6349121408988334,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.803876060486488e-07
+    },
+    {
+      "clip": "FelineAir",
+      "height": 2.3271093368530273,
+      "coreRadius": 1.637536279380263,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.39322373270988464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.00417553060106e-07
+    },
+    {
+      "clip": "FelineClimb",
+      "height": 2.4180164337158203,
+      "coreRadius": 1.5366036529162779,
+      "sideExtent": 0.6548283100128174,
+      "floor": 0.008786024525761604,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.358127623880435e-06
+    },
+    {
+      "clip": "FelineCling",
+      "height": 2.13516902923584,
+      "coreRadius": 1.5366036529162779,
+      "sideExtent": 0.6238904595375061,
+      "floor": 0.45640233159065247,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.928255808682835e-07
+    },
+    {
+      "clip": "FelineCombatBase",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339973098283753,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.870289708414077e-08
+    },
+    {
+      "clip": "FelineDeath",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339973098283753,
+      "sideExtent": 0.5868720412254333,
+      "floor": 0.013223773799836636,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.222811574448258e-07
+    },
+    {
+      "clip": "FelineGallop",
+      "height": 2.3783698081970215,
+      "coreRadius": 1.6450694484753372,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223744928836823,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.022511584571674e-07
+    },
+    {
+      "clip": "FelineGrab",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339970714980692,
+      "sideExtent": 0.6459813714027405,
+      "floor": 0.013223769143223763,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.126185985986794e-06
+    },
+    {
+      "clip": "FelineHit",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6356473094118855,
+      "sideExtent": 0.5911035537719727,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.3226193544824129e-07
+    },
+    {
+      "clip": "FelineIdle",
+      "height": 2.327993392944336,
+      "coreRadius": 1.6376503206171726,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223730958998203,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.6515972400377166e-07
+    },
+    {
+      "clip": "FelineMantle",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339970714980692,
+      "sideExtent": 0.5967115163803101,
+      "floor": 0.013223769143223763,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 5.793823809163712e-07
+    },
+    {
+      "clip": "FelineMissile",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339973098283753,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.038406017705995e-07
+    },
+    {
+      "clip": "FelinePulse",
+      "height": 2.3097920417785645,
+      "coreRadius": 1.6339973098283753,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 1.705668934270932e-07
+    },
+    {
+      "clip": "FelineTransformDown",
+      "height": 3.112048387527466,
+      "coreRadius": 1.6339970714980692,
+      "sideExtent": 0.6531145572662354,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.904223234492022e-07
+    },
+    {
+      "clip": "FelineTransformUp",
+      "height": 3.112048387527466,
+      "coreRadius": 1.6339970714980692,
+      "sideExtent": 0.6531145572662354,
+      "floor": 0.013223765417933464,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.904223234492022e-07
+    },
+    {
+      "clip": "FelineTrot",
+      "height": 2.328913688659668,
+      "coreRadius": 1.6378825738962415,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223757967352867,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.043951999297633e-07
+    },
+    {
+      "clip": "FelineUprightAbility",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.305434887059899,
+      "sideExtent": 0.6657965183258057,
+      "floor": 0.013223787769675255,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.293838336082544e-07
+    },
+    {
+      "clip": "FelineUprightAir",
+      "height": 3.1142635345458984,
+      "coreRadius": 1.3063085658363884,
+      "sideExtent": 0.6538141965866089,
+      "floor": 0.37802380323410034,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.789515780867504e-07
+    },
+    {
+      "clip": "FelineUprightCombatBase",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.305434887059899,
+      "sideExtent": 0.6573989987373352,
+      "floor": 0.013223866000771523,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.293838336082544e-07
+    },
+    {
+      "clip": "FelineUprightDeath",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.6013001523876969,
+      "sideExtent": 0.6607935428619385,
+      "floor": 0.013223811984062195,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.7848713256405377e-07
+    },
+    {
+      "clip": "FelineUprightHit",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.318862692240803,
+      "sideExtent": 0.7477517127990723,
+      "floor": 0.013223866000771523,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.293838336082544e-07
+    },
+    {
+      "clip": "FelineUprightIdle",
+      "height": 3.114370822906494,
+      "coreRadius": 1.3063540291711286,
+      "sideExtent": 0.6541588306427002,
+      "floor": 0.013223753310739994,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.789515780867504e-07
+    },
+    {
+      "clip": "FelineUprightMissile",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.467065482625434,
+      "sideExtent": 0.6573991179466248,
+      "floor": 0.013223855756223202,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.8222114824737473e-07
+    },
+    {
+      "clip": "FelineUprightPulse",
+      "height": 3.1120479106903076,
+      "coreRadius": 1.3130127687702533,
+      "sideExtent": 0.6573989987373352,
+      "floor": 0.0132238008081913,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.293838336082544e-07
+    },
+    {
+      "clip": "FelineUprightWalk",
+      "height": 3.114363193511963,
+      "coreRadius": 1.3077625215527238,
+      "sideExtent": 0.6593658924102783,
+      "floor": 0.013223670423030853,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 3.936454320330185e-07
+    },
+    {
+      "clip": "FelineWalk",
+      "height": 2.32761549949646,
+      "coreRadius": 1.6376453156724833,
+      "sideExtent": 0.5868721008300781,
+      "floor": 0.013223695568740368,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 2.679783011938497e-07
+    },
+    {
+      "clip": "FelineTurnLeft",
+      "height": 2.3097894191741943,
+      "coreRadius": 1.6347360447596835,
+      "sideExtent": 0.9469518661499023,
+      "floor": 0.013223664835095406,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.585141188151454e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.18222737073898315,
+        "FR": 0.18162001729011534,
+        "HL": 0.18121056616306305,
+        "HR": 0.18235705196857455
+      },
+      "stanceCancellationError": 4.741597257777549e-07
+    },
+    {
+      "clip": "FelineTurnRight",
+      "height": 2.3097894191741943,
+      "coreRadius": 1.6347360447596835,
+      "sideExtent": 0.9469518661499023,
+      "floor": 0.013223684392869473,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "limbLengthError": 4.585141188151454e-07,
+      "frames": 52,
+      "pawLift": {
+        "FL": 0.18161998331546783,
+        "FR": 0.18222735941410065,
+        "HL": 0.182357017993927,
+        "HR": 0.18121056616306305
+      },
+      "stanceCancellationError": 4.565206087162269e-07
+    },
+    {
+      "clip": "FelineUprightWalkLong",
+      "duration": 1.2,
+      "height": 3.108438014984131,
+      "sideExtent": 0.6846251487731934,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3134580177036916,
+      "floor": 0.01322372816503048,
+      "limbLengthError": 5.248345584396575e-07,
+      "maxSupportReach": 0.9370700035033293,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03040003776550293,
+      "pelvisLateralRange": 0.07599999755620956
+    },
+    {
+      "clip": "FelineUprightStride",
+      "duration": 0.9,
+      "height": 3.0854480266571045,
+      "sideExtent": 0.6845556497573853,
+      "coreHeight": 3.0854480266571045,
+      "coreRadius": 1.3134444523016284,
+      "floor": 0.013223635032773018,
+      "limbLengthError": 5.304746985279607e-07,
+      "maxSupportReach": 0.9600323347395645,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.030297279357910156,
+      "pelvisLateralRange": 0.07587141543626785
+    },
+    {
+      "clip": "FelineUprightTurnLeft",
+      "duration": 1.1,
+      "height": 3.108438014984131,
+      "sideExtent": 0.7614450454711914,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3141338740954058,
+      "floor": 0.013223662041127682,
+      "limbLengthError": 5.248345584396575e-07,
+      "maxSupportReach": 0.8739911576231787,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03033125400543213,
+      "pelvisLateralRange": 0.0759139135479927
+    },
+    {
+      "clip": "FelineUprightTurnRight",
+      "duration": 1.1,
+      "height": 3.108438014984131,
+      "sideExtent": 0.7614448666572571,
+      "coreHeight": 3.108438014984131,
+      "coreRadius": 1.3141341057169076,
+      "floor": 0.01322368998080492,
+      "limbLengthError": 4.531424004516893e-07,
+      "maxSupportReach": 0.8739911535944722,
+      "rootTranslation": 0,
+      "rootRotation": 0,
+      "pelvisVerticalRange": 0.03033125400543213,
+      "pelvisLateralRange": 0.0759139135479927
+    }
+  ],
+  "turnStyle": {
+    "arc": 0.72,
+    "duty": 0.68,
+    "duration": 0.85,
+    "lift": 0.24,
+    "lead": 0.06,
+    "offsets": {
+      "FL": 0,
+      "HR": 0.08,
+      "FR": 0.5,
+      "HL": 0.58
+    }
+  }
+}

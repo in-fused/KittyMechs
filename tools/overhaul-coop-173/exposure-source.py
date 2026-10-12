@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('tools/overhaul-coop-173/exposure-search.mjs');t=p.read_text();old='g.parked=[...s.actors,...(i===1?[{...humans[0],id:humans[0].id+":planned-space-only",position:{...humans[0].position,...goals[0]},plannedArrival173:1.1}]:[])];';assert old in t;t=t.replace(old,'g.parked=s.actors;');t=t.replace("actualArrivalAndLOS:'REQUIRED_AFTER_PUBLIC_TRAVERSAL'","nextGoals:'UNCOMMITTED_UNTIL_ACTUAL_PHASE_HANDOFF',actualArrivalAndLOS:'REQUIRED_AFTER_PUBLIC_TRAVERSAL'");p.write_text(t)

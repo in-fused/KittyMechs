@@ -1,0 +1,41 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_NUMERIC_FAILURE_STOP",
+  "files": [
+    {
+      "path": "tools/overhaul-spatial-render-281/check281.py",
+      "bytes": 1635,
+      "sha256": "743d21052f172fd11adeca9969ff4f74480a9812dbad6c8ba8f572d2b59f04a8"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/overhaulDistrictArt281.tsx",
+      "bytes": 9261,
+      "sha256": "02d3d90f172f1d0af2e53baf19197022a0a6cd7df47e4bd06a7eca5264671170"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/preimage281.json",
+      "bytes": 634,
+      "sha256": "48412a366f11141f0ed9ef492c2e972da32cfd025076698a1f95ff142e9426a1"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/prepare281.py",
+      "bytes": 2021,
+      "sha256": "8a067a26abedf6dc62df465361486df6055ed4963aacf14c3d6c32095d907357"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/spatial281.ts",
+      "bytes": 1226,
+      "sha256": "f1bbbca344d73e2ab14e30d4f4926d4502b1118b1f686946fb8e717f646474fa"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/terminal281.json",
+      "bytes": 1058,
+      "sha256": "19d916267d7d5c4b0475c927f63d0e65f7c6f1bcc5cbaba88bfb852f6cbc4d56"
+    },
+    {
+      "path": "tools/overhaul-spatial-render-281/test281.ts",
+      "bytes": 4151,
+      "sha256": "af587756ade4340d13c2b1079000a1276ef92b995feeac12d7911f15566e5d7d"
+    }
+  ]
+}

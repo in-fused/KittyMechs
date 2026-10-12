@@ -1,0 +1,393 @@
+{
+  "writer": "CLOSED",
+  "status": "FIRST_REMAINING_FIXTURE_FAILURE",
+  "counts": {
+    "frames": 480,
+    "fulfilled": 329,
+    "touch": 729,
+    "release": 692,
+    "independentChecks": 80
+  },
+  "cases": [
+    {
+      "name": "FelineWalk",
+      "direction": 1,
+      "fulfilledFrames": 110,
+      "sampledStates": {
+        "touch": 8,
+        "source": 3,
+        "release": 3,
+        "plant": 2
+      },
+      "maxSampledNormalGap": 0.05282029088218656,
+      "maxSampledSamePointError": 0.05797565271530621,
+      "sampledLoadRejected": 0,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY",
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT",
+        "CURRENT_FIXED_SUPPORT_TOUCH",
+        "CURRENT_SOLVE_REJECTED"
+      ]
+    },
+    {
+      "name": "FelineWalk",
+      "direction": -1,
+      "fulfilledFrames": 109,
+      "sampledStates": {
+        "touch": 8,
+        "source": 1,
+        "release": 4,
+        "plant": 3
+      },
+      "maxSampledNormalGap": 0.01984092340733897,
+      "maxSampledSamePointError": 0.09233867660633725,
+      "sampledLoadRejected": 0,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY",
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT"
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "direction": 1,
+      "fulfilledFrames": 56,
+      "sampledStates": {
+        "touch": 7,
+        "source": 2,
+        "release": 5,
+        "plant": 2
+      },
+      "maxSampledNormalGap": 0.05290024069444158,
+      "maxSampledSamePointError": 0.26976447424550776,
+      "sampledLoadRejected": 0,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY",
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT",
+        "CURRENT_FIXED_SUPPORT_TOUCH",
+        "CURRENT_SOLVE_REJECTED"
+      ]
+    },
+    {
+      "name": "FelineTrot",
+      "direction": -1,
+      "fulfilledFrames": 54,
+      "sampledStates": {
+        "touch": 8,
+        "source": 2,
+        "release": 5,
+        "plant": 1
+      },
+      "maxSampledNormalGap": 0.05944881458460704,
+      "maxSampledSamePointError": 0.07842074892470764,
+      "sampledLoadRejected": 0,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY",
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT"
+      ]
+    },
+    {
+      "name": "FelineGallop",
+      "direction": 1,
+      "fulfilledFrames": 0,
+      "sampledStates": {
+        "source": 5,
+        "touch": 5,
+        "release": 6
+      },
+      "maxSampledNormalGap": 0.02482276326656707,
+      "maxSampledSamePointError": 0.025340928990190928,
+      "sampledLoadRejected": 0,
+      "releaseReasons": [
+        "AUTHORED_UNLOAD_OR_RECOVERY"
+      ]
+    }
+  ],
+  "firstFailure": "AssertionError [ERR_ASSERTION]: NO_ACTUAL_CORRECTION:FelineGallop:1",
+  "lastCase": {
+    "name": "FelineGallop",
+    "direction": 1,
+    "i": 95,
+    "phase": 0.9895833333333335,
+    "stance": 0,
+    "root": [
+      0.03271908282177605,
+      0,
+      -0.9994645874763657,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0.9994645874763657,
+      0,
+      0.03271908282177605,
+      0,
+      0,
+      0.02,
+      -2.435897435897434,
+      1
+    ]
+  },
+  "lastFeet": [
+    {
+      "limb": "FL",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineGallop",
+          "weight": 1,
+          "q": 0.5695833333333336,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "FL",
+        "meshUUID": "49054477-8316-4314-96fd-eee87d903ac2",
+        "geometryUUID": "82e3b63e-bff9-4536-a9f3-0add7366dcd1",
+        "vertexIndex": 1237,
+        "groupIndex": 11
+      },
+      "lease": null,
+      "anchor": [
+        0.2687336121760262,
+        3.214745447621681e-08,
+        -2.298171091977657
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "finalState": "release",
+      "recoveryProgress": 0.4222972972972972,
+      "preRelease": {
+        "current": {
+          "limb": "FL",
+          "hip": [
+            -0.4947112902181565,
+            1.1814066729889312,
+            -1.7984700629582844
+          ],
+          "target": [
+            0.20340647317242355,
+            0.1376123410903902,
+            -2.21688368613659
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.0922277135398956,
+          "maximum": 1.3365280090876979,
+          "distance": 1.323610584320851,
+          "admitted": true
+        },
+        "observedStepProjection": {
+          "limb": "FL",
+          "hip": [
+            -0.4947112902181565,
+            1.1814066729889312,
+            -1.7984700629582844
+          ],
+          "target": [
+            0.2207562427168508,
+            0.13136750908167746,
+            -2.2193794951871806
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.0922277135398956,
+          "maximum": 1.3365280090876979,
+          "distance": 1.3385218662996887,
+          "admitted": false
+        },
+        "anchor": [
+          0.04490695627463909,
+          -4.7048966500540246e-08,
+          -2.135382939602029
+        ],
+        "material": [
+          -0.7527492273462613,
+          0.02000004254471423,
+          -1.7504515281086581
+        ],
+        "phase": 0.90625,
+        "roles": [
+          {
+            "clip": "FelineTrot",
+            "weight": 1,
+            "q": 0.36624999999999996,
+            "role": "stance"
+          }
+        ]
+      }
+    },
+    {
+      "limb": "FR",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineGallop",
+          "weight": 1,
+          "q": 0.49958333333333355,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "FR",
+        "meshUUID": "49054477-8316-4314-96fd-eee87d903ac2",
+        "geometryUUID": "82e3b63e-bff9-4536-a9f3-0add7366dcd1",
+        "vertexIndex": 3680,
+        "groupIndex": 8
+      },
+      "lease": null,
+      "anchor": [
+        -0.271061597669311,
+        3.5574350354394824e-08,
+        -2.458659071301563
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "finalState": "release",
+      "recoveryProgress": 0.3378378378378378,
+      "preRelease": {
+        "current": {
+          "limb": "FR",
+          "hip": [
+            -0.7316675118765414,
+            1.1004880466989808,
+            0.9290219998036291
+          ],
+          "target": [
+            -0.27047507881177346,
+            0.1376278037967834,
+            0.1332330693909769
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.09222770415232795,
+          "maximum": 1.3365278730467345,
+          "distance": 1.331569874037856,
+          "admitted": true
+        },
+        "observedStepProjection": {
+          "limb": "FR",
+          "hip": [
+            -0.7316675118765414,
+            1.1004880466989808,
+            0.9290219998036291
+          ],
+          "target": [
+            -0.2672485718725429,
+            0.13941431080868794,
+            0.09481009642489313
+          ],
+          "third": [
+            0,
+            0,
+            0
+          ],
+          "minimum": 0.09222770415232795,
+          "maximum": 1.3365278730467345,
+          "distance": 1.3547166409959448,
+          "admitted": false
+        },
+        "anchor": [
+          -0.27111902334761895,
+          -3.942333792750219e-08,
+          -0.02812589206732863
+        ],
+        "material": [
+          -0.9958822955482434,
+          0.020000434389023422,
+          0.54592147968876
+        ],
+        "phase": 0.22916666666666663,
+        "roles": [
+          {
+            "clip": "FelineTrot",
+            "weight": 1,
+            "q": 0.1891666666666666,
+            "role": "stance"
+          }
+        ]
+      }
+    },
+    {
+      "limb": "HL",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineGallop",
+          "weight": 1,
+          "q": 0.9895833333333335,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "HL",
+        "meshUUID": "49054477-8316-4314-96fd-eee87d903ac2",
+        "geometryUUID": "82e3b63e-bff9-4536-a9f3-0add7366dcd1",
+        "vertexIndex": 6797,
+        "groupIndex": 12
+      },
+      "lease": null,
+      "anchor": [
+        0.40038399408866654,
+        -4.8063599322745176e-08,
+        0.2889405460070218
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "finalState": "release",
+      "recoveryProgress": 0.9994369369369369
+    },
+    {
+      "limb": "HR",
+      "state": "release",
+      "sourceLoaded": false,
+      "roles": [
+        {
+          "clip": "FelineGallop",
+          "weight": 1,
+          "q": 0.9195833333333335,
+          "role": "recovery"
+        }
+      ],
+      "reason": "AUTHORED_UNLOAD_OR_RECOVERY",
+      "weight": 0,
+      "materialPoint": {
+        "limb": "HR",
+        "meshUUID": "49054477-8316-4314-96fd-eee87d903ac2",
+        "geometryUUID": "82e3b63e-bff9-4536-a9f3-0add7366dcd1",
+        "vertexIndex": 9331,
+        "groupIndex": 8
+      },
+      "lease": null,
+      "anchor": [
+        -0.2438322238082532,
+        -5.216734799695644e-08,
+        -0.024360848395462487
+      ],
+      "contactQualified": false,
+      "fulfilled": false,
+      "finalState": "release",
+      "recoveryProgress": 0.9009009009009008
+    }
+  ],
+  "cause": "touch clock recovery share .74 vs loaded Gallop stance .26; all mandatory upright/mixedR/supportloss cases UNREACHED",
+  "scope": "constructed fixed floor/native-distance carrier, actual decoded rig; not actual native/gameplay/contact acceptance"
+}

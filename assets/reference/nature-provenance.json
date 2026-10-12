@@ -1,0 +1,22 @@
+{
+  "license": "CC0",
+  "sources": [
+    "https://polyhaven.com/a/fir_tree_01",
+    "https://polyhaven.com/a/coast_rocks_02",
+    "https://polyhaven.com/a/kloetzle_blei",
+    "https://polyhaven.com/a/rock_ground",
+    "https://polyhaven.com/a/forest_ground_04"
+  ],
+  "notes": "Fir bough/bark photographs supply a new low-poly evergreen; the 478 MB source tree is not shipped. Coastal scan normalized to six meters, reduced to 2200 triangles, 512px textures. Terrain inputs are local 1k WebP derivatives. All inputs CC0, official metadata retained.",
+  "foliageRefinement": {
+    "source": "retained CC0 fir bough/bark photographs",
+    "generator": "tools/build_nature.py",
+    "description": "14 staggered tiers;9 irregular radial branches;tilted overlapping needle fans;low-segment branches;13m planted trunk",
+    "runtime": "public/assets/models/Pine_Evergreen.glb",
+    "runtimeBytes": 478516,
+    "sha256": "cf5c87dd50541645da061753a21bd80d5f5504d9baf3218e17483ab32711e5ad",
+    "budgetTriangles": 5000,
+    "requiresVisualAcceptance": true,
+    "triangles": 4568
+  }
+}

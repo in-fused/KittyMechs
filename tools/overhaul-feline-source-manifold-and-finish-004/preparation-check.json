@@ -1,0 +1,53 @@
+{
+  "closedUTC": "2026-10-10T14:08:09.879665+00:00",
+  "status": "STATIC_SYNTAX_AND_DISK_CONSTRUCTION_ONLY",
+  "astFiles": [
+    {
+      "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-feline-source-manifold-and-finish-004\\author.py",
+      "sha256": "7f535c273f4c304d85dc3c737b14b215633d929cebe4e5603729b723ef709d03"
+    },
+    {
+      "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-source-manifold-and-finish-004\\source_owner.py",
+      "sha256": "115c9c7dd608736bb53e89171947077f73005be57c33e8df4b0205f6267d6af2"
+    },
+    {
+      "path": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-feline-source-manifold-and-finish-004\\panel_topology.py",
+      "sha256": "604d7e805adf9b5efb2dcad7ffb8f4ec76b6b682c6f2860d588e3f04e045320e"
+    }
+  ],
+  "vertexOnlyFan": {
+    "triangles": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "excludedSelectedTriangles": [
+      2
+    ],
+    "construction": "edge-connected simple disk, not vertex fan",
+    "maximum": 128
+  },
+  "edgeFanClosedToSingleBoundary": {
+    "triangles": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "boundary": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "excludedSelectedTriangles": [],
+    "construction": "edge-connected simple disk, not vertex fan",
+    "maximum": 128
+  },
+  "sourceGeometryMotionNative": "NOT_RUN"
+}

@@ -1,0 +1,32 @@
+{
+  "writer": "CLOSED",
+  "status": "TERMINAL",
+  "pid": 364304,
+  "exitCode": 11,
+  "inclusiveSeconds": 1.922000000020489,
+  "capSeconds": 165,
+  "sourceMasterBefore": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf",
+  "sourceMasterAfter": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf",
+  "outputs": [
+    {
+      "path": "assets/source/overhaul-far-city-200/ingestion-operands200.json",
+      "bytes": 46779,
+      "sha256": "97c151be99e6be0e81b9ed0a1def9dfc224b3481a538679bc14dd67e5b1f2e97"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-200/operands-transit_wall__glazing.npz",
+      "bytes": 2540,
+      "sha256": "87bbd20548a5b0a537f715f711fbf266f4836bcfdc16429b86982f3267c066a9"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-200/preview200.py",
+      "bytes": 3054,
+      "sha256": "0415b4613a437a204adbae54db72ece46308ed13d1ad4cd1959b014944e03ac3"
+    },
+    {
+      "path": "assets/source/overhaul-far-city-200/source-identity-operands200.json",
+      "bytes": 256,
+      "sha256": "e2b4a016da34683b414cca75141a07e0ba06fc809ee0a553ff18b2b5b94cc815"
+    }
+  ]
+}

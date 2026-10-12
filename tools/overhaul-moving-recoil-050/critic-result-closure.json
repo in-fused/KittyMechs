@@ -1,0 +1,18 @@
+{
+  "closedUTC": "2026-10-11T01:09:18Z",
+  "decision": "ACCEPT_PROCESSOR_AND_FAILURE_PRESERVATION_ONLY_DENY_RUNTIME_PUBLIC_PROMOTION",
+  "runtimeTest": {"exitCode": 1, "elapsedSeconds": 2.047, "existingTestsPassed": 8, "candidateTestsCollected": 0, "failure": "Unsupported interpolation; do not guess", "firstActualUnsupportedChannel": {"animation": "FelineAir", "target": "root", "path": "translation", "interpolation": "STEP", "inputAccessor": 2508, "outputAccessor": 2509}},
+  "technicalResultSealSHA256": "8dc4d90a09937b70ff64fda63fd1c7b629d1d7a0dab13c1ea78b9edf5e38f066",
+  "restorationReceiptSHA256": "23ace043d0095279c0763ab4b697392907047a7d601c4f360ae0aacff4775fa4",
+  "verifiedRelocatedCandidateRows": 6,
+  "verifiedRestoredRows": 2,
+  "verifiedTechnicalRows": 3,
+  "mismatches": [],
+  "unexpectedShippingPaths": [],
+  "build": "UNRUN",
+  "candidatePublicObservation": "UNRUN",
+  "reviewerHeavyJobs": [],
+  "fullGoal": "INCOMPLETE",
+  "sourceReviewMiss": "LINEAR-only decoder rejects STEP in actual034 before test collection; source permission did not establish decoder compatibility.",
+  "limits": ["No demonstrated candidate runtime mixing or visual result", "No native contact or geometry failure inference", "No ordinary Missile observation", "No further repair or attempt authorized"]
+}

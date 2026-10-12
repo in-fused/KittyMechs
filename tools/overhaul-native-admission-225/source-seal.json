@@ -1,0 +1,57 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-native-admission-225/build222-preimage.mjs",
+      "bytes": 1753,
+      "sha256": "5f6007d58a252d5c020ed1c8eae86d470982104f62dc52fdce72c450d9726f0b"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/build225.mjs",
+      "bytes": 1818,
+      "sha256": "f291fef2bf82ef0325d678917dfa46a766ff2916e4e5cabb545ef3881e50563e"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/check225.mjs",
+      "bytes": 1665,
+      "sha256": "d5667a2bdfad913d736aa1b1712374f9484b4dfc3fba38933e480d14f0eaa68f"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/delivery-factory222-preimage.mjs",
+      "bytes": 3065,
+      "sha256": "e98b18c7871eb17f6b9c550d02cab06c17a0e8ff2ad2d5aae947af9b43700861"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/delivery-factory225.mjs",
+      "bytes": 3233,
+      "sha256": "8733e1013943de3ca05f6debf861bffdd4a17deb8cf1c91a649dc3ab055349cd"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/HANDOFF.md",
+      "bytes": 1495,
+      "sha256": "c074702987b24afd06d7fa30b373cc0999edd2e995f3f24863d1188cfab70bb8"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/plugin222-preimage.mjs",
+      "bytes": 1850,
+      "sha256": "01e47f58455aea557fe219e6970809c78709d99a6b83ddd738ab276b281c9793"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/plugin225.mjs",
+      "bytes": 1870,
+      "sha256": "79eeac99e6ea925e2b3f2b3265eae3b1af934f47b0e667643654e98a9cdf8edb"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/static-receipt.json",
+      "bytes": 2037,
+      "sha256": "bd095823529a82b1b2bbebf6e889470701a6a079239081c63421ef841bed36a2"
+    },
+    {
+      "path": "tools/overhaul-native-admission-225/verify-retirement225.mjs",
+      "bytes": 3869,
+      "sha256": "a904cd5c7f9c8d13344cb7f87e5433deacba729e2f5779d4f64cd62785f4a2fc"
+    }
+  ],
+  "closedUTC": "2026-10-11T22:49:02.799104+00:00",
+  "buildOrBrowserJobsRun": 0
+}

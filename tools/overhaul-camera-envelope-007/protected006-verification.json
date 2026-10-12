@@ -1,0 +1,104 @@
+{
+  "verifiedUTC": "2026-10-10T17:20:06.9772342Z",
+  "meaning": "All006 historical inputs preserved; intentional live hooks mapped to exact preimages",
+  "rows": [
+    {
+      "match": true,
+      "bytes": 7542,
+      "original": "tools\\overhaul-identity57-player-006.mjs",
+      "sha256": "9788024389eb983d297ec2196d4680710ef7cd2f1209178274cba5f14a96baf4",
+      "actual": "tools\\overhaul-identity57-player-006.mjs"
+    },
+    {
+      "match": true,
+      "bytes": 975,
+      "original": "docs\\overhaul\\identity57-initialization-006.md",
+      "sha256": "dedf0939e4e063499ef3dba657ab91d91c93e595b7dc6ac79174261551a40f37",
+      "actual": "docs\\overhaul\\identity57-initialization-006.md"
+    },
+    {
+      "match": true,
+      "bytes": 3516,
+      "original": "src/game/entities/identity57Runtime006Actor.tsx",
+      "sha256": "1e31e8a11e9c668a0c617559c46e8e0f32d95d41c193aaad0afe7371cda10498",
+      "actual": "src/game/entities/identity57Runtime006Actor.tsx"
+    },
+    {
+      "match": true,
+      "bytes": 44837,
+      "original": "src/game/entities/Actors.tsx",
+      "sha256": "0d97b9645431e95b5702205720611933ecc102de0b450837389882759b52f4b5",
+      "actual": "tools/overhaul-camera-envelope-007/root-preimages/Actors.before007.tsx"
+    },
+    {
+      "match": true,
+      "bytes": 44837,
+      "original": "tools\\overhaul-identity57-initialization-006\\Actors.before006.tsx",
+      "sha256": "9ec9082baf402373c7f3e965f080c94e006bcfd7a1e78f386b01d07f3d34170e",
+      "actual": "tools\\overhaul-identity57-initialization-006\\Actors.before006.tsx"
+    },
+    {
+      "match": true,
+      "bytes": 3314,
+      "original": "src/game/entities/identity57Runtime005Actor.tsx",
+      "sha256": "69b57f81d1331faac4636d1491c2579f7543f1a901d3f1084caa4a4b5c826804",
+      "actual": "src/game/entities/identity57Runtime005Actor.tsx"
+    },
+    {
+      "match": true,
+      "bytes": 10452,
+      "original": "src/game/entities/identity57Runtime005.ts",
+      "sha256": "fbded0fcf886db3ee6c1d6b10ccc7c3866f95e406b78229a0a4cc99ada8ffa51",
+      "actual": "src/game/entities/identity57Runtime005.ts"
+    },
+    {
+      "match": true,
+      "bytes": 1600,
+      "original": "src/game/entities/identity57Runtime005Control.ts",
+      "sha256": "80af5dc058e0dda4437f9ec2553c570571e5cae20b7bfa7c40332dce06ce5ce2",
+      "actual": "src/game/entities/identity57Runtime005Control.ts"
+    },
+    {
+      "match": true,
+      "bytes": 239540,
+      "original": "src/game/entities/identity57Runtime005Manifest.json",
+      "sha256": "b2d01eabbcd8ef43ffbbc9dfa3afb03167ca20885a04d5ca935aed79466408f6",
+      "actual": "src/game/entities/identity57Runtime005Manifest.json"
+    },
+    {
+      "match": true,
+      "bytes": 10665,
+      "original": "src/game/camera/visualEnvelope.ts",
+      "sha256": "dbabc1c591b74cd6a02fa0b3b73fd66f9538dcb85196228db23d89d8932f7506",
+      "actual": "src/game/camera/visualEnvelope.ts"
+    },
+    {
+      "match": true,
+      "bytes": 1566,
+      "original": "src/game/camera/visualRegistry.ts",
+      "sha256": "f26ec039b6038c2a933877aabef2fff4629f52455278cb7a4b141b49d343bf86",
+      "actual": "tools/overhaul-camera-envelope-007/preimages/visualRegistry.ts"
+    },
+    {
+      "match": true,
+      "bytes": 8670,
+      "original": "node_modules/three/src/objects/SkinnedMesh.js",
+      "sha256": "c595d8462d084f72d93d5ffa74a64ce03739f5c4b2313797e1ef965ff44004cc",
+      "actual": "node_modules/three/src/objects/SkinnedMesh.js"
+    },
+    {
+      "match": true,
+      "bytes": 3313800,
+      "original": "public/assets/models/Pounce_Identity57_Runtime005.glb",
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "actual": "public/assets/models/Pounce_Identity57_Runtime005.glb"
+    },
+    {
+      "match": true,
+      "bytes": 3313800,
+      "original": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb",
+      "sha256": "e6b90c02919c910cff8f678341302b8c19460712ba259e5bb78dc7c413d11dae",
+      "actual": "assets/source/overhaul-pounce-identity57-animation-source-004/Pounce_IdentityAnimation004.raw.glb"
+    }
+  ]
+}

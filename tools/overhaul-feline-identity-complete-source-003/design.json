@@ -1,0 +1,19 @@
+{
+  "candidate": "feline-identity-complete-source003",
+  "actualStartUtc": "2026-10-10T15:57:03Z",
+  "hardDeadlineUtc": "2026-10-10T16:27:00Z",
+  "cleanupCutoffUtc": "2026-10-10T16:25:30Z",
+  "basis": {"source": "Xright-frontMinusY-Zup", "nativeModel": ".8x,.8z,-.8y", "actorPiMount": "separate"},
+  "geometry": "NEW_FACTORY_SOURCE; anatomy002 dimensions reference, no preserved render geometry",
+  "rigBones": 57,
+  "rigRevision": "curved five-station tail rest; anatomy002 explicit core/fore/three-link-hind kept",
+  "materials": 4,
+  "triangleTarget": [30000, 50000],
+  "pads": 20,
+  "identity": ["front-facing amber cat optics", "layered wedge muzzle", "substantial cat ears", "overlapping fitted anatomical teal armor", "visible recessed axes and routed cables", "rounded real claw cavities and continuous toes", "flexible curved mechanical tail"],
+  "state": "neutral static only",
+  "continuousClawMotion": "UNRUN",
+  "runtimeAdmission": false,
+  "attempts": 1,
+  "repair": "NONE"
+}

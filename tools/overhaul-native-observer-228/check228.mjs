@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {nativeFault227,removedRosterAndRegistry228} from './guards.mjs';
+const sha='test-only-not-game';
+const sample=(mode,status='source')=>({actor:{id:'a'},native:{registry:{rows:[{actor:'a',diagnostic:{firstFailure:{mode},status,mode:'ordinary'}}]}}});
+assert.equal(nativeFault227(sample('ordinary'),sha),'SUPPORTED_NATIVE_SOURCE_TASK_FELL_BACK');
+assert.equal(nativeFault227(sample('unsupported-action'),sha),null);
+assert.equal(nativeFault227(sample('unsupported-action','temporary-standard'),sha),'SUPPORTED_NATIVE_SOURCE_TASK_FELL_BACK');
+assert.equal(removedRosterAndRegistry228({actors:[],native:{registry:{rows:[]}}},'gone'),true);
+assert.equal(removedRosterAndRegistry228({actors:[],native:{registry:{rows:[{actor:'gone'}]}}},'gone'),false);
+assert.equal(removedRosterAndRegistry228({actors:[{id:'gone'}],native:{registry:{rows:[]}}},'gone'),false);
+assert.equal(removedRosterAndRegistry228({actors:[]},'gone'),false);
+console.log(JSON.stringify({status:'SEVEN_ADVERSE_BOUNDARIES_PASS',scope:'Pure observer honesty/failure boundaries only; no actual game or native pose proof'}));

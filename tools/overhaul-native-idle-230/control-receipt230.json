@@ -1,0 +1,123 @@
+{
+  "scope": "ACTUAL_OWNER_CONTROL_BRANCH_WITH_RECORDING_COMPOSER_STUB_ONLY",
+  "realRigOrNativeTest": false,
+  "contactQualified": false,
+  "cases": [
+    {
+      "reason": "230_OBSERVED_DRIFT_NEGATIVE_CONTROL",
+      "pass": true,
+      "drift": 2.2303474728734945e-11,
+      "oldFinal": {
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ],
+        "phase": 2.5808306471821855e-9,
+        "stance": 0,
+        "travelWeight": 1,
+        "clocks": {
+          "FelineIdle": 0.3166666366159912,
+          "FelineUprightIdle": 0.3166666366159912
+        }
+      },
+      "candidateFinal": {
+        "items": [],
+        "phase": 2.5808306471821855e-9,
+        "stance": 0,
+        "travelWeight": 0,
+        "clocks": {
+          "FelineIdle": 0.3166666366159912,
+          "FelineUprightIdle": 0.3166666366159912
+        }
+      }
+    },
+    {
+      "reason": "230_REAL_TRAVEL_ACQUIRES",
+      "pass": true,
+      "final": {
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615
+          }
+        ],
+        "phase": 0.12010761793575916,
+        "stance": 0,
+        "travelWeight": 1,
+        "clocks": {
+          "FelineIdle": 0.5166666675359011,
+          "FelineUprightIdle": 0.5166666675359011
+        }
+      }
+    },
+    {
+      "reason": "230_STOP_WITH_DRIFT_RELEASES",
+      "pass": true,
+      "phaseBefore": 0.12010761793575916,
+      "phaseAfter": 0.12010761707548231,
+      "final": {
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 0.8007254093877239
+          },
+          {
+            "name": "FelineTrot",
+            "weight": 0.19927459061227615
+          }
+        ],
+        "phase": 0.12010761707548231,
+        "stance": 0,
+        "travelWeight": 0,
+        "clocks": {
+          "FelineIdle": 1.0166666675359024,
+          "FelineUprightIdle": 1.0166666675359024
+        }
+      }
+    },
+    {
+      "reason": "230_DISTANCE_PHASE_NOT_CLAMPED",
+      "pass": true,
+      "phaseBefore": 0.12010761793575916,
+      "phaseAfter": 0.12010761707548231
+    },
+    {
+      "reason": "230_EXISTING_THRESHOLD_BOUNDARIES",
+      "pass": true,
+      "above": 0.081,
+      "below": 0.079,
+      "aboveFinal": {
+        "items": [
+          {
+            "name": "FelineWalk",
+            "weight": 1
+          }
+        ],
+        "phase": 0.05207142857142856,
+        "stance": 0,
+        "travelWeight": 1,
+        "clocks": {
+          "FelineIdle": 0.5166666675359011,
+          "FelineUprightIdle": 0.5166666675359011
+        }
+      },
+      "belowFinal": {
+        "items": [],
+        "phase": 0.05078571428571427,
+        "stance": 0,
+        "travelWeight": 0,
+        "clocks": {
+          "FelineIdle": 0.5166666675359011,
+          "FelineUprightIdle": 0.5166666675359011
+        }
+      }
+    }
+  ],
+  "status": "CONTROL_ONLY_PASS_UNADMITTED_GAMEPLAY"
+}

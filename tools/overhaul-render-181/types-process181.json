@@ -1,0 +1,15 @@
+{
+  "writer": "CLOSED",
+  "command": [
+    "node",
+    "node_modules/typescript/bin/tsc",
+    "--noEmit"
+  ],
+  "capSeconds": 60,
+  "startedUTC": "2026-10-11T17:54:52.973495+00:00",
+  "pid": 365824,
+  "exitCode": 0,
+  "status": "TERMINAL",
+  "elapsedSeconds": 13.452999999979511,
+  "closedUTC": "2026-10-11T17:55:06.415413+00:00"
+}

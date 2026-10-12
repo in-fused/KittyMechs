@@ -1,0 +1,16 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_INCOMPLETE_FIRST_FAILURE_STOP",
+  "pid": 358816,
+  "terminal": true,
+  "exitCode": 1,
+  "inclusiveSeconds": 1.625,
+  "capSeconds": 173,
+  "prior198InclusiveSeconds": 6.61,
+  "aggregateSeconds": 8.235,
+  "aggregateCap": 180,
+  "runningJobs": [],
+  "actualAssetOutputs": [],
+  "processReceiptOutputListClarification": "preview199.py was authored before job and is source, not a generated asset; copied wrapper inventories directory without distinguishing preexisting source",
+  "historicalActiveRecord": "Immutable startup receipt only;process-receipt terminal supersedes OPEN startup status"
+}

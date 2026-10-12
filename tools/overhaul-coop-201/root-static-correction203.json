@@ -1,0 +1,32 @@
+{
+  "writer": "CLOSED",
+  "scope": "Root final static correction before first actual201 play; second post-aim down branch now uses same typed actual hp0/downed rescue as pre-aim branch.",
+  "parentSealSHA256": "cfab5008d83a72391ff915620ba36236887b49c626e83fc15798b5de6b6eb909",
+  "parentArchive": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\.sites-runtime\\overhaul-20261010\\coop201-source-initial",
+  "before": "if(post.actor.hp<=0){record.exit='pilot-downed';throw Error(name+' downed during encounter');}",
+  "after": "if(post.actor.hp<=0){record.exit='pilot-downed';const error=Error(name+' downed during encounter');if(post.actor.hp===0&&post.actor.downed){error.actorDowned=true;error.rescueRequired201=name;}throw error;}",
+  "checks": [
+    {
+      "command": [
+        "C:/Program Files/nodejs/node.exe",
+        "--check",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-coop-201\\mission-capture.mjs"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:/Program Files/nodejs/node.exe",
+        "--import",
+        "tsx",
+        "tools/overhaul-coop-201/protocol-fixture.mjs"
+      ],
+      "exitCode": 0,
+      "stdout": "{\"status\":\"PASS_SOURCE_ONLY\",\"cases\":[\"OLD220HP_COMMITMENT_STILL_REJECTS_REAL159_5HP\",\"CURRENT_SAME_LIFE_HEALTH_ACCEPTED_ONLY_IN_NEW_COMMITMENT\",\"DOWN_LIFE_REENABLE_NEGATIVES_REJECT\",\"OLD_TOKEN_IMMUTABLE_RETIRE_RELEASE_ACK_HANDLER_RELEASE_NEW_HEALTH_RECOMMIT_ORDER\"],\"scope\":\"SOURCE_ONLY saved operands + hypothetical public adapter sequencing;not actual browser/ACK/rest execution\"}\n",
+      "stderr": ""
+    }
+  ],
+  "status": "PASS_STATIC_ONLY_ACTUAL_PLAY_PENDING"
+}

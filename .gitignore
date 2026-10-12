@@ -1,0 +1,25 @@
+node_modules/
+dist/
+test-results/
+test-results-online/
+playwright-report/
+.env
+*.log
+__pycache__/
+.sites-runtime/
+*.blend1
+# Editable source art is preserved locally and in local-assets-snapshot.
+# The hosting Git backend rejects large binary source objects.
+assets/source/*
+# Small text-only fracture source and licensing travel with the implementation.
+!assets/source/city-fracture/
+assets/source/city-fracture/*
+!assets/source/city-fracture/README.md
+!assets/source/city-fracture/LICENSE.three-pinata.txt
+!assets/source/city-fracture/generator-v1.mjs
+!assets/source/city-fracture/validation-v1.json
+!assets/source/city-fracture/three-pinata-offline-patch/
+!assets/source/city-fracture/three-pinata-offline-patch/**
+assets/inbox/
+assets/runtime/
+assets/reference/Concepts/

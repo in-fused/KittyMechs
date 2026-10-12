@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "sha256": "ef5037c5968a467e5bd0ea3b3c70cd829967ec8fa288c53a65543ddbb63e41fc",
+      "bytes": 10674,
+      "path": "src/game/camera/CameraRig.tsx"
+    },
+    {
+      "sha256": "7485736d74c0e42ded67e1e6cd4c18a5d0b122ff326d36ca6dc2f4ec61b7c948",
+      "bytes": 2229,
+      "path": "src/game/camera/visualOccluders058.ts"
+    },
+    {
+      "sha256": "cb9dede51bffb2c5ebe17f5bb0e66f416ffc19f8f4ed60a4c00c630271d2cb31",
+      "bytes": 5414,
+      "path": "shared/encounters.ts"
+    },
+    {
+      "sha256": "77eeab90e74d32c62deac0be248ec63d8bf011fc668d8ec253e01607dda090d5",
+      "bytes": 9120,
+      "path": "shared/maps.ts"
+    },
+    {
+      "sha256": "ad73697a1f10993f95a6355881ee7996a1ccd22cd18dbf847ea53b1264bd8f9a",
+      "bytes": 181567,
+      "path": "shared/simulation.ts"
+    },
+    {
+      "sha256": "0f85163eac0dbc7047caf84ae725b094f38b1ca3ceccc3ee0bfbb9b4bb612215",
+      "bytes": 77526,
+      "path": ".sites-runtime/overhaul-20261009/build-061/receipt.json"
+    },
+    {
+      "sha256": "ca09decd99905b7b29263bb2737ebd33385ad8af5fe4fd5bf265f95041d20ee1",
+      "bytes": 48731,
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/evidence.json"
+    },
+    {
+      "sha256": "d2e8ed6a7757a575583e4c68c06a36877e929b1d8df1a512ee3c42e5765add16",
+      "bytes": 916394,
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/off.png"
+    },
+    {
+      "sha256": "8e2cecaf782ae8953629c86aa8d44d26ebab46cb0b4f88daf5f3257ce8bde534",
+      "bytes": 860518,
+      "path": ".sites-runtime/overhaul-20261010/cpu182-public/on.png"
+    }
+  ],
+  "writer": "CLOSED",
+  "allUnchangedPreimages": "MATCH"
+}

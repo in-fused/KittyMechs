@@ -1,0 +1,167 @@
+{
+  "writer": "CLOSED",
+  "scope": "DIRECTED_NATIVE_FIXTURE_NO_PUBLIC_COOP_QUALIFICATION",
+  "initial": [
+    {
+      "status": "PLACED",
+      "position": {
+        "x": -8,
+        "y": 0.92,
+        "z": 22
+      },
+      "reservation": {
+        "x": -8,
+        "y": 0.92,
+        "z": 22
+      },
+      "radius": 1.75,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 0,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": -8,
+        "y": 0.9200001168251037,
+        "z": 14
+      },
+      "reservation": {
+        "x": -8,
+        "y": 0.9200001168251037,
+        "z": 14
+      },
+      "radius": 2.05,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 1,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": -8,
+        "y": 0.9200017857551575,
+        "z": 29
+      },
+      "reservation": {
+        "x": -8,
+        "y": 0.9200017857551575,
+        "z": 29
+      },
+      "radius": 1.65,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 2,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": 16,
+        "y": 0.9200007724761963,
+        "z": 22
+      },
+      "reservation": {
+        "x": 16,
+        "y": 0.9200007724761963,
+        "z": 22
+      },
+      "radius": 1.85,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 3,
+      "retryAt": 0
+    }
+  ],
+  "restored": [
+    {
+      "status": "PLACED",
+      "position": {
+        "x": -12,
+        "y": 0.9800001168251038,
+        "z": -35
+      },
+      "reservation": {
+        "x": -12,
+        "y": 0.9800001168251038,
+        "z": -35
+      },
+      "radius": 1.75,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 0,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": -20,
+        "y": 0.9800005340576172,
+        "z": -35
+      },
+      "reservation": {
+        "x": -20,
+        "y": 0.9800005340576172,
+        "z": -35
+      },
+      "radius": 2.05,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 1,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": 2,
+        "y": 0.98000244140625,
+        "z": -35
+      },
+      "reservation": {
+        "x": 2,
+        "y": 0.98000244140625,
+        "z": -35
+      },
+      "radius": 1.65,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 2,
+      "retryAt": 0
+    },
+    {
+      "status": "PLACED",
+      "position": {
+        "x": 12,
+        "y": 0.9800004744529724,
+        "z": -35
+      },
+      "reservation": {
+        "x": 12,
+        "y": 0.9800004744529724,
+        "z": -35
+      },
+      "radius": 1.85,
+      "arrival": 1.1,
+      "margin": 1.1,
+      "slot": 3,
+      "retryAt": 0
+    }
+  ],
+  "blocked": {
+    "status": "PENDING_NATIVE_CLEARANCE",
+    "position": {
+      "x": -8,
+      "y": 0.92,
+      "z": 26.6
+    },
+    "reservation": null,
+    "radius": 1.75,
+    "arrival": 1.1,
+    "margin": 1.1,
+    "slot": 4,
+    "retryAt": 0.5
+  },
+  "quadHeight": 2.6
+}

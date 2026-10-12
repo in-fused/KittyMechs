@@ -1,0 +1,87 @@
+{
+  "status": "STATIC_BUNDLE_PASS_PRIMARY_UNRUN",
+  "inputs": [
+    "node_modules/three/build/three.core.js",
+    "node_modules/three/build/three.module.js",
+    "node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+    "node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+    "node_modules/meshoptimizer/meshopt_encoder.module.js",
+    "node_modules/meshoptimizer/meshopt_decoder.module.js",
+    "node_modules/meshoptimizer/meshopt_simplifier.module.js",
+    "node_modules/meshoptimizer/meshopt_clusterizer.module.js",
+    "node_modules/meshoptimizer/index.module.js",
+    "src/game/entities/authoredFootfalls123.ts",
+    "src/game/entities/movingRFfeet067.ts",
+    "src/game/entities/locomotionTasks143.ts",
+    "node_modules/three/examples/jsm/math/ConvexHull.js",
+    "src/game/entities/sourceCoordination164.ts",
+    "src/game/entities/sourceCycle171.ts",
+    "assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json",
+    "tools/overhaul-anatomy-motion-202/sourceTask202.ts",
+    "tools/overhaul-delivery-primary-207/browser-entry207.ts"
+  ],
+  "outputs": {
+    "tools/overhaul-delivery-primary-207/browser-bundle207.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "tools/overhaul-delivery-primary-207/browser-entry207.ts",
+      "inputs": {
+        "node_modules/three/build/three.core.js": {
+          "bytesInOutput": 631172
+        },
+        "node_modules/three/build/three.module.js": {
+          "bytesInOutput": 161053
+        },
+        "node_modules/three/examples/jsm/utils/BufferGeometryUtils.js": {
+          "bytesInOutput": 2097
+        },
+        "node_modules/three/examples/jsm/loaders/GLTFLoader.js": {
+          "bytesInOutput": 104369
+        },
+        "node_modules/meshoptimizer/meshopt_encoder.module.js": {
+          "bytesInOutput": 25047
+        },
+        "node_modules/meshoptimizer/index.module.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/meshoptimizer/meshopt_decoder.module.js": {
+          "bytesInOutput": 33300
+        },
+        "node_modules/meshoptimizer/meshopt_simplifier.module.js": {
+          "bytesInOutput": 54486
+        },
+        "node_modules/meshoptimizer/meshopt_clusterizer.module.js": {
+          "bytesInOutput": 24202
+        },
+        "src/game/entities/authoredFootfalls123.ts": {
+          "bytesInOutput": 1192
+        },
+        "src/game/entities/movingRFfeet067.ts": {
+          "bytesInOutput": 152
+        },
+        "src/game/entities/locomotionTasks143.ts": {
+          "bytesInOutput": 686
+        },
+        "node_modules/three/examples/jsm/math/ConvexHull.js": {
+          "bytesInOutput": 27746
+        },
+        "src/game/entities/sourceCoordination164.ts": {
+          "bytesInOutput": 7950
+        },
+        "src/game/entities/sourceCycle171.ts": {
+          "bytesInOutput": 367
+        },
+        "assets/source/overhaul-anatomy-motion-202/anatomical-basis202.json": {
+          "bytesInOutput": 387
+        },
+        "tools/overhaul-anatomy-motion-202/sourceTask202.ts": {
+          "bytesInOutput": 13534
+        },
+        "tools/overhaul-delivery-primary-207/browser-entry207.ts": {
+          "bytesInOutput": 17308
+        }
+      },
+      "bytes": 1106210
+    }
+  }
+}

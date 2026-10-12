@@ -1,0 +1,351 @@
+{
+  "writer": "CLOSED",
+  "status": "SOURCE_ONLY_UNRUN_052_SWITCH_AND_COMPLETE_WRAPPER_GATE_REQUIRED",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-integration-116/author-source.ps1",
+      "bytes": 4638,
+      "sha256": "5c9aa2220d1e63fcc4060b42693b4bd62d2e79ced1a07871daa766e6c30fbf0d"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/HANDOFF.md",
+      "bytes": 4298,
+      "sha256": "95c84cc7439d8af62fa5563bc880adb60b47155efc524e23089d324d55578663"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/launch.py",
+      "bytes": 689,
+      "sha256": "6c7906343dfefba9b475100f68089dfa016416f7772f9878f9914e448b1c4097"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/lifecycle-adapter.mjs",
+      "bytes": 2659,
+      "sha256": "9391cebb8d0a6c54950bbd1e5c8fd0e2c54e430c5e24867ce624b791be7483e5"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/mission-capture.mjs",
+      "bytes": 44760,
+      "sha256": "149155f4a3dd8b3e0c5258ff5260e599bf12dde615dc8eba4fb1e247bf63b756"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/preflight.py",
+      "bytes": 1685,
+      "sha256": "8394c21750ce75841031b8e59dcb24ba0885f824132ae9362fab8a6b0a3f697d"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/prepare.py",
+      "bytes": 2199,
+      "sha256": "190e451454e19f999076bc8444bcd0d815da858964ce236b93c5b42a44496610"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-116/source-handoff.json",
+      "bytes": 9335,
+      "sha256": "c0a96fb34dea035f608d967dd357cbafd7a941ff1cf61b6fc8d1ad49fe95eab5"
+    },
+    {
+      "path": "tools/overhaul-play-ready.mjs",
+      "bytes": 858,
+      "sha256": "8a6f1c606f065cd8469133a93d4669b0ab3bab5b1b446b19fa28d77ac04f220a"
+    },
+    {
+      "path": "tools/overhaul-pilot-aim.ts",
+      "bytes": 3089,
+      "sha256": "c9aba6007d2f27bbb32b030bd4ed0fdbc3ab4ad7285a2fc32d4b51cb63dbcf64"
+    },
+    {
+      "path": "tools/overhaul-squad-policy.ts",
+      "bytes": 2241,
+      "sha256": "ba95da9126d2df1a2ae11c4e1f284ace2f2cf946a82d8dbede443f5250ee1600"
+    },
+    {
+      "path": "shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/config.ts"
+    },
+    {
+      "path": "shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/types.ts"
+    },
+    {
+      "path": "shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/math.ts"
+    },
+    {
+      "path": "shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/overhaulCoop.ts"
+    },
+    {
+      "path": "shared/coopExtraction.ts",
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/coopExtraction.ts"
+    },
+    {
+      "path": "shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/simulation.ts"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/input.ts"
+    },
+    {
+      "path": "src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/inputReceipt.ts"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10721,
+      "sha256": "51a81b52a844655565f386eabaae2817323210eb3b1d61c04533e538032f12f5",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/CameraRig.tsx"
+    },
+    {
+      "path": "src/ui/Hud.tsx",
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/ui/Hud.tsx"
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/Session.tsx"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/package.json"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/package-lock.json"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/receipt.json",
+      "bytes": 74687,
+      "sha256": "240028ed01ae67d4c0e391aea2a221106dd507883815e47ec076be23243e6fb0"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime005.ts",
+      "bytes": 16597,
+      "sha256": "31c8cdfa4e35798d190d26b392e366ffde51e33fd76dbd229089e3bf1c5e98e1",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime005.ts"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime106Manifest.json",
+      "bytes": 250899,
+      "sha256": "6f5d4800fa72608ecf1d1095c5e57d5503246061fd46316cf8bacad79707b74f",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime106Manifest.json"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime106Asset.ts",
+      "bytes": 235,
+      "sha256": "d73d150ae6e1c006d513b57cc05d6b289116c5009b7335d20c160ecaa820a854",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime106Asset.ts"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4458,
+      "sha256": "e9c18ea9638628e442258387d77a5583a0ca72828bc290e671a8885a1d56324d",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10244,
+      "sha256": "10ea777a33cdbce0a2d2044506b98adeb25ce0418d642fa375eaf8a78ccd0f5c",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/GameCanvas.tsx"
+    },
+    {
+      "path": "src/game/camera/CameraRig.tsx",
+      "bytes": 10721,
+      "sha256": "51a81b52a844655565f386eabaae2817323210eb3b1d61c04533e538032f12f5",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/CameraRig.tsx"
+    },
+    {
+      "path": "src/game/camera/viewAim.ts",
+      "bytes": 1375,
+      "sha256": "81ae8dbdde4fc139101063ed1ca440c55166d9fd4accc7137897b0e0979fb548",
+      "frozenPath": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/viewAim.ts"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/controller.mjs",
+      "bytes": 7882,
+      "sha256": "ef57d9bf969cd06cfe4de2f288721709dbd0ec7a021371858914d1e157c67506"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/mission-capture.mjs",
+      "bytes": 44152,
+      "sha256": "2234bce2d5a889a2bcb41c08c4027a34041f9877623ac8e09cb2a820f200e443"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/prepare.py",
+      "bytes": 2199,
+      "sha256": "46288718c822d7257c1fa7332ed9b027f76b67500aa34be5d6c933874114a4d0"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/preflight.py",
+      "bytes": 1685,
+      "sha256": "d211cb612f2ff8ebaf20a7c1f8b3e13ed15f2cb2037d171bd27d31c8c90b84c7"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/launch.py",
+      "bytes": 690,
+      "sha256": "555613d212c4541119be4268be64df35bc1eb117aa72fd801f7e6913b29867c5"
+    },
+    {
+      "path": "tools/overhaul-coop-integration-111/source-seal.json",
+      "bytes": 14572,
+      "sha256": "9bc629e25a04328bb508affdd47b15f0e35616506da910140cac85885d66c288"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/controller.mjs",
+      "bytes": 8017,
+      "sha256": "d4b2fbfa7c272e9a95d2f336e822062a5c86dceb293c0b8e161b5a8f1e9be7bf"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/HANDOFF.md",
+      "bytes": 4366,
+      "sha256": "733a3f835b205d429c377864c1069730cd4203581571c3764fd3b9c4e3008a89"
+    },
+    {
+      "path": "tools/overhaul-coop-controller-115/source-seal.json",
+      "bytes": 1344,
+      "sha256": "c1b56e5cc598c0c1c4beb6c489f0492caa359f9777902caf7ebc00c9769178f3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/config.ts",
+      "bytes": 4757,
+      "sha256": "d151e8d96fa741051b6a4a88708374c18cd7d69f455cd413dc296f21cbd5436f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/types.ts",
+      "bytes": 8151,
+      "sha256": "033b0d846f6d9445fded27b88adfb1830639f2fe7d4b558cff201bc02971f3d2"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/math.ts",
+      "bytes": 2156,
+      "sha256": "df93e8efb25f7dc0a9f338497be4c3217fe5b73b3a9da3fae3155221cb20629c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/overhaulCoop.ts",
+      "bytes": 5148,
+      "sha256": "ce6683d26844e958377d8fa8710ad934f06afa62fe82bc8c38dcb7aee418b8ed"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/coopExtraction.ts",
+      "bytes": 789,
+      "sha256": "7e9e58a0a8063e23d3fee92986267c654922052ed26fb48382883db0dc9d7af8"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/shared/simulation.ts",
+      "bytes": 177003,
+      "sha256": "47efe990e4ee4c375922df2aa594448d9500d45c0256105a62bf448f311f9328"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/inputReceipt.ts",
+      "bytes": 1870,
+      "sha256": "04229caf922bc75124b8da42dee1deea98b368eca255d6e0dd36cd5aa95763d3"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/CameraRig.tsx",
+      "bytes": 10721,
+      "sha256": "51a81b52a844655565f386eabaae2817323210eb3b1d61c04533e538032f12f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/ui/Hud.tsx",
+      "bytes": 18910,
+      "sha256": "59280c1cd8154f692a0e331a2b4ad6ab4baa36b774a6813d10485ceb373c05ff"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/Session.tsx",
+      "bytes": 5781,
+      "sha256": "c7a5b62a5c2c08fc0b515f945de2d2e90fee0810b375334676f0f74cc3d687c1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime005.ts",
+      "bytes": 16597,
+      "sha256": "31c8cdfa4e35798d190d26b392e366ffde51e33fd76dbd229089e3bf1c5e98e1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime106Manifest.json",
+      "bytes": 250899,
+      "sha256": "6f5d4800fa72608ecf1d1095c5e57d5503246061fd46316cf8bacad79707b74f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime106Asset.ts",
+      "bytes": 235,
+      "sha256": "d73d150ae6e1c006d513b57cc05d6b289116c5009b7335d20c160ecaa820a854"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/entities/identity57Runtime034Actor.tsx",
+      "bytes": 4458,
+      "sha256": "e9c18ea9638628e442258387d77a5583a0ca72828bc290e671a8885a1d56324d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/GameCanvas.tsx",
+      "bytes": 10244,
+      "sha256": "10ea777a33cdbce0a2d2044506b98adeb25ce0418d642fa375eaf8a78ccd0f5c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/CameraRig.tsx",
+      "bytes": 10721,
+      "sha256": "51a81b52a844655565f386eabaae2817323210eb3b1d61c04533e538032f12f5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-052/playable-root/src/game/camera/viewAim.ts",
+      "bytes": 1375,
+      "sha256": "81ae8dbdde4fc139101063ed1ca440c55166d9fd4accc7137897b0e0979fb548"
+    },
+    {
+      "path": "docs/overhaul/critic/coop115-source-review.md",
+      "bytes": 3715,
+      "sha256": "355c8e681639ec53743cc96ffc9b5a9ed66d811b6509c9a27ee8145080065850"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    },
+    {
+      "path": "tools/overhaul-root-round-033/run-mission-seal045.py",
+      "bytes": 2076,
+      "sha256": "1e53204a5fcb0c843e0726a28276bc117eee6e01d149343624e397073bb87fcc"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop111-public/evidence.json",
+      "bytes": 906133,
+      "sha256": "a8c35148df382fea4bf61f106275a36045db6f0221486c39bdad206a1ea76a10"
+    }
+  ]
+}

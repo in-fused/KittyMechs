@@ -1,0 +1,23 @@
+{
+  "round": "046",
+  "frozenUTC": "2026-10-11T00:32:48.1127823Z",
+  "files": [
+    {
+      "path": "tools/overhaul-guest-readiness-046/diagnostic.mjs",
+      "bytes": 7640,
+      "sha256": "6cba9cedcc333620c212fcfa91899f129e1034bfafc21c09db47881bc0632b90"
+    },
+    {
+      "path": "tools/overhaul-guest-readiness-046/README.md",
+      "bytes": 2441,
+      "sha256": "0647f66c04dd6d46f399d51b2cf44d62c342be0c4ccae53b1f1e5bd9cce80ebe"
+    }
+  ],
+  "handoff": {
+    "path": "tools/overhaul-guest-readiness-046/source-handoff.json",
+    "bytes": 2432,
+    "sha256": "7050088cbb2ade65649c107fb0849df3eeec333be79238bf3f51a663a2987fbc"
+  },
+  "runtimeChanges": [],
+  "writersClosed": true
+}

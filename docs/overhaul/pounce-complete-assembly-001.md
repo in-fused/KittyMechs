@@ -1,0 +1,5 @@
+# Complete Pounce assembly001
+
+New whole render replacement, actual start2026-10-10 14:32:07UTC, hard close15:22:07. Protected original rig is retained; every old render mesh is retired together. Complete tapered mechanical cat, genuinely hollow body armor, compact coordinated wrist/toe/claw geometry and five physical pad facets per paw. Four authored FelinePBR materials; one actual weighted export mesh/four primitives, with actual GLTF bind/pad readback.
+
+Source contract and exact one-command author live in assets/source/overhaul-pounce-complete-assembly-001. No compiler/Blender/render/source execution before independent text gate/root serial grant. New source geometry is not an admitted art, physics, R, locomotion, combat or Gate1 result. No public/runtime model migration. One neutral construction/rig/export/art prerequisite only; the next useful work after concrete source acceptance is the disabled one-owner consuming these measured bones/pad facets and proving ordinary movement/R on real supports, not another isolated contact certificate.

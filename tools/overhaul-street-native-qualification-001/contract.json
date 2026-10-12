@@ -1,0 +1,92 @@
+{
+  "schema": "street-native-qualification-001",
+  "actualStartUtc": "2026-10-10T12:03:27Z",
+  "hardDeadlineUtc": "2026-10-10T12:43:27Z",
+  "status": "FROZEN_CODE_TEXT_GATE_READY_UNRUN",
+  "approvedDesign": "docs/overhaul/street-native-qualification-design-001.md",
+  "designReview": "docs/overhaul/critic/street-native-qualification-design-001-review.md",
+  "props": 10,
+  "hostSteps": 480,
+  "guestSteps": 120,
+  "totalIncludingInitialization": 600,
+  "initializationExtraSteps": 0,
+  "dt": 0.016666666666666666,
+  "fireTicks": [
+    20,
+    32,
+    44,
+    56,
+    68
+  ],
+  "publicFireRequests": 50,
+  "placementGeometryMassFrictionChanges": 0,
+  "spawnXZ": [
+    [
+      -50.8,
+      33
+    ],
+    [
+      -53,
+      33
+    ],
+    [
+      -67,
+      24.3
+    ],
+    [
+      -66,
+      26.2
+    ],
+    [
+      -58.8,
+      33
+    ],
+    [
+      -56.6,
+      17
+    ],
+    [
+      -54.7,
+      17
+    ],
+    [
+      -62,
+      17
+    ],
+    [
+      -44,
+      25
+    ],
+    [
+      -55,
+      35
+    ]
+  ],
+  "birthDeadline": 100,
+  "settleDeadline": 400,
+  "awayTick": 433,
+  "returnTick": 449,
+  "finalTick": 480,
+  "navTicks": [
+    16,
+    100,
+    240,
+    400,
+    432,
+    449,
+    480
+  ],
+  "wallSecondsIncludingAddTypeStartupCleanup": 180,
+  "terminationAtSeconds": 178,
+  "cleanupReserveSeconds": 2,
+  "artifactCapBytes": 134217728,
+  "failureReserveBytes": 33554432,
+  "compileCommand": "node node_modules/typescript/bin/tsc -p tools/overhaul-street-native-qualification-001/tsconfig.json",
+  "nativeCommand": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/overhaul-street-native-qualification-001/run-owned.ps1",
+  "launcher": "Suspended child assigned to exclusive nonbreakaway kill-on-close Windows Job Object before Resume; actual owned PID/accounting/tree-exit receipts",
+  "launcherVerified": false,
+  "compiler": "UNRUN",
+  "native": "UNRUN",
+  "firstGenuineFailure": "STOP_PRESERVE_NO_REPAIR_NO_RERUN",
+  "admission": "DENIED_PENDING_ALL_ACTUAL_GATES_AND_INDEPENDENT_RESULT_REVIEW"
+}

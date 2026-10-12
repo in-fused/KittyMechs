@@ -1,0 +1,179 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "path": "tools/overhaul-city-lod-186/source-seal.json",
+      "bytes": 2323,
+      "sha256": "5b980185e8f49ae9162b991b64c5bd5adfba7be2744d1c3019ad8a9da1c1d492"
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/HANDOFF.md",
+      "bytes": 4150,
+      "sha256": "3816947838c5846e340d0f1022882bc3ab856a1de5af6b04d5ff2d78ab4fc92e"
+    },
+    {
+      "path": "tools/overhaul-render-181/source-seal.json",
+      "bytes": 3715,
+      "sha256": "d01bc144de367d20af4f65a70b3adc6135ceaf9d0dd28918f327e09920d463f1"
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.json",
+      "bytes": 978680,
+      "sha256": "c2a6299fa9e40b1f478d5cfb5c7fc78a5f1d3b694dfd340ba64722c9be37ea46"
+    },
+    {
+      "path": "tools/overhaul-render-181/identity-source181.ts",
+      "bytes": 3052,
+      "sha256": "2b931cbe7ac736e3729c3b98e4cb3228776206d2d9d5e5abab2d4a99de62791a"
+    },
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "bytes": 10515,
+      "sha256": "380a97b1a6ccbf79893beaaca85f5720205da5becec7061f8758f356460da637"
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "bytes": 1185,
+      "sha256": "a6da86b27b77e371b2ffb3b53108826aac3d2e21f0c79f83b29bd4b2728c6a59"
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "bytes": 17094,
+      "sha256": "a4a27a22886303bc742aff92db7564a691cf798dee7e4856eef340f43788360a"
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "bytes": 9198,
+      "sha256": "fadf227c7f14b2d65e390d2afec94732b0a6b9e2829c582ecb117ed35debf4f5"
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "bytes": 13698,
+      "sha256": "149b10cb9c2fa352bd5a526abdc30600d47ad75fcddc336a859ee7cdde19c92f"
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "bytes": 6719,
+      "sha256": "d0318c2399022c20d8b383a2df62c9122328b78bc3a7d9cbc24aa639cb9900ce"
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "bytes": 1989,
+      "sha256": "35998ddf5c96f02268f7633f40ca8f90286ecd5cac8248621ca635f5a3e1f9c7"
+    },
+    {
+      "path": "public/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "bytes": 2184328,
+      "sha256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "bytes": 257421,
+      "sha256": "d0e01656b4840b3dd999997fc7e8b5f62d9f560f2690d1ec38252965b41d7df1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    },
+    {
+      "path": "node_modules/three/src/objects/BatchedMesh.js",
+      "bytes": 47215,
+      "sha256": "b4d1675b3f56258d7d52715b82d42ec856a2380960ad79d9827203358183651b"
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/source-seal.json",
+      "bytes": 2721,
+      "sha256": "3205993a8c4cee421e2428910df2d7cd65a28c198c25943de2f82368fe042181"
+    },
+    {
+      "path": "tools/overhaul-facade-lod-191/HANDOFF.md",
+      "bytes": 4130,
+      "sha256": "29e7ac2ef8428a89939d0a8ef925a99110b0b9b4f3812cfd2026fe3859f4346f"
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/Rainline_Identity_v4.blend",
+      "bytes": 2684288,
+      "sha256": "efad241bf19ed55f068a133ecfa6773ad1f0688de01ebde853ef46bb91c5abaf"
+    },
+    {
+      "path": "assets/source/overhaul-city-v4/author.py",
+      "bytes": 11783,
+      "sha256": "626f841bed68728dab9c7f601d9a31faf3a66d45668d9fdeef5ceeabdad65817"
+    },
+    {
+      "path": "public/assets/fonts/barlowcondensed/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    }
+  ],
+  "prior191Inputs": [
+    {
+      "path": "tools/overhaul-city-lod-186/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-city-lod-186/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/source-seal.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/correspondence181.json",
+      "match": true
+    },
+    {
+      "path": "tools/overhaul-render-181/identity-source181.ts",
+      "match": true
+    },
+    {
+      "path": "src/game/world/overhaulIdentityArt.tsx",
+      "match": true
+    },
+    {
+      "path": "src/game/world/rainlineFacadeRhythm001.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulDistrict.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulArchitecture.ts",
+      "match": true
+    },
+    {
+      "path": "shared/cityDistrict.ts",
+      "match": true
+    },
+    {
+      "path": "shared/rainlineExtraction039.ts",
+      "match": true
+    },
+    {
+      "path": "shared/overhaulFracture.ts",
+      "match": true
+    },
+    {
+      "path": "public/assets/overhaul/city-v4/Rainline_Identity_v4.glb",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/draw180-public/evidence.json",
+      "match": true
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "match": true
+    },
+    {
+      "path": "node_modules/three/src/objects/BatchedMesh.js",
+      "match": true
+    }
+  ],
+  "sourceMasterBothJobs": "MATCH",
+  "sourcePublicGlbExpectedSHA256": "e92b9541472196339009136977c1addc677839454a35b140849bb02416db8aad",
+  "sourcePublicGlbMatch": true
+}

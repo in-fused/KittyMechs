@@ -1,0 +1,87 @@
+{
+  "writer": "CLOSED",
+  "files": [
+    {
+      "bytes": 13130,
+      "sha256": "18794a8b616b3934d198c2c5e78839eae8680a203e90701660e60542ad2cc9b3",
+      "path": "src/game/entities/identity57Runtime005.ts"
+    },
+    {
+      "bytes": 4440,
+      "sha256": "a4d5fc6c5a48e42b932ea6fe88a2b0ec0c4735288ff01a3c3b0bc19c81f34239",
+      "path": "src/game/entities/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 13932,
+      "sha256": "2f1e3281f6247e416318d9c458eff215c8a6bd8c9cab5d2b3854d3fd9447f9f8",
+      "path": "src/game/entities/movingRFfeet067.ts"
+    },
+    {
+      "bytes": 6909,
+      "sha256": "89916653003f9763e98772851094894db2a50fe77012fe3dc666ea3ef25dffdd",
+      "path": "src/game/entities/groundSupport067.ts"
+    },
+    {
+      "bytes": 5853,
+      "sha256": "7cb9a4d909b73914bcb11c4ec22419837fcf1870e3e7424e2e17cfd4d9d93dd5",
+      "path": "tools/overhaul-moving-r-067/controller-check.ts"
+    },
+    {
+      "bytes": 6717,
+      "sha256": "6982a3b6d0d1da885038a0cc2673b31402a7a7968cddc68c84006f313e33a1d5",
+      "path": "tools/overhaul-moving-r-067/capture.mjs"
+    },
+    {
+      "bytes": 12094,
+      "sha256": "52b9e9eb76776da7f751bcd3687f477cb3df7f04ab0387600f51e7954e8b2c53",
+      "path": "tools/overhaul-moving-r-067/preimages/identity57Runtime005.ts"
+    },
+    {
+      "bytes": 4191,
+      "sha256": "fb04eee5e5cfae8e6cd056424e52b203560bbec65287bc9af3ae4dbaf2c81fff",
+      "path": "tools/overhaul-moving-r-067/preimages/identity57Runtime034Actor.tsx"
+    },
+    {
+      "bytes": 4854,
+      "sha256": "e20ee40e9fbc95ba4c65fff32f59d6e01052f23084b498bf823a3dc7b5b53188",
+      "path": "docs/overhaul/moving-r-067-source-handoff.md"
+    },
+    {
+      "bytes": 239878,
+      "sha256": "8d94cadb79d70ee4c96b69304c5fdadce3dffc40d0d0da47293365661df94027",
+      "path": "src/game/entities/identity57Runtime058EManifest.json"
+    },
+    {
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+      "path": "assets/source/overhaul-pounce-gait-058e/Pounce_Gait058E.glb"
+    },
+    {
+      "bytes": 6093560,
+      "sha256": "381f13348fa5a10b67c23be01844de50e89802738cb8ab13282267685644e7f9",
+      "path": "public/assets/models/Pounce_Gait058E.glb"
+    },
+    {
+      "bytes": 9521,
+      "sha256": "0c9de63701c67d10bd5336e4338a7d1083de5c1c153206268a757742629639c8",
+      "path": "src/game/entities/renderTimeline.ts"
+    },
+    {
+      "bytes": 8821,
+      "sha256": "bc6713e23b29795a0443a02d351397d1c56995d23aff1b781d523aeab3edd8d2",
+      "path": "docs/overhaul/moving-r-support-066-inventory.md"
+    },
+    {
+      "bytes": 1589,
+      "sha256": "1f3d7fc8471a5962f00bdaabc460f7fa6cc984f2a34543d74926972f2713e3d2",
+      "path": "tools/overhaul-moving-r-support-068/result-seal.json"
+    }
+  ],
+  "controllerCommand": [
+    "node",
+    "--import",
+    "tsx",
+    "tools/overhaul-moving-r-067/controller-check.ts"
+  ],
+  "scope": "067 source candidate unexecuted/unqualified; root source critique, ONE controller check then one build/play review; no source assets changed"
+}

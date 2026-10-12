@@ -1,0 +1,42 @@
+{
+  "frozenUTC": "2026-10-10T21:13:43.588207+00:00",
+  "files": [
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/author.py",
+      "bytes": 8552,
+      "sha256": "0e84156a3c2c1d6da54e3c0320ed0b409f2d74ae1c1dc20c2e0e35c5e57a19ea"
+    },
+    {
+      "path": "docs/overhaul/pounce-art-detail-034-plan.md",
+      "bytes": 2154,
+      "sha256": "a18b50a11e3725419bddf4cbffb59791a4568e0ef3ae6e004c457dd26a7c1d02"
+    }
+  ],
+  "protected": [
+    {
+      "path": "public/assets/models/Pounce_ArtBridge019.glb",
+      "bytes": 4191736,
+      "sha256": "4c050fd8f2e25f79548d51bdf8a419bba702b3893adfdc08e03749f60b71043e"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-bridge-019/Pounce_ArtBridge019.blend",
+      "bytes": 75790840,
+      "sha256": "568086ed09ec3460da30ef2972b2699043694baf82fda936fa3decdcbaf99f40"
+    },
+    {
+      "path": "src/game/entities/identity57Runtime019Manifest.json",
+      "bytes": 231704,
+      "sha256": "be0dd9c4d14bc4509276db63b333a179e359e68af30b0262ed6955d14ae7b92c"
+    }
+  ],
+  "inclusiveCapSeconds": 120,
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/blender.exe",
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\assets\\source\\overhaul-pounce-art-detail-034\\author.py"
+  ]
+}

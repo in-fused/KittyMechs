@@ -1,0 +1,321 @@
+{
+  "schema": 1,
+  "status": "INDEPENDENTLY_APPROVED_SCOPED_ASSET",
+  "baselineCommit": "d3798fd620f50ea1fa17a6816141ed07e4a4af89",
+  "provenance": "Original authored armor derivative and analytic PBR atlas, based on the approved KittyMech Pounce source. The texture fields are not a photogrammetry/high-poly AO bake.",
+  "shipping": {
+    "frozen": true,
+    "shippingBytes": 1094816,
+    "shippingSha256": "511b7aa14ce7ebf5b4a384250b4c0112c5eaad66565f029f15faf358be8f21e7",
+    "privateSha256": "0cf379e834b91452a7441ee8b31682549c9f5eacf4c731d608518a1ccda1239b",
+    "graphicsBinExactlyUnchanged": true,
+    "sharedMaps": [
+      {
+        "uri": "../textures/feline-albedo-v1.webp",
+        "bytes": 8726,
+        "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21"
+      },
+      {
+        "uri": "../textures/feline-normal-v1.webp",
+        "bytes": 5614,
+        "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22"
+      },
+      {
+        "uri": "../textures/feline-orm-v1.webp",
+        "bytes": 3992,
+        "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c"
+      }
+    ],
+    "materials": [
+      "FelinePBR_Armor",
+      "FelinePBR_Glow",
+      "FelinePBR_Glass"
+    ],
+    "preservationReceipt": "shipping-preservation-receipt.json",
+    "poseReceipt": "shipping-pose-receipt.json",
+    "privateReceipts": [
+      "private-optimized-preservation-receipt.json",
+      "private-optimized-pose-receipt.json"
+    ]
+  },
+  "preservation": {
+    "passed": true,
+    "method": "Exact decoded32 animation channel arrays/interpolation,25joint transforms/hierarchy/inverse binds; rigid one-bone influences; source paw-local bounds unchanged; all unrelated baseline shipping GLBs remain byte-identical. Only explicit parallel roster additions admitted separately and not qualified here.",
+    "candidate": "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\public\\assets\\models\\Pounce_Quadruped.glb",
+    "sha256": "511b7aa14ce7ebf5b4a384250b4c0112c5eaad66565f029f15faf358be8f21e7",
+    "valuesCompared": 175125,
+    "retainedAnimations": 32,
+    "retainedJoints": 25,
+    "triangles": 19296,
+    "exportedVertices": 33620,
+    "materials": 3,
+    "baselineRoster": 29,
+    "shippingModelsUnchanged": 28,
+    "parallelAdditions": [
+      {
+        "name": "City_Coolant_Higgsfield.glb",
+        "bytes": 1096008,
+        "sha256": "12e814d2763fa557a25e130a6dc8155daa40aed1d208aa70a6a5c455c1df3e2b",
+        "scope": "Declared parallel addition, not qualified by the Pounce art audit"
+      }
+    ],
+    "sourceEnvelopeParts": 156
+  },
+  "shippingContact": {
+    "passed": true,
+    "pawDelta": 0,
+    "paws": [
+      {
+        "label": "FL",
+        "min": [
+          -0.23906220567378123,
+          -0.1641023595414839,
+          -0.16498987162116086
+        ],
+        "max": [
+          0.23891326298986393,
+          0.5615171903874949,
+          0.0830171358052163
+        ]
+      },
+      {
+        "label": "FR",
+        "min": [
+          -0.23891328128140843,
+          -0.16410235954147945,
+          -0.16498988003613024
+        ],
+        "max": [
+          0.23906218738223672,
+          0.5615171903874998,
+          0.08301712739024691
+        ]
+      },
+      {
+        "label": "HL",
+        "min": [
+          -0.23906224698689255,
+          -0.1641943549384411,
+          -0.16498973365066694
+        ],
+        "max": [
+          0.23891322167675255,
+          0.5616976511866245,
+          0.08301731684351976
+        ]
+      },
+      {
+        "label": "HR",
+        "min": [
+          -0.23891320338523026,
+          -0.16419435493842727,
+          -0.16498972523569755
+        ],
+        "max": [
+          0.23906226527841495,
+          0.5616976511866384,
+          0.08301732525848915
+        ]
+      }
+    ],
+    "standaloneSamples": 224,
+    "vertexSamples": 7530880,
+    "mixedFeet": 1728,
+    "minCorner": 0.0040000081062316895,
+    "maxSegmentError": 1.2079642830453707e-07,
+    "maxReach": 0.9186298739381478,
+    "maxCasts": 5,
+    "method": "Actual optimized candidate and approved baseline decoded bounds;224 standalone32clip poses finite; independent turn/gait phases and full-weight combat additives,1728 hind feet on real Rapier floor,production rigidIK+whole-paw clearance. Mathematical same-component affine envelope proof is separate; terrain/carrier/traversal/aim/core production qualification remains independent critic scope."
+  },
+  "sourceCoreComposition": {
+    "quadruped": {
+      "samples": 1890,
+      "coreRadius": 1.7363508539363353,
+      "coreHeight": 2.193295955657959,
+      "coreFloor": 0.4201410412788391,
+      "physicalHeight": 2.193295955657959,
+      "physicalFloor": -0.17652295529842377,
+      "radiusDetail": {
+        "case": [
+          "Trot",
+          "Gallop",
+          0.5,
+          0.25,
+          "CombatBase",
+          0,
+          0,
+          0
+        ],
+        "vertex": 6588,
+        "bones": [
+          "head"
+        ],
+        "sourcePosition": [
+          -0.05790000408887863,
+          -2.1590399742126465,
+          1.816999912261963
+        ],
+        "posedPosition": [
+          -0.046320002526044846,
+          -1.735732913017273,
+          1.3117210865020752
+        ]
+      }
+    },
+    "upright": {
+      "samples": 1260,
+      "coreRadius": 1.4696791738217814,
+      "coreHeight": 3.236325979232788,
+      "coreFloor": 0.5673046112060547,
+      "physicalHeight": 3.236325979232788,
+      "physicalFloor": -0.060964491218328476,
+      "radiusDetail": {
+        "case": [
+          "TurnLeft",
+          "TurnRight",
+          0.5,
+          0.12,
+          "Missile",
+          0.2,
+          -0.65,
+          -0.24
+        ],
+        "vertex": 2283,
+        "bones": [
+          "pelvis"
+        ],
+        "sourcePosition": [
+          -1.0199999809265137,
+          1.352000117301941,
+          1.649999976158142
+        ],
+        "posedPosition": [
+          -0.8430836796760559,
+          1.2038134336471558,
+          1.3314810991287231
+        ]
+      }
+    }
+  },
+  "sourceCoreMethod": "Actual derivative evaluated source mesh;32clips x7 phases. Adjacent gait/turn/air bases plus inverse-reference full additive4 reactions at two phases, independent turn phase+.23, opposing exact head aim yaw/pitch limits. Excludes procedural carrier/IK and authority trajectory; these require actual production critic. Cosmetic group remains only inherited whiskers/tail; every new armor part physical except tail.",
+  "atlas": {
+    "size": 1024,
+    "seed": 773411,
+    "provenance": "Original offline analytic height/material fields; not a photogrammetry or high-poly AO bake",
+    "normalConvention": "OpenGL +Y; height derivative, UV0; WebP normal/ORM lossless",
+    "ormChannels": [
+      "AO",
+      "roughness",
+      "metalness"
+    ],
+    "tiles": [
+      [
+        104,
+        120,
+        105
+      ],
+      [
+        210,
+        117,
+        41
+      ],
+      [
+        83,
+        95,
+        96
+      ],
+      [
+        25,
+        32,
+        34
+      ],
+      [
+        225,
+        250,
+        246
+      ],
+      [
+        94,
+        151,
+        154
+      ],
+      [
+        158,
+        95,
+        47
+      ],
+      [
+        192,
+        205,
+        189
+      ]
+    ],
+    "maps": [
+      {
+        "name": "albedo",
+        "file": "public/assets/textures/feline-albedo-v1.webp",
+        "bytes": 8726,
+        "sha256": "21735b7a2bde931d19a76b81313b648379513c8eecc2dd4ae413626d15399b21",
+        "colorSpace": "sRGB"
+      },
+      {
+        "name": "normal",
+        "file": "public/assets/textures/feline-normal-v1.webp",
+        "bytes": 5614,
+        "sha256": "b3b47e5ef0ba1d823e2679698682de068ea64890beb0560b0e2e030a7028fb22",
+        "colorSpace": "linear"
+      },
+      {
+        "name": "orm",
+        "file": "public/assets/textures/feline-orm-v1.webp",
+        "bytes": 3992,
+        "sha256": "875106181236cb48c451218b2144a2aecdd4e041bf5e86245b9cfedc7e7dad9c",
+        "colorSpace": "linear"
+      }
+    ]
+  },
+  "sourceProofs": [
+    {
+      "path": "assets/source/pounce-art-v1/Pounce_Quadruped.art-v1.blend",
+      "sha256": "2f9d63df900368b4bf8a699e33a6eec16921fc6ac76e299455f99a0ce8b04c8c"
+    },
+    {
+      "path": "assets/source/pounce-art-v1/source-art-receipt.json",
+      "sha256": "da4631b19151d636aac4fa8608bd3e6dcb24f3e59872123a7fa7cc96401522cd"
+    },
+    {
+      "path": "assets/source/pounce-art-v1/source-core-bounds.json",
+      "sha256": "812a0b4f29c84fbfe5f0aa321b4e3cc5e59ce6ac588e3a74a7770c5995eeb54f"
+    },
+    {
+      "path": "assets/source/pounce-art-v1/shipping-preservation-receipt.json",
+      "sha256": "61f0c238d96600b5bd8ca78619838d82bcb001a7a6f9b8bb79579b546c771527"
+    },
+    {
+      "path": "assets/source/pounce-art-v1/shipping-pose-receipt.json",
+      "sha256": "0b14cfbd65afd8dff94eddc0864c2ef9e9256cfc1c6fda0dedb45c4e15008dd7"
+    },
+    {
+      "path": "assets/source/pounce-art-v1/shipping-art-handoff.json",
+      "sha256": "2aa8d8abf95036ab2b594af3404ce98abaf395d54fcc7ca8afd0154e9f851ee6"
+    }
+  ],
+  "productionCaptures": {
+    "candidate": ".sites-runtime/city-art/pounce-candidate-first/receipt.json",
+    "baseline": ".sites-runtime/city-art/baseline-corrected/receipt.json",
+    "scope": "Actual shipping renderer, ordinary controls, medium1440x900 camera6; six stance/movement/jump stills plus independent breach/roof route. Incremental art qualification only."
+  },
+  "limits": [
+    "One of four player chassis refined in this milestone; other28 baseline GLBs unchanged.",
+    "Incremental playable detail remains below the generated title artwork and the long-term AAA goal.",
+    "Static bounds/contact proofs do not replace production terrain, combat, climbing and visual qualification."
+  ],
+  "assetReview": {
+    "reviewer": "/root/critic",
+    "decision": "APPROVE",
+    "recordedAt": "2026-10-04T15:47:02.243906+00:00",
+    "scope": "One original Pounce armor/PBR derivative; retained 25-joint/32-action rig, exact channel/bind/paw bounds, all28 other baseline models unchanged; scoped actual quad/upright/breach/roof review.",
+    "releaseIntegrationApprovalPending": true
+  },
+  "matchedProfile": ".sites-runtime/critic/city-art/profile; medium1440x900 camera10, reducedFlashes=false for both quiet samples; moving candidate route separately uses reducedFlashes=true."
+}

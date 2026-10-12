@@ -1,0 +1,13 @@
+{
+  "writer": "CLOSED",
+  "status": "UNRUN_ROUTE_PROPOSAL_ONLY",
+  "generatedManifest": "tools/overhaul-anatomy-asset-124/output/identity57Runtime121Manifest.json",
+  "installManifest": "src/game/entities/identity57Runtime121Manifest.json",
+  "assetModuleProposal": "tools/overhaul-anatomy-asset-124/identity57Runtime121Asset.proposed.ts",
+  "installAssetModule": "src/game/entities/identity57Runtime121Asset.ts",
+  "actor": "src/game/entities/identity57Runtime034Actor.tsx",
+  "actorSubstitutions": {"./identity57Runtime106Manifest.json":"./identity57Runtime121Manifest.json","./identity57Runtime106Asset":"./identity57Runtime121Asset","IDENTITY57_ASSET_URL106":"IDENTITY57_ASSET_URL121"},
+  "preload": "src/game/GameCanvas.tsx",
+  "preloadSubstitutions": {"./entities/identity57Runtime106Asset":"./entities/identity57Runtime121Asset","IDENTITY57_ASSET_URL106 as":"IDENTITY57_ASSET_URL121 as"},
+  "runtimeOwner": "123 owns runtime005/movingRFfeet067/authoredFootfalls123 independently; no ownership edits in124"
+}

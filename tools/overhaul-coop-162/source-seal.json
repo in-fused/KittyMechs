@@ -1,0 +1,52 @@
+{
+  "writer": "CLOSED",
+  "candidate": "arrivalContract162",
+  "disposition": "INFEASIBLE_AT_SAVED_READ_NO_PUBLIC_MISSION_CANDIDATE",
+  "files": [
+    {
+      "path": "tools/overhaul-coop-162/arrival-contract.mjs",
+      "bytes": 3042,
+      "sha256": "04b9fe9722909618bee35390bb95221dbdc3c19b3a9ca4f96fd671d82a6d189e"
+    },
+    {
+      "path": "tools/overhaul-coop-162/arrival-receipt.json",
+      "bytes": 2819,
+      "sha256": "d598bbdfd425c971eaf30b265ddb3e1a75041735f678a6f324cb6b5d7805136e"
+    },
+    {
+      "path": "tools/overhaul-coop-162/arrival.test.mjs",
+      "bytes": 2932,
+      "sha256": "20f1517c2b0170a7fc4f502d4517aadf2d181779a1413a8106a6b57ccb940843"
+    },
+    {
+      "path": "tools/overhaul-coop-162/checks-receipt.json",
+      "bytes": 489,
+      "sha256": "021cd103bb2df47fed5955f4dba760e3b672b2f8fa065404c541ce3ff94c5b30"
+    },
+    {
+      "path": "tools/overhaul-coop-162/HANDOFF.md",
+      "bytes": 3904,
+      "sha256": "ce45bbb9b44e9b26573ebe9f72e638e4bdab61b01b49cff2b9909c014fa8adce"
+    },
+    {
+      "path": "tools/overhaul-coop-162/preimages/exposure-planner.mjs",
+      "bytes": 10987,
+      "sha256": "b18c84bc70d859aa3b33e0b16f4ef0ae1897fe1e967068814223f36534208223"
+    },
+    {
+      "path": "tools/overhaul-coop-162/preimages/mission-capture.mjs",
+      "bytes": 49242,
+      "sha256": "beb5d5662fc8327f147be674d89b8dfb97e392229d2ab89ea192638493545353"
+    },
+    {
+      "path": "tools/overhaul-coop-162/protected-inputs.json",
+      "bytes": 2511,
+      "sha256": "69b45293fb16567a6f310c765b889a1d04be9292ba6b5bceb1f106ddd9a45e6c"
+    },
+    {
+      "path": "tools/overhaul-coop-162/vitest.config.mjs",
+      "bytes": 154,
+      "sha256": "75f64fbcf16e55b08d6e7bc1dbc62b5925399fc8679c065ab9c6fc017eeaac1f"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "../../src/game/entities/identity57Runtime005*.ts",
+    "../../src/game/entities/identity57Runtime005*.tsx",
+    "../../src/game/entities/Actors.tsx",
+    "../../src/debug/diagnostics.ts"
+  ]
+}

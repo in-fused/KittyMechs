@@ -1,0 +1,207 @@
+{
+  "status": "PASS_COHERENT_OWNER_NUMERIC_ONLY",
+  "scope": "real264 decoded geometry/clips/catalog; actual267/274 NativeOwner methods over constructed render/native-readback records and fixed Rapier client terrain; not actual native simulation/browser/ACK/quality",
+  "frames": 876,
+  "maxOrientationDifference": 2.4575624618635555e-07,
+  "maxIndependentPadError": 2.220446049250313e-16,
+  "maxPhaseError": 0,
+  "settledPrepSamples": {
+    "baseline": 2475,
+    "candidate": 1019
+  },
+  "failure": null,
+  "cost": {
+    "samples": 591,
+    "baselineMedianMs": 1.5705000000002656,
+    "candidateMedianMs": 1.3172000000004118,
+    "baselineP95Ms": 3.599500000000262,
+    "candidateP95Ms": 2.806799999999839,
+    "pairedMedianMs": 0.24399999999968713,
+    "scope": "actual NativeOwner step incl settled prep; alternating order, constructed paths/fixed surface; not isolated/human FPS"
+  },
+  "cases": [
+    {
+      "name": "WALK:1",
+      "frames": 64,
+      "fulfilled": 29,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 145,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 71,
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT": 40
+      },
+      "maxAbsMaterialNormalGap": 0.0238960990170994,
+      "maxTangential": 0.13129342899399038
+    },
+    {
+      "name": "WALK:-1",
+      "frames": 64,
+      "fulfilled": 45,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 92,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 24,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 93,
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT": 47
+      },
+      "maxAbsMaterialNormalGap": 0.16117553202522553,
+      "maxTangential": 0.13654082268287235
+    },
+    {
+      "name": "TROT:1",
+      "frames": 64,
+      "fulfilled": 37,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 83,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 153,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 20
+      },
+      "maxAbsMaterialNormalGap": 0.1882798325056319,
+      "maxTangential": 0.12478459543934538
+    },
+    {
+      "name": "TROT:-1",
+      "frames": 64,
+      "fulfilled": 38,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 81,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 175
+      },
+      "maxAbsMaterialNormalGap": 0.14610549107830917,
+      "maxTangential": 0.13790629827722226
+    },
+    {
+      "name": "GALLOP:1",
+      "frames": 64,
+      "fulfilled": 8,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 24,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 175,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 57
+      },
+      "maxAbsMaterialNormalGap": 0.1299754943216307,
+      "maxTangential": 0.12084666191164085
+    },
+    {
+      "name": "GALLOP:-1",
+      "frames": 64,
+      "fulfilled": 4,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 14,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 242
+      },
+      "maxAbsMaterialNormalGap": 0.020000613368708627,
+      "maxTangential": 0.011994794427783811
+    },
+    {
+      "name": "UP_WALK:1",
+      "frames": 64,
+      "fulfilled": 37,
+      "reasons": {
+        "LIFECYCLE_RESET": 128,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 79,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 19,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 15,
+        "FINAL_SAME_POINT_OR_COMPLETE_PAD_CONSTRAINT_FAILED": 15
+      },
+      "maxAbsMaterialNormalGap": 0.029208039542776804,
+      "maxTangential": 0.12438708410567084
+    },
+    {
+      "name": "UP_WALK:-1",
+      "frames": 64,
+      "fulfilled": 37,
+      "reasons": {
+        "LIFECYCLE_RESET": 128,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 74,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 54
+      },
+      "maxAbsMaterialNormalGap": 0.025944155659441036,
+      "maxTangential": 0.11928043964359647
+    },
+    {
+      "name": "UP_STRIDE:1",
+      "frames": 64,
+      "fulfilled": 24,
+      "reasons": {
+        "LIFECYCLE_RESET": 128,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 65,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 20,
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT": 28,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 15
+      },
+      "maxAbsMaterialNormalGap": 0.11158702738111094,
+      "maxTangential": 0.3094065260990438
+    },
+    {
+      "name": "UP_STRIDE:-1",
+      "frames": 64,
+      "fulfilled": 40,
+      "reasons": {
+        "LIFECYCLE_RESET": 128,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 76,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 52
+      },
+      "maxAbsMaterialNormalGap": 0.031197482018686953,
+      "maxTangential": 0.15686470318980836
+    },
+    {
+      "name": "MOVING_R:1",
+      "frames": 49,
+      "fulfilled": 29,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 63,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 118,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 15
+      },
+      "maxAbsMaterialNormalGap": 0.08782228714067658,
+      "maxTangential": 0.09301968700651735
+    },
+    {
+      "name": "MOVING_R:-1",
+      "frames": 49,
+      "fulfilled": 10,
+      "reasons": {
+        "LIFECYCLE_RESET": 95,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 59,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 23,
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT": 19
+      },
+      "maxAbsMaterialNormalGap": 0.056621436102278044,
+      "maxTangential": 0.4511704526654984
+    },
+    {
+      "name": "R_INTERRUPTION_STOP",
+      "frames": 86,
+      "fulfilled": 56,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 131,
+        "AUTHORED_UNLOAD_OR_RECOVERY": 154,
+        "OBSERVED_TRAVEL_YAW_WORKSPACE_EXIT": 8,
+        "REVERSED_TOUCH_NO_REMAINING_PEAK": 51
+      },
+      "maxAbsMaterialNormalGap": 0.12099369068411588,
+      "maxTangential": 0.14920979590542005
+    },
+    {
+      "name": "TURN_SUPPORTLOSS",
+      "frames": 48,
+      "fulfilled": 34,
+      "reasons": {
+        "AUTHORED_UNLOAD_OR_RECOVERY": 111,
+        "CURRENT_FIXED_SUPPORT_TOUCH": 49,
+        "LEASE_RETIRED_OR_CHANGED": 32
+      },
+      "maxAbsMaterialNormalGap": 0.04532310851461755,
+      "maxTangential": 0.05821764859453641
+    },
+    {
+      "name": "LIFE_COMPLETE_UNSUPPORTED_RESTORE",
+      "frames": 4,
+      "fulfilled": 0,
+      "reasons": {
+        "CURRENT_FIXED_SUPPORT_TOUCH": 8
+      },
+      "maxAbsMaterialNormalGap": 0.020000613368708627,
+      "maxTangential": 1.0051937971569338e-07
+    }
+  ]
+}

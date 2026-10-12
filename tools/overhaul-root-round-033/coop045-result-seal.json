@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-public/evidence.json",
+      "bytes": 378183,
+      "sha256": "ed3cff24c0b09577453bf3943924f25354dc6ac746b22da963b96d1ac5cc640f"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-public/failure.png",
+      "bytes": 1459519,
+      "sha256": "41d1c4b2b21018f17fb3a82d64f51f36900af2d00b24b8ebac6e6f75b88f3f55"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-public/native-keyframes.json",
+      "bytes": 867896,
+      "sha256": "0210c3fd4026292acc43ca8227568429e4076c7a1129f3d5dbd2c74c24a5e949"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-public/page@15a60647cfbc94b7d33655d5b00da76f.webm",
+      "bytes": 3906579,
+      "sha256": "b2e67a358d513f55fc9aa1aa63c79c7b9858131a7b217f862a13a7ab3f028bcf"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-public/progress.json",
+      "bytes": 246,
+      "sha256": "4e7fcf0febd68c2e0066b44fff2d0e439aeff631bff028c5eaf75de8d3469e49"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-motion/staging.png",
+      "bytes": 1018702,
+      "sha256": "40a783b217d60a636be98839825b4bfd9573e8093d2a94a991894da479a38dfb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-motion/stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-process/process-receipt.json",
+      "bytes": 61243,
+      "sha256": "96bc316a38fe9d423b9e2335dbd302c7cd43e77ef4ed91e77228a0b9eaf6c227"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop-play-045-process/stdout.txt",
+      "bytes": 513,
+      "sha256": "cf9db9e71d48403049e7d358ceebadc12f7368e7d4a18505bbeddaba31f5b407"
+    },
+    {
+      "path": "docs/overhaul/critic/coop-play-045-source-review.md",
+      "bytes": 2355,
+      "sha256": "6cafff439dfa69bec1139233a287bc77e7c232e7bd9957d1a0b1a0991d8352d3"
+    },
+    {
+      "path": "tools/overhaul-root-round-033/coop045-public-seal.json",
+      "bytes": 96458,
+      "sha256": "471174c13dc468a314bacf5273536ab65b3e94abe5194051140888b4bbfe4ce8"
+    },
+    {
+      "path": "tools/overhaul-root-round-033/derive045.py",
+      "bytes": 1928,
+      "sha256": "ff7c01caaebc5267e37c24e43a06b121c0415b786a578dcee645e8b0863321c5"
+    }
+  ],
+  "scope": "045 first actual failed guest startup; no mission completion. Original video, native keys/publication histories and all first failures retained. Staging board derived from original host video only; guest has no footage."
+}

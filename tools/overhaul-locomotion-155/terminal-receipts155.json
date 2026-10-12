@@ -1,0 +1,48 @@
+{
+  "writer": "CLOSED",
+  "commands": [
+    {
+      "command": "node node_modules/tsx/dist/cli.mjs tools/overhaul-locomotion-155/measure155.mts",
+      "terminalExit": 0,
+      "receipt": "measurement-receipt155.txt"
+    },
+    {
+      "command": "node node_modules/tsx/dist/cli.mjs tools/overhaul-locomotion-155/replay-placement155.mts",
+      "terminalExit": 0,
+      "receipt": "replay-receipt155.txt"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-presentation155.test.ts --reporter=verbose",
+      "invocation": "first",
+      "terminalExit": 0,
+      "tests": "5/5",
+      "durationSeconds": 3.2,
+      "receipt": "first-test-receipt155.txt",
+      "geometryLimit": "first-source-cases155.json preserved exact foot extrema mismatch"
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "invocation": "first",
+      "sessionId": 90864,
+      "terminalExit": 1,
+      "receipt": "first-typecheck155.txt",
+      "failure": "Fixture union weak-type incompatibility only"
+    },
+    {
+      "command": "node node_modules/vitest/vitest.mjs run tests/source-presentation155.test.ts --reporter=verbose",
+      "invocation": "one-coherent-repair",
+      "terminalExit": 0,
+      "tests": "5/5",
+      "durationSeconds": 4.0,
+      "receipt": "test-receipt155.txt"
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "invocation": "final",
+      "sessionId": 58533,
+      "terminalExit": 0,
+      "receipt": "typecheck155.txt"
+    }
+  ],
+  "otherCommands": "An unredirected read-only node statistics expression had one extra closing parenthesis and was corrected; it did not execute tests or change evidence. One failed apply_patch matched no lines and changed no source."
+}

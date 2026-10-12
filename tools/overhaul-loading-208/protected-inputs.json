@@ -1,0 +1,176 @@
+{
+  "writer": "CLOSED",
+  "scope": "Static source/saved204 metadata; not current browser performance",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Anchor.glb",
+      "bytes": 650804,
+      "sha256": "4186f09c586f8586fb69787c49eddf53933db9d9d855c75318a5e7a6a77f77a1"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Mortar.glb",
+      "bytes": 608432,
+      "sha256": "8024df906bd5ad6f34e10f37f5d717ba3afca8c44230c8ef4bfb7e47c43034b4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Sentinel_Scout.glb",
+      "bytes": 617084,
+      "sha256": "a4d45c1f9c1ab89527f1451f02bf168ccdcab1dab7c06300ba1887680e9e69d4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/overhaul/pounce-v3/Pounce_Overhaul_v3.glb",
+      "bytes": 1249484,
+      "sha256": "dee43000cfaa77cda9801db7916344b8b3cc5eb7d71589dd8d54cca1a0d6758b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/playable-root/dist/assets/models/Pounce_Anatomy121Batched.glb",
+      "bytes": 7646404,
+      "sha256": "00a39f8f007d8e0b47bf456f5438d8d171b77207036b8bdbf71b7df231c513e4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-062/receipt.json",
+      "bytes": 77857,
+      "sha256": "5b7a3bdafbfbd1af414f8d7cbb62beb7bf12ca31125b4d06f5b9a691f18ec70c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-public/evidence.json",
+      "bytes": 344408,
+      "sha256": "99a17fba40d67897785038811d9748b28eb4b8f6ec49de7494e92bbe9b27e45e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-public/native-keyframes.json",
+      "bytes": 820717,
+      "sha256": "380e468caa887f338db5a23b9a588f057165607725d3c52784f091bbdb223cd4"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-public/failure.png",
+      "bytes": 1033516,
+      "sha256": "1313d1c38ca5a0fc9048911f4c2c1c94cb38cd0677d49ec1556e569739ca4857"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-public/failure-guest.png",
+      "bytes": 367491,
+      "sha256": "0e6b912ebe41614997662712148c3eab4505271b9ed0a8ca89af10d21845bc8b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-supervisor/actual-summary.json",
+      "bytes": 11869,
+      "sha256": "d6cd2d9c9bfed3dda3fa97e79cb0bafb79cfe6f5d145f3a1f7a05f742ea348a5"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/coop204-supervisor/actual-output-seal.json",
+      "bytes": 5027,
+      "sha256": "d2bdd2f367ef0f6a36bdd16031d1d82918d504437a1af415a156201a9f35d9cc"
+    },
+    {
+      "path": "tools/overhaul-coop-204/source-seal.json",
+      "bytes": 3010,
+      "sha256": "3c1ea6da4f0a0ccab25f3c161106bfa5dace464c710b21355aa6e1d414a48cbd"
+    },
+    {
+      "path": "tools/overhaul-coop-204/mission-capture.mjs",
+      "bytes": 57264,
+      "sha256": "d3ba30b016a91ee3301b2c63b0bcb9c53cc176027dc88b9fc891bdcc960847f1"
+    },
+    {
+      "path": "src/game/GameCanvas.tsx",
+      "bytes": 10252,
+      "sha256": "8fa2de3d7aaea5b31ad496ee74b4c8645a1dde51731c44bf12ebd1e6c7dbec63"
+    },
+    {
+      "path": "src/game/entities/Actors.tsx",
+      "bytes": 49882,
+      "sha256": "b461a9dbcd100a248372b5a1460880773d1fa02999c700ae72419bf522eb2f48"
+    },
+    {
+      "path": "src/game/rendering/materials.ts",
+      "bytes": 2547,
+      "sha256": "796a590ba759bebfb3dce8f8dd76912c1bca6da4afeba7ca335520c004412e8c"
+    },
+    {
+      "path": "src/game/rendering/modelPaths.ts",
+      "bytes": 511,
+      "sha256": "475b56d158a0314c71f3908a721a5f65bd5a09cd32fc97728366fa5aa5b61518"
+    },
+    {
+      "path": "src/game/Session.tsx",
+      "bytes": 5898,
+      "sha256": "862fabfd950c6658c019bfe7e6bd5f289ed7e3e08c51aedb0a64a385f458c05a"
+    },
+    {
+      "path": "src/game/input.ts",
+      "bytes": 17271,
+      "sha256": "672eae5c992ce6214d66337d5a8f9b28046e60156deb3b1a047bec0dc4ff1752"
+    },
+    {
+      "path": "src/state/store.ts",
+      "bytes": 3779,
+      "sha256": "58747a7f9a582f4730dd20c05d176a19dff2f6de721b8b497cd2a63f8a8eb180"
+    },
+    {
+      "path": "src/ui/Hangar.tsx",
+      "bytes": 6787,
+      "sha256": "ec227e39bcf9f59adfaf36bf15b76cee2775216f92a752ca196dbaf49c576dbc"
+    },
+    {
+      "path": "node_modules/@react-three/drei/core/Gltf.js",
+      "bytes": 1625,
+      "sha256": "2f4e4415df8d1b48c3b607682d149af655d0e6597dd8d7e76e9598fd6b26590f"
+    },
+    {
+      "path": "node_modules/@react-three/drei/core/Progress.js",
+      "bytes": 1249,
+      "sha256": "324c5c65a0e098842d54ce34f78b6be69bda524d9e7d7e448af36f90a61b82fd"
+    },
+    {
+      "path": "node_modules/three-stdlib/index.js",
+      "bytes": 23796,
+      "sha256": "d07c7c8fcedc65e462fc068bb0d787e0b63bd98db14e605e0bd7933b00ea0152"
+    },
+    {
+      "path": "node_modules/three-stdlib/libs/MeshoptDecoder.js",
+      "bytes": 21758,
+      "sha256": "7c67a585ae0d27c4d18f49fa291a31158fcc60260780435448fcff199385d3dd"
+    },
+    {
+      "path": "node_modules/three-stdlib/loaders/GLTFLoader.js",
+      "bytes": 99777,
+      "sha256": "2799720aedc03a4e3436ab37ffdd6b0246d874ed412a945b31d04d9da23f4078"
+    },
+    {
+      "path": "node_modules/three-stdlib/package.json",
+      "bytes": 1592,
+      "sha256": "a9e0fc21ca2978776b273b04b6b6c82e3edb69a74452c1c6d03551c2ac63b364"
+    },
+    {
+      "path": "node_modules/three/src/loaders/LoadingManager.js",
+      "bytes": 6975,
+      "sha256": "a59b83415230e814f7b68177dae75fdb511611d60ad6d38f48d579904a41c166"
+    },
+    {
+      "path": "node_modules/three/src/loaders/FileLoader.js",
+      "bytes": 7905,
+      "sha256": "848679ec402f63cfa73ee7d4ba23b250e2a460be41d1f7160dcc2ec0262f0336"
+    },
+    {
+      "path": "node_modules/three/src/loaders/ImageBitmapLoader.js",
+      "bytes": 5356,
+      "sha256": "d85203be220664c8633dd8b4b80615cf806b77bfdbe9be94aa29e84485178f18"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2002,
+      "sha256": "0a61714c93f5cacbf0c5eea21969a534c8b280bed61ca9aa3fac166c4454a0e4"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 192534,
+      "sha256": "53e0d3eb49a6895b5d3d19eaf4d0246c63cbbac98cf369462a61c0cd6e0435ec"
+    },
+    {
+      "path": "docs/overhaul/loading208-diagnosis.md",
+      "bytes": 6528,
+      "sha256": "42ae3429009d47cbb63fc7639bf280f1e55d6a8c1fec6e9105a089b4f3f214b3"
+    }
+  ]
+}

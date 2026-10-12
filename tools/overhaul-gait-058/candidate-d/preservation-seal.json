@@ -1,0 +1,91 @@
+{
+  "candidate": "058D",
+  "status": "EXPORTED_SAVED_B_CURVES_GRAFT_SAMPLER_CAPABILITY_STOP",
+  "createdUTC": "2026-10-11T03:11:22.546556+00:00",
+  "files": [
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/export-receipt.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/export-receipt.json",
+      "bytes": 14130,
+      "sha256": "c88c11207ba7f51437c463b99866e7ac763260c2f7efde8ad4cf2d3fed96f439"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/export_saved.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/export_saved.py",
+      "bytes": 10281,
+      "sha256": "194f750c3003750ddef5a82634efb422e667055d5516728d57f7affc4808c141"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/graft-receipt.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/graft-receipt.json",
+      "bytes": 6690,
+      "sha256": "c70ae7b372dba22dd3f814384ad7bd04aa059717ab0084886b93d18a705586db"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/Pounce_Gait058D.temporary.glb",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/Pounce_Gait058D.temporary.glb",
+      "bytes": 5257056,
+      "sha256": "06d4db508cb5cb7430039dcdb5f808daffcf1ab72bc34a6c2a160f008a6d96cb"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/preservation-after-export.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/preservation-after-export.json",
+      "bytes": 18134217,
+      "sha256": "586cb7052633b67f95ddeae8a969be1d4641edd3d9854b4a477c0e49ccafef9c"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/preservation-after-saved-key-replay.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/preservation-after-saved-key-replay.json",
+      "bytes": 18134227,
+      "sha256": "48168724ba6221b17ed197c8253cfda78731c584cad270598d5cb83d12c2e584"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/preservation-loaded-saved-B.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/preservation-loaded-saved-B.json",
+      "bytes": 18134219,
+      "sha256": "61f208f72a97441d66a7d3172aa1e2a05e7d05a4783f0f7355aed56757daacfe"
+    },
+    {
+      "originalPath": "assets/source/overhaul-pounce-gait-058d/saved-key-readback.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/source-output/saved-key-readback.json",
+      "bytes": 4896566,
+      "sha256": "ea50f584db2983ed61e522a5183cd2a8863095a8d18be9ffd953dd66fdf6c40e"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058d/graft_verify.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/tools/graft_verify.py",
+      "bytes": 12015,
+      "sha256": "9e73ea5cccc9e549a1024060cfa82e9222d58a8785575557803cd639e2ace939"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058d/launch.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/tools/launch.py",
+      "bytes": 1205,
+      "sha256": "02eba36f6c4fe8aab3ea30b99fd27fa67d13e554afde62900073ead6e6afe5a3"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058d/protected-inputs.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/tools/protected-inputs.json",
+      "bytes": 6078,
+      "sha256": "561107ec72209eaadac2b6445f0dc06af3aa68bdd3974bbdb9e204582f73e583"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058d/run-seal.json",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/tools/run-seal.json",
+      "bytes": 7232,
+      "sha256": "8ebfbb5dca1ba04a8a6f76a963fa1d28cbff0f75cd1c664036ef9ce003e16721"
+    },
+    {
+      "originalPath": "tools/overhaul-gait-058d/seal.py",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/tools/seal.py",
+      "bytes": 999,
+      "sha256": "590e7e3ea477d5e56035c045a7ef73be79bcc90a1816d8a2bc7fb39028056419"
+    },
+    {
+      "originalPath": "docs/overhaul/gait-058d-export-handoff.md",
+      "preservedPath": "tools/overhaul-gait-058/candidate-d/gait-058d-export-handoff.md",
+      "bytes": 4225,
+      "sha256": "329e2a878d60d49a1e99a64667e43ccc3094da7b60523d289ba486cae724c4fe"
+    }
+  ]
+}

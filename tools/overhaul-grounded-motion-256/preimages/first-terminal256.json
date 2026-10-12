@@ -1,0 +1,17 @@
+{
+  "scope": "one finite decoded-rig equivalence/cost suite, no browser/build/native game",
+  "steps": [
+    {
+      "name": "type",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\node_modules\\typescript\\bin\\tsc",
+        "--project",
+        "C:\\Users\\Taylor\\Documents\\GitHub\\KittyMech-Web\\tools\\overhaul-grounded-motion-256\\tsconfig256.json"
+      ],
+      "capSeconds": 15,
+      "exit": 2,
+      "elapsedSeconds": 5.484000000171363
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sealUTC": "2026-10-10T20:15:18.5456273Z",
+  "rows": [
+    {
+      "path": "docs/overhaul/player-performance-026-result.md",
+      "bytes": 5275,
+      "sha256": "2670c0f417b8d946a63e1e3f3e0f68d10ace3c17d5717b9300c1e020127f80c7"
+    },
+    {
+      "path": "tools/overhaul-player-performance-026/closure.json",
+      "bytes": 3185,
+      "sha256": "8e49e0a0e1478ce974f364c88175f46f1e5faef99d20b8434a631892b79131eb"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player-performance-026-baseline/evidence.json",
+      "bytes": 6863710,
+      "sha256": "28d9c30e866dbf5105463bbd6948afb937a7ff1068b9d7cef9aaa7ddfda91b56"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player-performance-026-process/process-receipt.json",
+      "bytes": 1824,
+      "sha256": "fceb7744bf5ad4c50dc252dfaa1b75228ff566fee9da27c815e5d92dd77acf57"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "sealedUTC": "2026-10-10T22:14:42.459504+00:00",
+  "files": [
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-031/playable-checkpoint.json",
+      "bytes": 557,
+      "sha256": "c466a64e8b1680cc35d8301d2253cc50c49c87c9eff9aad64b47666abfde9dba"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261009/build-031/receipt.json",
+      "bytes": 70065,
+      "sha256": "ec2e66755725d2c2ee6d34f0dfe519db5e7b432345285c49ac53a41a352416ad"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-038/receipt.json",
+      "bytes": 1037,
+      "sha256": "cd6dd4bb707f300023c271922e16e229ad1ffb55efa79745b81c3a0338a03411"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-038/stdout.txt",
+      "bytes": 3024,
+      "sha256": "2aa062430c2cfe6acc3b689854dd737a98b352954a2155b6f31fb36326d38ebe"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-038/video-01.png",
+      "bytes": 10955942,
+      "sha256": "0be41a78e5b62fbe6708bc2f0bcdbd9f90c5cd6b0f794462314e35b3ba33b79d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-motion-038/video-02.png",
+      "bytes": 12052753,
+      "sha256": "217c68421f6e5978473fb67a739ea98e12afbe60969e8c9c71e7f010fe3118b6"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/evidence.json",
+      "bytes": 8185296,
+      "sha256": "da9be035ef26ac305a446cd1b1c5136ee1321e70543d81f06e40715ef6fceb01"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/level-recovery.png",
+      "bytes": 1518696,
+      "sha256": "e7796b5c957b66c1c125768eac011be8ba35f4e90caa53728de8b5650f91a092"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/page@7e3da8e8592ed2630e371893ee0e523c.webm",
+      "bytes": 8414455,
+      "sha256": "731b05f965ae0fd2d48448adfa3dd9d0c21bebcae2df5024e4b6bc1b7e2840df"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/progress.json",
+      "bytes": 8157607,
+      "sha256": "11444e49660514172e9e80c0290eccfd496db3d28a82a581ea5bf542b01b451b"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/road-108.png",
+      "bytes": 1651583,
+      "sha256": "bcc488f29425f0cbe05c32d58fabb5e6211f2cad97aa065856f14caa3f011f99"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/road-42.png",
+      "bytes": 1475974,
+      "sha256": "969fbd41fb433189c835e2f7511bb7901d793637c3c9d59b77f11a7ae96e1218"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/art-player-038/road-76.png",
+      "bytes": 1554586,
+      "sha256": "11f3f303f391ba70c4e76f07a4b2f14be734180ee330070c528c48d31d9c2a09"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-build-process/process-receipt.json",
+      "bytes": 7316,
+      "sha256": "769358733355ca7e9a13939c0f64dfd2f1843517f37d5a44bbdd26205b7c0d8e"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-build-process/stdout.txt",
+      "bytes": 2050,
+      "sha256": "8e775eeb80b5a187396fe5e31bce4224009cf2bd690b8c31640d2282d29f9863"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-capture-process/process-receipt.json",
+      "bytes": 7305,
+      "sha256": "30d5e653b16098610601decbe3efa7a4e71a0efe63c2d4713682d2f24e85aad9"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-capture-process/stdout.txt",
+      "bytes": 991,
+      "sha256": "6b8f8fab60f0df16815e45d9be9b984c0b75667dba4a10e71239d0831fc5267d"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-test-process/process-receipt.json",
+      "bytes": 7500,
+      "sha256": "66601e131e8a25c2095c4ae6e55b8affc525eb2e9caf6fa89d1e79d557f2af7c"
+    },
+    {
+      "path": ".sites-runtime/overhaul-20261010/player038-test-process/stdout.txt",
+      "bytes": 233,
+      "sha256": "562aae3387c7c2f4ae7fe86ef00e21f49ac73706bcc34d5751ccc010dd9d657b"
+    }
+  ],
+  "scope": "Actual038 test/build/capture and originalvideo derivatives/screens, independent review pending"
+}

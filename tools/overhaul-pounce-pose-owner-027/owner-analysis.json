@@ -1,0 +1,168 @@
+[
+  {
+    "clock": 1.9333333333333331,
+    "role": "victim",
+    "stage": "solver-detached-evaluated",
+    "max": 7.3909759521484375E-06,
+    "action": null
+  },
+  {
+    "clock": 1.9333333333333331,
+    "role": "victim",
+    "stage": "owned-key-current-evaluation",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 1.9333333333333331,
+    "role": "victim",
+    "stage": "owned-key-same-clock-replay",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 1.9333333333333331,
+    "role": "attacker",
+    "stage": "solver-detached-evaluated",
+    "max": 7.152557373046875E-07,
+    "action": null
+  },
+  {
+    "clock": 1.9333333333333331,
+    "role": "attacker",
+    "stage": "owned-key-current-evaluation",
+    "max": 7.152557373046875E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 1.9333333333333331,
+    "role": "attacker",
+    "stage": "owned-key-same-clock-replay",
+    "max": 7.152557373046875E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 1.9333333333333331,
+    "stage": "after-frame-replay",
+    "FL": 2.653076323086747E-07,
+    "FR": 4.686172364210006E-07,
+    "currentClawDistances": [
+      null
+    ],
+    "historical": [
+      null
+    ]
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "victim",
+    "stage": "solver-detached-evaluated",
+    "max": 7.3909759521484375E-06,
+    "action": null
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "victim",
+    "stage": "owned-key-current-evaluation",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "victim",
+    "stage": "owned-key-same-clock-replay",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "attacker",
+    "stage": "solver-detached-evaluated",
+    "max": 9.5367431640625E-07,
+    "action": null
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "attacker",
+    "stage": "owned-key-current-evaluation",
+    "max": 9.5367431640625E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 2.233333333333333,
+    "role": "attacker",
+    "stage": "owned-key-same-clock-replay",
+    "max": 9.5367431640625E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 2.233333333333333,
+    "stage": "after-frame-replay",
+    "FL": 1.228781230931777E-07,
+    "FR": 2.9950963321688443E-07,
+    "currentClawDistances": [
+      0.5943365693092346,
+      0.4472633898258209
+    ],
+    "historical": [
+      0.6539566393776418,
+      0.5178067278295676
+    ]
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "victim",
+    "stage": "solver-detached-evaluated",
+    "max": 7.3909759521484375E-06,
+    "action": null
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "victim",
+    "stage": "owned-key-current-evaluation",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "victim",
+    "stage": "owned-key-same-clock-replay",
+    "max": 7.3909759521484375E-06,
+    "action": "027DiagnosticImpactVictim"
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "attacker",
+    "stage": "solver-detached-evaluated",
+    "max": 8.344650268554688E-07,
+    "action": null
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "attacker",
+    "stage": "owned-key-current-evaluation",
+    "max": 8.344650268554688E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 2.533333333333333,
+    "role": "attacker",
+    "stage": "owned-key-same-clock-replay",
+    "max": 8.344650268554688E-07,
+    "action": "027DiagnosticImpactAttacker"
+  },
+  {
+    "clock": 2.533333333333333,
+    "stage": "after-frame-replay",
+    "FL": 6.529361695112778E-07,
+    "FR": 6.02714670185944E-07,
+    "currentClawDistances": [
+      3.7814908182554063E-07,
+      4.470348358154297E-08
+    ],
+    "historical": [
+      8.607919880173313E-07,
+      6.462707651317549E-07
+    ]
+  }
+]

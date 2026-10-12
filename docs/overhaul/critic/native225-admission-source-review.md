@@ -1,0 +1,26 @@
+# Native225 exact-failure asset admission review
+
+Writer: CLOSED. Verdict: APPROVE_225_ASSET_ONLY_ADMISSION; CONDITIONALLY_APPROVE_ONE_PRIVATE_BUILD_WITH_COMPLETE_INPUT_PROTECTION. Do not invoke the current build directly without the protection condition below. No decoder repeat, native/player capture, production delivery or quality/lag acceptance is approved. Retained062 stays unchanged.
+
+The new factory does not pretend221 had a clean terminal result. It reads and hashes the exact raw evidence, then retains the successful real array/loader/constructor comparisons separately from one unlabelled cleanup timeout. It rejects pending identity, other paths/hashes, connected browser, absent/different/multiple cleanup errors and any model/page/network comparison failure. Original222 factory remains unchanged and correctly rejects the old proof.225 is an explicitly different asset-admission scope.
+
+The verifier binds exact failed supervisor, protected-after,224 closure and independent value review. It requires terminal1 within30s, unchanged inputs, raw357904 same creation still present at the intermediate scan, and later eleven original identities absent or signalled exited with server0/0/60. The returned caveat preserves original job1, operationUNKNOWN, originalCleanupDeadlinePassedfalse and ten-absent/one-same-identity-exited. It never rewrites cleanupErrors or relabels resource lifecycle PASS. The six negative boundaries and pure binding of the existing records meaningfully test this narrow exception; they are not a repeated decoder/browser run.
+
+Exact hashes make these archived identities immutable. JavaScript numeric FILETIME comparisons here must not become a generic live process identity API: the native kernel closure supplies the real exit evidence, and these JSON records are accepted only at their fixed hashes. Future live retirement must continue using native creation/handle/wait evidence.
+
+Plugin225 changes only the factory import. It preserves222's single canonical registry, ownership recovery, readonly inspector,218 motion/basis/standard Actor and220 cache/preload identity. The new build writes a private output and stores the resource caveat in its receipt. No public asset overwrite or default model route is introduced. The supplement therefore supports preparation for real player testing rather than another unchanged codec experiment.
+
+There is one concrete execution-protection gap. `build225.mjs` checks original222 `binding.files` (906 rows) plus225's ten own files. That binding has ZERO own `tools/overhaul-native-integration-222/` rows. The imported222 actor/registry/owner/bridge copies and original222 source seal are consequently not covered by this script's checks. Before the one build, root's closed outer envelope/verifier must bind the exact222 CLOSED seal `ddd7d34d26d154913c19645f7e8f5cb6e6371e00dafc43fc4f3d87ea70bf86d8` and all31 files, check them before and after compilation, and reject any mismatch. A narrow separately preserved wrapper correction is also acceptable; do not alter the existing225 sealed files silently. Keep all current225/220 supplement/compiler/actual proof bindings. Enforce a fresh output directory because emptyOutDir:false is not a fresh-output guard. These are build admission requirements, not an asset numeric or gameplay tolerance waiver.
+
+Once that complete protection is recorded, source permits ONE bounded private build only, preserving062. Require emitted single-entry/import graph and exactly one canonical registry identity, exact artifact/cache URL and build receipt with the failed-cleanup caveat. A separately closed observer must receive source review before an actual native experiment. That experiment still has its own unchanged readiness, native/input/body visibility, first-failure and bounded cleanup criteria; late224 retirement grants no exception to future player-run lifecycle failure.
+
+The asset value proof does not establish221 owner stepping, complete-critical playback,61 skin/body clearance, source/world foot contact, visible gait/R quality, paired lifecycle or startup/performance.219 missed guest20s and220 overlap remains unmeasured. A real experiment may reject retention despite the exact arrays. Full district/co-op/art/contact and affected-human severe Lowest ON/OFF lag remain incomplete.
+
+Exact SHA256 bindings; all10 own225 rows matched:
+
+- CLOSED225 seal: `ee34eb18068b8d967406379045648d91c90809542a164b4afb1ebdc8536b4f69`; HANDOFF: `c074702987b24afd06d7fa30b373cc0999edd2e995f3f24863d1188cfab70bb8`.
+- Factory: `8733e1013943de3ca05f6debf861bffdd4a17deb8cf1c91a649dc3ab055349cd`; retirement verifier: `a904cd5c7f9c8d13344cb7f87e5433deacba729e2f5779d4f64cd62785f4a2fc`.
+- Plugin: `79eeac99e6ea925e2b3f2b3265eae3b1af934f47b0e667643654e98a9cdf8edb`; build: `f291fef2bf82ef0325d678917dfa46a766ff2916e4e5cabb545ef3881e50563e`; static receipt: `bd095823529a82b1b2bbebf6e889470701a6a079239081c63421ef841bed36a2`.
+- Independent value critic: `1103848b5e641b58b7cfbf61a3efe5155e101af3a3509dee1ec043145132f3e0`; immutable221 proof: `4ec83d8df252390f3cc991689229bf04861a2cb0effe8f3bd0a0baf7ef2d6232`;224 closure: `b68c881274d231ac6f14a507ba8447eed67a611f61a67d2e97bf4a13493fa1a0`.
+
+Reviewer changed only this file and ran no binding fixture, decoder, build, native or browser job.

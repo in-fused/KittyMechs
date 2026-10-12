@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "path": "tools/overhaul-moving-recoil-050/processor-handoff.json",
+      "bytes": 1300,
+      "sha256": "fbd9b53431a42c4a45972611cb2b97a1cc3c198f1b039c0d740a07f49149aea7"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/processor-seal.json",
+      "bytes": 441,
+      "sha256": "afd830a3db18fe248bbebfe7293ef62a35702c26530c6d12026100f914ce6234"
+    },
+    {
+      "path": "tools/overhaul-moving-recoil-050/prepare-clip.py",
+      "bytes": 8813,
+      "sha256": "e6e024ef258354ef1311d39742a8ce40a48a3e61c7b0334e59a1e048dce98cb2"
+    },
+    {
+      "path": "tools/overhaul-root-round-034/prepare-processor050.py",
+      "bytes": 1363,
+      "sha256": "a785fd3dd66bc6318479041baf7070d4df2c392554cb9989942c98341a08e77c"
+    },
+    {
+      "path": "tools/overhaul-root-round-027/run-seal.py",
+      "bytes": 1888,
+      "sha256": "da473678ba96385ee2e2610184412b2dc73478f0d0dafe0be8e9dd2f93110dcc"
+    }
+  ],
+  "protected": [
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.raw.glb",
+      "bytes": 108260,
+      "sha256": "349ff039be0952b04c90f915010945e8520a05e7ae1d91126ba9a71fd725b010"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/Pounce_MovingRecoil048.blend",
+      "bytes": 516462,
+      "sha256": "316e063e47156cf04be38cd48f0e7fc1525a52a454a5a8fda94d0cbe17fdb751"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author-receipt.json",
+      "bytes": 3094,
+      "sha256": "68d9c00adca0df20f29320f6bb56d985f56aa86f1ee45ebcd4beb2df0b64dd6e"
+    },
+    {
+      "path": "assets/source/overhaul-moving-recoil-048/author.py",
+      "bytes": 9424,
+      "sha256": "ed016ed4d79e8621ab60fbec64cd83ce39107b00a24abf8db87385375ebf3128"
+    },
+    {
+      "path": "assets/source/overhaul-pounce-art-detail-034/Pounce_ArtDetail034.glb",
+      "bytes": 5983484,
+      "sha256": "5295d87f683bcbbc5df6647cca92f12725050cfd8174403787f0e5d760b0b595"
+    }
+  ],
+  "command": [
+    "D:/KittyMechTools/blender-4.5.14-windows-x64/4.5/python/bin/python.exe",
+    "tools/overhaul-moving-recoil-050/prepare-clip.py"
+  ],
+  "scope": "ONE050 strict packaging pass of048raw with explicit source-time-origin contract, no Blenderretry;30s cap; originalfailedraw/editablemaster/034 unchanged. No shipping admission beforeactualPASS."
+}

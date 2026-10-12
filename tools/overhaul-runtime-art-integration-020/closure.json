@@ -1,0 +1,22 @@
+{
+  "closedUTC": "2026-10-10T19:46:54.966534+00:00",
+  "jobs": 0,
+  "compile": "PASS15.766s",
+  "build": "PASS16.187s",
+  "capture": "FIRSTFAIL49.109s; upright stride not reached, legitimate native powerfixture restrictions, navigation/weapon yaw mismatch in observation helper",
+  "frozenBuild": "build-027",
+  "receiptSHA256": "a3a26e7e83351390e9a37dcd8ba5bc76eb621c9df566d1e9a294ca851e363159",
+  "server": {
+    "url": "http://localhost:8800",
+    "session": 66741,
+    "idle": true
+  },
+  "critic": "docs/overhaul/critic/runtime-art-integration-020-result-review.md",
+  "criticSHA256": "05ab0f54851cec95ff667d219bd3996ffcb67a80abbe537ded647b9879af01e3",
+  "accepted": "Optional partial delivered presentation/pin state+damage/quadtravel/movingRup",
+  "denied": "Full action sequence, finished gait/art/physical pin/Gate1/native profile",
+  "allInputCaptureRowsVerified": 34,
+  "samePacketRerun": false,
+  "successor024": "Separate frozen observation with numeric navigation yaw correction, source/build unchanged; unrun gatepending",
+  "source18Mounted": false
+}

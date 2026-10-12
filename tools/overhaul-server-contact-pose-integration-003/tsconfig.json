@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "../../src/game/entities/felinePoseOwner*003.ts",
+    "../../src/game/entities/felinePoseOwner*003.tsx",
+    "../../src/game/entities/Actors.tsx",
+    "../../src/game/snapshotAdmission.ts",
+    "../../shared/felineNativePose*003.ts",
+    "../../shared/simulation.ts",
+    "../../src/debug/diagnostics.ts"
+  ]
+}

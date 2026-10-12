@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "scope": "EXACT228_FAILED_ACTUAL_SUMMARY_LATER_RETIREMENT_AND_BOUNDARY_NO_WAIVER",
+  "files": [
+    {
+      "path": "tools/overhaul-native-observer-229/actual-summary.json",
+      "bytes": 217362,
+      "sha256": "c874f402eda66031b58d80a937c7733b8878752b8c640d21293331d2ec03b6b7"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/close229.py",
+      "bytes": 3186,
+      "sha256": "ad0cb8e7124e54e2d12ad62cb482f41ada1dae7471b2b92471ee103538aa968d"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/final-native-closure.json",
+      "bytes": 6365,
+      "sha256": "20ab80f10c42859db1df4e410237941ff84a00cb43ca5c0b0943b30508a68092"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/preserve088.py",
+      "bytes": 2287,
+      "sha256": "eda52056aec3b2536c3e1f9f043cd807e8c91c29a36e232d7c24c2bc7346e3b5"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/readiness-boundary.json",
+      "bytes": 3154,
+      "sha256": "c260998724da0bb3e1172b050c7a8b1c26a90149dc69859e4a3ee0473e721a52"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/readiness-boundary229.mjs",
+      "bytes": 1558,
+      "sha256": "4f0936f6ab8194ed5c1d1ec5f3dd746435d5781e5ad79c13143916f44a6ee504"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/summarize229.py",
+      "bytes": 2124,
+      "sha256": "bc63c5379b01e9cf89a6eed114b1ae7b8ebe8ef3c3c09208b6b9cfbf42232d70"
+    },
+    {
+      "path": "tools/overhaul-native-observer-229/update-pointer231.py",
+      "bytes": 3678,
+      "sha256": "1ea48a84628f0755740bbb8d45adf20cf88f9530b75dc48c78a870e8599c11d8"
+    }
+  ]
+}

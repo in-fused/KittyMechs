@@ -1,0 +1,22 @@
+{
+  "status": "AUDIT_AND_NAMESPACE_ONLY",
+  "original002AuthorSHA": "7d1b42454645c6de926f3b07005d2e6e74442cfb3f05f6816510f314f0e4a01e",
+  "geometryFunctionRecords": [
+    {
+      "path": "assets/source/overhaul-feline-distal-author-002/author.py",
+      "recipeFunctionsNormalizedSHA256": "23e965fb8b5b5511bc86fc988ff74a90c23e4539d08485aee38c8fbc07557fde"
+    },
+    {
+      "path": "assets/source/overhaul-feline-distal-author-003/author.py",
+      "recipeFunctionsNormalizedSHA256": "23e965fb8b5b5511bc86fc988ff74a90c23e4539d08485aee38c8fbc07557fde"
+    }
+  ],
+  "identicalOwnerSHA": "115c9c7dd608736bb53e89171947077f73005be57c33e8df4b0205f6267d6af2",
+  "allowedChanges": [
+    "namespace/outputnames",
+    "record actual local carved patch closed triangle indices",
+    "map audit indices to actual final body vertices",
+    "changed skin provenance pair audit and bidirectional containment"
+  ],
+  "geometryOrTimingChange": false
+}

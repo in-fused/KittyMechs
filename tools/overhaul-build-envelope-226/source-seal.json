@@ -1,0 +1,46 @@
+{
+  "writer": "CLOSED",
+  "scope": "ONE_PRIVATE_BUILD_NO_GAMEPLAY_APPROVAL",
+  "files": [
+    {
+      "path": "tools/overhaul-build-envelope-226/close226.py",
+      "bytes": 2014,
+      "sha256": "cf760a4511f793d7400ddc1a365d7f875efee1a6e4cb92a1a8d2373374d1a58f"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/HANDOFF.md",
+      "bytes": 1679,
+      "sha256": "a41323a16f8900e7d76500d11cc71dbb7849a9c25c617b0c204fc59decf35acd"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/prepare226.py",
+      "bytes": 4971,
+      "sha256": "355760f799160fed613e8198dd6f36590c5924d4c4498ad21920758aadbb3b48"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/preserve087.py",
+      "bytes": 2507,
+      "sha256": "f6efbc0155ca63927c9594bed279f427010e42a600b42776736df72a85152c3f"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/protected-inputs.json",
+      "bytes": 199853,
+      "sha256": "9a76a367f367d41aaa5ef9b6f43876b1f99179d90d5de29a683814f2728d0b3a"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/run-build226.py",
+      "bytes": 7601,
+      "sha256": "524de29049391cadd132807efe3e9598555e7848ea30fd3a26b653fa69dbc9b4"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/run-loader223-preimage.py",
+      "bytes": 6831,
+      "sha256": "bc58a2feb920d56b3f43a68a2b004e16bc1e6528c4c62003ab08338e44fa7cbf"
+    },
+    {
+      "path": "tools/overhaul-build-envelope-226/update-pointer226.py",
+      "bytes": 3027,
+      "sha256": "0bd57427a3d6899e42b8adf4512d17c791995ce13c41e44af0b3ca2d6c77be15"
+    }
+  ]
+}
