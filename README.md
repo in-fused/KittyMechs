@@ -1,5 +1,7 @@
 # KittyMech Web
 
+> **Archived October 12, 2026.** See [restoration instructions](ARCHIVE-RESTORE.md) and the [complete project/build downloads](https://github.com/in-fused/KittyMechs/releases/tag/local-archive-2026-10-12). The original local installation is being retired. Historical local paths and temporary server links below are retained as documentation, not a promise of a running service.
+
 A browser-native, playable KittyMech rebuild. Pilot an articulated feline mech, fight sentinels, restore the relays and extract with your squad. No Unreal installation, cooked package or runtime is required.
 
 ## Play
